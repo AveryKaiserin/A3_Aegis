@@ -1,0 +1,84 @@
+#define VEST_HOLDER(a,b) \
+	class Vest_##a##: Vest_Base_F \
+	{ \
+		scope = public; \
+		scopeCurator = public; \
+		displayName = ##b##; \
+		author = $STR_A3_A_AveryTheKitty; \
+		editorCategory = EdCat_Equipment; \
+		editorSubcategory = EdSubcat_Vests; \
+		vehicleClass = ItemsVests; \
+		class TransportItems \
+		{ \
+			item_xx(##a##,1); \
+		}; \
+	};
+
+class CfgVehicles
+{
+	// Arma 3
+	class Vest_Base_F;
+	class Vest_V_TacVestIR_blk: Vest_Base_F
+	{
+		scope = protected;
+		scopeCurator = private;
+	};
+	VEST_HOLDER(V_HarnessOSpec_brn,$STR_A3_V_HarnessOSpec_brn0)
+	VEST_HOLDER(V_HarnessOSpec_gry,$STR_A3_V_HarnessOSpec_gry0)
+	// Arma 3 Enoch
+	class Vest_V_SmershVest_01_F: Vest_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_F0;
+	};
+	class Vest_V_SmershVest_01_radio_F: Vest_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_F0;
+	};
+	// Arma 3 Aegis
+	VEST_HOLDER(V_Rangemaster_belt_khk,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_khk0)
+	VEST_HOLDER(V_Rangemaster_belt_cbr,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_cbr0)
+	VEST_HOLDER(V_Rangemaster_belt_blk,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_blk0)
+	VEST_HOLDER(V_Rangemaster_belt_oli,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_oli0)
+	VEST_HOLDER(V_PlateCarrier1_cbr,$STR_A3_V_PlateCarrier1_cbr0)
+	VEST_HOLDER(V_PlateCarrier2_cbr,$STR_A3_V_PlateCarrier2_cbr0)
+	VEST_HOLDER(V_PlateCarrier1_mtp,$STR_A3_A_CfgWeapons_V_PlateCarrier1_mtp0)
+	VEST_HOLDER(V_PlateCarrier2_mtp,$STR_A3_A_CfgWeapons_V_PlateCarrier2_mtp0)
+	VEST_HOLDER(V_PlateCarrier1_khk,$STR_A3_A_CfgWeapons_V_PlateCarrier1_khk0)
+	VEST_HOLDER(V_PlateCarrier2_khk,$STR_A3_A_CfgWeapons_V_PlateCarrier2_khk0)
+	VEST_HOLDER(V_PlateCarrier1_oli,$STR_A3_A_CfgWeapons_V_PlateCarrier1_oli0)
+	VEST_HOLDER(V_PlateCarrier2_oli,$STR_A3_A_CfgWeapons_V_PlateCarrier2_oli0)
+	VEST_HOLDER(V_PlateCarrierGL_cbr,$STR_A3_V_PlateCarrierGL_cbr0)
+	VEST_HOLDER(V_PlateCarrierSpec_cbr,$STR_A3_V_PlateCarrierSpec_cbr0)
+	VEST_HOLDER(V_ChestrigF_khk,$STR_A3_V_ChestrigB_khk0)
+	VEST_HOLDER(V_ChestrigF_rgr,$STR_A3_V_ChestrigB_rgr0)
+	VEST_HOLDER(V_ChestrigF_blk,$STR_A3_V_ChestrigB_blk0)
+	VEST_HOLDER(V_ChestrigF_oli,$STR_A3_A_CfgWeapons_V_ChestrigF_oli0)
+	VEST_HOLDER(V_TacVest_gry,$STR_A3_A_CfgWeapons_V_TacVest_gry0)
+	VEST_HOLDER(V_HarnessO_blk,$STR_A3_A_CfgWeapons_V_HarnessO_blk0)
+	VEST_HOLDER(V_HarnessOGL_blk,$STR_A3_A_CfgWeapons_V_HarnessOGL_blk0)
+	VEST_HOLDER(V_HarnessO_khk,$STR_A3_A_CfgWeapons_V_HarnessO_khk0)
+	VEST_HOLDER(V_HarnessOGL_khk,$STR_A3_A_CfgWeapons_V_HarnessOGL_khk0)
+	VEST_HOLDER(V_HarnessOSpec_blk,$STR_A3_A_CfgWeapons_V_HarnessOSpec_blk0)
+	VEST_HOLDER(V_HarnessOSpec_khk,$STR_A3_A_CfgWeapons_V_HarnessOSpec_khk0)
+	VEST_HOLDER(V_PlateCarrierIA1_oli,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_oli0)
+	VEST_HOLDER(V_PlateCarrierIA1_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_khk0)
+	VEST_HOLDER(V_PlateCarrierIA2_oli,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_oli0)
+	VEST_HOLDER(V_PlateCarrierIA2_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_khk0)
+	VEST_HOLDER(V_PlateCarrierIAGL_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_khk0)
+	VEST_HOLDER(V_HarnessOSpec_ghex_F,$STR_A3_A_CfgWeapons_V_HarnessOSpec_ghex_F0)
+	VEST_HOLDER(V_BandollierB_tna_F,$STR_A3_A_CfgWeapons_V_BandollierB_tna_F0)
+	VEST_HOLDER(V_Chestrig_ghex_F,$STR_A3_A_CfgWeapons_V_Chestrig_ghex_F0)
+	VEST_HOLDER(V_ChestrigF_ghex_F,$STR_A3_A_CfgWeapons_V_ChestrigF_ghex_F0)
+	VEST_HOLDER(V_PlateCarrierL_CTRG_grn_F,$STR_A3_A_CfgWeapons_V_PlateCarrierL_CTRG_grn_F0)
+	VEST_HOLDER(V_PlateCarrierH_CTRG_grn_F,$STR_A3_A_CfgWeapons_V_PlateCarrierH_CTRG_grn_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_Black_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Black_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_light_Black_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Black_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_heavy_Black_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Black_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_Coyote_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Coyote_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_light_Coyote_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Coyote_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_heavy_Coyote_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Coyote_F0)
+	VEST_HOLDER(V_SmershVest_01_khaki_F,"Kipchak Vest (Khaki)")
+	VEST_HOLDER(V_SmershVest_01_radio_khaki_F,"Kipchak Vest (Khaki, Tactical Radio)")
+	VEST_HOLDER(V_BandollierB_taiga,$STR_A3_A_CfgWeapons_V_BandollierB_taiga0)
+	VEST_HOLDER(V_RebreatherRU,$STR_A3_A_CfgWeapons_V_RebreatherRU0)
+};

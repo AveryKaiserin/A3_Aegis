@@ -1,0 +1,31 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+#include "cfgFaces.hpp"
+#include "cfgIdentities.hpp"
+class UniformSlotInfo;
+class CfgVehicles
+{
+	class SoldierWB;
+	class SoldierEB;
+	class SoldierGB;
+	#include "cfgBlufor.hpp"
+	#include "cfgCivil.hpp"
+	#include "cfgIndep.hpp"
+	#include "cfgGuerrilla.hpp"
+	#include "cfgOpfor.hpp"
+	#include "cfgSyndikat.hpp"
+	#include "cfgBlufor_Exp.hpp"
+	#include "cfgOpfor_Exp.hpp"
+	#include "cfgCTRG.hpp"
+	#include "cfgViper.hpp"
+	#include "cfgGendarmerie.hpp"
+	#include "cfgOpfor_Tacops.hpp"
+	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgSpetsnaz.hpp"
+	#include "cfgEAF.hpp"
+	#include "cfgLooters.hpp"
+	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgOpfor_Aegis.hpp"
+	#include "cfgIon.hpp"
+};
+#include "cfgGroups.hpp"
