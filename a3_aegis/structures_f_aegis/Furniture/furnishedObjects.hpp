@@ -16,6 +16,7 @@ class Land_Metal_wooden_rack_furnished_v1_F: Land_Metal_wooden_rack_F
 	displayName = "Metal-Wooden Rack (Tools)";
 	model = "\A3_Aegis\Structures_F_Aegis\Furniture\Metal_wooden_rack_furnished_v1_F.p3d";
 };
+/*
 class Land_Metal_wooden_rack_furnished_v2_F: Land_Metal_wooden_rack_F
 {
 	author = $STR_A3_A_Outcast;
@@ -34,3 +35,4 @@ class Land_Metal_wooden_rack_furnished_v2_F: Land_Metal_wooden_rack_F
 	displayName = "Metal-Wooden Rack (Not Tools)";
 	model = "\A3_Aegis\Structures_F_Aegis\Furniture\Metal_wooden_rack_furnished_v2_F.p3d";
 };
+*/
