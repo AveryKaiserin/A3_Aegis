@@ -1,8 +1,0 @@
-scale down to 0.945 use stock as ref point (for blender model)
-
-model SV0 LOD
-do UI pictures
-do library texts
-maybe another camo variant?
-
-MG36 variant?

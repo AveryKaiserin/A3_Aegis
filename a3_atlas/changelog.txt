@@ -1,3 +1,0 @@
-Fixed: Incorrect reload sound for the G36K GL's UGL
-Fixed: Visual glitches on the L85A3 GL's GL Holo
-Fixed: Missing command bar icons for the G36K GL

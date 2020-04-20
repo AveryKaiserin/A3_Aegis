@@ -1,8 +1,0 @@
-localize all the things
-
-add textures for guerrilla zamak
-add textures for 4-6 insurgent offroad
-
-add sks
-
-finish working on zamak AA
