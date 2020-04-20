@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3Police">
+	<Package name="Language_Police">
+		<Container name="Characters_F">
+			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_F0">
+				<Original>Police Officer (SMG)</Original>
+				<Chinese>警察（SMG）</Chinese>
+				<French>Policier (SMG)</French>
+				<Spanish>Policía (subfusil)</Spanish>
+				<Italian>Poliziotto (mitra)</Italian>
+				<Polish>Policjant (SMG)</Polish>
+				<Italian>Полицейский (ПП)</Russian>
+				<German>Polizist (MP)</German>
+				<Czech>Policista (samopal)</Czech>
+				<English>Police Officer (SMG)</English>
+				<Portuguese>Policial (submetralhadora)</Portuguese>
+				<Korean>경찰관(SMG)</Korean>
+				<Chinesesimp>警察（冲锋枪）</Chinesesimp>
+				<Japanese>警官（SMG）</Japanese>
+				<Turkish>Polis (SMG)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_Rifle_F0">
+				<Original>Police Officer (Rifle)</Original>
+				<Chinese>警察（步槍）</Chinese>
+				<French>Policier (fusil)</French>
+				<Spanish>Policía (fusil)</Spanish>
+				<Italian>Poliziotto (fucile)</Italian>
+				<Polish>Policjant (karabin)</Polish>
+				<Italian>Полицейский (винтовка)</Russian>
+				<German>Polizist (Gewehr)</German>
+				<Czech>Policista (puška)</Czech>
+				<English>Police Officer (Rifle)</English>
+				<Portuguese>Policial (fuzil)</Portuguese>
+				<Korean>경찰관(소총)</Korean>
+				<Chinesesimp>警察（步枪）</Chinesesimp>
+				<Japanese>警官（ライフ）</Japanese>
+				<Turkish>Polis (Tüfek)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_SG_F0">
+				<Original>Police Officer (Shotgun)</Original>
+				<Chinese>警察（獵槍）</Chinese>
+				<French>Policier (fusil de chasse)</French>
+				<Spanish>Policía (escopeta)</Spanish>
+				<Italian>Poliziotto (fucile da caccia)</Italian>
+				<Polish>Policjant (strzelba)</Polish>
+				<Italian>Полицейский (дробовик)</Russian>
+				<German>Polizist (Schrotflinte)</German>
+				<Czech>Policista (brokovnice)</Czech>
+				<English>Police Officer (Shotgun)</English>
+				<Portuguese>Policial (espingarda)</Portuguese>
+				<Korean>경찰관(산탄총)</Korean>
+				<Chinesesimp>警察（霰弹枪）</Chinesesimp>
+				<Japanese>警官（ショットガン）</Japanese>
+				<Turkish>Polis (Av Tüfeği)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0">
+				<Original>Tactical Police Officer</Original>
+				<Chinese>戰術警察</Chinese>
+				<French>Policier tactique</French>
+				<Spanish>Policía táctico</Spanish>
+				<Italian>Poliziotto tattico</Italian>
+				<Polish>Takt. policjant</Polish>
+				<Italian>Тактический полицейский</Russian>
+				<German>Taktischer Polizist</German>
+				<Czech>Taktický policista</Czech>
+				<English>Tactical Police Officer</English>
+				<Portuguese>Policial tático</Portuguese>
+				<Korean>전략 경찰관</Korean>
+				<Chinesesimp>战术警察</Chinesesimp>
+				<Japanese>タクティカル警官</Japanese>
+				<Turkish>Taktiksel Polis</Turkish>
+			</Key>
+			<Container name="Uniforms">
+				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_F0">
+					<Original>Police Uniform</Original>
+					<Chinese>警察服</Chinese>
+					<French>Uniforme de police</French>
+					<Spanish>Uniforme de policía</Spanish>
+					<Italian>Uniforme Polizia</Italian>
+					<Polish>Mundur policja</Polish>
+					<Russian>Форма полиция</Russian>
+					<German>Polizei-Uniform</German>
+					<Czech>Uniforma policejní</Czech>
+					<English>Police Uniform</English>
+					<Portuguese>Uniforme da Polícia</Portuguese>
+					<Korean>경찰 유니폼</Korean>
+					<Chinesesimp>警察服</Chinesesimp>
+					<Japanese>警察の制服</Japanese>
+					<Turkish>Polis Üniforması</Turkish>
+				</Key>
+				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_gloves_F0">
+					<Original>Police Uniform (Tactical Gloves)</Original>
+					<Chinese>警察服（战术手套）</Chinese>
+					<French>Uniforme de police (gants tactiques)</French>
+					<Spanish>Uniforme de policía (guantes tácticos)</Spanish>
+					<Italian>Uniforme Polizia (guanti tattici)</Italian>
+					<Polish>Mundur policja (rękawice taktyczne)</Polish>
+					<Russian>Форма полиция (тактические перчатки)</Russian>
+					<German>Polizei-Uniform (Taktische Handschuhe)</German>
+					<Czech>Uniforma policejní (taktické rukavice)</Czech>
+					<English>Police Uniform (Tactical Gloves)</English>
+					<Portuguese>Uniforme da Polícia (luvas táticas)</Portuguese>
+					<Korean>경찰 유니폼(전술 장갑)</Korean>
+					<Chinesesimp>警察服（戰術手套）</Chinesesimp>
+					<Japanese>警察の制服（タクティカルグローブ）</Japanese>
+					<Turkish>Polis Üniforması (Taktik Eldivenler)</Turkish>
+				</Key>
+			</Container>
+			<Container name="Vests">
+				<Key ID="STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0">
+					<Original>Police Carrier Vest</Original>
+					<Chinese>警察背心</Chinese>
+					<French>Gilet de police</French>
+					<Spanish>Chaleco de policía</Spanish>
+					<Italian>Gilet Polizia</Italian>
+					<Polish>Kamizelka policja</Polish>
+					<Russian>Жилет полиция</Russian>
+					<German>Polizei-Weste</German>
+					<Czech>Vesta policejní</Czech>
+					<English>Police Carrier Vest</English>
+					<Portuguese>Traje da Polícia</Portuguese>
+					<Korean>경찰 조끼</Korean>
+					<Chinesesimp>警察背心</Chinesesimp>
+					<Japanese>警察ベスト</Japanese>
+					<Turkish>Polis Yeleği</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="Data_F">
+			<Container name="Faction_Classes">
+				<Key ID="STR_A3_P_CfgFactionClasses_IND_P_F0">
+					<Original>Police</Original>
+					<Chinese>警察</Chinese>
+					<French>Police</French>
+					<Spanish>Policía</Spanish>
+					<Italian>Polizia</Italian>
+					<Polish>Policja</Polish>
+					<Russian>Полиция</Russian>
+					<German>Polizei</German>
+					<Czech>Policejní</Czech>
+					<English>Police</English>
+					<Portuguese>Polícia</Portuguese>
+					<Korean>경찰</Korean>
+					<Chinesesimp>警察</Chinesesimp>
+					<Japanese>警察</Japanese>
+					<Turkish>Polis</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="ContentLicensing">
+			<Key ID="STR_A3_P_CfgMods_Police_overview">
+				<Original>**TO TRANSLATE**</Original>
+				<Chinese>**TO TRANSLATE**</Chinese>
+				<French>**TO TRANSLATE**</French>
+				<Spanish>**TO TRANSLATE**</Spanish>
+				<Italian>**TO TRANSLATE**</Italian>
+				<Polish>**TO TRANSLATE**</Polish>
+				<Russian>**TO TRANSLATE**</Russian>
+				<German>**TO TRANSLATE**</German>
+				<Czech>**TO TRANSLATE**</Czech>
+				<English>**TO TRANSLATE**</English>
+				<Portuguese>**TO TRANSLATE**</Portuguese>
+				<Korean>**TO TRANSLATE**</Korean>
+				<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+				<Japanese>**TO TRANSLATE**</Japanese>
+				<Turkish>**TO TRANSLATE**</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgMods_Police_name">
+				<Original>Arma 3 Police</Original>
+				<Chinese>Arma 3 Police</Chinese>
+				<French>Arma 3 Police</French>
+				<Spanish>Arma 3 Police</Spanish>
+				<Italian>Arma 3 Police</Italian>
+				<Polish>Arma 3 Police</Polish>
+				<Russian>Arma 3 Police</Russian>
+				<German>Arma 3 Police</German>
+				<Czech>Arma 3 Police</Czech>
+				<English>Arma 3 Police</English>
+				<Portuguese>Arma 3 Police</Portuguese>
+				<Korean>Arma 3 Police</Korean>
+				<Chinesesimp>Arma 3 Police</Chinesesimp>
+				<Japanese>Arma 3 Police</Japanese>
+				<Turkish>Arma 3 Police</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgMods_Police_nameShort">
+				<Original>Police</Original>
+				<Chinese>Police</Chinese>
+				<French>Police</French>
+				<Spanish>Police</Spanish>
+				<Italian>Police</Italian>
+				<Polish>Police</Polish>
+				<Russian>Police</Russian>
+				<German>Police</German>
+				<Czech>Police</Czech>
+				<English>Police</English>
+				<Portuguese>Police</Portuguese>
+				<Korean>Police</Korean>
+				<Chinesesimp>Police</Chinesesimp>
+				<Japanese>Police</Japanese>
+				<Turkish>Police</Turkish>
+			</Key>
+		</Container>
+		<Container name="Supplies_F">
+			<Container name="Ammoboxes">
+				<Key ID="STR_A3_P_CfgVehicles_Box_POLICE_Equip_F0">
+					<Original>Supply Box [Police]</Original>
+					<Chinese>補給盒（警察）</Chinese>
+					<French>Caisse de ravitaillements [police]</French>
+					<Spanish>Caja de suministros [Policía]</Spanish>
+					<Italian>Scatola di rifornimenti [Polizia]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [policja]</Polish>
+					<Russian>Ящик с припасами [Полиция]</Russian>
+					<German>Nachschubkiste [Polizei]</German>
+					<Czech>Bedna se zásobami [Policejní]</Czech>
+					<English>Supply Box [Police]</English>
+					<Portuguese>Caixa de suprimentos [Polícia]</Portuguese>
+					<Korean>보급상자[경찰]</Korean>
+					<Chinesesimp>电源箱 [警察]</Chinesesimp>
+					<Japanese>物資箱 [警察]</Japanese>
+					<Turkish>İkmal Kutusu [Polis]</Turkish>
+				</Key>
+			</Container>
+		</Container>
+	</Package>
+</Project>
