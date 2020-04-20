@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3Atlas">
+	<Package name="Language_Atlas">
+		<Container name="Characters_F">
+			<Container name="Headgear">
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0">
+					<Original>Raven Helmet (Black)</Original>
+					<Chinese>Raven 頭盔（黑）</Chinese>
+					<French>Casque Raven (noir)</French>
+					<Spanish>Casco de Raven (negra)</Spanish>
+					<Italian>Elmetto Raven (nero)</Italian>
+					<Polish>Hełm Raven (czarna)</Polish>
+					<Russian>Шлем Raven (оливковый)</Russian>
+					<German>Raven Helm (schwarz)</German>
+					<Czech>Přilba Raven (černý)</Czech>
+					<English>Raven Helmet (Black)</English>
+					<Portuguese>Capacete Raven (preto)</Portuguese>
+					<Korean>레이븐 헬멧(흑색)</Korean>
+					<Chinesesimp>Raven 头盔（黑色）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（黒）</Japanese>
+					<Turkish>Avcı Miğfer (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_F0">
+					<Original>Raven Helmet (Brown)</Original>
+					<Chinese>Raven 頭盔（棕色）</Chinese>
+					<French>Casque Raven (marron)</French>
+					<Spanish>Casco de Raven (marrón)</Spanish>
+					<Italian>Elmetto Raven (marrone)</Italian>
+					<Polish>Hełm Raven (brązowy)</Polish>
+					<Russian>Шлем Raven (коричневая)</Russian>
+					<German>Raven Helm (braun)</German>
+					<Czech>Přilba Raven (hnědý)</Czech>
+					<English>Raven Helmet (Brown)</English>
+					<Portuguese>Capacete Raven (marrom)</Portuguese>
+					<Korean>레이븐 헬멧(갈색)</Korean>
+					<Chinesesimp>Raven 头盔（棕色）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（茶）</Japanese>
+					<Turkish>Avcı Miğfer (Kahverengi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_headset_F0">
+					<Original>Raven Helmet (Black, Headset)</Original>
+					<Chinese>Raven 頭盔（黑，耳機）</Chinese>
+					<French>Casque Raven (noir, micro-casque)</French>
+					<Spanish>Casco de Raven (negra, auricular)</Spanish>
+					<Italian>Elmetto Raven (nero, cuffia)</Italian>
+					<Polish>Hełm Raven (czarna, głowa)</Polish>
+					<Russian>Шлем Raven (оливковый, гарнитура)</Russian>
+					<German>Raven Helm (schwarz, Headset)</German>
+					<Czech>Přilba Raven (černý, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Black, Headset)</English>
+					<Portuguese>Capacete Raven (preto, headset)</Portuguese>
+					<Korean>레이븐 헬멧(흑색, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（黑色，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（黒、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Siyah, Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_headset_F0">
+					<Original>Raven Helmet (Brown, Headset)</Original>
+					<Chinese>Raven 頭盔（棕色，耳機）</Chinese>
+					<French>Casque Raven (marron, micro-casque)</French>
+					<Spanish>Casco de Raven (marrón, auricular)</Spanish>
+					<Italian>Elmetto Raven (marrone, cuffia)</Italian>
+					<Polish>Hełm Raven (brązowy, głowa)</Polish>
+					<Russian>Шлем Raven (коричневая, гарнитура)</Russian>
+					<German>Raven Helm (braun, Headset)</German>
+					<Czech>Přilba Raven (hnědý, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Brown, Headset)</English>
+					<Portuguese>Capacete Raven (marrom, headset)</Portuguese>
+					<Korean>레이븐 헬멧(갈색, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（棕色，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（茶、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Kahverengi, Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_HIDF0">
+					<Original>Crew Helmet [HIDF]</Original>
+					<Chinese>隊員頭盔（HIDF）</Chinese>
+					<French>Casque d'équipage [HIDF]</French>
+					<Spanish>Casco de tripulación [HIDF]</Spanish>
+					<Italian>Casco equipaggio [HIDF]</Italian>
+					<Polish>Hełm załogi [HIDF]</Polish>
+					<Russian>Танковый шлем [HIDF]</Russian>
+					<German>Crew-Helm [HIDF]</German>
+					<Czech>Přilba posádky [HIDF]</Czech>
+					<English>Crew Helmet [HIDF]</English>
+					<Portuguese>Capacete de tripulação [HIDF]</Portuguese>
+					<Korean>승무원 헬멧[HIDF]</Korean>
+					<Chinesesimp>机组人员头盔 [HIDF]</Chinesesimp>
+					<Japanese>乗員ヘルメット[HIDF]</Japanese>
+					<Turkish>Mürettebat Kaskı [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_HIDF0">
+					<Original>Heli Pilot Helmet [HIDF]</Original>
+					<Chinese>直升機飛行員頭盔（HIDF）</Chinese>
+					<French>Casque de pilote d'hélico [HIDF]</French>
+					<Spanish>Casco de piloto de helicóptero [HIDF]</Spanish>
+					<Italian>Casco da elicotterista [HIDF]</Italian>
+					<Polish>Hełm pilota śmigłowca [HIDF]</Polish>
+					<Russian>Шлем пилота вертолёта [HIDF]</Russian>
+					<German>Helipilotenhelm [HIDF]</German>
+					<Czech>Přilba pilota helikoptéry [HIDF]</Czech>
+					<English>Heli Pilot Helmet [HIDF]</English>
+					<Portuguese>Capacete de piloto de helicóptero [HIDF]</Portuguese>
+					<Korean>헬기 조종사 헬멧[HIDF]</Korean>
+					<Chinesesimp>直升机飞行员头盔 [HIDF]</Chinesesimp>
+					<Japanese>ヘリパイロットヘルメット[HIDF]</Japanese>
+					<Turkish>Helikopter Pilotu Kaskı [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_HIDF0">
+					<Original>Heli Crew Helmet [HIDF]</Original>
+					<Chinese>直升機隊員頭盔（HIDF）</Chinese>
+					<French>Casque d'équipage d'hélico [HIDF]</French>
+					<Spanish>Casco de tripulación de helicóptero [HIDF]</Spanish>
+					<Italian>Casco equipaggio elicottero [HIDF]</Italian>
+					<Polish>Hełm załogi śmigłowca [HIDF]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [HIDF]</Russian>
+					<German>Helicrew-Helm [HIDF]</German>
+					<Czech>Přilba posádky helikoptéry [HIDF]</Czech>
+					<English>Heli Crew Helmet [HIDF]</English>
+					<Portuguese>Capacete de tripulação de helicóptero [HIDF]</Portuguese>
+					<Korean>헬기 승무원 헬멧[HIDF]</Korean>
+					<Chinesesimp>直升机机组人员头盔 [HIDF]</Chinesesimp>
+					<Japanese>ヘリ乗員ヘルメット[HIDF]</Japanese>
+					<Turkish>Helikopter Mürettebat Kaskı [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_jungle_F0">
+					<Original>Military Cap [HIDF]</Original>
+					<Chinese>軍用棒球帽（HIDF）</Chinese>
+					<French>Casquette militaire [HIDF]</French>
+					<Spanish>Gorra militar [HIDF]</Spanish>
+					<Italian>Cappellino militare [HIDF]</Italian>
+					<Polish>Czapka wojskowa [HIDF]</Polish>
+					<Russian>Армейская кепка [HIDF]</Russian>
+					<German>Militärmütze [HIDF]</German>
+					<Czech>Vojenská čepice [HIDF]</Czech>
+					<English>Military Cap [HIDF]</English>
+					<Portuguese>Boné militar [HIDF]</Portuguese>
+					<Korean>군용 모자[HIDF]</Korean>
+					<Chinesesimp>军帽 [HIDF]</Chinesesimp>
+					<Japanese>ミリタリーキャップ[HIDF]</Japanese>
+					<Turkish>Askeri Kasket [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_jungle_F0">
+					<Original>Booniehat [HIDF]</Original>
+					<Chinese>登山帽（HIDF）</Chinese>
+					<French>Chapeau de brousse [HIDF]</French>
+					<Spanish>Gorro militar [HIDF]</Spanish>
+					<Italian>Boonie hat [HIDF]</Italian>
+					<Polish>Kapelusz wojskowy [HIDF]</Polish>
+					<Russian>Панама [HIDF]</Russian>
+					<German>Buschhut [HIDF]</German>
+					<Czech>Klobouk [HIDF]</Czech>
+					<English>Booniehat [HIDF]</English>
+					<Portuguese>Chapéu tático [HIDF]</Portuguese>
+					<Korean>부니햇[HIDF]</Korean>
+					<Chinesesimp>奔尼帽 [HIDF]</Chinesesimp>
+					<Japanese>ブーニーハット[HIDF]</Japanese>
+					<Turkish>Boonie Şapka [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_jungle_hs_F0">
+					<Original>Booniehat (Headset) [HIDF]</Original>
+					<Chinese>登山帽（耳機）（HIDF）</Chinese>
+					<French>Chapeau de brousse (micro-casque) [HIDF]</French>
+					<Spanish>Gorro militar (auricular) [HIDF]</Spanish>
+					<Italian>Bonnie hat (cuffia) [HIDF]</Italian>
+					<Polish>Kapelusz wojskowy (głowa) [HIDF]</Polish>
+					<Russian>Панама (гарнитура) [HIDF]</Russian>
+					<German>Buschhut (Headset) [HIDF]</German>
+					<Czech>Klobouk (náhlavní souprava) [HIDF]</Czech>
+					<English>Booniehat (Headset) [HIDF]</English>
+					<Portuguese>Chapéu tático (headset) [HIDF]</Portuguese>
+					<Korean>부니햇(헤드셋) [HIDF]</Korean>
+					<Chinesesimp>奔尼帽（头戴式耳机）[HIDF]</Chinesesimp>
+					<Japanese>ブーニーハット（ヘッドセット）[HIDF]</Japanese>
+					<Turkish>Boonie Şapka (Baş Giysisi) [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_ANZAC0">
+					<Original>Crew Helmet [ADF]</Original>
+					<Chinese>隊員頭盔（ADF）</Chinese>
+					<French>Casque d'équipage [ADF]</French>
+					<Spanish>Casco de tripulación [ADF]</Spanish>
+					<Italian>Casco equipaggio [ADF]</Italian>
+					<Polish>Hełm załogi [ADF]</Polish>
+					<Russian>Танковый шлем [ADF]</Russian>
+					<German>Crew-Helm [ADF]</German>
+					<Czech>Přilba posádky [ADF]</Czech>
+					<English>Crew Helmet [ADF]</English>
+					<Portuguese>Capacete de tripulação [ADF]</Portuguese>
+					<Korean>승무원 헬멧[ADF]</Korean>
+					<Chinesesimp>机组人员头盔 [ADF]</Chinesesimp>
+					<Japanese>乗員ヘルメット[ADF]</Japanese>
+					<Turkish>Mürettebat Kaskı [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_ANZAC0">
+					<Original>Pilot Helmet [ADF]</Original>
+					<Chinese>飛行員頭盔（ADF）</Chinese>
+					<French>Casque de pilote [ADF]</French>
+					<Spanish>Casco de piloto [ADF]</Spanish>
+					<Italian>Casco da pilota [ADF]</Italian>
+					<Polish>Hełm pilota [ADF]</Polish>
+					<Russian>Летный шлем [ADF]</Russian>
+					<German>Pilotenhelm [ADF]</German>
+					<Czech>Přilba pilota [ADF]</Czech>
+					<English>Pilot Helmet [ADF]</English>
+					<Portuguese>Capacete de piloto [ADF]</Portuguese>
+					<Korean>조종사 헬멧[ADF]</Korean>
+					<Chinesesimp>飞行员头盔 [ADF]</Chinesesimp>
+					<Japanese>パイロットヘルメット[ADF]</Japanese>
+					<Turkish>Pilot Kaskı [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_ANZAC0">
+					<Original>Heli Pilot Helmet [ADF]</Original>
+					<Chinese>直升機飛行員頭盔（ADF）</Chinese>
+					<French>Casque de pilote d'hélico [ADF]</French>
+					<Spanish>Casco de piloto de helicóptero [ADF]</Spanish>
+					<Italian>Casco da elicotterista [ADF]</Italian>
+					<Polish>Hełm pilota śmigłowca [ADF]</Polish>
+					<Russian>Шлем пилота вертолёта [ADF]</Russian>
+					<German>Helipilotenhelm [ADF]</German>
+					<Czech>Přilba pilota helikoptéry [ADF]</Czech>
+					<English>Heli Pilot Helmet [ADF]</English>
+					<Portuguese>Capacete de piloto de helicóptero [ADF]</Portuguese>
+					<Korean>헬기 조종사 헬멧[ADF]</Korean>
+					<Chinesesimp>直升机飞行员头盔 [ADF]</Chinesesimp>
+					<Japanese>ヘリパイロットヘルメット[ADF]</Japanese>
+					<Turkish>Helikopter Pilotu Kaskı [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_ANZAC0">
+					<Original>Heli Crew Helmet [ADF]</Original>
+					<Chinese>直升機隊員頭盔（ADF）</Chinese>
+					<French>Casque d'équipage d'hélico [ADF]</French>
+					<Spanish>Casco de tripulación de helicóptero [ADF]</Spanish>
+					<Italian>Casco equipaggio elicottero [ADF]</Italian>
+					<Polish>Hełm załogi śmigłowca [ADF]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [ADF]</Russian>
+					<German>Helicrew-Helm [ADF]</German>
+					<Czech>Přilba posádky helikoptéry [ADF]</Czech>
+					<English>Heli Crew Helmet [ADF]</English>
+					<Portuguese>Capacete de tripulação de helicóptero [ADF]</Portuguese>
+					<Korean>헬기 승무원 헬멧[ADF]</Korean>
+					<Chinesesimp>直升机机组人员头盔 [ADF]</Chinesesimp>
+					<Japanese>ヘリ乗員ヘルメット[ADF]</Japanese>
+					<Turkish>Helikopter Mürettebat Kaskı [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetI_I_01_F0">
+					<Original>Guardian Helmet</Original>
+					<Chinese>監護人頭盔</Chinese>
+					<French>Casque gardien</French>
+					<Spanish>Casco guardián</Spanish>
+					<Italian>Elmetto custode</Italian>
+					<Polish>Hełm opiekun</Polish>
+					<Russian>Шлем блюститель</Russian>
+					<German>Wächter Helm</German>
+					<Czech>Přilba strážce</Czech>
+					<English>Guardian Helmet</English>
+					<Portuguese>Capacete guardião</Portuguese>
+					<Korean>보호자 헬멧</Korean>
+					<Chinesesimp>监护人头盔</Chinesesimp>
+					<Japanese>ガーディアンヘルメット</Japanese>
+					<Turkish>Muhafız Miğfer</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0">
+					<Original>Crew Helmet [IDF]</Original>
+					<Chinese>隊員頭盔（IDF）</Chinese>
+					<French>Casque d'équipage [IDF]</French>
+					<Spanish>Casco de tripulación [IDF]</Spanish>
+					<Italian>Casco equipaggio [IDF]</Italian>
+					<Polish>Hełm załogi [IDF]</Polish>
+					<Russian>Танковый шлем [IDF]</Russian>
+					<German>Crew-Helm [IDF]</German>
+					<Czech>Přilba posádky [IDF]</Czech>
+					<English>Crew Helmet [IDF]</English>
+					<Portuguese>Capacete de tripulação [IDF]</Portuguese>
+					<Korean>승무원 헬멧[IDF]</Korean>
+					<Chinesesimp>机组人员头盔 [IDF]</Chinesesimp>
+					<Japanese>乗員ヘルメット[IDF]</Japanese>
+					<Turkish>Mürettebat Kaskı [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_I_I0">
+					<Original>Heli Pilot Helmet [IDF]</Original>
+					<Chinese>直升機飛行員頭盔（IDF）</Chinese>
+					<French>Casque de pilote d'hélico [IDF]</French>
+					<Spanish>Casco de piloto de helicóptero [IDF]</Spanish>
+					<Italian>Casco da elicotterista [IDF]</Italian>
+					<Polish>Hełm pilota śmigłowca [IDF]</Polish>
+					<Russian>Шлем пилота вертолёта [IDF]</Russian>
+					<German>Helipilotenhelm [IDF]</German>
+					<Czech>Přilba pilota helikoptéry [IDF]</Czech>
+					<English>Heli Pilot Helmet [IDF]</English>
+					<Portuguese>Capacete de piloto de helicóptero [IDF]</Portuguese>
+					<Korean>헬기 조종사 헬멧[IDF]</Korean>
+					<Chinesesimp>直升机飞行员头盔 [IDF]</Chinesesimp>
+					<Japanese>ヘリパイロットヘルメット[IDF]</Japanese>
+					<Turkish>Helikopter Pilotu Kaskı [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0">
+					<Original>Heli Crew Helmet [IDF]</Original>
+					<Chinese>直升機隊員頭盔（IDF）</Chinese>
+					<French>Casque d'équipage d'hélico [IDF]</French>
+					<Spanish>Casco de tripulación de helicóptero [IDF]</Spanish>
+					<Italian>Casco equipaggio elicottero [IDF]</Italian>
+					<Polish>Hełm załogi śmigłowca [IDF]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [IDF]</Russian>
+					<German>Helicrew-Helm [IDF]</German>
+					<Czech>Přilba posádky helikoptéry [IDF]</Czech>
+					<English>Heli Crew Helmet [IDF]</English>
+					<Portuguese>Capacete de tripulação de helicóptero [IDF]</Portuguese>
+					<Korean>헬기 승무원 헬멧[IDF]</Korean>
+					<Chinesesimp>直升机机组人员头盔 [IDF]</Chinesesimp>
+					<Japanese>ヘリ乗員ヘルメット[IDF]</Japanese>
+					<Turkish>Helikopter Mürettebat Kaskı [IDF]</Turkish>
+				</Key>
+			</Container>
+			<Container name="Uniforms">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_F0">
+					<Original>Combat Fatigues [HIDF]</Original>
+					<Chinese>作戰戰鬥服（HIDF）</Chinese>
+					<French>Treillis [HIDF]</French>
+					<Spanish>Traje de combate [HIDF]</Spanish>
+					<Italian>Uniforme da combattimento [HIDF]</Italian>
+					<Polish>Mundur bojowy [HIDF]</Polish>
+					<Russian>Полевая форма [HIDF]</Russian>
+					<German>Kampfanzug [HIDF]</German>
+					<Czech>Bojová uniforma [HIDF]</Czech>
+					<English>Combat Fatigues [HIDF]</English>
+					<Portuguese>Uniforme de combate [HIDF]</Portuguese>
+					<Korean>전투병 전투복[HIDF]</Korean>
+					<Chinesesimp>作战服 [HIDF]</Chinesesimp>
+					<Japanese>戦闘服[HIDF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_2_F0">
+					<Original>Combat Fatigues (Rolled-up) [HIDF]</Original>
+					<Chinese>作戰戰鬥服（捲起）（HIDF）</Chinese>
+					<French>Treillis (manches retroussées) [HIDF]</French>
+					<Spanish>Traje de combate (arremangado) [HIDF]</Spanish>
+					<Italian>Uniforme da combattimento (Maniche arrotolate) [HIDF]</Italian>
+					<Polish>Mundur bojowy (podwinięty) [HIDF]</Polish>
+					<Russian>Полевая форма (закатанными рукавами) [HIDF] </Russian>
+					<German>Kampfanzug (hochgekrempelt) [HIDF]</German>
+					<Czech>Bojová uniforma (vyhrnutá) [HIDF]</Czech>
+					<English>Combat Fatigues (Rolled-up) [HIDF]</English>
+					<Portuguese>Uniforme de combate (Manga dobrada) [HIDF]</Portuguese>
+					<Korean>전투 퍼티그 (롤업) [HIDF]</Korean>
+					<Chinesesimp>作战服（卷起）[HIDF]</Chinesesimp>
+					<Japanese>戦闘服（ロールアップ）[HIDF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_3_F0">
+					<Original>Combat Fatigues (Tank Top) [HIDF]</Original>
+					<Chinese>作戰戰鬥服（上衣背心）（HIDF）</Chinese>
+					<French>Treillis (manches débardeur) [HIDF]</French>
+					<Spanish>Traje de combate (sin mangas) [HIDF]</Spanish>
+					<Italian>Uniforme da combattimento (canotta) [HIDF]</Italian>
+					<Polish>Mundur bojowy (bezrękawnik) [HIDF]</Polish>
+					<Russian>Полевая форма (безрукавка) [HIDF] </Russian>
+					<German>Kampfanzug (Muskelshirt) [HIDF]</German>
+					<Czech>Bojová uniforma (tílko) [HIDF]</Czech>
+					<English>Combat Fatigues (Tank Top) [HIDF]</English>
+					<Portuguese>Uniforme de combate (regata) [HIDF]</Portuguese>
+					<Korean>전투 퍼티그 (탱크톱) [HIDF]</Korean>
+					<Chinesesimp>作战服（背心装）[HIDF]</Chinesesimp>
+					<Japanese>戦闘服（タンクトップ）[HIDF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Atlet) [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Officer_F0">
+					<Original>Officer Fatigues [HIDF]</Original>
+					<Chinese>軍官戰鬥服（HIDF）</Chinese>
+					<French>Treillis d'officier [HIDF]</French>
+					<Spanish>Traje de oficial [HIDF]</Spanish>
+					<Italian>Uniforme da ufficiale [HIDF]</Italian>
+					<Polish>Mundur oficerski [HIDF]</Polish>
+					<Russian>Офицерская форма [HIDF]</Russian>
+					<German>Offizier-Militäranzug [HIDF]</German>
+					<Czech>Důstojnická uniforma [HIDF]</Czech>
+					<English>Officer Fatigues [HIDF]</English>
+					<Portuguese>Uniforme de oficial [HIDF]</Portuguese>
+					<Korean>장교 전투복[HIDF]</Korean>
+					<Chinesesimp>军官服 [HIDF]</Chinesesimp>
+					<Japanese>士官服[HIDF]</Japanese>
+					<Turkish>Subay Kıyafeti [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Helipilot_F0">
+					<Original>Heli Pilot Coveralls [HIDF]</Original>
+					<Chinese>直升機飛行員連身服（HIDF）</Chinese>
+					<French>Combinaisons Pilote Hélicoptère [HIDF]</French>
+					<Spanish>Mono de piloto de helicóptero [HIDF]</Spanish>
+					<Italian>Tuta da elicotterista [HIDF]</Italian>
+					<Polish>Kombinezon pilota śmigłowca [HIDF]</Polish>
+					<Russian>Комбинезон вертолетчика [HIDF]</Russian>
+					<German>Heli-Pilot-Overall [HIDF]</German>
+					<Czech>Kombinéza pilota vrtulníku [HIDF]</Czech>
+					<English>Heli Pilot Coveralls [HIDF]</English>
+					<Portuguese>Macacão de piloto de helicóptero [HIDF]</Portuguese>
+					<Korean>헬기 조종사 비행복 [HIDF]</Korean>
+					<Chinesesimp>直升机飞行员服 [HIDF]</Chinesesimp>
+					<Japanese>ヘリパイロットカバーオール [HIDF]</Japanese>
+					<Turkish>Helikopter Pilotu Tulumu [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_F0">
+					<Original>GE Combat Uniform (Woodland)</Original>
+					<Chinese>GE 作戰服（森林）</Chinese>
+					<French>Uniforme de combat GE (forêt)</French>
+					<Spanish>Uniforme de combate del GE (bosque)</Spanish>
+					<Italian>Uniforme da combattimento GE (boschi)</Italian>
+					<Polish>Mundur bojowy GE (las)</Polish>
+					<Russian>Боевая форма GE (лес)</Russian>
+					<German>GE-Kampfuniform (Waldland)</German>
+					<Czech>Bojová uniforma GE (woodland)</Czech>
+					<English>GE Combat Uniform (Woodland)</English>
+					<Portuguese>Uniforme de combate GE (floresta)</Portuguese>
+					<Korean>GE 군복(산악)</Korean>
+					<Chinesesimp>GE 作战服（林地）</Chinesesimp>
+					<Japanese>GE戦闘服（森林）</Japanese>
+					<Turkish>GE Savaş Üniforması (Ağaçlık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_shortsleeve_F0">
+					<Original>GE Combat Uniform (Woodland, Rolled-up)</Original>
+					<Chinese>GE 作戰服（森林，捲袖）</Chinese>
+					<French>Uniforme de combat GE (forêt, manches retroussées)</French>
+					<Spanish>Uniforme de combate del GE (bosque, remangado)</Spanish>
+					<Italian>Unif. combattimento GE (boschi, man. arr.)</Italian>
+					<Polish>Mundur bojowy GE (las, podkasany)</Polish>
+					<Russian>Боевая форма GE (лес, закатанные рукава)</Russian>
+					<German>GE-Kampfuniform (Waldland, hochgerollt)</German>
+					<Czech>Bojová uniforma GE (woodland, vyhrnutá)</Czech>
+					<English>GE Combat Uniform (Woodland, Rolled-up)</English>
+					<Portuguese>Uniforme de combate GE (floresta, manga dobrada)</Portuguese>
+					<Korean>GE 군복(산악, 팔 걷음)</Korean>
+					<Chinesesimp>GE 作战服（林地，卷起）</Chinesesimp>
+					<Japanese>GE戦闘服（森林、袖まくり）</Japanese>
+					<Turkish>GE Savaş Üniforması (Ağaçlık, Kolları Kıvrık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_tanktop_F0">
+					<Original>GE Combat Uniform (Woodland, Tank Top)</Original>
+					<Chinese>GE 作戰服（森林，上衣背心）</Chinese>
+					<French>Uniforme de combat GE (forêt, manches débardeur)</French>
+					<Spanish>Uniforme de combate del GE (bosque, sin mangas)</Spanish>
+					<Italian>Unif. combattimento GE (boschi, canotta)</Italian>
+					<Polish>Mundur bojowy GE (las, bezrękawnik)</Polish>
+					<Russian>Боевая форма GE (лес, безрукавка)</Russian>
+					<German>GE-Kampfuniform (Waldland, Muskelshirt)</German>
+					<Czech>Bojová uniforma GE (woodland, tílko)</Czech>
+					<English>GE Combat Uniform (Woodland, Tank Top)</English>
+					<Portuguese>Uniforme de combate GE (floresta, regata)</Portuguese>
+					<Korean>GE 군복(산악, 탱크톱)</Korean>
+					<Chinesesimp>GE 作战服（林地，背心装）</Chinesesimp>
+					<Japanese>GE戦闘服（森林、タンクトップ）</Japanese>
+					<Turkish>GE Savaş Üniforması (Ağaçlık, Atlet)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_coveralls_F0">
+					<Original>Heli Pilot Coveralls (Green) [NATO]</Original>
+					<Chinese>Heli Pilot Coveralls (Green) [NATO]</Chinese>
+					<French>Heli Pilot Coveralls (Green) [NATO]</French>
+					<Spanish>Heli Pilot Coveralls (Green) [NATO]</Spanish>
+					<Italian>Heli Pilot Coveralls (Green) [NATO]</Italian>
+					<Polish>Heli Pilot Coveralls (Green) [NATO]</Polish>
+					<Russian>Heli Pilot Coveralls (Green) [NATO]</Russian>
+					<German>Heli Pilot Coveralls (Green) [NATO]</German>
+					<Czech>Heli Pilot Coveralls (Green) [NATO]</Czech>
+					<English>Heli Pilot Coveralls (Green) [NATO]</English>
+					<Portuguese>Heli Pilot Coveralls (Green) [NATO]</Portuguese>
+					<Korean>Heli Pilot Coveralls (Green) [NATO]</Korean>
+					<Chinesesimp>Heli Pilot Coveralls (Green) [NATO]</Chinesesimp>
+					<Japanese>Heli Pilot Coveralls (Green) [NATO]</Japanese>
+					<Turkish>Heli Pilot Coveralls (Green) [NATO]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_Tank_wdl_F0">
+					<Original>Tanker Coveralls (Woodland) [NATO]</Original>
+					<Chinese>戰車連身服（森林）（NATO）</Chinese>
+					<French>Combinaison de tankiste (Boisé) [NATO]</French>
+					<Spanish>Mono de tripulante de tanque (bosque) [NATO]</Spanish>
+					<Italian>Tuta da carrista (boschi) [NATO]</Italian>
+					<Polish>Kombinezon czołgisty (leśny) [NATO]</Polish>
+					<Russian>Комбинезон танкиста (лес) [NATO]</Russian>
+					<German>Panzerfahrer-Overalls (Wald) [NATO]</German>
+					<Czech>Tankistická kombinéza (woodland) [NATO]</Czech>
+					<English>Tanker Coveralls (Woodland) [NATO]</English>
+					<Portuguese>Macacões de petroleiros (Floresta) [NATO]</Portuguese>
+					<Korean>유조선 비행복(산악)[NATO]</Korean>
+					<Chinesesimp>坦克手服（林地）[NATO]</Chinesesimp>
+					<Japanese>戦車乗員用カバーオール（森林）[NATO]</Japanese>
+					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_F0">
+					<Original>Heer Combat Uniform (Arid)</Original>
+					<Chinese>Heer Combat Uniform (Arid)</Chinese>
+					<French>Heer Combat Uniform (Arid)</French>
+					<Spanish>Heer Combat Uniform (Arid)</Spanish>
+					<Italian>Heer Combat Uniform (Arid)</Italian>
+					<Polish>Heer Combat Uniform (Arid)</Polish>
+					<Russian>Heer Combat Uniform (Arid)</Russian>
+					<German>Heer Combat Uniform (Arid)</German>
+					<Czech>Heer Combat Uniform (Arid)</Czech>
+					<English>Heer Combat Uniform (Arid)</English>
+					<Portuguese>Heer Combat Uniform (Arid)</Portuguese>
+					<Korean>Heer Combat Uniform (Arid)</Korean>
+					<Chinesesimp>Heer Combat Uniform (Arid)</Chinesesimp>
+					<Japanese>Heer Combat Uniform (Arid)</Japanese>
+					<Turkish>Heer Combat Uniform (Arid)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_shortsleeve_F0">
+					<Original>Heer Combat Uniform (Arid, Rolled-up)</Original>
+					<Chinese>Heer Combat Uniform (Arid, Rolled-up)</Chinese>
+					<French>Heer Combat Uniform (Arid, Rolled-up)</French>
+					<Spanish>Heer Combat Uniform (Arid, Rolled-up)</Spanish>
+					<Italian>Heer Combat Uniform (Arid, Rolled-up)</Italian>
+					<Polish>Heer Combat Uniform (Arid, Rolled-up)</Polish>
+					<Russian>Heer Combat Uniform (Arid, Rolled-up)</Russian>
+					<German>Heer Combat Uniform (Arid, Rolled-up)</German>
+					<Czech>Heer Combat Uniform (Arid, Rolled-up)</Czech>
+					<English>Heer Combat Uniform (Arid, Rolled-up)</English>
+					<Portuguese>Heer Combat Uniform (Arid, Rolled-up)</Portuguese>
+					<Korean>Heer Combat Uniform (Arid, Rolled-up)</Korean>
+					<Chinesesimp>Heer Combat Uniform (Arid, Rolled-up)</Chinesesimp>
+					<Japanese>Heer Combat Uniform (Arid, Rolled-up)</Japanese>
+					<Turkish>Heer Combat Uniform (Arid, Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_tanktop_F0">
+					<Original>Heer Combat Uniform (Arid, Tank Top)</Original>
+					<Chinese>Heer Combat Uniform (Arid, Tank Top)</Chinese>
+					<French>Heer Combat Uniform (Arid, Tank Top)</French>
+					<Spanish>Heer Combat Uniform (Arid, Tank Top)</Spanish>
+					<Italian>Heer Combat Uniform (Arid, Tank Top)</Italian>
+					<Polish>Heer Combat Uniform (Arid, Tank Top)</Polish>
+					<Russian>Heer Combat Uniform (Arid, Tank Top)</Russian>
+					<German>Heer Combat Uniform (Arid, Tank Top)</German>
+					<Czech>Heer Combat Uniform (Arid, Tank Top)</Czech>
+					<English>Heer Combat Uniform (Arid, Tank Top)</English>
+					<Portuguese>Heer Combat Uniform (Arid, Tank Top)</Portuguese>
+					<Korean>Heer Combat Uniform (Arid, Tank Top)</Korean>
+					<Chinesesimp>Heer Combat Uniform (Arid, Tank Top)</Chinesesimp>
+					<Japanese>Heer Combat Uniform (Arid, Tank Top)</Japanese>
+					<Turkish>Heer Combat Uniform (Arid, Tank Top)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_PilotCoveralls_ANZAC0">
+					<Original>Pilot Coveralls [ADF]</Original>
+					<Chinese>飛行員連身服（ADF）</Chinese>
+					<French>Combinaison de pilote [ADF]</French>
+					<Spanish>Mono de piloto [ADF]</Spanish>
+					<Italian>Tuta da pilota [ADF]</Italian>
+					<Polish>Mundur pilota [ADF]</Polish>
+					<Russian>Летный комбинезон [ADF]</Russian>
+					<German>Pilotenoverall [ADF]</German>
+					<Czech>Pilotní kombinéza [ADF]</Czech>
+					<English>Pilot Coveralls [ADF]</English>
+					<Portuguese>Macacão de piloto [ADF]</Portuguese>
+					<Korean>조종사 비행복[ADF]</Korean>
+					<Chinesesimp>飞行员服 [ADF]</Chinesesimp>
+					<Japanese>パイロットカバーオール[ADF]</Japanese>
+					<Turkish>Pilot Tulumu [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Soldier_F0">
+					<Original>Combat Fatigues [IDF]</Original>
+					<Chinese>作戰戰鬥服（IDF）</Chinese>
+					<French>Treillis [IDF]</French>
+					<Spanish>Traje de combate [IDF]</Spanish>
+					<Italian>Uniforme da combattimento [IDF]</Italian>
+					<Polish>Mundur bojowy [IDF]</Polish>
+					<Russian>Полевая форма [IDF]</Russian>
+					<German>Kampfanzug [IDF]</German>
+					<Czech>Bojová uniforma [IDF]</Czech>
+					<English>Combat Fatigues [IDF]</English>
+					<Portuguese>Uniforme de combate [IDF]</Portuguese>
+					<Korean>전투병 전투복[IDF]</Korean>
+					<Chinesesimp>作战服 [IDF]</Chinesesimp>
+					<Japanese>戦闘服[IDF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Soldier_2_F0">
+					<Original>Combat Fatigues (Rolled-up) [IDF]</Original>
+					<Chinese>作戰戰鬥服（捲起）（IDF）</Chinese>
+					<French>Treillis (manches retroussées) [IDF]</French>
+					<Spanish>Traje de combate (arremangado) [IDF]</Spanish>
+					<Italian>Uniforme da combattimento (Maniche arrotolate) [IDF]</Italian>
+					<Polish>Mundur bojowy (podwinięty) [IDF]</Polish>
+					<Russian>Полевая форма (закатанными рукавами) [IDF] </Russian>
+					<German>Kampfanzug (hochgekrempelt) [IDF]</German>
+					<Czech>Bojová uniforma (vyhrnutá) [IDF]</Czech>
+					<English>Combat Fatigues (Rolled-up) [IDF]</English>
+					<Portuguese>Uniforme de combate (Manga dobrada) [IDF]</Portuguese>
+					<Korean>전투 퍼티그 (롤업) [IDF]</Korean>
+					<Chinesesimp>作战服（卷起）[IDF]</Chinesesimp>
+					<Japanese>戦闘服（ロールアップ）[IDF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Officer_F0">
+					<Original>Officer Fatigues [IDF]</Original>
+					<Chinese>軍官戰鬥服（IDF）</Chinese>
+					<French>Treillis d'officier [IDF]</French>
+					<Spanish>Traje de oficial [IDF]</Spanish>
+					<Italian>Uniforme da ufficiale [IDF]</Italian>
+					<Polish>Mundur oficerski [IDF]</Polish>
+					<Russian>Офицерская форма [IDF]</Russian>
+					<German>Offizier-Militäranzug [IDF]</German>
+					<Czech>Důstojnická uniforma [IDF]</Czech>
+					<English>Officer Fatigues [IDF]</English>
+					<Portuguese>Uniforme de oficial [IDF]</Portuguese>
+					<Korean>장교 전투복[IDF]</Korean>
+					<Chinesesimp>军官服 [IDF]</Chinesesimp>
+					<Japanese>士官服[IDF]</Japanese>
+					<Turkish>Subay Kıyafeti [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_Tank_olive_F0">
+					<Original>Tanker Coveralls [IDF]</Original>
+					<Chinese>戰車連身服（IDF）</Chinese>
+					<French>Combinaison de tankiste [IDF]</French>
+					<Spanish>Mono de tripulante de tanque [IDF]</Spanish>
+					<Italian>Tuta da carrista [IDF]</Italian>
+					<Polish>Kombinezon czołgisty [IDF]</Polish>
+					<Russian>Комбинезон танкиста [IDF]</Russian>
+					<German>Panzerfahrer-Overalls [IDF]</German>
+					<Czech>Tankistická kombinéza [IDF]</Czech>
+					<English>Tanker Coveralls [IDF]</English>
+					<Portuguese>Macacões de petroleiros [IDF]</Portuguese>
+					<Korean>유조선 비행복[IDF]</Korean>
+					<Chinesesimp>坦克手服 [IDF]</Chinesesimp>
+					<Japanese>戦車乗員用カバーオール [IDF]</Japanese>
+					<Turkish>Tankçı Tulumu [IDF]</Turkish>
+				</Key>
+			</Container>
+			<Container name="Vests">
+			</Container>
+		</Container>
+		<Container name="Data_F">
+			<Container name="Author">
+				<Key ID="STR_A3_A_AveryTheKitty_and_Joker006">
+					<Original>AveryTheKitty and Joker006</Original>
+					<Chinese>AveryTheKitty 克與 Joker006</Chinese>
+					<French>AveryTheKitty et Joker006</French>
+					<Spanish>AveryTheKitty y Joker006</Spanish>
+					<Italian>AveryTheKitty e Joker006</Italian>
+					<Polish>AveryTheKitty i Joker006</Polish>
+					<Russian>AveryTheKitty и Joker006</Russian>
+					<German>AveryTheKitty und Joker006</German>
+					<Czech>AveryTheKitty a Joker006</Czech>
+					<English>AveryTheKitty and Joker006</English>
+					<Portuguese>AveryTheKitty e Joker006</Portuguese>
+					<Korean>AveryTheKitty Joker006</Korean>
+					<Chinesesimp>AveryTheKitty 和 Joker006</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Joker006</Japanese>
+					<Turkish>AveryTheKitty ve Joker006</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Luchadordev">
+					<Original>AveryTheKitty and Luchadordev</Original>
+					<Chinese>AveryTheKitty 克與 Luchadordev</Chinese>
+					<French>AveryTheKitty et Luchadordev</French>
+					<Spanish>AveryTheKitty y Luchadordev</Spanish>
+					<Italian>AveryTheKitty e Luchadordev</Italian>
+					<Polish>AveryTheKitty i Luchadordev</Polish>
+					<Russian>AveryTheKitty и Luchadordev</Russian>
+					<German>AveryTheKitty und Luchadordev</German>
+					<Czech>AveryTheKitty a Luchadordev</Czech>
+					<English>AveryTheKitty and Luchadordev</English>
+					<Portuguese>AveryTheKitty e Luchadordev</Portuguese>
+					<Korean>AveryTheKitty Luchadordev</Korean>
+					<Chinesesimp>AveryTheKitty 和 Luchadordev</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Luchadordev</Japanese>
+					<Turkish>AveryTheKitty ve Luchadordev</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K">
+					<Original>AveryTheKitty, Mr. Brightside, and Toadie2K</Original>
+					<Chinese>AveryTheKitty, Mr. Brightside, 克與 Toadie2K</Chinese>
+					<French>AveryTheKitty, Mr. Brightside, et Toadie2K</French>
+					<Spanish>AveryTheKitty, Mr. Brightside, y Toadie2K</Spanish>
+					<Italian>AveryTheKitty, Mr. Brightside, e Toadie2K</Italian>
+					<Polish>AveryTheKitty, Mr. Brightside, i Toadie2K</Polish>
+					<Russian>AveryTheKitty, Mr. Brightside, и Toadie2K</Russian>
+					<German>AveryTheKitty, Mr. Brightside, und Toadie2K</German>
+					<Czech>AveryTheKitty, Mr. Brightside, a Toadie2K</Czech>
+					<English>AveryTheKitty, Mr. Brightside, and Toadie2K</English>
+					<Portuguese>AveryTheKitty, Mr. Brightside, e Toadie2K</Portuguese>
+					<Korean>AveryTheKitty, Mr. Brightside, Toadie2K</Korean>
+					<Chinesesimp>AveryTheKitty, Mr. Brightside, 和 Toadie2K</Chinesesimp>
+					<Japanese>AveryTheKitty, Mr. Brightside, ＆ Toadie2K</Japanese>
+					<Turkish>AveryTheKitty, Mr. Brightside, ve Toadie2K</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Rombynas">
+					<Original>AveryTheKitty and Rombynas</Original>
+					<Chinese>AveryTheKitty 克與 Rombynas</Chinese>
+					<French>AveryTheKitty et Rombynas</French>
+					<Spanish>AveryTheKitty y Rombynas</Spanish>
+					<Italian>AveryTheKitty e Rombynas</Italian>
+					<Polish>AveryTheKitty i Rombynas</Polish>
+					<Russian>AveryTheKitty и Rombynas</Russian>
+					<German>AveryTheKitty und Rombynas</German>
+					<Czech>AveryTheKitty a Rombynas</Czech>
+					<English>AveryTheKitty and Rombynas</English>
+					<Portuguese>AveryTheKitty e Rombynas</Portuguese>
+					<Korean>AveryTheKitty Rombynas</Korean>
+					<Chinesesimp>AveryTheKitty 和 Rombynas</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Rombynas</Japanese>
+					<Turkish>AveryTheKitty ve Rombynas</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Toadie2K">
+					<Original>AveryTheKitty and Toadie2K</Original>
+					<Chinese>AveryTheKitty 克與 Toadie2K</Chinese>
+					<French>AveryTheKitty et Toadie2K</French>
+					<Spanish>AveryTheKitty y Toadie2K</Spanish>
+					<Italian>AveryTheKitty e Toadie2K</Italian>
+					<Polish>AveryTheKitty i Toadie2K</Polish>
+					<Russian>AveryTheKitty и Toadie2K</Russian>
+					<German>AveryTheKitty und Toadie2K</German>
+					<Czech>AveryTheKitty a Toadie2K</Czech>
+					<English>AveryTheKitty and Toadie2K</English>
+					<Portuguese>AveryTheKitty e Toadie2K</Portuguese>
+					<Korean>AveryTheKitty Toadie2K</Korean>
+					<Chinesesimp>AveryTheKitty 和 Toadie2K</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Toadie2K</Japanese>
+					<Turkish>AveryTheKitty ve Toadie2K</Turkish>
+				</Key>
+			</Container>
+			<Container name="Faction_Classes">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_HIDF_F0">
+					<Original>HIDF</Original>
+					<Chinese>HIDF</Chinese>
+					<French>FDIH</French>
+					<Spanish>FDIH</Spanish>
+					<Italian>FDIH</Italian>
+					<Polish>HIDF</Polish>
+					<Russian>СООГ</Russian>
+					<German>HIDF</German>
+					<Czech>OSHO</Czech>
+					<English>HIDF</English>
+					<Portuguese>FDIH</Portuguese>
+					<Korean>HIDF</Korean>
+					<Chinesesimp>HIDF</Chinesesimp>
+					<Japanese>HIDF</Japanese>
+					<Turkish>HASG</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
+					<Original>NATO (Woodland, European)</Original>
+					<Chinese>NATO (森林，歐洲人)</Chinese>
+					<French>OTAN (forêt, européens)</French>
+					<Spanish>OTAN (bosque, europeos)</Spanish>
+					<Italian>OTAN (boschi, europei)</Italian>
+					<Polish>NATO (las, Europejczycy)</Polish>
+					<Russian>НАТО (лес, европейцы)</Russian>
+					<German>NATO (Waldland, Europa)</German>
+					<Czech>NATO (woodland, Evropané)</Czech>
+					<English>NATO (Woodland, European)</English>
+					<Portuguese>OTAN (floresta, europeus)</Portuguese>
+					<Korean>NATO(산악, 유럽)</Korean>
+					<Chinesesimp>NATO (林地，欧洲人)</Chinesesimp>
+					<Japanese>NATO（森林、ヨーロッパ系）</Japanese>
+					<Turkish>NATO (Ağaçlık, Avrupalı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_ard_F0">
+					<Original>NATO (European)</Original>
+					<Chinese>NATO (歐洲人)</Chinese>
+					<French>OTAN (européens)</French>
+					<Spanish>OTAN (europeos)</Spanish>
+					<Italian>OTAN (europei)</Italian>
+					<Polish>NATO (Europejczycy)</Polish>
+					<Russian>НАТО (европейцы)</Russian>
+					<German>NATO (Europa)</German>
+					<Czech>NATO (Evropané)</Czech>
+					<English>NATO (European)</English>
+					<Portuguese>OTAN (europeus)</Portuguese>
+					<Korean>NATO(유럽)</Korean>
+					<Chinesesimp>NATO (欧洲人)</Chinesesimp>
+					<Japanese>NATO（ヨーロッパ系）</Japanese>
+					<Turkish>NATO (Avrupalı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_E_F0">
+					<Original>EAF</Original>
+					<Chinese>EAF</Chinese>
+					<French>EAF</French>
+					<Spanish>EAF</Spanish>
+					<Italian>EAF</Italian>
+					<Polish>EAF</Polish>
+					<Russian>EAF</Russian>
+					<German>EAF</German>
+					<Czech>EAF</Czech>
+					<English>EAF</English>
+					<Portuguese>EAF</Portuguese>
+					<Korean>EAF</Korean>
+					<Chinesesimp>EAF</Chinesesimp>
+					<Japanese>EAF</Japanese>
+					<Turkish>EAF</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_ANZAC_F0">
+					<Original>ADF</Original>
+					<Chinese>ADF</Chinese>
+					<French>FDA</French>
+					<Spanish>FDA</Spanish>
+					<Italian>FDA</Italian>
+					<Polish>ASO</Polish>
+					<Russian>АСО</Russian>
+					<German>AS</German>
+					<Czech>AOS</Czech>
+					<English>ADF</English>
+					<Portuguese>FDA</Portuguese>
+					<Korean>ADF</Korean>
+					<Chinesesimp>ADF</Chinesesimp>
+					<Japanese>ADF</Japanese>
+					<Turkish>ASG</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_I_F0">
+					<Original>IDF</Original>
+					<Chinese>IDF</Chinese>
+					<French>FDI</French>
+					<Spanish>FDI</Spanish>
+					<Italian>FDI</Italian>
+					<Polish>ISO</Polish>
+					<Russian>ИСО</Russian>
+					<German>IV</German>
+					<Czech>IOS</Czech>
+					<English>IDF</English>
+					<Portuguese>FDI</Portuguese>
+					<Korean>IDF</Korean>
+					<Chinesesimp>IDF</Chinesesimp>
+					<Japanese>IDF</Japanese>
+					<Turkish>ISG</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="ContentLicensing">
+			<Key ID="STR_A3_A_CfgMods_Atlas_overview">
+				<Original>TODO</Original>
+				<Chinese>TODO</Chinese>
+				<French>TODO</French>
+				<Spanish>TODO</Spanish>
+				<Italian>TODO</Italian>
+				<Polish>TODO</Polish>
+				<Russian>TODO</Russian>
+				<German>TODO</German>
+				<Czech>TODO</Czech>
+				<English>TODO</English>
+				<Portuguese>TODO</Portuguese>
+				<Korean>TODO</Korean>
+				<Chinesesimp>TODO</Chinesesimp>
+				<Japanese>TODO</Japanese>
+				<Turkish>TODO</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMods_Atlas_name">
+				<Original>Arma 3 Atlas</Original>
+				<Chinese>Arma 3 Atlas</Chinese>
+				<French>Arma 3 Atlas</French>
+				<Spanish>Arma 3 Atlas</Spanish>
+				<Italian>Arma 3 Atlas</Italian>
+				<Polish>Arma 3 Atlas</Polish>
+				<Russian>Arma 3 Atlas</Russian>
+				<German>Arma 3 Atlas</German>
+				<Czech>Arma 3 Atlas</Czech>
+				<English>Arma 3 Atlas</English>
+				<Portuguese>Arma 3 Atlas</Portuguese>
+				<Korean>Arma 3 Atlas</Korean>
+				<Chinesesimp>Arma 3 Atlas</Chinesesimp>
+				<Japanese>Arma 3 Atlas</Japanese>
+				<Turkish>Arma 3 Atlas</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMods_Atlas_nameShort">
+				<Original>Atlas</Original>
+				<Chinese>Atlas</Chinese>
+				<French>Atlas</French>
+				<Spanish>Atlas</Spanish>
+				<Italian>Atlas</Italian>
+				<Polish>Atlas</Polish>
+				<Russian>Atlas</Russian>
+				<German>Atlas</German>
+				<Czech>Atlas</Czech>
+				<English>Atlas</English>
+				<Portuguese>Atlas</Portuguese>
+				<Korean>Atlas</Korean>
+				<Chinesesimp>Atlas</Chinesesimp>
+				<Japanese>Atlas</Japanese>
+				<Turkish>Atlas</Turkish>
+			</Key>
+		</Container>
+		<!--TODO-->
+		<Container name="FieldManual">
+			<Key ID="STR_A3_A_HIDF1">
+				<Original>HIDF</Original>
+				<Chinese>HIDF</Chinese>
+				<French>FDIH</French>
+				<Spanish>FDIH</Spanish>
+				<Italian>FDIH</Italian>
+				<Polish>HIDF</Polish>
+				<Russian>СООГ</Russian>
+				<German>HIDF</German>
+				<Czech>OSHO</Czech>
+				<English>HIDF</English>
+				<Portuguese>FDIH</Portuguese>
+				<Korean>HIDF</Korean>
+				<Chinesesimp>HIDF</Chinesesimp>
+				<Japanese>HIDF</Japanese>
+				<Turkish>HASG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_HIDF0">
+				<Original>TODO</Original>
+				<Chinese>TODO</Chinese>
+				<French>TODO</French>
+				<Spanish>TODO</Spanish>
+				<Italian>TODO</Italian>
+				<Polish>TODO</Polish>
+				<Russian>TODO</Russian>
+				<German>TODO</German>
+				<Czech>TODO</Czech>
+				<English>TODO</English>
+				<Portuguese>TODO</Portuguese>
+				<Korean>TODO</Korean>
+				<Chinesesimp>TODO</Chinesesimp>
+				<Japanese>TODO</Japanese>
+				<Turkish>TODO</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_ANZAC1">
+				<Original>ADF</Original>
+				<Chinese>ADF</Chinese>
+				<French>FDA</French>
+				<Spanish>FDA</Spanish>
+				<Italian>FDA</Italian>
+				<Polish>ASO</Polish>
+				<Russian>АСО</Russian>
+				<German>AS</German>
+				<Czech>AOS</Czech>
+				<English>ADF</English>
+				<Portuguese>FDA</Portuguese>
+				<Korean>ADF</Korean>
+				<Chinesesimp>ADF</Chinesesimp>
+				<Japanese>ADF</Japanese>
+				<Turkish>ASG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_ANZAC0">
+				<Original>TODO</Original>
+				<Chinese>TODO</Chinese>
+				<French>TODO</French>
+				<Spanish>TODO</Spanish>
+				<Italian>TODO</Italian>
+				<Polish>TODO</Polish>
+				<Russian>TODO</Russian>
+				<German>TODO</German>
+				<Czech>TODO</Czech>
+				<English>TODO</English>
+				<Portuguese>TODO</Portuguese>
+				<Korean>TODO</Korean>
+				<Chinesesimp>TODO</Chinesesimp>
+				<Japanese>TODO</Japanese>
+				<Turkish>TODO</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_IDF1">
+				<Original>IDF</Original>
+				<Chinese>IDF</Chinese>
+				<French>FDI</French>
+				<Spanish>FDI</Spanish>
+				<Italian>FDI</Italian>
+				<Polish>ISO</Polish>
+				<Russian>ИСО</Russian>
+				<German>IV</German>
+				<Czech>IOS</Czech>
+				<English>IDF</English>
+				<Portuguese>FDI</Portuguese>
+				<Korean>IDF</Korean>
+				<Chinesesimp>IDF</Chinesesimp>
+				<Japanese>IDF</Japanese>
+				<Turkish>ISG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_IDF0">
+				<Original>TODO</Original>
+				<Chinese>TODO</Chinese>
+				<French>TODO</French>
+				<Spanish>TODO</Spanish>
+				<Italian>TODO</Italian>
+				<Polish>TODO</Polish>
+				<Russian>TODO</Russian>
+				<German>TODO</German>
+				<Czech>TODO</Czech>
+				<English>TODO</English>
+				<Portuguese>TODO</Portuguese>
+				<Korean>TODO</Korean>
+				<Chinesesimp>TODO</Chinesesimp>
+				<Japanese>TODO</Japanese>
+				<Turkish>TODO</Turkish>
+			</Key>
+		</Container>
+		<Container name="VhC">
+			<Key ID="STR_A3_A_TEXTURESOURCES_ANZAC0">
+				<Original>ADF</Original>
+				<Chinese>ADF</Chinese>
+				<French>FDA</French>
+				<Spanish>FDA</Spanish>
+				<Italian>FDA</Italian>
+				<Polish>ASO</Polish>
+				<Russian>АСО</Russian>
+				<German>AS</German>
+				<Czech>AOS</Czech>
+				<English>ADF</English>
+				<Portuguese>FDA</Portuguese>
+				<Korean>ADF</Korean>
+				<Chinesesimp>ADF</Chinesesimp>
+				<Japanese>ADF</Japanese>
+				<Turkish>ASG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_IDF0">
+				<Original>IDF</Original>
+				<Chinese>IDF</Chinese>
+				<French>FDI</French>
+				<Spanish>FDI</Spanish>
+				<Italian>FDI</Italian>
+				<Polish>ISO</Polish>
+				<Russian>ИСО</Russian>
+				<German>IV</German>
+				<Czech>IOS</Czech>
+				<English>IDF</English>
+				<Portuguese>FDI</Portuguese>
+				<Korean>IDF</Korean>
+				<Chinesesimp>IDF</Chinesesimp>
+				<Japanese>IDF</Japanese>
+				<Turkish>ISG</Turkish>
+			</Key>
+		</Container>
+		<Container name="Static_F">
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_support_F0">
+				<Original>Folded Tripod M2 HMG .50 [IDF]</Original>
+				<Chinese>Folded Tripod M2 HMG .50 [IDF]</Chinese>
+				<French>Folded Tripod M2 HMG .50 [IDF]</French>
+				<Spanish>Folded Tripod M2 HMG .50 [IDF]</Spanish>
+				<Italian>Folded Tripod M2 HMG .50 [IDF]</Italian>
+				<Polish>Folded Tripod M2 HMG .50 [IDF]</Polish>
+				<Russian>Folded Tripod M2 HMG .50 [IDF]</Russian>
+				<German>Folded Tripod M2 HMG .50 [IDF]</German>
+				<Czech>Folded Tripod M2 HMG .50 [IDF]</Czech>
+				<English>Folded Tripod M2 HMG .50 [IDF]</English>
+				<Portuguese>Folded Tripod M2 HMG .50 [IDF]</Portuguese>
+				<Korean>Folded Tripod M2 HMG .50 [IDF]</Korean>
+				<Chinesesimp>Folded Tripod M2 HMG .50 [IDF]</Chinesesimp>
+				<Japanese>Folded Tripod M2 HMG .50 [IDF]</Japanese>
+				<Turkish>Folded Tripod M2 HMG .50 [IDF]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_support_high_F0">
+				<Original>Folded Tripod M2 HMG .50 (Raised) [IDF]</Original>
+				<Chinese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Chinese>
+				<French>Folded Tripod M2 HMG .50 (Raised) [IDF]</French>
+				<Spanish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Spanish>
+				<Italian>Folded Tripod M2 HMG .50 (Raised) [IDF]</Italian>
+				<Polish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Polish>
+				<Russian>Folded Tripod M2 HMG .50 (Raised) [IDF]</Russian>
+				<German>Folded Tripod M2 HMG .50 (Raised) [IDF]</German>
+				<Czech>Folded Tripod M2 HMG .50 (Raised) [IDF]</Czech>
+				<English>Folded Tripod M2 HMG .50 (Raised) [IDF]</English>
+				<Portuguese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Portuguese>
+				<Korean>Folded Tripod M2 HMG .50 (Raised) [IDF]</Korean>
+				<Chinesesimp>Folded Tripod M2 HMG .50 (Raised) [IDF]</Chinesesimp>
+				<Japanese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Japanese>
+				<Turkish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_weapon_F0">
+				<Original>Dismantled M2 HMG .50 [IDF]</Original>
+				<Chinese>Dismantled M2 HMG .50 [IDF]</Chinese>
+				<French>Dismantled M2 HMG .50 [IDF]</French>
+				<Spanish>Dismantled M2 HMG .50 [IDF]</Spanish>
+				<Italian>Dismantled M2 HMG .50 [IDF]</Italian>
+				<Polish>Dismantled M2 HMG .50 [IDF]</Polish>
+				<Russian>Dismantled M2 HMG .50 [IDF]</Russian>
+				<German>Dismantled M2 HMG .50 [IDF]</German>
+				<Czech>Dismantled M2 HMG .50 [IDF]</Czech>
+				<English>Dismantled M2 HMG .50 [IDF]</English>
+				<Portuguese>Dismantled M2 HMG .50 [IDF]</Portuguese>
+				<Korean>Dismantled M2 HMG .50 [IDF]</Korean>
+				<Chinesesimp>Dismantled M2 HMG .50 [IDF]</Chinesesimp>
+				<Japanese>Dismantled M2 HMG .50 [IDF]</Japanese>
+				<Turkish>Dismantled M2 HMG .50 [IDF]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_high_weapon_F0">
+				<Original>Dismantled M2 HMG .50 (Raised) [IDF]</Original>
+				<Chinese>Dismantled M2 HMG .50 (Raised) [IDF]</Chinese>
+				<French>Dismantled M2 HMG .50 (Raised) [IDF]</French>
+				<Spanish>Dismantled M2 HMG .50 (Raised) [IDF]</Spanish>
+				<Italian>Dismantled M2 HMG .50 (Raised) [IDF]</Italian>
+				<Polish>Dismantled M2 HMG .50 (Raised) [IDF]</Polish>
+				<Russian>Dismantled M2 HMG .50 (Raised) [IDF]</Russian>
+				<German>Dismantled M2 HMG .50 (Raised) [IDF]</German>
+				<Czech>Dismantled M2 HMG .50 (Raised) [IDF]</Czech>
+				<English>Dismantled M2 HMG .50 (Raised) [IDF]</English>
+				<Portuguese>Dismantled M2 HMG .50 (Raised) [IDF]</Portuguese>
+				<Korean>Dismantled M2 HMG .50 (Raised) [IDF]</Korean>
+				<Chinesesimp>Dismantled M2 HMG .50 (Raised) [IDF]</Chinesesimp>
+				<Japanese>Dismantled M2 HMG .50 (Raised) [IDF]</Japanese>
+				<Turkish>Dismantled M2 HMG .50 (Raised) [IDF]</Turkish>
+			</Key>
+		</Container>
+		<Container name="Structures_F">
+        	<Container name="Military">
+				<Container name="Flags">
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Bocano_F0">
+						<Original>Flag (Bocano)</Original>
+						<Chinese>旗幟（Bocano）</Chinese>
+						<French>Drapeau (Bocano)</French>
+						<Spanish>Bandera (Bocano)</Spanish>
+						<Italian>Bandiera (Bocano)</Italian>
+						<Polish>Flaga (Bocano)</Polish>
+						<Russian>Флаг (Bocano)</Russian>
+						<German>Flagge (Bocano)</German>
+						<Czech>Vlajka (Bocano)</Czech>
+						<English>Flag (Bocano)</English>
+						<Portuguese>Bandeira (Bocano)</Portuguese>
+						<Korean>깃발 (Bocano)</Korean>
+						<Chinesesimp>旗标 (Bocano)</Chinesesimp>
+						<Japanese>旗（Bocano）</Japanese>
+						<Turkish>Bayrak (Bocano)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Germany_F0">
+						<Original>Flag (Germany)</Original>
+						<Chinese>旗幟（德國）</Chinese>
+						<French>Drapeau (Allemagne)</French>
+						<Spanish>Bandera (Alemania)</Spanish>
+						<Italian>Bandiera (Germania)</Italian>
+						<Polish>Flaga (Niemcy)</Polish>
+						<Russian>Флаг (Германия)</Russian>
+						<German>Flagge (Deutschland)</German>
+						<Czech>Vlajka (Německo)</Czech>
+						<English>Flag (Germany)</English>
+						<Portuguese>Bandeira (Alemanha)</Portuguese>
+						<Korean>깃발 (독일)</Korean>
+						<Chinesesimp>旗标 (德国)</Chinesesimp>
+						<Japanese>旗（ドイツ）</Japanese>
+						<Turkish>Bayrak (Almanya)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_IDF_F0">
+						<Original>Flag (IDF)</Original>
+						<Chinese>旗幟（IDF）</Chinese>
+						<French>Drapeau (IDF)</French>
+						<Spanish>Bandera (IDF)</Spanish>
+						<Italian>Bandiera (IDF)</Italian>
+						<Polish>Flaga (IDF)</Polish>
+						<Russian>Флаг (IDF)</Russian>
+						<German>Flagge (IDF)</German>
+						<Czech>Vlajka (IDF)</Czech>
+						<English>Flag (IDF)</English>
+						<Portuguese>Bandeira (IDF)</Portuguese>
+						<Korean>깃발 (IDF)</Korean>
+						<Chinesesimp>旗标 (IDF)</Chinesesimp>
+						<Japanese>旗（IDF）</Japanese>
+						<Turkish>Bayrak (IDF)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Israel_F0">
+						<Original>Flag (Israel)</Original>
+						<Chinese>旗幟（以色列）</Chinese>
+						<French>Drapeau (Israël)</French>
+						<Spanish>Bandera (Israel)</Spanish>
+						<Italian>Bandiera (Israele)</Italian>
+						<Polish>Flaga (Izrael)</Polish>
+						<Russian>Флаг (Израиль)</Russian>
+						<German>Flagge (Israel)</German>
+						<Czech>Vlajka (Izrael)</Czech>
+						<English>Flag (Israel)</English>
+						<Portuguese>Bandeira (Israel)</Portuguese>
+						<Korean>깃발 (이스라엘)</Korean>
+						<Chinesesimp>旗标 (以色列)</Chinesesimp>
+						<Japanese>旗（イスラエル）</Japanese>
+						<Turkish>Bayrak (İsrail)</Turkish>
+					</Key>
+				</Container>
+			</Container>
+		</Container>
+		<Container name="Supplies_F">
+			<Container name="Ammoboxes">
+				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_Wps_F0">
+					<Original>Basic Weapons [HIDF]</Original>
+					<Chinese>基本武器（HIDF）</Chinese>
+					<French>Armes de base [HIDF]</French>
+					<Spanish>Armas básicas [HIDF]</Spanish>
+					<Italian>Armi di base [HIDF]</Italian>
+					<Polish>Broń podstawowa [HIDF]</Polish>
+					<Russian>Основное оружие [HIDF]</Russian>
+					<German>Standardwaffen [HIDF]</German>
+					<Czech>Základní zbraně [HIDF]</Czech>
+					<English>Basic Weapons [HIDF]</English>
+					<Portuguese>Armas básicas [HIDF]</Portuguese>
+					<Korean>기본무기[HIDF]</Korean>
+					<Chinesesimp>基本武器 [HIDF]</Chinesesimp>
+					<Japanese>基本武器[HIDF]</Japanese>
+					<Turkish>Temel Silahlar [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_Ammo_F0">
+					<Original>Basic Ammo [HIDF]</Original>
+					<Chinese>基本彈藥（HIDF）</Chinese>
+					<French>Munitions de base [HIDF]</French>
+					<Spanish>Munición básica [HIDF]</Spanish>
+					<Italian>Munizioni di base [HIDF]</Italian>
+					<Polish>Amunicja podstawowa [HIDF]</Polish>
+					<Russian>Основные боеприпасы [HIDF]</Russian>
+					<German>Standardmunition [HIDF]</German>
+					<Czech>Základní munice [HIDF]</Czech>
+					<English>Basic Ammo [HIDF]</English>
+					<Portuguese>Munição básica [HIDF]</Portuguese>
+					<Korean>기본 탄약[HIDF]</Korean>
+					<Chinesesimp>基本弹药 [HIDF]</Chinesesimp>
+					<Japanese>基本弾薬[HIDF]</Japanese>
+					<Turkish>Temel Mühimmat [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_WpsLaunch_F0">
+					<Original>Launchers [HIDF]</Original>
+					<Chinese>發射器（HIDF）</Chinese>
+					<French>Lanceurs [HIDF]</French>
+					<Spanish>Lanzadores [HIDF]</Spanish>
+					<Italian>Lanciatori [HIDF]</Italian>
+					<Polish>Wyrzutnie [HIDF]</Polish>
+					<Russian>Пусковые установки [HIDF]</Russian>
+					<German>Werfer [HIDF]</German>
+					<Czech>Raketomety [HIDF]</Czech>
+					<English>Launchers [HIDF]</English>
+					<Portuguese>Lançadores [HIDF]</Portuguese>
+					<Korean>발사기[HIDF]</Korean>
+					<Chinesesimp>发射器 [HIDF]</Chinesesimp>
+					<Japanese>ランチャー[HIDF]</Japanese>
+					<Turkish>Fırlatıcılar [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_HIDF_supplyCrate_F0">
+					<Original>Supply Box [HIDF]</Original>
+					<Chinese>補給盒（HIDF）</Chinese>
+					<French>Caisse de ravitaillements [HIDF]</French>
+					<Spanish>Caja de suministros [HIDF]</Spanish>
+					<Italian>Scatola di rifornimenti [HIDF]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [HIDF]</Polish>
+					<Russian>Ящик с припасами [HIDF]</Russian>
+					<German>Nachschubkiste [HIDF]</German>
+					<Czech>Bedna se zásobami [HIDF]</Czech>
+					<English>Supply Box [HIDF]</English>
+					<Portuguese>Caixa de suprimentos [HIDF]</Portuguese>
+					<Korean>보급상자[HIDF]</Korean>
+					<Chinesesimp>供给箱 [HIDF]</Chinesesimp>
+					<Japanese>物資箱[HIDF]</Japanese>
+					<Turkish>İkmal Kutusu [HIDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_Wps_F0">
+					<Original>Basic Weapons [NATO European]</Original>
+					<Chinese>基本武器（NATO 歐洲人）</Chinese>
+					<French>Armes standard [OTAN européens]</French>
+					<Spanish>Armas básicas [OTAN, europeos]</Spanish>
+					<Italian>Armi di base [NATO europei]</Italian>
+					<Polish>Broń podstawowa [NATO Europejczycy]</Polish>
+					<Russian>Основное оружие [НАТО, европейцы]</Russian>
+					<German>Standardwaffen [NATO Europa]</German>
+					<Czech>Základní zbraně [NATO Evropané]</Czech>
+					<English>Basic Weapons [NATO European]</English>
+					<Portuguese>Armas Básicas [OTAN europeus]</Portuguese>
+					<Korean>기본무기[NATO 유럽]</Korean>
+					<Chinesesimp>基本武器 [NATO 欧洲人]</Chinesesimp>
+					<Japanese>基本武器[NATOヨーロッパ系]</Japanese>
+					<Turkish>Temel Silahlar [NATO Avrupalı]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_Ammo_F0">
+					<Original>Basic Ammo [NATO European]</Original>
+					<Chinese>基本彈藥（NATO 歐洲人）</Chinese>
+					<French>Munitions standard [OTAN européens]</French>
+					<Spanish>Munición básica [OTAN, europeos]</Spanish>
+					<Italian>Munizioni di base [NATO europei]</Italian>
+					<Polish>Amunicja podstawowa [NATO Europejczycy]</Polish>
+					<Russian>Основные боеприпасы [НАТО, европейцы]</Russian>
+					<German>Basismunition [NATO Europa]</German>
+					<Czech>Základní munice [NATO Evropané]</Czech>
+					<English>Basic Ammo [NATO European]</English>
+					<Portuguese>Munição básica [OTAN europeus]</Portuguese>
+					<Korean>기본탄약[NATO 유럽]</Korean>
+					<Chinesesimp>基本弹药 [NATO 欧洲人]</Chinesesimp>
+					<Japanese>基本弾薬 [NATOヨーロッパ系]</Japanese>
+					<Turkish>Temel Mühimmat [NATO Avrupalı]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_WpsLaunch_F0">
+					<Original>Launchers [NATO European]</Original>
+					<Chinese>發射器（NATO 歐洲人）</Chinese>
+					<French>Lanceurs [OTAN européens]</French>
+					<Spanish>Lanzadores [OTAN, europeos]</Spanish>
+					<Italian>Lanciatori [NATO europei]</Italian>
+					<Polish>Wyrzutnie [NATO Europejczycy]</Polish>
+					<Russian>Пусковые установки [НАТО, европейцы]</Russian>
+					<German>Werfer [NATO Europa]</German>
+					<Czech>Raketomety [NATO Evropané]</Czech>
+					<English>Launchers [NATO European]</English>
+					<Portuguese>Lançadores [OTAN europeus]</Portuguese>
+					<Korean>발사기[NATO 유럽]</Korean>
+					<Chinesesimp>发射器 [NATO 欧洲人]</Chinesesimp>
+					<Japanese>ランチャー[NATOヨーロッパ系]</Japanese>
+					<Turkish>Fırlatıcılar [NATO Avrupalı]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_E_supplyCrate_F0">
+					<Original>Supply Box [NATO European]</Original>
+					<Chinese>補給盒（NATO 歐洲人）</Chinese>
+					<French>Caisse de ravitaillements [OTAN européens]</French>
+					<Spanish>Caja de suministros [OTAN, europeos]</Spanish>
+					<Italian>Scatola di rifornimenti [NATO europei]</Italian>
+					<Polish>Skrzynka z zaopatrzeniem [NATO Europejczycy]</Polish>
+					<Russian>Ящик с припасами [НАТО, европейцы]</Russian>
+					<German>Nachschubkiste [NATO Europa]</German>
+					<Czech>Bedna se zásobami [NATO Evropané]</Czech>
+					<English>Supply Box [NATO European]</English>
+					<Portuguese>Caixa de Suprimentos [OTAN europeus]</Portuguese>
+					<Korean>보급상자[NATO 유럽]</Korean>
+					<Chinesesimp>供给箱 [NATO 欧洲人]</Chinesesimp>
+					<Japanese>物資箱[NATOヨーロッパ系]</Japanese>
+					<Turkish>İkmal Kutusu [NATO Avrupalı]</Turkish>
+				</Key>
+			</Container>
+			<Container name="Bags">
+				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_jungle_F0">
+					<Original>Radio Pack (Jungle) [HIDF]</Original>
+					<Chinese>無線電背包（叢林）（HIDF）</Chinese>
+					<French>Sac à dos radio (jungle) [HIDF]</French>
+					<Spanish>Mochila para radio (jungla) [HIDF]</Spanish>
+					<Italian>Zaino per radio (giungla) [HIDF]</Italian>
+					<Polish>Plecak z radiostacją (dżungla) [HIDF]</Polish>
+					<Russian>Ранец радиста (джунгли) [HIDF]</Russian>
+					<German>Funkrucksack (Urwald) [HIDF]</German>
+					<Czech>Batoh s vysílačkou (džungle) [HIDF]</Czech>
+					<English>Radio Pack (Jungle) [HIDF]</English>
+					<Portuguese>Pacote de rádio (selva) [HIDF]</Portuguese>
+					<Korean>무전 팩 (정글) [HIDF]</Korean>
+					<Chinesesimp>无线电包（丛林）[HIDF]</Chinesesimp>
+					<Japanese>無線機パック（ジャングル）[HIDF]</Japanese>
+					<Turkish>Telsiz Paketi (Orman) [HIDF]</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="UI_F">
+			<Key ID="STR_A3_A_CfgUIColors_GUI_Presets_PresetAtlas0">
+				<Original>Arma 3 Atlas</Original>
+				<Chinese>Arma 3 Atlas</Chinese>
+				<French>Arma 3 Atlas</French>
+				<Spanish>Arma 3 Atlas</Spanish>
+				<Italian>Arma 3 Atlas</Italian>
+				<Polish>Arma 3 Atlas</Polish>
+				<Russian>Arma 3 Atlas</Russian>
+				<German>Arma 3 Atlas</German>
+				<Czech>Arma 3 Atlas</Czech>
+				<English>Arma 3 Atlas</English>
+				<Portuguese>Arma 3 Atlas</Portuguese>
+				<Korean>Arma 3 Atlas</Korean>
+				<Chinesesimp>Arma 3 Atlas</Chinesesimp>
+				<Japanese>Arma 3 Atlas</Japanese>
+				<Turkish>Arma 3 Atlas</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgUnitInsignia_NATO_31stBattalion0">
+				<Original>31st Panzergrenadier Battalion</Original>
+				<Chinese>第31裝甲擲彈兵營</Chinese>
+				<French>31st Panzergrenadier Battalion</French>
+				<Spanish>31 ° Batallón de Granaderos Panzer</Spanish>
+				<Italian>31 ° Battaglione Panzergrenadier</Italian>
+				<Polish>31º Batalhão Panzergrenadier</Polish>
+				<Russian>31-й механизированный пехотный батальон</Russian>
+				<German>31. Panzergrenadier-Bataillon</German>
+				<Czech>31. prapor Panzergrenadier</Czech>
+				<English>31st Panzergrenadier Battalion</English>
+				<Portuguese>31º Batalhão Panzergrenadier</Portuguese>
+				<Korean>31 차 보병 대대</Korean>
+				<Chinesesimp>第31装甲掷弹兵营</Chinesesimp>
+				<Japanese>第31機械化歩兵大隊</Japanese>
+				<Turkish>31. Panzergrenadier Taburu</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Bocano">
+				<Original>Bocano</Original>
+				<Chinese>Bocano</Chinese>
+				<French>Bocano</French>
+				<Spanish>Bocano</Spanish>
+				<Italian>Bocano</Italian>
+				<Polish>Bocano</Polish>
+				<Russian>Bocano</Russian>
+				<German>Bocano</German>
+				<Czech>Bocano</Czech>
+				<English>Bocano</English>
+				<Portuguese>Bocano</Portuguese>
+				<Korean>Bocano</Korean>
+				<Chinesesimp>Bocano</Chinesesimp>
+				<Japanese>Bocano</Japanese>
+				<Turkish>Bocano</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_IDF">
+				<Original>IDF</Original>
+				<Chinese>IDF</Chinese>
+				<French>IDF</French>
+				<Spanish>IDF</Spanish>
+				<Italian>IDF</Italian>
+				<Polish>IDF</Polish>
+				<Russian>IDF</Russian>
+				<German>IDF</German>
+				<Czech>IDF</Czech>
+				<English>IDF</English>
+				<Portuguese>IDF</Portuguese>
+				<Korean>IDF</Korean>
+				<Chinesesimp>IDF</Chinesesimp>
+				<Japanese>IDF</Japanese>
+				<Turkish>IDF</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Israel">
+				<Original>Israel</Original>
+				<Chinese>以色列</Chinese>
+				<French>Israël</French>
+				<Spanish>Israel</Spanish>
+				<Italian>Israele</Italian>
+				<Polish>Izrael</Polish>
+				<Russian>Израиль</Russian>
+				<German>Israel</German>
+				<Czech>Izrael</Czech>
+				<English>Israel</English>
+				<Portuguese>Israel</Portuguese>
+				<Korean>이스라엘</Korean>
+				<Chinesesimp>以色列</Chinesesimp>
+				<Japanese>イスラエル</Japanese>
+				<Turkish>İsrail</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_CDF">
+				<Original>CDF</Original>
+				<Chinese>CDF</Chinese>
+				<French>CDF</French>
+				<Spanish>CDF</Spanish>
+				<Italian>CDF</Italian>
+				<Polish>CDF</Polish>
+				<Russian>CDF</Russian>
+				<German>CDF</German>
+				<Czech>CDF</Czech>
+				<English>CDF</English>
+				<Portuguese>CDF</Portuguese>
+				<Korean>CDF</Korean>
+				<Chinesesimp>CDF</Chinesesimp>
+				<Japanese>CDF</Japanese>
+				<Turkish>CDF</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Chernarus">
+				<Original>Chernarus</Original>
+				<Chinese>Chernarus</Chinese>
+				<French>Chernarus</French>
+				<Spanish>Chernarus</Spanish>
+				<Italian>Chernarus</Italian>
+				<Polish>Chernarus</Polish>
+				<Russian>Chernarus</Russian>
+				<German>Chernarus</German>
+				<Czech>Chernarus</Czech>
+				<English>Chernarus</English>
+				<Portuguese>Chernarus</Portuguese>
+				<Korean>Chernarus</Korean>
+				<Chinesesimp>Chernarus</Chinesesimp>
+				<Japanese>Chernarus</Japanese>
+				<Turkish>Chernarus</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Takistan">
+				<Original>Takistan</Original>
+				<Chinese>Takistan</Chinese>
+				<French>Takistan</French>
+				<Spanish>Takistan</Spanish>
+				<Italian>Takistan</Italian>
+				<Polish>Takistan</Polish>
+				<Russian>Takistan</Russian>
+				<German>Takistan</German>
+				<Czech>Takistan</Czech>
+				<English>Takistan</English>
+				<Portuguese>Takistan</Portuguese>
+				<Korean>Takistan</Korean>
+				<Chinesesimp>Takistan</Chinesesimp>
+				<Japanese>Takistan</Japanese>
+				<Turkish>Takistan</Turkish>
+			</Key>
+		</Container>
+		<Container name="Weapons_F">
+			<Container name="Accessories">
+				<Container name="DescriptionShort">
+					<Key ID="STR_A3_A_CfgWeapons_optic_LRCO_blk_F1">
+						<Original>LRCO&lt;br /&gt;Magnification: 2x</Original>
+						<Chinese>LRCO&lt;br /&gt;放大倍率：2x</Chinese>
+						<French>LRCO&lt;br /&gt;Grossissement : 2x</French>
+						<Spanish>LRCO&lt;br /&gt;Aumento: 2x</Spanish>
+						<Italian>LRCO&lt;br /&gt;Ingrandimento: 2x</Italian>
+						<Polish>LRCO&lt;br /&gt;Powiększenie: 2x</Polish>
+						<Russian>Прицел LRCO&lt;br /&gt;Увеличение: 2x</Russian>
+						<German>LRCO&lt;br /&gt;Vergrößerung: 2x</German>
+						<Czech>LRCO&lt;br /&gt;Zvětšení: 2x</Czech>
+						<English>LRCO&lt;br /&gt;Magnification: 2x</English>
+						<Portuguese>LRCO&lt;br /&gt;Ampliação: 2x</Portuguese>
+						<Korean>LRCO&lt;br /&gt;배율: 2배</Korean>
+						<Chinesesimp>LRCO&lt;br /&gt;放大倍数：2x</Chinesesimp>
+						<Japanese>LRCO&lt;br /&gt;倍率：2x</Japanese>
+						<Turkish>LRCO&lt;br /&gt;Büyütme: 2x</Turkish>
+					</Key>
+				</Container>
+				<Container name="DisplayName">
+					<Key ID="STR_A3_A_CfgWeapons_optic_LRCO_blk_F0">
+						<Original>LRCO (Black)</Original>
+						<Chinese>LRCO（黑）</Chinese>
+						<French>LRCO (noires)</French>
+						<Spanish>LRCO (negro)</Spanish>
+						<Italian>LRCO (nero)</Italian>
+						<Polish>LRCO (czarne)</Polish>
+						<Russian>LRCO (черный)</Russian>
+						<German>LRCO (Schwarz)</German>
+						<Czech>LRCO (černé)</Czech>
+						<English>LRCO (Black)</English>
+						<Portuguese>LRCO (preto)</Portuguese>
+						<Korean>LRCO (흑색)</Korean>
+						<Chinesesimp>LRCO（黑色）</Chinesesimp>
+						<Japanese>LRCO（黒）</Japanese>
+						<Turkish>LRCO (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_optic_LRCO_snd_F0">
+						<Original>LRCO (Sand)</Original>
+						<Chinese>LRCO（沙子）</Chinese>
+						<French>LRCO (Sable)</French>
+						<Spanish>LRCO (arena)</Spanish>
+						<Italian>LRCO (sabbia)</Italian>
+						<Polish>LRCO (pisakowy)</Polish>
+						<Russian>LRCO (песочный)</Russian>
+						<German>LRCO (sandfarben)</German>
+						<Czech>LRCO (písek)</Czech>
+						<English>LRCO (Sand)</English>
+						<Portuguese>LRCO (Areia)</Portuguese>
+						<Korean>LRCO (모래)</Korean>
+						<Chinesesimp>LRCO（沙色）</Chinesesimp>
+						<Japanese>LRCO（砂）</Japanese>
+						<Turkish>LRCO (Kum)</Turkish>
+					</Key>
+				</Container>
+			</Container>
+			<Container name="Rifles">
+				<Container name="DescriptionShort">
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_base_F1">
+						<Original>Assault Rifle&lt;br /&gt;Caliber: 5.56x45 mm</Original>
+						<Chinese>突擊步槍&lt;br/&gt;口徑：5.56x45 mm</Chinese>
+						<French>Fusil d'assaut&lt;br /&gt;Calibre : 5,56x45 mm</French>
+						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 5,56x45 mm</Spanish>
+						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 5,56x45 mm</Italian>
+						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 5,56x45 mm</Polish>
+						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 5,56x45 мм</Russian>
+						<German>Sturmgewehr&lt;br /&gt;Kaliber: 5,56x45 mm</German>
+						<Czech>Útočná puška&lt;br /&gt;Ráže: 5,56x45 mm</Czech>
+						<English>Assault Rifle&lt;br /&gt;Caliber: 5.56x45 mm</English>
+						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 5,56 x 45 mm</Portuguese>
+						<Korean>돌격소총&lt;br /&gt;구경: 5.56x45mm</Korean>
+						<Chinesesimp>突击步枪&lt;br /&gt;口径：5.56x45 毫米</Chinesesimp>
+						<Japanese>アサルトライフル&lt;br /&gt;口径：5.56x45 mm</Japanese>
+						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 5.56x45 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_base_F1">
+						<Original>Assault Rifle&lt;br /&gt;Caliber: 6.5x39 mm</Original>
+						<Chinese>突擊步槍&lt;br/&gt;口徑：6.5x39 mm</Chinese>
+						<French>Fusil d'assaut&lt;br /&gt;Calibre : 6,5x39 mm</French>
+						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 6,5x39 mm</Spanish>
+						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 6,5x39 mm</Italian>
+						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 6,5x39 mm</Polish>
+						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 6,5x39 мм</Russian>
+						<German>Sturmgewehr&lt;br /&gt;Kaliber: 6,5x39 mm</German>
+						<Czech>Útočná puška&lt;br /&gt;Ráže: 6,5x39 mm</Czech>
+						<English>Assault Rifle&lt;br /&gt;Caliber: 6.5x39 mm</English>
+						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 6,5 x 39 mm</Portuguese>
+						<Korean>돌격소총&lt;br /&gt;구경: 6.5x39mm</Korean>
+						<Chinesesimp>突击步枪&lt;br /&gt;口径：6.5x39 毫米</Chinesesimp>
+						<Japanese>アサルトライフル&lt;br /&gt;口径：6.5x39 mm</Japanese>
+						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 6.5x39 mm</Turkish>
+					</Key>
+				</Container>
+				<Container name="DisplayName">
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_base_F0">
+						<Original>S-90 5.56 mm</Original>
+						<Chinese>S-90 5.56 mm</Chinese>
+						<French>S-90 5,56 mm</French>
+						<Spanish>S-90 5,56 mm</Spanish>
+						<Italian>S-90 5,56 mm</Italian>
+						<Polish>S-90 5,56 mm</Polish>
+						<Russian>S-90 5,56 мм</Russian>
+						<German>S-90 5,56 mm</German>
+						<Czech>S-90 5,56 mm</Czech>
+						<English>S-90 5.56 mm</English>
+						<Portuguese>S-90 5.56 mm</Portuguese>
+						<Korean>S-90 5.56mm</Korean>
+						<Chinesesimp>S-90 5.56 毫米</Chinesesimp>
+						<Japanese>S-90 5.56mm</Japanese>
+						<Turkish>S-90 5.56 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_blk_F0">
+						<Original>S-90 5.56 mm (Black)</Original>
+						<Chinese>S-90 5.56 mm（黑）</Chinese>
+						<French>S-90 5,56 mm (noir)</French>
+						<Spanish>S-90 5,56 mm (negro)</Spanish>
+						<Italian>S-90 5,56 mm (nero)</Italian>
+						<Polish>S-90 5,56 mm (czarny)</Polish>
+						<Russian>S-90 5,56 мм (черная)</Russian>
+						<German>S-90 5,56 mm (schwarz)</German>
+						<Czech>S-90 5,56 mm (černý)</Czech>
+						<English>S-90 5.56 mm (Black)</English>
+						<Portuguese>S-90 5.56 mm (preto)</Portuguese>
+						<Korean>S-90 5.56mm (흑색)</Korean>
+						<Chinesesimp>S-90 5.56 毫米（黑色）</Chinesesimp>
+						<Japanese>S-90 5.56mm （黒）</Japanese>
+						<Turkish>S-90 5.56 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_snd_F0">
+						<Original>S-90 5.56 mm (Sand)</Original>
+						<Chinese>S-90 5.56 mm（沙子）</Chinese>
+						<French>S-90 5,56 mm (Sable)</French>
+						<Spanish>S-90 5,56 mm (arena)</Spanish>
+						<Italian>S-90 5,56 mm (sabbia)</Italian>
+						<Polish>S-90 5,56 mm (pisakowy)</Polish>
+						<Russian>S-90 5,56 мм (песочный)</Russian>
+						<German>S-90 5,56 mm (sandfarben)</German>
+						<Czech>S-90 5,56 mm (písek)</Czech>
+						<English>S-90 5.56 mm (Sand)</English>
+						<Portuguese>S-90 5.56 mm (Areia)</Portuguese>
+						<Korean>S-90 5.56mm (모래)</Korean>
+						<Chinesesimp>S-90 5.56 毫米（沙色）</Chinesesimp>
+						<Japanese>S-90 5.56mm （砂）</Japanese>
+						<Turkish>S-90 5.56 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_khk_F0">
+						<Original>S-90 5.56 mm (Khaki)</Original>
+						<Chinese>S-90 5.56 mm（卡其）</Chinese>
+						<French>S-90 5,56 mm (kaki)</French>
+						<Spanish>S-90 5,56 mm (caqui)</Spanish>
+						<Italian>S-90 5,56 mm (kaki)</Italian>
+						<Polish>S-90 5,56 mm (khaki)</Polish>
+						<Russian>S-90 5,56 мм (хаки)</Russian>
+						<German>S-90 5,56 mm (Khaki)</German>
+						<Czech>S-90 5,56 mm (khaki)</Czech>
+						<English>S-90 5.56 mm (Khaki)</English>
+						<Portuguese>S-90 5.56 mm (cáqui)</Portuguese>
+						<Korean>S-90 5.56mm (카키)</Korean>
+						<Chinesesimp>S-90 5.56 毫米（卡其色）</Chinesesimp>
+						<Japanese>S-90 5.56mm （カーキ）</Japanese>
+						<Turkish>S-90 5.56 mm (Haki)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_GL_base_F0">
+						<Original>S-90 GL 5.56 mm</Original>
+						<Chinese>S-90 GL 5.56 mm</Chinese>
+						<French>S-90 GL 5,56 mm</French>
+						<Spanish>S-90 GL 5,56 mm</Spanish>
+						<Italian>S-90 GL 5,56 mm</Italian>
+						<Polish>S-90 GL 5,56 mm</Polish>
+						<Russian>S-90 GL 5,56 мм</Russian>
+						<German>S-90 GL 5,56 mm</German>
+						<Czech>S-90 GL 5,56 mm</Czech>
+						<English>S-90 GL 5.56 mm</English>
+						<Portuguese>S-90 GL 5.56 mm</Portuguese>
+						<Korean>S-90 GL 5.56mm</Korean>
+						<Chinesesimp>S-90 GL 5.56 毫米</Chinesesimp>
+						<Japanese>S-90 GL 5.56mm</Japanese>
+						<Turkish>S-90 GL 5.56 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_GL_blk_F0">
+						<Original>S-90 GL 5.56 mm (Black)</Original>
+						<Chinese>S-90 GL 5.56 mm（黑）</Chinese>
+						<French>S-90 GL 5,56 mm (noir)</French>
+						<Spanish>S-90 GL 5,56 mm (negro)</Spanish>
+						<Italian>S-90 GL 5,56 mm (nero)</Italian>
+						<Polish>S-90 GL 5,56 mm (czarny)</Polish>
+						<Russian>S-90 GL 5,56 мм (черная)</Russian>
+						<German>S-90 GL 5,56 mm (schwarz)</German>
+						<Czech>S-90 GL 5,56 mm (černý)</Czech>
+						<English>S-90 GL 5.56 mm (Black)</English>
+						<Portuguese>S-90 GL 5.56 mm (preto)</Portuguese>
+						<Korean>S-90 GL 5.56mm (흑색)</Korean>
+						<Chinesesimp>S-90 GL 5.56 毫米（黑色）</Chinesesimp>
+						<Japanese>S-90 GL 5.56mm （黒）</Japanese>
+						<Turkish>S-90 GL 5.56 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_GL_snd_F0">
+						<Original>S-90 GL 5.56 mm (Sand)</Original>
+						<Chinese>S-90 GL 5.56 mm（沙子）</Chinese>
+						<French>S-90 GL 5,56 mm (Sable)</French>
+						<Spanish>S-90 GL 5,56 mm (arena)</Spanish>
+						<Italian>S-90 GL 5,56 mm (sabbia)</Italian>
+						<Polish>S-90 GL 5,56 mm (pisakowy)</Polish>
+						<Russian>S-90 GL 5,56 мм (песочный)</Russian>
+						<German>S-90 GL 5,56 mm (sandfarben)</German>
+						<Czech>S-90 GL 5,56 mm (písek)</Czech>
+						<English>S-90 GL 5.56 mm (Sand)</English>
+						<Portuguese>S-90 GL 5.56 mm (Areia)</Portuguese>
+						<Korean>S-90 GL 5.56mm (모래)</Korean>
+						<Chinesesimp>S-90 GL 5.56 毫米（沙色）</Chinesesimp>
+						<Japanese>S-90 GL 5.56mm （砂）</Japanese>
+						<Turkish>S-90 GL 5.56 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_GL_khk_F0">
+						<Original>S-90 GL 5.56 mm (Khaki)</Original>
+						<Chinese>S-90 GL 5.56 mm（卡其）</Chinese>
+						<French>S-90 GL 5,56 mm (kaki)</French>
+						<Spanish>S-90 GL 5,56 mm (caqui)</Spanish>
+						<Italian>S-90 GL 5,56 mm (kaki)</Italian>
+						<Polish>S-90 GL 5,56 mm (khaki)</Polish>
+						<Russian>S-90 GL 5,56 мм (хаки)</Russian>
+						<German>S-90 GL 5,56 mm (Khaki)</German>
+						<Czech>S-90 GL 5,56 mm (khaki)</Czech>
+						<English>S-90 GL 5.56 mm (Khaki)</English>
+						<Portuguese>S-90 GL 5.56 mm (cáqui)</Portuguese>
+						<Korean>S-90 GL 5.56mm (카키)</Korean>
+						<Chinesesimp>S-90 GL 5.56 毫米（卡其色）</Chinesesimp>
+						<Japanese>S-90 GL 5.56mm （カーキ）</Japanese>
+						<Turkish>S-90 GL 5.56 mm (Haki)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_GL_base_F_EGLM0">
+						<Original>GL-40</Original>
+						<Chinese>GL-40</Chinese>
+						<French>GL-40</French>
+						<Spanish>GL-40</Spanish>
+						<Italian>GL-40</Italian>
+						<Polish>GL-40</Polish>
+						<Russian>GL-40</Russian>
+						<German>GL-40</German>
+						<Czech>GL-40</Czech>
+						<English>GL-40</English>
+						<Portuguese>GL-40</Portuguese>
+						<Korean>GL-40</Korean>
+						<Chinesesimp>GL-40</Chinesesimp>
+						<Japanese>GL-40</Japanese>
+						<Turkish>GL-40</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_F0">
+						<Original>G36K 6.5 mm (Black)</Original>
+						<Chinese>G36K 6.5 mm（黑）</Chinese>
+						<French>G36K 6,5 mm (noir)</French>
+						<Spanish>G36K 6,5 mm (negro)</Spanish>
+						<Italian>G36K 6,5 mm (nero)</Italian>
+						<Polish>G36K 6,5 mm (czarny)</Polish>
+						<Russian>G36K 6,5 мм (черная)</Russian>
+						<German>G36K 6,5 mm (schwarz)</German>
+						<Czech>G36K 6,5 mm (černý)</Czech>
+						<English>G36K 6.5 mm (Black)</English>
+						<Portuguese>G36K 6.5 mm (preto)</Portuguese>
+						<Korean>G36K 6.5mm (흑색)</Korean>
+						<Chinesesimp>G36K 6.5 毫米（黑色）</Chinesesimp>
+						<Japanese>G36K 6.5mm （黒）</Japanese>
+						<Turkish>G36K 6.5 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_sand_F0">
+						<Original>G36K 6.5 mm (Sand)</Original>
+						<Chinese>G36K 6.5 mm（沙子）</Chinese>
+						<French>G36K 6,5 mm (Sable)</French>
+						<Spanish>G36K 6,5 mm (arena)</Spanish>
+						<Italian>G36K 6,5 mm (sabbia)</Italian>
+						<Polish>G36K 6,5 mm (pisakowy)</Polish>
+						<Russian>G36K 6,5 мм (песочный)</Russian>
+						<German>G36K 6,5 mm (sandfarben)</German>
+						<Czech>G36K 6,5 mm (písek)</Czech>
+						<English>G36K 6.5 mm (Sand)</English>
+						<Portuguese>G36K 6.5 mm (Areia)</Portuguese>
+						<Korean>G36K 6.5mm (모래)</Korean>
+						<Chinesesimp>G36K 6.5 毫米（沙色）</Chinesesimp>
+						<Japanese>G36K 6.5mm （砂）</Japanese>
+						<Turkish>G36K 6.5 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_khaki_F0">
+						<Original>G36K 6.5 mm (Khaki)</Original>
+						<Chinese>G36K 6.5 mm（卡其色）</Chinese>
+						<French>G36K 6,5 mm (kaki)</French>
+						<Spanish>G36K 6,5 mm (caqui)</Spanish>
+						<Italian>G36K 6,5 mm (kaki)</Italian>
+						<Polish>G36K 6,5 mm (khaki)</Polish>
+						<Russian>G36K 6,5 мм (хаки)</Russian>
+						<German>G36K 6,5 mm (Khaki)</German>
+						<Czech>G36K 6,5 mm (khaki)</Czech>
+						<English>G36K 6.5 mm (Khaki)</English>
+						<Portuguese>G36K 6.5 mm (cáqui)</Portuguese>
+						<Korean>G36K 6.5mm (카키)</Korean>
+						<Chinesesimp>G36K 6.5 毫米（卡其色）</Chinesesimp>
+						<Japanese>G36K 6.5mm （カーキ）</Japanese>
+						<Turkish>G36K 6.5 mm (Haki)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_GL_F0">
+						<Original>G36K GL 6.5 mm (Black)</Original>
+						<Chinese>G36K GL 6.5 mm（黑）</Chinese>
+						<French>G36K GL 6,5 mm (noir)</French>
+						<Spanish>G36K GL 6,5 mm (negro)</Spanish>
+						<Italian>G36K GL 6,5 mm (nero)</Italian>
+						<Polish>G36K GL 6,5 mm (czarny)</Polish>
+						<Russian>G36K GL 6,5 мм (черная)</Russian>
+						<German>G36K GL 6,5 mm (schwarz)</German>
+						<Czech>G36K GL 6,5 mm (černý)</Czech>
+						<English>G36K GL 6.5 mm (Black)</English>
+						<Portuguese>G36K GL 6.5 mm (preto)</Portuguese>
+						<Korean>G36K GL 6.5mm (흑색)</Korean>
+						<Chinesesimp>G36K GL 6.5 毫米（黑色）</Chinesesimp>
+						<Japanese>G36K GL 6.5mm （黒）</Japanese>
+						<Turkish>G36K GL 6.5 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_GL_sand_F0">
+						<Original>G36K GL 6.5 mm (Sand)</Original>
+						<Chinese>G36K GL 6.5 mm（沙子）</Chinese>
+						<French>G36K GL 6,5 mm (Sable)</French>
+						<Spanish>G36K GL 6,5 mm (arena)</Spanish>
+						<Italian>G36K GL 6,5 mm (sabbia)</Italian>
+						<Polish>G36K GL 6,5 mm (pisakowy)</Polish>
+						<Russian>G36K GL 6,5 мм (песочный)</Russian>
+						<German>G36K GL 6,5 mm (sandfarben)</German>
+						<Czech>G36K GL 6,5 mm (písek)</Czech>
+						<English>G36K GL 6.5 mm (Sand)</English>
+						<Portuguese>G36K GL 6.5 mm (Areia)</Portuguese>
+						<Korean>G36K GL 6.5mm (모래)</Korean>
+						<Chinesesimp>G36K GL 6.5 毫米（沙色）</Chinesesimp>
+						<Japanese>G36K GL 6.5mm （砂）</Japanese>
+						<Turkish>G36K GL 6.5 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_GL_khaki_F0">
+						<Original>G36K GL 6.5 mm (Khaki)</Original>
+						<Chinese>G36K GL 6.5 mm（卡其色）</Chinese>
+						<French>G36K GL 6,5 mm (kaki)</French>
+						<Spanish>G36K GL 6,5 mm (caqui)</Spanish>
+						<Italian>G36K GL 6,5 mm (kaki)</Italian>
+						<Polish>G36K GL 6,5 mm (khaki)</Polish>
+						<Russian>G36K GL 6,5 мм (хаки)</Russian>
+						<German>G36K GL 6,5 mm (Khaki)</German>
+						<Czech>G36K GL 6,5 mm (khaki)</Czech>
+						<English>G36K GL 6.5 mm (Khaki)</English>
+						<Portuguese>G36K GL 6.5 mm (cáqui)</Portuguese>
+						<Korean>G36K GL 6.5mm (카키)</Korean>
+						<Chinesesimp>G36K GL 6.5 毫米（卡其色）</Chinesesimp>
+						<Japanese>G36K GL 6.5mm （カーキ）</Japanese>
+						<Turkish>G36K GL 6.5 mm (Haki)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_GL_base_F_UGL0">
+						<Original>GLM</Original>
+						<Chinese>GLM</Chinese>
+						<French>GLM</French>
+						<Spanish>GLM</Spanish>
+						<Italian>GLM</Italian>
+						<Polish>GLM</Polish>
+						<Russian>GLM</Russian>
+						<German>GLM</German>
+						<Czech>GLM</Czech>
+						<English>GLM</English>
+						<Portuguese>GLM</Portuguese>
+						<Korean>GLM</Korean>
+						<Chinesesimp>GLM</Chinesesimp>
+						<Japanese>GLM</Japanese>
+						<Turkish>GLM</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36C_F0">
+						<Original>G36C 6.5 mm (Black)</Original>
+						<Chinese>G36C 6.5 mm（黑）</Chinese>
+						<French>G36C 6,5 mm (noir)</French>
+						<Spanish>G36C 6,5 mm (negro)</Spanish>
+						<Italian>G36C 6,5 mm (nero)</Italian>
+						<Polish>G36C 6,5 mm (czarny)</Polish>
+						<Russian>G36C 6,5 мм (черная)</Russian>
+						<German>G36C 6,5 mm (schwarz)</German>
+						<Czech>G36C 6,5 mm (černý)</Czech>
+						<English>G36C 6.5 mm (Black)</English>
+						<Portuguese>G36C 6.5 mm (preto)</Portuguese>
+						<Korean>G36C 6.5mm (흑색)</Korean>
+						<Chinesesimp>G36C 6.5 毫米（黑色）</Chinesesimp>
+						<Japanese>G36C 6.5mm （黒）</Japanese>
+						<Turkish>G36C 6.5 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36C_sand_F0">
+						<Original>G36C 6.5 mm (Sand)</Original>
+						<Chinese>G36C 6.5 mm（沙子）</Chinese>
+						<French>G36C 6,5 mm (Sable)</French>
+						<Spanish>G36C 6,5 mm (arena)</Spanish>
+						<Italian>G36C 6,5 mm (sabbia)</Italian>
+						<Polish>G36C 6,5 mm (pisakowy)</Polish>
+						<Russian>G36C 6,5 мм (песочный)</Russian>
+						<German>G36C 6,5 mm (sandfarben)</German>
+						<Czech>G36C 6,5 mm (písek)</Czech>
+						<English>G36C 6.5 mm (Sand)</English>
+						<Portuguese>G36C 6.5 mm (Areia)</Portuguese>
+						<Korean>G36C 6.5mm (모래)</Korean>
+						<Chinesesimp>G36C 6.5 毫米（沙色）</Chinesesimp>
+						<Japanese>G36C 6.5mm （砂）</Japanese>
+						<Turkish>G36C 6.5 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36C_khaki_F0">
+						<Original>G36C 6.5 mm (Khaki)</Original>
+						<Chinese>G36C 6.5 mm（卡其色）</Chinese>
+						<French>G36C 6,5 mm (kaki)</French>
+						<Spanish>G36C 6,5 mm (caqui)</Spanish>
+						<Italian>G36C 6,5 mm (kaki)</Italian>
+						<Polish>G36C 6,5 mm (khaki)</Polish>
+						<Russian>G36C 6,5 мм (хаки)</Russian>
+						<German>G36C 6,5 mm (Khaki)</German>
+						<Czech>G36C 6,5 mm (khaki)</Czech>
+						<English>G36C 6.5 mm (Khaki)</English>
+						<Portuguese>G36C 6.5 mm (cáqui)</Portuguese>
+						<Korean>G36C 6.5mm (카키)</Korean>
+						<Chinesesimp>G36C 6.5 毫米（卡其色）</Chinesesimp>
+						<Japanese>G36C 6.5mm （カーキ）</Japanese>
+						<Turkish>G36C 6.5 mm (Haki)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_MG36_F0">
+						<Original>MG36 6.5 mm (Black)</Original>
+						<Chinese>MG36 6.5 mm（黑）</Chinese>
+						<French>MG36 6,5 mm (noir)</French>
+						<Spanish>MG36 6,5 mm (negro)</Spanish>
+						<Italian>MG36 6,5 mm (nero)</Italian>
+						<Polish>MG36 6,5 mm (czarny)</Polish>
+						<Russian>MG36 6,5 мм (черная)</Russian>
+						<German>MG36 6,5 mm (schwarz)</German>
+						<Czech>MG36 6,5 mm (černý)</Czech>
+						<English>MG36 6.5 mm (Black)</English>
+						<Portuguese>MG36 6.5 mm (preto)</Portuguese>
+						<Korean>MG36 6.5mm (흑색)</Korean>
+						<Chinesesimp>MG36 6.5 毫米（黑色）</Chinesesimp>
+						<Japanese>MG36 6.5mm （黒）</Japanese>
+						<Turkish>MG36 6.5 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_MG36_sand_F0">
+						<Original>MG36 6.5 mm (Sand)</Original>
+						<Chinese>MG36 6.5 mm（沙子）</Chinese>
+						<French>MG36 6,5 mm (Sable)</French>
+						<Spanish>MG36 6,5 mm (arena)</Spanish>
+						<Italian>MG36 6,5 mm (sabbia)</Italian>
+						<Polish>MG36 6,5 mm (pisakowy)</Polish>
+						<Russian>MG36 6,5 мм (песочный)</Russian>
+						<German>MG36 6,5 mm (sandfarben)</German>
+						<Czech>MG36 6,5 mm (písek)</Czech>
+						<English>MG36 6.5 mm (Sand)</English>
+						<Portuguese>MG36 6.5 mm (Areia)</Portuguese>
+						<Korean>MG36 6.5mm (모래)</Korean>
+						<Chinesesimp>MG36 6.5 毫米（沙色）</Chinesesimp>
+						<Japanese>MG36 6.5mm （砂）</Japanese>
+						<Turkish>MG36 6.5 mm (Kum)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_MG36_khaki_F0">
+						<Original>MG36 6.5 mm (Khaki)</Original>
+						<Chinese>MG36 6.5 mm（卡其色）</Chinese>
+						<French>MG36 6,5 mm (kaki)</French>
+						<Spanish>MG36 6,5 mm (caqui)</Spanish>
+						<Italian>MG36 6,5 mm (kaki)</Italian>
+						<Polish>MG36 6,5 mm (khaki)</Polish>
+						<Russian>MG36 6,5 мм (хаки)</Russian>
+						<German>MG36 6,5 mm (Khaki)</German>
+						<Czech>MG36 6,5 mm (khaki)</Czech>
+						<English>MG36 6.5 mm (Khaki)</English>
+						<Portuguese>MG36 6.5 mm (cáqui)</Portuguese>
+						<Korean>MG36 6.5mm (카키)</Korean>
+						<Chinesesimp>MG36 6.5 毫米（卡其色）</Chinesesimp>
+						<Japanese>MG36 6.5mm （カーキ）</Japanese>
+						<Turkish>MG36 6.5 mm (Haki)</Turkish>
+					</Key>
+				</Container>
+				<Container name="Library">
+					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_base_F_Library0">
+						<Original>**TO TRANSLATE**</Original>
+						<Chinese>**TO TRANSLATE**</Chinese>
+						<French>**TO TRANSLATE**</French>
+						<Spanish>**TO TRANSLATE**</Spanish>
+						<Italian>**TO TRANSLATE**</Italian>
+						<Polish>**TO TRANSLATE**</Polish>
+						<Russian>**TO TRANSLATE**</Russian>
+						<German>**TO TRANSLATE**</German>
+						<Czech>**TO TRANSLATE**</Czech>
+						<English>**TO TRANSLATE**</English>
+						<Portuguese>**TO TRANSLATE**</Portuguese>
+						<Korean>**TO TRANSLATE**</Korean>
+						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+						<Japanese>**TO TRANSLATE**</Japanese>
+						<Turkish>**TO TRANSLATE**</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_G36_base_F_Library0">
+						<Original>**TO TRANSLATE**</Original>
+						<Chinese>**TO TRANSLATE**</Chinese>
+						<French>**TO TRANSLATE**</French>
+						<Spanish>**TO TRANSLATE**</Spanish>
+						<Italian>**TO TRANSLATE**</Italian>
+						<Polish>**TO TRANSLATE**</Polish>
+						<Russian>**TO TRANSLATE**</Russian>
+						<German>**TO TRANSLATE**</German>
+						<Czech>**TO TRANSLATE**</Czech>
+						<English>**TO TRANSLATE**</English>
+						<Portuguese>**TO TRANSLATE**</Portuguese>
+						<Korean>**TO TRANSLATE**</Korean>
+						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+						<Japanese>**TO TRANSLATE**</Japanese>
+						<Turkish>**TO TRANSLATE**</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0">
+						<Original>**TO TRANSLATE**</Original>
+						<Chinese>**TO TRANSLATE**</Chinese>
+						<French>**TO TRANSLATE**</French>
+						<Spanish>**TO TRANSLATE**</Spanish>
+						<Italian>**TO TRANSLATE**</Italian>
+						<Polish>**TO TRANSLATE**</Polish>
+						<Russian>**TO TRANSLATE**</Russian>
+						<German>**TO TRANSLATE**</German>
+						<Czech>**TO TRANSLATE**</Czech>
+						<English>**TO TRANSLATE**</English>
+						<Portuguese>**TO TRANSLATE**</Portuguese>
+						<Korean>**TO TRANSLATE**</Korean>
+						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+						<Japanese>**TO TRANSLATE**</Japanese>
+						<Turkish>**TO TRANSLATE**</Turkish>
+					</Key>
+				</Container>
+			</Container>
+			<Container name="Magazines">
+				<Container name="DescriptionShort">
+					<Key ID="STR_A3_A_CfgMagazines_I_I_IR_Grenade1">
+						<Original>Type: IR Strobe&lt;br /&gt;Faction: IDF&lt;br /&gt;Rounds: 1</Original>
+						<Chinese>種類：紅外線信標&lt;br /&gt;派系：IDF&lt;br /&gt;個數：1</Chinese>
+						<French>Type : projecteur infrarouge&lt;br /&gt;Faction : IDF&lt;br /&gt;Munitions : 1</French>
+						<Spanish>Tipo: Estroboscopio IR&lt;br /&gt;Facción: IDF&lt;br /&gt;Cargas: 1</Spanish>
+						<Italian>Tipo: Stroboscopio IR&lt;br /&gt;Fazione: IDF&lt;br /&gt;Munizioni: 1</Italian>
+						<Polish>Typ: znacznik IR&lt;br /&gt;Frakcja: IDF&lt;br /&gt;Magazynek: 1</Polish>
+						<Russian>Тип: ИК-строб&lt;br /&gt;Фракция: IDF&lt;br /&gt;Шт.: 1</Russian>
+						<German>Typ: IR-Blitzleuchte&lt;br /&gt;Gruppierung: IDF&lt;br /&gt;Patronen: 1</German>
+						<Czech>Typ: Infračervené světlo&lt;br /&gt;Frakce: IDF&lt;br /&gt;Munice: 1</Czech>
+						<English>Type: IR Strobe&lt;br /&gt;Faction: IDF&lt;br /&gt;Rounds: 1</English>
+						<Portuguese>Tipo: Estroboscópio IV&lt;br /&gt;Facção: IDF&lt;br /&gt;Quantidade: 1</Portuguese>
+						<Korean>종류: 적외선섬광등&lt;br /&gt;세력: IDF&lt;br /&gt;탄 수: 1</Korean>
+						<Chinesesimp>类型：红外频闪弹&lt;br /&gt;派系：IDF&lt;br /&gt;容弹量：1</Chinesesimp>
+						<Japanese>タイプ：赤外線ストロボ&lt;br /&gt;勢力：IDF&lt;br /&gt;弾薬：1</Japanese>
+						<Turkish>Tür: IR Stroboskop&lt;br /&gt;Fraksiyon: IDF&lt;br /&gt;Mermi: 1</Turkish>
+					</Key>
+				</Container>
+				<Container name="DisplayName">
+					<Key ID="STR_A3_A_CfgMagazines_I_I_IR_Grenade0">
+						<Original>IR Grenade [IDF]</Original>
+						<Chinese>紅外線手榴彈（IDF）</Chinese>
+						<French>Grenade infrarouge [IDF]</French>
+						<Spanish>Granada IR [IDF]</Spanish>
+						<Italian>Granata IR [IDF]</Italian>
+						<Polish>Granat IR [IDF]</Polish>
+						<Russian>ИК-граната [IDF]</Russian>
+						<German>IR-Granate [IDF]</German>
+						<Czech>Infračervený granát [IDF]</Czech>
+						<English>IR Grenade [IDF]</English>
+						<Portuguese>Granada de IV [IDF]</Portuguese>
+						<Korean>적외선수류탄[IDF]</Korean>
+						<Chinesesimp>红外枪榴弹 [IDF]</Chinesesimp>
+						<Japanese>赤外線グレネード[IDF]</Japanese>
+						<Turkish>IR El Bombası [IDF]</Turkish>
+					</Key>
+				</Container>
+			</Container>
+		</Container>
+	</Package>
+</Project>
