@@ -1,0 +1,26 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+class CfgVehicles
+{
+	// Arma 3
+	class Helicopter_Base_F;
+	class Heli_Attack_01_base_F: Helicopter_Base_F
+	{
+		class TextureSources
+		{
+			class Grey
+			{
+				factions[] =
+				{
+					BLU_F,
+					BLU_T_F,
+					BLU_W_F,
+					BLU_USMC_F
+				};
+			};
+		};
+	};
+	class B_Heli_Attack_01_dynamicLoadout_F;
+	// Arma 3 Marine Corps
+	#include "cfgUSMC.hpp"
+};

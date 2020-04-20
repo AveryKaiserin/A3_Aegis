@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3Marine">
+	<Package name="Language_Marine">
+		<Container name="Characters_F">
+			<Container name="Groups">
+				<Key ID="STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry0">
+					<Original>Infantry (Desert)</Original>
+					<Chinese>步兵（沙漠）</Chinese>
+					<French>Infanterie (désert)</French>
+					<Spanish>Infantería (desierto)</Spanish>
+					<Italian>Fanteria (deserto)</Italian>
+					<Polish>Piechota (pustynia)</Polish>
+					<Russian>Пехота (пустыня)</Russian>
+					<German>Infanterie (Wüste)</German>
+					<Czech>Pěchota (poušť)</Czech>
+					<English>Infantry (Desert)</English>
+					<Portuguese>Infantaria (Deserto)</Portuguese>
+					<Korean>보병(사막)</Korean>
+					<Chinesesimp>步兵（沙漠）</Chinesesimp>
+					<Japanese>歩兵（砂漠）</Japanese>
+					<Turkish>Piyade (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry_W0">
+					<Original>Infantry (Woodland)</Original>
+					<Chinese>步兵（森林）</Chinese>
+					<French>Infanterie (forêt)</French>
+					<Spanish>Infantería (bosque)</Spanish>
+					<Italian>Fanteria (boschi)</Italian>
+					<Polish>Piechota (las)</Polish>
+					<Russian>Пехота (лес)</Russian>
+					<German>Infanterie (Waldland)</German>
+					<Czech>Pěchota (woodland)</Czech>
+					<English>Infantry (Woodland)</English>
+					<Portuguese>Infantaria (floresta)</Portuguese>
+					<Korean>보병(산악)</Korean>
+					<Chinesesimp>步兵（林地）</Chinesesimp>
+					<Japanese>歩兵（森林）</Japanese>
+					<Turkish>Piyade (Ağaçlık)</Turkish>
+				</Key>
+			</Container>
+			<Container name="Headgear">
+				<Key ID="STR_A3_M_CfgWeapons_H_MilCap_desert0">
+					<Original>Military Cap (Desert) [USMC]</Original>
+					<Chinese>軍用棒球帽（沙漠）（USMC）</Chinese>
+					<French>Casquette militaire (désert) [USMC]</French>
+					<Spanish>Gorra militar (desierto) [USMC]</Spanish>
+					<Italian>Berretto militare (deserto) [USMC]</Italian>
+					<Polish>Czapka wojskowa (pustynia) [USMC]</Polish>
+					<Russian>Армейская кепка (пустыня) [USMC]</Russian>
+					<German>Militärmütze (Wüste) [USMC]</German>
+					<Czech>Vojenská čepice (poušť) [USMC]</Czech>
+					<English>Military Cap (Desert) [USMC]</English>
+					<Portuguese>Boné militar (Deserto) [USMC]</Portuguese>
+					<Korean>군용모자(사막) [USMC]</Korean>
+					<Chinesesimp>军帽（沙漠） [USMC]</Chinesesimp>
+					<Japanese>ミリタリーキャップ（砂漠） [USMC]</Japanese>
+					<Turkish>Askeri Kasket (Çöl) [USMC]</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_H_MilCap_mwdl0">
+					<Original>Military Cap (Woodland) [USMC]</Original>
+					<Chinese>軍用棒球帽（森林）（USMC）</Chinese>
+					<French>Casquette militaire (forêt) [USMC]</French>
+					<Spanish>Gorra militar (bosque) [USMC]</Spanish>
+					<Italian>Berretto militare (boschi) [USMC]</Italian>
+					<Polish>Czapka wojskowa (las) [USMC]</Polish>
+					<Russian>Армейская кепка (лес) [USMC]</Russian>
+					<German>Militärmütze (Waldland) [USMC]</German>
+					<Czech>Vojenská čepice (woodland) [USMC]</Czech>
+					<English>Military Cap (Woodland) [USMC]</English>
+					<Portuguese>Boné militar (floresta) [USMC]</Portuguese>
+					<Korean>군용모자(산악) [USMC]</Korean>
+					<Chinesesimp>军帽（林地） [USMC]</Chinesesimp>
+					<Japanese>ミリタリーキャップ（森林） [USMC]</Japanese>
+					<Turkish>Askeri Kasket (Ağaçlık) [USMC]</Turkish>
+				</Key>
+			</Container>
+			<Container name="Uniforms">
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_desert_f0">
+					<Original>MCU Combat Uniform (Desert)</Original>
+					<Chinese>MCU 作戰服（沙漠）</Chinese>
+					<French>Uniforme de combat MCU (désert)</French>
+					<Spanish>Uniforme de combate del MCU (desierto)</Spanish>
+					<Italian>Uniforme da combattimento MCU (deserto)</Italian>
+					<Polish>Mundur bojowy MCU (pustynia)</Polish>
+					<Russian>Боевая форма MCU (пустыня)</Russian>
+					<German>MCU-Kampfuniform (Wüste)</German>
+					<Czech>Bojová uniforma MCU (poušť)</Czech>
+					<English>MCU Combat Uniform (Desert)</English>
+					<Portuguese>Uniforme de combate MCU (Deserto)</Portuguese>
+					<Korean>MCU 군복(사막)</Korean>
+					<Chinesesimp>MCU 作战服（沙漠）</Chinesesimp>
+					<Japanese>MCU戦闘服（砂漠）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_wdl_f0">
+					<Original>MCU Combat Uniform (Woodland)</Original>
+					<Chinese>MCU 作戰服（森林）</Chinese>
+					<French>Uniforme de combat MCU (forêt)</French>
+					<Spanish>Uniforme de combate del MCU (bosque)</Spanish>
+					<Italian>Uniforme da combattimento MCU (boschi)</Italian>
+					<Polish>Mundur bojowy MCU (las)</Polish>
+					<Russian>Боевая форма MCU (лес)</Russian>
+					<German>MCU-Kampfuniform (Waldland)</German>
+					<Czech>Bojová uniforma MCU (woodland)</Czech>
+					<English>MCU Combat Uniform (Woodland)</English>
+					<Portuguese>Uniforme de combate MCU (floresta)</Portuguese>
+					<Korean>MCU 군복(산악)</Korean>
+					<Chinesesimp>MCU 作战服（林地）</Chinesesimp>
+					<Japanese>MCU戦闘服（森林）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Ağaçlık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_tshirt_desert_f0">
+					<Original>MCU Combat Uniform (Desert, Tee)</Original>
+					<Chinese>MCU 作戰服（沙漠，T 恤）</Chinese>
+					<French>Uniforme de combat MCU (désert, t-shirt)</French>
+					<Spanish>Uniforme de combate del MCU (desierto, camiseta)</Spanish>
+					<Italian>Unif. combattimento MCU (deserto, man. corte)</Italian>
+					<Polish>Mundur bojowy MCU (pustynia, koszulka)</Polish>
+					<Russian>Боевая форма MCU (пустыня, футболка)</Russian>
+					<German>MCU-Kampfuniform (Wüste, T-Shirt)</German>
+					<Czech>Bojová uniforma MCU (poušť, triko)</Czech>
+					<English>MCU Combat Uniform (Desert, Tee)</English>
+					<Portuguese>Uniforme de combate MCU (Deserto, camiseta)</Portuguese>
+					<Korean>MCU 군복(사막, 티셔츠)</Korean>
+					<Chinesesimp>MCU 作战服（沙漠，T 恤）</Chinesesimp>
+					<Japanese>MCU戦闘服（砂漠、T シャツ）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Çöl, Tişört)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_tshirt_wdl_f0">
+					<Original>MCU Combat Uniform (Woodland, Tee)</Original>
+					<Chinese>MCU 作戰服（森林，T 恤）</Chinese>
+					<French>Uniforme de combat MCU (forêt, t-shirt)</French>
+					<Spanish>Uniforme de combate del MCU (bosque, camiseta)</Spanish>
+					<Italian>Unif. combattimento MCU (boschi, man. corte)</Italian>
+					<Polish>Mundur bojowy MCU (las, koszulka)</Polish>
+					<Russian>Боевая форма MCU (лес, футболка)</Russian>
+					<German>MCU-Kampfuniform (Waldland, T-Shirt)</German>
+					<Czech>Bojová uniforma MCU (woodland, triko)</Czech>
+					<English>MCU Combat Uniform (Woodland, Tee)</English>
+					<Portuguese>Uniforme de combate MCU (floresta, camiseta)</Portuguese>
+					<Korean>MCU 군복(산악, 티셔츠)</Korean>
+					<Chinesesimp>MCU 作战服（林地，T 恤）</Chinesesimp>
+					<Japanese>MCU戦闘服（森林、T シャツ）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Ağaçlık, Tişört)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_vest_desert_f0">
+					<Original>MCU Combat Uniform (Desert, Rolled-up)</Original>
+					<Chinese>MCU 作戰服（沙漠，捲袖）</Chinese>
+					<French>Uniforme de combat MCU (désert, manches retroussées)</French>
+					<Spanish>Uniforme de combate del MCU (desierto, remangado)</Spanish>
+					<Italian>Unif. combattimento MCU (deserto, man. arr.)</Italian>
+					<Polish>Mundur bojowy MCU (pustynia, podkasany)</Polish>
+					<Russian>Боевая форма MCU (пустыня, закатанные рукава)</Russian>
+					<German>MCU-Kampfuniform (Wüste, hochgerollt)</German>
+					<Czech>Bojová uniforma MCU (poušť, vyhrnutá)</Czech>
+					<English>MCU Combat Uniform (Desert, Rolled-up)</English>
+					<Portuguese>Uniforme de combate MCU (Deserto, manga dobrada)</Portuguese>
+					<Korean>MCU 군복(사막, 팔 걷음)</Korean>
+					<Chinesesimp>MCU 作战服（沙漠，卷起）</Chinesesimp>
+					<Japanese>MCU戦闘服（砂漠、袖まくり）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Çöl, Kolları Kıvrık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_vest_wdl_f0">
+					<Original>MCU Combat Uniform (Woodland, Rolled-up)</Original>
+					<Chinese>MCU 作戰服（森林，捲袖）</Chinese>
+					<French>Uniforme de combat MCU (forêt, manches retroussées)</French>
+					<Spanish>Uniforme de combate del MCU (bosque, remangado)</Spanish>
+					<Italian>Unif. combattimento MCU (boschi, man. arr.)</Italian>
+					<Polish>Mundur bojowy MCU (las, podkasany)</Polish>
+					<Russian>Боевая форма MCU (лес, закатанные рукава)</Russian>
+					<German>MCU-Kampfuniform (Waldland, hochgerollt)</German>
+					<Czech>Bojová uniforma MCU (woodland, vyhrnutá)</Czech>
+					<English>MCU Combat Uniform (Woodland, Rolled-up)</English>
+					<Portuguese>Uniforme de combate MCU (floresta, manga dobrada)</Portuguese>
+					<Korean>MCU 군복(산악, 팔 걷음)</Korean>
+					<Chinesesimp>MCU 作战服（林地，卷起）</Chinesesimp>
+					<Japanese>MCU戦闘服（森林、袖まくり）</Japanese>
+					<Turkish>MCU Savaş Üniforması (Ağaçlık, Kolları Kıvrık)</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="Data_F">
+			<Container name="Faction_Classes">
+				<Key ID="STR_A3_M_CfgFactionClasses_BLU_USMC_F0">
+					<Original>USMC</Original>
+					<Chinese>USMC</Chinese>
+					<French>USMC</French>
+					<Spanish>USMC</Spanish>
+					<Italian>USMC</Italian>
+					<Polish>USMC</Polish>
+					<Russian>USMC</Russian>
+					<German>USMC</German>
+					<Czech>USMC</Czech>
+					<English>USMC</English>
+					<Portuguese>USMC</Portuguese>
+					<Korean>USMC</Korean>
+					<Chinesesimp>USMC</Chinesesimp>
+					<Japanese>USMC</Japanese>
+					<Turkish>USMC</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="ContentLicensing">
+			<Key ID="STR_A3_M_CfgMods_Marine_overview">
+				<Original>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Original>
+				<Chinese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Chinese>
+				<French>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</French>
+				<Spanish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Spanish>
+				<Italian>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Italian>
+				<Polish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Polish>
+				<Russian>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Russian>
+				<German>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</German>
+				<Czech>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Czech>
+				<English>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</English>
+				<Portuguese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Portuguese>
+				<Korean>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Korean>
+				<Chinesesimp>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Chinesesimp>
+				<Japanese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Japanese>
+				<Turkish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Turkish>
+			</Key>
+			<Key ID="STR_A3_M_CfgMods_Marine_name">
+				<Original>Arma 3 Marine Corps</Original>
+				<Chinese>Arma 3 Marine Corps</Chinese>
+				<French>Arma 3 Marine Corps</French>
+				<Spanish>Arma 3 Marine Corps</Spanish>
+				<Italian>Arma 3 Marine Corps</Italian>
+				<Polish>Arma 3 Marine Corps</Polish>
+				<Russian>Arma 3 Marine Corps</Russian>
+				<German>Arma 3 Marine Corps</German>
+				<Czech>Arma 3 Marine Corps</Czech>
+				<English>Arma 3 Marine Corps</English>
+				<Portuguese>Arma 3 Marine Corps</Portuguese>
+				<Korean>Arma 3 Marine Corps</Korean>
+				<Chinesesimp>Arma 3 Marine Corps</Chinesesimp>
+				<Japanese>Arma 3 Marine Corps</Japanese>
+				<Turkish>Arma 3 Marine Corps</Turkish>
+			</Key>
+			<Key ID="STR_A3_M_CfgMods_Marine_nameShort">
+				<Original>Marine Corps</Original>
+				<Chinese>Marine Corps</Chinese>
+				<French>Marine Corps</French>
+				<Spanish>Marine Corps</Spanish>
+				<Italian>Marine Corps</Italian>
+				<Polish>Marine Corps</Polish>
+				<Russian>Marine Corps</Russian>
+				<German>Marine Corps</German>
+				<Czech>Marine Corps</Czech>
+				<English>Marine Corps</English>
+				<Portuguese>Marine Corps</Portuguese>
+				<Korean>Marine Corps</Korean>
+				<Chinesesimp>Marine Corps</Chinesesimp>
+				<Japanese>Marine Corps</Japanese>
+				<Turkish>Marine Corps</Turkish>
+			</Key>
+		</Container>
+		<Container name="Structures_F">
+        	<Container name="Military">
+				<Container name="Flags">
+					<Key ID="STR_A3_M_CfgVehicles_Flag_USMC_F0">
+						<Original>Flag (USMC)</Original>
+						<Chinese>旗幟（USMC）</Chinese>
+						<French>Drapeau (USMC)</French>
+						<Spanish>Bandera (USMC)</Spanish>
+						<Italian>Bandiera (USMC)</Italian>
+						<Polish>Flaga (USMC)</Polish>
+						<Russian>Флаг (USMC)</Russian>
+						<German>Flagge (USMC)</German>
+						<Czech>Vlajka (USMC)</Czech>
+						<English>Flag (USMC)</English>
+						<Portuguese>Bandeira (USMC)</Portuguese>
+						<Korean>깃발 (USMC)</Korean>
+						<Chinesesimp>旗标 (USMC)</Chinesesimp>
+						<Japanese>旗（USMC）</Japanese>
+						<Turkish>Bayrak (USMC)</Turkish>
+					</Key>
+					<Key ID="STR_A3_M_CfgVehicles_Banner_01_USMC_F0">
+						<Original>Banner (USMC)</Original>
+						<Chinese>徽記（USMC）</Chinese>
+						<French>Bannière (USMC)</French>
+						<Spanish>Estandarte (USMC)</Spanish>
+						<Italian>Striscione (USMC)</Italian>
+						<Polish>Sztandar (USMC)</Polish>
+						<Russian>Баннер (USMC)</Russian>
+						<German>Banner (USMC)</German>
+						<Czech>Prapor (USMC)</Czech>
+						<English>Banner (USMC)</English>
+						<Portuguese>Bandeira (USMC)</Portuguese>
+						<Korean>배너 (USMC)</Korean>
+						<Chinesesimp>横幅 (USMC)</Chinesesimp>
+						<Japanese>垂れ幕（USMC）</Japanese>
+						<Turkish>Flama (USMC)</Turkish>
+					</Key>
+				</Container>
+			</Container>
+		</Container>
+	</Package>
+</Project>
