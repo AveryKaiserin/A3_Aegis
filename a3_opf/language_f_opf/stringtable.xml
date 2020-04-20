@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3Opfor">
+	<Package name="Language_Opfor">
+		<Container name="Characters_F">
+			<Container name="Groups">
+			</Container>
+			<Container name="Headgear">
+				<Key ID="STR_A3_O_CfgWeapons_H_MilCap_rucamo0">
+					<Original>Military Cap (Raven Security)</Original>
+					<Chinese>軍用棒球帽（Raven Security）</Chinese>
+					<French>Casquette militaire (Raven Security)</French>
+					<Spanish>Gorra militar (Raven Security)</Spanish>
+					<Italian>Berretto militare (Raven Security)</Italian>
+					<Polish>Czapka wojskowa (Raven Security)</Polish>
+					<Russian>Армейская кепка (Raven Security)</Russian>
+					<German>Militärmütze (Raven Security)</German>
+					<Czech>Vojenská čepice (Raven Security)</Czech>
+					<English>Military Cap (Raven Security)</English>
+					<Portuguese>Boné militar (Raven Security)</Portuguese>
+					<Korean>군용모자(레이븐 보안)</Korean>
+					<Chinesesimp>军帽（Raven Security）</Chinesesimp>
+					<Japanese>ミリタリーキャップ（レイヴンのセキュリティ）</Japanese>
+					<Turkish>Askeri Kasket (Kuzgun Güvenliği)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven0">
+					<Original>Cap (Raven Security)</Original>
+					<Chinese>棒球帽（Raven Security）</Chinese>
+					<French>Casquette (Raven Security)</French>
+					<Spanish>Gorra (Raven Security)</Spanish>
+					<Italian>Cappellino (Raven Security)</Italian>
+					<Polish>Czapka (Raven Security)</Polish>
+					<Russian>Кепка (Raven Security)</Russian>
+					<German>Mütze (Raven Security)</German>
+					<Czech>Čepice (Raven Security)</Czech>
+					<English>Cap (Raven Security)</English>
+					<Portuguese>Boné (Raven Security)</Portuguese>
+					<Korean>모자(레이븐 보안)</Korean>
+					<Chinesesimp>无檐帽（Raven Security）</Chinesesimp>
+					<Japanese>キャップ（レイヴンのセキュリティ）</Japanese>
+					<Turkish>Kasket (Kuzgun Güvenliği)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven_hs0">
+					<Original>Cap (Raven Security, Headset)</Original>
+					<Chinese>棒球帽（Raven Security，耳機）</Chinese>
+					<French>Casquette (Raven Security, micro-casque)</French>
+					<Spanish>Gorra (Raven Security, auricular)</Spanish>
+					<Italian>Cappello (Raven Security, cuffia)</Italian>
+					<Polish>Czapka (Raven Security, headset)</Polish>
+					<Russian>Кепи (Raven Security, гарнитура)</Russian>
+					<German>Mütze (Raven Security, Headset)</German>
+					<Czech>Čepice (Raven Security, náhlavní souprava)</Czech>
+					<English>Cap (Raven Security, Headset)</English>
+					<Portuguese>Boné (Raven Security, headset)</Portuguese>
+					<Korean>모자(레이븐 보안, 헤드셋)</Korean>
+					<Chinesesimp>无檐帽（Raven Security，头戴式耳机）</Chinesesimp>
+					<Japanese>キャップ（レイヴンのセキュリティ、ヘッドセット）</Japanese>
+					<Turkish>Şapka (Kuzgun Güvenliği, Baş Giysisi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Cap_headphones_Raven0">
+					<Original>Rangemaster Cap (Raven Security)</Original>
+					<Chinese>賽場管理人帽（Raven Security）</Chinese>
+					<French>Casquette d'intendant (Raven Security)</French>
+					<Spanish>Gorra de responsable de galería de tiro (Raven Security)</Spanish>
+					<Italian>Cappello responsabile poligono (Raven Security)</Italian>
+					<Polish>Czapka instruktora (Raven Security)</Polish>
+					<Russian>Кепка инструктора (Raven Security)</Russian>
+					<German>Schießplatzverwalter-Mütze (Raven Security)</German>
+					<Czech>Čepice vedoucího střelby (Raven Security)</Czech>
+					<English>Rangemaster Cap (Raven Security)</English>
+					<Portuguese>Boné do líder de combate a distância (Raven Security)</Portuguese>
+					<Korean>사격통제관 모자(레이븐 보안)</Korean>
+					<Chinesesimp>靶场总监帽子（Raven Security）</Chinesesimp>
+					<Japanese>射撃場管理者キャップ（レイヴンのセキュリティ）</Japanese>
+					<Turkish>Menzil Ustası Şapkası (Kuzgun Güvenliği)</Turkish>
+				</Key>
+			</Container>
+			<Container name="Uniforms">
+			</Container>
+			<Container name="Vests">
+			</Container>
+		</Container>
+		<Container name="Data_F">
+			<Container name="Faction_Classes">
+				<Key ID="STR_A3_O_CfgFactionClasses_OPF_P_F0">
+					<Original>Paramilitary</Original>
+					<Chinese>準軍事</Chinese>
+					<French>Paramilitaires</French>
+					<Spanish>Paramilitares</Spanish>
+					<Italian>Paramilitari</Italian>
+					<Polish>Paramil.</Polish>
+					<Russian>Bоенные</Russian>
+					<German>Paramilitär</German>
+					<Czech>Polovojenští</Czech>
+					<English>Paramilitary</English>
+					<Portuguese>Paramilitares</Portuguese>
+					<Korean>민병대</Korean>
+					<Chinesesimp>准军事部队</Chinesesimp>
+					<Japanese>民兵</Japanese>
+					<Turkish>Paramiliter</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_IND_R_F0">
+					<Original>Raven</Original>
+					<Chinese>Raven</Chinese>
+					<French>Raven</French>
+					<Spanish>Raven</Spanish>
+					<Italian>Raven</Italian>
+					<Polish>Raven</Polish>
+					<Russian>Raven</Russian>
+					<German>Raven</German>
+					<Czech>Raven</Czech>
+					<English>Raven</English>
+					<Portuguese>Raven</Portuguese>
+					<Korean>레이븐</Korean>
+					<Chinesesimp>Raven</Chinesesimp>
+					<Japanese>レイヴン</Japanese>
+					<Turkish>Kuzgun</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_OPF_E_F0">
+					<Original>Separatists</Original>
+					<Chinese>Separatists</Chinese>
+					<French>Separatists</French>
+					<Spanish>Separatists</Spanish>
+					<Italian>Separatists</Italian>
+					<Polish>Separatists</Polish>
+					<Russian>Separatists</Russian>
+					<German>Separatists</German>
+					<Czech>Separatists</Czech>
+					<English>Separatists</English>
+					<Portuguese>Separatists</Portuguese>
+					<Korean>Separatists</Korean>
+					<Chinesesimp>Separatists</Chinesesimp>
+					<Japanese>Separatists</Japanese>
+					<Turkish>Separatists</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_IND_T_F0">
+					<Original>Insurgents</Original>
+					<Chinese>Insurgents</Chinese>
+					<French>Insurgents</French>
+					<Spanish>Insurgents</Spanish>
+					<Italian>Insurgents</Italian>
+					<Polish>Insurgents</Polish>
+					<Russian>Insurgents</Russian>
+					<German>Insurgents</German>
+					<Czech>Insurgents</Czech>
+					<English>Insurgents</English>
+					<Portuguese>Insurgents</Portuguese>
+					<Korean>Insurgents</Korean>
+					<Chinesesimp>Insurgents</Chinesesimp>
+					<Japanese>Insurgents</Japanese>
+					<Turkish>Insurgents</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="ContentLicensing">
+			<Key ID="STR_A3_cfgMods_Opfor_overview">
+				<Original>TODO</Original>
+				<Chinese>TODO</Chinese>
+				<French>TODO</French>
+				<Spanish>TODO</Spanish>
+				<Italian>TODO</Italian>
+				<Polish>TODO</Polish>
+				<Russian>TODO</Russian>
+				<German>TODO</German>
+				<Czech>TODO</Czech>
+				<English>TODO</English>
+				<Portuguese>TODO</Portuguese>
+				<Korean>TODO</Korean>
+				<Chinesesimp>TODO</Chinesesimp>
+				<Japanese>TODO</Japanese>
+				<Turkish>TODO</Turkish>
+			</Key>
+			<Key ID="STR_A3_cfgMods_Opfor_name">
+				<Original>Arma 3 Opposing Forces</Original>
+				<Chinese>Arma 3 Opposing Forces</Chinese>
+				<French>Arma 3 Opposing Forces</French>
+				<Spanish>Arma 3 Opposing Forces</Spanish>
+				<Italian>Arma 3 Opposing Forces</Italian>
+				<Polish>Arma 3 Opposing Forces</Polish>
+				<Russian>Arma 3 Opposing Forces</Russian>
+				<German>Arma 3 Opposing Forces</German>
+				<Czech>Arma 3 Opposing Forces</Czech>
+				<English>Arma 3 Opposing Forces</English>
+				<Portuguese>Arma 3 Opposing Forces</Portuguese>
+				<Korean>Arma 3 Opposing Forces</Korean>
+				<Chinesesimp>Arma 3 Opposing Forces</Chinesesimp>
+				<Japanese>Arma 3 Opposing Forces</Japanese>
+				<Turkish>Arma 3 Opposing Forces</Turkish>
+			</Key>
+			<Key ID="STR_A3_cfgMods_Opfor_nameShort">
+				<Original>Opposing Forces</Original>
+				<Chinese>Opposing Forces</Chinese>
+				<French>Opposing Forces</French>
+				<Spanish>Opposing Forces</Spanish>
+				<Italian>Opposing Forces</Italian>
+				<Polish>Opposing Forces</Polish>
+				<Russian>Opposing Forces</Russian>
+				<German>Opposing Forces</German>
+				<Czech>Opposing Forces</Czech>
+				<English>Opposing Forces</English>
+				<Portuguese>Opposing Forces</Portuguese>
+				<Korean>Opposing Forces</Korean>
+				<Chinesesimp>Opposing Forces</Chinesesimp>
+				<Japanese>Opposing Forces</Japanese>
+				<Turkish>Opposing Forces</Turkish>
+			</Key>
+		</Container>
+		<Container name="VhC">
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_010">
+				<Original>Insurgent 01</Original>
+				<Chinese>Insurgent 01</Chinese>
+				<French>Insurgent 01</French>
+				<Spanish>Insurgent 01</Spanish>
+				<Italian>Insurgent 01</Italian>
+				<Polish>Insurgent 01</Polish>
+				<Russian>Insurgent 01</Russian>
+				<German>Insurgent 01</German>
+				<Czech>Insurgent 01</Czech>
+				<English>Insurgent 01</English>
+				<Portuguese>Insurgent 01</Portuguese>
+				<Korean>Insurgent 01</Korean>
+				<Chinesesimp>Insurgent 01</Chinesesimp>
+				<Japanese>Insurgent 01</Japanese>
+				<Turkish>Insurgent 01</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_020">
+				<Original>Insurgent 02</Original>
+				<Chinese>Insurgent 02</Chinese>
+				<French>Insurgent 02</French>
+				<Spanish>Insurgent 02</Spanish>
+				<Italian>Insurgent 02</Italian>
+				<Polish>Insurgent 02</Polish>
+				<Russian>Insurgent 02</Russian>
+				<German>Insurgent 02</German>
+				<Czech>Insurgent 02</Czech>
+				<English>Insurgent 02</English>
+				<Portuguese>Insurgent 02</Portuguese>
+				<Korean>Insurgent 02</Korean>
+				<Chinesesimp>Insurgent 02</Chinesesimp>
+				<Japanese>Insurgent 02</Japanese>
+				<Turkish>Insurgent 02</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_030">
+				<Original>Insurgent 03</Original>
+				<Chinese>Insurgent 03</Chinese>
+				<French>Insurgent 03</French>
+				<Spanish>Insurgent 03</Spanish>
+				<Italian>Insurgent 03</Italian>
+				<Polish>Insurgent 03</Polish>
+				<Russian>Insurgent 03</Russian>
+				<German>Insurgent 03</German>
+				<Czech>Insurgent 03</Czech>
+				<English>Insurgent 03</English>
+				<Portuguese>Insurgent 03</Portuguese>
+				<Korean>Insurgent 03</Korean>
+				<Chinesesimp>Insurgent 03</Chinesesimp>
+				<Japanese>Insurgent 03</Japanese>
+				<Turkish>Insurgent 03</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_040">
+				<Original>Insurgent 04</Original>
+				<Chinese>Insurgent 04</Chinese>
+				<French>Insurgent 04</French>
+				<Spanish>Insurgent 04</Spanish>
+				<Italian>Insurgent 04</Italian>
+				<Polish>Insurgent 04</Polish>
+				<Russian>Insurgent 04</Russian>
+				<German>Insurgent 04</German>
+				<Czech>Insurgent 04</Czech>
+				<English>Insurgent 04</English>
+				<Portuguese>Insurgent 04</Portuguese>
+				<Korean>Insurgent 04</Korean>
+				<Chinesesimp>Insurgent 04</Chinesesimp>
+				<Japanese>Insurgent 04</Japanese>
+				<Turkish>Insurgent 04</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_050">
+				<Original>Insurgent 05</Original>
+				<Chinese>Insurgent 05</Chinese>
+				<French>Insurgent 05</French>
+				<Spanish>Insurgent 05</Spanish>
+				<Italian>Insurgent 05</Italian>
+				<Polish>Insurgent 05</Polish>
+				<Russian>Insurgent 05</Russian>
+				<German>Insurgent 05</German>
+				<Czech>Insurgent 05</Czech>
+				<English>Insurgent 05</English>
+				<Portuguese>Insurgent 05</Portuguese>
+				<Korean>Insurgent 05</Korean>
+				<Chinesesimp>Insurgent 05</Chinesesimp>
+				<Japanese>Insurgent 05</Japanese>
+				<Turkish>Insurgent 05</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_INSURGENT_060">
+				<Original>Insurgent 06</Original>
+				<Chinese>Insurgent 06</Chinese>
+				<French>Insurgent 06</French>
+				<Spanish>Insurgent 06</Spanish>
+				<Italian>Insurgent 06</Italian>
+				<Polish>Insurgent 06</Polish>
+				<Russian>Insurgent 06</Russian>
+				<German>Insurgent 06</German>
+				<Czech>Insurgent 06</Czech>
+				<English>Insurgent 06</English>
+				<Portuguese>Insurgent 06</Portuguese>
+				<Korean>Insurgent 06</Korean>
+				<Chinesesimp>Insurgent 06</Chinesesimp>
+				<Japanese>Insurgent 06</Japanese>
+				<Turkish>Insurgent 06</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_SEPARATIST_010">
+				<Original>Separatist 01</Original>
+				<Chinese>Separatist 01</Chinese>
+				<French>Separatist 01</French>
+				<Spanish>Separatist 01</Spanish>
+				<Italian>Separatist 01</Italian>
+				<Polish>Separatist 01</Polish>
+				<Russian>Separatist 01</Russian>
+				<German>Separatist 01</German>
+				<Czech>Separatist 01</Czech>
+				<English>Separatist 01</English>
+				<Portuguese>Separatist 01</Portuguese>
+				<Korean>Separatist 01</Korean>
+				<Chinesesimp>Separatist 01</Chinesesimp>
+				<Japanese>Separatist 01</Japanese>
+				<Turkish>Separatist 01</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_SEPARATIST_020">
+				<Original>Separatist 02</Original>
+				<Chinese>Separatist 02</Chinese>
+				<French>Separatist 02</French>
+				<Spanish>Separatist 02</Spanish>
+				<Italian>Separatist 02</Italian>
+				<Polish>Separatist 02</Polish>
+				<Russian>Separatist 02</Russian>
+				<German>Separatist 02</German>
+				<Czech>Separatist 02</Czech>
+				<English>Separatist 02</English>
+				<Portuguese>Separatist 02</Portuguese>
+				<Korean>Separatist 02</Korean>
+				<Chinesesimp>Separatist 02</Chinesesimp>
+				<Japanese>Separatist 02</Japanese>
+				<Turkish>Separatist 02</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_TEXTURESOURCES_SEPARATIST_030">
+				<Original>Separatist 03</Original>
+				<Chinese>Separatist 03</Chinese>
+				<French>Separatist 03</French>
+				<Spanish>Separatist 03</Spanish>
+				<Italian>Separatist 03</Italian>
+				<Polish>Separatist 03</Polish>
+				<Russian>Separatist 03</Russian>
+				<German>Separatist 03</German>
+				<Czech>Separatist 03</Czech>
+				<English>Separatist 03</English>
+				<Portuguese>Separatist 03</Portuguese>
+				<Korean>Separatist 03</Korean>
+				<Chinesesimp>Separatist 03</Chinesesimp>
+				<Japanese>Separatist 03</Japanese>
+				<Turkish>Separatist 03</Turkish>
+			</Key>
+		</Container>
+		<Container name="Soft_F">
+			<Key ID="STR_A3_O_CfgVehicles_O_E_Truck_02_AA_F0">
+				<Original>Zamak AA</Original>
+				<Chinese>Zamak AA</Chinese>
+				<French>Zamak AA</French>
+				<Spanish>Zamak AA</Spanish>
+				<Italian>Zamak AA</Italian>
+				<Polish>Zamak AA</Polish>
+				<Russian>Zamak AA</Russian>
+				<German>Zamak AA</German>
+				<Czech>Zamak AA</Czech>
+				<English>Zamak AA</English>
+				<Portuguese>Zamak AA</Portuguese>
+				<Korean>Zamak AA</Korean>
+				<Chinesesimp>Zamak AA</Chinesesimp>
+				<Japanese>Zamak AA</Japanese>
+				<Turkish>Zamak AA</Turkish>
+			</Key>
+		</Container>
+		<Container name="Structures_F">
+        	<Container name="Civilian">
+				<Container name="Dead">
+					<Key ID="STR_A3_O_CfgVehicles_Land_Grave_mass_F0">
+						<Original>Mass Grave</Original>
+						<Chinese>大墳墓</Chinese>
+						<French>Charnier</French>
+						<Spanish>Fosa común</Spanish>
+						<Italian>Fossa comune</Italian>
+						<Polish>Zbiorowa mogiła</Polish>
+						<Russian>Массовое захоронение</Russian>
+						<German>Massengrab</German>
+						<Czech>Masový hrob</Czech>
+						<English>Mass Grave</English>
+						<Portuguese>Sepultura em massa</Portuguese>
+						<Korean>대량 무덤</Korean>
+						<Chinesesimp>大坟墓</Chinesesimp>
+						<Japanese>集団墓地</Japanese>
+						<Turkish>Toplu Mezar</Turkish>
+					</Key>
+				</Container>
+			</Container>
+        	<Container name="Military">
+				<Container name="Flags">
+					<Key ID="STR_A3_O_CfgVehicles_Flag_ChDKZ_F0">
+						<Original>Flag (ChDKZ)</Original>
+						<Chinese>旗幟（ChDKZ）</Chinese>
+						<French>Drapeau (ChDKZ)</French>
+						<Spanish>Bandera (ChDKZ)</Spanish>
+						<Italian>Bandiera (ChDKZ)</Italian>
+						<Polish>Flaga (ChDKZ)</Polish>
+						<Russian>Флаг (ChDKZ)</Russian>
+						<German>Flagge (ChDKZ)</German>
+						<Czech>Vlajka (ChDKZ)</Czech>
+						<English>Flag (ChDKZ)</English>
+						<Portuguese>Bandeira (ChDKZ)</Portuguese>
+						<Korean>깃발 (ChDKZ)</Korean>
+						<Chinesesimp>旗标 (ChDKZ)</Chinesesimp>
+						<Japanese>旗（ChDKZ）</Japanese>
+						<Turkish>Bayrak (ChDKZ)</Turkish>
+					</Key>
+					<!--TODO-->
+					<Key ID="STR_A3_O_CfgVehicles_Flag_TKM_F0">
+						<Original>Flag (Insurgents)</Original>
+						<Chinese>旗幟（Insurgents）</Chinese>
+						<French>Drapeau (Insurgents)</French>
+						<Spanish>Bandera (Insurgents)</Spanish>
+						<Italian>Bandiera (Insurgents)</Italian>
+						<Polish>Flaga (Insurgents)</Polish>
+						<Russian>Флаг (Insurgents)</Russian>
+						<German>Flagge (Insurgents)</German>
+						<Czech>Vlajka (Insurgents)</Czech>
+						<English>Flag (Insurgents)</English>
+						<Portuguese>Bandeira (Insurgents)</Portuguese>
+						<Korean>깃발 (Insurgents)</Korean>
+						<Chinesesimp>旗标 (Insurgents)</Chinesesimp>
+						<Japanese>旗（Insurgents）</Japanese>
+						<Turkish>Bayrak (Insurgents)</Turkish>
+					</Key>
+					<Key ID="STR_A3_O_CfgVehicles_Banner_01_ChDKZ_F0">
+						<Original>Banner (ChDKZ)</Original>
+						<Chinese>徽記（ChDKZ）</Chinese>
+						<French>Bannière (ChDKZ)</French>
+						<Spanish>Estandarte (ChDKZ)</Spanish>
+						<Italian>Striscione (ChDKZ)</Italian>
+						<Polish>Sztandar (ChDKZ)</Polish>
+						<Russian>Баннер (ChDKZ)</Russian>
+						<German>Banner (ChDKZ)</German>
+						<Czech>Prapor (ChDKZ)</Czech>
+						<English>Banner (ChDKZ)</English>
+						<Portuguese>Bandeira (ChDKZ)</Portuguese>
+						<Korean>배너 (ChDKZ)</Korean>
+						<Chinesesimp>横幅 (ChDKZ)</Chinesesimp>
+						<Japanese>垂れ幕（ChDKZ）</Japanese>
+						<Turkish>Flama (ChDKZ)</Turkish>
+					</Key>
+					<!--TODO-->
+					<Key ID="STR_A3_O_CfgVehicles_Banner_01_TKM_F0">
+						<Original>Banner (Insurgents)</Original>
+						<Chinese>徽記（Insurgents）</Chinese>
+						<French>Bannière (Insurgents)</French>
+						<Spanish>Estandarte (Insurgents)</Spanish>
+						<Italian>Striscione (Insurgents)</Italian>
+						<Polish>Sztandar (Insurgents)</Polish>
+						<Russian>Баннер (Insurgents)</Russian>
+						<German>Banner (Insurgents)</German>
+						<Czech>Prapor (Insurgents)</Czech>
+						<English>Banner (Insurgents)</English>
+						<Portuguese>Bandeira (Insurgents)</Portuguese>
+						<Korean>배너 (Insurgents)</Korean>
+						<Chinesesimp>横幅 (Insurgents)</Chinesesimp>
+						<Japanese>垂れ幕（Insurgents）</Japanese>
+						<Turkish>Flama (Insurgents)</Turkish>
+					</Key>
+				</Container>
+			</Container>
+		</Container>
+		<Container name="UI_F">
+			<Key ID="STR_A3_O_CfgMarkers_flag_ChDKZ">
+				<Original>ChDKZ</Original>
+				<Chinese>ChDKZ</Chinese>
+				<French>ChDKZ</French>
+				<Spanish>ChDKZ</Spanish>
+				<Italian>ChDKZ</Italian>
+				<Polish>ChDKZ</Polish>
+				<Russian>ChDKZ</Russian>
+				<German>ChDKZ</German>
+				<Czech>ChDKZ</Czech>
+				<English>ChDKZ</English>
+				<Portuguese>ChDKZ</Portuguese>
+				<Korean>ChDKZ</Korean>
+				<Chinesesimp>ChDKZ</Chinesesimp>
+				<Japanese>ChDKZ</Japanese>
+				<Turkish>ChDKZ</Turkish>
+			</Key>
+			<Key ID="STR_A3_O_CfgMarkers_flag_TKM">
+				<Original>Insurgents</Original>
+				<Chinese>Insurgents</Chinese>
+				<French>Insurgents</French>
+				<Spanish>Insurgents</Spanish>
+				<Italian>Insurgents</Italian>
+				<Polish>Insurgents</Polish>
+				<Russian>Insurgents</Russian>
+				<German>Insurgents</German>
+				<Czech>Insurgents</Czech>
+				<English>Insurgents</English>
+				<Portuguese>Insurgents</Portuguese>
+				<Korean>Insurgents</Korean>
+				<Chinesesimp>Insurgents</Chinesesimp>
+				<Japanese>Insurgents</Japanese>
+				<Turkish>Insurgents</Turkish>
+			</Key>
+		</Container>
+		<Container name="Weapons_F">
+			<Container name="Rifles">
+				<Container name="DescriptionShort">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F1">
+						<Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</Original>
+						<Chinese>突擊步槍&lt;br/&gt;口徑：5.45x39 mm</Chinese>
+						<French>Fusil d'assaut&lt;br /&gt;Calibre : 7,62x39 mm</French>
+						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 7,62 x 39 mm</Spanish>
+						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 7,62x39 mm</Italian>
+						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 7,62x39 mm</Polish>
+						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 7,62x39 мм</Russian>
+						<German>Sturmgewehr&lt;br /&gt;Kaliber: 7,62x39 mm</German>
+						<Czech>Útočná puška&lt;br /&gt;Ráže: 7,62x39 mm</Czech>
+						<English>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</English>
+						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 7,62x39 mm</Portuguese>
+						<Korean>돌격소총&lt;br /&gt;구경: 7.62x39 mm</Korean>
+						<Chinesesimp>突击步枪&lt;br /&gt;口径：7.62x39 毫米</Chinesesimp>
+						<Japanese>アサルトライフル&lt;br /&gt;口径：7.62x39 mm</Japanese>
+						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 7.62x39 mm</Turkish>
+					</Key>
+				</Container>
+				<Container name="DisplayName">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F0">
+						<Original>SKS 7.62 mm</Original>
+						<Chinese>SKS 7.62 mm</Chinese>
+						<French>SKS 7,62 mm</French>
+						<Spanish>SKS 7,62 mm</Spanish>
+						<Italian>SKS 7,62 mm</Italian>
+						<Polish>SKS 7,62 mm</Polish>
+						<Russian>SKS 7,62 мм</Russian>
+						<German>SKS 7,62 mm</German>
+						<Czech>SKS 7,62 mm</Czech>
+						<English>SKS 7.62 mm</English>
+						<Portuguese>SKS 7,62 mm</Portuguese>
+						<Korean>SKS 7.62mm</Korean>
+						<Chinesesimp>SKS 7.62 毫米</Chinesesimp>
+						<Japanese>SKS 7.62mm</Japanese>
+						<Turkish>SKS 7.62 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_F0">
+						<Original>SKS 7.62 mm</Original>
+						<Chinese>SKS 7.62 mm</Chinese>
+						<French>SKS 7,62 mm</French>
+						<Spanish>SKS 7,62 mm</Spanish>
+						<Italian>SKS 7,62 mm</Italian>
+						<Polish>SKS 7,62 mm</Polish>
+						<Russian>SKS 7,62 мм</Russian>
+						<German>SKS 7,62 mm</German>
+						<Czech>SKS 7,62 mm</Czech>
+						<English>SKS 7.62 mm</English>
+						<Portuguese>SKS 7,62 mm</Portuguese>
+						<Korean>SKS 7.62mm</Korean>
+						<Chinesesimp>SKS 7.62 毫米</Chinesesimp>
+						<Japanese>SKS 7.62mm</Japanese>
+						<Turkish>SKS 7.62 mm</Turkish>
+					</Key>
+				</Container>
+				<Container name="Library">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F_Library0">
+						<Original>**TO TRANSLATE**</Original>
+						<Chinese>**TO TRANSLATE**</Chinese>
+						<French>**TO TRANSLATE**</French>
+						<Spanish>**TO TRANSLATE**</Spanish>
+						<Italian>**TO TRANSLATE**</Italian>
+						<Polish>**TO TRANSLATE**</Polish>
+						<Russian>**TO TRANSLATE**</Russian>
+						<German>**TO TRANSLATE**</German>
+						<Czech>**TO TRANSLATE**</Czech>
+						<English>**TO TRANSLATE**</English>
+						<Portuguese>**TO TRANSLATE**</Portuguese>
+						<Korean>**TO TRANSLATE**</Korean>
+						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+						<Japanese>**TO TRANSLATE**</Japanese>
+						<Turkish>**TO TRANSLATE**</Turkish>
+					</Key>
+				</Container>
+			</Container>
+			<Container name="Magazines">
+				<Container name="DescriptionShort">
+				</Container>
+				<Container name="DisplayName">
+				</Container>
+			</Container>
+		</Container>
+	</Package>
+</Project>
