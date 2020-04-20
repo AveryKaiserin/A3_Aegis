@@ -1,0 +1,44 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+class CfgVehicles
+{
+	// Arma 3 Apex
+	class Plane_Base_F;
+	class Plane_Civil_01_base_F: Plane_Base_F
+	{
+		class TextureSources
+		{
+			class White_1
+			{
+				displayName = $STR_A3_TEXTURESOURCES_WHITE0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_ext_01_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_ext_02_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_int_01_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_int_02_CO.paa"
+				};
+				factions[] = {CIV_F};
+			};
+			class White_2
+			{
+				displayName = "White (Tan Interior)";
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_ext_01_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_ext_02_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_int_01_tan_CO.paa",
+					"\A3\Air_F_Exp\Plane_Civil_01\Data\BTT_int_02_tan_CO.paa"
+				};
+				factions[] = {CIV_F};
+			};
+		};
+		textureList[] +=
+		{
+			White_1,1,
+			White_2,1
+		};
+	};
+};

@@ -1,0 +1,62 @@
+class O_T_Heli_Light_02_dynamicLoadout_ghex_F: O_Heli_Light_02_dynamicLoadout_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Heli_Light_02_dynamicLoadout_ghex_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_T_F;
+	crew = O_T_Helipilot_F;
+	typicalCargo[] = {O_T_Helipilot_F};
+	textureList[] =
+	{
+		Black,1,
+		Blackcustom,0,
+		GreenHex,0
+	};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellRed,2);
+		mag_xx(30Rnd_580x42_Mag_F,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_CTAR_blk_F,2);
+	};
+};
+class O_T_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Heli_Light_02_unarmed_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	scopeGarage = private;
+	displayName = $STR_A3_CfgVehicles_O_Heli_Light_02_Unarmed_F0;
+	accuracy = 1.5;
+	cost = 900000;
+	threat[] = {0.3,0.2,0.3};
+	radarType = CM_Lock_Radar;
+	side = TEast;
+	faction = OPF_T_F;
+	crew = O_T_Helipilot_F;
+	typicalCargo[] = {O_T_Helipilot_F};
+	textureList[] =
+	{
+		Black,1,
+		Blackcustom,0,
+		GreenHex,0
+	};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellRed,2);
+		mag_xx(30Rnd_580x42_Mag_F,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_CTAR_blk_F,2);
+	};
+};

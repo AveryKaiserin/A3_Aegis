@@ -1,0 +1,107 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+class CfgVehicles
+{
+	// Arma 3
+	class Air;
+	class Helicopter: Air
+	{
+		class Turrets;
+	};
+	class Helicopter_Base_F: Helicopter
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
+	class Heli_Attack_01_base_F: Helicopter_Base_F
+	{
+		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
+		reportRemoteTargets = true;
+		reportOwnPosition = true;
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				magazines[] =
+				{
+					500Rnd_20mm_shells,
+					4Rnd_AAA_missiles,
+					24Rnd_PG_missiles,
+					Laserbatteries
+				};
+			};
+		};
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3\Air_F_Beta\Heli_Attack_01\Data\Heli_Attack_01_CO.paa"};
+				factions[] =
+				{
+					BLU_F,
+					BLU_T_F,
+					BLU_W_F
+				};
+			};
+			class Black
+			{
+				displayName = $STR_A3_TEXTURESOURCES_BLACK0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_black_CO.paa"};
+				factions[] =
+				{
+					BLU_F,
+					BLU_T_F,
+					BLU_W_F
+				};
+			};
+			class Grey
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREY0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_grey_CO.paa"};
+				factions[] =
+				{
+					BLU_F,
+					BLU_T_F,
+					BLU_W_F
+				};
+			};
+		};
+		textureList[] =
+		{
+			Green,1,
+			Black,0,
+			Grey,0
+		};
+	};
+	class Heli_Attack_01_dynamicLoadout_base_F: Heli_Attack_01_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				magazines[] =
+				{
+					500Rnd_20mm_shells,
+					Laserbatteries
+				};
+			};
+		};
+	};
+	class B_Heli_Attack_01_F: Heli_Attack_01_base_F
+	{
+		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
+	};
+	class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
+	{
+		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
+	};
+	// Arma 3 Aegis
+	#include "cfgBlufor_Exp.hpp"
+	#include "cfgBlufor_Enoch.hpp"
+};
