@@ -1,0 +1,5 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+#include "cfgAddons.hpp"
+#include "cfgFactionClasses.hpp"
+#include "CfgMods.hpp"
