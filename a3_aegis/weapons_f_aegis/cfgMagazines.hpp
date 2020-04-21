@@ -173,8 +173,6 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F1;
 		count = 100;
 		mass = 20;
-		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_02_CO.paa"};
 	};
 	class 150Rnd_556x45_Drum_Sand_Mag_F: 150Rnd_556x45_Drum_Mag_F
 	{
