@@ -1689,7 +1689,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_Beret_AAF_01_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_AAF_01_F_CA.paa";
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_AAF_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_AAF_01_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_AAF_01.rvmat"};
 	};
@@ -1697,7 +1697,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_Beret_UNO_01_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_UNO_01_F_CA.paa";
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_UNO_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_UNO_01_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_UNO_01.rvmat"};
 	};
