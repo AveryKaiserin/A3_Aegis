@@ -12413,6 +12413,23 @@
 					<Japanese>ザフィール7.62 mm （黒）</Japanese>
 					<Turkish>Zafir 7.62 mm (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_LMG_Zafir_black_F1">
+					<Original>Light Machine Gun&lt;br /&gt;Caliber: 7.62x51 mm</Original>
+					<Chinese>輕機槍&lt;br /&gt;口徑：7.62x51 mm</Chinese>
+					<French>Mitrailleuse légère&lt;br /&gt;Calibre : 7,62x51 mm</French>
+					<Spanish>Ametralladora ligera&lt;br /&gt;Calibre: 7,62x51 mm</Spanish>
+					<Italian>Mitragliatrice leggera&lt;br /&gt;Calibro: 7,62x51 mm</Italian>
+					<Polish>Lekki karabin maszynowy&lt;br /&gt;Kaliber: 7,62x51 mm</Polish>
+					<Russian>Ручной пулемет&lt;br /&gt;Калибр: 7,62x51 мм</Russian>
+					<German>Leichtes Maschinengewehr&lt;br /&gt;Kaliber: 7,62x51 mm</German>
+					<Czech>Lehký kulomet&lt;br /&gt;Ráže: 7,62x51 mm</Czech>
+					<English>Light Machine Gun&lt;br /&gt;Caliber: 7.62x51 mm</English>
+					<Portuguese>Metralhadora leve&lt;br /&gt;Calibre: 7,62 x 51 mm</Portuguese>
+					<Korean>경기관총(LMG)&lt;br /&gt;구경: 7.62x51mm</Korean>
+					<Chinesesimp>轻机枪&lt;br /&gt;口径：7.62x51 毫米</Chinesesimp>
+					<Japanese>軽機関銃&lt;br /&gt;口径：7.62x51 mm</Japanese>
+					<Turkish>Hafif Makineli Tüfek&lt;br /&gt;Kalibre: 7.62x51 mm</Turkish>
+          		</Key>
 				<Key ID="STR_A3_A_CfgWeapons_LMG_Zafir_ghex_F0">
 					<Original>Zafir 7.62 mm (Green Hex)</Original>
 					<Chinese>Zafir 7.62 mm（綠色六邊形）</Chinese>

@@ -1978,6 +1978,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		baseWeapon = LMG_Zafir_black_F;
 		displayName = $STR_A3_A_CfgWeapons_LMG_Zafir_black_F0;
+		descriptionShort = $STR_A3_A_CfgWeapons_LMG_Zafir_black_F1;
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\Zafir\Data\Zafir01_black_CO.paa",
