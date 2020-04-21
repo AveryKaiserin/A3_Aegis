@@ -6,3 +6,4 @@
 
 # Binarized files
 *.bin
+**.ignore
