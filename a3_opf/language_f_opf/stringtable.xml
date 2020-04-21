@@ -19,7 +19,7 @@
 					<Portuguese>Boné militar (Raven Security)</Portuguese>
 					<Korean>군용모자(레이븐 보안)</Korean>
 					<Chinesesimp>军帽（Raven Security）</Chinesesimp>
-					<Japanese>ミリタリーキャップ（レイヴンのセキュリティ）</Japanese>
+					<Japanese>ミリタリーキャップ（レイヴン・セキュリティ）</Japanese>
 					<Turkish>Askeri Kasket (Kuzgun Güvenliği)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven0">
@@ -36,7 +36,7 @@
 					<Portuguese>Boné (Raven Security)</Portuguese>
 					<Korean>모자(레이븐 보안)</Korean>
 					<Chinesesimp>无檐帽（Raven Security）</Chinesesimp>
-					<Japanese>キャップ（レイヴンのセキュリティ）</Japanese>
+					<Japanese>キャップ（レイヴン・セキュリティ）</Japanese>
 					<Turkish>Kasket (Kuzgun Güvenliği)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven_hs0">
@@ -53,7 +53,7 @@
 					<Portuguese>Boné (Raven Security, headset)</Portuguese>
 					<Korean>모자(레이븐 보안, 헤드셋)</Korean>
 					<Chinesesimp>无檐帽（Raven Security，头戴式耳机）</Chinesesimp>
-					<Japanese>キャップ（レイヴンのセキュリティ、ヘッドセット）</Japanese>
+					<Japanese>キャップ（レイヴン・セキュリティ、ヘッドセット）</Japanese>
 					<Turkish>Şapka (Kuzgun Güvenliği, Baş Giysisi)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Cap_headphones_Raven0">
@@ -70,7 +70,7 @@
 					<Portuguese>Boné do líder de combate a distância (Raven Security)</Portuguese>
 					<Korean>사격통제관 모자(레이븐 보안)</Korean>
 					<Chinesesimp>靶场总监帽子（Raven Security）</Chinesesimp>
-					<Japanese>射撃場管理者キャップ（レイヴンのセキュリティ）</Japanese>
+					<Japanese>射撃場管理者キャップ（レイヴン・セキュリティ）</Japanese>
 					<Turkish>Menzil Ustası Şapkası (Kuzgun Güvenliği)</Turkish>
 				</Key>
 			</Container>
