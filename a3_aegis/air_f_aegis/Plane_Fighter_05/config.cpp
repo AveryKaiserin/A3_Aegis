@@ -48,7 +48,7 @@ class CfgVehicles
 	class PlaneWreck;
 	class Plane_Fighter_05_Base_F: Plane_Base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = private;
 		vehicleClass = Air;
 		side = TWest;
@@ -61,15 +61,15 @@ class CfgVehicles
 		driverAction = Pilot_Plane_Fighter_05;
 		driverLeftHandAnimName = throttle_pilot;
 		driverRightHandAnimName = stick_pilot;
-		precisegetinout = false;
+		precisegetinout = true;
 		driverCanEject = false;
 		cargoCanEject = false;
 		ejectDeadGunner = false;
 		ejectDeadCargo = false;
 		ejectDeadDriver = false;
 		disableInventory = true;
-		getInAction = GetInHigh;
-		getOutAction = GetOutHigh;
+		getInAction = Pilot_Plane_Fighter_05_Enter;
+		getOutAction = Pilot_Plane_Fighter_05_Exit;
 		getInRadius = 5.5;
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Fighter_05_F.jpg";
 		picture = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\UI\Plane_Fighter_05_CA.paa";
@@ -79,13 +79,23 @@ class CfgVehicles
 		animated = true;
 		hiddenSelections[] =
 		{
-			camo1,
-			camo2
+			Camo1,
+			Camo2,
+			Camo3,
+			Camo4,
+			CamoGlass,
+			camo_cockpit_1,
+			camo_cockpit_2
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_CO.paa",
-			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa"
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ixt1_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ixt2_CO.paa"
 		};
 		weapons[] =
 		{
@@ -257,18 +267,30 @@ class CfgVehicles
 			tex[] = {};
 			mat[] =
 			{
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_destruct.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_destruct.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_destruct.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_destruct.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_destruct.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_destruct.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_damage.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_destruct.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass_int.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass_int_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_glass_int_damage.rvmat"
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass_damage.rvmat",
+				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass_damage.rvmat"
 			};
 		};
 		LockDetectionSystem = CM_Lock_Radar;
@@ -277,8 +299,8 @@ class CfgVehicles
 		radarTarget = true;
 		visualTarget = true;
 		radarTargetSize = 0.8;
-		visualTargetSize = 1;
-		irTargetSize = 1;
+		visualTargetSize = 1.0;
+		irTargetSize = 1.0;
 		reportRemoteTargets = true;
 		reportOwnPosition = true;
 		namesound = veh_air_plane_s;
@@ -350,6 +372,27 @@ class CfgVehicles
 						angleRangeVertical = 45;
 						groundNoiseDistanceCoef = 0.2;
 					};
+					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
+					{
+						class AirTarget
+						{
+							minRange = 16000;
+							maxRange = 16000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget
+						{
+							minRange = 16000;
+							maxRange = 16000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						maxTrackableATL = 100;
+						maxTrackableSpeed = 60;
+						angleRangeHorizontal = 60;
+						angleRangeVertical = 180;
+					};
 					class LaserSensorComponent: SensorTemplateLaser{};
 					class NVSensorComponent: SensorTemplateNV{};
 				};
@@ -384,7 +427,13 @@ class CfgVehicles
 					class SensorDisplay
 					{
 						componentType = SensorsDisplayComponent;
-						range[] = {16000,8000,4000,2000};
+						range[] =
+						{
+							16000,
+							8000,
+							4000,
+							2000
+						};
 						resource = RscCustomInfoSensors;
 					};
 				};
@@ -420,7 +469,13 @@ class CfgVehicles
 					class SensorDisplay
 					{
 						componentType = SensorsDisplayComponent;
-						range[] = {16000,8000,4000,2000};
+						range[] =
+						{
+							16000,
+							8000,
+							4000,
+							2000
+						};
 						resource = RscCustomInfoSensors;
 					};
 				};
@@ -491,11 +546,7 @@ class CfgVehicles
 					};
 					class pylonBayRight1: pylons1
 					{
-						hardpoints[] =
-						{
-							B_AMRAAM_D_INT,
-							B_GBU12
-						};
+						hardpoints[] = {B_AMRAAM_D_INT};
 						priority = 4;
 						maxweight = 2500;
 						attachment = PylonMissile_Missile_AMRAAM_D_INT_x1;
@@ -546,14 +597,14 @@ class CfgVehicles
 					class BayLeft1
 					{
 						bayOpenTime = 0.5;
-						openBayWhenWeaponSelected = 0;
-						autoCloseWhenEmptyDelay = 2;
+						openBayWhenWeaponSelected = 0.0;
+						autoCloseWhenEmptyDelay = 2.0;
 					};
 					class BayRight1
 					{
 						bayOpenTime = 0.5;
-						openBayWhenWeaponSelected = 0;
-						autoCloseWhenEmptyDelay = 2;
+						openBayWhenWeaponSelected = 0.0;
+						autoCloseWhenEmptyDelay = 2.0;
 					};
 				};
 				class presets
@@ -570,10 +621,10 @@ class CfgVehicles
 						{
 							PylonRack_Missile_BIM9X_x1,
 							PylonRack_Missile_BIM9X_x1,
-							PylonMissile_Bomb_GBU12_x1,
-							PylonMissile_Bomb_GBU12_x1,
 							PylonRack_Missile_AMRAAM_D_x2,
 							PylonRack_Missile_AMRAAM_D_x2,
+							PylonMissile_Bomb_GBU12_x1,
+							PylonMissile_Bomb_GBU12_x1,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonRack_Bomb_SDB_x4,
@@ -610,8 +661,8 @@ class CfgVehicles
 							PylonRack_Missile_AGM_02_x1,
 							PylonRack_Bomb_GBU12_x2,
 							PylonRack_Bomb_GBU12_x2,
-							PylonMissile_Bomb_GBU12_x1,
-							PylonMissile_Bomb_GBU12_x1,
+							PylonMissile_Missile_AMRAAM_D_INT_x1,
+							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonRack_Bomb_SDB_x4,
 							PylonRack_Bomb_SDB_x4,
 							PylonWeapon_220Rnd_25mm_shells
@@ -638,24 +689,15 @@ class CfgVehicles
 				};
 			};
 		};
-		dustEffect = VTOLDust;
-		waterEffect = VTOLWater;
 		memoryPointLDust = "levy prach";
 		memoryPointRDust = "pravy prach";
+		memoryPointGun = "";
 		memoryPointLMissile = "l strela";
 		memoryPointRMissile = "p strela";
 		memoryPointLRocket = "l raketa";
 		memoryPointRRocket = "p raketa";
-		memoryPointCM[] =
-		{
-			flare_launcher1,
-			flare_launcher2
-		};
-		memoryPointCMDir[] =
-		{
-			flare_launcher1_dir,
-			flare_launcher2_dir
-		};
+		memoryPointCM[] = {flare_launcher1};
+		memoryPointCMDir[] = {flare_launcher1_dir};
 		memoryPointsGetInDriver = "pos driver";
 		memoryPointsGetInDriverDir = "pos driver dir";
 		memoryPointDriverOptics = PilotCamera_pos;
@@ -727,15 +769,24 @@ class CfgVehicles
 			minElev = -10;
 			maxElev = 90;
 			initElev = 0;
-			maxXRotSpeed = 1;
-			maxYRotSpeed = 1;
+			maxXRotSpeed = 1.0;
+			maxYRotSpeed = 1.0;
 			maxMouseXRotSpeed = 0.5;
 			maxMouseYRotSpeed = 0.5;
 			pilotOpticsShowCursor = true;
 			controllable = true;
 		};
-		class RenderTargets{};
-		defaultUserMFDvalues[] = {0.082,0.408,0.039,0.8};
+		class RenderTargets
+		{
+
+		};
+		defaultUserMFDvalues[] =
+		{
+			0.082, // R
+			0.408, // G
+			0.039, // B
+			0.8 // A
+		};
 		#include "HUD.hpp"
 		class AnimationSources
 		{
@@ -756,6 +807,36 @@ class CfgVehicles
 				source = user;
 				animPeriod = 0.25;
 				initPhase = false;
+			};
+			class tailhook
+			{
+				source = user;
+				animPeriod = 1.5;
+				initPhase = true;
+			};
+			class gear_1_hook_down
+			{
+				source = user;
+				animPeriod = 1.5;
+				initPhase = false;
+			};
+			class tailhook_door_1
+			{
+				source = user;
+				animPeriod = 1.5;
+				initPhase = true;
+			};
+			class tailhook_door_2
+			{
+				source = user;
+				animPeriod = 1.5;
+				initPhase = true;
+			};
+			class tailhook_door_3
+			{
+				source = user;
+				animPeriod = 1.5;
+				initPhase = true;
 			};
 			class pylon_1_hide
 			{
@@ -799,6 +880,80 @@ class CfgVehicles
 				animPeriod = 0.5;
 				initPhase = false;
 			};
+			class wing_fold_L
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+				displayName = $STR_A3_action_wings_fold;
+				mass = 0;
+				forceAnimatePhase = true;
+				forceAnimatePhase2 = false;
+				forceAnimate[] =
+				{
+					wing_fold_L,1,
+					wing_fold_R,1,
+					wing_fold_cover_L,1,
+					wing_fold_cover_R,1,
+					wing_fold_hinge_L_1,1,
+					wing_fold_hinge_L_2,1,
+					wing_fold_hinge_R_1,1,
+					wing_fold_hinge_R_2,1
+				};
+				forceAnimate2[] =
+				{
+					wing_fold_L,0,
+					wing_fold_R,0,
+					wing_fold_cover_L,0,
+					wing_fold_cover_R,0,
+					wing_fold_hinge_L_1,0,
+					wing_fold_hinge_L_2,0,
+					wing_fold_hinge_R_1,0,
+					wing_fold_hinge_R_2,0
+				};
+			};
+			class wing_fold_R
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_cover_L
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_cover_R
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_hinge_L_1
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_hinge_L_2
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_hinge_R_1
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
+			class wing_fold_hinge_R_2
+			{
+				source = user;
+				animPeriod = 2.5;
+				initPhase = false;
+			};
 			class HitAvionics
 			{
 				source = Hit;
@@ -835,55 +990,65 @@ class CfgVehicles
 				hitpoint = HitEngine;
 				raw = true;
 			};
-			class Damper_1_1_source
+			class Damper_1_source
 			{
 				source = damper;
-				wheel = Wheel_1_1;
+				wheel = Wheel_1;
 			};
-			class Damper_2_1_source
+			class Damper_2_source
 			{
 				source = damper;
-				wheel = Wheel_2_1;
+				wheel = Wheel_2;
 			};
-			class Damper_2_2_source
+			class Damper_3_source
 			{
 				source = damper;
-				wheel = Wheel_2_2;
+				wheel = Wheel_3;
 			};
-			class Wheel_1_1_source
+			class Wheel_1_source
 			{
 				source = wheel;
-				wheel = Wheel_1_1;
+				wheel = Wheel_1;
 			};
-			class Wheel_2_1_source
+			class Wheel_2_source
 			{
 				source = wheel;
-				wheel = Wheel_2_1;
+				wheel = Wheel_2;
 			};
-			class Wheel_2_2_source
+			class Wheel_3_source
 			{
 				source = wheel;
-				wheel = Wheel_2_2;
+				wheel = Wheel_3;
 			};
-			class PositionWhite1_source
+			class CollisionLight_White_1_source
 			{
 				source = MarkerLight;
-				markerLight = PositionWhite1;
+				markerLight = CollisionLight_White_1;
 			};
-			class PositionWhite2_source
+			class CollisionLight_White_2_source
 			{
 				source = MarkerLight;
-				markerLight = PositionWhite2;
+				markerLight = CollisionLight_White_2;
 			};
 		};
 		class MarkerLights
 		{
-			class PositionRed
+			class PositionLight_Red_1
 			{
-				color[] = {0.8,0,0};
-				ambient[] = {0.08,0,0};
+				color[] =
+				{
+					0.8, // R
+					0.0, // G
+					0.0 // B
+				};
+				ambient[] =
+				{
+					0.08, // R
+					0.0, // G
+					0.0 // B
+				};
 				intensity = 75;
-				name = PositionLight_red_1_pos;
+				name = PositionLight_Red_1_pos;
 				drawLight = 1;
 				drawLightSize = 0.15;
 				drawLightCenterSize = 0.04;
@@ -901,17 +1066,37 @@ class CfgVehicles
 					hardLimitEnd = 1;
 				};
 			};
-			class PositionGreen: PositionRed
+			class PositionLight_Green_1: PositionLight_Red_1
 			{
-				color[] = {0,0.8,0};
-				ambient[] = {0,0.08,0};
-				name = PositionLight_green_1_pos;
+				color[] =
+				{
+					0.0, // R
+					0.8, // G
+					0.0 // B
+				};
+				ambient[] =
+				{
+					0.0, // R
+					0.08, // G
+					0.0 // B
+				};
+				name = PositionLight_Green_1_pos;
 			};
-			class PositionWhite1: PositionRed
+			class CollisionLight_White_1: PositionLight_Red_1
 			{
-				color[] = {1.0,1.0,1.0};
-				ambient[] = {0.1,0.1,0.1};
-				name = PositionLight_white_1_pos;
+				color[] =
+				{
+					1.0, // R
+					1.0, // G
+					1.0 // B
+				};
+				ambient[] =
+				{
+					0.1, // R
+					0.1, // G
+					0.1 // B
+				};
+				name = CollisionLight_White_1_pos;
 				blinking = true;
 				blinkingStartsOn = true;
 				blinkingPattern[] = {0.1,0.9};
@@ -919,38 +1104,48 @@ class CfgVehicles
 				drawLightSize = 0.35;
 				drawLightCenterSize = 0.05;
 			};
-			class PositionWhite2: PositionWhite1
+			class CollisionLight_White_2: CollisionLight_White_1
 			{
-				name = PositionLight_white_2_pos;
+				name = CollisionLight_White_2_pos;
 			};
 		};
 		class Reflectors
 		{
-			class light_1
+			class Light
 			{
-				position = light_1;
-				direction = light_1_end;
-				hitpoint = light_1;
-				selection = light_1;
-				color[] = {0.8,0.8,1,1};
-				ambient[] = {0.07,0.07,0.07,1};
-				intensity = 25000;
+				position = Light_pos;
+				direction = Light_dir;
+				hitpoint = Light;
+				selection = Light;
+				color[] =
+				{
+					0.85, // R
+					0.95, // G
+					1 // B
+				};
+				ambient[] =
+				{
+					0.0085, // R
+					0.0095, // G
+					0.01 // B
+				};
+				intensity = 500000;
 				size = 1;
-				innerAngle = 0;
-				outerAngle = 90;
-				coneFadeCoef = 12;
+				innerAngle = 15;
+				outerAngle = 50;
+				coneFadeCoef = 1;
 				useFlare = true;
 				dayLight = false;
-				FlareSize = 1;
-				flareMaxDistance = 30;
+				FlareSize = 2;
+				flareMaxDistance = 500;
 				class Attenuation
 				{
-					start = 0;
+					start = 1;
 					constant = 0;
-					linear = 15;
-					quadratic = 7;
-					hardLimitStart = 75;
-					hardLimitEnd = 100;
+					linear = 0;
+					quadratic = 4;
+					hardLimitStart = 350;
+					hardLimitEnd = 650;
 				};
 			};
 		};
@@ -970,17 +1165,48 @@ class CfgVehicles
 				showWindow = false;
 				hideOnUse = true;
 			};
+			class Plane_Fighter_05_tailhook_down: Plane_Fighter_05_Eject
+			{
+				displayName = $STR_A3_action_tailhook_down;
+				shortcut = "";
+				condition = "this animationPhase 'tailhook' > 0.1  and {speed this > 100}";
+				statement = "this animate ['tailhook',0]; this animate ['tailhook_door_l',0]; this animate ['tailhook_door_r',0]; this say 'Plane_Fighter_01_tailhook_down_sound'; this say3D 'Plane_Fighter_01_tailhook_down_sound';this SetUserMFDvalue [4,1]; [this] spawn BIS_fnc_AircraftTailhook;";
+			};
+			class Plane_Fighter_05_tailhook_up: Plane_Fighter_05_tailhook_down
+			{
+				displayName = $STR_A3_action_tailhook_up;
+				condition = "this animationPhase 'tailhook' < 0.1";
+				statement = "this animate ['tailhook',1]; this animate ['tailhook_door_l',1]; this animate ['tailhook_door_r',1]; this say 'Plane_Fighter_01_tailhook_up_sound'; this SetUserMFDvalue [4,0];this say3D 'Plane_Fighter_01_tailhook_up_sound'";
+			};
+			class Plane_Fighter_05_fold_wings: Plane_Fighter_05_Eject
+			{
+				displayName = $STR_A3_action_wings_fold;
+				shortcut = "";
+				condition = "this animationPhase 'wing_fold_l' < 0.1 and (speed this) < 40 and player in this";
+				statement = "this animate ['wing_fold_l',1]; this animate ['wing_fold_r',1]; this animate ['wing_fold_cover_l',1]; this animate ['wing_fold_cover_r',1]; this say3D 'Plane_Fighter_01_foldwing_sound'";
+			};
+			class Plane_Fighter_05_unfold_wings: Plane_Fighter_05_fold_wings
+			{
+				displayName = $STR_A3_action_wings_unfold;
+				condition = "this animationPhase 'wing_fold_l' > 0.9 and (speed this) < 40 and player in this";
+				statement = "this animate ['wing_fold_l',0]; this animate ['wing_fold_r',0]; this animate ['wing_fold_cover_l',0]; this animate ['wing_fold_cover_r',0]; this say3D 'Plane_Fighter_01_foldwing_sound'";
+			};
 		};
 		class TextureSources
 		{
 			class DarkGrey
 			{
-				displayName = "Dark Grey";
+				displayName = $STR_A3_A_TEXTURESOURCES_DARKGREY0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
 				};
 				factions[] =
 				{
@@ -991,12 +1217,17 @@ class CfgVehicles
 			};
 			class DarkGreyCamo
 			{
-				displayName = "Dark Grey Camo";
+				displayName = $STR_A3_A_TEXTURESOURCES_DARKGREYCAMO0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_Camo_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_Camo_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
 				};
 				factions[] =
 				{
@@ -1013,7 +1244,12 @@ class CfgVehicles
 			DarkGreyCamo,0
 		};
 		#include "PhysX.hpp"
-		extCameraPosition[] = {0,3,-18};
+		extCameraPosition[] =
+		{
+			0.0,
+			3.0,
+			-18.0
+		};
 		class ViewPilot: ViewPilot
 		{
 			initFov = 0.9;
@@ -1042,16 +1278,6 @@ class CfgVehicles
 		};
 		class WingVortices
 		{
-			class BodyLeft
-			{
-				effectName = FX_FuselageVapour_FighterJet;
-				position = body_vapour_L_S;
-			};
-			class BodyRight
-			{
-				effectName = FX_FuselageVapour_FighterJet;
-				position = body_vapour_R_S;
-			};
 			class WingTipLeft
 			{
 				effectName = FX_WingVortices_FighterJet;
@@ -1062,11 +1288,64 @@ class CfgVehicles
 				effectName = FX_WingVortices_FighterJet;
 				position = body_vapour_R_E;
 			};
+			class BodyLeft
+			{
+				effectName = FX_FuselageVapour_FighterJet;
+				position = body_vapour_L_S;
+			};
+			class BodyRight
+			{
+				effectName = FX_FuselageVapour_FighterJet;
+				position = body_vapour_R_S;
+			};
 		};
 		class Library
 		{
 			libEnable = true;
 			libTextDesc = "";
+		};
+		tailHook = true;
+		class CarrierOpsCompatability
+		{
+			ArrestHookAnimationList[] =
+			{
+				tailhook,
+				tailhook_door_1,
+				tailhook_door_2,
+				tailhook_door_3
+			};
+			ArrestHookAnimationStates[] =
+			{
+				0,
+				0.53,
+				1
+			};
+			ArrestHookMemoryPoint = tailhook_pos;
+			ArrestMaxAllowedSpeed = 295;
+			ArrestSlowDownStep = 0.7;
+			ArrestVelocityReduction = -12;
+			LaunchVelocity = 300;
+			LaunchVelocityIncrease = 10;
+			LaunchAccelerationStep = 0.001;
+			LaunchBarMemoryPoint = gear_1_hook_pos;
+		};
+		class AircraftAutomatedSystems
+		{
+			wingStateControl = true;
+			wingFoldAnimations[] =
+			{
+				wing_fold_L,
+				wing_fold_R,
+				wing_fold_cover_L,
+				wing_fold_cover_R,
+				wing_fold_hinge_L_1,
+				wing_fold_hinge_L_2,
+				wing_fold_hinge_R_1,
+				wing_fold_hinge_R_2
+			};
+			wingStateFolded = true;
+			wingStateUnFolded = false;
+			wingAutoUnFoldSpeed = 40;
 		};
 		class EjectionSystem
 		{
@@ -1088,27 +1367,30 @@ class CfgVehicles
 		class Eventhandlers: Eventhandlers
 		{
 			hit = "_this call BIS_fnc_PlaneAiEject";
+			landing = "[_this,true] call bis_fnc_aircraftTailhookAi";
+			landingcanceled = "[_this,false] call bis_fnc_aircraftTailhookAi";
+			engine = "_this call bis_fnc_aircraftFoldingWings";
+			gear = "_this call bis_fnc_aircraftFoldingWings";
 		};
 	};
-	class Plane_Fighter_05_Wreck_F: PlaneWreck
+	class Plane_Fighter_05_wreck_F: PlaneWreck
 	{
 		class SimpleObject
 		{
 			eden = false;
 			animate[] = {};
 			hide[] = {};
-			verticalOffset = 1.5;
+			verticalOffset = 1.855;
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = protected;
-		displayName = "F-38 Widowmaker wreck";
 		class Armory
 		{
 			disabled = true;
 		};
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Wreck_F.p3d";
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_wreck_F.p3d";
 		typicalCargo[] = {};
 		transportAmmo = 0;
 		transportRepair = 0;
@@ -1126,17 +1408,17 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = protected;
-		displayName = "F-38 Widowmaker canopy";
+		displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Canopy_F0;
 		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Canopy_F.p3d";
 	};
 	class Ejection_Seat_Plane_Fighter_05_base_F: Ejection_Seat_Base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = private;
-		displayName = "F-38 Widowmaker ejection seat";
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_ejection_seat_F.p3d";
+		displayName = $STR_A3_A_CfgVehicles_Ejection_Seat_Plane_Fighter_05_base_F0;
+		model = "\A3\Air_F_Gamma\Plane_Fighter_03\Plane_Fighter_03_ejection_seat_F.p3d";
 		icon = iconParachute;
 		picture = "\A3\Air_F_Beta\Parachute_01\Data\UI\Portrait_Parachute_01_CA.paa";
 		driverAction = Pilot_Plane_Fighter_Ejection;
@@ -1150,9 +1432,18 @@ class CfgVehicles
 class CfgNonAIVehicles
 {
 	class ProxyRetex;
-	class proxyPlane_Fighter_05_Wreck_F: ProxyRetex
+	class proxyPlane_Fighter_05_wreck_F: ProxyRetex
 	{
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Wreck_F.p3d";
-		hiddenSelections[] = {camo1};
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_wreck_F.p3d";
+		hiddenSelections[] =
+		{
+			Camo1,
+			Camo2,
+			Camo3,
+			Camo4,
+			CamoGlass,
+			camo_cockpit_1,
+			camo_cockpit_2
+		};
 	};
 };

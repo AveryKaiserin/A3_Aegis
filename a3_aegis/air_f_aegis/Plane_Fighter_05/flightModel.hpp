@@ -114,9 +114,3 @@ stallSpeed = 220; /* DO NO TWEAK */
 stallWarningTreshold = 0.12; /* DO NO TWEAK */
 acceleration = 200; /* DO NO TWEAK */
 landingAoa = 7 * 3.1415 / 180; /* DO NO TWEAK */
-
-// VTOL - behavior while vectoring
-vtol = 1; /* DO NO TWEAK */
-VTOLYawInfluence = 5.6; /* DO NO TWEAK */
-VTOLPitchInfluence = 3.8; /* DO NO TWEAK */
-VTOLRollInfluence = 4; /* DO NO TWEAK */

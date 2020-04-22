@@ -73,10 +73,10 @@ class Stage5
 class Stage6
 {
 	texture="#(ai,64,64,1)fresnel(2.7,0.7)";
-	uvSource="tex";
+	uvSource="none";
 };
 class Stage7
 {
 	texture="a3\data_f\env_land_ca.tga";
-	uvSource="tex";
+	uvSource="none";
 };
