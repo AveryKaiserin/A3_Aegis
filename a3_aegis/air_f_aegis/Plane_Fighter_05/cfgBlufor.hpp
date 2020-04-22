@@ -160,10 +160,10 @@ class B_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
                         "",
                         "",
                         "",
+                        PylonMissile_Missile_AMRAAM_D_INT_x1,
+                        PylonMissile_Missile_AMRAAM_D_INT_x1,
                         PylonMissile_Bomb_GBU12_x1,
                         PylonMissile_Bomb_GBU12_x1,
-                        PylonRack_Bomb_SDB_x4,
-                        PylonRack_Bomb_SDB_x4,
                         PylonWeapon_220Rnd_25mm_shells
                     };
                 };
