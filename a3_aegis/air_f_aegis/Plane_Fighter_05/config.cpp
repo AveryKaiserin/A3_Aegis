@@ -531,7 +531,11 @@ class CfgVehicles
 					};
 					class pylonBayRight1: pylons1
 					{
-						hardpoints[] = {B_AMRAAM_D_INT};
+						hardpoints[] =
+						{
+							B_AMRAAM_D_INT,
+							B_GBU12
+						};
 						priority = 4;
 						maxweight = 2500;
 						attachment = PylonMissile_Missile_AMRAAM_D_INT_x1;
@@ -646,8 +650,8 @@ class CfgVehicles
 							PylonRack_Missile_AGM_02_x1,
 							PylonRack_Bomb_GBU12_x2,
 							PylonRack_Bomb_GBU12_x2,
-							PylonMissile_Missile_AMRAAM_D_INT_x1,
-							PylonMissile_Missile_AMRAAM_D_INT_x1,
+							PylonMissile_Bomb_GBU12_x1,
+							PylonMissile_Bomb_GBU12_x1,
 							PylonRack_Bomb_SDB_x4,
 							PylonRack_Bomb_SDB_x4,
 							PylonWeapon_220Rnd_25mm_shells
