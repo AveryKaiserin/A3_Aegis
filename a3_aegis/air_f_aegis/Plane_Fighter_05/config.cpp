@@ -995,19 +995,20 @@ class CfgVehicles
 				source = wheel;
 				wheel = Wheel_3;
 			};
-			class CollisionLight_White_1_source
+			class FakeCollisionLight_White_1_source
 			{
 				source = MarkerLight;
-				markerLight = CollisionLight_White_1;
+				markerLight = FakeCollisionLight_White_1;
 			};
-			class CollisionLight_White_2_source
+			class FakeCollisionLight_White_2_source
 			{
 				source = MarkerLight;
-				markerLight = CollisionLight_White_2;
+				markerLight = FakeCollisionLight_White_2;
 			};
 		};
 		class MarkerLights
 		{
+			/*
 			class PositionLight_Red_1
 			{
 				color[] =
@@ -1082,6 +1083,47 @@ class CfgVehicles
 			class CollisionLight_White_2: CollisionLight_White_1
 			{
 				name = CollisionLight_White_2_pos;
+			};
+			*/
+			class FakeCollisionLight_White_1
+			{
+				color[] =
+				{
+					0.8, // R
+					0.0, // G
+					0.0 // B
+				};
+				ambient[] =
+				{
+					0.08, // R
+					0.0, // G
+					0.0 // B
+				};
+				intensity = 1;
+				name = FakeCollisionLight_White_1_pos;
+				drawLight = 0;
+				drawLightSize = 0;
+				drawLightCenterSize = 0;
+				activeLight = false;
+				blinking = true;
+				blinkingStartsOn = true;
+				blinkingPattern[] = {0.1,0.9};
+				blinkingPatternGuarantee = true;
+				dayLight = false;
+				useFlare = false;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0;
+					linear = 25;
+					quadratic = 50;
+					hardLimitStart = 0.75;
+					hardLimitEnd = 1;
+				};
+			};
+			class FakeCollisionLight_White_2: FakeCollisionLight_White_1
+			{
+				name = FakeCollisionLight_White_2_pos;
 			};
 		};
 		class Reflectors
