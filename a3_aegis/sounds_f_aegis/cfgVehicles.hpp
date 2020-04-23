@@ -182,12 +182,12 @@ class CfgVehicles
 	class Plane_Fighter_05_Base_F: Plane_Base_F
 	{
         attenuationEffectType = PlaneAttenuation;
-        soundGetIn[] = {"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Plane_Fighter_05\getin",db0,1,40};
-        soundGetOut[] = {"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Plane_Fighter_05\getout",db0,1,40};
-        cabinOpenSound[] = {"\A3\Sounds_F\air\noises\Plane_Fighter03_CabinOpen",db5,1,40};
-        cabinCloseSound[] = {"\A3\Sounds_F\air\noises\Plane_Fighter03_CabinClose",db5,1,40};
-        cabinOpenSoundInternal[] = {"\A3\Sounds_F\air\noises\Plane_Fighter03_CabinOpen",10,1,40};
-        cabinCloseSoundInternal[] = {"\A3\Sounds_F\air\noises\Plane_Fighter03_CabinClose",10,1,40};
+		soundGetIn[] = {"\A3\Sounds_F\vehicles\air\CAS_01\getin_wipeout",db0,1,40};
+		soundGetOut[] = {"\A3\Sounds_F\air\Plane_Fighter_03\getout",db0,1,40};
+		cabinOpenSound[] = {"\A3\Sounds_F\air\noises\Plane_CAS01_CabinOpen",db5,1,40};
+		cabinCloseSound[] = {"\A3\Sounds_F\air\noises\Plane_CAS01_CabinClose",db5,1,40};
+		cabinOpenSoundInternal[] = {"\A3\Sounds_F\air\noises\Plane_CAS01_CabinOpen",10.0,1,40};
+		cabinCloseSoundInternal[] = {"\A3\Sounds_F\air\noises\Plane_CAS01_CabinClose",10.0,1,40};
         soundWaterCollision1[] = {"\A3\Sounds_F\vehicles\crashes\planes\plane_crash_water_1",db3,1,500};
         soundWaterCollision2[] = {"\A3\Sounds_F\vehicles\crashes\planes\plane_crash_water_2",db3,1,500};
         soundWaterCrashes[] =
@@ -270,8 +270,8 @@ class CfgVehicles
                 Plane_Fighter_RainExt_SoundSet,
                 Plane_Fighter_RainInt_SoundSet,
                 Plane_Fighter_GStress_SoundSet,
-                Plane_Fighter_SpeedStress_SoundSet,
-                Plane_Fighter_GBreathing_SoundSet
+                Plane_Fighter_SpeedStress_SoundSet/*,
+                Plane_Fighter_GBreathing_SoundSet*/
             };
         };
         class RainExt

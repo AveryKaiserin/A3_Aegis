@@ -100,7 +100,7 @@ class CfgVehicles
 		weapons[] =
 		{
 			Laserdesignator_pilotCamera,
-			CMFlareLauncher
+			CMFlareLauncher_Singles
 		};
 		magazines[] =
 		{
@@ -139,7 +139,7 @@ class CfgVehicles
 				visual = Hit_Hull;
 				radius = 0.3;
 				minimalHit = 0.02;
-				depends = 0;
+				depends = false;
 				material = -1;
 			};
 			class HitEngine: HitHull
@@ -154,12 +154,13 @@ class CfgVehicles
 			};
 			class HitAvionics: HitHull
 			{
-				armor = 3;
-				explosionShielding = 1;
+				armor = 1.5;
+				explosionShielding = 4;
 				name = HitAvionics;
-				passThrough = 0.2;
-				visual = Hit_Avionics;
-				radius = 0.2;
+				passThrough = 0.4;
+				visual = "";
+				radius = 0.3;
+				minimalHit = 0.05;
 			};
 			class HitFuel: HitHull
 			{
@@ -188,16 +189,6 @@ class CfgVehicles
 				name = HitGlass1;
 				passThrough = 0;
 				visual = glass1;
-				radius = 0.2;
-				minimalHit = 0.1;
-			};
-			class HitGlass2: HitGlass1
-			{
-				armor = 1.5;
-				explosionShielding = 3;
-				name = HitGlass2;
-				passThrough = 0;
-				visual = glass2;
 				radius = 0.2;
 				minimalHit = 0.1;
 			};
@@ -276,12 +267,6 @@ class CfgVehicles
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_damage.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_destruct.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_destruct.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_destruct.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_damage.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_destruct.rvmat",
@@ -776,18 +761,8 @@ class CfgVehicles
 			pilotOpticsShowCursor = true;
 			controllable = true;
 		};
-		class RenderTargets
-		{
-
-		};
-		defaultUserMFDvalues[] =
-		{
-			0.082, // R
-			0.408, // G
-			0.039, // B
-			0.8 // A
-		};
-		#include "HUD.hpp"
+		class RenderTargets{};
+		#include "MFD.hpp"
 		class AnimationSources
 		{
 			class canopy_hide
@@ -1170,26 +1145,26 @@ class CfgVehicles
 				displayName = $STR_A3_action_tailhook_down;
 				shortcut = "";
 				condition = "this animationPhase 'tailhook' > 0.1  and {speed this > 100}";
-				statement = "this animate ['tailhook',0]; this animate ['tailhook_door_l',0]; this animate ['tailhook_door_r',0]; this say 'Plane_Fighter_01_tailhook_down_sound'; this say3D 'Plane_Fighter_01_tailhook_down_sound';this SetUserMFDvalue [4,1]; [this] spawn BIS_fnc_AircraftTailhook;";
+				statement = "this animate ['tailhook',0]; this animate ['tailhook_door_1',0]; this animate ['tailhook_door_2',0]; this animate ['tailhook_door_3',0]; this say 'Plane_Fighter_01_tailhook_down_sound'; this say3D 'Plane_Fighter_01_tailhook_down_sound'; this SetUserMFDvalue [4,1]; [this] spawn BIS_fnc_AircraftTailhook;";
 			};
 			class Plane_Fighter_05_tailhook_up: Plane_Fighter_05_tailhook_down
 			{
 				displayName = $STR_A3_action_tailhook_up;
 				condition = "this animationPhase 'tailhook' < 0.1";
-				statement = "this animate ['tailhook',1]; this animate ['tailhook_door_l',1]; this animate ['tailhook_door_r',1]; this say 'Plane_Fighter_01_tailhook_up_sound'; this SetUserMFDvalue [4,0];this say3D 'Plane_Fighter_01_tailhook_up_sound'";
+				statement = "this animate ['tailhook',1]; this animate ['tailhook_door_1',1]; this animate ['tailhook_door_2',1]; this animate ['tailhook_door_3',1]; this say 'Plane_Fighter_01_tailhook_up_sound'; this say3D 'Plane_Fighter_01_tailhook_up_sound'; this SetUserMFDvalue [4,0];";
 			};
 			class Plane_Fighter_05_fold_wings: Plane_Fighter_05_Eject
 			{
 				displayName = $STR_A3_action_wings_fold;
 				shortcut = "";
-				condition = "this animationPhase 'wing_fold_l' < 0.1 and (speed this) < 40 and player in this";
-				statement = "this animate ['wing_fold_l',1]; this animate ['wing_fold_r',1]; this animate ['wing_fold_cover_l',1]; this animate ['wing_fold_cover_r',1]; this say3D 'Plane_Fighter_01_foldwing_sound'";
+				condition = "this animationPhase 'wing_fold_L' < 0.1 and (speed this) < 40 and player in this";
+				statement = "this animate ['wing_fold_L',1]; this animate ['wing_fold_R',1]; this animate ['wing_fold_cover_L',1]; this animate ['wing_fold_cover_R',1]; this animate ['wing_fold_hinge_L_1',1]; this animate ['wing_fold_hinge_L_2',1]; this animate ['wing_fold_hinge_R_1',1]; this animate ['wing_fold_hinge_R_2',1]; this say3D 'Plane_Fighter_01_foldwing_sound'";
 			};
 			class Plane_Fighter_05_unfold_wings: Plane_Fighter_05_fold_wings
 			{
 				displayName = $STR_A3_action_wings_unfold;
-				condition = "this animationPhase 'wing_fold_l' > 0.9 and (speed this) < 40 and player in this";
-				statement = "this animate ['wing_fold_l',0]; this animate ['wing_fold_r',0]; this animate ['wing_fold_cover_l',0]; this animate ['wing_fold_cover_r',0]; this say3D 'Plane_Fighter_01_foldwing_sound'";
+				condition = "this animationPhase 'wing_fold_L' > 0.9 and (speed this) < 40 and player in this";
+				statement = "this animate ['wing_fold_L',0]; this animate ['wing_fold_R',0]; this animate ['wing_fold_cover_L',0]; this animate ['wing_fold_cover_R',0]; this animate ['wing_fold_hinge_L_1',0]; this animate ['wing_fold_hinge_L_2',0]; this animate ['wing_fold_hinge_R_1',0]; this animate ['wing_fold_hinge_R_2',0]; this say3D 'Plane_Fighter_01_foldwing_sound'";
 			};
 		};
 		class TextureSources
@@ -1246,9 +1221,9 @@ class CfgVehicles
 		#include "PhysX.hpp"
 		extCameraPosition[] =
 		{
-			0.0,
-			3.0,
-			-18.0
+			0.0, // X
+			3.0, // Y
+			-20.0 // Z
 		};
 		class ViewPilot: ViewPilot
 		{
@@ -1418,7 +1393,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = private;
 		displayName = $STR_A3_A_CfgVehicles_Ejection_Seat_Plane_Fighter_05_base_F0;
-		model = "\A3\Air_F_Gamma\Plane_Fighter_03\Plane_Fighter_03_ejection_seat_F.p3d";
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_ejection_seat_F.p3d";
 		icon = iconParachute;
 		picture = "\A3\Air_F_Beta\Parachute_01\Data\UI\Portrait_Parachute_01_CA.paa";
 		driverAction = Pilot_Plane_Fighter_Ejection;

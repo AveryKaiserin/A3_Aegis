@@ -33,7 +33,7 @@ class CfgAmmo
 	};
 	class B_25mm: BulletBase
 	{
-		explosive = 0;
+		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 		nvgOnly = false;
 	};
 	class G_40mm_HE;
