@@ -1291,8 +1291,8 @@ class CfgVehicles
 		{
 			class Exhaust_1
 			{
-				position = exhaust1;
-				direction = exhaust1_dir;
+				position = exhaust_pos;
+				direction = exhaust_dir;
 				effect = ExhaustsEffectPlaneHP;
 				engineIndex = 0;
 			};
