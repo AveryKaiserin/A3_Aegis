@@ -75,7 +75,7 @@ class CfgVehicles
 		picture = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\UI\Plane_Fighter_05_CA.paa";
 		icon = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\UI\Map_Plane_Fighter_05_CA.paa";
 		mapSize = 15.5;
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_F.p3d";
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_test_F.p3d";
 		animated = true;
 		hiddenSelections[] =
 		{
