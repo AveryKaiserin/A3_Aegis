@@ -816,70 +816,6 @@ class I_I_officer_F: I_I_Soldier_Base_F
 	icon = iconManOfficer;
     role = Rifleman;
 };
-/*
-class I_I_Fighter_Pilot_F: I_I_Soldier_Base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class SpeechVariants
-	{
-		class Default
-		{
-			speechSingular[] = {veh_infantry_pilot_s};
-			speechPlural[] = {veh_infantry_pilot_p};
-		};
-	};
-	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
-	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
-	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Fighter_Pilot_F.jpg";
-	identityTypes[] =
-	{
-		LanguageGRE_F,
-		Head_IDF
-	};
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_B_Fighter_Pilot_name;
-	uniformClass = U_I_I_Pilot_F;
-    linkedItems[] =
-    {
-        H_PilotHelmetFighter_I_I,
-        DefaultManLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        H_PilotHelmetFighter_I_I,
-        DefaultManLinkedItems
-    };
-	weapons[] =
-	{
-		hgun_ACPC2_F,
-        DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		hgun_ACPC2_F,
-        DefaultManWeapons
-	};
-	magazines[] =
-	{
-		mag_2(9Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
-	};
-	respawnMagazines[] =
-	{
-		mag_2(9Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
-	};
-	camouflage = 2;
-    cost = 165000;
-    role = Crewman;
-};
-*/
 class I_I_Soldier_F: I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1816,6 +1752,68 @@ class I_I_recon_TL_F: I_I_Soldier_recon_base
     cost = 250000;
 	icon = iconManLeader;
 	role = Rifleman;
+};
+class I_I_Fighter_Pilot_F: I_I_Soldier_Base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_pilot_s};
+			speechPlural[] = {veh_infantry_pilot_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+	nameSound = veh_infantry_pilot_s;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Fighter_Pilot_F.jpg";
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Head_IDF
+	};
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_B_Fighter_Pilot_name;
+	uniformClass = U_Tank_olive_F;
+    linkedItems[] =
+    {
+        H_PilotHelmetFighter_I_I,
+        DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetFighter_I_I,
+        DefaultManLinkedItems
+    };
+	weapons[] =
+	{
+		hgun_ACPC2_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_ACPC2_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        SmokeShellGreen,
+        SmokeShellYellow,
+        SmokeShellOrange
+	};
+	respawnMagazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        SmokeShellGreen,
+        SmokeShellYellow,
+        SmokeShellOrange
+	};
+	camouflage = 2;
+    cost = 165000;
+    role = Crewman;
 };
 class I_I_Soldier_universal_F: I_I_Soldier_F
 {
