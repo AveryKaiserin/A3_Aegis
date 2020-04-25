@@ -336,7 +336,7 @@ class I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
                 class pylonCenter1
                 {
                     hardpoints[] = {I_I_F38_CENTER_PYLON};
-                    attachment = PylonWeapon_220Rnd_25mm_shells_yellow_yellow;
+                    attachment = PylonWeapon_220Rnd_25mm_shells_yellow;
                     priority = 11;
                     maxweight = 1000;
                     UIposition[] = {0.33,0.25};

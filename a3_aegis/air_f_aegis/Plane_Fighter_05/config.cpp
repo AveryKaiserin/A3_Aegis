@@ -75,7 +75,7 @@ class CfgVehicles
 		picture = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\UI\Plane_Fighter_05_CA.paa";
 		icon = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\UI\Map_Plane_Fighter_05_CA.paa";
 		mapSize = 15.5;
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_test_F.p3d";
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_F.p3d";
 		animated = true;
 		hiddenSelections[] =
 		{
@@ -300,20 +300,21 @@ class CfgVehicles
 						class AirTarget
 						{
 							minRange = 500;
-							maxRange = 2500;
+							maxRange = 4000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = 1;
 						};
 						class GroundTarget
 						{
 							minRange = 500;
-							maxRange = 2000;
+							maxRange = 3000;
 							objectDistanceLimitCoef = 1;
 							viewDistanceLimitCoef = 1;
 						};
 						angleRangeHorizontal = 360;
 						angleRangeVertical = 90;
 						maxTrackableSpeed = 400;
+						aimDown = 0;
 					};
 					class VisualSensorComponent: SensorTemplateVisual
 					{
@@ -340,8 +341,8 @@ class CfgVehicles
 					{
 						class AirTarget
 						{
-							minRange = 15000;
-							maxRange = 15000;
+							minRange = 14000;
+							maxRange = 14000;
 							viewDistanceLimitCoef = -1;
 							objectDistanceLimitCoef = -1;
 						};
@@ -352,9 +353,9 @@ class CfgVehicles
 							viewDistanceLimitCoef = -1;
 							objectDistanceLimitCoef = -1;
 						};
-						typeRecognitionDistance = 8000;
-						angleRangeHorizontal = 45;
-						angleRangeVertical = 45;
+						typeRecognitionDistance = 7000;
+						angleRangeHorizontal = 60;
+						angleRangeVertical = 60;
 						groundNoiseDistanceCoef = 0.2;
 					};
 					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
@@ -1439,7 +1440,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = private;
 		displayName = $STR_A3_A_CfgVehicles_Ejection_Seat_Plane_Fighter_05_base_F0;
-		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_ejection_seat_F.p3d";
+		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Ejection_Seat_F.p3d";
 		icon = iconParachute;
 		picture = "\A3\Air_F_Beta\Parachute_01\Data\UI\Portrait_Parachute_01_CA.paa";
 		driverAction = Pilot_Plane_Fighter_Ejection;
