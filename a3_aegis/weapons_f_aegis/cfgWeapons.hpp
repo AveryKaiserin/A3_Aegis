@@ -5110,7 +5110,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_O_NVGoggles_blk_F0;
-		modelOptics = "\A3_Aegis\Weapons_F_Aegis\Reticle\optics_O_NVG.p3d";
+		modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 		model = "\A3\Weapons_F_Exp\Binocular\O_NVGoggles_blk_F.p3d";
 		picture = "\A3\Weapons_F_Exp\Binocular\Data\UI\icon_O_NVGoggles_blk_F_CA.paa";
 		class ItemInfo: ItemInfo
