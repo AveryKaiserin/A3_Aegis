@@ -1,4 +1,4 @@
-class B_A_APC_tracked_03_base_F: APC_Tracked_03_base_F
+class B_A_APC_tracked_03_base_F: APC_Tracked_03_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	crew = B_A_crew_F;
@@ -7,8 +7,8 @@ class B_A_APC_tracked_03_base_F: APC_Tracked_03_base_F
 	faction = BLU_A_F;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_mag,12);
-		mag_xx(200Rnd_65x39_cased_Box_Red,3);
+		mag_xx(30Rnd_65x39_caseless_mag,24);
+		mag_xx(200Rnd_65x39_cased_Box_Red,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -24,6 +24,10 @@ class B_A_APC_tracked_03_base_F: APC_Tracked_03_base_F
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
 	};
 	class TransportWeapons
 	{
@@ -95,8 +99,8 @@ class B_A_APC_tracked_03_cannon_tna_F: B_A_APC_tracked_03_cannon_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_khaki_mag,12);
-		mag_xx(200Rnd_65x39_cased_Box_Red,3);
+		mag_xx(30Rnd_65x39_caseless_khaki_mag,24);
+		mag_xx(200Rnd_65x39_cased_Box_Red,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -112,6 +116,10 @@ class B_A_APC_tracked_03_cannon_tna_F: B_A_APC_tracked_03_cannon_F
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
 	};
 	class TransportWeapons
 	{
@@ -141,8 +149,8 @@ class B_A_APC_tracked_03_cannon_wdl_F: B_A_APC_tracked_03_cannon_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_black_mag,12);
-		mag_xx(200Rnd_65x39_cased_Box_Red,3);
+		mag_xx(30Rnd_65x39_caseless_black_mag,24);
+		mag_xx(200Rnd_65x39_cased_Box_Red,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -158,6 +166,10 @@ class B_A_APC_tracked_03_cannon_wdl_F: B_A_APC_tracked_03_cannon_F
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
 	};
 	class TransportWeapons
 	{

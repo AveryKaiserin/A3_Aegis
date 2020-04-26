@@ -537,7 +537,7 @@ class CfgGroups
 					side = TWest;
 					faction = BLU_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TWest,B_W_APC_Wheeled_01_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TWest,B_W_APC_Wheeled_01_cannon_v2_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,B_W_soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TWest,B_W_RadioOperator_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TWest,B_W_soldier_LAT_F,CORPORAL,10,-10)
@@ -585,7 +585,7 @@ class CfgGroups
 					side = TWest;
 					faction = BLU_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TWest,B_W_APC_Wheeled_01_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TWest,B_W_APC_Wheeled_01_cannon_v2_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,B_W_soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TWest,B_W_soldier_TL_F,SERGEANT,-5,-5)
 					GROUP_UNIT(3,TWest,B_W_soldier_repair_F,CORPORAL,10,-10)
@@ -3510,7 +3510,7 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_E_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_v2_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TGuerrila,I_E_Soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TGuerrila,I_E_Soldier_AT_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TGuerrila,I_E_Soldier_AT_F,PRIVATE,10,-10)
@@ -3525,7 +3525,7 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_E_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_v2_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TGuerrila,I_E_Soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TGuerrila,I_E_Soldier_AA_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TGuerrila,I_E_Soldier_AA_F,PRIVATE,10,-10)
@@ -3540,7 +3540,7 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_E_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TGuerrila,I_E_APC_tracked_03_cannon_v2_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TGuerrila,I_E_Soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TGuerrila,I_E_Soldier_repair_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TGuerrila,I_E_engineer_F,PRIVATE,10,-10)
