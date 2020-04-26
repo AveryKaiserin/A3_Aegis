@@ -65,5 +65,14 @@ class B_E_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 	faction = BLU_E_F;
 	crew = B_UAV_AI;
 	typicalCargo[] = {B_UAV_AI};
-	textureList[] = {Grey,1};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_CO.paa"};
+	textureList[] = {Blufor,1};
+	class TextureSources: TextureSources
+	{
+		class Blufor: Blufor
+		{
+			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_CO.paa"};
+			factions[] = {BLU_E_F};
+		};
+	};
 };

@@ -8,13 +8,7 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Grey
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREY0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_grey_CO.paa"};
-				factions[] = {BLU_E_F};
-			};
+			class Blufor;
 			class IDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
@@ -25,7 +19,7 @@ class CfgVehicles
 		};
 	};
 	class UAV_02_dynamicLoadout_base_F: UAV_02_base_F{};
-	class B_UAV_02_dynamicLoadout_F;
+	class B_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
 	// Arma 3 Atlas
 	#include "cfgBlufor_Atlas.hpp"
 	#include "cfgIDF.hpp"
