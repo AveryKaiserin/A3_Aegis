@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="a3_aegis\air_f_aegis\plane_fighter_05\data\plane_fighter_05_ext2_ti_ca.tga";
+	texture="a3\data_f\default_vehicle_ti_ca.tga";
 };
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
