@@ -1346,23 +1346,6 @@
 				<Japanese>第31機械化歩兵大隊</Japanese>
 				<Turkish>31. Panzergrenadier Taburu</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMarkers_flag_Bocano">
-				<Original>Bocano</Original>
-				<Chinese>Bocano</Chinese>
-				<French>Bocano</French>
-				<Spanish>Bocano</Spanish>
-				<Italian>Bocano</Italian>
-				<Polish>Bocano</Polish>
-				<Russian>Bocano</Russian>
-				<German>Bocano</German>
-				<Czech>Bocano</Czech>
-				<English>Bocano</English>
-				<Portuguese>Bocano</Portuguese>
-				<Korean>Bocano</Korean>
-				<Chinesesimp>Bocano</Chinesesimp>
-				<Japanese>Bocano</Japanese>
-				<Turkish>Bocano</Turkish>
-			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_IDF">
 				<Original>IDF</Original>
 				<Chinese>IDF</Chinese>
@@ -1447,6 +1430,40 @@
 				<Chinesesimp>Takistan</Chinesesimp>
 				<Japanese>Takistan</Japanese>
 				<Turkish>Takistan</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Bocano">
+				<Original>Bocano</Original>
+				<Chinese>Bocano</Chinese>
+				<French>Bocano</French>
+				<Spanish>Bocano</Spanish>
+				<Italian>Bocano</Italian>
+				<Polish>Bocano</Polish>
+				<Russian>Bocano</Russian>
+				<German>Bocano</German>
+				<Czech>Bocano</Czech>
+				<English>Bocano</English>
+				<Portuguese>Bocano</Portuguese>
+				<Korean>Bocano</Korean>
+				<Chinesesimp>Bocano</Chinesesimp>
+				<Japanese>Bocano</Japanese>
+				<Turkish>Bocano</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Australia">
+				<Original>Australia</Original>
+				<Chinese>澳大利亞</Chinese>
+				<French>Australie</French>
+				<Spanish>Australia</Spanish>
+				<Italian>Australia</Italian>
+				<Polish>Australia</Polish>
+				<Russian>Австралия</Russian>
+				<German>Australien</German>
+				<Czech>Austrálie</Czech>
+				<English>Australia</English>
+				<Portuguese>Austrália</Portuguese>
+				<Korean>호주</Korean>
+				<Chinesesimp>澳大利亚</Chinesesimp>
+				<Japanese>オーストラリア</Japanese>
+				<Turkish>Avustralya</Turkish>
 			</Key>
 		</Container>
 		<Container name="Weapons_F">

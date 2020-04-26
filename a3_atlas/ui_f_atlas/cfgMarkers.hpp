@@ -39,4 +39,10 @@ class CfgMarkers
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Takistan_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Takistan_CA.paa";
 	};
+	class flag_Australia: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Australia;
+		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Australia_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Australia_CA.paa";
+	};
 };
