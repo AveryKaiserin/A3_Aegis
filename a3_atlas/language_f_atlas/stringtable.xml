@@ -1,6 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="Arma3Atlas">
 	<Package name="Language_Atlas">
+		<Container name="Air_F">
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_F0">
+				<Original>RAH-99 Akav</Original>
+				<Chinese>RAH-99 Akav</Chinese>
+				<French>RAH-99 Akav</French>
+				<Spanish>RAH-99 Akav</Spanish>
+				<Italian>RAH-99 Akav</Italian>
+				<Polish>RAH-99 Akav</Polish>
+				<Russian>RAH-99 Akav</Russian>
+				<German>RAH-99 Akav</German>
+				<Czech>RAH-99 Akav</Czech>
+				<English>RAH-99 Akav</English>
+				<Portuguese>RAH-99 Akav</Portuguese>
+				<Korean>RAH-99 Akav</Korean>
+				<Chinesesimp>RAH-99 Akav</Chinesesimp>
+				<Japanese>RAH-99 Akav</Japanese>
+				<Turkish>RAH-99 Akav</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_heavy_F0">
+				<Original>AH-99 Akav</Original>
+				<Chinese>AH-99 Akav</Chinese>
+				<French>AH-99 Akav</French>
+				<Spanish>AH-99 Akav</Spanish>
+				<Italian>AH-99 Akav</Italian>
+				<Polish>AH-99 Akav</Polish>
+				<Russian>AH-99 Akav</Russian>
+				<German>AH-99 Akav</German>
+				<Czech>AH-99 Akav</Czech>
+				<English>AH-99 Akav</English>
+				<Portuguese>AH-99 Akav</Portuguese>
+				<Korean>AH-99 Akav</Korean>
+				<Chinesesimp>AH-99 Akav</Chinesesimp>
+				<Japanese>AH-99 Akav</Japanese>
+				<Turkish>AH-99 Akav</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Heli_Transport_01_F0">
+				<Original>UH-80 Duchifat</Original>
+				<Chinese>UH-80 Duchifat</Chinese>
+				<French>UH-80 Duchifat</French>
+				<Spanish>UH-80 Duchifat</Spanish>
+				<Italian>UH-80 Duchifat</Italian>
+				<Polish>UH-80 Duchifat</Polish>
+				<Russian>UH-80 Duchifat</Russian>
+				<German>UH-80 Duchifat</German>
+				<Czech>UH-80 Duchifat</Czech>
+				<English>UH-80 Duchifat</English>
+				<Portuguese>UH-80 Duchifat</Portuguese>
+				<Korean>UH-80 Duchifat</Korean>
+				<Chinesesimp>UH-80 Duchifat</Chinesesimp>
+				<Japanese>UH-80 Duchifat</Japanese>
+				<Turkish>UH-80 Duchifat</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_01_F0">
+				<Original>Naiyana AR-2</Original>
+				<Chinese>Naiyana AR-2</Chinese>
+				<French>Naiyana AR-2</French>
+				<Spanish>Naiyana AR-2</Spanish>
+				<Italian>Naiyana AR-2</Italian>
+				<Polish>Naiyana AR-2</Polish>
+				<Russian>Naiyana AR-2</Russian>
+				<German>Naiyana AR-2</German>
+				<Czech>Naiyana AR-2</Czech>
+				<English>Naiyana AR-2</English>
+				<Portuguese>Naiyana AR-2</Portuguese>
+				<Korean>Naiyana AR-2</Korean>
+				<Chinesesimp>Naiyana AR-2</Chinesesimp>
+				<Japanese>Naiyana AR-2</Japanese>
+				<Turkish>Naiyana AR-2</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_01_backpack_F0">
+				<Original>UAV Bag (AR-2) [IDF]</Original>
+				<Chinese>無人機袋子（AR-2）（IDF）</Chinese>
+				<French>Sac drone (AR-2) [FDI]</French>
+				<Spanish>Bolsa de VANT (AR-2) [FDI]</Spanish>
+				<Italian>Borsa UAV (AR-2) [FDI]</Italian>
+				<Polish>Torba na drona (AR-2) [ISO]</Polish>
+				<Russian>Сумка для БПЛА (AR-2) [ИСО]</Russian>
+				<German>UAV-Tasche (AR-2) [IV]</German>
+				<Czech>UAV vak (AR-2) [IOS]</Czech>
+				<English>UAV Bag (AR-2) [IDF]</English>
+				<Portuguese>Compartimento de VANT (AR-2) [FDI]</Portuguese>
+				<Korean>UAV 가방 (AR-2) [IDF]</Korean>
+				<Chinesesimp>UAV 包（AR-2）[IDF]</Chinesesimp>
+				<Japanese>UAV バッグ（AR-2）[IDF]</Japanese>
+				<Turkish>İHA Çantası (AR-2) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_01_backpack_F_assembleInfo0">
+				<Original>Naiyana AR-2</Original>
+				<Chinese>Naiyana AR-2</Chinese>
+				<French>Naiyana AR-2</French>
+				<Spanish>Naiyana AR-2</Spanish>
+				<Italian>Naiyana AR-2</Italian>
+				<Polish>Naiyana AR-2</Polish>
+				<Russian>Naiyana AR-2</Russian>
+				<German>Naiyana AR-2</German>
+				<Czech>Naiyana AR-2</Czech>
+				<English>Naiyana AR-2</English>
+				<Portuguese>Naiyana AR-2</Portuguese>
+				<Korean>Naiyana AR-2</Korean>
+				<Chinesesimp>Naiyana AR-2</Chinesesimp>
+				<Japanese>Naiyana AR-2</Japanese>
+				<Turkish>Naiyana AR-2</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_02_dynamicLoadout_F0">
+				<Original>MQ-4I Yanshuf</Original>
+				<Chinese>MQ-4I Yanshuf</Chinese>
+				<French>MQ-4I Yanshuf</French>
+				<Spanish>MQ-4I Yanshuf</Spanish>
+				<Italian>MQ-4I Yanshuf</Italian>
+				<Polish>MQ-4I Yanshuf</Polish>
+				<Russian>MQ-4I Yanshuf</Russian>
+				<German>MQ-4I Yanshuf</German>
+				<Czech>MQ-4I Yanshuf</Czech>
+				<English>MQ-4I Yanshuf</English>
+				<Portuguese>MQ-4I Yanshuf</Portuguese>
+				<Korean>MQ-4I Yanshuf</Korean>
+				<Chinesesimp>MQ-4I Yanshuf</Chinesesimp>
+				<Japanese>MQ-4I Yanshuf</Japanese>
+				<Turkish>MQ-4I Yanshuf</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_03_dynamicLoadout_F0">
+				<Original>MQ-12 Gideon</Original>
+				<Chinese>MQ-12 Gideon</Chinese>
+				<French>MQ-12 Gideon</French>
+				<Spanish>MQ-12 Gideon</Spanish>
+				<Italian>MQ-12 Gideon</Italian>
+				<Polish>MQ-12 Gideon</Polish>
+				<Russian>MQ-12 Gideon</Russian>
+				<German>MQ-12 Gideon</German>
+				<Czech>MQ-12 Gideon</Czech>
+				<English>MQ-12 Gideon</English>
+				<Portuguese>MQ-12 Gideon</Portuguese>
+				<Korean>MQ-12 Gideon</Korean>
+				<Chinesesimp>MQ-12 基甸</Chinesesimp>
+				<Japanese>MQ-12 Gideon</Japanese>
+				<Turkish>MQ-12 Gideon</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_F0">
+				<Original>Pashosh AL-6</Original>
+				<Chinese>Pashosh AL-6</Chinese>
+				<French>Pashosh AL-6</French>
+				<Spanish>Pashosh AL-6</Spanish>
+				<Italian>Pashosh AL-6</Italian>
+				<Polish>Pashosh AL-6</Polish>
+				<Russian>Pashosh AL-6</Russian>
+				<German>Pashosh AL-6</German>
+				<Czech>Pashosh AL-6</Czech>
+				<English>Pashosh AL-6</English>
+				<Portuguese>Pashosh AL-6</Portuguese>
+				<Korean>Pashosh AL-6</Korean>
+				<Chinesesimp>Pashosh AL-6</Chinesesimp>
+				<Japanese>Pashosh AL-6</Japanese>
+				<Turkish>Pashosh AL-6</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_medical_F0">
+				<Original>Pashosh AL-6 (Medical)</Original>
+				<Chinese>Pashosh AL-6（醫療用）</Chinese>
+				<French>Pashosh AL-6 (médical)</French>
+				<Spanish>Pashosh AL-6 (médico)</Spanish>
+				<Italian>Pashosh AL-6 (medico)</Italian>
+				<Polish>Pashosh AL-6 (medyczny)</Polish>
+				<Russian>Pashosh AL-6 (медицинский)</Russian>
+				<German>Pashosh AL-6 (Medizin)</German>
+				<Czech>Pashosh AL-6 (zdravotnický)</Czech>
+				<English>Pashosh AL-6 (Medical)</English>
+				<Portuguese>Pashosh AL-6 (médico)</Portuguese>
+				<Korean>Pashosh AL-6 (의무)</Korean>
+				<Chinesesimp>Pashosh AL-6（医疗）</Chinesesimp>
+				<Japanese>Pashosh AL-6（医療用）</Japanese>
+				<Turkish>Pashosh AL-6 (Sıhhiye)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Box_I_I_UAV_06_F0">
+				<Original>AL-6 Case [IDF]</Original>
+				<Chinese>AL-6 外箱（IDF）</Chinese>
+				<French>Mallette AL-6 [FDI]</French>
+				<Spanish>Compartimento de AL-6 [FDI]</Spanish>
+				<Italian>Contenitore AL-6 [FDI]</Italian>
+				<Polish>Skrzynia AL-6 [ISO]</Polish>
+				<Russian>AL-6 Case [ИСО]</Russian>
+				<German>AL-6-Koffer [IV]</German>
+				<Czech>Bedna na AL-6 [IOS]</Czech>
+				<English>AL-6 Case [IDF]</English>
+				<Portuguese>Caixa de AL-6 [FDI]</Portuguese>
+				<Korean>AL-6 Case [IDF]</Korean>
+				<Chinesesimp>AL-6 箱 [IDF]</Chinesesimp>
+				<Japanese>AL-6 用ケース [IDF]</Japanese>
+				<Turkish>AL-6 Çantası [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Box_I_I_UAV_06_medical_F0">
+				<Original>AL-6 Case (Medical) [IDF]</Original>
+				<Chinese>AL-6 外箱（醫療用）（IDF）</Chinese>
+				<French>Mallette AL-6 (médical) [FDI]</French>
+				<Spanish>Compartimento de AL-6 (médico) [FDI]</Spanish>
+				<Italian>Contenitore AL-6 (medico) [FDI]</Italian>
+				<Polish>Skrzynia AL-6 (medyczna) [ISO]</Polish>
+				<Russian>AL-6 Case (медицинский) [ИСО]</Russian>
+				<German>AL-6-Koffer (Medizin) [IV]</German>
+				<Czech>Bedna na AL-6 (zdravotnický) [IOS]</Czech>
+				<English>AL-6 Case (Medical) [IDF]</English>
+				<Portuguese>Caixa de AL-6 (médico) [FDI]</Portuguese>
+				<Korean>AL-6 Case (의무) [IDF]</Korean>
+				<Chinesesimp>AL-6 箱（医疗）[IDF]</Chinesesimp>
+				<Japanese>AL-6 用ケース（医療用）[IDF]</Japanese>
+				<Turkish>AL-6 Çantası (Sıhhiye) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F0">
+				<Original>UAV Bag (AL-6) [IDF]</Original>
+				<Chinese>無人機袋子（AL-6）（IDF）</Chinese>
+				<French>Sac drone (AL-6) [FDI]</French>
+				<Spanish>Bolsa de VANT (AL-6) [FDI]</Spanish>
+				<Italian>Borsa UAV (AL-6) [FDI]</Italian>
+				<Polish>Torba na drona (AL-6) [ISO]</Polish>
+				<Russian>Сумка для БПЛА (AL-6) [ИСО]</Russian>
+				<German>UAV-Tasche (AL-6) [IV]</German>
+				<Czech>UAV vak (AL-6) [IOS]</Czech>
+				<English>UAV Bag (AL-6) [IDF]</English>
+				<Portuguese>Compartimento de VANT (AL-6) [FDI]</Portuguese>
+				<Korean>UAV 가방 (AL-6) [IDF]</Korean>
+				<Chinesesimp>UAV 包（AL-6）[IDF]</Chinesesimp>
+				<Japanese>UAV バッグ（AL-6）[IDF]</Japanese>
+				<Turkish>İHA Çantası (AL-6) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F_assembleInfo0">
+				<Original>Pashosh AL-6</Original>
+				<Chinese>Pashosh AL-6</Chinese>
+				<French>Pashosh AL-6</French>
+				<Spanish>Pashosh AL-6</Spanish>
+				<Italian>Pashosh AL-6</Italian>
+				<Polish>Pashosh AL-6</Polish>
+				<Russian>Pashosh AL-6</Russian>
+				<German>Pashosh AL-6</German>
+				<Czech>Pashosh AL-6</Czech>
+				<English>Pashosh AL-6</English>
+				<Portuguese>Pashosh AL-6</Portuguese>
+				<Korean>Pashosh AL-6</Korean>
+				<Chinesesimp>Pashosh AL-6</Chinesesimp>
+				<Japanese>Pashosh AL-6</Japanese>
+				<Turkish>Pashosh AL-6</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F0">
+				<Original>UAV Bag (AL-6, Medical) [IDF]</Original>
+				<Chinese>無人機袋子（AL-6，醫療用）（IDF）</Chinese>
+				<French>Sac drone (AL-6, médical) [FDI]</French>
+				<Spanish>Bolsa de VANT (AL-6, médico) [FDI]</Spanish>
+				<Italian>Borsa UAV (AL-6, medica) [FDI]</Italian>
+				<Polish>Torba na drona (AL-6, medyczny) [ISO]</Polish>
+				<Russian>Сумка, БПЛА (AL-6,мед.) [ИСО]</Russian>
+				<German>UAV-Tasche (AL-6, Medizin) [IV]</German>
+				<Czech>UAV vak (AL-6, zdravotnický) [IOS]</Czech>
+				<English>UAV Bag (AL-6, Medical) [IDF]</English>
+				<Portuguese>Compartimento de VANT (AL-6, médico) [FDI]</Portuguese>
+				<Korean>UAV 가방 (AL-6, 의료) [IDF]</Korean>
+				<Chinesesimp>UAV 包（AL-6，医疗）[IDF]</Chinesesimp>
+				<Japanese>UAV バッグ（AL-6、医療用） [IDF]</Japanese>
+				<Turkish>İHA Çantası (AL-6, Sıhhiye) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F_assembleInfo0">
+				<Original>Pashosh AL-6 (Medical)</Original>
+				<Chinese>Pashosh AL-6（醫療用）</Chinese>
+				<French>Pashosh AL-6 (médical)</French>
+				<Spanish>Pashosh AL-6 (médico)</Spanish>
+				<Italian>Pashosh AL-6 (medico)</Italian>
+				<Polish>Pashosh AL-6 (medyczny)</Polish>
+				<Russian>Pashosh AL-6 (медицинский)</Russian>
+				<German>Pashosh AL-6 (Medizin)</German>
+				<Czech>Pashosh AL-6 (zdravotnický)</Czech>
+				<English>Pashosh AL-6 (Medical)</English>
+				<Portuguese>Pashosh AL-6 (médico)</Portuguese>
+				<Korean>Pashosh AL-6 (의무)</Korean>
+				<Chinesesimp>Pashosh AL-6（医疗）</Chinesesimp>
+				<Japanese>Pashosh AL-6（医療用）</Japanese>
+				<Turkish>Pashosh AL-6 (Sıhhiye)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_F0">
+				<Original>F-38I Aiit</Original>
+				<Chinese>F-38I Aiit</Chinese>
+				<French>F-38I Aiit</French>
+				<Spanish>F-38I Aiit</Spanish>
+				<Italian>F-38I Aiit</Italian>
+				<Polish>F-38I Aiit</Polish>
+				<Russian>F-38I Aiit</Russian>
+				<German>F-38I Aiit</German>
+				<Czech>F-38I Aiit</Czech>
+				<English>F-38I Aiit</English>
+				<Portuguese>F-38I Aiit</Portuguese>
+				<Korean>F-38I Aiit</Korean>
+				<Chinesesimp>F-38I Aiit</Chinesesimp>
+				<Japanese>F-38I Aiit</Japanese>
+				<Turkish>F-38I Aiit</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_Stealth_F0">
+				<Original>F-38I Aiit (Stealth)</Original>
+				<Chinese>F-38I Aiit (隱形)</Chinese>
+				<French>F-38I Aiit (Furtif)</French>
+				<Spanish>F-38I Aiit (Sigilo)</Spanish>
+				<Italian>F-38I Aiit (Invisibile)</Italian>
+				<Polish>F-38I Aiit (Podstęp)</Polish>
+				<Russian>F-38I Aiit (хитрость)</Russian>
+				<German>F-38I Aiit (Heimlichkeit)</German>
+				<Czech>F-38I Aiit (Stealth)</Czech>
+				<English>F-38I Aiit (Stealth)</English>
+				<Portuguese>F-38I Aiit (Furtividade)</Portuguese>
+				<Korean>F-38I Aiit (몰래 하기)</Korean>
+				<Chinesesimp>F-38I Aiit (隐形)</Chinesesimp>
+				<Japanese>F-38I Aiit（ステルス）</Japanese>
+				<Turkish>F-38I Aiit (gizlilik)</Turkish>
+			</Key>
+		</Container>
+		<Container name="Armor_F">
+			<Key ID="STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_AA_F0">
+				<Original>Tzavoa IFV-6a</Original>
+				<Chinese>Tzavoa IFV-6a</Chinese>
+				<French>Tzavoa IFV-6a</French>
+				<Spanish>Tzavoa IFV-6a</Spanish>
+				<Italian>Tzavoa IFV-6a</Italian>
+				<Polish>Tzavoa IFV-6a</Polish>
+				<Russian>Tzavoa IFV-6a</Russian>
+				<German>Tzavoa IFV-6a</German>
+				<Czech>Tzavoa IFV-6a</Czech>
+				<English>Tzavoa IFV-6a</English>
+				<Portuguese>Tzavoa IFV-6a</Portuguese>
+				<Korean>Tzavoa IFV-6a</Korean>
+				<Chinesesimp>Tzavoa IFV-6a</Chinesesimp>
+				<Japanese>Tzavoa IFV-6a</Japanese>
+				<Turkish>Tzavoa IFV-6a</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_crv_F0">
+				<Original>Nemia CRV-6e</Original>
+				<Chinese>Nemia CRV-6e</Chinese>
+				<French>Nemia CRV-6e</French>
+				<Spanish>Nemia CRV-6e</Spanish>
+				<Italian>Nemia CRV-6e</Italian>
+				<Polish>Nemia CRV-6e</Polish>
+				<Russian>Nemia CRV-6e</Russian>
+				<German>Nemia CRV-6e</German>
+				<Czech>Nemia CRV-6e</Czech>
+				<English>Nemia CRV-6e</English>
+				<Portuguese>Nemia CRV-6e</Portuguese>
+				<Korean>Nemia CRV-6e</Korean>
+				<Chinesesimp>Nemia CRV-6e</Chinesesimp>
+				<Japanese>Nemia CRV-6e</Japanese>
+				<Turkish>Nemia CRV-6e</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_rcws_F0">
+				<Original>Nemmera IFV-6c</Original>
+				<Chinese>Nemmera IFV-6c</Chinese>
+				<French>Nemmera IFV-6c</French>
+				<Spanish>Nemmera IFV-6c</Spanish>
+				<Italian>Nemmera IFV-6c</Italian>
+				<Polish>Nemmera IFV-6c</Polish>
+				<Russian>Nemmera IFV-6c</Russian>
+				<German>Nemmera IFV-6c</German>
+				<Czech>Nemmera IFV-6c</Czech>
+				<English>Nemmera IFV-6c</English>
+				<Portuguese>Nemmera IFV-6c</Portuguese>
+				<Korean>Nemmera IFV-6c</Korean>
+				<Chinesesimp>Nemmera IFV-6c</Chinesesimp>
+				<Japanese>Nemmera IFV-6c</Japanese>
+				<Turkish>Nemmera IFV-6c</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_MBT_01_cannon_F0">
+				<Original>Mohetz Mk4</Original>
+				<Chinese>Mohetz Mk4</Chinese>
+				<French>Mohetz Mk4</French>
+				<Spanish>Mohetz Mk4</Spanish>
+				<Italian>Mohetz Mk4</Italian>
+				<Polish>Mohetz Mk4</Polish>
+				<Russian>Mohetz Mk4</Russian>
+				<German>Mohetz Mk4</German>
+				<Czech>Mohetz Mk4</Czech>
+				<English>Mohetz Mk4</English>
+				<Portuguese>Mohetz Mk4</Portuguese>
+				<Korean>Mohetz Mk4</Korean>
+				<Chinesesimp>Mohetz Mk4</Chinesesimp>
+				<Japanese>Mohetz Mk4</Japanese>
+				<Turkish>Mohetz Mk4</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_MBT_01_arty_F0">
+				<Original>Kela Mk4</Original>
+				<Chinese>Kela Mk4</Chinese>
+				<French>Kela Mk4</French>
+				<Spanish>Kela Mk4</Spanish>
+				<Italian>Kela Mk4</Italian>
+				<Polish>Kela Mk4</Polish>
+				<Russian>Kela Mk4</Russian>
+				<German>Kela Mk4</German>
+				<Czech>Kela Mk4</Czech>
+				<English>Kela Mk4</English>
+				<Portuguese>Kela Mk4</Portuguese>
+				<Korean>Kela Mk4</Korean>
+				<Chinesesimp>Kela Mk4</Chinesesimp>
+				<Japanese>Kela Mk4</Japanese>
+				<Turkish>Kela Mk4</Turkish>
+			</Key>
+		</Container>
 		<Container name="Characters_F">
 			<Container name="Headgear">
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0">
@@ -261,53 +656,53 @@
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0">
 					<Original>Crew Helmet [IDF]</Original>
 					<Chinese>隊員頭盔（IDF）</Chinese>
-					<French>Casque d'équipage [IDF]</French>
-					<Spanish>Casco de tripulación [IDF]</Spanish>
-					<Italian>Casco equipaggio [IDF]</Italian>
-					<Polish>Hełm załogi [IDF]</Polish>
-					<Russian>Танковый шлем [IDF]</Russian>
-					<German>Crew-Helm [IDF]</German>
-					<Czech>Přilba posádky [IDF]</Czech>
+					<French>Casque d'équipage [FDI]</French>
+					<Spanish>Casco de tripulación [FDI]</Spanish>
+					<Italian>Casco equipaggio [FDI]</Italian>
+					<Polish>Hełm załogi [ISO]</Polish>
+					<Russian>Танковый шлем [ИСО]</Russian>
+					<German>Crew-Helm [IV]</German>
+					<Czech>Přilba posádky [IOS]</Czech>
 					<English>Crew Helmet [IDF]</English>
-					<Portuguese>Capacete de tripulação [IDF]</Portuguese>
+					<Portuguese>Capacete de tripulação [FDI]</Portuguese>
 					<Korean>승무원 헬멧[IDF]</Korean>
 					<Chinesesimp>机组人员头盔 [IDF]</Chinesesimp>
 					<Japanese>乗員ヘルメット[IDF]</Japanese>
-					<Turkish>Mürettebat Kaskı [IDF]</Turkish>
+					<Turkish>Mürettebat Kaskı [ISG]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_I_I0">
 					<Original>Heli Pilot Helmet [IDF]</Original>
 					<Chinese>直升機飛行員頭盔（IDF）</Chinese>
-					<French>Casque de pilote d'hélico [IDF]</French>
-					<Spanish>Casco de piloto de helicóptero [IDF]</Spanish>
-					<Italian>Casco da elicotterista [IDF]</Italian>
-					<Polish>Hełm pilota śmigłowca [IDF]</Polish>
-					<Russian>Шлем пилота вертолёта [IDF]</Russian>
-					<German>Helipilotenhelm [IDF]</German>
-					<Czech>Přilba pilota helikoptéry [IDF]</Czech>
+					<French>Casque de pilote d'hélico [FDI]</French>
+					<Spanish>Casco de piloto de helicóptero [FDI]</Spanish>
+					<Italian>Casco da elicotterista [FDI]</Italian>
+					<Polish>Hełm pilota śmigłowca [ISO]</Polish>
+					<Russian>Шлем пилота вертолёта [ИСО]</Russian>
+					<German>Helipilotenhelm [IV]</German>
+					<Czech>Přilba pilota helikoptéry [IOS]</Czech>
 					<English>Heli Pilot Helmet [IDF]</English>
-					<Portuguese>Capacete de piloto de helicóptero [IDF]</Portuguese>
+					<Portuguese>Capacete de piloto de helicóptero [FDI]</Portuguese>
 					<Korean>헬기 조종사 헬멧[IDF]</Korean>
 					<Chinesesimp>直升机飞行员头盔 [IDF]</Chinesesimp>
 					<Japanese>ヘリパイロットヘルメット[IDF]</Japanese>
-					<Turkish>Helikopter Pilotu Kaskı [IDF]</Turkish>
+					<Turkish>Helikopter Pilotu Kaskı [ISG]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0">
 					<Original>Heli Crew Helmet [IDF]</Original>
 					<Chinese>直升機隊員頭盔（IDF）</Chinese>
-					<French>Casque d'équipage d'hélico [IDF]</French>
-					<Spanish>Casco de tripulación de helicóptero [IDF]</Spanish>
-					<Italian>Casco equipaggio elicottero [IDF]</Italian>
-					<Polish>Hełm załogi śmigłowca [IDF]</Polish>
-					<Russian>Шлем члена экипажа вертолёта [IDF]</Russian>
-					<German>Helicrew-Helm [IDF]</German>
-					<Czech>Přilba posádky helikoptéry [IDF]</Czech>
+					<French>Casque d'équipage d'hélico [FDI]</French>
+					<Spanish>Casco de tripulación de helicóptero [FDI]</Spanish>
+					<Italian>Casco equipaggio elicottero [FDI]</Italian>
+					<Polish>Hełm załogi śmigłowca [ISO]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [ИСО]</Russian>
+					<German>Helicrew-Helm [IV]</German>
+					<Czech>Přilba posádky helikoptéry [IOS]</Czech>
 					<English>Heli Crew Helmet [IDF]</English>
-					<Portuguese>Capacete de tripulação de helicóptero [IDF]</Portuguese>
+					<Portuguese>Capacete de tripulação de helicóptero [FDI]</Portuguese>
 					<Korean>헬기 승무원 헬멧[IDF]</Korean>
 					<Chinesesimp>直升机机组人员头盔 [IDF]</Chinesesimp>
 					<Japanese>ヘリ乗員ヘルメット[IDF]</Japanese>
-					<Turkish>Helikopter Mürettebat Kaskı [IDF]</Turkish>
+					<Turkish>Helikopter Mürettebat Kaskı [ISG]</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -552,70 +947,70 @@
 				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Soldier_F0">
 					<Original>Combat Fatigues [IDF]</Original>
 					<Chinese>作戰戰鬥服（IDF）</Chinese>
-					<French>Treillis [IDF]</French>
-					<Spanish>Traje de combate [IDF]</Spanish>
-					<Italian>Uniforme da combattimento [IDF]</Italian>
-					<Polish>Mundur bojowy [IDF]</Polish>
-					<Russian>Полевая форма [IDF]</Russian>
-					<German>Kampfanzug [IDF]</German>
-					<Czech>Bojová uniforma [IDF]</Czech>
+					<French>Treillis [FDI]</French>
+					<Spanish>Traje de combate [FDI]</Spanish>
+					<Italian>Uniforme da combattimento [FDI]</Italian>
+					<Polish>Mundur bojowy [ISO]</Polish>
+					<Russian>Полевая форма [ИСО]</Russian>
+					<German>Kampfanzug [IV]</German>
+					<Czech>Bojová uniforma [IOS]</Czech>
 					<English>Combat Fatigues [IDF]</English>
-					<Portuguese>Uniforme de combate [IDF]</Portuguese>
+					<Portuguese>Uniforme de combate [FDI]</Portuguese>
 					<Korean>전투병 전투복[IDF]</Korean>
 					<Chinesesimp>作战服 [IDF]</Chinesesimp>
 					<Japanese>戦闘服[IDF]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti [IDF]</Turkish>
+					<Turkish>Savaş Asker Kıyafeti [ISG]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Soldier_2_F0">
 					<Original>Combat Fatigues (Rolled-up) [IDF]</Original>
 					<Chinese>作戰戰鬥服（捲起）（IDF）</Chinese>
-					<French>Treillis (manches retroussées) [IDF]</French>
-					<Spanish>Traje de combate (arremangado) [IDF]</Spanish>
-					<Italian>Uniforme da combattimento (Maniche arrotolate) [IDF]</Italian>
-					<Polish>Mundur bojowy (podwinięty) [IDF]</Polish>
+					<French>Treillis (manches retroussées) [FDI]</French>
+					<Spanish>Traje de combate (arremangado) [FDI]</Spanish>
+					<Italian>Uniforme da combattimento (Maniche arrotolate) [FDI]</Italian>
+					<Polish>Mundur bojowy (podwinięty) [ISO]</Polish>
 					<Russian>Полевая форма (закатанными рукавами) [IDF] </Russian>
-					<German>Kampfanzug (hochgekrempelt) [IDF]</German>
-					<Czech>Bojová uniforma (vyhrnutá) [IDF]</Czech>
+					<German>Kampfanzug (hochgekrempelt) [IV]</German>
+					<Czech>Bojová uniforma (vyhrnutá) [IOS]</Czech>
 					<English>Combat Fatigues (Rolled-up) [IDF]</English>
-					<Portuguese>Uniforme de combate (Manga dobrada) [IDF]</Portuguese>
+					<Portuguese>Uniforme de combate (Manga dobrada) [FDI]</Portuguese>
 					<Korean>전투 퍼티그 (롤업) [IDF]</Korean>
 					<Chinesesimp>作战服（卷起）[IDF]</Chinesesimp>
 					<Japanese>戦闘服（ロールアップ）[IDF]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [IDF]</Turkish>
+					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [ISG]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_I_I_Officer_F0">
 					<Original>Officer Fatigues [IDF]</Original>
 					<Chinese>軍官戰鬥服（IDF）</Chinese>
-					<French>Treillis d'officier [IDF]</French>
-					<Spanish>Traje de oficial [IDF]</Spanish>
-					<Italian>Uniforme da ufficiale [IDF]</Italian>
-					<Polish>Mundur oficerski [IDF]</Polish>
-					<Russian>Офицерская форма [IDF]</Russian>
-					<German>Offizier-Militäranzug [IDF]</German>
-					<Czech>Důstojnická uniforma [IDF]</Czech>
+					<French>Treillis d'officier [FDI]</French>
+					<Spanish>Traje de oficial [FDI]</Spanish>
+					<Italian>Uniforme da ufficiale [FDI]</Italian>
+					<Polish>Mundur oficerski [ISO]</Polish>
+					<Russian>Офицерская форма [ИСО]</Russian>
+					<German>Offizier-Militäranzug [IV]</German>
+					<Czech>Důstojnická uniforma [IOS]</Czech>
 					<English>Officer Fatigues [IDF]</English>
-					<Portuguese>Uniforme de oficial [IDF]</Portuguese>
+					<Portuguese>Uniforme de oficial [FDI]</Portuguese>
 					<Korean>장교 전투복[IDF]</Korean>
 					<Chinesesimp>军官服 [IDF]</Chinesesimp>
 					<Japanese>士官服[IDF]</Japanese>
-					<Turkish>Subay Kıyafeti [IDF]</Turkish>
+					<Turkish>Subay Kıyafeti [ISG]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_Tank_olive_F0">
 					<Original>Tanker Coveralls [IDF]</Original>
 					<Chinese>戰車連身服（IDF）</Chinese>
-					<French>Combinaison de tankiste [IDF]</French>
-					<Spanish>Mono de tripulante de tanque [IDF]</Spanish>
-					<Italian>Tuta da carrista [IDF]</Italian>
-					<Polish>Kombinezon czołgisty [IDF]</Polish>
-					<Russian>Комбинезон танкиста [IDF]</Russian>
-					<German>Panzerfahrer-Overalls [IDF]</German>
-					<Czech>Tankistická kombinéza [IDF]</Czech>
+					<French>Combinaison de tankiste [FDI]</French>
+					<Spanish>Mono de tripulante de tanque [FDI]</Spanish>
+					<Italian>Tuta da carrista [FDI]</Italian>
+					<Polish>Kombinezon czołgisty [ISO]</Polish>
+					<Russian>Комбинезон танкиста [ИСО]</Russian>
+					<German>Panzerfahrer-Overalls [IV]</German>
+					<Czech>Tankistická kombinéza [IOS]</Czech>
 					<English>Tanker Coveralls [IDF]</English>
-					<Portuguese>Macacões de petroleiros [IDF]</Portuguese>
+					<Portuguese>Macacões de petroleiros [FDI]</Portuguese>
 					<Korean>유조선 비행복[IDF]</Korean>
 					<Chinesesimp>坦克手服 [IDF]</Chinesesimp>
 					<Japanese>戦車乗員用カバーオール [IDF]</Japanese>
-					<Turkish>Tankçı Tulumu [IDF]</Turkish>
+					<Turkish>Tankçı Tulumu [ISG]</Turkish>
 				</Key>
 			</Container>
 			<Container name="Vests">
@@ -1008,74 +1403,178 @@
 				<Turkish>ISG</Turkish>
 			</Key>
 		</Container>
+		<Container name="Soft_F">
+			<Key ID="STR_A3_A_CfgVehicles_I_I_MRAP_01_F0">
+				<Original>Goliath</Original>
+				<Chinese>Goliath</Chinese>
+				<French>Goliath</French>
+				<Spanish>Goliath</Spanish>
+				<Italian>Goliath</Italian>
+				<Polish>Goliath</Polish>
+				<Russian>Goliath</Russian>
+				<German>Goliath</German>
+				<Czech>Goliath</Czech>
+				<English>Goliath</English>
+				<Portuguese>Goliath</Portuguese>
+				<Korean>골리앗</Korean>
+				<Chinesesimp>Goliath</Chinesesimp>
+				<Japanese>ゴリアテ</Japanese>
+				<Turkish>Goliath</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_MRAP_01_hmg_F0">
+				<Original>Goliath HMG</Original>
+				<Chinese>Goliath 重機槍</Chinese>
+				<French>Goliath HMG</French>
+				<Spanish>Goliath HMG</Spanish>
+				<Italian>Mitragliatrice pesante per Goliath</Italian>
+				<Polish>Goliath CKM</Polish>
+				<Russian>Goliath (с тяж.пулеметом)</Russian>
+				<German>Goliath-HMG</German>
+				<Czech>Goliath s TK</Czech>
+				<English>Goliath HMG</English>
+				<Portuguese>Goliath com metralhadora pesada</Portuguese>
+				<Korean>골리앗 HMG</Korean>
+				<Chinesesimp>Goliath HMG</Chinesesimp>
+				<Japanese>ゴリアテHMG</Japanese>
+				<Turkish>Goliath HMG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_MRAP_01_gmg_F0">
+				<Original>Goliath GMG</Original>
+				<Chinese>Goliath 榴彈機槍</Chinese>
+				<French>Goliath GMG</French>
+				<Spanish>Goliath GMG</Spanish>
+				<Italian>GMG per Goliath</Italian>
+				<Polish>Goliath GA</Polish>
+				<Russian>Goliath (с гранатометом)</Russian>
+				<German>Goliath-GMG</German>
+				<Czech>Goliath s granátometem</Czech>
+				<English>Goliath GMG</English>
+				<Portuguese>Goliath com lança granadas</Portuguese>
+				<Korean>골리앗 GMG</Korean>
+				<Chinesesimp>Goliath GMG</Chinesesimp>
+				<Japanese>ゴリアテGMG</Japanese>
+				<Turkish>Goliath GMG</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UGV_01_F0">
+				<Original>UGV Golem</Original>
+				<Chinese>Golem 無人地面載具</Chinese>
+				<French>UGV Golem</French>
+				<Spanish>VTNT Golem</Spanish>
+				<Italian>UGV Golem</Italian>
+				<Polish>Robot Golem</Polish>
+				<Russian>БПА Golem</Russian>
+				<German>UBF Golem</German>
+				<Czech>UGV Golem</Czech>
+				<English>UGV Golem</English>
+				<Portuguese>VTNT Golem</Portuguese>
+				<Korean>UGV Golem</Korean>
+				<Chinesesimp>UGV Golem</Chinesesimp>
+				<Japanese>UGV Golem</Japanese>
+				<Turkish>UGV Golem</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UGV_01_rcws_F0">
+				<Original>UGV Golem RCWS</Original>
+				<Chinese>Golem RCWS 無人地面載具</Chinese>
+				<French>UGV Golem RCWS</French>
+				<Spanish>VTNT Golem ERCA</Spanish>
+				<Italian>UGV Golem RCWS</Italian>
+				<Polish>Robot Golem ZSMU</Polish>
+				<Russian>БПА Golem RCWS</Russian>
+				<German>UBF Golem RCWS</German>
+				<Czech>UGV Golem RCWS</Czech>
+				<English>UGV Golem RCWS</English>
+				<Portuguese>VTNT Golem RCWS</Portuguese>
+				<Korean>UGV Golem RCWS</Korean>
+				<Chinesesimp>UGV Golem RCWS</Chinesesimp>
+				<Japanese>UGV Golem RCWS</Japanese>
+				<Turkish>UGV Golem RCWS</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_UGV_01_medical_F0">
+				<Original>UGV Golem Medical</Original>
+				<Chinese>Golem 無人地面載具（醫療用）</Chinese>
+				<French>UGV Golem Medical</French>
+				<Spanish>VTNT Golem médico</Spanish>
+				<Italian>UGV Golem medico</Italian>
+				<Polish>Robot Golem medyczny</Polish>
+				<Russian>БПА Golem медицинский</Russian>
+				<German>UBF Golem Sanitätsfahrzeug</German>
+				<Czech>UGV Golem zdravotnický</Czech>
+				<English>UGV Golem Medical</English>
+				<Portuguese>VTNT Golem Medical</Portuguese>
+				<Korean>UGV Golem 의료</Korean>
+				<Chinesesimp>UGV Golem 医疗车</Chinesesimp>
+				<Japanese>UGV Golem 衛生</Japanese>
+				<Turkish>UGV Golem Sıhhiye</Turkish>
+			</Key>
+		</Container>
 		<Container name="Static_F">
 			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_support_F0">
 				<Original>Folded Tripod M2 HMG .50 [IDF]</Original>
 				<Chinese>Folded Tripod M2 HMG .50 [IDF]</Chinese>
-				<French>Folded Tripod M2 HMG .50 [IDF]</French>
-				<Spanish>Folded Tripod M2 HMG .50 [IDF]</Spanish>
-				<Italian>Folded Tripod M2 HMG .50 [IDF]</Italian>
-				<Polish>Folded Tripod M2 HMG .50 [IDF]</Polish>
-				<Russian>Folded Tripod M2 HMG .50 [IDF]</Russian>
-				<German>Folded Tripod M2 HMG .50 [IDF]</German>
-				<Czech>Folded Tripod M2 HMG .50 [IDF]</Czech>
+				<French>Folded Tripod M2 HMG .50 [FDI]</French>
+				<Spanish>Folded Tripod M2 HMG .50 [FDI]</Spanish>
+				<Italian>Folded Tripod M2 HMG .50 [FDI]</Italian>
+				<Polish>Folded Tripod M2 HMG .50 [ISO]</Polish>
+				<Russian>Folded Tripod M2 HMG .50 [ИСО]</Russian>
+				<German>Folded Tripod M2 HMG .50 [IV]</German>
+				<Czech>Folded Tripod M2 HMG .50 [IOS]</Czech>
 				<English>Folded Tripod M2 HMG .50 [IDF]</English>
-				<Portuguese>Folded Tripod M2 HMG .50 [IDF]</Portuguese>
+				<Portuguese>Folded Tripod M2 HMG .50 [FDI]</Portuguese>
 				<Korean>Folded Tripod M2 HMG .50 [IDF]</Korean>
 				<Chinesesimp>Folded Tripod M2 HMG .50 [IDF]</Chinesesimp>
 				<Japanese>Folded Tripod M2 HMG .50 [IDF]</Japanese>
-				<Turkish>Folded Tripod M2 HMG .50 [IDF]</Turkish>
+				<Turkish>Folded Tripod M2 HMG .50 [ISG]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_support_high_F0">
 				<Original>Folded Tripod M2 HMG .50 (Raised) [IDF]</Original>
 				<Chinese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Chinese>
-				<French>Folded Tripod M2 HMG .50 (Raised) [IDF]</French>
-				<Spanish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Spanish>
-				<Italian>Folded Tripod M2 HMG .50 (Raised) [IDF]</Italian>
-				<Polish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Polish>
-				<Russian>Folded Tripod M2 HMG .50 (Raised) [IDF]</Russian>
-				<German>Folded Tripod M2 HMG .50 (Raised) [IDF]</German>
-				<Czech>Folded Tripod M2 HMG .50 (Raised) [IDF]</Czech>
+				<French>Folded Tripod M2 HMG .50 (Raised) [FDI]</French>
+				<Spanish>Folded Tripod M2 HMG .50 (Raised) [FDI]</Spanish>
+				<Italian>Folded Tripod M2 HMG .50 (Raised) [FDI]</Italian>
+				<Polish>Folded Tripod M2 HMG .50 (Raised) [ISO]</Polish>
+				<Russian>Folded Tripod M2 HMG .50 (Raised) [ИСО]</Russian>
+				<German>Folded Tripod M2 HMG .50 (Raised) [IV]</German>
+				<Czech>Folded Tripod M2 HMG .50 (Raised) [IOS]</Czech>
 				<English>Folded Tripod M2 HMG .50 (Raised) [IDF]</English>
-				<Portuguese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Portuguese>
+				<Portuguese>Folded Tripod M2 HMG .50 (Raised) [FDI]</Portuguese>
 				<Korean>Folded Tripod M2 HMG .50 (Raised) [IDF]</Korean>
 				<Chinesesimp>Folded Tripod M2 HMG .50 (Raised) [IDF]</Chinesesimp>
 				<Japanese>Folded Tripod M2 HMG .50 (Raised) [IDF]</Japanese>
-				<Turkish>Folded Tripod M2 HMG .50 (Raised) [IDF]</Turkish>
+				<Turkish>Folded Tripod M2 HMG .50 (Raised) [ISG]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_weapon_F0">
 				<Original>Dismantled M2 HMG .50 [IDF]</Original>
 				<Chinese>Dismantled M2 HMG .50 [IDF]</Chinese>
-				<French>Dismantled M2 HMG .50 [IDF]</French>
-				<Spanish>Dismantled M2 HMG .50 [IDF]</Spanish>
-				<Italian>Dismantled M2 HMG .50 [IDF]</Italian>
-				<Polish>Dismantled M2 HMG .50 [IDF]</Polish>
-				<Russian>Dismantled M2 HMG .50 [IDF]</Russian>
-				<German>Dismantled M2 HMG .50 [IDF]</German>
-				<Czech>Dismantled M2 HMG .50 [IDF]</Czech>
+				<French>Dismantled M2 HMG .50 [FDI]</French>
+				<Spanish>Dismantled M2 HMG .50 [FDI]</Spanish>
+				<Italian>Dismantled M2 HMG .50 [FDI]</Italian>
+				<Polish>Dismantled M2 HMG .50 [ISO]</Polish>
+				<Russian>Dismantled M2 HMG .50 [ИСО]</Russian>
+				<German>Dismantled M2 HMG .50 [IV]</German>
+				<Czech>Dismantled M2 HMG .50 [IOS]</Czech>
 				<English>Dismantled M2 HMG .50 [IDF]</English>
-				<Portuguese>Dismantled M2 HMG .50 [IDF]</Portuguese>
+				<Portuguese>Dismantled M2 HMG .50 [FDI]</Portuguese>
 				<Korean>Dismantled M2 HMG .50 [IDF]</Korean>
 				<Chinesesimp>Dismantled M2 HMG .50 [IDF]</Chinesesimp>
 				<Japanese>Dismantled M2 HMG .50 [IDF]</Japanese>
-				<Turkish>Dismantled M2 HMG .50 [IDF]</Turkish>
+				<Turkish>Dismantled M2 HMG .50 [ISG]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_high_weapon_F0">
 				<Original>Dismantled M2 HMG .50 (Raised) [IDF]</Original>
 				<Chinese>Dismantled M2 HMG .50 (Raised) [IDF]</Chinese>
-				<French>Dismantled M2 HMG .50 (Raised) [IDF]</French>
-				<Spanish>Dismantled M2 HMG .50 (Raised) [IDF]</Spanish>
-				<Italian>Dismantled M2 HMG .50 (Raised) [IDF]</Italian>
-				<Polish>Dismantled M2 HMG .50 (Raised) [IDF]</Polish>
-				<Russian>Dismantled M2 HMG .50 (Raised) [IDF]</Russian>
-				<German>Dismantled M2 HMG .50 (Raised) [IDF]</German>
-				<Czech>Dismantled M2 HMG .50 (Raised) [IDF]</Czech>
+				<French>Dismantled M2 HMG .50 (Raised) [FDI]</French>
+				<Spanish>Dismantled M2 HMG .50 (Raised) [FDI]</Spanish>
+				<Italian>Dismantled M2 HMG .50 (Raised) [FDI]</Italian>
+				<Polish>Dismantled M2 HMG .50 (Raised) [ISO]</Polish>
+				<Russian>Dismantled M2 HMG .50 (Raised) [ИСО]</Russian>
+				<German>Dismantled M2 HMG .50 (Raised) [IV]</German>
+				<Czech>Dismantled M2 HMG .50 (Raised) [IOS]</Czech>
 				<English>Dismantled M2 HMG .50 (Raised) [IDF]</English>
-				<Portuguese>Dismantled M2 HMG .50 (Raised) [IDF]</Portuguese>
+				<Portuguese>Dismantled M2 HMG .50 (Raised) [FDI]</Portuguese>
 				<Korean>Dismantled M2 HMG .50 (Raised) [IDF]</Korean>
 				<Chinesesimp>Dismantled M2 HMG .50 (Raised) [IDF]</Chinesesimp>
 				<Japanese>Dismantled M2 HMG .50 (Raised) [IDF]</Japanese>
-				<Turkish>Dismantled M2 HMG .50 (Raised) [IDF]</Turkish>
+				<Turkish>Dismantled M2 HMG .50 (Raised) [ISG]</Turkish>
 			</Key>
 		</Container>
 		<Container name="Structures_F">
@@ -2015,19 +2514,19 @@
 					<Key ID="STR_A3_A_CfgMagazines_I_I_IR_Grenade0">
 						<Original>IR Grenade [IDF]</Original>
 						<Chinese>紅外線手榴彈（IDF）</Chinese>
-						<French>Grenade infrarouge [IDF]</French>
-						<Spanish>Granada IR [IDF]</Spanish>
-						<Italian>Granata IR [IDF]</Italian>
-						<Polish>Granat IR [IDF]</Polish>
-						<Russian>ИК-граната [IDF]</Russian>
-						<German>IR-Granate [IDF]</German>
-						<Czech>Infračervený granát [IDF]</Czech>
+						<French>Grenade infrarouge [FDI]</French>
+						<Spanish>Granada IR [FDI]</Spanish>
+						<Italian>Granata IR [FDI]</Italian>
+						<Polish>Granat IR [ISO]</Polish>
+						<Russian>ИК-граната [ИСО]</Russian>
+						<German>IR-Granate [IV]</German>
+						<Czech>Infračervený granát [IOS]</Czech>
 						<English>IR Grenade [IDF]</English>
-						<Portuguese>Granada de IV [IDF]</Portuguese>
+						<Portuguese>Granada de IV [FDI]</Portuguese>
 						<Korean>적외선수류탄[IDF]</Korean>
 						<Chinesesimp>红外枪榴弹 [IDF]</Chinesesimp>
 						<Japanese>赤外線グレネード[IDF]</Japanese>
-						<Turkish>IR El Bombası [IDF]</Turkish>
+						<Turkish>IR El Bombası [ISG]</Turkish>
 					</Key>
 				</Container>
 			</Container>

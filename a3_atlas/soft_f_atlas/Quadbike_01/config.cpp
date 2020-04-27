@@ -33,16 +33,26 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
                 {
-                    "\A3_Atlas\Soft_F_Atlas\Offroad_02\Data\Offroad_02_ext_jungle_CO.paa",
-                    "\A3_Atlas\Soft_F_Atlas\Offroad_02\Data\Offroad_02_ext_jungle_CO.paa",
-                    "\A3_Atlas\Soft_F_Atlas\Offroad_02\Data\Offroad_02_int_jungle_CO.paa",
-                    "\A3_Atlas\Soft_F_Atlas\Offroad_02\Data\Offroad_02_int_jungle_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_jungle_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_jungle_CO.paa"
                 };
 				factions[] = {BLU_HIDF_F};
+			};
+			class IDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_IDF_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_IDF_CO.paa"
+                };
+				factions[] = {IND_I_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
 	#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgIDF.hpp"
 };

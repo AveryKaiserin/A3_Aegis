@@ -77,11 +77,18 @@ class I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
 		verticalOffsetWorld = -0.001;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_03_dynamicLoadout_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_03_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_03_dynamicLoadout_F0;
 	side = TGuerrila;
 	faction = IND_I_F;
 	crew = I_UAV_AI;
 	typicalCargo[] = {I_UAV_AI};
+	textureList[] = {IDF,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_1_IDF_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_2_IDF_CO.paa"
+	};
 };

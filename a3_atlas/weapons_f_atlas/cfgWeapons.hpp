@@ -326,6 +326,23 @@ class CfgWeapons
 			};
 		};
 	};
+	class arifle_TRG21_black_SOS_pointer_F: arifle_TRG21_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_SOS;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_pointer_IR;
+			};
+		};
+	};
 	class arifle_TRG21_GL_black_ACO_pointer_F: arifle_TRG21_GL_black_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

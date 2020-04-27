@@ -311,14 +311,14 @@ class I_I_engineer_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -376,14 +376,14 @@ class I_I_Soldier_GL_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -562,42 +562,42 @@ class I_I_soldier_M_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
-		srifle_EBR_MOS_LP_BI_F,
+		arifle_TRG21_black_SOS_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_EBR_MOS_LP_BI_F,
+		arifle_TRG21_black_SOS_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -887,14 +887,14 @@ class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_F,
+		H_HelmetSpecter_black_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -946,7 +946,7 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_2_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -954,7 +954,7 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1023,7 +1023,7 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1031,7 +1031,7 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecter_brown_headset_F,
+		H_HelmetSpecter_black_headset_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,

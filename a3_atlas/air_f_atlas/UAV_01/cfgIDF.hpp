@@ -42,7 +42,7 @@ class I_I_UAV_01_F: UAV_01_base_F
 		verticalOffsetWorld = -0.001;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_I_UAV_01_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_01_F0;
@@ -59,7 +59,7 @@ class I_I_UAV_01_F: UAV_01_base_F
 		displayName = "";
 		dissasembleTo[] = {I_I_UAV_01_backpack_F};
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_IDF_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_IDF_CO.paa"};
 	textureList[] = {IDF,1};
 };
 class I_I_UAV_01_backpack_F: Weapon_Bag_Base
