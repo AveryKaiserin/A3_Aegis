@@ -853,23 +853,6 @@
 					<Japanese>Iran-150（車両輸送）</Japanese>
 					<Turkish>Iran-150 (Araç Nakli)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_UAV_07_base_F0">
-					<Original>Sokol 3T</Original>
-					<Chinese>Sokol 3T</Chinese>
-					<French>Sokol 3T</French>
-					<Spanish>Sokol 3T</Spanish>
-					<Italian>Sokol 3T</Italian>
-					<Polish>Sokol 3T</Polish>
-					<Russian>Sokol 3T</Russian>
-					<German>Sokol 3T</German>
-					<Czech>Sokol 3T</Czech>
-					<English>Sokol 3T</English>
-					<Portuguese>Sokol 3T</Portuguese>
-					<Korean>Sokol 3T</Korean>
-					<Chinesesimp>Sokol 3T</Chinesesimp>
-					<Japanese>Sokol 3T</Japanese>
-					<Turkish>Sokol 3T</Turkish>
-				</Key>
 			</Container>
 			<Container name="Library">
 				<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_base_F_Library0">
@@ -905,23 +888,6 @@
 					<Chinesesimp>The C-192 Samson was developed as an American successor to the aging C-130 series of aircraft, though it is slowly being supplemented by newer V-44 X Blackfish VTOLs. Its four-engine turbo-prop design allows it to transport cargo or up to 52 passengers with a range of over 5,000 km at a maximum speed of 650 kph. An Eastern arms manufacturer produces a reverse-engineered copy labeled the "Iran-150" utilizing less reliable engines.</Chinesesimp>
 					<Japanese>The C-192 Samson was developed as an American successor to the aging C-130 series of aircraft, though it is slowly being supplemented by newer V-44 X Blackfish VTOLs. Its four-engine turbo-prop design allows it to transport cargo or up to 52 passengers with a range of over 5,000 km at a maximum speed of 650 kph. An Eastern arms manufacturer produces a reverse-engineered copy labeled the "Iran-150" utilizing less reliable engines.</Japanese>
 					<Turkish>The C-192 Samson was developed as an American successor to the aging C-130 series of aircraft, though it is slowly being supplemented by newer V-44 X Blackfish VTOLs. Its four-engine turbo-prop design allows it to transport cargo or up to 52 passengers with a range of over 5,000 km at a maximum speed of 650 kph. An Eastern arms manufacturer produces a reverse-engineered copy labeled the "Iran-150" utilizing less reliable engines.</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_UAV_07_base_F_Armory0">
-					<Original>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Original>
-					<Chinese>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Chinese>
-					<French>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</French>
-					<Spanish>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Spanish>
-					<Italian>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Italian>
-					<Polish>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Polish>
-					<Russian>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Russian>
-					<German>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</German>
-					<Czech>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Czech>
-					<English>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</English>
-					<Portuguese>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Portuguese>
-					<Korean>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Korean>
-					<Chinesesimp>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Chinesesimp>
-					<Japanese>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Japanese>
-					<Turkish>The Sokol 3T is an unmanned aerial vehicle originating from Russia. It is undoubtedly inspired by the MQ-9, but boasts a significantly less efficient engine. The Sokol 3T is intended to be used solely as a observation and target acquisition aircraft, but can carry two Scalpel missiles if needed.</Turkish>
 				</Key>
 			</Container>
 		</Container>
