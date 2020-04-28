@@ -32,7 +32,7 @@ class CfgVehicles
 			class EAF;
 			class Green
 			{
-				DisplayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
