@@ -201,7 +201,7 @@ class B_HIDF_Truck_02_F: Truck_02_base_F
 	{
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_jungle_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_jungle_CO.paa",
-		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
@@ -318,7 +318,7 @@ class B_HIDF_Truck_02_transport_F: Truck_02_transport_base_F
 	{
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_jungle_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_jungle_CO.paa",
-		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
@@ -428,7 +428,7 @@ class B_HIDF_Truck_02_cargo_F: Truck_02_cargo_base_F
 	{
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_jungle_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_jungle_CO.paa",
-		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
