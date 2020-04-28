@@ -16,6 +16,7 @@ class CfgMagazines
 		displayName = "9.3mm 120Rnd Reload Tracer (Green) Belt";
 	};
 	// Arma 3 Aegis
+	class 500Rnd_20mm_shells;
 	class 220Rnd_25mm_shells;
 	// Arma 3 Atlas
 	class 150Rnd_762x51_Box_Yellow: 150Rnd_762x51_Box
@@ -121,6 +122,11 @@ class CfgMagazines
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\SCAR\Data\arifle_SCAR_snd_F_01_CO.paa"};
 	};
 	*/
+	class 500Rnd_20mm_shells_yellow: 500Rnd_20mm_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		ammo = B_20mm_Tracer_Yellow;
+	};
 	class 220Rnd_25mm_shells_yellow: 220Rnd_25mm_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;

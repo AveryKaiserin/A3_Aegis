@@ -2,6 +2,10 @@ class CfgWeapons
 {
 	// Arma 3
 	class CannonCore;
+	class gatling_20mm: CannonCore
+	{
+		magazines[] += {500Rnd_20mm_shells_yellow};
+	};
 	class gatling_25mm: CannonCore
 	{
 		magazines[] += {PylonWeapon_220Rnd_25mm_shells_yellow};
