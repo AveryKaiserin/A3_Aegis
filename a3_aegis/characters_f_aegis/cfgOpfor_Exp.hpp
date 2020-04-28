@@ -2465,6 +2465,8 @@ class O_T_soldier_UGV_02_Science_F: O_T_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_soldier_UGV_02_Science_F.jpg";
+    scope = protected;
+    scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
 	backpack = O_UGV_02_Science_backpack_F;
 };
