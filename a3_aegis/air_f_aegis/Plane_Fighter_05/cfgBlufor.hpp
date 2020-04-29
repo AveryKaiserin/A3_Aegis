@@ -1,5 +1,25 @@
 class B_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 {
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
+		{
+			{canopy_rot,0}
+		};
+		hide[] =
+		{
+			clan,
+			zasleh,
+			light,
+			"zadni svetlo",
+			autobacklit,
+			poskozeni
+		};
+		verticalOffset = 2.445;
+		verticalOffsetWorld =-0.051;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Base_F0;
