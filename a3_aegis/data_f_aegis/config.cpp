@@ -7,3 +7,4 @@
 #include "cfgEditorCategories.hpp"
 #include "cfgEditorSubcategories.hpp"
 #include "cfgWorlds.hpp"
+#include "cfgMissions.hpp"
