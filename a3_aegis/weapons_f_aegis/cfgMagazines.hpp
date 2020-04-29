@@ -708,7 +708,7 @@ class CfgMagazines
 	class 500Rnd_20mm_shells: 300Rnd_20mm_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_1000Rnd_20mm_shells0;
+		displayName = $STR_A3_CfgMagazines_1000Rnd_20mm_shells0;
 		count = 500;
 		ammo = B_20mm_Tracer_Red;
 		weight = 126;
@@ -716,7 +716,7 @@ class CfgMagazines
 	class 250Rnd_20mm_shells: 300Rnd_20mm_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_1000Rnd_20mm_shells0;
+		displayName = $STR_A3_CfgMagazines_1000Rnd_20mm_shells0;
 		count = 250;
 		ammo = B_20mm;
 	};
@@ -740,8 +740,8 @@ class CfgMagazines
 	class 120Rnd_40mm_GPR_shells: 60Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfGMAGAZINES_40MMGPR;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_GPR;
+		displayName = $STR_A3_CFGMAGAZINES_40MMGPR;
+		displayNameShort = $STR_A3_CFGMAGAZINES_GPR;
 		ammo = B_40mm_GPR;
 		initSpeed = 1035;
 		count = 120;
@@ -749,31 +749,31 @@ class CfgMagazines
 	class 120Rnd_40mm_GPR_Tracer_Red_shells: 120Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfGMAGAZINES_40MMGPRT;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_GPRT;
+		displayName = $STR_A3_CFGMAGAZINES_40MMGPRT;
+		displayNameShort = $STR_A3_CFGMAGAZINES_GPRT;
 		ammo = B_40mm_GPR_Tracer_Red;
 		displayNameMFDFormat = "GPR-T";
 	};
 	class 120Rnd_40mm_GPR_Tracer_Green_shells: 120Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfGMAGAZINES_40MMGPRT;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_GPRT;
+		displayName = $STR_A3_CFGMAGAZINES_40MMGPRT;
+		displayNameShort = $STR_A3_CFGMAGAZINES_GPRT;
 		ammo = B_40mm_GPR_Tracer_Green;
 	};
 	class 120Rnd_40mm_GPR_Tracer_Yellow_shells: 120Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfGMAGAZINES_40MMGPRT;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_GPRT;
+		displayName = $STR_A3_CFGMAGAZINES_40MMGPRT;
+		displayNameShort = $STR_A3_CFGMAGAZINES_GPRT;
 		ammo = B_40mm_GPR_Tracer_Yellow;
 		displayNameMFDFormat = "GPR-T";
 	};
 	class 80Rnd_40mm_APFSDS_shells: 120Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfGMAGAZINES_40MM_APFSD;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_APFSD0;
+		displayName = $STR_A3_CFGMAGAZINES_40MM_APFSD;
+		displayNameShort = $STR_A3_CFGMAGAZINES_APFSD0;
 		ammo = B_40mm_APFSDS;
 		initSpeed = 1600;
 		count = 80;
@@ -781,8 +781,8 @@ class CfgMagazines
 	class 80Rnd_40mm_APFSDS_Tracer_Red_shells: 80Rnd_40mm_APFSDS_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_40Rnd_40mm_APFSDS_Tracer_Red_shells0;
-		displayNameShort = $STR_A3_A_CfGMAGAZINES_APFSD_T0;
+		displayName = $STR_A3_CfgMagazines_40Rnd_40mm_APFSDS_Tracer_Red_shells0;
+		displayNameShort = $STR_A3_CfGMAGAZINES_APFSD_T0;
 		ammo = B_40mm_APFSDS_Tracer_Red;
 		count = 80;
 		displayNameMFDFormat = "APFSDS-T";
@@ -930,8 +930,8 @@ class CfgMagazines
 		tracersEvery = 5;
 		lastRoundsTracer = 4;
 		nameSound = mgun;
-		displayName = $STR_A3_A_CfgMagazines_2000Rnd_762x45_Belt0;
-		descriptionShort = $STR_A3_A_CfgMagazines_2000Rnd_762x45_Belt1;
+		displayName = $STR_A3_CfgMagazines_2000Rnd_762x45_Belt0;
+		descriptionShort = $STR_A3_CfgMagazines_2000Rnd_762x45_Belt1;
 		displayNameMFDFormat = "COAX";
 	};
 	class 250Rnd_762x51_Belt_Red: 250Rnd_762x51_Belt
