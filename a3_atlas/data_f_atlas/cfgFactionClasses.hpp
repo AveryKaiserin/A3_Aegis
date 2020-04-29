@@ -2,11 +2,11 @@ class CfgFactionClasses
 {
 	class BLU_L_F
 	{
-		displayName = "Legion";
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_L_F0;
 		priority = 11;
 		side = TWest;
 		//icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_LEGION_CA.paa";
-		//flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Legion_CO.paa";
+		//flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_France_CO.paa";
 	};
 	class BLU_HIDF_F
 	{
@@ -31,7 +31,7 @@ class CfgFactionClasses
 		priority = 10;
 		side = TEast;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_EAF_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_EAF_CO.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Egypt_CO.paa";
 	};
 	*/
 	class IND_I_F
@@ -51,7 +51,7 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ANZAC_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
 	};
-	class OPF_TAK_F
+	class OPF_C_F
 	{
 		displayName = "CSAT (Caspian)";
 		priority = 11;
