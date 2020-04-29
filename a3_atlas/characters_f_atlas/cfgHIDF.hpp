@@ -1,4 +1,3 @@
-class B_Soldier_F;
 class I_E_Uniform_01_F;
 class I_E_Uniform_01_shortsleeve_F;
 class I_E_Uniform_01_tanktop_F;

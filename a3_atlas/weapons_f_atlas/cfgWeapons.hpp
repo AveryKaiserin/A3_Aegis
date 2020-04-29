@@ -42,6 +42,10 @@ class CfgWeapons
 	class SMG_05_F;
 	// Arma 3 Enoch
 	class LMG_Mk200_black_F;
+	class arifle_MSBS65_black_F;
+	class arifle_MSBS65_Mark_black_F;
+	class arifle_MSBS65_GL_black_F;
+	class arifle_MSBS65_UBS_black_F;
 	// Arma 3 Aegis
 	class LMG_Mk200_plain_F;
 	class LMG_Zafir_black_F: LMG_Zafir_F
@@ -427,6 +431,40 @@ class CfgWeapons
 			{
 				slot = UnderBarrelSlot;
 				item = bipod_01_F_blk;
+			};
+		};
+	};
+	class arifle_MSBS65_black_aco_pointer_f: arifle_MSBS65_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_ACO;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_pointer_IR;
+			};
+		};
+	};
+	class arifle_MSBS65_GL_black_aco_pointer_f: arifle_MSBS65_GL_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_ACO;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_pointer_IR;
 			};
 		};
 	};

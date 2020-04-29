@@ -4,6 +4,7 @@ class CfgVehicles
 {
 	class ReammoBox_F;
 	class B_supplyCrate_F;
+	#include "cfgLegion.hpp"
 	//#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
 	/*

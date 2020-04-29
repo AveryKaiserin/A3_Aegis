@@ -7,6 +7,7 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
+	#include "cfgLegion.hpp"
 	#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
 	/*

@@ -19,6 +19,24 @@ class CfgVehicles
 {
 	// Arma 3
 	class Item_Base_F;
+	class Item_U_B_CombatUniform_sgg: Item_Base_F
+	{
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg0;
+	};
+	class Item_U_B_CombatUniform_sgg_tshirt: Item_Base_F
+	{
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_tshirt0;
+	};
+	class Item_U_B_CombatUniform_sgg_vest: Item_Base_F
+	{
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_vest0;
+	};
 	// Arma 3 Atlas
 	// HIDF
 	UNIFORM_HOLDER(U_B_HIDF_Soldier_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_F0)

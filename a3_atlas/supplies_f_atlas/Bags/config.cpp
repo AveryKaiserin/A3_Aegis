@@ -4,6 +4,7 @@ class CfgVehicles
 {
 	// Arma 3
 	class B_AssaultPack_khk;
+	class B_AssaultPack_sgg;
 	class B_Kitbag_mcamo;
 	class B_Kitbag_sgg;
 	class B_TacticalPack_rgr;
@@ -27,6 +28,7 @@ class CfgVehicles
 	};
 
 	// Soldier Bags
+	#include "cfgLegion.hpp"
 	#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
 	/*

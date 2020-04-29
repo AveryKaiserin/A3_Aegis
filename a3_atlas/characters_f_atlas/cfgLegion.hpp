@@ -1,3 +1,8 @@
+// Arma 3
+class B_Soldier_F;
+class B_soldier_AR_F;
+class B_Soldier_SL_F;
+// Arma 3 Atlas
 class B_L_Man_Base_F: B_Soldier_F
 {
     scope = private;
@@ -7,9 +12,7 @@ class B_L_Man_Base_F: B_Soldier_F
 	identityTypes[] =
 	{
 		LanguageFRE_F,
-		Head_Euro,
-		Head_Enoch,
-		Head_Afro,
+		Head_NATO,
 		Head_Tanoan,
 		G_NATO_tropic
 	};
@@ -20,6 +23,7 @@ class B_CombatFatigues_sage_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_CombatUniform_sgg;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
 };
 class B_CombatFatigues_01_Tshirt_sage_F: B_Soldier_AR_F
 {
@@ -28,8 +32,13 @@ class B_CombatFatigues_01_Tshirt_sage_F: B_Soldier_AR_F
 	uniformClass = U_B_CombatUniform_sgg_tshirt;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
+	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat",
+		"\A3\Characters_F\Common\Data\basicbody.rvmat"
 	};
 };
 class B_ReconFatigues_01_sage_F: B_Soldier_SL_F
@@ -38,6 +47,7 @@ class B_ReconFatigues_01_sage_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
 };
 class B_L_Soldier_base_F: B_L_Man_Base_F
 {
@@ -46,7 +56,7 @@ class B_L_Soldier_base_F: B_L_Man_Base_F
 class B_L_Soldier_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -55,14 +65,14 @@ class B_L_Soldier_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -118,7 +128,7 @@ class B_L_Soldier_unarmed_F: B_L_Soldier_F
 class B_L_Soldier_A_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_A_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
@@ -128,16 +138,16 @@ class B_L_Soldier_A_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_Carryall_green_BLAmmo_F;
+	backpack = B_Kitbag_sgg_Ammo_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -179,7 +189,7 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AR_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -189,14 +199,14 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -232,7 +242,7 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
 class B_L_Soldier_GL_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_GL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -242,14 +252,14 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -288,7 +298,7 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 class B_L_soldier_M_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_M_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -298,14 +308,14 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -352,7 +362,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Officer_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
@@ -408,9 +418,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	identityTypes[] =
 	{
 		LanguageFRE_F,
-		Head_Euro,
-		Head_Enoch,
-		Head_Afro,
+		Head_NATO,
 		Head_Tanoan,
 		G_NATO_casual
 	};
@@ -418,7 +426,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 class B_L_Soldier_SL_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_SL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -429,7 +437,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -437,7 +445,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -495,7 +503,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 class B_L_Soldier_TL_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_TL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -506,7 +514,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -514,7 +522,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -570,7 +578,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 class B_L_RadioOperator_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_RadioOperator_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_RadioOperator_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
@@ -580,14 +588,14 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	backpack = B_RadioBag_01_sage_F;
 	weapons[] =
@@ -632,7 +640,7 @@ class B_L_Soldier_AA_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AA_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AA_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
@@ -642,16 +650,16 @@ class B_L_Soldier_AA_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_AssaultPack_sgg_BLAA_F;
+	backpack = B_Kitbag_sgg_AA_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -703,7 +711,7 @@ class B_L_Soldier_AT_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AT_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
@@ -713,16 +721,16 @@ class B_L_Soldier_AT_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_AssaultPack_sgg_BLAT_F;
+	backpack = B_Kitbag_sgg_AT_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -774,7 +782,7 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_LAT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -784,16 +792,16 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_AssaultPack_khk_BLLAT_F;
+	backpack = B_AssaultPack_sgg_LAT_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -833,7 +841,7 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 class B_L_Engineer_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Engineer_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -843,16 +851,16 @@ class B_L_Engineer_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_Kitbag_sgg_BLEng_F;
+	backpack = B_Kitbag_sgg_Eng_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -907,7 +915,7 @@ class B_L_Medic_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Medic_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -917,16 +925,16 @@ class B_L_Medic_F: B_L_Soldier_base_F
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_Legion_01_F,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
-	backpack = B_AssaultPack_sgg_BLMedic_F;
+	backpack = B_AssaultPack_sgg_Medic_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
@@ -968,7 +976,7 @@ class B_L_Medic_F: B_L_Soldier_base_F
 class B_L_Crew_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Crew_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -978,14 +986,14 @@ class B_L_Crew_F: B_L_Soldier_base_F
 		H_HelmetCrew_B_L,
 		V_CarrierRigKBT_01_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetCrew_B_L,
 		V_CarrierRigKBT_01_Olive_F,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
@@ -1032,7 +1040,7 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Helipilot_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
@@ -1042,14 +1050,14 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
         H_PilotHelmetHeli_B_L,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
-        NVGoggles_INDEP
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_PilotHelmetHeli_B_L,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
-        NVGoggles_INDEP
+        NVGoggles_OPFOR
     };
 	weapons[] =
 	{
@@ -1081,9 +1089,7 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 	identityTypes[] =
 	{
 		LanguageFRE_F,
-		Head_Euro,
-		Head_Enoch,
-		Head_Afro,
+		Head_NATO,
 		Head_Tanoan,
 		G_NATO_pilot
 	};
@@ -1102,7 +1108,7 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Helicrew_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Helicrew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
@@ -1112,14 +1118,14 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
         H_CrewHelmetHeli_B_L,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
-        NVGoggles_INDEP
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_CrewHelmetHeli_B_L,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
-        NVGoggles_INDEP
+        NVGoggles_OPFOR
     };
 	weapons[] =
 	{
@@ -1149,9 +1155,7 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 	identityTypes[] =
 	{
 		LanguageFRE_F,
-		Head_Euro,
-		Head_Enoch,
-		Head_Afro,
+		Head_NATO,
 		Head_Tanoan,
 		G_NATO_pilot
 	};

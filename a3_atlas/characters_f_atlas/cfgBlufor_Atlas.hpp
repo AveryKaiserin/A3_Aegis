@@ -1,7 +1,5 @@
 // Arma 3
 class B_Soldier_GL_F;
-class B_soldier_AR_F;
-class B_Soldier_SL_F;
 class B_Soldier_TL_F;
 class B_soldier_M_F;
 class B_soldier_LAT_F;
