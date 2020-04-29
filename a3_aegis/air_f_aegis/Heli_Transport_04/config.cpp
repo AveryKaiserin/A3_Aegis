@@ -126,6 +126,11 @@ class CfgVehicles
 				factions[] = {OPF_T_F};
 			};
 		};
+		class AnimationSources: AnimationSources
+		{
+			class Bench_default_source;
+			class Bench_black_source;
+		};
 	};
 	class O_Heli_Transport_04_box_F: Heli_Transport_04_base_F
 	{
