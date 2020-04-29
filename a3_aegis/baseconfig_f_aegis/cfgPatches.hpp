@@ -20,7 +20,6 @@ class CfgPatches
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 	// Arma 3 Aegis
-	BASECONFIGPATCH(A3_Aegis_Functions_F_Aegis,A3_Aegis_Data_F_Aegis)
 	BASECONFIGPATCH(A3_Aegis_Props_F_Aegis_Items,A3_Aegis_Data_F_Aegis)
 	BASECONFIGPATCH(A3_Aegis_Props_F_Aegis_Items_Electronics,A3_Aegis_Data_F_Aegis)
 	BASECONFIGPATCH(A3_Aegis_Props_F_Aegis_Items_Military,A3_Aegis_Data_F_Aegis)

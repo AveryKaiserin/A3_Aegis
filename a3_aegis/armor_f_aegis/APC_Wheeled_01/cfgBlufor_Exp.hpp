@@ -443,4 +443,30 @@ class B_T_APC_Wheeled_01_cannon_v2_F: B_APC_Wheeled_01_cannon_v2_F
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_MX_khk_F,2);
+		weap_xx(arifle_MX_SW_khk_F,1);
+		weap_xx(launch_NLAW_F,1);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_khaki_mag,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
+	};
 };
