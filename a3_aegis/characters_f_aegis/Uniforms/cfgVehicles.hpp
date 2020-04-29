@@ -45,24 +45,6 @@ class CfgVehicles
 		scopeCurator = public;
     	displayName = "Workout Clothes";
 	};
-	class Item_U_B_CombatUniform_sgg: Item_Base_F
-	{
-		scope = public;
-		scopeCurator = public;
-		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg;
-	};
-	class Item_U_B_CombatUniform_sgg_tshirt: Item_Base_F
-	{
-		scope = public;
-		scopeCurator = public;
-		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_tshirt0;
-	};
-	class Item_U_B_CombatUniform_sgg_vest: Item_Base_F
-	{
-		scope = public;
-		scopeCurator = public;
-		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_vest0;
-	};
 	class Item_U_B_CombatUniform_mcam_worn: Item_Base_F
 	{
 		scope = protected;
