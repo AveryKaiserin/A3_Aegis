@@ -11,7 +11,8 @@ class CfgPatches
 			A3_Atlas_Data_F_Atlas,
 			A3_Characters_F_Enoch,
 			A3_Characters_F_Heads,
-			A3_Characters_F_Orange
+			A3_Characters_F_Orange,
+			A3_Characters_F_Tacops
 		};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};
