@@ -52,6 +52,7 @@ class CfgPatches
 			A3_Weapons_F_Rifles_MX,
 			A3_Weapons_F_Rifles_SDAR,
 			A3_Weapons_F_Rifles_TRG20,
+			A3_Weapons_F_Sams,
 			A3_Weapons_F_SMGs_Pdw2000,
 			A3_Weapons_F_SMGs_SMG_01,
 			A3_Weapons_F_SMGs_SMG_02,

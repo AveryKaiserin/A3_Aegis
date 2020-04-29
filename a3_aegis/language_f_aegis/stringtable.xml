@@ -14062,6 +14062,23 @@
 					<Japanese>Mk32 GMG 25mm</Japanese>
 					<Turkish>Mk32 GMG 25 mm</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_weapon_SDBLauncher0">
+					<Original>GBU SDB</Original>
+					<Chinese>GBU SDB</Chinese>
+					<French>GBU SDB</French>
+					<Spanish>GBU SDB</Spanish>
+					<Italian>GBU SDB</Italian>
+					<Polish>GBU SDB</Polish>
+					<Russian>GBU SDB</Russian>
+					<German>GBU SDB</German>
+					<Czech>GBU SDB</Czech>
+					<English>GBU SDB</English>
+					<Portuguese>GBU SDB</Portuguese>
+					<Korean>GBU SDB</Korean>
+					<Chinesesimp>GBU SDB</Chinesesimp>
+					<Japanese>GBU SDB</Japanese>
+					<Turkish>GBU SDB</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_rockets_50mm0">
 					<Original>S-5</Original>
 					<Chinese>S-5</Chinese>

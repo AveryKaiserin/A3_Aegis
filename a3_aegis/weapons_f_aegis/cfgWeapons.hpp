@@ -1204,6 +1204,10 @@ class CfgWeapons
 		recoil = recoil_vorona;
 	};
 	// Arma 3 Encore
+	class weapon_SDBLauncher: RocketPods
+	{
+	  	displayName = $STR_A3_A_CfgWeapons_weapon_SDBLauncher0;
+	};
 	// Arma 3 Enoch
 	class launch_RPG32_camo_F: launch_RPG32_F
 	{
