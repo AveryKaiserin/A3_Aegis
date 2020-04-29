@@ -3970,57 +3970,6 @@
 					<Japanese>戦闘服（MTP、袖まくり）</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (MTP, Kolları Kıvrık)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg">
-					<Original>Combat Fatigues (Sage)</Original>
-					<Chinese>作戰戰鬥服（鼠尾草色）</Chinese>
-					<French>Treillis (vert sauge)</French>
-					<Spanish>Traje de combate (savia)</Spanish>
-					<Italian>Uniforme da combattimento (verde salvia)</Italian>
-					<Polish>Mundur bojowy (sage)</Polish>
-					<Russian>Боевая форма (серо-зеленый)</Russian>
-					<German>Kampfanzug (grau-grün)</German>
-					<Czech>Bojová uniforma (šedozelený)</Czech>
-					<English>Combat Fatigues (Sage)</English>
-					<Portuguese>Uniforme de combate (Sage)</Portuguese>
-					<Korean>전투병 전투복(세이지)</Korean>
-					<Chinesesimp>作战服 (鼠尾草色)</Chinesesimp>
-					<Japanese>戦闘服（セージ）</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Adaçayı)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_tshirt0">
-					<Original>Combat Fatigues (Sage, Tee)</Original>
-					<Chinese>作戰戰鬥服（鼠尾草色，T 恤）</Chinese>
-					<French>Treillis (vert sauge, T-shirt)</French>
-					<Spanish>Traje de combate (savia, camiseta)</Spanish>
-					<Italian>Uniforme da combattimento (verde salvia, T-shirt)</Italian>
-					<Polish>Mundur bojowy (sage, Tee)</Polish>
-					<Russian>Боевая форма (серо-зеленый, Tee)</Russian>
-					<German>Kampfanzug (grau-grün, T-Shirt)</German>
-					<Czech>Bojová uniforma (šedozelený, triko)</Czech>
-					<English>Combat Fatigues (Sage, Tee)</English>
-					<Portuguese>Uniforme de combate (Sage, camisa)</Portuguese>
-					<Korean>전투병 전투복(세이지, 티)</Korean>
-					<Chinesesimp>作战服（鼠尾草色，T 字形）</Chinesesimp>
-					<Japanese>戦闘服（セージ、Tシャツ）</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Tişört)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_vest0">
-					<Original>Combat Fatigues (Sage, Rolled-up)</Original>
-					<Chinese>作戰戰鬥服（鼠尾草色，捲起）</Chinese>
-					<French>Treillis de combat (vert sauge, manches retroussées)</French>
-					<Spanish>Traje de combate (savia, arremangado)</Spanish>
-					<Italian>Uniforme da combattimento (verde salvia, maniche arrotolate)</Italian>
-					<Polish>Mundur bojowy (sage, podwinięty)</Polish>
-					<Russian>Полевая форма (серо-зеленый, рукава)</Russian>
-					<German>Kampfanzug (grau-grün, Hochgekrempelt)</German>
-					<Czech>Bojová uniforma (šedozelený, vyhrnutá)</Czech>
-					<English>Combat Fatigues (Sage, Rolled-up)</English>
-					<Portuguese>Trajes de combate (Sage, manga dobrada)</Portuguese>
-					<Korean>전투병 전투복(세이지, 롤업)</Korean>
-					<Chinesesimp>战斗迷彩服（鼠尾草色，卷起）</Chinesesimp>
-					<Japanese>戦闘服（セージ、袖まくり）</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Kolları Kıvrık)</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_OfficerUniform_ocamo0">
 					<Original>Officer Fatigues (Hex) [CSAT]</Original>
 					<Chinese>軍官戰鬥服（六邊形）（CSAT）</Chinese>
