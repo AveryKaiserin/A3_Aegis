@@ -99,7 +99,7 @@ class CfgWeapons
 		class Single: Mode_SemiAuto
 		{
 			RPM(705);
-			dispersion = 0.00116;
+			dispersion = 0.00058;
 			minRange = 2;
 			minRangeProbab = 0.5;
 			midRange = 150;
@@ -110,7 +110,7 @@ class CfgWeapons
 		class FullAuto: Mode_FullAuto
 		{
 			RPM(705);
-			dispersion = 0.00116;
+			dispersion = 0.00058;
 			minRange = 2;
 			minRangeProbab = 0.9;
 			midRange = 15;
@@ -270,11 +270,11 @@ class CfgWeapons
 	  	};
 		class Single: Single
 		{
-			dispersion = 0.00145;
+			dispersion = 0.00087;
 		};
 		class FullAuto: FullAuto
 		{
-			dispersion = 0.00145;
+			dispersion = 0.00087;
 		};
 		hasBipod = false;
 	};
