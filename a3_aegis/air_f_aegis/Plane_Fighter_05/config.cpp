@@ -273,9 +273,9 @@ class CfgVehicles
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_damage.rvmat",
 				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass_damage.rvmat",
-				"A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int_glass_damage.rvmat"
+				"A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_in.rvmat",
+				"A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_in_damage.rvmat",
+				"A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_in_damage.rvmat"
 			};
 		};
 		LockDetectionSystem = CM_Lock_Radar;
