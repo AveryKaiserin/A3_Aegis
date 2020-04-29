@@ -487,7 +487,7 @@ class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 	textureList[] = {Sand,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_CO.paa",
+		"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_base_CO.paa",
 		"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_adds_CO.paa",
 		"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_tows_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",

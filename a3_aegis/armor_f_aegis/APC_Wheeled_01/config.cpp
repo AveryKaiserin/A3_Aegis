@@ -65,14 +65,20 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class APC_Wheeled_01_base_v2_F: APC_Wheeled_01_base_F
 	{
+		scope = public;
+		accuracy = 0.3;
+		displayName = $STR_A3_CFGVEHICLES_B_APC_WHEELED_01_CANNON;
+		class Library
+		{
+			libTextDesc = $STR_A3_CFGVEHICLES_APC_WHEELED_01_LIBRARY0;
+		};
+		model = "\A3\Armor_F_Beta\APC_Wheeled_01\APC_Wheeled_01_cannon_F.p3d";
+		picture = "\A3\Armor_F_Beta\APC_Wheeled_01\Data\UI\APC_Wheeled_01_ACRV_CA.paa";
+		Icon = "\A3\Armor_F_Beta\APC_Wheeled_01\Data\UI\Map_AMW_CA.paa";
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
-				class Turrets: Turrets
-				{
-					class CommanderOptics: CommanderOptics{};
-				};
 				weapons[] =
 				{
 					autocannon_30mm,
@@ -84,6 +90,8 @@ class CfgVehicles
 					mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Red),
 					mag_10(200Rnd_762x51_Belt_Red)
 				};
+				soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-5,1,30};
+				soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-5,1,30};
 			};
 		};
 		class MFD
@@ -1045,6 +1053,22 @@ class CfgVehicles
 			{
 				weapon = autocannon_30mm;
 			};
+		};
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2,
+			camo3,
+			CamoNet,
+			CamoSlat
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_base_CO.paa",
+			"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_adds_CO.paa",
+			"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_tows_CO.paa",
+			"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+			"\A3\Armor_F\Data\cage_sand_CO.paa"
 		};
 	};
 	#include "cfgBlufor.hpp"
