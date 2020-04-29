@@ -334,4 +334,122 @@ class CfgAmmo
 			};
 		};
 	};
+	class ammo_Bomb_LaserGuidedBase;
+	class ammo_Bomb_GlideBase: ammo_Bomb_LaserGuidedBase
+	{
+		hit = 5000;
+		indirectHit = 1100;
+		indirectHitRange = 12;
+		dangerRadiusHit = 1250;
+		suppressionRadiusHit = 100;
+		explosionSoundEffect = DefaultExplosion;
+		soundHit1[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_1",db8,1,2400};
+		soundHit2[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_2",db8,1,2400};
+		soundHit3[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_3",db8,1,2400};
+		soundHit4[] = {"\A3\Sounds_F\weapons\Explosion\expl_shell_1",db8,1,2400};
+		soundHit5[] = {"\A3\Sounds_F\weapons\Explosion\expl_shell_2",db8,1,2400};
+		multiSoundHit[] =
+		{
+			soundHit1,1/5,
+			soundHit2,1/5,
+			soundHit3,1/5,
+			soundHit4,1/5,
+			soundHit5,1/5
+		};
+		craterEffects = AAMissileCrater;
+		explosionEffects = AAMissileExplosion;
+		model = "\A3\Weapons_F\empty.p3d";
+		proxyShape = "\A3\Weapons_F\empty.p3d";
+		cost = 2000;
+		trackOversteer = 1;
+		trackLead = 0.95;
+		maneuvrability = 20;
+		explosionTime = 2;
+		fuseDistance = 35;
+		whistleDist = 24;
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class NVSensorComponent: SensorTemplateNV
+					{
+						class AirTarget
+						{
+							minRange = 20000;
+							maxRange = 20000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget
+						{
+							minRange = 20000;
+							maxRange = 20000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class LaserSensorComponent: SensorTemplateLaser
+					{
+						class AirTarget
+						{
+							minRange = 20000;
+							maxRange = 20000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget
+						{
+							minRange = 20000;
+							maxRange = 20000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						maxTrackableSpeed = 30;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange = 500;
+							maxRange = 20000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							minRange = 500;
+							maxRange = 20000;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+						maxTrackableSpeed = 55;
+						angleRangeHorizontal = 180;
+						angleRangeVertical = 180;
+					};
+				};
+			};
+		};
+	};
+	class ammo_Bomb_AGM_154: ammo_Bomb_GlideBase
+	{
+		cameraViewAvailable = true;
+		model = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F_fly.p3d";
+		proxyShape = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F.p3d";
+		triggerDistance = 250;
+		triggerSpeedCoef[] = {0.5,1};
+		submunitionConeAngle = 19;
+		submunitionConeType[] = {randomcenter,50};
+		submunitionAmmo[] =
+		{
+			Mo_cluster_AP,0.93,
+			Mo_cluster_AP_UXO_deploy,0.07
+		};
+	};
 };

@@ -14113,6 +14113,23 @@
 					<Japanese>Vektor</Japanese>
 					<Turkish>Vektor</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_weapon_AGM_154Launcher0">
+					<Original>JSOW</Original>
+					<Chinese>JSOW</Chinese>
+					<French>JSOW</French>
+					<Spanish>JSOW</Spanish>
+					<Italian>JSOW</Italian>
+					<Polish>JSOW</Polish>
+					<Russian>JSOW</Russian>
+					<German>JSOW</German>
+					<Czech>JSOW</Czech>
+					<English>JSOW</English>
+					<Portuguese>JSOW</Portuguese>
+					<Korean>JSOW</Korean>
+					<Chinesesimp>JSOW</Chinesesimp>
+					<Japanese>JSOW</Japanese>
+					<Turkish>JSOW</Turkish>
+				</Key>
 			</Container>
 			<!--TODO-->
 			<Container name="Magazines">

@@ -824,6 +824,20 @@ class CfgMagazines
 		nameSound = missiles;
 		weight = 600;
 	};
+	class magazine_Bomb_AGM_154_x1: VehicleMagazine
+	{
+		scope = public;
+		displayName = $STR_A3_A_CfgMagazines_magazine_Bomb_AGM_154_x10;
+		descriptionShort = $STR_A3_A_CfgMagazines_magazine_Bomb_AGM_154_x11;
+		displayNameShort = $STR_A3_Bomb_SDB_magazine_shortName;
+		ammo = ammo_Bomb_AGM_154;
+		initSpeed = 0;
+		maxLeadSpeed = 60;
+		sound[] = {"",db0,1};
+		reloadSound[] = {"",db-50,1};
+		count = 1;
+		nameSound = "";
+	};
 	class 500Rnd_35mm_AA_shells: 680Rnd_35mm_AA_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;

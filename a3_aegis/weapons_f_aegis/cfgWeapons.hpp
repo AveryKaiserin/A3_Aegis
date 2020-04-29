@@ -1433,6 +1433,37 @@ class CfgWeapons
 			};
 		};
 	};
+	class weapon_AGM_154Launcher: RocketPods
+	{
+		displayName = $STR_A3_A_CfgWeapons_weapon_AGM_154Launcher0;
+		weaponLockDelay = 0.1;
+		weaponLockSystem = LockYes + LockLaser;
+		cmImmunity = CMImmunity_BAD;
+		minRange = 300;
+		minRangeProbab = 0.4;
+		midRange = 1000;
+		midRangeProbab = 0.95;
+		maxRange = 8000;
+		maxRangeProbab = 0.9;
+		magazines[] =
+		{
+			magazine_Bomb_AGM_154_x1,
+			PylonMissile_Bomb_AGM_154_x1
+		};
+		RPM(600);
+		autoFire = false;
+		magazineReloadTime = 0.1;
+		aiRateOfFire = 5.0;
+		aiRateOfFireDistance = 500;
+		nameSound = "";
+		cursor = EmptyCursor;
+		cursorAim = bomb;
+		showAimCursorInternal = false;
+		ballisticsComputer = BallisticsCCIP;
+		textureType = semi;
+		lockedTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_3",db-5,2.5};
+		lockingTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_1",db-5,1};
+	};
 	/*
 	class Laserdesignator_02_blk_F: Laserdesignator_02
 	{

@@ -518,6 +518,7 @@ class CfgVehicles
 							B_GBU12,
 							B_GBU12_DUAL_RAIL,
 							B_HARM_RAIL,
+							B_AGM_154,
 							B_SDB_QUAD_RAIL
 						};
 						attachment = PylonRack_Missile_AMRAAM_D_x2;
@@ -555,6 +556,7 @@ class CfgVehicles
 						{
 							B_AMRAAM_D_INT,
 							B_SDB_QUAD_RAIL,
+							B_AGM_154,
 							B_GBU12
 						};
 						priority = 2;
@@ -567,6 +569,7 @@ class CfgVehicles
 						{
 							B_AMRAAM_D_INT,
 							B_SDB_QUAD_RAIL,
+							B_AGM_154,
 							B_GBU12
 						};
 						attachment = PylonRack_Bomb_SDB_x4;
@@ -671,8 +674,8 @@ class CfgVehicles
 							PylonRack_2Rnd_BombCluster_01_F,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
-							PylonMissile_1Rnd_BombCluster_01_F,
-							PylonMissile_1Rnd_BombCluster_01_F,
+							PylonMissile_Bomb_AGM_154_x1,
+							PylonMissile_Bomb_AGM_154_x1,
 							PylonWeapon_220Rnd_25mm_shells
 						};
 					};
