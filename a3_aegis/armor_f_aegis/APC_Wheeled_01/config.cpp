@@ -98,22 +98,17 @@ class CfgVehicles
 		{
 			class MFD_Driver_Heading
 			{
-				topLeft = MFD_1_TL;
-				topRight = MFD_1_TR;
-				bottomLeft = MFD_1_BL;
+				topLeft = "MFD_1_TL";
+				topRight = "MFD_1_TR";
+				bottomLeft = "MFD_1_BL";
 				borderLeft = 0;
 				borderRight = 0;
 				borderTop = 0;
 				borderBottom = 0;
-				color[] =
-				{
-					0.84, // R
-					0.86, // G
-					0.84 // B
-				};
+				color[] = {0.84,0.86,0.84};
 				alpha = 0.5;
-				enableParallax = false;
-				font = LCD14;
+				enableParallax = 0;
+				font = "LCD14";
 				class Bones{};
 				class material
 				{
@@ -983,7 +978,7 @@ class CfgVehicles
 					{
 						type = "text";
 						source = "static";
-						text = "MP-T";
+						text = "GPR-T";
 						sourceScale = 1;
 						sourceLength = 3;
 						scale = 1;
