@@ -20,6 +20,11 @@ class CfgFaces
 		class Kerry_A_F: Kerry
 		{
 			displayName = "Kerry (Survive)";
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
 			disabled = false;
 		};
 		class kerry_B1_F: Kerry
@@ -35,6 +40,11 @@ class CfgFaces
 		class Kerry_C_F: Kerry
 		{
 			displayName = "Kerry (Win)";
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
 			disabled = false;
 		};
 		class IG_Leader: Default
@@ -67,6 +77,193 @@ class CfgFaces
 		};
 		// Arma 3 Apex
 		class TanoanHead_A3_01;
+		// Arma 3 Laws of War
+		class WhiteHead_23: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Orange_EOD,
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class GreekHead_A3_11: GreekHead_A3_01
+		{
+			identityTypes[] =
+			{
+				Orange_Officer,
+				Head_Greek
+			};
+		};
+		class GreekHead_A3_12: GreekHead_A3_01
+		{
+			identityTypes[] =
+			{
+				Orange_Civilian,
+				Head_Greek
+			};
+		};
+		class GreekHead_A3_13: GreekHead_A3_01
+		{
+			identityTypes[] =
+			{
+				Orange_FIA,
+				Head_Greek
+			};
+		};
+		class GreekHead_A3_14: GreekHead_A3_01
+		{
+			identityTypes[] =
+			{
+				Orange_AAF,
+				Head_Greek
+			};
+		};
+		// Arma 3 Enoch
+		class WhiteHead_24: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_25: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_26: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_27: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_28: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_29: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_30: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class WhiteHead_31: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class WhiteHead_32: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
+		};
+		class LivonianHead_1: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_2: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_3: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_4: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_5: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_7: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_8: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_9: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
+		class LivonianHead_10: WhiteHead_01
+		{
+			identityTypes[] =
+			{
+				Head_Enoch,
+				Head_NATO
+			};
+		};
 		// Arma 3 Oldman
 		class TanoanHead_A3_09: TanoanHead_A3_01
 		{
@@ -110,6 +307,11 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_2_CO.paa";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_White_33_injury.rvmat";
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_White_33_injury.rvmat";
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Euro
+			};
 		};
   	};
 };
