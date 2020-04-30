@@ -928,55 +928,55 @@
 					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_F0">
-					<Original>Heer Combat Uniform (Arid)</Original>
-					<Chinese>Heer Combat Uniform (Arid)</Chinese>
-					<French>Heer Combat Uniform (Arid)</French>
-					<Spanish>Heer Combat Uniform (Arid)</Spanish>
-					<Italian>Heer Combat Uniform (Arid)</Italian>
-					<Polish>Heer Combat Uniform (Arid)</Polish>
-					<Russian>Heer Combat Uniform (Arid)</Russian>
-					<German>Heer Combat Uniform (Arid)</German>
-					<Czech>Heer Combat Uniform (Arid)</Czech>
-					<English>Heer Combat Uniform (Arid)</English>
-					<Portuguese>Heer Combat Uniform (Arid)</Portuguese>
-					<Korean>Heer Combat Uniform (Arid)</Korean>
-					<Chinesesimp>Heer Combat Uniform (Arid)</Chinesesimp>
-					<Japanese>Heer Combat Uniform (Arid)</Japanese>
-					<Turkish>Heer Combat Uniform (Arid)</Turkish>
+					<Original>GE Combat Uniform (Arid)</Original>
+					<Chinese>GE Combat Uniform (Arid)</Chinese>
+					<French>GE Combat Uniform (Arid)</French>
+					<Spanish>GE Combat Uniform (Arid)</Spanish>
+					<Italian>GE Combat Uniform (Arid)</Italian>
+					<Polish>GE Combat Uniform (Arid)</Polish>
+					<Russian>GE Combat Uniform (Arid)</Russian>
+					<German>GE Combat Uniform (Arid)</German>
+					<Czech>GE Combat Uniform (Arid)</Czech>
+					<English>GE Combat Uniform (Arid)</English>
+					<Portuguese>GE Combat Uniform (Arid)</Portuguese>
+					<Korean>GE Combat Uniform (Arid)</Korean>
+					<Chinesesimp>GE Combat Uniform (Arid)</Chinesesimp>
+					<Japanese>GE Combat Uniform (Arid)</Japanese>
+					<Turkish>GE Combat Uniform (Arid)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_shortsleeve_F0">
-					<Original>Heer Combat Uniform (Arid, Rolled-up)</Original>
-					<Chinese>Heer Combat Uniform (Arid, Rolled-up)</Chinese>
-					<French>Heer Combat Uniform (Arid, Rolled-up)</French>
-					<Spanish>Heer Combat Uniform (Arid, Rolled-up)</Spanish>
-					<Italian>Heer Combat Uniform (Arid, Rolled-up)</Italian>
-					<Polish>Heer Combat Uniform (Arid, Rolled-up)</Polish>
-					<Russian>Heer Combat Uniform (Arid, Rolled-up)</Russian>
-					<German>Heer Combat Uniform (Arid, Rolled-up)</German>
-					<Czech>Heer Combat Uniform (Arid, Rolled-up)</Czech>
-					<English>Heer Combat Uniform (Arid, Rolled-up)</English>
-					<Portuguese>Heer Combat Uniform (Arid, Rolled-up)</Portuguese>
-					<Korean>Heer Combat Uniform (Arid, Rolled-up)</Korean>
-					<Chinesesimp>Heer Combat Uniform (Arid, Rolled-up)</Chinesesimp>
-					<Japanese>Heer Combat Uniform (Arid, Rolled-up)</Japanese>
-					<Turkish>Heer Combat Uniform (Arid, Rolled-up)</Turkish>
+					<Original>GE Combat Uniform (Arid, Rolled-up)</Original>
+					<Chinese>GE Combat Uniform (Arid, Rolled-up)</Chinese>
+					<French>GE Combat Uniform (Arid, Rolled-up)</French>
+					<Spanish>GE Combat Uniform (Arid, Rolled-up)</Spanish>
+					<Italian>GE Combat Uniform (Arid, Rolled-up)</Italian>
+					<Polish>GE Combat Uniform (Arid, Rolled-up)</Polish>
+					<Russian>GE Combat Uniform (Arid, Rolled-up)</Russian>
+					<German>GE Combat Uniform (Arid, Rolled-up)</German>
+					<Czech>GE Combat Uniform (Arid, Rolled-up)</Czech>
+					<English>GE Combat Uniform (Arid, Rolled-up)</English>
+					<Portuguese>GE Combat Uniform (Arid, Rolled-up)</Portuguese>
+					<Korean>GE Combat Uniform (Arid, Rolled-up)</Korean>
+					<Chinesesimp>GE Combat Uniform (Arid, Rolled-up)</Chinesesimp>
+					<Japanese>GE Combat Uniform (Arid, Rolled-up)</Japanese>
+					<Turkish>GE Combat Uniform (Arid, Rolled-up)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_tanktop_F0">
-					<Original>Heer Combat Uniform (Arid, Tank Top)</Original>
-					<Chinese>Heer Combat Uniform (Arid, Tank Top)</Chinese>
-					<French>Heer Combat Uniform (Arid, Tank Top)</French>
-					<Spanish>Heer Combat Uniform (Arid, Tank Top)</Spanish>
-					<Italian>Heer Combat Uniform (Arid, Tank Top)</Italian>
-					<Polish>Heer Combat Uniform (Arid, Tank Top)</Polish>
-					<Russian>Heer Combat Uniform (Arid, Tank Top)</Russian>
-					<German>Heer Combat Uniform (Arid, Tank Top)</German>
-					<Czech>Heer Combat Uniform (Arid, Tank Top)</Czech>
-					<English>Heer Combat Uniform (Arid, Tank Top)</English>
-					<Portuguese>Heer Combat Uniform (Arid, Tank Top)</Portuguese>
-					<Korean>Heer Combat Uniform (Arid, Tank Top)</Korean>
-					<Chinesesimp>Heer Combat Uniform (Arid, Tank Top)</Chinesesimp>
-					<Japanese>Heer Combat Uniform (Arid, Tank Top)</Japanese>
-					<Turkish>Heer Combat Uniform (Arid, Tank Top)</Turkish>
+					<Original>GE Combat Uniform (Arid, Tank Top)</Original>
+					<Chinese>GE Combat Uniform (Arid, Tank Top)</Chinese>
+					<French>GE Combat Uniform (Arid, Tank Top)</French>
+					<Spanish>GE Combat Uniform (Arid, Tank Top)</Spanish>
+					<Italian>GE Combat Uniform (Arid, Tank Top)</Italian>
+					<Polish>GE Combat Uniform (Arid, Tank Top)</Polish>
+					<Russian>GE Combat Uniform (Arid, Tank Top)</Russian>
+					<German>GE Combat Uniform (Arid, Tank Top)</German>
+					<Czech>GE Combat Uniform (Arid, Tank Top)</Czech>
+					<English>GE Combat Uniform (Arid, Tank Top)</English>
+					<Portuguese>GE Combat Uniform (Arid, Tank Top)</Portuguese>
+					<Korean>GE Combat Uniform (Arid, Tank Top)</Korean>
+					<Chinesesimp>GE Combat Uniform (Arid, Tank Top)</Chinesesimp>
+					<Japanese>GE Combat Uniform (Arid, Tank Top)</Japanese>
+					<Turkish>GE Combat Uniform (Arid, Tank Top)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_PilotCoveralls_ANZAC0">
 					<Original>Pilot Coveralls [ADF]</Original>
@@ -1156,6 +1156,23 @@
 				</Key>
 			</Container>
 			<Container name="Faction_Classes">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_L_F0">
+					<Original>Legion</Original>
+					<Chinese>軍團</Chinese>
+					<French>Légion</French>
+					<Spanish>Legión</Spanish>
+					<Italian>Legione</Italian>
+					<Polish>Legioniści</Polish>
+					<Russian>Легион</Russian>
+					<German>Legionäre</German>
+					<Czech>Legionáři</Czech>
+					<English>Legion</English>
+					<Portuguese>Legião</Portuguese>
+					<Korean>군단병</Korean>
+					<Chinesesimp>军团</Chinesesimp>
+					<Japanese>軍団</Japanese>
+					<Turkish>Lejyon</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_HIDF_F0">
 					<Original>HIDF</Original>
 					<Chinese>HIDF</Chinese>
@@ -1704,6 +1721,23 @@
 		</Container>
 		<Container name="Supplies_F">
 			<Container name="Ammoboxes">
+				<Key ID="STR_A3_A_CfgVehicles_L_supplyCrate_F0">
+					<Original>Supply Box [Legion]</Original>
+					<Chinese>補給盒（軍團）</Chinese>
+					<French>Caisse de ravitaillements [Légion]</French>
+					<Spanish>Caja de suministros [Legión]</Spanish>
+					<Italian>Scatola di rifornimenti [Legione]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [Legioniści]</Polish>
+					<Russian>Ящик с припасами [Легион]</Russian>
+					<German>Nachschubkiste [Legionäre]</German>
+					<Czech>Bedna se zásobami [Legionáři]</Czech>
+					<English>Supply Box [Legion]</English>
+					<Portuguese>Caixa de suprimentos [Legião]</Portuguese>
+					<Korean>보급상자[군단병]</Korean>
+					<Chinesesimp>供给箱 [军团]</Chinesesimp>
+					<Japanese>物資箱[軍団]</Japanese>
+					<Turkish>İkmal Kutusu [Lejyon]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_Wps_F0">
 					<Original>Basic Weapons [HIDF]</Original>
 					<Chinese>基本武器（HIDF）</Chinese>
