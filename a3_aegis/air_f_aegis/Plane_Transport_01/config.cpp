@@ -981,6 +981,7 @@ class CfgVehicles
 			libEnable = true;
 			libTextDesc = "";
 		};
+		#include "TFAR.hpp"
 	};
 	class Plane_Transport_01_infantry_base_F: Plane_Transport_01_base_F
 	{

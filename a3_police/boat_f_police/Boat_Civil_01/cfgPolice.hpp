@@ -39,4 +39,5 @@ class I_P_Boat_Civil_01_police_F: Boat_Civil_01_base_F
 		HideRescueSigns,1,
 		HidePoliceSigns,0
 	};
+	#include "TFAR.hpp"
 };
