@@ -38,9 +38,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 				};
 				factions[] = {BLU_E_F};
@@ -51,9 +51,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 				};
 				factions[] = {BLU_E_F};

@@ -22,10 +22,32 @@ class CfgVehicles
 		{
 			class Sand_01
 			{
+				DisplayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_CO.paa",
+					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_CO.paa",
+					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\RCWS30_CO.paa",
+					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
 				factions[] = {BLU_E_F};
 			};
 			class Olive_01
 			{
+				displayName = $STR_A3_TEXTURESOURCES_OLIVE0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"\A3\Armor_F\Data\cage_olive_CO.paa"
+				};
 				factions[] = {BLU_E_F};
 			};
 		};
