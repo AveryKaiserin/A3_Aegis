@@ -709,8 +709,8 @@ class I_engineer_F: I_Soldier_base_F
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
+        SmokeShellGreen,
+        SmokeShellOrange,
         SmokeShellPurple
 	};
 	respawnMagazines[] =
@@ -719,8 +719,8 @@ class I_engineer_F: I_Soldier_base_F
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
+        SmokeShellGreen,
+        SmokeShellOrange,
         SmokeShellPurple
 	};
     linkedItems[] =
@@ -1079,8 +1079,8 @@ class I_diver_TL_F: I_Soldier_diver_base_F
         mag_2(9Rnd_45ACP_Mag),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellBlue,
         SmokeShellOrange,
+        SmokeShellPurple,
         mag_2(Chemlight_green)
     };
     respawnMagazines[] =
@@ -1090,8 +1090,8 @@ class I_diver_TL_F: I_Soldier_diver_base_F
         mag_2(9Rnd_45ACP_Mag),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellBlue,
         SmokeShellOrange,
+        SmokeShellPurple,
         mag_2(Chemlight_green)
     };
 };

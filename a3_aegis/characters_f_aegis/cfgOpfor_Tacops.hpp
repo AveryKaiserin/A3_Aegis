@@ -1,16 +1,16 @@
 // Arma 3 Tac-Ops
 class O_A_soldier_base_F: O_officer_F
 {
-    faction = OPF_A_F;
+    editorSubcategory = EdSubcat_Personnel;
     identityTypes[] =
     {
         LanguageFRE_F,
         Head_African,
         G_IRAN_african
     };
-    editorSubcategory = EdSubcat_Personnel;
-    genericNames = AfroMen;
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_hex_CO.paa"};
+	magazines[] = {};
+	respawnMagazines[] = {};
     class Wounds
     {
         mat[] =
@@ -20,7 +20,9 @@ class O_A_soldier_base_F: O_officer_F
             "A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_injury_noInsignia.rvmat"
         };
         tex[] = {};
-  };
+    };
+    faction = OPF_A_F;
+    genericNames = AfroMen;
 };
 class O_A_soldier_A_F: O_A_soldier_base_F
 {

@@ -343,8 +343,8 @@ class I_I_engineer_F: I_I_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
@@ -353,8 +353,8 @@ class I_I_engineer_F: I_I_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	camouflage = 1.6;
 	canDeactivateMines = true;
@@ -473,15 +473,15 @@ class I_I_helipilot_F: I_I_Soldier_Base_F
 	{
 		mag_4(30Rnd_9x21_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	camouflage = 2;
 	cost = 160000;
@@ -539,15 +539,15 @@ class I_I_helicrew_F: I_I_helipilot_F
 	{
 		mag_4(30Rnd_556x45_Stanag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_Stanag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	cost = 80000;
 	role = Crewman;
@@ -800,16 +800,16 @@ class I_I_officer_F: I_I_Soldier_Base_F
 		mag_4(30Rnd_9x21_Mag),
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag),
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	camouflage = 1.6;
     cost = 600000;
@@ -984,12 +984,12 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
         mag_2(I_I_IR_Grenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+		1Rnd_SmokePurple_Grenade_shell
 	};
 	respawnMagazines[] =
 	{
@@ -1001,12 +1001,12 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
         mag_2(I_I_IR_Grenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+		1Rnd_SmokePurple_Grenade_shell
 	};
 	camouflage = 1.4;
     cost = 500000;
@@ -1060,12 +1060,12 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+		1Rnd_SmokePurple_Grenade_shell
 	};
 	respawnMagazines[] =
 	{
@@ -1076,12 +1076,12 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+		1Rnd_SmokePurple_Grenade_shell
 	};
 	camouflage = 1.4;
     cost = 250000;
@@ -1733,8 +1733,8 @@ class I_I_recon_TL_F: I_I_Soldier_recon_base
 		mag_2(MiniGrenade),
 		SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
 		mag_2(Chemlight_green)
 	};
 	respawnMagazines[] =
@@ -1745,8 +1745,8 @@ class I_I_recon_TL_F: I_I_Soldier_recon_base
 		mag_2(MiniGrenade),
 		SmokeShell,
         SmokeShellGreen,
-        SmokeShellYellow,
         SmokeShellOrange,
+        SmokeShellPurple,
 		mag_2(Chemlight_green)
 	};
     cost = 250000;
@@ -1801,15 +1801,15 @@ class I_I_Fighter_Pilot_F: I_I_Soldier_Base_F
 	{
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellGreen,
-        SmokeShellYellow,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	camouflage = 2;
     cost = 165000;

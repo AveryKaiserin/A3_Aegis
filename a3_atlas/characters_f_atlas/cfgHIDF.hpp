@@ -374,8 +374,8 @@ class B_HIDF_Engineer_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
@@ -383,8 +383,8 @@ class B_HIDF_Engineer_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	linkedItems[] =
 	{
@@ -484,15 +484,15 @@ class B_HIDF_Helipilot_F: B_HIDF_Soldier_Base_F
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
     linkedItems[] =
     {
@@ -544,15 +544,15 @@ class B_HIDF_Helicrew_F: B_HIDF_Helipilot_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
     linkedItems[] =
     {
@@ -658,16 +658,16 @@ class B_HIDF_Officer_F: B_HIDF_Soldier_Base_F
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
 		mag_2(7Rnd_45ACP_Mag),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
 		mag_2(7Rnd_45ACP_Mag),
         SmokeShellYellow,
-        SmokeShellGreen,
-        SmokeShellOrange
+        SmokeShellOrange,
+        SmokeShellPurple
 	};
 	linkedItems[] =
 	{
@@ -825,11 +825,11 @@ class B_HIDF_Soldier_SL_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokePurple_Grenade_shell,
 		1Rnd_SmokeYellow_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
 	};
 	respawnMagazines[] =
@@ -841,11 +841,11 @@ class B_HIDF_Soldier_SL_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokePurple_Grenade_shell,
 		1Rnd_SmokeYellow_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
 	};
 	linkedItems[] =
@@ -896,11 +896,11 @@ class B_HIDF_Soldier_TL_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokePurple_Grenade_shell,
 		1Rnd_SmokeYellow_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
 	};
 	respawnMagazines[] =
@@ -912,11 +912,11 @@ class B_HIDF_Soldier_TL_F: B_HIDF_Soldier_Base_F
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
-        SmokeShellGreen,
         SmokeShellOrange,
+        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokePurple_Grenade_shell,
 		1Rnd_SmokeYellow_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
 	};
 	linkedItems[] =

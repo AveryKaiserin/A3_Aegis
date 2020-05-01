@@ -390,17 +390,17 @@ class I_E_Officer_F: I_E_Soldier_base_F
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     cost = 600000;
 	identityTypes[] =
@@ -436,13 +436,13 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(HandGrenade),
         mag_2(I_E_IR_Grenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokePurple_Grenade_shell
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
     };
     respawnMagazines[] =
     {
@@ -453,13 +453,13 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(HandGrenade),
         mag_2(I_E_IR_Grenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokePurple_Grenade_shell
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
     };
 };
 class I_E_Soldier_TL_F: I_E_Soldier_base_F
@@ -487,13 +487,13 @@ class I_E_Soldier_TL_F: I_E_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokePurple_Grenade_shell
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
     };
     respawnMagazines[] =
     {
@@ -503,13 +503,13 @@ class I_E_Soldier_TL_F: I_E_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokePurple_Grenade_shell
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
     };
 };
 class I_E_RadioOperator_F: I_E_Soldier_base_F
@@ -1062,9 +1062,9 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_2(MiniGrenade),
         mag_2(I_E_IR_Grenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         mag_2(Chemlight_blue)
     };
     respawnMagazines[] =
@@ -1076,9 +1076,9 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_2(MiniGrenade),
         mag_2(I_E_IR_Grenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
         SmokeShellOrange,
-        SmokeShellPurple,
         mag_2(Chemlight_blue)
     };
 };
@@ -1118,9 +1118,9 @@ class I_E_Engineer_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     respawnMagazines[] =
     {
@@ -1128,9 +1128,9 @@ class I_E_Engineer_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
 };
 class I_E_Soldier_Exp_F: I_E_Soldier_base_F
@@ -1268,20 +1268,8 @@ class I_E_Scientist_F: I_E_Soldier_base_F
         SMG_03C_TR_black,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_4(50Rnd_570x28_SMG_03),
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
-    };
-    respawnMagazines[] =
-    {
-        mag_4(50Rnd_570x28_SMG_03),
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
-    };
+    magazines[] = {mag_4(50Rnd_570x28_SMG_03)};
+    respawnMagazines[] = {mag_4(50Rnd_570x28_SMG_03)};
 };
 class I_E_Scientist_Unarmed_F: I_E_Soldier_base_F
 {
@@ -1300,6 +1288,8 @@ class I_E_Scientist_Unarmed_F: I_E_Soldier_base_F
         G_AirPurifyingRespirator_01_F,
 		DefaultManLinkedItems
 	};
+    magazines[] = {};
+    respawnMagazines[] = {};
 };
 class I_E_Medic_F: I_E_Soldier_base_F
 {
@@ -1442,16 +1432,16 @@ class I_E_Helipilot_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_4(50Rnd_570x28_SMG_03),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     respawnMagazines[] =
     {
         mag_4(50Rnd_570x28_SMG_03),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
 	identityTypes[] =
 	{
@@ -1490,16 +1480,16 @@ class I_E_Helicrew_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
 	identityTypes[] =
 	{
@@ -1609,16 +1599,16 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_2(11Rnd_45ACP_Mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     respawnMagazines[] =
     {
         mag_2(11Rnd_45ACP_Mag),
+        SmokeShellGreen,
         SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellPurple
+        SmokeShellOrange
     };
     cost = 165000;
     role = Crewman;

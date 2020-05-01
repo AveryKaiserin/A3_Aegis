@@ -2199,7 +2199,10 @@ class B_A_Diver_TL_F: B_diver_TL_F
 		mag_3(20Rnd_556x45_Stanag_red),
 		mag_3(20Rnd_556x45_UW_mag),
 		mag_2(17Rnd_9x21_Mag),
-        mag_2(SmokeShell),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
         mag_2(Chemlight_green)
     };
     respawnMagazines[] =
@@ -2207,7 +2210,10 @@ class B_A_Diver_TL_F: B_diver_TL_F
 		mag_3(20Rnd_556x45_Stanag_red),
 		mag_3(20Rnd_556x45_UW_mag),
 		mag_2(17Rnd_9x21_Mag),
-        mag_2(SmokeShell),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
         mag_2(Chemlight_green)
     };
 };

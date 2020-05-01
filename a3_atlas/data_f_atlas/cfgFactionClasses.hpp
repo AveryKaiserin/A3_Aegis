@@ -8,14 +8,6 @@ class CfgFactionClasses
 		//icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_LEGION_CA.paa";
 		//flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_France_CO.paa";
 	};
-	class BLU_HIDF_F
-	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_HIDF_F0;
-		priority = 12;
-		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIDF_CA.paa";
-		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
-	};
 	class BLU_E_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_E_F0;
@@ -23,6 +15,14 @@ class CfgFactionClasses
 		side = TWest;
 		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
+	};
+	class BLU_HIDF_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_HIDF_F0;
+		priority = 12;
+		side = TWest;
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIDF_CA.paa";
+		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
 	/*
 	class OPF_E_F

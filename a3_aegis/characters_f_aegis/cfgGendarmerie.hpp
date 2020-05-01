@@ -124,16 +124,14 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 		mag_3(200Rnd_556x45_Box_Red_F),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_3(200Rnd_556x45_Box_Red_F),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	linkedItems[] =
 	{
@@ -174,16 +172,14 @@ class B_GEN_Soldier_Rifle_F: B_GEN_Soldier_base_F
 		mag_6(30Rnd_762x39_Mag_F),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_762x39_Mag_F),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	linkedItems[] =
 	{
@@ -227,8 +223,7 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
         mag_3(8Rnd_12Gauge_Slug),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	respawnMagazines[] =
 	{
@@ -236,8 +231,7 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
         mag_3(8Rnd_12Gauge_Slug),
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	linkedItems[] =
 	{
@@ -286,8 +280,7 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 		RPG7_F,
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	respawnMagazines[] =
 	{
@@ -295,8 +288,7 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 		RPG7_F,
 		mag_2(7Rnd_45ACP_Mag),
 		HandGrenade,
-		SmokeShell,
-		SmokeShellYellow
+		SmokeShell
 	};
 	linkedItems[] =
 	{

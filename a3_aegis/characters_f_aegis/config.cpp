@@ -8,24 +8,24 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgBlufor.hpp"
-	#include "cfgCivil.hpp"
-	#include "cfgIndep.hpp"
-	#include "cfgGuerrilla.hpp"
-	#include "cfgOpfor.hpp"
-	#include "cfgSyndikat.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgCTRG.hpp"
-	#include "cfgViper.hpp"
-	#include "cfgGendarmerie.hpp"
-	#include "cfgOpfor_Tacops.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgEAF.hpp"
-	#include "cfgLooters.hpp"
-	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
-	#include "cfgIon.hpp"
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgCivil.hpp"				// Civilians
+	#include "cfgIndep.hpp"				// AAF
+	#include "cfgGuerrilla.hpp"			// FIA
+	#include "cfgOpfor.hpp"				// CSAT
+	#include "cfgSyndikat.hpp"			// Syndikat
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgOpfor_Exp.hpp"			// CSAT (Pacific)
+	#include "cfgCTRG.hpp"				// CTRG
+	#include "cfgViper.hpp"				// Viper
+	#include "cfgGendarmerie.hpp"		// Gendarmerie
+	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgSpetsnaz.hpp"			// Russia
+	#include "cfgEAF.hpp"				// LDF
+	#include "cfgLooters.hpp"			// Looters
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
+	#include "cfgIon.hpp"				// ION
 };
 #include "cfgGroups.hpp"
