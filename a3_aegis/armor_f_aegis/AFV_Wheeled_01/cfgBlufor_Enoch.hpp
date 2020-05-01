@@ -5,7 +5,7 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	{
 		eden = true;
 		animate[] =
-		{
+        {
             {damagehide,0},
             {damagehidevez,0},
             {damagehidehlaven,0},
@@ -84,7 +84,7 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
             {poklop_gunner,0},
             {poklop_commander,0},
             {zasleh_rot,0},
-            {zasleh2_rot,754.59},
+            {zasleh2_rot,502.96},
             {zasleh_hide,0},
             {reverse_light,1},
             {hideturret,0},
@@ -232,9 +232,9 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
             {com_and_gun_turret_indicator_5_hide,0},
             {com_and_gun_turret_indicator_6_show_from_right,0},
             {com_and_gun_turret_indicator_6_hide_from_right,0}
-		};
+        };
 		hide[] =
-		{
+        {
             zasleh2,
             zasleh_1,
             light_l,
@@ -244,7 +244,7 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
             clan,
             "podsvit pristroju",
             poskozeni
-		};
+        };
 		verticalOffset = 2.057;
 		verticalOffsetWorld = -0.092;
 		init = "[this, '', []] call bis_fnc_initVehicle";
@@ -274,9 +274,15 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	{
 		weap_xx(arifle_MXC_Black_F,2);
 	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
+		item_xx(Toolkit,1);
+		item_xx(Medikit,1);
+	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,3);
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
 };
 class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
@@ -286,7 +292,7 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	{
 		eden = true;
 		animate[] =
-		{
+        {
             {damagehide,0},
             {damagehidevez,0},
             {damagehidehlaven,0},
@@ -365,8 +371,6 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
             {poklop_gunner,0},
             {poklop_commander,0},
             {zasleh_rot,0},
-            {zasleh2_rot,754.59},
-            {zasleh_hide,0},
             {reverse_light,1},
             {hideturret,0},
             {recoil,0},
@@ -512,10 +516,32 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
             {com_and_gun_turret_indicator_5_show,0},
             {com_and_gun_turret_indicator_5_hide,0},
             {com_and_gun_turret_indicator_6_show_from_right,0},
-            {com_and_gun_turret_indicator_6_hide_from_right,0}
-		};
+            {com_and_gun_turret_indicator_6_hide_from_right,0},
+            {cannon_muzzle_flash,0},
+            {turret_shake,0},
+            {turret_shake_back,0},
+            {muzzle_shake,0},
+            {muzzle_shake_back,0},
+            {zasleh_hide,0},
+            {zasleh2_rot,505.79},
+            {undamage_era_front_hide,0},
+            {damage_era_front_hide,0},
+            {damage_camonet_front_hide,0},
+            {undamage_era_back_hide,0},
+            {damage_era_back_hide,0},
+            {damage_camonet_back_hide,0},
+            {undamage_era_left_hide,0},
+            {damage_era_left_hide,0},
+            {damage_camonet_left_hide,0},
+            {undamage_era_right_hide,0},
+            {damage_era_right_hide,0},
+            {damage_camonet_right_hide,0},
+            {undamage_era_top_hide,0},
+            {damage_era_top_hide,0},
+            {damage_camonet_top_hide,0}
+        };
 		hide[] =
-		{
+        {
             zasleh2,
             zasleh_1,
             light_l,
@@ -525,8 +551,8 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
             clan,
             "podsvit pristroju",
             poskozeni
-		};
-		verticalOffset = 2.058;
+        };
+		verticalOffset = 2.173;
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
@@ -557,8 +583,14 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	{
 		weap_xx(arifle_MXC_Black_F,2);
 	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
+		item_xx(Toolkit,1);
+		item_xx(Medikit,1);
+	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,3);
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
 };

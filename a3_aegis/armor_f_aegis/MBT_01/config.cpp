@@ -41,6 +41,29 @@ class CfgVehicles
 				};
 			};
 		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_mcamo,2);
+		};
+	};
+	class B_MBT_01_base_F: MBT_01_base_F{};
+	class B_MBT_01_cannon_F: B_MBT_01_base_F
+	{
+		animationList[] =
+		{
+			showCamonetCannon,0,
+			showCamonetPlates1,0,
+			showCamonetPlates2,0,
+			showCamonetTurret,0,
+			showCamonetHull,0,
+			showBags,0.67
+		};
 	};
 	class MBT_01_arty_base_F: MBT_01_base_F
 	{
@@ -71,19 +94,6 @@ class CfgVehicles
 			showCamonetHull,0,
 			showCanisters,0.33,
 			showAmmobox,0.17
-		};
-	};
-	class B_MBT_01_base_F: MBT_01_base_F{};
-	class B_MBT_01_cannon_F: B_MBT_01_base_F
-	{
-		animationList[] =
-		{
-			showCamonetCannon,0,
-			showCamonetPlates1,0,
-			showCamonetPlates2,0,
-			showCamonetTurret,0,
-			showCamonetHull,0,
-			showBags,0.67
 		};
 	};
 	class B_MBT_01_arty_base_F: MBT_01_arty_base_F{};
@@ -126,6 +136,35 @@ class CfgVehicles
 			};
 		};
 	};
+	// Arma 3 Apex
+	class B_T_MBT_01_arty_F: B_MBT_01_arty_F
+	{
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_tna_F,2);
+		};
+	};
+	class B_T_MBT_01_mlrs_F: B_MBT_01_mlrs_F
+	{
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_tna_F,2);
+		};
+	};
+	class B_T_MBT_01_cannon_F: B_MBT_01_cannon_F
+	{
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_tna_F,2);
+		};
+	};
+	class B_T_MBT_01_TUSK_F: B_MBT_01_TUSK_F
+	{
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_tna_F,2);
+		};
+	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 };

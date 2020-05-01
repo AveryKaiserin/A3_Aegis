@@ -53,42 +53,7 @@ class CfgVehicles
 		{
 			Indep_01,1,
 			Indep_02,0,
-			Indep_03,0,
-			Sand_01,0,
-			Olive_01,0
-		};
-		class TextureSources
-		{
-			class Sand_01
-			{
-				displayName = $STR_A3_TEXTURESOURCES_SAND0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_CO.paa",
-					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
-				};
-				factions[] = {BLU_F};
-			};
-			class Olive_01
-			{
-				displayName = $STR_A3_TEXTURESOURCES_OLIVE0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
-					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
-				};
-				factions[] =
-				{
-					BLU_T_F,
-					BLU_W_F
-				};
-			};
+			Indep_03,0
 		};
 		animationList[] =
 		{
@@ -98,6 +63,16 @@ class CfgVehicles
 			showCamonetTurret,0,
 			showCamonetCannon,0,
 			showCamonetCannon1,0
+		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_dgtl,2);
 		};
 	};
 };

@@ -220,6 +220,10 @@ class B_T_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_tna_F,2);
+	};
 };
 class B_T_APC_Wheeled_01_cannon_v2_F: B_APC_Wheeled_01_cannon_v2_F
 {
@@ -446,8 +450,6 @@ class B_T_APC_Wheeled_01_cannon_v2_F: B_APC_Wheeled_01_cannon_v2_F
 	class TransportWeapons
 	{
 		weap_xx(arifle_MX_khk_F,2);
-		weap_xx(arifle_MX_SW_khk_F,1);
-		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportMagazines
 	{
@@ -468,5 +470,9 @@ class B_T_APC_Wheeled_01_cannon_v2_F: B_APC_Wheeled_01_cannon_v2_F
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };

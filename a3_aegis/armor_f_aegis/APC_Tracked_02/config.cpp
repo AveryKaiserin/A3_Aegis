@@ -1,70 +1,5 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
-class SensorTemplatePassiveRadar;
-class SensorTemplateAntiRadiation;
-class SensorTemplateActiveRadar;
-class SensorTemplateIR;
-class SensorTemplateVisual;
-class SensorTemplateMan;
-class SensorTemplateLaser;
-class SensorTemplateNV;
-class SensorTemplateDataLink;
-class DefaultVehicleSystemsDisplayManagerLeft
-{
-	class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight
-{
-	class components;
-};
-class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft
-{
-	class components;
-};
-class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight
-{
-	class components;
-};
-class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
-{
-	class components;
-};
-class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
-{
-	class components;
-};
-class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
-{
-	class components;
-};
-class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
-{
-	class components;
-};
-class WeaponFireGun;
-class WeaponCloudsGun;
-class WeaponFireMGun;
-class WeaponCloudsMGun;
-class RCWSOptics;
-class Optics_Armored;
-class Optics_Commander_02: Optics_Armored
-{
-	class Wide;
-	class Medium;
-	class Narrow;
-};
-class Optics_Gunner_MBT_02: Optics_Armored
-{
-	class Wide;
-	class Medium;
-	class Narrow;
-};
-class Optics_Gunner_AAA_01: Optics_Armored
-{
-	class Wide;
-	class Medium;
-	class Narrow;
-};
 class CfgVehicles
 {
 	// Arma 3
@@ -103,6 +38,16 @@ class CfgVehicles
 				class HitPoints;
 			};
 		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_FieldPack_ocamo,2);
+		};
 		class AnimationSources: AnimationSources{};
 	};
 	class O_APC_Tracked_02_base_F: APC_Tracked_02_base_F{};
@@ -136,11 +81,11 @@ class CfgVehicles
 		{
 			class Hex
 			{
-				factions[] =
-				{
-					OPF_F,
-					OPF_A_F
-				};
+				factions[] += {OPF_A_F};
+			};
+			class GreenHex
+			{
+				factions[] += {OPF_W_F};
 			};
 			class Green
 			{
@@ -148,11 +93,11 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -162,11 +107,11 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -176,22 +121,14 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-		};
-		textureList[] =
-		{
-			Hex,1,
-			GreenHex,0,
-			Green,0,
-			Green_02,0,
-			Green_03,0
 		};
 	};
 	class O_APC_Tracked_02_AA_F: O_APC_Tracked_02_base_F
@@ -218,11 +155,11 @@ class CfgVehicles
 		{
 			class Hex
 			{
-				factions[] =
-				{
-					OPF_F,
-					OPF_A_F
-				};
+				factions[] += {OPF_A_F};
+			};
+			class GreenHex
+			{
+				factions[] += {OPF_W_F};
 			};
 			class Green
 			{
@@ -230,11 +167,11 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AA_tower_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -244,11 +181,11 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AA_tower_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -258,11 +195,11 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AA_tower_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -277,9 +214,62 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Apex
-	class O_T_APC_Tracked_02_cannon_ghex_F;
+	class O_T_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
+	{
+		class TransportMagazines
+		{
+			mag_xx(30Rnd_580x42_Mag_F,12);
+			mag_xx(100Rnd_580x42_Mag_F,8);
+			mag_xx(HandGrenade,6);
+			mag_xx(MiniGrenade,6);
+			mag_xx(SmokeShell,8);
+			mag_xx(SmokeShellRed,8);
+			mag_xx(SmokeShellYellow,8);
+			mag_xx(SmokeShellOrange,8);
+			mag_xx(1Rnd_HE_Grenade_shell,6);
+			mag_xx(1Rnd_Smoke_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeYellow_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
+			mag_xx(RPG32_F,5);
+			mag_xx(RPG32_HE_F,2);
+			mag_xx(Titan_AT,2);
+			mag_xx(Titan_AA,2);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_FieldPack_ghex_F,2);
+		};
+	};
+	class O_T_APC_Tracked_02_AA_ghex_F: O_APC_Tracked_02_AA_F
+	{
+		class TransportMagazines
+		{
+			mag_xx(30Rnd_580x42_Mag_F,12);
+			mag_xx(100Rnd_580x42_Mag_F,8);
+			mag_xx(HandGrenade,6);
+			mag_xx(MiniGrenade,6);
+			mag_xx(SmokeShell,8);
+			mag_xx(SmokeShellRed,8);
+			mag_xx(SmokeShellYellow,8);
+			mag_xx(SmokeShellOrange,8);
+			mag_xx(1Rnd_HE_Grenade_shell,6);
+			mag_xx(1Rnd_Smoke_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeYellow_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
+			mag_xx(RPG32_F,5);
+			mag_xx(RPG32_HE_F,2);
+			mag_xx(Titan_AT,2);
+			mag_xx(Titan_AA,2);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_FieldPack_ghex_F,2);
+		};
+	};
 	// Arma 3 Aegis
-	#include "cfgOpfor_Tacops.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgOpfor_Aegis.hpp"
+	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
+	#include "cfgSpetsnaz.hpp"			// Russia
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 };

@@ -44,6 +44,16 @@ class CfgVehicles
 			class showSLATHull;
 			class showSLATTurret;
 		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_mcamo,2);
+		};
 		class TextureSources
 		{
 			class Sand;
@@ -1066,7 +1076,7 @@ class CfgVehicles
 			"\A3\Armor_F\Data\cage_sand_CO.paa"
 		};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 };

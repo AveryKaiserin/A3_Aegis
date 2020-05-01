@@ -237,7 +237,7 @@ class I_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,24);
+		mag_xx(30Rnd_556x45_Stanag,12);
 		mag_xx(200Rnd_65x39_cased_Box,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
@@ -258,11 +258,17 @@ class I_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	class TransportItems
 	{
 		item_xx(FirstAidKit,10);
+		item_xx(Toolkit,1);
+		item_xx(Medikit,1);
 	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_Mk20_F,2);
 		weap_xx(LMG_Mk200_F,1);
 		weap_xx(launch_NLAW_F,1);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_dgtl,2);
 	};
 };

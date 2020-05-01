@@ -95,8 +95,42 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_NATO_Stripe_Green_CO.paa",
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
-				factions[] = {BLU_A_F};
+				factions[] =
+				{
+					BLU_A_tna_F,
+					BLU_A_wdl_F
+				};
 			};
+		};
+		class TransportMagazines
+		{
+			mag_xx(30Rnd_556x45_Stanag,12);
+			mag_xx(200Rnd_65x39_cased_Box,6);
+			mag_xx(HandGrenade,6);
+			mag_xx(MiniGrenade,6);
+			mag_xx(1Rnd_HE_Grenade_shell,6);
+			mag_xx(1Rnd_Smoke_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+			mag_xx(1Rnd_SmokePurple_Grenade_shell,3);
+			mag_xx(SmokeShell,8);
+			mag_xx(SmokeShellGreen,8);
+			mag_xx(SmokeShellOrange,8);
+			mag_xx(SmokeShellPurple,8);
+			mag_xx(NLAW_F,5);
+			mag_xx(Titan_AT,2);
+			mag_xx(Titan_AP,2);
+			mag_xx(Titan_AA,2);
+		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_dgtl,3);
 		};
 	};
 	class I_APC_tracked_03_base_F;
@@ -106,7 +140,45 @@ class CfgVehicles
 		scopeCurator = private;
 	};
 	// Arma 3 Enoch
-	class I_E_APC_tracked_03_base_F: APC_Tracked_03_base_F{};
+	class I_E_APC_tracked_03_base_F: APC_Tracked_03_base_F
+	{
+		class TransportMagazines
+		{
+			mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
+			mag_xx(200Rnd_65x39_cased_Box_Red,6);
+			mag_xx(HandGrenade,6);
+			mag_xx(MiniGrenade,6);
+			mag_xx(1Rnd_HE_Grenade_shell,6);
+			mag_xx(1Rnd_Smoke_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+			mag_xx(1Rnd_SmokePurple_Grenade_shell,3);
+			mag_xx(SmokeShell,8);
+			mag_xx(SmokeShellGreen,8);
+			mag_xx(SmokeShellOrange,8);
+			mag_xx(SmokeShellBlue,8);
+			mag_xx(NLAW_F,5);
+			mag_xx(Titan_AT,2);
+			mag_xx(Titan_AP,2);
+			mag_xx(Titan_AA,2);
+		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportWeapons
+		{
+			weap_xx(arifle_MSBS65_F,2);
+			weap_xx(LMG_Mk200_black_F,1);
+			weap_xx(launch_NLAW_F,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_eaf_F,3);
+		};
+	};
 	class I_E_APC_tracked_03_cannon_F: I_E_APC_tracked_03_base_F
 	{
 		scope = protected;
@@ -1289,7 +1361,7 @@ class CfgVehicles
 			};
 		};
 	};
-	#include "cfgIndep.hpp"
-	#include "cfgEAF.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgIndep.hpp"				// AAF
+	#include "cfgEAF.hpp"				// LDF
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
 };

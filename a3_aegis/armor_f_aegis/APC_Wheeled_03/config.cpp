@@ -17,18 +17,17 @@ class CfgVehicles
 		{
 			class MainTurret: MainTurret{};
 		};
-		class AnimationSources;
-		textureList[] =
+		class TransportItems
 		{
-			Indep,1,
-			Indep_02,0,
-			Indep_03,0,
-			Guerilla_01,0,
-			Guerilla_02,0,
-			Guerilla_03,0,
-			Sand_01,0,
-			Olive_01,0
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
 		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_dgtl,2);
+		};
+		class AnimationSources;
 		class TextureSources
 		{
 			class Indep_02
@@ -67,40 +66,6 @@ class CfgVehicles
 					"\A3\Armor_F\Data\cage_G3_CO.paa"
 				};
 			};
-			class Sand_01
-			{
-				DisplayName = $STR_A3_TEXTURESOURCES_SAND0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_CO.paa",
-					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_CO.paa",
-					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\RCWS30_CO.paa",
-					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_CO.paa",
-					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-					"\A3\Armor_F\Data\cage_sand_CO.paa"
-				};
-				factions[] = {BLU_F};
-			};
-			class Olive_01
-			{
-				displayName = $STR_A3_TEXTURESOURCES_OLIVE0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
-					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-					"\A3\Armor_F\Data\cage_olive_CO.paa"
-				};
-				factions[] =
-				{
-					BLU_T_F,
-					BLU_W_F
-				};
-			};
 		};
 		animationList[] =
 		{
@@ -135,5 +100,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgGuerrilla.hpp"
+	#include "cfgGuerrilla.hpp"			// FIA
 };

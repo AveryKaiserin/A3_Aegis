@@ -35,7 +35,7 @@ class CfgVehicles
 		};
 		class TransportBackpacks
 		{
-			bag_xx(B_AssaultPack_mcamo,3);
+			bag_xx(B_AssaultPack_mcamo,2);
 		};
 		class TransportItems
 		{
@@ -76,9 +76,15 @@ class CfgVehicles
 		{
 			weap_xx(arifle_MXC_khk_F,2);
 		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
 		class TransportBackpacks
 		{
-			bag_xx(B_AssaultPack_tna_F,3);
+			bag_xx(B_AssaultPack_tna_F,2);
 		};
 	};
 	class B_T_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
@@ -93,11 +99,17 @@ class CfgVehicles
 		{
 			weap_xx(arifle_MXC_khk_F,2);
 		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
 		class TransportBackpacks
 		{
-			bag_xx(B_AssaultPack_tna_F,3);
+			bag_xx(B_AssaultPack_tna_F,2);
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 };

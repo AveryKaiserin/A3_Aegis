@@ -27,6 +27,26 @@ class CfgVehicles
 		{
 			class MainTurret: MainTurret{};
 		};
+		class TransportMagazines
+		{
+			mag_xx(SmokeShell,2);
+			mag_xx(SmokeShellGreen,2);
+			mag_xx(30Rnd_556x45_Stanag,4);
+		};
+		class TransportWeapons
+		{
+			weap_xx(arifle_Mk20C_F,2);
+		};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_AssaultPack_dgtl,2);
+		};
 	};
 	class LT_01_AT_base_F: LT_01_base_F
 	{

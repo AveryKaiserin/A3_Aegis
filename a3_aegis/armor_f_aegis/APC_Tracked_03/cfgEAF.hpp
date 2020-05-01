@@ -232,7 +232,7 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
 		mag_xx(200Rnd_65x39_cased_Box_Red,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
@@ -244,7 +244,7 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellOrange,8);
-		mag_xx(SmokeShellPurple,8);
+		mag_xx(SmokeShellBlue,8);
 		mag_xx(NLAW_F,5);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
@@ -253,12 +253,18 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	class TransportItems
 	{
 		item_xx(FirstAidKit,10);
+		item_xx(Toolkit,1);
+		item_xx(Medikit,1);
 	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_MSBS65_F,2);
 		weap_xx(LMG_Mk200_black_F,1);
 		weap_xx(launch_NLAW_F,1);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_eaf_F,2);
 	};
 	class Turrets: Turrets
 	{

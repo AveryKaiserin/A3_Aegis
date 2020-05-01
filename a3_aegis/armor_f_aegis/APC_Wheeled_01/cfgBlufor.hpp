@@ -221,13 +221,13 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
 		    initPhase = true;
 		};
 	};
-	class TransportBackpack{};
 	class TransportMagazines{};
 	class TransportWeapons{};
 	class TransportItems
 	{
-		item_xx(FirstAidKit,10);
-		item_xx(Medikit,1);
+		item_xx(FirstAidKit,15);
+		item_xx(Toolkit,1);
+		item_xx(Medikit,2);
 	};
 	hiddenSelections[] =
 	{
