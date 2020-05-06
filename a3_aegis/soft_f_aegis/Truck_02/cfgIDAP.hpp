@@ -112,11 +112,16 @@ class C_IDAP_Truck_02_cargo_F: Truck_02_cargo_base_F
 		color[] = {0,0,0,0.75};
 	};
 	textureList[] = {IDAP,1};
+	hiddenSelections[] =
+	{
+		camo1,
+		camo2,
+		camo3
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kab_IDAP_CO.paa",
 		"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kuz_IDAP_CO.paa",
-		"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_int_IDAP_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+		"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_int_IDAP_CO.paa"
 	};
 };

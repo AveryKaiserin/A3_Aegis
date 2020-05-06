@@ -270,22 +270,20 @@ class CfgVehicles
 	};
 	class C_Truck_02_covered_F: Truck_02_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	class C_Truck_02_transport_F: Truck_02_transport_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	class Truck_02_box_base_F: Truck_02_base_F
@@ -759,22 +757,20 @@ class CfgVehicles
 	};
 	class C_Truck_02_fuel_F: Truck_02_fuel_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_fuel_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	class C_Truck_02_box_F: Truck_02_box_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_repair_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	// Arma 3 Apex
@@ -848,32 +844,29 @@ class CfgVehicles
 	class Truck_02_water_base_F;
 	class C_IDAP_Truck_02_F: Truck_02_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kab_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kuz_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_int_IDAP_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	class C_IDAP_Truck_02_transport_F: Truck_02_transport_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kab_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kuz_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_int_IDAP_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	class C_IDAP_Truck_02_water_F: Truck_02_water_base_F
 	{
-		hiddenSelectionsTextures[] =
+		hiddenSelections[] =
 		{
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_kab_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_water_IDAP_CO.paa",
-			"\A3\Soft_F_Orange\Truck_02\Data\Truck_02_int_IDAP_CO.paa",
-			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+			camo1,
+			camo2,
+			camo3
 		};
 	};
 	// Arma 3 Aegis

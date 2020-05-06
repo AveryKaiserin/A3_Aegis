@@ -116,11 +116,16 @@ class C_Truck_02_cargo_F: Truck_02_cargo_base_F
 		Blue,0,
 		Orange,1
 	};
+	hiddenSelections[] =
+	{
+		camo1,
+		camo2,
+		camo3
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa"
 	};
 };
