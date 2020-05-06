@@ -273,10 +273,10 @@ class B_E_APC_Wheeled_03_cannon_F: B_E_APC_Wheeled_03_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -308,5 +308,9 @@ class B_E_APC_Wheeled_03_cannon_F: B_E_APC_Wheeled_03_base_F
 	class TransportWeapons
 	{
 		weap_xx(arifle_G36_F,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
 };

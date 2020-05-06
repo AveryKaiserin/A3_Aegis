@@ -207,20 +207,24 @@ class B_E_MBT_03_cannon_F: B_E_MBT_03_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
 		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShellBlue,2);
 	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_G36C_F,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
 	class Turrets: Turrets
 	{
