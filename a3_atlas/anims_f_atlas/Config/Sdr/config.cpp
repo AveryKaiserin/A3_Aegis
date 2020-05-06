@@ -5,9 +5,7 @@ class CfgMovesBasic
 	class Default;
 	class ManActions
 	{
-		
 		GestureReloadG36 = "";
-		
 	};
 	class Actions
 	{
