@@ -450,7 +450,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Reload Tracer (Green) Black Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_545x39_black_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
@@ -458,7 +458,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Tracer (Green) Black Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_556x45_msbs_mag: 30Rnd_556x45_Stanag
 	{
@@ -483,8 +483,8 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Reload Tracer (Green) Khaki Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_khaki_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_khaki.rvmat"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
 	class 30Rnd_545x39_lush_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
@@ -492,8 +492,8 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Tracer (Green) Khaki Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_khaki_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_khaki.rvmat"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
 	class 30Rnd_545x39_arid_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
@@ -501,8 +501,8 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Reload Tracer (Green) Sand Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_camo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_camo.rvmat"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};
 	class 30Rnd_545x39_arid_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
@@ -510,8 +510,8 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.45 mm 30Rnd Tracer (Green) Sand Mag";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_camo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\AKS\Data\magazine_AK74_camo.rvmat"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};
 	class 1Rnd_Pellets_Grenade_shell: 1Rnd_HE_Grenade_shell
 	{
