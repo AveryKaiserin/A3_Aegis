@@ -14,7 +14,10 @@ class CfgVehicles
 		{
 			class MainTurret: NewTurret
 			{
-				class Turrets;
+				class Turrets
+				{
+					class CommanderOptics;
+				};
 			};
 		};
 	};
@@ -26,13 +29,13 @@ class CfgVehicles
 			{
 				class Turrets: Turrets
 				{
-					class CommanderOptics;
+					class CommanderOptics: CommanderOptics{};
 				};
 			};
 		};
 	};
 	class B_MBT_01_base_F: MBT_01_base_F{};
-	class B_MBT_01_cannon_F: MBT_01_base_F{};
+	class B_MBT_01_cannon_F: B_MBT_01_base_F{};
 	class MBT_01_arty_base_F: MBT_01_base_F
 	{
 		class Turrets: Turrets
@@ -41,7 +44,7 @@ class CfgVehicles
 			{
 				class Turrets: Turrets
 				{
-					class CommanderOptics;
+					class CommanderOptics: CommanderOptics{};
 				};
 			};
 		};
