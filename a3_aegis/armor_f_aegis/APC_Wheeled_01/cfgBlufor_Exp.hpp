@@ -217,8 +217,8 @@ class B_T_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
 		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_olive_CO.paa",
 		"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_adds_olive_CO.paa",
 		"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_tows_olive_CO.paa",
-		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-		"\A3\Armor_F\Data\cage_olive_CO.paa"
+		"",
+		""
 	};
 	class TransportBackpacks
 	{

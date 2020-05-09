@@ -928,6 +928,40 @@
 				<Japanese>IFV-6c Serval</Japanese>
 				<Turkish>IFV-6c Serval</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_medical_F0">
+				<Original>BTR-K Medical</Original>
+				<Chinese>BTR-K（醫療用）</Chinese>
+				<French>BTR-K Medical</French>
+				<Spanish>BTR-K médico</Spanish>
+				<Italian>BTR-K medico</Italian>
+				<Polish>BTR-K medyczny</Polish>
+				<Russian>BTR-K медицинский</Russian>
+				<German>BTR-K Sanitätsfahrzeug</German>
+				<Czech>BTR-K - zdravotnický</Czech>
+				<English>BTR-K Medical</English>
+				<Portuguese>BTR-K Medical</Portuguese>
+				<Korean>BTR-K 의료</Korean>
+				<Chinesesimp>BTR-K 医疗车</Chinesesimp>
+				<Japanese>BTR-K衛生</Japanese>
+				<Turkish>BTR-K Sıhhiye</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AT_F0">
+				<Original>BTR-K Kazak</Original>
+				<Chinese>BTR-K Kazak</Chinese>
+				<French>BTR-K Kazak</French>
+				<Spanish>BTR-K Kazak</Spanish>
+				<Italian>BTR-K Kazak</Italian>
+				<Polish>BTR-K Kazak</Polish>
+				<Russian>BTR-K Kazak</Russian>
+				<German>BTR-K Kazak</German>
+				<Czech>BTR-K Kazak</Czech>
+				<English>BTR-K Kazak</English>
+				<Portuguese>BTR-K Kazak</Portuguese>
+				<Korean>BTR-K Kazak</Korean>
+				<Chinesesimp>BTR-K Kazak</Chinesesimp>
+				<Japanese>BTR-K Kazak</Japanese>
+				<Turkish>BTR-K Kazak</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AA_F0">
 				<Original>ZSU-39 Tugarin</Original>
 				<Chinese>ZSU-39 Tugarin</Chinese>
@@ -6521,22 +6555,22 @@
 				<Japanese>緑（密林迷彩ネット）</Japanese>
 				<Turkish>Yeşil (Orman Kamf Ağ)</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_TEXTURESOURCES_GREENDESERT0">
-				<Original>Green (Desert Camo Net)</Original>
-				<Chinese>綠色（迷彩網，沙漠）</Chinese>
-				<French>Vert (filet camouflage désert)</French>
-				<Spanish>Verde (red de camuflaje de desierto)</Spanish>
-				<Italian>Verde (rete mimetica deserto)</Italian>
-				<Polish>Zielony (siatka maskująca, pustynia)</Polish>
-				<Russian>Зеленый (пустынная камуфляжная сетка)</Russian>
-				<German>Grün (Wüsten-Tarnnetz)</German>
-				<Czech>Zelená (pouštní maskovací síť)</Czech>
-				<English>Green (Desert Camo Net)</English>
-				<Portuguese>Verde (rede de deserto camuflada)</Portuguese>
-				<Korean>녹색(사막 위장망)</Korean>
-				<Chinesesimp>绿色（沙漠伪装网）</Chinesesimp>
-				<Japanese>緑（砂漠迷彩ネット）</Japanese>
-				<Turkish>Yeşil (Çöl Kamf Ağ)</Turkish>
+			<Key ID="STR_A3_A_TEXTURESOURCES_TAIGA0">
+				<Original>Taiga</Original>
+				<Chinese>Taiga</Chinese>
+				<French>Taïga</French>
+				<Spanish>Taiga</Spanish>
+				<Italian>Taiga</Italian>
+				<Polish>Tajga</Polish>
+				<Russian>Tаежная</Russian>
+				<German>Taiga</German>
+				<Czech>Tajga</Czech>
+				<English>Taiga</English>
+				<Portuguese>Taiga</Portuguese>
+				<Korean>침엽수림</Korean>
+				<Chinesesimp>针叶林</Chinesesimp>
+				<Japanese>タイガ</Japanese>
+				<Turkish>Tayga</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_TEXTURESOURCES_TROPIC0">
 				<Original>Tropic</Original>

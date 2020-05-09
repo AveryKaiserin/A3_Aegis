@@ -214,13 +214,52 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
 	attendant = true;
 	threat[] = {0,0,0};
 	class Turrets{};
-	class AnimationSources: AnimationSources
+	class AnimationSources
 	{
-		class HideTurret: HideTurret
+		class HideTurret
 		{
-		    initPhase = true;
+			source = user;
+			initPhase = true;
+			animPeriod = 0.001;
+		};
+		class HitEngine_src
+		{
+			source = Hit;
+			hitpoint = HitEngine;
+			raw = true;
+		};
+		class HitFuel_src
+		{
+			source = Hit;
+			hitpoint = HitFuel;
+			raw = true;
+		};
+		class HitHull_src
+		{
+			source = Hit;
+			hitpoint = HitHull;
+			raw = true;
+		};
+		class HitMainGun_src
+		{
+			source = Hit;
+			hitpoint = HitGun;
+			raw = true;
+		};
+		class HitTurret_src
+		{
+			source = Hit;
+			hitpoint = HitTurret;
+			raw = true;
+		};
+		class HitComTurret_src
+		{
+			source = Hit;
+			hitpoint = HitComTurret;
+			raw = true;
 		};
 	};
+	animationList[] = {};
 	class TransportMagazines{};
 	class TransportWeapons{};
 	class TransportItems
@@ -242,8 +281,8 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
 		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_CO.paa",
 		"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_adds_CO.paa",
 		"\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_tows_CO.paa",
-		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-		"\A3\Armor_F\Data\cage_sand_CO.paa"
+		"",
+		""
 	};
 	class TextureSources: TextureSources
 	{
@@ -254,8 +293,8 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
                 "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_CO.paa",
                 "\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_adds_CO.paa",
                 "\A3\Armor_F_Beta\APC_Wheeled_01\Data\APC_Wheeled_01_tows_CO.paa",
-                "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-                "\A3\Armor_F\Data\cage_sand_CO.paa"
+				"",
+				""
             };
 		};
 		class Olive: Olive
@@ -265,8 +304,8 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
                 "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_olive_CO.paa",
                 "\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_adds_olive_CO.paa",
                 "\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_tows_olive_CO.paa",
-                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-                "\A3\Armor_F\Data\cage_olive_CO.paa"
+				"",
+				""
             };
 		};
 	};

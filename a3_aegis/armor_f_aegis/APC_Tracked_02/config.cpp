@@ -48,7 +48,10 @@ class CfgVehicles
 		{
 			bag_xx(B_FieldPack_ocamo,2);
 		};
-		class AnimationSources: AnimationSources{};
+		class AnimationSources: AnimationSources
+		{
+			class HideTurret;
+		};
 	};
 	class O_APC_Tracked_02_base_F: APC_Tracked_02_base_F{};
 	class O_APC_Tracked_02_cannon_F: O_APC_Tracked_02_base_F
@@ -95,37 +98,23 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-			class Green_02
+			class Taiga
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENJUNGLE0;
+				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Green_03
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENDESERT0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -170,47 +159,25 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-			class Green_02
+			class Taiga
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENJUNGLE0;
+				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-			class Green_03
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENDESERT0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-		};
-		textureList[] =
-		{
-			Hex,1,
-			GreenHex,0,
-			Green,0,
-			Green_02,0,
-			Green_03,0
 		};
 	};
 	// Arma 3 Apex
@@ -269,6 +236,151 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
+	class APC_Tracked_02_medical_base_F: APC_Tracked_02_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {veh_vehicle_armor_s};
+				speechPlural[] = {veh_vehicle_armor_p};
+			};
+		};
+		textSingular = $STR_A3_nameSound_veh_vehicle_armor_s;
+		textPlural = $STR_A3_nameSound_veh_vehicle_armor_p;
+		nameSound = veh_vehicle_armor_s;
+		model = "\A3\Armor_F_Beta\APC_Tracked_02\APC_Tracked_02_cannon_F.p3d";
+		picture = "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\UI\APC_Tracked_02_medical_CA.paa";
+		Icon = "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\UI\Map_APC_Tracked_02_medical_CA.paa";
+		attendant = true;
+		threat[] = {0,0,0};
+		class Turrets{};
+		transportSoldier = 8;
+		class AnimationSources: AnimationSources
+		{
+			class HideTurret: HideTurret
+			{
+				initPhase = true;
+			};
+			class showTracks
+			{
+				displayName = $STR_A3_animationsources_showtrackshull0;
+				author = $STR_A3_Bohemia_Interactive;
+				source = user;
+				animPeriod = 0.001;
+				initPhase = false;
+				mass = -50;
+			};
+			class showBags
+			{
+				displayName = $STR_A3_animationsources_showbagshull0;
+				author = $STR_A3_Bohemia_Interactive;
+				source = user;
+				animPeriod = 0.001;
+				initPhase = false;
+				mass = -50;
+			};
+		};
+		animationList[] =
+		{
+			showTracks,0.5,
+			showBags,0.67
+		};
+		selectionFireAnim = "";
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"",
+					"",
+					""
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+					"",
+					"",
+					""
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+		class TransportItems
+		{
+			item_xx(FirstAidKit,15);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,2);
+		};
+	};
+	/*
+	class APC_Tracked_02_AT_base_F: APC_Tracked_02_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {veh_vehicle_armor_s};
+				speechPlural[] = {veh_vehicle_armor_p};
+			};
+		};
+		textSingular = $STR_A3_nameSound_veh_vehicle_armor_s;
+		textPlural = $STR_A3_nameSound_veh_vehicle_armor_p;
+		nameSound = veh_vehicle_armor_s;
+		model = "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\APC_Tracked_02_AT_F.p3d";
+		picture = "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\UI\APC_Tracked_02_AT_CA.paa";
+		Icon = "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\UI\Map_APC_Tracked_02_AT_CA.paa";
+		editorSubcategory = EdSubcat_TankDestroyers;
+		class Turrets{};
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AT_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AT_Tower_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AT_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AT_Tower_RUcamo_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+	};
+	*/
 	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
 	#include "cfgSpetsnaz.hpp"			// Russia
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
