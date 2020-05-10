@@ -195,7 +195,8 @@ class B_W_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 		mag_xx(100Rnd_65x39_caseless_black_mag,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
@@ -243,7 +244,8 @@ class B_W_APC_Tracked_01_cannon_F: B_APC_Tracked_01_cannon_F
 		mag_xx(100Rnd_65x39_caseless_black_mag,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
@@ -419,7 +421,8 @@ class B_W_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 		mag_xx(100Rnd_65x39_caseless_black_mag,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
@@ -596,7 +599,8 @@ class B_W_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		mag_xx(100Rnd_65x39_caseless_black_mag,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
