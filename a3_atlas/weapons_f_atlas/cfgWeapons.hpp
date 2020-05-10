@@ -31,7 +31,6 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	// Arma 3 Marksman
-	class srifle_DMR_06_olive_F;
 	class MMG_01_base_F: Rifle_Long_Base_F
 	{
 		magazines[] += {150Rnd_93x64_Mag_Red};
@@ -193,23 +192,6 @@ class CfgWeapons
 		};
 	};
 	*/
-	class srifle_DMR_06_olive_DMS_BI_F: srifle_DMR_06_olive_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_03_F_oli;
-			};
-		};
-	};
 	class LMG_Mk200_black_LRCO_LP_BI_F: LMG_Mk200_black_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

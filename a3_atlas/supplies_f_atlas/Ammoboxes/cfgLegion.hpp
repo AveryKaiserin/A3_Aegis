@@ -16,10 +16,11 @@ class L_supplyCrate_F: ReammoBox_F
 	{
 		mag_xx(11Rnd_45ACP_Mag,6);
 		mag_xx(50Rnd_570x28_SMG_03,6);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,30);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
         mag_xx(6Rnd_12Gauge_Pellets,3);
         mag_xx(6Rnd_12Gauge_Slug,3);
 		mag_xx(200Rnd_65x39_cased_Box_Red,3);
+		mag_xx(20Rnd_762x51_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
@@ -39,7 +40,7 @@ class L_supplyCrate_F: ReammoBox_F
 		weap_xx(arifle_MSBS65_GL_black_F,1);
 		weap_xx(arifle_MSBS65_UBS_black_F,1);
 		weap_xx(LMG_Mk200_black_F,1);
-		weap_xx(arifle_MSBS65_Mark_black_F,1);
+		weap_xx(srifle_DMR_06_olive_F,1);
 		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportItems
