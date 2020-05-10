@@ -270,11 +270,11 @@ class CfgWeapons
 	  	};
 		class Single: Single
 		{
-			dispersion = 0.00087;
+			dispersion = 0.00116;
 		};
 		class FullAuto: FullAuto
 		{
-			dispersion = 0.00087;
+			dispersion = 0.00116;
 		};
 		hasBipod = false;
 	};
