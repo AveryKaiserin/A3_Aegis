@@ -1,8 +1,6 @@
-class I_E_Uniform_01_F;
-class I_E_Uniform_01_shortsleeve_F;
-class I_E_Uniform_01_tanktop_F;
+// Arma 3 Enoch
 class I_E_Uniform_01_officer_F;
-class I_E_Uniform_01_coveralls_F;
+// Arma 3 Atlas
 class B_HIDF_Man_Base_F: B_Soldier_F
 {
     scope = private;

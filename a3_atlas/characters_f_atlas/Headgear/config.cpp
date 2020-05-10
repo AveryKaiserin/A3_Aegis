@@ -159,6 +159,26 @@ class CfgWeapons
 			};
 	  	};
 	};
+	class H_HelmetCrew_B_L: H_HelmetCrew_B_oli_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_L0;
+	};
+	class H_PilotHelmetFighter_B_L: H_PilotHelmetFighter_B
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_L0;
+	};
+	class H_PilotHelmetHeli_B_L: H_PilotHelmetHeli_B
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_L0;
+	};
+	class H_CrewHelmetHeli_B_L: H_CrewHelmetHeli_B
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_L0;
+	};
 	class H_HelmetCrew_B_HIDF: H_HelmetCrew_I
 	{
 		author = $STR_A3_A_AveryTheKitty;

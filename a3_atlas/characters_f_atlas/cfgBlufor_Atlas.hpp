@@ -23,6 +23,11 @@ class B_recon_JTAC_F;
 class B_HeavyGunner_F;
 // Arma 3 Tanks
 class I_Story_Crew_F;
+// Arma 3 Enoch
+class I_E_Uniform_01_F;
+class I_E_Uniform_01_shortsleeve_F;
+class I_E_Uniform_01_tanktop_F;
+class I_E_Uniform_01_coveralls_F;
 // Arma 3 Aegis
 class B_recon_AR_F;
 class B_recon_GL_F;

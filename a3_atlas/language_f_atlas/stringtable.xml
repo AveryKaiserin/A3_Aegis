@@ -466,6 +466,74 @@
 					<Japanese>レイヴンヘルメット（茶、ヘッドセット）</Japanese>
 					<Turkish>Avcı Miğfer (Kahverengi, Mik. Kulaklık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_L0">
+					<Original>Crew Helmet [Legion]</Original>
+					<Chinese>隊員頭盔（軍團）</Chinese>
+					<French>Casque d'équipage [Légion]</French>
+					<Spanish>Casco de tripulación [Legión]</Spanish>
+					<Italian>Casco equipaggio [Legione]</Italian>
+					<Polish>Hełm załogi [Legioniści]</Polish>
+					<Russian>Танковый шлем [Легион]</Russian>
+					<German>Crew-Helm [Legionäre]</German>
+					<Czech>Přilba posádky [Legionáři]</Czech>
+					<English>Crew Helmet [Legion]</English>
+					<Portuguese>Capacete de tripulação [Legião]</Portuguese>
+					<Korean>승무원 헬멧[군단병]</Korean>
+					<Chinesesimp>机组人员头盔 [军团]</Chinesesimp>
+					<Japanese>乗員ヘルメット[軍団]</Japanese>
+					<Turkish>Mürettebat Kaskı [Lejyon]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_L0">
+					<Original>Pilot Helmet [Legion]</Original>
+					<Chinese>飛行員頭盔（軍團）</Chinese>
+					<French>Casque de pilote [Légion]</French>
+					<Spanish>Casco de piloto [Legión]</Spanish>
+					<Italian>Casco da pilota [Legione]</Italian>
+					<Polish>Hełm pilota [Legioniści]</Polish>
+					<Russian>Летный шлем [Легион]</Russian>
+					<German>Pilotenhelm [Legionäre]</German>
+					<Czech>Přilba pilota [Legionáři]</Czech>
+					<English>Pilot Helmet [Legion]</English>
+					<Portuguese>Capacete de piloto [Legião]</Portuguese>
+					<Korean>조종사 헬멧[군단병]</Korean>
+					<Chinesesimp>飞行员头盔 [军团]</Chinesesimp>
+					<Japanese>パイロットヘルメット[軍団]</Japanese>
+					<Turkish>Pilot Kaskı [Lejyon]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_L0">
+					<Original>Heli Pilot Helmet [Legion]</Original>
+					<Chinese>直升機飛行員頭盔（軍團）</Chinese>
+					<French>Casque de pilote d'hélico [Légion]</French>
+					<Spanish>Casco de piloto de helicóptero [Legión]</Spanish>
+					<Italian>Casco da elicotterista [Legione]</Italian>
+					<Polish>Hełm pilota śmigłowca [Legioniści]</Polish>
+					<Russian>Шлем пилота вертолёта [Легион]</Russian>
+					<German>Helipilotenhelm [Legionäre]</German>
+					<Czech>Přilba pilota helikoptéry [Legionáři]</Czech>
+					<English>Heli Pilot Helmet [Legion]</English>
+					<Portuguese>Capacete de piloto de helicóptero [Legião]</Portuguese>
+					<Korean>헬기 조종사 헬멧[군단병]</Korean>
+					<Chinesesimp>直升机飞行员头盔 [军团]</Chinesesimp>
+					<Japanese>ヘリパイロットヘルメット[軍団]</Japanese>
+					<Turkish>Helikopter Pilotu Kaskı [Lejyon]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_L0">
+					<Original>Heli Crew Helmet [Legion]</Original>
+					<Chinese>直升機隊員頭盔（軍團）</Chinese>
+					<French>Casque d'équipage d'hélico [Légion]</French>
+					<Spanish>Casco de tripulación de helicóptero [Legión]</Spanish>
+					<Italian>Casco equipaggio elicottero [Legione]</Italian>
+					<Polish>Hełm załogi śmigłowca [Legioniści]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [Легион]</Russian>
+					<German>Helicrew-Helm [Legionäre]</German>
+					<Czech>Přilba posádky helikoptéry [Legionáři]</Czech>
+					<English>Heli Crew Helmet [Legion]</English>
+					<Portuguese>Capacete de tripulação de helicóptero [Legião]</Portuguese>
+					<Korean>헬기 승무원 헬멧[군단병]</Korean>
+					<Chinesesimp>直升机机组人员头盔 [军团]</Chinesesimp>
+					<Japanese>ヘリ乗員ヘルメット[軍団]</Japanese>
+					<Turkish>Helikopter Mürettebat Kaskı [Lejyon]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_HIDF0">
 					<Original>Crew Helmet [HIDF]</Original>
 					<Chinese>隊員頭盔（HIDF）</Chinese>
