@@ -369,14 +369,14 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	weapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
@@ -997,13 +997,13 @@ class B_L_Crew_F: B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
@@ -1061,12 +1061,12 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
     };
 	weapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		SMG_03C_black_F,
+		SMG_03C_black,
         DefaultManWeapons
 	};
 	magazines[] =
