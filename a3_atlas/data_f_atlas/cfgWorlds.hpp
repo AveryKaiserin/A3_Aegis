@@ -2,7 +2,7 @@ class CfgWorlds
 {
 	class GenericNames
 	{
-		class AustralianMen
+		class AustralianMen // Australian male names
 		{
 			class FirstNames
 			{
@@ -42,7 +42,47 @@ class CfgWorlds
 				ryan = "Ryan";
 			};
 		};
-		class GermanMen
+		class FrenchMen // French male names
+		{
+			class FirstNames
+			{
+				gabriel = "Gabriel";
+				adam = "Adam";
+				raphael = "Raphael";
+				paul = "Paul";
+				louis = "Louis";
+				arthur = "Arthur";
+				alexandre = "Alexandre";
+				victor = "Victor";
+				jules = "Jules";
+				lucas = "Lucas";
+				joseph = "Joseph";
+				antoine = "Antoine";
+				gaspard = "Gaspard";
+				maxime = "Maxime";
+				leon = "Leon";
+			};
+			class LastNames
+			{
+				lavigne = "Lavigne";
+				monet = "Monet";
+				blanchet = "Blanchet";
+				garnier = "Garnier";
+				moulin = "Moulin";
+				toussaint = "Toussaint";
+				laurent = "Laurent";
+				dupont = "Dupont";
+				martin = "Martin";
+				boucher = "Boucher";
+				allard = "Allard";
+				chevrolet = "Chevrolet";
+				moreau = "Moreau";
+				corbin = "Corbin";
+				dubois = "Dubois";
+				beaufort = "Beaufort";
+			};
+		};
+		class GermanMen // German male names
 		{
 			class FirstNames
 			{
@@ -82,7 +122,7 @@ class CfgWorlds
 				wolff = "Wolff";
 			};
 		};
-		class IDFMen
+		class IDFMen // Hebrew male names
 		{
 			class FirstNames
 			{
