@@ -41,6 +41,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_CrewHelmetHeli_B_ANZAC,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_ANZAC0,EdSubcat_Helmets)
 	*/
 	HEADGEAR_HOLDER(H_HelmetI_I_01_F,$STR_A3_A_CfgWeapons_H_HelmetI_I_01_F0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_HelmetI_I_01_olive_F,$STR_A3_A_CfgWeapons_H_HelmetI_I_01_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetCrew_I_I,$STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_I,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_I_I0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_CrewHelmetHeli_I_I,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0,EdSubcat_Helmets)
