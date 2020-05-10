@@ -62,7 +62,7 @@ class L_supplyCrate_F: ReammoBox_F
 		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
 		item_xx(bipod_01_F_blk,3);
-		item_xx(NVGoggles_OPFOR,1);
+		item_xx(NVGoggles_INDEP,1);
 	};
 	class TransportBackpacks
 	{
