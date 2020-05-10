@@ -2420,7 +2420,7 @@ class I_G_Sniper_F: I_G_Soldier_base_F
     };
     magazines[] =
     {
-        mag_6(20Rnd_762x51_Mag),
+        mag_6(20Rnd_762x51_weathered_Mag),
         mag_2(9Rnd_45ACP_Mag),
         IEDLandSmall_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -2428,7 +2428,7 @@ class I_G_Sniper_F: I_G_Soldier_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(20Rnd_762x51_Mag),
+        mag_6(20Rnd_762x51_weathered_Mag),
         mag_2(9Rnd_45ACP_Mag),
         IEDLandSmall_Remote_Mag,
         APERSTripMine_Wire_Mag,

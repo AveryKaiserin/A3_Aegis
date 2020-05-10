@@ -1274,8 +1274,6 @@ class I_E_Scientist_F: I_E_Soldier_base_F
 class I_E_Scientist_Unarmed_F: I_E_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Scientist_Unarmed_F.jpg";
-    magazines[] = {};
-    respawnMagazines[] = {};
 	linkedItems[] =
 	{
 		V_ChestrigF_blk,
