@@ -194,7 +194,11 @@ class O_R_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Taiga,1};
+	textureList[] =
+	{
+        Green,0,
+		Taiga,1
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUcamo_CO.paa",
@@ -435,7 +439,11 @@ class O_R_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Taiga,1};
+	textureList[] =
+	{
+        Green,0,
+		Taiga,1
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUcamo_CO.paa",
@@ -672,7 +680,11 @@ class O_R_APC_Tracked_02_medical_F: APC_Tracked_02_medical_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Taiga,1};
+	textureList[] =
+	{
+        Green,0,
+		Taiga,1
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUcamo_CO.paa",

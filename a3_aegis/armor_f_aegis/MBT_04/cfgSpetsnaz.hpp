@@ -187,15 +187,14 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-		Green,1,
-		Green_02,0,
-		Green_03,0
+        Green,0,
+		Taiga,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 	};
 	class TransportWeapons
 	{
@@ -409,16 +408,15 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-		Green,1,
-		Green_02,0,
-		Green_03,0
+        Green,0,
+		Taiga,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUS_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 	};
 	class TransportWeapons
 	{

@@ -81,31 +81,19 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-			class Green_02
+			class Taiga
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_GREENJUNGLE0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Green_03
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENDESERT0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -186,28 +174,18 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 				};
 			};
-			class Green_02: Green_02
+			class Taiga: Taiga
 			{
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Jungle_CO.paa"
-				};
-			};
-			class Green_03: Green_03
-			{
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Desert_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 				};
 			};
 		};

@@ -185,16 +185,15 @@ class O_R_MBT_02_cannon_F: O_MBT_02_cannon_F
 	};
 	textureList[] =
 	{
-		Green,1,
-		Green_02,0,
-		Green_03,0
+        Green,0,
+		Taiga,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 	};
 	class TransportWeapons
 	{
@@ -384,17 +383,16 @@ class O_R_MBT_02_arty_F: O_MBT_02_arty_F
 	};
 	textureList[] =
 	{
-		Green,1,
-		Green_02,0,
-		Green_03,0
+        Green,0,
+		Taiga,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Stripe_Green_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
+		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 	};
 	class TransportWeapons
 	{

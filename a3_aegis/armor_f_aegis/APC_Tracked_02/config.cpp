@@ -99,14 +99,14 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
 			class Taiga
 			{
-				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -159,14 +159,14 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
 			class Taiga
 			{
-				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -306,7 +306,7 @@ class CfgVehicles
 			};
 			class Taiga
 			{
-				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -359,14 +359,14 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AT_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AT_Tower_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
 			class Taiga
 			{
-				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
