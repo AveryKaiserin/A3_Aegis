@@ -319,28 +319,28 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		srifle_DMR_06_hunter_DMS_BI_F,
+		srifle_DMR_06_olive_DMS_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_hunter_DMS_BI_F,
+		srifle_DMR_06_olive_DMS_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_weathered_Mag),
+		mag_8(20Rnd_762x51_Mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_weathered_Mag),
+		mag_8(20Rnd_762x51_Mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -805,14 +805,14 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	weapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
-		launch_MRAWS_green_F,
+		launch_NLAW_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_MSBS65_black_aco_pointer_f,
-		launch_MRAWS_green_F,
+		launch_NLAW_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
@@ -820,7 +820,7 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(11Rnd_45ACP_Mag),
-		MRAWS_HEAT_F,
+		NLAW_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -828,7 +828,7 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(11Rnd_45ACP_Mag),
-		MRAWS_HEAT_F,
+		NLAW_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
