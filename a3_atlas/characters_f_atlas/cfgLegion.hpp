@@ -62,14 +62,14 @@ class B_L_Soldier_F: B_L_Soldier_base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -112,13 +112,13 @@ class B_L_Soldier_unarmed_F: B_L_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -135,14 +135,14 @@ class B_L_Soldier_A_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -196,14 +196,14 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg_tshirt;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -249,14 +249,14 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -305,14 +305,14 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -367,6 +367,20 @@ class B_L_Officer_F: B_L_Soldier_base_F
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
 	uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		H_Beret_grn,
+		V_BandollierB_rgr,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_Beret_grn,
+		V_BandollierB_rgr,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
 	weapons[] =
 	{
 		SMG_03C_black,
@@ -397,20 +411,6 @@ class B_L_Officer_F: B_L_Soldier_base_F
         SmokeShellBlue,
         SmokeShellOrange
 	};
-	linkedItems[] =
-	{
-		H_Beret_Legion_01_F,
-		V_BandollierB_rgr,
-		ItemGPS,
-		DefaultManLinkedItems
-	};
-	respawnLinkedItems[] =
-	{
-		H_Beret_Legion_01_F,
-		V_BandollierB_rgr,
-		ItemGPS,
-		DefaultManLinkedItems
-	};
     cost = 600000;
 	camouflage = 1.6;
 	icon = iconManOfficer;
@@ -433,7 +433,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -441,7 +441,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -510,7 +510,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -518,7 +518,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -585,14 +585,14 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -647,14 +647,14 @@ class B_L_Soldier_AA_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -718,14 +718,14 @@ class B_L_Soldier_AT_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -789,14 +789,14 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -848,14 +848,14 @@ class B_L_Engineer_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetB,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -922,14 +922,14 @@ class B_L_Medic_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_Legion_01_F,
+		H_HelmetSpecB,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
