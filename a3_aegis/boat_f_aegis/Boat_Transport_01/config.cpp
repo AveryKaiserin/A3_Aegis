@@ -44,6 +44,13 @@ class CfgVehicles
 					OPF_R_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3_Aegis\Boat_F_Aegis\Boat_Transport_01\Data\Boat_Transport_01_RUS_CO.paa"};
+				factions[] = {OPF_R_F};
+			};
 		};
 	};
 	class Rescue_duck_base_F;

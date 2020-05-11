@@ -49,10 +49,8 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
-				factions[] =
+				factions[] +=
 				{
-					OPF_F,
-					OPF_T_F,
 					OPF_V_F,
 					OPF_A_F,
 					OPF_V_tna_F,
@@ -70,9 +68,8 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
-				factions[] =
+				factions[] +=
 				{
-					OPF_T_F,
 					OPF_V_tna_F,
 					OPF_W_F
 				};
@@ -87,9 +84,8 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
 				};
-				factions[] =
+				factions[] +=
 				{
-					OPF_F,
 					OPF_A_F,
 					OPF_V_F
 				};
@@ -100,21 +96,28 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUS_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUgrn_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
-		};
-		textureList[] =
-		{
-			Black,1,
-			GreenHex,1,
-			Arid,1,
-			Green,1
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUcamo_CO.paa",
+					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
+					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
 		};
 	};
 	class LSV_02_armed_base_F: LSV_02_base_F

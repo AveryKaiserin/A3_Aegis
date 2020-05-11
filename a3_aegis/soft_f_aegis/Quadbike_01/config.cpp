@@ -17,32 +17,28 @@ class CfgVehicles
 		{
 			class Blufor
 			{
-				factions[] =
-				{
-					BLU_F,
-					BLU_A_F
-				};
+				factions[] += {BLU_A_F};
 			};
 			class Olive
 			{
-				factions[] =
+				factions[] +=
 				{
-					BLU_T_F,
 					BLU_W_F,
-					BLU_A_F
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 			class LDF
 			{
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_eaf_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_eaf_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_EAF_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_EAF_CO.paa"
 				};
 			};
 			class Guerrilla_03
 			{
-				displayName = "FIA 3";
+				displayName = $STR_A3_A_TEXTURESOURCES_GUERRILLA_030;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -62,7 +58,18 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUS_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
@@ -73,13 +80,13 @@ class CfgVehicles
 	{
 		textureList[] += {Guerrilla_03,1};
 	};
-	// Arma 3 Contact
+	// Arma 3 Enoch
 	class I_E_Quadbike_01_F: Quadbike_01_base_F
 	{
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_eaf_CO.paa",
-			"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_eaf_CO.paa"
+			"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_EAF_CO.paa",
+			"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_EAF_CO.paa"
 		};
 	};
 	// Arma 3 Aegis

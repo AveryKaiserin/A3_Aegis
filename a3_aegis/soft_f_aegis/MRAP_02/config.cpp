@@ -17,6 +17,11 @@ class CfgVehicles
 	};
 	class MRAP_02_base_F: Car_F
 	{
+		class TransportMagazines
+		{
+			delete _xx_16Rnd_9x21_Mag;
+			mag_xx(17Rnd_9x21_Mag,12);
+		};
 		class TextureSources
 		{
 			class Green
@@ -25,9 +30,21 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUS_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -58,6 +75,7 @@ class CfgVehicles
 	{
 		class TransportMagazines
 		{
+			mag_xx(100Rnd_580x42_Mag_F,8);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};
@@ -66,6 +84,7 @@ class CfgVehicles
 	{
 		class TransportMagazines
 		{
+			mag_xx(100Rnd_580x42_Mag_F,8);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};
@@ -74,6 +93,7 @@ class CfgVehicles
 	{
 		class TransportMagazines
 		{
+			mag_xx(100Rnd_580x42_Mag_F,8);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};

@@ -37,8 +37,8 @@ class O_R_Boat_Transport_01_F: Rubber_duck_base_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	hiddenSelectionsTextures[] = {"\A3\Boat_F\Boat_Transport_01\Data\Boat_Transport_01_CO.paa"};
-	textureList[] = {Black,1};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\Boat_Transport_01\Data\Boat_Transport_01_RUS_CO.paa"};
+	textureList[] = {Rus,1};
 };
 class O_R_Lifeboat: Rescue_duck_base_F
 {

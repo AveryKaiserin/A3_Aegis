@@ -3,10 +3,98 @@
 class CfgVehicles
 {
 	// Arma 3
-	class Truck_F;
-	class Truck_03_base_F: Truck_F
+	class Truck_03_base_F;
+	class O_Truck_03_transport_F: Truck_03_base_F
 	{
-		class Turrets{};
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+	};
+	class O_Truck_03_covered_F: Truck_03_base_F
+	{
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+	};
+	class O_Truck_03_repair_F: Truck_03_base_F
+	{
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUgrn_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUcamo_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
 	};
 	class O_Truck_03_ammo_F: Truck_03_base_F
 	{
@@ -39,6 +127,94 @@ class CfgVehicles
 					"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_ghex_CO.paa"
 				};
+			};
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+	};
+	class O_Truck_03_fuel_F: Truck_03_base_F
+	{
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUgrn_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUcamo_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+		};
+	};
+	class O_Truck_03_medical_F: Truck_03_base_F
+	{
+		class TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
+        			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
+			};
+			class Taiga
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+        			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_F};
 			};
 		};
 	};

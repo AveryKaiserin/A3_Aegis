@@ -9,12 +9,16 @@ class O_R_UGV_01_F: UGV_01_base_F
     faction = OPF_R_F;
     crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_F};
-    textureList[] = {Green,1};
+    textureList[] =
+    {
+        Green,0,
+        Taiga,1
+    };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUS_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
 };
 class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
@@ -28,12 +32,16 @@ class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
     faction = OPF_R_F;
     crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_F};
-    textureList[] = {Green,1};
+    textureList[] =
+    {
+        Green,0,
+        Taiga,1
+    };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUS_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
     class Turrets: Turrets
     {
@@ -59,11 +67,15 @@ class O_R_UGV_01_medical_F: UGV_01_medical_base_F
     faction = OPF_R_F;
     crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_F};
-    textureList[] = {Green,1};
+    textureList[] =
+    {
+        Green,0,
+        Taiga,1
+    };
     hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };

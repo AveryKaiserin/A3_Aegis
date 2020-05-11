@@ -124,10 +124,12 @@ class CfgWeapons
 	};
 	class WF50_base_F: Rifle_Long_Base_F
 	{
-		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
-		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\LongRangeRifles\WF50\WF50_dry",db-6,1,20};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\LongRangeRifles\WF50\WF50_reload",db-12,1,10};
+		soundBipodDeploy[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_deploy",db-3,1,20};
+		soundBipodFold[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_fold",db-3,1,20};
+		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
+		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;

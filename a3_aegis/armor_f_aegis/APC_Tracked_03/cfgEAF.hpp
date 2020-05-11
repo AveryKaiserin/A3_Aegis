@@ -227,7 +227,7 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	{
 		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\APC_Tracked_03_ext_EAF_CO.paa",
 		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\APC_Tracked_03_ext2_EAF_CO.paa",
-		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\camonet_EAF_Green_CO.paa",
+		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\camonet_EAF_green_CO.paa",
 		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\cage_EAF_CO.paa"
 	};
 	class TransportMagazines

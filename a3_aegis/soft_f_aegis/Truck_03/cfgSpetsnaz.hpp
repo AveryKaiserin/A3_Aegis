@@ -1,435 +1,672 @@
-class O_R_Truck_03_transport_F: Truck_03_base_F
+class O_R_Truck_03_transport_F: O_Truck_03_transport_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    mapSize = 11.48;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_transport_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_transport_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_transport_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_transport_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_Transport_CA.paa";
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0.01},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0.01},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    transportSoldier = 11;
-    cargoProxyIndexes[] = {1,2,3,4,5,7,8,9,10,11,13};
-    getInProxyOrder[] = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-    class CargoTurret;
-    class Turrets: Turrets
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 2.257;
+		verticalOffsetWorld = -0.159;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_transport_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        class CargoTurret_01: CargoTurret
-        {
-            gunnerAction = passenger_inside_3;
-            memoryPointsGetInGunner = "pos cargo LR";
-            memoryPointsGetInGunnerDir = "pos cargo LR dir";
-            gunnerName = $STR_A3_TURRETS_CARGOTURRET_L;
-            gunnerCompartments = Compartment2;
-            proxyIndex = 6;
-            isPersonTurret = true;
-            class TurnIn
-            {
-                limitsArrayTop[] =
-                {
-                    {13.167,-69.298302},
-                    {14.292,-43.3992},
-                    {5.4840999,-5.8340001},
-                    {2.8036001,1.905}
-                };
-                limitsArrayBottom[] =
-                {
-                    {-44.745998,-74.107597},
-                    {-25.3468,4.3871999}
-                };
-            };
-        };
-        class CargoTurret_02: CargoTurret_01
-        {
-            gunnerName = $STR_A3_TURRETS_CARGOTURRET_R;
-            memoryPointsGetInGunner = "pos cargo RR";
-            memoryPointsGetInGunnerDir = "pos cargo RR dir";
-            proxyIndex = 12;
-            class TurnIn
-            {
-                limitsArrayTop[] =
-                {
-                    {4.6427002,0.9217},
-                    {6.4808002,5.0871},
-                    {5.9327998,19.181101},
-                    {14.8136,54.404999},
-                    {12.9964,82.350304},
-                    {6.7925,84.478996}
-                };
-                limitsArrayBottom[] =
-                {
-                    {-23.241199,-0.4235},
-                    {-27.9569,1.0816},
-                    {-44.599499,13.3937},
-                    {-44.451199,94.889198}
-                };
-            };
-        };
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
+	textureList[] = 
+    {
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa"};
 };
-class O_R_Truck_03_covered_F: Truck_03_base_F
+class O_R_Truck_03_covered_F: O_Truck_03_covered_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    mapSize = 11.48;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_covered_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_covered_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_covered_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_covered_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_Covered_CA.paa";
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3,
-        Camo4
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0.01},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0.01},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    transportSoldier = 11;
-    cargoProxyIndexes[] = {1,2,3,4,5,7,8,9,10,11,13};
-    getInProxyOrder[] = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-    class CargoTurret;
-    class Turrets: Turrets
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 2.285;
+		verticalOffsetWorld = -0.131;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_covered_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        class CargoTurret_01: CargoTurret
-        {
-            gunnerAction = passenger_inside_3;
-            memoryPointsGetInGunner = "pos cargo LR";
-            memoryPointsGetInGunnerDir = "pos cargo LR dir";
-            gunnerName = $STR_A3_TURRETS_CARGOTURRET_L;
-            gunnerCompartments = Compartment2;
-            proxyIndex = 6;
-            isPersonTurret = true;
-            class TurnIn
-            {
-                limitsArrayTop[] =
-                {
-                    {13.167,-69.298302},
-                    {14.292,-43.3992},
-                    {5.4840999,-5.8340001},
-                    {2.8036001,1.905}
-                };
-                limitsArrayBottom[] =
-                {
-                    {-44.745998,-74.107597},
-                    {-25.3468,4.3871999}
-                };
-            };
-        };
-        class CargoTurret_02: CargoTurret_01
-        {
-            gunnerName = $STR_A3_TURRETS_CARGOTURRET_R;
-            memoryPointsGetInGunner = "pos cargo RR";
-            memoryPointsGetInGunnerDir = "pos cargo RR dir";
-            proxyIndex = 12;
-            class TurnIn
-            {
-                limitsArrayTop[] =
-                {
-                    {4.6427002,0.9217},
-                    {6.4808002,5.0871},
-                    {5.9327998,19.181101},
-                    {14.8136,54.404999},
-                    {12.9964,82.350304},
-                    {6.7925,84.478996}
-                };
-                limitsArrayBottom[] =
-                {
-                    {-23.241199,-0.4235},
-                    {-27.9569,1.0816},
-                    {-44.599499,13.3937},
-                    {-44.451199,94.889198}
-                };
-            };
-        };
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
+	textureList[] = 
+    {
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cover_ghex_CO.paa"};
 };
-class O_R_Truck_03_repair_F: Truck_03_base_F
+class O_R_Truck_03_repair_F: O_Truck_03_repair_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_repair_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_repair_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_repair_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_ammo_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_ammo_CA.paa";
-    vehicleClass = Support;
-    transportSoldier = 1;
-    transportRepair = 200000000;
-    supplyRadius = 10;
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    class TransportItems
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 2.008;
+		verticalOffsetWorld = -0.141;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_repair_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        item_xx(FirstAidKit,4);
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
+	textureList[] = 
+    {
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ammo_ghex_CO.paa"};
 };
-class O_R_Truck_03_ammo_F: Truck_03_base_F
+class O_R_Truck_03_ammo_F: O_Truck_03_ammo_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_ammo_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_ammo_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_box_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_box_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_box_CA.paa";
-    vehicleClass = Support;
-    transportSoldier = 1;
-    transportAmmo = 30000;
-    supplyRadius = 10;
-    fuelExplosionPower = 1;
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3,
-        Camo4
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0.01},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0.01},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    class TransportItems
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 1.97;
+		verticalOffsetWorld = -0.178;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_ammo_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        item_xx(FirstAidKit,4);
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
+	textureList[] = 
+    {
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa","\A3\Structures_F\Data\Metal\Containers\Containers_colors_05_co.paa"};
 };
-class O_R_Truck_03_fuel_F: Truck_03_base_F
+class O_R_Truck_03_fuel_F: O_Truck_03_fuel_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    mapSize = 11.07;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_fuel_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_fuel_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_fuel_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_fuel_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_Fuel_CA.paa";
-    vehicleClass = Support;
-    transportSoldier = 1;
-    transportFuel = 3000;
-    supplyRadius = 10;
-    fuelExplosionPower = 10;
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0.01},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0.01},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    class TransportItems
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 1.95;
+		verticalOffsetWorld = -0.199;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_fuel_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        item_xx(FirstAidKit,4);
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
+	textureList[] = 
+    {
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa","\A3\Soft_F_Exp\Truck_03\Data\Truck_03_fuel_ghex_CO.paa"};
 };
-class O_R_Truck_03_medical_F: Truck_03_base_F
+class O_R_Truck_03_medical_F: O_Truck_03_medical_F
 {
-    author = $STR_A3_A_AveryTheKitty;
-    mapSize = 11.48;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_medical_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_R_F;
-    crew = O_R_Soldier_F;
-    displayName = $STR_A3_CfgVehicles_O_Truck_03_medical_F0;
-    model = "\A3\Soft_F_EPC\Truck_03\Truck_03_medevac_F.p3d";
-    picture = "\A3\Soft_F_EPC\Truck_03\Data\UI\truck_03_medevac_CA.paa";
-    icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_medevac_CA.paa";
-    vehicleClass = Support;
-    supplyRadius = 10;
-    attendant = true;
-    transportSoldier = 12;
-    threat[] = {0,0,0};
-    hiddenSelections[] =
-    {
-        Camo1,
-        Camo2,
-        Camo3,
-        Camo4
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
-    };
-    class TextureSources
-    {
-        class Green
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
         {
-            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-            author = $STR_A3_A_AveryTheKitty;
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUS_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
-            };
-            factions[] = {OPF_R_F};
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {indicatoroiltemp,0.01},
+            {indicatorenginetemp,0},
+            {indicatorenginetemp2,0},
+            {indicatorenginetemp3,0},
+            {fuel,0.01},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {steering_1_2,0},
+            {steering_2_2,0}
         };
-    };
-    textureList[] = {Green,1};
-    cargoAction[] =
+		hide[] =
+        {
+            clan,
+            zasleh,
+            light_l,
+            light_r,
+            "zadni svetlo",
+            "brzdove svetlo",
+            "podsvit pristroju",
+            poskozeni
+        };
+		verticalOffset = 2.291;
+		verticalOffsetWorld = -0.131;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_medical_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_Soldier_F;
+	typicalCargo[] =
     {
-        passenger_low01,
-        passenger_injured_medevac_truck01,
-        passenger_injured_medevac_truck02,
-        passenger_injured_medevac_truck01,
-        passenger_flatground_generic03,
-        passenger_flatground_generic05,
-        passenger_generic01_foldhands,
-        passenger_apc_narrow_generic03,
-        passenger_generic01_leanright,
-        passenger_apc_generic03,
-        passenger_generic01_foldhands,
-        passenger_generic01_leanleft,
-        passenger_apc_generic01,
-        passenger_generic01_foldhands,
-        passenger_apc_generic04,
-        passenger_generic01_leanleft
+        O_R_Soldier_F,
+        O_R_Soldier_F
     };
-    class TransportItems
+	textureList[] = 
     {
-        item_xx(FirstAidKit,10);
+        Green,0,
+        Taiga,1
+    };
+	hiddenSelectionsTextures[] =
+    {
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
     };
 };

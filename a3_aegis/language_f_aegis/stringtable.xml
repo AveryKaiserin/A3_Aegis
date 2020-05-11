@@ -6538,23 +6538,6 @@
 				<Japanese>ロシア</Japanese>
 				<Turkish>Rusya</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_TEXTURESOURCES_GREENJUNGLE0">
-				<Original>Green (Jungle Camo Net)</Original>
-				<Chinese>綠色（迷彩網，叢林）</Chinese>
-				<French>Vert (filet camouflage jungle)</French>
-				<Spanish>Verde (red de camuflaje de jungla)</Spanish>
-				<Italian>Verde (rete mimetica giungla)</Italian>
-				<Polish>Zielony (siatka maskująca, dżungla)</Polish>
-				<Russian>Зеленый (камуфляжная сетка для джунглей)</Russian>
-				<German>Grün (Urwald-Tarnnetz)</German>
-				<Czech>Zelená (maskovací síť džungle)</Czech>
-				<English>Green (Jungle Camo Net)</English>
-				<Portuguese>Verde (rede de selva camuflada)</Portuguese>
-				<Korean>녹색(정글 위장망)</Korean>
-				<Chinesesimp>绿色（丛林伪装网）</Chinesesimp>
-				<Japanese>緑（密林迷彩ネット）</Japanese>
-				<Turkish>Yeşil (Orman Kamf Ağ)</Turkish>
-			</Key>
 			<Key ID="STR_A3_A_TEXTURESOURCES_TAIGA0">
 				<Original>Taiga</Original>
 				<Chinese>Taiga</Chinese>
@@ -6588,6 +6571,23 @@
 				<Chinesesimp>热带</Chinesesimp>
 				<Japanese>熱帯</Japanese>
 				<Turkish>Tropik</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_GUERRILLA_030">
+				<Original>FIA 3</Original>
+				<Chinese>FIA 3</Chinese>
+				<French>FIA 3</French>
+				<Spanish>FIA 3</Spanish>
+				<Italian>FIA 3</Italian>
+				<Polish>FIA 3</Polish>
+				<Russian>FIA 3</Russian>
+				<German>FIA 3</German>
+				<Czech>FIA 3</Czech>
+				<English>FIA 3</English>
+				<Portuguese>FIA 3</Portuguese>
+				<Korean>FIA 3</Korean>
+				<Chinesesimp>FIA 3</Chinesesimp>
+				<Japanese>FIA 3</Japanese>
+				<Turkish>FIA 3</Turkish>
 			</Key>
 		</Container>
     	<Container name="Modules_F">

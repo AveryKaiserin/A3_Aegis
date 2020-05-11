@@ -76,10 +76,14 @@ class O_R_Quadbike_01_F: Quadbike_01_base_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Green,1};
+	textureList[] =
+	{
+		Green,0,
+		Taiga,1
+	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUS_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
 	};
 };

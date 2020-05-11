@@ -192,7 +192,7 @@ class O_R_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUcamo_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUcamo_CO.paa",
 		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 	};
 	class TransportWeapons

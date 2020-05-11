@@ -92,6 +92,7 @@ class CfgSoundSets
 		soundShaders[] =
 		{
 			WF50_Closure_SoundShader,
+			WF50_Bolt_SoundShader,
 			WF50_closeShot_SoundShader,
 			WF50_midShot_SoundShader,
 			WF50_distShot_SoundShader

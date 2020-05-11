@@ -81,7 +81,7 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -93,7 +93,7 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -174,8 +174,8 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 			};
 			class Taiga: Taiga
@@ -184,8 +184,8 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_RUS_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 			};
 		};

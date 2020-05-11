@@ -159,7 +159,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -172,7 +172,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -192,7 +192,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -206,7 +206,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
