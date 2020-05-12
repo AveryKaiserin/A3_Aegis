@@ -296,7 +296,7 @@ class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
         "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
     class TransportWeapons
@@ -461,7 +461,7 @@ class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
         "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
     class TransportWeapons
