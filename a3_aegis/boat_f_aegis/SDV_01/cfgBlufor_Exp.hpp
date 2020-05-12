@@ -80,5 +80,5 @@ class B_T_SDV_01_F: SDV_01_base_F
 		B_T_Soldier_F
 	};
 	hiddenSelectionsTextures[] = {"\A3\Boat_F_Beta\SDV_01\Data\SDV_ext_CO.paa"};
-	textureList[] = {Black,1};
+	textureList[] = {Blu,1};
 };

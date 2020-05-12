@@ -17,7 +17,7 @@ class O_R_UGV_01_F: UGV_01_base_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
         "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
 };
@@ -40,7 +40,7 @@ class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
         "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
     };
     class Turrets: Turrets
@@ -75,7 +75,7 @@ class O_R_UGV_01_medical_F: UGV_01_medical_base_F
     hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };

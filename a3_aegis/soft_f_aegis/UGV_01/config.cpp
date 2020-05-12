@@ -37,7 +37,7 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
@@ -49,7 +49,7 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
@@ -229,7 +229,7 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
@@ -238,7 +238,7 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};

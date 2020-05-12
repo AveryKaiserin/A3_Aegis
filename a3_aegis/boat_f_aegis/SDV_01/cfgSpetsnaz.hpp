@@ -71,7 +71,7 @@ class O_R_SDV_01_F: SDV_01_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_SDV_01_F.jpg";
 	scope = public;
-	crew = O_R_Diver_F;
+	crew = O_R_diver_F;
 	faction = OPF_R_F;
 	side = TEast;
 	typicalCargo[] =
@@ -79,6 +79,6 @@ class O_R_SDV_01_F: SDV_01_base_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	hiddenSelectionsTextures[] = {"\A3\Boat_F_Beta\SDV_01\Data\SDV_ext_CO.paa"};
-	textureList[] = {Black,1};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUS_CO.paa"};
+	textureList[] = {Rus,1};
 };

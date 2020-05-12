@@ -8,9 +8,9 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Black
+			class Blu
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLACK0;
+				displayName = $STR_A3_TEXTURESOURCES_BLU0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3\Boat_F_Beta\SDV_01\Data\SDV_ext_CO.paa"};
 				factions[] =
@@ -19,9 +19,7 @@ class CfgVehicles
 					BLU_T_F,
 					BLU_W_F,
 					BLU_A_F,
-					BLU_A_tna_F,
-					OPF_R_F,
-					OPF_R_alt_F
+					BLU_A_tna_F
 				};
 			};
 			class Hex
@@ -41,6 +39,13 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3\Boat_F_Beta\SDV_01\Data\SDV_ext_INDP_CO.paa"};
 				factions[] = {IND_F};
+			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUS_CO.paa"};
+				factions[] = {OPF_R_F};
 			};
 		};
 	};

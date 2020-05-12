@@ -34,8 +34,8 @@ class CfgVehicles
 				factions[] = {OPF_R_F};
 				textures[] =
 				{
-					"\A3_Aegis\Static_F_Aegis\SAM_System_04\Data\Sam_system_04_mat_01_RUrucamo_CO.paa",
-					"\A3_Aegis\Static_F_Aegis\SAM_System_04\Data\Sam_system_04_mat_02_RUrucamo_CO.paa"
+					"\A3_Aegis\Static_F_Aegis\SAM_System_04\Data\Sam_system_04_mat_01_RUcamo_CO.paa",
+					"\A3_Aegis\Static_F_Aegis\SAM_System_04\Data\Sam_system_04_mat_02_RUcamo_CO.paa"
 				};
 			};
 		};
