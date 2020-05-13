@@ -77,10 +77,10 @@ class B_L_Quadbike_01_F: Quadbike_01_base_F
 	faction = BLU_L_F;
 	crew = B_L_Soldier_F;
 	typicalCargo[] = {B_L_Soldier_F};
-	textureList[] = {Legion,1};
+	textureList[] = {Olive,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_Legion_CO.paa",
-		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_Legion_CO.paa"
-    };
+		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_olive_CO.paa",
+		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_wheel_olive_CO.paa"
+	};
 };
