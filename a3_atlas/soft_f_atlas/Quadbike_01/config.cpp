@@ -8,24 +8,9 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Blufor
-			{
-				factions[] =
-				{
-					BLU_F,
-					BLU_A_F,
-					BLU_E_F
-				};
-			};
 			class Olive
 			{
-				factions[] =
-				{
-					BLU_T_F,
-					BLU_W_F,
-					BLU_A_F,
-					BLU_E_F
-				};
+				factions[] += {BLU_E_F};
 			};
 			class Jungle
 			{
@@ -52,7 +37,7 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	// #include "cfgLegion.hpp"
+	#include "cfgLegion.hpp"
 	#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
 	#include "cfgIDF.hpp"
