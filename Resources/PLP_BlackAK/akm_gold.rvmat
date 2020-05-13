@@ -3,11 +3,11 @@ class StageTI
 	texture="a3\weapons_f_exp\rifles\akm\data\akm_ti_ca.paa";
 };
 ambient[]={1,1,1,1};
-diffuse[]={10,5,1,1};
+diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={20.125,10.125,0.125,1};
-specularPower=100;
+specular[]={10.125,5.125,0.125,1};
+specularPower=50;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
