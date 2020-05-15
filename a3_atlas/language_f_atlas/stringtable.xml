@@ -395,6 +395,23 @@
 				<Japanese>Kela Mk4</Japanese>
 				<Turkish>Kela Mk4</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_E_MBT_03_cannon_F0">
+				<Original>Luchs 3A5</Original>
+				<Chinese>Luchs 3A5</Chinese>
+				<French>Luchs 3A5</French>
+				<Spanish>Luchs 3A5</Spanish>
+				<Italian>Luchs 3A5</Italian>
+				<Polish>Luchs 3A5</Polish>
+				<Russian>Luchs 3A5</Russian>
+				<German>Luchs 3A5</German>
+				<Czech>Luchs 3A5</Czech>
+				<English>Luchs 3A5</English>
+				<Portuguese>Luchs 3A5</Portuguese>
+				<Korean>Luchs 3A5</Korean>
+				<Chinesesimp>Luchs 3A5</Chinesesimp>
+				<Japanese>Luchs 3A5</Japanese>
+				<Turkish>Luchs 3A5</Turkish>
+			</Key>
 		</Container>
 		<Container name="Characters_F">
 			<Container name="Headgear">
@@ -1259,23 +1276,6 @@
 					<Turkish>HASG</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
-					<Original>NATO (Woodland, European)</Original>
-					<Chinese>NATO (森林，歐洲人)</Chinese>
-					<French>OTAN (forêt, européens)</French>
-					<Spanish>OTAN (bosque, europeos)</Spanish>
-					<Italian>OTAN (boschi, europei)</Italian>
-					<Polish>NATO (las, Europejczycy)</Polish>
-					<Russian>НАТО (лес, европейцы)</Russian>
-					<German>NATO (Waldland, Europa)</German>
-					<Czech>NATO (woodland, Evropané)</Czech>
-					<English>NATO (Woodland, European)</English>
-					<Portuguese>OTAN (floresta, europeus)</Portuguese>
-					<Korean>NATO(산악, 유럽)</Korean>
-					<Chinesesimp>NATO (林地，欧洲人)</Chinesesimp>
-					<Japanese>NATO（森林、ヨーロッパ系）</Japanese>
-					<Turkish>NATO (Ağaçlık, Avrupalı)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_ard_F0">
 					<Original>NATO (European)</Original>
 					<Chinese>NATO (歐洲人)</Chinese>
 					<French>OTAN (européens)</French>
