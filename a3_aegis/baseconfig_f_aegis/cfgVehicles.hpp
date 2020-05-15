@@ -100,8 +100,6 @@ class CfgVehicles
     COMPATIBILITYCLASS(O_A_Plane_Transport_01_vehicle_F,O_Plane_Transport_01_vehicle_F)
     class B_UAV_03_dynamicLoadout_F;
     COMPATIBILITYCLASS(B_A_UAV_03_dynamicLoadout_F,B_UAV_03_dynamicLoadout_F)
-    class B_Heli_Attack_01_dynamicLoadout_F;
-    COMPATIBILITYCLASS(B_A_Heli_Attack_01_dynamicLoadout_F,B_Heli_Attack_01_dynamicLoadout_F)
     class O_T_Heli_Attack_02_dynamicLoadout_F;
     COMPATIBILITYCLASS(O_T_Heli_Attack_02_dynamicLoadout_ghex_F,O_T_Heli_Attack_02_dynamicLoadout_F)
     class O_T_Heli_Light_02_unarmed_F;

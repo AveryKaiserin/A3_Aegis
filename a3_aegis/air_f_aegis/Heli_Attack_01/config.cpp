@@ -104,4 +104,5 @@ class CfgVehicles
 	// Arma 3 Aegis
 	#include "cfgBlufor_Exp.hpp"
 	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Aegis.hpp"
 };
