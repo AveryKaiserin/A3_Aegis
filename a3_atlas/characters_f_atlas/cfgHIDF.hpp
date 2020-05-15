@@ -68,15 +68,13 @@ class B_HIDF_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 		tex[] = {};
 		mat[] =
 		{
-			"A3\Characters_F\Heads\Data\hl_white.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_injury.rvmat",
 			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1.rvmat",
 			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
 			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
 			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat",
 			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
-			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat"
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
+			INJURY_PERSONALITY_MATERIALS
 		};
 	};
 };

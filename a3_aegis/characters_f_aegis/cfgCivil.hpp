@@ -76,21 +76,7 @@ class C_man_1: Civilian_F
 			"A3\Characters_F\Civil\Data\priest.rvmat",
 			"A3\Characters_F\Civil\Data\priest_injury.rvmat",
 			"A3\Characters_F\Civil\Data\priest_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+			INJURY_PERSONALITY_MATERIALS
         };
     };
 };
@@ -231,33 +217,7 @@ class C_Uniform_Formal_01_base_F: Civilian_F
             "A3\Characters_F\Common\Data\basicbody.rvmat",
             "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
             "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-            "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-            "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-            "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
-            "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+            INJURY_PERSONALITY_MATERIALS
         };
 	};
 };

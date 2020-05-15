@@ -3005,24 +3005,10 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 			"A3\Characters_F\Common\Data\coveralls.rvmat",
 			"A3\Characters_F\Common\Data\coveralls_injury.rvmat",
 			"A3\Characters_F\Common\Data\coveralls_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
 			"A3\Characters_F_Mark\OPFOR\Data\ghillie_coverall_OPFOR.rvmat",
 			"A3\Characters_F_Mark\OPFOR\Data\ghillie_coverall_OPFOR_injury.rvmat",
-			"A3\Characters_F_Mark\OPFOR\Data\ghillie_coverall_OPFOR_injury.rvmat"
+			"A3\Characters_F_Mark\OPFOR\Data\ghillie_coverall_OPFOR_injury.rvmat",
+			INJURY_PERSONALITY_MATERIALS
 		};
 	};
 	weapons[] =
