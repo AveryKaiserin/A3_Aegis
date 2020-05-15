@@ -217,7 +217,7 @@ class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_I_APC_tracked_03_cannon_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0;
 	side = TWest;
 	faction = BLU_A_F;
 	crew = B_A_crew_F;
@@ -502,7 +502,7 @@ class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_tna_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_I_APC_tracked_03_cannon_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0;
 	side = TWest;
 	faction = BLU_A_tna_F;
 	crew = B_A_crew_tna_F;
@@ -787,7 +787,7 @@ class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_wdl_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_I_APC_tracked_03_cannon_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0;
 	side = TWest;
 	faction = BLU_A_wdl_F;
 	crew = B_A_crew_wdl_F;
