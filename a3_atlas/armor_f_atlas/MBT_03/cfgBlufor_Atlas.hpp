@@ -5,6 +5,15 @@ class B_E_MBT_03_base_F: MBT_03_base_F
 	typicalCargo[] = {B_E_Soldier_F};
 	side = TWest;
 	faction = BLU_E_F;
+	animationList[] =
+    {
+        HideTurret,1,
+        HideHull,1,
+        showCamonetHull,0,
+        showCamonetTurret,0,
+        showCamonetCannon,0,
+        showCamonetCannon1,0
+    };
 };
 class B_E_MBT_03_cannon_F: B_E_MBT_03_base_F
 {
@@ -199,17 +208,13 @@ class B_E_MBT_03_cannon_F: B_E_MBT_03_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MBT_03_cannon_F.jpg";
 	scope = public;
-	displayName = $STR_A3_CfgVehicles_I_MBT_03_cannon_F0;
-	textureList[] =
-	{
-		Olive_01,1,
-		Sand_01,1
-	};
+	displayName = $STR_A3_A_CfgVehicles_B_E_MBT_03_cannon_F0;
+	textureList[] = {Woodland_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_wdl_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_wdl_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_wdl_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
 	class TransportMagazines

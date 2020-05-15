@@ -43,7 +43,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {};
 			};
 			class Olive_01
 			{
@@ -54,6 +54,19 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_olive_CO.paa",
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_olive_CO.paa",
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Woodland_01
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_wdl_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_wdl_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_wdl_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 				};
 				factions[] = {BLU_E_F};
