@@ -5,8 +5,8 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_L_F0;
 		priority = 11;
 		side = TWest;
-		//icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_LEGION_CA.paa";
-		//flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_France_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_FRE_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_France_CO.paa";
 	};
 	class BLU_E_F
 	{
@@ -66,14 +66,6 @@ class CfgFactionClasses
 		side = TGuerrila;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_IDF_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_IDF_CO.paa";
-	};
-	class BLU_H_F
-	{
-		displayName = "HAF";
-		priority = 17;
-		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HAF_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_grArmy_CO.paa";
 	};
 	class OPF_B_F
 	{
