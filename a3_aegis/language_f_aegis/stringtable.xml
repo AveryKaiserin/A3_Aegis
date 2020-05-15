@@ -980,21 +980,21 @@
 				<Turkish>ZSU-39 Tugarin</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0">
-				<Original>FV-720 Boxer</Original>
-				<Chinese>FV-720 Boxer</Chinese>
-				<French>FV-720 Boxer</French>
-				<Spanish>FV-720 Boxer</Spanish>
-				<Italian>FV-720 Boxer</Italian>
-				<Polish>FV-720 Boxer</Polish>
-				<Russian>FV-720 Boxer</Russian>
-				<German>FV-720 Boxer</German>
-				<Czech>FV-720 Boxer</Czech>
-				<English>FV-720 Boxer</English>
-				<Portuguese>FV-720 Boxer</Portuguese>
-				<Korean>FV-720 Boxer</Korean>
-				<Chinesesimp>FV-720 Boxer</Chinesesimp>
-				<Japanese>FV-720 Boxer</Japanese>
-				<Turkish>FV-720 Boxer</Turkish>
+				<Original>FV-720 Lancer</Original>
+				<Chinese>FV-720 Lancer</Chinese>
+				<French>FV-720 Lancer</French>
+				<Spanish>FV-720 Lancer</Spanish>
+				<Italian>FV-720 Lancer</Italian>
+				<Polish>FV-720 Lancer</Polish>
+				<Russian>FV-720 Lancer</Russian>
+				<German>FV-720 Lancer</German>
+				<Czech>FV-720 Lancer</Czech>
+				<English>FV-720 Lancer</English>
+				<Portuguese>FV-720 Lancer</Portuguese>
+				<Korean>FV-720 Lancer</Korean>
+				<Chinesesimp>FV-720 Lancer</Chinesesimp>
+				<Japanese>FV-720 Lancer</Japanese>
+				<Turkish>FV-720 Lancer</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_APC_Wheeled_01_medical_F0">
 				<Original>AMV-7 Medical</Original>
