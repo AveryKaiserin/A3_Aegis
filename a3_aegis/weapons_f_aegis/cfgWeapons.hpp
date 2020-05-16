@@ -1833,7 +1833,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class srifle_DMR_05_blk_LRPS_LP_BI_F: srifle_DMR_05_blk_F
+	class srifle_DMR_05_DMS_LP_BI_F: srifle_DMR_05_blk_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class LinkedItems
@@ -1841,7 +1841,7 @@ class CfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = CowsSlot;
-				item = optic_LRPS;
+				item = optic_DMS_weathered_F;
 			};
 			class LinkedItemsAcc
 			{

@@ -173,28 +173,28 @@ class O_R_soldier_M_F: O_R_Soldier_Base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_M_F.jpg";
     weapons[] =
     {
-        srifle_DMR_01_black_DMS_LP_BI_F,
+        srifle_DMR_05_DMS_LP_BI_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        srifle_DMR_01_black_DMS_LP_BI_F,
+        srifle_DMR_05_DMS_LP_BI_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-		mag_10(10Rnd_762x54_mag),
+        mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_10(10Rnd_762x54_mag),
+        mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2877,9 +2877,24 @@ class O_R_sniper_F: O_R_Soldier_sniper_base
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
+	weapons[] =
+	{
+		srifle_GM6_LRPS_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		srifle_GM6_LRPS_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
 	magazines[] =
 	{
-        mag_6(10Rnd_93x64_DMR_05_Mag),
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -2888,26 +2903,13 @@ class O_R_sniper_F: O_R_Soldier_sniper_base
 	};
 	respawnMagazines[] =
 	{
-        mag_6(10Rnd_93x64_DMR_05_Mag),
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
-	};
-	weapons[] =
-	{
-		srifle_DMR_05_blk_LRPS_LP_BI_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons,
-		Rangefinder
-	};
-	respawnWeapons[] =
-	{
-		srifle_DMR_05_blk_LRPS_LP_BI_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons,
-		Rangefinder
 	};
 	camouflage = 0.6;
 	role = Marksman;
@@ -3013,14 +3015,14 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	};
 	weapons[] =
 	{
-		srifle_DMR_05_blk_LRPS_LP_BI_F,
+		srifle_GM6_LRPS_F,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_05_blk_LRPS_LP_BI_F,
+		srifle_GM6_LRPS_F,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -3028,7 +3030,8 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	hideProxySelections[] = {ghillie_hide};
 	magazines[] =
 	{
-        mag_6(10Rnd_93x64_DMR_05_Mag),
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -3037,7 +3040,8 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	};
 	respawnMagazines[] =
 	{
-        mag_6(10Rnd_93x64_DMR_05_Mag),
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
