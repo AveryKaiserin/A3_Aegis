@@ -996,6 +996,23 @@
 				<Japanese>FV-720 Lancer</Japanese>
 				<Turkish>FV-720 Lancer</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_AA_F0">
+				<Original>FV-720 AA</Original>
+				<Chinese>FV-720 AA</Chinese>
+				<French>FV-720 AA</French>
+				<Spanish>FV-720 AA</Spanish>
+				<Italian>FV-720 AA</Italian>
+				<Polish>FV-720 AA</Polish>
+				<Russian>FV-720 AA</Russian>
+				<German>FV-720 AA</German>
+				<Czech>FV-720 AA</Czech>
+				<English>FV-720 AA</English>
+				<Portuguese>FV-720 AA</Portuguese>
+				<Korean>FV-720 AA</Korean>
+				<Chinesesimp>FV-720 AA</Chinesesimp>
+				<Japanese>FV-720 AA</Japanese>
+				<Turkish>FV-720 AA</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_APC_Wheeled_01_medical_F0">
 				<Original>AMV-7 Medical</Original>
 				<Chinese>AMV-7（醫療用）</Chinese>
