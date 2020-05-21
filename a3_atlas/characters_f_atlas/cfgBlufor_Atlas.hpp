@@ -111,6 +111,7 @@ class B_E_Uniform_01_tank_F: I_Story_Crew_F
 	uniformClass = U_Tank_wdl_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_wdl_CO.paa"};
 };
+/*
 class B_E_Uniform_01_ard_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -161,6 +162,7 @@ class B_E_Uniform_01_ard_tanktop_F: I_E_Uniform_01_tanktop_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
+*/
 class B_E_Soldier_A_F: B_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;

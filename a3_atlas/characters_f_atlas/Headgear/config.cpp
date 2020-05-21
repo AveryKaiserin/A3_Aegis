@@ -339,14 +339,6 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetI_I_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetI_I_01_CO.paa"};
 	};
-	class H_HelmetI_I_01_olive_F: H_HelmetI_I_01_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetI_I_01_olive_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetI_I_01_olive_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetI_I_01_olive_CO.paa"};
-	};
 	class H_HelmetCrew_I_I: H_HelmetCrew_I
 	{
 		author = $STR_A3_A_AveryTheKitty;
