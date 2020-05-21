@@ -222,7 +222,12 @@ class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 	faction = BLU_A_F;
 	crew = B_A_crew_F;
 	typicalCargo[] = {B_A_Soldier_F};
-	textureList[] = {Sand_01,1};
+	textureList[] =
+	{
+		Olive_01,0,
+		Sand_01,1,
+		Woodland_01,0
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_CO.paa",
@@ -507,11 +512,16 @@ class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
 	faction = BLU_A_tna_F;
 	crew = B_A_crew_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
-	textureList[] = {Olive_01,1};
+	textureList[] =
+	{
+		Olive_01,0,
+		Sand_01,0,
+		Woodland_01,1
+	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_wdl_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_NATO_BAF_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -792,11 +802,16 @@ class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
 	faction = BLU_A_wdl_F;
 	crew = B_A_crew_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};
-	textureList[] = {Olive_01,1};
+	textureList[] =
+	{
+		Olive_01,0,
+		Sand_01,0,
+		Woodland_01,1
+	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_olive_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_wdl_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_NATO_BAF_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};

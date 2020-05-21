@@ -1542,19 +1542,19 @@ class I_E_Soldier_UAV_F: I_E_Soldier_base_F
         mag_2(SmokeShell)
     };
 };
-class I_E_soldier_UAV_06_F: I_E_Soldier_base_F
+class I_E_soldier_UAV_06_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_F.jpg";
 };
-class I_E_soldier_UAV_06_medical_F: I_E_Soldier_base_F
+class I_E_soldier_UAV_06_medical_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_F.jpg";
 };
-class I_E_soldier_UGV_02_Science_F: I_E_Soldier_base_F
+class I_E_soldier_UGV_02_Science_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Science_F.jpg";
 };
-class I_E_soldier_UGV_02_Demining_F: I_E_Soldier_base_F
+class I_E_soldier_UGV_02_Demining_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Demining_F.jpg";
 };

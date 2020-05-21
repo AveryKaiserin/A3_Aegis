@@ -648,6 +648,8 @@ class O_W_Officer_F: O_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Officer_F.jpg";
+	faction = OPF_W_F;
+	genericNames = RussianMen;
 	identityTypes[] =
 	{
 		LanguageRUS_F,

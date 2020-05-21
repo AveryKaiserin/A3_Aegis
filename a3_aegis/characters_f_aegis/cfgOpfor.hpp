@@ -3401,6 +3401,62 @@ class O_RadioOperator_F: O_Soldier_F
     };
     role = RadioOperator;
 };
+class O_SoldierU_CBRN_F: O_soldierU_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_SoldierU_CBRN_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
+	uniformClass = U_O_CombatUniform_ocamo;
+	linkedItems[] =
+	{
+		H_HelmetO_oucamo,
+		G_AirPurifyingRespirator_02_black_F,
+		V_HarnessO_gry,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_urb_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetO_oucamo,
+		G_AirPurifyingRespirator_02_black_F,
+		V_HarnessO_gry,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_urb_F
+	};
+	weapons[] =
+    {
+        arifle_Katiba_C_ACO_pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_Katiba_C_ACO_pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    cost = 93000;
+	camouflage = 1.6;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+    role = Sapper;
+};
 class O_Urban_RadioOperator_F: O_soldierU_F
 {
 	author = $STR_A3_A_AveryTheKitty;
