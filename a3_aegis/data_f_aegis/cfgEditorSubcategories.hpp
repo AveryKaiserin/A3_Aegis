@@ -1,8 +1,8 @@
 class CfgEditorSubcategories
 {
-	class EdSubcat_Scientific
+	class EdSubcat_Laboratory
 	{
-		displayName = "Scientific";
+		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Laboratory0;
 	};
 	class EdSubcat_TankDestroyers
 	{
