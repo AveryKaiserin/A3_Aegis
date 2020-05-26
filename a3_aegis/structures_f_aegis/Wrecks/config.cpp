@@ -7,6 +7,15 @@ class CfgVehicles
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 30.04;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.923;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_Plane_Transport_01_crashed_F.jpg";
 		scope = public;
 		scopeCurator = public;
