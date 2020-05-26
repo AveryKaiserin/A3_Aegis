@@ -12,6 +12,69 @@ class CfgVehicles
 	};
 	class Land_Metal_wooden_rack_F;
 	// Arma 3 Aegis
+	class Land_Basin_01_F: Furniture_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mapSize = 0.72;
+		class SimpleObject
+		{
+			eden = true;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.1;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Basin_01_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Land_Basin_01_F0;
+		model = "\A3\Structures_F_Enoch\Furniture\Bathroom\Basin_A\Basin_A.p3d";
+		icon = iconObject_1x1;
+		editorSubcategory = EdSubcat_Utilities;
+	};
+	class Land_Sink_01_F: Furniture_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mapSize = 0.7;
+		class SimpleObject
+		{
+			eden = true;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.1;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Sink_01_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Land_Sink_01_F0;
+		model = "\A3\Structures_F_Enoch\Furniture\Bathroom\Sink\Sink.p3d";
+		icon = iconObject_1x1;
+		editorSubcategory = EdSubcat_Utilities;
+	};
+	class Land_Toilet_01_F: Furniture_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mapSize = 0.74;
+		class SimpleObject
+		{
+			eden = true;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.1;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Toilet_01_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Land_Toilet_01_F0;
+		model = "\A3\Structures_F_Enoch\Furniture\Bathroom\Toilet_B_02\Toilet_B_02.p3d";
+		icon = iconObject_1x1;
+		editorSubcategory = EdSubcat_Utilities;
+	};
 	class Land_Locker_01_closed_F: Items_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -173,7 +236,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_beaker_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_beaker.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_bunsen_F: Items_base_F
 	{
@@ -194,7 +257,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_bunsen_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_bunsen.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_cylinder_beaker_F: Items_base_F
 	{
@@ -215,7 +278,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_cylinder_beaker_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_cylinder_beaker.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_dropper_F: Items_base_F
 	{
@@ -236,7 +299,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_dropper_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_dropper.p3d";
 		icon = iconObject_1x1;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_erlenmeyer_flask_F: Items_base_F
 	{
@@ -257,7 +320,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_erlenmeyer_flask_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_erlenmeyer_flask.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_microscope_F: Items_base_F
 	{
@@ -278,7 +341,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_microscope_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_microscope.p3d";
 		icon = iconObject_1x1;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_petri_dish_F: Items_base_F
 	{
@@ -299,7 +362,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_petri_dish_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_petri_dish.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_bench_F: Furniture_base_F
 	{
@@ -320,7 +383,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_bench_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_teacher_bench.p3d";
 		icon = iconObject_3x1;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_triplebeam_F: Items_base_F
 	{
@@ -341,7 +404,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_triplebeam_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_triplebeam.p3d";
 		icon = iconObject_1x3;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_vial_F: Items_base_F
 	{
@@ -362,7 +425,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_vial_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_vial.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	class Land_Lab_volume_beaker_F: Items_base_F
 	{
@@ -383,7 +446,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_volume_beaker_F0;
 		model = "\A3\Structures_F_Enoch\Furniture\School_Equipment\lab_volume_beaker.p3d";
 		icon = iconObject_circle;
-		editorSubcategory = EdSubcat_Scientific;
+		editorSubcategory = EdSubcat_Laboratory;
 	};
 	#include "furnishedObjects.hpp"
 };
