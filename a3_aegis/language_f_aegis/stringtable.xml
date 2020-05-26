@@ -8464,6 +8464,57 @@
 						<Japanese>Camouflage Vehicle Cover (Sand)</Japanese>
 						<Turkish>Camouflage Vehicle Cover (Sand)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_CamoNet_East_F0">
+						<Original>Camouflage Net (Taiga)</Original>
+						<Chinese>Camouflage Net (Taiga)</Chinese>
+						<French>Camouflage Net (Taiga)</French>
+						<Spanish>Camouflage Net (Taiga)</Spanish>
+						<Italian>Camouflage Net (Taiga)</Italian>
+						<Polish>Camouflage Net (Taiga)</Polish>
+						<Russian>Camouflage Net (Taiga)</Russian>
+						<German>Camouflage Net (Taiga)</German>
+						<Czech>Camouflage Net (Taiga)</Czech>
+						<English>Camouflage Net (Taiga)</English>
+						<Portuguese>Camouflage Net (Taiga)</Portuguese>
+						<Korean>Camouflage Net (Taiga)</Korean>
+						<Chinesesimp>Camouflage Net (Taiga)</Chinesesimp>
+						<Japanese>Camouflage Net (Taiga)</Japanese>
+						<Turkish>Camouflage Net (Taiga)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_CamoNet_East_open_F0">
+						<Original>Camouflage Net (Open, Taiga)</Original>
+						<Chinese>Camouflage Net (Open, Taiga)</Chinese>
+						<French>Camouflage Net (Open, Taiga)</French>
+						<Spanish>Camouflage Net (Open, Taiga)</Spanish>
+						<Italian>Camouflage Net (Open, Taiga)</Italian>
+						<Polish>Camouflage Net (Open, Taiga)</Polish>
+						<Russian>Camouflage Net (Open, Taiga)</Russian>
+						<German>Camouflage Net (Open, Taiga)</German>
+						<Czech>Camouflage Net (Open, Taiga)</Czech>
+						<English>Camouflage Net (Open, Taiga)</English>
+						<Portuguese>Camouflage Net (Open, Taiga)</Portuguese>
+						<Korean>Camouflage Net (Open, Taiga)</Korean>
+						<Chinesesimp>Camouflage Net (Open, Taiga)</Chinesesimp>
+						<Japanese>Camouflage Net (Open, Taiga)</Japanese>
+						<Turkish>Camouflage Net (Open, Taiga)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_CamoNet_East_big_F0">
+						<Original>Camouflage Vehicle Cover (Taiga)</Original>
+						<Chinese>Camouflage Vehicle Cover (Taiga)</Chinese>
+						<French>Camouflage Vehicle Cover (Taiga)</French>
+						<Spanish>Camouflage Vehicle Cover (Taiga)</Spanish>
+						<Italian>Camouflage Vehicle Cover (Taiga)</Italian>
+						<Polish>Camouflage Vehicle Cover (Taiga)</Polish>
+						<Russian>Camouflage Vehicle Cover (Taiga)</Russian>
+						<German>Camouflage Vehicle Cover (Taiga)</German>
+						<Czech>Camouflage Vehicle Cover (Taiga)</Czech>
+						<English>Camouflage Vehicle Cover (Taiga)</English>
+						<Portuguese>Camouflage Vehicle Cover (Taiga)</Portuguese>
+						<Korean>Camouflage Vehicle Cover (Taiga)</Korean>
+						<Chinesesimp>Camouflage Vehicle Cover (Taiga)</Chinesesimp>
+						<Japanese>Camouflage Vehicle Cover (Taiga)</Japanese>
+						<Turkish>Camouflage Vehicle Cover (Taiga)</Turkish>
+					</Key>
 				</Container>
 				<Container name="Flags">
 					<Key ID="STR_A3_A_CfgVehicles_Flag_Greece_F0">
@@ -8774,7 +8825,43 @@
 						<Japanese>Bunker (Tower, Woodland)</Japanese>
 						<Turkish>Bunker (Tower, Woodland)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Land_BagBunker_Tower_East_F0">
+						<Original>Bunker (Tower, Taiga)</Original>
+						<Chinese>Bunker (Tower, Taiga)</Chinese>
+						<French>Bunker (Tower, Taiga)</French>
+						<Spanish>Bunker (Tower, Taiga)</Spanish>
+						<Italian>Bunker (Tower, Taiga)</Italian>
+						<Polish>Bunker (Tower, Taiga)</Polish>
+						<Russian>Bunker (Tower, Taiga)</Russian>
+						<German>Bunker (Tower, Taiga)</German>
+						<Czech>Bunker (Tower, Taiga)</Czech>
+						<English>Bunker (Tower, Taiga)</English>
+						<Portuguese>Bunker (Tower, Taiga)</Portuguese>
+						<Korean>Bunker (Tower, Taiga)</Korean>
+						<Chinesesimp>Bunker (Tower, Taiga)</Chinesesimp>
+						<Japanese>Bunker (Tower, Taiga)</Japanese>
+						<Turkish>Bunker (Tower, Taiga)</Turkish>
+					</Key>
 				</Container>
+			</Container>
+      		<Container name="Walls">
+				<Key ID="STR_A3_A_CfgVehicles_Land_CncBarrier_dam_F0">
+				<Original>Concrete Barrier (Damaged)</Original>
+				<Chinese>水泥路障（受損）</Chinese>
+				<French>Barrière en béton (endommagé)</French>
+				<Spanish>Barrera de hormigón (dañado)</Spanish>
+				<Italian>Barriera di cemento (danneggiato)</Italian>
+				<Polish>Betonowa bariera (uszkodzony)</Polish>
+				<Russian>Бетонный барьер (поврежденное)</Russian>
+				<German>Betonbarriere (beschädigtes)</German>
+				<Czech>Betonová bariéra (poškozená)</Czech>
+				<English>Concrete Barrier (Damaged)</English>
+				<Portuguese>Barreira de concreto (danificado)</Portuguese>
+				<Korean>콘크리트 방벽 (파손된)</Korean>
+				<Chinesesimp>混凝土防撞栏（损坏的）</Chinesesimp>
+				<Japanese>コンクリート柵（損傷し）</Japanese>
+				<Turkish>Beton Bariyer (Hasarlı)</Turkish>
+				</Key>
 			</Container>
       		<Container name="Wrecks">
 				<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_Plane_Transport_01_crashed_F0">
