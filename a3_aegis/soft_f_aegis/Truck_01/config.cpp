@@ -16,4 +16,5 @@ class CfgVehicles
 	class Truck_01_cargo_base_F;
 	// Arma 3 Aegis
 	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Aegis.hpp"
 };
