@@ -2545,6 +2545,7 @@ class B_A_Recon_Medic_F: B_recon_medic_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_UBACS_tshirt_mtp_f;
+	backpack = B_TacticalPack_mcamo_BAReconMedic_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
@@ -2671,6 +2672,7 @@ class B_A_Recon_LAT_F: B_recon_LAT_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_UBACS_tshirt_mtp_f;
+	backpack = B_TacticalPack_mcamo_BAReconLAT_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_snd_ACO_Pointer_Snds_F,
@@ -5639,7 +5641,7 @@ class B_A_Recon_Medic_tna_F: B_A_Recon_Medic_F
 		G_T_NATO_SF
 	};
 	uniformClass = U_B_UBACS_tshirt_tna_f;
-	backpack = B_AssaultPack_rgr_BTReconMedic;
+	backpack = B_TacticalPack_tna_BAReconMedic_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_khk_Holo_Pointer_Snds_F,
@@ -5762,7 +5764,7 @@ class B_A_Recon_LAT_tna_F: B_A_Recon_LAT_F
 		G_T_NATO_SF
 	};
 	uniformClass = U_B_UBACS_tshirt_tna_f;
-	backpack = B_AssaultPack_rgr_BTLAT_F;
+	backpack = B_TacticalPack_tna_BAReconLAT_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_khk_ACO_Pointer_Snds_F,
@@ -8336,7 +8338,7 @@ class B_A_Recon_Medic_wdl_F: B_A_Recon_Medic_F
 		G_W_NATO_SF
 	};
 	uniformClass = U_B_UBACS_vest_wdl_f;
-	backpack = B_AssaultPack_rgr_ReconMedic;
+	backpack = B_TacticalPack_rgr_BAReconMedic_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -8459,7 +8461,7 @@ class B_A_Recon_LAT_wdl_F: B_A_Recon_LAT_F
 		G_W_NATO_SF
 	};
 	uniformClass = U_B_UBACS_tshirt_wdl_f;
-	backpack = B_AssaultPack_rgr_ReconLAT;
+	backpack = B_TacticalPack_rgr_BAReconLAT_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_ACO_Pointer_Snds_F,

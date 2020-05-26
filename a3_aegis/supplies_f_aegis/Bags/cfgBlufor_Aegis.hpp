@@ -62,6 +62,31 @@ class B_TacticalPack_mcamo_BARepair_F: B_TacticalPack_mcamo
 		item_xx(ToolKit,1);
 	};
 };
+class B_TacticalPack_mcamo_BAReconMedic_F: B_TacticalPack_mcamo
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(SmokeShellRed,1);
+		mag_xx(SmokeShellBlue,1);
+		mag_xx(SmokeShellOrange,1);
+	};
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_TacticalPack_mcamo_BAReconLAT_F: B_TacticalPack_mcamo
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(NLAW_F,2);
+	};
+};
 // NATO (Pacific, British)
 class B_Carryall_tna_BAAmmo_F: B_Carryall_tna_F
 {
@@ -126,6 +151,31 @@ class B_TacticalPack_tna_BARepair_F: B_TacticalPack_tna_F
 		item_xx(ToolKit,1);
 	};
 };
+class B_TacticalPack_tna_BAReconMedic_F: B_TacticalPack_tna_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(SmokeShellRed,1);
+		mag_xx(SmokeShellBlue,1);
+		mag_xx(SmokeShellOrange,1);
+	};
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_TacticalPack_tna_BAReconLAT_F: B_TacticalPack_tna_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(NLAW_F,2);
+	};
+};
 // NATO (Woodland, British)
 class B_Carryall_wdl_BAAmmo_F: B_Carryall_wdl_F
 {
@@ -188,5 +238,30 @@ class B_TacticalPack_rgr_BARepair_F: B_TacticalPack_rgr
 	class TransportItems
 	{
 		item_xx(ToolKit,1);
+	};
+};
+class B_TacticalPack_rgr_BAReconMedic_F: B_TacticalPack_rgr
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(SmokeShellRed,1);
+		mag_xx(SmokeShellBlue,1);
+		mag_xx(SmokeShellOrange,1);
+	};
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_TacticalPack_rgr_BAReconLAT_F: B_TacticalPack_rgr
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(NLAW_F,2);
 	};
 };
