@@ -96,7 +96,7 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class APC_Wheeled_01_base_v2_F: APC_Wheeled_01_base_F
 	{
-		scope = public;
+		scope = private;
 		accuracy = 0.3;
 		displayName = $STR_A3_CFGVEHICLES_B_APC_WHEELED_01_CANNON;
 		class Library
