@@ -894,20 +894,6 @@ class CfgVehicles
     COMPATIBILITYCLASS(B_A_MRAP_01_hmg_F,B_MRAP_01_hmg_F)
     COMPATIBILITYCLASS(I_R_MRAP_01_hmg_F,B_MRAP_01_hmg_F)
     COMPATIBILITYCLASS(O_P_MRAP_01_hmg_F,B_MRAP_01_hmg_F)
-    class B_Truck_01_ammo_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_ammo_F,B_Truck_01_ammo_F)
-    class B_Truck_01_box_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_box_F,B_Truck_01_box_F)
-    class B_Truck_01_fuel_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_fuel_F,B_Truck_01_fuel_F)
-    class B_Truck_01_medical_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_medical_F,B_Truck_01_medical_F)
-    class B_Truck_01_mover_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_mover_F,B_Truck_01_mover_F)
-    class B_Truck_01_Repair_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_Repair_F,B_Truck_01_Repair_F)
-    class B_Truck_01_transport_F;
-    COMPATIBILITYCLASS(B_A_Truck_01_transport_F,B_Truck_01_transport_F)
     class O_Truck_02_Ammo_F;
     COMPATIBILITYCLASS(O_A_Truck_02_Ammo_F,O_Truck_02_Ammo_F)
     class O_Truck_02_box_F;
