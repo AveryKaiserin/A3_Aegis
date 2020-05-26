@@ -5621,6 +5621,23 @@
 					<Japanese>モジュラーキャリア GL リグ（コヨーテ）</Japanese>
 					<Turkish>Modüler Taşıyıcı GL Yelek (Koyote)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_BandollierB_taiga0">
+					<Original>Slash Bandolier (Taiga)</Original>
+					<Chinese>斜肩子彈帶（Taiga）</Chinese>
+					<French>Bandoulière (taïga)</French>
+					<Spanish>Cartuchera diagonal (taiga)</Spanish>
+					<Italian>Bandoliera (taiga)</Italian>
+					<Polish>Bandolier (tajga)</Polish>
+					<Russian>Патронташ (таежная)</Russian>
+					<German>Patronengurt (Taiga)</German>
+					<Czech>Bandalír (tajga)</Czech>
+					<English>Slash Bandolier (Taiga)</English>
+					<Portuguese>Bandoleira diagonal (taiga)</Portuguese>
+					<Korean>사선형 탄띠(침엽수)</Korean>
+					<Chinesesimp>条状子弹带（针叶林）</Chinesesimp>
+					<Japanese>斜め掛け弾薬帯（タイガ）</Japanese>
+					<Turkish>Çapraz Palaska (Tayga)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_RebreatherRU0">
 					<Original>Rebreather [Russia]</Original>
 					<Chinese>循環呼吸器（俄國）</Chinese>
@@ -6054,6 +6071,23 @@
 				</Key>
 			</Container>
 			<Container name="Editor_Categories">
+				<Key ID="STR_A3_A_CfgEditorSubcategories_EdSubcat_Laboratory0">
+					<Original>Laboratory</Original>
+					<Chinese>實驗室</Chinese>
+					<French>Laboratoire</French>
+					<Spanish>Laboratorio</Spanish>
+					<Italian>Laboratorio</Italian>
+					<Polish>Laboratorium</Polish>
+					<Russian>Лаборатория</Russian>
+					<German>Labor</German>
+					<Czech>Laboratoř</Czech>
+					<English>Laboratory</English>
+					<Portuguese>Laboratório</Portuguese>
+					<Korean>실험실</Korean>
+					<Chinesesimp>实验室</Chinesesimp>
+					<Japanese>実験室</Japanese>
+					<Turkish>Laboratuvar</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgEditorSubcategories_EdSubcat_TankDestroyers0">
 					<Original>Tank Destroyers</Original>
 					<Chinese>坦克殲擊車</Chinese>
@@ -8104,6 +8138,57 @@
 				</Key>
 			</Container>
         	<Container name="Furniture">
+				<Key ID="STR_A3_A_CfgVehicles_Land_Basin_01_F0">
+					<Original>Basin</Original>
+					<Chinese>Basin</Chinese>
+					<French>Basin</French>
+					<Spanish>Basin</Spanish>
+					<Italian>Basin</Italian>
+					<Polish>Basin</Polish>
+					<Russian>Basin</Russian>
+					<German>Basin</German>
+					<Czech>Basin</Czech>
+					<English>Basin</English>
+					<Portuguese>Basin</Portuguese>
+					<Korean>Basin</Korean>
+					<Chinesesimp>Basin</Chinesesimp>
+					<Japanese>Basin</Japanese>
+					<Turkish>Basin</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_Sink_01_F0">
+					<Original>Sink</Original>
+					<Chinese>Sink</Chinese>
+					<French>Sink</French>
+					<Spanish>Sink</Spanish>
+					<Italian>Sink</Italian>
+					<Polish>Sink</Polish>
+					<Russian>Sink</Russian>
+					<German>Sink</German>
+					<Czech>Sink</Czech>
+					<English>Sink</English>
+					<Portuguese>Sink</Portuguese>
+					<Korean>Sink</Korean>
+					<Chinesesimp>Sink</Chinesesimp>
+					<Japanese>Sink</Japanese>
+					<Turkish>Sink</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_Toilet_01_F0">
+					<Original>Toilet</Original>
+					<Chinese>Toilet</Chinese>
+					<French>Toilet</French>
+					<Spanish>Toilet</Spanish>
+					<Italian>Toilet</Italian>
+					<Polish>Toilet</Polish>
+					<Russian>Toilet</Russian>
+					<German>Toilet</German>
+					<Czech>Toilet</Czech>
+					<English>Toilet</English>
+					<Portuguese>Toilet</Portuguese>
+					<Korean>Toilet</Korean>
+					<Chinesesimp>Toilet</Chinesesimp>
+					<Japanese>Toilet</Japanese>
+					<Turkish>Toilet</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Land_Locker_01_closed_F0">
 					<Original>Locker (Closed)</Original>
 					<Chinese>Locker (Closed)</Chinese>
@@ -12392,6 +12477,40 @@
 						<Chinesesimp>Warfare-50 12.7 毫米</Chinesesimp>
 						<Japanese>Warfare-50 12.7 mm</Japanese>
 						<Turkish>Warfare-50 12.7 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_srifle_WF50_camo_F0">
+						<Original>Warfare-50 12.7 mm (Camo)</Original>
+						<Chinese>Warfare-50 12.7 mm（迷彩型）</Chinese>
+						<French>Warfare-50 12,7 mm (Camo)</French>
+						<Spanish>Warfare-50 12,7 mm (camuflaje)</Spanish>
+						<Italian>Warfare-50 12,7 mm (mimetico)</Italian>
+						<Polish>Warfare-50 12,7 mm (kamuflaż)</Polish>
+						<Russian>Warfare-50, 12,7 мм (камуфляж)</Russian>
+						<German>Warfare-50 12,7 mm (Flecktarn)</German>
+						<Czech>Warfare-50 12,7 mm (kamufláž)</Czech>
+						<English>Warfare-50 12.7 mm (Camo)</English>
+						<Portuguese>Warfare-50 12.7 mm (Camuflagem)</Portuguese>
+						<Korean>Warfare-50 12.7mm(위장)</Korean>
+						<Chinesesimp>Warfare-50 12.7 毫米（迷彩）</Chinesesimp>
+						<Japanese>Warfare-50 12.7 mm（カモフラ）</Japanese>
+						<Turkish>Warfare-50 12.7 mm (Kamuflaj)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_srifle_WF50_tna_F0">
+						<Original>Warfare-50 12.7 mm (Tropic)</Original>
+						<Chinese>Warfare-50 12.7 mm（熱帶）</Chinese>
+						<French>Warfare-50 12,7 mm (tropiques)</French>
+						<Spanish>Warfare-50 12,7 mm (tropical)</Spanish>
+						<Italian>Warfare-50 12,7 mm (tropicale)</Italian>
+						<Polish>Warfare-50 12,7 mm (tropik)</Polish>
+						<Russian>Warfare-50, 12,7 мм (тропики)</Russian>
+						<German>Warfare-50 12,7 mm (Tropen)</German>
+						<Czech>Warfare-50 12,7 mm (tropy)</Czech>
+						<English>Warfare-50 12.7 mm (Tropic)</English>
+						<Portuguese>Warfare-50 12.7 mm (tropical)</Portuguese>
+						<Korean>Warfare-50 12.7mm(열대)</Korean>
+						<Chinesesimp>Warfare-50 12.7 毫米（热带）</Chinesesimp>
+						<Japanese>Warfare-50 12.7 mm（熱帯）</Japanese>
+						<Turkish>Warfare-50 12.7 mm (Tropik)</Turkish>
 					</Key>
 				</Container>
 				<Container name="Library">
