@@ -26,8 +26,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_BLUFOR_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_BLUFOR_torn_CO.paa",
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_CO.paa"
 		};
 	};
@@ -43,8 +43,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_BLUFOR_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_BLUFOR_torn_CO.paa",
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_green_MLOD_CO.paa"
 		};
 	};
@@ -67,9 +67,9 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_BagBunker_Tower_OPFOR_F0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_CSAT_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_CSAT_torn_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_CSAT_CO.paa"
+			"\A3\Structures_F\Mil\Shelters\Data\CamoNet_OPFOR_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_OPFOR_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_OPFOR_MLOD_CO.paa"
 		};
 	};
 	class Land_BagBunker_Tower_INDP_F: Land_BagBunker_Tower_F
@@ -90,9 +90,9 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_BagBunker_Tower_INDP_F0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_AAF_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_AAF_torn_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_AAF_CO.paa"
+			"\A3\Structures_F\Mil\Shelters\Data\CamoNet_INDP_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_INDP_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_INDP_MLOD_CO.paa"
 		};
 	};
 	class Land_BagBunker_Tower_sand_F: Land_BagBunker_Tower_F
@@ -113,9 +113,9 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_Land_BagBunker_Tower_sand_F0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_desert_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_NATO_torn_desert_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_desert_CO.paa"
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_sand_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_sand_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_sand_MLOD_CO.paa"
 		};
 	};
 	class Land_HBarrier_01_tower_ghex_F: Land_HBarrier_01_tower_green_F
@@ -138,7 +138,7 @@ class CfgVehicles
 		{
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_ghex_CO.paa",
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_ghex_torn_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_green_MLOD_ghex_CO.paa"
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_ghex_MLOD_CO.paa"
 		};
 	};
 	class Land_BagBunker_Tower_wdl_F: Land_BagBunker_Tower_F
@@ -160,9 +160,33 @@ class CfgVehicles
 		editorCategory = EdCat_Structures_Enoch;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_EAF_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_EAF_torn_CO.paa",
-			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_EAF_CO.paa"
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_wdl_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_wdl_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_wdl_MLOD_CO.paa"
+		};
+	};
+	class Land_BagBunker_Tower_East_F: Land_BagBunker_Tower_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 2.21;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_BagBunker_Tower_East_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Land_BagBunker_Tower_East_F0;
+		editorCategory = EdCat_Structures_Enoch;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_East_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\CamoNet_East_torn_CO.paa",
+			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_East_MLOD_CO.paa"
 		};
 	};
 };
