@@ -399,6 +399,16 @@ class CfgSoundShaders
 		range = 5;
 		volume = db-7;
 	};
+	class WF50_Bolt_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\LongRangeRifles\WF50\WF50_bolt_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\LongRangeRifles\WF50\WF50_bolt_02",1}
+		};
+		range = 5;
+		volume = db0;
+	};
 	class WF50_closeShot_SoundShader
 	{
 		samples[] =
