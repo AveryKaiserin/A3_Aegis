@@ -117,7 +117,7 @@ class U_C_Uniform_Formal_01_striped_F: Uniform_Base
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
     displayName = $STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_striped_F0;
-    //picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_striped_F_CA.paa";
+    picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_striped_F_CA.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelections[] = {camo};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_striped_CO.paa"};
@@ -134,7 +134,7 @@ class U_C_Uniform_Formal_01_white_F: Uniform_Base
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
     displayName = $STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_white_F0;
-    //picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_white_F_CA.paa";
+    picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_white_F_CA.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelections[] = {camo};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_white_CO.paa"};
@@ -151,7 +151,7 @@ class U_C_Uniform_Formal_01_blue_F: Uniform_Base
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
     displayName = $STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_blue_F0;
-    //picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_blue_F_CA.paa";
+    picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_Uniform_Formal_01_blue_F_CA.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelections[] = {camo};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_blue_CO.paa"};

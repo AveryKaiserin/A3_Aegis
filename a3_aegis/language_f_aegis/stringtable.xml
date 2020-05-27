@@ -4378,22 +4378,73 @@
 					<Japanese>カジュアルな服（ラーキン）</Japanese>
 					<Turkish>Günlük Kıyafetler (Larkin)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_striped_F0">
+					<Original>Formal Suit (Checkered)</Original>
+					<Chinese>正式服（格子）</Chinese>
+					<French>Vêtements formels (vérif.)</French>
+					<Spanish>Ropa formal (a cuadros)</Spanish>
+					<Italian>Abbigliamento formale (a quadri)</Italian>
+					<Polish>Odzież formalnie (szachownica)</Polish>
+					<Russian>Костюм одежда (проверенный)</Russian>
+					<German>Formale Kleidung (kariert)</German>
+					<Czech>Formální oblečení (kostkovaný)</Czech>
+					<English>Formal Suit (Checkered)</English>
+					<Portuguese>Roupa formal (Quadriculada)</Portuguese>
+					<Korean>정장 복장(체크 무늬)</Korean>
+					<Chinesesimp>正式服（方格图）</Chinesesimp>
+					<Japanese>フォーマルルな服（チェッカー）</Japanese>
+					<Turkish>Resmi Kıyafetler (Damalı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_white_F0">
+					<Original>Formal Suit (White)</Original>
+					<Chinese>正式服（白）</Chinese>
+					<French>Vêtements formels (blanc)</French>
+					<Spanish>Ropa formal (blanco)</Spanish>
+					<Italian>Abbigliamento formale (bianco)</Italian>
+					<Polish>Odzież formalnie (biały)</Polish>
+					<Russian>Костюм одежда (белый)</Russian>
+					<German>Formale Kleidung (weiß)</German>
+					<Czech>Formální oblečení (bílý)</Czech>
+					<English>Formal Suit (White)</English>
+					<Portuguese>Roupa formal (branca)</Portuguese>
+					<Korean>정장 복장(백색)</Korean>
+					<Chinesesimp>正式服（白色）</Chinesesimp>
+					<Japanese>フォーマルルな服（白）</Japanese>
+					<Turkish>Resmi Kıyafetler (Beyaz)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_blue_F0">
+					<Original>Formal Suit (Blue)</Original>
+					<Chinese>正式服（藍色）</Chinese>
+					<French>Vêtements formels (bleu)</French>
+					<Spanish>Ropa formal (azul)</Spanish>
+					<Italian>Abbigliamento formale (blu)</Italian>
+					<Polish>Odzież formalnie (niebieski)</Polish>
+					<Russian>Костюм одежда (синий)</Russian>
+					<German>Formale Kleidung (blau)</German>
+					<Czech>Formální oblečení (modrý)</Czech>
+					<English>Formal Suit (Blue)</English>
+					<Portuguese>Roupa formal (azul)</Portuguese>
+					<Korean>정장 복장(청색)</Korean>
+					<Chinesesimp>正式服（蓝色）</Chinesesimp>
+					<Japanese>フォーマルルな服（青）</Japanese>
+					<Turkish>Resmi Kıyafetler (Mavi)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_BG_Guerilla1_30">
-					<Original>Guerilla Garment (Khaki)</Original>
-					<Chinese>游擊裝（卡其）</Chinese>
-					<French>Vêtements d'insurgé (kaki)</French>
-					<Spanish>Equipamiento de guerrilla (caqui)</Spanish>
-					<Italian>Indumenti da guerriglia (kaki)</Italian>
-					<Polish>Odzież partyzanta (khaki)</Polish>
-					<Russian>Партизанская одежда (хаки)</Russian>
-					<German>Guerillakleidung (Khaki)</German>
-					<Czech>Partyzánský oděv (khaki)</Czech>
-					<English>Guerilla Garment (Khaki)</English>
-					<Portuguese>Traje de guerrilheiro (cáqui)</Portuguese>
-					<Korean>게릴라 군복(카키)</Korean>
-					<Chinesesimp>游击队员服装（卡其色）</Chinesesimp>
-					<Japanese>ゲリラ兵の服装（カーキ）</Japanese>
-					<Turkish>Gerilla Giysisi (Haki)</Turkish>
+					<Original>Guerilla Garment (Camo)</Original>
+					<Chinese>游擊裝（迷彩型）</Chinese>
+					<French>Vêtements d'insurgé (Camo)</French>
+					<Spanish>Equipamiento de guerrilla (camuflaje)</Spanish>
+					<Italian>Indumenti da guerriglia (mimetico)</Italian>
+					<Polish>Odzież partyzanta (kamuflaż)</Polish>
+					<Russian>Партизанская одежда (камуфляж)</Russian>
+					<German>Guerillakleidung (Flecktarn)</German>
+					<Czech>Partyzánský oděv (kamufláž)</Czech>
+					<English>Guerilla Garment (Camo)</English>
+					<Portuguese>Traje de guerrilheiro (Camuflagem)</Portuguese>
+					<Korean>게릴라 군복(위장)</Korean>
+					<Chinesesimp>游击队员服装（迷彩）</Chinesesimp>
+					<Japanese>ゲリラ兵の服装（カモフラ）</Japanese>
+					<Turkish>Gerilla Giysisi (Kamuflaj)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_T_Pilot_F0">
 					<Original>Pilot Coveralls (Green Hex) [CSAT]</Original>
@@ -8494,6 +8545,162 @@
 					<Chinesesimp>Volume Beaker</Chinesesimp>
 					<Japanese>Volume Beaker</Japanese>
 					<Turkish>Volume Beaker</Turkish>
+				</Key>
+			</Container>
+			</Container>
+        	<Container name="Humanitarian">
+				<Key ID="STR_A3_A_CfgVehicles_Land_DeconTent_01_taiga_F0">
+					<Original>Decon Tent [Russia]</Original>
+					<Chinese>消毒帳篷（俄國）</Chinese>
+					<French>Tente de décontamination [Russie]</French>
+					<Spanish>Tienda de descontaminación [Rusia]</Spanish>
+					<Italian>Tenda di decontaminazione [Russia]</Italian>
+					<Polish>Namiot dekontaminacyjny [Rosja]</Polish>
+					<Russian>Палатка с дегазирующим душем [Россия]</Russian>
+					<German>Dekontaminationszelt [Russland]</German>
+					<Czech>Dekontaminační stan [Rusko]</Czech>
+					<English>Decon Tent [Russia]</English>
+					<Portuguese>Tenda de descontaminação [Rússia]</Portuguese>
+					<Korean>오염제거 텐트 [러시아]</Korean>
+					<Chinesesimp>净化帐篷 [俄国]</Chinesesimp>
+					<Japanese>除染テント [ロシア]</Japanese>
+					<Turkish>Temizleme Çadırı [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_ConnectorTent_01_taiga_open_F0">
+					<Original>Connector Tent (Open) [Russia]</Original>
+					<Chinese>相連帳篷（開）（俄國）</Chinese>
+					<French>Tente de jonction (ouverte) [Russie]</French>
+					<Spanish>Tienda conectora (abierta) [Rusia]</Spanish>
+					<Italian>Tenda di collegamento (aperta) [Russia]</Italian>
+					<Polish>Namiot łącznikowy (otwarty) [Rosja]</Polish>
+					<Russian>Соединяющая палатка (открытая) [Россия]</Russian>
+					<German>Verbindungszelt (offen) [Russland]</German>
+					<Czech>Propojovací stan (otevřený) [Rusko]</Czech>
+					<English>Connector Tent (Open) [Russia]</English>
+					<Portuguese>Tenda conectora (aberta) [Rússia]</Portuguese>
+					<Korean>연결 텐트 (열림) [러시아]</Korean>
+					<Chinesesimp>连接器帐篷（打开）[俄国]</Chinesesimp>
+					<Japanese>連結テント（開）[ロシア]</Japanese>
+					<Turkish>Bağlantı Çadırı (Açık) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_ConnectorTent_01_taiga_closed_F0">
+					<Original>Connector Tent (Closed) [Russia]</Original>
+					<Chinese>相連帳篷（關）（俄國）</Chinese>
+					<French>Tente de jonction (fermée) [Russie]</French>
+					<Spanish>Tienda conectora (cerrada) [Rusia]</Spanish>
+					<Italian>Tenda di collegamento (chiusa) [Russia]</Italian>
+					<Polish>Namiot łącznikowy (zamknięty) [Rosja]</Polish>
+					<Russian>Соединяющая палатка (закрытая) [Россия]</Russian>
+					<German>Verbindungszelt (geschlossen) [Russland]</German>
+					<Czech>Propojovací stan (zavřený) [Rusko]</Czech>
+					<English>Connector Tent (Closed) [Russia]</English>
+					<Portuguese>Tenda conectora (fechada) [Rússia]</Portuguese>
+					<Korean>연결 텐트 (닫힘) [러시아]</Korean>
+					<Chinesesimp>连接器帐篷（收合）[俄国]</Chinesesimp>
+					<Japanese>連結テント（閉）[ロシア]</Japanese>
+					<Turkish>Bağlantı Çadırı (Kapalı) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_ConnectorTent_01_taiga_cross_F0">
+					<Original>Connector Tent (Cross) [Russia]</Original>
+					<Chinese>相連帳篷（交叉）（俄國）</Chinese>
+					<French>Tente de jonction (croisement) [Russie]</French>
+					<Spanish>Tienda conectora (cruz) [Rusia]</Spanish>
+					<Italian>Tenda di collegamento (croce) [Russia]</Italian>
+					<Polish>Namiot łącznikowy (krzyż) [Rosja]</Polish>
+					<Russian>Соединяющая палатка (перекресток) [Россия]</Russian>
+					<German>Verbindungszelt (überkreuz) [Russland]</German>
+					<Czech>Propojovací stan (křížový) [Rusko]</Czech>
+					<English>Connector Tent (Cross) [Russia]</English>
+					<Portuguese>Tenda do Conector (cruz) [Rússia]</Portuguese>
+					<Korean>연결 텐트 (십자) [러시아]</Korean>
+					<Chinesesimp>连接器帐篷（交叉）[俄国]</Chinesesimp>
+					<Japanese>連結テント（十字）[ロシア]</Japanese>
+					<Turkish>Bağlantı Çadırı (Çapraz) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_MedicalTent_01_taiga_closed_F0">
+					<Original>Medical Tent [Russia]</Original>
+					<Chinese>醫療用帳篷（俄國）</Chinese>
+					<French>Tente médicale [Russie]</French>
+					<Spanish>Tienda de campaña médica [Rusia]</Spanish>
+					<Italian>Tenda medica [Russia]</Italian>
+					<Polish>Namiot medyczny [Rosja]</Polish>
+					<Russian>Медицинская палатка [Россия]</Russian>
+					<German>Sanitätszelt [Russland]</German>
+					<Czech>Zdravotnický stan [Rusko]</Czech>
+					<English>Medical Tent [Russia]</English>
+					<Portuguese>Barraca médica [Rússia]</Portuguese>
+					<Korean>구호 천막 [러시아]</Korean>
+					<Chinesesimp>医疗帐篷[俄国]</Chinesesimp>
+					<Japanese>医療テント [ロシア]</Japanese>
+					<Turkish>Sıhhiye Çadırı [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_MedicalTent_01_taiga_generic_inner_F0">
+					<Original>Tent (Field, Inner) [Russia]</Original>
+					<Chinese>帳篷（野戰，內部）（俄國）</Chinese>
+					<French>Tente (terrain, intérieur) [Russie]</French>
+					<Spanish>Tienda (campo, interior) [Rusia]</Spanish>
+					<Italian>Tenda (da campo, interna) [Russia]</Italian>
+					<Polish>Namiot (polowy, wewn.) [Rosja]</Polish>
+					<Russian>Палатка (полевая, внутренняя) [Россия]</Russian>
+					<German>Zelt (Feld, innen) [Russland]</German>
+					<Czech>Stan (polní, vnitřní) [Rusko]</Czech>
+					<English>Tent (Field, Inner) [Russia]</English>
+					<Portuguese>Tenda (campo, interior) [Rússia]</Portuguese>
+					<Korean>텐트 (야전, 내부) [러시아]</Korean>
+					<Chinesesimp>帐篷（野战，内帐）[俄国]</Chinesesimp>
+					<Japanese>テント（フィールド、内部）[ロシア]</Japanese>
+					<Turkish>Çadır (Saha, İç) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_MedicalTent_01_taiga_generic_closed_F0">
+					<Original>Tent (Field, Closed) [Russia]</Original>
+					<Chinese>帳篷（野戰，關）（俄國）</Chinese>
+					<French>Tente (terrain, fermée) [Russie]</French>
+					<Spanish>Tienda (campo, cerrada) [Rusia]</Spanish>
+					<Italian>Tenda (da campo, chiusa) [Russia]</Italian>
+					<Polish>Namiot (polowy, zamknięty) [Rosja]</Polish>
+					<Russian>Палатка (полевая, закрытая) [Россия]</Russian>
+					<German>Zelt (Feld, geschlossen) [Russland]</German>
+					<Czech>Stan (polní, zavřený) [Rusko]</Czech>
+					<English>Tent (Field, Closed) [Russia]</English>
+					<Portuguese>Tenda (campo, fechada) [Rússia]</Portuguese>
+					<Korean>텐트 (야전, 닫힘) [러시아]</Korean>
+					<Chinesesimp>帐篷（野战，收合）[俄国]</Chinesesimp>
+					<Japanese>テント（フィールド、閉）[ロシア]</Japanese>
+					<Turkish>Çadır (Saha, Kapalı) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_MedicalTent_01_taiga_generic_open_F0">
+					<Original>Tent (Field, Open) [Russia]</Original>
+					<Chinese>帳篷（野戰，開）（俄國）</Chinese>
+					<French>Tente (terrain, ouverte) [Russie]</French>
+					<Spanish>Tienda (campo, abierta) [Rusia]</Spanish>
+					<Italian>Tenda (da campo, aperta) [Russia]</Italian>
+					<Polish>Namiot (polowy, otwarty) [Rosja]</Polish>
+					<Russian>Палатка (полевая, открытая) [Россия]</Russian>
+					<German>Zelt (Feld, offen) [Russland]</German>
+					<Czech>Stan (polní, otevřený) [Rusko]</Czech>
+					<English>Tent (Field, Open) [Russia]</English>
+					<Portuguese>Tenda (campo, aberta) [Rússia]</Portuguese>
+					<Korean>텐트 (야전, 열림) [러시아]</Korean>
+					<Chinesesimp>帐篷（野战，打开）[俄国]</Chinesesimp>
+					<Japanese>テント（フィールド、開）[ロシア]</Japanese>
+					<Turkish>Çadır (Saha, Açık) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_MedicalTent_01_taiga_generic_outer_F0">
+					<Original>Tent (Field, Outer) [Russia]</Original>
+					<Chinese>帳篷（野戰，外圍）（俄國）</Chinese>
+					<French>Tente (terrain, extérieur) [Russie]</French>
+					<Spanish>Tienda (campo, exterior) [Rusia]</Spanish>
+					<Italian>Tenda (da campo, esterna) [Russia]</Italian>
+					<Polish>Namiot (polowy, zewn.) [Rosja]</Polish>
+					<Russian>Палатка (полевая, наружная) [Россия]</Russian>
+					<German>Zelt (Feld, außen) [Russland]</German>
+					<Czech>Stan (polní, vnější) [Rusko]</Czech>
+					<English>Tent (Field, Outer) [Russia]</English>
+					<Portuguese>Tenda (campo, exterior) [Rússia]</Portuguese>
+					<Korean>텐트 (야전, 외부) [러시아]</Korean>
+					<Chinesesimp>帐篷（野战，外帐）[俄国]</Chinesesimp>
+					<Japanese>テント（フィールド、外部）[ロシア]</Japanese>
+					<Turkish>Çadır (Saha, Dış) [Rusya]</Turkish>
 				</Key>
 			</Container>
         	<Container name="Military">
@@ -14054,21 +14261,21 @@
 						<Turkish>**TO TRANSLATE**</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_sgun_M4_F_Library0">
-						<Original>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Original>
-						<Chinese>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Chinese>
-						<French>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</French>
-						<Spanish>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Spanish>
-						<Italian>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Italian>
-						<Polish>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Polish>
-						<Russian>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Russian>
-						<German>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</German>
-						<Czech>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Czech>
-						<English>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</English>
-						<Portuguese>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Portuguese>
-						<Korean>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Korean>
-						<Chinesesimp>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Chinesesimp>
-						<Japanese>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Japanese>
-						<Turkish>The M4 SSAS is manufactured in Italy. It is a 12 gauge semi-automatic combat shotgun designed for CQC environments. The M4 SSAS fires 2.75 or 3 inch shells with about 50 m effective range.</Turkish>
+						<Original>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Original>
+						<Chinese>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Chinese>
+						<French>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</French>
+						<Spanish>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Spanish>
+						<Italian>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Italian>
+						<Polish>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Polish>
+						<Russian>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Russian>
+						<German>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</German>
+						<Czech>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Czech>
+						<English>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</English>
+						<Portuguese>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Portuguese>
+						<Korean>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Korean>
+						<Chinesesimp>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Chinesesimp>
+						<Japanese>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Japanese>
+						<Turkish>The M4 Squad Semi-Automatic Shotgun (SSAS) is a gas-operated, rotating bolt, semi-automatic 12 gauge shotgun produced in Italy. The M4 is capable of mounting a variety of accessories thanks to its modular design. It has seen widespread adoption throughout the globe, particularly with police, special forces units, and standard military forces alike.</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_sgun_Mp153_black_F_Library0">
 						<Original>**TO TRANSLATE**</Original>

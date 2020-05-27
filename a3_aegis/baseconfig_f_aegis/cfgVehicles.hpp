@@ -444,7 +444,6 @@ class CfgVehicles
     COMPATIBILITYCLASS(I_soldier_EOD_F,I_Soldier_F)
     COMPATIBILITYCLASS(I_soldier_JTAC_F,I_Soldier_F)
     class O_A_soldier_F;
-    COMPATIBILITYCLASS(O_A_engineer_F,O_A_soldier_F)
     COMPATIBILITYCLASS(O_A_soldier_AAA_F,O_A_soldier_F)
     COMPATIBILITYCLASS(O_A_soldier_AAR_F,O_A_soldier_F)
     COMPATIBILITYCLASS(O_A_soldier_AAT_F,O_A_soldier_F)

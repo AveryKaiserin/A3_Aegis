@@ -19,39 +19,39 @@ class O_W_Soldier_A_F: O_Soldier_A_F
 	backpack = B_Carryall_ghex_OWAmmo_F;
 	weapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
+		arifle_TRG21_aco_FL_f,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
+		arifle_TRG21_aco_FL_f,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_12(30Rnd_65x39_caseless_green),
+		mag_12(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_12(30Rnd_65x39_caseless_green),
+		mag_12(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -101,13 +101,13 @@ class O_W_Soldier_AR_F: O_Soldier_AR_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -132,19 +132,19 @@ class O_W_Medic_F: O_medic_F
 	backpack = B_FieldPack_ghex_OTMedic_F;
 	weapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
+		arifle_TRG21_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
+		arifle_TRG21_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -154,7 +154,7 @@ class O_W_Medic_F: O_medic_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -164,14 +164,14 @@ class O_W_Medic_F: O_medic_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 };
@@ -251,19 +251,19 @@ class O_W_Engineer_F: O_engineer_F
 	backpack = B_Carryall_ghex_OTEng_F;
 	weapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -273,7 +273,7 @@ class O_W_Engineer_F: O_engineer_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -283,13 +283,13 @@ class O_W_Engineer_F: O_engineer_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -313,19 +313,19 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	weapons[] =
 	{
-		arifle_Katiba_GL_aco_FL_f,
+		arifle_TRG21_GL_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_GL_aco_FL_f,
+		arifle_TRG21_GL_aco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -334,7 +334,7 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -343,13 +343,13 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -372,24 +372,24 @@ class O_W_Helicrew_F: O_helicrew_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	weapons[] =
 	{
-		arifle_Katiba_C_F,
+		arifle_TRG20_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_C_F,
+		arifle_TRG20_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
+		mag_4(30Rnd_556x45_Stanag_green),
 		SmokeShellRed,
 		SmokeShellOrange,
 		SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
+		mag_4(30Rnd_556x45_Stanag_green),
 		SmokeShellRed,
 		SmokeShellOrange,
 		SmokeShellYellow
@@ -511,14 +511,14 @@ class O_W_soldier_M_F: O_soldier_M_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 };
@@ -542,21 +542,21 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 	backpack = B_FieldPack_ghex_OTAA_F;
 	weapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		launch_O_Titan_ghex_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		launch_O_Titan_ghex_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -564,7 +564,7 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -572,13 +572,13 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -603,21 +603,21 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 	backpack = B_FieldPack_ghex_OTAT_F;
 	weapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		launch_O_Titan_short_ghex_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_C_aco_FL_f,
+		arifle_TRG20_aco_FL_f,
 		launch_O_Titan_short_ghex_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -625,7 +625,7 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -633,14 +633,14 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 };
@@ -723,39 +723,39 @@ class O_W_Soldier_F: O_Soldier_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	weapons[] =
 	{
-		arifle_Katiba_arco_FL_f,
+		arifle_TRG21_arco_FL_f,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_arco_FL_f,
+		arifle_TRG21_arco_FL_f,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_green),
+		mag_10(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_green),
+		mag_10(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -780,21 +780,21 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 	backpack = B_FieldPack_ghex_OTLAT_F;
 	weapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
-		launch_RPG32_ghex_F,
+		arifle_TRG21_aco_FL_f,
+		launch_RPG32_green_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_aco_FL_f,
-		launch_RPG32_ghex_F,
+		arifle_TRG21_aco_FL_f,
+		launch_RPG32_green_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
 		RPG32_F,
         mag_2(HandGrenade),
@@ -802,7 +802,7 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_green),
+		mag_6(30Rnd_556x45_Stanag_green),
 		mag_2(10Rnd_9x21_Mag),
 		RPG32_F,
         mag_2(HandGrenade),
@@ -810,14 +810,14 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_TacVest_oli,
+		H_HelmetAggressor_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 };
@@ -840,22 +840,22 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	weapons[] =
 	{
-		arifle_Katiba_GL_arco_FL_f,
+		arifle_TRG21_GL_arco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_GL_arco_FL_f,
+		arifle_TRG21_GL_arco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
-		mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
+		mag_4(30Rnd_556x45_Stanag_green),
+		mag_2(30Rnd_556x45_Stanag_Tracer_Green),
 		mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -870,8 +870,8 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
-		mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
+		mag_4(30Rnd_556x45_Stanag_green),
+		mag_2(30Rnd_556x45_Stanag_Tracer_Green),
 		mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -886,13 +886,13 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_radio_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_radio_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -916,22 +916,22 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	weapons[] =
 	{
-		arifle_Katiba_GL_arco_FL_f,
+		arifle_TRG21_GL_arco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_Katiba_GL_arco_FL_f,
+		arifle_TRG21_GL_arco_FL_f,
 		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
-		mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
+		mag_4(30Rnd_556x45_Stanag_green),
+		mag_2(30Rnd_556x45_Stanag_Tracer_Green),
 		mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -946,8 +946,8 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_green),
-		mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
+		mag_4(30Rnd_556x45_Stanag_green),
+		mag_2(30Rnd_556x45_Stanag_Tracer_Green),
 		mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -962,13 +962,13 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	};
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_radio_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_radio_khaki_F,
 		DefaultManLinkedItems
 	};
@@ -982,39 +982,39 @@ class O_W_RadioOperator_F: O_W_Soldier_F
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_cover_ghex_F,
+		H_HelmetAggressor_F,
 		V_SmershVest_01_khaki_F,
 		DefaultManLinkedItems
 	};
 	backpack = B_RadioBag_01_ghex_F;
 	weapons[] =
     {
-        arifle_Katiba_aco_FL_f,
+        arifle_TRG21_aco_FL_f,
         hgun_Pistol_01_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Katiba_aco_FL_f,
+        arifle_TRG21_aco_FL_f,
         hgun_Pistol_01_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_green),
+        mag_10(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_green),
+        mag_10(30Rnd_556x45_Stanag_green),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1041,29 +1041,6 @@ class O_W_Soldier_universal_F: O_W_Soldier_F
 	engineer = true;
 	canDeactivateMines = true;
 	role = Rifleman;
-};
-class O_W_Soldier_unarmed_F: O_W_Soldier_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
-	weapons[] = {DefaultManWeapons};
-	respawnWeapons[] = {DefaultManWeapons};
-	magazines[] = {};
-	respawnMagazines[] = {};
-	linkedItems[] =
-	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_SmershVest_01_khaki_F,
-		DefaultManLinkedItems
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetAggressor_cover_ghex_F,
-		V_SmershVest_01_khaki_F,
-		DefaultManLinkedItems
-	};
-	role = Unarmed;
-	threat[] = {0.1,0.1,0.1};
 };
 class O_W_Fighter_Pilot_F: O_W_Helipilot_F
 {

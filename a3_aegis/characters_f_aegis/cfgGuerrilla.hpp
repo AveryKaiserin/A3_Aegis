@@ -38,11 +38,6 @@ class I_G_Soldier_F: I_G_Soldier_base_F
         camo2,
         camo3
     };
-    hiddenSelectionsTextures[] =
-    {
-        "A3\Characters_F\Civil\Data\C_Cloth1_kabeiroi_CO.paa",
-        "A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
-    };
     allowedHeadgear[] =
     {
         H_Bandanna_gry,
@@ -160,6 +155,11 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
         camo1,
         camo2,
         camo3
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F\Civil\Data\C_Cloth1_kabeiroi_CO.paa",
+        "\A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
     };
 	uniformClass = U_IG_Guerilla1_3;
 	magazines[] =
