@@ -1640,40 +1640,6 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\UI\icon_srifle_DMR_01_black_F_X_CA.paa";
 	};
-	class srifle_DMR_01_arid_F: srifle_DMR_01_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = srifle_DMR_01_arid_F;
-		displayName = $STR_A3_A_CfgWeapons_srifle_DMR_01_arid_F0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_camo_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_camo_CO.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_camo.rvmat",
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_camo.rvmat"
-		};
-		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\UI\icon_srifle_DMR_01_arid_F_X_CA.paa";
-	};
-	class srifle_DMR_01_lush_F: srifle_DMR_01_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = srifle_DMR_01_lush_F;
-		displayName = $STR_A3_A_CfgWeapons_srifle_DMR_01_lush_F0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_khaki_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_khaki_CO.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_khaki.rvmat",
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_khaki.rvmat"
-		};
-		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\UI\icon_srifle_DMR_01_lush_F_X_CA.paa";
-	};
 	class srifle_DMR_01_DMS_LP_BI_F: srifle_DMR_01_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1723,7 +1689,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class srifle_DMR_01_black_DMS_LP_BI_F: srifle_DMR_01_black_F
+	class srifle_DMR_01_black_ARCO_BI_F: srifle_DMR_01_black_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class LinkedItems
@@ -1731,12 +1697,7 @@ class CfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
+				item = optic_Arco_ghex_F;
 			};
 			class LinkedItemsUnder
 			{
@@ -2551,6 +2512,91 @@ class CfgWeapons
 			"\A3\Weapons_F\Data\GL_holo_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\UI\icon_arifle_TRG21_GL_black_F_X_CA.paa";
+	};
+	class arifle_TRG21_aco_FL_f: arifle_TRG21_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_ACO_grn;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_flashlight;
+			};
+		};
+	};
+	class arifle_TRG21_arco_FL_f: arifle_TRG21_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_Arco_ghex_F;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_flashlight;
+			};
+		};
+	};
+	class arifle_TRG20_aco_FL_f: arifle_TRG20_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_ACO_grn;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_flashlight;
+			};
+		};
+	};
+	class arifle_TRG21_GL_aco_FL_f: arifle_TRG21_GL_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_ACO_grn;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_flashlight;
+			};
+		};
+	};
+	class arifle_TRG21_GL_arco_FL_f: arifle_TRG21_GL_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = CowsSlot;
+				item = optic_Arco_ghex_F;
+			};
+			class LinkedItemsAcc
+			{
+				slot = PointerSlot;
+				item = acc_flashlight;
+			};
+		};
 	};
 	class arifle_AK12_arco_pointer_F: arifle_AK12_F
 	{

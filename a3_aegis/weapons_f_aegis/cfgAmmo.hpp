@@ -57,6 +57,12 @@ class CfgAmmo
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 	};
 	// Arma 3 Enoch
+	class B_12Gauge_Pellets_Submunition;
+	class B_12Gauge_Pellets_Submunition_Cartridge: B_12Gauge_Pellets_Submunition
+	{
+		cartridge = FxCartridge_pellets;
+	};
+	// Arma 3 Contact
 	class B_25x40mm_base: B_19mm_HE
 	{
 		simulationStep = 0.001;

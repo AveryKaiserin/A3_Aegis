@@ -94,11 +94,16 @@
 class CfgVehicles
 {
 	class FxCartridge;
+	class FxCartridge_pellets: FxCartridge
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mapSize = 0.07;
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\cartridge_pellets.p3d";
+	};
 	class FxCartridge_25x40: FxCartridge
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 0.1;
-		_generalMacro = FxCartridge_25x40;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\cartridge_25x40.p3d";
 	};
 	// Weapon holders
