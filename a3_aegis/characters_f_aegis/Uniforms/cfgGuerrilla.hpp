@@ -1,16 +1,4 @@
 // Arma 3
-class U_IG_Guerilla1_1: Uniform_Base
-{
-	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
-};
-class U_BG_Guerilla1_1: Uniform_Base
-{
-	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_Guerrilla1_1_CA.paa";
-};
-class U_OG_Guerilla1_1: Uniform_Base
-{
-	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
-};
 class U_IG_Guerilla3_2: Uniform_Base
 {
 	displayName = $STR_A3_A_CfgWeapons_U_IG_Guerilla3_20;
@@ -76,10 +64,10 @@ class U_BG_Guerilla1_3: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_BG_Guerilla1_30;
-	picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_U_G_Guerrilla1_1_CA.paa";
+	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3\Characters_F_Bootcamp\Guerrilla\Data\C_cloth1_kabeiroi_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\C_cloth1_kabeiroi_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
@@ -93,10 +81,10 @@ class U_IG_Guerilla1_3: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	displayName = $STR_A3_A_CfgWeapons_U_BG_Guerilla1_30;
-	picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_U_G_Guerrilla1_1_CA.paa";
+	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
@@ -110,10 +98,10 @@ class U_OG_Guerilla1_3: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	displayName = $STR_A3_A_CfgWeapons_U_BG_Guerilla1_30;
-	picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
+	picture = "\A3\Characters_F_Gamma\Guerrilla\Data\UI\icon_U_G_guerrilla1_1_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
