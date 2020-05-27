@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="a3_aegis\weapons_f_aegis\shotguns\m4_ssas\data\m4_ssas_ti_ca.tga";
 };
-ambient[]={0.5,0.5,0.5,1};
-diffuse[]={0.5,0.5,0.5,1};
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={1,1,1,1};
-specularPower=100;
+specular[]={0.22,0.22,0.22,1};
+specularPower=42;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture="a3_aegis\weapons_f_aegis\shotguns\m4_ssas\data\m4_ssas_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -72,7 +72,7 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,32,128,1)fresnel(5.75,1.85)";
+	texture="#(ai,64,64,1)fresnel(5.37,2.69)";
 	uvSource="tex";
 	class uvTransform
 	{

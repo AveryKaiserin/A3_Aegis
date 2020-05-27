@@ -2,20 +2,9 @@
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
 class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
 class SlotInfo;
-class MuzzleSlot;
-class CowsSlot;
 class PointerSlot;
-class UnderBarrelSlot;
-class MuzzleSlot_556;
-class MuzzleSlot_65;
-class MuzzleSlot_762;
-class MuzzleSlot_MG;
 class CowsSlot_Rail;
-class PointerSlot_Rail;
-class UnderBarrelSlot_rail;
 class CfgWeapons
 {
 	class Rifle;
@@ -25,11 +14,9 @@ class CfgWeapons
 		class GunParticles;
 	};
 	class UGL_F;
-
-	// arsenal weapons
 	class sgun_M4_F: Rifle_Base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Tigg;
 		baseWeapon = sgun_M4_F;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_sgun_M4_F0;
@@ -50,35 +37,51 @@ class CfgWeapons
 			class MuzzleSlot{};
 			class CowsSlot: CowsSlot_Rail
 			{
-				iconPosition[] = {0.5,0.3};
+				iconPosition[] =
+				{
+					0.285, // X
+					0.344 // Y
+				};
 				iconScale = 0.2;
 			};
-			class PointerSlot{};
-			mass = 110;
+			class PointerSlot: PointerSlot
+			{
+				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
+				compatibleItems[] = {acc_flashlight_pistol};
+				iconPosition[] =
+				{
+					0.285, // X
+					0.344 // Y
+				};
+				iconScale = 0.2;
+			};
+			mass = 100;
 		};
 		inertia = 0.6;
-		aimTransitionSpeed = 1;
+		aimTransitionSpeed = 1.1;
 		dexterity = 1.3;
-		initSpeed = 381;
+		initSpeed = -1;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\M4_SSAS\Data\UI\icon_sgun_M4_F_X_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
 		descriptionShort = $STR_A3_A_CfgWeapons_sgun_M4_F1;
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Shotguns\M4_SSAS\Data\M4_SSAS_CO.paa"};
 		class Library
 		{
 			libTextDesc = $STR_A3_A_CfgWeapons_sgun_M4_F_Library0;
 		};
-		bullet1[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_01",db-6,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_02",db-6,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_03",db-6,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_04",db-6,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_01",db-8,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_02",db-8,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_03",db-8,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_04",db-8,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_01",db-8,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_02",db-8,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_03",db-8,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_04",db-8,1,15};
+		bullet1[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_01",db-4,1,15};
+		bullet2[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_02",db-4,1,15};
+		bullet3[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_03",db-4,1,15};
+		bullet4[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_04",db-4,1,15};
+		bullet5[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_01",db-6,1,15};
+		bullet6[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_02",db-6,1,15};
+		bullet7[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_03",db-6,1,15};
+		bullet8[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_04",db-6,1,15};
+		bullet9[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_01",db-6,1,15};
+		bullet10[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_02",db-6,1,15};
+		bullet11[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_03",db-6,1,15};
+		bullet12[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_04",db-6,1,15};
 		soundBullet[] =
 		{
 			bullet1,1/12,
@@ -110,11 +113,10 @@ class CfgWeapons
 			maxRangeProbab = 0.05;
 		};
 	};
-
-	// unit weapons
+	// M4 SSAS 12G + ACO SMG (Red)
 	class sgun_M4_Holo_F: sgun_M4_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Tigg;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -124,9 +126,10 @@ class CfgWeapons
 			};
 		};
 	};
+	// M4 SSAS 12G + ACO SMG (Green)
 	class sgun_M4_ACO_F: sgun_M4_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Tigg;
 		class LinkedItems
 		{
 			class LinkedItemsOptic

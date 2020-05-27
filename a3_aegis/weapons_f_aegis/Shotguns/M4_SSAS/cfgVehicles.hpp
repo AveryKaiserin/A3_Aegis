@@ -4,7 +4,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_A3_A_AveryTheKitty; \
+		author = $STR_A3_A_AveryTheKitty_and_Tigg; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = ##c##; \
 		vehicleClass = WeaponsPrimary; \
@@ -20,7 +20,6 @@
 
 class CfgVehicles
 {
-	// editor weapons
 	class Weapon_Base_F;
 	WEAPON_HOLDER(sgun_M4_F,$STR_A3_A_CfgWeapons_sgun_M4_F0,EdSubcat_Shotguns,8Rnd_12Gauge_Pellets)
 };
