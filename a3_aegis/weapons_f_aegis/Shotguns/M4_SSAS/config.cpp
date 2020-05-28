@@ -39,10 +39,10 @@ class CfgWeapons
 			{
 				iconPosition[] =
 				{
-					0.285, // X
-					0.344 // Y
+					0.486, // X
+					0.277 // Y
 				};
-				iconScale = 0.2;
+				iconScale = 0.15;
 			};
 			class PointerSlot: PointerSlot
 			{
@@ -50,10 +50,10 @@ class CfgWeapons
 				compatibleItems[] = {acc_flashlight_pistol};
 				iconPosition[] =
 				{
-					0.285, // X
-					0.344 // Y
+					0.088, // X
+					0.516 // Y
 				};
-				iconScale = 0.2;
+				iconScale = 0.15;
 			};
 			mass = 100;
 		};
