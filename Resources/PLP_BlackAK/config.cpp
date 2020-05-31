@@ -130,6 +130,17 @@ class CfgWeapons
 		};
 		
 	};
+	class hgun_Pistol_01_F;
+	class hgun_Pistol_01_gold_F: hgun_Pistol_01_F
+	{
+		baseWeapon="hgun_Pistol_01_gold_F";
+		displayName = "PM (Gold)";
+		
+		hiddenSelectionsTextures[] = {"PLP_BlackAK\pmm_gold_co.paa"};
+		
+		hiddenSelectionsMaterials[] = {"PLP_BlackAK\pmm_gold.rvmat"};
+		
+	};
 };
 
 class CfgMagazines
