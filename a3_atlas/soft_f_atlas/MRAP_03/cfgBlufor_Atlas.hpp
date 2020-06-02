@@ -8,15 +8,11 @@ class B_E_MRAP_03_F: MRAP_03_base_F
 	faction = BLU_E_F;
 	crew = B_E_Soldier_F;
 	typicalCargo[] = {B_E_Soldier_F};
-	textureList[] =
-	{
-		Blufor,0,
-		Olive,1
-	};
+	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -50,15 +46,11 @@ class B_E_MRAP_03_hmg_F: MRAP_03_hmg_base_F
 	faction = BLU_E_F;
 	crew = B_E_Soldier_F;
 	typicalCargo[] = {B_E_Soldier_F};
-	textureList[] =
-	{
-		Blufor,0,
-		Olive,1
-	};
+	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
 	};
 	class Turrets: Turrets
 	{
@@ -100,15 +92,11 @@ class B_E_MRAP_03_gmg_F: MRAP_03_gmg_base_F
 	faction = BLU_E_F;
 	crew = B_E_Soldier_F;
 	typicalCargo[] = {B_E_Soldier_F};
-	textureList[] =
-	{
-		Blufor,0,
-		Olive,1
-	};
+	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{

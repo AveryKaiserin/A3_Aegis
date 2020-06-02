@@ -25,19 +25,22 @@ class CfgVehicles
 		{
 			class Blufor
 			{
-				factions[] =
-				{
-					BLU_A_F,
-					BLU_E_F
-				};
+				factions[] += {BLU_E_F};
 			};
 			class Olive
 			{
-				factions[] =
+				factions[] += {BLU_E_F};
+			};
+			class Woodland
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
 				{
-					BLU_A_F,
-					BLU_E_F
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
+					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
 				};
+				factions[] = {BLU_E_F};
 			};
 		};
 	};
