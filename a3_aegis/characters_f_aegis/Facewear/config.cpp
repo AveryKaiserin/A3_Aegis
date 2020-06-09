@@ -972,7 +972,7 @@ class CfgGlasses
 		model = "\A3\Characters_F_EPB\Heads\Glasses\G_O_Diving.p3d";
 		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_G_RU_Diving_CA.paa";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_RU_Diving_CA.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Diving_RUgry_CA.paa"};
 		identityTypes[] =
 		{
 			G_RUS_diver,1000,
