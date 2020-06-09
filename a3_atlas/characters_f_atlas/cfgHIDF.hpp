@@ -29,6 +29,12 @@ class B_HIDF_CombatFatigues_01_jungle_F: I_E_Uniform_01_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Officer_F.rvmat",
+		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves.rvmat"
+	};
 };
 class B_HIDF_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_F
 {
@@ -45,6 +51,11 @@ class B_HIDF_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_01_CO.paa",
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Officer_F.rvmat",
+		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
+	};
 };
 class B_HIDF_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 {
@@ -60,8 +71,7 @@ class B_HIDF_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_1_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa"
 	};
 	class Wounds
 	{
