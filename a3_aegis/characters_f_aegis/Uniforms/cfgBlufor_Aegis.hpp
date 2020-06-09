@@ -203,3 +203,20 @@ class U_B_UBACS_vest_blk_f: Uniform_Base
 		mass = 40;
 	};
 };
+class U_B_A_CBRN_Suit_01_MTP_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_MTP_F0;
+	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_B_A_CBRN_Suit_01_MTP_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_MTP_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = B_A_CBRN_Man_Oversuit_01_MTP_F;
+		containerClass = Supply30;
+		mass = 45;
+	};
+};

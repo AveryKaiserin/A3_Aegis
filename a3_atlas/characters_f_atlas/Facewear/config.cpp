@@ -48,6 +48,7 @@ class CfgGlasses
 			G_IRAN_officer,500
 		};
 	};
+	class G_Diving;
 	class G_Shades_Black: None
 	{
 		identityTypes[] =
@@ -461,6 +462,21 @@ class CfgGlasses
 			G_T_NATO_SF,25,
 			G_W_NATO_SF,25,
 			G_CTRG_SF,25
+		};
+	};
+	// Arma 3 Atlas
+	class G_B_ANZAC_Diving: G_Diving
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "Diving Goggles [ADF]";
+		model = "\A3\Characters_F_EPB\Heads\Glasses\G_B_Diving.p3d";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_B_ANZAC_Diving_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Facewear\Data\G_Diving_aucamo_CA.paa"};
+		identityTypes[] =
+		{
+			G_ADF_diver,1000,
+			NoGlasses,0
 		};
 	};
 };

@@ -142,6 +142,8 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_C_Uniform_Formal_01_striped_F,STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_striped_F0)
 	UNIFORM_HOLDER(U_C_Uniform_Formal_01_white_F,STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_white_F0)
 	UNIFORM_HOLDER(U_C_Uniform_Formal_01_blue_F,STR_A3_A_CfgWeapons_U_C_Uniform_Formal_01_blue_F0)
+	UNIFORM_HOLDER(U_C_CBRN_Suit_01_Black_F,$STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Black_F0)
+	UNIFORM_HOLDER(U_C_CBRN_Suit_01_Yellow_F,$STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0)
 	// FIA
 	UNIFORM_HOLDER(U_BG_Guerilla1_3,$STR_A3_A_CfgWeapons_U_BG_Guerilla1_30)
 	UNIFORM_HOLDER(U_BG_GhillieSuit,$STR_A3_Ghillie_suit_guerilla)
@@ -187,6 +189,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_UBACS_blk_f,$STR_A3_A_CfgWeapons_U_B_UBACS_blk_f0)
 	UNIFORM_HOLDER(U_B_UBACS_tshirt_blk_f,$STR_A3_A_CfgWeapons_U_B_UBACS_tshirt_blk_f0)
 	UNIFORM_HOLDER(U_B_UBACS_vest_blk_f,$STR_A3_A_CfgWeapons_U_B_UBACS_vest_blk_f0)
+	UNIFORM_HOLDER(U_B_A_CBRN_Suit_01_MTP_F,$STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_MTP_F0)
 	// ION
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_wdl_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_wdl_F0)
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_blue_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_blue_F0)

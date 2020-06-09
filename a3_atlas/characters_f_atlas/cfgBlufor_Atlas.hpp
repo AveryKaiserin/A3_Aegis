@@ -24,6 +24,7 @@ class B_HeavyGunner_F;
 // Arma 3 Tanks
 class I_Story_Crew_F;
 // Arma 3 Enoch
+class B_CBRN_Man_Oversuit_01_MTP_F;
 class I_E_Uniform_01_F;
 class I_E_Uniform_01_shortsleeve_F;
 class I_E_Uniform_01_tanktop_F;
@@ -32,6 +33,12 @@ class I_E_Uniform_01_coveralls_F;
 class B_recon_AR_F;
 class B_recon_GL_F;
 // Arma 3 Atlas
+class B_E_CBRN_Man_Oversuit_01_Wdl_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = U_B_E_CBRN_Suit_01_Wdl_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Wdl_CO.paa"};
+};
 class B_E_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -1213,6 +1220,70 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_CBRN_F: B_E_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CBRN_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
+	uniformClass = U_B_E_CBRN_Suit_01_Wdl_F;
+	linkedItems[] =
+	{
+		H_HelmetB_light,
+		V_CarrierRigKBT_01_light_Olive_F,
+		G_AirPurifyingRespirator_01_F,
+		DefaultManCbrnLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetB_light,
+		V_CarrierRigKBT_01_light_Olive_F,
+		G_AirPurifyingRespirator_01_F,
+		DefaultManCbrnLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_CombinationUnitRespirator_01_F;
+	weapons[] =
+    {
+        arifle_G36C_holo_LP_f,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_G36C_holo_LP_f,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    cost = 93000;
+	camouflage = 1.6;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+    role = Sapper;
+	class EventHandlers: EventHandlers
+	{
+		class BIN_CBRN_INIT
+		{
+			init = "_this call bin_fnc_CBRNHoseInit;";
+		};
 	};
 };
 class B_E_RadioOperator_F: B_E_Soldier_F

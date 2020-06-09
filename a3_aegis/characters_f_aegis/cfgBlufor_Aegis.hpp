@@ -98,6 +98,12 @@ class B_UBACSReconFatigues_01_blk_F: B_Soldier_SL_F
 	uniformClass = U_B_UBACS_vest_blk_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_blk_CO.paa"};
 };
+class B_A_CBRN_Man_Oversuit_01_MTP_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = U_B_A_CBRN_Suit_01_MTP_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_MTP_CO.paa"};
+};
 class B_A_Soldier_A_F: B_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1872,7 +1878,7 @@ class B_A_Soldier_CBRN_F: B_A_Soldier_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
-	uniformClass = U_B_CBRN_Suit_01_MTP_F;
+	uniformClass = U_B_A_CBRN_Suit_01_MTP_F;
 	linkedItems[] =
 	{
 		H_HelmetB_plain_mcamo,

@@ -2248,6 +2248,8 @@ class B_soldier_LAT2_F: B_Soldier_base_F
         NVGoggles
     };
 };
+// Arma 3 Enoch
+class B_CBRN_Man_Oversuit_01_MTP_F;
 // Arma 3 Aegis
 class B_Soldier_CQ_F: B_Soldier_base_F
 {

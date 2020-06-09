@@ -6,10 +6,8 @@ class CfgWeapons
 	class UniformItem;
 	class Uniform_Base;
 	#include "cfgLegion.hpp"
-	#include "cfgHIDF.hpp"
 	#include "cfgBlufor_Atlas.hpp"
-	/*
 	#include "cfgANZAC.hpp"
-	*/
+	#include "cfgHIDF.hpp"
 	#include "cfgIDF.hpp"
 };

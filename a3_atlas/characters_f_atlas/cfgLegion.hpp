@@ -1,5 +1,9 @@
 // Arma 3
-class B_Soldier_F;
+class B_Soldier_base_F: SoldierWB
+{
+	class EventHandlers;
+};
+class B_Soldier_F: B_Soldier_base_F{};
 class B_soldier_AR_F;
 class B_Soldier_SL_F;
 // Arma 3 Atlas

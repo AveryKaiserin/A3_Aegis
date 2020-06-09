@@ -259,7 +259,6 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-	/*
 	class H_HelmetCrew_B_ANZAC: H_HelmetCrew_B_oli_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -269,6 +268,8 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_ANZAC0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_PilotHelmetFighter_B_ANZAC_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\pilot_helmet_aucamo_CO.paa"};
 	};
 	class H_PilotHelmetHeli_B_ANZAC: H_PilotHelmetHeli_B
 	{
@@ -302,7 +303,6 @@ class CfgWeapons
 			};
 		};
 	};
-	*/
 	class H_HelmetI_I_01_base_F: HelmetBase
 	{
 		author = $STR_A3_A_AveryTheKitty;

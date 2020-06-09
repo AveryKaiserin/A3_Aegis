@@ -163,3 +163,37 @@ class U_C_Uniform_Formal_01_blue_F: Uniform_Base
         mass = 30;
     };
 };
+class U_C_CBRN_Suit_01_Black_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Black_F0;
+	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Black_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Black_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = C_CBRN_Man_Oversuit_01_Black_F;
+		containerClass = Supply30;
+		mass = 45;
+	};
+};
+class U_C_CBRN_Suit_01_Yellow_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0;
+	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Yellow_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Yellow_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = C_CBRN_Man_Oversuit_01_Yellow_F;
+		containerClass = Supply30;
+		mass = 45;
+	};
+};

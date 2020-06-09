@@ -10,7 +10,7 @@ class CfgVehicles
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 	/*#include "cfgOpfor_Atlas.hpp"*/	// CSAT (Caspian)
-	/*#include "cfgADF.hpp"*/			// ADF
+	#include "cfgANZAC.hpp"				// ADF
 	#include "cfgHIDF.hpp"				// HIDF
 	/*#include "cfgCDF.hpp"*/			// CDF
 	#include "cfgIDF.hpp"				// IDF

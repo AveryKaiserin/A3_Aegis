@@ -260,6 +260,18 @@ class C_Uniform_Formal_01_blue_F: C_Uniform_Formal_01_base_F
         ""
     };
 };
+class C_CBRN_Man_Oversuit_01_Black_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = U_C_CBRN_Suit_01_Black_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Black_CO.paa"};
+};
+class C_CBRN_Man_Oversuit_01_Yellow_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = U_C_CBRN_Suit_01_Yellow_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Yellow_CO.paa"};
+};
 class C_man_1_1_F_afro: C_man_1_1_F
 {
     author = $STR_A3_A_AveryTheKitty;
