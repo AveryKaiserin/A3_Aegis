@@ -20,23 +20,28 @@ class Box_EAF_Equip_F: Box_AAF_Equip_F
         item_xx(H_Beret_eaf_F,2);
         delete _xx_H_Bandanna_camo;
         delete _xx_H_Bandanna_khk;
-        item_xx(H_HelmetHBK_chops_F,2);
-        item_xx(H_HelmetHBK_ear_F,2);
-        item_xx(H_HelmetHBK_headset_F,2);
+        item_xx(H_HelmetHBK_F,1);
+        item_xx(H_HelmetHBK_chops_F,1);
+        item_xx(H_HelmetHBK_ear_F,1);
+        item_xx(H_HelmetHBK_headset_F,1);
         delete _xx_H_Shemag_olive;
         delete _xx_H_HelmetCrew_I_E;
         item_xx(H_Tank_eaf_F,2);
-        item_xx(H_PilotHelmetFighter_I_E,2);
+        item_xx(H_PilotHelmetFighter_I_E,4);
         item_xx(H_PilotHelmetHeli_I_E,2);
         item_xx(H_CrewHelmetHeli_I_E,2);
         delete _xx_V_TacChestrig_grn_F;
         item_xx(V_TacChestrig_oli_F,2);
+        item_xx(G_AirPurifyingRespirator_01_F,4);
     };
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_eaf_F,2);
+		bag_xx(B_Bergen_eaf_F,2);
 		bag_xx(B_Carryall_eaf_F,2);
-		bag_xx(B_TacticalPack_rgr,2);
+		bag_xx(B_Kitbag_eaf_F,2);
+		bag_xx(B_RadioBag_01_eaf_F,2);
+		bag_xx(B_TacticalPack_eaf_F,2);
 	};
 };
 class Box_EAF_Uniforms_F: Box_AAF_Uniforms_F
@@ -46,16 +51,19 @@ class Box_EAF_Uniforms_F: Box_AAF_Uniforms_F
     {
         item_xx(U_I_E_Uniform_01_F,4);
         item_xx(U_I_E_Uniform_01_shortsleeve_F,4);
+        item_xx(U_I_E_Uniform_01_tanktop_F,4);
         item_xx(U_I_E_Uniform_01_officer_F,4);
         item_xx(U_I_E_Uniform_01_coveralls_F,4);
         item_xx(U_I_E_Uniform_01_pilot_F,4);
+        item_xx(U_I_E_FullGhillie_wdl_F,4);
+        item_xx(U_I_E_CBRN_Suit_01_EAF_F,4);
     };
 };
 class Box_EAF_Wps_F: Box_IND_Wps_F
 {
     class TransportMagazines
     {
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,10);
         delete _xx_6Rnd_12Gauge_Pellets;
         delete _xx_6Rnd_12Gauge_Slug;
         mag_xx(200Rnd_65x39_cased_Box_Red,2);
@@ -67,7 +75,7 @@ class Box_EAF_Wps_F: Box_IND_Wps_F
     {
         weap_xx(arifle_MSBS65_F,6);
         weap_xx(arifle_MSBS65_GL_F,2);
-        delete _xx_arifle_MSBS65_UBS_F;
+		weap_xx(arifle_MSBS65_Mark_F,2);
         delete _xx_LMG_Mk200_black_BI_F;
         weap_xx(LMG_Mk200_black_F,2);
         weap_xx(hgun_Pistol_heavy_01_green_F,1);
@@ -79,8 +87,9 @@ class Box_EAF_WpsSpecial_F: Box_IND_WpsSpecial_F
 {
 	class TransportMagazines
 	{
+		mag_xx(7Rnd_408_mag,8);
         delete _xx_30Rnd_65x39_caseless_msbs_mag_Tracer;
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
         delete _xx_20Rnd_762x51_Mag;
         delete _xx_10Rnd_338_Mag;
         delete _xx_200Rnd_338_Mag;
@@ -89,12 +98,12 @@ class Box_EAF_WpsSpecial_F: Box_IND_WpsSpecial_F
 	};
 	class TransportWeapons
 	{
+		weap_xx(srifle_LRR_F,1);
         delete _xx_arifle_MSBS65_F;
-		weap_xx(arifle_MSBS65_Mark_F,1);
+		weap_xx(arifle_MSBS65_UBS_F,1);
         delete _xx_srifle_DMR_02_F;
         delete _xx_srifle_DMR_03_F;
         delete _xx_MMG_02_black_RCO_BI_F;
-		weap_xx(arifle_MSBS65_UBS_F,1);
 	};
 	class TransportItems
 	{
@@ -107,13 +116,14 @@ class Box_EAF_WpsSpecial_F: Box_IND_WpsSpecial_F
 		item_xx(optic_tws,1);
 		item_xx(optic_tws_mg,1);
 		item_xx(optic_tws_sniper,1);
+        item_xx(optic_LRPS,1);
 	};
 };
 class Box_EAF_Ammo_F: Box_IND_Ammo_F
 {
 	class TransportMagazines
 	{
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,48);
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,60);
         mag_xx(6Rnd_12Gauge_Pellets,6);
         mag_xx(6Rnd_12Gauge_Slug,6);
         delete _xx_100Rnd_65x39_caseless_black_mag;
@@ -169,7 +179,7 @@ class Box_EAF_Support_F: Box_IND_Support_F
 		item_xx(Binocular,1);
 		item_xx(Rangefinder,1);
 		item_xx(Laserdesignator_03,1);
-		item_xx(bipod_01_F_blk,1);
+		item_xx(bipod_01_F_blk,3);
 		item_xx(NVGoggles_INDEP,2);
 	};
 };
@@ -178,7 +188,7 @@ class Box_EAF_WpsLaunch_F: Box_IND_WpsLaunch_F
 	class TransportBackpacks
 	{
         delete _xx_B_FieldPack_oli;
-		bag_xx(B_AssaultPack_eaf_F,3);
+		bag_xx(B_AssaultPack_eaf_F,4);
 	};
 };
 class I_EAF_supplyCrate_F: I_supplyCrate_F
@@ -211,9 +221,9 @@ class I_EAF_supplyCrate_F: I_supplyCrate_F
 	{
 		weap_xx(arifle_MSBS65_F,2);
 		weap_xx(arifle_MSBS65_GL_F,1);
+		weap_xx(arifle_MSBS65_Mark_F,1);
 		weap_xx(arifle_MSBS65_UBS_F,1);
 		weap_xx(LMG_Mk200_black_F,1);
-		weap_xx(arifle_MSBS65_Mark_F,1);
 		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportItems

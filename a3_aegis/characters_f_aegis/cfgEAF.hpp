@@ -1746,14 +1746,14 @@ class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 	};
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		srifle_LRR_LRPS_F,
 		hgun_Pistol_heavy_01_green_snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		srifle_LRR_LRPS_F,
 		hgun_Pistol_heavy_01_green_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -1761,7 +1761,7 @@ class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 	hideProxySelections[] = {ghillie_hide};
 	magazines[] =
 	{
-		mag_6(5Rnd_127x99_Mag),
+		mag_6(7Rnd_408_Mag),
         mag_2(11Rnd_45ACP_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -1770,7 +1770,7 @@ class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 	};
 	respawnMagazines[] =
 	{
-		mag_6(5Rnd_127x99_Mag),
+		mag_6(7Rnd_408_Mag),
         mag_2(11Rnd_45ACP_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -1780,12 +1780,14 @@ class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 	items[] =
 	{
 		FirstAidKit,
-		optic_tws_sniper
+		optic_tws_sniper,
+		muzzle_snds_408_black
 	};
 	respawnItems[] =
 	{
 		FirstAidKit,
-		optic_tws_sniper
+		optic_tws_sniper,
+		muzzle_snds_408_black
 	};
 	linkedItems[] =
 	{

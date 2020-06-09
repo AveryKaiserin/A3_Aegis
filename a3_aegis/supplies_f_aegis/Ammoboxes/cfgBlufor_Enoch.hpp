@@ -107,8 +107,9 @@ class Box_W_NATO_Wps_F: Box_NATO_Wps_F
     };
     class TransportMagazines
     {
-		mag_xx(30Rnd_65x39_caseless_black_mag,8);
+		mag_xx(30Rnd_65x39_caseless_black_mag,10);
 		mag_xx(30Rnd_556x45_Stanag_red,4);
+		mag_xx(20Rnd_762x51_Mag,1);
 		mag_xx(16Rnd_9x21_Mag,1);
 		mag_xx(11Rnd_45ACP_Mag,1);
 		mag_xx(30Rnd_45ACP_Mag_SMG_01,1);
@@ -123,10 +124,11 @@ class Box_W_NATO_Wps_F: Box_NATO_Wps_F
         weap_xx(arifle_MX_GL_Black_F,2);
         weap_xx(arifle_MX_SW_Black_F,2);
         weap_xx(arifle_MXC_Black_F,2);
-        weap_xx(arifle_SPAR_01_blk_F,2);
-        weap_xx(arifle_SPAR_01_C_blk_F,1);
+		weap_xx(arifle_MXM_Black_F,2);
+        weap_xx(arifle_SPAR_01_blk_F,3);
         weap_xx(arifle_SPAR_01_GL_blk_F,1);
         weap_xx(arifle_SPAR_02_blk_F,1);
+		weap_xx(arifle_SPAR_03_blk_F,1);
         weap_xx(SMG_01_black_F,1);
         weap_xx(hgun_P07_blk_F,1);
         weap_xx(hgun_Pistol_heavy_01_black_F,1);
@@ -158,9 +160,8 @@ class Box_W_NATO_WpsSpecial_F: Box_NATO_WpsSpecial_F
     };
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_black_mag,6);
 		mag_xx(7Rnd_408_mag,8);
-		mag_xx(20Rnd_762x51_Mag,18);
+		mag_xx(20Rnd_762x51_Mag,12);
 		mag_xx(130Rnd_338_Mag,3);
 		mag_xx(7Rnd_12Gauge_Pellets,3);
 		mag_xx(7Rnd_12Gauge_Slug,3);
@@ -169,8 +170,6 @@ class Box_W_NATO_WpsSpecial_F: Box_NATO_WpsSpecial_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MXM_Black_F,1);
-		weap_xx(arifle_SPAR_03_blk_F,1);
 		weap_xx(srifle_LRR_F,1);
 		weap_xx(srifle_DMR_03_F,1);
 		weap_xx(srifle_EBR_blk_F,1);
