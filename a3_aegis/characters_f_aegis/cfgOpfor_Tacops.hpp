@@ -59,13 +59,13 @@ class O_A_soldier_AR_F: O_A_soldier_base_F
     scope = public;
     linkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -123,13 +123,13 @@ class O_A_soldier_GL_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -166,13 +166,13 @@ class O_A_soldier_M_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_MilCap_ocamo,
+        H_HelmetAggressor_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_MilCap_ocamo,
+        H_HelmetAggressor_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
@@ -254,13 +254,13 @@ class O_A_soldier_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_MilCap_ocamo,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_MilCap_ocamo,
+        H_HelmetAggressor_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -283,13 +283,13 @@ class O_A_soldier_LAT_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_Cap_brn_SPECOPS,
+        H_HelmetAggressor_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
@@ -315,14 +315,14 @@ class O_A_soldier_SL_F: O_A_soldier_base_F
 	role = Grenadier;
     linkedItems[] =
     {
-        H_MilCap_ocamo,
-        V_ChestrigF_khk,
+        H_HelmetAggressor_sand_F,
+        V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_MilCap_ocamo,
-        V_ChestrigF_khk,
+        H_HelmetAggressor_sand_F,
+        V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -378,14 +378,14 @@ class O_A_soldier_TL_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_Cap_brn_SPECOPS_hs,
-        V_ChestrigF_khk,
+        H_HelmetAggressor_sand_F,
+        V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_Cap_brn_SPECOPS_hs,
-        V_ChestrigF_khk,
+        H_HelmetAggressor_sand_F,
+        V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     weapons[] =

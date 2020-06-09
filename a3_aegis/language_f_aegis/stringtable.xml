@@ -3815,6 +3815,23 @@
 					<Chinesesimp>Avenger 头盔（黒）</Chinesesimp>
 					<Turkish>Avenger Miğferi (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetAggressor_sand_F0">
+					<Original>Avenger Helmet (Sand)</Original>
+					<Chinese>復仇者頭盔（沙色）</Chinese>
+					<French>Casque de vengeur (Sable)</French>
+					<Spanish>Casco Avenger (arena)</Spanish>
+					<Italian>Elmetto Vendicatore (sabbia)</Italian>
+					<Polish>Hełm Avenger (piaskowy)</Polish>
+					<Russian>Шлем Avenger (песочный)</Russian>
+					<German>Avenger-Helm (sandfarben)</German>
+					<Czech>Přilba Avenger (písek)</Czech>
+					<English>Avenger Helmet (Sand)</English>
+					<Portuguese>Capacete Avenger (Areia)</Portuguese>
+					<Korean>어벤저 헬멧 (모래)</Korean>
+					<Japanese>アベンジャーヘルメット（沙色）</Japanese>
+					<Chinesesimp>Avenger 头盔（砂）</Chinesesimp>
+					<Turkish>Avenger Miğferi (Kum Rengi)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_mgrn_hs0">
 					<Original>Booniehat (Green, Headset)</Original>
 					<Chinese>登山帽（綠，耳機）</Chinese>
@@ -11294,22 +11311,22 @@
 				<Japanese>第19空挺部隊大隊</Japanese>
 				<Turkish>19. Paraşütçü Taburu</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_TigerRegiment0">
-				<Original>Tiger Regiment</Original>
-				<Chinese>老虎團</Chinese>
-				<French>Régiment Tiger</French>
-				<Spanish>Regimiento de tigre</Spanish>
-				<Italian>Reggimento di tigre</Italian>
-				<Polish>Pułk Tygrysa</Polish>
-				<Russian>Тигровый полк</Russian>
-				<German>Tiger Regiment</German>
-				<Czech>Tigerský pluk</Czech>
-				<English>Tiger Regiment</English>
-				<Portuguese>Regimento Tigre</Portuguese>
-				<Korean>타이거 연대</Korean>
-				<Chinesesimp>老虎团</Chinesesimp>
-				<Japanese>タイガー連隊</Japanese>
-				<Turkish>Kaplan Alayı</Turkish>
+			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_SpiderRegiment0">
+				<Original>Spider Regiment</Original>
+				<Chinese>蜘蛛團</Chinese>
+				<French>Régiment Araignée</French>
+				<Spanish>Regimiento de araña</Spanish>
+				<Italian>Reggimento di ragno</Italian>
+				<Polish>Pułk Pająk</Polish>
+				<Russian>Паук полк</Russian>
+				<German>Spinne Regiment</German>
+				<Czech>Pavouk pluk</Czech>
+				<English>Spider Regiment</English>
+				<Portuguese>Regimento Aranha</Portuguese>
+				<Korean>거미 연대</Korean>
+				<Chinesesimp>蜘蛛团</Chinesesimp>
+				<Japanese>クモ連隊</Japanese>
+				<Turkish>Örümcek Alayı</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgUnitInsignia_Spetsnaz454thRegiment0">
 				<Original>454th Guards Motor-Rifle Regiment</Original>
@@ -11327,6 +11344,23 @@
 				<Chinesesimp>454th后卫机动步兵团</Chinesesimp>
 				<Japanese>454thガードモーターライフル連隊</Japanese>
 				<Turkish>454. Muhafızlar Motorlu Tüfek Alayı</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0">
+				<Original>Bear Regiment</Original>
+				<Chinese>熊團</Chinese>
+				<French>Régiment Ours</French>
+				<Spanish>Regimiento de oso</Spanish>
+				<Italian>Reggimento di orso</Italian>
+				<Polish>Pułk Niedźwiedź</Polish>
+				<Russian>Медведь полк</Russian>
+				<German>Bär Regiment</German>
+				<Czech>Medvěd pluk</Czech>
+				<English>Bear Regiment</English>
+				<Portuguese>Regimento Urso</Portuguese>
+				<Korean>곰 연대</Korean>
+				<Chinesesimp>熊团</Chinesesimp>
+				<Japanese>くま連隊</Japanese>
+				<Turkish>Ayı Alayı</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_Iran">
 				<Original>Iran</Original>
@@ -12513,55 +12547,21 @@
 			</Container>
 			<Container name="LongRangeRifles">
 				<Key ID="STR_A3_A_CfgWeapons_srifle_DMR_01_black_F0">
-					<Original>SV-12 7.62 mm</Original>
-					<Chinese>SV-12 7.62 mm</Chinese>
-					<French>SV-12 7,62 mm</French>
-					<Spanish>SV-12 7,62 mm</Spanish>
-					<Italian>SV-12 7,62 mm</Italian>
-					<Polish>SV-12 7,62 mm</Polish>
-					<Russian>SV-12 7,62 мм</Russian>
-					<German>SV-12 7,62 mm</German>
-					<Czech>SV-12 7,62 mm</Czech>
-					<English>SV-12 7.62 mm</English>
-					<Portuguese>SV-12 7,62 mm</Portuguese>
-					<Korean>SV-12 7.62mm</Korean>
-					<Chinesesimp>SV-12 7.62 毫米</Chinesesimp>
-					<Japanese>SV-12 7.62 mm</Japanese>
-					<Turkish>SV-12 7.62 mm</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_srifle_DMR_01_arid_F0">
-					<Original>SV-12 7.62 mm (Arid)</Original>
-					<Chinese>SV-12 7.62 mm（乾燥氣候）</Chinese>
-					<French>SV-12 7,62 mm (Aride)</French>
-					<Spanish>SV-12 7,62 mm (árido)</Spanish>
-					<Italian>SV-12 7,62 mm (arido)</Italian>
-					<Polish>SV-12 7,62 mm (region suchy)</Polish>
-					<Russian>SV-12 7,62 мм (засушливая местность)</Russian>
-					<German>SV-12 7,62 mm (Trocken)</German>
-					<Czech>SV-12 7,62 mm (suchý porost)</Czech>
-					<English>SV-12 7.62 mm (Arid)</English>
-					<Portuguese>SV-12 7,62 mm (Árido)</Portuguese>
-					<Korean>SV-12 7.62mm(건조)</Korean>
-					<Chinesesimp>SV-12 7.62 毫米（干旱）</Chinesesimp>
-					<Japanese>SV-12 7.62 mm（乾燥地帯）</Japanese>
-					<Turkish>SV-12 7.62 mm (Kurak)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_srifle_DMR_01_lush_F0">
-					<Original>SV-12 7.62 mm (Lush)</Original>
-					<Chinese>SV-12 7.62 mm（草木茂盛）</Chinese>
-					<French>SV-12 7,62 mm (Luxuriant)</French>
-					<Spanish>SV-12 7,62 mm (exuberante)</Spanish>
-					<Italian>SV-12 7,62 mm (verdeggiante)</Italian>
-					<Polish>SV-12 7,62 mm (region z bujną roślinnością)</Polish>
-					<Russian>SV-12 7,62 мм (обильная растительность)</Russian>
-					<German>SV-12 7,62 mm (Grün)</German>
-					<Czech>SV-12 7,62 mm (bujný porost)</Czech>
-					<English>SV-12 7.62 mm (Lush)</English>
-					<Portuguese>SV-12 7,62 mm (Exuberante)</Portuguese>
-					<Korean>SV-12 7.62mm(초목)</Korean>
-					<Chinesesimp>SV-12 7.62 毫米（繁茂）</Chinesesimp>
-					<Japanese>SV-12 7.62 mm（緑地）</Japanese>
-					<Turkish>SV-12 7.62 mm (Gür)</Turkish>
+					<Original>Rahim 7.62 mm (Black)</Original>
+					<Chinese>Rahim 7.62 mm（黑）</Chinese>
+					<French>Rahim 7.62 mm (noire)</French>
+					<Spanish>Rahim 7,62 mm (negro)</Spanish>
+					<Italian>Rahim 7,62 mm (nera)</Italian>
+					<Polish>Rahim 7,62 mm (czarny)</Polish>
+					<Russian>Rahim 7,62 мм (черный)</Russian>
+					<German>Rahim 7,62 mm (Schwarz)</German>
+					<Czech>Rahim 7,62 mm (černé)</Czech>
+					<English>Rahim 7.62 mm (Black)</English>
+					<Portuguese>Rahim 7,62 mm (preta)</Portuguese>
+					<Korean>Rahim 7.62 mm (흑색)</Korean>
+					<Chinesesimp>Rahim 7.62 毫米（黑色）</Chinesesimp>
+					<Japanese>Rahim 7.62 mm （黒）</Japanese>
+					<Turkish>Rahim 7.62 mm (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_srifle_DMR_02_tna_F0">
 					<Original>MAR-10 .338 (Tropic)</Original>
@@ -13104,21 +13104,21 @@
 						<Turkish>Mk26 12.7 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F0">
-						<Original>RSh-42 .357</Original>
-						<Chinese>RSh-42 .357</Chinese>
-						<French>RSh-42 .357</French>
-						<Spanish>RSh-42 .357</Spanish>
-						<Italian>RSh-42 .357</Italian>
-						<Polish>RSh-42 .357</Polish>
-						<Russian>RSh-42 .357</Russian>
-						<German>RSh-42 .357</German>
-						<Czech>RSh-42 .357</Czech>
-						<English>RSh-42 .357</English>
-						<Portuguese>RSh-42 .357</Portuguese>
-						<Korean>RSh-42 .357</Korean>
-						<Chinesesimp>RSh-42 .357</Chinesesimp>
-						<Japanese>RSh-42 .357</Japanese>
-						<Turkish>RSh-42 .357</Turkish>
+						<Original>Kaban .357</Original>
+						<Chinese>Kaban .357</Chinese>
+						<French>Kaban .357</French>
+						<Spanish>Kaban .357</Spanish>
+						<Italian>Kaban .357</Italian>
+						<Polish>Kaban .357</Polish>
+						<Russian>Kaban .357</Russian>
+						<German>Kaban .357</German>
+						<Czech>Kaban .357</Czech>
+						<English>Kaban .357</English>
+						<Portuguese>Kaban .357</Portuguese>
+						<Korean>Kaban .357</Korean>
+						<Chinesesimp>Kaban .357</Chinesesimp>
+						<Japanese>Kaban .357</Japanese>
+						<Turkish>Kaban .357</Turkish>
 					</Key>
 				</Container>
 				<Container name="Library">
@@ -13174,21 +13174,21 @@
 						<Turkish>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F_Library0">
-						<Original>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Original>
-						<Chinese>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinese>
-						<French>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</French>
-						<Spanish>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Spanish>
-						<Italian>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Italian>
-						<Polish>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Polish>
-						<Russian>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Russian>
-						<German>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</German>
-						<Czech>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Czech>
-						<English>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</English>
-						<Portuguese>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Portuguese>
-						<Korean>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Korean>
-						<Chinesesimp>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinesesimp>
-						<Japanese>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Japanese>
-						<Turkish>The RSh-42 is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Turkish>
+						<Original>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Original>
+						<Chinese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinese>
+						<French>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</French>
+						<Spanish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Spanish>
+						<Italian>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Italian>
+						<Polish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Polish>
+						<Russian>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Russian>
+						<German>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</German>
+						<Czech>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Czech>
+						<English>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</English>
+						<Portuguese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Portuguese>
+						<Korean>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Korean>
+						<Chinesesimp>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinesesimp>
+						<Japanese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Japanese>
+						<Turkish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Turkish>
 					</Key>
 				</Container>
 			</Container>
