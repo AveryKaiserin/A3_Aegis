@@ -1,5 +1,12 @@
 class CfgUnitInsignia
 {
+	class Medic
+	{
+		displayName = $STR_A3_Medic;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\Medic_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 	class NATO_19thBattalion
 	{
 		displayName = $STR_A3_A_CfgUnitInsignia_NATO_19thBattalion0;
@@ -7,11 +14,11 @@ class CfgUnitInsignia
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class CSAT_TigerRegiment
+	class CSAT_SpiderRegiment
 	{
-		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_TigerRegiment0;
-		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_TigerRegiment_CA.paa";
-		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_SpiderRegiment0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_SpiderRegiment_CA.paa";
+		author = $STR_A3_A_Kydoimos;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class Spetsnaz454thRegiment
@@ -19,6 +26,13 @@ class CfgUnitInsignia
 		displayName = $STR_A3_A_CfgUnitInsignia_Spetsnaz454thRegiment0;
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\Spetsnaz454thRegiment_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class CSAT_BearRegiment
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_BearRegiment_CA.paa";
+		author = $STR_A3_A_Kydoimos;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
