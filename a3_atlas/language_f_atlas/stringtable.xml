@@ -928,55 +928,55 @@
 					<Turkish>Helikopter Pilotu Tulumu [HIDF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_F0">
-					<Original>GE Combat Uniform (Woodland)</Original>
-					<Chinese>GE 作戰服（森林）</Chinese>
-					<French>Uniforme de combat GE (forêt)</French>
-					<Spanish>Uniforme de combate del GE (bosque)</Spanish>
-					<Italian>Uniforme da combattimento GE (boschi)</Italian>
-					<Polish>Mundur bojowy GE (las)</Polish>
-					<Russian>Боевая форма GE (лес)</Russian>
-					<German>GE-Kampfuniform (Waldland)</German>
-					<Czech>Bojová uniforma GE (woodland)</Czech>
-					<English>GE Combat Uniform (Woodland)</English>
-					<Portuguese>Uniforme de combate GE (floresta)</Portuguese>
-					<Korean>GE 군복(산악)</Korean>
-					<Chinesesimp>GE 作战服（林地）</Chinesesimp>
-					<Japanese>GE戦闘服（森林）</Japanese>
-					<Turkish>GE Savaş Üniforması (Ağaçlık)</Turkish>
+					<Original>Field Uniform (Woodland)</Original>
+					<Chinese>Field Uniform (Woodland)</Chinese>
+					<French>Field Uniform (Woodland)</French>
+					<Spanish>Field Uniform (Woodland)</Spanish>
+					<Italian>Field Uniform (Woodland)</Italian>
+					<Polish>Field Uniform (Woodland)</Polish>
+					<Russian>Field Uniform (Woodland)</Russian>
+					<German>Field Uniform (Woodland)</German>
+					<Czech>Field Uniform (Woodland)</Czech>
+					<English>Field Uniform (Woodland)</English>
+					<Portuguese>Field Uniform (Woodland)</Portuguese>
+					<Korean>Field Uniform (Woodland)</Korean>
+					<Chinesesimp>Field Uniform (Woodland)</Chinesesimp>
+					<Japanese>Field Uniform (Woodland)</Japanese>
+					<Turkish>Field Uniform (Woodland)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_shortsleeve_F0">
-					<Original>GE Combat Uniform (Woodland, Rolled-up)</Original>
-					<Chinese>GE 作戰服（森林，捲袖）</Chinese>
-					<French>Uniforme de combat GE (forêt, manches retroussées)</French>
-					<Spanish>Uniforme de combate del GE (bosque, remangado)</Spanish>
-					<Italian>Unif. combattimento GE (boschi, man. arr.)</Italian>
-					<Polish>Mundur bojowy GE (las, podkasany)</Polish>
-					<Russian>Боевая форма GE (лес, закатанные рукава)</Russian>
-					<German>GE-Kampfuniform (Waldland, hochgerollt)</German>
-					<Czech>Bojová uniforma GE (woodland, vyhrnutá)</Czech>
-					<English>GE Combat Uniform (Woodland, Rolled-up)</English>
-					<Portuguese>Uniforme de combate GE (floresta, manga dobrada)</Portuguese>
-					<Korean>GE 군복(산악, 팔 걷음)</Korean>
-					<Chinesesimp>GE 作战服（林地，卷起）</Chinesesimp>
-					<Japanese>GE戦闘服（森林、袖まくり）</Japanese>
-					<Turkish>GE Savaş Üniforması (Ağaçlık, Kolları Kıvrık)</Turkish>
+					<Original>Field Uniform (Woodland, Rolled-up)</Original>
+					<Chinese>Field Uniform (Woodland, Rolled-up)</Chinese>
+					<French>Field Uniform (Woodland, Rolled-up)</French>
+					<Spanish>Field Uniform (Woodland, Rolled-up)</Spanish>
+					<Italian>Field Uniform (Woodland, Rolled-up)</Italian>
+					<Polish>Field Uniform (Woodland, Rolled-up)</Polish>
+					<Russian>Field Uniform (Woodland, Rolled-up)</Russian>
+					<German>Field Uniform (Woodland, Rolled-up)</German>
+					<Czech>Field Uniform (Woodland, Rolled-up)</Czech>
+					<English>Field Uniform (Woodland, Rolled-up)</English>
+					<Portuguese>Field Uniform (Woodland, Rolled-up)</Portuguese>
+					<Korean>Field Uniform (Woodland, Rolled-up)</Korean>
+					<Chinesesimp>Field Uniform (Woodland, Rolled-up)</Chinesesimp>
+					<Japanese>Field Uniform (Woodland, Rolled-up)</Japanese>
+					<Turkish>Field Uniform (Woodland, Rolled-up)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_tanktop_F0">
-					<Original>GE Combat Uniform (Woodland, Tank Top)</Original>
-					<Chinese>GE 作戰服（森林，上衣背心）</Chinese>
-					<French>Uniforme de combat GE (forêt, manches débardeur)</French>
-					<Spanish>Uniforme de combate del GE (bosque, sin mangas)</Spanish>
-					<Italian>Unif. combattimento GE (boschi, canotta)</Italian>
-					<Polish>Mundur bojowy GE (las, bezrękawnik)</Polish>
-					<Russian>Боевая форма GE (лес, безрукавка)</Russian>
-					<German>GE-Kampfuniform (Waldland, Muskelshirt)</German>
-					<Czech>Bojová uniforma GE (woodland, tílko)</Czech>
-					<English>GE Combat Uniform (Woodland, Tank Top)</English>
-					<Portuguese>Uniforme de combate GE (floresta, regata)</Portuguese>
-					<Korean>GE 군복(산악, 탱크톱)</Korean>
-					<Chinesesimp>GE 作战服（林地，背心装）</Chinesesimp>
-					<Japanese>GE戦闘服（森林、タンクトップ）</Japanese>
-					<Turkish>GE Savaş Üniforması (Ağaçlık, Atlet)</Turkish>
+					<Original>Field Uniform (Woodland, Tank Top)</Original>
+					<Chinese>Field Uniform (Woodland, Tank Top)</Chinese>
+					<French>Field Uniform (Woodland, Tank Top)</French>
+					<Spanish>Field Uniform (Woodland, Tank Top)</Spanish>
+					<Italian>Field Uniform (Woodland, Tank Top)</Italian>
+					<Polish>Field Uniform (Woodland, Tank Top)</Polish>
+					<Russian>Field Uniform (Woodland, Tank Top)</Russian>
+					<German>Field Uniform (Woodland, Tank Top)</German>
+					<Czech>Field Uniform (Woodland, Tank Top)</Czech>
+					<English>Field Uniform (Woodland, Tank Top)</English>
+					<Portuguese>Field Uniform (Woodland, Tank Top)</Portuguese>
+					<Korean>Field Uniform (Woodland, Tank Top)</Korean>
+					<Chinesesimp>Field Uniform (Woodland, Tank Top)</Chinesesimp>
+					<Japanese>Field Uniform (Woodland, Tank Top)</Japanese>
+					<Turkish>Field Uniform (Woodland, Tank Top)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_coveralls_F0">
 					<Original>Heli Pilot Coveralls (Green) [NATO]</Original>
@@ -1011,57 +1011,6 @@
 					<Chinesesimp>坦克手服（林地）[NATO]</Chinesesimp>
 					<Japanese>戦車乗員用カバーオール（森林）[NATO]</Japanese>
 					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_F0">
-					<Original>GE Combat Uniform (Arid)</Original>
-					<Chinese>GE Combat Uniform (Arid)</Chinese>
-					<French>GE Combat Uniform (Arid)</French>
-					<Spanish>GE Combat Uniform (Arid)</Spanish>
-					<Italian>GE Combat Uniform (Arid)</Italian>
-					<Polish>GE Combat Uniform (Arid)</Polish>
-					<Russian>GE Combat Uniform (Arid)</Russian>
-					<German>GE Combat Uniform (Arid)</German>
-					<Czech>GE Combat Uniform (Arid)</Czech>
-					<English>GE Combat Uniform (Arid)</English>
-					<Portuguese>GE Combat Uniform (Arid)</Portuguese>
-					<Korean>GE Combat Uniform (Arid)</Korean>
-					<Chinesesimp>GE Combat Uniform (Arid)</Chinesesimp>
-					<Japanese>GE Combat Uniform (Arid)</Japanese>
-					<Turkish>GE Combat Uniform (Arid)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_shortsleeve_F0">
-					<Original>GE Combat Uniform (Arid, Rolled-up)</Original>
-					<Chinese>GE Combat Uniform (Arid, Rolled-up)</Chinese>
-					<French>GE Combat Uniform (Arid, Rolled-up)</French>
-					<Spanish>GE Combat Uniform (Arid, Rolled-up)</Spanish>
-					<Italian>GE Combat Uniform (Arid, Rolled-up)</Italian>
-					<Polish>GE Combat Uniform (Arid, Rolled-up)</Polish>
-					<Russian>GE Combat Uniform (Arid, Rolled-up)</Russian>
-					<German>GE Combat Uniform (Arid, Rolled-up)</German>
-					<Czech>GE Combat Uniform (Arid, Rolled-up)</Czech>
-					<English>GE Combat Uniform (Arid, Rolled-up)</English>
-					<Portuguese>GE Combat Uniform (Arid, Rolled-up)</Portuguese>
-					<Korean>GE Combat Uniform (Arid, Rolled-up)</Korean>
-					<Chinesesimp>GE Combat Uniform (Arid, Rolled-up)</Chinesesimp>
-					<Japanese>GE Combat Uniform (Arid, Rolled-up)</Japanese>
-					<Turkish>GE Combat Uniform (Arid, Rolled-up)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_ard_tanktop_F0">
-					<Original>GE Combat Uniform (Arid, Tank Top)</Original>
-					<Chinese>GE Combat Uniform (Arid, Tank Top)</Chinese>
-					<French>GE Combat Uniform (Arid, Tank Top)</French>
-					<Spanish>GE Combat Uniform (Arid, Tank Top)</Spanish>
-					<Italian>GE Combat Uniform (Arid, Tank Top)</Italian>
-					<Polish>GE Combat Uniform (Arid, Tank Top)</Polish>
-					<Russian>GE Combat Uniform (Arid, Tank Top)</Russian>
-					<German>GE Combat Uniform (Arid, Tank Top)</German>
-					<Czech>GE Combat Uniform (Arid, Tank Top)</Czech>
-					<English>GE Combat Uniform (Arid, Tank Top)</English>
-					<Portuguese>GE Combat Uniform (Arid, Tank Top)</Portuguese>
-					<Korean>GE Combat Uniform (Arid, Tank Top)</Korean>
-					<Chinesesimp>GE Combat Uniform (Arid, Tank Top)</Chinesesimp>
-					<Japanese>GE Combat Uniform (Arid, Tank Top)</Japanese>
-					<Turkish>GE Combat Uniform (Arid, Tank Top)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_PilotCoveralls_ANZAC0">
 					<Original>Pilot Coveralls [ADF]</Original>
@@ -1997,6 +1946,23 @@
 				<Chinesesimp>第31装甲掷弹兵营</Chinesesimp>
 				<Japanese>第31機械化歩兵大隊</Japanese>
 				<Turkish>31. Panzergrenadier Taburu</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_ScorpionRegiment0">
+				<Original>Scorpion Regiment</Original>
+				<Chinese>蠍團</Chinese>
+				<French>Régiment Scorpion</French>
+				<Spanish>Regimiento de escorpión</Spanish>
+				<Italian>Reggimento di scorpione</Italian>
+				<Polish>Skorpion Pająk</Polish>
+				<Russian>Cкорпион полк</Russian>
+				<German>Skorpion Regiment</German>
+				<Czech>Štír pluk</Czech>
+				<English>Scorpion Regiment</English>
+				<Portuguese>Regimento Escorpião</Portuguese>
+				<Korean>투석기 연대</Korean>
+				<Chinesesimp>蝎团</Chinesesimp>
+				<Japanese>スコーピオン連隊</Japanese>
+				<Turkish>Akrep Alayı</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_IDF">
 				<Original>IDF</Original>
