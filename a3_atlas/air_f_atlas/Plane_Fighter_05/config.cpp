@@ -2,12 +2,13 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
-	// Arma 3 Aegis
+	// Arma 3
 	class Plane;
 	class Plane_Base_F: Plane
 	{
 		class AnimationSources;
 	};
+	// Arma 3 Aegis
 	class Plane_Fighter_05_Base_F: Plane_Base_F
 	{
 		class AnimationSources: AnimationSources
