@@ -955,10 +955,10 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_762{};
-			class CowsSlot: CowsSlot_Rail{};
-			class PointerSlot: PointerSlot_Rail{};
-			class UnderBarrelSlot: UnderBarrelSlot_rail{};
+			class MuzzleSlot;
+			class CowsSlot;
+			class PointerSlot;
+			class UnderBarrelSlot;
 		};
 		class Single: Mode_SemiAuto
 		{
@@ -1503,6 +1503,18 @@ class CfgWeapons
 			"\A3\Weapons_F\Launchers\RPG32\Data\RPG_32_optics_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\RPG32\Data\UI\icon_launch_RPG32_black_F_X_CA.paa";
+	};
+	class launch_O_Titan_camo_F: launch_Titan_base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_02_CO.paa"
+		};
+		//picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\UI\icon_launch_O_Titan_camo_F_X_CA.paa";
 	};
 	class launch_Titan_blk_F: launch_Titan_base
 	{

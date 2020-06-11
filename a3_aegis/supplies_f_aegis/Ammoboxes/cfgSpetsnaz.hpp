@@ -460,7 +460,7 @@ class Box_RU_WpsLaunch_F: Box_East_WpsLaunch_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(launch_B_Titan_olive_F,1);
+		weap_xx(launch_O_Titan_camo_F,1);
 		weap_xx(launch_I_Titan_short_F,1);
 		weap_xx(launch_RPG32_green_F,1);
 		weap_xx(launch_O_Vorona_green_F,1);

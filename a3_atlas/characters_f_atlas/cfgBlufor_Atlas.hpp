@@ -33,12 +33,6 @@ class I_E_Uniform_01_coveralls_F;
 class B_recon_AR_F;
 class B_recon_GL_F;
 // Arma 3 Atlas
-class B_E_CBRN_Man_Oversuit_01_Wdl_F: B_CBRN_Man_Oversuit_01_MTP_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	uniformClass = U_B_E_CBRN_Suit_01_Wdl_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Wdl_CO.paa"};
-};
 class B_E_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;

@@ -1,3 +1,12 @@
+// Arma 3
+class I_pilot_F;
+// Arma 3 Atlas
+class I_CDF_CBRN_Man_Oversuit_01_Autumn_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = U_I_CDF_CBRN_Suit_01_Autumn_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Autumn_CO.paa"};
+};
 class I_CDF_Man_Base_F: B_Soldier_F
 {
     scope = private;
@@ -10,65 +19,117 @@ class I_CDF_Man_Base_F: B_Soldier_F
 		Head_Euro,
 		Head_Enoch,
 		Head_Russian,
+		Head_Asian,
 		G_RUS_default
 	};
 };
-class I_CDF_LightFatigues_01_autumn_F: B_Soldier_F
+class I_CDF_CombatFatigues_01_autumn_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_I_officer_noInsignia_autumn_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_noInsignia_ttsko_CO.paa"};
+	uniformClass = U_I_CDF_Soldier_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_01_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_02_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+class I_CDF_CombatFatigues_01_RolledUp_autumn_F: I_E_Uniform_01_shortsleeve_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_I_CDF_Soldier_2_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_01_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_02_CO.paa"
+	};
+};
+class I_CDF_CombatFatigues_01_TankTop_autumn_F: I_E_Uniform_01_tanktop_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_I_CDF_Soldier_3_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_TankTop_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_02_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+class I_CDF_OfficerFatigues_01_autumn_F: I_E_Uniform_01_officer_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_I_CDF_Officer_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Officer_F_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Soldier_F_02_CO.paa"
+	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Officer_F.rvmat",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_pants.rvmat"
+	};
+};
+class B_CDF_PilotCoveralls_01_autumn_F: I_pilot_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_I_CDF_Pilot_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_I_CDF_Pilot_F_CO.paa"};
 };
 class I_CDF_Soldier_base_F: I_CDF_Man_Base_F
 {
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_I_CDF_Soldier_F;
 };
 class I_CDF_Soldier_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_I_CDF_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
-		arifle_AUG_blk_arco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_arco_pointer_F,
+		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_blk_arco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_arco_pointer_F,
+		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -84,14 +145,14 @@ class I_CDF_Soldier_unarmed_F: I_CDF_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -100,49 +161,49 @@ class I_CDF_Soldier_unarmed_F: I_CDF_Soldier_F
 class I_CDF_Soldier_A_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_A_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_B_CombatUniform_mcam_aus_f;
+    uniformClass = U_I_CDF_Soldier_2_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_headset_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_headset_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
-	backpack = B_Carryall_khk_ANZACAmmo_F;
+	backpack = B_Carryall_green_CDFAmmo_F;
 	weapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_aco_pointer_F,
+		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_aco_pointer_F,
+		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -161,48 +222,48 @@ class I_CDF_Soldier_AR_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AR_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_B_CombatUniform_mcam_aus_tshirt_f;
+    uniformClass = U_I_CDF_Soldier_2_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA2_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA2_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
-		LMG_03_ARCO_LP_F,
-		hgun_G17_F,
+		arifle_RPK_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_03_ARCO_LP_F,
-		hgun_G17_F,
+		arifle_RPK_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_3(200Rnd_556x45_Box_Red_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_8(75Rnd_762x39_AKM_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_3(200Rnd_556x45_Box_Red_F),
-        mag_2(17Rnd_9x21_Mag),
+		mag_8(75Rnd_762x39_AKM_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
@@ -214,41 +275,41 @@ class I_CDF_Soldier_AR_F: I_CDF_Soldier_base_F
 class I_CDF_Soldier_GL_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_GL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_I_CDF_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_heavy_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIAGL_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_headset_F,
-		V_CarrierRigKBT_01_heavy_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIAGL_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
-		arifle_AUG_GL_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_GL_545_aco_pointer_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_GL_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_GL_545_aco_pointer_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -256,8 +317,8 @@ class I_CDF_Soldier_GL_F: I_CDF_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -270,50 +331,50 @@ class I_CDF_Soldier_GL_F: I_CDF_Soldier_base_F
 class I_CDF_soldier_M_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_soldier_M_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_I_CDF_Soldier_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_olive_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_olive_F,
-		V_CarrierRigKBT_01_light_ANZAC_F,
+		H_HelmetSpecter_cover_autumn_F,
+		V_PlateCarrierIA1_grn,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
-		srifle_DMR_03_AMS_LP_BI_F,
-		hgun_G17_F,
+		srifle_DMR_05_DMS_LP_BI_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_03_AMS_LP_BI_F,
-		hgun_G17_F,
+		srifle_DMR_05_DMS_LP_BI_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
-        mag_2(17Rnd_9x21_Mag),
+		mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
-        mag_2(17Rnd_9x21_Mag),
+		mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -334,29 +395,29 @@ class I_CDF_Officer_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Officer_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_I_CDF_Officer_F;
 	weapons[] =
 	{
-		SMG_05_F,
-		hgun_G17_F,
+		SMG_02_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		SMG_05_F,
-		hgun_G17_F,
+		SMG_02_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(10Rnd_9x21_Mag),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange
@@ -364,21 +425,21 @@ class I_CDF_Officer_F: I_CDF_Soldier_base_F
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(10Rnd_9x21_Mag),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange
 	};
 	linkedItems[] =
 	{
-		H_Beret_red,
+		H_MilCap_autumn,
 		V_BandollierB_rgr,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Beret_red,
+		H_MilCap_autumn,
 		V_BandollierB_rgr,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -389,28 +450,29 @@ class I_CDF_Officer_F: I_CDF_Soldier_base_F
 	role = Rifleman;
 	identityTypes[] =
 	{
-		LanguageENGB_F,
+		LanguageRUS_F,
 		Head_Euro,
 		Head_Enoch,
-		Head_Tanoan,
-		G_NATO_casual
+		Head_Russian,
+		Head_Asian,
+		G_RUS_casual
 	};
 };
 class I_CDF_Soldier_SL_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_SL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_I_CDF_Soldier_2_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -418,27 +480,27 @@ class I_CDF_Soldier_SL_F: I_CDF_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
 		arifle_AUG_GL_blk_arco_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_blk_arco_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -453,9 +515,9 @@ class I_CDF_Soldier_SL_F: I_CDF_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -476,7 +538,7 @@ class I_CDF_Soldier_SL_F: I_CDF_Soldier_base_F
 class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_TL_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -487,7 +549,7 @@ class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -495,27 +557,27 @@ class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
 		arifle_AUG_GL_blk_arco_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_blk_arco_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
@@ -529,9 +591,9 @@ class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
@@ -551,7 +613,7 @@ class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 class I_CDF_RadioOperator_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_RadioOperator_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_RadioOperator_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
@@ -561,39 +623,39 @@ class I_CDF_RadioOperator_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_headset_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
     {
-        arifle_AUG_blk_aco_LP_f,
-        hgun_G17_F,
+        arifle_AK12_545_aco_pointer_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AUG_blk_aco_LP_f,
-        hgun_G17_F,
+        arifle_AK12_545_aco_pointer_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_556x45_AUG_Mag_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
@@ -613,7 +675,7 @@ class I_CDF_Soldier_AA_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AA_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AA_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
@@ -623,42 +685,42 @@ class I_CDF_Soldier_AA_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_AssaultPack_khk_ANZACAA_F;
 	weapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
 		launch_B_Titan_olive_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
 		launch_B_Titan_olive_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -684,7 +746,7 @@ class I_CDF_Soldier_AT_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_AT_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
@@ -694,42 +756,42 @@ class I_CDF_Soldier_AT_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_AssaultPack_khk_ANZACAT_F;
 	weapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
 		launch_I_Titan_short_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
 		launch_I_Titan_short_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -755,7 +817,7 @@ class I_CDF_Soldier_LAT_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_LAT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -765,42 +827,42 @@ class I_CDF_Soldier_LAT_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_AssaultPack_khk_ANZACLAT_F;
 	weapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
+		arifle_AK12_545_aco_pointer_F,
 		launch_MRAWS_green_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
+		arifle_AK12_545_aco_pointer_F,
 		launch_MRAWS_green_F,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
 		MRAWS_HEAT_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
 		MRAWS_HEAT_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -814,7 +876,7 @@ class I_CDF_Soldier_LAT_F: I_CDF_Soldier_base_F
 class I_CDF_Engineer_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Engineer_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -824,32 +886,32 @@ class I_CDF_Engineer_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
 		V_CarrierRigKBT_01_light_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_Kitbag_khk_ANZACEng_F;
 	weapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_blk_holo_LP_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
@@ -858,8 +920,8 @@ class I_CDF_Engineer_F: I_CDF_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellGreen,
@@ -888,7 +950,7 @@ class I_CDF_Medic_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Medic_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -898,32 +960,32 @@ class I_CDF_Medic_F: I_CDF_Soldier_base_F
 		H_HelmetHBK_olive_headset_F,
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
 		V_CarrierRigKBT_01_heavy_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_AssaultPack_khk_ANZACMedic_F;
 	weapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_aco_pointer_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_blk_aco_LP_f,
-		hgun_G17_F,
+		arifle_AK12_545_aco_pointer_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellRed,
@@ -932,8 +994,8 @@ class I_CDF_Medic_F: I_CDF_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellRed,
@@ -949,48 +1011,48 @@ class I_CDF_Medic_F: I_CDF_Soldier_base_F
 class I_CDF_Crew_F: I_CDF_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Crew_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_I_CDF_Soldier_2_F;
 	linkedItems[] =
 	{
 		H_HelmetCrew_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetCrew_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
 		DefaultManLinkedItems,
-		NVGoggles_aus_F
+		NVGoggles_OPFOR
 	};
 	weapons[] =
 	{
 		arifle_AUG_C_blk_holo_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_blk_holo_f,
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_AUG_Mag_F),
-		mag_2(17Rnd_9x21_Mag),
+		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         SmokeShell
 	};
@@ -1013,7 +1075,7 @@ class I_CDF_Helipilot_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Helipilot_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
@@ -1023,14 +1085,14 @@ class I_CDF_Helipilot_F: I_CDF_Soldier_base_F
         H_PilotHelmetHeli_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
         DefaultManLinkedItems,
-        NVGoggles_aus_F
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_PilotHelmetHeli_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
         DefaultManLinkedItems,
-        NVGoggles_aus_F
+        NVGoggles_OPFOR
     };
 	weapons[] =
 	{
@@ -1082,7 +1144,7 @@ class I_CDF_Helicrew_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Helicrew_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Helicrew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
@@ -1092,14 +1154,14 @@ class I_CDF_Helicrew_F: I_CDF_Soldier_base_F
         H_CrewHelmetHeli_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
         DefaultManLinkedItems,
-        NVGoggles_aus_F
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_CrewHelmetHeli_B_ANZAC,
 		V_CarrierRigKBT_01_ANZAC_F,
         DefaultManLinkedItems,
-        NVGoggles_aus_F
+        NVGoggles_OPFOR
     };
 	weapons[] =
 	{
@@ -1113,14 +1175,14 @@ class I_CDF_Helicrew_F: I_CDF_Soldier_base_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_4(30Rnd_545x39_black_Mag_F),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_4(30Rnd_545x39_black_Mag_F),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange
@@ -1149,7 +1211,7 @@ class I_CDF_Fighter_Pilot_F: I_CDF_Soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Fighter_Pilot_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_Fighter_Pilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_B_Fighter_Pilot_name;
@@ -1166,24 +1228,24 @@ class I_CDF_Fighter_Pilot_F: I_CDF_Soldier_base_F
     };
 	weapons[] =
 	{
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		hgun_G17_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(10Rnd_9x21_Mag),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange
 	};
 	respawnMagazines[] =
 	{
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(10Rnd_9x21_Mag),
         SmokeShellGreen,
         SmokeShellYellow,
         SmokeShellOrange

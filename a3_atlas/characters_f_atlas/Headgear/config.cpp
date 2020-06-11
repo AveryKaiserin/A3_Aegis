@@ -38,9 +38,50 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	class H_MilCap_ocamo;
-	// Arma 3 Atlas
+	// Arma 3 Tanks
+	class H_Tank_black_F;
+	// Arma 3 Aegis
 	class H_HelmetCrew_B_oli_F;
 	// Arma 3 Atlas
+	class H_HelmetCrew_B_L: H_HelmetCrew_B_oli_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_L0;
+	};
+	class H_HelmetCrew_B_ANZAC: H_HelmetCrew_B_oli_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_ANZAC0;
+	};
+	class H_HelmetCrew_B_HIDF: H_HelmetCrew_I
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_HIDF0;
+		class ItemInfo: ItemInfo
+		{
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+		};
+	};
+	class H_HelmetCrew_I_I: H_HelmetCrew_I
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetCrew_I_I_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetCrew_I_I_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_IA_Helmet_Crew.p3d";
+			modelSides[] =
+			{
+				TGuerrila,
+				TCivilian
+			};
+		};
+	};
 	class H_HelmetSpecter_base_F: HelmetBase
 	{
 		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
@@ -68,6 +109,14 @@ class CfgWeapons
 				};
 			};
 		};
+	};
+	class H_HelmetSpecter_F: H_HelmetSpecter_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecter_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa"};
 	};
 	class H_HelmetSpecter_black_F: H_HelmetSpecter_base_F
 	{
@@ -110,6 +159,18 @@ class CfgWeapons
 			};
 	  	};
 	};
+	class H_HelmetSpecter_headset_F: H_HelmetSpecter_headset_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_headset_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecter_headset_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_autumn_CO.paa"
+		};
+	};
 	class H_HelmetSpecter_black_headset_F: H_HelmetSpecter_headset_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
@@ -119,7 +180,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_black_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_UNO_CO.paa"
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_autumn_CO.paa"
 		};
 	};
 	class H_HelmetSpecter_brown_headset_F: H_HelmetSpecter_headset_base_F
@@ -131,7 +192,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_UNO_CO.paa"
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_autumn_CO.paa"
 		};
 	};
 	class H_HelmetSpecter_cover_base_F: H_HelmetSpecter_base_F
@@ -159,15 +220,17 @@ class CfgWeapons
 			};
 	  	};
 	};
-	class H_HelmetCrew_B_L: H_HelmetCrew_B_oli_F
+	class H_HelmetSpecter_cover_autumn_F: H_HelmetSpecter_cover_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_L0;
-	};
-	class H_PilotHelmetFighter_B_L: H_PilotHelmetFighter_B
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_L0;
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_autumn_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecter_cover_autumn_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_cover_autumn_CO.paa"
+		};
 	};
 	class H_PilotHelmetHeli_B_L: H_PilotHelmetHeli_O
 	{
@@ -186,19 +249,6 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_L0;
-		class ItemInfo: ItemInfo
-		{
-			modelSides[] =
-			{
-				TWest,
-				TCivilian
-			};
-		};
-	};
-	class H_HelmetCrew_B_HIDF: H_HelmetCrew_I
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_HIDF0;
 		class ItemInfo: ItemInfo
 		{
 			modelSides[] =
@@ -234,42 +284,80 @@ class CfgWeapons
 			};
 		};
 	};
-	class H_MilCap_jungle_F: H_MilCap_ocamo
+	class H_MilCap_sard: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_MilCap_jungle_F0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_jungle_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_MilCap_jungle_F_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_sard0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_sard_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_sard_CO.paa"};
 	};
-	class H_Booniehat_jungle_F: H_Booniehat_khk
+	class H_MilCap_jungle: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_jungle_F0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_jungle_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_Booniehat_jungle_F_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_jungle0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_jungle_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_jungle_CO.paa"};
 	};
-	class H_Booniehat_jungle_hs_F: H_Booniehat_jungle_F
+	class H_MilCap_autumn: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_jungle_hs_F_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_jungle_hs_F0;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_autumn0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_autumn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_autumn_CO.paa"};
+	};
+	class H_Booniehat_sard: H_Booniehat_khk
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_sard0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_sard_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_sard_CO.paa"};
+	};
+	class H_Booniehat_sard_hs: H_Booniehat_sard
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_sard_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_sard_hs0;
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-	class H_HelmetCrew_B_ANZAC: H_HelmetCrew_B_oli_F
+	class H_Booniehat_jungle: H_Booniehat_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_ANZAC0;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_jungle0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_jungle_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_jungle_CO.paa"};
 	};
-	class H_PilotHelmetFighter_B_ANZAC: H_PilotHelmetFighter_B
+	class H_Booniehat_jungle_hs: H_Booniehat_jungle
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_ANZAC0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_PilotHelmetFighter_B_ANZAC_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\pilot_helmet_aucamo_CO.paa"};
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_jungle_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_jungle_hs0;
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
+	class H_Booniehat_autumn: H_Booniehat_khk
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_autumn0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_autumn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_autumn_CO.paa"};
+	};
+	class H_Booniehat_autumn_hs: H_Booniehat_autumn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_autumn_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_autumn_hs0;
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
 	};
 	class H_PilotHelmetHeli_B_ANZAC: H_PilotHelmetHeli_B
 	{
@@ -339,22 +427,6 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetI_I_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetI_I_01_CO.paa"};
 	};
-	class H_HelmetCrew_I_I: H_HelmetCrew_I
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetCrew_I_I_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetCrew_I_I_CO.paa"};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_IA_Helmet_Crew.p3d";
-			modelSides[] =
-			{
-				TGuerrila,
-				TCivilian
-			};
-		};
-	};
 	class H_PilotHelmetHeli_I_I: H_PilotHelmetHeli_B
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -364,5 +436,10 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0;
+	};
+	class H_Tank_autumn_F: H_Tank_black_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Tank_autumn_F0;
 	};
 };

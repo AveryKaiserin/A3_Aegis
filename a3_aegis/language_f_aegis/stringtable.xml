@@ -12476,22 +12476,22 @@
 					<Japanese>RPG-42（黒）</Japanese>
 					<Turkish>RPG-42 (Siyah)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0">
-					<Original>Titan MPRL Compact (Black)</Original>
-					<Chinese>Titan 多用途火箭發射器（精簡版）（黑）</Chinese>
-					<French>Titan MPRL compact (Noir)</French>
-					<Spanish>MPRL Titan compacto (negro)</Spanish>
-					<Italian>Titan MPRL compatto (nero)</Italian>
-					<Polish>Wyrzutnia Titan Compact (czarny)</Polish>
-					<Russian>Titan MPRL Compact (черный)</Russian>
-					<German>Titan MPRL Compact (Schwarz)</German>
-					<Czech>Titan MPRL Compact (černý)</Czech>
-					<English>Titan MPRL Compact (Black)</English>
-					<Portuguese>Titan MPRL Compact (Preta)</Portuguese>
-					<Korean>타이탄 MPRL 단축형(흑색)</Korean>
-					<Chinesesimp>Titan MPRL 紧凑型（黑色）</Chinesesimp>
-					<Japanese>Titan MPRL Compact（黒）</Japanese>
-					<Turkish>Titan MPRL Kompakt (Siyah)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0">
+					<Original>Titan MPRL (Camo)</Original>
+					<Chinese>Titan 多用途火箭發射器（迷彩型）</Chinese>
+					<French>Titan MPRL (Camo)</French>
+					<Spanish>MPRL Titan (camuflaje)</Spanish>
+					<Italian>Titan MPRL (mimetico)</Italian>
+					<Polish>Wyrzutnia Titan (kamuflaż)</Polish>
+					<Russian>Titan MPRL (камуфляж)</Russian>
+					<German>Titan MPRL (Flecktarn)</German>
+					<Czech>Titan MPRL (kamufláž)</Czech>
+					<English>Titan MPRL (Camo)</English>
+					<Portuguese>Titan MPRL (Camuflagem)</Portuguese>
+					<Korean>타이탄 MPRL(위장)</Korean>
+					<Chinesesimp>Titan MPRL（迷彩）</Chinesesimp>
+					<Japanese>Titan MPRL（カモフラ）</Japanese>
+					<Turkish>Titan MPRL (Kamuflaj)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_launch_Titan_blk_F0">
 					<Original>Titan MPRL (Black)</Original>
@@ -12509,6 +12509,23 @@
 					<Chinesesimp>Titan MPRL（黑色）</Chinesesimp>
 					<Japanese>Titan MPRL（黒）</Japanese>
 					<Turkish>Titan MPRL (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0">
+					<Original>Titan MPRL Compact (Black)</Original>
+					<Chinese>Titan 多用途火箭發射器（精簡版）（黑）</Chinese>
+					<French>Titan MPRL compact (Noir)</French>
+					<Spanish>MPRL Titan compacto (negro)</Spanish>
+					<Italian>Titan MPRL compatto (nero)</Italian>
+					<Polish>Wyrzutnia Titan Compact (czarny)</Polish>
+					<Russian>Titan MPRL Compact (черный)</Russian>
+					<German>Titan MPRL Compact (Schwarz)</German>
+					<Czech>Titan MPRL Compact (černý)</Czech>
+					<English>Titan MPRL Compact (Black)</English>
+					<Portuguese>Titan MPRL Compact (Preta)</Portuguese>
+					<Korean>타이탄 MPRL 단축형(흑색)</Korean>
+					<Chinesesimp>Titan MPRL 紧凑型（黑色）</Chinesesimp>
+					<Japanese>Titan MPRL Compact（黒）</Japanese>
+					<Turkish>Titan MPRL Kompakt (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_launch_MRAWS_black_F0">
 					<Original>MAAWS Mk4 Mod 1 (Black)</Original>

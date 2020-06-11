@@ -5,9 +5,10 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgLegion.hpp"
-	#include "cfgBlufor_Atlas.hpp"
-	#include "cfgANZAC.hpp"
-	#include "cfgHIDF.hpp"
-	#include "cfgIDF.hpp"
+	#include "cfgLegion.hpp"			// Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgANZAC.hpp"				// ADF
+	#include "cfgHIDF.hpp"				// HIDF
+	#include "cfgCDF.hpp"				// CDF
+	#include "cfgIDF.hpp"				// IDF
 };

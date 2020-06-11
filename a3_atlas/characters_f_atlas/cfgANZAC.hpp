@@ -21,17 +21,17 @@ class B_CombatFatigues_01_aus_F: B_Soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_mcam_aus_CO.paa"};
+	uniformClass = U_B_CombatUniform_aucamo_f;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_aucamo_CO.paa"};
 };
 class B_CombatFatigues_01_Tshirt_aus_F: B_Soldier_AR_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_mcam_aus_tshirt_f;
+	uniformClass = U_B_CombatUniform_aucamo_tshirt_f;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_mcam_aus_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_aucamo_CO.paa",
 		"\A3\Characters_F\Common\Data\basicbody_brown_CO.paa"
 	};
 };
@@ -39,8 +39,8 @@ class B_ReconFatigues_01_aus_F: B_Soldier_SL_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_mcam_aus_CO.paa"};
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_aucamo_CO.paa"};
 };
 class B_ANZAC_PilotCoveralls_01_ANZAC: B_Pilot_F
 {
@@ -52,7 +52,7 @@ class B_ANZAC_PilotCoveralls_01_ANZAC: B_Pilot_F
 		camo,
 		insignia
 	};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\pilot_suit_aus_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\pilot_suit_aucamo_CO.paa"};
 };
 class B_ANZAC_Wetsuit_01_ANZAC: B_diver_F
 {
@@ -76,15 +76,15 @@ class B_ANZAC_Wetsuit_01_ANZAC: B_diver_F
 		"\A3\Characters_F\Data\visors_CA.paa"
 	};
 };
-class B_ANZAC_CBRN_Man_Oversuit_01_Aus_F: B_CBRN_Man_Oversuit_01_MTP_F
+class B_ANZAC_CBRN_Man_Oversuit_01_Aucamo_F: B_CBRN_Man_Oversuit_01_MTP_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	uniformClass = U_B_ANZAC_CBRN_Suit_01_Aus_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Aus_CO.paa"};
+	uniformClass = U_B_ANZAC_CBRN_Suit_01_Aucamo_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Aucamo_CO.paa"};
 };
 class B_ANZAC_Soldier_base_F: B_ANZAC_Man_Base_F
 {
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 };
 class B_ANZAC_Soldier_F: B_ANZAC_Soldier_base_F
 {
@@ -93,7 +93,7 @@ class B_ANZAC_Soldier_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -166,7 +166,7 @@ class B_ANZAC_Soldier_A_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_B_CombatUniform_mcam_aus_f;
+    uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -227,7 +227,7 @@ class B_ANZAC_Soldier_AR_F: B_ANZAC_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_B_CombatUniform_mcam_aus_tshirt_f;
+    uniformClass = U_B_CombatUniform_aucamo_tshirt_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -280,7 +280,7 @@ class B_ANZAC_Soldier_GL_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -336,7 +336,7 @@ class B_ANZAC_soldier_M_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -400,7 +400,7 @@ class B_ANZAC_Officer_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -465,7 +465,7 @@ class B_ANZAC_Soldier_SL_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -542,7 +542,7 @@ class B_ANZAC_Soldier_TL_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -681,7 +681,7 @@ class B_ANZAC_RadioOperator_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -743,7 +743,7 @@ class B_ANZAC_Soldier_AA_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -814,7 +814,7 @@ class B_ANZAC_Soldier_AT_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -885,7 +885,7 @@ class B_ANZAC_Soldier_LAT_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -944,7 +944,7 @@ class B_ANZAC_Engineer_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_F,
@@ -1018,7 +1018,7 @@ class B_ANZAC_Medic_F: B_ANZAC_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-    uniformClass = U_B_CombatUniform_mcam_aus_f;
+    uniformClass = U_B_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
 		H_HelmetHBK_olive_headset_F,
@@ -1079,7 +1079,7 @@ class B_ANZAC_Crew_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_vest_f;
+	uniformClass = U_B_CombatUniform_aucamo_vest_f;
 	linkedItems[] =
 	{
 		H_HelmetCrew_B_ANZAC,
@@ -1143,7 +1143,7 @@ class B_ANZAC_Helipilot_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
     linkedItems[] =
     {
         H_PilotHelmetHeli_B_ANZAC,
@@ -1212,7 +1212,7 @@ class B_ANZAC_Helicrew_F: B_ANZAC_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
-	uniformClass = U_B_CombatUniform_mcam_aus_f;
+	uniformClass = U_B_CombatUniform_aucamo_f;
     linkedItems[] =
     {
         H_CrewHelmetHeli_B_ANZAC,

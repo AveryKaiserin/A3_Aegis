@@ -1704,14 +1704,14 @@ class O_R_soldier_AA_F: O_R_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_AK12U_545_aco_pointer_F,
-		launch_B_Titan_olive_F,
+		launch_O_Titan_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AK12U_545_aco_pointer_F,
-		launch_B_Titan_olive_F,
+		launch_O_Titan_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
