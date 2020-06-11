@@ -119,6 +119,19 @@ class B_HIDF_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_metal.rvmat",
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_chrome.rvmat"
     };
+    animationList[] =
+    {
+        hideLeftDoor,0,
+        hideRightDoor,0,
+        hideRearDoor,0,
+        hideBullbar,0,
+        hideFenders,1,
+        hideHeadSupportFront,1,
+        hideHeadSupportRear,1,
+        hideRollcage,0,
+        hideSeatsRear,0,
+        hideSpareWheel,0
+    };
 };
 class B_HIDF_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 {
@@ -320,6 +333,19 @@ class B_HIDF_Offroad_02_LMG_F: Offroad_02_LMG_base_F
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_metal.rvmat",
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_chrome.rvmat"
     };
+    animationList[] =
+    {
+        hideLeftDoor,0,
+        hideRightDoor,0,
+        hideRearDoor,0,
+        hideBullbar,0,
+        hideFenders,1,
+        hideHeadSupportFront,1,
+        hideHeadSupportRear,1,
+        hideRollcage,0,
+        hideSpareWheel,0,
+        hideSeatsRear,0
+    };
 };
 class B_HIDF_Offroad_02_AT_F: Offroad_02_AT_base_F
 {
@@ -467,5 +493,18 @@ class B_HIDF_Offroad_02_AT_F: Offroad_02_AT_base_F
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_ext_chrome.rvmat",
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_metal.rvmat",
         "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_chrome.rvmat"
+    };
+    animationList[] =
+    {
+        hideLeftDoor,0,
+        hideRightDoor,0,
+        hideRearDoor,0,
+        hideBullbar,0,
+        hideFenders,1,
+        hideHeadSupportFront,1,
+        hideHeadSupportRear,1,
+        hideRollcage,0,
+        hideSpareWheel,0,
+        hideSeatsRear,0
     };
 };
