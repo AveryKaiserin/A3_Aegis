@@ -1099,6 +1099,74 @@
 				</Key>
 			</Container>
 			<Container name="Vests">
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA1_grn0">
+					<Original>GA Carrier Lite (Green)</Original>
+					<Chinese>GA 輕型負載背心（綠）</Chinese>
+					<French>Gilet léger AV (vert)</French>
+					<Spanish>Cartuchera de AAF ligera (verde)</Spanish>
+					<Italian>Gilet leggero aviazione (verde)</Italian>
+					<Polish>Lekka kamizelka GA (zielony)</Polish>
+					<Russian>GA облегченный жилет (зеленый)</Russian>
+					<German>Leichter Boden-Luft-Tragegurt (grün)</German>
+					<Czech>GA nosič plátů - lehký (zelený)</Czech>
+					<English>GA Carrier Lite (Green)</English>
+					<Portuguese>Transportador leve de GA (verde)</Portuguese>
+					<Korean>GA 캐리어 라이트(녹색)</Korean>
+					<Chinesesimp>GA 轻便背心（绿色）</Chinesesimp>
+					<Japanese>GAキャリア・ライト（緑）</Japanese>
+					<Turkish>GA Hafif Taşıyıcı (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0">
+					<Original>GA Carrier Rig (Green)</Original>
+					<Chinese>GA 負載外掛（綠）</Chinese>
+					<French>Gilet modulable léger AV (vert)</French>
+					<Spanish>Cartuchera de AAF (verde)</Spanish>
+					<Italian>Gilet Rig aviazione (verde)</Italian>
+					<Polish>Kamizelka GA (zielony)</Polish>
+					<Russian>GA жилет (зеленый)</Russian>
+					<German>Boden-Luft-Tragegurt (grün)</German>
+					<Czech>GA Nosič plátů (zelený)</Czech>
+					<English>GA Carrier Rig (Green)</English>
+					<Portuguese>Suporte de transportador de GA (verde)</Portuguese>
+					<Korean>GA 캐리어 리그(녹색)</Korean>
+					<Chinesesimp>GA 背心装备（绿色）</Chinesesimp>
+					<Japanese>GAキャリアリグ（緑）</Japanese>
+					<Turkish>GA Taşıyıcı Yelek (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0">
+					<Original>GA Carrier GL Rig (Green)</Original>
+					<Chinese>GA GL 負載外掛（綠）</Chinese>
+					<French>Gilet modulable pour grenadier (vert)</French>
+					<Spanish>Cartuchera de AAF independiente (verde)</Spanish>
+					<Italian>Gilet GL Rig aviazione (verde)</Italian>
+					<Polish>Kamizelka GA grenadiera (zielony)</Polish>
+					<Russian>GA жилет гранатометчика (зеленый)</Russian>
+					<German>Boden-Luft-Granatwerfer-Tragegurt (grün)</German>
+					<Czech>GA GL Nosič plátů (zelený)</Czech>
+					<English>GA Carrier GL Rig (Green)</English>
+					<Portuguese>Suporte de LG de transportador de GA (verde)</Portuguese>
+					<Korean>GA 캐리어 GL 리그(녹색)</Korean>
+					<Chinesesimp>GA 背心 GL 装备（绿色）</Chinesesimp>
+					<Japanese>GAキャリアGLリグ（緑）</Japanese>
+					<Turkish>GA Taşıyıcı GL Yelek (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0">
+					<Original>Rebreather [ADF]</Original>
+					<Chinese>循環呼吸器（ADF）</Chinese>
+					<French>Recycleur [FDA]</French>
+					<Spanish>Mascarilla [FDA]</Spanish>
+					<Italian>Rebreather [FDA]</Italian>
+					<Polish>Aparat oddechowy [ASO]</Polish>
+					<Russian>Ребризер [АСО]</Russian>
+					<German>Tauchgerät [AS]</German>
+					<Czech>Dýchací přístroj [AOS]</Czech>
+					<English>Rebreather [ADF]</English>
+					<Portuguese>Rebreather [FDA]</Portuguese>
+					<Korean>수중호흡기[ADF]</Korean>
+					<Chinesesimp>呼吸器 [ADF]</Chinesesimp>
+					<Japanese>リブリーザー[ADF]</Japanese>
+					<Turkish>Yeniden Solunum Sistemi [ASG]</Turkish>
+				</Key>
 			</Container>
 		</Container>
 		<Container name="Data_F">
