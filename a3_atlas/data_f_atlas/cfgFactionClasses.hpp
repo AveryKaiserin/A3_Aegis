@@ -42,13 +42,12 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_IDF_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_IDF_CO.paa";
 	};
-	/*
-	class BLU_ANZAC_F
+	class BLU_ADF_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_ANZAC_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_ADF_F0;
 		priority = 16;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ANZAC_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ADF_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
 	};
 	class OPF_C_F
@@ -83,5 +82,4 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_UNO_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_UNO_CO.paa";
 	};
-	*/
 };

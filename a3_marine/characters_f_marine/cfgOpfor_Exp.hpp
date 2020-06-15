@@ -45,17 +45,17 @@ class O_T_SoldierM_A_F: O_T_Soldier_A_F
 	backpack = B_Carryall_blk_OTAmmo_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -70,17 +70,17 @@ class O_T_SoldierM_AR_F: O_T_Soldier_AR_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -93,20 +93,20 @@ class O_T_SoldierM_Medic_F: O_T_Medic_F
 	scopeCurator = public;
 	editorSubcategory = EdSubcat_Personnel_Marines;
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
-	backpack = B_FieldPack_blk_OTMedic_F;
+	backpack = B_AssaultPack_blk_OTMedic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -122,17 +122,17 @@ class O_T_Engineer_M_F: O_T_Engineer_F
 	backpack = B_Carryall_blk_OTEng_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -147,17 +147,17 @@ class O_T_SoldierM_GL_F: O_T_Soldier_GL_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
+		H_HelmetSpecO_oceanic,
 		V_HarnessOGL_blk,
-		G_Bandanna_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
+		H_HelmetSpecO_oceanic,
 		V_HarnessOGL_blk,
-		G_Bandanna_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -172,17 +172,17 @@ class O_T_soldierM_M_F: O_T_soldier_M_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -198,17 +198,17 @@ class O_T_SoldierM_AA_F: O_T_Soldier_AA_F
 	backpack = B_FieldPack_blk_OTAA_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -224,17 +224,17 @@ class O_T_SoldierM_AT_F: O_T_Soldier_AT_F
 	backpack = B_FieldPack_blk_OTAT_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -249,17 +249,17 @@ class O_T_SoldierM_F: O_T_Soldier_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -275,17 +275,17 @@ class O_T_SoldierM_LAT_F: O_T_Soldier_LAT_F
 	backpack = B_FieldPack_blk_OTLAT_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -300,17 +300,17 @@ class O_T_SoldierM_SL_F: O_T_Soldier_SL_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetLeaderO_oceanic,
+		V_HarnessOGL_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_TacVest_blk,
-		G_Bandanna_blk,
+		H_HelmetLeaderO_oceanic,
+		V_HarnessOGL_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -325,17 +325,17 @@ class O_T_SoldierM_TL_F: O_T_Soldier_TL_F
 	uniformClass = U_O_T_CombatUniform_oceanic_F;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
+		H_HelmetLeaderO_oceanic,
 		V_HarnessOGL_blk,
-		G_Bandanna_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
+		H_HelmetLeaderO_oceanic,
 		V_HarnessOGL_blk,
-		G_Bandanna_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
@@ -349,17 +349,17 @@ class O_T_Marine_RadioOperator_F: O_T_SoldierM_F
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	linkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetAggressor_black_F,
-		V_HarnessO_blk,
-		G_Bandanna_blk,
+		H_HelmetSpecO_oceanic,
+		V_HarnessOSpec_blk,
+		G_Balaclava_light_blk_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};

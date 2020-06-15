@@ -147,7 +147,7 @@ class B_Carryall_green_Ammo_F: B_Carryall_green_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,6);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,6);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,1);
 		mag_xx(RPG32_F,1);
 		mag_xx(HandGrenade,2);

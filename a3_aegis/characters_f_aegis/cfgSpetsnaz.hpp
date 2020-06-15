@@ -34,8 +34,8 @@ class O_R_Soldier_TL_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
-        mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -50,8 +50,8 @@ class O_R_Soldier_TL_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
-        mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -83,7 +83,7 @@ class O_R_Soldier_GL_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -92,7 +92,7 @@ class O_R_Soldier_GL_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -119,7 +119,7 @@ class O_R_soldier_exp_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
@@ -127,7 +127,7 @@ class O_R_soldier_exp_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
@@ -218,7 +218,7 @@ class O_R_medic_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -228,7 +228,7 @@ class O_R_medic_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -258,7 +258,7 @@ class O_R_Soldier_LAT_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
         mag_2(HandGrenade),
@@ -266,7 +266,7 @@ class O_R_Soldier_LAT_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
         mag_2(HandGrenade),
@@ -294,7 +294,7 @@ class O_R_JTAC_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -305,7 +305,7 @@ class O_R_JTAC_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -920,14 +920,14 @@ class O_R_Soldier_A_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_12(30Rnd_545x39_black_Mag_F),
+		mag_12(30Rnd_545x39_AK12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade),
 		mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_12(30Rnd_545x39_black_Mag_F),
+		mag_12(30Rnd_545x39_AK12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade),
 		mag_2(SmokeShell)
@@ -972,7 +972,7 @@ class O_R_Soldier_AAR_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -980,7 +980,7 @@ class O_R_Soldier_AAR_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1025,7 +1025,7 @@ class O_R_support_AMG_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1033,7 +1033,7 @@ class O_R_support_AMG_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1078,7 +1078,7 @@ class O_R_support_AMort_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1086,7 +1086,7 @@ class O_R_support_AMort_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1133,7 +1133,7 @@ class O_R_Soldier_AHAT_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1141,7 +1141,7 @@ class O_R_Soldier_AHAT_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1188,7 +1188,7 @@ class O_R_Soldier_AAA_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1196,7 +1196,7 @@ class O_R_Soldier_AAA_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1243,7 +1243,7 @@ class O_R_Soldier_AAT_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1251,7 +1251,7 @@ class O_R_Soldier_AAT_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1295,14 +1295,14 @@ class O_R_crew_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade,
         SmokeShell
@@ -1348,7 +1348,7 @@ class O_R_engineer_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -1358,7 +1358,7 @@ class O_R_engineer_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
@@ -1419,7 +1419,7 @@ class O_R_support_GMG_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1427,7 +1427,7 @@ class O_R_support_GMG_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1473,7 +1473,7 @@ class O_R_support_MG_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1481,7 +1481,7 @@ class O_R_support_MG_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1527,7 +1527,7 @@ class O_R_support_Mort_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1535,7 +1535,7 @@ class O_R_support_Mort_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_545x39_black_Mag_F),
+        mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(O_R_IR_Grenade),
@@ -1653,14 +1653,14 @@ class O_R_helicrew_F: O_R_helipilot_F
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         SmokeShellRed,
         SmokeShellOrange,
         SmokeShellYellow
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         SmokeShellRed,
         SmokeShellOrange,
         SmokeShellYellow
@@ -1717,7 +1717,7 @@ class O_R_soldier_AA_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -1725,7 +1725,7 @@ class O_R_soldier_AA_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -1772,20 +1772,20 @@ class O_R_soldier_AT_F: O_R_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_AK12U_545_aco_pointer_F,
-		launch_I_Titan_short_F,
+		launch_O_Titan_short_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AK12U_545_aco_pointer_F,
-		launch_I_Titan_short_F,
+		launch_O_Titan_short_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -1793,7 +1793,7 @@ class O_R_soldier_AT_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -1862,7 +1862,7 @@ class O_R_officer_F: O_R_Soldier_Base_F
 	};
 	magazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         mag_2(6Rnd_9x33_Cylinder),
         SmokeShellRed,
         SmokeShellOrange,
@@ -1870,7 +1870,7 @@ class O_R_officer_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
         mag_2(6Rnd_9x33_Cylinder),
         SmokeShellRed,
         SmokeShellOrange,
@@ -1917,14 +1917,14 @@ class O_R_soldier_repair_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1972,14 +1972,14 @@ class O_R_Soldier_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-		mag_10(30Rnd_545x39_black_Mag_F),
+		mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_10(30Rnd_545x39_black_Mag_F),
+		mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2036,7 +2036,7 @@ class O_R_Soldier_HAT_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Vorona_HEAT,
         mag_2(HandGrenade),
@@ -2044,7 +2044,7 @@ class O_R_Soldier_HAT_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-		mag_6(30Rnd_545x39_black_Mag_F),
+		mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Vorona_HEAT,
         mag_2(HandGrenade),
@@ -2097,13 +2097,13 @@ class O_R_Soldier_lite_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_4(30Rnd_545x39_AK12_Mag_F),
         HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
-		mag_4(30Rnd_545x39_black_Mag_F),
+		mag_4(30Rnd_545x39_AK12_Mag_F),
         HandGrenade,
         SmokeShell
     };
@@ -2202,8 +2202,8 @@ class O_R_Soldier_SL_F: O_R_Soldier_Base_F
     };
 	magazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
-        mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -2219,8 +2219,8 @@ class O_R_Soldier_SL_F: O_R_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_black_Mag_F),
-        mag_2(30Rnd_545x39_black_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -2274,14 +2274,14 @@ class O_R_Soldier_CBRN_F: O_R_Soldier_F
     };
     magazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2326,14 +2326,14 @@ class O_R_RadioOperator_F: O_R_Soldier_F
     };
     magazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2378,14 +2378,14 @@ class O_R_soldier_UAV_F: O_R_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_545x39_black_Mag_F),
+        mag_10(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2413,7 +2413,7 @@ class O_R_soldier_UGV_02_Demining_F: O_R_Soldier_UAV_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
-	backpack = O_UGV_02_Demining_backpack_F;
+	backpack = O_R_UGV_02_Demining_backpack_F;
 };
 class O_R_soldier_UGV_02_Science_F: O_R_Soldier_UAV_F
 {
@@ -2422,7 +2422,7 @@ class O_R_soldier_UGV_02_Science_F: O_R_Soldier_UAV_F
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
-	backpack = O_UGV_02_Science_backpack_F;
+	backpack = O_R_UGV_02_Science_backpack_F;
 };
 class O_R_Soldier_diver_base: O_R_Soldier_Base_F
 {
@@ -2806,7 +2806,7 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -2818,7 +2818,7 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -3051,14 +3051,12 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	items[] =
 	{
 		FirstAidKit,
-		optic_Nightstalker,
-		muzzle_snds_93mmg
+		optic_Nightstalker
 	};
 	respawnItems[] =
 	{
 		FirstAidKit,
-		optic_Nightstalker,
-		muzzle_snds_93mmg
+		optic_Nightstalker
 	};
 	linkedItems[] =
 	{
@@ -3133,7 +3131,7 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -3145,7 +3143,7 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
@@ -3170,9 +3168,20 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
 		O_NVGoggles_grn_F
 	};
 };
-class O_R_Fighter_Pilot_F: O_R_helipilot_F
+class O_R_Fighter_Pilot_F: O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_pilot_s};
+			speechPlural[] = {veh_infantry_pilot_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+	nameSound = veh_infantry_pilot_s;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Fighter_Pilot_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -3215,6 +3224,15 @@ class O_R_Fighter_Pilot_F: O_R_helipilot_F
 	camouflage = 2;
     cost = 165000;
     role = Crewman;
+	identityTypes[] =
+	{
+		LanguageRUS_F,
+		Head_Euro,
+		Head_Enoch,
+		Head_Russian,
+		Head_Asian,
+		G_RUS_pilot
+	};
 };
 class O_R_Soldier_A_ard_F: O_R_Soldier_A_F
 {

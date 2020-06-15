@@ -466,6 +466,20 @@ class O_T_Soldier_GL_F: O_Soldier_GL_F
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
+	linkedItems[] =
+	{
+		H_HelmetO_ghex_F,
+		V_HarnessOGL_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetO_ghex_F,
+		V_HarnessOGL_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
 };
 class O_T_Support_GMG_F: O_support_GMG_F
 {

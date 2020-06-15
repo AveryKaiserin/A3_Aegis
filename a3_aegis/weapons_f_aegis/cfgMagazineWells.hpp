@@ -5,12 +5,12 @@ class CfgMagazineWells
     {
         Aegis_Magazines[] =
         {
-            30Rnd_545x39_black_Mag_F,
-            30Rnd_545x39_black_Mag_Tracer_F,
-            30Rnd_545x39_lush_Mag_F,
-            30Rnd_545x39_lush_Mag_Tracer_F,
-            30Rnd_545x39_arid_Mag_F,
-            30Rnd_545x39_arid_Mag_Tracer_F
+            30Rnd_545x39_AK12_Mag_F,
+            30Rnd_545x39_AK12_Mag_Tracer_F,
+            30Rnd_545x39_AK12_Lush_Mag_F,
+            30Rnd_545x39_AK12_Lush_Mag_Tracer_F,
+            30Rnd_545x39_AK12_Arid_Mag_F,
+            30Rnd_545x39_AK12_Arid_Mag_Tracer_F
         };
     };
 	class M14_762x51
@@ -41,14 +41,6 @@ class CfgMagazineWells
 			20Rnd_556x45_Stanag_Tracer_Yellow,
 			20Rnd_556x45_Stanag_red,
 			20Rnd_556x45_Stanag_green
-		};
-	};
-	class STANAG_556x45_MSBS
-	{
-		Aegis_Magazines[] =
-		{
-			30Rnd_556x45_msbs_mag,
-			30Rnd_556x45_msbs_mag_Tracer
 		};
 	};
 	class M32_40x36
@@ -87,6 +79,10 @@ class CfgMagazineWells
 	class C1911_45ACP
 	{
 		Aegis_Magazines[] = {7Rnd_45ACP_Mag};
+	};
+	class G17_9x21
+	{
+		Aegis_Magazines[] = {17Rnd_9x21_Mag};
 	};
 	class Mk26_127x33
 	{

@@ -28,7 +28,7 @@ class CfgWeapons
 			libTextDesc = $STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F_Library0;
 		};
 		reloadAction = GestureReloadFlaregun;
-		recoil = recoil_pistol_rsh42;
+		recoil = recoil_pistol_mp412;
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Pistols\Pistol_Heavy_03\Data\Pistol_Heavy_03_CO.paa"};
 		modes[] = {Single};

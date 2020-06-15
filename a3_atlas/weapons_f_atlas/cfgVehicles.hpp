@@ -108,6 +108,7 @@ class CfgVehicles
 		};
 	};
     // Arma 3 Atlas
+	ITEM_HOLDER(NVGoggles_aucamo_F,$STR_A3_A_CfgWeapons_NVGoggles_aucamo_F0,"\A3\Weapons_F\DummyNVG.p3d")
 	ACC_HOLDER(optic_LRCO_blk_F,$STR_A3_A_CfgWeapons_optic_LRCO_blk_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
 	ACC_HOLDER(optic_LRCO_snd_F,$STR_A3_A_CfgWeapons_optic_LRCO_snd_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
 };

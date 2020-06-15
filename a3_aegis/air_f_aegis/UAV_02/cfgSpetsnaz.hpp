@@ -68,4 +68,59 @@ class O_R_UAV_02_dynamicLoadout_F: O_UAV_02_dynamicLoadout_F
 	typicalCargo[] = {O_UAV_AI};
 	textureList[] = {Rus,1};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_02\Data\UAV_02_RUS_CO.paa"};
+	class Components: Components
+	{
+		class TransportPylonsComponent: TransportPylonsComponent
+		{
+			UIPicture = "\A3\Drones_F\Air_F_Gamma\UAV_02\Data\UI\UAV_02_base_EDEN_F.paa";
+			class pylons: pylons
+			{
+				class pylons1: pylons1
+				{
+					hardpoints[] =
+					{
+						O_BOMB_PYLON,
+						O_MISSILE_PYLON,
+						UNI_SCALPEL
+					};
+					attachment = PylonRack_6Rnd_Vikhr_missiles;
+				};
+				class pylons2: pylons1
+				{
+					UIposition[] =
+					{
+						0.33, // X
+						0.15 // Y
+					};
+					mirroredMissilePos = 1;
+				};
+			};
+			class presets
+			{
+				class empty
+				{
+					displayName = $STR_empty;
+					attachment[] = {};
+				};
+				class default
+				{
+					displayName = $STR_vehicle_default;
+					attachment[] =
+					{
+						PylonRack_6Rnd_Vikhr_missiles,
+						PylonRack_6Rnd_Vikhr_missiles
+					};
+				};
+				class CAS
+				{
+					displayName = $STR_A3_SHOWCASE_FIXEDWINGS_BIS_TSKAAF_WP;
+					attachment[] =
+					{
+						PylonMissile_1Rnd_Bomb_03_F,
+						PylonMissile_1Rnd_Bomb_03_F
+					};
+				};
+			};
+		};
+	};
 };

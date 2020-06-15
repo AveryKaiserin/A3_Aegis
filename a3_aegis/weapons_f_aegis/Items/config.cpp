@@ -43,4 +43,19 @@ class CfgWeapons
         	hiddenSelections[] = {camo};
 		};
 	};
+	class ItemSmartPhone: ItemCore
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_ItemSmartPhone0;
+		descriptionUse = $STR_A3_CfgWeapons_Default_ItemGPS0;
+		simulation = ItemGPS;
+		picture = "\A3\Missions_F_Oldman\Props\Data\SmartPhone_CA.paa";
+		model = "\A3\Structures_F\Items\Electronics\MobilePhone_smart_F.p3d";
+		descriptionShort = $STR_A3_CfgWeapons_ItemGPS1;
+		class ItemInfo
+		{
+			mass = 5;
+		};
+	};
 };

@@ -112,45 +112,8 @@ class CfgVehicles
 	class Pistol_Base_F;
 	class Launcher_Base_F;
 	class Item_Base_F;
-	// Arma 3 Apex
-	class Weapon_arifle_AK12_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_F0;
-	};
-	class Weapon_arifle_AK12_GL_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_F0;
-	};
-	// Arma 3 Contact
+	// Arma 3 Enoch
 	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
-	class Weapon_arifle_AK12_lush_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_lush_F0;
-	};
-	class Weapon_arifle_AK12_arid_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_arid_F0;
-	};
-	class Weapon_arifle_AK12_GL_lush_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_lush_F0;
-	};
-	class Weapon_arifle_AK12_GL_arid_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_arid_F0;
-	};
-	class Weapon_arifle_AK12U_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12U_F0;
-	};
-	class Weapon_arifle_AK12U_lush_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12U_lush_F0;
-	};
-	class Weapon_arifle_AK12U_arid_F: Weapon_Base_F
-	{
-	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12U_arid_F0;
-	};
 	// Arma 3 Aegis
 	/*
 	ITEM_HOLDER(Laserdesignator_02_blk_F,$STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0,"\A3\Weapons_F\DummyBinoc.p3d")
@@ -158,7 +121,9 @@ class CfgVehicles
 	*/
 	ITEM_HOLDER(Laserdesignator_04,$STR_A3_A_CfgWeapons_Laserdesignator_040,"\A3\Weapons_F\DummyBinoc.p3d")
 	LAUNCHER_HOLDER(launch_RPG32_black_F,$STR_A3_A_CfgWeapons_launch_RPG32_black_F0,RPG32_F)
+	LAUNCHER_HOLDER(launch_O_Titan_camo_F,$STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0,Titan_AA)
 	LAUNCHER_HOLDER(launch_Titan_blk_F,$STR_A3_A_CfgWeapons_launch_Titan_blk_F0,Titan_AA)
+	LAUNCHER_HOLDER(launch_O_Titan_short_camo_F,$STR_A3_A_CfgWeapons_launch_O_Titan_short_camo_F0,Titan_AT)
 	LAUNCHER_HOLDER(launch_Titan_short_blk_F,$STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0,Titan_AT)
 	WEAPON_HOLDER(srifle_EBR_blk_F,$STR_A3_A_CfgWeapons_srifle_EBR_blk_F0,EdSubcat_SniperRifles,20Rnd_762x51_Mag)
 	WEAPON_HOLDER(srifle_EBR_khk_F,$STR_A3_A_CfgWeapons_srifle_EBR_khk_F0,EdSubcat_SniperRifles,20Rnd_762x51_Mag)
@@ -180,15 +145,6 @@ class CfgVehicles
 	WEAPON_HOLDER(arifle_TRG21_black_F,$STR_A3_A_CfgWeapons_arifle_TRG21_black_F0,EdSubcat_AssaultRifles,30Rnd_556x45_Stanag)
 	WEAPON_HOLDER(arifle_TRG20_black_F,$STR_A3_A_CfgWeapons_arifle_TRG20_black_F0,EdSubcat_AssaultRifles,30Rnd_556x45_Stanag)
 	WEAPON_HOLDER(arifle_TRG21_GL_black_F,$STR_A3_A_CfgWeapons_arifle_TRG21_GL_black_F0,EdSubcat_AssaultRifles,30Rnd_556x45_Stanag)
-	WEAPON_HOLDER(arifle_AK12_545_F,$STR_A3_A_CfgWeapons_arifle_AK12_545_F0,EdSubcat_AssaultRifles,30Rnd_545x39_black_Mag_F)
-	WEAPON_HOLDER(arifle_AK12_GL_545_F,$STR_A3_A_CfgWeapons_arifle_AK12_GL_545_F0,EdSubcat_AssaultRifles,30Rnd_545x39_black_Mag_F)
-	WEAPON_HOLDER(arifle_AK12_545_lush_F,$STR_A3_A_CfgWeapons_arifle_AK12_545_lush_F0,EdSubcat_AssaultRifles,30Rnd_545x39_lush_Mag_F)
-	WEAPON_HOLDER(arifle_AK12_545_arid_F,$STR_A3_A_CfgWeapons_arifle_AK12_545_arid_F0,EdSubcat_AssaultRifles,30Rnd_545x39_arid_Mag_F)
-	WEAPON_HOLDER(arifle_AK12_GL_545_lush_F,$STR_A3_A_CfgWeapons_arifle_AK12_545_GL_lush_F0,EdSubcat_AssaultRifles,30Rnd_545x39_lush_Mag_F)
-	WEAPON_HOLDER(arifle_AK12_GL_545_arid_F,$STR_A3_A_CfgWeapons_arifle_AK12_545_GL_arid_F0,EdSubcat_AssaultRifles,30Rnd_545x39_arid_Mag_F)
-	WEAPON_HOLDER(arifle_AK12U_545_F,$STR_A3_A_CfgWeapons_arifle_AK12U_545_F0,EdSubcat_AssaultRifles,30Rnd_545x39_black_Mag_F)
-	WEAPON_HOLDER(arifle_AK12U_545_lush_F,$STR_A3_A_CfgWeapons_arifle_AK12U_545_lush_F0,EdSubcat_AssaultRifles,30Rnd_545x39_lush_Mag_F)
-	WEAPON_HOLDER(arifle_AK12U_545_arid_F,$STR_A3_A_CfgWeapons_arifle_AK12U_545_arid_F0,EdSubcat_AssaultRifles,30Rnd_545x39_arid_Mag_F)
 	WEAPON_HOLDER(SMG_01_black_F,$STR_A3_A_CfgWeapons_SMG_01_black_F0,EdSubcat_SubMachineGuns,30Rnd_45ACP_Mag_SMG_01)
 	WEAPON_HOLDER(SMG_01_khk_F,$STR_A3_A_CfgWeapons_SMG_01_khk_F0,EdSubcat_SubMachineGuns,30Rnd_45ACP_Mag_SMG_01)
 	ACC_HOLDER(muzzle_snds_pistol_heavy_01,$STR_A3_A_CfgWeapons_muzzle_snds_pistol_heavy_010,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)

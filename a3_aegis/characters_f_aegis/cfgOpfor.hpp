@@ -176,14 +176,14 @@ class O_Soldier_GL_F: O_Soldier_base_F
     };
     linkedItems[] =
     {
-        H_HelmetLeaderO_ocamo,
+        H_HelmetO_ocamo,
         V_HarnessOGL_brn,
         DefaultManLinkedItems,
         O_NVGoggles_hex_F
     };
     respawnLinkedItems[] =
     {
-        H_HelmetLeaderO_ocamo,
+        H_HelmetO_ocamo,
         V_HarnessOGL_brn,
         DefaultManLinkedItems,
         O_NVGoggles_hex_F
@@ -2279,14 +2279,14 @@ class O_SoldierU_GL_F: O_Soldier_Urban_base
     };
     linkedItems[] =
     {
-        H_HelmetLeaderO_oucamo,
+        H_HelmetO_oucamo,
         V_HarnessOGL_gry,
         DefaultManLinkedItems,
         O_NVGoggles_urb_F
     };
     respawnLinkedItems[] =
     {
-        H_HelmetLeaderO_oucamo,
+        H_HelmetO_oucamo,
         V_HarnessOGL_gry,
         DefaultManLinkedItems,
         O_NVGoggles_urb_F

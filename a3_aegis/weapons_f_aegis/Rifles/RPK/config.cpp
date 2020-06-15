@@ -13,8 +13,6 @@ class CfgWeapons
 		class GunParticles;
 	};
 	class UGL_F;
-
-	// arsenal weapons
 	class arifle_RPK_base_F: Rifle_Base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\RPK_F.p3d";
@@ -31,7 +29,11 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Rifles\AKM\Data\Anim\AKM.rtm"
 		};
 		reloadAction = GestureReloadAKM;
-		magazines[] = {75Rnd_762x39_Mag_F};
+		magazines[] =
+		{
+			75Rnd_762x39_Mag_F,
+			75Rnd_762x39_Mag_Tracer_F
+		};
 		magazineWell[] = {AK_762x39};
 		magazineReloadSwitchPhase = 0.48;
 		discreteDistance[] =
@@ -53,40 +55,13 @@ class CfgWeapons
 		recoil = recoil_rpk;
 		deployedPivot = bipod;
 		hasBipod = true;
-		bullet1[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_01",db-6,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_02",db-6,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_03",db-6,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_04",db-6,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_01",db-8,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_02",db-8,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_03",db-8,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_04",db-8,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_01",db-12,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_02",db-12,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_03",db-12,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_04",db-12,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
-		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class MuzzleSlot{};
 			class CowsSlot{};
 			class PointerSlot{};
 			class UnderBarrelSlot{};
-			mass = 160;
+			mass = 155;
 		};
 		modes[] =
 		{
@@ -96,7 +71,7 @@ class CfgWeapons
 	  	};
 		class Single: Mode_SemiAuto
 		{
-			reloadTime = 0.1;
+			reloadTime = 0.1; // 600 RPM
 			dispersion = 0.00116;
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -107,7 +82,7 @@ class CfgWeapons
 	  	};
 		class FullAuto: Mode_FullAuto
 		{
-			reloadTime = 0.1;
+			reloadTime = 0.1; // 600 RPM
 			dispersion = 0.00116;
 			minRange = 2;
 			minRangeProbab = 0.9;

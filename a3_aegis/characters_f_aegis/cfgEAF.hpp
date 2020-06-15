@@ -1694,6 +1694,7 @@ class I_E_Soldier_sniper_base: I_E_Soldier_Base_F
 	primaryAmmoCoef = 0.2;
 	secondaryAmmoCoef = 0.05;
 	handgunAmmoCoef = 0.1;
+	canHideBodies = true;
 	items[] =
 	{
 		FirstAidKit,

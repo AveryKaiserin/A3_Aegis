@@ -12457,6 +12457,23 @@
 					<Japanese>UAV ターミナル［ロシア］</Japanese>
 					<Turkish>İHA Terminali [Rusya]</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_ItemSmartPhone0">
+					<Original>Mobile Phone</Original>
+					<Chinese>手機</Chinese>
+					<French>Téléphone portable</French>
+					<Spanish>Teléfono móvil</Spanish>
+					<Italian>Cellulare</Italian>
+					<Polish>Telefon komórkowy</Polish>
+					<Russian>Смартфон</Russian>
+					<German>Mobiltelefon</German>
+					<Czech>Mobil</Czech>
+					<English>Mobile Phone</English>
+					<Portuguese>Celular</Portuguese>
+					<Korean>휴대폰</Korean>
+					<Chinesesimp>手机</Chinesesimp>
+					<Japanese>携帯電話</Japanese>
+					<Turkish>Cep Telefonu</Turkish>
+				</Key>
 			</Container>
 			<Container name="Launchers">
 				<Key ID="STR_A3_A_CfgWeapons_launch_RPG32_black_F0">

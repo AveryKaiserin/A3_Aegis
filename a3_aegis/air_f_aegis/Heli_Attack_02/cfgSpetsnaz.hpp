@@ -160,7 +160,7 @@ class O_R_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_base_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportWeapons
 	{

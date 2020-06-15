@@ -41,26 +41,28 @@ class CfgMagazines
 		displayName = $STR_A3_A_CfgMagazines_I_I_IR_Grenade0;
 		descriptionShort = $STR_A3_A_CfgMagazines_I_I_IR_Grenade1;
 	};
-	/*
 	class 30Rnd_556x45_AUG_Mag_F: 30Rnd_556x45_Stanag
 	{
-		picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_F_CA.paa";
+		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.56 mm 30Rnd EF90 Mag";
+		displayName = "5.56 mm 30Rnd AUG Mag";
 		modelSpecial = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Mag_556x45_AUG_30Rnd.p3d";
 		ammo = B_556x45_Ball_Tracer_Red;
-		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_blk_F_CO.paa"};
+		/*
+		hiddenSelections[] = {Camo};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_blk_F_CA.paa"};
+		*/
 	};
 	class 30Rnd_556x45_AUG_Mag_Tracer_F: 30Rnd_556x45_AUG_Mag_F
 	{
-		picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_Tracer_F_CA.paa";
+		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_Tracer_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.56 mm 30Rnd EF90 Tracer Mag";
+		displayName = "5.56 mm 30Rnd AUG Tracer Mag";
 		displayNameShort = $STR_A3_TRACER_DNS;
 		tracersEvery = 1;
 		lastRoundsTracer = 30;
 	};
+	/*
 	class 30Rnd_556x45_AUG_Khaki_Mag_F: 30Rnd_556x45_AUG_Mag_F
 	{
 		picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Khaki_Mag_F_CA.paa";

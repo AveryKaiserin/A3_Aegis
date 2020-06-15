@@ -201,8 +201,35 @@ class CfgWeapons
 			};
 		};
 	};
-	class hgun_G17_F: Pistol_Base_F
+	class hgun_G17_base_F: Pistol_Base_F
 	{
+		bullet1[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_01",db-6,1,15};
+		bullet2[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_02",db-6,1,15};
+		bullet3[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_03",db-6,1,15};
+		bullet4[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_04",db-6,1,15};
+		bullet5[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_01",db-8,1,15};
+		bullet6[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_02",db-8,1,15};
+		bullet7[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_03",db-8,1,15};
+		bullet8[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_04",db-8,1,15};
+		bullet9[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_01",db-13,1,15};
+		bullet10[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_02",db-13,1,15};
+		bullet11[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_03",db-13,1,15};
+		bullet12[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_04",db-13,1,15};
+		soundBullet[] =
+		{
+			bullet1,1/12,
+			bullet2,1/12,
+			bullet3,1/12,
+			bullet4,1/12,
+			bullet5,1/12,
+			bullet6,1/12,
+			bullet7,1/12,
+			bullet8,1/12,
+			bullet9,1/12,
+			bullet10,1/12,
+			bullet11,1/12,
+			bullet12,1/12
+		};
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_dry",db-8,1,20};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_reload",db0,1,10};
 		class Single: Mode_SemiAuto
@@ -679,6 +706,33 @@ class CfgWeapons
 	};
 	class arifle_RPK_base_F: Rifle_Base_F
 	{
+		bullet1[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_01",db-6,1,15};
+		bullet2[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_02",db-6,1,15};
+		bullet3[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_03",db-6,1,15};
+		bullet4[] = {"\A3\Sounds_F\weapons\shells\7_62\metal_762_04",db-6,1,15};
+		bullet5[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_01",db-8,1,15};
+		bullet6[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_02",db-8,1,15};
+		bullet7[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_03",db-8,1,15};
+		bullet8[] = {"\A3\Sounds_F\weapons\shells\7_62\dirt_762_04",db-8,1,15};
+		bullet9[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_01",db-12,1,15};
+		bullet10[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_02",db-12,1,15};
+		bullet11[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_03",db-12,1,15};
+		bullet12[] = {"\A3\Sounds_F\weapons\shells\7_62\grass_762_04",db-12,1,15};
+		soundBullet[] =
+		{
+			bullet1,1/12,
+			bullet2,1/12,
+			bullet3,1/12,
+			bullet4,1/12,
+			bullet5,1/12,
+			bullet6,1/12,
+			bullet7,1/12,
+			bullet8,1/12,
+			bullet9,1/12,
+			bullet10,1/12,
+			bullet11,1/12,
+			bullet12,1/12
+		};
 		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
 		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
 		drySound[] = {"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_dry",db-15,1,10};

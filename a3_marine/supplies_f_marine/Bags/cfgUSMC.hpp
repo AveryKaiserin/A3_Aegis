@@ -12,6 +12,10 @@ class B_Carryall_cbr_BUSMCAmmo_F: B_Carryall_cbr
 		mag_xx(1Rnd_HE_Grenade_shell,3);
 		mag_xx(3Rnd_HE_Grenade_shell,1);
 	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
+	};
 };
 class B_AssaultPack_cbr_BUSMCAA_F: B_AssaultPack_cbr
 {

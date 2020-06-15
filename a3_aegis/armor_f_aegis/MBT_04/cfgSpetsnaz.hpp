@@ -204,7 +204,7 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportItems
 	{
@@ -426,7 +426,7 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportItems
 	{

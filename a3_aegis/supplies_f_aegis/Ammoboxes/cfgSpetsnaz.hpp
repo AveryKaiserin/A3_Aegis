@@ -121,7 +121,7 @@ class Box_RU_Wps_F: Box_East_Wps_F
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_545x39_black_Mag_F,8);
+        mag_xx(30Rnd_545x39_AK12_Mag_F,8);
         mag_xx(75Rnd_762x39_AK12_Mag_F,2);
         mag_xx(10Rnd_93x64_DMR_05_Mag,2);
         mag_xx(30Rnd_762x39_AK12_Lush_Mag_F,4);
@@ -242,7 +242,7 @@ class Box_RU_Ammo_F: Box_East_Ammo_F
     };
 	class TransportMagazines
 	{
-        mag_xx(30Rnd_545x39_black_Mag_F,48);
+        mag_xx(30Rnd_545x39_AK12_Mag_F,48);
         mag_xx(75Rnd_762x39_AK12_Mag_F,16);
         mag_xx(10Rnd_93x64_DMR_05_Mag,12);
         mag_xx(30Rnd_762x39_AK12_Lush_Mag_F,24);
@@ -461,7 +461,7 @@ class Box_RU_WpsLaunch_F: Box_East_WpsLaunch_F
 	class TransportWeapons
 	{
 		weap_xx(launch_O_Titan_camo_F,1);
-		weap_xx(launch_I_Titan_short_F,1);
+		weap_xx(launch_O_Titan_short_camo_F,1);
 		weap_xx(launch_RPG32_green_F,1);
 		weap_xx(launch_O_Vorona_green_F,1);
 	};
@@ -531,7 +531,7 @@ class O_R_supplyCrate_F: ReammoBox_F
 	{
 		mag_xx(17Rnd_9x21_Mag,6);
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
-		mag_xx(30Rnd_545x39_black_Mag_F,24);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
 		mag_xx(10Rnd_93x64_DMR_05_Mag,6);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(1Rnd_HE_Grenade_shell,6);

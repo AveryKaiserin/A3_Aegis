@@ -201,7 +201,7 @@ class O_R_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,12);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);

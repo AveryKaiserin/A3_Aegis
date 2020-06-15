@@ -6,6 +6,7 @@ class CfgVehicles
 	class UAV;
 	class UAV_02_base_F: UAV
 	{
+		class Components;
 		class TextureSources
 		{
 			class Blufor
@@ -26,9 +27,28 @@ class CfgVehicles
 			};
 		};
 	};
-	class UAV_02_dynamicLoadout_base_F: UAV_02_base_F{};
+	class UAV_02_dynamicLoadout_base_F: UAV_02_base_F
+	{
+		class Components: Components
+		{
+			class TransportPylonsComponent
+			{
+				class pylons
+				{
+					class pylons1;
+					class pylons2;
+				};
+				class presets
+				{
+					class empty;
+					class default;
+					class CAS;
+				};
+			};
+		};
+	};
 	class B_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
-	class O_UAV_02_dynamicLoadout_F;
+	class O_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
 	#include "cfgBlufor_Exp.hpp"
 	#include "cfgBlufor_Enoch.hpp"

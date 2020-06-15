@@ -59,8 +59,8 @@ class O_R_Static_AA_F: O_static_AA_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
-		"\A3\Weapons_F_Enoch\Launchers\Titan\Data\launch_B_Titan_olive_F_02_CO.paa"
+		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_02_CO.paa"
 	};
 	class assembleInfo
 	{

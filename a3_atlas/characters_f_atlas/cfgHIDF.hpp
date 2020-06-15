@@ -36,27 +36,6 @@ class B_HIDF_CombatFatigues_01_jungle_F: I_E_Uniform_01_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves.rvmat"
 	};
 };
-class B_HIDF_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_HIDF_Soldier_2_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_01_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa"
-	};
-	hiddenSelectionsMaterials[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Officer_F.rvmat",
-		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
-	};
-};
 class B_HIDF_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 {
   	scope = protected;
@@ -86,6 +65,27 @@ class B_HIDF_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
 			INJURY_PERSONALITY_MATERIALS
 		};
+	};
+};
+class B_HIDF_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	modelSides[] =
+	{
+		TWest,
+		TCivilian
+	};
+	uniformClass = U_B_HIDF_Soldier_2_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_01_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Soldier_F_02_CO.paa"
+	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_HIDF_Officer_F.rvmat",
+		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
 	};
 };
 class B_HIDF_OfficerFatigues_01_jungle_F: I_E_Uniform_01_officer_F

@@ -203,7 +203,7 @@ class O_R_MBT_02_cannon_F: O_MBT_02_cannon_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportBackpacks
 	{
@@ -402,7 +402,7 @@ class O_R_MBT_02_arty_F: O_MBT_02_arty_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportBackpacks
 	{

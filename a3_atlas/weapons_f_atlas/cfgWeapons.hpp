@@ -25,6 +25,11 @@ class CfgWeapons
 		};
 	};
 	class ItemCore;
+	class Binocular;
+	class NVGoggles: Binocular
+	{
+		class ItemInfo;
+	};
 	class LMG_Zafir_F;
 	class optic_MRCO: ItemCore
 	{
@@ -60,6 +65,18 @@ class CfgWeapons
 	class arifle_TRG20_black_F;
 	class arifle_TRG21_GL_black_F;
 	// Arma 3 Atlas
+	class NVGoggles_aucamo_F: NVGoggles
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_NVGoggles_aucamo_F0;
+		//picture = "\A3_Atlas\Weapons_F_Atlas\Binocular\Data\UI\icon_NVGoggles_aucamo_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Binocular\Data\NVG_aucamo_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = {camo};
+		};
+	};
 	/*
 	class cannon_120mm_advanced: cannon_120mm
 	{

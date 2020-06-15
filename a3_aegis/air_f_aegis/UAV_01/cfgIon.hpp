@@ -61,6 +61,27 @@ class B_ION_UAV_01_F: UAV_01_base_F
 	};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_ION_CO.paa"};
 	textureList[] = {ION,1};
+	class Turrets: Turrets
+	{
+		class MainTurret: MainTurret
+        {
+			class OpticsIn: OpticsIn
+            {
+				class Wide: Wide
+                {
+					visionMode[] = {Normal};
+                };
+				class Medium: Medium
+                {
+					visionMode[] = {Normal};
+                };
+				class Narrow: Narrow
+                {
+					visionMode[] = {Normal};
+                };
+            };
+        };
+    };
 };
 class B_ION_UAV_01_backpack_F: Weapon_Bag_Base
 {

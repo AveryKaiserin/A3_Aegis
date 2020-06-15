@@ -45,7 +45,7 @@ class O_R_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(20Rnd_556x45_UW_mag,6);
 		mag_xx(20Rnd_556x45_Stanag_green,6);
-		mag_xx(30Rnd_545x39_black_Mag_F,96);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,96);
 		mag_xx(30Rnd_762x39_AK12_Lush_Mag_F,48);
     	mag_xx(75Rnd_762x39_AK12_Lush_Mag_F,16);
 		mag_xx(30Rnd_9x21_Mag_SMG_02,12);
@@ -104,7 +104,7 @@ class O_R_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 		weap_xx(srifle_DMR_05_blk_F,2);
 		weap_xx(sgun_Mp153_black_F,2);
 		weap_xx(launch_O_Titan_camo_F,2);
-		weap_xx(launch_I_Titan_short_F,2);
+		weap_xx(launch_O_Titan_short_camo_F,2);
 		weap_xx(launch_RPG32_green_F,2);
 		weap_xx(launch_O_Vorona_green_F,2);
 	};

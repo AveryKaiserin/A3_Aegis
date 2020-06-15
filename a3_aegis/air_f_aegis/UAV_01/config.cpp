@@ -6,6 +6,18 @@ class CfgVehicles
 	class Helicopter_Base_F;
 	class UAV_01_base_F: Helicopter_Base_F
 	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+            {
+				class OpticsIn
+                {
+					class Wide;
+					class Medium: Wide{};
+					class Narrow: Wide{};
+                };
+            };
+        };
 		class TextureSources
 		{
 			class Opfor

@@ -3,3 +3,4 @@
 #include "cfgAddons.hpp"
 #include "cfgFactionClasses.hpp"
 #include "cfgMods.hpp"
+#include "cfgEditorSubcategories.hpp"
