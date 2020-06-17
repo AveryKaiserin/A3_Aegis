@@ -517,6 +517,7 @@ class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_APC_Wheeled_01_cannon_v2_F.jpg";
+	forceInGarage = true;
 	side = TWest;
 	faction = BLU_F;
 	crew = B_crew_F;
