@@ -242,6 +242,11 @@ class CfgVehicles
 			"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
 			"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
 		};
+		class TransportMagazines
+		{
+			delete _xx_16Rnd_9x21_Mag;
+			mag_xx(17Rnd_9x21_Mag,12);
+		};
 	};
 	class O_LSV_02_unarmed_viper_F: O_LSV_02_unarmed_F
 	{

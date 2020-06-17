@@ -161,6 +161,7 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
+			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,6);
 			mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 			mag_xx(30Rnd_65x39_caseless_green,24);
