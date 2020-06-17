@@ -225,7 +225,7 @@ class B_T_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
 		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };
-class B_T_APC_Wheeled_01_cannon_v2_F: B_APC_Wheeled_01_cannon_v2_F
+class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
