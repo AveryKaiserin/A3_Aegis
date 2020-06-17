@@ -211,7 +211,7 @@ class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,12);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);

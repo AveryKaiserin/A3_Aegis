@@ -142,7 +142,7 @@ class O_W_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportWeapons
 	{
@@ -299,7 +299,7 @@ class O_W_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,4);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportWeapons
 	{

@@ -104,7 +104,7 @@ class O_W_LSV_02_armed_F: LSV_02_armed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,16);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,16);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
@@ -234,7 +234,7 @@ class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,16);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,16);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
@@ -364,7 +364,7 @@ class O_W_LSV_02_AT_F: LSV_02_AT_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_black_Mag_F,16);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,16);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
