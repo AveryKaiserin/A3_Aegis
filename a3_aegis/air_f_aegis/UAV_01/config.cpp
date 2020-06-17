@@ -2,8 +2,19 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	class Air;
+	class Helicopter: Air
+	{
+		class Turrets;
+	};
+	class Helicopter_Base_F: Helicopter
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
 	// Arma 3
-	class Helicopter_Base_F;
 	class UAV_01_base_F: Helicopter_Base_F
 	{
 		class Turrets: Turrets
