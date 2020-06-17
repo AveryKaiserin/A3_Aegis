@@ -227,7 +227,6 @@ class I_Soldier_AR_F: I_Soldier_02_F
 class I_Soldier_SL_F: I_Soldier_02_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Soldier_SL_F.jpg";
-	role = Grenadier;
     weapons[] =
     {
         arifle_Mk20_GL_MRCO_pointer_F,
@@ -276,6 +275,7 @@ class I_Soldier_SL_F: I_Soldier_02_F
 		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokePurple_Grenade_shell
     };
+	role = Grenadier;
     linkedItems[] =
     {
         H_HelmetIA,

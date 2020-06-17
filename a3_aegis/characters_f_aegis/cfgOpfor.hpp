@@ -236,7 +236,6 @@ class O_Soldier_AR_F: O_Soldier_base_F
 class O_Soldier_SL_F: O_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Soldier_SL_F.jpg";
-	role = Grenadier;
     weapons[] =
     {
         arifle_Katiba_GL_ARCO_pointer_F,
@@ -285,6 +284,7 @@ class O_Soldier_SL_F: O_Soldier_base_F
 		1Rnd_SmokeOrange_Grenade_shell,
 		1Rnd_SmokeYellow_Grenade_shell
     };
+	role = Grenadier;
 	linkedItems[] =
 	{
 		H_HelmetLeaderO_ocamo,
@@ -1465,6 +1465,7 @@ class O_recon_TL_F: O_Soldier_recon_base
 		SmokeShellYellow,
         mag_2(Chemlight_red)
     };
+	role = Rifleman;
 	linkedItems[] =
 	{
 		H_HelmetLeaderO_ocamo,
@@ -1988,7 +1989,6 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
 class O_SoldierU_SL_F: O_Soldier_Urban_base
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldierU_SL_F.jpg";
-	role = Grenadier;
     weapons[] =
     {
         arifle_Katiba_GL_ARCO_pointer_F,
@@ -2053,6 +2053,7 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
         DefaultManLinkedItems,
         O_NVGoggles_urb_F
     };
+	role = Grenadier;
 };
 class O_soldierU_medic_F: O_Soldier_Urban_base
 {

@@ -197,7 +197,6 @@ class B_soldier_AR_F: B_Soldier_02_f
 class B_Soldier_SL_F: B_Soldier_03_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Soldier_SL_F.jpg";
-	role = Grenadier;
     weapons[] =
     {
         arifle_MX_GL_Hamr_pointer_F,
@@ -246,6 +245,7 @@ class B_Soldier_SL_F: B_Soldier_03_f
 		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
     };
+	role = Grenadier;
     linkedItems[] =
     {
         H_HelmetSpecB_mcamo,

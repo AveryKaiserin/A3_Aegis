@@ -647,7 +647,7 @@ class I_CDF_Soldier_SL_F: I_CDF_Soldier_base_F
 	cost = 250000;
 	camouflage = 1.4;
 	icon = iconManLeader;
-	role = Rifleman;
+	role = Grenadier;
 };
 class I_CDF_Soldier_TL_F: I_CDF_Soldier_base_F
 {

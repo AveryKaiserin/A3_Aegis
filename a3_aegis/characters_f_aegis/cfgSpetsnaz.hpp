@@ -408,6 +408,7 @@ class O_R_recon_TL_F: O_R_Soldier_recon_base
         SmokeShellYellow,
         mag_2(Chemlight_red)
     };
+	role = Rifleman;
     threat[] = {1,0.1,0.3};
 };
 class O_R_recon_exp_F: O_R_Soldier_recon_base

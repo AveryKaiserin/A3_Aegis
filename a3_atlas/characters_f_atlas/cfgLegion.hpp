@@ -502,7 +502,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	cost = 250000;
 	camouflage = 1.4;
 	icon = iconManLeader;
-	role = Rifleman;
+	role = Grenadier;
 };
 class B_L_Soldier_TL_F: B_L_Soldier_base_F
 {

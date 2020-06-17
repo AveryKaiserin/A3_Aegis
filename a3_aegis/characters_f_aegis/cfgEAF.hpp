@@ -461,6 +461,7 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
 		1Rnd_SmokeGreen_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell
     };
+	role = Grenadier;
 };
 class I_E_Soldier_TL_F: I_E_Soldier_base_F
 {
