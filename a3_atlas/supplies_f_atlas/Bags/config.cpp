@@ -7,10 +7,11 @@ class CfgVehicles
 	class B_AssaultPack_sgg;
 	class B_Kitbag_mcamo;
 	class B_Kitbag_sgg;
+	class B_TacticalPack_Base;
 	class B_TacticalPack_rgr;
 	class B_TacticalPack_mcamo;
-	class B_Carryall_cbr;
 	class B_Carryall_mcamo;
+	class B_Carryall_cbr;
 	class B_Fieldpack_oli;
 	class B_Carryall_oli;
 	// Arma 3 Enoch
@@ -22,6 +23,14 @@ class CfgVehicles
 	class B_TacticalPack_sgg;
 	class B_Kitbag_wdl_F;
 	// Arma 3 Atlas
+	class B_TacticalPack_aucamo: B_TacticalPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
+	};
 	class B_RadioBag_01_aucamo_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -58,7 +67,7 @@ class CfgVehicles
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_autumn_F0;
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_autumn_F_CA.paa";
-		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_autumn_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_autumn_CO.paa"};
 		// TFAR compatibility
 		tf_dialog = rt1523g_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
