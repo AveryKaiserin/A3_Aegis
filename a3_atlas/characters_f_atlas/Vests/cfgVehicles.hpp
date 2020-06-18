@@ -25,7 +25,4 @@ class CfgVehicles
 	VEST_HOLDER(V_PlateCarrierIAGL_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0)
 	VEST_HOLDER(V_PlateCarrierIAGL_sgg,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_sgg0)
 	VEST_HOLDER(V_RebreatherB_aucamo_F,$STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0)
-	VEST_HOLDER(V_CarrierRigKBT_01_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Green_F0)
-	VEST_HOLDER(V_CarrierRigKBT_01_light_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Green_F0)
-	VEST_HOLDER(V_CarrierRigKBT_01_heavy_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0)
 };
