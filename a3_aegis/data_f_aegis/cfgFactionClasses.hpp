@@ -10,6 +10,10 @@ class CfgFactionClasses
 		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
 	};
 	// Arma 3 Enoch
+	class IND_L_F
+	{
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Looters_CO.paa";
+	};
 	class OPF_R_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_R_F0;
