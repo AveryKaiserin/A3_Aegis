@@ -34,7 +34,7 @@ class CfgVehicles
 			class Woodland
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
-				author = $STR_A3_A_AveryTheKitty;
+				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",

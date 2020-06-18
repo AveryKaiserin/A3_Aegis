@@ -5965,6 +5965,23 @@
 					<Japanese>POLPOX</Japanese>
 					<Turkish>POLPOX</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_wsxcgy">
+					<Original>wsxcgy</Original>
+					<Chinese>wsxcgy</Chinese>
+					<French>wsxcgy</French>
+					<Spanish>wsxcgy</Spanish>
+					<Italian>wsxcgy</Italian>
+					<Polish>wsxcgy</Polish>
+					<Russian>wsxcgy</Russian>
+					<German>wsxcgy</German>
+					<Czech>wsxcgy</Czech>
+					<English>wsxcgy</English>
+					<Portuguese>wsxcgy</Portuguese>
+					<Korean>wsxcgy</Korean>
+					<Chinesesimp>wsxcgy</Chinesesimp>
+					<Japanese>wsxcgy</Japanese>
+					<Turkish>wsxcgy</Turkish>
+				</Key>
 			</Container>
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_A_F0">
