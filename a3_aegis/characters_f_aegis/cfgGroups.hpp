@@ -120,9 +120,20 @@ class CfgGroups
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
 				class BUS_MechInfSquad
 				{
+					class Unit0
+					{
+						vehicle = B_APC_Wheeled_01_cannon_v2_F;
+					};
 					class Unit2
 					{
 						vehicle = B_RadioOperator_F;
+					};
+				};
+				class BUS_MechInf_Support
+				{
+					class Unit0
+					{
+						vehicle = B_APC_Wheeled_01_cannon_v2_F;
 					};
 				};
 			};
@@ -233,9 +244,20 @@ class CfgGroups
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
 				class B_T_MechInfSquad
 				{
+					class Unit0
+					{
+						vehicle = B_T_APC_Wheeled_01_cannon_v2_F;
+					};
 					class Unit2
 					{
 						vehicle = B_T_RadioOperator_F;
+					};
+				};
+				class B_T_MechInf_Support
+				{
+					class Unit0
+					{
+						vehicle = B_T_APC_Wheeled_01_cannon_v2_F;
 					};
 				};
 			};
@@ -2984,7 +3006,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Wheeled_02_rcws_v2_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TEast,O_W_APC_Wheeled_02_rcws_v2_ghex_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TEast,O_W_RadioOperator_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TEast,O_W_soldier_LAT_F,CORPORAL,10,-10)
@@ -3000,7 +3022,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_ghex_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TEast,O_W_soldier_AR_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_W_soldier_AT_F,PRIVATE,10,-10)
@@ -3016,7 +3038,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_F,LIEUTENANT,0,0)
+					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_ghex_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
 					GROUP_UNIT(2,TEast,O_W_soldier_AR_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_W_soldier_AA_F,PRIVATE,10,-10)
@@ -3036,10 +3058,10 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
-					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_F,SERGEANT,10,-10)
-					GROUP_UNIT(2,TEast,O_W_MBT_02_cannon_F,SERGEANT,-10,-10)
-					GROUP_UNIT(3,TEast,O_W_MBT_02_cannon_F,CORPORAL,20,-20)
+					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_ghex_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_ghex_F,SERGEANT,10,-10)
+					GROUP_UNIT(2,TEast,O_W_MBT_02_cannon_ghex_F,SERGEANT,-10,-10)
+					GROUP_UNIT(3,TEast,O_W_MBT_02_cannon_ghex_F,CORPORAL,20,-20)
 				};
 				class O_W_TankSection
 				{
@@ -3047,8 +3069,8 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
-					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_F,SERGEANT,10,-10)
+					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_ghex_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_ghex_F,SERGEANT,10,-10)
 				};
 			};
 		};
@@ -3115,6 +3137,31 @@ class CfgGroups
 					class Unit2
 					{
 						vehicle = I_RadioOperator_F;
+					};
+				};
+				class HAF_MechInf_AT
+				{
+					class Unit0
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
+					};
+				};
+				class HAF_MechInf_AA
+				{
+					class Unit0
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
+					};
+				};
+			};
+			class Armored
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Armored0;
+				class HAF_TankPlatoon_AA
+				{
+					class Unit3
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
 					};
 				};
 			};
@@ -3504,6 +3551,13 @@ class CfgGroups
 			class Mechanized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
+				class I_E_MechInfSquad
+				{
+					class Unit0
+					{
+						vehicle = I_E_APC_tracked_03_cannon_v2_F;
+					};
+				};
 				class I_E_MechInf_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AT0;
@@ -3551,6 +3605,20 @@ class CfgGroups
 				};
 			};
 		};
-		class IND_L_F{};
+		class IND_L_F
+		{
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class I_L_LooterGang
+				{
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+				};
+				class I_L_CriminalGang
+				{
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+				};
+			};
+		};
 	};
 };
