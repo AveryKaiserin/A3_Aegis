@@ -19,10 +19,7 @@ class CfgVehicles
 	class Vest_Base_F;
 	// Arma 3 Atlas
 	VEST_HOLDER(V_PlateCarrierIA1_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_grn0)
-	VEST_HOLDER(V_PlateCarrierIA1_sgg,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_sgg0)
 	VEST_HOLDER(V_PlateCarrierIA2_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0)
-	VEST_HOLDER(V_PlateCarrierIA2_sgg,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_sgg0)
 	VEST_HOLDER(V_PlateCarrierIAGL_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0)
-	VEST_HOLDER(V_PlateCarrierIAGL_sgg,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_sgg0)
 	VEST_HOLDER(V_RebreatherB_aucamo_F,$STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0)
 };

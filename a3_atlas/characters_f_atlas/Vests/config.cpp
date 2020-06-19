@@ -4,6 +4,7 @@
 class CfgWeapons
 {
 	// Arma 3
+	class V_TacVest_khk;
 	class V_PlateCarrierIA1_dgtl;
 	class V_PlateCarrierIA2_dgtl;
 	class V_PlateCarrierIAGL_dgtl;
@@ -20,26 +21,12 @@ class CfgWeapons
 		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
-	class V_PlateCarrierIA1_sgg: V_PlateCarrierIA1_dgtl
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA1_sgg0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_sgg_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_sgg_CO.paa"};
-	};
 	class V_PlateCarrierIA2_grn: V_PlateCarrierIA2_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0;
 		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
-	};
-	class V_PlateCarrierIA2_sgg: V_PlateCarrierIA2_dgtl
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA2_sgg0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_sgg_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_sgg_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_grn: V_PlateCarrierIAGL_dgtl
 	{
@@ -52,16 +39,12 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\GA_Carrier_GL_Rig_grn_CO.paa"
 		};
 	};
-	class V_PlateCarrierIAGL_sgg: V_PlateCarrierIAGL_dgtl
+	class V_TacVest_tan: V_TacVest_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_sgg0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_sgg_CA.paa";
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_sgg_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Vests\Data\GA_Carrier_GL_Rig_sgg_CO.paa"
-		};
+		displayName = $STR_A3_A_CfgWeapons_V_TacVest_tan0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
 	class V_RebreatherB_aucamo_F: V_RebreatherB
 	{

@@ -21,25 +21,25 @@ class I_I_Man_Base_F: I_soldier_F
 		G_IDF_default
 	};
 };
-class I_I_CombatFatigues_01_F: I_soldier_F
+class I_I_Uniform_01_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
 };
-class I_I_CombatFatigues_01_RolledUp_F: I_soldier_lite_F
+class I_I_Uniform_01_shortsleeve_F: I_soldier_lite_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_I_I_Soldier_2_F;
+	uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
 };
-class I_I_OfficerFatigues_01_F: I_officer_F
+class I_I_Uniform_01_officer_F: I_officer_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = U_I_I_Officer_F;
+	uniformClass = U_I_I_Uniform_01_officer_F;
 	hiddenSelections[] =
     {
 		camo1,
@@ -66,7 +66,7 @@ class I_I_Uniform_01_tank_F: I_Story_Crew_F
 };
 class I_I_Soldier_Base_F: I_I_Man_Base_F
 {
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 };
 class I_I_Soldier_A_F: I_I_Soldier_Base_F
 {
@@ -75,18 +75,18 @@ class I_I_Soldier_A_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_I_I_Soldier_2_F;
+    uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -137,18 +137,18 @@ class I_I_Soldier_AR_F: I_I_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_I_I_Soldier_2_F;
+    uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -201,18 +201,18 @@ class I_I_medic_F: I_I_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-    uniformClass = U_I_I_Soldier_2_F;
+    uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -315,18 +315,18 @@ class I_I_engineer_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -380,18 +380,18 @@ class I_I_Soldier_GL_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -566,18 +566,18 @@ class I_I_soldier_M_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -630,18 +630,18 @@ class I_I_soldier_AA_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -699,18 +699,18 @@ class I_I_soldier_AT_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -830,18 +830,18 @@ class I_I_Soldier_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -891,18 +891,18 @@ class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_F,
-		V_PlateCarrierIA2_sgg,
+		V_PlateCarrier2_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -950,11 +950,11 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = U_I_I_Soldier_2_F;
+	uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -962,7 +962,7 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1027,11 +1027,11 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = U_I_I_Soldier_F;
+	uniformClass = U_I_I_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1039,7 +1039,7 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_PlateCarrierIAGL_sgg,
+		V_PlateCarrier2_blk,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1106,7 +1106,7 @@ class I_I_Soldier_CBRN_F: I_I_Soldier_F
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_OPFOR
@@ -1114,7 +1114,7 @@ class I_I_Soldier_CBRN_F: I_I_Soldier_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_OPFOR
@@ -1164,18 +1164,18 @@ class I_I_RadioOperator_F: I_I_Soldier_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_I_I_Soldier_2_F;
+	uniformClass = U_I_I_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1301,13 +1301,13 @@ class I_I_Soldier_unarmed_F: I_I_Soldier_F
 	linkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetI_I_01_F,
-		V_PlateCarrierIA1_sgg,
+		V_PlateCarrier1_blk,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
