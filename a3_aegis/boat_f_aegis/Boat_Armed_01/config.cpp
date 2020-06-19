@@ -45,7 +45,7 @@ class CfgVehicles
 			};
 			class Rus
 			{
-				displayName = $STR_A3_TEXTURESOURCES_GREY0;
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
