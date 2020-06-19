@@ -1217,7 +1217,7 @@
 				<Spanish>Observador (árido)</Spanish>
 				<Italian>Osservatore (arido)</Italian>
 				<Polish>Obserwator (region suchy)</Polish>
-				<Russian>Корректировщик (засушливая местность)</Russian>
+				<Russian>Корректировщик (пустынный)</Russian>
 				<German>Spotter (Trocken)</German>
 				<Czech>Pozorovatel (suchý porost)</Czech>
 				<English>Spotter (Arid)</English>
@@ -1285,7 +1285,7 @@
 				<Spanish>Observador (árido)</Spanish>
 				<Italian>Osservatore (arido)</Italian>
 				<Polish>Obserwator (region suchy)</Polish>
-				<Russian>Корректировщик (засушливая местность)</Russian>
+				<Russian>Корректировщик (пустынный)</Russian>
 				<German>Spotter (Trocken)</German>
 				<Czech>Pozorovatel (suchý porost)</Czech>
 				<English>Spotter (Arid)</English>
@@ -1336,7 +1336,7 @@
 				<Spanish>Observador (árido)</Spanish>
 				<Italian>Osservatore (arido)</Italian>
 				<Polish>Obserwator (region suchy)</Polish>
-				<Russian>Корректировщик (засушливая местность)</Russian>
+				<Russian>Корректировщик (пустынный)</Russian>
 				<German>Spotter (Trocken)</German>
 				<Czech>Pozorovatel (suchý porost)</Czech>
 				<English>Spotter (Arid)</English>
@@ -4446,6 +4446,40 @@
 					<Japanese>フォーマルルな服（青）</Japanese>
 					<Turkish>Resmi Kıyafetler (Mavi)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Black_F0">
+					<Original>CBRN Suit (Black)</Original>
+					<Chinese>核生化套裝（黑）</Chinese>
+					<French>Combinaison NRBC (Noir)</French>
+					<Spanish>Traje NRBQ (Black)</Spanish>
+					<Italian>Tuta NBC (nero)</Italian>
+					<Polish>Strój ochronny ABC (czarny)</Polish>
+					<Russian>Химкостюм (черный)</Russian>
+					<German>CBRN-Anzug (schwarz)</German>
+					<Czech>CBRN oblek (černá)</Czech>
+					<English>CBRN Suit (Black)</English>
+					<Portuguese>Traje QBRN (Preto)</Portuguese>
+					<Korean>CBRN 수트 (흑색)</Korean>
+					<Chinesesimp>生化核辐套装（黑色）</Chinesesimp>
+					<Japanese>CBRN スーツ（黒）</Japanese>
+					<Turkish>KBRN Kıyafeti (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0">
+					<Original>CBRN Suit (Yellow)</Original>
+					<Chinese>核生化套裝（黃）</Chinese>
+					<French>Combinaison NRBC (jaune)</French>
+					<Spanish>Traje NRBQ (amarilla)</Spanish>
+					<Italian>Tuta NBC (giallo)</Italian>
+					<Polish>Strój ochronny ABC (żółta)</Polish>
+					<Russian>Химкостюм (желтый)</Russian>
+					<German>CBRN-Anzug (gelb)</German>
+					<Czech>CBRN oblek (žlutá)</Czech>
+					<English>CBRN Suit (Yellow)</English>
+					<Portuguese>Traje QBRN (amarela)</Portuguese>
+					<Korean>CBRN 수트 (노랑)</Korean>
+					<Chinesesimp>生化核辐套装（黄色）</Chinesesimp>
+					<Japanese>CBRN スーツ（黄）</Japanese>
+					<Turkish>KBRN Kıyafeti (Sarı)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_BG_Guerilla1_30">
 					<Original>Guerilla Garment (Camo)</Original>
 					<Chinese>游擊裝（迷彩型）</Chinese>
@@ -5006,6 +5040,23 @@
 					<Chinesesimp>UBACS 作战服（黑色，卷起）</Chinesesimp>
 					<Japanese>UBACS戦闘服（黒、袖まくり）</Japanese>
 					<Turkish>UBACS Savaş Üniforması (Siyah, Kolları Kıvrık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_MTP_F0">
+					<Original>CBRN Suit (UK MTP) [NATO]</Original>
+					<Chinese>核生化套裝（英國多地形共用）（NATO）</Chinese>
+					<French>Combinaison NRBC (Royaume-Uni MTP) [OTAN]</French>
+					<Spanish>Traje NRBQ (Reino Unido MTP) [OTAN]</Spanish>
+					<Italian>Tuta NBC (UK MTP) [NATO]</Italian>
+					<Polish>Strój ochronny ABC (WB MTP) [NATO]</Polish>
+					<Russian>Химкостюм (Великобритания MTP) [НАТО]</Russian>
+					<German>CBRN-Anzug (UK MTP) [NATO]</German>
+					<Czech>CBRN oblek (VB MTP) [NATO]</Czech>
+					<English>CBRN Suit (UK MTP) [NATO]</English>
+					<Portuguese>Traje QBRN (Reino Unido MTP) [OTAN]</Portuguese>
+					<Korean>CBRN 수트 (영국 MTP) [NATO]</Korean>
+					<Chinesesimp>生化核辐套装（英国MTP）[NATO]</Chinesesimp>
+					<Japanese>CBRN スーツ（英国MTP）[NATO]</Japanese>
+					<Turkish>KBRN Kıyafeti (İngiltere MTP) [NATO]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_wdl_F0">
 					<Original>Mercenary Outfit (Shirt, Camo)</Original>
@@ -5689,6 +5740,57 @@
 					<Japanese>モジュラーキャリア GL リグ（コヨーテ）</Japanese>
 					<Turkish>Modüler Taşıyıcı GL Yelek (Koyote)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Green_F0">
+					<Original>Modular Carrier Vest (Green)</Original>
+					<Chinese>模組化負載背心（綠）</Chinese>
+					<French>Gilet modifiable léger (verte)</French>
+					<Spanish>Chaleco con cartuchera modular (verde)</Spanish>
+					<Italian>Giubbotto tattico modulare (verde)</Italian>
+					<Polish>Kamizelka moduł. (zielona)</Polish>
+					<Russian>Модульный разгрузочный жилет (зеленая)</Russian>
+					<German>Modularer Trageweste (grün)</German>
+					<Czech>Modulární nosič plátů (zelená)</Czech>
+					<English>Modular Carrier Vest (Green)</English>
+					<Portuguese>Traje modular leve (verde)</Portuguese>
+					<Korean>모듈식 캐리어 조끼 (녹색)</Korean>
+					<Chinesesimp>模块化背心（绿色）</Chinesesimp>
+					<Japanese>モジュラーキャリアベスト（緑）</Japanese>
+					<Turkish>Modüler Taşıyıcı Yelek (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Green_F0">
+					<Original>Modular Carrier Lite (Green)</Original>
+					<Chinese>模組化輕型負載背心（綠）</Chinese>
+					<French>Gilet modifiable léger (verte)</French>
+					<Spanish>Cartuchera modular ligera (verde)</Spanish>
+					<Italian>Equipag. leggero modulare (verde)</Italian>
+					<Polish>Lekka kamizelka modułowa (zielona)</Polish>
+					<Russian>Модульный облегченный жилет (зеленая)</Russian>
+					<German>Modularer leichter Tragegurt (grün)</German>
+					<Czech>Modulární lehký nosič plátů (zelená)</Czech>
+					<English>Modular Carrier Lite (Green)</English>
+					<Portuguese>Colete modular leve (verde)</Portuguese>
+					<Korean>모듈식 캐리어 라이트 (녹색)</Korean>
+					<Chinesesimp>模块化轻便背心（绿色）</Chinesesimp>
+					<Japanese>モジュラーキャリア・ライト（緑）</Japanese>
+					<Turkish>Modüler Hafif Taşıyıcı (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0">
+					<Original>Modular Carrier GL Rig (Green)</Original>
+					<Chinese>模組化 GL 負載外掛（綠）</Chinese>
+					<French>Gilet modifiable pour grenadier (verte)</French>
+					<Spanish>Cartuchera modular de GL (verde)</Spanish>
+					<Italian>Gilet tattico GL modulare (verde)</Italian>
+					<Polish>Modułowa kamizelka grenadiera (zielona)</Polish>
+					<Russian>Модульный жилет гранатометчика (зеленая)</Russian>
+					<German>Modularer Granatwerfer-Tragegurt (grün)</German>
+					<Czech>Modulární nosič plátů GL (zelená)</Czech>
+					<English>Modular Carrier GL Rig (Green)</English>
+					<Portuguese>Colete modular LG (verde)</Portuguese>
+					<Korean>모듈식 캐리어 GL 리그 (녹색)</Korean>
+					<Chinesesimp>模块化背心 GL 装备（绿色）</Chinesesimp>
+					<Japanese>モジュラーキャリア GL リグ（緑）</Japanese>
+					<Turkish>Modüler Taşıyıcı GL Yelek (Yeşil)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_BandollierB_taiga0">
 					<Original>Slash Bandolier (Taiga)</Original>
 					<Chinese>斜肩子彈帶（Taiga）</Chinese>
@@ -5705,6 +5807,23 @@
 					<Chinesesimp>条状子弹带（针叶林）</Chinesesimp>
 					<Japanese>斜め掛け弾薬帯（タイガ）</Japanese>
 					<Turkish>Çapraz Palaska (Tayga)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_TacVest_grn0">
+					<Original>Tactical Vest (Green)</Original>
+					<Chinese>戰術背心（綠）</Chinese>
+					<French>Gilet pare-balles (verte)</French>
+					<Spanish>Chaleco táctico (verde)</Spanish>
+					<Italian>Gilet tattico (verde)</Italian>
+					<Polish>Kamizelka taktyczna (zielona)</Polish>
+					<Russian>Тактический жилет (зеленая)</Russian>
+					<German>Taktische Weste (grün)</German>
+					<Czech>Taktická vesta (zelená)</Czech>
+					<English>Tactical Vest (Green)</English>
+					<Portuguese>Colete tático (verde)</Portuguese>
+					<Korean>전술조끼(녹색)</Korean>
+					<Chinesesimp>战术背心（绿色）</Chinesesimp>
+					<Japanese>タクティカルベスト（緑）</Japanese>
+					<Turkish>Taktiksel Yelek (Yeşil)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_RebreatherRU0">
 					<Original>Rebreather [Russia]</Original>
@@ -7417,6 +7536,74 @@
 				<Japanese>Monokl ED-1E</Japanese>
 				<Turkish>Monokl ED-1E</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Demining_backpack_F0">
+				<Original>UGV Bag (ED-1D) [Russia]</Original>
+				<Chinese>無人地面載具袋子（ED-1D）（俄國）</Chinese>
+				<French>Sac drone terrestre (ED-1D) [Russie]</French>
+				<Spanish>Bolsa de VTNT (ED-1D) [Rusia]</Spanish>
+				<Italian>Borsa UGV (ED-1D) [Russia]</Italian>
+				<Polish>Torba na UGV (ED-1D) [Rosja]</Polish>
+				<Russian>Сумка для БПА (ED-1D) [Россия]</Russian>
+				<German>UGV-Tragetasche (ED-1D) [Russland]</German>
+				<Czech>Batoh, bezpilotní vozidlo (ED-1D) [Rusko]</Czech>
+				<English>UGV Bag (ED-1D) [Russia]</English>
+				<Portuguese>Bolsa VTNT (ED-1D) [Rússia]</Portuguese>
+				<Korean>UGV 가방 (ED-1D) [러시아]</Korean>
+				<Chinesesimp>UGV 包（ED-1D）[俄国]</Chinesesimp>
+				<Japanese>UGV バッグ (ED-1D) [ロシア]</Japanese>
+				<Turkish>UGV Çantası (ED-1D) [Rusya]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Demining_backpack_F_assembleInfo0">
+				<Original>Gremlin ED-1D</Original>
+				<Chinese>Gremlin ED-1D</Chinese>
+				<French>Gremlin ED-1D</French>
+				<Spanish>Gremlin ED-1D</Spanish>
+				<Italian>Gremlin ED-1D</Italian>
+				<Polish>Gremlin ED-1D</Polish>
+				<Russian>Gremlin ED-1D</Russian>
+				<German>Gremlin ED-1D</German>
+				<Czech>Gremlin ED-1D</Czech>
+				<English>Gremlin ED-1D</English>
+				<Portuguese>Gremlin ED-1D</Portuguese>
+				<Korean>Gremlin ED-1D</Korean>
+				<Chinesesimp>Gremlin ED-1D</Chinesesimp>
+				<Japanese>Gremlin ED-1D</Japanese>
+				<Turkish>Gremlin ED-1D</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Science_backpack_F0">
+				<Original>UGV Bag (ED-1E) [Russia]</Original>
+				<Chinese>無人地面載具袋子（ED-1E）（俄國）</Chinese>
+				<French>Sac drone terrestre (ED-1E) [Russie]</French>
+				<Spanish>Bolsa de VTNT (ED-1E) [Rusia]</Spanish>
+				<Italian>Borsa UGV (ED-1E) [Russia]</Italian>
+				<Polish>Torba na UGV (ED-1E) [Rosja]</Polish>
+				<Russian>Сумка для БПА (ED-1E) [Россия]</Russian>
+				<German>UGV-Tragetasche (ED-1E) [Russland]</German>
+				<Czech>Batoh, bezpilotní vozidlo (ED-1E) [Rusko]</Czech>
+				<English>UGV Bag (ED-1E) [Russia]</English>
+				<Portuguese>Bolsa VTNT (ED-1E) [Rússia]</Portuguese>
+				<Korean>UGV 가방 (ED-1E) [러시아]</Korean>
+				<Chinesesimp>UGV 包（ED-1E）[俄国]</Chinesesimp>
+				<Japanese>UGV バッグ (ED-1E) [ロシア]</Japanese>
+				<Turkish>UGV Çantası (ED-1E) [Rusya]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Science_backpack_F_assembleInfo0">
+				<Original>Monokl ED-1E</Original>
+				<Chinese>Monokl ED-1E</Chinese>
+				<French>Monokl ED-1E</French>
+				<Spanish>Monokl ED-1E</Spanish>
+				<Italian>Monokl ED-1E</Italian>
+				<Polish>Monokl ED-1E</Polish>
+				<Russian>Monokl ED-1E</Russian>
+				<German>Monokl ED-1E</German>
+				<Czech>Monokl ED-1E</Czech>
+				<English>Monokl ED-1E</English>
+				<Portuguese>Monokl ED-1E</Portuguese>
+				<Korean>Monokl ED-1E</Korean>
+				<Chinesesimp>Monokl ED-1E</Chinesesimp>
+				<Japanese>Monokl ED-1E</Japanese>
+				<Turkish>Monokl ED-1E</Turkish>
+			</Key>
 		</Container>
 		<Container name="Static_F">
 			<Key ID="STR_A3_A_CfgVehicles_O_R_Static_AA_F0">
@@ -8995,6 +9182,23 @@
 						<Chinesesimp>旗标 (中国)</Chinesesimp>
 						<Japanese>旗（中国）</Japanese>
 						<Turkish>Bayrak (Çin)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_EnochLooters_F0">
+						<Original>Flag (Livonian Looters)</Original>
+						<Chinese>旗幟（里沃尼亞流氓）</Chinese>
+						<French>Drapeau (Pillards livoniens)</French>
+						<Spanish>Bandera (Saqueadores livonios)</Spanish>
+						<Italian>Bandiera (Predoni livoniani)</Italian>
+						<Polish>Flaga (Liwońscy szabrownicy)</Polish>
+						<Russian>Флаг (Мародеры Ливонии)</Russian>
+						<German>Flagge (Livonische Plünderer)</German>
+						<Czech>Vlajka (Livonijští rabující)</Czech>
+						<English>Flag (Livonian Looters)</English>
+						<Portuguese>Bandeira (Saqueadores livonianos)</Portuguese>
+						<Korean>깃발 (리보니아 약탈자)</Korean>
+						<Chinesesimp>旗标 (利沃尼亚劫匪)</Chinesesimp>
+						<Japanese>旗（リヴォニアの略奪者）</Japanese>
+						<Turkish>Bayrak (Livonialı Yağmacılar)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_Russia_F0">
 						<Original>Flag (Russia)</Original>
@@ -12544,6 +12748,23 @@
 					<Japanese>Titan MPRL（黒）</Japanese>
 					<Turkish>Titan MPRL (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_launch_O_Titan_short_camo_F0">
+					<Original>Titan MPRL Compact (Camo)</Original>
+					<Chinese>Titan 多用途火箭發射器（精簡版）（迷彩型）</Chinese>
+					<French>Titan MPRL compact (Camo)</French>
+					<Spanish>MPRL Titan compacto (camuflaje)</Spanish>
+					<Italian>Titan MPRL compatto (mimetico)</Italian>
+					<Polish>Wyrzutnia Titan Compact (kamuflaż)</Polish>
+					<Russian>Titan MPRL Compact (камуфляж)</Russian>
+					<German>Titan MPRL Compact (Flecktarn)</German>
+					<Czech>Titan MPRL Compact (kamufláž)</Czech>
+					<English>Titan MPRL Compact (Camo)</English>
+					<Portuguese>Titan MPRL Compact (Camuflagem)</Portuguese>
+					<Korean>타이탄 MPRL 단축형(위장)</Korean>
+					<Chinesesimp>Titan MPRL 紧凑型（迷彩）</Chinesesimp>
+					<Japanese>Titan MPRL Compact（カモフラ）</Japanese>
+					<Turkish>Titan MPRL Kompakt (Kamuflaj)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0">
 					<Original>Titan MPRL Compact (Black)</Original>
 					<Chinese>Titan 多用途火箭發射器（精簡版）（黑）</Chinese>
@@ -13297,82 +13518,82 @@
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_lush_F0">
 					<Original>AK-15 7.62 mm (Lush)</Original>
-					<Chinese>AK-15 7.62 mm (Lush)</Chinese>
-					<French>AK-15 7.62 mm (Lush)</French>
-					<Spanish>AK-15 7.62 mm (Lush)</Spanish>
-					<Italian>AK-15 7.62 mm (Lush)</Italian>
-					<Polish>AK-15 7.62 mm (Lush)</Polish>
-					<Russian>AK-15 7.62 mm (Lush)</Russian>
-					<German>AK-15 7.62 mm (Lush)</German>
-					<Czech>AK-15 7.62 mm (Lush)</Czech>
+					<Chinese>AK-15 7.62 mm（林地用）</Chinese>
+					<French>AK-15 7,62 mm (luxuriant)</French>
+					<Spanish>AK-15 de 7,62 mm (exuberante)</Spanish>
+					<Italian>AK-15 7,62 mm (verdeggiante)</Italian>
+					<Polish>AK-15 7,62 mm (gąszcz)</Polish>
+					<Russian>AK-12, 7,62 мм (болотный)</Russian>
+					<German>AK-15 7.62 mm (üppig)</German>
+					<Czech>AK-15 7,62 mm (lesní)</Czech>
 					<English>AK-15 7.62 mm (Lush)</English>
-					<Portuguese>AK-15 7.62 mm (Lush)</Portuguese>
-					<Korean>AK-15 7.62 mm (Lush)</Korean>
-					<Chinesesimp>AK-15 7.62 mm (Lush)</Chinesesimp>
-					<Japanese>AK-15 7.62 mm (Lush)</Japanese>
-					<Turkish>AK-15 7.62 mm (Lush)</Turkish>
+					<Portuguese>AK-15 7,62 mm (exuberante)</Portuguese>
+					<Korean>AK-15 7.62 mm (초목)</Korean>
+					<Chinesesimp>AK-15 7.62 毫米（繁茂）</Chinesesimp>
+					<Japanese>AK-15 7.62 mm（緑地）</Japanese>
+					<Turkish>AK-15 7.62 mm (Orman Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_arid_F0">
 					<Original>AK-15 7.62 mm (Arid)</Original>
-					<Chinese>AK-15 7.62 mm (Arid)</Chinese>
-					<French>AK-15 7.62 mm (Arid)</French>
-					<Spanish>AK-15 7.62 mm (Arid)</Spanish>
-					<Italian>AK-15 7.62 mm (Arid)</Italian>
-					<Polish>AK-15 7.62 mm (Arid)</Polish>
-					<Russian>AK-15 7.62 mm (Arid)</Russian>
-					<German>AK-15 7.62 mm (Arid)</German>
-					<Czech>AK-15 7.62 mm (Arid)</Czech>
+					<Chinese>AK-15 7.62 mm（旱地用）</Chinese>
+					<French>AK-15 7,62 mm (aride)</French>
+					<Spanish>AK-15 de 7,62 mm (árido)</Spanish>
+					<Italian>AK-15 7,62 mm (arido)</Italian>
+					<Polish>AK-15 7,62 mm (region suchy)</Polish>
+					<Russian>AK-12, 7,62 мм (пустынный)</Russian>
+					<German>AK-15 7.62 mm (trocken)</German>
+					<Czech>AK-15 7,62 mm (pouštní)</Czech>
 					<English>AK-15 7.62 mm (Arid)</English>
-					<Portuguese>AK-15 7.62 mm (Arid)</Portuguese>
-					<Korean>AK-15 7.62 mm (Arid)</Korean>
-					<Chinesesimp>AK-15 7.62 mm (Arid)</Chinesesimp>
-					<Japanese>AK-15 7.62 mm (Arid)</Japanese>
-					<Turkish>AK-15 7.62 mm (Arid)</Turkish>
+					<Portuguese>AK-15 7,62 mm (árido)</Portuguese>
+					<Korean>AK-15 7.62 mm (사막)</Korean>
+					<Chinesesimp>AK-15 7.62 毫米（干旱）</Chinesesimp>
+					<Japanese>AK-15 7.62 mm（乾燥地帯）</Japanese>
+					<Turkish>AK-15 7.62 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_GL_lush_F0">
 					<Original>AK-15 GL 7.62 mm (Lush)</Original>
-					<Chinese>AK-15 GL 7.62 mm (Lush)</Chinese>
-					<French>AK-15 GL 7.62 mm (Lush)</French>
-					<Spanish>AK-15 GL 7.62 mm (Lush)</Spanish>
-					<Italian>AK-15 GL 7.62 mm (Lush)</Italian>
-					<Polish>AK-15 GL 7.62 mm (Lush)</Polish>
-					<Russian>AK-15 GL 7.62 mm (Lush)</Russian>
-					<German>AK-15 GL 7.62 mm (Lush)</German>
-					<Czech>AK-15 GL 7.62 mm (Lush)</Czech>
+					<Chinese>AK-15 GL 7.62 mm（林地用）</Chinese>
+					<French>AK-15 GL 7,62 mm (luxuriant)</French>
+					<Spanish>AK-15 GL de 7,62 mm (exuberante)</Spanish>
+					<Italian>AK-15 GL 7,62 mm (verdeggiante)</Italian>
+					<Polish>AK-15 GL 7,62 mm (gąszcz)</Polish>
+					<Russian>AK-15 GL, 7,62 мм (болотный)</Russian>
+					<German>AK-15 GL 7.62 mm (üppig)</German>
+					<Czech>AK-15 GL 7,62 mm (lesní)</Czech>
 					<English>AK-15 GL 7.62 mm (Lush)</English>
-					<Portuguese>AK-15 GL 7.62 mm (Lush)</Portuguese>
-					<Korean>AK-15 GL 7.62 mm (Lush)</Korean>
-					<Chinesesimp>AK-15 GL 7.62 mm (Lush)</Chinesesimp>
-					<Japanese>AK-15 GL 7.62 mm (Lush)</Japanese>
-					<Turkish>AK-15 GL 7.62 mm (Lush)</Turkish>
+					<Portuguese>AK-15 GL 7,62 mm (exuberante)</Portuguese>
+					<Korean>AK-15 GL 7.62 mm (초목)</Korean>
+					<Chinesesimp>AK-15 GL 7.62 毫米（繁茂）</Chinesesimp>
+					<Japanese>AK-15 GL 7.62 mm（緑地）</Japanese>
+					<Turkish>AK-15 GL 7.62 mm (Orman Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_GL_arid_F0">
 					<Original>AK-15 GL 7.62 mm (Arid)</Original>
-					<Chinese>AK-15 GL 7.62 mm (Arid)</Chinese>
-					<French>AK-15 GL 7.62 mm (Arid)</French>
-					<Spanish>AK-15 GL 7.62 mm (Arid)</Spanish>
-					<Italian>AK-15 GL 7.62 mm (Arid)</Italian>
-					<Polish>AK-15 GL 7.62 mm (Arid)</Polish>
-					<Russian>AK-15 GL 7.62 mm (Arid)</Russian>
-					<German>AK-15 GL 7.62 mm (Arid)</German>
-					<Czech>AK-15 GL 7.62 mm (Arid)</Czech>
+					<Chinese>AK-15 GL 7.62 mm（旱地用）</Chinese>
+					<French>AK-15 GL 7,62 mm (aride)</French>
+					<Spanish>AK-15 GL de 7,62 mm (árido)</Spanish>
+					<Italian>AK-15 GL 7,62 mm (arido)</Italian>
+					<Polish>AK-15 GL 7,62 mm (region suchy)</Polish>
+					<Russian>AK-15 GL, 7,62 мм (пустынный)</Russian>
+					<German>AK-15 GL 7.62 mm (trocken)</German>
+					<Czech>AK-15 GL 7,62 mm (pouštní)</Czech>
 					<English>AK-15 GL 7.62 mm (Arid)</English>
-					<Portuguese>AK-15 GL 7.62 mm (Arid)</Portuguese>
-					<Korean>AK-15 GL 7.62 mm (Arid)</Korean>
-					<Chinesesimp>AK-15 GL 7.62 mm (Arid)</Chinesesimp>
-					<Japanese>AK-15 GL 7.62 mm (Arid)</Japanese>
-					<Turkish>AK-15 GL 7.62 mm (Arid)</Turkish>
+					<Portuguese>AK-15 GL 7,62 mm (árido)</Portuguese>
+					<Korean>AK-15 GL 7.62 mm (사막)</Korean>
+					<Chinesesimp>AK-15 GL 7.62 毫米（干旱）</Chinesesimp>
+					<Japanese>AK-15 GL 7.62 mm（乾燥地帯）</Japanese>
+					<Turkish>AK-15 GL 7.62 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_F0">
 					<Original>AKU-15 7.62 mm</Original>
 					<Chinese>AKU-15 7.62 mm</Chinese>
 					<French>AKU-15 7,62 mm</French>
-					<Spanish>AKU-15 7,62 mm</Spanish>
+					<Spanish>AKU-15 de 7,62 mm</Spanish>
 					<Italian>AKU-15 7,62 mm</Italian>
 					<Polish>AKU-15 7,62 mm</Polish>
-					<Russian>AKU-15 7,62 мм</Russian>
-					<German>AKU-15 7,62 mm</German>
-					<Czech>AKU-15 7,62 mm</Czech>
+					<Russian>AKU-12, 7,62 мм</Russian>
+					<German>AKU-15 7.62 mm</German>
+					<Czech>AKU-15 7,62 mm</Czech>
 					<English>AKU-15 7.62 mm</English>
 					<Portuguese>AKU-15 7,62 mm</Portuguese>
 					<Korean>AKU-15 7.62 mm</Korean>
@@ -13382,37 +13603,37 @@
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_lush_F0">
 					<Original>AKU-15 7.62 mm (Lush)</Original>
-					<Chinese>AKU-15 7.62 mm (Lush)</Chinese>
-					<French>AKU-15 7.62 mm (Lush)</French>
-					<Spanish>AKU-15 7.62 mm (Lush)</Spanish>
-					<Italian>AKU-15 7.62 mm (Lush)</Italian>
-					<Polish>AKU-15 7.62 mm (Lush)</Polish>
-					<Russian>AKU-15 7.62 mm (Lush)</Russian>
-					<German>AKU-15 7.62 mm (Lush)</German>
-					<Czech>AKU-15 7.62 mm (Lush)</Czech>
+					<Chinese>AKU-15 7.62 mm（林地用）</Chinese>
+					<French>AKU-15 7,62 mm (luxuriant)</French>
+					<Spanish>AKU-15 de 7,62 mm (exuberante)</Spanish>
+					<Italian>AKU-15 7,62 mm (verdeggiante)</Italian>
+					<Polish>AKU-15 7,62 mm (gąszcz)</Polish>
+					<Russian>AKU-12, 7,62 мм (болотный)</Russian>
+					<German>AKU-15 7.62 mm (üppig)</German>
+					<Czech>AKU-15 7,62 mm (lesní)</Czech>
 					<English>AKU-15 7.62 mm (Lush)</English>
-					<Portuguese>AKU-15 7.62 mm (Lush)</Portuguese>
-					<Korean>AKU-15 7.62 mm (Lush)</Korean>
-					<Chinesesimp>AKU-15 7.62 mm (Lush)</Chinesesimp>
-					<Japanese>AKU-15 7.62 mm (Lush)</Japanese>
-					<Turkish>AKU-15 7.62 mm (Lush)</Turkish>
+					<Korean>AKU-15 7.62 mm (초목)</Korean>
+					<Portuguese>AKU-15 7,62 mm (exuberante)</Portuguese>
+					<Chinesesimp>AKU-15 7.62 毫米（繁茂）</Chinesesimp>
+					<Japanese>AKU-15 7.62 mm（緑地）</Japanese>
+					<Turkish>AKU-15 7.62 mm (Orman Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_arid_F0">
 					<Original>AKU-15 7.62 mm (Arid)</Original>
-					<Chinese>AKU-15 7.62 mm (Arid)</Chinese>
-					<French>AKU-15 7.62 mm (Arid)</French>
-					<Spanish>AKU-15 7.62 mm (Arid)</Spanish>
-					<Italian>AKU-15 7.62 mm (Arid)</Italian>
-					<Polish>AKU-15 7.62 mm (Arid)</Polish>
-					<Russian>AKU-15 7.62 mm (Arid)</Russian>
-					<German>AKU-15 7.62 mm (Arid)</German>
-					<Czech>AKU-15 7.62 mm (Arid)</Czech>
+					<Chinese>AKU-15 7.62 mm（旱地用）</Chinese>
+					<French>AKU-15 7,62 mm (aride)</French>
+					<Spanish>AKU-15 de 7,62 mm (árido)</Spanish>
+					<Italian>AKU-15 7,62 mm (arido)</Italian>
+					<Polish>AKU-15 7,62 mm (region suchy)</Polish>
+					<Russian>AKU-12, 7,62 мм (пустынный)</Russian>
+					<German>AKU-15 7.62 mm (trocken)</German>
+					<Czech>AKU-15 7,62 mm (pouštní)</Czech>
 					<English>AKU-15 7.62 mm (Arid)</English>
-					<Portuguese>AKU-15 7.62 mm (Arid)</Portuguese>
-					<Korean>AKU-15 7.62 mm (Arid)</Korean>
-					<Chinesesimp>AKU-15 7.62 mm (Arid)</Chinesesimp>
-					<Japanese>AKU-15 7.62 mm (Arid)</Japanese>
-					<Turkish>AKU-15 7.62 mm (Arid)</Turkish>
+					<Portuguese>AKU-15 7,62 mm (árido)</Portuguese>
+					<Korean>AKU-15 7.62 mm (사막)</Korean>
+					<Chinesesimp>AKU-15 7.62 毫米（干旱）</Chinesesimp>
+					<Japanese>AKU-15 7.62 mm（乾燥地帯）</Japanese>
+					<Turkish>AKU-15 7.62 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_Mk20_black_F0">
 					<Original>Mk20 5.56 mm (Black)</Original>
@@ -13584,6 +13805,40 @@
 					<Japanese>AK-12 5.45 mm</Japanese>
 					<Turkish>AK-12 5.45 mm</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_lush_F0">
+					<Original>AK-12 5.45 mm (Lush)</Original>
+					<Chinese>AK-12 5.45 mm（林地用）</Chinese>
+					<French>AK-12 5,45 mm (luxuriant)</French>
+					<Spanish>AK-12 de 5,45 mm (exuberante)</Spanish>
+					<Italian>AK-12 5,45 mm (verdeggiante)</Italian>
+					<Polish>AK-12 5,45 mm (gąszcz)</Polish>
+					<Russian>AK-12, 5,45 мм (болотный)</Russian>
+					<German>AK-12 5.45 mm (üppig)</German>
+					<Czech>AK-12 5,45 mm (lesní)</Czech>
+					<English>AK-12 5.45 mm (Lush)</English>
+					<Portuguese>AK-12 5,45 mm (exuberante)</Portuguese>
+					<Korean>AK-12 5.45 mm (초목)</Korean>
+					<Chinesesimp>AK-12 5.45 毫米（繁茂）</Chinesesimp>
+					<Japanese>AK-12 5.45 mm（緑地）</Japanese>
+					<Turkish>AK-12 5.45 mm (Orman Kam.)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_arid_F0">
+					<Original>AK-12 5.45 mm (Arid)</Original>
+					<Chinese>AK-12 5.45 mm（旱地用）</Chinese>
+					<French>AK-12 5,45 mm (aride)</French>
+					<Spanish>AK-12 de 5,45 mm (árido)</Spanish>
+					<Italian>AK-12 5,45 mm (arido)</Italian>
+					<Polish>AK-12 5,45 mm (region suchy)</Polish>
+					<Russian>AK-12, 5,45 мм (пустынный)</Russian>
+					<German>AK-12 5.45 mm (trocken)</German>
+					<Czech>AK-12 5,45 mm (pouštní)</Czech>
+					<English>AK-12 5.45 mm (Arid)</English>
+					<Portuguese>AK-12 5,45 mm (árido)</Portuguese>
+					<Korean>AK-12 5.45 mm (사막)</Korean>
+					<Chinesesimp>AK-12 5.45 毫米（干旱）</Chinesesimp>
+					<Japanese>AK-12 5.45 mm（乾燥地帯）</Japanese>
+					<Turkish>AK-12 5.45 mm (Kurak Kam.)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_GL_545_F0">
 					<Original>AK-12 GL 5.45 mm</Original>
 					<Chinese>AK-12 GL 5.45 mm</Chinese>
@@ -13601,135 +13856,50 @@
 					<Japanese>AK-12 GL 5.45 mm</Japanese>
 					<Turkish>AK-12 GL 5.45 mm</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_SPAR_01_C_blk_F0">
-					<Original>SPAR-16C 5.56 mm (Black)</Original>
-					<Chinese>SPAR-16C 5.56 mm（黑色）</Chinese>
-					<French>SPAR-16C 5,56 mm (noir)</French>
-					<Spanish>SPAR-16C 5,56 mm (negro)</Spanish>
-					<Italian>SPAR-16C 5,56 mm (nero)</Italian>
-					<Polish>SPAR-16C 5,56 mm (czarny)</Polish>
-					<Russian>SPAR-16C 5,56 мм (черный)</Russian>
-					<German>SPAR-16C 5,56 mm (Schwarz)</German>
-					<Czech>SPAR-16C 5,56 mm (černá)</Czech>
-					<English>SPAR-16C 5.56 mm (Black)</English>
-					<Portuguese>SPAR-16C 5,56 mm (preto)</Portuguese>
-					<Korean>SPAR-16C 5.56 mm (흑색)</Korean>
-					<Chinesesimp>SPAR-16C 5.56 毫米（黑色）</Chinesesimp>
-					<Japanese>SPAR-16C 5.56 mm（黒）</Japanese>
-					<Turkish>SPAR-16C 5.56 mm (Siyah)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_SPAR_01_C_khk_F0">
-					<Original>SPAR-16C 5.56 mm (Khaki)</Original>
-					<Chinese>SPAR-16C 5.56 mm（卡其）</Chinese>
-					<French>SPAR-16C 5,56 mm (kaki)</French>
-					<Spanish>SPAR-16C 5,56 mm (caqui)</Spanish>
-					<Italian>SPAR-16C 5,56 mm (kaki)</Italian>
-					<Polish>SPAR-16C 5,56 mm (khaki)</Polish>
-					<Russian>SPAR-16C 5,56 мм (хаки)</Russian>
-					<German>SPAR-16C 5,56 mm (Khaki)</German>
-					<Czech>SPAR-16C 5,56 mm (khaki)</Czech>
-					<English>SPAR-16C 5.56 mm (Khaki)</English>
-					<Portuguese>SPAR-16C 5,56 mm (cáqui)</Portuguese>
-					<Korean>SPAR-16C 5.56 mm (카키)</Korean>
-					<Chinesesimp>SPAR-16C 5.56 毫米（卡其色）</Chinesesimp>
-					<Japanese>SPAR-16C 5.56 mm（カーキ）</Japanese>
-					<Turkish>SPAR-16C 5.56 mm (Haki)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_SPAR_01_C_snd_F0">
-					<Original>SPAR-16C 5.56 mm (Sand)</Original>
-					<Chinese>SPAR-16C 5.56 mm（沙色）</Chinese>
-					<French>SPAR-16C 5,56 mm (sable)</French>
-					<Spanish>SPAR-16C 5,56 mm (arena)</Spanish>
-					<Italian>SPAR-16C 5,56 mm (sabbia)</Italian>
-					<Polish>SPAR-16C 5,56 mm (piaskowy)</Polish>
-					<Russian>SPAR-16C 5,56 мм (песочный)</Russian>
-					<German>SPAR-16C 5,56 mm (Sand)</German>
-					<Czech>SPAR-16C 5,56 mm (písková)</Czech>
-					<English>SPAR-16C 5.56 mm (Sand)</English>
-					<Portuguese>SPAR-16C 5,56 mm (areia)</Portuguese>
-					<Korean>SPAR-16C 5.56 mm (모래)</Korean>
-					<Chinesesimp>SPAR-16C 5.56 毫米（沙色）</Chinesesimp>
-					<Japanese>SPAR-16C 5.56 mm（砂色）</Japanese>
-					<Turkish>SPAR-16C 5.56 mm (Kum)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_lush_F0">
-					<Original>AK-12 5.45 mm (Lush)</Original>
-					<Chinese>AK-12 5.45 mm (Lush)</Chinese>
-					<French>AK-12 5.45 mm (Lush)</French>
-					<Spanish>AK-12 5.45 mm (Lush)</Spanish>
-					<Italian>AK-12 5.45 mm (Lush)</Italian>
-					<Polish>AK-12 5.45 mm (Lush)</Polish>
-					<Russian>AK-12 5.45 mm (Lush)</Russian>
-					<German>AK-12 5.45 mm (Lush)</German>
-					<Czech>AK-12 5.45 mm (Lush)</Czech>
-					<English>AK-12 5.45 mm (Lush)</English>
-					<Portuguese>AK-12 5.45 mm (Lush)</Portuguese>
-					<Korean>AK-12 5.45 mm (Lush)</Korean>
-					<Chinesesimp>AK-12 5.45 mm (Lush)</Chinesesimp>
-					<Japanese>AK-12 5.45 mm (Lush)</Japanese>
-					<Turkish>AK-12 5.45 mm (Lush)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_arid_F0">
-					<Original>AK-12 5.45 mm (Arid)</Original>
-					<Chinese>AK-12 5.45 mm (Arid)</Chinese>
-					<French>AK-12 5.45 mm (Arid)</French>
-					<Spanish>AK-12 5.45 mm (Arid)</Spanish>
-					<Italian>AK-12 5.45 mm (Arid)</Italian>
-					<Polish>AK-12 5.45 mm (Arid)</Polish>
-					<Russian>AK-12 5.45 mm (Arid)</Russian>
-					<German>AK-12 5.45 mm (Arid)</German>
-					<Czech>AK-12 5.45 mm (Arid)</Czech>
-					<English>AK-12 5.45 mm (Arid)</English>
-					<Portuguese>AK-12 5.45 mm (Arid)</Portuguese>
-					<Korean>AK-12 5.45 mm (Arid)</Korean>
-					<Chinesesimp>AK-12 5.45 mm (Arid)</Chinesesimp>
-					<Japanese>AK-12 5.45 mm (Arid)</Japanese>
-					<Turkish>AK-12 5.45 mm (Arid)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_GL_lush_F0">
+				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_GL_545_lush_F0">
 					<Original>AK-12 GL 5.45 mm (Lush)</Original>
-					<Chinese>AK-12 GL 5.45 mm (Lush)</Chinese>
-					<French>AK-12 GL 5.45 mm (Lush)</French>
-					<Spanish>AK-12 GL 5.45 mm (Lush)</Spanish>
-					<Italian>AK-12 GL 5.45 mm (Lush)</Italian>
-					<Polish>AK-12 GL 5.45 mm (Lush)</Polish>
-					<Russian>AK-12 GL 5.45 mm (Lush)</Russian>
-					<German>AK-12 GL 5.45 mm (Lush)</German>
-					<Czech>AK-12 GL 5.45 mm (Lush)</Czech>
+					<Chinese>AK-12 GL 5.45 mm（林地用）</Chinese>
+					<French>AK-12 GL 5,45 mm (luxuriant)</French>
+					<Spanish>AK-12 GL de 5,45 mm (exuberante)</Spanish>
+					<Italian>AK-12 GL 5,45 mm (verdeggiante)</Italian>
+					<Polish>AK-12 GL 5,45 mm (gąszcz)</Polish>
+					<Russian>AK-12 GL, 5,45 мм (болотный)</Russian>
+					<German>AK-12 GL 5.45 mm (üppig)</German>
+					<Czech>AK-12 GL 5,45 mm (lesní)</Czech>
 					<English>AK-12 GL 5.45 mm (Lush)</English>
-					<Portuguese>AK-12 GL 5.45 mm (Lush)</Portuguese>
-					<Korean>AK-12 GL 5.45 mm (Lush)</Korean>
-					<Chinesesimp>AK-12 GL 5.45 mm (Lush)</Chinesesimp>
-					<Japanese>AK-12 GL 5.45 mm (Lush)</Japanese>
-					<Turkish>AK-12 GL 5.45 mm (Lush)</Turkish>
+					<Portuguese>AK-12 GL 5,45 mm (exuberante)</Portuguese>
+					<Korean>AK-12 GL 5.45 mm (초목)</Korean>
+					<Chinesesimp>AK-12 GL 5.45 毫米（繁茂）</Chinesesimp>
+					<Japanese>AK-12 GL 5.45 mm（緑地）</Japanese>
+					<Turkish>AK-12 GL 5.45 mm (Orman Kam.)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_GL_arid_F0">
+				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_GL_545_arid_F0">
 					<Original>AK-12 GL 5.45 mm (Arid)</Original>
-					<Chinese>AK-12 GL 5.45 mm (Arid)</Chinese>
-					<French>AK-12 GL 5.45 mm (Arid)</French>
-					<Spanish>AK-12 GL 5.45 mm (Arid)</Spanish>
-					<Italian>AK-12 GL 5.45 mm (Arid)</Italian>
-					<Polish>AK-12 GL 5.45 mm (Arid)</Polish>
-					<Russian>AK-12 GL 5.45 mm (Arid)</Russian>
-					<German>AK-12 GL 5.45 mm (Arid)</German>
-					<Czech>AK-12 GL 5.45 mm (Arid)</Czech>
+					<Chinese>AK-12 GL 5.45 mm（旱地用）</Chinese>
+					<French>AK-12 GL 5,45 mm (aride)</French>
+					<Spanish>AK-12 GL de 5,45 mm (árido)</Spanish>
+					<Italian>AK-12 GL 5,45 mm (arido)</Italian>
+					<Polish>AK-12 GL 5,45 mm (region suchy)</Polish>
+					<Russian>AK-12 GL, 5,45 мм (пустынный)</Russian>
+					<German>AK-12 GL 5.45 mm (trocken)</German>
+					<Czech>AK-12 GL 5,45 mm (pouštní)</Czech>
 					<English>AK-12 GL 5.45 mm (Arid)</English>
-					<Portuguese>AK-12 GL 5.45 mm (Arid)</Portuguese>
-					<Korean>AK-12 GL 5.45 mm (Arid)</Korean>
-					<Chinesesimp>AK-12 GL 5.45 mm (Arid)</Chinesesimp>
-					<Japanese>AK-12 GL 5.45 mm (Arid)</Japanese>
-					<Turkish>AK-12 GL 5.45 mm (Arid)</Turkish>
+					<Portuguese>AK-12 GL 5,45 mm (árido)</Portuguese>
+					<Korean>AK-12 GL 5.45 mm (사막)</Korean>
+					<Chinesesimp>AK-12 GL 5.45 毫米（干旱）</Chinesesimp>
+					<Japanese>AK-12 GL 5.45 mm（乾燥地帯）</Japanese>
+					<Turkish>AK-12 GL 5.45 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_545_F0">
 					<Original>AKU-12 5.45 mm</Original>
 					<Chinese>AKU-12 5.45 mm</Chinese>
 					<French>AKU-12 5,45 mm</French>
-					<Spanish>AKU-12 5,45 mm</Spanish>
+					<Spanish>AKU-12 de 5,45 mm</Spanish>
 					<Italian>AKU-12 5,45 mm</Italian>
 					<Polish>AKU-12 5,45 mm</Polish>
-					<Russian>AKU-12 5,45 мм</Russian>
-					<German>AKU-12 5,45 mm</German>
-					<Czech>AKU-12 5,45 mm</Czech>
+					<Russian>AKU-12, 5,45 мм</Russian>
+					<German>AKU-12 5.45 mm</German>
+					<Czech>AKU-12 5,45 mm</Czech>
 					<English>AKU-12 5.45 mm</English>
 					<Portuguese>AKU-12 5,45 mm</Portuguese>
 					<Korean>AKU-12 5.45 mm</Korean>
@@ -13739,37 +13909,37 @@
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_545_lush_F0">
 					<Original>AKU-12 5.45 mm (Lush)</Original>
-					<Chinese>AKU-12 5.45 mm (Lush)</Chinese>
-					<French>AKU-12 5.45 mm (Lush)</French>
-					<Spanish>AKU-12 5.45 mm (Lush)</Spanish>
-					<Italian>AKU-12 5.45 mm (Lush)</Italian>
-					<Polish>AKU-12 5.45 mm (Lush)</Polish>
-					<Russian>AKU-12 5.45 mm (Lush)</Russian>
-					<German>AKU-12 5.45 mm (Lush)</German>
-					<Czech>AKU-12 5.45 mm (Lush)</Czech>
+					<Chinese>AKU-12 5.45 mm（林地用）</Chinese>
+					<French>AKU-12 5,45 mm (luxuriant)</French>
+					<Spanish>AKU-12 de 5,45 mm (exuberante)</Spanish>
+					<Italian>AKU-12 5,45 mm (verdeggiante)</Italian>
+					<Polish>AKU-12 5,45 mm (gąszcz)</Polish>
+					<Russian>AKU-12, 5,45 мм (болотный)</Russian>
+					<German>AKU-12 5.45 mm (üppig)</German>
+					<Czech>AKU-12 5,45 mm (lesní)</Czech>
 					<English>AKU-12 5.45 mm (Lush)</English>
-					<Portuguese>AKU-12 5.45 mm (Lush)</Portuguese>
-					<Korean>AKU-12 5.45 mm (Lush)</Korean>
-					<Chinesesimp>AKU-12 5.45 mm (Lush)</Chinesesimp>
-					<Japanese>AKU-12 5.45 mm (Lush)</Japanese>
-					<Turkish>AKU-12 5.45 mm (Lush)</Turkish>
+					<Korean>AKU-12 5.45 mm (초목)</Korean>
+					<Portuguese>AKU-12 5,45 mm (exuberante)</Portuguese>
+					<Chinesesimp>AKU-12 5.45 毫米（繁茂）</Chinesesimp>
+					<Japanese>AKU-12 5.45 mm（緑地）</Japanese>
+					<Turkish>AKU-12 5.45 mm (Orman Kam.)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12U_545_arid_F0">
 					<Original>AKU-12 5.45 mm (Arid)</Original>
-					<Chinese>AKU-12 5.45 mm (Arid)</Chinese>
-					<French>AKU-12 5.45 mm (Arid)</French>
-					<Spanish>AKU-12 5.45 mm (Arid)</Spanish>
-					<Italian>AKU-12 5.45 mm (Arid)</Italian>
-					<Polish>AKU-12 5.45 mm (Arid)</Polish>
-					<Russian>AKU-12 5.45 mm (Arid)</Russian>
-					<German>AKU-12 5.45 mm (Arid)</German>
-					<Czech>AKU-12 5.45 mm (Arid)</Czech>
+					<Chinese>AKU-12 5.45 mm（旱地用）</Chinese>
+					<French>AKU-12 5,45 mm (aride)</French>
+					<Spanish>AKU-12 de 5,45 mm (árido)</Spanish>
+					<Italian>AKU-12 5,45 mm (arido)</Italian>
+					<Polish>AKU-12 5,45 mm (region suchy)</Polish>
+					<Russian>AKU-12, 5,45 мм (пустынный)</Russian>
+					<German>AKU-12 5.45 mm (trocken)</German>
+					<Czech>AKU-12 5,45 mm (pouštní)</Czech>
 					<English>AKU-12 5.45 mm (Arid)</English>
-					<Portuguese>AKU-12 5.45 mm (Arid)</Portuguese>
-					<Korean>AKU-12 5.45 mm (Arid)</Korean>
-					<Chinesesimp>AKU-12 5.45 mm (Arid)</Chinesesimp>
-					<Japanese>AKU-12 5.45 mm (Arid)</Japanese>
-					<Turkish>AKU-12 5.45 mm (Arid)</Turkish>
+					<Portuguese>AKU-12 5,45 mm (árido)</Portuguese>
+					<Korean>AKU-12 5.45 mm (사막)</Korean>
+					<Chinesesimp>AKU-12 5.45 毫米（干旱）</Chinesesimp>
+					<Japanese>AKU-12 5.45 mm（乾燥地帯）</Japanese>
+					<Turkish>AKU-12 5.45 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Container name="DescriptionShort">
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_F1">
