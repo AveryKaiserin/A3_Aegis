@@ -630,7 +630,9 @@ class CfgWeapons
 		};
 	};
 	class arifle_Mk20_F;
+	class arifle_Mk20_plain_F;
 	class arifle_Mk20C_F;
+	class arifle_Mk20C_plain_F;
 	class arifle_Mk20_GL_F;
 	class arifle_Mk20_GL_plain_F: arifle_Mk20_GL_F
 	{
@@ -2128,7 +2130,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class arifle_Mk20_black_F: arifle_Mk20_F
+	class arifle_Mk20_black_F: arifle_Mk20_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_black_F0;
@@ -2136,7 +2138,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MK20\Data\MK20_black_CO.paa"};
 		baseWeapon = arifle_Mk20_black_F;
 	};
-	class arifle_Mk20_hex_F: arifle_Mk20_F
+	class arifle_Mk20_hex_F: arifle_Mk20_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_hex_F0;
@@ -2144,7 +2146,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MK20\Data\MK20_OPFOR_CO.paa"};
 		baseWeapon = arifle_Mk20_hex_F;
 	};
-	class arifle_Mk20C_black_F: arifle_Mk20C_F
+	class arifle_Mk20C_black_F: arifle_Mk20C_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20C_black_F0;
@@ -2152,7 +2154,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MK20\Data\MK20_black_CO.paa"};
 		baseWeapon = arifle_Mk20C_black_F;
 	};
-	class arifle_Mk20C_hex_F: arifle_Mk20C_F
+	class arifle_Mk20C_hex_F: arifle_Mk20C_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20C_hex_F0;
@@ -2160,7 +2162,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MK20\Data\MK20_OPFOR_CO.paa"};
 		baseWeapon = arifle_Mk20C_hex_F;
 	};
-	class arifle_Mk20_GL_black_F: arifle_Mk20_GL_F
+	class arifle_Mk20_GL_black_F: arifle_Mk20_GL_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_GL_black_F0;
@@ -2172,7 +2174,7 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_Mk20_GL_black_F;
 	};
-	class arifle_Mk20_GL_hex_F: arifle_Mk20_GL_F
+	class arifle_Mk20_GL_hex_F: arifle_Mk20_GL_plain_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_GL_hex_F0;

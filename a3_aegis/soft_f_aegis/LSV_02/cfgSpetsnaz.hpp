@@ -100,8 +100,8 @@ class O_R_LSV_02_armed_F: LSV_02_armed_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUcamo_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUS_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUS_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -231,8 +231,8 @@ class O_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUcamo_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUS_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUS_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -360,8 +360,8 @@ class O_R_LSV_02_AT_F: LSV_02_AT_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUS_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUS_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 	};

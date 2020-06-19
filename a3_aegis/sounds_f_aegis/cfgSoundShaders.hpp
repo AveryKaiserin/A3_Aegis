@@ -1600,6 +1600,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_03",1}
 		};
+		frequency = 0.7;
 		volume = db-2;
 		range = 50;
 		rangeCurve = closeShotCurve;
