@@ -83,5 +83,6 @@ class CfgVehicles
 	VEST_HOLDER(V_SmershVest_01_khaki_F,"Kipchak Vest (Khaki)")
 	VEST_HOLDER(V_SmershVest_01_radio_khaki_F,"Kipchak Vest (Khaki, Tactical Radio)")
 	VEST_HOLDER(V_BandollierB_taiga,$STR_A3_A_CfgWeapons_V_BandollierB_taiga0)
+	VEST_HOLDER(V_TacVest_grn,$STR_A3_A_CfgWeapons_V_TacVest_grn0)
 	VEST_HOLDER(V_RebreatherRU,$STR_A3_A_CfgWeapons_V_RebreatherRU0)
 };

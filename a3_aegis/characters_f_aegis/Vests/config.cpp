@@ -761,6 +761,14 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_BandollierB_taiga_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\equip_bandolier_taiga_CO.paa"};
 	};
+	class V_TacVest_grn: V_TacVest_khk
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_TacVest_grn0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_TacVest_grn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest_RUkhk_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest.rvmat"};
+	};
 	class V_RebreatherRU: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;

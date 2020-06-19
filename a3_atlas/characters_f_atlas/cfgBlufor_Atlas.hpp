@@ -2099,7 +2099,7 @@ class B_E_Recon_AR_F: B_recon_AR_F
 	linkedItems[] =
 	{
 		H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2107,7 +2107,7 @@ class B_E_Recon_AR_F: B_recon_AR_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2163,7 +2163,7 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 	linkedItems[] =
 	{
 		H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2171,7 +2171,7 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 	respawnLinkedItems[] =
 	{
 		H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2228,7 +2228,7 @@ class B_E_Recon_GL_F: B_recon_GL_F
 	linkedItems[] =
 	{
         H_HelmetB_light_wdl,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2236,7 +2236,7 @@ class B_E_Recon_GL_F: B_recon_GL_F
 	respawnLinkedItems[] =
 	{
         H_HelmetB_light_wdl,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2300,7 +2300,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 	linkedItems[] =
 	{
         H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2308,7 +2308,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 	respawnLinkedItems[] =
 	{
         H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2363,7 +2363,7 @@ class B_E_Recon_M_F: B_recon_M_F
 	linkedItems[] =
 	{
 		H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2371,7 +2371,7 @@ class B_E_Recon_M_F: B_recon_M_F
 	respawnLinkedItems[] =
 	{
 		H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2431,7 +2431,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	linkedItems[] =
 	{
         H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2439,7 +2439,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	respawnLinkedItems[] =
 	{
         H_Booniehat_wdl_hs,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2494,7 +2494,7 @@ class B_E_Recon_F: B_recon_F
 	linkedItems[] =
 	{
         H_HelmetB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2502,7 +2502,7 @@ class B_E_Recon_F: B_recon_F
 	respawnLinkedItems[] =
 	{
         H_HelmetB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2560,7 +2560,7 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 	linkedItems[] =
 	{
         H_HelmetB_light_wdl,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2568,7 +2568,7 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 	respawnLinkedItems[] =
 	{
         H_HelmetB_light_wdl,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2631,7 +2631,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	linkedItems[] =
 	{
         H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2639,7 +2639,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	respawnLinkedItems[] =
 	{
         H_HelmetSpecB_light,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP

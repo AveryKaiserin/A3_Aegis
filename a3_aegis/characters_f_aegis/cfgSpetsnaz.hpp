@@ -105,6 +105,20 @@ class O_R_Soldier_GL_F: O_R_Soldier_Base_F
 class O_R_soldier_exp_F: O_R_Soldier_Base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_exp_F.jpg";
+	linkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
     weapons[] =
     {
         arifle_AK12U_545_aco_pointer_F,
@@ -171,6 +185,20 @@ class O_R_Soldier_AR_F: O_R_Soldier_Base_F
 class O_R_soldier_M_F: O_R_Soldier_Base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_M_F.jpg";
+	linkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
     weapons[] =
     {
         srifle_DMR_05_DMS_LP_BI_F,
@@ -204,6 +232,20 @@ class O_R_soldier_M_F: O_R_Soldier_Base_F
 class O_R_medic_F: O_R_Soldier_Base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_medic_F.jpg";
+	linkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
     weapons[] =
     {
         arifle_AK12_545_aco_pointer_F,
@@ -242,6 +284,20 @@ class O_R_medic_F: O_R_Soldier_Base_F
 class O_R_Soldier_LAT_F: O_R_Soldier_Base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_LAT_F.jpg";
+	linkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetAggressor_cover_taiga_F,
+		V_TacVest_grn,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
     weapons[] =
     {
         arifle_AK12_545_aco_pointer_F,
@@ -1271,14 +1327,14 @@ class O_R_crew_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_Tank_black_F,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_Tank_black_F,
-		V_TacVest_oli,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -1691,14 +1747,14 @@ class O_R_soldier_AA_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -1759,14 +1815,14 @@ class O_R_soldier_AT_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -2010,14 +2066,14 @@ class O_R_Soldier_HAT_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -2122,14 +2178,14 @@ class O_R_Soldier_CQ_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -2352,7 +2408,7 @@ class O_R_soldier_UAV_F: O_R_Soldier_Base_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
         O_R_UAVTerminal,
 		O_NVGoggles_grn_F
@@ -2360,7 +2416,7 @@ class O_R_soldier_UAV_F: O_R_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
         O_R_UAVTerminal,
 		O_NVGoggles_grn_F
@@ -2866,14 +2922,14 @@ class O_R_sniper_F: O_R_Soldier_sniper_base
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_F,
+		V_TacVest_grn,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_F,
+		V_TacVest_grn,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
@@ -3061,14 +3117,14 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_F,
+		V_TacVest_grn,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_F,
+		V_TacVest_grn,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
@@ -3307,14 +3363,14 @@ class O_R_medic_ard_F: O_R_medic_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -3341,14 +3397,14 @@ class O_R_soldier_exp_ard_F: O_R_soldier_exp_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -3387,14 +3443,14 @@ class O_R_soldier_M_ard_F: O_R_soldier_M_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -3486,14 +3542,14 @@ class O_R_Soldier_LAT_ard_F: O_R_Soldier_LAT_F
 	linkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetAggressor_cover_F,
-		V_SmershVest_01_F,
+		V_TacVest_grn,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
