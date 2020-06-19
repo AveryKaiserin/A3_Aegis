@@ -59,13 +59,13 @@ class O_A_soldier_AR_F: O_A_soldier_base_F
     scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -123,13 +123,13 @@ class O_A_soldier_GL_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -166,13 +166,13 @@ class O_A_soldier_M_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
@@ -254,13 +254,13 @@ class O_A_soldier_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_ChestrigF_khk,
 		DefaultManLinkedItems
     };
@@ -283,13 +283,13 @@ class O_A_soldier_LAT_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_BandollierB_khk,
 		DefaultManLinkedItems
     };
@@ -315,13 +315,13 @@ class O_A_soldier_SL_F: O_A_soldier_base_F
 	role = Grenadier;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_Chestrig_khk,
 		DefaultManLinkedItems
     };
@@ -378,13 +378,13 @@ class O_A_soldier_TL_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_Chestrig_khk,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_HelmetAggressor_sand_F,
+        H_PASGT_basic_sand_F,
         V_Chestrig_khk,
 		DefaultManLinkedItems
     };
@@ -563,8 +563,18 @@ class O_A_engineer_F: O_A_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_engineer_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_s};
+            speechPlural[] = {veh_infantry_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_p;
+    nameSound = veh_infantry_s;
     scope = public;
-    scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
     role = Sapper;
     icon = iconManEngineer;
@@ -575,7 +585,18 @@ class O_A_engineer_F: O_A_soldier_base_F
 	detectSkill = 31;
 	threat[] = {1,0.5,0.1};
 	camouflage = 1.6;
-	backpack = B_AssaultPack_ocamo_Eng_F;
+    linkedItems[] =
+    {
+        H_Cap_brn_SPECOPS,
+        V_BandollierB_khk,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_Cap_brn_SPECOPS,
+        V_BandollierB_khk,
+		DefaultManLinkedItems
+    };
     weapons[] =
     {
         arifle_CTAR_blk_flash_F,
@@ -604,18 +625,7 @@ class O_A_engineer_F: O_A_soldier_base_F
         SmokeShellOrange,
         SmokeShellYellow
     };
-    linkedItems[] =
-    {
-        H_Cap_brn_SPECOPS,
-        V_BandollierB_khk,
-		DefaultManLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        H_Cap_brn_SPECOPS,
-        V_BandollierB_khk,
-		DefaultManLinkedItems
-    };
+	backpack = B_AssaultPack_ocamo_Eng_F;
 };
 class O_A_helipilot_F: O_helipilot_F
 {
@@ -633,7 +643,6 @@ class O_A_helipilot_F: O_helipilot_F
     textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
     nameSound = veh_infantry_pilot_s;
     scope = public;
-    scopeCurator = public;
     genericNames = AfroMen;
 	identityTypes[] =
 	{
@@ -647,6 +656,20 @@ class O_A_helipilot_F: O_helipilot_F
 	cost = 160000;
 	camouflage = 2;
 	uniformClass = U_O_officer_noInsignia_hex_F;
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        V_TacVest_brn,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        V_TacVest_brn,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
     weapons[] =
     {
         SMG_02_F,
@@ -670,31 +693,41 @@ class O_A_helipilot_F: O_helipilot_F
         SmokeShellRed,
         SmokeShellOrange,
         SmokeShellYellow
-    };
-    linkedItems[] =
-    {
-        H_PilotHelmetHeli_O,
-        V_TacVest_brn,
-		DefaultManLinkedItems,
-        O_NVGoggles_hex_F
-    };
-    respawnLinkedItems[] =
-    {
-        H_PilotHelmetHeli_O,
-        V_TacVest_brn,
-		DefaultManLinkedItems,
-        O_NVGoggles_hex_F
     };
 };
 class O_A_helicrew_F: O_A_helipilot_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_helicrew_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_pilot_s};
+            speechPlural[] = {veh_infantry_pilot_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+    nameSound = veh_infantry_pilot_s;
     scope = public;
-    scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
 	cost = 80000;
+    linkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        V_TacVest_brn,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        V_TacVest_brn,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
     weapons[] =
     {
         arifle_CTAR_blk_F,
@@ -718,20 +751,6 @@ class O_A_helicrew_F: O_A_helipilot_F
         SmokeShellRed,
         SmokeShellOrange,
         SmokeShellYellow
-    };
-    linkedItems[] =
-    {
-        H_CrewHelmetHeli_O,
-        V_TacVest_brn,
-		DefaultManLinkedItems,
-        O_NVGoggles_hex_F
-    };
-    respawnLinkedItems[] =
-    {
-        H_CrewHelmetHeli_O,
-        V_TacVest_brn,
-		DefaultManLinkedItems,
-        O_NVGoggles_hex_F
     };
 };
 class O_A_Fighter_Pilot_F: O_A_helipilot_F
