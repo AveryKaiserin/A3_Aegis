@@ -10,7 +10,7 @@ class O_A_officer_F;
 class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
 {
     scope = protected;
-    scopeCurator = protected;
+    scopeCurator = private;
 	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
 	model = "\A3_Opf\Characters_F_Opf\Uniforms\O_Soldier_02.p3d";
 	hiddenSelections[] =
@@ -34,7 +34,7 @@ class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
 class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
 {
     scope = protected;
-    scopeCurator = protected;
+    scopeCurator = private;
 	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
 	hiddenSelectionsTextures[] =
 	{

@@ -8,7 +8,7 @@ class CfgVehicles
 	class SoldierGB;
 	#include "cfgCivil.hpp"
 	#include "cfgPara.hpp"
-	//#include "cfgRaven.hpp"
+	#include "cfgRaven.hpp"
 	#include "cfgChKDZ.hpp"
 	#include "cfgTKM.hpp"
 };
