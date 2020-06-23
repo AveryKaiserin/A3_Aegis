@@ -72,8 +72,8 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_CO.paa"
+					"\A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_ext01_CO.paa",
+					"\A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_ext02_CO.paa"
 				};
 				factions[] = {OPF_F};
 			};
@@ -120,13 +120,6 @@ class CfgVehicles
 				};
 			};
 		};
-		textureList[] =
-		{
-			Hex,1,
-			Grey,0,
-			Blue,0,
-			GreenHex,0
-		};
 		class EjectionSystem;
 	};
 	class Plane_CAS_02_dynamicLoadout_base_F: Plane_CAS_02_base_F{};
@@ -137,11 +130,6 @@ class CfgVehicles
 		{
 			Hex,1,
 			Grey,0
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_CO.paa",
-			"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_CO.paa"
 		};
 	};
 	// Arma 3 Aegis

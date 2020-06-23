@@ -1143,7 +1143,7 @@ class O_R_Heli_Transport_04_box_F: Heli_Transport_04_base_F
 		mag_xx(17Rnd_9x21_Mag,6);
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
-		mag_xx(10Rnd_762x54_Mag,12);
+		mag_xx(10Rnd_93x64_DMR_05_Mag,12);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
@@ -1165,7 +1165,7 @@ class O_R_Heli_Transport_04_box_F: Heli_Transport_04_base_F
 		weap_xx(arifle_AK12_GL_545_F,1);
 		weap_xx(arifle_AK12U_545_F,1);
 		weap_xx(arifle_RPK12_F,1);
-		weap_xx(srifle_DMR_01_black_F,1);
+		weap_xx(srifle_DMR_05_blk_F,1);
 		weap_xx(launch_RPG32_green_F,1);
 	};
 	class TransportItems

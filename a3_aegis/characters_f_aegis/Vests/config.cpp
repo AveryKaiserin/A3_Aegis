@@ -711,7 +711,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Green_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_Green_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_Green_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Green_CO.paa"};
 	};
 	class V_CarrierRigKBT_01_light_Green_F: V_CarrierRigKBT_01_light_base_F
@@ -719,7 +719,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Green_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_Green_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_Green_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Green_CO.paa"};
 	};
 	class V_CarrierRigKBT_01_heavy_Green_F: V_CarrierRigKBT_01_heavy_base_F
@@ -727,15 +727,15 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_heavy_Green_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_heavy_Green_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Green_CO.paa"};
 	};
 	class V_SmershVest_01_khaki_F: V_SmershVest_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = "Kipchak Vest (Khaki)";
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_khk_CO.paa",
@@ -746,8 +746,8 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = "Kipchak Vest (Khaki, Tactical Radio)";
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_khk_CO.paa",
@@ -765,7 +765,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_TacVest_grn0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_TacVest_grn_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_TacVest_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest_RUkhk_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest.rvmat"};
 	};

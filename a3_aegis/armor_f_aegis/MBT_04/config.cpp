@@ -134,7 +134,7 @@ class CfgVehicles
 				{
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_brown_hex_1_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_brown_hex_2_CO.paa",
-					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_hex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_hex_CO.paa",
 					"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa"
 				};
 			};
@@ -144,7 +144,7 @@ class CfgVehicles
 				{
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_green_hex_1_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_green_hex_2_CO.paa",
-					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_hex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_hex_CO.paa",
 					"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa"
 				};
 			};
@@ -154,7 +154,7 @@ class CfgVehicles
 				{
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_jungle_1_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_exterior_jungle_2_CO.paa",
-					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_jungle_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_command_jungle_CO.paa",
 					"\A3\Armor_F\Data\camonet_CSAT_Stripe_Green_CO.paa"
 				};
 			};
