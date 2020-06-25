@@ -6273,22 +6273,22 @@
 					<Japanese>Viper（太平洋）</Japanese>
 					<Turkish>Viper (Pasifik)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_OPF_R_alt_F0">
-					<Original>Russia (Mediterranean)</Original>
-					<Chinese>俄國 (地中海)</Chinese>
-					<French>Russie (Méditerranée)</French>
-					<Spanish>Rusia (Mediterráneo)</Spanish>
-					<Italian>Russia (Mediterraneo)</Italian>
-					<Polish>Rosja (Płd.-europ.)</Polish>
-					<Russian>Россия (Средиземноморье)</Russian>
-					<German>Russland (Mittelmeer)</German>
-					<Czech>Rusko (Středozemí)</Czech>
-					<English>Russia (Mediterranean)</English>
-					<Portuguese>Rússia (Mediterrâneo)</Portuguese>
-					<Korean>러시아(지중해)</Korean>
-					<Chinesesimp>俄国 (地中海)</Chinesesimp>
-					<Japanese>ロシア（地中海）</Japanese>
-					<Turkish>Rusya (Akdeniz)</Turkish>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_R_ard_F0">
+					<Original>Russia (Arid)</Original>
+					<Chinese>俄國 (乾燥氣候)</Chinese>
+					<French>Russie (Aride)</French>
+					<Spanish>Rusia (árido)</Spanish>
+					<Italian>Russia (arido)</Italian>
+					<Polish>Rosja (region suchy)</Polish>
+					<Russian>Россия (засушливая местность)</Russian>
+					<German>Russland (Trocken)</German>
+					<Czech>Rusko (suchý porost)</Czech>
+					<English>Russia (Arid)</English>
+					<Portuguese>Rússia (Árido)</Portuguese>
+					<Korean>러시아(건조)</Korean>
+					<Chinesesimp>俄国 (干旱)</Chinesesimp>
+					<Japanese>ロシア（乾燥地帯）</Japanese>
+					<Turkish>Rusya (Kurak)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_W_F0">
 					<Original>CSAT (Woodland)</Original>

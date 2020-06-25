@@ -68,9 +68,9 @@ class CfgFactionClasses
 		icon = "\A3\Data_F_Exp\FactionIcons\icon_VIPER_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Viper_CO.paa";
 	};
-	class OPF_R_alt_F
+	class OPF_R_ard_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_R_alt_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_R_ard_F0;
 		priority = 8;
 		side = TEast;
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_RUS_CA.paa";

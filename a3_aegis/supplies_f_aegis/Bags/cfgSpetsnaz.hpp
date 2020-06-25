@@ -179,6 +179,15 @@ class B_Carryall_green_AAA_F: B_Carryall_green_F
 		mag_xx(Titan_AA,3);
 	};
 };
+class B_Carryall_green_AHAT_F: B_Carryall_green_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Vorona_HEAT,2);
+	};
+};
 class B_Carryall_green_eng_F: B_Carryall_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
