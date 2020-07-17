@@ -30,7 +30,7 @@ class B_Carryall_cbr_Mine: B_Carryall_cbr
 		item_xx(MineDetector,1);
 	};
 };
-class B_AssaultPack_khk_AAR: B_AssaultPack_khk
+class B_TacticalPack_aucamo_AAR: B_TacticalPack_aucamo
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

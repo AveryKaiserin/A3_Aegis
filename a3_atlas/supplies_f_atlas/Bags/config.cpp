@@ -10,6 +10,8 @@ class CfgVehicles
 	class B_TacticalPack_Base;
 	class B_TacticalPack_rgr;
 	class B_TacticalPack_mcamo;
+	class B_Fieldpack_Base;
+	class B_Carryall_Base;
 	class B_Carryall_mcamo;
 	class B_Carryall_cbr;
 	class B_Fieldpack_oli;
@@ -23,13 +25,20 @@ class CfgVehicles
 	class B_TacticalPack_sgg;
 	class B_Kitbag_wdl_F;
 	// Arma 3 Atlas
-	class B_TacticalPack_aucamo: B_TacticalPack_Base
+		class B_RadioBag_01_tkcamo_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_tkcamo_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_tkcamo_F_CA.paa";
+		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_tkcamo_CO.paa"};
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
 	};
 	class B_RadioBag_01_aucamo_F: B_RadioBag_01_base_F
 	{
@@ -76,8 +85,33 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+	class B_Carryall_tkcamo: B_Carryall_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_Carryall_tkcamo0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_tkcamo_CA.paa";
+		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_tkcamo_CO.paa"};
+	};
+	class B_FieldPack_tkcamo: B_FieldPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_FieldPack_tkcamo0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_tkcamo_CA.paa";
+		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_tkcamo_CO.paa"};
+	};
+	class B_TacticalPack_aucamo: B_TacticalPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
+	};
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	//#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIDF.hpp"				// HIDF
 	#include "cfgIDF.hpp"				// IDF

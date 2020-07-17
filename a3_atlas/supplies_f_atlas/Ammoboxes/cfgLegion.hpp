@@ -1,6 +1,7 @@
 class L_supplyCrate_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
+	mapSize = 1.58;
 	class SimpleObject
 	{
 		eden = true;
@@ -11,16 +12,31 @@ class L_supplyCrate_F: ReammoBox_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\L_supplyCrate_F.jpg";
+	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_L_supplyCrate_F0;
+	model = "\A3\Weapons_F\Ammoboxes\Supplydrop.p3d";
+	maximumLoad = 4000;
+	transportMaxWeapons = 12;
+	transportMaxMagazines = 96;
+	supplyRadius = -1;
+	memoryPointSupply = doplnovani;
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
+	slingLoadCargoMemoryPoints[] =
+	{
+		SlingLoadCargo1,
+		SlingLoadCargo2,
+		SlingLoadCargo3,
+		SlingLoadCargo4
+	};
 	class TransportMagazines
 	{
 		mag_xx(11Rnd_45ACP_Mag,6);
 		mag_xx(50Rnd_570x28_SMG_03,6);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,30);
         mag_xx(6Rnd_12Gauge_Pellets,3);
         mag_xx(6Rnd_12Gauge_Slug,3);
 		mag_xx(200Rnd_65x39_cased_Box_Red,3);
-		mag_xx(20Rnd_762x51_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
@@ -37,10 +53,10 @@ class L_supplyCrate_F: ReammoBox_F
 	class TransportWeapons
 	{
 		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(arifle_MSBS65_Mark_black_F,1);
 		weap_xx(arifle_MSBS65_GL_black_F,1);
 		weap_xx(arifle_MSBS65_UBS_black_F,1);
 		weap_xx(LMG_Mk200_black_F,1);
-		weap_xx(srifle_DMR_06_olive_F,1);
 		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportItems
@@ -51,7 +67,7 @@ class L_supplyCrate_F: ReammoBox_F
 		item_xx(optic_Holosight_blk_F,1);
 		item_xx(optic_Holosight_smg_blk_F,1);
 		item_xx(optic_ico_01_black_f,1);
-		item_xx(optic_SOS,1);
+		item_xx(optic_DMS,1);
 		item_xx(optic_NVS,1);
 		item_xx(optic_TWS,1);
 		item_xx(optic_TWS_MG,1);
