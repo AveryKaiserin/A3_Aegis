@@ -45,7 +45,7 @@ class B_ADF_UAV_01_F: UAV_01_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_ADF_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_B_ADF_UAV_01_F0;
+	displayName = $STR_A3_CfgVehicles_UAV_01_base0;
 	side = TWest;
 	faction = BLU_ADF_F;
 	crew = B_UAV_AI_F;
@@ -59,7 +59,7 @@ class B_ADF_UAV_01_F: UAV_01_base_F
 		displayName = "";
 		dissasembleTo[] = {B_ADF_UAV_01_backpack_F};
 	};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_IDF_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_ADF_CO.paa"};
 	textureList[] = {ADF,1};
 };
 class B_ADF_UAV_01_backpack_F: Weapon_Bag_Base

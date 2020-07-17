@@ -45,7 +45,7 @@ class I_CDF_UAV_01_F: UAV_01_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_I_CDF_UAV_01_F0;
+	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_01_F0;
 	side = TGuerrila;
 	faction = IND_CDF_F;
 	crew = I_UAV_AI_F;
