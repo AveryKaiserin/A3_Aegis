@@ -17,6 +17,7 @@ class B_L_Man_Base_F: B_Soldier_F
 	{
 		LanguageFRE_F,
 		Head_NATO,
+		Head_Greek,
 		Head_Tanoan,
 		G_NATO_tropic
 	};
@@ -66,14 +67,14 @@ class B_L_Soldier_F: B_L_Soldier_base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -116,13 +117,13 @@ class B_L_Soldier_unarmed_F: B_L_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -139,14 +140,14 @@ class B_L_Soldier_A_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -200,14 +201,14 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg_tshirt;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -253,14 +254,14 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -309,42 +310,42 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	weapons[] =
 	{
-		srifle_DMR_06_olive_DMS_BI_F,
+		arifle_MSBS65_Mark_black_DMS_LP_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_olive_DMS_BI_F,
+		arifle_MSBS65_Mark_black_DMS_LP_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -423,6 +424,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	{
 		LanguageFRE_F,
 		Head_NATO,
+		Head_Greek,
 		Head_Tanoan,
 		G_NATO_casual
 	};
@@ -437,7 +439,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -445,7 +447,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -514,7 +516,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -522,7 +524,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -589,14 +591,14 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -651,14 +653,14 @@ class B_L_Soldier_AA_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -722,14 +724,14 @@ class B_L_Soldier_AT_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -793,14 +795,14 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -852,14 +854,14 @@ class B_L_Engineer_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_light_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -926,14 +928,14 @@ class B_L_Medic_F: B_L_Soldier_base_F
     uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB,
+		H_I_Helmet_canvas_Green,
 		V_CarrierRigKBT_01_heavy_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -987,14 +989,14 @@ class B_L_Crew_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	linkedItems[] =
 	{
-		H_HelmetCrew_B_L,
+		H_HelmetCrew_B,
 		V_CarrierRigKBT_01_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetCrew_B_L,
+		H_HelmetCrew_B,
 		V_CarrierRigKBT_01_Olive_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1051,14 +1053,14 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
     linkedItems[] =
     {
-        H_PilotHelmetHeli_B_L,
+        H_PilotHelmetHeli_B,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetHeli_B_L,
+        H_PilotHelmetHeli_B,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
         NVGoggles_INDEP
@@ -1094,6 +1096,7 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 	{
 		LanguageFRE_F,
 		Head_NATO,
+		Head_Greek,
 		Head_Tanoan,
 		G_NATO_pilot
 	};
@@ -1119,14 +1122,14 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
     linkedItems[] =
     {
-        H_CrewHelmetHeli_B_L,
+        H_CrewHelmetHeli_B,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
-        H_CrewHelmetHeli_B_L,
+        H_CrewHelmetHeli_B,
 		V_CarrierRigKBT_01_Olive_F,
         DefaultManLinkedItems,
         NVGoggles_INDEP
@@ -1160,6 +1163,7 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 	{
 		LanguageFRE_F,
 		Head_NATO,
+		Head_Greek,
 		Head_Tanoan,
 		G_NATO_pilot
 	};

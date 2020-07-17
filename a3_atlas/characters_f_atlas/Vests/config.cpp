@@ -5,6 +5,13 @@ class CfgWeapons
 {
 	// Arma 3
 	class V_TacVest_khk;
+	class V_HarnessO_brn;
+	class V_HarnessOGL_brn: V_HarnessO_brn
+	{
+		class ItemInfo;
+	};
+	class V_HarnessO_gry;
+	class V_HarnessOSpec_brn;
 	class V_PlateCarrierIA1_dgtl;
 	class V_PlateCarrierIA2_dgtl;
 	class V_PlateCarrierIAGL_dgtl;
@@ -14,25 +21,71 @@ class CfgWeapons
 	class V_CarrierRigKBT_01_light_base_F;
 	class V_CarrierRigKBT_01_heavy_base_F;
 	// Arma 3 Atlas
+	class V_HarnessO_tan: V_HarnessO_gry
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_tan_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_tan0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+		};
+	};
+	class V_HarnessOGL_tan: V_HarnessOGL_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_tan0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_tan_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] =
+			{
+				camo1,
+				camo2
+			};
+		};
+	};
+	class V_HarnessOSpec_tan: V_HarnessOSpec_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_tan_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_tan0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+		};
+	};
 	class V_PlateCarrierIA1_grn: V_PlateCarrierIA1_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA1_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIA2_grn: V_PlateCarrierIA2_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_grn: V_PlateCarrierIAGL_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa",
@@ -43,14 +96,14 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_TacVest_tan0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
 	class V_RebreatherB_aucamo_F: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_aucamo_F_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_aucamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa"};
 		hiddenUnderwaterSelectionsTextures[] =
 		{

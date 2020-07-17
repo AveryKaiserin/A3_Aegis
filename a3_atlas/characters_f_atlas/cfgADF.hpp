@@ -97,14 +97,14 @@ class B_ADF_Soldier_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -148,13 +148,13 @@ class B_ADF_Soldier_unarmed_F: B_ADF_Soldier_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -167,31 +167,31 @@ class B_ADF_Soldier_A_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+    uniformClass = U_B_ADF_Uniform_01_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_Carryall_cbr_Ammo;
 	weapons[] =
 	{
-		arifle_AUG_erco_pointer_F,
+		arifle_AUG_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_erco_pointer_F,
+		arifle_AUG_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
 		DefaultManWeapons
 	};
@@ -217,22 +217,22 @@ class B_ADF_Soldier_AAR_F: B_ADF_Soldier_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_O_SOLDIERU_AAR_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
-	backpack = B_AssaultPack_khk_AAR;
+	backpack = B_TacticalPack_aucamo_AAR;
 	weapons[] =
 	{
 		arifle_AUG_aco_pointer_F,
@@ -283,43 +283,43 @@ class B_ADF_Soldier_AR_F: B_ADF_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+    uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	weapons[] =
 	{
-		arifle_RPK12_arco_pointer_F,
+		LMG_03_ERCO_Pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_RPK12_arco_pointer_F,
+		LMG_03_ERCO_Pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_8(75Rnd_762x39_AK12_Mag_F),
+		mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(75Rnd_762x39_AK12_Mag_F),
+		mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
@@ -339,14 +339,14 @@ class B_ADF_Soldier_lite_F: B_ADF_Soldier_base_F
 	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
-		H_Booniehat_aucamo_hs,
-		V_CarrierRigKBT_01_Olive_F,
+		H_Booniehat_khk_hs,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Booniehat_aucamo_hs,
-		V_CarrierRigKBT_01_Olive_F,
+		H_Booniehat_khk_hs,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems
 	};
 	weapons[] =
@@ -373,6 +373,14 @@ class B_ADF_Soldier_lite_F: B_ADF_Soldier_base_F
 	};
 	camouflage = 1.2;
 	role = Rifleman;
+	identityTypes[] =
+	{
+		LanguageENGB_F,
+		Head_Euro,
+		Head_Enoch,
+		Head_Tanoan,
+		G_NATO_casual
+	};
 };
 class B_ADF_Soldier_GL_F: B_ADF_Soldier_base_F
 {
@@ -385,26 +393,26 @@ class B_ADF_Soldier_GL_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	weapons[] =
 	{
-		arifle_AK12_GL_545_aco_pointer_F,
+		arifle_AUG_GL_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_545_aco_pointer_F,
+		arifle_AUG_GL_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
@@ -441,41 +449,41 @@ class B_ADF_soldier_M_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	weapons[] =
 	{
-		srifle_DMR_05_DMS_LP_BI_F,
+		srifle_EBR_cbr_AMS_LP_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_05_DMS_LP_BI_F,
+		srifle_EBR_cbr_AMS_LP_BI_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(10Rnd_93x64_DMR_05_Mag),
+		mag_8(20Rnd_762x51_Mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(10Rnd_93x64_DMR_05_Mag),
+		mag_8(20Rnd_762x51_Mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -535,14 +543,14 @@ class B_ADF_Officer_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_Beret_grn,
-		V_BandollierB_rgr,
+		V_BandollierB_cbr,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		H_Beret_grn,
-		V_BandollierB_rgr,
+		V_BandollierB_cbr,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -570,7 +578,7 @@ class B_ADF_Soldier_SL_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
@@ -578,21 +586,21 @@ class B_ADF_Soldier_SL_F: B_ADF_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	weapons[] =
 	{
-		arifle_AK12_GL_545_arco_pointer_F,
+		arifle_AUG_GL_erco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_545_arco_pointer_F,
+		arifle_AUG_GL_erco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
@@ -643,11 +651,11 @@ class B_ADF_Soldier_TL_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-    uniformClass = U_B_ADF_Uniform_01_F;
+    uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
@@ -655,21 +663,21 @@ class B_ADF_Soldier_TL_F: B_ADF_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	weapons[] =
 	{
-		arifle_AK12_GL_545_arco_pointer_F,
+		arifle_AUG_GL_erco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_545_arco_pointer_F,
+		arifle_AUG_GL_erco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Binocular
@@ -737,14 +745,14 @@ class B_ADF_RadioOperator_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -799,29 +807,29 @@ class B_ADF_Soldier_AA_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_Kitbag_khk_AA;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
-		launch_O_Titan_coyote_F,
+		arifle_AUG_C_holo_pointer_F,
+		launch_B_Titan_coyote_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
-		launch_O_Titan_coyote_F,
+		arifle_AUG_C_holo_pointer_F,
+		launch_B_Titan_coyote_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
@@ -870,28 +878,28 @@ class B_ADF_Soldier_AT_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_Kitbag_khk_AT;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		launch_O_Titan_short_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		launch_O_Titan_short_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
@@ -941,14 +949,14 @@ class B_ADF_Soldier_LAT_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -996,18 +1004,18 @@ class B_ADF_Soldier_AAA_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -1052,18 +1060,18 @@ class B_ADF_Soldier_AAT_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -1108,32 +1116,32 @@ class B_ADF_Support_GMG_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_GMG_F0;
-	uniformClass = U_B_ADF_Uniform_01_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_ADF_GMG_01_Weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1164,32 +1172,32 @@ class B_ADF_Support_MG_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_MG_F0;
-	uniformClass = U_B_ADF_Uniform_01_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_ADF_HMG_01_Weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1220,32 +1228,32 @@ class B_ADF_Support_Mort_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
-	uniformClass = U_B_ADF_Uniform_01_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_ADF_Mortar_01_Weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1276,32 +1284,32 @@ class B_ADF_Support_AMG_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMG_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_ADF_HMG_01_support_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1332,32 +1340,32 @@ class B_ADF_Support_AMort_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMort_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_tshirt_F;
 	linkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetHBK_aucamo_F,
+		V_ChestrigF_rgr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_ADF_Mortar_01_support_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AUG_C_holo_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1388,31 +1396,31 @@ class B_ADF_Engineer_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = U_B_ADF_Uniform_01_F;
+	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	backpack = B_Kitbag_khk_Eng;
 	weapons[] =
 	{
-		arifle_AUG_erco_pointer_F,
+		arifle_AUG_C_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_erco_pointer_F,
+		arifle_AUG_C_aco_pointer_F,
 		hgun_Pistol_heavy_01_black_F,
 		DefaultManWeapons
 	};
@@ -1451,31 +1459,31 @@ class B_ADF_Soldier_Exp_F: B_ADF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = U_B_ADF_Uniform_01_shortsleeve_F;
+	uniformClass = U_B_ADF_Uniform_01_F;
     linkedItems[] =
     {
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
     };
 	backpack = B_Kitbag_khk_Exp;
     weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
@@ -1521,27 +1529,27 @@ class B_ADF_Soldier_Repair_F: B_ADF_Soldier_base_F
     linkedItems[] =
     {
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
     };
 	backpack = B_AssaultPack_khk_Repair;
     weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
@@ -1574,11 +1582,11 @@ class B_ADF_Soldier_CBRN_F: B_ADF_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
-	uniformClass = U_B_ADF_CBRN_Suit_01_Autumn_F;
+	uniformClass = U_B_ADF_CBRN_Suit_01_Aucamo_F;
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_aucamo_F
@@ -1586,7 +1594,7 @@ class B_ADF_Soldier_CBRN_F: B_ADF_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_aucamo_F
@@ -1594,13 +1602,13 @@ class B_ADF_Soldier_CBRN_F: B_ADF_Soldier_base_F
 	backpack = B_CombinationUnitRespirator_01_F;
 	weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AUG_C_holo_pointer_F,
         hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
     };
@@ -1653,14 +1661,14 @@ class B_ADF_Medic_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_headset_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_oli,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -1714,14 +1722,14 @@ class B_ADF_Crew_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetCrew_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetCrew_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -1778,14 +1786,14 @@ class B_ADF_Helipilot_F: B_ADF_Soldier_base_F
     linkedItems[] =
     {
         H_PilotHelmetHeli_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_TacVest_oli,
         DefaultManLinkedItems,
         NVGoggles_aucamo_F
     };
     respawnLinkedItems[] =
     {
         H_PilotHelmetHeli_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_TacVest_oli,
         DefaultManLinkedItems,
         NVGoggles_aucamo_F
     };
@@ -1847,25 +1855,25 @@ class B_ADF_Helicrew_F: B_ADF_Soldier_base_F
     linkedItems[] =
     {
         H_CrewHelmetHeli_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_TacVest_oli,
         DefaultManLinkedItems,
         NVGoggles_aucamo_F
     };
     respawnLinkedItems[] =
     {
         H_CrewHelmetHeli_B_aucamo_F,
-		V_CarrierRigKBT_01_Olive_F,
+		V_TacVest_oli,
         DefaultManLinkedItems,
         NVGoggles_aucamo_F
     };
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AUG_C_holo_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AUG_C_holo_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1903,7 +1911,7 @@ class B_ADF_Soldier_UAV_F: B_ADF_Soldier_base_F
 	linkedItems[] =
 	{
 		H_HelmetHBK_aucamo_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
         B_ADF_UAVTerminal,
 		NVGoggles_aucamo_F
@@ -1911,7 +1919,7 @@ class B_ADF_Soldier_UAV_F: B_ADF_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		H_HelmetHBK_aucamo_F,
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_PlateCarrier1_cbr,
 		DefaultManLinkedItems,
         B_ADF_UAVTerminal,
 		NVGoggles_aucamo_F

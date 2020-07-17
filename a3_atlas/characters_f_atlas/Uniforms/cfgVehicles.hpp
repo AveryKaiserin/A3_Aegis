@@ -51,6 +51,9 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_E_Uniform_01_coveralls_F,$STR_A3_A_CfgWeapons_U_B_E_Uniform_01_coveralls_F0)
 	UNIFORM_HOLDER(U_Tank_wdl_F,$STR_A3_A_CfgWeapons_U_Tank_wdl_F0)
 	UNIFORM_HOLDER(U_B_E_CBRN_Suit_01_Wdl_F,$STR_A3_A_CfgWeapons_U_B_E_CBRN_Suit_01_Wdl_F0)
+	// CSAT (Caspian)
+	UNIFORM_HOLDER(U_O_CombatUniform_tkcamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tkcamo0)
+	UNIFORM_HOLDER(U_O_C_officer_noInsignia_tkcamo_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_tkcamo0)
 	// ADF
 	UNIFORM_HOLDER(U_B_CombatUniform_mcam_aus_f,$STR_A3_A_CfgWeapons_U_B_CombatUniform_mcam_aus_f0)
 	UNIFORM_HOLDER(U_B_CombatUniform_tshirt_mcam_aus_f,$STR_A3_A_CfgWeapons_U_B_CombatUniform_tshirt_mcam_aus_f0)

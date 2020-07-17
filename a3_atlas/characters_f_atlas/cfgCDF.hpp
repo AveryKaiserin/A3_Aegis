@@ -5,8 +5,6 @@ class I_Soldier_base_F: SoldierGB
 };
 class I_soldier_F: I_Soldier_base_F{};
 class I_pilot_F;
-// Arma 3 Enoch
-class I_E_Uniform_01_sweater_F;
 // Arma 3 Atlas
 class I_CDF_CBRN_Man_Oversuit_01_Autumn_F: B_CBRN_Man_Oversuit_01_MTP_F
 {
@@ -80,13 +78,6 @@ class I_CDF_Uniform_01_officer_F: I_E_Uniform_01_officer_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_CDF_Officer.rvmat",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_pants.rvmat"
 	};
-};
-class I_CDF_Uniform_01_sweater_F: I_E_Uniform_01_sweater_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_CDF_Uniform_01_sweater_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_CDF_Uniform_01_sweater_CO.paa"};
 };
 class I_CDF_Uniform_01_coveralls_F: I_pilot_F
 {

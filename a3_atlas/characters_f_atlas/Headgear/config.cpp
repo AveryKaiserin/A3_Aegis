@@ -268,18 +268,18 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetI_I_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetI_I_01_CO.paa"};
 	};
-	class H_Booniehat_sard: H_Booniehat_khk
+	class H_Booniehat_tkcamo: H_Booniehat_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_sard0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_sard_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_sard_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_tkcamo0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_tkcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_tkcamo_CO.paa"};
 	};
-	class H_Booniehat_sard_hs: H_Booniehat_sard
+	class H_Booniehat_tkcamo_hs: H_Booniehat_tkcamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_sard_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_sard_hs0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_tkcamo_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_tkcamo_hs0;
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -322,12 +322,12 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-	class H_MilCap_sard: H_MilCap_ocamo
+	class H_MilCap_tkcamo: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_MilCap_sard0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_sard_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_sard_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tkcamo0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_tkcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_tkcamo_CO.paa"};
 	};
 	class H_MilCap_jungle: H_MilCap_ocamo
 	{

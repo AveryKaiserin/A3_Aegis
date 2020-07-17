@@ -7,6 +7,7 @@ class CfgWeapons
 	class Uniform_Base;
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIDF.hpp"				// HIDF
 	#include "cfgCDF.hpp"				// CDF

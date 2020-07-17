@@ -142,35 +142,35 @@ class B_HIDF_Soldier_A_F: B_HIDF_Soldier_Base_F
 	backpack = B_Carryall_oli_HIDFAmmo_F;
 	weapons[] =
 	{
-		arifle_G36_FL_f,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_FL_f,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_oli,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_oli,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
@@ -307,17 +307,17 @@ class B_HIDF_Medic_F: B_HIDF_Soldier_Base_F
 	backpack = B_Fieldpack_oli_HIDFMedic_F;
 	weapons[] =
 	{
-		arifle_G36_FL_f,
+		arifle_AUG_black_flash_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_FL_f,
+		arifle_AUG_black_flash_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellRed,
@@ -326,7 +326,7 @@ class B_HIDF_Medic_F: B_HIDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellRed,
@@ -335,13 +335,13 @@ class B_HIDF_Medic_F: B_HIDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA2_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA2_oli,
 		DefaultManLinkedItems
 	};
@@ -366,17 +366,17 @@ class B_HIDF_Engineer_F: B_HIDF_Soldier_Base_F
 	backpack = B_Fieldpack_oli_HIDFEng_F;
 	weapons[] =
 	{
-		arifle_G36C_FL_f,
+		arifle_AUG_C_black_flash_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_FL_f,
+		arifle_AUG_C_black_flash_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
@@ -385,7 +385,7 @@ class B_HIDF_Engineer_F: B_HIDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
         SmokeShellYellow,
@@ -394,13 +394,13 @@ class B_HIDF_Engineer_F: B_HIDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_oli,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_oli,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
@@ -417,17 +417,17 @@ class B_HIDF_Soldier_GL_F: B_HIDF_Soldier_Base_F
 	uniformClass = U_B_HIDF_Soldier_F;
 	weapons[] =
 	{
-		arifle_G36_GL_aco_FL_f,
+		arifle_AUG_GL_black_aco_flash_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_aco_FL_f,
+		arifle_AUG_GL_black_aco_flash_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -435,7 +435,7 @@ class B_HIDF_Soldier_GL_F: B_HIDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -538,24 +538,24 @@ class B_HIDF_Helicrew_F: B_HIDF_Helipilot_F
 	uniformClass = U_B_HIDF_Helipilot_F;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		arifle_AUG_C_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		arifle_AUG_C_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
         SmokeShellYellow,
         SmokeShellOrange,
         SmokeShellPurple
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
         SmokeShellYellow,
         SmokeShellOrange,
         SmokeShellPurple
@@ -611,13 +611,13 @@ class B_HIDF_soldier_M_F: B_HIDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		H_Booniehat_jungle_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Booniehat_jungle_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
@@ -677,13 +677,13 @@ class B_HIDF_Officer_F: B_HIDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_jungle_F,
+		H_MilCap_jungle,
 		V_BandollierB_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_jungle_F,
+		H_MilCap_jungle,
 		V_BandollierB_oli,
 		DefaultManLinkedItems
 	};
@@ -699,23 +699,23 @@ class B_HIDF_Soldier_F: B_HIDF_Soldier_Base_F
 	uniformClass = U_B_HIDF_Soldier_F;
 	weapons[] =
 	{
-		arifle_G36_aco_FL_f,
+		arifle_AUG_black_aco_flash_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_aco_FL_f,
+		arifle_AUG_black_aco_flash_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_10(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_10(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -759,26 +759,26 @@ class B_HIDF_Soldier_LAT_F: B_HIDF_Soldier_Base_F
 	backpack = B_Fieldpack_oli_HIDFLAT_F;
 	weapons[] =
 	{
-		arifle_G36_aco_FL_f,
+		arifle_AUG_black_aco_flash_F,
 		launch_MRAWS_olive_rail_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_aco_FL_f,
+		arifle_AUG_black_aco_flash_F,
 		launch_MRAWS_olive_rail_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
 		MRAWS_HEAT55_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_6(30Rnd_556x45_AUG_Mag_F),
 		MRAWS_HEAT55_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -810,22 +810,22 @@ class B_HIDF_Soldier_SL_F: B_HIDF_Soldier_Base_F
 	uniformClass = U_B_HIDF_Soldier_2_F;
 	weapons[] =
 	{
-		arifle_G36_GL_mrco_FL_f,
+		arifle_AUG_GL_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_mrco_FL_f,
+		arifle_AUG_GL_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(7Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -840,8 +840,8 @@ class B_HIDF_Soldier_SL_F: B_HIDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(7Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -881,22 +881,22 @@ class B_HIDF_Soldier_TL_F: B_HIDF_Soldier_Base_F
 	uniformClass = U_B_HIDF_Soldier_F;
 	weapons[] =
 	{
-		arifle_G36_GL_mrco_FL_f,
+		arifle_AUG_GL_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_mrco_FL_f,
+		arifle_AUG_GL_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(7Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -911,8 +911,8 @@ class B_HIDF_Soldier_TL_F: B_HIDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_4(30Rnd_556x45_AUG_Mag_F),
+		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(7Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -947,35 +947,35 @@ class B_HIDF_RadioOperator_F: B_HIDF_Soldier_F
 	backpack = B_RadioBag_01_jungle_F;
 	weapons[] =
     {
-        arifle_G36_aco_FL_f,
+        arifle_AUG_black_aco_flash_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_G36_aco_FL_f,
+        arifle_AUG_black_aco_flash_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_AUG_Mag_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_PASGT_basic_olive_F,
+		H_Booniehat_jungle,
 		V_PlateCarrierIA1_oli,
 		DefaultManLinkedItems
 	};
