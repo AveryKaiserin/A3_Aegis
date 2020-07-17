@@ -49,6 +49,6 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_M_CfgWeapons_H_MilCap_oceanic0;
 		//picture = "\A3_Marine\Characters_F_Marine\Headgear\Data\UI\icon_H_MilCap_oceanic_CA.paa";
-		//hiddenSelectionsTextures[] = {"\A3_Marine\Characters_F_Marine\Headgear\Data\cappatrol_oceanic_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Marine\Characters_F_Marine\Headgear\Data\cappatrol_oceanic_CO.paa"};
 	};
 };
