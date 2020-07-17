@@ -428,6 +428,16 @@ class CfgMagazines
 		mass = 6;
 		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_460x30_Mag_F1;
 	};
+	class 53Rnd_9x21_Mag_F: 16Rnd_9x21_Mag
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgMagazines_53Rnd_9x21_Mag_F0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\UI\icon_53Rnd_9x21_Mag_F_CA.paa";
+		count = 53;
+		descriptionShort = $STR_A3_A_CfgMagazines_53Rnd_9x21_Mag_F1;
+		mass = 12;
+		initSpeed = 375;
+	};
 	class 4Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -444,11 +454,43 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_4Rnd_12Gauge_Slug1;
 		mass = 6;
 	};
+	class 30Rnd_545x39_Black_Mag_F: 30Rnd_545x39_Mag_Green_F
+	{
+		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.45 mm 30Rnd Black Mag";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
+	};
+	class 30Rnd_545x39_Black_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_F_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.45 mm 30Rnd Black Tracer Mag";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
+	};
+	class 30Rnd_545x39_Lush_Mag_F: 30Rnd_545x39_Mag_Green_F
+	{
+		scope = protected; // hidden, only here for compatibility purposes
+	};
+	class 30Rnd_545x39_Lush_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		scope = protected; // hidden, only here for compatibility purposes
+	};
+	class 30Rnd_545x39_Arid_Mag_F: 30Rnd_545x39_Mag_Green_F
+	{
+		scope = protected; // hidden, only here for compatibility purposes
+	};
+	class 30Rnd_545x39_Arid_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		scope = protected; // hidden, only here for compatibility purposes
+	};
 	class 30Rnd_545x39_AK12_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Mag";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
@@ -456,7 +498,7 @@ class CfgMagazines
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Tracer Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Tracer Mag";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
@@ -464,7 +506,7 @@ class CfgMagazines
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Khaki Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
@@ -472,7 +514,7 @@ class CfgMagazines
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_Green_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Tracer Khaki Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Tracer Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
@@ -480,7 +522,7 @@ class CfgMagazines
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Sand Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Sand Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};
@@ -488,7 +530,7 @@ class CfgMagazines
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_Green_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK12 Tracer Sand Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Tracer Sand Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};

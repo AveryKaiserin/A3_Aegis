@@ -156,6 +156,7 @@ class Box_IND_Support_F: IND_Box_Base
 class Box_IND_AmmoVeh_F;
 class I_supplyCrate_F: B_supplyCrate_F
 {
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_INDP_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(9Rnd_45ACP_Mag,6);

@@ -4,7 +4,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_A3_A_AveryTheKitty_Krycek_and_Noodum; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = ##c##; \
 		vehicleClass = WeaponsPrimary; \
@@ -22,5 +22,5 @@ class CfgVehicles
 {
 	// editor weapons
 	class Weapon_Base_F;
-	WEAPON_HOLDER(SMG_06_F,$STR_A3_A_CfgWeapons_SMG_06_F0,EdSubcat_SubMachineGuns,30Rnd_9x21_Mag_SMG_02)
+	WEAPON_HOLDER(SMG_06_F,$STR_A3_A_CfgWeapons_SMG_06_F0,EdSubcat_SubMachineGuns,53Rnd_9x21_Mag_F)
 };

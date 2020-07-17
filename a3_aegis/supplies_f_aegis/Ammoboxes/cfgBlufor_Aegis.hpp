@@ -14,7 +14,7 @@ class Box_A_NATO_Equip_F: Box_NATO_Equip_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_A_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_A_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -80,7 +80,7 @@ class Box_A_NATO_Uniforms_F: Box_NATO_Uniforms_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_A_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_A_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -550,7 +550,7 @@ class Box_A_NATO_Equip_tropic_F: Box_A_NATO_Equip_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_tropic_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_T_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -610,7 +610,7 @@ class Box_A_NATO_Uniforms_tropic_F: Box_A_NATO_Uniforms_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_tropic_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_T_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -790,6 +790,7 @@ class B_A_supplyCrate_tropic_F: B_A_supplyCrate_F
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_tropic_F0;
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_khaki_mag,24);
@@ -864,7 +865,7 @@ class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_wdl_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_A_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_A_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -931,7 +932,7 @@ class Box_A_NATO_Uniforms_wdl_F: Box_A_NATO_Uniforms_F
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_wdl_F0;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_A_CO.paa",
+		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_A_BLUFOR_CO.paa",
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CA.paa"
 	};
 	class TransportMagazines{};
@@ -1096,6 +1097,7 @@ class B_A_supplyCrate_wdl_F: B_A_supplyCrate_F
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_wdl_F0;
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_black_mag,24);

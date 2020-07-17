@@ -112,6 +112,7 @@ class O_A_supplyCrate_F: O_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_O_A_supplyCrate_F0;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(17Rnd_9x21_Mag,6);

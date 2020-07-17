@@ -43,8 +43,10 @@ class CfgVehicles
 				{
 					BLU_T_F,
 					BLU_F,
+					BLU_W_F,
 					BLU_A_F,
-					BLU_W_F
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 			class Olive
@@ -61,19 +63,17 @@ class CfgVehicles
 				factions[] =
 				{
 					BLU_T_F,
-					BLU_F,
-					BLU_A_F,
-					BLU_W_F
+					BLU_W_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 			class Sand
 			{
 				factions[] =
 				{
-					BLU_T_F,
 					BLU_F,
-					BLU_A_F,
-					BLU_W_F
+					BLU_A_F
 				};
 			};
 			class Dazzle
@@ -104,6 +104,25 @@ class CfgVehicles
 					"\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_CO.paa"
 				};
 				factions[] = {BLU_CTRG_F};
+			};
+			class Woodland
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
+					"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_tna_F_01_CO.paa",
+					"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_short_tna_F_02_CO.paa"
+				};
+				factions[] =
+				{
+					BLU_A_tna_F,
+					BLU_A_wdl_F
+				};
 			};
 		};
 	};

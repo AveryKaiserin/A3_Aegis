@@ -1,6 +1,8 @@
 // Arma 3
 class C_supplyCrate_F: ReammoBox_F
 {
+    hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		delete _xx_30Rnd_65x39_caseless_mag;
@@ -74,6 +76,8 @@ class C_supplyCrate_F: ReammoBox_F
 // Arma 3 Apex
 class C_T_supplyCrate_F: ReammoBox_F
 {
+    hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		delete _xx_30Rnd_556x45_Stanag;

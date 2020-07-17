@@ -488,6 +488,7 @@ class B_W_supplyCrate_F: B_supplyCrate_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_supplyCrate_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_B_W_supplyCrate_F0;
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_black_mag,30);

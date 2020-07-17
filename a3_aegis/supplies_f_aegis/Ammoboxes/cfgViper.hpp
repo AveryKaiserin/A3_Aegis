@@ -29,7 +29,7 @@ class V_supplyCrate_F: ReammoBox_F
 		SlingLoadCargo4
 	};
     hiddenSelections[] = {camo};
-    hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\supplydrop_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);
@@ -108,6 +108,8 @@ class V_T_supplyCrate_F: ReammoBox_F
 		SlingLoadCargo3,
 		SlingLoadCargo4
 	};
+    hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_T_OPFOR_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);

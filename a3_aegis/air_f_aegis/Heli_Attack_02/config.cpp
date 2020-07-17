@@ -17,6 +17,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
+					OPF_R_ard_F,
 					OPF_W_F
 				};
 			};
@@ -70,7 +71,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class O_Heli_Attack_02_dynamicLoadout_F;
+	class O_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
 	#include "cfgOpfor_Exp.hpp"
 	#include "cfgOpfor_Tacops.hpp"

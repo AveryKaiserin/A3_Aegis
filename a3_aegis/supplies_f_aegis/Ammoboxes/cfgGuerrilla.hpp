@@ -1,6 +1,7 @@
 // Arma 3
 class IG_supplyCrate_F: ReammoBox_F
 {
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_IG_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);

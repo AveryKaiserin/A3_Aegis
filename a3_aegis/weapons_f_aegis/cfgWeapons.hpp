@@ -881,15 +881,6 @@ class CfgWeapons
 	{
 		magazines[] = {20Rnd_762x51_weathered_Mag};
 	};
-	class srifle_DMR_06_olive_F: srifle_DMR_06_camo_F
-	{
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_06\Data\DMR_06_01_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_06\Data\DMR_06_02_CO.paa"
-		};
-		magazines[] = {20Rnd_762x51_Mag};
-	};
 	class MMG_01_hex_F;
 	class MMG_02_camo_F;
 	class MMG_02_black_F;
@@ -968,6 +959,13 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_body_CO.paa",
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_acc_CO.paa",
 			"\A3\Weapons_F_Enoch\Machineguns\M200\Data\grip_black_CO.paa"
+		};
+	};
+	class arifle_AKS_base_F: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 60;
 		};
 	};
 	class arifle_ARX_hex_F;
@@ -3958,23 +3956,6 @@ class CfgWeapons
 			{
 				slot = UnderBarrelSlot;
 				item = bipod_02_F_hex;
-			};
-		};
-	};
-	class srifle_DMR_06_olive_DMS_BI_F: srifle_DMR_06_olive_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
 			};
 		};
 	};

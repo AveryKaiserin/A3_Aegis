@@ -141,8 +141,7 @@ class CfgAddons
 				A3_Aegis_Weapons_F_Aegis_Shotguns_KSG,
 				A3_Aegis_Weapons_F_Aegis_Shotguns_M4_SSAS,
 				A3_Aegis_Weapons_F_Aegis_Shotguns_Mp153,
-				A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04,
-				A3_Aegis_Weapons_F_Aegis_SMGs_SMG_06
+				A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04
 			};
 		};
 	};

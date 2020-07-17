@@ -101,6 +101,7 @@ class CfgWeapons
 			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_khaki.rvmat"
 		};
 	};
+	class arifle_RPK12_arid_F;
 	// Arma 3 Aegis
 	class arifle_AK12_545_base_F: arifle_AK12_base_F
 	{

@@ -55,7 +55,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -82,7 +83,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -102,6 +104,20 @@ class CfgVehicles
 	};
 	class O_Heli_Transport_04_bench_F: Heli_Transport_04_base_F
 	{
+		class CargoTurret;
+		class Turrets: Turrets
+		{
+			class CopilotTurret: CopilotTurret{};
+			class LoadmasterTurret: LoadmasterTurret{};
+			class CargoTurret_01: CargoTurret{};
+			class CargoTurret_02: CargoTurret_01{};
+			class CargoTurret_03: CargoTurret_01{};
+			class CargoTurret_04: CargoTurret_01{};
+			class CargoTurret_05: CargoTurret_01{};
+			class CargoTurret_06: CargoTurret_05{};
+			class CargoTurret_07: CargoTurret_05{};
+			class CargoTurret_08: CargoTurret_05{};
+		};
 		class TextureSources: TextureSources
 		{
 			class Black
@@ -110,7 +126,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -142,7 +159,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -225,6 +243,14 @@ class CfgVehicles
 	};
 	class O_Heli_Transport_04_covered_F: Heli_Transport_04_base_F
 	{
+		class CargoTurret;
+		class Turrets: Turrets
+		{
+			class CopilotTurret: CopilotTurret{};
+			class LoadmasterTurret: LoadmasterTurret{};
+			class CargoTurret_01: CargoTurret{};
+			class CargoTurret_02: CargoTurret_01{};
+		};
 		class TextureSources: TextureSources
 		{
 			class Black
@@ -233,7 +259,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -261,7 +288,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -288,7 +316,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -316,7 +345,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -348,7 +378,9 @@ class CfgVehicles
 				factions[] =
 				{
 					OPF_F,
-					OPF_T_F
+					OPF_T_F,
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -378,7 +410,9 @@ class CfgVehicles
 				factions[] =
 				{
 					OPF_F,
-					OPF_T_F
+					OPF_T_F,
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -404,7 +438,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -427,7 +462,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -446,7 +482,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -469,7 +506,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -492,7 +530,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -511,7 +550,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex
@@ -534,7 +574,8 @@ class CfgVehicles
 				{
 					OPF_F,
 					OPF_T_F,
-					OPF_R_F
+					OPF_R_F,
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex: GreenHex

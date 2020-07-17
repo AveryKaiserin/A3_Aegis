@@ -102,7 +102,11 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_blue_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_blue_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class GreenHex
 			{

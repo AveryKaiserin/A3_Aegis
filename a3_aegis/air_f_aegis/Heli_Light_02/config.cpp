@@ -49,6 +49,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
+					OPF_R_ard_F,
 					OPF_W_F
 				};
 			};
@@ -60,6 +61,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
+					OPF_R_ard_F,
 					OPF_W_F
 				};
 			};

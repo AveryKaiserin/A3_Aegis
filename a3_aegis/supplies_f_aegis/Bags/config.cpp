@@ -104,14 +104,14 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_Hex_CO.paa"};
 	};
-	class B_AssaultPack_eaf_F;
-	class B_AssaultPack_wdl_F;
-	class B_FieldPack_green_F;
-	class B_FieldPack_taiga_F;
-	class B_Carryall_eaf_F;
 	class B_Carryall_green_F;
 	class B_Carryall_taiga_F;
 	class B_Carryall_wdl_F;
+	class B_Carryall_eaf_F;
+	class B_FieldPack_green_F;
+	class B_FieldPack_taiga_F;
+	class B_AssaultPack_wdl_F;
+	class B_AssaultPack_eaf_F;
 	// Arma 3 Aegis
 	class B_AssaultPackSpec_Base: Bag_Base
 	{
@@ -404,13 +404,13 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
-	class B_Bergen_eaf_F: B_Bergen_Base_F
+	class B_Bergen_taiga_F: B_Bergen_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_Bergen_eaf_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_eaf_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_eaf_CO.paa"};
+		displayName = $STR_A3_A_CfgVehicles_B_Bergen_taiga_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_taiga_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_RUtaiga_CO.paa"};
 	};
 	class B_Bergen_wdl_F: B_Bergen_Base_F
 	{
@@ -420,13 +420,21 @@ class CfgVehicles
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_wdl_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_wdl_CO.paa"};
 	};
-	class B_Bergen_taiga_F: B_Bergen_Base_F
+	class B_Bergen_eaf_F: B_Bergen_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_Bergen_taiga_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_taiga_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_RUtaiga_CO.paa"};
+		displayName = $STR_A3_A_CfgVehicles_B_Bergen_eaf_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_eaf_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_eaf_CO.paa"};
+	};
+	class B_AssaultPack_taiga_F: B_AssaultPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_taiga_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_taiga_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_RUtaiga_CO.paa"};
 	};
 	class B_AssaultPackSpec_wdl_F: B_AssaultPackSpec_Base
 	{
@@ -440,13 +448,13 @@ class CfgVehicles
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"
 		};
 	};
-	class B_AssaultPack_taiga_F: B_AssaultPack_Base
+	class B_Kitbag_wdl_F: B_Kitbag_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_taiga_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_taiga_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_RUtaiga_CO.paa"};
+		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_wdl_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Kitbag_wdl_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_fast_wdl_CO.paa"};
 	};
 	class B_Kitbag_eaf_F: B_Kitbag_Base
 	{
@@ -455,14 +463,6 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_eaf_F0;
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Kitbag_eaf_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_fast_eaf_CO.paa"};
-	};
-	class B_Kitbag_wdl_F: B_Kitbag_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_wdl_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Kitbag_wdl_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_fast_wdl_CO.paa"};
 	};
 	class B_TacticalPack_eaf_F: B_TacticalPack_Base
 	{

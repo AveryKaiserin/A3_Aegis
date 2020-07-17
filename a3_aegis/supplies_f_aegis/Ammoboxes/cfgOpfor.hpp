@@ -188,7 +188,7 @@ class Box_East_AmmoVeh_F;
 class O_supplyCrate_F: B_supplyCrate_F
 {
     hiddenSelections[] = {camo};
-    hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\supplydrop_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(17Rnd_9x21_Mag,6);

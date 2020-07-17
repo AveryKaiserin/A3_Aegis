@@ -193,6 +193,7 @@ class Box_EAF_WpsLaunch_F: Box_IND_WpsLaunch_F
 };
 class I_EAF_supplyCrate_F: I_supplyCrate_F
 {
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_EAF_CO.paa"};
 	class TransportMagazines
 	{
         delete _xx_9Rnd_45ACP_Mag;

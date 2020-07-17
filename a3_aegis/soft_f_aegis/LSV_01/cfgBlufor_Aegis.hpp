@@ -1,3 +1,4 @@
+// NATO (British)
 class B_A_LSV_01_armed_F: LSV_01_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -12,7 +13,8 @@ class B_A_LSV_01_armed_F: LSV_01_armed_base_F
 	{
 		Black,0,
 		Olive,0,
-		Sand,1
+		Sand,1,
+		Woodland,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -57,7 +59,8 @@ class B_A_LSV_01_AT_F: LSV_01_AT_base_F
 	{
 		Black,0,
 		Olive,0,
-		Sand,1
+		Sand,1,
+		Woodland,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -104,7 +107,8 @@ class B_A_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 	{
 		Black,0,
 		Olive,0,
-		Sand,1
+		Sand,1,
+		Woodland,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -149,7 +153,8 @@ class B_A_LSV_01_light_F: LSV_01_light_base_F
 	{
 		Black,0,
 		Olive,0,
-		Sand,1
+		Sand,1,
+		Woodland,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -180,6 +185,7 @@ class B_A_LSV_01_light_F: LSV_01_light_base_F
 		weap_xx(arifle_SA80_snd_F,2);
 	};
 };
+// NATO (Pacific, British)
 class B_A_LSV_01_armed_tna_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -190,15 +196,16 @@ class B_A_LSV_01_armed_tna_F: B_A_LSV_01_armed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -232,15 +239,16 @@ class B_A_LSV_01_AT_tna_F: B_A_LSV_01_AT_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
 		"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_tna_F_01_CO.paa",
 		"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_short_tna_F_02_CO.paa"
 	};
@@ -276,15 +284,16 @@ class B_A_LSV_01_unarmed_tna_F: B_A_LSV_01_unarmed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -318,15 +327,16 @@ class B_A_LSV_01_light_tna_F: B_A_LSV_01_light_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -350,6 +360,7 @@ class B_A_LSV_01_light_tna_F: B_A_LSV_01_light_F
 		weap_xx(arifle_SA80_khk_F,2);
 	};
 };
+// NATO (Woodland, British)
 class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -360,15 +371,16 @@ class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -397,10 +409,10 @@ class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 		{
             textures[] =
             {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
@@ -417,15 +429,16 @@ class B_A_LSV_01_AT_wdl_F: B_A_LSV_01_AT_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
 		"\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
 		"\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
 	};
@@ -456,10 +469,10 @@ class B_A_LSV_01_AT_wdl_F: B_A_LSV_01_AT_F
 		{
             textures[] =
             {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
@@ -476,15 +489,16 @@ class B_A_LSV_01_unarmed_wdl_F: B_A_LSV_01_unarmed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -513,10 +527,10 @@ class B_A_LSV_01_unarmed_wdl_F: B_A_LSV_01_unarmed_F
 		{
             textures[] =
             {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
@@ -533,15 +547,16 @@ class B_A_LSV_01_light_wdl_F: B_A_LSV_01_light_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0,
+		Sand,0,
+		Woodland,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -570,10 +585,10 @@ class B_A_LSV_01_light_wdl_F: B_A_LSV_01_light_F
 		{
             textures[] =
             {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_wdl_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_wdl_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };

@@ -18,6 +18,7 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_Pistols_C1911,
 			A3_Aegis_Weapons_F_Aegis_Pistols_G17,
 			A3_Aegis_Weapons_F_Aegis_Pistols_MK26,
+			A3_Aegis_Weapons_F_Aegis_Rifles_AK12,
 			A3_Aegis_Weapons_F_Aegis_Rifles_RPK,
 			A3_Aegis_Weapons_F_Aegis_Rifles_SA80,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_AA40,

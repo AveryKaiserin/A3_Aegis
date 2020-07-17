@@ -526,7 +526,7 @@ class O_R_supplyCrate_F: ReammoBox_F
 		SlingLoadCargo4
 	};
     hiddenSelections[] = {camo};
-    hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\supplydrop_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_RUS_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(17Rnd_9x21_Mag,6);

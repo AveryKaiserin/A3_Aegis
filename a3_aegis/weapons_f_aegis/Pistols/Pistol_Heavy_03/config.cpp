@@ -46,8 +46,6 @@ class CfgWeapons
 			aiRateOfFire = 2;
 			aiRateOfFireDistance = 25;
 		};
-		bullet1[] = {"\A3\Sounds_F\dummysound",db0,1,15};
-		soundBullet[] = {bullet1,1};
 		inertia = 0.3;
 		aimTransitionSpeed = 1.5;
 		dexterity = 1.7;

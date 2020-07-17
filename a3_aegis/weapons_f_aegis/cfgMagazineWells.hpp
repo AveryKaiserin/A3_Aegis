@@ -10,8 +10,17 @@ class CfgMagazineWells
             30Rnd_545x39_AK12_Lush_Mag_F,
             30Rnd_545x39_AK12_Lush_Mag_Tracer_F,
             30Rnd_545x39_AK12_Arid_Mag_F,
-            30Rnd_545x39_AK12_Arid_Mag_Tracer_F
+            30Rnd_545x39_AK12_Arid_Mag_Tracer_F,
+            30Rnd_545x39_Black_Mag_F,
+            30Rnd_545x39_Black_Mag_Tracer_F
         };
+		Aegis_Compatibility_Magazines[] =
+		{
+            30Rnd_545x39_Lush_Mag_F,
+            30Rnd_545x39_Lush_Mag_Tracer_F,
+            30Rnd_545x39_Arid_Mag_F,
+            30Rnd_545x39_Arid_Mag_Tracer_F
+		};
     };
 	class M14_762x51
 	{
@@ -152,5 +161,9 @@ class CfgMagazineWells
 			40Rnd_460x30_Mag_F,
 			20Rnd_460x30_Mag_F
 		};
+	};
+	class SMG_06_9x21
+	{
+		Aegis_Magazines[] = {53Rnd_9x21_Mag_F};
 	};
 };

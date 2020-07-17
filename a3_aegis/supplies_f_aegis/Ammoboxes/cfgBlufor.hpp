@@ -209,6 +209,8 @@ class Box_NATO_WpsLaunch_F: NATO_Box_Base
 class Box_NATO_AmmoVeh_F;
 class B_supplyCrate_F: ReammoBox_F
 {
+    hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_mag,30);
