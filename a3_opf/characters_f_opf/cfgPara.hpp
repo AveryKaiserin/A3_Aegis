@@ -118,7 +118,7 @@ class O_P_soldier_1_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -152,13 +152,13 @@ class O_P_soldier_GL_F: O_P_soldier_base_F
 	role = Grenadier;
 	linkedItems[] = 
 	{
-		H_Shemag_khk_hs,
+		H_ShemagOpen_khk_hs,
 		V_HarnessOGL_blk,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_Shemag_khk_hs,
+		H_ShemagOpen_khk_hs,
 		V_HarnessOGL_blk,
 		DefaultManGuerillaLinkedItems
 	};
@@ -172,7 +172,7 @@ class O_P_soldier_GL_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -227,7 +227,7 @@ class O_P_soldier_AR_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -289,7 +289,7 @@ class O_P_soldier_TL_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -348,7 +348,7 @@ class O_P_soldier_M_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -468,7 +468,7 @@ class O_P_medic_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };
@@ -520,7 +520,7 @@ class O_P_soldier_exp_F: O_P_soldier_base_F
         H_Headset_light,1,
         H_PASGT_basic_black_F,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_Para_F,2
     };
 };

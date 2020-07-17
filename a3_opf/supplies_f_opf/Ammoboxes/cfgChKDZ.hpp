@@ -21,7 +21,7 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 		mag_xx(30Rnd_545x39_Mag_Green_F,6);
 		mag_xx(75Rnd_762x39_Mag_F,2);
 		//mag_xx(30Rnd_762x39_SKS_Mag_F,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,2);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,2);
 		mag_xx(10Rnd_762x54_Mag,6);
 		mag_xx(10Rnd_9x21_Mag,2);
 	};
@@ -64,7 +64,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 		mag_xx(30Rnd_545x39_Mag_Green_F,12);
 		mag_xx(75Rnd_762x39_Mag_F,16);
 		//mag_xx(30Rnd_762x39_SKS_Mag_F,12);
-		mag_xx(30Rnd_545x39_black_Mag_F,12);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
 		mag_xx(10Rnd_762x54_Mag,12);
 		mag_xx(10Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);

@@ -118,7 +118,7 @@ class I_T_Soldier_1_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -176,7 +176,7 @@ class I_T_Soldier_2_F: I_T_Soldier_Base_F
 		H_Beret_blk,1,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -224,7 +224,7 @@ class I_T_Soldier_3_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -341,7 +341,7 @@ class I_T_Soldier_5_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -390,7 +390,7 @@ class I_T_Soldier_6_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };

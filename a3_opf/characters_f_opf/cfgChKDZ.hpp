@@ -181,13 +181,13 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade)
 	};
@@ -522,12 +522,12 @@ class O_E_Soldier_6_F: O_E_Soldier_Base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	cost = 200000;
