@@ -34,7 +34,7 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
-	class recoil_SCAR: recoil_default
+	class recoil_scar: recoil_default
 	{
 		muzzleOuter[] =
 		{
