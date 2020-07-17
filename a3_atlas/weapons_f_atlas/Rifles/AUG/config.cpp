@@ -29,16 +29,17 @@ class CfgWeapons
 	{
 		model = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\AUG_F.p3d";
 		hiddenSelections[] = {Camo};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_CO.paa"};
 		class Library
 		{
-			libTextDesc = $STR_A3_CfgWeapons_arifle_AUG_base_F_Library0;
+			libTextDesc = $STR_A3_A_CfgWeapons_arifle_AUG_base_F_Library0;
 		};
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
 			"\A3\Weapons_F\Rifles\TRG20\Data\Anim\TRG_21.rtm"
 		};
-		descriptionShort = $STR_A3_CfgWeapons_arifle_AUG_base_F1;
+		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AUG_base_F1;
 		reloadAction = GestureReloadKatiba;
 		magazines[] =
 		{
@@ -160,6 +161,11 @@ class CfgWeapons
 			Camo1,
 			Camo2
 		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_CO.paa",
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_CO.paa"
+		};
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
@@ -223,36 +229,69 @@ class CfgWeapons
 	    	mass = 65;
 	  	};
 	};
+	class arifle_AUG_black_base_F: arifle_AUG_base_F
+	{
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
+	};
+	class arifle_AUG_GL_black_base_F: arifle_AUG_GL_base_F
+	{
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa",
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"
+		};
+	};
+	class arifle_AUG_C_black_base_F: arifle_AUG_C_base_F
+	{
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
+	};
 	class arifle_AUG_F: arifle_AUG_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
-		baseWeapon = arifle_AUG_F;
 		scope = public;
-		displayName = $STR_A3_CfgWeapons_arifle_AUG_F0;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_F0;
 		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_F_CO.paa"};
+		baseWeapon = arifle_AUG_F;
 	};
 	class arifle_AUG_GL_F: arifle_AUG_GL_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
-		baseWeapon = arifle_AUG_GL_F;
 		scope = public;
-		displayName = $STR_A3_CfgWeapons_arifle_AUG_GL_F0;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_GL_F0;
 		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_F_X_CA.paa";
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_F_CO.paa",
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_GL_F_CO.paa"
-		};
+		baseWeapon = arifle_AUG_GL_F;
 	};
 	class arifle_AUG_C_F: arifle_AUG_C_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
-		baseWeapon = arifle_AUG_C_F;
 		scope = public;
-		displayName = $STR_A3_CfgWeapons_arifle_AUG_C_F0;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_C_F0;
 		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\arifle_AUG_F_CO.paa"};
+		baseWeapon = arifle_AUG_C_F;
+	};
+	class arifle_AUG_black_F: arifle_AUG_black_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_and_Luchador;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_black_F0;
+		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
+		baseWeapon = arifle_AUG_black_F;
+	};
+	class arifle_AUG_GL_black_F: arifle_AUG_GL_black_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_and_Luchador;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_GL_black_F0;
+		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_black_F_X_CA.paa";
+		baseWeapon = arifle_AUG_GL_black_F;
+	};
+	class arifle_AUG_C_black_F: arifle_AUG_C_black_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_and_Luchador;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_C_black_F0;
+		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_black_F_X_CA.paa";
+		baseWeapon = arifle_AUG_C_black_F;
 	};
 	#include "presets.hpp"
 };
