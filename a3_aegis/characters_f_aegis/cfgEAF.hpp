@@ -1166,7 +1166,7 @@ class I_E_Soldier_Exp_F: I_E_Soldier_base_F
         mag_2(SmokeShell)
     };
 };
-class I_E_soldier_Mine_F: I_E_Soldier_base_F
+class I_E_soldier_Mine_F: I_E_Soldier_Exp_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_Mine_F.jpg";
 };

@@ -1632,11 +1632,11 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Civil\headgear_C_Bandana1_hs.p3d";
 		};
 	};
-	class H_Shemag_khk_hs: H_ShemagOpen_khk
+	class H_ShemagOpen_khk_hs: H_ShemagOpen_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Shemag_khk_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Shemag_khk_hs0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_ShemagOpen_khk_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_ShemagOpen_khk_hs0;
 		model = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		allowedFacewear[] =
 		{
@@ -1652,11 +1652,11 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		};
 	};
-	class H_Shemag_tan_hs: H_ShemagOpen_tan
+	class H_ShemagOpen_tan_hs: H_ShemagOpen_tan
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Shemag_tan_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Shemag_tan_hs0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_ShemagOpen_tan_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_ShemagOpen_tan_hs0;
 		model = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		allowedFacewear[] =
 		{

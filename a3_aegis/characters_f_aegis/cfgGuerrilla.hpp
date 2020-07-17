@@ -18,13 +18,13 @@ class I_G_Soldier_base_F: SoldierGB
 	};
 	linkedItems[] =
 	{
-		H_Shemag_olive,
+		H_ShemagOpen_khk,
 		V_TacChestRig_oli_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Shemag_olive,
+		H_ShemagOpen_khk,
 		V_TacChestRig_oli_F,
 		DefaultManGuerillaLinkedItems
 	};
@@ -83,8 +83,8 @@ class I_G_Soldier_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -137,8 +137,8 @@ class I_G_Soldier_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -219,8 +219,8 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -273,8 +273,8 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -368,8 +368,8 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -422,8 +422,8 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -515,8 +515,8 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -569,8 +569,8 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -642,8 +642,8 @@ class I_G_Soldier_AR_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -696,8 +696,8 @@ class I_G_Soldier_AR_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -777,8 +777,8 @@ class I_G_medic_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -831,8 +831,8 @@ class I_G_medic_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -922,8 +922,8 @@ class I_G_engineer_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -976,8 +976,8 @@ class I_G_engineer_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1063,8 +1063,8 @@ class I_G_Soldier_exp_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1117,8 +1117,8 @@ class I_G_Soldier_exp_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1206,8 +1206,8 @@ class I_G_Soldier_GL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1260,8 +1260,8 @@ class I_G_Soldier_GL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1334,8 +1334,8 @@ class I_G_Soldier_M_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1388,8 +1388,8 @@ class I_G_Soldier_M_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1463,8 +1463,8 @@ class I_G_Soldier_LAT_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1517,8 +1517,8 @@ class I_G_Soldier_LAT_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1614,8 +1614,8 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1668,8 +1668,8 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1961,8 +1961,8 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2015,8 +2015,8 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -2101,8 +2101,8 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2155,8 +2155,8 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -2167,6 +2167,85 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
     };
 };
 // Arma 3 Aegis
+class I_G_crew_F: I_G_Soldier_base_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	cost = 93000;
+	role = Crewman;
+	camouflage = 1.6;
+    uniformClass = U_IG_Guerilla1_3;
+    weapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+    };
+    linkedItems[] =
+    {
+        H_HelmetCrew_I,
+        V_BandollierB_blk,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_HelmetCrew_I,
+        V_BandollierB_blk,
+        DefaultManGuerillaLinkedItems
+    };
+    allowedHeadgear[] = {H_HelmetCrew_I};
+    headgearList[] = {H_HelmetCrew_I,1};
+    engineer = true;
+};
+class B_G_crew_F: I_G_crew_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = BLU_G_F;
+    modelSides[] =
+    {
+        TWest,
+        TCivilian
+    };
+    uniformClass = U_BG_Guerilla1_2_F;
+};
+class O_G_crew_F: I_G_crew_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TEast;
+    faction = OPF_G_F;
+	modelSides[] =
+	{
+		TEast,
+		TCivilian
+	};
+    uniformClass = U_OG_Guerilla1_2_F;
+};
 class I_G_Soldier_CQ_F: I_G_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2270,8 +2349,8 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2324,8 +2403,8 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
