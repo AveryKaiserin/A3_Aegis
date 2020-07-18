@@ -122,7 +122,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -139,7 +139,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -241,7 +241,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -258,7 +258,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -439,7 +439,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -456,7 +456,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -528,7 +528,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -545,7 +545,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -617,7 +617,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -634,7 +634,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -736,7 +736,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -753,7 +753,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -929,7 +929,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -946,7 +946,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -1210,7 +1210,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] =
 				{
@@ -1227,7 +1227,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};

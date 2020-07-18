@@ -109,7 +109,7 @@ class O_R_Truck_02_F: O_Truck_02_covered_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_transport_F: O_Truck_02_transport_F
@@ -222,7 +222,7 @@ class O_R_Truck_02_transport_F: O_Truck_02_transport_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_box_F: O_Truck_02_box_F
@@ -335,7 +335,7 @@ class O_R_Truck_02_box_F: O_Truck_02_box_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_medical_F: O_Truck_02_medical_F
@@ -448,7 +448,7 @@ class O_R_Truck_02_medical_F: O_Truck_02_medical_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_Ammo_F: O_Truck_02_Ammo_F
@@ -561,7 +561,7 @@ class O_R_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_fuel_F: O_Truck_02_fuel_F
@@ -674,7 +674,7 @@ class O_R_Truck_02_fuel_F: O_Truck_02_fuel_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_MRL_F: O_Truck_02_MRL_F
@@ -833,7 +833,7 @@ class O_R_Truck_02_MRL_F: O_Truck_02_MRL_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 class O_R_Truck_02_cargo_F: Truck_02_cargo_base_F
@@ -947,7 +947,7 @@ class O_R_Truck_02_cargo_F: Truck_02_cargo_base_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
 	};
 };
 // Russia (Arid)

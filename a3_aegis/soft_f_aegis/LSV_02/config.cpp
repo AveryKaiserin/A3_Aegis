@@ -122,7 +122,7 @@ class CfgVehicles
 				};
 				factions[] = {OPF_R_F};
 			};
-			class Arid
+			class Arid_02
 			{
 				displayName = $STR_A3_TEXTURESOURCES_ARID0;
 				author = $STR_A3_A_AveryTheKitty;

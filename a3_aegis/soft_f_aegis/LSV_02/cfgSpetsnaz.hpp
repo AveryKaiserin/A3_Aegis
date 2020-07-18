@@ -489,7 +489,7 @@ class O_R_LSV_02_armed_ard_F: LSV_02_armed_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-		Arid,1,
+		Arid_02,1,
 		Green,0
 	};
 	hiddenSelectionsTextures[] =
@@ -620,7 +620,7 @@ class O_R_LSV_02_unarmed_ard_F: LSV_02_unarmed_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-		Arid,1,
+		Arid_02,1,
 		Green,0
 	};
 	hiddenSelectionsTextures[] =
@@ -749,7 +749,7 @@ class O_R_LSV_02_AT_ard_F: LSV_02_AT_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-		Arid,1,
+		Arid_02,1,
 		Green,0
 	};
 	hiddenSelectionsTextures[] =
