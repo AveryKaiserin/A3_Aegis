@@ -1,7 +1,6 @@
 class CfgSoundShaders
 {
-	/*
-	// AUG 5.56 mm
+	// AUR 90 5.56 mm
 	class AUG_Closure_SoundShader
 	{
 		samples[] =
@@ -10,17 +9,16 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closure_02",1}
 		};
 		range = 5;
-		volume = db-7;
+		volume = db-3;
 	};
 	class AUG_closeShot_SoundShader
 	{
 		samples[] =
 		{
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_01",1},
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",1},
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_03",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",1}
 		};
-		volume = db0;
+		volume = db-1;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
@@ -32,7 +30,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_midShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_midShot_03",1}
 		};
-		volume = db-2;
+		volume = db4;
 		range = 1800;
 		rangeCurve[] =
 		{
@@ -60,11 +58,27 @@ class CfgSoundShaders
 			{1800,1}
 	  };
 	};
+	class AUG_tailDistant_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailDistant",1}
+		};
+		volume = db0;
+		range = 2000;
+		rangeCurve[] =
+		{
+			{0,0},
+			{600,0.7},
+			{2000,1}
+		};
+		limitation = 1;
+	};
 	class AUG_tailForest_SoundShader
 	{
 		samples[] =
 		{
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailforest",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailForest",1}
 		};
 		volume = (1-interior/1.4)*forest/3;
 		range = 2000;
@@ -79,7 +93,7 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailhouses",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailHouses",1}
 		};
 		volume = (1-interior/1.4)*houses/3;
 		range = 1500;
@@ -95,7 +109,7 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailinterior",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailInterior",1}
 		};
 		volume = interior;
 		range = 350;
@@ -112,7 +126,7 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailmeadows",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailMeadows",1}
 		};
 		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
 		range = 2000;
@@ -127,7 +141,7 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailtrees",1}
+			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_tailTrees",1}
 		};
 		volume = (1-interior/1.4)*trees/3;
 		range = 2000;
@@ -225,7 +239,6 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	*/
 	// G36 6.5 mm
 	class G36_Closure_SoundShader
 	{
@@ -245,7 +258,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_closeShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_closeShot_03",1}
 		};
-		volume = db-7;
+		volume = db-2;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};

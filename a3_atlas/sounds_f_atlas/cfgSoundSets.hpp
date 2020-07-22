@@ -6,13 +6,12 @@ class CfgSoundSets
 	class Rifle_silencerShot_Base_SoundSet;
 	class Rifle_silencerTail_Base_SoundSet;
 	class Rifle_silencerInteriorTail_Base_SoundSet;
-	/*
-	// AUG 5.56 mm
+	// AUR 90 5.56 mm
 	class AUG_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
 		{
-			AUG_closure_SoundShader,
+			AUG_Closure_SoundShader,
 			AUG_closeShot_SoundShader,
 			AUG_midShot_SoundShader,
 			AUG_distShot_SoundShader
@@ -22,6 +21,7 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
+			AUG_tailDistant_SoundShader,
 			AUG_tailForest_SoundShader,
 			AUG_tailHouses_SoundShader,
 			AUG_tailMeadows_SoundShader,
@@ -36,7 +36,7 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
-			AUG_closure_SoundShader,
+			AUG_Closure_SoundShader,
 			AUG_silencerShot_SoundShader
 		};
 	};
@@ -54,13 +54,12 @@ class CfgSoundSets
 	{
 		soundShaders[] = {AUG_silencerTailInterior_SoundShader};
 	};
-	*/
 	// G36 6.5 mm
 	class G36_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
 		{
-			G36_closure_SoundShader,
+			G36_Closure_SoundShader,
 			G36_closeShot_SoundShader,
 			G36_midShot_SoundShader,
 			G36_distShot_SoundShader
@@ -70,6 +69,7 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
+			//G36_tailDistant_SoundShader,
 			G36_tailForest_SoundShader,
 			G36_tailHouses_SoundShader,
 			G36_tailMeadows_SoundShader,
@@ -84,7 +84,7 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
-			G36_closure_SoundShader,
+			G36_Closure_SoundShader,
 			G36_silencerShot_SoundShader
 		};
 	};

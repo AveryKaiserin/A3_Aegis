@@ -1462,14 +1462,14 @@ class B_ADF_Soldier_Exp_F: B_ADF_Soldier_base_F
 	uniformClass = U_B_ADF_Uniform_01_F;
     linkedItems[] =
     {
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetHBK_aucamo_chops_F,
 		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetHBK_aucamo_chops_F,
 		V_PlateCarrier2_cbr,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F

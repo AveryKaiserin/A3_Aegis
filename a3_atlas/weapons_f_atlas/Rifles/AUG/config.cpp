@@ -1,3 +1,10 @@
+/*
+- Needs new hand animations
+- Needs a GL Holo - not sure where to mount it
+- 9 mm SMG variant maybe?
+- Needs UI icons
+*/
+
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
@@ -5,14 +12,7 @@ class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
 class SlotInfo;
-class MuzzleSlot;
-class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
 class MuzzleSlot_556;
-class MuzzleSlot_65;
-class MuzzleSlot_762;
-class MuzzleSlot_MG;
 class CowsSlot_Rail;
 class PointerSlot_Rail;
 class UnderBarrelSlot_rail;
@@ -40,7 +40,7 @@ class CfgWeapons
 			"\A3\Weapons_F\Rifles\TRG20\Data\Anim\TRG_21.rtm"
 		};
 		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AUG_base_F1;
-		reloadAction = GestureReloadKatiba;
+		reloadAction = GestureReloadAUG;
 		magazines[] =
 		{
 			30Rnd_556x45_AUG_Mag_F,
@@ -173,7 +173,7 @@ class CfgWeapons
 		};
 		inertia = 0.5;
 		dexterity = 1.6;
-		aimTransitionSpeed = 1;
+		aimTransitionSpeed = 0.9;
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -181,7 +181,7 @@ class CfgWeapons
 	  	};
 		class EGLM: UGL_F
 		{
-			displayName = $STR_A3_CfgWeapons_arifle_AUG_GL_base_F_EGLM0;
+			displayName = $STR_A3_A_CfgWeapons_arifle_AUG_GL_base_F_EGLM0;
 			useModelOptics = false;
 			useExternalOptic = false;
 			cameraDir = OP_look;

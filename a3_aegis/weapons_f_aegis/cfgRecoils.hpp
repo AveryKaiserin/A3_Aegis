@@ -103,42 +103,6 @@ class CfgRecoils
 		};
 		temporary = 0.08;
 	};
-	/*
-	// Mk20 6.5 mm (Black)
-	class recoil_mk20_black: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.2,
-			0.8,
-			0.2,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.01,
-			0.03
-		};
-		temporary = 0.01;
-	};
-	// Mk20C 6.5 mm (Black)
-	class recoil_mk20c_black: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.2,
-			1.0,
-			0.3,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.02,
-			0.04
-		};
-		temporary = 0.015;
-	};
-	*/
 	// AK-12 5.45 mm
 	class recoil_ak12_545: recoil_default
 	{
@@ -206,6 +170,23 @@ class CfgRecoils
 			0.04
 		};
 		temporary = 0.01;
+	};
+	// Mk17 7.62 mm
+	class recoil_scar: recoil_default
+	{
+		muzzleOuter[] =
+		{
+			0.3,
+			1.5,
+			0.5,
+			0.5
+		};
+		kickBack[] =
+		{
+			0.03,
+			0.07
+		};
+		temporary = 0.005;
 	};
 	// RFL 7.62 mm
 	class recoil_rfb: recoil_default
@@ -326,7 +307,7 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
-	// Vepr 9 mm
+	// Bizon 9 mm
 	class recoil_smg_06: recoil_default
 	{
 		muzzleOuter[] =

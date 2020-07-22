@@ -290,6 +290,20 @@ class I_E_Soldier_lite_F: I_E_Soldier_base_F
 class I_E_Soldier_GL_F: I_E_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_GL_F.jpg";
+	linkedItems[] =
+	{
+		H_HelmetHBK_headset_F,
+		V_CarrierRigKBT_01_heavy_EAF_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetHBK_headset_F,
+		V_CarrierRigKBT_01_heavy_EAF_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
     weapons[] =
     {
         arifle_MSBS65_GL_aco_pointer_f,

@@ -28,7 +28,7 @@ class CfgWeapons
 	class UGL_F;
 	class arifle_SKS_base_F: Rifle_Base_F
 	{
-		author = $STR_A3_A_AveryTheKitty_and_Luchadordev;
+		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = private;
 		displayName = $STR_A3_O_CfgWeapons_arifle_SKS_base_F0;
 		descriptionShort = $STR_A3_O_CfgWeapons_arifle_SKS_base_F1;
@@ -111,7 +111,7 @@ class CfgWeapons
 	};
 	class arifle_SKS_F: arifle_SKS_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty_and_Luchadordev;
+		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		baseWeapon = arifle_SKS_F;
 		scope = public;
 		displayName = $STR_A3_O_CfgWeapons_arifle_SKS_F0;

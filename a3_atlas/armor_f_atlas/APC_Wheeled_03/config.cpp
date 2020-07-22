@@ -52,6 +52,14 @@ class CfgVehicles
 			};
 		};
 	};
+	class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F{};
+	class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret{};
+		};
+	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 };

@@ -41,7 +41,10 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
+	class H_HelmetO_ocamo;
+	class H_HelmetLeaderO_ocamo;
 	class H_MilCap_ocamo;
+	class H_HelmetSpecO_ocamo;
 	// Arma 3 Tanks
 	class H_Tank_black_F;
 	// Arma 3 Enoch
@@ -50,6 +53,27 @@ class CfgWeapons
 	class H_HelmetHBK_ear_base_F;
 	class H_HelmetHBK_chops_base_F;
 	// Arma 3 Atlas
+	class H_HelmetO_tkcamo: H_HelmetO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_tkcamo0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetO_tkcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"};
+	};
+	class H_HelmetLeaderO_tkcamo: H_HelmetLeaderO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetLeaderO_tkcamo0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetLeaderO_tkcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"};
+	};
+	class H_HelmetSpecO_tkcamo: H_HelmetSpecO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_tkcamo0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecO_tkcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"};
+	};
 	class H_HelmetHBK_aucamo_F: H_HelmetHBK_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

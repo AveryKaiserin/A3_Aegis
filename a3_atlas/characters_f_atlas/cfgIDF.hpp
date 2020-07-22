@@ -662,14 +662,14 @@ class I_I_soldier_exp_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_Uniform_01_shortsleeve_F;
     linkedItems[] =
     {
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetI_I_01_F,
 		V_PlateCarrier2_oli,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetI_I_01_F,
 		V_PlateCarrier2_oli,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1286,7 +1286,7 @@ class I_I_officer_F: I_I_Soldier_Base_F
 		Head_IDF
 	};
     displayName = $STR_B_officer_F0;
-	uniformClass = U_I_I_Officer_F;
+	uniformClass = U_I_I_Uniform_01_officer_F;
 	linkedItems[] =
 	{
 		H_MilCap_grn,

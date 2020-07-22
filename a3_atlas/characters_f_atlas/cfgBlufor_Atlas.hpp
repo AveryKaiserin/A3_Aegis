@@ -604,14 +604,14 @@ class B_E_Medic_F: B_medic_F
 	linkedItems[] =
 	{
 		H_HelmetSpecB_light,
-		V_CarrierRigKBT_01_heavy_Green_F,
+		V_CarrierRigKBT_01_light_Green_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		H_HelmetSpecB_light,
-		V_CarrierRigKBT_01_heavy_Green_F,
+		V_CarrierRigKBT_01_light_Green_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2691,10 +2691,1120 @@ class B_E_Soldier_unarmed_F: B_E_Soldier_F
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
+class B_E_Uniform_01_acr_F: B_E_Uniform_01_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_pants_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+class B_E_Uniform_01_tshirt_acr_F: B_E_Uniform_01_tshirt_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_B_E_Uniform_01_tshirt_acr_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_TankTop_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_pants_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+class B_E_Uniform_01_shortsleeve_acr_F: B_E_Uniform_01_shortsleeve_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_pants_CO.paa"
+	};
+};
+class B_E_Soldier_A_acr_F: B_E_Soldier_A_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_A_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_Carryall_wdl_BEAmmo_acr_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_12(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_12(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AAR_acr_F: B_E_Soldier_AAR_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAR_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_Kitbag_wdl_BEAAR_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AAA_acr_F: B_E_Soldier_AAA_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAA_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_Carryall_wdl_BWAAA_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AAT_acr_F: B_E_Soldier_AAT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAT_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_Carryall_wdl_BWAAT_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AR_acr_F: B_E_Soldier_AR_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AR_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_B_soldier_AR_F0;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	weapons[] =
+	{
+		LMG_Mk200_black_RCO_LP_BI_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		LMG_Mk200_black_RCO_LP_BI_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box_Red),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box_Red),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Medic_acr_F: B_E_Medic_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Medic_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+ 	scope = public;
+  	scopeCurator = public;
+    uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_TacticalPack_rgr_BAMedic_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellRed,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellRed,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Crew_acr_F: B_E_Crew_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Crew_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	weapons[] =
+	{
+		SMG_02_Holo_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		SMG_02_Holo_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		H_HelmetCrew_B_oli_F,
+		V_CarrierRigKBT_01_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetCrew_B_oli_F,
+		V_CarrierRigKBT_01_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Engineer_acr_F: B_E_Engineer_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Engineer_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	backpack = B_Kitbag_wdl_BWEng_F;
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_Exp_acr_F: B_E_Soldier_Exp_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Exp_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_Kitbag_rgr_Exp;
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_GL_acr_F: B_E_Soldier_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_GL_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	weapons[] =
+	{
+		arifle_MX_GL_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_GL_Black_ACO_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+		mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+		mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_soldier_M_acr_F: B_E_soldier_M_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_M_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	weapons[] =
+	{
+		srifle_DMR_02_AMS_LP_BI_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		srifle_DMR_02_AMS_LP_BI_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_10(10Rnd_338_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(10Rnd_338_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AA_acr_F: B_E_Soldier_AA_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AA_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	backpack = B_Kitbag_wdl_BWAA_F;
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		launch_B_Titan_olive_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		launch_B_Titan_olive_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_AT_acr_F: B_E_Soldier_AT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AT_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	backpack = B_Kitbag_wdl_BWAT_F;
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		launch_I_Titan_short_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		launch_I_Titan_short_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_Repair_acr_F: B_E_Soldier_Repair_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Repair_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	backpack = B_TacticalPack_rgr_BARepair_F;
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_acr_F: B_E_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	weapons[] =
+	{
+		arifle_MX_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_LAT_acr_F: B_E_Soldier_LAT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_LAT_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	backpack = B_TacticalPack_rgr_BALAT_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		launch_MRAWS_green_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_pointer_F,
+		launch_MRAWS_green_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_SL_acr_F: B_E_Soldier_SL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_SL_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	weapons[] =
+	{
+		arifle_MX_GL_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_GL_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
+        1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokeBlue_Grenade_shell,
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
+        1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokeBlue_Grenade_shell,
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_TL_acr_F: B_E_Soldier_TL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_TL_acr_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_Uniform_01_acr_F;
+	weapons[] =
+	{
+		arifle_MX_GL_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_GL_Black_Hamr_pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+		mag_2(17Rnd_9x21_Mag),
+		mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
+        1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokeBlue_Grenade_shell,
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+		mag_2(17Rnd_9x21_Mag),
+		mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange,
+        1Rnd_Smoke_Grenade_shell,
+		1Rnd_SmokeBlue_Grenade_shell,
+		1Rnd_SmokeGreen_Grenade_shell,
+		1Rnd_SmokeOrange_Grenade_shell
+	};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_heavy_Green_F,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_RadioOperator_acr_F: B_E_Soldier_acr_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_RadioOperator_acr_F.jpg";
+    displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
+	backpack = B_RadioBag_01_wdl_F;
+	weapons[] =
+    {
+        arifle_MX_Black_ACO_pointer_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_Black_ACO_pointer_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
+class B_E_Soldier_unarmed_acr_F: B_E_Soldier_acr_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
+	weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_I_Helmet_canvas_Green,
+		V_CarrierRigKBT_01_light_Green_F,
+		DefaultManLinkedItems
+	};
+	role = Unarmed;
+	threat[] = {0.1,0.1,0.1};
+};
 class B_E_Fighter_Pilot_F: B_Fighter_Pilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
+	genericNames = CzechMen;
+	editorSubcategory = EdSubcat_Personnel_CzechArmy;
 	identityTypes[] =
 	{
 		LanguageENG_F,

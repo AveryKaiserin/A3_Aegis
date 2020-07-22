@@ -9,6 +9,7 @@ class CfgPatches
 		{
 			A3_Atlas_Data_F_Atlas,
 			A3_Atlas_Weapons_F_Atlas,
+			A3_Atlas_Weapons_F_Atlas_Rifles_AUG,
 			A3_Atlas_Weapons_F_Atlas_Rifles_G36
 		};
 		requiredVersion = 0.1;

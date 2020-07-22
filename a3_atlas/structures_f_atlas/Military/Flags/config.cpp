@@ -28,6 +28,30 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Bocano_CO.paa'";
 		};
 	};
+	class Flag_CZ_F: FlagCarrier
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_CZ_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = "Flag (Czech Republic)";
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_CZ_CO.paa'";
+		};
+	};
 	class Flag_France_F: FlagCarrier
 	{
 		author = $STR_A3_A_AveryTheKitty;

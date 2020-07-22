@@ -4,7 +4,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_A3_A_AveryTheKitty_and_Luchadordev; \
+		author = $STR_A3_A_AveryTheKitty_and_Luchador; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = ##c##; \
 		vehicleClass = WeaponsPrimary; \

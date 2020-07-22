@@ -87,3 +87,56 @@ class U_Tank_wdl_F: Uniform_Base
 		mass = 30;
 	};
 };
+
+// Czech Republic
+class U_B_E_Uniform_01_acr_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_E_Uniform_01_acr_F0;
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_Uniform_01_acr_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = B_E_Uniform_01_acr_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class U_B_E_Uniform_01_shortsleeve_acr_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_E_Uniform_01_shortsleeve_acr_F0;
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_Uniform_01_shortsleeve_acr_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_acr_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = B_E_Uniform_01_shortsleeve_acr_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class U_B_E_Uniform_01_tshirt_acr_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_E_Uniform_01_tshirt_acr_F0;
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_Uniform_01_tshirt_acr_F_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_TankTop_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = B_E_Uniform_01_tshirt_acr_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
