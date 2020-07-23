@@ -141,13 +141,14 @@ class B_A_MRAP_03_tna_F: B_A_MRAP_03_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -180,13 +181,14 @@ class B_A_MRAP_03_hmg_tna_F: B_A_MRAP_03_hmg_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -219,13 +221,14 @@ class B_A_MRAP_03_gmg_tna_F: B_A_MRAP_03_gmg_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -258,13 +261,14 @@ class B_A_MRAP_03_wdl_F: B_A_MRAP_03_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -297,13 +301,14 @@ class B_A_MRAP_03_hmg_wdl_F: B_A_MRAP_03_hmg_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -336,13 +341,14 @@ class B_A_MRAP_03_gmg_wdl_F: B_A_MRAP_03_gmg_F
     typicalCargo[] = {B_A_Soldier_Lite_F};
     textureList[] =
     {
+        BAF,1,
         Blufor,0,
-        Olive,1
+        Olive,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_BAF_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_BAF_CO.paa"
     };
     class TransportMagazines
     {
