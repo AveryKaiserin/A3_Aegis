@@ -3804,6 +3804,7 @@ class B_E_Fighter_Pilot_F: B_Fighter_Pilot_F
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
 	genericNames = CzechMen;
+	faction = BLU_E_F;
 	editorSubcategory = EdSubcat_Personnel_CzechArmy;
 	identityTypes[] =
 	{

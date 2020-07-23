@@ -28,8 +28,8 @@ class CfgVehicles
 				factions[] = {IND_I_F};
 				textures[] =
 				{
-					"\A3_Atlas\Static_F_Atlas\Sam_System_01\Data\Sam_system_01_mat_01_IDF_CO.paa",
-					"\A3_Atlas\Static_F_Atlas\Sam_System_01\Data\Sam_system_01_mat_02_IDF_CO.paa"
+					"\A3_Atlas\Static_F_Atlas\Sam_System_03\Data\Sam_system_03_mat_01_IDF_CO.paa",
+					"\A3_Atlas\Static_F_Atlas\Sam_System_03\Data\Sam_system_03_mat_02_IDF_CO.paa"
 				};
 			};
 		};
