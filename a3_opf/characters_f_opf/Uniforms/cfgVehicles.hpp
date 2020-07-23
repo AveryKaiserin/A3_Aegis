@@ -26,8 +26,8 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_taiga_F,"Fatigues (Taiga, Tee) [Russia]")
 	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_arid_F,"Fatigues (Arid, Tee) [Russia]")
 	// Separatists
-	UNIFORM_HOLDER(U_O_E_Gorka_01_autumn_F,"Granit-P Suit (Autumn)")
-	UNIFORM_HOLDER(U_O_E_Gorka_01_summer_F,"Granit-P Suit (Summer)")
+	UNIFORM_HOLDER(U_O_E_Gorka_01_autumn_F,"Granit-A Suit")
+	UNIFORM_HOLDER(U_O_E_Gorka_01_summer_F,"Granit-S Suit")
 	UNIFORM_HOLDER(U_O_E_Uniform_01_taiga_F,"Deserter Clothes (Taiga)")
 	// Insurgents
 	UNIFORM_HOLDER(U_IG_Guerilla3_3_F,"Guerilla Smocks (Grey)")

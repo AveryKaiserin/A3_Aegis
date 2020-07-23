@@ -2,7 +2,7 @@ class U_O_E_Gorka_01_autumn_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Granit-P Suit (Autumn)";
+	displayName = "Granit-A Suit";
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_O_E_Gorka_01_autumn_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
@@ -19,7 +19,7 @@ class U_O_E_Gorka_01_summer_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Granit-P Suit (Summer)";
+	displayName = "Granit-S Suit";
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_O_E_Gorka_01_summer_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
