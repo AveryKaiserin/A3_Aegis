@@ -149,6 +149,7 @@ class B_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 	faction = BLU_E_F;
 	crew = B_E_Fighter_Pilot_F;
 	typicalCargo[] = {B_E_Fighter_Pilot_F};
+    /*
 	textureList[] = {Grey,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -159,12 +160,14 @@ class B_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 		"\A3\Air_F_Jets\Plane_Fighter_04\Data\Numbers\Fighter_04_number_01_CA.paa",
 		"\A3\Air_F_Jets\Plane_Fighter_04\Data\Numbers\Fighter_04_number_04_CA.paa"
 	};
+    */
 	magazines[] =
 	{
 		magazine_Fighter04_Gun20mm_AA_x120_red,
 		Laserbatteries,
 		240Rnd_CMFlare_Chaff_Magazine
 	};
+    /*
 	class TextureSources: TextureSources
 	{
 		class Grey: Grey
@@ -181,6 +184,7 @@ class B_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
             factions[] = {BLU_E_F};
 		};
 	};
+    */
 	class EjectionSystem: EjectionSystem
 	{
 		EjectionSeatClass = B_E_Ejection_Seat_Plane_Fighter_04_F;

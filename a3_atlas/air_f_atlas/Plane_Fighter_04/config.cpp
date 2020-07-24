@@ -13,7 +13,7 @@ class CfgVehicles
 		};
 		class EjectionSystem;
 	};
-	class Ejection_Seat_Plane_Fighter_01_base_F;
+	class Ejection_Seat_Plane_Fighter_04_base_F;
 	// Arma 3 Atlas
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 };

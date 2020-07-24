@@ -63,6 +63,12 @@ class B_E_Uniform_01_F: I_E_Uniform_01_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_pants_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01.rvmat",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_pants.rvmat",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves.rvmat"
+	};
 };
 class B_E_Uniform_01_tshirt_F: I_E_Uniform_01_tanktop_F
 {
@@ -95,6 +101,11 @@ class B_E_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_CO.paa",
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_pants_CO.paa"
+	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01.rvmat",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_pants.rvmat"
 	};
 };
 class B_E_Uniform_01_coveralls_F: I_E_Uniform_01_coveralls_F
@@ -2146,7 +2157,7 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 	};
 	magazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -2155,7 +2166,7 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -2209,7 +2220,7 @@ class B_E_Recon_GL_F: B_recon_GL_F
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_6(1Rnd_HE_Grenade_shell),
@@ -2219,7 +2230,7 @@ class B_E_Recon_GL_F: B_recon_GL_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_6(1Rnd_HE_Grenade_shell),
@@ -2277,7 +2288,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 	};
 	magazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -2289,7 +2300,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -2410,7 +2421,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	};
 	magazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -2421,7 +2432,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -2479,7 +2490,7 @@ class B_E_Recon_F: B_recon_F
 	};
 	magazines[] =
 	{
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2487,7 +2498,7 @@ class B_E_Recon_F: B_recon_F
 	};
 	respawnMagazines[] =
 	{
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2543,7 +2554,7 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 	};
 	magazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         NLAW_F,
         mag_2(MiniGrenade),
@@ -2552,7 +2563,7 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         NLAW_F,
         mag_2(MiniGrenade),
@@ -2608,7 +2619,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_Stanag_red),
 		mag_2(30Rnd_556x45_Stanag_Tracer_Red),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(MiniGrenade),
@@ -2620,7 +2631,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_Stanag_red),
 		mag_2(30Rnd_556x45_Stanag_Tracer_Red),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(MiniGrenade),
@@ -2735,7 +2746,7 @@ class B_E_Soldier_A_acr_F: B_E_Soldier_A_F
     scope = public;
     scopeCurator = public;
     uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
-	backpack = B_Carryall_wdl_BEAmmo_acr_F;
+	backpack = B_Carryall_green_BEAmmo_F;
 	weapons[] =
 	{
 		arifle_MX_Black_ACO_pointer_F,
@@ -2786,7 +2797,7 @@ class B_E_Soldier_AAR_acr_F: B_E_Soldier_AAR_F
     scope = public;
     scopeCurator = public;
     uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
-	backpack = B_Kitbag_wdl_BEAAR_F;
+	backpack = B_FieldPack_green_BEAAR_F;
 	weapons[] =
 	{
 		arifle_MX_Black_ACO_pointer_F,
@@ -3002,7 +3013,7 @@ class B_E_Medic_acr_F: B_E_Medic_F
  	scope = public;
   	scopeCurator = public;
     uniformClass = U_B_E_Uniform_01_shortsleeve_acr_F;
-	backpack = B_TacticalPack_rgr_BAMedic_F;
+	backpack = B_FieldPack_green_BEMedic_F;
 	weapons[] =
 	{
 		arifle_MX_Black_ACO_pointer_F,
@@ -3325,7 +3336,7 @@ class B_E_Soldier_AA_acr_F: B_E_Soldier_AA_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_E_Uniform_01_acr_F;
-	backpack = B_Kitbag_wdl_BWAA_F;
+	backpack = B_FieldPack_green_BEAA_F;
 	weapons[] =
 	{
 		arifle_MXC_Black_Holo_pointer_F,
@@ -3380,7 +3391,7 @@ class B_E_Soldier_AT_acr_F: B_E_Soldier_AT_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_E_Uniform_01_acr_F;
-	backpack = B_Kitbag_wdl_BWAT_F;
+	backpack = B_FieldPack_green_BEAT_F;
 	weapons[] =
 	{
 		arifle_MXC_Black_Holo_pointer_F,
@@ -3435,7 +3446,7 @@ class B_E_Soldier_Repair_acr_F: B_E_Soldier_Repair_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_E_Uniform_01_acr_F;
-	backpack = B_TacticalPack_rgr_BARepair_F;
+	backpack = B_FieldPack_green_BERepair_F;
 	weapons[] =
 	{
 		arifle_MXC_Black_Holo_pointer_F,
@@ -3536,7 +3547,7 @@ class B_E_Soldier_LAT_acr_F: B_E_Soldier_LAT_F
     scope = public;
     scopeCurator = public;
 	uniformClass = U_B_E_Uniform_01_acr_F;
-	backpack = B_TacticalPack_rgr_BALAT_F;
+	backpack = B_FieldPack_green_BELAT_F;
 	weapons[] =
 	{
 		arifle_MX_Black_ACO_pointer_F,

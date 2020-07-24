@@ -131,13 +131,15 @@ class B_E_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_bas
 	typicalCargo[] = {B_E_Fighter_Pilot_F};
 	cost = 3000000;
 	availableForSupportTypes[] = {CAS_Bombing};
+    /*
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_CO.paa",
 		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_CO.paa"
 	};
 	textureList[] = {Grey,1};
-	class AnimationSources: AnimationSources
+	*/
+    class AnimationSources: AnimationSources
 	{
 		class HideWeapons
 		{

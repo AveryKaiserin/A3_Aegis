@@ -69,7 +69,6 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
-			//G36_tailDistant_SoundShader,
 			G36_tailForest_SoundShader,
 			G36_tailHouses_SoundShader,
 			G36_tailMeadows_SoundShader,
@@ -102,54 +101,4 @@ class CfgSoundSets
 	{
 		soundShaders[] = {G36_silencerTailInterior_SoundShader};
 	};
-	/*
-	// Mk17 SCAR 7.62 mm
-	class SCAR_Shot_SoundSet: Rifle_Shot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SCAR_closure_SoundShader,
-			SCAR_closeShot_SoundShader,
-			SCAR_midShot_SoundShader,
-			SCAR_distShot_SoundShader
-		};
-	};
-	class SCAR_Tail_SoundSet: Rifle_Tail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SCAR_tailDistant_SoundShader,
-			SCAR_tailForest_SoundShader,
-			SCAR_tailHouses_SoundShader,
-			SCAR_tailMeadows_SoundShader,
-			SCAR_tailTrees_SoundShader
-		};
-	};
-	class SCAR_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {SCAR_tailInterior_SoundShader};
-	};
-	class SCAR_silencerShot_SoundSet: Rifle_silencerShot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SCAR_closure_SoundShader,
-			SCAR_silencerShot_SoundShader
-		};
-	};
-	class SCAR_silencerTail_SoundSet: Rifle_silencerTail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SCAR_silencerTailTrees_SoundShader,
-			SCAR_silencerTailForest_SoundShader,
-			SCAR_silencerTailMeadows_SoundShader,
-			SCAR_silencerTailHouses_SoundShader
-		};
-	};
-	class SCAR_silencerInteriorTail_SoundSet: Rifle_silencerInteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {SCAR_silencerTailInterior_SoundShader};
-	};
-	*/
 };

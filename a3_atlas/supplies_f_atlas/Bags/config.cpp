@@ -20,6 +20,7 @@ class CfgVehicles
 	class B_RadioBag_01_base_F;
 	class B_Carryall_green_F;
 	class B_Carryall_wdl_F;
+	class B_FieldPack_green_F;
 	// Arma 3 Aegis
 	class B_Kitbag_khk;
 	class B_TacticalPack_sgg;

@@ -1480,13 +1480,13 @@ class I_CDF_Engineer_F: I_CDF_Soldier_base_F
 	backpack = B_Carryall_green_eng_F;
 	weapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG20_black_ACO_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG20_black_ACO_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
