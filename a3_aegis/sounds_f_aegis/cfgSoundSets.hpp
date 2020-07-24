@@ -12,6 +12,7 @@ class CfgSoundSets
 	class Pistol_silencerShot_Base_SoundSet;
 	class Pistol_silencerTail_Base_SoundSet;
 	class Pistol_silencerInteriorTail_Base_SoundSet;
+	// M32 40 mm
 	class M32_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -36,6 +37,7 @@ class CfgSoundSets
 	{
 	  	soundShaders[] = {M32_tailInterior_SoundShader};
 	};
+	// Punisher 25 mm
 	class XM25_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -60,10 +62,12 @@ class CfgSoundSets
 	{
 	  	soundShaders[] = {XM25_tailInterior_SoundShader};
 	};
+	// GM6 Lynx 12.7 mm
 	class GM6Lynx_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] += {GM6Lynx_Bolt_SoundShader};
 	};
+	// M320 LRR .408
 	class M320_silencerShot_SoundSet: Rifle_silencerShot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -87,6 +91,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {M320_silencerTailInterior_SoundShader};
 	};
+	// Warfare-50 12.7 mm
 	class WF50_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -113,6 +118,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {WF50_tailInterior_SoundShader};
 	};
+	// Zafir 7.62 mm
 	class Zafir_silencerShot_SoundSet: Rifle_silencerShot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -135,6 +141,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {Zafir_silencerTailInterior_SoundShader};
 	};
+	// C-1911 .45 ACP
 	class C1911_Shot_SoundSet: Pistol_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -182,6 +189,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {C1911_silencerTailInterior_SoundShader};
 	};
+	// G17 9 mm
 	class G17_Shot_SoundSet: Pistol_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -229,6 +237,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {G17_silencerTailInterior_SoundShader};
 	};
+	// Mk26 12.7 mm
 	class Mk26_Shot_SoundSet: Pistol_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -254,6 +263,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {Mk26_tailInterior_SoundShader};
 	};
+	// Kaban 12.7 mm
 	class MP412_Shot_SoundSet: Pistol_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -279,6 +289,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {MP412_tailInterior_SoundShader};
 	};
+	// RFL 7.62 mm
 	class RFL_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -304,6 +315,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {RFL_tailInterior_SoundShader};
 	};
+	// L85A3 6.5 mm
 	class L85A3_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -351,6 +363,55 @@ class CfgSoundSets
 	{
 		soundShaders[] = {L85A3_silencerTailInterior_SoundShader};
 	};
+	// Mk17 7.62 mm
+	class SCAR_Shot_SoundSet: Rifle_Shot_Base_SoundSet
+	{
+		soundShaders[] =
+		{
+			SCAR_closure_SoundShader,
+			SCAR_closeShot_SoundShader,
+			SCAR_midShot_SoundShader,
+			SCAR_distShot_SoundShader
+		};
+	};
+	class SCAR_Tail_SoundSet: Rifle_Tail_Base_SoundSet
+	{
+		soundShaders[] =
+		{
+			SCAR_tailDistant_SoundShader,
+			SCAR_tailForest_SoundShader,
+			SCAR_tailHouses_SoundShader,
+			SCAR_tailMeadows_SoundShader,
+			SCAR_tailTrees_SoundShader
+		};
+	};
+	class SCAR_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
+	{
+		soundShaders[] = {SCAR_tailInterior_SoundShader};
+	};
+	class SCAR_silencerShot_SoundSet: Rifle_silencerShot_Base_SoundSet
+	{
+		soundShaders[] =
+		{
+			SCAR_closure_SoundShader,
+			SCAR_silencerShot_SoundShader
+		};
+	};
+	class SCAR_silencerTail_SoundSet: Rifle_silencerTail_Base_SoundSet
+	{
+		soundShaders[] =
+		{
+			SCAR_silencerTailTrees_SoundShader,
+			SCAR_silencerTailForest_SoundShader,
+			SCAR_silencerTailMeadows_SoundShader,
+			SCAR_silencerTailHouses_SoundShader
+		};
+	};
+	class SCAR_silencerInteriorTail_SoundSet: Rifle_silencerInteriorTail_Base_SoundSet
+	{
+		soundShaders[] = {SCAR_silencerTailInterior_SoundShader};
+	};
+	// AA-40 12G
 	class AA12_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -375,6 +436,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {AA12_tailInterior_SoundShader};
 	};
+	// Bulldog 12G
 	class KSG_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -400,6 +462,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {KSG_tailInterior_SoundShader};
 	};
+	// M4 SSAS 12G
 	class M4_SSAS_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -424,6 +487,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {M4_SSAS_tailInterior_SoundShader};
 	};
+	// BK-153 12G
 	class MP153_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -448,6 +512,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {MP153_tailInterior_SoundShader};
 	};
+	// MP7 4.6 mm
 	class SMG04_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -495,6 +560,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {SMG04_silencerTailInterior_SoundShader};
 	};
+	// Bizon 9 mm
 	class SMG06_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
@@ -581,6 +647,7 @@ class CfgSoundSets
 		spatial = false;
 		loop = true;
 	};
+	// F-38C Peregrine
 	class Plane_Fighter_05_EngineLowExt_SoundSet
 	{
 		soundShaders[] = {Plane_Fighter_05_EngineLowExt_SoundShader};
