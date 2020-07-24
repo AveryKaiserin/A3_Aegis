@@ -1176,21 +1176,21 @@ class B_recon_F: B_Soldier_recon_base
 	};
     weapons[] =
     {
-        arifle_SPAR_01_snd_ERCO_Pointer_Snds_F,
+        arifle_SCAR_grip_snds_rco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_snd_ERCO_Pointer_Snds_F,
+        arifle_SCAR_grip_snds_rco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_10(30Rnd_556x45_Stanag_Sand_red),
+        mag_10(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1198,7 +1198,7 @@ class B_recon_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_556x45_Stanag_Sand_red),
+        mag_10(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1232,21 +1232,21 @@ class B_recon_LAT_F: B_Soldier_recon_base
 	};
     weapons[] =
     {
-        arifle_SPAR_01_snd_ACO_Pointer_Snds_F,
+        arifle_SCAR_snds_aco_pointer_f,
         launch_NLAW_F,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_snd_ACO_Pointer_Snds_F,
+        arifle_SCAR_snds_aco_pointer_f,
         launch_NLAW_F,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         NLAW_F,
         mag_2(MiniGrenade),
@@ -1255,7 +1255,7 @@ class B_recon_LAT_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         NLAW_F,
         mag_2(MiniGrenade),
@@ -1284,19 +1284,19 @@ class B_recon_exp_F: B_Soldier_recon_base
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_recon_exp_F.jpg";
     weapons[] =
     {
-        arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1305,7 +1305,7 @@ class B_recon_exp_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1340,19 +1340,19 @@ class B_recon_medic_F: B_Soldier_recon_base
 	};
     weapons[] =
     {
-        arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1363,7 +1363,7 @@ class B_recon_medic_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1400,14 +1400,14 @@ class B_recon_TL_F: B_Soldier_recon_base
 	};
     weapons[] =
     {
-        arifle_SPAR_01_snd_ERCO_Pointer_Snds_F,
+        arifle_SCAR_grip_snds_rco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_snd_ERCO_Pointer_Snds_F,
+        arifle_SCAR_grip_snds_rco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
@@ -1415,8 +1415,7 @@ class B_recon_TL_F: B_Soldier_recon_base
     role = Rifleman;
     magazines[] =
     {
-        mag_4(30Rnd_556x45_Stanag_Sand_red),
-        mag_2(30Rnd_556x45_Stanag_Sand_Tracer_Red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1427,8 +1426,7 @@ class B_recon_TL_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_556x45_Stanag_Sand_red),
-        mag_2(30Rnd_556x45_Stanag_Sand_Tracer_Red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1459,14 +1457,14 @@ class B_recon_M_F: B_Soldier_recon_base
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_recon_M_F.jpg";
     weapons[] =
     {
-        arifle_SPAR_03_snd_MOS_Pointer_Bipod_Snds_F,
+        srifle_EBR_blk_DMS_LP_BI_S_F,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_03_snd_MOS_Pointer_Bipod_Snds_F,
+        srifle_EBR_blk_DMS_LP_BI_S_F,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
@@ -1526,21 +1524,21 @@ class B_recon_JTAC_F: B_Soldier_recon_base
 	backpack = B_RadioBag_01_mtp_F;
     weapons[] =
     {
-        arifle_SPAR_01_GL_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_GL_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Laserdesignator
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_GL_snd_Holo_Pointer_Snds_F,
+        arifle_SCAR_GL_snds_holo_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Laserdesignator
     };
     magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -1552,7 +1550,7 @@ class B_recon_JTAC_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -2014,21 +2012,21 @@ class B_Recon_Sharpshooter_F: B_Soldier_recon_base
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Recon_Sharpshooter_F.jpg";
     weapons[] =
     {
-        srifle_EBR_blk_DMS_LP_BI_S_F,
+        srifle_DMR_02_sniper_AMS_LP_S_F,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        srifle_EBR_blk_DMS_LP_BI_S_F,
+        srifle_DMR_02_sniper_AMS_LP_S_F,
         hgun_P07_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_8(20Rnd_762x51_Mag),
+        mag_10(10Rnd_338_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2036,7 +2034,7 @@ class B_Recon_Sharpshooter_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_8(20Rnd_762x51_Mag),
+        mag_10(10Rnd_338_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2444,34 +2442,34 @@ class B_recon_AR_F: B_Soldier_recon_base
     icon = iconManMG;
     cost = 220000;
     threat[] = {1,0.1,0.3};
-    weapons[] =
-    {
-        arifle_SPAR_02_snd_ERCO_Pointer_Bipod_Snds_F,
-        hgun_P07_snds_F,
+	weapons[] =
+	{
+		LMG_03_snd_ERCO_Pointer_Snds_F,
+		hgun_P07_snds_F,
         DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_SPAR_02_snd_ERCO_Pointer_Bipod_Snds_F,
-        hgun_P07_snds_F,
+	};
+	respawnWeapons[] =
+	{
+		LMG_03_snd_ERCO_Pointer_Snds_F,
+		hgun_P07_snds_F,
         DefaultManWeapons
-    };
-    magazines[] =
-    {
-        mag_6(150Rnd_556x45_Drum_Sand_Mag_F),
+	};
+	magazines[] =
+	{
+        mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(16Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(150Rnd_556x45_Drum_Sand_Mag_F),
+	};
+	respawnMagazines[] =
+	{
+        mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(16Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
-    };
+	};
 	items[] =
 	{
 		FirstAidKit,
@@ -2516,19 +2514,19 @@ class B_recon_GL_F: B_Soldier_recon_base
     cost = 210000;
     weapons[] =
     {
-        arifle_SPAR_01_GL_snd_ACO_Pointer_Snds_F,
+        arifle_SCAR_GL_snds_aco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SPAR_01_GL_snd_ACO_Pointer_Snds_F,
+        arifle_SCAR_GL_snds_aco_pointer_f,
         hgun_P07_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_6(1Rnd_HE_Grenade_shell),
@@ -2538,7 +2536,7 @@ class B_recon_GL_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_Sand_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_6(1Rnd_HE_Grenade_shell),
@@ -2583,13 +2581,13 @@ class B_recon_MG_F: B_Soldier_recon_base
 	uniformClass = U_B_CombatUniform_mcam_vest;
 	weapons[] =
 	{
-		LMG_03_snd_ERCO_Pointer_Snds_F,
+		LMG_Mk200_plain_RCO_LP_BI_S_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_03_snd_ERCO_Pointer_Snds_F,
+		LMG_Mk200_plain_RCO_LP_BI_S_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};

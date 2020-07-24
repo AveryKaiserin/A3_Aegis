@@ -21,8 +21,16 @@ class CfgWeapons
 	class arifle_SCAR_base_F: Rifle_Base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_F.p3d";
-		hiddenSelections[] = {Camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_CO.paa"};
+		hiddenSelections[] =
+		{
+			Camo1,
+			Camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_CO.paa"
+		};
 		class Library
 		{
 			libTextDesc = $STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0;
@@ -159,12 +167,14 @@ class CfgWeapons
 		hiddenSelections[] =
 		{
 			Camo1,
-			Camo2
+			Camo2,
+			Camo3
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\EGLM_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\SA80_F_GL_snd_CO.paa"
 		};
 		handAnim[] =
 		{
@@ -188,8 +198,14 @@ class CfgWeapons
 		{
 			dispersion = 0.00102;
 		};
+		muzzles[] =
+		{
+			this,
+			EGLM
+		};
 		class EGLM: UGL_F
 		{
+			displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_GL_base_F_EGLM0;
 			useModelOptics = false;
 			useExternalOptic = false;
 			cameraDir = OP_look;
@@ -218,12 +234,8 @@ class CfgWeapons
 				OP_eye_400
 			};
 			discreteDistanceInitIndex = 1;
-			reloadAction = GestureReloadTrgUGL;
-		};
-		muzzles[] =
-		{
-			this,
-			EGLM
+			reloadAction = GestureReloadSPARUGL;
+			magazineReloadSwitchPhase = 0.4;
 		};
 	};
 	class arifle_SCAR_short_base_F: arifle_SCAR_base_F
@@ -249,6 +261,11 @@ class CfgWeapons
 	class arifle_SCAR_grip_base_F: arifle_SCAR_base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_grip_F.p3d";
+		handAnim[] =
+		{
+			OFP2_ManSkeleton,
+			"\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\Anim\SPAR_02.rtm"
+		};
 		dexterity = 1.6;
 		aimTransitionSpeed = 1;
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
@@ -258,43 +275,69 @@ class CfgWeapons
 	};
 	class arifle_SCAR_black_base_F: arifle_SCAR_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_black_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_black_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_black_CO.paa"
+		};
 	};
 	class arifle_SCAR_GL_black_base_F: arifle_SCAR_GL_base_F
 	{
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_black_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\EGLM_black_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_black_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_black_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\SA80_F_GL_CO.paa"
 		};
 	};
 	class arifle_SCAR_short_black_base_F: arifle_SCAR_short_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_black_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_black_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_black_CO.paa"
+		};
 	};
 	class arifle_SCAR_grip_black_base_F: arifle_SCAR_grip_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_black_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_black_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_black_CO.paa"
+		};
 	};
 	class arifle_SCAR_khaki_base_F: arifle_SCAR_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_khaki_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_khaki_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_khaki_CO.paa"
+		};
 	};
 	class arifle_SCAR_GL_khaki_base_F: arifle_SCAR_GL_base_F
 	{
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_khaki_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\EGLM_khaki_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_khaki_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_khaki_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\SA80_F_GL_khk_CO.paa"
 		};
 	};
 	class arifle_SCAR_short_khaki_base_F: arifle_SCAR_short_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_khaki_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_khaki_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_khaki_CO.paa"
+		};
 	};
 	class arifle_SCAR_grip_khaki_base_F: arifle_SCAR_grip_base_F
 	{
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_khaki_CO.paa"};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_01_khaki_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_khaki_CO.paa"
+		};
 	};
 	class arifle_SCAR_F: arifle_SCAR_base_F
 	{

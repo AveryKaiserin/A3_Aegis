@@ -171,7 +171,6 @@ class CfgWeapons
 	class arifle_SA80_GL_base_F: arifle_SA80_base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\SA80_GL_F.p3d";
-		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
@@ -179,6 +178,7 @@ class CfgWeapons
 		};
 		inertia = 0.6;
 		aimTransitionSpeed = 0.8;
+		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class UnderBarrelSlot: UnderBarrelSlot_rail

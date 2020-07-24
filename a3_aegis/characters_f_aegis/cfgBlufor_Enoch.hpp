@@ -1850,14 +1850,14 @@ class B_W_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 	uniformclass = U_B_CombatUniform_mcam_wdl_f;
 	weapons[] =
 	{
-		srifle_EBR_blk_DMS_LP_BI_S_F,
+		srifle_DMR_02_AMS_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_EBR_blk_DMS_LP_BI_S_F,
+		srifle_DMR_02_AMS_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -1948,31 +1948,15 @@ class B_W_Recon_AR_F: B_recon_AR_F
 	uniformClass = U_B_CombatUniform_mcam_wdl_f;
 	weapons[] =
 	{
-		arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F,
+		LMG_03_ERCO_Pointer_Snds_F,
 		hgun_P07_blk_snds_F,
-        DefaultManWeapons
+		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F,
+		LMG_03_ERCO_Pointer_Snds_F,
 		hgun_P07_blk_snds_F,
-        DefaultManWeapons
-	};
-	magazines[] =
-	{
-        mag_6(150Rnd_556x45_Drum_Mag_F),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(150Rnd_556x45_Drum_Mag_F),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
+		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
@@ -2000,33 +1984,15 @@ class B_W_Recon_Exp_F: B_recon_exp_F
 	backpack = B_AssaultPack_rgr_ReconExp;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_short_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_short_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
-	};
-	magazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_3(APERSMine_Range_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_3(APERSMine_Range_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2059,36 +2025,16 @@ class B_W_Recon_GL_F: B_recon_GL_F
 	uniformClass = U_B_CombatUniform_mcam_wdl_f;
 	weapons[] =
 	{
-		arifle_SPAR_01_GL_blk_ACO_Pointer_Snds_F,
+		arifle_SCAR_GL_black_snds_aco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_GL_blk_ACO_Pointer_Snds_F,
+		arifle_SCAR_GL_black_snds_aco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
-	magazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
-    };
 	linkedItems[] =
 	{
 		H_HelmetB_light_wdl,
@@ -2121,41 +2067,17 @@ class B_W_Recon_JTAC_F: B_recon_JTAC_F
 	backpack = B_RadioBag_01_wdl_F;
     weapons[] =
 	{
-		arifle_SPAR_01_GL_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_GL_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_GL_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_GL_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
-	};
-	magazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(B_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
-        Laserbatteries,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(B_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
-        Laserbatteries,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
 	};
 	linkedItems[] =
 	{
@@ -2188,31 +2110,15 @@ class B_W_Recon_MG_F: B_recon_MG_F
 	uniformClass = U_B_CombatUniform_vest_mcam_wdl_f;
 	weapons[] =
 	{
-		LMG_03_ERCO_Pointer_Snds_F,
+		LMG_Mk200_black_RCO_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_03_ERCO_Pointer_Snds_F,
+		LMG_Mk200_black_RCO_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
 		DefaultManWeapons
-	};
-	magazines[] =
-	{
-        mag_3(200Rnd_556x45_Box_Red_F),
-        mag_2(16Rnd_9x21_Mag),
-        MiniGrenade,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_3(200Rnd_556x45_Box_Red_F),
-        mag_2(16Rnd_9x21_Mag),
-        MiniGrenade,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2237,35 +2143,19 @@ class B_W_Recon_M_F: B_recon_M_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Recon_M_F.jpg";
 	faction = BLU_W_F;
 	uniformClass = U_B_CombatUniform_mcam_wdl_f;
-    weapons[] =
+	weapons[] =
 	{
-		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
+		srifle_EBR_blk_DMS_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
-        DefaultManWeapons,
+		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
+		srifle_EBR_blk_DMS_LP_BI_S_F,
 		hgun_P07_blk_snds_F,
-        DefaultManWeapons,
+		DefaultManWeapons,
 		Rangefinder
-	};
-	magazines[] =
-	{
-		mag_8(20Rnd_762x51_Mag),
-		mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-		mag_8(20Rnd_762x51_Mag),
-		mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2299,37 +2189,15 @@ class B_W_Recon_Medic_F: B_recon_medic_F
 	backpack = B_AssaultPack_rgr_ReconMedic;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_short_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
+		arifle_SCAR_short_black_snds_holo_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
-	};
-	magazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2362,33 +2230,17 @@ class B_W_Recon_F: B_recon_F
 	uniformClass = U_B_CombatUniform_vest_mcam_wdl_f;
     weapons[] =
 	{
-		arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+		arifle_SCAR_grip_black_snds_rco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+		arifle_SCAR_grip_black_snds_rco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Binocular
-	};
-	magazines[] =
-	{
-        mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2422,35 +2274,17 @@ class B_W_Recon_LAT_F: B_recon_LAT_F
 	backpack = B_AssaultPack_rgr_ReconLAT;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_ACO_Pointer_Snds_F,
+		arifle_SCAR_black_snds_aco_pointer_f,
 		launch_NLAW_F,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_ACO_Pointer_Snds_F,
+		arifle_SCAR_black_snds_aco_pointer_f,
 		launch_NLAW_F,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons
-	};
-	magazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-        mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -2542,41 +2376,17 @@ class B_W_Recon_TL_F: B_recon_TL_F
 	uniformClass = U_B_CombatUniform_vest_mcam_wdl_f;
     weapons[] =
 	{
-		arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+		arifle_SCAR_grip_black_snds_rco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+		arifle_SCAR_grip_black_snds_rco_pointer_f,
 		hgun_P07_blk_snds_F,
         DefaultManWeapons,
 		Rangefinder
-	};
-	magazines[] =
-	{
-		mag_4(30Rnd_556x45_Stanag_red),
-		mag_2(30Rnd_556x45_Stanag_Tracer_Red),
-		mag_2(16Rnd_9x21_Mag),
-		mag_2(MiniGrenade),
-		SmokeShell,
-		SmokeShellGreen,
-		SmokeShellBlue,
-		SmokeShellOrange,
-		mag_2(Chemlight_green)
-	};
-	respawnMagazines[] =
-	{
-		mag_4(30Rnd_556x45_Stanag_red),
-		mag_2(30Rnd_556x45_Stanag_Tracer_Red),
-		mag_2(16Rnd_9x21_Mag),
-		mag_2(MiniGrenade),
-		SmokeShell,
-		SmokeShellGreen,
-		SmokeShellBlue,
-		SmokeShellOrange,
-		mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
