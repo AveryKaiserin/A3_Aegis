@@ -14027,6 +14027,23 @@
 						<Japanese>アサルトライフル&lt;br /&gt;口径：6.5x39 mm</Japanese>
 						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 6.5x39 mm</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_base_F1">
+						<Original>Assault Rifle &lt;br/&gt;Caliber: 7.62x51 mm NATO</Original>
+						<Chinese>突擊步槍&lt;br/&gt;口徑：7.62x51 mm NATO</Chinese>
+						<French>Fusil d'assaut &lt;br/&gt;Calibre : 7,62x51 mm OTAN</French>
+						<Spanish>Fusil de asalto&lt;br/&gt;Calibre: 7,62x51 mm OTAN</Spanish>
+						<Italian>Fucile d'assalto &lt;br/&gt;Calibro: 7,62x51 mm NATO</Italian>
+						<Polish>Karabin szturmowy&lt;br/&gt;Kaliber: 7,62x51 mm NATO</Polish>
+						<Russian>Штурмовая винтовка &lt;br/&gt;Калибр: 7,62x51 мм, НАТО</Russian>
+						<German>Sturmgewehr &lt;br/&gt;Kaliber: 7,62x51 mm NATO</German>
+						<Czech>Útočná puška &lt;br/&gt;Ráže: 7,62x51 mm NATO</Czech>
+						<English>Assault Rifle &lt;br/&gt;Caliber: 7.62x51 mm NATO</English>
+						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: OTAN 7,62 x 51 mm</Portuguese>
+						<Korean>돌격소총&lt;br /&gt;구경: 7.62x51mm NATO</Korean>
+						<Chinesesimp>突击步枪&lt;br/&gt;口径：7.62x51 毫米 NATO</Chinesesimp>
+						<Japanese>アサルトライフル&lt;br/&gt;口径：7.62x51 mm NATO</Japanese>
+						<Turkish>Saldırı tüfeği&lt;br /&gt;Kalibre: 7.62x51 mm NATO</Turkish>
+					</Key>
 				</Container>
 				<Container name="DisplayName">
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_F0">
@@ -14267,6 +14284,142 @@
 						<Japanese>L22A3 6.5mm （カーキ）</Japanese>
 						<Turkish>L22A3 6.5 mm (Haki)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_F0">
+						<Original>Mk17 7.62 mm</Original>
+						<Chinese>Mk17 7.62 mm</Chinese>
+						<French>Mk17 7,62 mm</French>
+						<Spanish>Mk17 7,62 mm</Spanish>
+						<Italian>Mk17 7,62 mm</Italian>
+						<Polish>Mk17 7,62 mm</Polish>
+						<Russian>Mk17 7,62 мм</Russian>
+						<German>Mk17 7,62 mm</German>
+						<Czech>Mk17 7,62 mm</Czech>
+						<English>Mk17 7.62 mm</English>
+						<Portuguese>Mk17 7.62 mm</Portuguese>
+						<Korean>Mk17 7.62mm</Korean>
+						<Chinesesimp>Mk17 7.62 毫米</Chinesesimp>
+						<Japanese>Mk17 7.62mm</Japanese>
+						<Turkish>Mk17 7.62 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_F0">
+						<Original>Mk17 GL 7.62 mm</Original>
+						<Chinese>Mk17 GL 7.62 mm</Chinese>
+						<French>Mk17 GL 7,62 mm</French>
+						<Spanish>Mk17 GL 7,62 mm</Spanish>
+						<Italian>Mk17 GL 7,62 mm</Italian>
+						<Polish>Mk17 GL 7,62 mm</Polish>
+						<Russian>Mk17 GL 7,62 мм</Russian>
+						<German>Mk17 GL 7,62 mm</German>
+						<Czech>Mk17 GL 7,62 mm</Czech>
+						<English>Mk17 GL 7.62 mm</English>
+						<Portuguese>Mk17 GL 7.62 mm</Portuguese>
+						<Korean>Mk17 GL 7.62mm</Korean>
+						<Chinesesimp>Mk17 GL 7.62 毫米</Chinesesimp>
+						<Japanese>Mk17 GL 7.62mm</Japanese>
+						<Turkish>Mk17 GL 7.62 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_short_F0">
+						<Original>Mk17C 7.62 mm</Original>
+						<Chinese>Mk17C 7.62 mm</Chinese>
+						<French>Mk17C 7,62 mm</French>
+						<Spanish>Mk17C 7,62 mm</Spanish>
+						<Italian>Mk17C 7,62 mm</Italian>
+						<Polish>Mk17C 7,62 mm</Polish>
+						<Russian>Mk17C 7,62 мм</Russian>
+						<German>Mk17C 7,62 mm</German>
+						<Czech>Mk17C 7,62 mm</Czech>
+						<English>Mk17C 7.62 mm</English>
+						<Portuguese>Mk17C 7.62 mm</Portuguese>
+						<Korean>Mk17C 7.62mm</Korean>
+						<Chinesesimp>Mk17C 7.62 毫米</Chinesesimp>
+						<Japanese>Mk17C 7.62mm</Japanese>
+						<Turkish>Mk17C 7.62 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_grip_F0">
+						<Original>Mk17 FG 7.62 mm</Original>
+						<Chinese>Mk17 FG 7.62 mm</Chinese>
+						<French>Mk17 FG 7,62 mm</French>
+						<Spanish>Mk17 FG 7,62 mm</Spanish>
+						<Italian>Mk17 FG 7,62 mm</Italian>
+						<Polish>Mk17 FG 7,62 mm</Polish>
+						<Russian>Mk17 FG 7,62 мм</Russian>
+						<German>Mk17 FG 7,62 mm</German>
+						<Czech>Mk17 FG 7,62 mm</Czech>
+						<English>Mk17 FG 7.62 mm</English>
+						<Portuguese>Mk17 FG 7.62 mm</Portuguese>
+						<Korean>Mk17 FG 7.62mm</Korean>
+						<Chinesesimp>Mk17 FG 7.62 毫米</Chinesesimp>
+						<Japanese>Mk17 FG 7.62mm</Japanese>
+						<Turkish>Mk17 FG 7.62 mm</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_black_F0">
+						<Original>Mk17 7.62 mm (Black)</Original>
+						<Chinese>Mk17 7.62 mm（黑）</Chinese>
+						<French>Mk17 7,62 mm (noir)</French>
+						<Spanish>Mk17 7,62 mm (negro)</Spanish>
+						<Italian>Mk17 7,62 mm (nero)</Italian>
+						<Polish>Mk17 7,62 mm (czarny)</Polish>
+						<Russian>Mk17 7,62 мм (черная)</Russian>
+						<German>Mk17 7,62 mm (schwarz)</German>
+						<Czech>Mk17 7,62 mm (černý)</Czech>
+						<English>Mk17 7.62 mm (Black)</English>
+						<Portuguese>Mk17 7.62 mm (preto)</Portuguese>
+						<Korean>Mk17 7.62mm (흑색)</Korean>
+						<Chinesesimp>Mk17 7.62 毫米（黑色）</Chinesesimp>
+						<Japanese>Mk17 7.62mm （黒）</Japanese>
+						<Turkish>Mk17 7.62 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_black_F0">
+						<Original>Mk17 GL 7.62 mm (Black)</Original>
+						<Chinese>Mk17 GL 7.62 mm（黑）</Chinese>
+						<French>Mk17 GL 7,62 mm (noir)</French>
+						<Spanish>Mk17 GL 7,62 mm (negro)</Spanish>
+						<Italian>Mk17 GL 7,62 mm (nero)</Italian>
+						<Polish>Mk17 GL 7,62 mm (czarny)</Polish>
+						<Russian>Mk17 GL 7,62 мм (черная)</Russian>
+						<German>Mk17 GL 7,62 mm (schwarz)</German>
+						<Czech>Mk17 GL 7,62 mm (černý)</Czech>
+						<English>Mk17 GL 7.62 mm (Black)</English>
+						<Portuguese>Mk17 GL 7.62 mm (preto)</Portuguese>
+						<Korean>Mk17 GL 7.62mm (흑색)</Korean>
+						<Chinesesimp>Mk17 GL 7.62 毫米（黑色）</Chinesesimp>
+						<Japanese>Mk17 GL 7.62mm （黒）</Japanese>
+						<Turkish>Mk17 GL 7.62 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_short_black_F0">
+						<Original>Mk17C 7.62 mm (Black)</Original>
+						<Chinese>Mk17C 7.62 mm（黑）</Chinese>
+						<French>Mk17C 7,62 mm (noir)</French>
+						<Spanish>Mk17C 7,62 mm (negro)</Spanish>
+						<Italian>Mk17C 7,62 mm (nero)</Italian>
+						<Polish>Mk17C 7,62 mm (czarny)</Polish>
+						<Russian>Mk17C 7,62 мм (черная)</Russian>
+						<German>Mk17C 7,62 mm (schwarz)</German>
+						<Czech>Mk17C 7,62 mm (černý)</Czech>
+						<English>Mk17C 7.62 mm (Black)</English>
+						<Portuguese>Mk17C 7.62 mm (preto)</Portuguese>
+						<Korean>Mk17C 7.62mm (흑색)</Korean>
+						<Chinesesimp>Mk17C 7.62 毫米（黑色）</Chinesesimp>
+						<Japanese>Mk17C 7.62mm （黒）</Japanese>
+						<Turkish>Mk17C 7.62 mm (Siyah)</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_grip_black_F0">
+						<Original>Mk17 FG 7.62 mm (Black)</Original>
+						<Chinese>Mk17 FG 7.62 mm（黑）</Chinese>
+						<French>Mk17 FG 7,62 mm (noir)</French>
+						<Spanish>Mk17 FG 7,62 mm (negro)</Spanish>
+						<Italian>Mk17 FG 7,62 mm (nero)</Italian>
+						<Polish>Mk17 FG 7,62 mm (czarny)</Polish>
+						<Russian>Mk17 FG 7,62 мм (черная)</Russian>
+						<German>Mk17 FG 7,62 mm (schwarz)</German>
+						<Czech>Mk17 FG 7,62 mm (černý)</Czech>
+						<English>Mk17 FG 7.62 mm (Black)</English>
+						<Portuguese>Mk17 FG 7.62 mm (preto)</Portuguese>
+						<Korean>Mk17 FG 7.62mm (흑색)</Korean>
+						<Chinesesimp>Mk17 FG 7.62 毫米（黑色）</Chinesesimp>
+						<Japanese>Mk17 FG 7.62mm （黒）</Japanese>
+						<Turkish>Mk17 FG 7.62 mm (Siyah)</Turkish>
+					</Key>
 				</Container>
 				<Container name="Library">
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_base_F_Library0">
@@ -14319,6 +14472,23 @@
 						<Chinesesimp>Despite its poor reputation and troubled reception in the past, the SA80 remains as the main service rifle for the British Armed Forces. The L85A3 has been rechambered for NATO's standardized 6.5x39 mm caseless ammunition, and features a new full-length rail enabling modularity and variety of other changes to improve the reliability and stability of the weapon. It is often issued with a grip-pod, but can be fitted with a 40 mm underslung grenade launcher. A compact carbine variant with a shortened barrel exists and is labelled the L22A3.</Chinesesimp>
 						<Japanese>Despite its poor reputation and troubled reception in the past, the SA80 remains as the main service rifle for the British Armed Forces. The L85A3 has been rechambered for NATO's standardized 6.5x39 mm caseless ammunition, and features a new full-length rail enabling modularity and variety of other changes to improve the reliability and stability of the weapon. It is often issued with a grip-pod, but can be fitted with a 40 mm underslung grenade launcher. A compact carbine variant with a shortened barrel exists and is labelled the L22A3.</Japanese>
 						<Turkish>Despite its poor reputation and troubled reception in the past, the SA80 remains as the main service rifle for the British Armed Forces. The L85A3 has been rechambered for NATO's standardized 6.5x39 mm caseless ammunition, and features a new full-length rail enabling modularity and variety of other changes to improve the reliability and stability of the weapon. It is often issued with a grip-pod, but can be fitted with a 40 mm underslung grenade launcher. A compact carbine variant with a shortened barrel exists and is labelled the L22A3.</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0">
+						<Original>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Original>
+						<Chinese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinese>
+						<French>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</French>
+						<Spanish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Spanish>
+						<Italian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Italian>
+						<Polish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Polish>
+						<Russian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Russian>
+						<German>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</German>
+						<Czech>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Czech>
+						<English>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</English>
+						<Portuguese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Portuguese>
+						<Korean>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Korean>
+						<Chinesesimp>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinesesimp>
+						<Japanese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Japanese>
+						<Turkish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Turkish>
 					</Key>
 				</Container>
 			</Container>
