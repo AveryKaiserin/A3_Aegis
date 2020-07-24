@@ -16,6 +16,19 @@ class srifle_DMR_01_ARCO_BI_F: srifle_DMR_01_F
 		};
 	};
 };
+// Sting 9 mm + Mk17 Holosight (Black)
+class SMG_02_Holo_F: SMG_02_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_smg_blk_F;
+		};
+	};
+};
 // LIM-85 5.56 mm + ERCO (Black) + IR Laser Pointer
 class LMG_03_ERCO_Pointer_F: LMG_03_F
 {

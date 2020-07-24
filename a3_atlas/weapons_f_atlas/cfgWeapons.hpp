@@ -34,6 +34,7 @@ class CfgWeapons
 	class srifle_EBR_F;
 	class srifle_DMR_01_F;
 	class LMG_Zafir_F;
+	class SMG_02_F;
 	class optic_MRCO: ItemCore
 	{
 		class ItemInfo;
