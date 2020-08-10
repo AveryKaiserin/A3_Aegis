@@ -33,7 +33,7 @@ class B_Carryall_jungle_BHEng_F: B_Carryall_jungle
 		item_xx(MineDetector,1);
 	};
 };
-class B_TacticalPack_jungle_BHMedic_F: B_TacticalPack_jungle
+class B_TacticalPack_oli_BHMedic_F: B_TacticalPack_oli
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -43,7 +43,7 @@ class B_TacticalPack_jungle_BHMedic_F: B_TacticalPack_jungle
 		item_xx(FirstAidKit,10);
 	};
 };
-class B_TacticalPack_jungle_BHLAT_F: B_TacticalPack_jungle
+class B_TacticalPack_oli_BHLAT_F: B_TacticalPack_oli
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

@@ -306,7 +306,7 @@ class B_H_Medic_F: B_H_Soldier_Base_F
 	camouflage = 1.6;
 	attendant = true;
     uniformClass = U_B_H_Soldier_2_F;
-	backpack = B_TacticalPack_jungle_BHMedic_F;
+	backpack = B_TacticalPack_oli_BHMedic_F;
 	weapons[] =
 	{
 		arifle_AUG_black_flash_F,
@@ -734,7 +734,7 @@ class B_H_Soldier_LAT_F: B_H_Soldier_Base_F
 	threat[] = {0.8,0.8,0.3};
 	secondaryAmmoCoef = 0.5;
 	uniformClass = U_B_H_Soldier_F;
-	backpack = B_TacticalPack_jungle_BHLAT_F;
+	backpack = B_TacticalPack_oli_BHLAT_F;
 	weapons[] =
 	{
 		arifle_AUG_black_aco_flash_F,

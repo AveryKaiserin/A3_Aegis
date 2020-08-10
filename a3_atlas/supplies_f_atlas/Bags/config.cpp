@@ -11,6 +11,7 @@ class CfgVehicles
 	class B_TacticalPack_Base;
 	class B_TacticalPack_rgr;
 	class B_TacticalPack_mcamo;
+	class B_TacticalPack_oli;
 	class B_FieldPack_Base;
 	class B_Carryall_Base;
 	class B_Carryall_mcamo;
@@ -138,14 +139,6 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo0;
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
-	};
-	class B_TacticalPack_jungle: B_TacticalPack_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_jungle0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_jungle_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_jungle_CO.paa"};
 	};
 	class B_ViperHarness_whex_F: B_ViperHarness_base_F
 	{
