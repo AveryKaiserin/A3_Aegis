@@ -102,7 +102,11 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] = 
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -117,6 +121,20 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -162,7 +180,11 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] = 
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -177,6 +199,20 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -302,7 +338,11 @@ class CfgVehicles
 					"",
 					""
 				};
-				factions[] = {OPF_R_F};
+				factions[] = 
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -317,6 +357,20 @@ class CfgVehicles
 					""
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+					"",
+					"",
+					""
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 		class TransportMagazines{};
