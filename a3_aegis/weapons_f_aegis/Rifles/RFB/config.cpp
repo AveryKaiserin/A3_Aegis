@@ -29,12 +29,12 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB_CO.paa",
-			"\A3\Weapons_F\Rifles\RFB\Data\RFB_UW_CO.paa"
+			"\A3\Weapons_F\Rifles\SDAR\Data\RFB_UW_CO.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB.rvmat",
-			"\A3\Weapons_F\Rifles\RFB\Data\RFB_UW.rvmat"
+			"\A3\Weapons_F\Rifles\SDAR\Data\RFB_UW.rvmat"
 		};
 		handAnim[] =
 		{

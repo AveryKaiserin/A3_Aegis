@@ -667,6 +667,6 @@ class O_R_Truck_03_medical_F: O_Truck_03_medical_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
-    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUS_CO.paa"
+    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
     };
 };

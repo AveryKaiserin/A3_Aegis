@@ -53,7 +53,11 @@ class CfgVehicles
 					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUS_CO.paa",
 					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUS_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 		};
 	};

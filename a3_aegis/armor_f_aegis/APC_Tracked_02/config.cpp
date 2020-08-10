@@ -98,9 +98,9 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = 
 				{
@@ -116,9 +116,9 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUS_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -178,7 +178,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = 
 				{
@@ -196,7 +196,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -414,7 +414,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AT_Tower_RUgrn_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};
@@ -428,7 +428,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_AT_Tower_RUcamo_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
 			};

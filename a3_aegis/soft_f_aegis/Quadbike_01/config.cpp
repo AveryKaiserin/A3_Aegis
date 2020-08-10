@@ -59,9 +59,13 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -70,9 +74,20 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
