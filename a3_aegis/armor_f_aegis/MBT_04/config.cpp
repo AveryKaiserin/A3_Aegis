@@ -83,11 +83,15 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GREENJUNGLE0;
+				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -96,6 +100,18 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -186,6 +202,16 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
+				};
+			};
+			class Arid: Arid
+			{
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
+					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
 				};
 			};
 		};
