@@ -435,4 +435,5 @@ class CfgWeapons
 		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_khaki_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_grip_khaki_F;
 	};
+	#include "presets.hpp"
 };

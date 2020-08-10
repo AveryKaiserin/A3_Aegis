@@ -38,19 +38,21 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_vest0;
 	};
 	// Arma 3 Atlas
-	// HIDF
-	UNIFORM_HOLDER(U_B_HIDF_Soldier_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_F0)
-	UNIFORM_HOLDER(U_B_HIDF_Soldier_2_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_2_F0)
-	UNIFORM_HOLDER(U_B_HIDF_Soldier_3_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_3_F0)
-	UNIFORM_HOLDER(U_B_HIDF_Officer_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Officer_F0)
-	UNIFORM_HOLDER(U_B_HIDF_Helipilot_F,$STR_A3_A_CfgWeapons_U_B_HIDF_Helipilot_F0)
+	// HIL
+	UNIFORM_HOLDER(U_B_H_Soldier_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_F0)
+	UNIFORM_HOLDER(U_B_H_Soldier_2_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0)
+	UNIFORM_HOLDER(U_B_H_Soldier_3_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0)
+	UNIFORM_HOLDER(U_B_H_Officer_F,$STR_A3_A_CfgWeapons_U_B_H_Officer_F0)
+	UNIFORM_HOLDER(U_B_H_Helipilot_F,$STR_A3_A_CfgWeapons_U_B_H_Helipilot_F0)
 	// NATO (European)
-	UNIFORM_HOLDER(U_B_E_Uniform_01_F,$STR_A3_A_CfgWeapons_U_B_E_Uniform_01_F0)
-	UNIFORM_HOLDER(U_B_E_Uniform_01_shortsleeve_F,$STR_A3_A_CfgWeapons_U_B_E_Uniform_01_shortsleeve_F0)
-	UNIFORM_HOLDER(U_B_E_Uniform_01_tanktop_F,$STR_A3_A_CfgWeapons_U_B_E_Uniform_01_tanktop_F0)
-	UNIFORM_HOLDER(U_B_E_Uniform_01_coveralls_F,$STR_A3_A_CfgWeapons_U_B_E_Uniform_01_coveralls_F0)
+	UNIFORM_HOLDER(U_B_E_CombatUniform_wdl,$STR_A3_A_CfgWeapons_U_B_E_CombatUniform_wdl0)
+	UNIFORM_HOLDER(U_B_E_CombatUniform_tshirt_wdl,$STR_A3_A_CfgWeapons_U_B_E_CombatUniform_tshirt_wdl0)
+	UNIFORM_HOLDER(U_B_E_CombatUniform_vest_wdl,$STR_A3_A_CfgWeapons_U_B_E_CombatUniform_vest_wdl0)
+	UNIFORM_HOLDER(U_B_E_HeliPilotCoveralls,$STR_A3_A_CfgWeapons_U_B_E_HeliPilotCoveralls0)
 	UNIFORM_HOLDER(U_Tank_wdl_F,$STR_A3_A_CfgWeapons_U_Tank_wdl_F0)
-	UNIFORM_HOLDER(U_B_E_CBRN_Suit_01_Wdl_F,$STR_A3_A_CfgWeapons_U_B_E_CBRN_Suit_01_Wdl_F0)
+	UNIFORM_HOLDER(U_B_E_ACR_1,$STR_A3_A_CfgWeapons_U_B_E_ACR_10)
+	UNIFORM_HOLDER(U_B_E_ACR_2,$STR_A3_A_CfgWeapons_U_B_E_ACR_20)
+	UNIFORM_HOLDER(U_B_E_ACR_3,$STR_A3_A_CfgWeapons_U_B_E_ACR_30)
 	// CSAT (Caspian)
 	UNIFORM_HOLDER(U_O_CombatUniform_tkcamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tkcamo0)
 	UNIFORM_HOLDER(U_O_C_officer_noInsignia_tkcamo_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_tkcamo0)

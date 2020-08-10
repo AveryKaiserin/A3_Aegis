@@ -76,12 +76,4 @@ class CfgFactionClasses
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_RUS_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
 	};
-	class OPF_W_F
-	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
-		priority = 9;
-		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
-	};
 };

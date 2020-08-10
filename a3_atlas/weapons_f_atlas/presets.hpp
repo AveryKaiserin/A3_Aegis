@@ -29,6 +29,19 @@ class SMG_02_Holo_F: SMG_02_F
 		};
 	};
 };
+// LIM-85 5.56 mm + Flashlight
+class LMG_03_Flash_F: LMG_03_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
 // LIM-85 5.56 mm + ERCO (Black) + IR Laser Pointer
 class LMG_03_ERCO_Pointer_F: LMG_03_F
 {
@@ -198,6 +211,29 @@ class LMG_Zafir_black_MRCO_pointer_F: LMG_Zafir_black_F
 		};
 	};
 };
+// Zafir 7.62 mm (Black) + MRCO + IR Laser Pointer + Sound Suppressor (7.62 mm)
+class LMG_Zafir_black_MRCO_pointer_snds_F: LMG_Zafir_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+	};
+};
 // Navid 9.3 mm (Black) + LRCO + IR Laser Pointer
 class MMG_01_black_LRCO_LP_F: MMG_01_black_F
 {
@@ -252,6 +288,65 @@ class arifle_TRG20_black_ACO_pointer_F: arifle_TRG20_black_F
 		};
 	};
 };
+// TRG-20 5.56 mm (Black) + ACO + Flashlight
+class arifle_TRG20_black_ACO_flash_F: arifle_TRG20_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// TRG-20 5.56 mm (Black) + SRS + IR Laser Pointer
+class arifle_TRG20_black_SRS_pointer_F: arifle_TRG20_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = /*optic_srs*/ optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+// TRG-20 5.56 mm (Black) + SRS + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG20_black_SRS_pointer_snds_F: arifle_TRG20_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = /*optic_srs*/ optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
 // TRG-21 5.56 mm (Black) + ACO + IR Laser Pointer
 class arifle_TRG21_black_ACO_pointer_F: arifle_TRG21_black_F
 {
@@ -267,6 +362,29 @@ class arifle_TRG21_black_ACO_pointer_F: arifle_TRG21_black_F
 		{
 			slot = PointerSlot;
 			item = acc_pointer_IR;
+		};
+	};
+};
+// TRG-21 5.56 mm (Black) + ACO + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_black_ACO_pointer_snds_F: arifle_TRG21_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
 		};
 	};
 };
@@ -288,6 +406,29 @@ class arifle_TRG21_black_MRCO_pointer_F: arifle_TRG21_black_F
 		};
 	};
 };
+// TRG-21 5.56 mm (Black) + MRCO + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_black_MRCO_pointer_snds_F: arifle_TRG21_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
 // TRG-21 5.56 mm (Black) + MOS + IR Laser Pointer
 class arifle_TRG21_black_SOS_pointer_F: arifle_TRG21_black_F
 {
@@ -303,6 +444,70 @@ class arifle_TRG21_black_SOS_pointer_F: arifle_TRG21_black_F
 		{
 			slot = PointerSlot;
 			item = acc_pointer_IR;
+		};
+	};
+};
+// TRG-21 5.56 mm (Black) + MOS + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_black_SOS_pointer_snds_F: arifle_TRG21_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_SOS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+// TRG-21 5.56 mm (Black) + SRS + IR Laser Pointer
+class arifle_TRG21_black_SRS_pointer_F: arifle_TRG21_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = /*optic_srs*/ optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+// TRG-21 5.56 mm (Black) + SRS + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_black_SRS_pointer_snds_F: arifle_TRG21_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = /*optic_srs*/ optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
 		};
 	};
 };
@@ -342,8 +547,54 @@ class arifle_TRG21_GL_black_MRCO_pointer_F: arifle_TRG21_GL_black_F
 		};
 	};
 };
+// TRG-21 EGLM 5.56 mm (Black) + MRCO + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_GL_black_MRCO_pointer_snds_F: arifle_TRG21_GL_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+// TRG-21 EGLM 5.56 mm (Black) + SRS + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG21_GL_black_SRS_pointer_snds_F: arifle_TRG21_GL_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = /*optic_srs*/ optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
 // AK-12 5.45 mm + ACO AK (Green) + Flashlight
-class arifle_AK12_545_aco_fl_F: arifle_AK12_545_F
+class arifle_AK12_545_aco_FL_F: arifle_AK12_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -361,7 +612,7 @@ class arifle_AK12_545_aco_fl_F: arifle_AK12_545_F
 	};
 };
 // AK-12 5.45 mm + Flashlight
-class arifle_AK12_545_fl_F: arifle_AK12_545_F
+class arifle_AK12_545_FL_F: arifle_AK12_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -373,8 +624,26 @@ class arifle_AK12_545_fl_F: arifle_AK12_545_F
 		};
 	};
 };
+// AK-12 5.45 mm + ARCO (Black) + Flashlight
+class arifle_AK12_545_arco_FL_F: arifle_AK12_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
 // AK-12 GL 5.45 mm + ACO AK (Green) + Flashlight
-class arifle_AK12_GL_545_aco_fl_F: arifle_AK12_GL_545_F
+class arifle_AK12_GL_545_aco_FL_F: arifle_AK12_GL_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -392,7 +661,7 @@ class arifle_AK12_GL_545_aco_fl_F: arifle_AK12_GL_545_F
 	};
 };
 // AK-12 GL 5.45 mm + ARCO (Black) + Flashlight
-class arifle_AK12_GL_545_arco_fl_F: arifle_AK12_GL_545_F
+class arifle_AK12_GL_545_arco_FL_F: arifle_AK12_GL_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -410,7 +679,7 @@ class arifle_AK12_GL_545_arco_fl_F: arifle_AK12_GL_545_F
 	};
 };
 // AKU-12 5.45 mm + Flashlight
-class arifle_AK12U_545_fl_F: arifle_AK12U_545_F
+class arifle_AK12U_545_FL_F: arifle_AK12U_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems

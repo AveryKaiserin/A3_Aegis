@@ -12,18 +12,10 @@ class CfgVehicles
 			{
 				factions[] =
 				{
-					BLU_F,
-					OPF_F,
-					IND_F,
 					BLU_G_F,
 					OPF_G_F,
 					IND_G_F,
-					IND_C_F,
-					BLU_T_F,
-					BLU_W_F,
-					BLU_A_F,
-					OPF_T_F,
-					OPF_R_F
+					IND_C_F
 				};
 			};
 		};

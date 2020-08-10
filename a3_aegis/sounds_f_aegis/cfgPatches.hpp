@@ -26,7 +26,6 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_Shotguns_M4_SSAS,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_Mp153,
 			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04,
-			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_06,
 			A3_Air_F_Exp_VTOL_01,
 			A3_Air_F_EPC_Plane_CAS_01,
 			A3_Air_F_EPC_Plane_CAS_02,

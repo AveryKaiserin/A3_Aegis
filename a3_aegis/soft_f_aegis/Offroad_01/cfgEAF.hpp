@@ -7,11 +7,26 @@ class I_E_Offroad_01_armed_F: Offroad_01_armed_base_F
 	faction = IND_E_F;
 	crew = I_E_Soldier_F;
 	typicalCargo[] = {I_E_Soldier_F};
-	textureList[] = {EAF,1};
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,4);
+		mag_xx(HandGrenade,4);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_F,2);
+	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Soft_F_Enoch\Offroad_01\Data\Offroad_01_ext_EAF_CO.paa",
 		"\A3\Soft_F_Enoch\Offroad_01\Data\Offroad_01_ext_EAF_CO.paa"
+	};
+	textureList[] = {EAF,1};
+	animationList[] =
+	{
+		HideBumper1,1,
+		HideBumper2,0
 	};
 	class Turrets: Turrets
 	{

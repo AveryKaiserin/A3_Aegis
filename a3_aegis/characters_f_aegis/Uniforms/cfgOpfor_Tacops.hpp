@@ -1,8 +1,5 @@
 // Arma 3 Tacops
-class U_O_officer_noInsignia_hex_F: Uniform_Base
-{
-	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_O_officer_noInsignia_hex_F_CA.paa";
-};
+class U_O_officer_noInsignia_hex_F: Uniform_Base{};
 // Arma 3 Aegis
 class U_O_officer_noInsignia_urb_F: Uniform_Base
 {

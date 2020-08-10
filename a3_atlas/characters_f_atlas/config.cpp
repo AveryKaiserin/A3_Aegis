@@ -7,11 +7,14 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
-	#include "cfgHIDF.hpp"				// HIDF
+	#include "cfgHIL.hpp"				// HIL
 	#include "cfgCDF.hpp"				// CDF
 	#include "cfgIDF.hpp"				// IDF
 };

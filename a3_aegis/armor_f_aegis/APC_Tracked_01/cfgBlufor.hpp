@@ -13,10 +13,10 @@ class B_APC_Tracked_01_cannon_F: B_APC_Tracked_01_base_F
 	textPlural = $STR_A3_nameSound_veh_vehicle_APC_p;
 	nameSound = veh_vehicle_APC_s;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_APC_Tracked_01_cannon_F.jpg";
-	weaponsGroup1 = 2;
-	weaponsGroup2 = 1 + 4;
-	weaponsGroup3 = 8 + 16 + 32;
-	weaponsGroup4 = 64 + 128;
+	weaponsGroup1 = WEAPONGROUP_MGUNS;
+	weaponsGroup2 = WEAPONGROUP_CANNONS + WEAPONGROUP_ROCKETS;
+	weaponsGroup3 = WEAPONGROUP_AAMISSILES + WEAPONGROUP_ATMISSILES + WEAPONGROUP_MISSILES;
+	weaponsGroup4 = WEAPONGROUP_BOMBS + WEAPONGROUP_SPECIAL;
 	class MFD
 	{
 		class MFD_Driver_Heading

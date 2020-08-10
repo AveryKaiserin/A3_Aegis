@@ -187,12 +187,12 @@ class I_I_MBT_01_arty_F: B_MBT_01_arty_F
 	{
 		bag_xx(B_AssaultPack_khk,2);
 	};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_scorcher_IDF_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_scorcher_brown_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
 		"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 	};
     class Turrets: Turrets
@@ -215,15 +215,15 @@ class I_I_MBT_01_arty_F: B_MBT_01_arty_F
     };
 	class TextureSources
 	{
-		class IDF
+		class Brown
 		{
-			displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+			displayName = $STR_A3_TEXTURESOURCES_BROWN0;
 			author = $STR_A3_A_AveryTheKitty;
 			textures[] =
 			{
-				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_scorcher_IDF_CO.paa",
-				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_scorcher_brown_CO.paa",
+				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
 			factions[] = {IND_I_F};
@@ -393,11 +393,11 @@ class I_I_MBT_01_cannon_F: B_MBT_01_cannon_F
 	{
 		bag_xx(B_AssaultPack_khk,2);
 	};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_tow_IDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_tow_brown_CO.paa",
 		"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 	};
 	class Turrets: Turrets
@@ -420,14 +420,14 @@ class I_I_MBT_01_cannon_F: B_MBT_01_cannon_F
 	};
 	class TextureSources
 	{
-		class IDF
+		class Brown
 		{
-			displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+			displayName = $STR_A3_A_TEXTURESOURCES_BROWN0;
 			author = $STR_A3_A_AveryTheKitty;
 			textures[] =
 			{
-				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_tow_IDF_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_body_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\MBT_01\Data\MBT_01_tow_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
 			factions[] = {IND_I_F};

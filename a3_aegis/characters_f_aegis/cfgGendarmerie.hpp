@@ -135,14 +135,14 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
@@ -183,14 +183,14 @@ class B_GEN_Soldier_Rifle_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
@@ -235,14 +235,14 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
@@ -292,14 +292,14 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };

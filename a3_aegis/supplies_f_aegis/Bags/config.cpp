@@ -7,12 +7,10 @@ class CfgVehicles
 	class B_AssaultPack_Base;
 	class B_AssaultPack_dgtl;
 	class B_AssaultPack_rgr;
-	class B_AssaultPack_sgg;
 	class B_AssaultPack_blk: B_AssaultPack_Base
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_blk_CO.paa"};
 	};
-	class B_AssaultPack_cbr;
 	class B_AssaultPack_mcamo: B_AssaultPack_Base
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_mcamo_CO.paa"};
@@ -24,12 +22,6 @@ class CfgVehicles
 	class B_Kitbag_Base;
 	class B_Kitbag_rgr;
 	class B_Kitbag_mcamo;
-	class B_Kitbag_sgg;
-	class B_Kitbag_cbr;
-	class B_Kitbag_tan: B_Kitbag_Base
-	{
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Kitbag_tan_CA.paa";
-	};
 	class B_TacticalPack_Base;
 	class B_TacticalPack_rgr: B_TacticalPack_Base
 	{
@@ -40,12 +32,24 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 	};
+	class B_TacticalPack_ocamo: B_TacticalPack_Base
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_hex_CO.paa"};
+	};
 	class B_FieldPack_Base;
+	class B_FieldPack_ocamo: B_FieldPack_Base
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_gorod_hex_CO.paa"};
+	};
 	class B_FieldPack_blk: B_FieldPack_Base
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_gorod_blk_CO.paa"};
 	};
 	class B_Carryall_Base;
+	class B_Carryall_ocamo: B_Carryall_Base
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_tortila_hex_CO.paa"};
+	};
 	class B_Carryall_mcamo: B_Carryall_Base
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_tortila_mcamo_CO.paa"};
@@ -64,14 +68,8 @@ class CfgVehicles
 		maximumLoad = 180;
 		mass = 25;
 	};
-	// Arma 3 Marksman
 	// Arma 3 Apex
 	class B_Bergen_Base_F;
-	class B_Bergen_hex_F: B_Bergen_Base_F
-	{
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_hex_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_hex_CO.paa"};
-	};
 	class B_Bergen_tna_F: B_Bergen_Base_F
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_tna_CO.paa"};
@@ -89,15 +87,19 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp.rvmat"};
 	};
 	class B_ViperHarness_ghex_F;
-	class B_ViperHarness_hex_F;
+	class B_ViperHarness_hex_F: B_ViperHarness_base_F
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
+	};
 	class B_ViperLightHarness_base_F: Bag_Base
 	{
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp.rvmat"};
 	};
 	class B_ViperLightHarness_ghex_F;
-	class B_ViperLightHarness_hex_F;
-	// Arma 3 Laws of War
-	class B_Messenger_Black_F;
+	class B_ViperLightHarness_hex_F: B_ViperLightHarness_base_F
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
+	};
 	// Arma 3 Enoch
 	class B_RadioBag_01_base_F;
 	class B_RadioBag_01_hex_F: B_RadioBag_01_base_F
@@ -113,72 +115,6 @@ class CfgVehicles
 	class B_AssaultPack_wdl_F;
 	class B_AssaultPack_eaf_F;
 	// Arma 3 Aegis
-	class B_AssaultPackSpec_Base: Bag_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		mapSize = 0.45;
-		model = "\A3\Characters_F_EPA\BLUFOR\backpack_kerry.p3d";
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_rgr_CO.paa",
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_rgr_CO.paa"
-		};
-		maximumLoad = 180;
-		mass = 25;
-	};
-	class B_AssaultPackSpec_rgr: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_rgr_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_rgr0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_rgr_CO.paa",
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_rgr_CO.paa"
-		};
-	};
-	class B_AssaultPackSpec_blk: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_blk_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_blk0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_blk_CO.paa",
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_blk_CO.paa"
-		};
-	};
-	class B_AssaultPackSpec_cbr: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_cbr_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_cbr0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_cbr_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_cbr_CO.paa"
-		};
-	};
-	class B_AssaultPackSpec_mcamo: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_mcamo_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_mcamo0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_mcamo_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_mtp_CO.paa"
-		};
-	};
 	class B_AssaultPack_tan: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -292,18 +228,6 @@ class CfgVehicles
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Bergen_ghex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Bergen_ghex_CO.paa"};
 	};
-	class B_AssaultPack_Enh_tna_F: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_Enh_tna_F_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_Enh_tna_F0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_AssaultPack_tna_F_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_PlateCarrier1_tna_F_CO.paa"
-		};
-	};
 	class B_AssaultPack_ghex_F: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -335,14 +259,6 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_tna_F0;
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_tna_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_TacticalPack_tna_F_CO.paa"};
-	};
-	class B_TacticalPack_ghex_F: B_TacticalPack_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_ghex_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_ghex_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_TacticalPack_ghex_F_CO.paa"};
 	};
 	class B_RadioBag_01_coyote_F: B_RadioBag_01_base_F
 	{
@@ -404,6 +320,21 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+	class B_RadioBag_01_arid_F: B_RadioBag_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_arid_F0;
+		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_arid_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_RUkhk_CO.paa"};
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
 	class B_Bergen_taiga_F: B_Bergen_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -436,18 +367,6 @@ class CfgVehicles
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_taiga_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_RUtaiga_CO.paa"};
 	};
-	class B_AssaultPackSpec_wdl_F: B_AssaultPackSpec_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_wdl_F_CA.paa";
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_wdl_F0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Supplies_F_Enoch\Bags\Data\backpack_compact_wdl_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"
-		};
-	};
 	class B_Kitbag_wdl_F: B_Kitbag_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -472,6 +391,96 @@ class CfgVehicles
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_eaf_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};
 	};
+	class B_AssaultPackSpec_Base: Bag_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mapSize = 0.45;
+		model = "\A3\Characters_F_EPA\BLUFOR\backpack_kerry.p3d";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_rgr_CO.paa",
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_rgr_CO.paa"
+		};
+		maximumLoad = 180;
+		mass = 25;
+	};
+	class B_AssaultPackSpec_rgr: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_rgr_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_rgr0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_rgr_CO.paa",
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_rgr_CO.paa"
+		};
+	};
+	class B_AssaultPackSpec_blk: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_blk_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_blk0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_blk_CO.paa",
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\vests_blk_CO.paa"
+		};
+	};
+	class B_AssaultPackSpec_cbr: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_cbr_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_cbr0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_cbr_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_cbr_CO.paa"
+		};
+	};
+	class B_AssaultPackSpec_mcamo: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_mcamo_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_mcamo0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_mcamo_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_mtp_CO.paa"
+		};
+	};
+	class B_AssaultPack_Enh_tna_F: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_Enh_tna_F_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_Enh_tna_F0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_AssaultPack_tna_F_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_PlateCarrier1_tna_F_CO.paa"
+		};
+	};
+	class B_AssaultPackSpec_wdl_F: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPackSpec_wdl_F_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_wdl_F0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3\Supplies_F_Enoch\Bags\Data\backpack_compact_wdl_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"
+		};
+	};
 	#include "cfgBlufor.hpp"
 	#include "cfgIndep.hpp"
 	#include "cfgBlufor_Exp.hpp"
@@ -482,7 +491,6 @@ class CfgVehicles
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgEAF.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 	#include "cfgIon.hpp"
 	// Patreon items
 	#include "patreon.hpp"

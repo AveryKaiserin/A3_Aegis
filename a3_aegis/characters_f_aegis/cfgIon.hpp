@@ -168,9 +168,7 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 		mag_2(16Rnd_9x21_Mag),
 		HandGrenade,
 		SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
 	};
 	respawnMagazines[] =
 	{
@@ -178,9 +176,7 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 		mag_2(16Rnd_9x21_Mag),
 		HandGrenade,
 		SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
 	};
 	linkedItems[] =
 	{
@@ -280,13 +276,13 @@ class B_ION_Soldier_GL_F: B_ION_Soldier_base_F
 	uniformClass = U_BG_Guerilla2_3;
 	weapons[] =
 	{
-		arifle_MX_GL_Black_ACO_FL_F,
+		arifle_MX_GL_Black_ACO_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_GL_Black_ACO_FL_F,
+		arifle_MX_GL_Black_ACO_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
@@ -528,7 +524,7 @@ class B_ION_Soldier_LAT_F: B_ION_Soldier_base_F
 	threat[] = {0.8,0.8,0.3};
 	secondaryAmmoCoef = 0.5;
 	uniformClass = U_B_ION_Uniform_01_poloshirt_blue_F;
-	backpack = B_AssaultPack_rgr_IONRPG_AT_F;
+	backpack = B_AssaultPack_rgr_IONLAT_F;
 	weapons[] =
 	{
 		arifle_MXC_Black_ACO_FL_F,

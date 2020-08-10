@@ -20,7 +20,6 @@
 
 class CfgVehicles
 {
-	// editor weapons
 	class Weapon_Base_F;
 	WEAPON_HOLDER(arifle_RFB_F,$STR_A3_A_CfgWeapons_arifle_RFB_F0,EdSubcat_AssaultRifles,20Rnd_762x51_Mag)
 };

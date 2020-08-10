@@ -11,7 +11,12 @@ class CfgFaces
 		{
 			displayname = $STR_A3_NATOMen_lastnames17;
 		};
-		class GreekHead_A3_01: Default{};
+		class GreekHead_A3_01: Default
+		{
+			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01_injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01_injury.rvmat";
+		};
 		class Nikos: GreekHead_A3_01
 		{
 			disabled = false;

@@ -85,10 +85,10 @@ class I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
 	faction = IND_I_F;
 	crew = I_UAV_AI;
 	typicalCargo[] = {I_UAV_AI};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_1_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_2_IDF_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_1_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\UAV_03\Data\UAV_03_2_desert_CO.paa"
 	};
 };

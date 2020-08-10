@@ -280,8 +280,6 @@ class CfgVehicles
     COMPATIBILITYCLASS(B_A_Medic_dpm_F,B_A_Medic_F)
     class B_A_Recon_LAT_F;
     COMPATIBILITYCLASS(B_A_Recon_LAT2_F,B_A_Recon_LAT_F)
-    class B_A_Recon_M_F;
-    COMPATIBILITYCLASS(B_A_Recon_Sharpshooter_F,B_A_Recon_M_F)
     class B_A_soldier_M_F;
     COMPATIBILITYCLASS(B_A_Sharpshooter_ddpm_F,B_A_soldier_M_F)
     COMPATIBILITYCLASS(B_A_Sharpshooter_dpm_F,B_A_soldier_M_F)
@@ -362,6 +360,7 @@ class CfgVehicles
     class B_A_Recon_Medic_F;
     COMPATIBILITYCLASS(B_A_Specop_Medic_F,B_A_Recon_Medic_F)
     COMPATIBILITYCLASS(B_A_Specop_MG_F,B_A_Recon_AR_F)
+    class B_A_Recon_M_F;
     COMPATIBILITYCLASS(B_A_Specop_M_F,B_A_Recon_M_F)
     COMPATIBILITYCLASS(B_A_Specop_Sharpshooter_F,B_A_Recon_M_F)
     class B_A_Recon_TL_F;
@@ -1000,90 +999,4 @@ class CfgVehicles
     COMPATIBILITYCLASS(O_RU_Truck_02_transport_F,O_R_Truck_02_transport_F)
     class O_R_CargoNet_01_ammo_F;
     COMPATIBILITYCLASS(I_RU_CargoNet_01_ammo_F,O_R_CargoNet_01_ammo_F)
-    class Weapon_arifle_Mk20_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20_olive_F,Weapon_arifle_Mk20_F)
-    class Weapon_arifle_Mk20_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20_GL_olive_F,Weapon_arifle_Mk20_GL_F)
-    class Weapon_arifle_Mk20C_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20C_olive_F,Weapon_arifle_Mk20C_F)
-    class Weapon_hgun_G17_black_F;
-    COMPATIBILITYCLASS(Weapon_hgun_G17_blk_F,Weapon_hgun_G17_black_F)
-    class Weapon_hgun_G17_khaki_F;
-    COMPATIBILITYCLASS(Weapon_hgun_G17_khk_F,Weapon_hgun_G17_khaki_F)
-    class Weapon_sgun_KSG_F;
-    COMPATIBILITYCLASS(Weapon_sgun_KSG_black_F,Weapon_sgun_KSG_F)
-    class Weapon_arifle_SDAR_F;
-    COMPATIBILITYCLASS(Weapon_arifle_RFB_F,Weapon_arifle_SDAR_F)
-    class Weapon_arifle_SA80_blk_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_C_F,Weapon_arifle_SA80_blk_F)
-    class Weapon_arifle_SA80_snd_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_C_sand_F,Weapon_arifle_SA80_snd_F)
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_F,Weapon_arifle_SA80_blk_F)
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_sand_F,Weapon_arifle_SA80_snd_F)
-    class Weapon_arifle_SA80_GL_blk_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_GL_F,Weapon_arifle_SA80_GL_blk_F)
-    class Weapon_arifle_SA80_GL_snd_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_GL_sand_F,Weapon_arifle_SA80_GL_snd_F)
-    class Weapon_hgun_P07_F;
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_camo_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_khk_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_snd_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_tna_F,Weapon_hgun_P07_F)
-    class Weapon_srifle_EBR_F;
-    COMPATIBILITYCLASS(Weapon_arifle_FAL_F,Weapon_srifle_EBR_F)
-    class Weapon_launch_O_Titan_F;
-    COMPATIBILITYCLASS(Weapon_launch_O_Volga_brown_F,Weapon_launch_O_Titan_F)
-    class Weapon_launch_O_Titan_ghex_F;
-    COMPATIBILITYCLASS(Weapon_launch_O_Volga_green_F,Weapon_launch_O_Titan_ghex_F)
-    class Weapon_arifle_MXC_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_short_F,Weapon_arifle_MXC_F)
-    class Weapon_arifle_MX_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_F,Weapon_arifle_MX_F)
-    class Weapon_arifle_MX_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_GL_F,Weapon_arifle_MX_GL_F)
-    class Weapon_arifle_MXM_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_long_F,Weapon_arifle_MXM_F)
-    class Weapon_arifle_MX_SW_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_SAW_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_blk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_blk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_khk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_khk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_blk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_khk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_blk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_khk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_blk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_blk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_khk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_khk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_blk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_khk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_blk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_khk_F,Weapon_arifle_MXC_F)
-    class Weapon_MMG_01_black_F;
-    COMPATIBILITYCLASS(Weapon_MMG_03_F,Weapon_MMG_01_black_F)
-    class Item_O_R_UavTerminal;
-    COMPATIBILITYCLASS(Item_R_UavTerminal,Item_O_R_UavTerminal)
-    class Weapon_srifle_DMR_04_F;
-    COMPATIBILITYCLASS(Weapon_srifle_DMR_04_green_F,Weapon_srifle_DMR_04_F)
-    class Weapon_srifle_DMR_05_blk_F;
-    COMPATIBILITYCLASS(Weapon_srifle_DMR_05_green_F,Weapon_srifle_DMR_05_blk_F)
-    class Weapon_SMG_04_blk_F;
-    COMPATIBILITYCLASS(Weapon_SMG_04_F,Weapon_SMG_04_blk_F)
-    class Weapon_arifle_AK12U_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK105_F,Weapon_arifle_AK12U_F)
-    class Weapon_arifle_AK12_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK107_F,Weapon_arifle_AK12_F)
-    class Weapon_arifle_AK12_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK107_GL_F,Weapon_arifle_AK12_GL_F)
 };

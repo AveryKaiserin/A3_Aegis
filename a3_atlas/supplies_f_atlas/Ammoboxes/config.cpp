@@ -2,14 +2,19 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	/*
+	// Arma 3
 	class ReammoBox_F;
 	class B_supplyCrate_F;
+	class O_supplyCrate_F;
+	class I_supplyCrate_F;
+	// Arma 3 Atlas
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	//#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	//#include "cfgADF.hpp"				// ADF
-	#include "cfgHIDF.hpp"				// HIDF
+	#include "cfgHIL.hpp"				// HIDF
 	//#include "cfgCDF.hpp"				// CDF
-	class I_supplyCrate_F;
-	//#include "cfgIDF.hpp"				// IDF
+	#include "cfgIDF.hpp"				// IDF
+	*/
 };

@@ -76,5 +76,4 @@ class CfgVehicles
 	#include "cfgOpfor_Exp.hpp"
 	#include "cfgOpfor_Tacops.hpp"
 	#include "cfgSpetsnaz.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

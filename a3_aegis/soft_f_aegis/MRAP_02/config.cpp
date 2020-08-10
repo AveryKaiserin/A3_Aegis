@@ -101,5 +101,4 @@ class CfgVehicles
 	// Arma 3 Aegis
 	#include "cfgOpfor_Tacops.hpp"
 	#include "cfgSpetsnaz.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

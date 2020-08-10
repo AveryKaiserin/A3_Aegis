@@ -21,16 +21,16 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_jungle_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_jungle_CO.paa"
                 };
-				factions[] = {BLU_HIDF_F};
+				factions[] = {BLU_H_F};
 			};
-			class IDF
+			class Brown
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				displayName = $STR_A3_TEXTURESOURCES_BROWN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
                 {
-					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_IDF_CO.paa",
-					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_IDF_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_brown_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_brown_CO.paa"
                 };
 				factions[] = {IND_I_F};
 			};
@@ -38,7 +38,7 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgLegion.hpp"
-	#include "cfgHIDF.hpp"
+	#include "cfgHIL.hpp"
 	#include "cfgBlufor_Atlas.hpp"
 	#include "cfgIDF.hpp"
 };

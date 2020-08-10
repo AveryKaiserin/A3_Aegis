@@ -23,8 +23,6 @@ class Box_RU_Equip_F: Box_CSAT_Equip_F
     {
         item_xx(V_Rangemaster_belt,2);
         item_xx(V_BandollierB_rgr,2);
-        item_xx(V_Chestrig_rgr,1);
-        item_xx(V_ChestrigF_rgr,1);
         item_xx(V_TacVest_oli,2);
         item_xx(V_SmershVest_01_F,2);
         item_xx(V_SmershVest_01_radio_F,2);

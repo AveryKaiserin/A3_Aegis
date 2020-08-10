@@ -9,11 +9,11 @@ class CfgVehicles
 		class Turrets;
 		class TextureSources
 		{
-			class IDF
+			class Desert
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_IDF_CO.paa"};
+				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_desert_CO.paa"};
 				factions[] = {IND_I_F};
 			};
 		};

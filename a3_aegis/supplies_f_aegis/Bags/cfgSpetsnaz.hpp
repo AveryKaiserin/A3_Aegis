@@ -88,14 +88,12 @@ class B_FieldPack_green_ReconMedic_F: B_FieldPack_green_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,1);
-		mag_xx(SmokeShellBlue,1);
-		mag_xx(SmokeShellOrange,1);
+		TRANSPORT_SMOKE_SHELLS_MEDIC
 	};
 	class TransportItems
 	{
 		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(FirstAidKit,5);
 	};
 };
 class B_FieldPack_taiga_AA_F: B_FieldPack_taiga_F
@@ -131,14 +129,12 @@ class B_FieldPack_taiga_ReconMedic_F: B_FieldPack_taiga_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,1);
-		mag_xx(SmokeShellBlue,1);
-		mag_xx(SmokeShellOrange,1);
+		TRANSPORT_SMOKE_SHELLS_MEDIC
 	};
 	class TransportItems
 	{
 		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(FirstAidKit,5);
 	};
 };
 class B_Carryall_green_Ammo_F: B_Carryall_green_F
@@ -153,7 +149,7 @@ class B_Carryall_green_Ammo_F: B_Carryall_green_F
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(10Rnd_762x54_Mag,2);
+		mag_xx(10Rnd_93x64_DMR_05_Mag,2);
 	};
 	class TransportItems
 	{

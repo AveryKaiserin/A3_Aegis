@@ -90,13 +90,6 @@ class O_R_AT_01_weapon_F: Weapon_Bag_Base
 	{
 		displayName = $STR_A3_A_CfgVehicles_O_R_AT_01_weapon_F_assembleInfo0;
 		assembleTo = O_R_Static_AT_F;
-		base[] =
-		{
-            B_HMG_01_support_F,
-            O_HMG_01_support_F,
-            I_HMG_01_support_F,
-            B_HMG_01_support_grn_F,
-            O_R_HMG_01_support_F
-		};
+		base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 	};
 };

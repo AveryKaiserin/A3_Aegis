@@ -20,7 +20,7 @@ class U_I_CDF_Uniform_01_tanktop_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_I_CDF_Uniform_01_tanktop_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_tanktop_F_CA.paa";
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_tanktop_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_CDF_Soldier_01_TankTop_CO.paa"};
@@ -37,7 +37,7 @@ class U_I_CDF_Uniform_01_shortsleeve_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_I_CDF_Uniform_01_shortsleeve_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_shortsleeve_F_CA.paa";
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_shortsleeve_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_CDF_Soldier_01_CO.paa"};
@@ -54,7 +54,7 @@ class U_I_CDF_Uniform_01_officer_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_I_CDF_Uniform_01_officer_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_officer_F_CA.paa";
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_Uniform_01_officer_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_CDF_Officer_CO.paa"};
@@ -88,7 +88,7 @@ class U_I_CDF_FullGhillie_wdl_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_I_CDF_FullGhillie_wdl_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_FullGhillie_wdl_F_CA.paa";
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_FullGhillie_wdl_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_INDEP_CO.paa"};
@@ -105,7 +105,7 @@ class U_I_CDF_CBRN_Suit_01_Autumn_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_I_CDF_CBRN_Suit_01_Autumn_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_CBRN_Suit_01_Autumn_F_CA.paa";
+	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_I_CDF_CBRN_Suit_01_Autumn_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Autumn_CO.paa"};

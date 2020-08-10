@@ -144,7 +144,8 @@ class B_A_VTOL_01_infantry_F: VTOL_01_infantry_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 class B_A_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
@@ -292,7 +293,8 @@ class B_A_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 // NATO (Pacific, British)
@@ -441,7 +443,8 @@ class B_A_VTOL_01_infantry_tna_F: VTOL_01_infantry_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 class B_A_VTOL_01_vehicle_tna_F: VTOL_01_vehicle_base_F
@@ -589,7 +592,8 @@ class B_A_VTOL_01_vehicle_tna_F: VTOL_01_vehicle_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 // NATO (Woodland, British)
@@ -738,7 +742,8 @@ class B_A_VTOL_01_infantry_wdl_F: VTOL_01_infantry_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 class B_A_VTOL_01_vehicle_wdl_F: VTOL_01_vehicle_base_F
@@ -886,6 +891,7 @@ class B_A_VTOL_01_vehicle_wdl_F: VTOL_01_vehicle_base_F
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };

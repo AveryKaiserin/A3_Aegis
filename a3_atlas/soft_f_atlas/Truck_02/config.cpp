@@ -12,5 +12,5 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class Truck_02_cargo_base_F;
 	// Arma 3 Atlas
-	#include "cfgHIDF.hpp"
+	#include "cfgHIL.hpp"
 };

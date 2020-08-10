@@ -1,4 +1,4 @@
-class B_Kitbag_sgg_Ammo_F: B_Carryall_green_F
+class B_Carryall_green_BLAmmo_F: B_Carryall_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -11,8 +11,12 @@ class B_Kitbag_sgg_Ammo_F: B_Carryall_green_F
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
+	};
 };
-class B_Kitbag_sgg_AA_F: B_Kitbag_sgg
+class B_Kitbag_sgg_BLAA_F: B_Kitbag_sgg
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -21,7 +25,7 @@ class B_Kitbag_sgg_AA_F: B_Kitbag_sgg
 		mag_xx(Titan_AA,2);
 	};
 };
-class B_Kitbag_sgg_AT_F: B_Kitbag_sgg
+class B_Kitbag_sgg_BLAT_F: B_Kitbag_sgg
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -30,7 +34,17 @@ class B_Kitbag_sgg_AT_F: B_Kitbag_sgg
 		mag_xx(Titan_AT,2);
 	};
 };
-class B_AssaultPack_sgg_LAT_F: B_AssaultPack_sgg
+class B_AssaultPack_sgg_BLMedic_F: B_AssaultPack_sgg
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_AssaultPack_sgg_BLLAT_F: B_AssaultPack_sgg
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -39,7 +53,7 @@ class B_AssaultPack_sgg_LAT_F: B_AssaultPack_sgg
 		mag_xx(NLAW_F,2);
 	};
 };
-class B_Kitbag_sgg_Eng_F: B_Kitbag_sgg
+class B_Kitbag_sgg_BLEng_F: B_Kitbag_sgg
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -52,15 +66,5 @@ class B_Kitbag_sgg_Eng_F: B_Kitbag_sgg
 	{
 		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
-	};
-};
-class B_AssaultPack_sgg_Medic_F: B_AssaultPack_sgg
-{
-	author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	class TransportItems
-	{
-		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
 	};
 };

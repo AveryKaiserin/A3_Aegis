@@ -68,14 +68,12 @@ class B_TacticalPack_mcamo_BAReconMedic_F: B_TacticalPack_mcamo
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,1);
-		mag_xx(SmokeShellBlue,1);
-		mag_xx(SmokeShellOrange,1);
+		TRANSPORT_SMOKE_SHELLS_MEDIC
 	};
 	class TransportItems
 	{
 		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(FirstAidKit,5);
 	};
 };
 class B_TacticalPack_mcamo_BAReconLAT_F: B_TacticalPack_mcamo
@@ -157,14 +155,12 @@ class B_TacticalPack_tna_BAReconMedic_F: B_TacticalPack_tna_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,1);
-		mag_xx(SmokeShellBlue,1);
-		mag_xx(SmokeShellOrange,1);
+		TRANSPORT_SMOKE_SHELLS_MEDIC
 	};
 	class TransportItems
 	{
 		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(FirstAidKit,5);
 	};
 };
 class B_TacticalPack_tna_BAReconLAT_F: B_TacticalPack_tna_F
@@ -246,14 +242,12 @@ class B_TacticalPack_rgr_BAReconMedic_F: B_TacticalPack_rgr
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(SmokeShellRed,1);
-		mag_xx(SmokeShellBlue,1);
-		mag_xx(SmokeShellOrange,1);
+		TRANSPORT_SMOKE_SHELLS_MEDIC
 	};
 	class TransportItems
 	{
 		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(FirstAidKit,5);
 	};
 };
 class B_TacticalPack_rgr_BAReconLAT_F: B_TacticalPack_rgr

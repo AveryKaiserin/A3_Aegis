@@ -86,23 +86,6 @@ class CfgRecoils
 		};
 		temporary = 0.06;
 	};
-	// Kaban 12.7 mm
-	class recoil_pistol_mp412: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.3,
-			1.5,
-			0.4,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.06,
-			0.08
-		};
-		temporary = 0.08;
-	};
 	// AK-12 5.45 mm
 	class recoil_ak12_545: recoil_default
 	{
@@ -306,22 +289,5 @@ class CfgRecoils
 			0.03
 		};
 		temporary = 0.01;
-	};
-	// Bizon 9 mm
-	class recoil_smg_06: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.2,
-			0.5,
-			0.3,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.02,
-			0.04
-		};
-		temporary = 0.015;
 	};
 };

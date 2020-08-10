@@ -263,32 +263,6 @@ class CfgSoundSets
 	{
 		soundShaders[] = {Mk26_tailInterior_SoundShader};
 	};
-	// Kaban 12.7 mm
-	class MP412_Shot_SoundSet: Pistol_Shot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			MP412_Closure_SoundShader,
-			MP412_closeShot_SoundShader,
-			MP412_midShot_SoundShader,
-			MP412_distShot_SoundShader
-		};
-	};
-	class MP412_Tail_SoundSet: Pistol_Tail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			MP412_tailDistant_SoundShader,
-			MP412_tailForest_SoundShader,
-			MP412_tailHouses_SoundShader,
-			MP412_tailMeadows_SoundShader,
-			MP412_tailTrees_SoundShader
-		};
-	};
-	class MP412_InteriorTail_SoundSet: Pistol_InteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {MP412_tailInterior_SoundShader};
-	};
 	// RFL 7.62 mm
 	class RFL_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
@@ -559,54 +533,6 @@ class CfgSoundSets
 	class SMG04_silencerInteriorTail_SoundSet: Rifle_silencerInteriorTail_Base_SoundSet
 	{
 		soundShaders[] = {SMG04_silencerTailInterior_SoundShader};
-	};
-	// Bizon 9 mm
-	class SMG06_Shot_SoundSet: Rifle_Shot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SMG06_closure_SoundShader,
-			SMG06_closeShot_SoundShader,
-			SMG06_midShot_SoundShader,
-			SMG06_distShot_SoundShader
-		};
-	};
-	class SMG06_Tail_SoundSet: Rifle_Tail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SMG06_tailDistant_SoundShader,
-			SMG06_tailForest_SoundShader,
-			SMG06_tailHouses_SoundShader,
-			SMG06_tailMeadows_SoundShader,
-			SMG06_tailTrees_SoundShader
-		};
-	};
-	class SMG06_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {SMG06_tailInterior_SoundShader};
-	};
-	class SMG06_silencerShot_SoundSet: Rifle_silencerShot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SMG06_closure_SoundShader,
-			SMG06_silencerShot_SoundShader
-		};
-	};
-	class SMG06_silencerTail_SoundSet: Rifle_silencerTail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			SMG06_silencerTailTrees_SoundShader,
-			SMG06_silencerTailForest_SoundShader,
-			SMG06_silencerTailMeadows_SoundShader,
-			SMG06_silencerTailHouses_SoundShader
-		};
-	};
-	class SMG06_silencerInteriorTail_SoundSet: Rifle_silencerInteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {SMG06_silencerTailInterior_SoundShader};
 	};
 	class Plane_Fighter_RainExt_SoundSet
 	{

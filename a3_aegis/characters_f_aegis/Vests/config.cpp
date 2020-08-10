@@ -97,49 +97,13 @@ class CfgWeapons
 	{
 		scope = protected;
 	};
-	class V_HarnessO_brn: Vest_Camo_Base
+	class V_HarnessO_brn: Vest_NoCamo_Base
 	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessO_brn_CA.paa";
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelections[] =
-			{
-				camo1,
-				camo2
-			};
-		};
+		class ItemInfo;
 	};
-	class V_HarnessOGL_brn: V_HarnessO_brn
+	class V_HarnessOGL_brn: Vest_NoCamo_Base
 	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelections[] =
-			{
-				camo1,
-				camo2
-			};
-		};
+		class ItemInfo;
 	};
 	class V_HarnessO_gry: V_HarnessO_brn
 	{
@@ -159,7 +123,7 @@ class CfgWeapons
 		descriptionShort = $STR_A3_SP_AL_II;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_CO.paa",
+			"\A3\Characters_F\OPFOR\Data\clothing_CO.paa",
 			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"
 		};
 		class ItemInfo: ItemInfo
@@ -312,9 +276,61 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_BandollierB_ghex_F_CO.paa"};
 	};
 	// Arma 3 Enoch
-	class V_CarrierRigKBT_01_base_F;
+	class V_CarrierRigKBT_01_base_F: Vest_Camo_Base
+	{
+		class ItemInfo;
+	};
 	class V_CarrierRigKBT_01_light_base_F;
-	class V_CarrierRigKBT_01_heavy_base_F;
+	class V_CarrierRigKBT_01_heavy_base_F: V_CarrierRigKBT_01_base_F
+	{
+		class ItemInfo: ItemInfo
+		{
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = HitNeck;
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = HitArms;
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = HitChest;
+					armor = 78;
+					passThrough = 0.6;
+				};
+				class Diaphragm
+				{
+					hitpointName = HitDiaphragm;
+					armor = 78;
+					passThrough = 0.6;
+				};
+				class Abdomen
+				{
+					hitpointName = HitAbdomen;
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Pelvis
+				{
+					hitpointName = HitPelvis;
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = HitBody;
+					passThrough = 0.6;
+				};
+			};
+		};
+	};
 	class V_SmershVest_01_base_F;
 	class V_SmershVest_01_radio_base_F;
 	class V_SmershVest_01_F: V_SmershVest_01_base_F
@@ -512,41 +528,6 @@ class CfgWeapons
 			};
 		};
 	};
-	class V_HarnessO_khk: V_HarnessO_gry
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3\Characters_F\Data\UI\icon_V_HarnessO_brn_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_khk0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Characters_F\OPFOR\Data\clothing_CO.paa",
-			"\A3\Characters_F\OPFOR\Data\tech_CO.paa"
-		};
-	};
-	class V_HarnessOGL_khk: V_HarnessOGL_brn
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_khk0;
-		picture = "\A3\Characters_F\Data\UI\icon_V_HarnessOGL_brn_CA.paa";
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Characters_F\OPFOR\Data\clothing_CO.paa",
-			"\A3\Characters_F\OPFOR\Data\tech_CO.paa"
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelections[] =
-			{
-				camo1,
-				camo2
-			};
-		};
-	};
 	class V_HarnessOSpec_blk: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -556,17 +537,6 @@ class CfgWeapons
 		{
 			"\A3\Characters_F\OPFOR\Data\clothing_rus_CO.paa",
 			"\A3\Characters_F\OPFOR\Data\tech_rus_CO.paa"
-		};
-	};
-	class V_HarnessOSpec_khk: V_HarnessOSpec_brn
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOSpec_khk_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_khk0;
-		hiddenSelectionsTextures[] =
-		{
-			"\A3\Characters_F\OPFOR\Data\clothing_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_alt_CO.paa"
 		};
 	};
 	class V_PlateCarrierIA1_oli: V_PlateCarrierIA1_dgtl
@@ -625,24 +595,6 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_V_BandollierB_tna_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_BandollierB_tna_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_PlateCarrier1_tna_F_CO.paa"};
-	};
-	class V_Chestrig_ghex_F: V_Chestrig_khk
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_Chestrig_ghex_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Chestrig_ghex_F_CA.paa";
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_Chestrig_ghex_F_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_BandollierB_ghex_F_CO.paa"
-		};
-	};
-	class V_ChestrigF_ghex_F: V_ChestrigF_khk
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_ChestrigF_ghex_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_ChestrigF_ghex_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_Chestrig_ghex_F_CO.paa"};
 	};
 	class V_PlateCarrierL_CTRG_grn_F: V_PlateCarrier1_rgr
 	{
@@ -778,12 +730,12 @@ class CfgWeapons
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_miscellaneous_oli_CO.paa"
 		};
 	};
-	class V_BandollierB_taiga: V_BandollierB_khk
+	class V_BandollierB_taiga_F: V_BandollierB_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_BandollierB_taiga0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_BandollierB_taiga_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\equip_bandolier_taiga_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_BandollierB_taiga_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_taiga_CO.paa"};
 	};
 	class V_TacVest_grn: V_TacVest_khk
 	{

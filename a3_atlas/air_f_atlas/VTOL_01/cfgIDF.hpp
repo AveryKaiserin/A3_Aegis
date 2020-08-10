@@ -137,13 +137,14 @@ class I_I_VTOL_01_infantry_F: VTOL_01_infantry_base_F
 	faction = IND_I_F;
 	crew = I_I_Pilot_F;
 	typicalCargo[] = {I_I_Soldier_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_IDF_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_signs_desert_CA.paa"
 	};
 };
 class I_I_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
@@ -285,12 +286,13 @@ class I_I_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
 	faction = IND_I_F;
 	crew = I_I_Pilot_F;
 	typicalCargo[] = {I_I_Soldier_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_IDF_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_signs_desert_CA.paa"
 	};
 };

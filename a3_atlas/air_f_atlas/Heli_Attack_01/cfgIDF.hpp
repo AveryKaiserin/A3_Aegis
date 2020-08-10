@@ -133,8 +133,8 @@ class I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
 	faction = IND_I_F;
 	crew = I_I_helipilot_F;
 	typicalCargo[] = {I_I_helipilot_F};
-	textureList[] = {IDF,1};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_IDF_CO.paa"};
+	textureList[] = {Desert,1};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_desert_CO.paa"};
 	accuracy = 2.5;
 	availableForSupportTypes[] = {CAS_Heli};
 	class Library

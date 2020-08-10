@@ -40,7 +40,7 @@ class CfgVehicles
                     "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_metal.rvmat",
                     "\A3\Soft_F_Exp\Offroad_02\Data\Offroad_02_int_chrome.rvmat"
                 };
-				factions[] = {BLU_HIDF_F};
+				factions[] = {BLU_H_F};
 			};
 		};
     };
@@ -58,5 +58,5 @@ class CfgVehicles
 	};
 	class Offroad_02_AT_base_F;
     // Arma 3 Atlas
-    #include "cfgHIDF.hpp"
+    #include "cfgHIL.hpp"
 };

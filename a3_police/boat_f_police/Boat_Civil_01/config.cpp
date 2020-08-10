@@ -16,6 +16,11 @@ class CfgVehicles
 			};
 		};
 	};
+	class C_Boat_Civil_01_police_F: Boat_Civil_01_base_F
+	{
+		scope = protected;
+		scopeCurator = private;
+	};
 	// Arma 3 Police
 	#include "cfgPolice.hpp"
 };

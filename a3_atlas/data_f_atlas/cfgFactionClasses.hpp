@@ -1,5 +1,13 @@
 class CfgFactionClasses
 {
+	class OPF_W_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
+		priority = 9;
+		side = TEast;
+		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+	};
 	class BLU_L_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_L_F0;
@@ -32,12 +40,12 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ADF_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
 	};
-	class BLU_HIDF_F
+	class BLU_H_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_HIDF_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_H_F0;
 		priority = 12;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIDF_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIL_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
 	class IND_CDF_F
@@ -45,8 +53,8 @@ class CfgFactionClasses
 		displayName = "CDF";
 		priority = 8;
 		side = TGuerrila;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_IDF_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_IDF_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_CDF_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_CDF_CO.paa";
 	};
 	class IND_I_F
 	{

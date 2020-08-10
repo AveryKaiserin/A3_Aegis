@@ -2,20 +2,9 @@
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
 class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
 class SlotInfo;
-class MuzzleSlot;
-class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
-class MuzzleSlot_556;
-class MuzzleSlot_65;
 class MuzzleSlot_762;
-class MuzzleSlot_MG;
 class CowsSlot_Rail;
-class PointerSlot_Rail;
-class UnderBarrelSlot_rail;
 class CfgWeapons
 {
 	class Rifle;
@@ -24,8 +13,6 @@ class CfgWeapons
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
-	
-	// arsenal weapons
 	class RFB_base_F: Rifle_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -42,12 +29,12 @@ class CfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB_UW_CO.paa"
+			"\A3\Weapons_F\Rifles\RFB\Data\RFB_UW_CO.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB.rvmat",
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB_UW.rvmat"
+			"\A3\Weapons_F\Rifles\RFB\Data\RFB_UW.rvmat"
 		};
 		handAnim[] =
 		{
@@ -102,7 +89,7 @@ class CfgWeapons
 		class Single: Mode_SemiAuto
 		{
 			sounds[] = {StandardSound};
-			reloadTime = 0.1;
+			reloadTime = 0.13;
 			dispersion = 0.00131;
 			minRange = 2;
 			minRangeProbab = 0.5;

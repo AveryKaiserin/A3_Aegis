@@ -40,6 +40,7 @@ class CfgPatches
 			A3_Weapons_F_Mark_LongRangeRifles_DMR_06,
 			A3_Weapons_F_Mark_Machineguns_MMG_01,
 			A3_Weapons_F_Mark_Machineguns_MMG_02,
+			A3_Weapons_F_Mark_Rifles_MX,
 			A3_Weapons_F_Mod,
 			A3_Weapons_F_Mod_SMGs_SMG_03,
 			A3_Weapons_F_Orange,

@@ -12,7 +12,7 @@ class U_I_E_Uniform_01_pilot_F: Uniform_Base
 	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_pilot_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Pilot_01_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_eaf_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";

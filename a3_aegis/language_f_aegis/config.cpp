@@ -13,7 +13,7 @@ class CfgHints
 			description = $STR_A3_A_NATO0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\NATO_CA.paa";
 			logicalOrder = 9;
 		};
 		class AAF
@@ -22,7 +22,7 @@ class CfgHints
 			description = $STR_A3_A_AAF0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\AAF_CA.paa";
 			logicalOrder = 1;
 		};
 		class CSAT
@@ -31,7 +31,7 @@ class CfgHints
 			description = $STR_A3_A_CSAT0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\CSAT_CA.paa";
 			logicalOrder = 3;
 		};
 		class FIA
@@ -40,7 +40,7 @@ class CfgHints
 			description = $STR_A3_A_FIA0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\FIA_CA.paa";
 			logicalOrder = 4;
 		};
 		class Syndikat
@@ -76,7 +76,7 @@ class CfgHints
 			description = $STR_A3_A_IDAP0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\IDAP_CA.paa";
 			logicalOrder = 6;
 		};
 		class LDF
@@ -85,7 +85,7 @@ class CfgHints
 			description = $STR_A3_A_LDF0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\LDF_CA.paa";
 			logicalOrder = 8;
 		};
 		class Spetsnaz
@@ -94,7 +94,7 @@ class CfgHints
 			description = $STR_A3_A_Spetsnaz0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\Spetsnaz_CA.paa";
 			logicalOrder = 10;
 		};
 		class ION
@@ -103,24 +103,25 @@ class CfgHints
 			description = $STR_A3_A_ION0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\ION_CA.paa";
 			logicalOrder = 7;
-		};
-		class HIDF
-		{
-			displayName = $STR_A3_A_HIDF1;
-			description = $STR_A3_A_HIDF0;
-			tip = "";
-			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
-			logicalOrder = 5;
 		};
 	};
 	class WeaponList
 	{
 		// Arma 3
+		// Arma 3 Enoch
+		class MSBS65
+		{
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_MSBS65_F;
+		};
+		class HunterShotgun_01
+		{
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Shotguns_CA.paa";
+		};
 		// Arma 3 Aegis
-		class GL_M32
+		class M32
 		{
 			displayName = %11;
 			description = %12;
@@ -134,7 +135,7 @@ class CfgHints
 			weapon = GL_M32_F;
 			logicalOrder = 20;
 		};
-		class GL_XM25
+		class XM25
 		{
 			displayName = %11;
 			description = %12;
@@ -148,7 +149,7 @@ class CfgHints
 			weapon = GL_XM25_F;
 			logicalOrder = 40;
 		};
-		class srifle_WF50
+		class WF50
 		{
 			displayName = %11;
 			description = %12;
@@ -162,7 +163,7 @@ class CfgHints
 			weapon = srifle_WF50_F;
 			logicalOrder = 57;
 		};
-		class hgun_C1911
+		class C1911
 		{
 			displayName = %11;
 			description = %12;
@@ -176,7 +177,7 @@ class CfgHints
 			weapon = hgun_C1911_F;
 			logicalOrder = 9;
 		};
-		class hgun_G17
+		class G17
 		{
 			displayName = %11;
 			description = %12;
@@ -190,7 +191,7 @@ class CfgHints
 			weapon = hgun_G17_F;
 			logicalOrder = 35;
 		};
-		class hgun_Mk26
+		class Mk26
 		{
 			displayName = %11;
 			description = %12;
@@ -204,21 +205,7 @@ class CfgHints
 			weapon = hgun_Mk26_F;
 			logicalOrder = 28;
 		};
-		class hgun_Pistol_heavy_03
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F0},
-				{STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
-			weapon = hgun_Pistol_heavy_03_F;
-			logicalOrder = 28;
-		};
-		class arifle_RPK
+		class RPK
 		{
 			displayName = %11;
 			description = %12;
@@ -232,7 +219,7 @@ class CfgHints
 			weapon = arifle_RPK_F;
 			logicalOrder = 32;
 		};
-		class arifle_SA80
+		class SA80
 		{
 			displayName = %11;
 			description = %12;
@@ -246,7 +233,7 @@ class CfgHints
 			weapon = arifle_SA80_blk_F;
 			logicalOrder = 45;
 		};
-		class sgun_AA40
+		class AA40
 		{
 			displayName = %11;
 			description = %12;
@@ -260,7 +247,7 @@ class CfgHints
 			weapon = sgun_AA40_F;
 			logicalOrder = 2;
 		};
-		class sgun_KSG
+		class KSG
 		{
 			displayName = %11;
 			description = %12;
@@ -274,7 +261,7 @@ class CfgHints
 			weapon = sgun_KSG_F;
 			logicalOrder = 8;
 		};
-		class sgun_M4
+		class M4
 		{
 			displayName = %11;
 			description = %12;
@@ -288,7 +275,7 @@ class CfgHints
 			weapon = sgun_M4_F;
 			logicalOrder = 17;
 		};
-		class sgun_Mp153
+		class Mp153
 		{
 			displayName = %11;
 			description = %12;
@@ -314,20 +301,6 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifles_CA.paa";
 			weapon = SMG_04_blk_F;
-			logicalOrder = 17;
-		};
-		class SMG_06
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_SMG_06_base_F0},
-				{STR_A3_A_CfgWeapons_SMG_06_base_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifles_CA.paa";
-			weapon = SMG_06_F;
 			logicalOrder = 17;
 		};
 	};
@@ -365,21 +338,6 @@ class CfgHints
 			modelScale = 0.3;
 			logicalOrder = 42;
 		};
-		class UAV_07
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgVehicles_UAV_07_base_F0},
-				{STR_A3_A_CfgVehicles_UAV_07_base_F_Armory0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
-			vehicle = O_R_UAV_07_F;
-			modelScale = 0.5;
-			logicalOrder = 42;
-		};
 		class Boat_Civil_02
 		{
 			displayName = %11;
@@ -402,12 +360,70 @@ class CfgHints
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgVehicles_Boat_Civil_03_base0},
-				{STR_A3_A_CfgVehicles_Boat_Civil_03_base_Library0}
+				{STR_A3_CfgVehicles_Boat_Civil_03_base0},
+				{STR_A3_CfgVehicles_Boat_Civil_03_base_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = C_Boat_Civil_03_F;
 			modelScale = 0.6;
+			logicalOrder = 42;
+		};
+		class Boat_Civil_04
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_CfgVehicles_C_Boat_Civil_04},
+				{STR_A3_CfgVehicles_C_Boat_Civil_04_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = C_Boat_Civil_04_F;
+			modelScale = 0.2;
+			logicalOrder = 42;
+		};
+		class Carrier_01
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_B_Carrier_01_base_name},
+				{STR_A3_A_CfgVehicles_Land_Carrier_01_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			modelScale = 0.2;
+			logicalOrder = 42;
+		};
+		class Destroyer_01
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_Land_Destroyer_01_Name},
+				{STR_A3_Land_Destroyer_01_hint_description}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			modelScale = 0.2;
+			logicalOrder = 42;
+		};
+		class Submarine_01
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_CfgVehicles_Proteus},
+				{STR_A3_A_CfgVehicles_Submarine_01_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = Submarine_01_F;
+			modelScale = 0.2;
 			logicalOrder = 42;
 		};
 	};

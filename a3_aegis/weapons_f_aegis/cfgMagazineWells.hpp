@@ -97,10 +97,6 @@ class CfgMagazineWells
 	{
 		Aegis_Magazines[] = {7Rnd_127x33_Mag};
 	};
-	class MP412_9x33
-	{
-		Aegis_Magazines[] = {6Rnd_9x33_Cylinder};
-	};
 	class Shotgun_12GA
 	{
 		Aegis_Magazines[] =
@@ -161,9 +157,5 @@ class CfgMagazineWells
 			40Rnd_460x30_Mag_F,
 			20Rnd_460x30_Mag_F
 		};
-	};
-	class SMG_06_9x21
-	{
-		Aegis_Magazines[] = {53Rnd_9x21_Mag_F};
 	};
 };

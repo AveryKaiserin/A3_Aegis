@@ -31,8 +31,8 @@ class I_Boat_Transport_02_F: Boat_Transport_02_base_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Boat_Transport_02_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = private;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_Soldier_F;

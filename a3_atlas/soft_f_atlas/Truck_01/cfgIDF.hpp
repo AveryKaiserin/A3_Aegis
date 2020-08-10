@@ -8,12 +8,12 @@ class I_I_Truck_01_mover_F: B_Truck_01_mover_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_mprimer_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_mprimer_brown_CO.paa"
     };
 };
 class I_I_Truck_01_ammo_F: B_Truck_01_ammo_F
@@ -26,13 +26,13 @@ class I_I_Truck_01_ammo_F: B_Truck_01_ammo_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_IDF_CO.paa",
-        "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
     };
 };
 class I_I_Truck_01_box_F: B_Truck_01_box_F
@@ -45,13 +45,13 @@ class I_I_Truck_01_box_F: B_Truck_01_box_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_IDF_CO.paa",
-        "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
     };
 };
 class I_I_Truck_01_fuel_F: B_Truck_01_fuel_F
@@ -64,12 +64,12 @@ class I_I_Truck_01_fuel_F: B_Truck_01_fuel_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_Fuel_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_Fuel_brown_CO.paa"
     };
 };
 class I_I_Truck_01_medical_F: B_Truck_01_medical_F
@@ -82,13 +82,13 @@ class I_I_Truck_01_medical_F: B_Truck_01_medical_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_brown_CO.paa"
     };
 };
 class I_I_Truck_01_Repair_F: B_Truck_01_Repair_F
@@ -101,13 +101,13 @@ class I_I_Truck_01_Repair_F: B_Truck_01_Repair_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_IDF_CO.paa",
-        "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
     };
 };
 class I_I_Truck_01_transport_F: B_Truck_01_transport_F
@@ -120,13 +120,13 @@ class I_I_Truck_01_transport_F: B_Truck_01_transport_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_brown_CO.paa"
     };
 };
 class I_I_Truck_01_covered_F: B_Truck_01_covered_F
@@ -139,13 +139,13 @@ class I_I_Truck_01_covered_F: B_Truck_01_covered_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_brown_CO.paa"
     };
 };
 class I_I_Truck_01_flatbed_F: Truck_01_flatbed_base_F
@@ -159,13 +159,13 @@ class I_I_Truck_01_flatbed_F: Truck_01_flatbed_base_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Brown,1};
 	hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_israel_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_israel_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_IDF_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_IDF_CO.paa"
     };
 };
 class I_I_Truck_01_cargo_F: Truck_01_cargo_base_F
@@ -179,12 +179,12 @@ class I_I_Truck_01_cargo_F: Truck_01_cargo_base_F
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Brown,1};
 	hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_israel_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_israel_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_IDF_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_IDF_CO.paa"
     };
 };

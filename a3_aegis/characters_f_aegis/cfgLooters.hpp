@@ -230,18 +230,14 @@ class I_L_Militiaman_Leader_F: I_L_Deserter_base_F
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellGreen
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 	respawnMagazines[] =
     {
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellGreen
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };
 class I_L_Deserter_Rifle_F: I_L_Deserter_base_F

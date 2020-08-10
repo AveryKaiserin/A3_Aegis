@@ -16,3 +16,17 @@ class I_I_UGV_02_Demining_F: UGV_02_Demining_Base_F
 		dissasembleTo[] = {I_I_UGV_02_Demining_backpack_F};
 	};
 };
+class I_I_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_I_I_UGV_02_Demining_backpack_F0;
+	faction = IND_I_F;
+	picture = "\A3\Supplies_F_Enoch\Bags\Data\UI\icon_I_UGV_02_demining_CA.paa";
+	class assembleInfo: assembleInfo
+	{
+		displayName = $STR_A3_A_CfgVehicles_I_I_UGV_02_Demining_backpack_F_assembleInfo0;
+		assembleTo = I_I_UGV_02_Demining_F;
+	};
+};

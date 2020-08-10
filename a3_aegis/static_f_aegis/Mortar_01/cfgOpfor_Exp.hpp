@@ -42,3 +42,14 @@ class O_T_Mortar_01_F: O_Mortar_01_F
 		};
 	};
 };
+class O_T_Mortar_01_weapon_F: O_Mortar_01_weapon_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	scopeCurator = private;
+	faction = OPF_T_F;
+	class assembleInfo: assembleInfo
+	{
+		assembleTo = O_T_Mortar_01_F;
+	};
+};

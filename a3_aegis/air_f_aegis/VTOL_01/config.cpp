@@ -22,7 +22,9 @@ class CfgVehicles
 				{
 					BLU_F,
 					BLU_W_F,
-					BLU_A_F
+					BLU_A_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 		};

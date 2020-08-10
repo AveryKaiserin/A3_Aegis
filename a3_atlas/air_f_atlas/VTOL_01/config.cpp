@@ -8,16 +8,17 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class IDF
+			class Desert
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_IDF_CO.paa",
-					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_IDF_CO.paa",
-					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_IDF_CO.paa",
-					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_IDF_CO.paa"
+					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT01_desert_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT02_desert_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT03_desert_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_desert_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_signs_desert_CA.paa"
 				};
 				factions[] = {IND_I_F};
 			};

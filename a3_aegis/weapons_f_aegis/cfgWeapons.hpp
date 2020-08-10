@@ -686,6 +686,17 @@ class CfgWeapons
 		hiddenSelections[] = {camo1};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Long_CO.paa"};
 	};
+	class arifle_MX_SW_Hamr_pointer_F: arifle_MX_SW_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsUnder
+			{
+				slot = UnderBarrelSlot;
+				item = bipod_01_F_snd;
+			};
+		};
+	};
 	class arifle_MXC_Holo_pointer_snds_F: arifle_MXC_F
 	{
 		class LinkedItems
@@ -736,24 +747,34 @@ class CfgWeapons
 			};
 		};
 	};
+	class arifle_MXM_DMS_LP_BI_snds_F: arifle_MXM_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				item = muzzle_snds_H_snd_F;
+			};
+		};
+	};
 	class arifle_MXC_Black_F;
 	class arifle_MX_Black_F;
+	class arifle_MX_Black_Hamr_Pointer_Snds_F: arifle_MX_Black_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = optic_Hamr;
+			};
+		};
+	};
 	class arifle_MX_GL_Black_F;
 	class arifle_MX_SW_Black_F;
 	class arifle_MX_SW_Black_Hamr_pointer_F: arifle_MX_SW_Black_F
 	{
 		class LinkedItems
 		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
 			class LinkedItemsUnder
 			{
 				slot = UnderBarrelSlot;
@@ -813,6 +834,27 @@ class CfgWeapons
 		{
 			Single,
 			FullAuto
+		};
+	};
+	class hgun_PDW2000_F;
+	class hgun_PDW2000_Holo_F: hgun_PDW2000_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = optic_Holosight_smg_blk_F;
+			};
+		};
+	};
+	class hgun_PDW2000_Holo_snds_F: hgun_PDW2000_F
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				item = optic_Holosight_smg_blk_F;
+			};
 		};
 	};
 	class SMG_01_Base: Rifle_Short_Base_F
@@ -934,9 +976,11 @@ class CfgWeapons
 	{
 		modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 	};
+	class arifle_MX_khk_F;
 	class arifle_MX_GL_khk_F;
 	class arifle_MX_SW_khk_F;
 	class arifle_MXC_khk_F;
+	class arifle_MXM_khk_F;
 	class muzzle_snds_H_khk_F: muzzle_snds_H
 	{
 		model = "\A3\Weapons_F\Acc\acca_snds_lmg_khk_F.p3d";
@@ -968,29 +1012,24 @@ class CfgWeapons
 			mass = 60;
 		};
 	};
+	class arifle_ARX_ghex_F;
 	class arifle_ARX_hex_F;
 	class arifle_ARX_hex_DMS_Pointer_Snds_Bipod_F: arifle_ARX_hex_F
 	{
 		class LinkedItems
 		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
 			class LinkedItemsMuzzle
 			{
-				slot = MuzzleSlot;
 				item = muzzle_snds_65_TI_hex_F;
 			};
+		};
+	};
+	class arifle_ARX_ghex_DMS_Pointer_Snds_Bipod_F: arifle_ARX_ghex_F
+	{
+		class LinkedItems
+		{
 			class LinkedItemsUnder
 			{
-				slot = UnderBarrelSlot;
 				item = bipod_02_F_hex;
 			};
 		};
@@ -1529,82 +1568,6 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\EBR\Data\UI\icon_srifle_EBR_khk_F_X_CA.paa";
 	};
-	class srifle_EBR_MOS_LP_BI_F: srifle_EBR_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_03_F_blk;
-			};
-		};
-	};
-	class srifle_EBR_blk_DMS_LP_BI_S_F: srifle_EBR_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class srifle_EBR_khk_DMS_LP_BI_S_F: srifle_EBR_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B_khk_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
 	class srifle_DMR_01_black_F: srifle_DMR_01_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1616,226 +1579,6 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_black_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\UI\icon_srifle_DMR_01_black_F_X_CA.paa";
-	};
-	class srifle_DMR_01_DMS_LP_BI_F: srifle_DMR_01_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
-	};
-	class srifle_DMR_01_DMS_LP_BI_S_F: srifle_DMR_01_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
-	};
-	class srifle_DMR_01_black_ARCO_BI_F: srifle_DMR_01_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_ghex_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_blk;
-			};
-		};
-	};
-	class srifle_DMR_02_sniper_AMS_LP_BI_F: srifle_DMR_02_sniper_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_AMS_snd;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class srifle_DMR_02_AMS_LP_BI_F: srifle_DMR_02_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_AMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class srifle_DMR_03_AMS_LP_BI_F: srifle_DMR_03_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_AMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class srifle_DMR_03_khaki_AMS_LP_BI_F: srifle_DMR_03_khaki_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_AMS_khk;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
-	class srifle_DMR_05_DMS_LP_BI_F: srifle_DMR_05_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_DMS_weathered_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_blk;
-			};
-		};
-	};
-	class srifle_DMR_05_hex_KHS_LP_BI_F: srifle_DMR_05_hex_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_KHS_hex;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
-	};
-	class LMG_Mk200_MRCO_LP_BI_F: LMG_Mk200_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_MRCO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_03_F_blk;
-			};
-		};
 	};
 	class LMG_Mk200_plain_F: LMG_Mk200_F
 	{
@@ -1863,94 +1606,6 @@ class CfgWeapons
 		};
 		baseWeapon = LMG_Mk200_khk_F;
 	};
-	class LMG_Mk200_plain_ARCO_LP_BI_F: LMG_Mk200_plain_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class LMG_Mk200_plain_RCO_LP_BI_F: LMG_Mk200_plain_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class LMG_Mk200_khk_ARCO_Pointer_Bipod_F: LMG_Mk200_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
-	class LMG_Mk200_khk_Hamr_Pointer_Bipod_F: LMG_Mk200_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
 	class LMG_Zafir_black_F: LMG_Zafir_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1976,106 +1631,6 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\Zafir\Data\UI\icon_LMG_Zafir_ghex_F_X_CA.paa";
 	};
-	class LMG_Zafir_ARCO_pointer_F: LMG_Zafir_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class LMG_Zafir_ARCO_pointer_snds_F: LMG_Zafir_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B;
-			};
-		};
-	};
-	class LMG_Zafir_black_ARCO_pointer_F: LMG_Zafir_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class MMG_01_hex_ARCO_LP_F: MMG_01_hex_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
-	};
-	class MMG_02_black_RCO_LP_F: MMG_02_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
 	class hgun_P07_blk_F: hgun_P07_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -2084,18 +1639,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Pistols\P07\Data\hgun_P07_blk_F.paa"};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Pistols\P07\Data\UI\icon_hgun_P07_blk_F_X_CA.paa";
 	};
-	class hgun_P07_blk_snds_F: hgun_P07_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_L;
-			};
-		};
-	};
 	class hgun_Pistol_heavy_01_black_F: hgun_Pistol_heavy_01_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -2103,30 +1646,6 @@ class CfgWeapons
 		displayname = $STR_A3_A_CfgWeapons_hgun_Pistol_heavy_01_black_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Pistols\Pistol_Heavy_01\Data\UI\icon_hgun_Pistol_heavy_01_black_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Pistols\Pistol_Heavy_01\Data\Pistol_heavy_01_black_CO.paa"};
-	};
-	class hgun_Pistol_heavy_01_black_MRD_F: hgun_Pistol_heavy_01_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_MRD_black;
-			};
-		};
-	};
-	class hgun_Pistol_heavy_01_black_snds_F: hgun_Pistol_heavy_01_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_acp;
-			};
-		};
 	};
 	class arifle_Mk20_black_F: arifle_Mk20_plain_F
 	{
@@ -2184,295 +1703,6 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_Mk20_GL_hex_F;
 	};
-	class arifle_Mk20_GL_ACO_pointer_F: arifle_Mk20_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MX_SW_RCO_LP_F: arifle_MX_SW_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class arifle_MXM_MOS_LP_BI_F: arifle_MXM_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class arifle_MXC_Black_Hamr_pointer_F: arifle_MXC_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MXC_Black_ACO_F: arifle_MXC_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-		};
-	};
-	class arifle_MXC_Black_Holo_F: arifle_MXC_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-		};
-	};
-	class arifle_MXC_Black_ACO_FL_F: arifle_MXC_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_MX_Black_RCO_FL_F: arifle_MX_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_MX_GL_Black_ACO_F: arifle_MX_GL_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-		};
-	};
-	class arifle_MX_GL_Black_ACO_Pointer_F: arifle_MX_GL_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MX_GL_Black_ACO_FL_F: arifle_MX_GL_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_MX_SW_Black_FL_F: arifle_MX_SW_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_MXM_Black_MOS_LP_BI_F: arifle_MXM_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_MXM_Black_RCO_BI_F: arifle_MXM_Black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_MX_GL_khk_ACO_Pointer_F: arifle_MX_GL_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MXC_khk_Holo_F: arifle_MXC_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-		};
-	};
-	class arifle_MX_SW_khk_Hamr_Pointer_F: arifle_MX_SW_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
 	class arifle_TRG21_black_F: arifle_TRG21_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -2502,516 +1732,6 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_TRG21_GL_black_F;
 	};
-	class arifle_TRG21_aco_FL_f: arifle_TRG21_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_TRG21_arco_FL_f: arifle_TRG21_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_ghex_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_TRG20_aco_FL_f: arifle_TRG20_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_TRG21_GL_aco_FL_f: arifle_TRG21_GL_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_TRG21_GL_arco_FL_f: arifle_TRG21_GL_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_ghex_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_CTAR_GL_blk_ACO_flash_F: arifle_CTAR_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_CTAR_GL_blk_ACO_Pointer_F: arifle_CTAR_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_CTARS_blk_ARCO_Pointer_F: arifle_CTARS_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_CTARS_blk_ARCO_Pointer_Snds_F: arifle_CTARS_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_58_blk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_blk_ERCO_Pointer_Snds_F: arifle_SPAR_01_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_blk_Holo_Pointer_Snds_F: arifle_SPAR_01_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_blk_ACO_Pointer_Snds_F: arifle_SPAR_01_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_khk_ERCO_Pointer_Snds_F: arifle_SPAR_01_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_khk_Holo_Pointer_Snds_F: arifle_SPAR_01_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_khk_ACO_Pointer_Snds_F: arifle_SPAR_01_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_snd_ERCO_Pointer_Snds_F: arifle_SPAR_01_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_snd_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_snd_Holo_Pointer_Snds_F: arifle_SPAR_01_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_snd_ACO_Pointer_Snds_F: arifle_SPAR_01_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_blk_ERCO_Pointer_Snds_F: arifle_SPAR_01_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_blk_ACO_Pointer_Snds_F: arifle_SPAR_01_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_blk_Holo_Pointer_Snds_F: arifle_SPAR_01_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_khk_ACO_Pointer_Snds_F: arifle_SPAR_01_GL_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_khk_Holo_Pointer_Snds_F: arifle_SPAR_01_GL_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_snd_ACO_Pointer_Snds_F: arifle_SPAR_01_GL_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
-	class arifle_SPAR_01_GL_snd_Holo_Pointer_Snds_F: arifle_SPAR_01_GL_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
 	class arifle_SPAR_01_C_base_F: arifle_SPAR_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -3034,365 +1754,6 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		baseWeapon = arifle_SPAR_01_C_snd_F;
 		scope = protected;
-	};
-	class arifle_SPAR_02_blk_Holo_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_SPAR_02_khk_ERCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
-	class arifle_SPAR_02_snd_ERCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_snd_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F: arifle_SPAR_03_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class arifle_SPAR_03_khk_MOS_Pointer_Bipod_Snds_F: arifle_SPAR_03_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B_khk_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
-	class arifle_SPAR_03_snd_MOS_Pointer_Bipod_Snds_F: arifle_SPAR_03_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_SOS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_B_snd_F;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_snd;
-			};
-		};
-	};
-	class LMG_Mk200_black_FL_F: LMG_Mk200_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class LMG_Mk200_black_ARCO_LP_BI_F: LMG_Mk200_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class LMG_Mk200_black_RCO_LP_BI_F: LMG_Mk200_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
-	class hgun_Pistol_heavy_01_green_MRD_F: hgun_Pistol_heavy_01_green_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_MRD_black;
-			};
-		};
-	};
-	class arifle_MSBS65_aco_pointer_F: arifle_MSBS65_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MSBS65_aco_f: arifle_MSBS65_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-		};
-	};
-	class arifle_MSBS65_ico_FL_f: arifle_MSBS65_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ico_01_f;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_MSBS65_GL_aco_pointer_f: arifle_MSBS65_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	class arifle_MSBS65_GL_ico_FL_f: arifle_MSBS65_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ico_01_f;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_MSBS65_UBS_aco_pointer_f: arifle_MSBS65_UBS_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
 	};
 	class SMG_01_black_F: SMG_01_F
 	{
@@ -3425,47 +1786,6 @@ class CfgWeapons
 			"\A3\Weapons_F\Acc\Data\battlesight_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\SMGs\SMG_01\Data\UI\icon_SMG_01_khk_F_X_CA.paa";
-	};
-	class SMG_01_black_Holo_F: SMG_01_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_smg_blk_F;
-			};
-		};
-	};
-	class SMG_01_khk_Holo_F: SMG_01_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_smg_khk_F;
-			};
-		};
-	};
-	class SMG_02_ACO_FL_F: SMG_02_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_smg;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
 	};
 	class muzzle_snds_pistol_heavy_01: muzzle_snds_acp
 	{
@@ -3903,28 +2223,6 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_02\Data\UI\icon_srifle_DMR_02_tna_F_X_CA.paa";
 	};
-	class srifle_DMR_02_tna_AMS_Pointer_Bipod_F: srifle_DMR_02_tna_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_AMS;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_blk;
-			};
-		};
-	};
 	class srifle_DMR_05_ghex_F: srifle_DMR_05_blk_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -3936,28 +2234,6 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_05\Data\DMR_05_02_ghex_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_05\Data\UI\icon_srifle_DMR_05_ghex_F_X_CA.paa";
-	};
-	class srifle_DMR_05_ghex_KHS_LP_BI_F: srifle_DMR_05_ghex_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_KHS_blk;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
 	};
 	class srifle_DMR_06_black_F: srifle_DMR_06_camo_F
 	{
@@ -3971,18 +2247,6 @@ class CfgWeapons
 		};
 		magazines[] = {20Rnd_762x51_Mag};
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_06\Data\UI\icon_srifle_DMR_06_black_F_X_CA.paa";
-	};
-	class srifle_DMR_06_black_ACO_F: srifle_DMR_06_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-		};
 	};
 	class MMG_01_black_F: MMG_01_hex_F
 	{
@@ -4040,50 +2304,6 @@ class CfgWeapons
 			};
 		};
 	};
-	class MMG_01_black_ARCO_LP_F: MMG_01_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_blk;
-			};
-		};
-	};
-	class MMG_01_ghex_ARCO_LP_F: MMG_01_ghex_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_ghex_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_02_F_hex;
-			};
-		};
-	};
 	class MMG_02_khaki_F: MMG_02_black_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -4099,28 +2319,6 @@ class CfgWeapons
 		};
 		class LinkedItems
 		{
-			class LinkedItemsUnder
-			{
-				slot = UnderBarrelSlot;
-				item = bipod_01_F_khk;
-			};
-		};
-	};
-	class MMG_02_khaki_RCO_LP_F: MMG_02_khaki_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Hamr_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
 			class LinkedItemsUnder
 			{
 				slot = UnderBarrelSlot;
@@ -4169,84 +2367,6 @@ class CfgWeapons
 			"\A3\Weapons_F\Machineguns\M200\Data\grip_CO.paa"
 		};
 	};
-	class LMG_03_Flash_F: LMG_03_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class LMG_03_ERCO_Pointer_Snds_F: LMG_03_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M;
-			};
-		};
-	};
-	class LMG_03_khk_ERCO_Pointer_Snds_F: LMG_03_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_khk_F;
-			};
-		};
-	};
-	class LMG_03_snd_ERCO_Pointer_Snds_F: LMG_03_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ERCO_snd_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_M_snd_F;
-			};
-		};
-	};
 	class SMG_05_snd_F: SMG_05_base_F
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
@@ -4293,6 +2413,7 @@ class CfgWeapons
 			"\A3\Weapons_F_Tank\Launchers\MRAWS\Data\launch_MRAWS_rail_02_F_CO.paa"
 		};
 	};
+	#include "presets.hpp"
 	class Goggles: NVGoggles
 	{
 		author = $STR_A3_A_AveryTheKitty;

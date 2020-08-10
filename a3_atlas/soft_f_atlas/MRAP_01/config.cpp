@@ -23,14 +23,14 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class IDF
+			class Brown
 			{
-				DisplayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				DisplayName = $STR_A3_TEXTURESOURCES_BROWN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_IDF_CO.paa",
-					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_IDF_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_brown_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
 					""
 				};
 				factions[] = {IND_I_F};
@@ -45,15 +45,15 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class IDF
+			class Brown
 			{
-				DisplayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				DisplayName = $STR_A3_TEXTURESOURCES_BROWN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_IDF_CO.paa",
-					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_IDF_CO.paa",
-					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_brown_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
+					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
 				};
 				factions[] = {IND_I_F};
 			};
@@ -67,5 +67,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgIDF.hpp"
+	#include "cfgIDF.hpp"				// IDF
 };

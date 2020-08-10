@@ -13,9 +13,9 @@ class CfgVehicles
 	class UGV_02_Science_backpack_base_F: UGV_02_backpack_base_F{};
 	class UGV_02_Demining_backpack_base_F: UGV_02_backpack_base_F{};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgOpfor_Exp.hpp"			// CSAT (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgSpetsnaz.hpp"			// Russia
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
 };

@@ -3,6 +3,12 @@ class CfgMarkers
 	// Arma 3
 	class flag_NATO;
 	// Arma 3 Atlas
+	class flag_Belarus: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Belarus;
+		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Belarus_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Belarus_CA.paa";
+	};
 	class flag_Bocano: flag_NATO
 	{
 		name = $STR_A3_A_CfgMarkers_flag_Bocano;

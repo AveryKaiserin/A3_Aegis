@@ -25,4 +25,5 @@ class CfgVehicles
 	VEST_HOLDER(V_PlateCarrierIA2_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0)
 	VEST_HOLDER(V_PlateCarrierIAGL_grn,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0)
 	VEST_HOLDER(V_RebreatherB_aucamo_F,$STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0)
+	VEST_HOLDER(V_RebreatherI_I,$STR_A3_A_CfgWeapons_V_RebreatherI_I0)
 };

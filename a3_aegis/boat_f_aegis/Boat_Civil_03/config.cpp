@@ -2,127 +2,155 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
-	class Ship_F;
-	class Boat_F: Ship_F
-	{
-		class ViewPilot;
-		class AnimationSources;
-		class EventHandlers;
-		class HitPoints
-		{
-			class HitEngine;
-		};
-	};
-	class Boat_Civil_03_base_F: Boat_F
+	class FloatingStructure_F;
+	class C_Boat_Civil_03_F: FloatingStructure_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 8;
-		class SpeechVariants
+		class SimpleObject
 		{
-			class Default
+			eden = true;
+			animate[] =
 			{
-				speechSingular[] = {veh_ship_boat_s};
-				speechPlural[] = {veh_ship_boat_p};
+				{positionlightred,1},
+				{positionlightgreen,1},
+				{positionlightwhite,1}
 			};
+			hide[] =
+			{
+				zasleh,
+				"zadni svetlo",
+				"brzdove svetlo",
+				clan,
+				"podsvit pristroju",
+				poskozeni
+			};
+			verticalOffset = 2.13;
+			verticalOffsetWorld = 0;
+			init = "''";
 		};
-		textSingular = $STR_A3_nameSound_veh_ship_boat_s;
-		textPlural = $STR_A3_nameSound_veh_ship_boat_p;
-		nameSound = veh_ship_boat_s;
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\C_Boat_Civil_03_F.jpg";
 		displayName = $STR_A3_CfgVehicles_Boat_Civil_03_base0;
-		accuracy = 0.5;
 		model = "\A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Boat_Civil_03_F.p3d";
-		editorSubcategory = EdSubcat_Boats;
-		picture = "\A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Data\UI\Boat_Civil_03_CA.paa";
-		Icon = "\A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Data\UI\map_Boat_Civil_03_CA.paa";
-		cost = 10000;
-		threat[] = {0,0,0};
-		unitInfoType = RscUnitInfoNoWeapon;
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2
-		};
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Data\Boat_Civil_03_001_CO.paa",
-			"\A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Data\Boat_Civil_03_002_CO.paa"
-		};
+		icon = iconObject_1x4;
 		memoryPointTaskMarker = TaskMarker_1_pos;
-		leftEngineEffect = LEngEffects;
-		rightEngineEffect = REngEffects;
-		class TransportItems
-		{
-			item_xx(FirstAidKit,10);
-		};
-		armor = 10;
-    	damageResistance = 0.00318;
-		class HitPoints: HitPoints
-		{
-			class HitHull
-			{
-				armor = 0.2;
-				material = 50;
-				visual = zbytek;
-				passThrough = 1;
-				explosionShielding = 2;
-				name = karoserie;
-			};
-			class HitEngine: HitEngine
-			{
-				armor = 0.2;
-				material = -1;
-				visual = "";
-				passThrough = 1;
-				explosionSHielding = 2;
-				name = engine;
-				convexComponent = engine;
-			};
-		};
-		class Turrets{};
-		driverLeftHandAnimName = volant;
-		driverRightHandAnimName = volant;
-		driverAction = Driver_Boat_Civil_03;
-		cargoAction[] =
-		{
-			passenger_cargo01,
-			passenger_cargo02,
-			passenger_cargo03,
-			passenger_cargo03,
-			passenger_cargo03,
-			passenger_cargo03,
-			passenger_cargo04
-		};
-		getInAction = GetInMedium;
-		getOutAction = GetOutMedium;
-		cargoGetInAction[] = {GetInMedium};
-		cargoGetOutAction[] = {GetOutMedium};
-		castDriverShadow = true;
-		castCargoShadow = true;
-		ejectDeadDriver = true;
-		ejectDeadCargo = true;
-		hideWeaponsCargo = true;
-		#include "PhysX.hpp"
-		transportSoldier = 7;
-		supplyRadius = 3;
-		fuelExplosionPower = 0;
-		enableRadio = true;
+		cost = 10000;
+		scope = public;
+		scopeCurator = public;
+		accuracy = 0.5;
+		editorCategory = EdCat_Structures_Altis;
+		editorSubcategory = EdSubcat_StaticShips;
+		vehicleClass = Submerged;
 		class Library
 		{
 			libTextDesc = $STR_A3_CfgVehicles_Boat_Civil_03_base_Library0;
 		};
-    	extCameraPosition[] = {0,4,-14};
+		transportSoldier = 0;
+		class TransportItems
+		{
+			item_xx(FirstAidKit,4);
+		};
+		maxSpeed = 0;
+		overSpeedBrakeCoef = 0.8;
+		enginePower = 300;
+		engineShiftY = 0.1;
+		waterLeakiness = 2.0;
+		rudderForceCoef = 0.1;
+		armor = 10;
+    	damageResistance = 0.00318;
+		class Turrets{};
+		supplyRadius = 3;
 		class Exhausts
 		{
 			class Exhaust1
 			{
 				position = "vyfuk start";
 				direction = "vyfuk konec";
-				effect = ExhaustsEffect;
-				engineIndex = 0;
+				effect = ExhaustsEffectFBoat;
 			};
 		};
-		leftFastWaterEffect = LFastWaterEffects;
-		rightFastWaterEffect = RFastWaterEffects;
+		class Reflectors{};
+		class MarkerLights
+		{
+			class PositionRed
+			{
+				color[] =
+				{
+					0.8, // R
+					0.0, // G
+					0.0 // B
+				};
+				ambient[] =
+				{
+					0.08, // R
+					0.0, // G
+					0.0 // B
+				};
+				intensity = 100;
+				name = PositionLight_Red_1_pos;
+				drawLight = 1;
+				drawLightSize = 1.2;
+				drawLightCenterSize = 0.1;
+				activeLight = false;
+				blinking = false;
+				dayLight = false;
+				useFlare = false;
+			};
+			class PositionGreen: PositionRed
+			{
+				color[] =
+				{
+					0.0, // R
+					0.8, // G
+					0.0 // B
+				};
+				ambient[] =
+				{
+					0.0, // R
+					0.08, // G
+					0.0 // B
+				};
+				name = PositionLight_Green_1_pos;
+			};
+			class PositionWhite: PositionRed
+			{
+				color[] =
+				{
+					1.0, // R
+					1.0, // G
+					1.0 // B
+				};
+				ambient[] =
+				{
+					0.1, // R
+					0.1, // G
+					0.1 // B
+				};
+				name = PositionLight_White_1_pos;
+				blinking = true;
+				blinkingStartsOn = true;
+				blinkingPattern[] = {0.5,0.5};
+				blinkingPatternGuarantee = true;
+			};
+		};
+		class AnimationSources
+		{
+			class PositionLightRed_source
+			{
+				source = MarkerLight;
+				markerLight = PositionRed;
+			};
+			class PositionLightGreen_source
+			{
+				source = MarkerLight;
+				markerLight = PositionGreen;
+			};
+			class PositionLightWhite_source
+			{
+				source = MarkerLight;
+				markerLight = PositionWhite;
+			};
+		};
 		class Damage
 		{
 			tex[] = {};
@@ -136,72 +164,13 @@ class CfgVehicles
 				"A3_Aegis\Boat_F_Aegis\Boat_Civil_03\Data\Boat_Civil_03_002_damage.rvmat"
 			};
 		};
-		class Reflectors
+    	extCameraPosition[] =
 		{
-			class Middle
-			{
-				color[] = {0.8,0.8,1,1};
-				ambient[] = {0.07,0.07,0.07,1};
-				position = svetlo;
-				direction = "svetlo konec";
-				hitpoint = svetlo;
-				selection = svetlo;
-				size = 1;
-				innerAngle = 100;
-				outerAngle = 179;
-				coneFadeCoef = 10;
-				intensity = 1;
-				useFlare = true;
-				dayLight = true;
-				flareSize = 2;
-				class Attenuation
-				{
-					start = 1;
-					constant = 0;
-					linear = 0;
-					quadratic = 0.25;
-					hardLimitStart = 30;
-					hardLimitEnd = 60;
-				};
-			};
+			0.0, // X
+			4.0, // Y
+			-14.0 // Z
 		};
-		class MarkerLights
-		{
-			class PositionRed
-			{
-				color[] = {0.8,0,0};
-				ambient[] = {0.08,0,0};
-				intensity = 50;
-				name = PositionLight_Red_1_pos;
-				drawLight = true;
-				drawLightSize = 0.15;
-				drawLightCenterSize = 0.04;
-				activeLight = false;
-				blinking = false;
-				dayLight = true;
-				useFlare = true;
-			};
-			class PositionGreen: PositionRed
-			{
-				color[] = {0,0.8,0};
-				ambient[] = {0,0.08,0};
-				name = PositionLight_Green_1_pos;
-			};
-			class PositionWhite: PositionRed
-			{
-				color[] = {1,1,1};
-				ambient[] = {0.1,0.1,0.1};
-				name = PositionLight_White_1_pos;
-				blinking = true;
-				blinkingStartsOn = true;
-				blinkingPattern[] = {0.5,0.5};
-				blinkingPatternGuarantee = true;
-			};
-		};
-		class EventHandlers: EventHandlers
-		{
-			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
-		};
+		leftEngineEffect = WaterWhirlEffect;
+		rightEngineEffect = WaterWhirlEffect;
 	};
-	#include "cfgCivil.hpp"
 };

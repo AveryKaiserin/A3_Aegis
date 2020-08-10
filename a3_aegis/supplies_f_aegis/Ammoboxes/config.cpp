@@ -17,6 +17,5 @@ class CfgVehicles
 	#include "cfgEAF.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 	#include "cfgIon.hpp"
 };

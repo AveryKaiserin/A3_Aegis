@@ -36,6 +36,6 @@ class CfgVehicles
 	class B_HMG_02_weapon_F: Weapon_Bag_Base{};
 	class B_HMG_02_high_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
-	//#include "cfgIDF.hpp"
+	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgIDF.hpp"				// IDF
 };

@@ -8,13 +8,13 @@ class I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 	faction = IND_I_F;
 	crew = I_I_Fighter_Pilot_F;
 	typicalCargo[] = {I_I_Fighter_Pilot_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_IDF_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_desert_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_IDF_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
@@ -234,13 +234,13 @@ class I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 	faction = IND_I_F;
 	crew = I_I_Fighter_Pilot_F;
 	typicalCargo[] = {I_I_Fighter_Pilot_F};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_IDF_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_desert_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_IDF_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"

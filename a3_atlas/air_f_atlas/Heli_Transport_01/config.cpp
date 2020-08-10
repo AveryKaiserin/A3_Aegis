@@ -25,14 +25,14 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class IDF
+			class Desert
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext01_IDF_CO.paa",
-					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_IDF_CO.paa"
+					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext01_desert_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_desert_CO.paa"
 				};
 				factions[] = {IND_I_F};
 			};

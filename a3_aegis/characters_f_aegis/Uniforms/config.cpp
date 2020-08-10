@@ -19,6 +19,5 @@ class CfgWeapons
 	#include "cfgSpetsnaz.hpp"			// Russia
 	#include "cfgEAF.hpp"				// LDF
 	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgIon.hpp"				// ION
 };

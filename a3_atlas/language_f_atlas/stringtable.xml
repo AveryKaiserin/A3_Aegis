@@ -551,7 +551,7 @@
 					<Japanese>ヘリ乗員ヘルメット[軍団]</Japanese>
 					<Turkish>Helikopter Mürettebat Kaskı [Lejyon]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_HIDF0">
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_H0">
 					<Original>Crew Helmet [HIL]</Original>
 					<Chinese>隊員頭盔（HIL）</Chinese>
 					<French>Casque d'équipage [HIL]</French>
@@ -568,7 +568,7 @@
 					<Japanese>乗員ヘルメット[HIL]</Japanese>
 					<Turkish>Mürettebat Kaskı [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_HIDF0">
+				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_H0">
 					<Original>Heli Pilot Helmet [HIL]</Original>
 					<Chinese>直升機飛行員頭盔（HIL）</Chinese>
 					<French>Casque de pilote d'hélico [HIL]</French>
@@ -585,7 +585,7 @@
 					<Japanese>ヘリパイロットヘルメット[HIL]</Japanese>
 					<Turkish>Helikopter Pilotu Kaskı [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_HIDF0">
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_H0">
 					<Original>Heli Crew Helmet [HIL]</Original>
 					<Chinese>直升機隊員頭盔（HIL）</Chinese>
 					<French>Casque d'équipage d'hélico [HIL]</French>
@@ -842,7 +842,7 @@
 					<Japanese>戦闘服（セージ、袖まくり）</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Kolları Kıvrık)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_F0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_F0">
 					<Original>Combat Fatigues [HIL]</Original>
 					<Chinese>作戰戰鬥服（HIL）</Chinese>
 					<French>Treillis [HIL]</French>
@@ -859,7 +859,7 @@
 					<Japanese>戦闘服[HIL]</Japanese>
 					<Turkish>Savaş Asker Kıyafeti [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_2_F0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0">
 					<Original>Combat Fatigues (Rolled-up) [HIL]</Original>
 					<Chinese>作戰戰鬥服（捲起）（HIL）</Chinese>
 					<French>Treillis (manches retroussées) [HIL]</French>
@@ -876,7 +876,7 @@
 					<Japanese>戦闘服（ロールアップ）[HIL]</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Soldier_3_F0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0">
 					<Original>Combat Fatigues (Tank Top) [HIL]</Original>
 					<Chinese>作戰戰鬥服（上衣背心）（HIL）</Chinese>
 					<French>Treillis (manches débardeur) [HIL]</French>
@@ -893,7 +893,7 @@
 					<Japanese>戦闘服（タンクトップ）[HIL]</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Atlet) [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Officer_F0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Officer_F0">
 					<Original>Officer Fatigues [HIL]</Original>
 					<Chinese>軍官戰鬥服（HIL）</Chinese>
 					<French>Treillis d'officier [HIL]</French>
@@ -910,7 +910,7 @@
 					<Japanese>士官服[HIL]</Japanese>
 					<Turkish>Subay Kıyafeti [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_HIDF_Helipilot_F0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Helipilot_F0">
 					<Original>Heli Pilot Coveralls [HIL]</Original>
 					<Chinese>直升機飛行員連身服（HIL）</Chinese>
 					<French>Combinaisons Pilote Hélicoptère [HIL]</French>
@@ -1275,7 +1275,7 @@
 					<Japanese>軍団</Japanese>
 					<Turkish>Lejyon</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_HIDF_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_H_F0">
 					<Original>HIL</Original>
 					<Chinese>HIL</Chinese>
 					<French>HIL</French>
@@ -1417,7 +1417,7 @@
 		</Container>
 		<!--TODO-->
 		<Container name="FieldManual">
-			<Key ID="STR_A3_A_HIDF1">
+			<Key ID="STR_A3_A_HIL1">
 				<Original>HIL</Original>
 				<Chinese>HIL</Chinese>
 				<French>HIL</French>
@@ -1434,7 +1434,7 @@
 				<Japanese>HIL</Japanese>
 				<Turkish>HIL</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_HIDF0">
+			<Key ID="STR_A3_A_HIL0">
 				<Original>TODO</Original>
 				<Chinese>TODO</Chinese>
 				<French>TODO</French>
@@ -1661,6 +1661,244 @@
 			</Key>
 		</Container>
 		<Container name="Static_F">
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_AA_F0">
+				<Original>Static Titan Launcher (AA) [IDF]</Original>
+				<Chinese>固定式 Titan 發射器（AA）（IDF）</Chinese>
+				<French>Lance-roquettes fixe Titan (AA) [FDI]</French>
+				<Spanish>Lanzador Titan estático (AA) [FDI]</Spanish>
+				<Italian>Lanciatore Titan statico (AA) [FDI]</Italian>
+				<Polish>Statyczna wyrzutnia Titan (plot) [ISO]</Polish>
+				<Russian>Стационарная ПУ Titan (ПВО) [ИСО]</Russian>
+				<German>Statischer Titan-Werfer (Flugabwehr) [IV]</German>
+				<Czech>Statický odpalovač Titan (AA) [IOS]</Czech>
+				<English>Static Titan Launcher (AA) [IDF]</English>
+				<Portuguese>Lançador estático de Titan (ar-ar) [FDI]</Portuguese>
+				<Korean>고정 타이탄발사기(AA) [IDF]</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AA) [IDF]</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AA） [IDF]</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AA) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_AA_01_weapon_F_assembleInfo0">
+				<Original>Static AA Launcher</Original>
+				<Chinese>固定式 AA 發射器</Chinese>
+				<French>Lanceur fixe AA</French>
+				<Spanish>Lanzador estático AA</Spanish>
+				<Italian>Lanciarazzi AA statico</Italian>
+				<Polish>Statyczna wyrzutnia plot</Polish>
+				<Russian>Станковая зенитная установка</Russian>
+				<German>Statischer Flugabwehrwerfer</German>
+				<Czech>Statický AA odpalovač</Czech>
+				<English>Static AA Launcher</English>
+				<Portuguese>Lançador estático AA</Portuguese>
+				<Korean>고정 대공발사기</Korean>
+				<Chinesesimp>静态 AA 发射器</Chinesesimp>
+				<Japanese>固定式AAランチャー</Japanese>
+				<Turkish>Sabit AA Fırlatıcı</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_AA_01_weapon_F0">
+				<Original>Static Titan Launcher (AA) [IDF]</Original>
+				<Chinese>固定式 Titan 發射器（AA）（IDF）</Chinese>
+				<French>Lance-roquettes fixe Titan (AA) [FDI]</French>
+				<Spanish>Lanzador Titan estático (AA) [FDI]</Spanish>
+				<Italian>Lanciatore Titan statico (AA) [FDI]</Italian>
+				<Polish>Statyczna wyrzutnia Titan (plot) [ISO]</Polish>
+				<Russian>Стационарная ПУ Titan (ПВО) [ИСО]</Russian>
+				<German>Statischer Titan-Werfer (Flugabwehr) [IV]</German>
+				<Czech>Statický odpalovač Titan (AA) [IOS]</Czech>
+				<English>Static Titan Launcher (AA) [IDF]</English>
+				<Portuguese>Lançador estático de Titan (ar-ar) [FDI]</Portuguese>
+				<Korean>고정 타이탄발사기(AA) [IDF]</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AA) [IDF]</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AA） [IDF]</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AA) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_AT_F0">
+				<Original>Static Titan Launcher (AT) [IDF]</Original>
+				<Chinese>固定式 Titan 發射器（AT）（IDF）</Chinese>
+				<French>Lance-roquettes fixe Titan (AC) [FDI]</French>
+				<Spanish>Lanzador Titan estático (AT) [FDI]</Spanish>
+				<Italian>Lanciatore Titan statico (AC) [FDI]</Italian>
+				<Polish>Statyczna wyrzutnia Titan (ppanc) [ISO]</Polish>
+				<Russian>Стационарная ПУ Titan (ПТ) [ИСО]</Russian>
+				<German>Statischer Titan-Werfer (Panzerabwehr) [IV]</German>
+				<Czech>Statický odpalovač Titan (AT) [IOS]</Czech>
+				<English>Static Titan Launcher (AT) [IDF]</English>
+				<Portuguese>Lançador estático de Titan (antitanque) [FDI]</Portuguese>
+				<Korean>고정 타이탄발사기(AT) [IDF]</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AT) [IDF]</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AT） [IDF]</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AT) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F_assembleInfo0">
+				<Original>Static AT Launcher</Original>
+				<Chinese>固定式反戰車發射器</Chinese>
+				<French>Lanceur fixe AC</French>
+				<Spanish>Lanzador estático AT</Spanish>
+				<Italian>Lanciarazzi AT statico</Italian>
+				<Polish>Statyczna wyrzutnia ppanc</Polish>
+				<Russian>Станковая ПТ установка</Russian>
+				<German>Statischer Panzerabwehrwerfer</German>
+				<Czech>Statický AT odpalovač</Czech>
+				<English>Static AT Launcher</English>
+				<Portuguese>Lançador estático AT</Portuguese>
+				<Korean>고정 대전차발사기</Korean>
+				<Chinesesimp>静态 AT 发射器</Chinesesimp>
+				<Japanese>固定式ATランチャー</Japanese>
+				<Turkish>Sabit AT Fırlatıcı</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F0">
+				<Original>Static Titan Launcher (AT) [IDF]</Original>
+				<Chinese>固定式 Titan 發射器（AT）（IDF）</Chinese>
+				<French>Lance-roquettes fixe Titan (AC) [FDI]</French>
+				<Spanish>Lanzador Titan estático (AT) [FDI]</Spanish>
+				<Italian>Lanciatore Titan statico (AC) [FDI]</Italian>
+				<Polish>Statyczna wyrzutnia Titan (ppanc) [ISO]</Polish>
+				<Russian>Стационарная ПУ Titan (ПТ) [ИСО]</Russian>
+				<German>Statischer Titan-Werfer (Panzerabwehr) [IV]</German>
+				<Czech>Statický odpalovač Titan (AT) [IOS]</Czech>
+				<English>Static Titan Launcher (AT) [IDF]</English>
+				<Portuguese>Lançador estático de Titan (antitanque) [FDI]</Portuguese>
+				<Korean>고정 타이탄발사기(AT) [IDF]</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AT) [IDF]</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AT） [IDF]</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AT) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F0">
+				<Original>Remote Designator [IDF]</Original>
+				<Chinese>遠距指標器（IDF）</Chinese>
+				<French>Désignateur à distance [FDI]</French>
+				<Spanish>Marcador remoto [FDI]</Spanish>
+				<Italian>Designatore remoto [FDI]</Italian>
+				<Polish>Zdalny wskaźnik [ISO]</Polish>
+				<Russian>Дистанционный целеуказатель [ИСО]</Russian>
+				<German>Fernmarkierer [IV]</German>
+				<Czech>Dálkově ovládaný laserový značkovač [IOS]</Czech>
+				<English>Remote Designator [IDF]</English>
+				<Portuguese>Designador remoto [FDI]</Portuguese>
+				<Korean>원격 표시기 [IDF]</Korean>
+				<Chinesesimp>远程指示器 [IDF]</Chinesesimp>
+				<Japanese>リモート目標指示装置 [IDF]</Japanese>
+				<Turkish>Uzaktan İşaretleyici [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F_assembleInfo0">
+				<Original>Remote Designator [IDF]</Original>
+				<Chinese>遠距指標器（IDF）</Chinese>
+				<French>Désignateur à distance [FDI]</French>
+				<Spanish>Marcador remoto [FDI]</Spanish>
+				<Italian>Designatore remoto [FDI]</Italian>
+				<Polish>Zdalny wskaźnik [ISO]</Polish>
+				<Russian>Дистанционный целеуказатель [ИСО]</Russian>
+				<German>Fernmarkierer [IV]</German>
+				<Czech>Dálkově ovládaný laserový značkovač [IOS]</Czech>
+				<English>Remote Designator [IDF]</English>
+				<Portuguese>Designador remoto [FDI]</Portuguese>
+				<Korean>원격 표시기 [IDF]</Korean>
+				<Chinesesimp>远程指示器 [IDF]</Chinesesimp>
+				<Japanese>リモート目標指示装置 [IDF]</Japanese>
+				<Turkish>Uzaktan İşaretleyici [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_weapon_F0">
+				<Original>Remote Designator Bag [IDF]</Original>
+				<Chinese>遠距指標器袋（IDF）</Chinese>
+				<French>Sac de désignateur à distance [FDI]</French>
+				<Spanish>Bolsa para marcador remoto [FDI]</Spanish>
+				<Italian>Sacca designatore remoto [FDI]</Italian>
+				<Polish>Torba na zdalny wskaźnik [ISO]</Polish>
+				<Russian>Сумка для дистанционного целеуказателя [ИСО]</Russian>
+				<German>Fernmarkierertasche [IV]</German>
+				<Czech>Batoh s dálkovým laserovým značkovačem [IOS]</Czech>
+				<English>Remote Designator Bag [IDF]</English>
+				<Portuguese>Mochila do designador remoto [FDI]</Portuguese>
+				<Korean>원격 표시기 가방 [IDF]</Korean>
+				<Chinesesimp>远程指示器袋 [IDF]</Chinesesimp>
+				<Japanese>リモート目標指示装置バッグ [IDF]</Japanese>
+				<Turkish>Uzaktan İşaretleyici Çantası [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_01_support_F0">
+				<Original>Folded Tripod [IDF]</Original>
+				<Chinese>折起的三腳架（IDF）</Chinese>
+				<French>Trépied repliable [FDI]</French>
+				<Spanish>Trípode doblado [FDI]</Spanish>
+				<Italian>Treppiede ripiegato [FDI]</Italian>
+				<Polish>Złożony trójnóg [ISO]</Polish>
+				<Russian>Сложенная тренога [ИСО]</Russian>
+				<German>Eingeklapptes Dreibein [IV]</German>
+				<Czech>Složená trojnožka [IOS]</Czech>
+				<English>Folded Tripod [IDF]</English>
+				<Portuguese>Tripé dobrado [FDI]</Portuguese>
+				<Korean>접힌 삼각대[IDF]</Korean>
+				<Chinesesimp>折叠的三脚架 [IDF]</Chinesesimp>
+				<Japanese>折り畳み式三脚[IDF]</Japanese>
+				<Turkish>Katlanır Üçayak [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_01_support_high_F0">
+				<Original>Folded Tripod (Raised) [IDF]</Original>
+				<Chinese>折起的三腳架（架高）（IDF）</Chinese>
+				<French>Trépied repliable (rehaussé) [FDI]</French>
+				<Spanish>Trípode doblado (alzado) [FDI]</Spanish>
+				<Italian>Treppiede ripiegato (sollevato) [FDI]</Italian>
+				<Polish>Złożony trójnóg (podwyższony) [ISO]</Polish>
+				<Russian>Сложенная тренога (поднята) [ИСО]</Russian>
+				<German>Eingeklapptes Dreibein (erhöht) [IV]</German>
+				<Czech>Složená trojnožka (vztyčená) [IOS]</Czech>
+				<English>Folded Tripod (Raised) [IDF]</English>
+				<Portuguese>Tripé dobrado (erguido) [FDI]</Portuguese>
+				<Korean>접힌 삼각대 (상단거치)[IDF]</Korean>
+				<Chinesesimp>折叠的三脚架（升高）[IDF]</Chinesesimp>
+				<Japanese>折り畳み式三脚（持ち上げ） [IDF]</Japanese>
+				<Turkish>Katlanır Üçayak (Yükseltilmiş) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_01_weapon_F0">
+				<Original>Dismantled Mk30 HMG [IDF]</Original>
+				<Chinese>拆解後的 Mk30 重機槍（IDF）</Chinese>
+				<French>Mk30 HMG démontée [FDI]</French>
+				<Spanish>Mk30 HMG desmontada [FDI]</Spanish>
+				<Italian>Mk30 HMG smontato [FDI]</Italian>
+				<Polish>Złożony CKM Mk30 [ISO]</Polish>
+				<Russian>Разобранный пулемет Мк30 [ИСО]</Russian>
+				<German>Demontiertes Mk30 HMG [IV]</German>
+				<Czech>Rozebraný těžký kulomet Mk30 [IOS]</Czech>
+				<English>Dismantled Mk30 HMG [IDF]</English>
+				<Portuguese>Mk30 HMG desmontado [FDI]</Portuguese>
+				<Korean>분해된 Mk30 HMG[IDF]</Korean>
+				<Chinesesimp>拆解的 Mk30 HMG [IDF]</Chinesesimp>
+				<Japanese>分解Mk30 HMG [IDF]</Japanese>
+				<Turkish>Sökülmüş Mk30 HMG [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_01_A_weapon_F0">
+				<Original>Dismantled Autonomous MG [IDF]</Original>
+				<Chinese>拆解後的自動 MG（IDF）</Chinese>
+				<French>Mitrailleuse autonome démontée [FDI]</French>
+				<Spanish>Ametralladora autónoma desmontada [FDI]</Spanish>
+				<Italian>Mitragliatore autonomo smontato [FDI]</Italian>
+				<Polish>Złożony samodzielny KM [ISO]</Polish>
+				<Russian>Разобранный станковый пулемет [ИСО]</Russian>
+				<German>Demontiertes autonomes MG [IV]</German>
+				<Czech>Rozebraný autonomní kulomet [IOS]</Czech>
+				<English>Dismantled Autonomous MG [IDF]</English>
+				<Portuguese>Metralhadora autônoma desmontada [FDI]</Portuguese>
+				<Korean>분해된 무인MG[IDF]</Korean>
+				<Chinesesimp>拆解的自主 MG [IDF]</Chinesesimp>
+				<Japanese>分解自立MG [IDF]</Japanese>
+				<Turkish>Sökülmüş Otonom MG [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_01_high_weapon_F0">
+				<Original>Dismantled Mk30 HMG (Raised) [IDF]</Original>
+				<Chinese>拆解後的 Mk30 重機槍（架高）（IDF）</Chinese>
+				<French>Mk30 HMG démontée (rehaussée) [FDI]</French>
+				<Spanish>Mk30 GMG desmontada (alzada) [FDI]</Spanish>
+				<Italian>Mk30 HMG smontato (sollevato) [FDI]</Italian>
+				<Polish>Złożony CKM Mk30 (podwyższony) [ISO]</Polish>
+				<Russian>Разобранный пулемет Мк30 (установлен) [ИСО]</Russian>
+				<German>Demontiertes Mk30 HMG (erhöht) [IV]</German>
+				<Czech>Rozebraný těžký kulomet Mk30 (vztyčený) [IOS]</Czech>
+				<English>Dismantled Mk30 HMG (Raised) [IDF]</English>
+				<Portuguese>Mk30 HMG desmontada (erguida) [FDI]</Portuguese>
+				<Korean>분해된 Mk30 HMG (상단거치)[IDF]</Korean>
+				<Chinesesimp>拆解的 Mk30 HMG（升高）[IDF]</Chinesesimp>
+				<Japanese>分解Mk30 HMG（持ち上げ） [IDF]</Japanese>
+				<Turkish>Sökülmüş Mk30 HMG (Yükseltilmiş) [ISG]</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_HMG_02_support_F0">
 				<Original>Folded Tripod M2 HMG .50 [IDF]</Original>
 				<Chinese>Folded Tripod M2 HMG .50 [IDF]</Chinese>
@@ -1728,6 +1966,91 @@
 				<Chinesesimp>Dismantled M2 HMG .50 (Raised) [IDF]</Chinesesimp>
 				<Japanese>Dismantled M2 HMG .50 (Raised) [IDF]</Japanese>
 				<Turkish>Dismantled M2 HMG .50 (Raised) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_GMG_01_weapon_F0">
+				<Original>Dismantled Mk32 GMG [IDF]</Original>
+				<Chinese>拆解後的 Mk32 榴彈機槍（IDF）</Chinese>
+				<French>Mk32 GMG démontée [FDI]</French>
+				<Spanish>Mk32 GMG desmontada [FDI]</Spanish>
+				<Italian>Mk32 GMG smontata [FDI]</Italian>
+				<Polish>Złożony GA Mk32 [ISO]</Polish>
+				<Russian>Разобранный авт. гранатомет Мк32 [ИСО]</Russian>
+				<German>Demontiertes Mk32 GMG [IV]</German>
+				<Czech>Rozebraný granátomet Mk32 [IOS]</Czech>
+				<English>Dismantled Mk32 GMG [IDF]</English>
+				<Portuguese>Mk32 GMG desmontado [FDI]</Portuguese>
+				<Korean>분해된 Mk32 GMG[IDF]</Korean>
+				<Chinesesimp>拆解的 Mk32 GMG [IDF]</Chinesesimp>
+				<Japanese>分解Mk32 GMG [IDF]</Japanese>
+				<Turkish>Sökülmüş Mk32 GMG [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_GMG_01_A_weapon_F0">
+				<Original>Dismantled Autonomous GMG [IDF]</Original>
+				<Chinese>拆解後的自動榴彈機槍（IDF）</Chinese>
+				<French>GMG autonome démontée [FDI]</French>
+				<Spanish>GMG autónoma desmontada [FDI]</Spanish>
+				<Italian>GMG autonomo smontato [FDI]</Italian>
+				<Polish>Złożony samodzielny GA [ISO]</Polish>
+				<Russian>Разобранный автономный авт. гранатомет [ИСО]</Russian>
+				<German>Demontiertes autonomes GMG [IV]</German>
+				<Czech>Rozebraný autonomní granátomet [IOS]</Czech>
+				<English>Dismantled Autonomous GMG [IDF]</English>
+				<Portuguese>Lança-granadas autônomo desmontado [FDI]</Portuguese>
+				<Korean>분해된 무인GMG[IDF]</Korean>
+				<Chinesesimp>拆解的自主 GMG [IDF]</Chinesesimp>
+				<Japanese>分解自立GMG [IDF]</Japanese>
+				<Turkish>Sökülmüş Otonom GMG [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_GMG_01_high_weapon_F0">
+				<Original>Dismantled Mk32 GMG (Raised) [IDF]</Original>
+				<Chinese>拆解後的 Mk32 榴彈機槍（架高）（IDF）</Chinese>
+				<French>Mk32 GMG démontée (rehaussée) [FDI]</French>
+				<Spanish>Mk32 GMG desmontada (alzada) [FDI]</Spanish>
+				<Italian>Mk32 GMG smontato (sollevato) [FDI]</Italian>
+				<Polish>Złożony GA Mk32 (podwyższony) [ISO]</Polish>
+				<Russian>Разобранный авт. гранатомет Мк32 (установлен) [ИСО]</Russian>
+				<German>Demontiertes Mk32 GMG (erhöht) [IV]</German>
+				<Czech>Rozebraný granátomet Mk32 (vztyčený) [IOS]</Czech>
+				<English>Dismantled Mk32 GMG (Raised) [IDF]</English>
+				<Portuguese>Mk32 GMG desmontado (erguido) [FDI]</Portuguese>
+				<Korean>분해된 Mk32 GMG (상단거치)[IDF]</Korean>
+				<Chinesesimp>拆解的 Mk32 GMG（升高）[IDF]</Chinesesimp>
+				<Japanese>分解Mk32 GMG（持ち上げ） [IDF]</Japanese>
+				<Turkish>Sökülmüş Mk32 GMG (Yükseltilmiş) [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Mortar_01_support_F0">
+				<Original>Folded Mk6 Mortar Bipod [IDF]</Original>
+				<Chinese>折起的 Mk6 迫擊砲二腳架（IDF）</Chinese>
+				<French>Bipied repliable pour mortier Mk6 [FDI]</French>
+				<Spanish>Mortero bípode plegado Mk6 [FDI]</Spanish>
+				<Italian>Cavalletto per mortaio Mk6 ripiegato [FDI]</Italian>
+				<Polish>Składany dwójnóg moździerza Mk6 [ISO]</Polish>
+				<Russian>Миномет Mk6 - сложенная сошка [ИСО]</Russian>
+				<German>Klappbares Zweibein für Mörser Mk6 [IV]</German>
+				<Czech>Složená dvojnožka minometu Mk6 [IOS]</Czech>
+				<English>Folded Mk6 Mortar Bipod [IDF]</English>
+				<Portuguese>Morteiro Mk6 bípede dobrável [FDI]</Portuguese>
+				<Korean>접힌 Mk6 박격포 포다리[IDF]</Korean>
+				<Chinesesimp>折叠的 Mk6 迫击炮两脚架 [IDF]</Chinesesimp>
+				<Japanese>折り畳み式Mk6迫撃砲二脚架[IDF]</Japanese>
+				<Turkish>Katlı Mk6 Havan Topu İkili Ayağı [ISG]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_I_Mortar_01_weapon_F0">
+				<Original>Folded Mk6 Mortar Tube [IDF]</Original>
+				<Chinese>折起的 Mk6 迫擊砲砲管（IDF）</Chinese>
+				<French>Tube pour mortier Mk6 [FDI]</French>
+				<Spanish>Tubo de mortero plegado Mk6 [FDI]</Spanish>
+				<Italian>Tubo per mortaio Mk6 ripiegato [FDI]</Italian>
+				<Polish>Składana lufa moździerza Mk6 [ISO]</Polish>
+				<Russian>Миномет Mk6 - сложенный ствол [ИСО]</Russian>
+				<German>Klappbares Mörserrohr für Mörser Mk6 [IV]</German>
+				<Czech>Složená hlaveň minometu Mk6 [IOS]</Czech>
+				<English>Folded Mk6 Mortar Tube [IDF]</English>
+				<Portuguese>Tubo do morteiro Mk6 dobrado [FDI]</Portuguese>
+				<Korean>접힌 Mk6 박격포 포열[IDF]</Korean>
+				<Chinesesimp>折叠的 Mk6 迫击炮管 [IDF]</Chinesesimp>
+				<Japanese>折り畳み式Mk6迫撃砲発射薬筒[IDF]</Japanese>
+				<Turkish>Katlı Mk6 Havan Topu Tüpü [ISG]</Turkish>
 			</Key>
 		</Container>
 		<Container name="Structures_F">
@@ -1823,7 +2146,7 @@
 					<Japanese>物資箱[軍団]</Japanese>
 					<Turkish>İkmal Kutusu [Lejyon]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_Wps_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_H_Wps_F0">
 					<Original>Basic Weapons [HIL]</Original>
 					<Chinese>基本武器（HIL）</Chinese>
 					<French>Armes de base [HIL]</French>
@@ -1840,7 +2163,7 @@
 					<Japanese>基本武器[HIL]</Japanese>
 					<Turkish>Temel Silahlar [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_Ammo_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_H_Ammo_F0">
 					<Original>Basic Ammo [HIL]</Original>
 					<Chinese>基本彈藥（HIL）</Chinese>
 					<French>Munitions de base [HIL]</French>
@@ -1857,7 +2180,7 @@
 					<Japanese>基本弾薬[HIL]</Japanese>
 					<Turkish>Temel Mühimmat [HIL]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_HIDF_WpsLaunch_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_H_WpsLaunch_F0">
 					<Original>Launchers [HIL]</Original>
 					<Chinese>發射器（HIL）</Chinese>
 					<French>Lanceurs [HIL]</French>

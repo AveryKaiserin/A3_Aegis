@@ -7,11 +7,6 @@ class O_T_Soldier_A_F: O_Soldier_A_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_12(30Rnd_580x42_Mag_F),
@@ -36,11 +31,6 @@ class O_T_Soldier_AAR_F: O_Soldier_AAR_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -59,15 +49,15 @@ class O_T_Soldier_AAR_F: O_Soldier_AAR_F
     };
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -81,11 +71,6 @@ class O_T_Support_AMG_F: O_support_AMG_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -102,20 +87,6 @@ class O_T_Support_AMG_F: O_support_AMG_F
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Support_AMort_F: O_support_AMort_F
 {
@@ -126,11 +97,6 @@ class O_T_Support_AMort_F: O_support_AMort_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -147,20 +113,6 @@ class O_T_Support_AMort_F: O_support_AMort_F
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Soldier_AAA_F: O_Soldier_AAA_F
 {
@@ -171,11 +123,6 @@ class O_T_Soldier_AAA_F: O_Soldier_AAA_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -194,15 +141,15 @@ class O_T_Soldier_AAA_F: O_Soldier_AAA_F
     };
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -216,11 +163,6 @@ class O_T_Soldier_AAT_F: O_Soldier_AAT_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -239,15 +181,15 @@ class O_T_Soldier_AAT_F: O_Soldier_AAT_F
     };
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -260,11 +202,6 @@ class O_T_Soldier_AR_F: O_Soldier_AR_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
 	weapons[] =
 	{
@@ -302,11 +239,6 @@ class O_T_Medic_F: O_medic_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ACO_Pointer_F,
@@ -325,9 +257,7 @@ class O_T_Medic_F: O_medic_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
     };
     respawnMagazines[] =
     {
@@ -335,9 +265,7 @@ class O_T_Medic_F: O_medic_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
     };
 };
 class O_T_Crew_F: O_crew_F
@@ -349,25 +277,6 @@ class O_T_Crew_F: O_crew_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
-    linkedItems[] =
-    {
-        H_HelmetCrew_O_ghex_F,
-        V_TacVest_oli,
-        DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetCrew_O_ghex_F,
-        V_TacVest_oli,
-        DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
-    };
 };
 class O_T_Engineer_F: O_engineer_F
 {
@@ -377,20 +286,13 @@ class O_T_Engineer_F: O_engineer_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_6(30Rnd_580x42_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
@@ -398,9 +300,7 @@ class O_T_Engineer_F: O_engineer_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
 };
 class O_T_Soldier_Exp_F: O_soldier_exp_F
@@ -410,11 +310,6 @@ class O_T_Soldier_Exp_F: O_soldier_exp_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     magazines[] =
     {
@@ -468,15 +363,15 @@ class O_T_Soldier_GL_F: O_Soldier_GL_F
     };
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessOGL_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessOGL_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -490,11 +385,6 @@ class O_T_Support_GMG_F: O_support_GMG_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -511,20 +401,6 @@ class O_T_Support_GMG_F: O_support_GMG_F
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Support_MG_F: O_support_MG_F
 {
@@ -535,11 +411,6 @@ class O_T_Support_MG_F: O_support_MG_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -556,20 +427,6 @@ class O_T_Support_MG_F: O_support_MG_F
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Support_Mort_F: O_support_Mort_F
 {
@@ -579,11 +436,6 @@ class O_T_Support_Mort_F: O_support_Mort_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     backpack = O_T_Mortar_01_weapon_F;
     magazines[] =
@@ -602,20 +454,6 @@ class O_T_Support_Mort_F: O_support_Mort_F
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetO_ghex_F,
-		V_ChestrigF_ghex_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Helicrew_F: O_helicrew_F
 {
@@ -641,16 +479,12 @@ class O_T_Helicrew_F: O_helicrew_F
 	magazines[] =
 	{
         mag_4(30Rnd_580x42_Mag_F),
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_580x42_Mag_F),
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
 	};
     linkedItems[] =
     {
@@ -722,11 +556,6 @@ class O_T_Soldier_M_F: O_soldier_M_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         srifle_DMR_07_blk_DMS_F,
@@ -755,6 +584,20 @@ class O_T_Soldier_M_F: O_soldier_M_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
+    linkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
 };
 class O_T_Soldier_AA_F: O_Soldier_AA_F
 {
@@ -763,11 +606,6 @@ class O_T_Soldier_AA_F: O_Soldier_AA_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     magazines[] =
     {
@@ -793,11 +631,6 @@ class O_T_Soldier_AT_F: O_Soldier_AT_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     magazines[] =
     {
@@ -828,14 +661,14 @@ class O_T_Officer_F: O_officer_F
     weapons[] =
     {
         arifle_CTAR_blk_F,
-        hgun_Rook40_F,
+        hgun_Pistol_heavy_02_Yorris_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_CTAR_blk_F,
-        hgun_Rook40_F,
+        hgun_Pistol_heavy_02_Yorris_F,
         DefaultManWeapons,
         Binocular
     };
@@ -843,17 +676,13 @@ class O_T_Officer_F: O_officer_F
     {
         mag_4(30Rnd_580x42_Mag_F),
         mag_2(6Rnd_45ACP_Cylinder),
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_580x42_Mag_F),
         mag_2(6Rnd_45ACP_Cylinder),
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
     linkedItems[] =
     {
@@ -879,11 +708,6 @@ class O_T_Soldier_PG_F: O_soldier_PG_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_10(30Rnd_580x42_Mag_F),
@@ -898,6 +722,22 @@ class O_T_Soldier_PG_F: O_soldier_PG_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+        ItemGPS,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+        ItemGPS,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
 };
 class O_T_Pilot_F: O_Pilot_F
 {
@@ -910,6 +750,18 @@ class O_T_Pilot_F: O_Pilot_F
     };
     uniformClass = U_O_T_Pilot_F;
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_tna_CO.paa"};
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
 };
 class O_T_Soldier_Repair_F: O_soldier_repair_F
 {
@@ -918,11 +770,6 @@ class O_T_Soldier_Repair_F: O_soldier_repair_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     magazines[] =
     {
@@ -947,11 +794,6 @@ class O_T_Soldier_F: O_Soldier_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     weapons[] =
     {
@@ -988,11 +830,6 @@ class O_T_Soldier_LAT_F: O_Soldier_LAT_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     weapons[] =
     {
@@ -1034,71 +871,38 @@ class O_T_Soldier_SL_F: O_Soldier_SL_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
-	weapons[] =
-	{
-		arifle_CTAR_GL_blk_ARCO_Pointer_F,
-		hgun_Rook40_F,
-		DefaultManWeapons,
-		Binocular
-	};
-	respawnWeapons[] =
-	{
-		arifle_CTAR_GL_blk_ARCO_Pointer_F,
-		hgun_Rook40_F,
-		DefaultManWeapons,
-		Binocular
-	};
     magazines[] =
     {
         mag_4(30Rnd_580x42_Mag_F),
         mag_2(30Rnd_580x42_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow,
-        1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_580x42_Mag_F),
         mag_2(30Rnd_580x42_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow,
-        1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
 	linkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetLeaderO_ghex_F,
-		V_HarnessO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetLeaderO_ghex_F,
-		V_HarnessO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1113,11 +917,6 @@ class O_T_Soldier_TL_F: O_Soldier_TL_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_4(30Rnd_580x42_Mag_F),
@@ -1126,13 +925,9 @@ class O_T_Soldier_TL_F: O_Soldier_TL_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow,
+        SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell
+		SOLDIER_SMOKE_GRENADES_OPFOR
     };
     respawnMagazines[] =
     {
@@ -1142,30 +937,10 @@ class O_T_Soldier_TL_F: O_Soldier_TL_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow,
+        SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell,
-		1Rnd_SmokeYellow_Grenade_shell
+		SOLDIER_SMOKE_GRENADES_OPFOR
     };
-	linkedItems[] =
-	{
-		H_HelmetLeaderO_ghex_F,
-		V_HarnessO_ghex_F,
-        ItemGPS,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetLeaderO_ghex_F,
-		V_HarnessO_ghex_F,
-        ItemGPS,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Soldier_UAV_F: O_soldier_UAV_F
 {
@@ -1174,11 +949,6 @@ class O_T_Soldier_UAV_F: O_soldier_UAV_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     magazines[] =
     {
@@ -1231,11 +1001,6 @@ class O_T_Recon_Exp_F: O_recon_exp_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ACO_Pointer_Snds_F,
@@ -1268,19 +1033,19 @@ class O_T_Recon_Exp_F: O_recon_exp_F
     };
 	linkedItems[] =
 	{
-		H_HelmetSpecO_ghex_F,
-		V_HarnessOSpec_ghex_F,
+		V_HarnessO_ghex_F,
+		H_HelmetSpecO_blk,
         ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecO_ghex_F,
-		V_HarnessOSpec_ghex_F,
+		V_HarnessO_ghex_F,
+		H_HelmetSpecO_blk,
         ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		O_NVGoggles_blk_F
 	};
 };
 class O_T_Recon_JTAC_F: O_recon_JTAC_F
@@ -1291,11 +1056,6 @@ class O_T_Recon_JTAC_F: O_recon_JTAC_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_SF
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
 	backpack = B_RadioBag_01_ghex_F;
     weapons[] =
@@ -1320,9 +1080,11 @@ class O_T_Recon_JTAC_F: O_recon_JTAC_F
         mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
-        mag_2(SmokeShell),
+        SmokeShell,
+		SOLDIER_SMOKE_SHELLS_OPFOR,
         mag_2(Chemlight_red),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        1Rnd_Smoke_Grenade_shell,
+        SOLDIER_SMOKE_GRENADES_OPFOR
     };
     respawnMagazines[] =
     {
@@ -1332,13 +1094,15 @@ class O_T_Recon_JTAC_F: O_recon_JTAC_F
         mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
-        mag_2(SmokeShell),
+        SmokeShell,
+		SOLDIER_SMOKE_SHELLS_OPFOR,
         mag_2(Chemlight_red),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        1Rnd_Smoke_Grenade_shell,
+        SOLDIER_SMOKE_GRENADES_OPFOR
     };
 	linkedItems[] =
 	{
-		H_HelmetLeaderO_ghex_F,
+		H_HelmetSpecO_ghex_F,
 		V_HarnessOGL_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
@@ -1346,7 +1110,7 @@ class O_T_Recon_JTAC_F: O_recon_JTAC_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetLeaderO_ghex_F,
+		H_HelmetSpecO_ghex_F,
 		V_HarnessOGL_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
@@ -1362,11 +1126,6 @@ class O_T_Recon_M_F: O_recon_M_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         srifle_DMR_07_blk_DMS_Snds_F,
@@ -1399,16 +1158,16 @@ class O_T_Recon_M_F: O_recon_M_F
     };
 	linkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetSpecO_blk,
-		V_Chestrig_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetSpecO_blk,
-		V_Chestrig_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
@@ -1423,11 +1182,6 @@ class O_T_Recon_Medic_F: O_recon_medic_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ACO_Pointer_Snds_F,
@@ -1447,9 +1201,7 @@ class O_T_Recon_Medic_F: O_recon_medic_F
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -1459,27 +1211,9 @@ class O_T_Recon_Medic_F: O_recon_medic_F
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
-	linkedItems[] =
-	{
-		H_HelmetSpecO_ghex_F,
-		V_HarnessOSpec_ghex_F,
-        ItemGPS,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetSpecO_ghex_F,
-		V_HarnessOSpec_ghex_F,
-        ItemGPS,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
 };
 class O_T_Recon_F: O_recon_F
 {
@@ -1490,11 +1224,6 @@ class O_T_Recon_F: O_recon_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ARCO_Pointer_Snds_F,
@@ -1527,16 +1256,16 @@ class O_T_Recon_F: O_recon_F
     };
 	linkedItems[] =
 	{
-		H_HelmetSpecO_ghex_F,
 		V_HarnessOSpec_ghex_F,
+		H_HelmetSpecO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecO_ghex_F,
 		V_HarnessOSpec_ghex_F,
+		H_HelmetSpecO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1551,11 +1280,6 @@ class O_T_Recon_LAT_F: O_recon_LAT_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ACO_Pointer_Snds_F,
@@ -1590,16 +1314,16 @@ class O_T_Recon_LAT_F: O_recon_LAT_F
     };
 	linkedItems[] =
 	{
+        V_TacVest_oli,
 		H_HelmetSpecO_blk,
-		V_HarnessOSpec_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
+        V_TacVest_oli,
 		H_HelmetSpecO_blk,
-		V_HarnessOSpec_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_blk_F
@@ -1614,11 +1338,6 @@ class O_T_Recon_TL_F: O_recon_TL_F
         Head_Asian,
         G_IRAN_SF
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     weapons[] =
     {
         arifle_CTAR_blk_ARCO_Pointer_Snds_F,
@@ -1640,9 +1359,7 @@ class O_T_Recon_TL_F: O_recon_TL_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		SmokeShell,
-		SmokeShellRed,
-		SmokeShellOrange,
-		SmokeShellYellow,
+        SOLDIER_SMOKE_SHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -1652,23 +1369,21 @@ class O_T_Recon_TL_F: O_recon_TL_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		SmokeShell,
-		SmokeShellRed,
-		SmokeShellOrange,
-		SmokeShellYellow,
+        SOLDIER_SMOKE_SHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
 	linkedItems[] =
 	{
-		H_HelmetLeaderO_ghex_F,
 		V_HarnessOSpec_ghex_F,
+		H_HelmetLeaderO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetLeaderO_ghex_F,
 		V_HarnessOSpec_ghex_F,
+		H_HelmetLeaderO_ghex_F,
         ItemGPS,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1685,7 +1400,7 @@ class O_T_Sniper_F: O_sniper_F
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa",
         "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_tna_CO.paa"
     };
@@ -1709,6 +1424,20 @@ class O_T_Sniper_F: O_sniper_F
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
     };
+    linkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
 };
 class O_T_Spotter_F: O_spotter_F
 {
@@ -1721,20 +1450,20 @@ class O_T_Spotter_F: O_spotter_F
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa",
         "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_tna_CO.paa"
     };
     weapons[] =
     {
-        arifle_CTAR_blk_ARCO_Pointer_F,
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02_ghex_F
     };
     respawnWeapons[] =
     {
-        arifle_CTAR_blk_ARCO_Pointer_F,
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02_ghex_F
@@ -1775,14 +1504,14 @@ class O_T_ghillie_tna_F: O_ghillie_base_F
     };
     linkedItems[] =
     {
-        V_TacVest_oli,
+        V_TacChestrig_oli_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
     respawnLinkedItems[] =
     {
-        V_TacVest_oli,
+        V_TacChestrig_oli_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
@@ -1797,11 +1526,6 @@ class O_T_Soldier_HAT_F: O_Soldier_HAT_F
         LanguageCHI_F,
         Head_Asian,
         G_IRAN_default
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     weapons[] =
     {
@@ -1843,11 +1567,6 @@ class O_T_Soldier_AHAT_F: O_Soldier_AHAT_F
         Head_Asian,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
-        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
     magazines[] =
     {
         mag_8(30Rnd_580x42_Mag_F),
@@ -1866,15 +1585,15 @@ class O_T_Soldier_AHAT_F: O_Soldier_AHAT_F
     };
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -1892,13 +1611,12 @@ class O_T_Soldier_Lite_F: O_Soldier_lite_F
         Head_Asian,
         G_IRAN_default
     };
-    uniformClass = U_O_T_officer_noInsignia_ghex_F;
-    hiddenSelections[] =
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
     {
-        camo,
-        insignia
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
-    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_tna_CO.paa"};
     weapons[] =
     {
         arifle_CTAR_blk_F,
@@ -1923,14 +1641,14 @@ class O_T_Soldier_Lite_F: O_Soldier_lite_F
     };
     linkedItems[] =
     {
-        H_MilCap_ghex_F,
         V_BandollierB_ghex_F,
+        H_MilCap_ghex_F,
         DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_MilCap_ghex_F,
         V_BandollierB_ghex_F,
+        H_MilCap_ghex_F,
         DefaultManLinkedItems
     };
 };
@@ -1949,20 +1667,20 @@ class O_T_Soldier_CQ_F: O_Soldier_CQ_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     linkedItems[] =
     {
-        H_HelmetO_ghex_F,
         V_TacVest_oli,
+        H_HelmetO_ghex_F,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
     respawnLinkedItems[] =
     {
-        H_HelmetO_ghex_F,
         V_TacVest_oli,
+        H_HelmetO_ghex_F,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
@@ -1982,21 +1700,21 @@ class O_T_Recon_CQ_F: O_recon_CQ_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     linkedItems[] =
     {
+        V_TacVest_oli,
         H_HelmetSpecO_ghex_F,
-        V_HarnessOSpec_ghex_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
     respawnLinkedItems[] =
     {
+        V_TacVest_oli,
         H_HelmetSpecO_ghex_F,
-        V_HarnessOSpec_ghex_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
@@ -2017,7 +1735,7 @@ class O_T_Recon_AR_F: O_recon_AR_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
 	weapons[] =
@@ -2050,16 +1768,16 @@ class O_T_Recon_AR_F: O_recon_AR_F
     };
     linkedItems[] =
     {
-        H_HelmetSpecO_blk,
         V_HarnessOSpec_ghex_F,
+        H_HelmetSpecO_blk,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_blk_F
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecO_blk,
         V_HarnessOSpec_ghex_F,
+        H_HelmetSpecO_blk,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_blk_F
@@ -2080,18 +1798,18 @@ class O_T_Recon_GL_F: O_recon_GL_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
 	weapons[] =
 	{
-        arifle_CTAR_GL_blk_ACO_Pointer_Snds_F,
+        arifle_CTAR_GL_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_CTAR_GL_blk_ACO_Pointer_Snds_F,
+        arifle_CTAR_GL_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
@@ -2117,16 +1835,16 @@ class O_T_Recon_GL_F: O_recon_GL_F
     };
     linkedItems[] =
     {
-        H_HelmetSpecO_blk,
         V_HarnessOGL_ghex_F,
+        H_HelmetSpecO_blk,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_blk_F
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecO_blk,
         V_HarnessOGL_ghex_F,
+        H_HelmetSpecO_blk,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_blk_F
@@ -2147,34 +1865,20 @@ class O_T_Sharpshooter_F: O_Sharpshooter_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
-    };
-    weapons[] =
-    {
-        srifle_DMR_05_ghex_KHS_LP_BI_F,
-        hgun_Rook40_F,
-        DefaultManWeapons,
-        Rangefinder
-    };
-    respawnWeapons[] =
-    {
-        srifle_DMR_05_ghex_KHS_LP_BI_F,
-        hgun_Rook40_F,
-        DefaultManWeapons,
-        Rangefinder
     };
     linkedItems[] =
     {
+        V_HarnessO_ghex_F,
         H_HelmetO_ghex_F,
-        V_TacVest_oli,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
     respawnLinkedItems[] =
     {
+        V_HarnessO_ghex_F,
         H_HelmetO_ghex_F,
-        V_TacVest_oli,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
@@ -2194,7 +1898,7 @@ class O_T_Pathfinder_F: O_Pathfinder_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     weapons[] =
@@ -2213,16 +1917,16 @@ class O_T_Pathfinder_F: O_Pathfinder_F
     };
     linkedItems[] =
     {
+        V_HarnessO_ghex_F,
         H_HelmetSpecO_ghex_F,
-        V_HarnessOSpec_ghex_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
     };
     respawnLinkedItems[] =
     {
+        V_HarnessO_ghex_F,
         H_HelmetSpecO_ghex_F,
-        V_HarnessOSpec_ghex_F,
         ItemGPS,
         DefaultManLinkedItems,
         O_NVGoggles_ghex_F
@@ -2243,7 +1947,7 @@ class O_T_HeavyGunner_F: O_HeavyGunner_F
     uniformClass = U_O_T_Soldier_F;
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
         "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
     };
     weapons[] =
@@ -2293,14 +1997,14 @@ class O_T_ghillie_spotter_tna_F: O_T_ghillie_tna_F
     cost = 250000;
     weapons[] =
     {
-        arifle_CTAR_blk_ARCO_Pointer_F,
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02_ghex_F
     };
     respawnWeapons[] =
     {
-        arifle_CTAR_blk_ARCO_Pointer_F,
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02_ghex_F
@@ -2315,9 +2019,7 @@ class O_T_ghillie_spotter_tna_F: O_T_ghillie_tna_F
         mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
@@ -2329,23 +2031,7 @@ class O_T_ghillie_spotter_tna_F: O_T_ghillie_tna_F
         mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellOrange,
-        SmokeShellYellow
-    };
-    linkedItems[] =
-    {
-        V_TacChestRig_oli_F,
-        ItemGPS,
-        DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
-    };
-    respawnLinkedItems[] =
-    {
-        V_TacChestRig_oli_F,
-        ItemGPS,
-        DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
+        SOLDIER_SMOKE_SHELLS_OPFOR
     };
 };
 class O_T_Fighter_Pilot_F: O_Fighter_Pilot_F
@@ -2372,16 +2058,16 @@ class O_T_Soldier_CBRN_F: O_T_Soldier_F
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
 	linkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetO_ghex_F,
-		V_HarnessO_ghex_F,
 		G_AirPurifyingRespirator_02_olive_F,
 		DefaultManCbrnLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
+		V_TacVest_oli,
 		H_HelmetO_ghex_F,
-		V_HarnessO_ghex_F,
 		G_AirPurifyingRespirator_02_olive_F,
 		DefaultManCbrnLinkedItems,
 		O_NVGoggles_ghex_F
@@ -2427,15 +2113,15 @@ class O_T_RadioOperator_F: O_T_Soldier_F
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	linkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetO_ghex_F,
 		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
@@ -2483,4 +2169,19 @@ class O_T_soldier_UGV_02_Science_F: O_T_Soldier_UAV_F
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
 	backpack = O_UGV_02_Science_backpack_F;
+};
+class O_T_Survivor_F: O_T_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Survivor_F.jpg";
+	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
+	weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	items[] = {};
+	respawnItems[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] = {};
+	respawnLinkedItems[] = {};
+	role = Unarmed;
 };

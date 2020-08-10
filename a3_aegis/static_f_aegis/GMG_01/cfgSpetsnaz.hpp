@@ -67,7 +67,7 @@ class O_R_GMG_01_Weapon_F: B_GMG_01_weapon_F
 		assembleTo = O_R_GMG_01_F;
 	};
 };
-class O_R_GMG_01_A_Weapon_F: I_GMG_01_A_weapon_F
+class O_R_GMG_01_A_Weapon_F: B_GMG_01_A_weapon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	displayName = $STR_A3_A_CfgVehicles_O_R_GMG_01_A_Weapon_F0;

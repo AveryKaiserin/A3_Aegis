@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class A3_Atlas_Weapons_F_Atlas_Rifles_SCAR
+	class A3_Aegis_Weapons_F_Aegis_Rifles_SCAR
 	{
-		addonRootClass = A3_Atlas_Weapons_F_Atlas;
-		requiredAddons[] = {A3_Atlas_Weapons_F_Atlas};
+		addonRootClass = A3_Aegis_Weapons_F_Aegis;
+		requiredAddons[] = {A3_Aegis_Weapons_F_Aegis};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};
 		weapons[] = {/* Auto-compiled by pboProject */};

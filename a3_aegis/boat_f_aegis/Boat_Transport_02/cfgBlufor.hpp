@@ -31,8 +31,8 @@ class B_Boat_Transport_02_F: Boat_Transport_02_base_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Boat_Transport_02_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = private;
 	side = TWest;
 	faction = BLU_F;
 	crew = B_Soldier_F;

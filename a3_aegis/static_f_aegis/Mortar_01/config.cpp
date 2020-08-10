@@ -46,12 +46,6 @@ class CfgVehicles
 				factions[] = {OPF_T_F};
 			};
 		};
-		textureList[] =
-		{
-			Green,1,
-			Hex,0,
-			GreenHex,0
-		};
 	};
 	class B_Mortar_01_F;
 	class O_Mortar_01_F;
@@ -70,11 +64,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] +=
-			{
-				B_Mortar_01_support_grn_F,
-				O_R_Mortar_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_MORTAR_01};
 		};
 	};
 	class O_Mortar_01_weapon_F: B_Mortar_01_weapon_F{};
@@ -113,5 +103,4 @@ class CfgVehicles
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

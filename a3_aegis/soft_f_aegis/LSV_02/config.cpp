@@ -278,5 +278,4 @@ class CfgVehicles
 	#include "cfgViper.hpp"
 	#include "cfgOpfor_Tacops.hpp"
 	#include "cfgSpetsnaz.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

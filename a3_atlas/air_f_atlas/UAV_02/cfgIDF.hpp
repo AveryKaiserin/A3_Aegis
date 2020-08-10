@@ -61,12 +61,12 @@ class I_I_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	side = TGuerrila;
-	faction = IND_I_F;
 	crew = I_UAV_AI;
 	typicalCargo[] = {I_UAV_AI};
+	side = TGuerrila;
+	faction = IND_I_F;
 	accuracy = 1;
-	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_02_dynamicLoadout_F0;
+	displayName = $STR_A3_CfgVehicles_UAV_02_base0;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_IDF_CO.paa"};
 	textureList[] = {IDF,1};
 };

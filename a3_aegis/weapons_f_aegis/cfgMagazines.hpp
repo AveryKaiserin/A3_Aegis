@@ -310,18 +310,6 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_7Rnd_127x33_Mag1;
 		mass = 8;
 	};
-	class 6Rnd_9x33_Cylinder: CA_Magazine
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgMagazines_6Rnd_9x33_Cylinder0;
-		ammo = B_9x33_Ball;
-		count = 6;
-		initSpeed = 380;
-		picture = "\A3\Weapons_F_EPA\Data\UI\M_6Rnd_revolver_CA.paa";
-		descriptionShort = "Caliber: .357 Magnum<br />Rounds: 6<br />Used in: RSh-42";
-		mass = 6;
-	};
 	class 8Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -427,16 +415,6 @@ class CfgMagazines
 		count = 20;
 		mass = 6;
 		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_460x30_Mag_F1;
-	};
-	class 53Rnd_9x21_Mag_F: 16Rnd_9x21_Mag
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_53Rnd_9x21_Mag_F0;
-		picture = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\UI\icon_53Rnd_9x21_Mag_F_CA.paa";
-		count = 53;
-		descriptionShort = $STR_A3_A_CfgMagazines_53Rnd_9x21_Mag_F1;
-		mass = 12;
-		initSpeed = 375;
 	};
 	class 4Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets
 	{

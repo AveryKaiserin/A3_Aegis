@@ -4,6 +4,13 @@ class CfgVehicles
 {
 	// Arma 3
 	class B_static_AT_F;
+	class I_static_AT_F;
+	class Bag_Base;
+	class Weapon_Bag_Base: Bag_Base
+	{
+		class assembleInfo;
+	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgIDF.hpp"				// IDF
 };

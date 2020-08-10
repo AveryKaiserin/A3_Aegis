@@ -28,8 +28,8 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_tan0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 		};
 	};
 	class V_HarnessOGL_tan: V_HarnessOGL_brn
@@ -44,8 +44,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -63,29 +63,29 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_tan0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tkcamo_CO.paa",
-			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tkcamo_CO.paa"
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 		};
 	};
 	class V_PlateCarrierIA1_grn: V_PlateCarrierIA1_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA1_grn0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIA2_grn: V_PlateCarrierIA2_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_grn: V_PlateCarrierIAGL_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa",
@@ -96,19 +96,32 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_TacVest_tan0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
 	class V_RebreatherB_aucamo_F: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_aucamo_F_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_aucamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa"};
 		hiddenUnderwaterSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa",
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa",
+			"\A3\Characters_F\Data\visors_CA.paa"
+		};
+	};
+	class V_RebreatherI_I: V_RebreatherB
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_RebreatherI_I0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherI_I_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa"};
+		hiddenUnderwaterSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa",
 			"\A3\Characters_F\Data\visors_CA.paa"
 		};
 	};

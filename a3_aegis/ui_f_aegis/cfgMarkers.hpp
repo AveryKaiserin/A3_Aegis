@@ -31,12 +31,6 @@ class CfgMarkers
 		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Argana_CA.paa";
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Argana_CA.paa";
 	};
-	class flag_Belarus: flag_NATO
-	{
-		name = $STR_A3_A_CfgMarkers_flag_Belarus;
-		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Belarus_CA.paa";
-		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Belarus_CA.paa";
-	};
 	class flag_China: flag_NATO
 	{
 		name = $STR_A3_A_CfgMarkers_flag_China;

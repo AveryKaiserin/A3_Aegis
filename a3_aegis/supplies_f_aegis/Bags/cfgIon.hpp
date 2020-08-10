@@ -1,3 +1,4 @@
+// Arma 3 Aegis
 class B_AssaultPack_rgr_IONMedic_F: B_AssaultPack_rgr
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -23,7 +24,7 @@ class B_Kitbag_rgr_IONEng_F: B_Kitbag_rgr
 		item_xx(MineDetector,1);
 	};
 };
-class B_AssaultPack_rgr_IONRPG_AT_F: B_AssaultPack_rgr
+class B_AssaultPack_rgr_IONLAT_F: B_AssaultPack_rgr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

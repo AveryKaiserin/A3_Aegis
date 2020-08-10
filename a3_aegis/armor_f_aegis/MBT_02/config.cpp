@@ -232,5 +232,4 @@ class CfgVehicles
 	// Arma 3 Aegis
 	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
 	#include "cfgSpetsnaz.hpp"			// Russia
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 };

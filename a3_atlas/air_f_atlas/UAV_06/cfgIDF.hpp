@@ -60,7 +60,7 @@ class I_I_UAV_06_F: UAV_06_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_06_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_F0;
+	displayName = $STR_A3_CfgVehicles_I_UAV_06_F0;
 	scope = public;
 	side = TGuerrila;
 	faction = IND_I_F;
@@ -138,7 +138,7 @@ class I_I_UAV_06_medical_F: UAV_06_medical_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_06_medical_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_medical_F0;
+	displayName = $STR_A3_CfgVehicles_I_UAV_06_medical_F0;
 	scope = public;
 	side = TGuerrila;
 	faction = IND_I_F;
@@ -213,7 +213,7 @@ class I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
 	};
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F_assembleInfo0;
+		displayName = $STR_A3_CfgVehicles_I_UAV_06_backpack_F_assembleInfo0;
 		assembleTo = I_I_UAV_06_F;
 	};
 };
@@ -232,7 +232,7 @@ class I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 	};
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F_assembleInfo0;
+		displayName = $STR_A3_CfgVehicles_I_UAV_06_medical_backpack_F_assembleInfo0;
 		assembleTo = I_I_UAV_06_medical_F;
 	};
 };

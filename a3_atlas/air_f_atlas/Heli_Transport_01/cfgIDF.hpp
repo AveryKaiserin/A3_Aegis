@@ -141,10 +141,10 @@ class I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext01_IDF_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_IDF_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext01_desert_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_desert_CO.paa"
 	};
-	textureList[] = {IDF,1};
+	textureList[] = {Desert,1};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};

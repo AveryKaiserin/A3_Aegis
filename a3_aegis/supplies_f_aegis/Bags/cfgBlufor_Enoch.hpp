@@ -1,20 +1,3 @@
-// Arma 3 Enoch
-class B_Kitbag_rgr_BWAAR: B_Kitbag_wdl_F
-{
-	class TransportMagazines
-	{
-		mag_xx(100Rnd_65x39_caseless_black_mag,2);
-		mag_xx(100Rnd_65x39_caseless_black_mag_Tracer,2);
-		mag_xx(130Rnd_338_Mag,2);
-	};
-	class TransportItems
-	{
-		item_xx(optic_tws_mg,1);
-		item_xx(bipod_01_F_blk,1);
-		item_xx(muzzle_snds_338_black,1);
-		item_xx(muzzle_snds_H,1);
-	};
-};
 // Arma 3 Aegis
 class B_Kitbag_wdl_BWAT_F: B_Kitbag_wdl_F
 {
