@@ -132,6 +132,24 @@ class arifle_AUG_black_aco_flash_F: arifle_AUG_black_F
 		};
 	};
 };
+// AUR 90 5.56 mm (Black) + MRCO + Flashlight
+class arifle_AUG_black_mrco_flash_F: arifle_AUG_black_F
+{
+	author = $STR_A3_AveryTheKitty_and_Luchador;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
 // AUR 90 GL 5.56 mm (Black) + ACO (Red) + Flashlight
 class arifle_AUG_GL_black_aco_flash_F: arifle_AUG_GL_black_F
 {

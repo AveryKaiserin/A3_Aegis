@@ -569,13 +569,13 @@ class B_H_soldier_M_F: B_H_Soldier_Base_F
 	uniformClass = U_B_H_Soldier_F;
 	weapons[] =
 	{
-		srifle_DMR_06_hunter_khs_F,
+		srifle_DMR_06_hunter_khs_bipod_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_hunter_khs_F,
+		srifle_DMR_06_hunter_khs_bipod_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -788,14 +788,14 @@ class B_H_Soldier_SL_F: B_H_Soldier_Base_F
 	uniformClass = U_B_H_Soldier_2_F;
 	weapons[] =
 	{
-		arifle_AUG_GL_black_mrco_flash_F,
+		arifle_AUG_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_AUG_GL_black_mrco_flash_F,
+		arifle_AUG_black_mrco_flash_F,
 		hgun_C1911_F,
         DefaultManWeapons,
 		Binocular
@@ -820,13 +820,13 @@ class B_H_Soldier_SL_F: B_H_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		V_PlateCarrierIA2_oli,
 		H_PASGT_basic_olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		V_PlateCarrierIA2_oli,
 		H_PASGT_basic_olive_F,
 		DefaultManLinkedItems
 	};

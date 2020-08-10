@@ -53,6 +53,7 @@ class CfgWeapons
 	class launch_MRAWS_base_F;
 	class launch_MRAWS_olive_rail_F;
 	// Arma 3 Enoch
+	class srifle_DMR_06_hunter_F;
 	class LMG_Mk200_black_F;
 	class arifle_RPK12_F;
 	class arifle_MSBS65_black_F;

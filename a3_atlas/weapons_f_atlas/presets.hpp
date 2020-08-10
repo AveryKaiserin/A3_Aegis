@@ -111,6 +111,24 @@ class arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 		};
 	};
 };
+// Mk14 7.62 mm (Classic) + Kahlia (Old) + Bipod (Black) [AAF]
+class srifle_DMR_06_hunter_khs_bipod_F: srifle_DMR_06_hunter_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_old;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_03_F_blk;
+		};
+	};
+};
 // Mk200 6.5 mm (Black) + LRCO + IR Laser Pointer + Bipod (Black) [NATO]
 class LMG_Mk200_black_LRCO_LP_BI_F: LMG_Mk200_black_F
 {
