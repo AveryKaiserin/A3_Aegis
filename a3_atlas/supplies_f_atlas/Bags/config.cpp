@@ -31,13 +31,13 @@ class CfgVehicles
 	class B_TacticalPack_sgg;
 	class B_Kitbag_wdl_F;
 	// Arma 3 Atlas
-	class B_RadioBag_01_tkcamo_F: B_RadioBag_01_base_F
+	class B_RadioBag_01_semiarid_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_tkcamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_tkcamo_F_CA.paa";
-		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_tkcamo_CO.paa"};
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_semiarid_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_semiarid_F_CA.paa";
+		//hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_semiarid_CO.paa"};
 		// TFAR compatibility
 		tf_dialog = rt1523g_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
@@ -165,7 +165,7 @@ class CfgVehicles
 	};
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	//#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIL.hpp"				// HIL
 	#include "cfgIDF.hpp"				// IDF

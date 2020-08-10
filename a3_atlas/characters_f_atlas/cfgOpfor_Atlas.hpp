@@ -78,14 +78,14 @@ class O_C_soldier_A_F: O_C_soldier_base_F
 	linkedItems[] =
     {
         V_HarnessO_tan,
-        H_MilCap_semiarid,
+        H_Beret_ocamo,
         G_Shemag_white,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_HarnessO_tan,
-        H_MilCap_semiarid,
+        H_Beret_ocamo,
         G_Shemag_white,
         DefaultManLinkedItems
     };
@@ -194,14 +194,14 @@ class O_C_medic_F: O_C_soldier_base_F
 	linkedItems[] =
     {
         V_TacVest_tan,
-        H_MilCap_semiarid,
+        H_Beret_ocamo,
         G_Shemag_white,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_TacVest_tan,
-        H_MilCap_semiarid,
+        H_Beret_ocamo,
         G_Shemag_white,
         DefaultManLinkedItems
     };
@@ -319,14 +319,14 @@ class O_C_engineer_F: O_C_soldier_base_F
     linkedItems[] =
     {
         V_HarnessO_tan,
-        H_Cap_tan,
+        H_Beret_ocamo,
         G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_HarnessO_tan,
-        H_Cap_tan,
+        H_Beret_ocamo,
         G_Shemag_white,
 		DefaultManLinkedItems
     };
@@ -354,7 +354,7 @@ class O_C_engineer_F: O_C_soldier_base_F
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
-	backpack = B_FieldPack_semiarid_eng_F;
+	backpack = B_FieldPack_semiarid_Eng_F;
 };
 class O_C_soldier_GL_F: O_C_soldier_base_F
 {
@@ -585,13 +585,13 @@ class O_C_soldier_M_F: O_C_soldier_base_F
     };
     magazines[] =
     {
-        mag_10(20Rnd_762x54_Mag),
+        mag_10(10Rnd_762x54_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(20Rnd_762x54_Mag),
+        mag_10(10Rnd_762x54_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
@@ -658,7 +658,7 @@ class O_C_soldier_AA_F: O_C_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = B_FieldPack_semiarid_AA;
+	backpack = B_FieldPack_semiarid_AA_F;
 };
 class O_C_soldier_AT_F: O_C_soldier_base_F
 {
@@ -722,7 +722,7 @@ class O_C_soldier_AT_F: O_C_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = B_FieldPack_semiarid_AT;
+	backpack = B_FieldPack_semiarid_AT_F;
 };
 class O_C_officer_F: O_C_soldier_base_F
 {
@@ -887,7 +887,7 @@ class O_C_soldier_LAT_F: O_C_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = B_FieldPack_semiarid_LAT;
+	backpack = B_FieldPack_semiarid_LAT_F;
 };
 class O_C_soldier_SL_F: O_C_soldier_base_F
 {
@@ -910,14 +910,14 @@ class O_C_soldier_SL_F: O_C_soldier_base_F
 	cost = 250000;
    linkedItems[] =
     {
-        V_HarnessOGL_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
         G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        V_HarnessOGL_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
         G_Shemag_white,
 		DefaultManLinkedItems
@@ -1101,14 +1101,14 @@ class O_C_RadioOperator_F: O_C_soldier_F
 	linkedItems[] =
 	{
 		V_HarnessO_tan,
-		H_MilCap_semiarid,
+		H_Beret_ocamo,
         G_Shemag_white,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_tan,
-		H_MilCap_semiarid,
+		H_Beret_ocamo,
         G_Shemag_white,
 		DefaultManLinkedItems
 	};
