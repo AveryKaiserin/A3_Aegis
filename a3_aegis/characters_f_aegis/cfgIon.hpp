@@ -121,7 +121,7 @@ class B_ION_Soldier_AR_F: B_ION_Soldier_Base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -195,7 +195,7 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -260,7 +260,7 @@ class B_ION_Engineer_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -321,7 +321,7 @@ class B_ION_Soldier_GL_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -361,17 +361,17 @@ class B_ION_Helipilot_F: B_ION_Soldier_base_F
 	respawnMagazines[] = {mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red)};
 	linkedItems[] =
 	{
-		H_Cap_headphones_blk_ion,
+		H_Cap_headphones_blk_ION,
 		V_TacVest_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_headphones_blk_ion,
+		H_Cap_headphones_blk_ION,
 		V_TacVest_oli,
 		DefaultManLinkedItems
 	};
-	headgearList[] = {H_Cap_headphones_blk_ion,1};
+	headgearList[] = {H_Cap_headphones_blk_ION,1};
 };
 class B_ION_Soldier_M_F: B_ION_Soldier_base_F
 {
@@ -439,7 +439,7 @@ class B_ION_Soldier_M_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -496,7 +496,7 @@ class B_ION_Soldier_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -557,17 +557,17 @@ class B_ION_Soldier_LAT_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_headphones_blk_ion,
+		H_Cap_headphones_blk_ION,
 		V_TacVest_camo,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_headphones_blk_ion,
+		H_Cap_headphones_blk_ION,
 		V_TacVest_camo,
 		DefaultManLinkedItems
 	};
-	headgearList[] = {H_Cap_headphones_blk_ion,1};
+	headgearList[] = {H_Cap_headphones_blk_ION,1};
 };
 class B_ION_Soldier_CQ_F: B_ION_Soldier_base_F
 {
@@ -624,7 +624,7 @@ class B_ION_Soldier_CQ_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -689,7 +689,7 @@ class B_ION_Soldier_TL_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };
@@ -751,7 +751,7 @@ class B_ION_Soldier_UAV_F: B_ION_Soldier_base_F
 		"",1,
 		H_Cap_blk_ION,2,
 		H_Cap_blk_ION_hs,2,
-		H_Cap_headphones_blk_ion,2,
+		H_Cap_headphones_blk_ION,2,
 		H_Headset_light,1
 	};
 };

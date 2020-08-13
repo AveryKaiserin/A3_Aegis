@@ -207,9 +207,9 @@ class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {I_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		Guerilla_01,1/3,
+		Guerilla_02,1/3,
+		Guerilla_03,1/3
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -430,9 +430,9 @@ class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {B_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		Guerilla_01,1/3,
+		Guerilla_02,1/3,
+		Guerilla_03,1/3
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -653,9 +653,9 @@ class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {O_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		Guerilla_01,1/3,
+		Guerilla_02,1/3,
+		Guerilla_03,1/3
 	};
 	hiddenSelectionsTextures[] =
 	{

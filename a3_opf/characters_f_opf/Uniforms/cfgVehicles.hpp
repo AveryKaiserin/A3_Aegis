@@ -21,7 +21,7 @@ class CfgVehicles
 	class Item_Base_F;
 	// Arma 3 Opposing Forces
 	// Paramilitary
-	UNIFORM_HOLDER(U_O_ParamilitaryBody,"Militia Coveralls")
+	UNIFORM_HOLDER(U_O_ParamilitaryBody,"Rugged Coveralls")
 	// Raven
 	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_taiga_F,"Fatigues (Taiga, Tee) [Russia]")
 	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_arid_F,"Fatigues (Arid, Tee) [Russia]")

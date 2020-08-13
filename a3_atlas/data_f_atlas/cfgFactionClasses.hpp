@@ -1,5 +1,13 @@
 class CfgFactionClasses
 {
+	class OPF_V_wdl_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_V_wdl_F0;
+		priority = 8;
+		side = TEast;
+		icon = "\A3\Data_F_Exp\FactionIcons\icon_VIPER_CA.paa";
+		flag = "\A3\Data_F_Exp\Flags\flag_Viper_CO.paa";
+	};
 	class OPF_W_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
@@ -24,20 +32,12 @@ class CfgFactionClasses
 		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
 	};
-	class OPF_C_F
+	class BLU_O_F
 	{
-		displayName = "CSAT (Caspian)";
-		priority = 11;
-		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
-	};
-	class BLU_ADF_F
-	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_ADF_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_O_F0;
 		priority = 16;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ADF_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_AUS_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
 	};
 	class BLU_H_F
@@ -48,9 +48,25 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIL_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
-	class IND_CDF_F
+	class OPF_C_F
 	{
-		displayName = "CDF";
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_C_F0;
+		priority = 11;
+		side = TEast;
+		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+	};
+	class OPF_S_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_S_F0;
+		priority = 11;
+		side = TEast;
+		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+	};
+	class IND_W_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_IND_W_F0;
 		priority = 8;
 		side = TGuerrila;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_CDF_CA.paa";
@@ -64,17 +80,9 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_IDF_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_IDF_CO.paa";
 	};
-	class OPF_B_F
-	{
-		displayName = "Bocano";
-		priority = 12;
-		side = TEast;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_BOC_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Bocano_CO.paa";
-	};
 	class IND_UNO_F
 	{
-		displayName = "UNO";
+		displayName = $STR_A3_A_CfgFactionClasses_IND_UNO_F0;
 		priority = 9;
 		side = TGuerrila;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_UNO_CA.paa";

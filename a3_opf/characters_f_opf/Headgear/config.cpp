@@ -141,6 +141,13 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		};
 	};
+	class H_Cap_redburger: H_Cap_red
+	{
+		author = $STR_A3_A_AveryTheKitty;
+	  	displayName = $STR_A3_O_CfgWeapons_H_Cap_redburger0;
+		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_redburger_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\capb_redburger_CO.paa"};
+	};
 	/*
 	class H_Cap_khk_Raven: H_Cap_red
 	{

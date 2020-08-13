@@ -11,6 +11,8 @@ class O_R_Gorka_F: O_R_Gorka_base_F
         TGuerrila
     };
 };
+// Arma 3 Aegis
+class O_R_LightFatigues_01_taiga_F;
 // Arma 3 Opposing Forces
 class O_E_Man_Base_F: O_G_Soldier_F
 {
@@ -77,14 +79,14 @@ class O_E_Soldier_1_F: O_E_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] = 
 	{
+		V_SmershVest_01_khaki_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_khaki_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -155,14 +157,14 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	uniformClass = U_O_E_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
+		V_SmershVest_01_radio_khaki_F,
 		H_MilCap_grn,
-		V_SmershVest_01_radio_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_radio_khaki_F,
 		H_MilCap_grn,
-		V_SmershVest_01_radio_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -250,14 +252,14 @@ class O_E_Soldier_3_F: O_E_Soldier_Base_F
 	backpack = B_FieldPack_green_OEMedic_F;
 	linkedItems[] = 
 	{
+		V_TacVest_grn,
 		H_Bandanna_khk,
-		V_ChestrigF_rgr,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_TacVest_grn,
 		H_Bandanna_khk,
-		V_ChestrigF_rgr,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -332,13 +334,13 @@ class O_E_Soldier_4_F: O_E_Soldier_Base_F
 	linkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
+		V_SmershVest_01_khaki_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -656,14 +658,14 @@ class O_E_Soldier_8_F: O_E_Soldier_Base_F
 	backpack = B_FieldPack_green_OEExp_F;
 	linkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_ChestrigF_rgr,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_ChestrigF_rgr,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -727,14 +729,14 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
 	uniformClass = U_O_R_Gorka_01_F;
 	linkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_TacChestRig_oli_F,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_TacChestRig_oli_F,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -823,14 +825,14 @@ class O_E_Soldier_Base_unarmed_F: O_E_Soldier_1_F
 	respawnMagazines[] = {};
 	linkedItems[] = 
 	{
+		V_SmershVest_01_khaki_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_khaki_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;

@@ -1,7 +1,3 @@
-// Arma 3
-class O_Soldier_F;
-class O_officer_F;
-class O_helipilot_F;
 // Arma 3 Atlas
 class O_C_Fatigues_01_semiarid_F: O_Soldier_F
 {

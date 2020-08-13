@@ -268,15 +268,13 @@ class B_E_Support_AMG_F: B_support_AMG_F
 	{
 		arifle_G36C_ACO_Pointer_F,
 		hgun_G17_black_F,
-		DefaultManWeapons,
-		Rangefinder
+		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_G36C_ACO_Pointer_F,
 		hgun_G17_black_F,
-		DefaultManWeapons,
-		Rangefinder
+		DefaultManWeapons
 	};
 	magazines[] =
 	{
@@ -330,15 +328,13 @@ class B_E_Support_AMort_F: B_support_AMort_F
 	{
 		arifle_G36C_ACO_Pointer_F,
 		hgun_G17_black_F,
-		DefaultManWeapons,
-		Rangefinder
+		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_G36C_ACO_Pointer_F,
 		hgun_G17_black_F,
-		DefaultManWeapons,
-		Rangefinder
+		DefaultManWeapons
 	};
 	magazines[] =
 	{

@@ -11,5 +11,6 @@ class CfgVehicles
 	#include "cfgRaven.hpp"
 	#include "cfgChKDZ.hpp"
 	#include "cfgTKM.hpp"
+	#include "cfgMilitia.hpp"
 };
 #include "cfgGroups.hpp"

@@ -1,8 +1,3 @@
-// Arma 3 Enoch
-class U_O_R_Gorka_01_black_F: Uniform_Base
-{
-	displayName = $STR_A3_A_CfgWeapons_U_O_R_Gorka_01_black_F0;
-};
 // Arma 3 Aegis
 class U_O_R_CombatUniform_taiga_F: Uniform_Base
 {

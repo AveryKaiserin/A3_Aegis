@@ -120,10 +120,10 @@ class B_H_Coveralls_01_jungle_F: I_E_Uniform_01_coveralls_F
 		TWest,
 		TCivilian
 	};
-	uniformClass = U_B_H_Helipilot_F;
+	uniformClass = U_B_H_Coveralls_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Helipilot_F_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_jungle_CO.paa",
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Soldier_F_02_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
@@ -465,7 +465,7 @@ class B_H_Helipilot_F: B_H_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = U_B_H_Helipilot_F;
+	uniformClass = U_B_H_Coveralls_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -521,7 +521,7 @@ class B_H_Helicrew_F: B_H_Helipilot_F
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
 	cost = 80000;
-	uniformClass = U_B_H_Helipilot_F;
+	uniformClass = U_B_H_Coveralls_F;
 	weapons[] =
 	{
 		arifle_AUG_C_black_F,

@@ -1258,6 +1258,40 @@
 				</Key>
 			</Container>
 			<Container name="Faction_Classes">
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_V_wdl_F0">
+					<Original>Viper (Woodland)</Original>
+					<Chinese>Viper（森林）</Chinese>
+					<French>Viper (forêt)</French>
+					<Spanish>Viper (bosque)</Spanish>
+					<Italian>Viper (boschi)</Italian>
+					<Polish>Viper (las)</Polish>
+					<Russian>Viper (лес)</Russian>
+					<German>Viper (Waldland)</German>
+					<Czech>Viper (woodland)</Czech>
+					<English>Viper (Woodland)</English>
+					<Portuguese>Viper (floresta)</Portuguese>
+					<Korean>Viper(산악)</Korean>
+					<Chinesesimp>Viper（林地）</Chinesesimp>
+					<Japanese>Viper（森林）</Japanese>
+					<Turkish>Viper (Ağaçlık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_W_F0">
+					<Original>CSAT (Woodland)</Original>
+					<Chinese>CSAT (森林)</Chinese>
+					<French>CSAT (forêt)</French>
+					<Spanish>CSAT (bosque)</Spanish>
+					<Italian>CSAT (boschi)</Italian>
+					<Polish>CSAT (las)</Polish>
+					<Russian>CSAT (лес)</Russian>
+					<German>CSAT (Waldland)</German>
+					<Czech>CSAT (woodland)</Czech>
+					<English>CSAT (Woodland)</English>
+					<Portuguese>CSAT (floresta)</Portuguese>
+					<Korean>CSAT(산악)</Korean>
+					<Chinesesimp>CSAT (林地)</Chinesesimp>
+					<Japanese>CSAT（森林）</Japanese>
+					<Turkish>CSAT (Ağaçlık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_L_F0">
 					<Original>Legion</Original>
 					<Chinese>軍團</Chinese>
@@ -1274,23 +1308,6 @@
 					<Chinesesimp>军团</Chinesesimp>
 					<Japanese>軍団</Japanese>
 					<Turkish>Lejyon</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_H_F0">
-					<Original>HIL</Original>
-					<Chinese>HIL</Chinese>
-					<French>HIL</French>
-					<Spanish>HIL</Spanish>
-					<Italian>HIL</Italian>
-					<Polish>HIL</Polish>
-					<Russian>HIL</Russian>
-					<German>HIL</German>
-					<Czech>HIL</Czech>
-					<English>HIL</English>
-					<Portuguese>HIL</Portuguese>
-					<Korean>HIL</Korean>
-					<Chinesesimp>HIL</Chinesesimp>
-					<Japanese>HIL</Japanese>
-					<Turkish>HIL</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
 					<Original>NATO (European)</Original>
@@ -1309,24 +1326,7 @@
 					<Japanese>NATO（ヨーロッパ系）</Japanese>
 					<Turkish>NATO (Avrupalı)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_OPF_E_F0">
-					<Original>EAF</Original>
-					<Chinese>EAF</Chinese>
-					<French>EAF</French>
-					<Spanish>EAF</Spanish>
-					<Italian>EAF</Italian>
-					<Polish>EAF</Polish>
-					<Russian>EAF</Russian>
-					<German>EAF</German>
-					<Czech>EAF</Czech>
-					<English>EAF</English>
-					<Portuguese>EAF</Portuguese>
-					<Korean>EAF</Korean>
-					<Chinesesimp>EAF</Chinesesimp>
-					<Japanese>EAF</Japanese>
-					<Turkish>EAF</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_ADF_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_O_F0">
 					<Original>ADF</Original>
 					<Chinese>ADF</Chinese>
 					<French>FDA</French>
@@ -1342,6 +1342,74 @@
 					<Chinesesimp>ADF</Chinesesimp>
 					<Japanese>ADF</Japanese>
 					<Turkish>ASG</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_H_F0">
+					<Original>HIL</Original>
+					<Chinese>HIL</Chinese>
+					<French>HIL</French>
+					<Spanish>HIL</Spanish>
+					<Italian>HIL</Italian>
+					<Polish>HIL</Polish>
+					<Russian>HIL</Russian>
+					<German>HIL</German>
+					<Czech>HIL</Czech>
+					<English>HIL</English>
+					<Portuguese>HIL</Portuguese>
+					<Korean>HIL</Korean>
+					<Chinesesimp>HIL</Chinesesimp>
+					<Japanese>HIL</Japanese>
+					<Turkish>HIL</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_C_F0">
+					<Original>CSAT (Caspian)</Original>
+					<Chinese>CSAT (Caspian)</Chinese>
+					<French>CSAT (Caspian)</French>
+					<Spanish>CSAT (Caspian)</Spanish>
+					<Italian>CSAT (Caspian)</Italian>
+					<Polish>CSAT (Caspian)</Polish>
+					<Russian>CSAT (Caspian)</Russian>
+					<German>CSAT (Caspian)</German>
+					<Czech>CSAT (Caspian)</Czech>
+					<English>CSAT (Caspian)</English>
+					<Portuguese>CSAT (Caspian)</Portuguese>
+					<Korean>CSAT (Caspian)</Korean>
+					<Chinesesimp>CSAT (Caspian)</Chinesesimp>
+					<Japanese>CSAT (Caspian)</Japanese>
+					<Turkish>CSAT (Caspian)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_S_F0">
+					<Original>CSAT (South American)</Original>
+					<Chinese>CSAT (South American)</Chinese>
+					<French>CSAT (South American)</French>
+					<Spanish>CSAT (South American)</Spanish>
+					<Italian>CSAT (South American)</Italian>
+					<Polish>CSAT (South American)</Polish>
+					<Russian>CSAT (South American)</Russian>
+					<German>CSAT (South American)</German>
+					<Czech>CSAT (South American)</Czech>
+					<English>CSAT (South American)</English>
+					<Portuguese>CSAT (South American)</Portuguese>
+					<Korean>CSAT (South American)</Korean>
+					<Chinesesimp>CSAT (South American)</Chinesesimp>
+					<Japanese>CSAT (South American)</Japanese>
+					<Turkish>CSAT (South American)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_W_F0">
+					<Original>CDF</Original>
+					<Chinese>CDF</Chinese>
+					<French>FDC</French>
+					<Spanish>FDC</Spanish>
+					<Italian>FDC</Italian>
+					<Polish>CSO</Polish>
+					<Russian>CСО</Russian>
+					<German>CV</German>
+					<Czech>COS</Czech>
+					<English>CDF</English>
+					<Portuguese>FDC</Portuguese>
+					<Korean>CDF</Korean>
+					<Chinesesimp>CDF</Chinesesimp>
+					<Japanese>CDF</Japanese>
+					<Turkish>CSG</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_IND_I_F0">
 					<Original>IDF</Original>
@@ -1359,6 +1427,23 @@
 					<Chinesesimp>IDF</Chinesesimp>
 					<Japanese>IDF</Japanese>
 					<Turkish>ISG</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_UNO_F0">
+					<Original>UNO</Original>
+					<Chinese>UNO</Chinese>
+					<French>UNO</French>
+					<Spanish>ONU</Spanish>
+					<Italian>Nazioni Unite</Italian>
+					<Polish>UNO</Polish>
+					<Russian>ООН</Russian>
+					<German>UNO</German>
+					<Czech>UNO</Czech>
+					<English>UNO</English>
+					<Portuguese>ONU</Portuguese>
+					<Korean>UNO</Korean>
+					<Chinesesimp>联合国组织</Chinesesimp>
+					<Japanese>UNO</Japanese>
+					<Turkish>UNO</Turkish>
 				</Key>
 			</Container>
 		</Container>

@@ -898,8 +898,8 @@ class O_R_APC_Tracked_02_cannon_ard_F: O_APC_Tracked_02_cannon_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,0,
-		Green,1
+        Arid,1,
+		Green,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -1143,8 +1143,8 @@ class O_R_APC_Tracked_02_AA_ard_F: O_APC_Tracked_02_AA_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,0,
-		Green,1
+        Arid,1,
+		Green,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -1384,8 +1384,8 @@ class O_R_APC_Tracked_02_medical_ard_F: APC_Tracked_02_medical_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,0,
-		Green,1
+        Arid,1,
+		Green,0
 	};
 	hiddenSelectionsTextures[] =
 	{

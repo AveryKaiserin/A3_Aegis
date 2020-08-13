@@ -56,6 +56,41 @@ class CfgWeapons
 			};
 		};
 	};
+	class V_HarnessO_owcamo: V_HarnessO_gry
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_owcamo_CA.paa";
+		displayName = "LBV Harness (Woodland Hex)";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
+		};
+	};
+	class V_HarnessOGL_owcamo: V_HarnessOGL_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "LBV Grenadier Harness (Woodland Hex)";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_owcamo_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] =
+			{
+				camo1,
+				camo2
+			};
+		};
+	};
 	class V_HarnessOSpec_tan: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -65,6 +100,17 @@ class CfgWeapons
 		{
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
+		};
+	};
+	class V_HarnessOSpec_owcamo: V_HarnessOSpec_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_owcamo_CA.paa";
+		displayName = "ELBV Harness (Woodland Hex)";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
 		};
 	};
 	class V_PlateCarrierIA1_grn: V_PlateCarrierIA1_dgtl

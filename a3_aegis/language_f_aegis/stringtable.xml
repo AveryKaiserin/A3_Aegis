@@ -14539,6 +14539,23 @@
 						<Japanese>Mk17 FG 7.62mm （カーキ）</Japanese>
 						<Turkish>Mk17 FG 7.62 mm (Haki)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_base_F_EGLM0">
+						<Original>GLM</Original>
+						<Chinese>GLM</Chinese>
+						<French>GLM</French>
+						<Spanish>GLM</Spanish>
+						<Italian>GLM</Italian>
+						<Polish>GLM</Polish>
+						<Russian>GLM</Russian>
+						<German>GLM</German>
+						<Czech>GLM</Czech>
+						<English>GLM</English>
+						<Portuguese>GLM</Portuguese>
+						<Korean>GLM</Korean>
+						<Chinesesimp>GLM</Chinesesimp>
+						<Japanese>GLM</Japanese>
+						<Turkish>GLM</Turkish>
+					</Key>
 				</Container>
 				<Container name="Library">
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_base_F_Library0">

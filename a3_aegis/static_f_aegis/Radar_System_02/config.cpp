@@ -20,7 +20,11 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
 				author = $STR_A3_A_AveryTheKitty;
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 				textures[] =
 				{
 					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUgrn_CO.paa",
@@ -38,13 +42,25 @@ class CfgVehicles
 					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUcamo_CO.paa"
 				};
 			};
+			class Arid: AridHex
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				factions[] = {OPF_R_ard_F};
+				textures[] =
+				{
+					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUkhk_CO.paa",
+					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUkhk_CO.paa"
+				};
+			};
 		};
 		textureList[] =
 		{
 			AridHex,0,
 			JungleHex,0,
 			Green,0,
-			Taiga,0
+			Taiga,0,
+			Arid,0
 		};
 	};
 	// Arma 3 Aegis

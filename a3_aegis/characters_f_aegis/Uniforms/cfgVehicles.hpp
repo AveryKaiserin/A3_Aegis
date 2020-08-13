@@ -129,10 +129,6 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
 	};
-	class Item_U_O_R_Gorka_01_black_F: Item_Base_F
-	{
-		displayName = $STR_A3_A_CfgWeapons_U_O_R_Gorka_01_black_F0;
-	};
 	// Arma 3 Aegis
 	// Civilians
 	UNIFORM_HOLDER(U_Jayholder,$STR_A3_A_CfgWeapons_U_Jayholder0)
