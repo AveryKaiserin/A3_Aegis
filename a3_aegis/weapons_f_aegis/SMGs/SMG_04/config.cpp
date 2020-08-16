@@ -101,7 +101,7 @@ class CfgWeapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			reloadTime = 0.063; 950 RPM
+			reloadTime = 0.063; // 950 RPM
 			dispersion = 0.00131;
 			minRange = 2;
 			minRangeProbab = 0.3;
@@ -112,7 +112,7 @@ class CfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
-			reloadTime = 0.063; 950 RPM
+			reloadTime = 0.063; // 950 RPM
 			dispersion = 0.00131;
 			minRange = 0;
 			minRangeProbab = 0.1;
