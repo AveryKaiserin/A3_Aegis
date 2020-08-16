@@ -17,7 +17,13 @@ class CfgVehicles
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIL.hpp"				// HIL
 	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
-	#include "cfgCDF.hpp"				// CDF
+	class I_Soldier_base_F: SoldierGB
+	{
+		class EventHandlers;
+	};
+	class I_soldier_F: I_Soldier_base_F{};
+	class I_pilot_F;
+	// #include "cfgCDF.hpp"				// CDF
 	#include "cfgIDF.hpp"				// IDF
 	#include "cfgUNO.hpp"				// UNO
 };
