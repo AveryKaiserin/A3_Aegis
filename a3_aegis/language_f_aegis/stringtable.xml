@@ -9479,6 +9479,57 @@
 				</Key>
 			</Container>
       		<Container name="Wrecks">
+				<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_datsun01T_F0">
+					<Original>Rusty Offroad Wreck 1</Original>
+					<Chinese>生鏽越野車殘骸 1</Chinese>
+					<French>Épave tout-terrain 1</French>
+					<Spanish>Restos de todoterreno 1</Spanish>
+					<Italian>Rottami di fuoristrada 1</Italian>
+					<Polish>Wrak terenówki 1</Polish>
+					<Russian>Обломки внедорожника 1</Russian>
+					<German>Offroader - Wrack 1</German>
+					<Czech>Vrak offroadu 1</Czech>
+					<English>Rusty Offroad Wreck 1</English>
+					<Portuguese>Ruínas de Offroad 1</Portuguese>
+					<Korean>4륜구동 잔해 1</Korean>
+					<Chinesesimp>生锈的越野车残骸 1</Chinesesimp>
+					<Japanese>オフロード残骸 1</Japanese>
+					<Turkish>Paslı Arazi Aracı Enkazı 1</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_datsun02T_F0">
+					<Original>Rusty Offroad Wreck (Tilted)</Original>
+					<Chinese>生鏽越野車殘骸（傾斜）</Chinese>
+					<French>Épave tout-terrain</French>
+					<Spanish>Restos de todoterreno</Spanish>
+					<Italian>Rottami di fuoristrada</Italian>
+					<Polish>Wrak terenówki</Polish>
+					<Russian>Обломки внедорожника (опрокинутый)</Russian>
+					<German>Offroader - Wrack</German>
+					<Czech>Vrak offroadu (nakloněný)</Czech>
+					<English>Rusty Offroad Wreck (Tilted)</English>
+					<Portuguese>Ruínas de Offroad (Entitulado)</Portuguese>
+					<Korean>4륜구동 잔해(기울어짐)</Korean>
+					<Chinesesimp>生锈的越野车残骸（倾斜）</Chinesesimp>
+					<Japanese>オフロード残骸</Japanese>
+					<Turkish>Paslı Arazi Aracı Enkazı (Eğik)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_hiluxT_F0">
+					<Original>Rusty Offroad Wreck 2</Original>
+					<Chinese>生鏽越野車殘骸 2</Chinese>
+					<French>Épave tout-terrain 2</French>
+					<Spanish>Restos de todoterreno 2</Spanish>
+					<Italian>Rottami di fuoristrada 2</Italian>
+					<Polish>Wrak terenówki 2</Polish>
+					<Russian>Обломки внедорожника 2</Russian>
+					<German>Offroader - Wrack 2</German>
+					<Czech>Vrak offroadu 2</Czech>
+					<English>Rusty Offroad Wreck 2</English>
+					<Portuguese>Ruínas de Offroad 2</Portuguese>
+					<Korean>4륜구동 잔해 2</Korean>
+					<Chinesesimp>生锈的越野车残骸 2</Chinesesimp>
+					<Japanese>オフロード残骸 2</Japanese>
+					<Turkish>Paslı Arazi Aracı Enkazı 2</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_Plane_Transport_01_crashed_F0">
 					<Original>C-192 Crashsite</Original>
 					<Chinese>C-192 Crashsite</Chinese>
