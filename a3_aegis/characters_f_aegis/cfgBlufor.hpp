@@ -2179,16 +2179,16 @@ class B_Soldier_CQ_F: B_Soldier_base_F
     };
     magazines[] =
     {
-        mag_3(7Rnd_12Gauge_Pellets),
-        mag_3(7Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_Pellets),
+        mag_3(8Rnd_12Gauge_Slug),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_3(7Rnd_12Gauge_Pellets),
-        mag_3(7Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_Pellets),
+        mag_3(8Rnd_12Gauge_Slug),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -2237,8 +2237,8 @@ class B_recon_CQ_F: B_Soldier_recon_base
     };
     magazines[] =
     {
-        mag_3(7Rnd_12Gauge_Pellets),
-        mag_3(7Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_Pellets),
+        mag_3(8Rnd_12Gauge_Slug),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2246,8 +2246,8 @@ class B_recon_CQ_F: B_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_3(7Rnd_12Gauge_Pellets),
-        mag_3(7Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_Pellets),
+        mag_3(8Rnd_12Gauge_Slug),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),

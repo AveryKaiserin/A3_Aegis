@@ -2427,8 +2427,8 @@ class B_W_Recon_CQ_F: B_recon_CQ_F
 	};
 	magazines[] =
 	{
-		mag_3(7Rnd_12Gauge_Pellets),
-		mag_3(7Rnd_12Gauge_Slug),
+		mag_3(8Rnd_12Gauge_Pellets),
+		mag_3(8Rnd_12Gauge_Slug),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2436,8 +2436,8 @@ class B_W_Recon_CQ_F: B_recon_CQ_F
 	};
 	respawnMagazines[] =
 	{
-		mag_3(7Rnd_12Gauge_Pellets),
-		mag_3(7Rnd_12Gauge_Slug),
+		mag_3(8Rnd_12Gauge_Pellets),
+		mag_3(8Rnd_12Gauge_Slug),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),

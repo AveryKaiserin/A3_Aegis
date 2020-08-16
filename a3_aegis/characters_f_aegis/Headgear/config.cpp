@@ -2098,14 +2098,6 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetAggressor_black_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_RUblk_CO.paa"};
 	};
-	class H_HelmetAggressor_cover_lush_F: H_HelmetAggressor_cover_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetAggressor_cover_lush_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetAggressor_cover_lush_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_RUlush_CO.paa"};
-	};
 	class H_Booniehat_mgrn_hs: H_Booniehat_mgrn
 	{
 		author = $STR_A3_A_AveryTheKitty;

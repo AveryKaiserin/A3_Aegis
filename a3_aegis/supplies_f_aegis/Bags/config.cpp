@@ -129,7 +129,7 @@ class CfgVehicles
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_oicamo0;
 		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_oicamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_ocamo_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_ocamo_CO.paa"};
 	};
 	class B_Kitbag_khk: B_Kitbag_Base
 	{
@@ -185,7 +185,7 @@ class CfgVehicles
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_FieldPack_oicamo0;
 		//picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Gorod_hex.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_gorod_hex_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_gorod_hex_CO.paa"};
 	};
 	class B_Carryall_blk: B_Carryall_Base
 	{
@@ -201,7 +201,7 @@ class CfgVehicles
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_Carryall_oicamo0;
 		//picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Tortila_hex.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_tortila_hex_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_tortila_hex_CO.paa"};
 	};
 	class B_ViperHarness_oicamo_F: B_ViperHarness_base_F
 	{

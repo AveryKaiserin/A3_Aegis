@@ -46,37 +46,14 @@ class CfgWeapons
 			class MuzzleSlot{};
 			class CowsSlot: CowsSlot_Rail
 			{
-				iconPosition[] = {0.5,0.35};
+				iconPosition[] =
+				{
+					0.5, // X
+					0.35 // Y
+				};
 				iconScale = 0.2;
 			};
 			class PointerSlot{};
-		};
-		bullet1[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Metal_01",db-7,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Metal_02",db-7,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Metal_03",db-7,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Metal_04",db-7,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Dirt_01",db-7,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Dirt_02",db-7,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Dirt_03",db-7,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Dirt_04",db-7,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Grass_01",db-7,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Grass_02",db-7,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Grass_03",db-7,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\shells\5_56\Shellcase_556_Grass_04",db-7,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
 		};
 		distanceZoomMin = 300;
 		distanceZoomMax = 300;

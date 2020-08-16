@@ -319,7 +319,7 @@ class CfgMagazines
 		initSpeed = 380;
 		ammo = B_12Gauge_Pellets_Submunition_Cartridge;
 		modelSpecial = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Mag_12Gauge_AA12_8Rnd.p3d";
-		//picture = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\UI\icon_8Rnd_12Gauge_Pellets_CA.paa";
+		picture = "\A3\Weapons_F\Data\UI\M_12Gauge_slugs_CA.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\AA40_CO.paa"};
 	};
@@ -329,7 +329,7 @@ class CfgMagazines
 		displayName = $STR_A3_CfgMagazines_8Rnd_12Gauge_Slug0;
 		displayNameShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Slug1;
 		descriptionShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Slug1;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\UI\icon_8Rnd_12Gauge_Slug_CA.paa";
+		picture = "\A3\Weapons_F\Data\UI\M_12Gauge_CA.paa";
 		ammo = B_12Gauge_Slug;
 		initSpeed = 450;
 		count = 8;
@@ -369,22 +369,6 @@ class CfgMagazines
 		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\icon_20Rnd_AA40_HE_CA.paa";
 		ammo = B_19mm_HE;
 		initSpeed = 400;
-	};
-	class 7Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_7Rnd_12Gauge_Pellets0;
-		count = 7;
-		descriptionShort = $STR_A3_A_CfgMagazines_7Rnd_12Gauge_Pellets1;
-		mass = 12;
-	};
-	class 7Rnd_12Gauge_Slug: 2Rnd_12Gauge_Slug
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_7Rnd_12Gauge_Slug0;
-		count = 7;
-		descriptionShort = $STR_A3_A_CfgMagazines_7Rnd_12Gauge_Slug1;
-		mass = 12;
 	};
 	class 40Rnd_460x30_Mag_F: CA_Magazine
 	{

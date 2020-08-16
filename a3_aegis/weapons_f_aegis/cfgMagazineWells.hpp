@@ -103,8 +103,6 @@ class CfgMagazineWells
 		{
 			8Rnd_12Gauge_Pellets,
 			8Rnd_12Gauge_Slug,
-			7Rnd_12Gauge_Pellets,
-			7Rnd_12Gauge_Slug,
 			4Rnd_12Gauge_Pellets,
 			4Rnd_12Gauge_Slug,
 			2Rnd_12Gauge_Pellets,
@@ -126,18 +124,6 @@ class CfgMagazineWells
 			20Rnd_AA40_Pellets,
 			20Rnd_AA40_Slug,
 			20Rnd_AA40_HE
-		};
-	};
-	class KSG_12GA
-	{
-		Aegis_Magazines[] =
-		{
-			7Rnd_12Gauge_Pellets,
-			7Rnd_12Gauge_Slug,
-			4Rnd_12Gauge_Pellets,
-			4Rnd_12Gauge_Slug,
-			2Rnd_12Gauge_Pellets,
-			2Rnd_12Gauge_Slug
 		};
 	};
 	class MP153_12GA
