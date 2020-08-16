@@ -1236,6 +1236,13 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\booniehat_ocamo_CO.paa"};
 	};
+	class H_Booniehat_oicamo: H_Booniehat_khk
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\booniehat_oicamo_CO.paa"};
+	};
 	class H_Booniehat_oli_hs: H_Booniehat_oli
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1313,7 +1320,18 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_ocamo_hs0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_ocamo_hs_CA.paa";
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_ocamo_hs_CA.paa";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
+	class H_Booniehat_oicamo_hs: H_Booniehat_oicamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_oicamo_hs0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_oicamo_hs_CA.paa";
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1333,6 +1351,24 @@ class CfgWeapons
 		displayName = $STR_A3_H_Cap_brn_SERO0;
 		picture = "\A3\Characters_F\Data\UI\icon_H_Cap_brn_SERO_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_SERO_CO.paa"};
+	};
+	class H_Cap_oicamo: H_Cap_red
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo0;
+		//picture = "\A3\Characters_F\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_iran_CO.paa"};
+	};
+	class H_Cap_oicamo_hs: H_Cap_oicamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_oicamo_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0;
+		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		};
 	};
 	class H_Cap_headphones_gry: H_Cap_headphones
 	{
@@ -1482,6 +1518,20 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetLeaderO_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"};
 	};
+	class H_HelmetO_oicamo: H_HelmetO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
+	};
+	class H_HelmetLeaderO_oicamo: H_HelmetLeaderO_ocamo
+	{
+	  	author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetLeaderO_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetLeaderO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
+	};
 	class H_MilCap_tan: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1495,6 +1545,13 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_MilCap_blk0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_MilCap_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\Common\Data\cappatrol_blk_CO.paa"};
+	};
+	class H_MilCap_oicamo: H_MilCap_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_MilCap_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_oicamo_CO.paa"};
 	};
 	class H_HelmetB_light_mcamo: H_HelmetB_light
 	{
@@ -1573,6 +1630,13 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_oucamo0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecO_oucamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\tech_oucamo_CO.paa"};
+	};
+	class H_HelmetSpecO_oicamo: H_HelmetSpecO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
 	};
 	class H_Bandanna_mcamo_hs: H_Bandanna_mcamo
 	{

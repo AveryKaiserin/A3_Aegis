@@ -528,6 +528,41 @@ class CfgWeapons
 			};
 		};
 	};
+	class V_HarnessO_oicamo: V_HarnessO_gry
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessO_oicamo_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_oicamo0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"
+		};
+	};
+	class V_HarnessOGL_oicamo: V_HarnessOGL_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_oicamo0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOGL_oicamo_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] =
+			{
+				camo1,
+				camo2
+			};
+		};
+	};
 	class V_HarnessOSpec_blk: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -537,6 +572,17 @@ class CfgWeapons
 		{
 			"\A3\Characters_F\OPFOR\Data\clothing_rus_CO.paa",
 			"\A3\Characters_F\OPFOR\Data\tech_rus_CO.paa"
+		};
+	};
+	class V_HarnessOSpec_oicamo: V_HarnessOSpec_brn
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOSpec_oicamo_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_oicamo0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"
 		};
 	};
 	class V_PlateCarrierIA1_oli: V_PlateCarrierIA1_dgtl

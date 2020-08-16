@@ -806,7 +806,7 @@ class O_R_Fatigues_01_taiga_F: O_Soldier_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_RUS_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"
 	};
 	hiddenSelectionsMaterials[] =
 	{
@@ -828,7 +828,7 @@ class O_R_Fatigues_01_arid_F: O_R_Fatigues_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_RUS_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"
 	};
 };
 class O_R_GhillieSuit_01_taiga_F: O_sniper_F
@@ -846,7 +846,7 @@ class O_R_GhillieSuit_01_taiga_F: O_sniper_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_RUS_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_RUtaiga_CO.paa"
 	};
 };
@@ -858,7 +858,7 @@ class O_R_GhillieSuit_01_arid_F: O_R_GhillieSuit_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_RUS_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_RUkhk_CO.paa"
 	};
 };

@@ -825,3 +825,10 @@ class O_LightFatigues_01_ghex_F: O_A_officer_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_tna_CO.paa"};
 };
+class O_LightFatigues_01_oicamo_F: O_A_officer_F
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_officer_noInsignia_oicamo_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_oicamo_CO.paa"};
+};

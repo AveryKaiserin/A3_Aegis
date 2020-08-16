@@ -3186,8 +3186,7 @@ class O_Urban_RadioOperator_F: O_soldierU_F
     };
     role = RadioOperator;
 };
-/*
-class O_Fatigues_01_Blk_F: O_Soldier_F
+class O_Fatigues_01_blk_F: O_Soldier_F
 {
     scope = protected;
     scopeCurator = protected;
@@ -3198,4 +3197,21 @@ class O_Fatigues_01_Blk_F: O_Soldier_F
         "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_blk_CO.paa"
     };
 };
-*/
+class O_Fatigues_01_oicamo_F: O_Soldier_F
+{
+    scope = protected;
+    scopeCurator = protected;
+	uniformClass = U_O_CombatUniform_oicamo;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"
+    };
+};
+class O_OfficerFatigues_01_oicamo_F: O_officer_F
+{
+    scope = protected;
+    scopeCurator = protected;
+	uniformClass = U_O_OfficerUniform_oicamo;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\officer_oicamo_CO.paa"};
+};
