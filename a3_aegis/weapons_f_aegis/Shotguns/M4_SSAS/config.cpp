@@ -21,7 +21,11 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_sgun_M4_F0;
 		model = "\A3_Aegis\Weapons_F_Aegis\Shotguns\M4_SSAS\M4_F.p3d";
-		magazines[] = {8Rnd_12Gauge_Pellets};
+		magazines[] =
+		{
+			8Rnd_12Gauge_Pellets,
+			8Rnd_12Gauge_Slug
+		};
 		magazineWell[] = {Shotgun_12GA};
 		maxZeroing = 100;
 		reloadAction = GestureReloadM4SSAS;
