@@ -2,7 +2,14 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	// Arma 3
 	class Wreck_base_F;
+	class Land_Wreck_Heli_Attack_01_F: Wreck_base_F
+	{
+		hiddenSelections[] = {DamT_1};
+		hiddenSelectionsTextures[] = {"\A3\Air_F_Beta\Heli_Attack_01\Data\Heli_Attack_01_CO.paa"};
+	};
+	// Arma 3 Aegis
 	class Land_Wreck_datsun01T_F: Wreck_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

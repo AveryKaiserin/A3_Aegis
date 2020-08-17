@@ -693,6 +693,65 @@ class B_ION_Soldier_TL_F: B_ION_Soldier_base_F
 		H_Headset_light,1
 	};
 };
+class B_ION_RadioOperator_F: B_ION_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_RadioOperator_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	uniformClass = U_B_ION_Uniform_01_poloshirt_blue_F;
+	linkedItems[] =
+	{
+		H_Cap_blk_ION,
+		V_TacVest_oli,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_Cap_blk_ION,
+		V_TacVest_oli,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	backpack = B_RadioBag_01_black_F;
+	weapons[] =
+    {
+        arifle_MXC_Black_ACO_FL_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MXC_Black_ACO_FL_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+		HandGrenade,
+        SmokeShell
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+		HandGrenade,
+        SmokeShell
+    };
+    role = RadioOperator;
+	headgearList[] =
+	{
+		"",1,
+		H_Cap_blk_ION,2,
+		H_Cap_blk_ION_hs,2,
+		H_Cap_headphones_blk_ION,2,
+		H_Headset_light,1
+	};
+};
 class B_ION_Soldier_UAV_F: B_ION_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

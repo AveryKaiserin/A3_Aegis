@@ -128,8 +128,8 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_oicamo0;
-		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_oicamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_ocamo_CO.paa"};
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_AssaultPack_ocamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_oicamo_CO.paa"};
 	};
 	class B_Kitbag_khk: B_Kitbag_Base
 	{
@@ -160,7 +160,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_khk0;
-		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\ui\icon_B_C_Small_khk.paa";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_khk.paa";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_CO.paa"};
 	};
 	class B_TacticalPack_sgg: B_TacticalPack_Base
@@ -168,7 +168,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_sgg0;
-		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\ui\icon_B_C_Small_rgr.paa";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
 	};
 	class B_TacticalPack_oicamo: B_TacticalPack_Base
@@ -176,7 +176,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_oicamo0;
-		//picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\ui\icon_B_C_Small_hex.paa";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_hex.paa";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_hex_CO.paa"};
 	};
 	class B_FieldPack_oicamo: B_FieldPack_Base
@@ -184,7 +184,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_FieldPack_oicamo0;
-		//picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Gorod_hex.paa";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Gorod_hex_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_gorod_hex_CO.paa"};
 	};
 	class B_Carryall_blk: B_Carryall_Base
@@ -200,7 +200,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_Carryall_oicamo0;
-		//picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Tortila_hex.paa";
+		picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Tortila_hex.paa";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_tortila_hex_CO.paa"};
 	};
 	class B_ViperHarness_oicamo_F: B_ViperHarness_base_F
@@ -208,7 +208,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_ViperHarness_oicamo_F0;
-		//picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperHarness_hex_F_CA.paa";
+		picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperHarness_hex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
 	};
 	class B_ViperLightHarness_oicamo_F: B_ViperLightHarness_base_F
@@ -216,14 +216,14 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_ViperLightHarness_oicamo_F0;
-		//picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_hex_F_CA.paa";
+		picture = "\A3\Supplies_F_Exp\Bags\Data\UI\icon_B_ViperLightHarness_hex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Supplies_F_Exp\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
 	};
 	class B_Rangemaster_belt_Base: Bag_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = private;
-		model = "\A3\Characters_F\BLUFOR\equip_b_belt.p3d";
+		model = "\A3\Characters_F\BLUFOR\eqUIp_b_belt.p3d";
 		hiddenSelections[] = {camo};
 		maximumLoad = 40;
 		mass = 5;

@@ -364,11 +364,11 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgMagazines_20Rnd_AA40_HE0;
-		displayNameShort = $STR_A3_HE_dns;
+		displayNameShort = $STR_A3_CfgMagazines_50Rnd_120mm_Mo_shells_dns;
 		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_AA40_HE2;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\icon_20Rnd_AA40_HE_CA.paa";
 		ammo = B_19mm_HE;
-		initSpeed = 400;
+		initSpeed = 200;
 	};
 	class 40Rnd_460x30_Mag_F: CA_Magazine
 	{
