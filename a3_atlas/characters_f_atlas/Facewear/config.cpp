@@ -465,12 +465,12 @@ class CfgGlasses
 		};
 	};
 	// Arma 3 Atlas
-	class G_B_Diving_aucamo_F: G_Diving
+	class G_B_O_Diving: G_Diving
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "Diving Goggles [ADF]";
 		model = "\A3\Characters_F_EPB\Heads\Glasses\G_B_Diving.p3d";
-		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_B_Diving_aucamo_F_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_B_O_Diving_CA.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Facewear\Data\G_Diving_aucamo_CA.paa"};
 		identityTypes[] =

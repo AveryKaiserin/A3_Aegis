@@ -145,11 +145,11 @@ class CfgWeapons
 		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
-	class V_RebreatherB_aucamo_F: V_RebreatherB
+	class V_RebreatherB_O: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_V_RebreatherB_aucamo_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_aucamo_F_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_RebreatherB_O0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherB_O_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa"};
 		hiddenUnderwaterSelectionsTextures[] =
 		{
