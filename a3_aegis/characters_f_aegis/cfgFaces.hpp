@@ -29,11 +29,6 @@ class CfgFaces
 		class Kerry_A_F: Kerry
 		{
 			displayName = "Kerry (Survive)";
-			identityTypes[] =
-			{
-				Head_NATO,
-				Head_Euro
-			};
 			disabled = false;
 		};
 		class kerry_B1_F: Kerry
@@ -49,11 +44,6 @@ class CfgFaces
 		class Kerry_C_F: Kerry
 		{
 			displayName = "Kerry (Win)";
-			identityTypes[] =
-			{
-				Head_NATO,
-				Head_Euro
-			};
 			disabled = false;
 		};
 		class IG_Leader: Default
@@ -272,11 +262,6 @@ class CfgFaces
 				Head_Enoch,
 				Head_NATO
 			};
-		};
-		// Arma 3 Oldman
-		class TanoanHead_A3_09: TanoanHead_A3_01
-		{
-			identityTypes[] = {Head_Tanoan};
 		};
 		// Arma 3 Aegis
 		class PersianHead_A3_05: PersianHead_A3_01
