@@ -21,7 +21,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_L_F0;
 		priority = 11;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_FRE_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_L_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_France_CO.paa";
 	};
 	class BLU_E_F
@@ -37,7 +37,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_O_F0;
 		priority = 16;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_AUS_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_O_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
 	};
 	class BLU_H_F
@@ -45,7 +45,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_H_F0;
 		priority = 12;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_HIL_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_H_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
 	class OPF_C_F
