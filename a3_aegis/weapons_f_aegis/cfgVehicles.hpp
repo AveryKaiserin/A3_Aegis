@@ -114,6 +114,33 @@ class CfgVehicles
 	class Item_Base_F;
 	// Arma 3 Enoch
 	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
+	// Arma 3 Oldman
+	class OM_Electro;
+	class Item_CSAToperatorAccesCard_01: OM_Electro
+	{
+		scope = public;
+		scopeCurator = public;
+	};
+	class Item_CSAToperatorAccesCard_02: OM_Electro
+	{
+		scope = public;
+		scopeCurator = public;
+	};
+	class Item_CSAToperatorAccesCard_03: OM_Electro
+	{
+		scope = public;
+		scopeCurator = public;
+	};
+	class Item_CSAToperatorAccesCard_04: OM_Electro
+	{
+		scope = public;
+		scopeCurator = public;
+	};
+	class Item_CSAToperatorAccesCard_05: OM_Electro
+	{
+		scope = public;
+		scopeCurator = public;
+	};
 	// Arma 3 Aegis
 	/*
 	ITEM_HOLDER(Laserdesignator_02_blk_F,$STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0,"\A3\Weapons_F\DummyBinoc.p3d")

@@ -635,7 +635,7 @@ class B_ION_Soldier_TL_F: B_ION_Soldier_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_TL_F0;
-	role = Grenadier;
+	role = Rifleman;
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
