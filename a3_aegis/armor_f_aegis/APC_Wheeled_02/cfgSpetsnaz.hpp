@@ -185,14 +185,14 @@ class O_R_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	typicalCargo[] = {O_R_crew_F};
 	textureList[] =
 	{
-        Green,0,
-		Taiga,1
+        Green,1,
+		Taiga,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUcamo_CO.paa",
-		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUgrn_CO.paa",
+		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 	};
@@ -413,16 +413,16 @@ class O_R_APC_Wheeled_02_rcws_v2_ard_F: APC_Wheeled_02_base_v2_F
 	typicalCargo[] = {O_R_crew_ard_F};
 	textureList[] =
 	{
-        Green,0,
-		Arid,1
+        Green,1,
+		Arid,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUkhk_CO.paa",
-		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUgrn_CO.paa",
+		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 	};
 	class TransportWeapons
 	{

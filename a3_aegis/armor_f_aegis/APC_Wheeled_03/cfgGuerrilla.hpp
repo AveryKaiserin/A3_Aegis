@@ -207,9 +207,9 @@ class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {I_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1/3,
-		Guerilla_02,1/3,
-		Guerilla_03,1/3
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -219,6 +219,10 @@ class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Data_F_Tacops\Data\APC_Wheeled_03_ext_alpha_IG_01_CO.paa",
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
+	};
+	class EventHandlers: EventHandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };
 class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
@@ -430,9 +434,9 @@ class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {B_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1/3,
-		Guerilla_02,1/3,
-		Guerilla_03,1/3
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -442,6 +446,10 @@ class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Data_F_Tacops\Data\APC_Wheeled_03_ext_alpha_IG_01_CO.paa",
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
+	};
+	class EventHandlers: EventHandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };
 class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
@@ -653,9 +661,9 @@ class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	typicalCargo[] = {O_G_crew_F};
 	textureList[] =
 	{
-		Guerilla_01,1/3,
-		Guerilla_02,1/3,
-		Guerilla_03,1/3
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -665,5 +673,9 @@ class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Data_F_Tacops\Data\APC_Wheeled_03_ext_alpha_IG_01_CO.paa",
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
+	};
+	class EventHandlers: EventHandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };

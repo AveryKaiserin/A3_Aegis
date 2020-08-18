@@ -209,10 +209,10 @@ class CfgAmmo
 	};
 	class M_Vikhr_AT: MissileBase
 	{
-		hit = 150;
-		indirectHit = 20;
-		indirectHitRange = 2;
-		proximityExplosionDistance = 5;
+		hit = 200;
+		indirectHit = 40;
+		indirectHitRange = 4;
+		proximityExplosionDistance = 10;
 		warheadName = TandemHEAT;
 		submunitionAmmo = ammo_Penetrator_Vikhr;
 		submunitionDirectionType = SubmunitionModelDirection;
@@ -226,13 +226,13 @@ class CfgAmmo
 		CraterEffects = ATRocketCrater;
 		explosionEffects = ATRocketExplosion;
 		whistleDist = 4;
-		maneuvrability = 10;
+		maneuvrability = 12;
 		simulationStep = 0.002;
 		aiAmmoUsageFlags = 128 + 512;
 		irLock = true;
 		nvLock = true;
 		laserLock = true;
-		cost = 1000;
+		cost = 700;
 		maxSpeed = 600;
 		timeToLive = 23;
 		airFriction = 0.103;
@@ -268,7 +268,7 @@ class CfgAmmo
 			ascendHeight = 400;
 			descendDistance = 800;
 			minDistance = 800;
-			ascendAngle = 20;
+			ascendAngle = 15;
 		};
 		class Components: Components
 		{

@@ -82,6 +82,8 @@ class CfgMagazines
 	class 60Rnd_30mm_APFSDS_shells;
 	class 60Rnd_40mm_GPR_shells;
 	class 38Rnd_80mm_rockets;
+	class 12Rnd_230mm_rockets;
+	class 12Rnd_230mm_rockets_cluster;
 	class 680Rnd_35mm_AA_shells;
 	class 11Rnd_45ACP_Mag: CA_Magazine
 	{
@@ -799,8 +801,8 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgMagazines_12Rnd_Vikhr_missiles0;
-		displayNameShort = $STR_A3_CfgMagazines_8Rnd_LG_scalpel_dns;
-		descriptionShort = $STR_A3_cfgMagazine_Scalpel_tooltip;
+		displayNameShort = $STR_A3_Cfgmagazines_140Rnd_30mm_MP_shells_dns;
+		descriptionShort = $STR_A3_A_CfgMagazines_12Rnd_Vikhr_missiles1;
 		ammo = M_Vikhr_AT;
 		initSpeed = 0;
 		count = 12;
@@ -821,11 +823,25 @@ class CfgMagazines
 		count = 1;
 		nameSound = "";
 	};
+	class 12Rnd_230mm_rockets_guided: 12Rnd_230mm_rockets
+	{
+		displayName = $STR_A3_A_CfgMagazines_12Rnd_230mm_rockets_guided0;
+		displayNameShort = $STR_A3_CfgMagazines_10Rnd_120mm_Mo_guided0;
+		displayNameMFDFormat = "GUIDED";
+		ammo = M_Mo_230mm_guided;
+	};
+	class 12Rnd_230mm_rockets_LG: 12Rnd_230mm_rockets
+	{
+		displayName = $STR_A3_A_CfgMagazines_12Rnd_230mm_rockets_LG0;
+		displayNameShort = $STR_A3_CfgMagazines_8Rnd_82mm_Mo_LG_dns;
+		displayNameMFDFormat = "LASER GUID";
+		ammo = R_230mm_LG;
+	};
 	class 500Rnd_35mm_AA_shells: 680Rnd_35mm_AA_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_680Rnd_35mm_AA_shells0;
-		displayNameShort = $STR_A3_A_CfgMagazines_680Rnd_35mm_AA_shells_dns;
+		displayName = $STR_A3_CfgMagazines_680Rnd_35mm_AA_shells0;
+		displayNameShort = $STR_A3_CfgMagazines_680Rnd_35mm_AA_shells_dns;
 		ammo = B_35mm_AA;
 		initSpeed = 1440;
 		count = 500;

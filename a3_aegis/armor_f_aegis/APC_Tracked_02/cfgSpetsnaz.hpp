@@ -197,13 +197,13 @@ class O_R_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-        Green,0,
-		Taiga,1
+        Green,1,
+		Taiga,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
@@ -442,14 +442,14 @@ class O_R_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-        Green,0,
-		Taiga,1
+        Green,1,
+		Taiga,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 	};
@@ -683,13 +683,13 @@ class O_R_APC_Tracked_02_medical_F: APC_Tracked_02_medical_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-        Green,0,
-		Taiga,1
+        Green,1,
+		Taiga,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUcamo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUcamo_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 		"",
 		"",
 		""
@@ -898,16 +898,16 @@ class O_R_APC_Tracked_02_cannon_ard_F: O_APC_Tracked_02_cannon_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,1,
-		Green,0
+        Arid,0,
+		Green,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 	};
 	class TransportWeapons
 	{
@@ -1143,16 +1143,16 @@ class O_R_APC_Tracked_02_AA_ard_F: O_APC_Tracked_02_AA_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,1,
-		Green,0
+        Arid,0,
+		Green,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
 	};
 	class TransportWeapons
 	{
@@ -1384,13 +1384,13 @@ class O_R_APC_Tracked_02_medical_ard_F: APC_Tracked_02_medical_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-        Arid,1,
-		Green,0
+        Arid,0,
+		Green,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medevac_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUgrn_CO.paa",
 		"",
 		"",
 		""

@@ -79,12 +79,12 @@ class O_R_Quadbike_01_F: Quadbike_01_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
 	{
-		Green,0,
-		Taiga,1
+		Green,1,
+		Taiga,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUgrn_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUgrn_CO.paa"
 	};
 };
@@ -169,12 +169,12 @@ class O_R_Quadbike_01_ard_F: Quadbike_01_base_F
 	typicalCargo[] = {O_R_Soldier_ard_F};
 	textureList[] =
 	{
-		Arid,1,
-		Green,0
+		Arid,0,
+		Green,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUgrn_CO.paa"
 	};
 };

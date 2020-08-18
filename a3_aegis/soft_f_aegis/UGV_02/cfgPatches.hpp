@@ -6,7 +6,8 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Aegis_Soft_F_Aegis,
-			A3_Soft_F_Enoch_UGV_02
+			A3_Soft_F_Enoch_UGV_02,
+			A3_Supplies_F_Enoch_Bags
 		};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};

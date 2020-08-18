@@ -193,8 +193,8 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
@@ -414,8 +414,8 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
 		"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
@@ -635,9 +635,9 @@ class O_R_MBT_04_cannon_ard_F: MBT_04_cannon_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
 	{
@@ -856,10 +856,10 @@ class O_R_MBT_04_command_ard_F: MBT_04_command_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
 		"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
 	{

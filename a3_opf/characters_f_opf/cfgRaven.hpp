@@ -398,13 +398,13 @@ class I_R_soldier_LAT_F: I_R_soldier_base_F
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
-        launch_RPG32_camo_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
-        launch_RPG32_camo_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	magazines[] = 

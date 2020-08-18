@@ -7859,6 +7859,40 @@
 				<Japanese>UGV Uran 衛生</Japanese>
 				<Turkish>UGV Uran Sıhhiye</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_01_F0">
+				<Original>UGV</Original>
+				<Chinese>無人地面載具</Chinese>
+				<French>UGV</French>
+				<Spanish>VTNT</Spanish>
+				<Italian>UGV</Italian>
+				<Polish>Robot</Polish>
+				<Russian>БПА</Russian>
+				<German>UBF</German>
+				<Czech>UGV</Czech>
+				<English>UGV</English>
+				<Portuguese>VTNT</Portuguese>
+				<Korean>UGV</Korean>
+				<Chinesesimp>UGV</Chinesesimp>
+				<Japanese>UGV</Japanese>
+				<Turkish>UGV</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_01_rcws_F0">
+				<Original>UGV RCWS</Original>
+				<Chinese>RCWS 無人地面載具</Chinese>
+				<French>UGV RCWS</French>
+				<Spanish>VTNT ERCA</Spanish>
+				<Italian>UGV RCWS</Italian>
+				<Polish>Robot ZSMU</Polish>
+				<Russian>БПА RCWS</Russian>
+				<German>UBF RCWS</German>
+				<Czech>UGV RCWS</Czech>
+				<English>UGV RCWS</English>
+				<Portuguese>VTNT RCWS</Portuguese>
+				<Korean>UGV RCWS</Korean>
+				<Chinesesimp>UGV RCWS</Chinesesimp>
+				<Japanese>UGV RCWS</Japanese>
+				<Turkish>UGV RCWS</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Demining_F0">
 				<Original>Gremlin ED-1D</Original>
 				<Chinese>Gremlin ED-1D</Chinese>
@@ -7960,6 +7994,40 @@
 				<Chinesesimp>Monokl ED-1E</Chinesesimp>
 				<Japanese>Monokl ED-1E</Japanese>
 				<Turkish>Monokl ED-1E</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_02_Demining_backpack_F0">
+				<Original>UGV Bag (Demining) [ION]</Original>
+				<English>UGV Bag (Demining) [ION]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [ION]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [ION]</German>
+				<Russian>Сумка для БПА (разминирование) [ION]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [ION]</Polish>
+				<Italian>Borsa UGV (sminamento) [ION]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [ION]</Spanish>
+				<French>Sac drone terrestre (déminage) [ION]</French>
+				<Chinese>無人機袋子（掃雷）（ION）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[ION]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [ION]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [ION]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[ION]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [ION]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_02_Demining_backpack_F_assembleInfo0">
+				<Original>Demining UGV</Original>
+				<English>Demining UGV</English>
+				<Czech>Odminovací bezpilotní vozidlo</Czech>
+				<German>Minenräumungs-UGV</German>
+				<Russian>Разминирующий БПА</Russian>
+				<Polish>UGV przeciwminowy</Polish>
+				<Italian>UGV di sminamento</Italian>
+				<Spanish>VTNT desminador</Spanish>
+				<French>Drone terrestre de déminage</French>
+				<Chinese>無人地面掃雷載具</Chinese>
+				<Japanese>地雷除去用 UGV</Japanese>
+				<Korean>지뢰 제거 UGV</Korean>
+				<Portuguese>VTNT de desminagem</Portuguese>
+				<Chinesesimp>排雷 UGV</Chinesesimp>
+				<Turkish>Mayın Temizleme UGV’si</Turkish>
 			</Key>
 		</Container>
 		<Container name="Static_F">
@@ -16857,6 +16925,23 @@
 						<Chinesesimp>Vektor</Chinesesimp>
 						<Japanese>Vektor</Japanese>
 						<Turkish>Vektor</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgMagazines_12Rnd_Vikhr_missiles1">
+						<Original>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Original>
+						<Chinese>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Chinese>
+						<French>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</French>
+						<Spanish>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Spanish>
+						<Italian>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Italian>
+						<Polish>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Polish>
+						<Russian>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Russian>
+						<German>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</German>
+						<Czech>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Czech>
+						<English>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</English>
+						<Portuguese>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Portuguese>
+						<Korean>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Korean>
+						<Chinesesimp>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Chinesesimp>
+						<Japanese>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Japanese>
+						<Turkish>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Turkish>
 					</Key>
 				</Container>
 			</Container>

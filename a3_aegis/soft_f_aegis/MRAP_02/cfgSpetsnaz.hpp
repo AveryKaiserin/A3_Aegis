@@ -125,14 +125,14 @@ class O_R_MRAP_02_F: MRAP_02_base_F
     };
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	threat[] = {0.8,0.6,0.3};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa"
     };
     class Turrets{};
     class TransportWeapons
@@ -291,14 +291,14 @@ class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
     };
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class TransportWeapons
     {
@@ -456,14 +456,14 @@ class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
     };
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class TransportWeapons
     {
@@ -614,14 +614,14 @@ class O_R_MRAP_02_ard_F: MRAP_02_base_F
     };
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	threat[] = {0.8,0.6,0.3};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa"
     };
     class Turrets{};
     class TransportWeapons
@@ -780,14 +780,14 @@ class O_R_MRAP_02_hmg_ard_F: MRAP_02_hmg_base_F
     };
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class TransportWeapons
     {
@@ -945,14 +945,14 @@ class O_R_MRAP_02_gmg_ard_F: MRAP_02_gmg_base_F
     };
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class TransportWeapons
     {

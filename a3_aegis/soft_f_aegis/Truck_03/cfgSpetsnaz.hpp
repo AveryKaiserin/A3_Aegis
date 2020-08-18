@@ -105,14 +105,14 @@ class O_R_Truck_03_transport_F: O_Truck_03_transport_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_covered_F: O_Truck_03_covered_F
@@ -221,14 +221,14 @@ class O_R_Truck_03_covered_F: O_Truck_03_covered_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
     	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
     };
 };
@@ -338,14 +338,14 @@ class O_R_Truck_03_repair_F: O_Truck_03_repair_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUcamo_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_ammo_F: O_Truck_03_ammo_F
@@ -454,14 +454,14 @@ class O_R_Truck_03_ammo_F: O_Truck_03_ammo_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
     	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
     };
 };
@@ -571,14 +571,14 @@ class O_R_Truck_03_fuel_F: O_Truck_03_fuel_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUcamo_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_medical_F: O_Truck_03_medical_F
@@ -687,14 +687,14 @@ class O_R_Truck_03_medical_F: O_Truck_03_medical_F
     };
 	textureList[] = 
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
     	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
     };
 };
@@ -805,14 +805,14 @@ class O_R_Truck_03_transport_ard_F: O_Truck_03_transport_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_covered_ard_F: O_Truck_03_covered_F
@@ -921,15 +921,15 @@ class O_R_Truck_03_covered_ard_F: O_Truck_03_covered_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
-    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
+    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_repair_ard_F: O_Truck_03_repair_F
@@ -1038,14 +1038,14 @@ class O_R_Truck_03_repair_ard_F: O_Truck_03_repair_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_ammo_ard_F: O_Truck_03_ammo_F
@@ -1154,14 +1154,14 @@ class O_R_Truck_03_ammo_ard_F: O_Truck_03_ammo_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
     	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
     };
 };
@@ -1271,14 +1271,14 @@ class O_R_Truck_03_fuel_ard_F: O_Truck_03_fuel_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUgrn_CO.paa"
     };
 };
 class O_R_Truck_03_medical_ard_F: O_Truck_03_medical_F
@@ -1387,14 +1387,14 @@ class O_R_Truck_03_medical_ard_F: O_Truck_03_medical_F
     };
 	textureList[] = 
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
 	hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
-    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUkhk_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
+    	"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
     };
 };

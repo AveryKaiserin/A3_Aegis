@@ -960,14 +960,14 @@ class I_W_Soldier_LAT_F: I_W_Soldier_base_F
 	weapons[] =
 	{
 		arifle_TRG21_black_ACO_pointer_F,
-		launch_RPG32_green_F,
+		launch_RPG32_black_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_TRG21_black_ACO_pointer_F,
-		launch_RPG32_green_F,
+		launch_RPG32_black_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -984,76 +984,6 @@ class I_W_Soldier_LAT_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-	};
-	cost = 130000;
-	threat[] = {0.8,0.8,0.3};
-	icon = iconManAT;
-	role = MissileSpecialist;
-	secondaryAmmoCoef = 0.5;
-};
-class I_W_Soldier_LAT2_F: I_W_Soldier_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class SpeechVariants
-	{
-		class Default
-		{
-			speechSingular[] = {veh_infantry_AT_s};
-			speechPlural[] = {veh_infantry_AT_p};
-		};
-	};
-	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
-	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
-	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_W_Soldier_LAT2_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_B_soldier_LAT2_F0;
-	uniformClass = U_I_W_Uniform_01_F;
-	linkedItems[] =
-	{
-		H_HelmetSpecter_cover_autumn_F,
-		V_PlateCarrierIA2_grn,
-		DefaultManLinkedItems,
-		NVGoggles_OPFOR
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetSpecter_cover_autumn_F,
-		V_PlateCarrierIA2_grn,
-		DefaultManLinkedItems,
-		NVGoggles_OPFOR
-	};
-	backpack = B_Fieldpack_green_CDFLAT2_F;
-	weapons[] =
-	{
-		arifle_TRG21_black_ACO_pointer_F,
-		launch_RPG7_F,
-		hgun_Pistol_01_F,
-        DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		arifle_TRG21_black_ACO_pointer_F,
-		launch_RPG7_F,
-		hgun_Pistol_01_F,
-        DefaultManWeapons
-	};
-	magazines[] =
-	{
-		mag_6(30Rnd_556x45_Stanag),
-		mag_2(10Rnd_9x21_Mag),
-        RPG7_F,
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-	};
-	respawnMagazines[] =
-	{
-		mag_6(30Rnd_556x45_Stanag),
-		mag_2(10Rnd_9x21_Mag),
-        RPG7_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};

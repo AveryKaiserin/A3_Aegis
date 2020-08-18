@@ -373,13 +373,13 @@ class O_P_soldier_LAT_F: O_P_soldier_base_F
 	weapons[] = 
 	{
 		arifle_TRG20_black_FL_F,
-        launch_RPG32_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_TRG20_black_FL_F,
-        launch_RPG32_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	magazines[] = 

@@ -5,6 +5,13 @@ class CfgVehicles
 	// Arma 3 Enoch
 	class UGV_02_Demining_Base_F;
 	class UGV_02_Science_Base_F;
+	class C_IDAP_UGV_02_Demining_F: UGV_02_Demining_Base_F
+	{
+		class assembleInfo
+		{
+			dissasembleTo[] = {C_IDAP_UGV_02_Demining_backpack_F};
+		};
+	};
 	class Weapon_Bag_Base;
 	class UGV_02_backpack_base_F: Weapon_Bag_Base
 	{
@@ -18,4 +25,5 @@ class CfgVehicles
 	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 	#include "cfgSpetsnaz.hpp"			// Russia
 	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgIon.hpp"				// ION
 };

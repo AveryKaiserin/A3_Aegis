@@ -12,14 +12,14 @@ class O_R_UGV_01_F: UGV_01_base_F
     typicalCargo[] = {O_R_Soldier_F};
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
 };
 class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
@@ -35,14 +35,14 @@ class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
     typicalCargo[] = {O_R_Soldier_F};
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class Turrets: Turrets
     {
@@ -70,12 +70,12 @@ class O_R_UGV_01_medical_F: UGV_01_medical_base_F
     typicalCargo[] = {O_R_Soldier_F};
     textureList[] =
     {
-        Green,0,
-        Taiga,1
+        Green,1,
+        Taiga,0
     };
     hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUgrn_CO.paa",
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
@@ -94,14 +94,14 @@ class O_R_UGV_01_ard_F: UGV_01_base_F
     typicalCargo[] = {O_R_Soldier_ard_F};
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
 };
 class O_R_UGV_01_rcws_ard_F: UGV_01_rcws_base_F
@@ -117,14 +117,14 @@ class O_R_UGV_01_rcws_ard_F: UGV_01_rcws_base_F
     typicalCargo[] = {O_R_Soldier_ard_F};
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
     };
     class Turrets: Turrets
     {
@@ -152,13 +152,13 @@ class O_R_UGV_01_medical_ard_F: UGV_01_medical_base_F
     typicalCargo[] = {O_R_Soldier_ard_F};
     textureList[] =
     {
-        Arid,1,
-        Green,0
+        Arid,0,
+        Green,1
     };
     hiddenSelectionsTextures[] =
     {
-		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUkhk_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUgrn_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };

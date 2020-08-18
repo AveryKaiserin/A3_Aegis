@@ -106,14 +106,14 @@ class B_ION_Soldier_AR_F: B_ION_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -180,14 +180,14 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_camo,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_camo,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -245,14 +245,14 @@ class B_ION_Engineer_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -306,14 +306,14 @@ class B_ION_Soldier_GL_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -361,14 +361,14 @@ class B_ION_Helipilot_F: B_ION_Soldier_base_F
 	respawnMagazines[] = {mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red)};
 	linkedItems[] =
 	{
-		H_Cap_headphones_blk_ION,
 		V_TacVest_oli,
+		H_Cap_headphones_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_headphones_blk_ION,
 		V_TacVest_oli,
+		H_Cap_headphones_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] = {H_Cap_headphones_blk_ION,1};
@@ -424,14 +424,14 @@ class B_ION_Soldier_M_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -481,14 +481,14 @@ class B_ION_Soldier_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -557,14 +557,14 @@ class B_ION_Soldier_LAT_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_headphones_blk_ION,
 		V_TacVest_camo,
+		H_Cap_headphones_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_headphones_blk_ION,
 		V_TacVest_camo,
+		H_Cap_headphones_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] = {H_Cap_headphones_blk_ION,1};
@@ -609,14 +609,14 @@ class B_ION_Soldier_CQ_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	headgearList[] =
@@ -672,15 +672,15 @@ class B_ION_Soldier_TL_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -700,18 +700,18 @@ class B_ION_RadioOperator_F: B_ION_Soldier_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_B_ION_Uniform_01_poloshirt_blue_F;
+	uniformClass = U_I_G_Story_Protagonist_F;
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -791,16 +791,16 @@ class B_ION_Soldier_UAV_F: B_ION_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		B_ION_UAVTerminal
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_HarnessOSpec_blk,
+		H_Cap_blk_ION,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		B_ION_UAVTerminal
@@ -827,6 +827,13 @@ class B_ION_soldier_UAV_06_medical_F: B_ION_Soldier_UAV_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = B_ION_UAV_06_medical_backpack_F;
+};
+class B_ION_soldier_UGV_02_Demining_F: B_ION_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UGV_02_Demining_F.jpg";
+	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	backpack = B_ION_UGV_02_Demining_backpack_F;
 };
 class B_ION_Soldier_universal_F: B_ION_Soldier_F
 {
@@ -859,14 +866,14 @@ class B_ION_Soldier_unarmed_F: B_ION_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Cap_blk_ION,
 		V_TacVest_oli,
+		H_Cap_blk_ION,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;

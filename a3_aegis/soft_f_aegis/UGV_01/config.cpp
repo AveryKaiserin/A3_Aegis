@@ -70,6 +70,18 @@ class CfgVehicles
 				};
 				factions[] = {OPF_R_ard_F};
 			};
+			class Ion
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ION0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_ION_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_ION_CO.paa"
+				};
+				factions[] = {BLU_ION_F};
+			};
 		};
 	};
 	class UGV_01_rcws_base_F: UGV_01_base_F
@@ -267,15 +279,25 @@ class CfgVehicles
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
+			class Ion: Ion
+			{
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_ION_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
+					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
+				};
+			};
 		};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgOpfor.hpp"
-	#include "cfgIndep.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgEAF.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgOpfor.hpp"				// CSAT
+	#include "cfgIndep.hpp"				// AAF
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgOpfor_Exp.hpp"			// CSAT (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgSpetsnaz.hpp"			// Russia
+	#include "cfgEAF.hpp"				// LDF
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgIon.hpp"				// ION
 };

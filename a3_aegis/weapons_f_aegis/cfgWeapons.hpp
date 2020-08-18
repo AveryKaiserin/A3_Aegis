@@ -278,6 +278,18 @@ class CfgWeapons
 			reloadTime = 0.109;
 		};
 	};
+	class rockets_230mm_GAT: RocketPods
+	{
+		magazines[] +=
+		{
+			12Rnd_230mm_rockets_guided,
+			12Rnd_230mm_rockets_LG,
+			PylonMissile_12Rnd_230mm_rockets,
+			PylonMissile_12Rnd_230mm_rockets_cluster,
+			PylonMissile_12Rnd_230mm_rockets_guided,
+			PylonMissile_12Rnd_230mm_rockets_LG
+		};
+	};
 	class LMG_coax: LMG_RCWS
 	{
 		magazines[] +=
