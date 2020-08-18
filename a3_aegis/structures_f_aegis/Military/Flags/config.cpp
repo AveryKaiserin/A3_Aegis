@@ -244,7 +244,7 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_Argana_CO.paa'";
 		};
 	};
-	class Flag_Belarus_F: FlagCarrier
+	class Flag_Bocano_F: FlagCarrier
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class SimpleObject
@@ -259,13 +259,13 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Flag_Belarus_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Flag_Bocano_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Flag_Belarus_F0;
+		displayName = $STR_A3_A_CfgVehicles_Flag_Bocano_F0;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_Belarus_CO.paa'";
+			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_Bocano_CO.paa'";
 		};
 	};
 	class Banner_01_base_F;

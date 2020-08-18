@@ -23,7 +23,15 @@ class CfgVehicles
 		scope = protected;
 		scopeCurator = private;
 	};
-	VEST_HOLDER(V_HarnessOSpec_brn,$STR_A3_V_HarnessOSpec_brn0)
+	class Vest_V_HarnessO_brn: Vest_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_brn0;
+	};
+	class Vest_V_HarnessOGL_brn: Vest_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_brn0;
+	};
+	VEST_HOLDER(V_HarnessOSpec_brn,$STR_A3_A_CfgWeapons_V_HarnessOSpec_brn0)
 	VEST_HOLDER(V_HarnessOSpec_gry,$STR_A3_V_HarnessOSpec_gry0)
 	// Arma 3 Enoch
 	class Vest_V_SmershVest_01_F: Vest_Base_F
@@ -56,7 +64,10 @@ class CfgVehicles
 	VEST_HOLDER(V_TacVest_gry,$STR_A3_A_CfgWeapons_V_TacVest_gry0)
 	VEST_HOLDER(V_HarnessO_blk,$STR_A3_A_CfgWeapons_V_HarnessO_blk0)
 	VEST_HOLDER(V_HarnessOGL_blk,$STR_A3_A_CfgWeapons_V_HarnessOGL_blk0)
+	VEST_HOLDER(V_HarnessO_oicamo,$STR_A3_A_CfgWeapons_V_HarnessO_oicamo0)
+	VEST_HOLDER(V_HarnessOGL_oicamo,$STR_A3_A_CfgWeapons_V_HarnessOGL_oicamo0)
 	VEST_HOLDER(V_HarnessOSpec_blk,$STR_A3_A_CfgWeapons_V_HarnessOSpec_blk0)
+	VEST_HOLDER(V_HarnessOSpec_oicamo,$STR_A3_A_CfgWeapons_V_HarnessOSpec_oicamo0)
 	VEST_HOLDER(V_PlateCarrierIA1_oli,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_oli0)
 	VEST_HOLDER(V_PlateCarrierIA1_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIA1_khk0)
 	VEST_HOLDER(V_PlateCarrierIA2_oli,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_oli0)

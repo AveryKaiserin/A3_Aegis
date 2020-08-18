@@ -1359,17 +1359,6 @@ class CfgWeapons
 		//picture = "\A3\Characters_F\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_iran_CO.paa"};
 	};
-	class H_Cap_oicamo_hs: H_Cap_oicamo
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_oicamo_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0;
-		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
-		};
-	};
 	class H_Cap_headphones_gry: H_Cap_headphones
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1458,6 +1447,17 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_usblack_hs_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_H_Cap_usblack_hs0;
+		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		};
+	};
+	class H_Cap_oicamo_hs: H_Cap_oicamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_oicamo_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0;
 		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1885,6 +1885,13 @@ class CfgWeapons
 		displayName = $STR_A3_CfgWeapons_H_HelmetB_TI_tna_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_TI_alt_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_TI_alt_F_CO.paa"};
+	};
+	class H_HelmetO_ViperSP_oicamo_F: H_HelmetO_ViperSP_hex_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_ViperSP_oicamo_F0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_ViperSP_oicamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_ViperSP_oicamo_CO.paa"};
 	};
 	class H_HelmetB_Camo_tna_F: H_HelmetB_camo
 	{

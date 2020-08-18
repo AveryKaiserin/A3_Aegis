@@ -4,7 +4,7 @@ class CfgVehicles
 {
 	class FlagCarrier;
 	class FlagCarrier_Asym;
-	class Flag_Bocano_F: FlagCarrier
+	class Flag_Belarus_F: FlagCarrier
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class SimpleObject
@@ -19,13 +19,13 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Bocano_F.jpg";
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Belarus_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Flag_Bocano_F0;
+		displayName = $STR_A3_A_CfgVehicles_Flag_Belarus_F0;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Bocano_CO.paa'";
+			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Belarus_CO.paa'";
 		};
 	};
 	class Flag_CZ_F: FlagCarrier

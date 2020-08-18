@@ -1,13 +1,9 @@
 class CfgPatches
 {
-	class A3_Aegis_Static_F_Aegis_SAM_System_03
+	class A3_Atlas_Static_F_Atlas_SAM_System_03
 	{
-		addonRootClass = A3_Aegis_Static_F_Aegis;
-		requiredAddons[] =
-		{
-			A3_Aegis_Static_F_Aegis,
-			A3_Static_F_Sams_SAM_System_03
-		};
+		addonRootClass = A3_Atlas_Static_F_Atlas;
+		requiredAddons[] = {A3_Atlas_Static_F_Atlas};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};
 		weapons[] = {/* Auto-compiled by pboProject */};

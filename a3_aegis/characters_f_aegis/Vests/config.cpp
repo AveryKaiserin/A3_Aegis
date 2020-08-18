@@ -99,10 +99,12 @@ class CfgWeapons
 	};
 	class V_HarnessO_brn: Vest_NoCamo_Base
 	{
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_brn0;
 		class ItemInfo;
 	};
 	class V_HarnessOGL_brn: Vest_NoCamo_Base
 	{
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_brn0;
 		class ItemInfo;
 	};
 	class V_HarnessO_gry: V_HarnessO_brn
@@ -113,6 +115,7 @@ class CfgWeapons
 	class V_HarnessOSpec_brn: V_HarnessO_brn
 	{
 		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_brn0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOSpec_brn_CA.paa";
 		model = "\A3\Characters_F_Beta\INDEP\equip_IR_Vest01.p3d";
 		hiddenSelections[] =

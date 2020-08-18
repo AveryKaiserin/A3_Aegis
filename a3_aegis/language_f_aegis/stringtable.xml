@@ -2693,6 +2693,23 @@
 					<Japanese>ブーニーハット（黒）</Japanese>
 					<Turkish>Boonie Şapka (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_oicamo0">
+					<Original>Booniehat (Desert)</Original>
+					<Chinese>登山帽（沙漠）</Chinese>
+					<French>Chapeau de brousse (Désert)</French>
+					<Spanish>Sombrero militar (desierto)</Spanish>
+					<Italian>Cappello militare a falda larga (deserto)</Italian>
+					<Polish>Kapelusz wojskowy (pustynny)</Polish>
+					<Russian>Панама (пустынный)</Russian>
+					<German>Tarnhut (Wüste)</German>
+					<Czech>Klobouk (poušť)</Czech>
+					<English>Booniehat (Desert)</English>
+					<Portuguese>Chapéu tático (Deserto)</Portuguese>
+					<Korean>부니햇(사막)</Korean>
+					<Chinesesimp>郊区（沙漠）</Chinesesimp>
+					<Japanese>ブーニーハット（砂漠）</Japanese>
+					<Turkish>Boonie Şapka (Çöl)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_oli_hs0">
 					<Original>Booniehat (Olive, Headset)</Original>
 					<Chinese>登山帽（橄欖色，耳機）</Chinese>
@@ -2761,6 +2778,23 @@
 					<Japanese>ブーニーハット（六角形、ヘッドセット）</Japanese>
 					<Turkish>Boonie Şapka (Hex, Mik. Kulaklık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_oicamo_hs0">
+					<Original>Booniehat (Desert, Headset)</Original>
+					<Chinese>登山帽（沙漠，耳機）</Chinese>
+					<French>Chapeau de brousse (Désert, micro-casque)</French>
+					<Spanish>Sombrero militar (desierto, auricular)</Spanish>
+					<Italian>Cappello militare a falda larga (deserto, cuffia)</Italian>
+					<Polish>Kapelusz wojskowy (pustynny, głowa)</Polish>
+					<Russian>Панама (пустынный, гарнитура)</Russian>
+					<German>Tarnhut (Wüste, Headset)</German>
+					<Czech>Klobouk (poušť, náhlavní souprava)</Czech>
+					<English>Booniehat (Desert, Headset)</English>
+					<Portuguese>Chapéu tático (Deserto, headset)</Portuguese>
+					<Korean>부니햇(사막, 헤드셋)</Korean>
+					<Chinesesimp>郊区（沙漠，头戴式耳机）</Chinesesimp>
+					<Japanese>ブーニーハット（砂漠、ヘッドセット）</Japanese>
+					<Turkish>Boonie Şapka (Çöl, Mik. Kulaklık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecB_mcamo0">
 					<Original>Combat Helmet (MTP, Enhanced)</Original>
 					<Chinese>戰鬥頭盔（多地形共用，加強型）</Chinese>
@@ -2777,6 +2811,23 @@
 					<Chinesesimp>作战头盔（MTP，增强型）</Chinesesimp>
 					<Japanese>戦闘用ヘルメット（MTP、改良型）</Japanese>
 					<Turkish>Savaş Miğferi (MTP, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Cap_oicamo0">
+					<Original>Cap (Desert)</Original>
+					<Chinese>棒球帽（沙漠）</Chinese>
+					<French>Casquette (Désert)</French>
+					<Spanish>Gorra (desierto)</Spanish>
+					<Italian>Cappello (deserto)</Italian>
+					<Polish>Czapka (pustynny)</Polish>
+					<Russian>Кепи (пустынный)</Russian>
+					<German>Mütze (Wüste)</German>
+					<Czech>Čepice (poušť)</Czech>
+					<English>Cap (Desert)</English>
+					<Portuguese>Boné (Deserto)</Portuguese>
+					<Korean>모자(사막)</Korean>
+					<Chinesesimp>无檐帽（沙漠）</Chinesesimp>
+					<Japanese>キャップ（砂漠）</Japanese>
+					<Turkish>Şapka (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Cap_headphones_gry0">
 					<Original>Rangemaster Cap (Grey)</Original>
@@ -2948,6 +2999,23 @@
 					<Japanese>キャップ（米国、ブラック、ヘッドセット）</Japanese>
 					<Turkish>Şapka (ABD Siyah, Baş Giysisi)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0">
+					<Original>Cap (Desert, Headset)</Original>
+					<Chinese>棒球帽（沙漠，耳機）</Chinese>
+					<French>Casquette (Désert, micro-casque)</French>
+					<Spanish>Gorra (desierto, auricular)</Spanish>
+					<Italian>Cappello (deserto, cuffia)</Italian>
+					<Polish>Czapka (pustynny, headset)</Polish>
+					<Russian>Кепи (пустынный, гарнитура)</Russian>
+					<German>Mütze (Wüste, Headset)</German>
+					<Czech>Čepice (poušť, náhlavní souprava)</Czech>
+					<English>Cap (Desert, Headset)</English>
+					<Portuguese>Boné (Deserto, headset)</Portuguese>
+					<Korean>모자(사막, 헤드셋)</Korean>
+					<Chinesesimp>无檐帽（沙漠，头戴式耳机）</Chinesesimp>
+					<Japanese>キャップ（砂漠、ヘッドセット）</Japanese>
+					<Turkish>Şapka (Çöl, Baş Giysisi)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetO_blk0">
 					<Original>Protector Helmet (Black)</Original>
 					<Chinese>保護者頭盔（黑）</Chinese>
@@ -2982,6 +3050,40 @@
 					<Japanese>防御ヘルメット（ブラック）</Japanese>
 					<Turkish>Muhafız Miğferi (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetO_oicamo0">
+					<Original>Protector Helmet (Desert)</Original>
+					<Chinese>保護者頭盔（沙漠）</Chinese>
+					<French>Casque protecteur (Désert)</French>
+					<Spanish>Casco protector (desierto)</Spanish>
+					<Italian>Elmetto protettivo (deserto)</Italian>
+					<Polish>Hełm ochronny (pustynny)</Polish>
+					<Russian>Шлем Protector (пустынный)</Russian>
+					<German>Schutzhelm (Wüste)</German>
+					<Czech>Přilba Protector (poušť)</Czech>
+					<English>Protector Helmet (Desert)</English>
+					<Portuguese>Capacete protetor (Deserto)</Portuguese>
+					<Korean>프로텍터 헬멧(사막)</Korean>
+					<Chinesesimp>保护者头盔（沙漠）</Chinesesimp>
+					<Japanese>防護ヘルメット（砂漠）</Japanese>
+					<Turkish>Koruyucu Miğfer (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetLeaderO_oicamo0">
+					<Original>Defender Helmet (Desert)</Original>
+					<Chinese>守護者頭盔（沙漠）</Chinese>
+					<French>Casque de défense (Désert)</French>
+					<Spanish>Casco defensor (desierto)</Spanish>
+					<Italian>Elmetto difensore (deserto)</Italian>
+					<Polish>Hełm obrońcy (pustynny)</Polish>
+					<Russian>Шлем Defender (пустынный)</Russian>
+					<German>Verteidigerhelm (Wüste)</German>
+					<Czech>Přilba Defender (poušť)</Czech>
+					<English>Defender Helmet (Desert)</English>
+					<Portuguese>Capacete Defensor (Deserto)</Portuguese>
+					<Korean>디펜더 헬멧(사막)</Korean>
+					<Chinesesimp>防卫兵头盔（沙漠）</Chinesesimp>
+					<Japanese>防御ヘルメット（砂漠）</Japanese>
+					<Turkish>Muhafız Miğferi (Çöl)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_tan0">
 					<Original>Military Cap (Tan)</Original>
 					<Chinese>軍用棒球帽（淺棕色）</Chinese>
@@ -3015,6 +3117,23 @@
 					<Chinesesimp>军帽（黑色）</Chinesesimp>
 					<Japanese>ミリタリーキャップ（ブラック）</Japanese>
 					<Turkish>Askeri Kasket (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_oicamo0">
+					<Original>Military Cap (Desert)</Original>
+					<Chinese>軍用棒球帽（沙漠）</Chinese>
+					<French>Casquette militaire (Désert)</French>
+					<Spanish>Gorra militar (desierto)</Spanish>
+					<Italian>Berretto militare (deserto)</Italian>
+					<Polish>Czapka wojskowa (pustynny)</Polish>
+					<Russian>Армейская кепка (пустынный)</Russian>
+					<German>Militärmütze (Wüste)</German>
+					<Czech>Vojenská čepice (poušť)</Czech>
+					<English>Military Cap (Desert)</English>
+					<Portuguese>Boné militar (Deserto)</Portuguese>
+					<Korean>군용모자(사막)</Korean>
+					<Chinesesimp>军帽（沙漠）</Chinesesimp>
+					<Japanese>ミリタリーキャップ（砂漠）</Japanese>
+					<Turkish>Askeri Kasket (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_light_mcamo0">
 					<Original>Light Combat Helmet (MTP)</Original>
@@ -3168,6 +3287,23 @@
 					<Chinesesimp>刺客头盔（都市）</Chinesesimp>
 					<Japanese>アサシンヘルメット（市街）</Japanese>
 					<Turkish>Suikastçı Miğferi (Şehir)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecO_oicamo0">
+					<Original>Assassin Helmet (Desert)</Original>
+					<Chinese>殺手頭盔（沙漠）</Chinese>
+					<French>Casque d'assassin (Désert)</French>
+					<Spanish>Casco de asesino (desierto)</Spanish>
+					<Italian>Elmetto assassino (deserto)</Italian>
+					<Polish>Hełm zabójcy (pustynny)</Polish>
+					<Russian>Шлем Assassin (пустынный)</Russian>
+					<German>Attentäterhelm (Wüste)</German>
+					<Czech>Přilba Assassin (poušť)</Czech>
+					<English>Assassin Helmet (Desert)</English>
+					<Portuguese>Capacete de assassino (Deserto)</Portuguese>
+					<Korean>어새신 헬멧(사막)</Korean>
+					<Chinesesimp>刺客头盔（沙漠）</Chinesesimp>
+					<Japanese>アサシンヘルメット（砂漠）</Japanese>
+					<Turkish>Suikastçı Miğferi (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Bandanna_mcamo_hs0">
 					<Original>Bandana (MTP, Headset)</Original>
@@ -3406,6 +3542,23 @@
 					<Chinesesimp>轻耳机</Chinesesimp>
 					<Japanese>ライトヘッドセット</Japanese>
 					<Turkish>Hafif Kulaklık</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetO_ViperSP_oicamo_F0">
+					<Original>Special Purpose Helmet (Desert)</Original>
+					<Chinese>特殊用途頭盔（沙漠）</Chinese>
+					<French>Casque de forces spéciales (Désert)</French>
+					<Spanish>Casco de operaciones especiales (desierto)</Spanish>
+					<Italian>Elmetto per scopi speciali (deserto)</Italian>
+					<Polish>Hełm specjalnego przeznaczenia (pustynny)</Polish>
+					<Russian>Шлем спецназа (пустынный)</Russian>
+					<German>Spezial-Helm (Wüste)</German>
+					<Czech>Přilba pro zvláštní účely (poušť)</Czech>
+					<English>Special Purpose Helmet (Desert)</English>
+					<Portuguese>Capacete da equipe de op. especiais (Deserto)</Portuguese>
+					<Korean>특수목적 헬멧(사막)</Korean>
+					<Chinesesimp>特殊用途头盔（沙漠）</Chinesesimp>
+					<Japanese>特殊目的ヘルメット（砂漠）</Japanese>
+					<Turkish>Özel Amaçlı Kask (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_Camo_tna_F0">
 					<Original>Combat Helmet (Tropic, Camo)</Original>
@@ -4497,6 +4650,40 @@
 					<Japanese>ゲリラ兵の服装（カモフラ）</Japanese>
 					<Turkish>Gerilla Giysisi (Kamuflaj)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_CombatUniform_oicamo0">
+					<Original>Fatigues (Desert) [CSAT]</Original>
+					<Chinese>戰鬥服（沙漠）（CSAT）</Chinese>
+					<French>Treillis (Désert) [CSAT]</French>
+					<Spanish>Traje militar (desierto) [CSAT]</Spanish>
+					<Italian>Uniforme (deserto) [CSAT]</Italian>
+					<Polish>Mundur (pustynny) [CSAT]</Polish>
+					<Russian>Форма (пустынный) [CSAT]</Russian>
+					<German>Militäranzug (Wüste) [CSAT]</German>
+					<Czech>Uniforma (poušť) [CSAT]</Czech>
+					<English>Fatigues (Desert) [CSAT]</English>
+					<Portuguese>Fardas (Deserto) [CSAT]</Portuguese>
+					<Korean>전투복(사막)[CSAT]</Korean>
+					<Chinesesimp>军装（沙漠）[CSAT]</Chinesesimp>
+					<Japanese>服（砂漠）</Japanese>
+					<Turkish>Asker Kıyafeti (Çöl) [CSAT]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_OfficerUniform_oicamo0">
+					<Original>Officer Fatigues (Desert) [CSAT]</Original>
+					<Chinese>軍官戰鬥服（沙漠）（CSAT）</Chinese>
+					<French>Treillis d'officier (Désert) [CSAT]</French>
+					<Spanish>Traje de oficial (desierto) [CSAT]</Spanish>
+					<Italian>Uniforme da ufficiale (deserto) [CSAT]</Italian>
+					<Polish>Mundur oficerski (pustynny) [CSAT]</Polish>
+					<Russian>Офицерская форма (пустынный) [CSAT]</Russian>
+					<German>Offizier-Militäranzug (Wüste) [CSAT]</German>
+					<Czech>Důstojnická uniforma (poušť) [CSAT]</Czech>
+					<English>Officer Fatigues (Desert) [CSAT]</English>
+					<Portuguese>Uniforme de oficial (Deserto) [CSAT]</Portuguese>
+					<Korean>장교 전투복(사막)[CSAT]</Korean>
+					<Chinesesimp>军官服（沙漠）[CSAT]</Chinesesimp>
+					<Japanese>士官服（砂漠）[CSAT]</Japanese>
+					<Turkish>Subay Kıyafeti (Çöl) [CSAT]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_T_Pilot_F0">
 					<Original>Pilot Coveralls (Green Hex) [CSAT]</Original>
 					<Chinese>飛行員連身服（綠色六邊形）（CSAT）</Chinese>
@@ -4513,6 +4700,23 @@
 					<Chinesesimp>飞行员服（绿色六角）[CSAT]</Chinesesimp>
 					<Japanese>パイロットカバーオール（緑六角形）[CSAT]</Japanese>
 					<Turkish>Pilot Tulumu (Yeşil Hex) [CSAT]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_oicamo_F0">
+					<Original>Special Purpose Suit (Desert)</Original>
+					<Chinese>特殊用途服裝（沙漠）</Chinese>
+					<French>Combinaison de forces spéciales (Désert)</French>
+					<Spanish>Traje de operaciones especiales (desierto)</Spanish>
+					<Italian>Tuta mimetica per scopi speciali (deserto)</Italian>
+					<Polish>Strój specjalnego przeznaczenia (pustynny)</Polish>
+					<Russian>Костюм спецназа (пустынный)</Russian>
+					<German>Spezialanzug (Wüste)</German>
+					<Czech>Oblek pro zvláštní účely (poušť)</Czech>
+					<English>Special Purpose Suit (Desert)</English>
+					<Portuguese>Traje da op. especiais (Deserto)</Portuguese>
+					<Korean>특수목적 복장(사막)</Korean>
+					<Chinesesimp>特殊用途套装（沙漠）</Chinesesimp>
+					<Japanese>特殊目的スーツ（砂漠）</Japanese>
+					<Turkish>Özel Amaçlı Kıyafet (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_officer_noInsignia_urb_F0">
 					<Original>Light Fatigues (Urban)</Original>
@@ -4547,6 +4751,23 @@
 					<Chinesesimp>轻便军服（绿色六角）</Chinesesimp>
 					<Japanese>軽装野戦服（緑六角形）</Japanese>
 					<Turkish>Hafif Asker Kıyafeti (Yeşil Hex)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_officer_noInsignia_oicamo_F0">
+					<Original>Light Fatigues (Desert)</Original>
+					<Chinese>輕型戰鬥服（沙漠）</Chinese>
+					<French>Treillis clair (Désert)</French>
+					<Spanish>Ropa ligera (desierto)</Spanish>
+					<Italian>Uniforme leggera (deserto)</Italian>
+					<Polish>Jasny mundur (pustynny)</Polish>
+					<Russian>Летняя форма (пустынный)</Russian>
+					<German>Leichter Anzug (Wüste)</German>
+					<Czech>Lehká uniforma (poušť)</Czech>
+					<English>Light Fatigues (Desert)</English>
+					<Portuguese>Trajes leves (Deserto)</Portuguese>
+					<Korean>경량 전투복(사막)</Korean>
+					<Chinesesimp>轻便军服（沙漠）</Chinesesimp>
+					<Japanese>軽装野戦服（砂漠）</Japanese>
+					<Turkish>Hafif Asker Kıyafeti (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_GhillieSuit_wdl_f0">
 					<Original>Ghillie Suit (Woodland) [NATO]</Original>
@@ -5128,6 +5349,57 @@
 				</Key>
 			</Container>
 			<Container name="Vests">
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessO_brn0">
+					<Original>LBV Harness (Khaki)</Original>
+					<Chinese>LBV 吊帶（卡其色）</Chinese>
+					<French>Gilet à matériel (kaki)</French>
+					<Spanish>Arnés LBV (caqui)</Spanish>
+					<Italian>Imbragatura per gilet (kaki)</Italian>
+					<Polish>Uprząż LBV (khaki)</Polish>
+					<Russian>РПС (хаки)</Russian>
+					<German>Einsatzweste mit Gurtzeug (Khaki)</German>
+					<Czech>LBV postroj (khaki)</Czech>
+					<English>LBV Harness (Khaki)</English>
+					<Portuguese>Arnês de carga (cáqui)</Portuguese>
+					<Korean>LBV 하네스(카키)</Korean>
+					<Chinesesimp>LBV 衣帽装备（卡其色）</Chinesesimp>
+					<Japanese>LBVハーネス（カーキ）</Japanese>
+					<Turkish>LBV Takımı (Haki)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOGL_brn0">
+					<Original>LBV Grenadier Harness (Khaki)</Original>
+					<Chinese>LBV 手榴彈吊帶（卡其色）</Chinese>
+					<French>Gilet à matériel pour grenadier (kaki)</French>
+					<Spanish>Arnés granadero LBV (caqui)</Spanish>
+					<Italian>Imbragatura per gilet da granatiere (kaki)</Italian>
+					<Polish>Uprząż na granaty LBV (khaki)</Polish>
+					<Russian>РПС для ПГ (хаки)</Russian>
+					<German>Grenadier-Einsatzweste mit Gurtzeug (Khaki)</German>
+					<Czech>LBV postroj granátnický (khaki)</Czech>
+					<English>LBV Grenadier Harness (Khaki)</English>
+					<Portuguese>Arnês de granadeiro de carga (cáqui)</Portuguese>
+					<Korean>LBV 유탄수 하네스(카키)</Korean>
+					<Chinesesimp>LBV 掷弹兵衣帽装备（卡其色）</Chinesesimp>
+					<Japanese>LBV擲弾兵ハーネス（カーキ）</Japanese>
+					<Turkish>LBV Bombacı Takımı (Haki)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOSpec_brn0">
+					<Original>ELBV Harness (Khaki)</Original>
+					<Chinese>ELBV 吊帶（卡其色）</Chinese>
+					<French>Gilet à matériel amélioré (kaki)</French>
+					<Spanish>Arnés ELBV (caqui)</Spanish>
+					<Italian>Imbragatura rinforzata (kaki)</Italian>
+					<Polish>Uprząż ELBV (khaki)</Polish>
+					<Russian>РПС ELBV (хаки)</Russian>
+					<German>Verbesserte Einsatzweste mit Gurtzeug (Khaki)</German>
+					<Czech>ELBV postroj (khaki)</Czech>
+					<English>ELBV Harness (Khaki)</English>
+					<Portuguese>Arnês de carga melhorado (cáqui)</Portuguese>
+					<Korean>ELBV 하네스(카키)</Korean>
+					<Chinesesimp>ELBV 衣帽装备（卡其色）</Chinesesimp>
+					<Japanese>ELBVハーネス（カーキ）</Japanese>
+					<Turkish>ELBV Takımı (Haki)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_F0">
 					<Original>Kipchak Vest (Green)</Original>
 					<Chinese>奇布夏背心（綠）</Chinese>
@@ -5400,39 +5672,39 @@
 					<Japanese>LBV擲弾兵ハーネス（黒）</Japanese>
 					<Turkish>LBV Bombacı Takımı (Siyah)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_HarnessO_khk0">
-					<Original>LBV Harness (Khaki)</Original>
-					<Chinese>LBV 吊帶（卡其色）</Chinese>
-					<French>Gilet à matériel (kaki)</French>
-					<Spanish>Arnés LBV (caqui)</Spanish>
-					<Italian>Imbragatura per gilet (kaki)</Italian>
-					<Polish>Uprząż LBV (khaki)</Polish>
-					<Russian>РПС (хаки)</Russian>
-					<German>Einsatzweste mit Gurtzeug (Khaki)</German>
-					<Czech>LBV postroj (khaki)</Czech>
-					<English>LBV Harness (Khaki)</English>
-					<Portuguese>Arnês de carga (cáqui)</Portuguese>
-					<Korean>LBV 하네스(카키)</Korean>
-					<Chinesesimp>LBV 衣帽装备（卡其色）</Chinesesimp>
-					<Japanese>LBVハーネス（カーキ）</Japanese>
-					<Turkish>LBV Takımı (Haki)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessO_oicamo0">
+					<Original>LBV Harness (Brown)</Original>
+					<Chinese>LBV 吊帶（棕色）</Chinese>
+					<French>Gilet à matériel (marron)</French>
+					<Spanish>Arnés LBV (marrón)</Spanish>
+					<Italian>Imbragatura per gilet (marrone)</Italian>
+					<Polish>Uprząż LBV (brązowa)</Polish>
+					<Russian>РПС (коричневый)</Russian>
+					<German>Einsatzweste mit Gurtzeug (braun)</German>
+					<Czech>LBV postroj (hnědá)</Czech>
+					<English>LBV Harness (Brown)</English>
+					<Portuguese>Arnês de carga (marrom)</Portuguese>
+					<Korean>LBV 하네스(갈색)</Korean>
+					<Chinesesimp>LBV 衣帽装备（棕色）</Chinesesimp>
+					<Japanese>LBVハーネス（茶）</Japanese>
+					<Turkish>LBV Takımı (Kahverengi)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOGL_khk0">
-					<Original>LBV Grenadier Harness (Khaki)</Original>
-					<Chinese>LBV 手榴彈吊帶（卡其色）</Chinese>
-					<French>Gilet à matériel pour grenadier (kaki)</French>
-					<Spanish>Arnés granadero LBV (caqui)</Spanish>
-					<Italian>Imbragatura per gilet da granatiere (kaki)</Italian>
-					<Polish>Uprząż na granaty LBV (khaki)</Polish>
-					<Russian>РПС для ПГ (хаки)</Russian>
-					<German>Grenadier-Einsatzweste mit Gurtzeug (Khaki)</German>
-					<Czech>LBV postroj granátnický (khaki)</Czech>
-					<English>LBV Grenadier Harness (Khaki)</English>
-					<Portuguese>Arnês de granadeiro de carga (cáqui)</Portuguese>
-					<Korean>LBV 유탄수 하네스(카키)</Korean>
-					<Chinesesimp>LBV 掷弹兵衣帽装备（卡其色）</Chinesesimp>
-					<Japanese>LBV擲弾兵ハーネス（カーキ）</Japanese>
-					<Turkish>LBV Bombacı Takımı (Haki)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOGL_oicamo0">
+					<Original>LBV Grenadier Harness (Brown)</Original>
+					<Chinese>LBV 手榴彈吊帶（棕色）</Chinese>
+					<French>Gilet à matériel pour grenadier (marron)</French>
+					<Spanish>Arnés granadero LBV (marrón)</Spanish>
+					<Italian>Imbragatura per gilet da granatiere (marrone)</Italian>
+					<Polish>Uprząż na granaty LBV (brązowa)</Polish>
+					<Russian>РПС для ПГ (коричневый)</Russian>
+					<German>Grenadier-Einsatzweste mit Gurtzeug (braun)</German>
+					<Czech>LBV postroj granátnický (hnědá)</Czech>
+					<English>LBV Grenadier Harness (Brown)</English>
+					<Portuguese>Arnês de granadeiro de carga (marrom)</Portuguese>
+					<Korean>LBV 유탄수 하네스(갈색)</Korean>
+					<Chinesesimp>LBV 掷弹兵衣帽装备（棕色）</Chinesesimp>
+					<Japanese>LBV擲弾兵ハーネス（茶）</Japanese>
+					<Turkish>LBV Bombacı Takımı (Kahverengi)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOSpec_blk0">
 					<Original>ELBV Harness (Black)</Original>
@@ -5451,22 +5723,22 @@
 					<Japanese>ELBVハーネス（黒）</Japanese>
 					<Turkish>ELBV Takımı (Siyah)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOSpec_khk0">
-					<Original>ELBV Harness (Khaki)</Original>
-					<Chinese>ELBV 吊帶（卡其色）</Chinese>
-					<French>Gilet à matériel amélioré (kaki)</French>
-					<Spanish>Arnés ELBV (caqui)</Spanish>
-					<Italian>Imbragatura rinforzata (kaki)</Italian>
-					<Polish>Uprząż ELBV (khaki)</Polish>
-					<Russian>РПС ELBV (хаки)</Russian>
-					<German>Verbesserte Einsatzweste mit Gurtzeug (Khaki)</German>
-					<Czech>ELBV postroj (khaki)</Czech>
-					<English>ELBV Harness (Khaki)</English>
-					<Portuguese>Arnês de carga melhorado (cáqui)</Portuguese>
-					<Korean>ELBV 하네스(카키)</Korean>
-					<Chinesesimp>ELBV 衣帽装备（卡其色）</Chinesesimp>
-					<Japanese>ELBVハーネス（カーキ）</Japanese>
-					<Turkish>ELBV Takımı (Haki)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOSpec_oicamo0">
+					<Original>ELBV Harness (Brown)</Original>
+					<Chinese>ELBV 吊帶（棕色）</Chinese>
+					<French>Gilet à matériel amélioré (marron)</French>
+					<Spanish>Arnés ELBV (marrón)</Spanish>
+					<Italian>Imbragatura rinforzata (marrone)</Italian>
+					<Polish>Uprząż ELBV (brązowa)</Polish>
+					<Russian>РПС ELBV (коричневый)</Russian>
+					<German>Verbesserte Einsatzweste mit Gurtzeug (braun)</German>
+					<Czech>ELBV postroj (hnědá)</Czech>
+					<English>ELBV Harness (Brown)</English>
+					<Portuguese>Arnês de carga melhorado (marrom)</Portuguese>
+					<Korean>ELBV 하네스(갈색)</Korean>
+					<Chinesesimp>ELBV 衣帽装备（棕色）</Chinesesimp>
+					<Japanese>ELBVハーネス（茶）</Japanese>
+					<Turkish>ELBV Takımı (Kahverengi)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA1_oli0">
 					<Original>GA Carrier Lite (Olive)</Original>
@@ -5842,7 +6114,7 @@
 					<Japanese>キプチャクベスト（カーキ、戦術無線）</Japanese>
 					<Turkish>Kıpçak Yeleği (Haki, Taktiksel Telsiz)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0">
+				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_olive_F0">
 					<Original>Kipchak Vest (Olive)</Original>
 					<Chinese>奇布夏背心（橄欖色）</Chinese>
 					<French>Gilet Kipchak (olive)</French>
@@ -5859,7 +6131,7 @@
 					<Japanese>キプチャクベスト（オリーブ）</Japanese>
 					<Turkish>Kıpçak Yeleği (Zeytin Yeşili)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0">
+				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_radio_olive_F0">
 					<Original>Kipchak Vest (Olive, Tactical Radio)</Original>
 					<Chinese>奇布夏背心（橄欖色，戰術無線電）</Chinese>
 					<French>Gilet Kipchak (olive, radio tactique)</French>
@@ -9319,22 +9591,22 @@
 						<Japanese>旗（Argana）</Japanese>
 						<Turkish>Bayrak (Argana)</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgVehicles_Flag_Belarus_F0">
-						<Original>Flag (Belarus)</Original>
-						<Chinese>旗幟（白俄羅斯）</Chinese>
-						<French>Drapeau (Biélorussie)</French>
-						<Spanish>Bandera (Bielorrusia)</Spanish>
-						<Italian>Bandiera (Bielorussia)</Italian>
-						<Polish>Flaga (Białoruś)</Polish>
-						<Russian>Флаг (Беларусь)</Russian>
-						<German>Flagge (Weißrussland)</German>
-						<Czech>Vlajka (bělorusko)</Czech>
-						<English>Flag (Belarus)</English>
-						<Portuguese>Bandeira (belarus)</Portuguese>
-						<Korean>깃발 (벨라루스)</Korean>
-						<Chinesesimp>旗标 (白俄罗斯)</Chinesesimp>
-						<Japanese>旗（ベラルーシ）</Japanese>
-						<Turkish>Bayrak (beyaz rusya)</Turkish>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Bocano_F0">
+						<Original>Flag (Bocano)</Original>
+						<Chinese>旗幟（Bocano）</Chinese>
+						<French>Drapeau (Bocano)</French>
+						<Spanish>Bandera (Bocano)</Spanish>
+						<Italian>Bandiera (Bocano)</Italian>
+						<Polish>Flaga (Bocano)</Polish>
+						<Russian>Флаг (Bocano)</Russian>
+						<German>Flagge (Bocano)</German>
+						<Czech>Vlajka (Bocano)</Czech>
+						<English>Flag (Bocano)</English>
+						<Portuguese>Bandeira (Bocano)</Portuguese>
+						<Korean>깃발 (Bocano)</Korean>
+						<Chinesesimp>旗标 (Bocano)</Chinesesimp>
+						<Japanese>旗（Bocano）</Japanese>
+						<Turkish>Bayrak (Bocano)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Banner_01_Russia_F0">
 						<Original>Banner (Russia)</Original>
@@ -10811,74 +11083,6 @@
 				</Key>
 			</Container>
 			<Container name="Bags">
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_rgr0">
-					<Original>Assault Pack (Green, Enhanced)</Original>
-					<Chinese>突擊背包（綠，加強型）</Chinese>
-					<French>Paquetage d'assaut (vert, amélioré)</French>
-					<Spanish>Mochila de asalto (verde, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (verde, avanzato)</Italian>
-					<Polish>Plecak szturmowy (zielona, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (зеленый, улучшенный)</Russian>
-					<German>Angriffspack (grün, verbesserter)</German>
-					<Czech>Útočný batoh (zelený, vylepšená)</Czech>
-					<English>Assault Pack (Green, Enhanced)</English>
-					<Portuguese>Mochila de assalto (verde, aprimorado)</Portuguese>
-					<Korean>강습군장(녹색, 강화)</Korean>
-					<Chinesesimp>突击背包（绿色，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（緑，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (Yeşil, Gelişmiş)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_blk0">
-					<Original>Assault Pack (Black, Enhanced)</Original>
-					<Chinese>突擊背包（黑，加強型）</Chinese>
-					<French>Paquetage d'assaut (noir, amélioré)</French>
-					<Spanish>Mochila de asalto (negra, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (nero, avanzato)</Italian>
-					<Polish>Plecak szturmowy (czarna, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (черная, улучшенный)</Russian>
-					<German>Angriffspack (schwarz, verbesserter)</German>
-					<Czech>Útočný batoh (černý, vylepšená)</Czech>
-					<English>Assault Pack (Black, Enhanced)</English>
-					<Portuguese>Mochila de assalto (preto, aprimorado)</Portuguese>
-					<Korean>강습군장(흑색, 강화)</Korean>
-					<Chinesesimp>突击背包（黑色，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（黒，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (Siyah, Gelişmiş)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_cbr0">
-					<Original>Assault Pack (Coyote, Enhanced)</Original>
-					<Chinese>突擊背包（郊狼色，加強型）</Chinese>
-					<French>Paquetage d'assaut (coyote, amélioré)</French>
-					<Spanish>Mochila de asalto (coyote, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (beige, avanzato)</Italian>
-					<Polish>Plecak szturmowy (kojot, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (койот, улучшенный)</Russian>
-					<German>Angriffspack (Coyote, verbesserter)</German>
-					<Czech>Útočný batoh (žlutohnědý, vylepšená)</Czech>
-					<English>Assault Pack (Coyote, Enhanced)</English>
-					<Portuguese>Mochila de assalto (coiote, aprimorado)</Portuguese>
-					<Korean>강습군장(코요테, 강화)</Korean>
-					<Chinesesimp>突击背包（狼棕色，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（コヨーテ，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (Koyote, Gelişmiş)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_mcamo0">
-					<Original>Assault Pack (MTP, Enhanced)</Original>
-					<Chinese>突擊背包（多地形共用，加強型）</Chinese>
-					<French>Paquetage d'assaut (MTP, amélioré)</French>
-					<Spanish>Mochila de asalto (MTP, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (mimetico MTP, avanzato)</Italian>
-					<Polish>Plecak szturmowy (MTP, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (MTP, улучшенный)</Russian>
-					<German>Angriffspack (MTP, verbesserter)</German>
-					<Czech>Útočný batoh (MTP kamufláž, vylepšená)</Czech>
-					<English>Assault Pack (MTP, Enhanced)</English>
-					<Portuguese>Mochila de assalto (MTP, aprimorado)</Portuguese>
-					<Korean>강습군장(MTP, 강화)</Korean>
-					<Chinesesimp>突击背包（MTP，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（MTP，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (MTP, Gelişmiş)</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_tan0">
 					<Original>Assault Pack (Tan)</Original>
 					<Chinese>突擊背包（棕褐色）</Chinese>
@@ -10895,6 +11099,23 @@
 					<Chinesesimp>突击包 (棕褐色)</Chinesesimp>
 					<Japanese>アサルトパック（タン）</Japanese>
 					<Turkish>Saldırı Paketi (Ten)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_oicamo0">
+					<Original>Assault Pack (Desert)</Original>
+					<Chinese>突擊背包（沙漠）</Chinese>
+					<French>Paquetage d'assaut (Désert)</French>
+					<Spanish>Mochila de asalto (desierto)</Spanish>
+					<Italian>Pacco da assalto (deserto)</Italian>
+					<Polish>Plecak szturmowy (pustynny)</Polish>
+					<Russian>Штурмовой ранец (пустынный)</Russian>
+					<German>Angriffspack (Wüste)</German>
+					<Czech>Průzkumnický batoh (poušť)</Czech>
+					<English>Assault Pack (Desert)</English>
+					<Portuguese>Mochila de assalto (Deserto)</Portuguese>
+					<Korean>강습군장(사막)</Korean>
+					<Chinesesimp>突击包 (沙漠)</Chinesesimp>
+					<Japanese>アサルトパック（砂漠）</Japanese>
+					<Turkish>Saldırı Paketi (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_Kitbag_khk0">
 					<Original>Kitbag (Khaki)</Original>
@@ -10981,6 +11202,40 @@
 					<Japanese>タクティカルバックパック（セージ）</Japanese>
 					<Turkish>Taktiksel Sırt Çantası (Adaçayı)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_TacticalPack_oicamo0">
+					<Original>Tactical Backpack (Desert)</Original>
+					<Chinese>戰術背包（沙漠）</Chinese>
+					<French>Sac à dos tactique (Désert)</French>
+					<Spanish>Mochila táctica (desierto)</Spanish>
+					<Italian>Zaino tattico (deserto)</Italian>
+					<Polish>Plecak taktyczny (pustynny)</Polish>
+					<Russian>Тактический ранец (пустынный)</Russian>
+					<German>Taktischer Rucksack (Wüste)</German>
+					<Czech>Taktický batoh (poušť)</Czech>
+					<English>Tactical Backpack (Desert)</English>
+					<Portuguese>Mochila tática (Deserto)</Portuguese>
+					<Korean>전술배낭(사막)</Korean>
+					<Chinesesimp>战术背包（沙漠）</Chinesesimp>
+					<Japanese>タクティカルバックパック（砂漠）</Japanese>
+					<Turkish>Taktiksel Sırt Çantası (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_FieldPack_oicamo0">
+					<Original>Field Pack (Desert)</Original>
+					<Chinese>野戰背包（沙漠）</Chinese>
+					<French>Paquetage de terrain (Désert)</French>
+					<Spanish>Mochila de campo (desierto)</Spanish>
+					<Italian>Zaino da campo (deserto)</Italian>
+					<Polish>Plecak bojowy (pustynny)</Polish>
+					<Russian>Полевой ранец (пустынный)</Russian>
+					<German>Feldpaket (Wüste)</German>
+					<Czech>Polní batoh (poušť)</Czech>
+					<English>Field Pack (Desert)</English>
+					<Portuguese>Mochila de campo (Deserto)</Portuguese>
+					<Korean>야전군장(사막)</Korean>
+					<Chinesesimp>外地包（沙漠）</Chinesesimp>
+					<Japanese>フィールドパック（砂漠）</Japanese>
+					<Turkish>Saha Paketi (Çöl)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_Carryall_blk0">
 					<Original>Carryall Backpack (Black)</Original>
 					<Chinese>全容量大背包（黑）</Chinese>
@@ -10997,6 +11252,57 @@
 					<Chinesesimp>大旅行包（黑色）</Chinesesimp>
 					<Japanese>キャリーオールパック（黒）</Japanese>
 					<Turkish>Büyük Sırt Çantası (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_Carryall_oicamo0">
+					<Original>Carryall Backpack (Desert)</Original>
+					<Chinese>全容量大背包（沙漠）</Chinese>
+					<French>Sac à dos multifonction (Désert)</French>
+					<Spanish>Bolsa de viaje (desierto)</Spanish>
+					<Italian>Zaino portatutto (deserto)</Italian>
+					<Polish>Plecak (pustynny)</Polish>
+					<Russian>Рюкзак (пустынный)</Russian>
+					<German>Großer Rucksack (Wüste)</German>
+					<Czech>Torna (poušť)</Czech>
+					<English>Carryall Backpack (Desert)</English>
+					<Portuguese>Mochila de carga (Deserto)</Portuguese>
+					<Korean>다용도배낭(사막)</Korean>
+					<Chinesesimp>大旅行包（沙漠）</Chinesesimp>
+					<Japanese>キャリーオールパック（砂漠）</Japanese>
+					<Turkish>Büyük Sırt Çantası (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_ViperHarness_oicamo_F0">
+					<Original>Viper Harness (Desert)</Original>
+					<Chinese>Viper 吊帶（沙漠）</Chinese>
+					<French>Gilet Viper (Désert)</French>
+					<Spanish>Arnés de Viper (desierto)</Spanish>
+					<Italian>Equipaggiamento Viper (deserto)</Italian>
+					<Polish>Uprząż Viper (pustynny)</Polish>
+					<Russian>Обвязка Viper (пустынный)</Russian>
+					<German>Viper-Harnisch (Wüste)</German>
+					<Czech>Postroj Viper (poušť)</Czech>
+					<English>Viper Harness (Desert)</English>
+					<Portuguese>Arnês Viper (Deserto)</Portuguese>
+					<Korean>Viper 하네스(사막)</Korean>
+					<Chinesesimp>Viper 装束（沙漠）</Chinesesimp>
+					<Japanese>Viper ハーネス（砂漠）</Japanese>
+					<Turkish>Viper Takımı (Çöl)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_ViperLightHarness_oicamo_F0">
+					<Original>Viper Light Harness (Desert)</Original>
+					<Chinese>Viper 輕型吊帶（沙漠）</Chinese>
+					<French>Gilet léger Viper (Désert)</French>
+					<Spanish>Arnés ligero de Viper (desierto)</Spanish>
+					<Italian>Equipaggiamento leggero Viper (deserto)</Italian>
+					<Polish>Lekka uprząż Viper (pustynny)</Polish>
+					<Russian>Легкая обвязка Viper (пустынный)</Russian>
+					<German>Viper-Harnisch Leicht (Wüste)</German>
+					<Czech>Lehký postroj Viper (poušť)</Czech>
+					<English>Viper Light Harness (Desert)</English>
+					<Portuguese>Arnês Viper leve (Deserto)</Portuguese>
+					<Korean>Viper 경량 하네스(사막)</Korean>
+					<Chinesesimp>Viper 轻装（沙漠）</Chinesesimp>
+					<Japanese>Viper 軽量ハーネス（砂漠）</Japanese>
+					<Turkish>Hafif Viper Takımı (Çöl)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_Rangmaster_belt_khk0">
 					<Original>Rangemaster Belt (Khaki)</Original>
@@ -11082,23 +11388,6 @@
 					<Chinesesimp>Bergen 背包（绿色六角形）</Chinesesimp>
 					<Japanese>ベルゲンバックパック（緑六角形）</Japanese>
 					<Turkish>Bergen Sırt Çantası (Yeşil Hex)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_Enh_tna_F0">
-					<Original>Assault Pack (Tropic, Enhanced)</Original>
-					<Chinese>突擊背包（熱帶，加強型）</Chinese>
-					<French>Paquetage d'assaut (tropiques, amélioré)</French>
-					<Spanish>Mochila de asalto (tropical, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (tropicale, avanzato)</Italian>
-					<Polish>Plecak szturmowy (tropik, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (тропики, улучшенный)</Russian>
-					<German>Angriffspack (tropisch, verbesserter)</German>
-					<Czech>Útočný batoh (tropický, vylepšená)</Czech>
-					<English>Assault Pack (Tropic, Enhanced)</English>
-					<Portuguese>Mochila de assalto (tropical, aprimorado)</Portuguese>
-					<Korean>강습군장(열대, 강화)</Korean>
-					<Chinesesimp>突击背包（热带，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（熱帯，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (Tropik, Gelişmiş)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_ghex_F0">
 					<Original>Assault Pack (Green Hex)</Original>
@@ -11253,6 +11542,40 @@
 					<Japanese>Radio Pack (Taiga) [Russia]</Japanese>
 					<Turkish>Radio Pack (Taiga) [Russia]</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_arid_F0">
+					<Original>Radio Pack (Arid) [Russia]</Original>
+					<Chinese>Radio Pack (Arid) [Russia]</Chinese>
+					<French>Radio Pack (Arid) [Russia]</French>
+					<Spanish>Radio Pack (Arid) [Russia]</Spanish>
+					<Italian>Radio Pack (Arid) [Russia]</Italian>
+					<Polish>Radio Pack (Arid) [Russia]</Polish>
+					<Russian>Radio Pack (Arid) [Russia]</Russian>
+					<German>Radio Pack (Arid) [Russia]</German>
+					<Czech>Radio Pack (Arid) [Russia]</Czech>
+					<English>Radio Pack (Arid) [Russia]</English>
+					<Portuguese>Radio Pack (Arid) [Russia]</Portuguese>
+					<Korean>Radio Pack (Arid) [Russia]</Korean>
+					<Chinesesimp>Radio Pack (Arid) [Russia]</Chinesesimp>
+					<Japanese>Radio Pack (Arid) [Russia]</Japanese>
+					<Turkish>Radio Pack (Arid) [Russia]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_oicamo_F0">
+					<Original>Radio Pack (Desert) [CSAT]</Original>
+					<Chinese>Radio Pack (Desert) [CSAT]</Chinese>
+					<French>Radio Pack (Desert) [CSAT]</French>
+					<Spanish>Radio Pack (Desert) [CSAT]</Spanish>
+					<Italian>Radio Pack (Desert) [CSAT]</Italian>
+					<Polish>Radio Pack (Desert) [CSAT]</Polish>
+					<Russian>Radio Pack (Desert) [CSAT]</Russian>
+					<German>Radio Pack (Desert) [CSAT]</German>
+					<Czech>Radio Pack (Desert) [CSAT]</Czech>
+					<English>Radio Pack (Desert) [CSAT]</English>
+					<Portuguese>Radio Pack (Desert) [CSAT]</Portuguese>
+					<Korean>Radio Pack (Desert) [CSAT]</Korean>
+					<Chinesesimp>Radio Pack (Desert) [CSAT]</Chinesesimp>
+					<Japanese>Radio Pack (Desert) [CSAT]</Japanese>
+					<Turkish>Radio Pack (Desert) [CSAT]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_Bergen_eaf_F0">
 					<Original>Bergen Backpack (Geometric)</Original>
 					<Chinese>Bergen Backpack (Geometric)</Chinese>
@@ -11303,23 +11626,6 @@
 					<Chinesesimp>Bergen Backpack (Taiga)</Chinesesimp>
 					<Japanese>Bergen Backpack (Taiga)</Japanese>
 					<Turkish>Bergen Backpack (Taiga)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_wdl_F0">
-					<Original>Assault Pack (Woodland, Enhanced)</Original>
-					<Chinese>突擊背包（森林，加強型）</Chinese>
-					<French>Paquetage d'assaut (forêt, amélioré)</French>
-					<Spanish>Mochila de asalto (bosque, mejorado)</Spanish>
-					<Italian>Zaino d'assalto (boschi, avanzato)</Italian>
-					<Polish>Plecak szturmowy (las, wzmocniony)</Polish>
-					<Russian>Штурмовой ранец (лес, улучшенный)</Russian>
-					<German>Angriffspack (Waldland, verbesserter)</German>
-					<Czech>Útočný batoh (woodland, vylepšená)</Czech>
-					<English>Assault Pack (Woodland, Enhanced)</English>
-					<Portuguese>Mochila de assalto (floresta, aprimorado)</Portuguese>
-					<Korean>강습군장(산악, 강화)</Korean>
-					<Chinesesimp>突击背包（林地，增强型）</Chinesesimp>
-					<Japanese>アサルトパック（森林，改良型）</Japanese>
-					<Turkish>Saldırı Paketi (Ağaçlık, Gelişmiş)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_taiga_F0">
 					<Original>Assault Pack (Taiga)</Original>
@@ -11388,6 +11694,108 @@
 					<Chinesesimp>Tactical Backpack (Geometric)</Chinesesimp>
 					<Japanese>Tactical Backpack (Geometric)</Japanese>
 					<Turkish>Tactical Backpack (Geometric)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_rgr0">
+					<Original>Assault Pack (Green, Enhanced)</Original>
+					<Chinese>突擊背包（綠，加強型）</Chinese>
+					<French>Paquetage d'assaut (vert, amélioré)</French>
+					<Spanish>Mochila de asalto (verde, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (verde, avanzato)</Italian>
+					<Polish>Plecak szturmowy (zielona, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (зеленый, улучшенный)</Russian>
+					<German>Angriffspack (grün, verbesserter)</German>
+					<Czech>Útočný batoh (zelený, vylepšená)</Czech>
+					<English>Assault Pack (Green, Enhanced)</English>
+					<Portuguese>Mochila de assalto (verde, aprimorado)</Portuguese>
+					<Korean>강습군장(녹색, 강화)</Korean>
+					<Chinesesimp>突击背包（绿色，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（緑，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (Yeşil, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_blk0">
+					<Original>Assault Pack (Black, Enhanced)</Original>
+					<Chinese>突擊背包（黑，加強型）</Chinese>
+					<French>Paquetage d'assaut (noir, amélioré)</French>
+					<Spanish>Mochila de asalto (negra, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (nero, avanzato)</Italian>
+					<Polish>Plecak szturmowy (czarna, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (черная, улучшенный)</Russian>
+					<German>Angriffspack (schwarz, verbesserter)</German>
+					<Czech>Útočný batoh (černý, vylepšená)</Czech>
+					<English>Assault Pack (Black, Enhanced)</English>
+					<Portuguese>Mochila de assalto (preto, aprimorado)</Portuguese>
+					<Korean>강습군장(흑색, 강화)</Korean>
+					<Chinesesimp>突击背包（黑色，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（黒，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (Siyah, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_cbr0">
+					<Original>Assault Pack (Coyote, Enhanced)</Original>
+					<Chinese>突擊背包（郊狼色，加強型）</Chinese>
+					<French>Paquetage d'assaut (coyote, amélioré)</French>
+					<Spanish>Mochila de asalto (coyote, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (beige, avanzato)</Italian>
+					<Polish>Plecak szturmowy (kojot, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (койот, улучшенный)</Russian>
+					<German>Angriffspack (Coyote, verbesserter)</German>
+					<Czech>Útočný batoh (žlutohnědý, vylepšená)</Czech>
+					<English>Assault Pack (Coyote, Enhanced)</English>
+					<Portuguese>Mochila de assalto (coiote, aprimorado)</Portuguese>
+					<Korean>강습군장(코요테, 강화)</Korean>
+					<Chinesesimp>突击背包（狼棕色，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（コヨーテ，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (Koyote, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_mcamo0">
+					<Original>Assault Pack (MTP, Enhanced)</Original>
+					<Chinese>突擊背包（多地形共用，加強型）</Chinese>
+					<French>Paquetage d'assaut (MTP, amélioré)</French>
+					<Spanish>Mochila de asalto (MTP, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (mimetico MTP, avanzato)</Italian>
+					<Polish>Plecak szturmowy (MTP, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (MTP, улучшенный)</Russian>
+					<German>Angriffspack (MTP, verbesserter)</German>
+					<Czech>Útočný batoh (MTP kamufláž, vylepšená)</Czech>
+					<English>Assault Pack (MTP, Enhanced)</English>
+					<Portuguese>Mochila de assalto (MTP, aprimorado)</Portuguese>
+					<Korean>강습군장(MTP, 강화)</Korean>
+					<Chinesesimp>突击背包（MTP，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（MTP，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (MTP, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPack_Enh_tna_F0">
+					<Original>Assault Pack (Tropic, Enhanced)</Original>
+					<Chinese>突擊背包（熱帶，加強型）</Chinese>
+					<French>Paquetage d'assaut (tropiques, amélioré)</French>
+					<Spanish>Mochila de asalto (tropical, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (tropicale, avanzato)</Italian>
+					<Polish>Plecak szturmowy (tropik, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (тропики, улучшенный)</Russian>
+					<German>Angriffspack (tropisch, verbesserter)</German>
+					<Czech>Útočný batoh (tropický, vylepšená)</Czech>
+					<English>Assault Pack (Tropic, Enhanced)</English>
+					<Portuguese>Mochila de assalto (tropical, aprimorado)</Portuguese>
+					<Korean>강습군장(열대, 강화)</Korean>
+					<Chinesesimp>突击背包（热带，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（熱帯，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (Tropik, Gelişmiş)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_AssaultPackSpec_wdl_F0">
+					<Original>Assault Pack (Woodland, Enhanced)</Original>
+					<Chinese>突擊背包（森林，加強型）</Chinese>
+					<French>Paquetage d'assaut (forêt, amélioré)</French>
+					<Spanish>Mochila de asalto (bosque, mejorado)</Spanish>
+					<Italian>Zaino d'assalto (boschi, avanzato)</Italian>
+					<Polish>Plecak szturmowy (las, wzmocniony)</Polish>
+					<Russian>Штурмовой ранец (лес, улучшенный)</Russian>
+					<German>Angriffspack (Waldland, verbesserter)</German>
+					<Czech>Útočný batoh (woodland, vylepšená)</Czech>
+					<English>Assault Pack (Woodland, Enhanced)</English>
+					<Portuguese>Mochila de assalto (floresta, aprimorado)</Portuguese>
+					<Korean>강습군장(산악, 강화)</Korean>
+					<Chinesesimp>突击背包（林地，增强型）</Chinesesimp>
+					<Japanese>アサルトパック（森林，改良型）</Japanese>
+					<Turkish>Saldırı Paketi (Ağaçlık, Gelişmiş)</Turkish>
 				</Key>
 			</Container>
 			<Container name="CargoNets">
@@ -11787,22 +12195,22 @@
 				<Japanese>Argana</Japanese>
 				<Turkish>Argana</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMarkers_flag_Belarus">
-				<Original>Belarus</Original>
-				<Chinese>白俄羅斯</Chinese>
-				<French>Biélorussie</French>
-				<Spanish>Bielorrusia</Spanish>
-				<Italian>Bielorussia</Italian>
-				<Polish>Białoruś</Polish>
-				<Russian>Беларусь</Russian>
-				<German>Weißrussland</German>
-				<Czech>bělorusko</Czech>
-				<English>Belarus</English>
-				<Portuguese>belarus</Portuguese>
-				<Korean>벨라루스</Korean>
-				<Chinesesimp>白俄罗斯</Chinesesimp>
-				<Japanese>ベラルーシ</Japanese>
-				<Turkish>beyaz rusya</Turkish>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Bocano">
+				<Original>Bocano</Original>
+				<Chinese>Bocano</Chinese>
+				<French>Bocano</French>
+				<Spanish>Bocano</Spanish>
+				<Italian>Bocano</Italian>
+				<Polish>Bocano</Polish>
+				<Russian>Bocano</Russian>
+				<German>Bocano</German>
+				<Czech>Bocano</Czech>
+				<English>Bocano</English>
+				<Portuguese>Bocano</Portuguese>
+				<Korean>Bocano</Korean>
+				<Chinesesimp>Bocano</Chinesesimp>
+				<Japanese>Bocano</Japanese>
+				<Turkish>Bocano</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_China">
 				<Original>China</Original>
@@ -11939,6 +12347,176 @@
 				<Chinesesimp>马其顿</Chinesesimp>
 				<Japanese>マケドニア</Japanese>
 				<Turkish>Makedonya</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Algeria">
+				<Original>Algeria</Original>
+				<Chinese>阿爾及利亞</Chinese>
+				<French>Algérie</French>
+				<Spanish>Argelia</Spanish>
+				<Italian>Algeria</Italian>
+				<Polish>Algieria</Polish>
+				<Russian>Алжир</Russian>
+				<German>Algerien</German>
+				<Czech>Alžírsko</Czech>
+				<English>Algeria</English>
+				<Portuguese>Argélia</Portuguese>
+				<Korean>알제리</Korean>
+				<Chinesesimp>阿尔及利亚</Chinesesimp>
+				<Japanese>アルジェリア</Japanese>
+				<Turkish>Cezayir</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Iraq">
+				<Original>Iraq</Original>
+				<Chinese>伊拉克</Chinese>
+				<French>Irak</French>
+				<Spanish>Irak</Spanish>
+				<Italian>Iraq</Italian>
+				<Polish>Irak</Polish>
+				<Russian>Ирак</Russian>
+				<German>Irak</German>
+				<Czech>Irák</Czech>
+				<English>Iraq</English>
+				<Portuguese>Iraque</Portuguese>
+				<Korean>이라크</Korean>
+				<Chinesesimp>伊拉克</Chinesesimp>
+				<Japanese>イラク</Japanese>
+				<Turkish>Irak</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Jordan">
+				<Original>Jordan</Original>
+				<Chinese>約旦</Chinese>
+				<French>Jordanie</French>
+				<Spanish>Jordania</Spanish>
+				<Italian>Giordania</Italian>
+				<Polish>Jordania</Polish>
+				<Russian>Limnos</Russian>
+				<German>Jordanien</German>
+				<Czech>Jordán</Czech>
+				<English>Jordan</English>
+				<Portuguese>Jordânia</Portuguese>
+				<Korean>요르단</Korean>
+				<Chinesesimp>约旦</Chinesesimp>
+				<Japanese>ヨルダン</Japanese>
+				<Turkish>Ürdün</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Libya">
+				<Original>Libya</Original>
+				<Chinese>利比亞</Chinese>
+				<French>Libye</French>
+				<Spanish>Libia</Spanish>
+				<Italian>Libia</Italian>
+				<Polish>Libia</Polish>
+				<Russian>Ливия</Russian>
+				<German>Libyen</German>
+				<Czech>Libye</Czech>
+				<English>Libya</English>
+				<Portuguese>Líbia</Portuguese>
+				<Korean>리비아</Korean>
+				<Chinesesimp>利比亚</Chinesesimp>
+				<Japanese>リビア</Japanese>
+				<Turkish>Libya</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Morocco">
+				<Original>Morocco</Original>
+				<Chinese>摩洛哥</Chinese>
+				<French>Maroc</French>
+				<Spanish>Marruecos</Spanish>
+				<Italian>Marocco</Italian>
+				<Polish>Maroko</Polish>
+				<Russian>Марокко</Russian>
+				<German>Marokko</German>
+				<Czech>Maroko</Czech>
+				<English>Morocco</English>
+				<Portuguese>Marrocos</Portuguese>
+				<Korean>모로코</Korean>
+				<Chinesesimp>摩洛哥</Chinesesimp>
+				<Japanese>モロッコ</Japanese>
+				<Turkish>Fas</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_NorthKorea">
+				<Original>North Korea</Original>
+				<Chinese>北朝鮮</Chinese>
+				<French>Corée du Nord</French>
+				<Spanish>Corea del Norte</Spanish>
+				<Italian>Corea del nord</Italian>
+				<Polish>Korea Północna</Polish>
+				<Russian>Северная Корея</Russian>
+				<German>Nord Korea</German>
+				<Czech>Severní Korea</Czech>
+				<English>North Korea</English>
+				<Portuguese>Coreia do Norte</Portuguese>
+				<Korean>북한</Korean>
+				<Chinesesimp>北朝鲜</Chinesesimp>
+				<Japanese>北朝鮮</Japanese>
+				<Turkish>Kuzey Kore</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Pakistan">
+				<Original>Pakistan</Original>
+				<Chinese>巴基斯坦</Chinese>
+				<French>Pakistan</French>
+				<Spanish>Pakistán</Spanish>
+				<Italian>Pakistan</Italian>
+				<Polish>Pakistan</Polish>
+				<Russian>Пакистан</Russian>
+				<German>Pakistan</German>
+				<Czech>Pákistán</Czech>
+				<English>Pakistan</English>
+				<Portuguese>Paquistão</Portuguese>
+				<Korean>파키스탄</Korean>
+				<Chinesesimp>巴基斯坦</Chinesesimp>
+				<Japanese>パキスタン</Japanese>
+				<Turkish>Pakistan</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Syria">
+				<Original>Syria</Original>
+				<Chinese>敘利亞</Chinese>
+				<French>Syrie</French>
+				<Spanish>Siria</Spanish>
+				<Italian>Siria</Italian>
+				<Polish>Syria</Polish>
+				<Russian>Syria</Russian>
+				<German>Syrien</German>
+				<Czech>Sýrie</Czech>
+				<English>Syria</English>
+				<Portuguese>Síria</Portuguese>
+				<Korean>시리아</Korean>
+				<Chinesesimp>叙利亚</Chinesesimp>
+				<Japanese>シリア</Japanese>
+				<Turkish>Suriye</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Tunisia">
+				<Original>Tunisia</Original>
+				<Chinese>突尼斯</Chinese>
+				<French>Tunisie</French>
+				<Spanish>Túnez</Spanish>
+				<Italian>Tunisia</Italian>
+				<Polish>Tunezja</Polish>
+				<Russian>Тунис</Russian>
+				<German>Tunesien</German>
+				<Czech>Tunisko</Czech>
+				<English>Tunisia</English>
+				<Portuguese>Tunísia</Portuguese>
+				<Korean>튀니지</Korean>
+				<Chinesesimp>突尼斯</Chinesesimp>
+				<Japanese>チュニジア</Japanese>
+				<Turkish>Tunus</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Turkey">
+				<Original>Turkey</Original>
+				<Chinese>土耳其</Chinese>
+				<French>Turquie</French>
+				<Spanish>Turquía</Spanish>
+				<Italian>Turchia</Italian>
+				<Polish>Turcja</Polish>
+				<Russian>Турция</Russian>
+				<German>Türkei</German>
+				<Czech>Turecko</Czech>
+				<English>Turkey</English>
+				<Portuguese>Turquia</Portuguese>
+				<Korean>터키</Korean>
+				<Chinesesimp>土耳其</Chinesesimp>
+				<Japanese>トルコ</Japanese>
+				<Turkish>Türkiye</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgPostProcessTemplates_Limnos0">
 				<Original>Limnos</Original>
@@ -13601,7 +14179,7 @@
 				</Container>
 			</Container>
 			<Container name="Rifles">
-				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_F1">
+				<Key ID="STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1">
 					<Original>Assault Rifle&lt;br /&gt;Caliber: 5.45x39 mm</Original>
 					<Chinese>突擊步槍&lt;br/&gt;口徑：5.45x39 mm</Chinese>
 					<French>Fusil d'assaut&lt;br /&gt;Calibre : 5,45x39 mm</French>

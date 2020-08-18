@@ -11,6 +11,6 @@ class CfgWeapons
 	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIL.hpp"				// HIL
-	// #include "cfgCDF.hpp"				// CDF
+	#include "cfgCDF.hpp"				// CDF
 	#include "cfgIDF.hpp"				// IDF
 };

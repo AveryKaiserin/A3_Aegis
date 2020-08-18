@@ -31,7 +31,7 @@ class CfgVehicles
 		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_01_alt_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Land_IRMaskingCover_01_alt_F0;
+		displayName = $STR_A3_CfgVehicles_Land_IRMaskingCover_01_F0;
 		editorCategory = EdCat_Structures_Altis;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Props_F_Aegis\Military\Camps\Data\IRMaskingCover_01_alt_F_CO.paa"};
 	};
@@ -50,7 +50,7 @@ class CfgVehicles
 		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_02_alt_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Land_IRMaskingCover_02_alt_F0;
+		displayName = $STR_A3_CfgVehicles_Land_IRMaskingCover_02_F0;
 		editorCategory = EdCat_Structures_Altis;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Props_F_Aegis\Military\Camps\Data\IRMaskingCover_02_alt_F_CO.paa"};
 	};
@@ -69,8 +69,8 @@ class CfgVehicles
 		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_01_green_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Land_CanvasCover_01_green_F0;
-		editorCategory = EdCat_Structures_Altis;
+		displayName = $STR_A3_CfgVehicles_Land_CanvasCover_01_F0;
+		editorCategory = EdCat_Structures_Tanoa;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Props_F_Aegis\Military\Camps\Data\CanvasCover_01_green_F_CO.paa"};
 	};
 	class Land_CanvasCover_02_green_F: Land_CanvasCover_02_F
@@ -88,8 +88,8 @@ class CfgVehicles
 		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_02_green_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Land_CanvasCover_02_green_F0;
-		editorCategory = EdCat_Structures_Altis;
+		displayName = $STR_A3_CfgVehicles_Land_CanvasCover_02_F0;
+		editorCategory = EdCat_Structures_Tanoa;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Props_F_Aegis\Military\Camps\Data\CanvasCover_02_green_F_CO.paa"};
 	};
 };

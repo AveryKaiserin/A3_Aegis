@@ -1,6 +1,6 @@
 class B_A_Plane_Fighter_05_F: B_Plane_Fighter_05_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -43,7 +43,7 @@ class B_A_Plane_Fighter_05_F: B_Plane_Fighter_05_F
 };
 class B_A_Plane_Fighter_05_Stealth_F: B_Plane_Fighter_05_Stealth_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_Stealth_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -111,7 +111,7 @@ class B_A_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_
 };
 class B_A_Plane_Fighter_05_tna_F: B_A_Plane_Fighter_05_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Fighter_Pilot_tna_F;
@@ -123,7 +123,7 @@ class B_A_Plane_Fighter_05_tna_F: B_A_Plane_Fighter_05_F
 };
 class B_A_Plane_Fighter_05_Stealth_tna_F: B_A_Plane_Fighter_05_Stealth_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_Stealth_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Fighter_Pilot_tna_F;
@@ -141,7 +141,7 @@ class B_A_Ejection_Seat_Plane_Fighter_05_tna_F: B_A_Ejection_Seat_Plane_Fighter_
 };
 class B_A_Plane_Fighter_05_wdl_F: B_A_Plane_Fighter_05_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	crew = B_A_Fighter_Pilot_wdl_F;
@@ -153,7 +153,7 @@ class B_A_Plane_Fighter_05_wdl_F: B_A_Plane_Fighter_05_F
 };
 class B_A_Plane_Fighter_05_Stealth_wdl_F: B_A_Plane_Fighter_05_Stealth_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Fighter_05_Stealth_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	crew = B_A_Fighter_Pilot_wdl_F;

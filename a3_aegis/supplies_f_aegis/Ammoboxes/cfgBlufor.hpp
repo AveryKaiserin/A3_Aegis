@@ -122,7 +122,6 @@ class Box_NATO_AmmoOrd_F: NATO_Box_Base
     mag_xx(DemoCharge_Remote_Mag,5);
     mag_xx(SatchelCharge_Remote_Mag,5);
     mag_xx(APERSMineDispenser_Mag,5);
-    mag_xx(FlareTripMine_Wire_Mag,5);
   };
   class TransportWeapons{};
   class TransportItems{};

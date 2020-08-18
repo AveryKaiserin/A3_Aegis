@@ -1,4 +1,4 @@
-class B_ADF_UAV_01_F: UAV_01_base_F
+class B_O_UAV_01_F: UAV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -42,12 +42,12 @@ class B_ADF_UAV_01_F: UAV_01_base_F
 		verticalOffsetWorld = -0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_ADF_UAV_01_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_O_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_UAV_01_base0;
 	side = TWest;
-	faction = BLU_ADF_F;
+	faction = BLU_O_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
 	accuracy = 0.5;
@@ -57,30 +57,30 @@ class B_ADF_UAV_01_F: UAV_01_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {B_ADF_UAV_01_backpack_F};
+		dissasembleTo[] = {B_O_UAV_01_backpack_F};
 	};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_ADF_CO.paa"};
 	textureList[] = {ADF,1};
 };
-class B_ADF_UAV_01_backpack_F: Weapon_Bag_Base
+class B_O_UAV_01_backpack_F: Weapon_Bag_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 0.6;
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_B_ADF_UAV_01_backpack_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_O_UAV_01_backpack_F0;
 	model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
 	editorCategory = EdCat_Equipment;
 	editorSubcategory = EdSubcat_Backpacks;
-	faction = BLU_ADF_F;
-	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_ADF_UAV_01_backpack_F_CA.paa";
+	faction = BLU_O_F;
+	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_O_UAV_01_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_aucamo_CO.paa"};
 	maximumLoad = 0;
 	mass = 300;
 	class assembleInfo: assembleInfo
 	{
 		base = "";
-		displayName = $STR_A3_A_CfgVehicles_B_ADF_UAV_01_backpack_F_assembleInfo0;
-		assembleTo = B_ADF_UAV_01_F;
+		displayName = $STR_A3_A_CfgVehicles_B_O_UAV_01_backpack_F_assembleInfo0;
+		assembleTo = B_O_UAV_01_F;
 	};
 };

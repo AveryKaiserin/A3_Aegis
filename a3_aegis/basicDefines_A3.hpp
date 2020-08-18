@@ -233,6 +233,11 @@ SmokeShellRed, \
 SmokeShellBlue, \
 SmokeShellOrange \
 
+#define TRANSPORT_SMOKE_SHELLS_OPFOR \
+mag_xx(SmokeShellRed,1); \
+mag_xx(SmokeShellYellow,1); \
+mag_xx(SmokeShellOrange,1); \
+
 #define TRANSPORT_SMOKE_SHELLS_MEDIC \
 mag_xx(SmokeShellRed,1); \
 mag_xx(SmokeShellBlue,1); \

@@ -968,7 +968,7 @@ class CfgGlasses
 	class G_RU_Diving: G_Diving
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "Diving Goggles [Russia]";
+		displayName = $STR_A3_A_CfgGlasses_G_RU_Diving0;
 		model = "\A3\Characters_F_EPB\Heads\Glasses\G_O_Diving.p3d";
 		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_G_RU_Diving_CA.paa";
 		hiddenSelections[] = {camo};

@@ -2141,22 +2141,22 @@
 		<Container name="Structures_F">
         	<Container name="Military">
 				<Container name="Flags">
-					<Key ID="STR_A3_A_CfgVehicles_Flag_Bocano_F0">
-						<Original>Flag (Bocano)</Original>
-						<Chinese>旗幟（Bocano）</Chinese>
-						<French>Drapeau (Bocano)</French>
-						<Spanish>Bandera (Bocano)</Spanish>
-						<Italian>Bandiera (Bocano)</Italian>
-						<Polish>Flaga (Bocano)</Polish>
-						<Russian>Флаг (Bocano)</Russian>
-						<German>Flagge (Bocano)</German>
-						<Czech>Vlajka (Bocano)</Czech>
-						<English>Flag (Bocano)</English>
-						<Portuguese>Bandeira (Bocano)</Portuguese>
-						<Korean>깃발 (Bocano)</Korean>
-						<Chinesesimp>旗标 (Bocano)</Chinesesimp>
-						<Japanese>旗（Bocano）</Japanese>
-						<Turkish>Bayrak (Bocano)</Turkish>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Belarus_F0">
+						<Original>Flag (Belarus)</Original>
+						<Chinese>旗幟（白俄羅斯）</Chinese>
+						<French>Drapeau (Biélorussie)</French>
+						<Spanish>Bandera (Bielorrusia)</Spanish>
+						<Italian>Bandiera (Bielorussia)</Italian>
+						<Polish>Flaga (Białoruś)</Polish>
+						<Russian>Флаг (Беларусь)</Russian>
+						<German>Flagge (Weißrussland)</German>
+						<Czech>Vlajka (bělorusko)</Czech>
+						<English>Flag (Belarus)</English>
+						<Portuguese>Bandeira (belarus)</Portuguese>
+						<Korean>깃발 (벨라루스)</Korean>
+						<Chinesesimp>旗标 (白俄罗斯)</Chinesesimp>
+						<Japanese>旗（ベラルーシ）</Japanese>
+						<Turkish>Bayrak (beyaz rusya)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_Germany_F0">
 						<Original>Flag (Germany)</Original>
@@ -2440,6 +2440,23 @@
 				<Japanese>スコーピオン連隊</Japanese>
 				<Turkish>Akrep Alayı</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_flag_Belarus">
+				<Original>Belarus</Original>
+				<Chinese>白俄羅斯</Chinese>
+				<French>Biélorussie</French>
+				<Spanish>Bielorrusia</Spanish>
+				<Italian>Bielorussia</Italian>
+				<Polish>Białoruś</Polish>
+				<Russian>Беларусь</Russian>
+				<German>Weißrussland</German>
+				<Czech>bělorusko</Czech>
+				<English>Belarus</English>
+				<Portuguese>belarus</Portuguese>
+				<Korean>벨라루스</Korean>
+				<Chinesesimp>白俄罗斯</Chinesesimp>
+				<Japanese>ベラルーシ</Japanese>
+				<Turkish>beyaz rusya</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_IDF">
 				<Original>IDF</Original>
 				<Chinese>IDF</Chinese>
@@ -2524,23 +2541,6 @@
 				<Chinesesimp>Takistan</Chinesesimp>
 				<Japanese>Takistan</Japanese>
 				<Turkish>Takistan</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgMarkers_flag_Bocano">
-				<Original>Bocano</Original>
-				<Chinese>Bocano</Chinese>
-				<French>Bocano</French>
-				<Spanish>Bocano</Spanish>
-				<Italian>Bocano</Italian>
-				<Polish>Bocano</Polish>
-				<Russian>Bocano</Russian>
-				<German>Bocano</German>
-				<Czech>Bocano</Czech>
-				<English>Bocano</English>
-				<Portuguese>Bocano</Portuguese>
-				<Korean>Bocano</Korean>
-				<Chinesesimp>Bocano</Chinesesimp>
-				<Japanese>Bocano</Japanese>
-				<Turkish>Bocano</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_Australia">
 				<Original>Australia</Original>

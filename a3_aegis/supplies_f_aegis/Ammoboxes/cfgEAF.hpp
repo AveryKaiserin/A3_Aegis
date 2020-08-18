@@ -151,7 +151,6 @@ class Box_EAF_AmmoOrd_F: Box_IND_AmmoOrd_F
         mag_xx(DemoCharge_Remote_Mag,5);
         mag_xx(SatchelCharge_Remote_Mag,5);
         mag_xx(APERSMineDispenser_Mag,5);
-        mag_xx(FlareTripMine_Wire_Mag,5);
     };
 };
 class Box_EAF_Support_F: Box_IND_Support_F

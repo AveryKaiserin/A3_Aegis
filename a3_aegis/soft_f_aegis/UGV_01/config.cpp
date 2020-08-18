@@ -40,7 +40,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -53,6 +57,18 @@ class CfgVehicles
 					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -239,6 +255,15 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUgrn_CO.paa",
+					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
+				};
+			};
+			class Arid: Arid
+			{
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};

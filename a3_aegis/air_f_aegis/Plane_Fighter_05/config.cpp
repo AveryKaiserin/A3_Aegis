@@ -1435,14 +1435,14 @@ class CfgVehicles
 		};
 		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 		scope = protected;
-		displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Canopy_F0;
+		displayName = $STR_A3_Fighter_01_Canopy_name;
 		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Canopy_F.p3d";
 	};
 	class Ejection_Seat_Plane_Fighter_05_base_F: Ejection_Seat_Base_F
 	{
-		author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
+		author = $STR_A3_A_AveryTheKitty;
 		scope = private;
-		displayName = $STR_A3_A_CfgVehicles_Ejection_Seat_Plane_Fighter_05_base_F0;
+		displayName = $STR_A3_Ejection_Seat_01_name;
 		model = "\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Plane_Fighter_05_Ejection_Seat_F.p3d";
 		icon = iconParachute;
 		picture = "\A3\Air_F_Beta\Parachute_01\Data\UI\Portrait_Parachute_01_CA.paa";

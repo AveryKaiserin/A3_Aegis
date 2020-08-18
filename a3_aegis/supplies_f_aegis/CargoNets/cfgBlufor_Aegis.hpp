@@ -43,7 +43,6 @@ class B_A_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 		mag_xx(DemoCharge_Remote_Mag,5);
 		mag_xx(SatchelCharge_Remote_Mag,5);
 		mag_xx(APERSMineDispenser_Mag,5);
-		mag_xx(FlareTripMine_Wire_Mag,5);
 		mag_xx(1Rnd_HE_Grenade_shell,24);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
@@ -193,7 +192,6 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		mag_xx(DemoCharge_Remote_Mag,5);
 		mag_xx(SatchelCharge_Remote_Mag,5);
 		mag_xx(APERSMineDispenser_Mag,5);
-		mag_xx(FlareTripMine_Wire_Mag,5);
 		mag_xx(1Rnd_HE_Grenade_shell,24);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
@@ -342,7 +340,6 @@ class B_A_CargoNet_01_ammo_wdl_F: CargoNet_01_ammo_base_F
 		mag_xx(DemoCharge_Remote_Mag,5);
 		mag_xx(SatchelCharge_Remote_Mag,5);
 		mag_xx(APERSMineDispenser_Mag,5);
-		mag_xx(FlareTripMine_Wire_Mag,5);
 		mag_xx(1Rnd_HE_Grenade_shell,24);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);

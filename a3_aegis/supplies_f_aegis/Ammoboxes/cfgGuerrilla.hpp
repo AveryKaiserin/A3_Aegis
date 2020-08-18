@@ -94,7 +94,6 @@ class Box_FIA_Ammo_F: FIA_Box_Base_F
 		mag_xx(SmokeShell,6);
 		mag_xx(SmokeShellGreen,6);
 		mag_xx(APERSTripMine_Wire_Mag,4);
-		mag_xx(FlareTripMine_Wire_Mag,4);
 		mag_xx(ClaymoreDirectionalMine_Remote_Mag,2);
 		mag_xx(DemoCharge_Remote_Mag,2);
 	};

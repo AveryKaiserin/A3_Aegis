@@ -51,7 +51,6 @@ class CfgVehicles
 			mag_xx(MRAWS_HE_F,2);
 			mag_xx(SatchelCharge_Remote_Mag,5);
 			mag_xx(SLAMDirectionalMine_Wire_Mag,5);
-			mag_xx(FlareTripMine_Wire_Mag,5);
 	    	mag_xx(APERSMineDispenser_Mag,5);
 			mag_xx(SmokeShell,2);
 			mag_xx(SmokeShellBlue,2);
@@ -207,7 +206,6 @@ class CfgVehicles
 			mag_xx(Vorona_HE,2);
 			mag_xx(SatchelCharge_Remote_Mag,5);
 			mag_xx(SLAMDirectionalMine_Wire_Mag,5);
-			mag_xx(FlareTripMine_Wire_Mag,5);
 	    	mag_xx(APERSMineDispenser_Mag,5);
 			mag_xx(SmokeShell,2);
 			mag_xx(SmokeShellBlue,2);
@@ -341,7 +339,6 @@ class CfgVehicles
 			mag_xx(MRAWS_HE_F,2);
 			mag_xx(SatchelCharge_Remote_Mag,5);
 			mag_xx(SLAMDirectionalMine_Wire_Mag,5);
-			mag_xx(FlareTripMine_Wire_Mag,5);
 	    	mag_xx(APERSMineDispenser_Mag,5);
 			mag_xx(SmokeShell,2);
 			mag_xx(SmokeShellBlue,2);

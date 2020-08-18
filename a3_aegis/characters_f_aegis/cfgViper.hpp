@@ -240,3 +240,11 @@ class O_V_Soldier_JTAC_ghex_F: O_V_Soldier_JTAC_hex_F
 {
 	faction = OPF_V_tna_F;
 };
+// Arma 3 Aegis
+class U_O_V_SpecialPurposeSuit_01_oicamo_F: O_V_Soldier_hex_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_O_V_Soldier_Viper_oicamo_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ViperOp_Suit_oicamo_CO.paa"};
+};

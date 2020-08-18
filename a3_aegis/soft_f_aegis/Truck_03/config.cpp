@@ -18,7 +18,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -31,6 +35,18 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -49,7 +65,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -63,6 +83,19 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
+        			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -80,7 +113,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -93,6 +130,18 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -139,7 +188,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -153,6 +206,19 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUS_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -170,7 +236,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUgrn_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -183,6 +253,18 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUcamo_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -201,7 +283,11 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUgrn_CO.paa",
         			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class Taiga
 			{
@@ -215,6 +301,19 @@ class CfgVehicles
         			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUgrn_CO.paa"
 				};
 				factions[] = {OPF_R_F};
+			};
+			class Arid
+			{
+				displayName = $STR_A3_TEXTURESOURCES_ARID0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
+        			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUkhk_CO.paa"
+				};
+				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};

@@ -1,13 +1,13 @@
-class B_ADF_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
+class B_O_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_ADF_Plane_Fighter_05_F.jpg";
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_O_Plane_Fighter_05_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_ADF_F;
-	crew = B_ADF_Fighter_Pilot_F;
-	typicalCargo[] = {B_ADF_Fighter_Pilot_F};
+	faction = BLU_O_F;
+	crew = B_O_Fighter_Pilot_F;
+	typicalCargo[] = {B_O_Fighter_Pilot_F};
 	textureList[] = {ADF,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -21,19 +21,19 @@ class B_ADF_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_ADF_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_O_Ejection_Seat_Plane_Fighter_05_F;
 	};
 };
-class B_ADF_Plane_Fighter_05_Stealth_F: B_Plane_Fighter_05_Stealth_F
+class B_O_Plane_Fighter_05_Stealth_F: B_Plane_Fighter_05_Stealth_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_ADF_Plane_Fighter_05_Stealth_F.jpg";
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_O_Plane_Fighter_05_Stealth_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_ADF_F;
-	crew = B_ADF_Fighter_Pilot_F;
-	typicalCargo[] = {B_ADF_Fighter_Pilot_F};
+	faction = BLU_O_F;
+	crew = B_O_Fighter_Pilot_F;
+	typicalCargo[] = {B_O_Fighter_Pilot_F};
 	textureList[] = {ADF,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -47,10 +47,10 @@ class B_ADF_Plane_Fighter_05_Stealth_F: B_Plane_Fighter_05_Stealth_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_ADF_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_O_Ejection_Seat_Plane_Fighter_05_F;
 	};
 };
-class B_ADF_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
+class B_O_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
 {
 	class SimpleObject
 	{
@@ -72,6 +72,6 @@ class B_ADF_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_bas
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	side = TWest;
-	faction = BLU_ADF_F;
-	crew = B_ADF_Fighter_Pilot_F;
+	faction = BLU_O_F;
+	crew = B_O_Fighter_Pilot_F;
 };

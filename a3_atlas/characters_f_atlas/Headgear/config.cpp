@@ -47,6 +47,8 @@ class CfgWeapons
 	class H_HelmetLeaderO_ocamo;
 	class H_MilCap_ocamo;
 	class H_HelmetSpecO_ocamo;
+	// Arma 3 Apex
+	class H_HelmetO_ViperSP_hex_F;
 	// Arma 3 Tanks
 	class H_Tank_black_F;
 	// Arma 3 Enoch
@@ -105,6 +107,13 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_semiarid0;
 		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecO_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"};
+	};
+	class H_HelmetO_ViperSP_whex_F: H_HelmetO_ViperSP_hex_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_ViperSP_whex_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetO_ViperSP_whex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\headgear_ViperSP_whex_CO.paa"};
 	};
 	class H_HelmetHBK_aucamo_F: H_HelmetHBK_base_F
 	{

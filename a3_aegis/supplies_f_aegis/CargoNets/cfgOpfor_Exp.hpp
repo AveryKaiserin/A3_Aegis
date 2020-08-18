@@ -63,7 +63,6 @@ class O_T_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 		mag_xx(Vorona_HE,2);
 		mag_xx(SatchelCharge_Remote_Mag,5);
 		mag_xx(SLAMDirectionalMine_Wire_Mag,5);
-		mag_xx(FlareTripMine_Wire_Mag,5);
     	mag_xx(APERSMineDispenser_Mag,5);
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellBlue,2);

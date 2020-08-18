@@ -7,8 +7,8 @@ class O_R_Radar_System_02_F: Radar_System_02_base_F
 	scopeCurator = public;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUcamo_CO.paa",
-		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUcamo_CO.paa"
+		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUS_CO.paa",
+		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUS_CO.paa"
 	};
 	side = TEast;
 	faction = OPF_R_F;
@@ -23,8 +23,8 @@ class O_R_Radar_System_02_ard_F: Radar_System_02_base_F
 	scopeCurator = public;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUkhk_CO.paa",
-		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUkhk_CO.paa"
+		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUS_CO.paa",
+		"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUS_CO.paa"
 	};
 	side = TEast;
 	faction = OPF_R_ard_F;

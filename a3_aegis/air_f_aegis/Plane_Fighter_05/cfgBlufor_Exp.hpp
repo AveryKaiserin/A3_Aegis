@@ -1,6 +1,6 @@
 class B_T_Plane_Fighter_05_F: B_Plane_Fighter_05_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_Plane_Fighter_05_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -15,7 +15,7 @@ class B_T_Plane_Fighter_05_F: B_Plane_Fighter_05_F
 };
 class B_T_Plane_Fighter_05_Stealth_F: B_Plane_Fighter_05_Stealth_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_Plane_Fighter_05_Stealth_F.jpg";
 	scope = public;
 	scopeCurator = public;

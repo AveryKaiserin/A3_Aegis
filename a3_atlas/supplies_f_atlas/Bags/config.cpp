@@ -3,9 +3,11 @@
 class CfgVehicles
 {
 	// Arma 3
+	class B_AssaultPack_Base;
 	class B_AssaultPack_khk;
 	class B_AssaultPack_sgg;
 	class B_AssaultPack_blk;
+	class B_Kitbag_Base;
 	class B_Kitbag_mcamo;
 	class B_Kitbag_sgg;
 	class B_TacticalPack_Base;
@@ -108,6 +110,14 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_semiarid_CO.paa"};
 	};
+	class B_Carryall_aucamo_F: B_Carryall_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_Carryall_aucamo_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_aucamo_CO.paa"};
+	};
 	class B_Carryall_jungle: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -132,12 +142,28 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_semiarid_CO.paa"};
 	};
-	class B_TacticalPack_aucamo: B_TacticalPack_Base
+	class B_AssaultPack_aucamo_F: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_CA.paa";
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_aucamo_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_aucamo_CO.paa"};
+	};
+	class B_Kitbag_aucamo_F: B_Kitbag_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_aucamo_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Kitbag_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_fast_aucamo_CO.paa"};
+	};
+	class B_TacticalPack_aucamo_F: B_TacticalPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
 	};
 	class B_ViperHarness_whex_F: B_ViperHarness_base_F
@@ -156,10 +182,14 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_ViperLightHarness_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\Backpack_ViperOp_whex_CO.paa"};
 	};
+	#include "cfgViper.hpp"				// Viper
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgLegion.hpp"			// Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIL.hpp"				// HIL
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	// #include "cfgCDF.hpp"				// CDF
 	#include "cfgIDF.hpp"				// IDF
+	// #include "cfgUNO.hpp"				// UNO
 };
