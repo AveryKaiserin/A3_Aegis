@@ -174,7 +174,7 @@ class O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
 		verticalOffsetWorld = -0.148;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_APC_Wheeled_02_rcws_v2_ghex_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_APC_Wheeled_02_rcws_v2_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

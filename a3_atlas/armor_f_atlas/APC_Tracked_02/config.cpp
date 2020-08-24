@@ -111,5 +111,6 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgCDF.hpp"				// CDF
 };
