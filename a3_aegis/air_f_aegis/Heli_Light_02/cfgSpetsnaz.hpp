@@ -132,12 +132,12 @@ class O_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	faction = OPF_R_F;
 	crew = O_R_helipilot_F;
 	typicalCargo[] = {O_R_helipilot_F};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
 	textureList[] =
 	{
 		Black,1,
 		Blackcustom,0
 	};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
