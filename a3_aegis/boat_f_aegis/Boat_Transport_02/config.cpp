@@ -13,6 +13,7 @@ class CfgVehicles
 				factions[] =
 				{
 					BLU_G_F,
+                    BLU_GEN_F,
 					OPF_G_F,
 					IND_G_F,
 					IND_C_F
@@ -41,6 +42,7 @@ class CfgVehicles
 	#include "cfgIndep.hpp"
 	#include "cfgBlufor_Exp.hpp"
 	#include "cfgOpfor_Exp.hpp"
+	#include "cfgGendarmerie.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
 };

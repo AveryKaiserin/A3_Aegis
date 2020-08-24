@@ -22,5 +22,5 @@ class CfgVehicles
 		scopeCurator = private;
 	};
 	// Arma 3 Police
-	#include "cfgPolice.hpp"
+	#include "cfgPolice.hpp"			// Police
 };

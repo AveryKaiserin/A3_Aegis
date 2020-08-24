@@ -3,7 +3,9 @@
 #include "cfgVehicles.hpp"
 class CfgWeapons
 {
+    // Arma 3
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgPolice.hpp"
+    // Arma 3 Police
+	#include "cfgPolice.hpp"			// Police
 };

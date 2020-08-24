@@ -8,8 +8,7 @@ class I_M_Man_Base_F: I_G_Soldier_F
 	identityTypes[] = 
 	{
 		LanguageENG_F,
-		Head_Euro,
-		Head_Enoch,
+		Head_NATO,
 		G_NATO_casual
 	};
 };
@@ -406,24 +405,24 @@ class I_M_Soldier_5_F: I_M_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		SMG_05_F,
+		SMG_01_black_mzls_F,
         launch_RPG7_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		SMG_05_F,
+		SMG_01_black_mzls_F,
         launch_RPG7_black_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_9x21_Mag_SMG_02),
+        mag_6(30Rnd_45ACP_Mag_SMG_01),
         RPG7_F
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_9x21_Mag_SMG_02),
+        mag_6(30Rnd_45ACP_Mag_SMG_01),
         RPG7_F
 	};
 	cost = 130000;
@@ -478,35 +477,37 @@ class I_M_Soldier_6_F: I_M_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
 	linkedItems[] = 
 	{
-		V_PlateCarrier1_blk,
+		V_Pocketed_hunter_F,
         H_Booniehat_khk,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_PlateCarrier1_blk,
+		V_Pocketed_hunter_F,
         H_Booniehat_khk,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_SPAR_01_GL_blk_F,
+		GL_M79_F,
+        hgun_C1911_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_SPAR_01_GL_blk_F,
+		GL_M79_F,
+        hgun_C1911_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag),
-        mag_5(1Rnd_HE_Grenade_shell)
+        mag_12(1Rnd_HE_Grenade_shell),
+        mag_2(7Rnd_45ACP_Mag)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag),
-        mag_5(1Rnd_HE_Grenade_shell)
+        mag_12(1Rnd_HE_Grenade_shell),
+        mag_2(7Rnd_45ACP_Mag)
 	};
 	cost = 200000;
 	role = Grenadier;
@@ -569,13 +570,13 @@ class I_M_Soldier_7_F: I_M_Soldier_Base_F
 	displayName = $STR_B_Sniper_F0;
 	linkedItems[] = 
 	{
-        V_Pocketed_wdl_F,
+        V_Pocketed_hunter_F,
 		H_Booniehat_tan,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-        V_Pocketed_wdl_F,
+        V_Pocketed_hunter_F,
 		H_Booniehat_tan,
 		DefaultManGuerillaLinkedItems
 	};

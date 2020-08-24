@@ -3,10 +3,12 @@
 class UniformSlotInfo;
 class CfgVehicles
 {
+    // Arma 3
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgCivil.hpp"
-	#include "cfgPolice.hpp"
+    // Arma 3 Police
+	#include "cfgCivil.hpp"             // Civilians
+	#include "cfgPolice.hpp"			// Police
 };
 #include "cfgGroups.hpp"

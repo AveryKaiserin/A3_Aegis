@@ -51,6 +51,7 @@ class CfgWeapons
 			6Rnd_SmokePurple_Grenade_shell,
 			6Rnd_SmokeBlue_Grenade_shell,
 			6Rnd_SmokeOrange_Grenade_shell,
+			6Rnd_Pellets_Grenade_shell,
 			6Rnd_APERSMine_Grenade_shell
 		};
 		magazineWell[] = {M32_40x36};
@@ -74,7 +75,7 @@ class CfgWeapons
 		{
 			sounds[] = {StandardSound};
 			reloadTime = 0.25;
-			dispersion = 0.00102;
+			dispersion = 0.00203;
 			minRange = 30;
 			minRangeProbab = 0.1;
 			midRange = 200;

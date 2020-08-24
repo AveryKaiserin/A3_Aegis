@@ -43,5 +43,5 @@ class CfgVehicles
 	};
 	class Offroad_01_military_comms_base_F;
 	// Arma 3 Police
-	#include "cfgPolice.hpp"
+	#include "cfgPolice.hpp"			// Police
 };

@@ -28,12 +28,12 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB_CO.paa",
+			"\A3_Opf\Weapons_F_Opf\Rifles\RFB\Data\RFB_CO.paa",
 			"\A3\Weapons_F\Rifles\SDAR\Data\RFB_UW_CO.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\RFB.rvmat",
+			"\A3_Opf\Weapons_F_Opf\Rifles\RFB\Data\RFB.rvmat",
 			"\A3\Weapons_F\Rifles\SDAR\Data\RFB_UW.rvmat"
 		};
 		handAnim[] =
@@ -116,13 +116,13 @@ class CfgWeapons
 		inertia = 0.4;
 		aimTransitionSpeed = 1.4;
 		dexterity = 1.6;
-		displayName = $STR_A3_A_CfgWeapons_arifle_RFB_F0;
-		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\RFB\Data\UI\icon_arifle_RFB_F_X_CA.paa";
+		displayName = $STR_A3_O_CfgWeapons_arifle_RFB_F0;
+		picture = "\A3_Opf\Weapons_F_Opf\Rifles\RFB\Data\UI\icon_arifle_RFB_F_X_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
-		descriptionShort = $STR_A3_A_CfgWeapons_arifle_RFB_F1;
+		descriptionShort = $STR_A3_O_CfgWeapons_arifle_RFB_F1;
 		class Library
 		{
-			libTextDesc = $STR_A3_A_CfgWeapons_arifle_RFB_F_Library0;
+			libTextDesc = $STR_A3_O_CfgWeapons_arifle_RFB_F_Library0;
 		};
 	};
 };

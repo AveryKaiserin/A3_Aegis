@@ -14796,39 +14796,22 @@
 					<Turkish>AKU-12 5.45 mm (Kurak Kam.)</Turkish>
 				</Key>
 				<Container name="DescriptionShort">
-					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_F1">
-						<Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x51 mm</Original>
-						<Chinese>突擊步槍&lt;br/&gt;口徑：7.62x51 mm</Chinese>
-						<French>Fusil d'assaut&lt;br /&gt;Calibre : 7,62x51 mm</French>
-						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 7,62 x 51 mm</Spanish>
-						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 7,62x51 mm</Italian>
-						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 7,62x51 mm</Polish>
-						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 7,62x51 мм</Russian>
-						<German>Sturmgewehr&lt;br /&gt;Kaliber: 7,62x51 mm</German>
-						<Czech>Útočná puška&lt;br /&gt;Ráže: 7,62x51 mm</Czech>
-						<English>Assault Rifle&lt;br /&gt;Caliber: 7.62x51 mm</English>
-						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 7,62x51 mm</Portuguese>
-						<Korean>돌격소총&lt;br /&gt;구경: 7.62x51 mm</Korean>
-						<Chinesesimp>突击步枪&lt;br /&gt;口径：7.62x51 毫米</Chinesesimp>
-						<Japanese>アサルトライフル&lt;br /&gt;口径：7.62x51 mm</Japanese>
-						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 7.62x51 mm</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RPK_base_F1">
-						<Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</Original>
-						<Chinese>突擊步槍&lt;br/&gt;口徑：7.62x39 mm</Chinese>
-						<French>Fusil d'assaut&lt;br /&gt;Calibre : 7,62x39 mm</French>
-						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 7,62 x 39 mm</Spanish>
-						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 7,62x39 mm</Italian>
-						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 7,62x39 mm</Polish>
-						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 7,62x39 мм</Russian>
-						<German>Sturmgewehr&lt;br /&gt;Kaliber: 7,62x39 mm</German>
-						<Czech>Útočná puška&lt;br /&gt;Ráže: 7,62x39 mm</Czech>
-						<English>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</English>
-						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 7,62x39 mm</Portuguese>
-						<Korean>돌격소총&lt;br /&gt;구경: 7.62x39 mm</Korean>
-						<Chinesesimp>突击步枪&lt;br /&gt;口径：7.62x39 毫米</Chinesesimp>
-						<Japanese>アサルトライフル&lt;br /&gt;口径：7.62x39 mm</Japanese>
-						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 7.62x39 mm</Turkish>
+                        <Original>Light Machine Gun&lt;br /&gt;Caliber: 7.62x39 mm</Original>
+                        <Chinese>輕機槍&lt;br /&gt;口徑：7.62x39 mm</Chinese>
+                        <French>Mitrailleuse légère&lt;br /&gt;Calibre : 7,62x39 mm</French>
+                        <Spanish>Ametralladora ligera&lt;br /&gt;Calibre: 7,62x39 mm</Spanish>
+                        <Italian>Mitragliatrice leggera&lt;br /&gt;Calibro: 7,62x39 mm</Italian>
+                        <Polish>Lekki karabin maszynowy&lt;br /&gt;Kaliber: 7,62x39 mm</Polish>
+                        <Russian>Ручной пулемет&lt;br /&gt;Калибр: 7,62x39 мм</Russian>
+                        <German>Leichtes Maschinengewehr&lt;br /&gt;Kaliber: 7,62x39 mm</German>
+                        <Czech>Lehký kulomet&lt;br /&gt;Ráže: 7,62x39 mm</Czech>
+                        <English>Light Machine Gun&lt;br /&gt;Caliber: 7.62x39 mm</English>
+                        <Portuguese>Metralhadora leve&lt;br /&gt;Calibre: 7,62 x 39 mm</Portuguese>
+                        <Korean>경기관총(LMG)&lt;br /&gt;구경: 7.62x39mm</Korean>
+                        <Chinesesimp>轻机枪&lt;br /&gt;口径：7.62x39 毫米</Chinesesimp>
+                        <Japanese>軽機関銃&lt;br /&gt;口径：7.62x39 mm</Japanese>
+                        <Turkish>Hafif Makineli Tüfek&lt;br /&gt;Kalibre: 7.62x39 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SA80_base_F1">
 						<Original>Assault Rifle&lt;br /&gt;Caliber: 6.5x39 mm</Original>
@@ -14866,23 +14849,6 @@
 					</Key>
 				</Container>
 				<Container name="DisplayName">
-					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_F0">
-						<Original>RFL 7.62 mm</Original>
-						<Chinese>RFL 7.62 mm</Chinese>
-						<French>RFL 7,62 mm</French>
-						<Spanish>RFL 7,62 mm</Spanish>
-						<Italian>RFL 7,62 mm</Italian>
-						<Polish>RFL 7,62 mm</Polish>
-						<Russian>RFL 7,62 мм</Russian>
-						<German>RFL 7,62 mm</German>
-						<Czech>RFL 7,62 mm</Czech>
-						<English>RFL 7.62 mm</English>
-						<Portuguese>RFL 7,62 mm</Portuguese>
-						<Korean>RFL 7.62 mm</Korean>
-						<Chinesesimp>RFL 7.62 毫米</Chinesesimp>
-						<Japanese>RFL 7.62 mm</Japanese>
-						<Turkish>RFL 7.62 mm</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RPK_base_F0">
 						<Original>RPK 7.62 mm</Original>
 						<Chinese>RPK 7.62 mm</Chinese>
@@ -15327,39 +15293,22 @@
 					</Key>
 				</Container>
 				<Container name="Library">
-					<Key ID="STR_A3_A_CfgWeapons_arifle_RFB_base_F_Library0">
-						<Original>**TO TRANSLATE**</Original>
-						<Chinese>**TO TRANSLATE**</Chinese>
-						<French>**TO TRANSLATE**</French>
-						<Spanish>**TO TRANSLATE**</Spanish>
-						<Italian>**TO TRANSLATE**</Italian>
-						<Polish>**TO TRANSLATE**</Polish>
-						<Russian>**TO TRANSLATE**</Russian>
-						<German>**TO TRANSLATE**</German>
-						<Czech>**TO TRANSLATE**</Czech>
-						<English>**TO TRANSLATE**</English>
-						<Portuguese>**TO TRANSLATE**</Portuguese>
-						<Korean>**TO TRANSLATE**</Korean>
-						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
-						<Japanese>**TO TRANSLATE**</Japanese>
-						<Turkish>**TO TRANSLATE**</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_RPK_base_F_Library0">
-						<Original>**TO TRANSLATE**</Original>
-						<Chinese>**TO TRANSLATE**</Chinese>
-						<French>**TO TRANSLATE**</French>
-						<Spanish>**TO TRANSLATE**</Spanish>
-						<Italian>**TO TRANSLATE**</Italian>
-						<Polish>**TO TRANSLATE**</Polish>
-						<Russian>**TO TRANSLATE**</Russian>
-						<German>**TO TRANSLATE**</German>
-						<Czech>**TO TRANSLATE**</Czech>
-						<English>**TO TRANSLATE**</English>
-						<Portuguese>**TO TRANSLATE**</Portuguese>
-						<Korean>**TO TRANSLATE**</Korean>
-						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
-						<Japanese>**TO TRANSLATE**</Japanese>
-						<Turkish>**TO TRANSLATE**</Turkish>
+						<Original>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Original>
+						<Chinese>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Chinese>
+						<French>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</French>
+						<Spanish>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Spanish>
+						<Italian>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Italian>
+						<Polish>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Polish>
+						<Russian>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Russian>
+						<German>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</German>
+						<Czech>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Czech>
+						<English>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</English>
+						<Portuguese>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Portuguese>
+						<Korean>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Korean>
+						<Chinesesimp>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Chinesesimp>
+						<Japanese>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Japanese>
+						<Turkish>The RPK is a gas-operated light machine gun with a rotating bolt which was developed alongside the AKM. It's equipped with a longer barrel, foldable bipod, and a heavier stock. It feeds from 75 round drum magazines.</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SA80_base_F_Library0">
 						<Original>Despite its poor reputation and troubled reception in the past, the SA80 remains as the main service rifle for the British Armed Forces. The L85A3 has been rechambered for NATO's standardized 6.5x39 mm caseless ammunition, and features a new full-length rail enabling modularity and variety of other changes to improve the reliability and stability of the weapon. It is often issued with a grip-pod, but can be fitted with a 40 mm underslung grenade launcher. A compact carbine variant with a shortened barrel exists and is labelled the L22A3.</Original>
@@ -15379,21 +15328,21 @@
 						<Turkish>Despite its poor reputation and troubled reception in the past, the SA80 remains as the main service rifle for the British Armed Forces. The L85A3 has been rechambered for NATO's standardized 6.5x39 mm caseless ammunition, and features a new full-length rail enabling modularity and variety of other changes to improve the reliability and stability of the weapon. It is often issued with a grip-pod, but can be fitted with a 40 mm underslung grenade launcher. A compact carbine variant with a shortened barrel exists and is labelled the L22A3.</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0">
-						<Original>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Original>
-						<Chinese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinese>
-						<French>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</French>
-						<Spanish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Spanish>
-						<Italian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Italian>
-						<Polish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Polish>
-						<Russian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Russian>
-						<German>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</German>
-						<Czech>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Czech>
-						<English>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</English>
-						<Portuguese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Portuguese>
-						<Korean>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Korean>
-						<Chinesesimp>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinesesimp>
-						<Japanese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Japanese>
-						<Turkish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Turkish>
+						<Original>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Original>
+						<Chinese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinese>
+						<French>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</French>
+						<Spanish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Spanish>
+						<Italian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Italian>
+						<Polish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Polish>
+						<Russian>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Russian>
+						<German>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</German>
+						<Czech>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Czech>
+						<English>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</English>
+						<Portuguese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Portuguese>
+						<Korean>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Korean>
+						<Chinesesimp>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Chinesesimp>
+						<Japanese>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Japanese>
+						<Turkish>The Mk17 entered service during Operation Arrowhead, and while its lighter counterpart was eventually replaced by the MX, it remains in use with US special forces. It's a reliable battle rifle originating from Belgium, with a modular design that is compatible with a variety of accessories. Chambered for 7.62x51 mm ammunition, it hits harder than most assault rifles at the cost of increased weight and reduced magazine capacity. It can be fitted with a 40 mm underslung grenade launcher or an underbarrel 12 gauge shotgun module. A shortened version exists, labeled the Mk17C.</Turkish>
 					</Key>
 				</Container>
 			</Container>
@@ -15783,40 +15732,6 @@
 						<Japanese>MP7 4.6mm（砂）</Japanese>
 						<Turkish>MP7 4.6 mm (Kum)</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_SMG_06_base_F0">
-						<Original>Vepr 9 mm</Original>
-						<Chinese>Vepr 9 mm</Chinese>
-						<French>Vepr 9 mm</French>
-						<Spanish>Vepr 9 mm</Spanish>
-						<Italian>Vepr 9 mm</Italian>
-						<Polish>Vepr 9 mm</Polish>
-						<Russian>Vepr 9 мм</Russian>
-						<German>Vepr 9 mm</German>
-						<Czech>Vepr 9 mm</Czech>
-						<English>Vepr 9 mm</English>
-						<Portuguese>Vepr 9 mm</Portuguese>
-						<Korean>Vepr 9mm</Korean>
-						<Chinesesimp>Vepr 9 毫米</Chinesesimp>
-						<Japanese>Vepr 9mm</Japanese>
-						<Turkish>Vepr 9 mm</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_SMG_06_F0">
-						<Original>Vepr 9 mm</Original>
-						<Chinese>Vepr 9 mm</Chinese>
-						<French>Vepr 9 mm</French>
-						<Spanish>Vepr 9 mm</Spanish>
-						<Italian>Vepr 9 mm</Italian>
-						<Polish>Vepr 9 mm</Polish>
-						<Russian>Vepr 9 мм</Russian>
-						<German>Vepr 9 mm</German>
-						<Czech>Vepr 9 mm</Czech>
-						<English>Vepr 9 mm</English>
-						<Portuguese>Vepr 9 mm</Portuguese>
-						<Korean>Vepr 9mm</Korean>
-						<Chinesesimp>Vepr 9 毫米</Chinesesimp>
-						<Japanese>Vepr 9mm</Japanese>
-						<Turkish>Vepr 9 mm</Turkish>
-					</Key>
 				</Container>
 				<Container name="Library">
 					<Key ID="STR_A3_A_CfgWeapons_SMG_04_base_F_Library0">
@@ -15835,23 +15750,6 @@
 						<Chinesesimp>The MP7 is a personal defense weapon (PDW) originating from Germany. It is chambered for the 4.6x30 mm cartridge, and maintains a high rate of fire. Its minimal weight, high rate of fire, and small dimensions make it a powerful weapon for CQC encounters.</Chinesesimp>
 						<Japanese>The MP7 is a personal defense weapon (PDW) originating from Germany. It is chambered for the 4.6x30 mm cartridge, and maintains a high rate of fire. Its minimal weight, high rate of fire, and small dimensions make it a powerful weapon for CQC encounters.</Japanese>
 						<Turkish>The MP7 is a personal defense weapon (PDW) originating from Germany. It is chambered for the 4.6x30 mm cartridge, and maintains a high rate of fire. Its minimal weight, high rate of fire, and small dimensions make it a powerful weapon for CQC encounters.</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_SMG_06_base_F_Library0">
-						<Original>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Original>
-						<Chinese>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Chinese>
-						<French>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</French>
-						<Spanish>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Spanish>
-						<Italian>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Italian>
-						<Polish>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Polish>
-						<Russian>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Russian>
-						<German>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</German>
-						<Czech>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Czech>
-						<English>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</English>
-						<Portuguese>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Portuguese>
-						<Korean>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Korean>
-						<Chinesesimp>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Chinesesimp>
-						<Japanese>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Japanese>
-						<Turkish>The Vepr is a lightweight, select-fire, blowback operation submachine gun chambered for 9x19 mm. It is used by the Russian Army's vehicle crews and special forces.</Turkish>
 					</Key>
 				</Container>
 			</Container>

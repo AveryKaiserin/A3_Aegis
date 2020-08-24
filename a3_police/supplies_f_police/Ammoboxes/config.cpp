@@ -2,6 +2,8 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+    // Arma 3
 	class ReammoBox_F;
-	#include "cfgPolice.hpp"
+    // Arma 3 Police
+	#include "cfgPolice.hpp"			// Police
 };

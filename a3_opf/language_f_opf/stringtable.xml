@@ -533,6 +533,23 @@
 		<Container name="Weapons_F">
 			<Container name="Rifles">
 				<Container name="DescriptionShort">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_RFB_F1">
+						<Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x51 mm</Original>
+						<Chinese>突擊步槍&lt;br/&gt;口徑：7.62x51 mm</Chinese>
+						<French>Fusil d'assaut&lt;br /&gt;Calibre : 7,62x51 mm</French>
+						<Spanish>Fusil de asalto&lt;br /&gt;Calibre: 7,62 x 51 mm</Spanish>
+						<Italian>Fucile d'assalto&lt;br /&gt;Calibro: 7,62x51 mm</Italian>
+						<Polish>Karabin szturmowy&lt;br /&gt;Kaliber: 7,62x51 mm</Polish>
+						<Russian>Штурмовая винтовка&lt;br /&gt;Калибр: 7,62x51 мм</Russian>
+						<German>Sturmgewehr&lt;br /&gt;Kaliber: 7,62x51 mm</German>
+						<Czech>Útočná puška&lt;br /&gt;Ráže: 7,62x51 mm</Czech>
+						<English>Assault Rifle&lt;br /&gt;Caliber: 7.62x51 mm</English>
+						<Portuguese>Fuzil de assalto&lt;br /&gt;Calibre: 7,62x51 mm</Portuguese>
+						<Korean>돌격소총&lt;br /&gt;구경: 7.62x51 mm</Korean>
+						<Chinesesimp>突击步枪&lt;br /&gt;口径：7.62x51 毫米</Chinesesimp>
+						<Japanese>アサルトライフル&lt;br /&gt;口径：7.62x51 mm</Japanese>
+						<Turkish>Saldırı Tüfeği&lt;br /&gt;Kalibre: 7.62x51 mm</Turkish>
+					</Key>
 					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F1">
 						<Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</Original>
 						<Chinese>突擊步槍&lt;br/&gt;口徑：5.45x39 mm</Chinese>
@@ -552,6 +569,23 @@
 					</Key>
 				</Container>
 				<Container name="DisplayName">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_RFB_F0">
+						<Original>RFL 7.62 mm</Original>
+						<Chinese>RFL 7.62 mm</Chinese>
+						<French>RFL 7,62 mm</French>
+						<Spanish>RFL 7,62 mm</Spanish>
+						<Italian>RFL 7,62 mm</Italian>
+						<Polish>RFL 7,62 mm</Polish>
+						<Russian>RFL 7,62 мм</Russian>
+						<German>RFL 7,62 mm</German>
+						<Czech>RFL 7,62 mm</Czech>
+						<English>RFL 7.62 mm</English>
+						<Portuguese>RFL 7,62 mm</Portuguese>
+						<Korean>RFL 7.62 mm</Korean>
+						<Chinesesimp>RFL 7.62 毫米</Chinesesimp>
+						<Japanese>RFL 7.62 mm</Japanese>
+						<Turkish>RFL 7.62 mm</Turkish>
+					</Key>
 					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F0">
 						<Original>SKS 7.62 mm</Original>
 						<Chinese>SKS 7.62 mm</Chinese>
@@ -588,22 +622,39 @@
 					</Key>
 				</Container>
 				<Container name="Library">
+					<Key ID="STR_A3_O_CfgWeapons_arifle_RFB_base_F_Library0">
+						<Original>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Original>
+						<Chinese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Chinese>
+						<French>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</French>
+						<Spanish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Spanish>
+						<Italian>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Italian>
+						<Polish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Polish>
+						<Russian>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Russian>
+						<German>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</German>
+						<Czech>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Czech>
+						<English>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</English>
+						<Portuguese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Portuguese>
+						<Korean>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Korean>
+						<Chinesesimp>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Chinesesimp>
+						<Japanese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Japanese>
+						<Turkish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Turkish>
+					</Key>
 					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F_Library0">
-						<Original>**TO TRANSLATE**</Original>
-						<Chinese>**TO TRANSLATE**</Chinese>
-						<French>**TO TRANSLATE**</French>
-						<Spanish>**TO TRANSLATE**</Spanish>
-						<Italian>**TO TRANSLATE**</Italian>
-						<Polish>**TO TRANSLATE**</Polish>
-						<Russian>**TO TRANSLATE**</Russian>
-						<German>**TO TRANSLATE**</German>
-						<Czech>**TO TRANSLATE**</Czech>
-						<English>**TO TRANSLATE**</English>
-						<Portuguese>**TO TRANSLATE**</Portuguese>
-						<Korean>**TO TRANSLATE**</Korean>
-						<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
-						<Japanese>**TO TRANSLATE**</Japanese>
-						<Turkish>**TO TRANSLATE**</Turkish>
+						<Original>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Original>
+						<Chinese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Chinese>
+						<French>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</French>
+						<Spanish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Spanish>
+						<Italian>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Italian>
+						<Polish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Polish>
+						<Russian>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Russian>
+						<German>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</German>
+						<Czech>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Czech>
+						<English>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</English>
+						<Portuguese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Portuguese>
+						<Korean>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Korean>
+						<Chinesesimp>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Chinesesimp>
+						<Japanese>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Japanese>
+						<Turkish>The RFL is a gas-operated, semi-automatic rifle manufactured in China alongside its military counterpart - the SDAR. It is chambered for 7.62x51 mm ammunition and boasts a relatively lightweight design, making it quite popular among competitive shooters and other civilian gun owners, particularly in the United States.</Turkish>
 					</Key>
 				</Container>
 			</Container>

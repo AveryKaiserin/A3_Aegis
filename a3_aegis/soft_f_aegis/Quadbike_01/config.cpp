@@ -20,6 +20,7 @@ class CfgVehicles
 				factions[] =
 				{
 					CIV_F,
+                    BLU_GEN_F,
 					IND_C_F
 				};
 			};
@@ -89,6 +90,7 @@ class CfgVehicles
 	};
 	// Arma 3 Aegis
 	#include "cfgSyndikat.hpp"
+	#include "cfgGendarmerie.hpp"
 	#include "cfgOpfor_Tacops.hpp"
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
