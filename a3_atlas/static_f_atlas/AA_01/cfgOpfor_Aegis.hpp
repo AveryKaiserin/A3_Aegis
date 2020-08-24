@@ -1,4 +1,4 @@
-class O_W_Static_AT_F: O_static_AT_F
+class O_W_Static_AA_F: O_static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -48,7 +48,7 @@ class O_W_Static_AT_F: O_static_AT_F
 		verticalOffsetWorld = 0.005;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Static_AT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Static_AA_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	hiddenSelections[] =
@@ -59,7 +59,7 @@ class O_W_Static_AT_F: O_static_AT_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_O_Titan_ghex_F_01_CO.paa",
-		"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_O_Titan_short_ghex_F_02_CO.paa"
+		"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_O_Titan_ghex_F_02_CO.paa"
 	};
 	class assembleInfo
 	{
@@ -69,7 +69,7 @@ class O_W_Static_AT_F: O_static_AT_F
 		primary = false;
 		dissasembleTo[] =
 		{
-            O_AT_01_weapon_F,
+            O_AA_01_weapon_F,
             O_HMG_01_support_F
 		};
 	};

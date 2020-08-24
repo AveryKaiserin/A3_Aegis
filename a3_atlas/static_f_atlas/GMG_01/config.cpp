@@ -25,6 +25,7 @@ class CfgVehicles
 		class assembleInfo;
 	};
 	// Arma 3 Atlas
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 	#include "cfgIDF.hpp"				// IDF
 };

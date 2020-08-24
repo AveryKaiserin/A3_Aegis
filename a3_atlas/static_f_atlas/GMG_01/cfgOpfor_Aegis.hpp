@@ -1,4 +1,4 @@
-class O_W_HMG_01_F: O_HMG_01_F
+class O_W_GMG_01_F: O_GMG_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -29,8 +29,6 @@ class O_W_HMG_01_F: O_HMG_01_F
             {turret_shake_aside,0},
             {bolt_reload_begin,0},
             {bolt_reload_end,0},
-            {charging_handle_reload_begin,0},
-            {charging_handle_reload_end,0},
             {magazine_hide,0},
             {ammo_belt_hide,0},
             {muzzleflash,0},
@@ -53,11 +51,11 @@ class O_W_HMG_01_F: O_HMG_01_F
             "podsvit pristroju",
             poskozeni
 		};
-		verticalOffset = 1.209;
-		verticalOffsetWorld = 0.077;
+		verticalOffset = 1.191;
+		verticalOffsetWorld = 0.103;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_HMG_01_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	class assembleInfo
@@ -68,15 +66,15 @@ class O_W_HMG_01_F: O_HMG_01_F
 		primary = false;
 		dissasembleTo[] =
 		{
-            O_HMG_01_weapon_F,
+            O_GMG_01_weapon_F,
             O_HMG_01_support_F
 		};
 	};
 };
-class O_W_HMG_01_high_F: O_HMG_01_high_F
+class O_W_GMG_01_high_F: O_GMG_01_high_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_HMG_01_high_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_high_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	class assembleInfo
@@ -87,7 +85,7 @@ class O_W_HMG_01_high_F: O_HMG_01_high_F
 		primary = false;
 		dissasembleTo[] =
 		{
-            O_HMG_01_high_weapon_F,
+            O_GMG_01_high_weapon_F,
             O_HMG_01_support_high_F
 		};
 	};

@@ -47,6 +47,7 @@ class CfgVehicles
 	class B_Mortar_01_support_F;
 	class B_Mortar_01_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
 	#include "cfgIDF.hpp"				// IDF
 };

@@ -37,8 +37,9 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
+	#include "cfgOpfor_Aegis.hpp"
 	#include "cfgLegion.hpp"
-	#include "cfgHIL.hpp"
 	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgHIL.hpp"
 	#include "cfgIDF.hpp"
 };

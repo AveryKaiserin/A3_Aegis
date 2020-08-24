@@ -25,7 +25,7 @@ class O_W_Mortar_01_F: O_Mortar_01_F
 		verticalOffsetWorld = 0.037;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Mortar_01_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Mortar_01_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Static_F_Aegis\Mortar_01\Data\Mortar_01_ghex_CO.paa"};
