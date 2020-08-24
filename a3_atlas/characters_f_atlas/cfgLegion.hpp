@@ -15,7 +15,7 @@ class B_L_Man_Base_F: B_Soldier_F
 	genericNames = FrenchMen;
 	identityTypes[] =
 	{
-		LanguageFRE_F,
+		LanguageENGFRE_F,
 		Head_NATO,
 		Head_Greek,
 		Head_Tanoan,
@@ -464,7 +464,7 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 	role = Crewman;
 	identityTypes[] =
 	{
-		LanguageFRE_F,
+		LanguageENGFRE_F,
 		Head_NATO,
 		Head_Greek,
 		Head_Tanoan,
@@ -529,7 +529,7 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 	camouflage = 2.0;
 	identityTypes[] =
 	{
-		LanguageFRE_F,
+		LanguageENGFRE_F,
 		Head_NATO,
 		Head_Greek,
 		Head_Tanoan,
@@ -796,7 +796,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	role = Rifleman;
 	identityTypes[] =
 	{
-		LanguageFRE_F,
+		LanguageENGFRE_F,
 		Head_NATO,
 		Head_Greek,
 		Head_Tanoan,

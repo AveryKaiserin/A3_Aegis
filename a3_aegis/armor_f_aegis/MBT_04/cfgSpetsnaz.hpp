@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -186,15 +186,11 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-        Green,0,
-		Taiga,1
-	};
+	textureList[] = {Green,0};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
@@ -407,15 +403,11 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-        Green,0,
-		Taiga,1
-	};
+	textureList[] = {Green,0};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
 		"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
@@ -440,8 +432,8 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 		bag_xx(B_FieldPack_taiga_F,2);
 	};
 };
-// Russia (Arid)
-class O_R_MBT_04_cannon_ard_F: MBT_04_cannon_base_F
+// OPF_R_ard_F
+class O_R_MBT_04_cannon_ard_F: O_R_MBT_04_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -623,44 +615,16 @@ class O_R_MBT_04_cannon_ard_F: MBT_04_cannon_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_cannon_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_O_MBT_04_cannon_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,1,
-        Green,0
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
-	};
-	class TransportItems
-	{
-		item_xx(FirstAidKit,10);
-		item_xx(Toolkit,1);
-		item_xx(Medikit,1);
-	};
 	class TransportBackpacks
 	{
 		bag_xx(B_FieldPack_green_F,2);
 	};
 };
-class O_R_MBT_04_command_ard_F: MBT_04_command_base_F
+class O_R_MBT_04_command_ard_F: O_R_MBT_04_command_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -844,39 +808,10 @@ class O_R_MBT_04_command_ard_F: MBT_04_command_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_command_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_O_MBT_04_command_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,1,
-        Green,0
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_1_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUgrn_2_CO.paa",
-		"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
-	};
-	class TransportItems
-	{
-		item_xx(FirstAidKit,10);
-		item_xx(Toolkit,1);
-		item_xx(Medikit,1);
-	};
 	class TransportBackpacks
 	{
 		bag_xx(B_FieldPack_green_F,2);

@@ -920,9 +920,6 @@ class B_USMC_RadioOperator_F: B_USMC_Soldier_F
         mag_2(SmokeShell)
     };
 };
-
-
-
 class B_USMC_Soldier_A_wdl_F: B_USMC_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;

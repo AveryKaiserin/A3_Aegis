@@ -51,11 +51,13 @@ class CfgVehicles
 				};
 				factions[] +=
 				{
+					OPF_F,
+					OPF_T_F,
 					OPF_V_F,
 					OPF_A_F,
 					OPF_V_tna_F,
 					OPF_R_F,
-					OPF_W_F
+					OPF_R_ard_F
 				};
 			};
 			class GreenHex
@@ -68,14 +70,15 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
-				factions[] +=
+				factions[] =
 				{
-					OPF_V_tna_F,
-					OPF_W_F
+					OPF_T_F,
+					OPF_V_tna_F
 				};
 			};
 			class Arid
 			{
+				displayName = $STR_A3_TEXTURESOURCES_HEX0;
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
@@ -84,47 +87,16 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
 				};
-				factions[] +=
+				factions[] =
 				{
-					OPF_A_F,
-					OPF_V_F
+					OPF_F,
+					OPF_V_F,
+					OPF_A_F
 				};
 			};
 			class Green
 			{
 				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUgrn_CO.paa",
-					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
-					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
-				};
-				factions[] =
-				{
-					OPF_R_F,
-					OPF_R_ard_F
-				};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_RUgrn_CO.paa",
-					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
-					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Arid_02
-			{
-				displayName = $STR_A3_TEXTURESOURCES_ARID0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -134,7 +106,30 @@ class CfgVehicles
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
-				factions[] = {OPF_R_ard_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
+		};
+		class Damage
+		{
+			tex[] = {};
+			mat[] =
+			{
+				// Let's replace the original damage / destruct materials to work with our texture workaround
+				"A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_damage.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_destruct.rvmat",
+
+				"A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_damage.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_destruct.rvmat",
+
+				"A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_damage.rvmat",
+				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_destruct.rvmat"
 			};
 		};
 	};

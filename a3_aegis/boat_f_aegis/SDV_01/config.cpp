@@ -44,7 +44,7 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUS_CO.paa"};
+				textures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUgrey_CO.paa"};
 				factions[] =
 				{
 					OPF_R_F,

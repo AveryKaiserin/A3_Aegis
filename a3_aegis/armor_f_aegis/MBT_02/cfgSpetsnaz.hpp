@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_MBT_02_cannon_F: O_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -184,16 +184,12 @@ class O_R_MBT_02_cannon_F: O_MBT_02_cannon_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	textureList[] =
-	{
-        Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
@@ -382,17 +378,13 @@ class O_R_MBT_02_arty_F: O_MBT_02_arty_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	textureList[] =
-	{
-        Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
+		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons
@@ -410,8 +402,8 @@ class O_R_MBT_02_arty_F: O_MBT_02_arty_F
 		bag_xx(B_FieldPack_taiga_F,2);
 	};
 };
-// Russia (Arid)
-class O_R_MBT_02_cannon_ard_F: O_MBT_02_cannon_F
+// OPF_R_ard_F
+class O_R_MBT_02_cannon_ard_F: O_R_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -596,34 +588,12 @@ class O_R_MBT_02_cannon_ard_F: O_MBT_02_cannon_F
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F
 	};
-	textureList[] =
-	{
-		Arid,0,
-        Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
-	};
 	class TransportBackpacks
 	{
 		bag_xx(B_FieldPack_green_F,2);
 	};
 };
-class O_R_MBT_02_arty_ard_F: O_MBT_02_arty_F
+class O_R_MBT_02_arty_ard_F: O_R_MBT_02_arty_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -793,29 +763,6 @@ class O_R_MBT_02_arty_ard_F: O_MBT_02_arty_F
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F
-	};
-	textureList[] =
-	{
-		Arid,0,
-        Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-		"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
 	};
 	class TransportBackpacks
 	{

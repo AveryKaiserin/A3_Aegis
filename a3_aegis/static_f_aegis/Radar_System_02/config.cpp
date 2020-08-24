@@ -27,8 +27,8 @@ class CfgVehicles
 				};
 				textures[] =
 				{
-					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUS_CO.paa",
-					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUS_CO.paa"
+					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_01_RUkhk_CO.paa",
+					"\A3_Aegis\Static_F_Aegis\Radar_System_02\Data\Radar_system_02_mat_02_RUkhk_CO.paa"
 				};
 			};
 		};

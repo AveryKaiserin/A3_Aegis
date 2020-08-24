@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Ejection_Seat_Plane_CAS_02_F: Ejection_Seat_Plane_CAS_02_base_F
 {
 	class SimpleObject
@@ -186,7 +186,7 @@ class O_R_Plane_CAS_02_dynamicLoadout_F: O_Plane_CAS_02_dynamicLoadout_F
 	};
 };
 // Russia (Arid)
-class O_R_Ejection_Seat_Plane_CAS_02_ard_F: Ejection_Seat_Plane_CAS_02_base_F
+class O_R_Ejection_Seat_Plane_CAS_02_ard_F: O_R_Ejection_Seat_Plane_CAS_02_F
 {
 	class SimpleObject
 	{
@@ -211,7 +211,7 @@ class O_R_Ejection_Seat_Plane_CAS_02_ard_F: Ejection_Seat_Plane_CAS_02_base_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 };
-class O_R_Plane_CAS_02_dynamicLoadout_ard_F: O_Plane_CAS_02_dynamicLoadout_F
+class O_R_Plane_CAS_02_dynamicLoadout_ard_F: O_R_Plane_CAS_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -361,12 +361,6 @@ class O_R_Plane_CAS_02_dynamicLoadout_ard_F: O_Plane_CAS_02_dynamicLoadout_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_ard_F};
-	textureList[] = {Blue,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_blue_CO.paa"
-	};
 	class EjectionSystem: EjectionSystem
 	{
 		EjectionSeatClass = O_R_Ejection_Seat_Plane_CAS_02_ard_F;

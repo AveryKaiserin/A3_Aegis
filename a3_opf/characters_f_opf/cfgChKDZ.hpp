@@ -114,7 +114,7 @@ class O_E_Soldier_1_F: O_E_Soldier_Base_F
         mag_2(HandGrenade)
 	};
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -197,7 +197,7 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	camouflage = 1.6;
 	icon = iconManLeader;
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -279,7 +279,7 @@ class O_E_Soldier_3_F: O_E_Soldier_Base_F
 	picture = pictureHeal;
 	role = CombatLifeSaver;
 	camouflage = 1.6;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -368,7 +368,7 @@ class O_E_Soldier_4_F: O_E_Soldier_Base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -459,7 +459,7 @@ class O_E_Soldier_5_F: O_E_Soldier_Base_F
 	threat[] = {0.8,0.8,0.3};
 	icon = iconManAT;
 	role = MissileSpecialist;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -534,7 +534,7 @@ class O_E_Soldier_6_F: O_E_Soldier_Base_F
 	};
 	cost = 200000;
 	role = Grenadier;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -614,7 +614,7 @@ class O_E_Soldier_7_F: O_E_Soldier_Base_F
 	respawnMagazines[] = {mag_6(10Rnd_762x54_Mag)};
 	cost = 250000;
 	role = Marksman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -670,23 +670,31 @@ class O_E_Soldier_8_F: O_E_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		sgun_Mp153_classic_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		sgun_Mp153_classic_F,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
-	respawnMagazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
+	magazines[] =
+    {
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug)
+    };
+	respawnMagazines[] =
+    {
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug)
+    };
 	canDeactivateMines = true;
 	detectSkill = 38;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	role = Sapper;
 	camouflage = 1.6;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -741,26 +749,28 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_G36C_F,
+		sgun_HunterShotgun_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_G36C_F,
+		sgun_HunterShotgun_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(2Rnd_12Gauge_Pellets),
+        mag_3(2Rnd_12Gauge_Slug),
         mag_2(HandGrenade)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(2Rnd_12Gauge_Pellets),
+        mag_3(2Rnd_12Gauge_Slug),
         mag_2(HandGrenade)
 	};
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,

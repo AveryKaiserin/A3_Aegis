@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_SDV_01_F: SDV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -80,11 +80,11 @@ class O_R_SDV_01_F: SDV_01_base_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUS_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUgrey_CO.paa"};
 	textureList[] = {Rus,1};
 };
-// Russia (Arid)
-class O_R_SDV_01_ard_F: SDV_01_base_F
+// OPF_R_ard_F
+class O_R_SDV_01_ard_F: O_R_SDV_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -165,6 +165,4 @@ class O_R_SDV_01_ard_F: SDV_01_base_F
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\SDV_01\Data\SDV_ext_RUS_CO.paa"};
-	textureList[] = {Rus,1};
 };

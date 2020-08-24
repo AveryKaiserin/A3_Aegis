@@ -3,7 +3,7 @@ class I_C_Van_01_fuel_F: Van_01_fuel_base_F
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Van_01_fuel_F.jpg";
     scope = public;
-    displayName = $STR_A3_CfgVehicles_C_van_01_fuel0;
+    displayName = $STR_A3_CfgVehicles_C_Van_01_fuel0;
     model = "\A3\Soft_F_Gamma\Van_01\Van_01_fuel_F.p3d";
     icon = "\A3\Soft_F_Gamma\Van_01\Data\UI\map_Van_01_cistern_CA.paa";
     picture = "\A3\Soft_F_Gamma\Van_01\Data\UI\portrait_Van_01_cistern_CA.paa";

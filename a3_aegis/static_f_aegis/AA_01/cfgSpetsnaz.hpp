@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Static_AA_F: O_static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -50,6 +50,8 @@ class O_R_Static_AA_F: O_static_AA_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_AA_F.jpg";
+    scope = public;
+    scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_Static_AA_F0;
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
@@ -60,8 +62,8 @@ class O_R_Static_AA_F: O_static_AA_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
-		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_02_CO.paa"
+		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launcher_RUcamo_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\tubeL_RUcamo_CO.paa"
 	};
 	class assembleInfo
 	{
@@ -94,8 +96,8 @@ class O_R_AA_01_weapon_F: Weapon_Bag_Base
 		base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 	};
 };
-// Russia (Arid)
-class O_R_Static_AA_ard_F: O_static_AA_F
+// OPF_R_ard_F
+class O_R_Static_AA_ard_F: O_R_Static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -146,29 +148,8 @@ class O_R_Static_AA_ard_F: O_static_AA_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_AA_ard_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_Static_AA_F0;
+    scope = public;
+    scopeCurator = public;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
-	hiddenSelections[] =
-	{
-		camo_launcher,
-		camo_tube
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
-		"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_02_CO.paa"
-	};
-	class assembleInfo
-	{
-		displayName = "";
-		assembleTo = "";
-		base = "";
-		primary = false;
-		dissasembleTo[] =
-		{
-            O_R_AA_01_weapon_F,
-            O_R_HMG_01_support_F
-		};
-	};
 };

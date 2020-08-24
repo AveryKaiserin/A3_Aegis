@@ -22,7 +22,7 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Aegis\Air_F_Aegis\UAV_02\Data\UAV_02_RUS_CO.paa"};
+				textures[] = {"\A3_Aegis\Air_F_Aegis\UAV_02\Data\UAV_02_RUgrey_CO.paa"};
 				factions[] =
 				{
 					OPF_R_F,

@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -222,12 +223,7 @@ class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 	faction = BLU_A_F;
 	crew = B_A_crew_F;
 	typicalCargo[] = {B_A_Soldier_F};
-	textureList[] =
-	{
-		Olive_01,0,
-		Sand_01,1,
-		Woodland_01,0
-	};
+	textureList[] = {Sand_01,1};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_CO.paa",
@@ -288,7 +284,8 @@ class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 		};
 	};
 };
-class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
+// BLU_A_tna_F
+class B_A_APC_tracked_03_cannon_tna_F: B_A_APC_tracked_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -507,21 +504,15 @@ class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_tna_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0;
 	side = TWest;
 	faction = BLU_A_tna_F;
 	crew = B_A_crew_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
-	textureList[] =
-	{
-		Olive_01,0,
-		Sand_01,0,
-		Woodland_01,1
-	};
+	textureList[] = {Olive_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_wdl_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_olive_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_NATO_BAF_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -545,12 +536,6 @@ class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
 	};
-	class TransportItems
-	{
-		item_xx(FirstAidKit,10);
-		item_xx(Toolkit,1);
-		item_xx(Medikit,1);
-	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_SA80_khk_F,2);
@@ -561,24 +546,9 @@ class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
 	{
 		bag_xx(B_AssaultPack_tna_F,2);
 	};
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-            class Turrets: Turrets
-            {
-                class CommanderOptics: CommanderOptics{};
-            };
-            magazines[] =
-            {
-                mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
-                mag_2(80Rnd_40mm_APFSDS_Tracer_Red_shells),
-                mag_10(200Rnd_762x51_Belt_Red)
-            };
-		};
-	};
 };
-class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
+// BLU_A_wdl_F
+class B_A_APC_tracked_03_cannon_wdl_F: B_A_APC_tracked_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -797,21 +767,15 @@ class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_wdl_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0;
 	side = TWest;
 	faction = BLU_A_wdl_F;
 	crew = B_A_crew_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};
-	textureList[] =
-	{
-		Olive_01,0,
-		Sand_01,0,
-		Woodland_01,1
-	};
+	textureList[] = {Olive_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_wdl_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_olive_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_NATO_BAF_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -835,12 +799,6 @@ class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
 	};
-	class TransportItems
-	{
-		item_xx(FirstAidKit,10);
-		item_xx(Toolkit,1);
-		item_xx(Medikit,1);
-	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_SA80_blk_F,2);
@@ -850,21 +808,5 @@ class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
-	};
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-            class Turrets: Turrets
-            {
-                class CommanderOptics: CommanderOptics{};
-            };
-            magazines[] =
-            {
-                mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
-                mag_2(80Rnd_40mm_APFSDS_Tracer_Red_shells),
-                mag_10(200Rnd_762x51_Belt_Red)
-            };
-		};
 	};
 };

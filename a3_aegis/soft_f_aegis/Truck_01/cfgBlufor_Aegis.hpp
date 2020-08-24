@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Truck_01_mover_F: B_Truck_01_mover_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -188,10 +189,11 @@ class B_A_Truck_01_cargo_F: Truck_01_cargo_base_F
         "\A3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_CO.paa"
     };
 };
-class B_A_Truck_01_mover_tna_F: B_Truck_01_mover_F
+// BLU_A_tna_F
+class B_A_Truck_01_mover_tna_F: B_A_Truck_01_mover_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_mover_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_mover_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -206,10 +208,10 @@ class B_A_Truck_01_mover_tna_F: B_Truck_01_mover_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_mprimer_olive_CO.paa"
     };
 };
-class B_A_Truck_01_ammo_tna_F: B_Truck_01_ammo_F
+class B_A_Truck_01_ammo_tna_F: B_A_Truck_01_ammo_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_ammo_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_ammo_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -225,10 +227,10 @@ class B_A_Truck_01_ammo_tna_F: B_Truck_01_ammo_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_box_tna_F: B_Truck_01_box_F
+class B_A_Truck_01_box_tna_F: B_A_Truck_01_box_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_box_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_box_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -244,10 +246,10 @@ class B_A_Truck_01_box_tna_F: B_Truck_01_box_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_fuel_tna_F: B_Truck_01_fuel_F
+class B_A_Truck_01_fuel_tna_F: B_A_Truck_01_fuel_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_fuel_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_fuel_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -262,10 +264,10 @@ class B_A_Truck_01_fuel_tna_F: B_Truck_01_fuel_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_Fuel_olive_CO.paa"
     };
 };
-class B_A_Truck_01_medical_tna_F: B_Truck_01_medical_F
+class B_A_Truck_01_medical_tna_F: B_A_Truck_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_medical_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_medical_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -281,10 +283,10 @@ class B_A_Truck_01_medical_tna_F: B_Truck_01_medical_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_Repair_tna_F: B_Truck_01_Repair_F
+class B_A_Truck_01_Repair_tna_F: B_A_Truck_01_Repair_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_Repair_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_Repair_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -300,10 +302,10 @@ class B_A_Truck_01_Repair_tna_F: B_Truck_01_Repair_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_transport_tna_F: B_Truck_01_transport_F
+class B_A_Truck_01_transport_tna_F: B_A_Truck_01_transport_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_transport_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_transport_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -319,10 +321,10 @@ class B_A_Truck_01_transport_tna_F: B_Truck_01_transport_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_covered_tna_F: B_Truck_01_covered_F
+class B_A_Truck_01_covered_tna_F: B_A_Truck_01_covered_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_covered_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_covered_tna_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -338,13 +340,12 @@ class B_A_Truck_01_covered_tna_F: B_Truck_01_covered_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_flatbed_tna_F: Truck_01_flatbed_base_F
+class B_A_Truck_01_flatbed_tna_F: B_A_Truck_01_flatbed_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_flatbed_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_flatbed_tna_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_C_CfgVehicles_B_Truck_01_flatbed_F0;
     side = TWest;
     faction = BLU_A_tna_F;
     crew = B_A_Soldier_tna_F;
@@ -358,13 +359,12 @@ class B_A_Truck_01_flatbed_tna_F: Truck_01_flatbed_base_F
         "\A3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_pacific_CO.paa"
     };
 };
-class B_A_Truck_01_cargo_tna_F: Truck_01_cargo_base_F
+class B_A_Truck_01_cargo_tna_F: B_A_Truck_01_cargo_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_cargo_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_cargo_tna_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_C_CfgVehicles_B_Truck_01_cargo_F0;
     side = TWest;
     faction = BLU_A_tna_F;
     crew = B_A_Soldier_tna_F;
@@ -378,10 +378,11 @@ class B_A_Truck_01_cargo_tna_F: Truck_01_cargo_base_F
         "\A3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_pacific_CO.paa"
     };
 };
-class B_A_Truck_01_mover_wdl_F: B_Truck_01_mover_F
+// BLU_A_wdl_F
+class B_A_Truck_01_mover_wdl_F: B_A_Truck_01_mover_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_mover_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_mover_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -396,10 +397,10 @@ class B_A_Truck_01_mover_wdl_F: B_Truck_01_mover_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_mprimer_olive_CO.paa"
     };
 };
-class B_A_Truck_01_ammo_wdl_F: B_Truck_01_ammo_F
+class B_A_Truck_01_ammo_wdl_F: B_A_Truck_01_ammo_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_ammo_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_ammo_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -415,10 +416,10 @@ class B_A_Truck_01_ammo_wdl_F: B_Truck_01_ammo_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_box_wdl_F: B_Truck_01_box_F
+class B_A_Truck_01_box_wdl_F: B_A_Truck_01_box_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_box_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_box_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -434,10 +435,10 @@ class B_A_Truck_01_box_wdl_F: B_Truck_01_box_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_fuel_wdl_F: B_Truck_01_fuel_F
+class B_A_Truck_01_fuel_wdl_F: B_A_Truck_01_fuel_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_fuel_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_fuel_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -452,10 +453,10 @@ class B_A_Truck_01_fuel_wdl_F: B_Truck_01_fuel_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_Fuel_olive_CO.paa"
     };
 };
-class B_A_Truck_01_medical_wdl_F: B_Truck_01_medical_F
+class B_A_Truck_01_medical_wdl_F: B_A_Truck_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_medical_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_medical_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -471,10 +472,10 @@ class B_A_Truck_01_medical_wdl_F: B_Truck_01_medical_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_Repair_wdl_F: B_Truck_01_Repair_F
+class B_A_Truck_01_Repair_wdl_F: B_A_Truck_01_Repair_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_Repair_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_Repair_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -490,10 +491,10 @@ class B_A_Truck_01_Repair_wdl_F: B_Truck_01_Repair_F
         "\A3\Structures_F\Data\Metal\Containers\containers_02_set_CO.paa"
     };
 };
-class B_A_Truck_01_transport_wdl_F: B_Truck_01_transport_F
+class B_A_Truck_01_transport_wdl_F: B_A_Truck_01_transport_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_transport_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_transport_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -509,10 +510,10 @@ class B_A_Truck_01_transport_wdl_F: B_Truck_01_transport_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_covered_wdl_F: B_Truck_01_covered_F
+class B_A_Truck_01_covered_wdl_F: B_A_Truck_01_covered_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_covered_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_covered_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -528,13 +529,12 @@ class B_A_Truck_01_covered_wdl_F: B_Truck_01_covered_F
         "\A3\Soft_F_Exp\Truck_01\Data\Truck_01_cover_olive_CO.paa"
     };
 };
-class B_A_Truck_01_flatbed_wdl_F: Truck_01_flatbed_base_F
+class B_A_Truck_01_flatbed_wdl_F: B_A_Truck_01_flatbed_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_flatbed_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_flatbed_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_C_CfgVehicles_B_Truck_01_flatbed_F0;
     side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_A_Soldier_wdl_F;
@@ -548,13 +548,12 @@ class B_A_Truck_01_flatbed_wdl_F: Truck_01_flatbed_base_F
         "\A3\Soft_F_Enoch\Truck_01\Data\Truck_01_cargo_pacific_CO.paa"
     };
 };
-class B_A_Truck_01_cargo_wdl_F: Truck_01_cargo_base_F
+class B_A_Truck_01_cargo_wdl_F: B_A_Truck_01_cargo_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_cargo_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_cargo_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_C_CfgVehicles_B_Truck_01_cargo_F0;
     side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_A_Soldier_wdl_F;

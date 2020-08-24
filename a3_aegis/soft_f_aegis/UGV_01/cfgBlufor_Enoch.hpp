@@ -32,18 +32,6 @@ class B_W_UGV_01_rcws_F: UGV_01_rcws_base_F
         "\A3\Soft_F_Exp\UGV_01\Data\UGV_01_int_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
     };
-    class Turrets: Turrets
-    {
-        class MainTurret: MainTurret
-        {
-            magazines[] =
-            {
-                mag_2(200Rnd_127x99_mag_Tracer_Red),
-                mag_2(64Rnd_40mm_G_belt)
-            };
-        };
-        class CargoTurret_01: CargoTurret_01{};
-    };
 };
 class B_W_UGV_01_medical_F: UGV_01_medical_base_F
 {

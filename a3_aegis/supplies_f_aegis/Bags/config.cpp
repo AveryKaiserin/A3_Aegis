@@ -102,9 +102,96 @@ class CfgVehicles
 	};
 	// Arma 3 Enoch
 	class B_RadioBag_01_base_F;
+	class B_RadioBag_01_wdl_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_mtp_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_tropic_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_black_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
 	class B_RadioBag_01_hex_F: B_RadioBag_01_base_F
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_Hex_CO.paa"};
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_oucamo_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_ghex_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_digi_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_independent_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_eaf_F: B_RadioBag_01_base_F
+	{
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_independent_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
 	};
 	class B_Carryall_green_F;
 	class B_Carryall_taiga_F;
@@ -323,21 +410,6 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
-	class B_RadioBag_01_green_F: B_RadioBag_01_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_green_F0;
-		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_green_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_Green_CO.paa"};
-		// TFAR compatibility
-		tf_dialog = rt1523g_radio_dialog;
-		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode = tf_west_radio_code;
-		tf_hasLRradio = true;
-		tf_range = 20000;
-		tf_subtype = digital_lr;
-	};
 	class B_RadioBag_01_sage_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -349,6 +421,21 @@ class CfgVehicles
 		tf_dialog = rt1523g_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_independent_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_green_F: B_RadioBag_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_green_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_green_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_RUkhk_CO.paa"};
+		// TFAR compatibility
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
 		tf_hasLRradio = true;
 		tf_range = 20000;
 		tf_subtype = digital_lr;
@@ -374,7 +461,7 @@ class CfgVehicles
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_arid_F0;
 		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_arid_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_RUkhk_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_RUarid_CO.paa"};
 		// TFAR compatibility
 		tf_dialog = rt1523g_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";

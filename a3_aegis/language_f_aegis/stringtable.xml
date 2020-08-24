@@ -8813,6 +8813,78 @@
 				<Japanese>折り畳み式Mk6迫撃砲発射薬筒[ロシア]</Japanese>
 				<Turkish>Katlı Mk6 Havan Topu Tüpü [Rusya]</Turkish>
 			</Key>
+			<Container name="DisplayName">
+				<Key ID="STR_A3_A_CfgVehicles_Arty_System_01_base_F0">
+					<Original>UMOS Thumper</Original>
+					<Chinese>無人砂漿系統 Thumper</Chinese>
+					<French>UMOS Thumper</French>
+					<Spanish>UMOS Thumper</Spanish>
+					<Italian>UMOS Thumper</Italian>
+					<Polish>UMOS Thumper</Polish>
+					<Russian>БM Thumper</Russian>
+					<German>UMOS Thumper</German>
+					<Czech>UMOS Thumper</Czech>
+					<English>UMOS Thumper</English>
+					<Portuguese>UMOS Thumper</Portuguese>
+					<Korean>무인 모르타르 시스템 Thumper</Korean>
+					<Chinesesimp>无人砂浆系统 Thumper</Chinesesimp>
+					<Japanese>無人モルタルシステム Thumper</Japanese>
+					<Turkish>UMOS Thumper</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Arty_System_02_base_F0">
+					<Original>***TO TRANSLATE***</Original>
+					<Chinese>***TO TRANSLATE***</Chinese>
+					<French>***TO TRANSLATE***</French>
+					<Spanish>***TO TRANSLATE***</Spanish>
+					<Italian>***TO TRANSLATE***</Italian>
+					<Polish>***TO TRANSLATE***</Polish>
+					<Russian>***TO TRANSLATE***</Russian>
+					<German>***TO TRANSLATE***</German>
+					<Czech>***TO TRANSLATE***</Czech>
+					<English>***TO TRANSLATE***</English>
+					<Portuguese>***TO TRANSLATE***</Portuguese>
+					<Korean>***TO TRANSLATE***</Korean>
+					<Chinesesimp>***TO TRANSLATE***</Chinesesimp>
+					<Japanese>***TO TRANSLATE***</Japanese>
+					<Turkish>***TO TRANSLATE***</Turkish>
+				</Key>
+			</Container>
+			<Container name="Library">
+				<Key ID="STR_A3_A_CfgVehicles_Arty_System_01_base_F_Library0">
+					<Original>***TO TRANSLATE***</Original>
+					<Chinese>***TO TRANSLATE***</Chinese>
+					<French>***TO TRANSLATE***</French>
+					<Spanish>***TO TRANSLATE***</Spanish>
+					<Italian>***TO TRANSLATE***</Italian>
+					<Polish>***TO TRANSLATE***</Polish>
+					<Russian>***TO TRANSLATE***</Russian>
+					<German>***TO TRANSLATE***</German>
+					<Czech>***TO TRANSLATE***</Czech>
+					<English>***TO TRANSLATE***</English>
+					<Portuguese>***TO TRANSLATE***</Portuguese>
+					<Korean>***TO TRANSLATE***</Korean>
+					<Chinesesimp>***TO TRANSLATE***</Chinesesimp>
+					<Japanese>***TO TRANSLATE***</Japanese>
+					<Turkish>***TO TRANSLATE***</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Arty_System_02_base_F_Library0">
+					<Original>***TO TRANSLATE***</Original>
+					<Chinese>***TO TRANSLATE***</Chinese>
+					<French>***TO TRANSLATE***</French>
+					<Spanish>***TO TRANSLATE***</Spanish>
+					<Italian>***TO TRANSLATE***</Italian>
+					<Polish>***TO TRANSLATE***</Polish>
+					<Russian>***TO TRANSLATE***</Russian>
+					<German>***TO TRANSLATE***</German>
+					<Czech>***TO TRANSLATE***</Czech>
+					<English>***TO TRANSLATE***</English>
+					<Portuguese>***TO TRANSLATE***</Portuguese>
+					<Korean>***TO TRANSLATE***</Korean>
+					<Chinesesimp>***TO TRANSLATE***</Chinesesimp>
+					<Japanese>***TO TRANSLATE***</Japanese>
+					<Turkish>***TO TRANSLATE***</Turkish>
+				</Key>
+			</Container>
 		</Container>
 		<Container name="Structures_F">
         	<Container name="Decals">
@@ -13480,21 +13552,21 @@
 			</Container>
 			<Container name="Launchers">
 				<Key ID="STR_A3_A_CfgWeapons_launch_RPG32_black_F0">
-					<Original>RPG-42 (Black)</Original>
-					<Chinese>RPG-42（黑）</Chinese>
-					<French>RPG-42 (Noir)</French>
-					<Spanish>RPG-42 (negro)</Spanish>
-					<Italian>RPG-42 (nero)</Italian>
-					<Polish>RPG-42 (czarny)</Polish>
-					<Russian>RPG-42 (черный)</Russian>
-					<German>RPG-42 (Schwarz)</German>
-					<Czech>RPG-42 (černý)</Czech>
-					<English>RPG-42 (Black)</English>
-					<Portuguese>RPG-42 (Preta)</Portuguese>
-					<Korean>RPG-42(흑색)</Korean>
-					<Chinesesimp>RPG-42（黑色）</Chinesesimp>
-					<Japanese>RPG-42（黒）</Japanese>
-					<Turkish>RPG-42 (Siyah)</Turkish>
+					<Original>RPG-42 Alamut (Black)</Original>
+					<Chinese>RPG-42 Alamut（黑）</Chinese>
+					<French>RPG-42 Alamut (Noir)</French>
+					<Spanish>RPG-42 Alamut (negro)</Spanish>
+					<Italian>RPG-42 Alamut (nero)</Italian>
+					<Polish>RPG-42 Alamut (czarny)</Polish>
+					<Russian>RPG-42 Alamut (черный)</Russian>
+					<German>RPG-42 Alamut (Schwarz)</German>
+					<Czech>RPG-42 Alamut (černý)</Czech>
+					<English>RPG-42 Alamut (Black)</English>
+					<Portuguese>RPG-42 Alamut (Preta)</Portuguese>
+					<Korean>RPG-42 Alamut(흑색)</Korean>
+					<Chinesesimp>RPG-42 Alamut（黑色）</Chinesesimp>
+					<Japanese>RPG-42 Alamut（黒）</Japanese>
+					<Turkish>RPG-42 Alamut (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0">
 					<Original>Titan MPRL (Camo)</Original>

@@ -39,7 +39,7 @@ class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
 	};
 };
 class I_R_soldier_base_F: I_soldier_F

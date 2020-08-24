@@ -6,6 +6,8 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Opf_Armor_F_Opf,
+			A3_Opf_Armor_F_Opf_APC_Tracked_02,
+			A3_Opf_Armor_F_Opf_MBT_02,
 			A3_Opf_Characters_F_Opf,
 			A3_Opf_Characters_F_Opf_Uniforms,
 			A3_Opf_Characters_F_Opf_Vests,
@@ -14,6 +16,7 @@ class CfgPatches
 			A3_Opf_Functions_F_Opf,
 			A3_Opf_Language_F_Opf,
 			A3_Opf_Soft_F_Opf,
+			A3_Opf_Soft_F_Opf_LSV_02,
 			A3_Opf_Soft_F_Opf_Offroad_01,
 			A3_Opf_Soft_F_Opf_Quadbike_01,
 			A3_Opf_Soft_F_Opf_Truck_02,

@@ -784,7 +784,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_BandollierB_taiga_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_taiga_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_RUtaiga_CO.paa"};
 	};
 	class V_TacVest_grn: V_TacVest_khk
 	{

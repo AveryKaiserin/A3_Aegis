@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_UAV_06_F: UAV_06_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -237,8 +237,8 @@ class O_R_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 		assembleTo = O_R_UAV_06_medical_F;
 	};
 };
-// Russia (Arid)
-class O_R_UAV_06_ard_F: UAV_06_base_F
+// OPF_R_ard_F
+class O_R_UAV_06_ard_F: O_R_UAV_06_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -300,23 +300,13 @@ class O_R_UAV_06_ard_F: UAV_06_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_ard_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_F0;
 	scope = public;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_UAV_AI;
 	typicalCargo[] = {O_UAV_AI};
-	class assembleInfo
-	{
-		primary = true;
-		base = "";
-		assembleTo = "";
-		displayName = "";
-		dissasembleTo[] = {O_R_UAV_06_backpack_F};
-	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_CO.paa"};
 };
-class O_R_UAV_06_medical_ard_F: UAV_06_medical_base_F
+class O_R_UAV_06_medical_ard_F: O_R_UAV_06_medical_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -378,23 +368,9 @@ class O_R_UAV_06_medical_ard_F: UAV_06_medical_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_medical_ard_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_medical_F0;
 	scope = public;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_UAV_AI;
 	typicalCargo[] = {O_UAV_AI};
-	class assembleInfo
-	{
-		primary = true;
-		base = "";
-		assembleTo = "";
-		displayName = "";
-		dissasembleTo[] = {O_R_UAV_06_medical_backpack_F};
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa"
-	};
 };

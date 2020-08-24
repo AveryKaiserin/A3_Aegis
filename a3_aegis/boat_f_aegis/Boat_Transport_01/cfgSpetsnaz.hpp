@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Boat_Transport_01_F: Rubber_duck_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -38,7 +38,7 @@ class O_R_Boat_Transport_01_F: Rubber_duck_base_F
 		O_R_Soldier_F,
 		O_R_Soldier_F
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\Boat_Transport_01\Data\Boat_Transport_01_RUS_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\Boat_Transport_01\Data\Boat_Transport_01_RUkhk_CO.paa"};
 	textureList[] = {Rus,1};
 };
 class O_R_Lifeboat: Rescue_duck_base_F
@@ -81,8 +81,8 @@ class O_R_Lifeboat: Rescue_duck_base_F
 		O_R_Soldier_F
 	};
 };
-// Russia (Arid)
-class O_R_Boat_Transport_01_ard_F: Rubber_duck_base_F
+// OPF_R_ard_F
+class O_R_Boat_Transport_01_ard_F: O_R_Boat_Transport_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -121,10 +121,8 @@ class O_R_Boat_Transport_01_ard_F: Rubber_duck_base_F
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Boat_F_Aegis\Boat_Transport_01\Data\Boat_Transport_01_RUS_CO.paa"};
-	textureList[] = {Rus,1};
 };
-class O_R_Lifeboat_ard: Rescue_duck_base_F
+class O_R_Lifeboat_ard: O_R_Lifeboat
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

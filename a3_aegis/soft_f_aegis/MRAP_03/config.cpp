@@ -70,6 +70,10 @@ class CfgVehicles
 			class CommanderTurret: CommanderTurret{};
 		};
 	};
-	// Arma 3 Aegis
-	#include "cfgBlufor_Aegis.hpp"
+	class I_MRAP_03_F;
+    class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F{};
+    class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F{};
+    // Arma 3 Aegis
+	//#include "cfgEAF.hpp"				// LDF
+	#include "cfgBlufor_Aegis.hpp"      // NATO (British)
 };

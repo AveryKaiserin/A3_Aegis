@@ -210,75 +210,6 @@ class CfgMagazines
 		displayName = $STR_A3_A_CfgMagazines_O_R_IR_Grenade0;
 		descriptionShort = $STR_A3_A_CfgMagazines_O_R_IR_Grenade1;
 	};
-	// Arma 3 Oldman
-	class OM_Magazine: CA_Magazine
-	{
-		scope = public;
-	};
-	class Files: OM_Magazine
-	{
-		scope = public;
-	};
-	class FileTopSecret: OM_Magazine
-	{
-		scope = public;
-	};
-	class FileNetworkStructure: OM_Magazine
-	{
-		scope = public;
-	};
-	class Csat_Id_01: Files
-	{
-		scope = public;
-	};
-	class Csat_Id_02: Files
-	{
-		scope = public;
-	};
-	class Csat_Id_03: Files
-	{
-		scope = public;
-	};
-	class Csat_Id_04: Files
-	{
-		scope = public;
-	};
-	class Csat_Id_05: Files
-	{
-		scope = public;
-	};
-	class Laptop_Unfolded: OM_Magazine
-	{
-		scope = public;
-	};
-	class Laptop_Closed: OM_Magazine
-	{
-		scope = public;
-	};
-	class SatPhone: OM_Magazine
-	{
-		scope = public;
-	};
-	class MobilePhone: OM_Magazine
-	{
-		scope = public;
-	};
-	class SmartPhone: MobilePhone
-	{
-		scope = public;
-	};
-	class FlashDisk: MobilePhone
-	{
-		scope = public;
-	};
-	class ButaneCanister: OM_Magazine
-	{
-		scope = public;
-	};
-	class Money: OM_Magazine
-	{
-		scope = public;
-	};
 	// Arma 3 Aegis
 	class 20Rnd_556x45_Stanag: 30Rnd_556x45_Stanag
 	{
@@ -1051,5 +982,4 @@ class CfgMagazines
 		displaynameshort = $STR_A3_tracer_dns;
 	};
 	#include "dynamicLoadout.hpp"
-	#include "props.hpp"
 };

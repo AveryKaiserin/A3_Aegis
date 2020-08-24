@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Plane_Fighter_02_F: O_Plane_Fighter_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -361,7 +361,7 @@ class O_R_Plane_Fighter_02_Stealth_F: O_Plane_Fighter_02_Stealth_F
 		EjectionSeatClass = O_R_Ejection_Seat_Plane_Fighter_02_F;
 	};
 };
-class O_R_Ejection_Seat_Plane_Fighter_02_F: Ejection_Seat_Plane_Fighter_02_base_F
+class O_R_Ejection_Seat_Plane_Fighter_02_F: O_R_Plane_Fighter_02_F
 {
 	class SimpleObject
 	{
@@ -386,7 +386,7 @@ class O_R_Ejection_Seat_Plane_Fighter_02_F: Ejection_Seat_Plane_Fighter_02_base_
 	faction = OPF_R_F;
 	crew = O_R_Fighter_Pilot_F;
 };
-// Russia (Arid)
+// OPF_R_ard_F
 class O_R_Plane_Fighter_02_ard_F: O_Plane_Fighter_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -552,23 +552,12 @@ class O_R_Plane_Fighter_02_ard_F: O_Plane_Fighter_02_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_ard_F};
-	textureList[] = {CamoBlue,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_01_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_02_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_01_blue_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_00_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_01_CO.paa",
-		"\A3\Data_F\clear_empty.paa"
-	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = O_R_Ejection_Seat_Plane_Fighter_02_F;
+		EjectionSeatClass = O_R_Ejection_Seat_Plane_Fighter_02_ard_F;
 	};
 };
-class O_R_Plane_Fighter_02_Stealth_ard_F: O_Plane_Fighter_02_Stealth_F
+class O_R_Plane_Fighter_02_Stealth_ard_F: O_R_Plane_Fighter_02_Stealth_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -733,23 +722,12 @@ class O_R_Plane_Fighter_02_Stealth_ard_F: O_Plane_Fighter_02_Stealth_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_ard_F};
-	textureList[] = {CamoBlue,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_01_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_02_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_01_blue_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_00_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_01_CO.paa",
-		"\A3\Data_F\clear_empty.paa"
-	};
 	class EjectionSystem: EjectionSystem
 	{
 		EjectionSeatClass = O_R_Ejection_Seat_Plane_Fighter_02_ard_F;
 	};
 };
-class O_R_Ejection_Seat_Plane_Fighter_02_ard_F: Ejection_Seat_Plane_Fighter_02_base_F
+class O_R_Ejection_Seat_Plane_Fighter_02_ard_F: O_R_Ejection_Seat_Plane_Fighter_02_F
 {
 	class SimpleObject
 	{

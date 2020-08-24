@@ -40,6 +40,7 @@ class CfgWeapons
 			PylonWeapon_2000Rnd_762x51_Belt_T_Green,
 			PylonWeapon_2000Rnd_762x51_Belt_T_Yellow
 		};
+		class manual;
 	};
 	class LMG_Minigun: LMG_RCWS
 	{
@@ -79,7 +80,7 @@ class CfgWeapons
 			displayName = $STR_A3_A_CfgWeapons_LMG_Minigun0;
 		};
 	};
-	class HMG_127;
+	class HMG_127: LMG_RCWS{};
 	class HMG_01: HMG_127
 	{
 		class GunParticles
@@ -91,6 +92,31 @@ class CfgWeapons
 				effectName = MachineGunEject;
 			};
 		};
+        /*
+		modes[] =
+        {
+            HighROF,
+            LowROF,
+            manual,
+            close,
+            short,
+            medium,
+            far
+        };
+		class manual: manual
+        {
+			showToPlayer = false;
+        };
+        class LowROF: manual
+		{
+			showToPlayer = true;
+		};
+        class HighROF: LowROF
+		{
+			reloadTime = 0.1; // 600 RPM
+			textureType = fastAuto;
+		};
+        */
 	};
 	class HMG_static;
 	class HMG_M2: HMG_01
@@ -1515,8 +1541,8 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_02_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launcher_RUcamo_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\tubeL_RUcamo_CO.paa"
 		};
 		//picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\UI\icon_launch_O_Titan_camo_F_X_CA.paa";
 	};
@@ -1539,8 +1565,8 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_launch_O_Titan_short_camo_F0;
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_camo_F_01_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launch_O_Titan_short_camo_F_02_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\launcher_RUcamo_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\tubeM_RUcamo_CO.paa"
 		};
 		//picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\Titan\Data\UI\icon_launch_O_Titan_short_camo_F_X_CA.paa";
 	};

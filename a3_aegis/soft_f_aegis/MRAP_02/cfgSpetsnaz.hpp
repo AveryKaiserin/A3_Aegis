@@ -1,5 +1,5 @@
-// Russia
-class O_R_MRAP_02_F: MRAP_02_base_F
+// OPF_R_F
+class O_R_MRAP_02_F: O_MRAP_02_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -114,6 +114,7 @@ class O_R_MRAP_02_F: MRAP_02_base_F
 	};
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_F.jpg";
     scope = public;
+    scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_F0;
     side = TEast;
     faction =  OPF_R_F;
@@ -123,18 +124,13 @@ class O_R_MRAP_02_F: MRAP_02_base_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] =
-    {
-        Green,1,
-        Taiga,0
-    };
-	threat[] = {0.8,0.6,0.3};
+    textureList[] = {Green,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
     };
-    class Turrets{};
     class TransportWeapons
     {
         weap_xx(arifle_AK12_545_F,2);
@@ -157,7 +153,7 @@ class O_R_MRAP_02_F: MRAP_02_base_F
         mag_xx(RPG32_F,2);
     };
 };
-class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
+class O_R_MRAP_02_hmg_F: O_MRAP_02_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -280,6 +276,7 @@ class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
 	};
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_hmg_F.jpg";
     scope = public;
+    scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_hmg_F0;
     side = TEast;
     faction =  OPF_R_F;
@@ -289,16 +286,12 @@ class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] =
-    {
-        Green,1,
-        Taiga,0
-    };
+    textureList[] = {Green,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
     };
     class TransportWeapons
     {
@@ -322,7 +315,7 @@ class O_R_MRAP_02_hmg_F: MRAP_02_hmg_base_F
         mag_xx(RPG32_F,2);
     };
 };
-class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
+class O_R_MRAP_02_gmg_F: O_MRAP_02_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -445,6 +438,7 @@ class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
 	};
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_gmg_F.jpg";
     scope = public;
+    scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_gmg_F0;
     side = TEast;
     faction =  OPF_R_F;
@@ -454,16 +448,12 @@ class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] =
-    {
-        Green,1,
-        Taiga,0
-    };
+    textureList[] = {Green,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
+        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
     };
     class TransportWeapons
     {
@@ -487,8 +477,8 @@ class O_R_MRAP_02_gmg_F: MRAP_02_gmg_base_F
         mag_xx(RPG32_F,2);
     };
 };
-// Russia (Arid)
-class O_R_MRAP_02_ard_F: MRAP_02_base_F
+// OPF_R_ard_F
+class O_R_MRAP_02_ard_F: O_R_MRAP_02_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -602,8 +592,8 @@ class O_R_MRAP_02_ard_F: MRAP_02_base_F
 		init = "''";
 	};
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_ard_F.jpg";
-    scope = public;
-    displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_F0;
+	scope = public;
+	scopeCurator = public;
     side = TEast;
     faction =  OPF_R_ard_F;
     crew = O_R_Soldier_ard_F;
@@ -612,41 +602,8 @@ class O_R_MRAP_02_ard_F: MRAP_02_base_F
         O_R_Soldier_ard_F,
         O_R_Soldier_ard_F
     };
-    textureList[] =
-    {
-        Arid,0,
-        Green,1
-    };
-	threat[] = {0.8,0.6,0.3};
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa"
-    };
-    class Turrets{};
-    class TransportWeapons
-    {
-        weap_xx(arifle_AK12_545_F,2);
-    };
-    class TransportMagazines
-    {
-        mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-        mag_xx(HandGrenade,10);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellRed,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellYellow,4);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeRed_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeYellow_Grenade_shell,4);
-        mag_xx(17Rnd_9x21_Mag,12);
-        mag_xx(RPG32_F,2);
-    };
 };
-class O_R_MRAP_02_hmg_ard_F: MRAP_02_hmg_base_F
+class O_R_MRAP_02_hmg_ard_F: O_R_MRAP_02_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -768,8 +725,8 @@ class O_R_MRAP_02_hmg_ard_F: MRAP_02_hmg_base_F
 		init = "''";
 	};
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_hmg_ard_F.jpg";
-    scope = public;
-    displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_hmg_F0;
+	scope = public;
+	scopeCurator = public;
     side = TEast;
     faction =  OPF_R_ard_F;
     crew = O_R_Soldier_ard_F;
@@ -778,40 +735,8 @@ class O_R_MRAP_02_hmg_ard_F: MRAP_02_hmg_base_F
         O_R_Soldier_ard_F,
         O_R_Soldier_ard_F
     };
-    textureList[] =
-    {
-        Arid,0,
-        Green,1
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
-    };
-    class TransportWeapons
-    {
-        weap_xx(arifle_AK12_545_F,2);
-    };
-    class TransportMagazines
-    {
-        mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-        mag_xx(HandGrenade,10);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellRed,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellYellow,4);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeRed_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeYellow_Grenade_shell,4);
-        mag_xx(17Rnd_9x21_Mag,12);
-        mag_xx(RPG32_F,2);
-    };
 };
-class O_R_MRAP_02_gmg_ard_F: MRAP_02_gmg_base_F
+class O_R_MRAP_02_gmg_ard_F: O_R_MRAP_02_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -933,8 +858,8 @@ class O_R_MRAP_02_gmg_ard_F: MRAP_02_gmg_base_F
 		init = "''";
 	};
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_gmg_ard_F.jpg";
-    scope = public;
-    displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_gmg_F0;
+	scope = public;
+	scopeCurator = public;
     side = TEast;
     faction =  OPF_R_ard_F;
     crew = O_R_Soldier_ard_F;
@@ -942,37 +867,5 @@ class O_R_MRAP_02_gmg_ard_F: MRAP_02_gmg_base_F
     {
         O_R_Soldier_ard_F,
         O_R_Soldier_ard_F
-    };
-    textureList[] =
-    {
-        Arid,0,
-        Green,1
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
-    };
-    class TransportWeapons
-    {
-        weap_xx(arifle_AK12_545_F,2);
-    };
-    class TransportMagazines
-    {
-        mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-        mag_xx(HandGrenade,10);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellRed,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellYellow,4);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeRed_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeYellow_Grenade_shell,4);
-        mag_xx(17Rnd_9x21_Mag,12);
-        mag_xx(RPG32_F,2);
     };
 };

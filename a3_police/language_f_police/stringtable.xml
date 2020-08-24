@@ -70,6 +70,40 @@
 				<Japanese>タクティカル警官</Japanese>
 				<Turkish>Taktiksel Polis</Turkish>
 			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_Rifle_F0">
+				<Original>Tactical Police Officer (Rifle)</Original>
+				<Chinese>戰術警察（步槍）</Chinese>
+				<French>Policier tactique (fusil)</French>
+				<Spanish>Policía táctico (fusil)</Spanish>
+				<Italian>Poliziotto tattico (fucile)</Italian>
+				<Polish>Takt. policjant (karabin)</Polish>
+				<Italian>Тактический полицейский (винтовка)</Russian>
+				<German>Taktischer Polizist (Gewehr)</German>
+				<Czech>Taktický policista (puška)</Czech>
+				<English>Tactical Police Officer (Rifle)</English>
+				<Portuguese>Policial tático< (fuzil)/Portuguese>
+				<Korean>전략 경찰관(소총)</Korean>
+				<Chinesesimp>战术警察（步枪）</Chinesesimp>
+				<Japanese>タクティカル警官（ライフル）</Japanese>
+				<Turkish>Taktiksel Polis (Tüfek)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0">
+				<Original>Tactical Police Officer (Shotgun)</Original>
+				<Chinese>戰術警察（獵槍）</Chinese>
+				<French>Policier tactique (fusil de chasse)</French>
+				<Spanish>Policía táctico (escopeta)</Spanish>
+				<Italian>Poliziotto tattico (fucile da caccia)</Italian>
+				<Polish>Takt. policjant (strzelba)</Polish>
+				<Italian>Тактический полицейский (дробовик)</Russian>
+				<German>Taktischer Polizist (Schrotflinte)</German>
+				<Czech>Taktický policista (brokovnice)</Czech>
+				<English>Tactical Police Officer (Shotgun)</English>
+				<Portuguese>Policial tático (espingarda)</Portuguese>
+				<Korean>전략 경찰관(산탄총)</Korean>
+				<Chinesesimp>战术警察（霰弹枪）</Chinesesimp>
+				<Japanese>タクティカル警官（ショットガン）</Japanese>
+				<Turkish>Taktiksel Polis (Av Tüfeği)</Turkish>
+			</Key>
 			<Container name="Uniforms">
 				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_F0">
 					<Original>Police Uniform</Original>

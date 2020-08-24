@@ -35,8 +35,9 @@ class O_R_Static_Designator_02_F: Static_Designator_02_base_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_Designator_02_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
 	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
 	side = TEast;
 	faction = OPF_R_F;
 	crew = O_UAV_AI;
@@ -47,8 +48,8 @@ class O_R_Static_Designator_02_F: Static_Designator_02_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Static_F_Aegis\Designator_02\Data\LD02_remote_grn_CO.paa",
-		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\Laserdesignator_02_grn_F_CO.paa"
+		"\A3_Aegis\Static_F_Aegis\Designator_02\Data\LD02_remote_RUkhk_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\Laserdesignator_02_RUkhk_F_CO.paa"
 	};
 	class assembleInfo
 	{
@@ -74,7 +75,7 @@ class O_R_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F
 	};
 };
 // Russia (Arid)
-class O_R_Static_Designator_02_ard_F: Static_Designator_02_base_F
+class O_R_Static_Designator_02_ard_F: O_R_Static_Designator_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -110,27 +111,9 @@ class O_R_Static_Designator_02_ard_F: Static_Designator_02_base_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_Designator_02_ard_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
 	scope = public;
+	scopeCurator = public;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_UAV_AI;
-	hiddenSelections[] =
-	{
-		camo,
-		camo1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Static_F_Aegis\Designator_02\Data\LD02_remote_grn_CO.paa",
-		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\Laserdesignator_02_grn_F_CO.paa"
-	};
-	class assembleInfo
-	{
-		displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
-		assembleTo = "";
-		base = "";
-		primary = false;
-		dissasembleTo[] = {O_R_Static_Designator_02_weapon_F};
-	};
 };

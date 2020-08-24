@@ -30,39 +30,15 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
 				};
 				factions[] =
 				{
 					OPF_R_F,
 					OPF_R_ard_F
 				};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Arid
-			{
-				displayName = $STR_A3_TEXTURESOURCES_ARID0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUkhk_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
-				};
-				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};

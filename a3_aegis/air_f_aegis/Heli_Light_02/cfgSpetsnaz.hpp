@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -375,8 +375,8 @@ class O_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 		weap_xx(arifle_AK12U_545_F,2);
 	};
 };
-// Russia
-class O_R_Heli_Light_02_dynamicLoadout_ard_F: O_Heli_Light_02_dynamicLoadout_F
+// OPF_R_ard_F
+class O_R_Heli_Light_02_dynamicLoadout_ard_F: O_R_Heli_Light_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -509,100 +509,8 @@ class O_R_Heli_Light_02_dynamicLoadout_ard_F: O_Heli_Light_02_dynamicLoadout_F
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_helipilot_ard_F};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
-	textureList[] =
-	{
-		Black,1,
-		Blackcustom,0
-	};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
-	class Components: Components
-	{
-		class TransportPylonsComponent
-		{
-			uiPicture = "\A3\Air_F\Heli_Light_02\Data\UI\Heli_Light_02_3DEN_CA.paa";
-			class Pylons
-			{
-				class PylonLeft1
-				{
-					attachment = PylonRack_7Rnd_Rocket_50mm;
-					priority = 5;
-					hardpoints[] =
-					{
-						DAGR,
-						DAR,
-						O_S5,
-						O_ORCA_RIGHT_PYLON,
-						20MM_TWIN_CANNON,
-						SCALPEL_1RND_EJECTOR,
-						B_ASRRAM_EJECTOR
-					};
-					UIposition[] = {0.06,0.4};
-				};
-				class PylonRight1: PylonLeft1
-				{
-					attachment = PylonRack_7Rnd_Rocket_50mm;
-					mirroredMissilePos = 1;
-					hardpoints[] =
-					{
-						DAGR,
-						DAR,
-						O_S5,
-						20MM_TWIN_CANNON,
-						SCALPEL_1RND_EJECTOR,
-						B_ASRRAM_EJECTOR
-					};
-					UIposition[] = {0.59,0.4};
-				};
-			};
-			class Presets
-			{
-				class Empty
-				{
-					displayName = $STR_empty;
-					attachment[] = {};
-				};
-				class Default
-				{
-					displayName = $STR_vehicle_default;
-					attachment[] =
-					{
-						PylonRack_7Rnd_Rocket_50mm,
-						PylonRack_7Rnd_Rocket_50mm
-					};
-				};
-				class AT
-				{
-					displayName = $STR_A3_Cfgmagazines_titan_at_dns;
-					attachment[] =
-					{
-						PylonRack_12Rnd_PG_missiles,
-						PylonRack_12Rnd_PG_missiles
-					};
-				};
-				class CAS
-				{
-					displayName = $STR_A3_SHOWCASE_FIXEDWINGS_BIS_TSKAAF_WP;
-					attachment[] =
-					{
-						PylonRack_12Rnd_missiles,
-						PylonRack_12Rnd_missiles
-					};
-				};
-			};
-		};
-	};
 };
-class O_R_Heli_Light_02_unarmed_ard_F: O_Heli_Light_02_unarmed_F
+class O_R_Heli_Light_02_unarmed_ard_F: O_R_Heli_Light_02_unarmed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -735,20 +643,4 @@ class O_R_Heli_Light_02_unarmed_ard_F: O_Heli_Light_02_unarmed_F
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_helipilot_ard_F};
-	textureList[] =
-	{
-		Black,1,
-		Blackcustom,0
-	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12U_545_F,2);
-	};
 };

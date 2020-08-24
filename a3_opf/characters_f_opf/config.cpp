@@ -6,11 +6,11 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgCivil.hpp"
-	#include "cfgPara.hpp"
-	#include "cfgRaven.hpp"
-	#include "cfgChKDZ.hpp"
-	#include "cfgTKM.hpp"
-	#include "cfgMilitia.hpp"
+	#include "cfgCivil.hpp"				// Civilians
+	#include "cfgPara.hpp"              // Paramilitary
+	#include "cfgRaven.hpp"             // Raven
+	#include "cfgChKDZ.hpp"             // Separatists
+	#include "cfgTKM.hpp"               // Insurgents
+	#include "cfgMilitia.hpp"           // Patriots
 };
 #include "cfgGroups.hpp"

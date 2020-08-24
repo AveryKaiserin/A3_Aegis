@@ -156,9 +156,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] =
@@ -166,32 +166,6 @@ class CfgVehicles
 					OPF_R_F,
 					OPF_R_ard_F
 				};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Arid
-			{
-				displayName = $STR_A3_TEXTURESOURCES_ARID0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
-				};
-				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};
@@ -205,10 +179,10 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUgrn_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] =
@@ -216,34 +190,6 @@ class CfgVehicles
 					OPF_R_F,
 					OPF_R_ard_F
 				};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUcamo_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
-				};
-				factions[] = {OPF_R_F};
-			};
-			class Arid
-			{
-				displayName = $STR_A3_TEXTURESOURCES_ARID0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_scorcher_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_desert_CO.paa"
-				};
-				factions[] = {OPF_R_ard_F};
 			};
 		};
 	};

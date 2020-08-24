@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -75,9 +75,9 @@ class O_R_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_ext_RUS_CO.paa",
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUS_CO.paa",
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUS_CO.paa"
+		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_ext_RUgrey_CO.paa",
+		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUgrey_CO.paa",
+		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUgrey_CO.paa"
 	};
 	textureList[] = {Rus,1};
     class Turrets: Turrets
@@ -89,8 +89,8 @@ class O_R_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 		};
 	};
 };
-// Russia
-class O_R_Boat_Armed_01_hmg_ard_F: Boat_Armed_01_base_F
+// OPF_R_ard_F
+class O_R_Boat_Armed_01_hmg_ard_F: O_R_Boat_Armed_01_hmg_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -152,10 +152,8 @@ class O_R_Boat_Armed_01_hmg_ard_F: Boat_Armed_01_base_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Boat_Armed_01_hmg_ard_F.jpg";
-	displayName = $STR_A3_CfgVehicles_Boat_Armed_01_HMG0;
 	scope = public;
 	scopeCurator = public;
-	accuracy = 1.5;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
@@ -163,20 +161,5 @@ class O_R_Boat_Armed_01_hmg_ard_F: Boat_Armed_01_base_F
 	{
 		O_R_Soldier_ard_F,
 		O_R_Soldier_ard_F
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_ext_RUS_CO.paa",
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUS_CO.paa",
-		"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUS_CO.paa"
-	};
-	textureList[] = {Rus,1};
-    class Turrets: Turrets
-	{
-        class FrontTurret: FrontTurret{};
-        class RearTurret: RearTurret
-	    {
-		    magazines[] = {mag_3(100Rnd_127x99_mag_Tracer_Green)};
-		};
 	};
 };

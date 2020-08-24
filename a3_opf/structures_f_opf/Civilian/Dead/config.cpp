@@ -22,6 +22,7 @@ class CfgVehicles
 		displayName = $STR_A3_O_CfgVehicles_Land_Grave_mass_F0;
 		model = "\A3_Opf\Structures_F_Opf\Civilian\Dead\Grave_mass_F.p3d";
 		icon = iconObject_circle;
+        vehicleClass = Dead_bodies;
 		editorCategory = EdCat_Structures_Altis;
 		keepHorizontalPlacement = false;
 		class EventHandlers

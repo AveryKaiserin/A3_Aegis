@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Heli_Transport_04_F: O_Heli_Transport_04_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1793,8 +1793,8 @@ class O_R_Heli_Transport_04_repair_F: O_Heli_Transport_04_repair_F
 		};
 	};
 };
-// Russia (Arid)
-class O_R_Heli_Transport_04_ard_F: O_Heli_Transport_04_F
+// OPF_R_ard_F
+class O_R_Heli_Transport_04_ard_F: O_R_Heli_Transport_04_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1986,17 +1986,10 @@ class O_R_Heli_Transport_04_ard_F: O_Heli_Transport_04_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -2006,7 +1999,7 @@ class O_R_Heli_Transport_04_ard_F: O_Heli_Transport_04_F
 		};
 	};
 };
-class O_R_Heli_Transport_04_ammo_ard_F: O_Heli_Transport_04_ammo_F
+class O_R_Heli_Transport_04_ammo_ard_F: O_R_Heli_Transport_04_ammo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -2197,19 +2190,10 @@ class O_R_Heli_Transport_04_ammo_ard_F: O_Heli_Transport_04_ammo_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_ammo_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_ammo_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -2219,7 +2203,7 @@ class O_R_Heli_Transport_04_ammo_ard_F: O_Heli_Transport_04_ammo_F
 		};
 	};
 };
-class O_R_Heli_Transport_04_bench_ard_F: O_Heli_Transport_04_bench_F
+class O_R_Heli_Transport_04_bench_ard_F: O_R_Heli_Transport_04_bench_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -2412,18 +2396,10 @@ class O_R_Heli_Transport_04_bench_ard_F: O_Heli_Transport_04_bench_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_bench_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_bench_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Bench_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -2440,19 +2416,8 @@ class O_R_Heli_Transport_04_bench_ard_F: O_Heli_Transport_04_bench_F
 		class CargoTurret_07: CargoTurret_07{};
 		class CargoTurret_08: CargoTurret_08{};
 	};
-	class AnimationSources: AnimationSources
-	{
-		class Bench_default_source: Bench_default_source
-		{
-			initPhase = true;
-		};
-		class Bench_black_source: Bench_black_source
-		{
-			initPhase = false;
-		};
-	};
 };
-class O_R_Heli_Transport_04_box_ard_F: O_Heli_Transport_04_box_F
+class O_R_Heli_Transport_04_box_ard_F: O_R_Heli_Transport_04_box_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -2643,19 +2608,10 @@ class O_R_Heli_Transport_04_box_ard_F: O_Heli_Transport_04_box_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_box_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_box_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -2664,65 +2620,13 @@ class O_R_Heli_Transport_04_box_ard_F: O_Heli_Transport_04_box_F
 			gunnerType = O_R_helicrew_ard_F;
 		};
 	};
-	class TransportMagazines
-	{
-		mag_xx(17Rnd_9x21_Mag,6);
-		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
-		mag_xx(10Rnd_93x64_DMR_05_Mag,12);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(1Rnd_Smoke_Grenade_shell,2);
-		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
-		mag_xx(chemlight_red,6);
-		mag_xx(RPG32_F,3);
-		mag_xx(RPG32_HE_F,3);
-		mag_xx(Laserbatteries,2);
-		mag_xx(HandGrenade,6);
-		mag_xx(MiniGrenade,6);
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellRed,2);
-		mag_xx(UGL_FlareRed_F,2);
-		mag_xx(UGL_FlareYellow_F,2);
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_AK12_545_F,2);
-		weap_xx(arifle_AK12_GL_545_F,1);
-		weap_xx(arifle_AK12U_545_F,1);
-		weap_xx(arifle_RPK12_F,1);
-		weap_xx(srifle_DMR_05_blk_F,1);
-		weap_xx(launch_RPG32_green_F,1);
-	};
-	class TransportItems
-	{
-		item_xx(FirstAidKit,10);
-		item_xx(Binocular,1);
-		item_xx(Laserdesignator_01_khk_F,1);
-		item_xx(optic_ACO_grn,1);
-		item_xx(optic_ACO_grn_smg,1);
-		item_xx(optic_Arco_blk_F,1);
-		item_xx(optic_Arco_AK_blk_F,1);
-		item_xx(optic_nightstalker,1);
-		item_xx(optic_tws,1);
-		item_xx(optic_tws_mg,1);
-		item_xx(optic_tws_sniper,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
-		item_xx(acc_pointer_IR,2);
-		item_xx(Medikit,1);
-		item_xx(ToolKit,1);
-		item_xx(MineDetector,1);
-		item_xx(bipod_02_F_blk,1);
-		item_xx(O_NVGoggles_grn_F,1);
-	};
 	class TransportBackpacks
 	{
 		bag_xx(B_Parachute,3);
-		bag_xx(B_FieldPack_taiga_F,2);
+		bag_xx(B_FieldPack_green_F,2);
 	};
 };
-class O_R_Heli_Transport_04_covered_ard_F: O_Heli_Transport_04_covered_F
+class O_R_Heli_Transport_04_covered_ard_F: O_R_Heli_Transport_04_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -2921,19 +2825,10 @@ class O_R_Heli_Transport_04_covered_ard_F: O_Heli_Transport_04_covered_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_covered_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_covered_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -2945,7 +2840,7 @@ class O_R_Heli_Transport_04_covered_ard_F: O_Heli_Transport_04_covered_F
 		class CargoTurret_02: CargoTurret_02{};
 	};
 };
-class O_R_Heli_Transport_04_fuel_ard_F: O_Heli_Transport_04_fuel_F
+class O_R_Heli_Transport_04_fuel_ard_F: O_R_Heli_Transport_04_fuel_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -3136,18 +3031,10 @@ class O_R_Heli_Transport_04_fuel_ard_F: O_Heli_Transport_04_fuel_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_fuel_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_fuel_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Fuel_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -3157,7 +3044,7 @@ class O_R_Heli_Transport_04_fuel_ard_F: O_Heli_Transport_04_fuel_F
 		};
 	};
 };
-class O_R_Heli_Transport_04_medevac_ard_F: O_Heli_Transport_04_medevac_F
+class O_R_Heli_Transport_04_medevac_ard_F: O_R_Heli_Transport_04_medevac_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -3353,19 +3240,10 @@ class O_R_Heli_Transport_04_medevac_ard_F: O_Heli_Transport_04_medevac_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_medevac_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_medevac_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
@@ -3375,7 +3253,7 @@ class O_R_Heli_Transport_04_medevac_ard_F: O_Heli_Transport_04_medevac_F
 		};
 	};
 };
-class O_R_Heli_Transport_04_repair_ard_F: O_Heli_Transport_04_repair_F
+class O_R_Heli_Transport_04_repair_ard_F: O_R_Heli_Transport_04_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -3566,19 +3444,10 @@ class O_R_Heli_Transport_04_repair_ard_F: O_Heli_Transport_04_repair_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_repair_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_Heli_Transport_04_repair_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	textureList[] = {Black,1};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_base_02_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_black_CO.paa",
-		"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_black_CO.paa"
-	};
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};

@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_UAV_01_F: UAV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -60,7 +60,7 @@ class O_R_UAV_01_F: UAV_01_base_F
 		displayName = "";
 		dissasembleTo[] = {O_R_UAV_01_backpack_F};
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_RUS_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_RUgrey_CO.paa"};
 	textureList[] = {Rus,1};
 };
 class O_R_UAV_01_backpack_F: Weapon_Bag_Base
@@ -85,8 +85,8 @@ class O_R_UAV_01_backpack_F: Weapon_Bag_Base
 		assembleTo = O_R_UAV_01_F;
 	};
 };
-// Russia (Arid)
-class O_R_UAV_01_ard_F: UAV_01_base_F
+// OPF_R_ard_F
+class O_R_UAV_01_ard_F: O_R_UAV_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -133,20 +133,8 @@ class O_R_UAV_01_ard_F: UAV_01_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_01_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_01_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_UAV_AI;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
-	accuracy = 0.5;
-	class assembleInfo
-	{
-		primary = true;
-		base = "";
-		assembleTo = "";
-		displayName = "";
-		dissasembleTo[] = {O_R_UAV_01_backpack_F};
-	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_RUS_CO.paa"};
-	textureList[] = {Rus,1};
 };

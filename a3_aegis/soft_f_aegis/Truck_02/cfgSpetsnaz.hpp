@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 class O_R_Truck_02_F: O_Truck_02_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -99,17 +99,13 @@ class O_R_Truck_02_F: O_Truck_02_covered_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_transport_F: O_Truck_02_transport_F
@@ -212,17 +208,13 @@ class O_R_Truck_02_transport_F: O_Truck_02_transport_F
     faction = OPF_R_F;
     crew = O_R_Soldier_F;
     typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_box_F: O_Truck_02_box_F
@@ -325,17 +317,13 @@ class O_R_Truck_02_box_F: O_Truck_02_box_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_medical_F: O_Truck_02_medical_F
@@ -438,17 +426,13 @@ class O_R_Truck_02_medical_F: O_Truck_02_medical_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_Ammo_F: O_Truck_02_Ammo_F
@@ -551,17 +535,13 @@ class O_R_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_fuel_F: O_Truck_02_fuel_F
@@ -664,17 +644,13 @@ class O_R_Truck_02_fuel_F: O_Truck_02_fuel_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_MRL_F: O_Truck_02_MRL_F
@@ -823,17 +799,13 @@ class O_R_Truck_02_MRL_F: O_Truck_02_MRL_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class O_R_Truck_02_cargo_F: Truck_02_cargo_base_F
@@ -937,21 +909,17 @@ class O_R_Truck_02_cargo_F: Truck_02_cargo_base_F
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] =
-	{
-		Green,1,
-		Taiga,0
-	};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-// Russia (Arid)
-class O_R_Truck_02_ard_F: O_Truck_02_covered_F
+// OPF_R_ard_F
+class O_R_Truck_02_ard_F: O_R_Truck_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1051,20 +1019,8 @@ class O_R_Truck_02_ard_F: O_Truck_02_covered_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_transport_ard_F: O_Truck_02_transport_F
+class O_R_Truck_02_transport_ard_F: O_R_Truck_02_transport_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1164,20 +1120,8 @@ class O_R_Truck_02_transport_ard_F: O_Truck_02_transport_F
     faction = OPF_R_ard_F;
     crew = O_R_Soldier_ard_F;
     typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_box_ard_F: O_Truck_02_box_F
+class O_R_Truck_02_box_ard_F: O_R_Truck_02_box_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1277,20 +1221,8 @@ class O_R_Truck_02_box_ard_F: O_Truck_02_box_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_medical_ard_F: O_Truck_02_medical_F
+class O_R_Truck_02_medical_ard_F: O_R_Truck_02_medical_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1390,20 +1322,8 @@ class O_R_Truck_02_medical_ard_F: O_Truck_02_medical_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_Ammo_ard_F: O_Truck_02_Ammo_F
+class O_R_Truck_02_Ammo_ard_F: O_R_Truck_02_Ammo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1503,20 +1423,8 @@ class O_R_Truck_02_Ammo_ard_F: O_Truck_02_Ammo_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_fuel_ard_F: O_Truck_02_fuel_F
+class O_R_Truck_02_fuel_ard_F: O_R_Truck_02_fuel_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1616,20 +1524,8 @@ class O_R_Truck_02_fuel_ard_F: O_Truck_02_fuel_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_MRL_ard_F: O_Truck_02_MRL_F
+class O_R_Truck_02_MRL_ard_F: O_R_Truck_02_MRL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1775,20 +1671,8 @@ class O_R_Truck_02_MRL_ard_F: O_Truck_02_MRL_F
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };
-class O_R_Truck_02_cargo_ard_F: Truck_02_cargo_base_F
+class O_R_Truck_02_cargo_ard_F: O_R_Truck_02_cargo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -1884,21 +1768,8 @@ class O_R_Truck_02_cargo_ard_F: Truck_02_cargo_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_02_cargo_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
 	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
-	textureList[] =
-	{
-		Arid,0,
-		Green,1
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUS_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUgrn_CO.paa"
-	};
 };

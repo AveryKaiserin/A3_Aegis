@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_UGV_01_F: UGV_01_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -32,18 +33,6 @@ class B_A_UGV_01_rcws_F: UGV_01_rcws_base_F
         "\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_int_CO.paa",
         "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_CO.paa"
     };
-    class Turrets: Turrets
-    {
-        class MainTurret: MainTurret
-        {
-            magazines[] =
-            {
-                mag_2(200Rnd_127x99_mag_Tracer_Red),
-                mag_2(64Rnd_40mm_G_belt)
-            };
-        };
-        class CargoTurret_01: CargoTurret_01{};
-    };
 };
 class B_A_UGV_01_medical_F: UGV_01_medical_base_F
 {
@@ -63,11 +52,17 @@ class B_A_UGV_01_medical_F: UGV_01_medical_base_F
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };
+// BLU_A_tna_F
 class B_A_UGV_01_tna_F: B_A_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_tna_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_tna_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_tna_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {
@@ -79,7 +74,12 @@ class B_A_UGV_01_rcws_tna_F: B_A_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_rcws_tna_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_tna_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_tna_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {
@@ -92,7 +92,12 @@ class B_A_UGV_01_medical_tna_F: B_A_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_medical_tna_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_tna_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_tna_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {
@@ -101,11 +106,17 @@ class B_A_UGV_01_medical_tna_F: B_A_UGV_01_medical_F
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };
+// BLU_A_wdl_F
 class B_A_UGV_01_wdl_F: B_A_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_wdl_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_wdl_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_wdl_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {
@@ -117,7 +128,12 @@ class B_A_UGV_01_rcws_wdl_F: B_A_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_rcws_wdl_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_wdl_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_wdl_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {
@@ -130,7 +146,12 @@ class B_A_UGV_01_medical_wdl_F: B_A_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_medical_wdl_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
     faction = BLU_A_wdl_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {B_A_Soldier_wdl_F};
     textureList[] = {Olive,1};
     hiddenSelectionsTextures[] =
     {

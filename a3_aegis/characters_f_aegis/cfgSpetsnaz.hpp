@@ -827,7 +827,7 @@ class O_R_Fatigues_01_arid_F: O_R_Fatigues_01_taiga_F
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"
 	};
 };
@@ -857,9 +857,9 @@ class O_R_GhillieSuit_01_arid_F: O_R_GhillieSuit_01_taiga_F
 	uniformClass = U_O_R_GhillieSuit_arid_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_RUkhk_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_RUarid_CO.paa"
 	};
 };
 class O_R_PilotCoveralls_01_F: O_Pilot_F
@@ -904,7 +904,7 @@ class O_R_OfficerFatigues_01_arid_F: O_R_OfficerFatigues_01_taiga_F
     scope = protected;
     scopeCurator = protected;
 	uniformClass = U_O_R_OfficerUniform_arid_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_RUkhk_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_RUarid_CO.paa"};
 };
 class O_R_LightFatigues_01_taiga_F: O_A_officer_F
 {
@@ -925,7 +925,7 @@ class O_R_LightFatigues_01_arid_F: O_R_LightFatigues_01_taiga_F
     scope = protected;
     scopeCurator = protected;
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUkhk_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUarid_CO.paa"};
 };
 class O_R_Soldier_A_F: O_R_Soldier_Base_F
 {
@@ -2490,13 +2490,13 @@ class O_R_diver_F: O_R_Soldier_diver_base
 	linkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		DefaultManLinkedItems
 	};
 	weapons[] =
@@ -2540,13 +2540,13 @@ class O_R_diver_exp_F: O_R_Soldier_diver_base
 	linkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		DefaultManLinkedItems
 	};
 	weapons[] =
@@ -2591,14 +2591,14 @@ class O_R_diver_TL_F: O_R_Soldier_diver_base
 	linkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_RebreatherRU,
-		G_RU_Diving,
+		G_O_R_Diving,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -4400,7 +4400,7 @@ class O_R_ghillie_ard_F: O_R_ghillie_base_F
 	uniformClass = U_O_R_FullGhillie_ard_F;
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUkhk_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUarid_CO.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_ard_CA.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_ard_CO.paa"
 	};
@@ -4425,7 +4425,7 @@ class O_R_ghillie_lsh_F: O_R_ghillie_base_F
 	uniformClass = U_O_R_FullGhillie_lsh_F;
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUkhk_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUarid_CO.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_lsh_CA.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_lsh_CO.paa"
 	};
@@ -4450,7 +4450,7 @@ class O_R_ghillie_sard_F: O_R_ghillie_base_F
 	uniformClass = U_O_R_FullGhillie_sard_F;
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUkhk_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_coverall_RUarid_CO.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_sard_CA.paa",
         "\A3\Characters_F_Mark\Common\Data\ghillie_threads_5LOD_sard_CO.paa"
 	};

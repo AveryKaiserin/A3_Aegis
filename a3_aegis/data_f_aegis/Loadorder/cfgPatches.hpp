@@ -52,6 +52,7 @@ class CfgPatches
 			A3_Aegis_Boat_F_Aegis_Boat_Armed_01,
 			A3_Aegis_Boat_F_Aegis_Boat_Civil_02,
 			A3_Aegis_Boat_F_Aegis_Boat_Civil_03,
+			A3_Aegis_Boat_F_Aegis_Boat_Civil_04,
 			A3_Aegis_Boat_F_Aegis_Boat_Transport_01,
 			A3_Aegis_Boat_F_Aegis_Boat_Transport_02,
 			A3_Aegis_Boat_F_Aegis_Carrier_01,
