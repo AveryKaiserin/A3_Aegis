@@ -124,7 +124,7 @@ class O_W_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Heli_Light_02_dynamicLoadout_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -275,15 +275,9 @@ class O_W_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Heli_Light_02_unarmed_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	scopeGarage = private;
-	displayName = $STR_A3_CfgVehicles_O_Heli_Light_02_Unarmed_F0;
-	accuracy = 1.5;
-	cost = 900000;
-	threat[] = {0.3,0.2,0.3};
-	radarType = CM_Lock_Radar;
 	side = TEast;
 	faction = OPF_W_F;
 	crew = O_W_Helipilot_F;
