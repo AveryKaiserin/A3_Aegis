@@ -174,7 +174,7 @@ class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 		EjectionSeatClass = I_E_Ejection_Seat_Plane_Fighter_04_F;
 	};
 };
-class I_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_F
+class I_E_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_F
 {
 	class SimpleObject
 	{

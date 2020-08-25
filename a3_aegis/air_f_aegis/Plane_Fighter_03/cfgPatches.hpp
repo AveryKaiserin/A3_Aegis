@@ -9,7 +9,16 @@ class CfgPatches
 			A3_Air_F_Gamma_Plane_Fighter_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT
+            O_Ejection_Seat_Plane_Fighter_03_F,
+            O_Plane_Fighter_03_dynamicLoadout_F,
+
+            // CSAT (African)
+            O_A_Ejection_Seat_Plane_Fighter_03_F,
+            O_A_Plane_Fighter_03_dynamicLoadout_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

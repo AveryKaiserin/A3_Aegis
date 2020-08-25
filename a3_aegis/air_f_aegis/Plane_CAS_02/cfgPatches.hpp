@@ -9,7 +9,18 @@ class CfgPatches
 			A3_Air_F_EPC_Plane_CAS_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (Pacific)
+            O_T_Ejection_Seat_Plane_CAS_02_F,
+            O_T_Plane_CAS_02_dynamicLoadout_ghex_F,
+
+            // Russia
+            O_R_Ejection_Seat_Plane_CAS_02_ard_F,
+            O_R_Ejection_Seat_Plane_CAS_02_F,
+            O_R_Plane_CAS_02_dynamicLoadout_ard_F,
+            O_R_Plane_CAS_02_dynamicLoadout_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

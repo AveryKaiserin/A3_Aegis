@@ -9,7 +9,12 @@ class CfgPatches
 			A3_Soft_F_Exp_LSV_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Raven
+            I_R_LSV_02_armed_F,
+            I_R_LSV_02_unarmed_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

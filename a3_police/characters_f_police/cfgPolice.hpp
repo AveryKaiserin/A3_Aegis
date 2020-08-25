@@ -137,13 +137,13 @@ class I_P_PoliceOfficer_Rifle_F: I_P_PoliceOfficer_Base_F
 	};
 	weapons[] =
 	{
-		srifle_G36C_F,
+		arifle_G36C_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		srifle_G36C_F,
+		arifle_G36C_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
@@ -372,7 +372,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	// editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_UGV_02_F0;
+	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
@@ -417,11 +417,10 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-/*
 class I_P_Helipilot_F: I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Helipilot_F.jpg";
+	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Helipilot_F.jpg";
 	scope = protected;
     scopeCurator = private;
 	displayName = $STR_B_Helipilot_F0;
@@ -463,4 +462,3 @@ class I_P_Helipilot_F: I_P_PoliceOfficer_Base_F
 	cost = 50000;
 	role = Crewman;
 };
-*/

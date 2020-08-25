@@ -468,9 +468,6 @@ class O_R_LSV_02_armed_ard_F: O_R_LSV_02_armed_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_armed_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -562,9 +559,6 @@ class O_R_LSV_02_unarmed_ard_F: O_R_LSV_02_unarmed_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_unarmed_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -654,9 +648,6 @@ class O_R_LSV_02_AT_ard_F: O_R_LSV_02_AT_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\ard_.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};

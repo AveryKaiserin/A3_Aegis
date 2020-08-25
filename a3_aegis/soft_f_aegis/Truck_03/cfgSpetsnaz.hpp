@@ -769,9 +769,6 @@ class O_R_Truck_03_transport_ard_F: O_R_Truck_03_transport_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_transport_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -874,9 +871,6 @@ class O_R_Truck_03_covered_ard_F: O_R_Truck_03_covered_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_covered_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -979,9 +973,6 @@ class O_R_Truck_03_repair_ard_F: O_R_Truck_03_repair_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_repair_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1084,9 +1075,6 @@ class O_R_Truck_03_ammo_ard_F: O_R_Truck_03_ammo_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_ammo_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1189,9 +1177,6 @@ class O_R_Truck_03_fuel_ard_F: O_R_Truck_03_fuel_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_fuel_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1294,9 +1279,6 @@ class O_R_Truck_03_medical_ard_F: O_R_Truck_03_medical_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_medical_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =

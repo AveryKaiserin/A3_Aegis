@@ -255,5 +255,26 @@
 				</Key>
 			</Container>
 		</Container>
+		<Container name="Weapons_F">
+			<Container name="Items">
+				<Key ID="STR_A3_P_CfgWeapons_I_P_UavTerminal0">
+					<Original>UAV Terminal [ION]</Original>
+					<Chinese>無人機終端機（ION）</Chinese>
+					<French>Terminal drone [ION]</French>
+					<Spanish>Terminal VANT [ION]</Spanish>
+					<Italian>Terminale UAV [ION]</Italian>
+					<Polish>Terminal dronów [ION]</Polish>
+					<Russian>Терминал БПЛА [ION]</Russian>
+					<German>UAC-Terminal [ION]</German>
+					<Czech>UAV terminál [ION]</Czech>
+					<English>UAV Terminal [ION]</English>
+					<Portuguese>Terminal de VANT [ION]</Portuguese>
+					<Korean>무인기 단말[ION]</Korean>
+					<Chinesesimp>UAV 终端 [ION]</Chinesesimp>
+					<Japanese>UAV ターミナル［ION］</Japanese>
+					<Turkish>İHA Terminali [ION]</Turkish>
+				</Key>
+			</Container>
+		</Container>
 	</Package>
 </Project>

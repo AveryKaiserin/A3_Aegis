@@ -5,5 +5,7 @@ class CfgVehicles
 	// Arma 3
 	class Quadbike_01_base_F;
 	// Arma 3 Opposing Forces
+	#include "cfgPara.hpp"
 	#include "cfgChKDZ.hpp"
+	#include "cfgMilitia.hpp"
 };

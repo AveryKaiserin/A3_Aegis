@@ -1,4 +1,4 @@
-// Russia
+// OPF_R_F
 // Arma 3 Enoch
 class O_R_Man_Base_F: O_Soldier_F
 {
@@ -3227,7 +3227,7 @@ class O_R_Fighter_Pilot_F: O_R_Soldier_Base_F
     cost = 165000;
     role = Crewman;
 };
-// Russia (Arid)
+// OPF_R_ard_F
 class O_R_Soldier_A_ard_F: O_R_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;

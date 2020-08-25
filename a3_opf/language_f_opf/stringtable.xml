@@ -151,6 +151,23 @@
 					<Japanese>Separatists</Japanese>
 					<Turkish>Separatists</Turkish>
 				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_OPF_L_F0">
+					<Original>Rebels</Original>
+					<Chinese>Rebels</Chinese>
+					<French>Rebels</French>
+					<Spanish>Rebels</Spanish>
+					<Italian>Rebels</Italian>
+					<Polish>Rebels</Polish>
+					<Russian>Rebels</Russian>
+					<German>Rebels</German>
+					<Czech>Rebels</Czech>
+					<English>Rebels</English>
+					<Portuguese>Rebels</Portuguese>
+					<Korean>Rebels</Korean>
+					<Chinesesimp>Rebels</Chinesesimp>
+					<Japanese>Rebels</Japanese>
+					<Turkish>Rebels</Turkish>
+				</Key>
 				<Key ID="STR_A3_O_CfgFactionClasses_IND_T_F0">
 					<Original>Insurgents</Original>
 					<Chinese>Insurgents</Chinese>
@@ -167,6 +184,23 @@
 					<Chinesesimp>Insurgents</Chinesesimp>
 					<Japanese>Insurgents</Japanese>
 					<Turkish>Insurgents</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_IND_M_F0">
+					<Original>Patriots</Original>
+					<Chinese>Patriots</Chinese>
+					<French>Patriots</French>
+					<Spanish>Patriots</Spanish>
+					<Italian>Patriots</Italian>
+					<Polish>Patriots</Polish>
+					<Russian>Patriots</Russian>
+					<German>Patriots</German>
+					<Czech>Patriots</Czech>
+					<English>Patriots</English>
+					<Portuguese>Patriots</Portuguese>
+					<Korean>Patriots</Korean>
+					<Chinesesimp>Patriots</Chinesesimp>
+					<Japanese>Patriots</Japanese>
+					<Turkish>Patriots</Turkish>
 				</Key>
 			</Container>
 		</Container>

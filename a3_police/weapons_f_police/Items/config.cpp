@@ -14,15 +14,13 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_I_P_UavTerminal0;
-		model = "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
+		displayName = $STR_A3_P_CfgWeapons_I_P_UavTerminal0;
+		model = /*"\A3_Police\Weapons_F_Police\Items\UAV_controller_POLICE_F.p3d"*/ "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
 		picture = "\A3_Police\Weapons_F_Police\Items\Data\UI\icon_I_P_UavTerminal_CA.paa";
-        hiddenSelections[] = {camo};
-        hiddenSelectionsTextures[] = {"\A3_Police\Weapons_F_Police\Items\Data\UAV_controller_POLICE_CO.paa"};
+        hiddenSelectionsTextures[] = {"\A3_Police\Weapons_F_Police\Items\Data\UAV_controller_police_CO.paa"};
 		class ItemInfo: ItemInfo
 		{
 			side = TGuerrila;
-        	hiddenSelections[] = {camo};
 		};
 	};
 };

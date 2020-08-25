@@ -73,32 +73,20 @@ class O_R_UGV_01_ard_F: O_R_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_ard_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
     faction = OPF_R_ard_F;
-    crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };
 class O_R_UGV_01_rcws_ard_F: O_R_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_rcws_ard_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
     faction = OPF_R_ard_F;
-    crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };
 class O_R_UGV_01_medical_ard_F: O_R_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_medical_ard_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
     faction = OPF_R_ard_F;
-    crew = O_UAV_AI;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };

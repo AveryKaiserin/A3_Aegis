@@ -809,10 +809,6 @@ class CfgVehicles
     class O_R_Support_Mort_F;
     COMPATIBILITYCLASS(I_RU_Support_Mort_F,O_R_Support_Mort_F)
     COMPATIBILITYCLASS(O_RU_Support_Mort_F,O_R_Support_Mort_F)
-    class B_Radar_System_01_F;
-    COMPATIBILITYCLASS(B_A_Radar_System_01_F,B_Radar_System_01_F)
-    class B_SAM_System_03_F;
-    COMPATIBILITYCLASS(B_A_SAM_System_03_F,B_SAM_System_03_F)
     class B_SAM_System_01_F;
     COMPATIBILITYCLASS(B_T_SAM_System_01_F,B_SAM_System_01_F)
     class B_SAM_System_02_F;

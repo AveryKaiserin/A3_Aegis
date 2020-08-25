@@ -1863,11 +1863,21 @@ class O_G_Survivor_F: O_G_Soldier_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Survivor_F.jpg";
 };
+class B_G_Soldier_universal_F: B_G_Soldier_F
+{
+    scopeCurator = private;
+};
+class O_G_Soldier_universal_F: O_G_Soldier_F
+{
+    scopeCurator = private;
+};
+class I_G_Soldier_universal_F: I_G_Soldier_F
+{
+    scopeCurator = private;
+};
 class I_G_Story_Protagonist_F: B_G_Soldier_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Story_Protagonist_F.jpg";
-    scope = protected;
-    scopeCurator = private;
     hiddenSelections[] =
     {
         Camo1,

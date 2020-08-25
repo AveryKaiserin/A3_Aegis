@@ -20,6 +20,8 @@ class CfgWeapons
 	class V_CarrierRigKBT_01_base_F;
 	class V_CarrierRigKBT_01_light_base_F;
 	class V_CarrierRigKBT_01_heavy_base_F;
+	class V_SmershVest_01_base_F;
+	class V_SmershVest_01_radio_base_F;
 	// Arma 3 Atlas
 	class V_HarnessO_tan: V_HarnessO_gry
 	{
@@ -144,6 +146,54 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_V_TacVest_tan0;
 		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
+	};
+	class V_SmershVest_01_khaki_F: V_SmershVest_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_khk_CO.paa"
+		};
+	};
+	class V_SmershVest_01_radio_khaki_F: V_SmershVest_01_radio_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_khk_CO.paa"
+		};
+	};
+	class V_SmershVest_01_olive_F: V_SmershVest_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_olive_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_olive_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_oli_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_oli_CO.paa"
+		};
+	};
+	class V_SmershVest_01_radio_olive_F: V_SmershVest_01_radio_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_olive_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_olive_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_oli_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_oli_CO.paa"
+		};
 	};
 	class V_RebreatherB_O: V_RebreatherB
 	{

@@ -577,9 +577,6 @@ class O_R_MBT_02_cannon_ard_F: O_R_MBT_02_cannon_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_02_cannon_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] =
@@ -753,9 +750,6 @@ class O_R_MBT_02_arty_ard_F: O_R_MBT_02_arty_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_02_arty_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] =

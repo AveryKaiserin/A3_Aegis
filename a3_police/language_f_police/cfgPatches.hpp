@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Police_Language_F_Police
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Police - Texts and Translations";
+		name = "Arma 3 Aegis Police Addon - Texts and Translations";
 		url = "";
 		requiredAddons[] = {A3_Police_Data_F_Police};
 		requiredVersion = 0.1;

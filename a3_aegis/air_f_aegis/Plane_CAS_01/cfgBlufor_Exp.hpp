@@ -195,6 +195,6 @@ class B_T_Plane_CAS_01_dynamicLoadout_F: B_Plane_CAS_01_dynamicLoadout_F
 	typicalCargo[] = {B_T_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_T_Ejection_Seat_Plane_CAS_01_F;
 	};
 };

@@ -9,7 +9,12 @@ class CfgPatches
 			A3_Soft_F_Exp_Offroad_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Patriots
+            I_M_Offroad_02_LMG_F,
+            I_M_Offroad_02_unarmed_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

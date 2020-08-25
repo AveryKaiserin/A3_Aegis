@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_UAV_06_F: UAV_06_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -178,6 +179,47 @@ class B_A_UAV_06_medical_F: UAV_06_medical_base_F
 		};
 	};
 };
+class Box_B_A_UAV_06_F: Box_UAV_06_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] = {};
+		hide[] = {};
+		verticalOffset = 0.1;
+		verticalOffsetWorld = 0;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_B_A_UAV_06_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_Box_B_A_UAV_06_F0;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_CO.paa"};
+};
+class Box_B_A_UAV_06_medical_F: Box_UAV_06_medical_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] = {};
+		hide[] = {};
+		verticalOffset = 0.1;
+		verticalOffsetWorld = 0;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_B_A_UAV_06_medical_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_Box_B_A_UAV_06_medical_F0;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_medical_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_medical_CO.paa"
+	};
+};
+// BLU_A_tna_F
 class B_A_UAV_06_tna_F: B_A_UAV_06_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -312,6 +354,7 @@ class B_A_UAV_06_medical_tna_F: B_A_UAV_06_medical_F
 		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_T_UAV_06_medical_CO.paa"
 	};
 };
+// BLU_A_wdl_F
 class B_A_UAV_06_wdl_F: B_A_UAV_06_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -439,44 +482,4 @@ class B_A_UAV_06_medical_wdl_F: B_A_UAV_06_medical_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UAV_06_medical_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
-};
-class Box_B_A_UAV_06_F: Box_UAV_06_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class SimpleObject
-	{
-		eden = true;
-		animate[] = {};
-		hide[] = {};
-		verticalOffset = 0.1;
-		verticalOffsetWorld = 0;
-		init = "[this, '', []] call bis_fnc_initVehicle";
-	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_B_A_UAV_06_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_Box_B_A_UAV_06_F0;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_CO.paa"};
-};
-class Box_B_A_UAV_06_medical_F: Box_UAV_06_medical_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class SimpleObject
-	{
-		eden = true;
-		animate[] = {};
-		hide[] = {};
-		verticalOffset = 0.1;
-		verticalOffsetWorld = 0;
-		init = "[this, '', []] call bis_fnc_initVehicle";
-	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_B_A_UAV_06_medical_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_Box_B_A_UAV_06_medical_F0;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_medical_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\B_A_UAV_06_medical_CO.paa"
-	};
 };

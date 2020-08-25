@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Static_AA_F: B_static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -74,6 +75,7 @@ class B_A_Static_AA_F: B_static_AA_F
 		};
 	};
 };
+// BLU_A_tna_F
 class B_A_Static_AA_tna_F: B_A_Static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -141,6 +143,7 @@ class B_A_Static_AA_tna_F: B_A_Static_AA_F
 		};
 	};
 };
+// BLU_A_wdl_F
 class B_A_Static_AA_wdl_F: B_A_Static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;

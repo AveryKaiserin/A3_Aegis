@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Marine_Structures_F_Marine
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Marine - Buildings and Structures";
+		name = "Arma 3 Aegis Marines Addon - Buildings and Structures";
 		url = "";
 		requiredAddons[] = {A3_Marine_Data_F_Marine};
 		requiredVersion = 0.1;

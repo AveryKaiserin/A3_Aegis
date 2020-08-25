@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -323,6 +324,7 @@ class B_A_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 		weap_xx(arifle_SA80_C_snd_F,2);
 	};
 };
+// BLU_A_tna_F
 class B_A_Heli_light_03_dynamicLoadout_tna_F: B_A_Heli_light_03_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -615,6 +617,7 @@ class B_A_Heli_light_03_unarmed_tna_F: B_A_Heli_light_03_unarmed_F
 		weap_xx(arifle_SA80_C_khk_F,2);
 	};
 };
+// BLU_A_wdl_F
 class B_A_Heli_light_03_dynamicLoadout_wdl_F: B_A_Heli_light_03_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;

@@ -57,9 +57,6 @@ class B_A_UGV_01_tna_F: B_A_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_tna_F};
@@ -74,9 +71,6 @@ class B_A_UGV_01_rcws_tna_F: B_A_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_rcws_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_tna_F};
@@ -92,9 +86,6 @@ class B_A_UGV_01_medical_tna_F: B_A_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_medical_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_tna_F};
@@ -111,9 +102,6 @@ class B_A_UGV_01_wdl_F: B_A_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_wdl_F};
@@ -128,9 +116,6 @@ class B_A_UGV_01_rcws_wdl_F: B_A_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_rcws_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_wdl_F};
@@ -146,9 +131,6 @@ class B_A_UGV_01_medical_wdl_F: B_A_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UGV_01_medical_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_UAV_AI;
     typicalCargo[] = {B_A_Soldier_wdl_F};

@@ -159,9 +159,6 @@ class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Quadbike_01_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TWest;
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -246,9 +243,6 @@ class B_A_Quadbike_01_wdl_F: B_A_Quadbike_01_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Quadbike_01_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TWest;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Soldier_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};

@@ -217,6 +217,6 @@ class O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_green_F,2);
+		bag_xx(B_FieldPack_owcamo,2);
 	};
 };

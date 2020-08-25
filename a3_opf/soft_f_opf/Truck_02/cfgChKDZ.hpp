@@ -1,4 +1,4 @@
-class O_E_Truck_02_F: Truck_02_base_F
+class O_E_Truck_02_F: O_Truck_02_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -104,104 +104,6 @@ class O_E_Truck_02_F: Truck_02_base_F
 		Separatist_02,1,
 		Separatist_03,1
 	};
-	transportSoldier = 14;
-	cargoProxyIndexes[] =
-	{
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
-	};
-	getInProxyOrder[] =
-	{
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16
-	};
-	class CargoTurret;
-	class Turrets: Turrets
-	{
-		class CargoTurret_01: CargoTurret
-		{
-			gunnerAction = passenger_inside_3;
-			memoryPointsGetInGunner = "pos cargo LR";
-			memoryPointsGetInGunnerDir = "pos cargo LR dir";
-			gunnerName = $STR_A3_TURRETS_CARGOTURRET_L;
-			gunnerCompartments = Compartment2;
-			proxyIndex = 15;
-			isPersonTurret = true;
-			class TurnIn
-			{
-				limitsArrayTop[] =
-				{
-					{-5.9651,-65.8681},
-					{6.3442,-42.6425},
-					{4.0929,-7.8701},
-					{-2.3451,2.5708}
-				};
-				limitsArrayBottom[] =
-				{
-					{-44.4687,-70.9972},
-					{-23.5626,5.0429}
-				};
-			};
-		};
-		class CargoTurret_02: CargoTurret_01
-		{
-			gunnerName = $STR_A3_TURRETS_CARGOTURRET_R;
-			memoryPointsGetInGunner = "pos cargo RR";
-			memoryPointsGetInGunnerDir = "pos cargo RR dir";
-			proxyIndex = 16;
-			class TurnIn
-			{
-				limitsArrayTop[] =
-				{
-					{-9.815,-4.5301},
-					{-1.5719,-1.2185},
-					{4.505,16.3857},
-					{2.004,46.8344},
-					{-14.3588,76.1193},
-					{-21.8244,80.0}
-				};
-				limitsArrayBottom[] =
-				{
-					{-22.8074,-7.2107},
-					{-44.7521,10.6169},
-					{-44.8467,80.0}
-				};
-			};
-		};
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4
-	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
@@ -210,7 +112,7 @@ class O_E_Truck_02_F: Truck_02_base_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class O_E_Truck_02_transport_F: Truck_02_transport_base_F
+class O_E_Truck_02_transport_F: O_Truck_02_transport_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -316,13 +218,6 @@ class O_E_Truck_02_transport_F: Truck_02_transport_base_F
 		Separatist_01,1,
 		Separatist_02,1,
 		Separatist_03,1
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4
 	};
 	hiddenSelectionsTextures[] =
 	{

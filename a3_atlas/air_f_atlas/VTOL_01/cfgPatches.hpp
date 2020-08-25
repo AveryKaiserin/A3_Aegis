@@ -5,7 +5,12 @@ class CfgPatches
 		addonRootClass = A3_Atlas_Air_F_Atlas;
 		requiredAddons[] = {A3_Atlas_Air_F_Atlas};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // IDF
+            I_I_VTOL_01_infantry_F,
+            I_I_VTOL_01_vehicle_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

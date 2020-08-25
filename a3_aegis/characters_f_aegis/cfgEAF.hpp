@@ -1361,6 +1361,10 @@ class I_E_soldier_UGV_02_Demining_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Demining_F.jpg";
 };
+class I_E_Soldier_universal_F: I_E_Soldier_F
+{
+    scopeCurator = private;
+};
 // Arma 3 Aegis
 class I_E_Uniform_01_pilot_F: I_pilot_F
 {

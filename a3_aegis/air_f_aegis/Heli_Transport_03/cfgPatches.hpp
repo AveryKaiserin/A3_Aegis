@@ -9,7 +9,16 @@ class CfgPatches
 			A3_Air_F_Heli_Heli_Transport_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (Pacific)
+            B_T_Heli_Transport_03_F,
+            B_T_Heli_Transport_03_unarmed_F,
+
+            // NATO (Woodland)
+            B_W_Heli_Transport_03_F,
+            B_W_Heli_Transport_03_unarmed_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

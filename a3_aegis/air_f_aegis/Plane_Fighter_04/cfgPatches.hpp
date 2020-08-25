@@ -9,7 +9,12 @@ class CfgPatches
 			A3_Air_F_Jets_Plane_Fighter_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // LDF
+            I_Ejection_Seat_Plane_Fighter_04_F,
+            I_E_Plane_Fighter_04_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

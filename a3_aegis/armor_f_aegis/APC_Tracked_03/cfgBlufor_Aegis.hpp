@@ -502,9 +502,6 @@ class B_A_APC_tracked_03_cannon_tna_F: B_A_APC_tracked_03_cannon_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TWest;
 	faction = BLU_A_tna_F;
 	crew = B_A_crew_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -765,9 +762,6 @@ class B_A_APC_tracked_03_cannon_wdl_F: B_A_APC_tracked_03_cannon_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_APC_tracked_03_cannon_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TWest;
 	faction = BLU_A_wdl_F;
 	crew = B_A_crew_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};

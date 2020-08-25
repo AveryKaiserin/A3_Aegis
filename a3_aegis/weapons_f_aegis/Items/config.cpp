@@ -18,14 +18,12 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_B_ION_UavTerminal0;
-		model = "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
+		model = /*"\A3_Aegis\Weapons_F_Aegis\Items\UAV_controller_ION_F.p3d"*/ "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
 		picture = "\A3_Aegis\Weapons_F_Aegis\Items\Data\UI\icon_B_ION_UavTerminal_CA.paa";
-        hiddenSelections[] = {camo};
         hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Items\Data\UAV_controller_ION_CO.paa"};
 		class ItemInfo: ItemInfo
 		{
 			side = TWest;
-        	hiddenSelections[] = {camo};
 		};
 	};
 	class O_R_UavTerminal: UavTerminal_base
@@ -33,14 +31,12 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_O_R_UavTerminal0;
-		model = "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
+		model = /*"\A3_Aegis\Weapons_F_Aegis\Items\UAV_controller_RUS_F.p3d"*/ "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
 		picture = "\A3_Aegis\Weapons_F_Aegis\Items\Data\UI\icon_O_R_UavTerminal_CA.paa";
-        hiddenSelections[] = {camo};
-        hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Items\Data\UAV_controller_RUS_CO.paa"};
+        hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Items\Data\UAV_controller_RUkhk_CO.paa"};
 		class ItemInfo: ItemInfo
 		{
 			side = TEast;
-        	hiddenSelections[] = {camo};
 		};
 	};
 	class ItemSmartPhone: ItemCore

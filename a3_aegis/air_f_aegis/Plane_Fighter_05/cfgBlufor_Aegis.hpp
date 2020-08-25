@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Plane_Fighter_05_F: B_Plane_Fighter_05_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
@@ -109,6 +110,7 @@ class B_A_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_
 	faction = BLU_A_F;
 	crew = B_A_Fighter_Pilot_F;
 };
+// BLU_A_tna_F
 class B_A_Plane_Fighter_05_tna_F: B_A_Plane_Fighter_05_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
@@ -135,10 +137,28 @@ class B_A_Plane_Fighter_05_Stealth_tna_F: B_A_Plane_Fighter_05_Stealth_F
 };
 class B_A_Ejection_Seat_Plane_Fighter_05_tna_F: B_A_Ejection_Seat_Plane_Fighter_05_F
 {
+	class SimpleObject
+	{
+		eden = false;
+		animate[] = {};
+		hide[] =
+		{
+            zasleh,
+            "zadni svetlo",
+            "brzdove svetlo",
+            clan,
+            "podsvit pristroju",
+            poskozeni
+		};
+		verticalOffset = 0.002;
+		verticalOffsetWorld = 0;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
 	author = $STR_A3_A_AveryTheKitty;
 	faction = BLU_A_tna_F;
 	crew = B_A_Fighter_Pilot_tna_F;
 };
+// BLU_A_wdl_F
 class B_A_Plane_Fighter_05_wdl_F: B_A_Plane_Fighter_05_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
@@ -165,6 +185,23 @@ class B_A_Plane_Fighter_05_Stealth_wdl_F: B_A_Plane_Fighter_05_Stealth_F
 };
 class B_A_Ejection_Seat_Plane_Fighter_05_wdl_F: B_A_Ejection_Seat_Plane_Fighter_05_F
 {
+	class SimpleObject
+	{
+		eden = false;
+		animate[] = {};
+		hide[] =
+		{
+            zasleh,
+            "zadni svetlo",
+            "brzdove svetlo",
+            clan,
+            "podsvit pristroju",
+            poskozeni
+		};
+		verticalOffset = 0.002;
+		verticalOffsetWorld = 0;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
 	author = $STR_A3_A_AveryTheKitty;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Fighter_Pilot_wdl_F;

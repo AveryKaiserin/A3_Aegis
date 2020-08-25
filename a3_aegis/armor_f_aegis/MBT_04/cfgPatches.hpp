@@ -9,7 +9,13 @@
 			A3_Armor_F_Tank_MBT_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            O_R_MBT_04_cannon_ard_F,
+            O_R_MBT_04_cannon_F,
+            O_R_MBT_04_command_ard_F,
+            O_R_MBT_04_command_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

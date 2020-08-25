@@ -137,7 +137,8 @@ class B_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 			init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Heli_Light_01_recon_F.jpg";
-	scope = public;
+	scope = protected;
+    scopeCurator = private;
 	side = TWest;
 	faction = BLU_F;
 	crew = B_Helipilot_F;
@@ -146,4 +147,5 @@ class B_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 		Blufor,1,
 		Black,0
 	};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
 };

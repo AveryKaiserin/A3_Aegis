@@ -1,3 +1,4 @@
+// BLU_A_F
 class Box_A_NATO_Equip_F: Box_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -532,7 +533,7 @@ class B_A_supplyCrate_F: B_supplyCrate_F
 		bag_xx(B_Kitbag_rgr,2);
 	};
 };
-// NATO (Pacific, British)
+// BLU_A_tna_F
 class Box_A_NATO_Equip_tropic_F: Box_A_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -847,7 +848,7 @@ class B_A_supplyCrate_tropic_F: B_A_supplyCrate_F
 		bag_xx(B_Kitbag_tna_F,2);
 	};
 };
-// NATO (Woodland, British)
+// BLU_A_wdl_F
 class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;

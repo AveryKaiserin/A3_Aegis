@@ -11,7 +11,97 @@ class CfgPatches
 			A3_Weapons_F_Ammoboxes
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (Pacific)
+            B_T_supplyCrate_F,
+            Box_T_NATO_Ammo_F,
+            Box_T_NATO_AmmoOrd_F,
+            Box_T_NATO_AmmoVeh_F,
+            Box_T_NATO_Equip_F,
+            Box_T_NATO_Grenades_F,
+            Box_T_NATO_Support_F,
+            Box_T_NATO_Uniforms_F,
+            Box_T_NATO_WpsLaunch_F,
+
+            // CSAT (Pacific)
+            Box_T_CSAT_Equip_F,
+            Box_T_CSAT_Uniforms_F,
+            Box_T_East_AmmoOrd_F,
+            Box_T_East_AmmoVeh_F,
+            Box_T_East_Grenades_F,
+            Box_T_East_Support_F,
+            Box_T_East_WpsLaunch_F,
+            O_T_supplyCrate_F,
+
+            // Viper
+            V_supplyCrate_F,
+            V_T_supplyCrate_F,
+
+            // CSAT (African)
+            Box_A_East_Ammo_F,
+            Box_A_East_Wps_F,
+            Box_A_East_WpsLaunch_F,
+            O_A_supplyCrate_F,
+
+            // NATO (Woodland)
+            B_W_supplyCrate_F,
+            Box_W_NATO_Ammo_F,
+            Box_W_NATO_AmmoOrd_F,
+            Box_W_NATO_AmmoVeh_F,
+            Box_W_NATO_Equip_F,
+            Box_W_NATO_Grenades_F,
+            Box_W_NATO_Support_F,
+            Box_W_NATO_Uniforms_F,
+            Box_W_NATO_Wps_F,
+            Box_W_NATO_WpsLaunch_F,
+            Box_W_NATO_WpsSpecial_F,
+
+            // Russia
+            Box_RU_Ammo_F,
+            Box_RU_AmmoOrd_F,
+            Box_RU_AmmoVeh_F,
+            Box_RU_Equip_arid_F,
+            Box_RU_Equip_F,
+            Box_RU_Grenades_F,
+            Box_RU_Support_F,
+            Box_RU_Uniforms_arid_F,
+            Box_RU_Uniforms_F,
+            Box_RU_Wps_ard_F,
+            Box_RU_Wps_F,
+            Box_RU_WpsLaunch_F,
+            Box_RU_WpsSpecial_arid_F,
+            Box_RU_WpsSpecial_F,
+            O_R_supplyCrate_F,
+
+            // NATO (British)
+            B_A_supplyCrate_F,
+            B_A_supplyCrate_tropic_F,
+            B_A_supplyCrate_wdl_F,
+            Box_A_NATO_Ammo_F,
+            Box_A_NATO_Ammo_tropic_F,
+            Box_A_NATO_Ammo_wdl_F,
+            Box_A_NATO_AmmoOrd_F,
+            Box_A_NATO_AmmoVeh_F,
+            Box_A_NATO_Equip_F,
+            Box_A_NATO_Equip_tropic_F,
+            Box_A_NATO_Equip_wdl_F,
+            Box_A_NATO_Grenades_F,
+            Box_A_NATO_Support_F,
+            Box_A_NATO_Uniforms_F,
+            Box_A_NATO_Uniforms_tropic_F,
+            Box_A_NATO_Uniforms_wdl_F,
+            Box_A_NATO_Wps_F,
+            Box_A_NATO_Wps_tropic_F,
+            Box_A_NATO_Wps_wdl_F,
+            Box_A_NATO_WpsLaunch_F,
+            Box_A_NATO_WpsSpecial_F,
+            Box_A_NATO_WpsSpecial_tropic_F,
+            Box_A_NATO_WpsSpecial_wdl_F,
+
+            // ION
+            Box_ION_Equip_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

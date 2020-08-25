@@ -9,7 +9,43 @@ class CfgPatches
 			A3_Air_F_Heli_Heli_Transport_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (Pacific)
+            Land_Pod_Heli_Transport_04_ammo_ghex_F,
+            Land_Pod_Heli_Transport_04_bench_ghex_F,
+            Land_Pod_Heli_Transport_04_box_ghex_F,
+            Land_Pod_Heli_Transport_04_covered_ghex_F,
+            Land_Pod_Heli_Transport_04_fuel_ghex_F,
+            Land_Pod_Heli_Transport_04_medevac_ghex_F,
+            Land_Pod_Heli_Transport_04_repair_ghex_F,
+            O_T_Heli_Transport_04_ammo_F,
+            O_T_Heli_Transport_04_bench_F,
+            O_T_Heli_Transport_04_box_F,
+            O_T_Heli_Transport_04_covered_F,
+            O_T_Heli_Transport_04_F,
+            O_T_Heli_Transport_04_fuel_F,
+            O_T_Heli_Transport_04_medevac_F,
+            O_T_Heli_Transport_04_repair_F,
+
+            // Russia
+            O_R_Heli_Transport_04_ammo_ard_F,
+            O_R_Heli_Transport_04_ammo_F,
+            O_R_Heli_Transport_04_ard_F,
+            O_R_Heli_Transport_04_bench_ard_F,
+            O_R_Heli_Transport_04_bench_F,
+            O_R_Heli_Transport_04_box_ard_F,
+            O_R_Heli_Transport_04_box_F,
+            O_R_Heli_Transport_04_covered_ard_F,
+            O_R_Heli_Transport_04_covered_F,
+            O_R_Heli_Transport_04_F,
+            O_R_Heli_Transport_04_fuel_ard_F,
+            O_R_Heli_Transport_04_fuel_F,
+            O_R_Heli_Transport_04_medevac_ard_F,
+            O_R_Heli_Transport_04_medevac_F,
+            O_R_Heli_Transport_04_repair_ard_F,
+            O_R_Heli_Transport_04_repair_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

@@ -10,7 +10,16 @@ class CfgPatches
 			A3_Boat_F_Boat_Armed_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Russia
+            O_R_Boat_Armed_01_hmg_ard_F,
+            O_R_Boat_Armed_01_hmg_F,
+
+            // NATO (British)
+            B_A_Boat_Armed_01_hmg_F,
+            B_A_Boat_Armed_01_hmg_tna_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

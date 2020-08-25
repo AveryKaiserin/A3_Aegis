@@ -12,5 +12,6 @@ class CfgVehicles
 	#include "cfgChKDZ.hpp"             // Separatists
 	#include "cfgTKM.hpp"               // Insurgents
 	#include "cfgMilitia.hpp"           // Patriots
+	//#include "cfgRebels.hpp"            // Rebels
 };
 #include "cfgGroups.hpp"

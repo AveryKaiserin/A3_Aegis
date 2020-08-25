@@ -361,7 +361,7 @@ class O_R_Plane_Fighter_02_Stealth_F: O_Plane_Fighter_02_Stealth_F
 		EjectionSeatClass = O_R_Ejection_Seat_Plane_Fighter_02_F;
 	};
 };
-class O_R_Ejection_Seat_Plane_Fighter_02_F: O_R_Plane_Fighter_02_F
+class O_R_Ejection_Seat_Plane_Fighter_02_F: Ejection_Seat_Plane_Fighter_02_base_F
 {
 	class SimpleObject
 	{
@@ -387,7 +387,7 @@ class O_R_Ejection_Seat_Plane_Fighter_02_F: O_R_Plane_Fighter_02_F
 	crew = O_R_Fighter_Pilot_F;
 };
 // OPF_R_ard_F
-class O_R_Plane_Fighter_02_ard_F: O_Plane_Fighter_02_F
+class O_R_Plane_Fighter_02_ard_F: O_R_Plane_Fighter_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -546,9 +546,6 @@ class O_R_Plane_Fighter_02_ard_F: O_Plane_Fighter_02_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Plane_Fighter_02_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_ard_F};
@@ -716,9 +713,6 @@ class O_R_Plane_Fighter_02_Stealth_ard_F: O_R_Plane_Fighter_02_Stealth_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Plane_Fighter_02_Stealth_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_ard_F};
@@ -747,8 +741,6 @@ class O_R_Ejection_Seat_Plane_Fighter_02_ard_F: O_R_Ejection_Seat_Plane_Fighter_
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_Fighter_Pilot_ard_F;
 };

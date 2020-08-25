@@ -9,7 +9,14 @@ class CfgPatches
 			A3_Air_F_Jets_UAV_05
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (Pacific)
+            B_T_UAV_05_F,
+
+            // NATO (Woodland)
+            B_W_UAV_05_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

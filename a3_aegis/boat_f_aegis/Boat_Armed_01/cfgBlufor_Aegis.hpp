@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -80,6 +81,7 @@ class B_A_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 		"\A3\Boat_F\Boat_Armed_01\Data\Boat_Armed_01_crows_BLUFOR_CO.paa"
 	};
 };
+// BLU_A_tna_F
 class B_A_Boat_Armed_01_hmg_tna_F: B_A_Boat_Armed_01_hmg_F
 {
 	author = $STR_A3_A_AveryTheKitty;

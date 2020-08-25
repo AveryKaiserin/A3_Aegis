@@ -1,4 +1,4 @@
-// Arma 3 Tac-Ops
+// Arma 3 Tacops
 class O_A_soldier_base_F: O_officer_F
 {
     editorSubcategory = EdSubcat_Personnel;

@@ -2,8 +2,8 @@ class StageTI
 {
 	texture="a3\data_f\destruct_ti_ca.tga";
 };
-ambient[]={0.30000001,0.30000001,0.30000001,1};
-diffuse[]={0.30000001,0.30000001,0.30000001,1};
+ambient[]={0.5,0.5,0.5,1};
+diffuse[]={0.4,0.4,0.4,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,0};
 specular[]={0.0099999998,0.0099999998,0.0099999998,1};

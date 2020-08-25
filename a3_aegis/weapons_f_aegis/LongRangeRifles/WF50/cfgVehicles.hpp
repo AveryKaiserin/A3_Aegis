@@ -1,8 +1,8 @@
 #define WEAPON_HOLDER(a,b,c,d) \
 	class Weapon_##a##: Weapon_Base_F \
 	{ \
-		scope = public; \
-		scopeCurator = public; \
+		scope = protected; \
+		scopeCurator = private; \
 		displayName = ##b##; \
 		author = $STR_A3_A_AveryTheKitty_and_Skaveria; \
 		editorCategory = EdCat_Weapons; \

@@ -126,9 +126,6 @@ class B_A_MRAP_03_tna_F: B_A_MRAP_03_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_A_Soldier_tna_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};
@@ -164,9 +161,6 @@ class B_A_MRAP_03_hmg_tna_F: B_A_MRAP_03_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_hmg_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_A_Soldier_tna_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};
@@ -202,9 +196,6 @@ class B_A_MRAP_03_gmg_tna_F: B_A_MRAP_03_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_gmg_tna_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_tna_F;
     crew = B_A_Soldier_tna_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};
@@ -241,9 +232,6 @@ class B_A_MRAP_03_wdl_F: B_A_MRAP_03_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_A_Soldier_wdl_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};
@@ -279,9 +267,6 @@ class B_A_MRAP_03_hmg_wdl_F: B_A_MRAP_03_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_hmg_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_A_Soldier_wdl_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};
@@ -317,9 +302,6 @@ class B_A_MRAP_03_gmg_wdl_F: B_A_MRAP_03_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_gmg_wdl_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
     faction = BLU_A_wdl_F;
     crew = B_A_Soldier_wdl_F;
     typicalCargo[] = {B_A_Soldier_Lite_F};

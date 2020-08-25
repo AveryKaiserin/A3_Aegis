@@ -18,8 +18,8 @@
 
 class CfgVehicles
 {
-	// editor weapons
 	class Item_Base_F;
-	ITEM_HOLDER(B_ION_UavTerminal,"UAV Terminal [ION]",BLU_ION_F)
-	ITEM_HOLDER(O_R_UavTerminal,"UAV Terminal [Russia]",OPF_R_F)
+    // Arma 3 Aegis
+	ITEM_HOLDER(B_ION_UavTerminal,$STR_A3_A_CfgWeapons_B_ION_UavTerminal0,BLU_ION_F)
+	ITEM_HOLDER(O_R_UavTerminal,$STR_A3_A_CfgWeapons_O_R_UavTerminal0,OPF_R_F)
 };

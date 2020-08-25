@@ -503,9 +503,6 @@ class O_R_Heli_Light_02_dynamicLoadout_ard_F: O_R_Heli_Light_02_dynamicLoadout_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Light_02_dynamicLoadout_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_helipilot_ard_F};
@@ -637,9 +634,6 @@ class O_R_Heli_Light_02_unarmed_ard_F: O_R_Heli_Light_02_unarmed_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Light_02_unarmed_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_helipilot_ard_F};

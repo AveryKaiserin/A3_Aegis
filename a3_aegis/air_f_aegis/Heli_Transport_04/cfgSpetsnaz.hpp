@@ -1984,9 +1984,6 @@ class O_R_Heli_Transport_04_ard_F: O_R_Heli_Transport_04_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -2188,9 +2185,6 @@ class O_R_Heli_Transport_04_ammo_ard_F: O_R_Heli_Transport_04_ammo_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_ammo_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -2394,9 +2388,6 @@ class O_R_Heli_Transport_04_bench_ard_F: O_R_Heli_Transport_04_bench_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_bench_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -2606,9 +2597,6 @@ class O_R_Heli_Transport_04_box_ard_F: O_R_Heli_Transport_04_box_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_box_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -2823,9 +2811,6 @@ class O_R_Heli_Transport_04_covered_ard_F: O_R_Heli_Transport_04_covered_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_covered_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -3029,9 +3014,6 @@ class O_R_Heli_Transport_04_fuel_ard_F: O_R_Heli_Transport_04_fuel_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_fuel_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -3238,9 +3220,6 @@ class O_R_Heli_Transport_04_medevac_ard_F: O_R_Heli_Transport_04_medevac_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_medevac_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};
@@ -3442,9 +3421,6 @@ class O_R_Heli_Transport_04_repair_ard_F: O_R_Heli_Transport_04_repair_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Transport_04_repair_ard_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	side = TEast;
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_Soldier_lite_ard_F};

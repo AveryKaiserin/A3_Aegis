@@ -63,7 +63,7 @@ class O_R_Mortar_01_Weapon_F: B_Mortar_01_weapon_F
 		assembleTo = O_R_Mortar_01_F;
 	};
 };
-// Russia (Arid)
+// OPF_R_ard_F
 class O_R_Mortar_01_ard_F: O_Mortar_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;

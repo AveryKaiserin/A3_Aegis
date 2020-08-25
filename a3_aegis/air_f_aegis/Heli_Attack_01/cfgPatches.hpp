@@ -9,7 +9,19 @@ class CfgPatches
 			A3_Air_F_Beta_Heli_Attack_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (Pacific)
+            B_T_Heli_Attack_01_dynamicLoadout_F,
+
+            // NATO (Woodland)
+            B_W_Heli_Attack_01_dynamicLoadout_F,
+
+            // NATO (British)
+            B_A_Heli_Attack_01_dynamicLoadout_F,
+            B_A_Heli_Attack_01_dynamicLoadout_tna_F,
+            B_A_Heli_Attack_01_dynamicLoadout_wdl_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

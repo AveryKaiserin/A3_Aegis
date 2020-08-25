@@ -182,8 +182,6 @@ class B_A_LSV_01_armed_tna_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_armed_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -225,8 +223,6 @@ class B_A_LSV_01_AT_tna_F: B_A_LSV_01_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_AT_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -270,8 +266,6 @@ class B_A_LSV_01_unarmed_tna_F: B_A_LSV_01_unarmed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_unarmed_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -313,8 +307,6 @@ class B_A_LSV_01_light_tna_F: B_A_LSV_01_light_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_light_tna_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] = {B_A_Soldier_tna_F};
@@ -357,8 +349,6 @@ class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_armed_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Soldier_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};
@@ -415,8 +405,6 @@ class B_A_LSV_01_AT_wdl_F: B_A_LSV_01_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_AT_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Soldier_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};
@@ -475,8 +463,6 @@ class B_A_LSV_01_unarmed_wdl_F: B_A_LSV_01_unarmed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_unarmed_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Soldier_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};
@@ -533,8 +519,6 @@ class B_A_LSV_01_light_wdl_F: B_A_LSV_01_light_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_LSV_01_light_wdl_F.jpg";
-	scope = public;
-	scopeCurator = public;
 	faction = BLU_A_wdl_F;
 	crew = B_A_Soldier_wdl_F;
 	typicalCargo[] = {B_A_Soldier_wdl_F};

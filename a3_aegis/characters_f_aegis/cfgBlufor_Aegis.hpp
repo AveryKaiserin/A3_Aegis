@@ -1,4 +1,4 @@
-// NATO (British)
+// BLU_A_F
 class B_A_CBRN_Man_Oversuit_01_MTP_F: B_CBRN_Man_Oversuit_01_MTP_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3052,18 +3052,39 @@ class B_A_ghillie_ard_F: B_ghillie_ard_F
     scopeCurator = public;
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
+    magazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    /*
 	magazines[] =
 	{
 		mag_6(5Rnd_127x99_Mag),
@@ -3082,6 +3103,7 @@ class B_A_ghillie_ard_F: B_ghillie_ard_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
+    */
 	items[] =
 	{
 		FirstAidKit,
@@ -3122,18 +3144,39 @@ class B_A_ghillie_lsh_F: B_ghillie_lsh_F
     scopeCurator = public;
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
+    magazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    /*
 	magazines[] =
 	{
 		mag_6(5Rnd_127x99_Mag),
@@ -3152,6 +3195,7 @@ class B_A_ghillie_lsh_F: B_ghillie_lsh_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
+    */
 	items[] =
 	{
 		FirstAidKit,
@@ -3192,18 +3236,39 @@ class B_A_ghillie_sard_F: B_ghillie_sard_F
     scopeCurator = public;
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_camo_LRPS_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
+    magazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    /*
 	magazines[] =
 	{
 		mag_6(5Rnd_127x99_Mag),
@@ -3222,6 +3287,7 @@ class B_A_ghillie_sard_F: B_ghillie_sard_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
+    */
 	items[] =
 	{
 		FirstAidKit,
@@ -3507,6 +3573,7 @@ class B_A_Fighter_Pilot_F: B_A_Pilot_F
         DefaultManLinkedItems
     };
 };
+// BLU_A_tna_F
 class B_A_Soldier_A_tna_F: B_A_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -6114,18 +6181,39 @@ class B_A_ghillie_tna_F: B_ghillie_base_F
 	};
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
-        hgun_G17_khaki_snds_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_tna_LRPS_F,
+		hgun_G17_khaki_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
-        hgun_G17_khaki_snds_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_tna_LRPS_F,
+		hgun_G17_khaki_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
+    magazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    /*
 	magazines[] =
 	{
 		mag_6(5Rnd_127x99_Mag),
@@ -6144,6 +6232,7 @@ class B_A_ghillie_tna_F: B_ghillie_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
+    */
 	items[] =
 	{
 		FirstAidKit,
@@ -6296,6 +6385,7 @@ class B_A_Fighter_Pilot_tna_F: B_A_Pilot_tna_F
         DefaultManLinkedItems
     };
 };
+// BLU_A_wdl_F
 class B_A_Soldier_A_wdl_F: B_A_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -8853,18 +8943,39 @@ class B_A_ghillie_wdl_F: B_ghillie_base_F
 	};
 	weapons[] =
 	{
-		srifle_WF50_LRPS_F,
-        hgun_G17_black_snds_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_LRPS_F,
+		hgun_G17_black_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_WF50_LRPS_F,
-        hgun_G17_black_snds_F,
+		//srifle_WF50_LRPS_F,
+        srifle_LRR_LRPS_F,
+		hgun_G17_black_snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
+    magazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(7Rnd_408_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    /*
 	magazines[] =
 	{
 		mag_6(5Rnd_127x99_Mag),
@@ -8883,6 +8994,7 @@ class B_A_ghillie_wdl_F: B_ghillie_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
+    */
 	items[] =
 	{
 		FirstAidKit,

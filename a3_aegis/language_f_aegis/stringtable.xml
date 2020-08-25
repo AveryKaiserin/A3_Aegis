@@ -274,6 +274,23 @@
 				<Japanese>A-149 Orzeł</Japanese>
 				<Turkish>A-149 Orzeł</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_I_E_Plane_Fighter_04_Cluster_F0">
+				<Original>A-149 Orzeł (Cluster)</Original>
+				<Chinese>A-149 Orzeł (集束)</Chinese>
+				<French>A-149 Orzeł (sous-munitions)</French>
+				<Spanish>A-149 Orzeł (racimo)</Spanish>
+				<Italian>A-149 Orzeł (munizioni a grappolo)</Italian>
+				<Polish>A-149 Orzeł (kasetowy)</Polish>
+				<Russian>A-149 Orzeł (кассетный боеприпас)</Russian>
+				<German>A-149 Orzeł (Cluster)</German>
+				<Czech>A-149 Orzeł (kazeta)</Czech>
+				<English>A-149 Orzeł (Cluster)</English>
+				<Portuguese>A-149 Orzeł (fragmentação)</Portuguese>
+				<Korean>A-149 Orzeł (더미)</Korean>
+				<Chinesesimp>A-149 Orzeł (集束)</Chinesesimp>
+				<Japanese>A-149 Orzeł（クラスター）</Japanese>
+				<Turkish>A-149 Orzeł (Parça Tesirli)</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_UAV_01_F0">
 				<Original>Shukhov AR-2</Original>
 				<Chinese>Shukhov AR-2</Chinese>
@@ -767,6 +784,23 @@
 					<Chinesesimp>F-38C Peregrine (隐形)</Chinesesimp>
 					<Japanese>F-38C Peregrine（ステルス）</Japanese>
 					<Turkish>F-38C Peregrine (gizlilik)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_Cluster_F0">
+					<Original>F-38C Peregrine (Cluster)</Original>
+					<Chinese>F-38C Peregrine (集束)</Chinese>
+					<French>F-38C Peregrine (sous-munitions)</French>
+					<Spanish>F-38C Peregrine (racimo)</Spanish>
+					<Italian>F-38C Peregrine (munizioni a grappolo)</Italian>
+					<Polish>F-38C Peregrine (kasetowy)</Polish>
+					<Russian>F-38C Peregrine (кассетный боеприпас)</Russian>
+					<German>F-38C Peregrine (Cluster)</German>
+					<Czech>F-38C Peregrine (kazeta)</Czech>
+					<English>F-38C Peregrine (Cluster)</English>
+					<Portuguese>F-38C Peregrine (fragmentação)</Portuguese>
+					<Korean>F-38C Peregrine (더미)</Korean>
+					<Chinesesimp>F-38C Peregrine (集束)</Chinesesimp>
+					<Japanese>F-38C Peregrine（クラスター）</Japanese>
+					<Turkish>F-38C Peregrine (Parça Tesirli)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Plane_Transport_01_base_F0">
 					<Original>C-192 Samson</Original>
@@ -1992,7 +2026,7 @@
 					<Japanese>戦闘用ゴーグル（黒）</Japanese>
 					<Turkish>Savaş Gözlüğü (Siyah)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgGlasses_G_RU_Diving0">
+				<Key ID="STR_A3_A_CfgGlasses_G_O_R_Diving0">
 					<Original>Diving Goggles [Russia]</Original>
 					<Chinese>潛水目鏡（俄羅斯）</Chinese>
 					<French>Lunettes de plongée [Russie]</French>
@@ -6271,6 +6305,23 @@
 					<Japanese>AveryTheKitty ＆ BOOLY</Japanese>
 					<Turkish>AveryTheKitty ve BOOLY</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Garkain">
+					<Original>AveryTheKitty and Garkain</Original>
+					<Chinese>AveryTheKitty 克與 Garkain</Chinese>
+					<French>AveryTheKitty et Garkain</French>
+					<Spanish>AveryTheKitty y Garkain</Spanish>
+					<Italian>AveryTheKitty e Garkain</Italian>
+					<Polish>AveryTheKitty i Garkain</Polish>
+					<Russian>AveryTheKitty и Garkain</Russian>
+					<German>AveryTheKitty und Garkain</German>
+					<Czech>AveryTheKitty a Garkain</Czech>
+					<English>AveryTheKitty and Garkain</English>
+					<Portuguese>AveryTheKitty e Garkain</Portuguese>
+					<Korean>AveryTheKitty Garkain</Korean>
+					<Chinesesimp>AveryTheKitty 和 Garkain</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Garkain</Japanese>
+					<Turkish>AveryTheKitty ve Garkain</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_AveryTheKitty_and_Maxim_Koptelov">
 					<Original>AveryTheKitty and Maxim Koptelov</Original>
 					<Chinese>AveryTheKitty 克與 Maxim Koptelov</Chinese>
@@ -6704,21 +6755,21 @@
 		</Container>
 		<Container name="ContentLicensing">
 			<Key ID="STR_A3_A_CfgMods_Aegis_overview">
-				<Original>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Original>
-				<Chinese>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Chinese>
-				<French>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</French>
-				<Spanish>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Spanish>
-				<Italian>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Italian>
-				<Polish>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Polish>
-				<Russian>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Russian>
-				<German>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</German>
-				<Czech>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Czech>
-				<English>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</English>
-				<Portuguese>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Portuguese>
-				<Korean>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Korean>
-				<Chinesesimp>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Chinesesimp>
-				<Japanese>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Japanese>
-				<Turkish>Arma 3 Aegis is an unofficial expansion centered around the vanilla game's 2035 setting. Along with new factions, weapons, vehicles, and gear, Aegis provides a platform update that overhauls several weapons and vehicles to make them more authentic to their real-life counterparts, while remaining loyal to their Armaverse depiction.</Turkish>
+				<Original>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Original>
+				<Chinese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Chinese>
+				<French>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</French>
+				<Spanish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Spanish>
+				<Italian>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Italian>
+				<Polish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Polish>
+				<Russian>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Russian>
+				<German>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</German>
+				<Czech>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Czech>
+				<English>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</English>
+				<Portuguese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Portuguese>
+				<Korean>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Korean>
+				<Chinesesimp>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Chinesesimp>
+				<Japanese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Japanese>
+				<Turkish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMods_Aegis_name">
 				<Original>Arma 3 Aegis</Original>
@@ -12693,7 +12744,6 @@
 				<Turkish>kadir</Turkish>
 			</Key>
 		</Container>
-		<!--TODO 11/12-->
 		<Container name="Weapons_F">
 			<Container name="Accessories">
 				<Container name="DescriptionShort">
@@ -13332,8 +13382,6 @@
 					<Turkish>Lazer İşaretleyici (Gri)</Turkish>
 				</Key>
 			</Container>
-			<Container name="Explosives">
-			</Container>
 			<Container name="Dynamic_Loadout">
 				<Key ID="STR_A3_A_CfgMagazines_PylonRack_7Rnd_Rocket_50mm0">
 					<Original>S-5 7x</Original>
@@ -13795,23 +13843,39 @@
 				</Container>
 				<Container name="DisplayName">
 					<Key ID="STR_A3_A_CfgWeapons_srifle_WF50_F0">
-						<Original>Warfare-50 12.7 mm</Original>
-						<Chinese>Warfare-50 12.7 mm</Chinese>
-						<French>Warfare-50 12,7 mm</French>
-						<Spanish>Warfare-50 12,7 mm</Spanish>
-						<Italian>Warfare-50 12,7 mm</Italian>
-						<Polish>Warfare-50 12,7 mm</Polish>
-						<Russian>Warfare-50, 12,7 мм</Russian>
-						<German>Warfare-50 12,7 mm</German>
-						<Czech>Warfare-50 12,7 mm</Czech>
-						<English>Warfare-50 12.7 mm</English>
-						<Portuguese>Warfare-50 12.7 mm</Portuguese>
-						<Korean>Warfare-50 12.7mm</Korean>
-						<Chinesesimp>Warfare-50 12.7 毫米</Chinesesimp>
-						<Japanese>Warfare-50 12.7 mm</Japanese>
-						<Turkish>Warfare-50 12.7 mm</Turkish>
+						<Original>Warfare-50 12.7 mm (WIP: DO NOT USE)</Original>
+						<Chinese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Chinese>
+						<French>Warfare-50 12,7 mm (WIP: DO NOT USE)</French>
+						<Spanish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Spanish>
+						<Italian>Warfare-50 12,7 mm (WIP: DO NOT USE)</Italian>
+						<Polish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Polish>
+						<Russian>Warfare-50, 12,7 мм (WIP: DO NOT USE)</Russian>
+						<German>Warfare-50 12,7 mm (WIP: DO NOT USE)</German>
+						<Czech>Warfare-50 12,7 mm (WIP: DO NOT USE)</Czech>
+						<English>Warfare-50 12.7 mm (WIP: DO NOT USE)</English>
+						<Portuguese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Portuguese>
+						<Korean>Warfare-50 12.7mm (WIP: DO NOT USE)</Korean>
+						<Chinesesimp>Warfare-50 12.7 毫米 (WIP: DO NOT USE)</Chinesesimp>
+						<Japanese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Japanese>
+						<Turkish>Warfare-50 12.7 mm (WIP: DO NOT USE)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_srifle_WF50_camo_F0">
+						<Original>Warfare-50 12.7 mm (WIP: DO NOT USE)</Original>
+						<Chinese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Chinese>
+						<French>Warfare-50 12,7 mm (WIP: DO NOT USE)</French>
+						<Spanish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Spanish>
+						<Italian>Warfare-50 12,7 mm (WIP: DO NOT USE)</Italian>
+						<Polish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Polish>
+						<Russian>Warfare-50, 12,7 мм (WIP: DO NOT USE)</Russian>
+						<German>Warfare-50 12,7 mm (WIP: DO NOT USE)</German>
+						<Czech>Warfare-50 12,7 mm (WIP: DO NOT USE)</Czech>
+						<English>Warfare-50 12.7 mm (WIP: DO NOT USE)</English>
+						<Portuguese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Portuguese>
+						<Korean>Warfare-50 12.7mm (WIP: DO NOT USE)</Korean>
+						<Chinesesimp>Warfare-50 12.7 毫米 (WIP: DO NOT USE)</Chinesesimp>
+						<Japanese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Japanese>
+						<Turkish>Warfare-50 12.7 mm (WIP: DO NOT USE)</Turkish>
+                        <!--
 						<Original>Warfare-50 12.7 mm (Camo)</Original>
 						<Chinese>Warfare-50 12.7 mm（迷彩型）</Chinese>
 						<French>Warfare-50 12,7 mm (Camo)</French>
@@ -13827,8 +13891,25 @@
 						<Chinesesimp>Warfare-50 12.7 毫米（迷彩）</Chinesesimp>
 						<Japanese>Warfare-50 12.7 mm（カモフラ）</Japanese>
 						<Turkish>Warfare-50 12.7 mm (Kamuflaj)</Turkish>
+                        -->
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_srifle_WF50_tna_F0">
+						<Original>Warfare-50 12.7 mm (WIP: DO NOT USE)</Original>
+						<Chinese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Chinese>
+						<French>Warfare-50 12,7 mm (WIP: DO NOT USE)</French>
+						<Spanish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Spanish>
+						<Italian>Warfare-50 12,7 mm (WIP: DO NOT USE)</Italian>
+						<Polish>Warfare-50 12,7 mm (WIP: DO NOT USE)</Polish>
+						<Russian>Warfare-50, 12,7 мм (WIP: DO NOT USE)</Russian>
+						<German>Warfare-50 12,7 mm (WIP: DO NOT USE)</German>
+						<Czech>Warfare-50 12,7 mm (WIP: DO NOT USE)</Czech>
+						<English>Warfare-50 12.7 mm (WIP: DO NOT USE)</English>
+						<Portuguese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Portuguese>
+						<Korean>Warfare-50 12.7mm (WIP: DO NOT USE)</Korean>
+						<Chinesesimp>Warfare-50 12.7 毫米 (WIP: DO NOT USE)</Chinesesimp>
+						<Japanese>Warfare-50 12.7 mm (WIP: DO NOT USE)</Japanese>
+						<Turkish>Warfare-50 12.7 mm (WIP: DO NOT USE)</Turkish>
+                        <!--
 						<Original>Warfare-50 12.7 mm (Tropic)</Original>
 						<Chinese>Warfare-50 12.7 mm（熱帶）</Chinese>
 						<French>Warfare-50 12,7 mm (tropiques)</French>
@@ -13844,6 +13925,7 @@
 						<Chinesesimp>Warfare-50 12.7 毫米（热带）</Chinesesimp>
 						<Japanese>Warfare-50 12.7 mm（熱帯）</Japanese>
 						<Turkish>Warfare-50 12.7 mm (Tropik)</Turkish>
+                        -->
 					</Key>
 				</Container>
 				<Container name="Library">

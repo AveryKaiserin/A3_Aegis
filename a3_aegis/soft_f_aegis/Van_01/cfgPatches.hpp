@@ -9,7 +9,11 @@ class CfgPatches
 			A3_Soft_F_Gamma_Van_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Syndikat
+            I_C_Van_01_fuel_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

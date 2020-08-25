@@ -289,9 +289,9 @@ class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_
                     {
                         PylonRack_1Rnd_Missile_AA_03_F,
                         PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonMissile_1Rnd_BombCluster_02_F,
+                        PylonMissile_1Rnd_BombCluster_02_cap_F,
                         PylonWeapon_300Rnd_20mm_shells,
-                        PylonMissile_1Rnd_BombCluster_02_F,
+                        PylonMissile_1Rnd_BombCluster_02_cap_F,
                         PylonRack_20Rnd_Rocket_03_HE_F,
                         PylonRack_1Rnd_Missile_AA_03_F
                     };

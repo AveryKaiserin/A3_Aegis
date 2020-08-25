@@ -21,5 +21,5 @@ class CfgVehicles
 	// Arma 3
 	class Item_Base_F;
     // Arma 3 Police
-	ITEM_HOLDER(I_P_UavTerminal,"UAV Terminal [Police]",IND_P_F)
+	ITEM_HOLDER(I_P_UavTerminal,$STR_A3_P_CfgWeapons_I_P_UavTerminal0,IND_P_F)
 };

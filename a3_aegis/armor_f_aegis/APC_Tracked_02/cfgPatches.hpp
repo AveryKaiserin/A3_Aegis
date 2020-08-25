@@ -9,7 +9,19 @@
 			A3_Armor_F_Beta_APC_Tracked_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (African)
+            O_A_APC_Tracked_02_cannon_F,
+
+            // Russia
+            O_R_APC_Tracked_02_AA_ard_F,
+            O_R_APC_Tracked_02_AA_F,
+            O_R_APC_Tracked_02_cannon_ard_F,
+            O_R_APC_Tracked_02_cannon_F,
+            O_R_APC_Tracked_02_medical_ard_F,
+            O_R_APC_Tracked_02_medical_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

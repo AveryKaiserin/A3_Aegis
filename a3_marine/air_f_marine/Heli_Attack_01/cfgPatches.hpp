@@ -9,7 +9,11 @@ class CfgPatches
 			A3_Marine_Air_F_Marine
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // USMC
+            B_USMC_Heli_Attack_01_dynamicLoadout_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

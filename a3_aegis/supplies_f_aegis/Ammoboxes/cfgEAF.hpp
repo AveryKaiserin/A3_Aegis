@@ -1,4 +1,4 @@
-// Arma 3 Contact
+// Arma 3 Enoch
 class Box_EAF_Equip_F: Box_AAF_Equip_F
 {
     class TransportItems

@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_SDV_01_F: SDV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -82,6 +83,7 @@ class B_A_SDV_01_F: SDV_01_base_F
 	hiddenSelectionsTextures[] = {"\A3\Boat_F_Beta\SDV_01\Data\SDV_ext_CO.paa"};
 	textureList[] = {Blu,1};
 };
+// BLU_A_tna_F
 class B_A_SDV_01_tna_F: B_A_SDV_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;

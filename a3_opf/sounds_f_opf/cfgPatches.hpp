@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Opf_Sounds_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Opposing Forces - Sound Effects";
+		name = "Arma 3 Aegis Opposing Forces Addon - Sound Effects";
 		url = "";
 		requiredAddons[] =
 		{

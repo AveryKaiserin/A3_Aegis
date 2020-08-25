@@ -106,7 +106,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Skaveria;
 		baseWeapon = srifle_WF50_F;
-		scope = public;
+		scope = protected;
 		model = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\WF50\WF50_F.p3d";
 		displayName = $STR_A3_A_CfgWeapons_srifle_WF50_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\WF50\Data\UI\icon_srifle_WF50_F_X_CA.paa";
@@ -142,7 +142,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Skaveria;
 		baseWeapon = srifle_WF50_camo_F;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_srifle_WF50_camo_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\WF50\Data\UI\icon_srifle_WF50_camo_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\WF50\Data\WF50_BLUFOR_CO.paa"};

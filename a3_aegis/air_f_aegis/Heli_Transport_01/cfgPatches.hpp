@@ -10,7 +10,19 @@ class CfgPatches
 			A3_Air_F_Exp_Heli_Transport_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO
+            B_Heli_Transport_01_medevac_F,
+            
+            // NATO (Pacific)
+            B_T_Heli_Transport_01_F,
+            B_T_Heli_Transport_01_medevac_F,
+
+            // NATO (Woodland)
+            B_W_Heli_Transport_01_F,
+            B_W_Heli_Transport_01_medevac_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

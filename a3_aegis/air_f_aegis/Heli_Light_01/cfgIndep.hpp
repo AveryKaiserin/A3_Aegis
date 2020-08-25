@@ -451,7 +451,8 @@ class I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 			init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Light_01_recon_F.jpg";
-	scope = public;
+	scope = protected;
+    scopeCurator = private;
 	forceInGarage = true;
 	side = TGuerrila;
 	faction = IND_F;
