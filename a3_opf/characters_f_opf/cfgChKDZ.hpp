@@ -1,5 +1,6 @@
 // Arma 3
 class O_G_Soldier_SL_F;
+class O_G_Soldier_LAT_F;
 // Arma 3 Enoch
 class O_R_Gorka_base_F;
 class O_R_Gorka_F: O_R_Gorka_base_F
@@ -42,8 +43,7 @@ class O_E_Gorka_summer_F: O_R_Gorka_F
 class O_E_Uniform_01_taiga_F: O_G_Soldier_SL_F
 {
 	scope = protected;
-	side = TEast;
-	faction = OPF_E_F;
+    scopeCurator = private;
 	modelSides[] =
     {
         TEast,
@@ -61,6 +61,25 @@ class O_E_Uniform_01_taiga_F: O_G_Soldier_SL_F
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUtaiga_CO.paa",
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_taiga_2_CO.paa"
 	};
+};
+class O_E_Uniform_01_arid_F: O_E_Uniform_01_taiga_F
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_E_Uniform_01_arid_F;
+	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa"};
+};
+class O_E_Uniform_01_sweater_F: O_G_Soldier_LAT_F
+{
+	scope = protected;
+    scopeCurator = private;
+	modelSides[] =
+    {
+        TEast,
+        TCivilian
+    };
+	uniformClass = U_O_E_Uniform_01_sweater_F;
+	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_sweater_CO.paa"};
 };
 class O_E_Soldier_Base_F: O_E_Man_Base_F
 {
@@ -248,7 +267,7 @@ class O_E_Soldier_3_F: O_E_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
 	backpack = B_FieldPack_green_OEMedic_F;
 	linkedItems[] = 
 	{
@@ -734,7 +753,7 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Partisan";
-	uniformClass = U_O_R_Gorka_01_F;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
 	linkedItems[] = 
 	{
 		V_TacChestRig_oli_F,
@@ -803,6 +822,50 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
         H_FakeHeadgear_F,2
     };
 };
+class O_E_Crew_F: O_E_Soldier_Base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
+	linkedItems[] = 
+	{
+		V_BandollierB_taiga_F,
+		H_Tank_black_F,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		V_BandollierB_taiga_F,
+		H_Tank_black_F,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade)
+	};
+	respawnMagazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade)
+	};
+	camouflage = 1.6;
+    cost = 93000;
+	role = Crewman;
+};
 class O_E_Soldier_universal_F: O_E_Soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -818,6 +881,7 @@ class O_E_Soldier_universal_F: O_E_Soldier_1_F
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
 	scope = protected;
+    scopeCurator = private;
 	displayName = $STR_A3_CfgVehicles_b_soldier_universal_f_displayName;
 	attendant = true;
 	engineer = true;

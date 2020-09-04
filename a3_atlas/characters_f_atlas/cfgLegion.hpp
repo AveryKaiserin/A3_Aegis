@@ -95,17 +95,344 @@ class B_L_Soldier_A_F: B_L_Soldier_base_F
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_12(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_12(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
+	};
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Soldier_AAR_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAA_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_O_SOLDIERU_AAR_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Kitbag_sgg_BLAAR_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Support_AMG_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_AMG_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_support_AMG_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_HMG_01_support_grn_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Support_AMort_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_AMort_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_support_AMort_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Mortar_01_support_grn_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Soldier_AAA_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAA_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_AAA_F0;
+    uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Carryall_green_BLAAA_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Soldier_AAT_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_AAT_F0;
+    uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Carryall_green_BLAAT_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 130000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
 	};
 };
 class B_L_Soldier_AR_F: B_L_Soldier_base_F
@@ -239,6 +566,14 @@ class B_L_Medic_F: B_L_Soldier_base_F
 	icon = iconManMedic;
 	picture = pictureHeal;
 	role = CombatLifeSaver;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
 };
 class B_L_Crew_F: B_L_Soldier_base_F
 {
@@ -289,9 +624,9 @@ class B_L_Crew_F: B_L_Soldier_base_F
         SmokeShell
 	};
 	camouflage = 1.6;
-	cost = 93000;
-	role = Crewman;
     engineer = true;
+	cost = 90000;
+	role = Crewman;
 };
 class B_L_Engineer_F: B_L_Soldier_base_F
 {
@@ -344,13 +679,139 @@ class B_L_Engineer_F: B_L_Soldier_base_F
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
 	};
-	engineer = true;
-	canDeactivateMines = true;
-	detectSkill = 31;
 	camouflage = 1.6;
-	icon = iconManEngineer;
-	picture = pictureRepair;
+	canDeactivateMines = true;
+	cost = 220000;
+	detectSkill = 31;
+	engineer = true;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+    role = Sapper;
+	threat[] = {1,0.5,0.1};
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Soldier_Exp_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Exp_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_exp_F0;
+	uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_heavy_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_heavy_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Kitbag_sgg_BLExp_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	canDeactivateMines = true;
+	detectSkill = 38;
+	cost = 93000;
+	camouflage = 1.6;
+	icon = iconManExplosive;
+	picture = pictureExplosive;
 	role = Sapper;
+};
+class B_L_soldier_mine_F: B_L_Soldier_Exp_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_mine_F.jpg";
+	displayName = $STR_A3_B_T_soldier_mine_F0;
+	backpack = B_Carryall_green_Mine;
+};
+class B_L_Fighter_Pilot_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Fighter_Pilot_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_B_Fighter_Pilot_name;
+	uniformClass = U_B_PilotCoveralls;
+    linkedItems[] =
+    {
+        H_PilotHelmetFighter_B,
+        DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetFighter_B,
+        DefaultManLinkedItems
+    };
+	weapons[] =
+	{
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(11Rnd_45ACP_Mag),
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+	};
+	respawnMagazines[] =
+	{
+		mag_2(11Rnd_45ACP_Mag),
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+	};
+    cost = 165000;
+    role = Crewman;
+	camouflage = 2;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+		G_NATO_pilot
+	};
 };
 class B_L_Soldier_GL_F: B_L_Soldier_base_F
 {
@@ -363,14 +824,14 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Olive_F,
-		H_Beret_grn,
+		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Olive_F,
-		H_Beret_grn,
+		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -407,6 +868,206 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
 	cost = 130000;
 	role = Grenadier;
 	threat[] = {1,0.3,0.1};
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Support_GMG_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_GMG_F.jpg";
+	scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_support_GMG_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_GMG_01_Weapon_grn_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Support_MG_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_MG_F.jpg";
+	scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_support_MG_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_HMG_01_Weapon_grn_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Support_Mort_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_Mort_F.jpg";
+	scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_support_Mort_F0;
+    uniformClass = U_B_CombatUniform_sgg_tshirt;
+	linkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_grn_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_Mortar_01_Weapon_grn_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_pointer_F,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        mag_2(SmokeShell)
+	};
+	cost = 220000;
+	role = Assistant;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
 };
 class B_L_Helicrew_F: B_L_Soldier_base_F
 {
@@ -588,6 +1249,14 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
 	};
 	cost = 250000;
 	role = Marksman;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
 };
 class B_L_Soldier_AA_F: B_L_Soldier_base_F
 {
@@ -803,6 +1472,71 @@ class B_L_Officer_F: B_L_Soldier_base_F
 		G_NATO_casual
 	};
 };
+class B_L_Soldier_Repair_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Repair_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_repair_F0;
+	uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	backpack = B_AssaultPack_sgg_BLRepair_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	engineer = true;
+	detectSkill = 24;
+	cost = 93000;
+	camouflage = 1.6;
+	icon = iconManEngineer;
+	picture = pictureRepair;
+	role = Sapper;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_casual
+	};
+};
 class B_L_Soldier_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -921,6 +1655,116 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	icon = iconManAT;
 	role = MissileSpecialist;
 	secondaryAmmoCoef = 0.5;
+};
+class B_L_Soldier_Lite_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Lite_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_lite_F0;
+	uniformClass = U_B_CombatUniform_sgg_vest;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems
+	};
+	weapons[] =
+	{
+		arifle_MSBS65_black_F,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_F,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_msbs_mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_msbs_mag),
+        HandGrenade,
+        SmokeShell
+	};
+	camouflage = 1.2;
+	role = Rifleman;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_casual
+	};
+};
+class B_L_Soldier_CQ_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_CQ_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
+	uniformClass = U_B_CombatUniform_sgg;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+	{
+		arifle_MSBS65_UBS_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_UBS_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(6Rnd_12Gauge_Pellets),
+        mag_3(6Rnd_12Gauge_Slug),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(6Rnd_12Gauge_Pellets),
+        mag_3(6Rnd_12Gauge_Slug),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+    cost = 130000;
+    threat[] = {1,0.3,0.1};
 };
 class B_L_Soldier_SL_F: B_L_Soldier_base_F
 {
@@ -1074,7 +1918,7 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
-	backpack = B_RadioBag_01_sage_F;
+	backpack = B_RadioBag_01_green_F;
 	weapons[] =
     {
         arifle_MSBS65_black_ico_pointer_f,
@@ -1102,6 +1946,113 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
         mag_2(SmokeShell)
     };
 	role = RadioOperator;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_Survivor_F: B_L_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Survivor_F.jpg";
+	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
+	weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	items[] = {};
+	respawnItems[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] = {};
+	respawnLinkedItems[] = {};
+	role = Unarmed;
+};
+class B_L_Soldier_UAV_F: B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_UAV_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_B_SOLDIER_UAV_F0;
+	uniformClass = U_B_CombatUniform_sgg_vest;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		B_UavTerminal,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Beret_grn,
+		DefaultManLinkedItems,
+		B_UavTerminal,
+		NVGoggles_INDEP
+	};
+	backpack = B_UAV_01_backpack_F;
+	weapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_ico_pointer_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	uavHacker = true;
+    cost = 150000;
+	role = SpecialOperative;
+	identityTypes[] =
+	{
+		LanguageENGFRE_F,
+		Head_NATO,
+		Head_Greek,
+		Head_Tanoan,
+        G_NATO_recon
+	};
+};
+class B_L_soldier_UAV_06_F: B_L_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UAV_06_F.jpg";
+	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
+	backpack = B_UAV_06_backpack_F;
+};
+class B_L_soldier_UAV_06_medical_F: B_L_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UAV_06_medical_F.jpg";
+	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
+	backpack = B_UAV_06_medical_backpack_F;
+};
+class B_L_soldier_UGV_02_Demining_F: B_L_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UGV_02_Demining_F.jpg";
+	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	backpack = B_UGV_02_Demining_backpack_F;
 };
 class B_L_Soldier_universal_F: B_L_Soldier_F
 {
@@ -1118,9 +2069,33 @@ class B_L_Soldier_universal_F: B_L_Soldier_F
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
 	scope = protected;
+	scopeCurator = private;
 	displayName = $STR_A3_CfgVehicles_b_soldier_universal_f_displayName;
 	attendant = true;
 	engineer = true;
 	canDeactivateMines = true;
 	role = Rifleman;
+};
+class B_L_Soldier_unarmed_F: B_L_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
+	weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_green,
+		DefaultManLinkedItems
+	};
+	role = Unarmed;
+	threat[] = {0.1,0.1,0.1};
 };

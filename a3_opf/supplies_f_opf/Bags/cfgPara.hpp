@@ -1,4 +1,3 @@
-class B_TacticalPack_blk;
 class B_TacticalPack_blk_Medic: B_TacticalPack_blk
 {
 	author = $STR_A3_A_AveryTheKitty;

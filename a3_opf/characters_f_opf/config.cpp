@@ -8,10 +8,14 @@ class CfgVehicles
 	class SoldierGB;
 	#include "cfgCivil.hpp"				// Civilians
 	#include "cfgPara.hpp"              // Paramilitary
-	#include "cfgRaven.hpp"             // Raven
+	/*
+    #include "cfgRaven.hpp"             // Raven
+	*/
 	#include "cfgChKDZ.hpp"             // Separatists
 	#include "cfgTKM.hpp"               // Insurgents
+    /*
 	#include "cfgMilitia.hpp"           // Patriots
-	//#include "cfgRebels.hpp"            // Rebels
+	#include "cfgRebels.hpp"            // Rebels
+    */
 };
 #include "cfgGroups.hpp"

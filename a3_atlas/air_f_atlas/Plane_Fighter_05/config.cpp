@@ -23,6 +23,7 @@ class CfgVehicles
 		class Components;
 		class TextureSources
 		{
+            /*
 			class ADF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_ADF0;
@@ -37,8 +38,9 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
 				};
-				factions[] = {BLU_ADF_F};
+				factions[] = {BLU_O_F};
 			};
+            */
 			class Desert
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
@@ -62,6 +64,8 @@ class CfgVehicles
 	class B_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F{};
 	class Ejection_Seat_Plane_Fighter_05_base_F;
 	// Arma 3 Atlas
-	#include "cfgADF.hpp"
-	#include "cfgIDF.hpp"
+    /*
+	#include "cfgADF.hpp"               // ADF
+	*/
+    #include "cfgIDF.hpp"				// IDF
 };

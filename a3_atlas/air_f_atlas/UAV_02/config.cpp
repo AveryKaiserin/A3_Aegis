@@ -21,6 +21,10 @@ class CfgVehicles
 	class UAV_02_dynamicLoadout_base_F: UAV_02_base_F{};
 	class B_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
-	#include "cfgIDF.hpp"
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    /*
+	#include "cfgADF.hpp"				// ADF
+	#include "cfgCDF.hpp"				// CDF
+    */
+	#include "cfgIDF.hpp"				// IDF
 };

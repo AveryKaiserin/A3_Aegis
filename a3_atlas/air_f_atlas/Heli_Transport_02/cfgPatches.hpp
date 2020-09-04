@@ -7,9 +7,8 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (European)
-            B_E_Heli_Transport_02_F,
-            B_E_Heli_Transport_02_medevac_F
+            // NATO (German)
+            B_E_Heli_Transport_02_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

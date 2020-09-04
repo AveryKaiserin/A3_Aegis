@@ -23,5 +23,5 @@ class CfgVehicles
 	};
 	class UAV_03_dynamicLoadout_base_F;
 	// Arma 3 Atlas
-	#include "cfgIDF.hpp"
+	#include "cfgIDF.hpp"				// IDF
 };

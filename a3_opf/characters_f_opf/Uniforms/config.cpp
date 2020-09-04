@@ -5,8 +5,13 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgPara.hpp"
-	#include "cfgRaven.hpp"
-	#include "cfgChKDZ.hpp"
-	#include "cfgTKM.hpp"
+	#include "cfgPara.hpp"              // Paramilitary
+	/*
+    #include "cfgRaven.hpp"             // Raven
+	*/
+    #include "cfgChKDZ.hpp"             // Separatists
+	#include "cfgTKM.hpp"               // Insurgents
+    /*
+	#include "cfgMilitia.hpp"           // Patriots
+    */
 };

@@ -502,7 +502,7 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "40 mm Pellets Round";
-		picture = "\A3\Weapons_F\Data\Placeholder_CO.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\gear_UGL_Pellets_CA.paa";
 		ammo = B_12Gauge_Pellets_Submunition;
 		descriptionShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;
 		displayNameShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;

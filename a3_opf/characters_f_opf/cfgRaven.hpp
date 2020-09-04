@@ -56,7 +56,7 @@ class I_R_soldier_base_F: I_soldier_F
 	};
 	faction = IND_R_F;
 	genericNames = RussianMen;
-	uniformClass = U_O_E_Uniform_01_taiga_F;
+	uniformClass = U_O_E_Uniform_01_arid_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -215,7 +215,7 @@ class I_R_soldier_MG_F: I_R_soldier_base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
@@ -322,7 +322,7 @@ class I_R_soldier_M_F: I_R_soldier_base_F
 	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	weapons[] = 
 	{
 		srifle_DMR_01_lush_ARCO_BI_F,
@@ -393,8 +393,8 @@ class I_R_soldier_LAT_F: I_R_soldier_base_F
 	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
-	backpack = B_FieldPack_taiga_IRRPG_AT_F;
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	backpack = B_FieldPack_green_IRLAT_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
@@ -536,8 +536,8 @@ class I_R_engineer_F: I_R_soldier_base_F
 	scope = public;
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
-	backpack = B_Carryall_taiga_IREng_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	backpack = B_Carryall_green_IREng_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
@@ -602,7 +602,7 @@ class I_R_Soldier_UAV_F: I_R_soldier_base_F
 	displayName = $STR_A3_B_SOLDIER_UAV_F0;
 	role = SpecialOperative;
 	uavHacker = true;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	backpack = I_R_UAV_01_backpack_F;
 	weapons[] =
 	{

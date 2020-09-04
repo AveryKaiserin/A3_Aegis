@@ -56,5 +56,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgHIL.hpp"
+	#include "cfgHIMF.hpp"              // HIMF
 };

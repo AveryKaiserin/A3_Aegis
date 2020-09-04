@@ -1658,14 +1658,14 @@ class B_USMC_RadioOperator_wdl_F: B_USMC_Soldier_wdl_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};

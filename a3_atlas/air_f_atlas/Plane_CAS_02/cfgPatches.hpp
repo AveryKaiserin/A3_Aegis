@@ -9,11 +9,7 @@ class CfgPatches
         {
             // CSAT (Woodland)
             O_W_Ejection_Seat_Plane_CAS_02_F,
-            O_W_Plane_CAS_02_dynamicLoadout_ghex_F,
-
-            // CDF
-            I_W_Ejection_Seat_Plane_CAS_02_F,
-            I_W_Plane_CAS_02_dynamicLoadout_F
+            O_W_Plane_CAS_02_dynamicLoadout_ghex_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

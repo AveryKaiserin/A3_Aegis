@@ -13,6 +13,11 @@ class CfgVehicles
 	class UGV_02_Science_backpack_base_F: UGV_02_backpack_base_F{};
 	class UGV_02_Demining_backpack_base_F: UGV_02_backpack_base_F{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgLegion.hpp"            // Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    /*
+	#include "cfgADF.hpp"               // ADF
+	#include "cfgCDF.hpp"               // CDF
+    */
 	#include "cfgIDF.hpp"				// IDF
 };

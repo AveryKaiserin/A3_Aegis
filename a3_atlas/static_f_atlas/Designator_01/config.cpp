@@ -5,12 +5,17 @@ class CfgVehicles
 	// Arma 3 Marksman
 	class B_Static_Designator_01_F;
 	class B_Static_Designator_01_weapon_F;
-	// Arma 3 Atlas
+	// Arma 3 Aegis
 	class I_Static_Designator_01_F;
 	class I_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F
 	{
 		class assembleInfo;
 	};
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	// Arma 3 Atlas
+	#include "cfgLegion.hpp"            // Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    /*
+	#include "cfgADF.hpp"				// ADF
+    */
 	#include "cfgIDF.hpp"				// IDF
 };

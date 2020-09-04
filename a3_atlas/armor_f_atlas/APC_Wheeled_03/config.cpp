@@ -61,5 +61,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
 };

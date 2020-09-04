@@ -2,40 +2,6 @@
 <Project name="Arma3Aegis">
 	<Package name="Language_Aegis">
 		<Container name="Air_F">
-			<Key ID="STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0">
-				<Original>RAH-99 Blackfoot</Original>
-				<Chinese>RAH-99 Blackfoot</Chinese>
-				<French>RAH-99 Blackfoot</French>
-				<Spanish>RAH-99 Blackfoot</Spanish>
-				<Italian>RAH-99 Blackfoot</Italian>
-				<Polish>RAH-99 Blackfoot</Polish>
-				<Russian>RAH-99 Blackfoot</Russian>
-				<German>RAH-99 Blackfoot</German>
-				<Czech>RAH-99 Blackfoot</Czech>
-				<English>RAH-99 Blackfoot</English>
-				<Portuguese>RAH-99 Blackfoot</Portuguese>
-				<Korean>RAH-99 Blackfoot</Korean>
-				<Chinesesimp>RAH-99 Blackfoot</Chinesesimp>
-				<Japanese>RAH-99 Blackfoot</Japanese>
-				<Turkish>RAH-99 Blackfoot</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgVehicles_Heli_Attack_01_heavy_base_F0">
-				<Original>AH-99 Blackfoot</Original>
-				<Chinese>AH-99 Blackfoot</Chinese>
-				<French>AH-99 Blackfoot</French>
-				<Spanish>AH-99 Blackfoot</Spanish>
-				<Italian>AH-99 Blackfoot</Italian>
-				<Polish>AH-99 Blackfoot</Polish>
-				<Russian>AH-99 Blackfoot</Russian>
-				<German>AH-99 Blackfoot</German>
-				<Czech>AH-99 Blackfoot</Czech>
-				<English>AH-99 Blackfoot</English>
-				<Portuguese>AH-99 Blackfoot</Portuguese>
-				<Korean>AH-99 Blackfoot</Korean>
-				<Chinesesimp>AH-99 Blackfoot</Chinesesimp>
-				<Japanese>AH-99 Blackfoot</Japanese>
-				<Turkish>AH-99 Blackfoot</Turkish>
-			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_Heli_Light_01_recon_base_F0">
 				<Original>RH-9 Serrano</Original>
 				<Chinese>RH-9 Serrano</Chinese>
@@ -995,23 +961,6 @@
 				<Chinesesimp>BTR-K Kazak</Chinesesimp>
 				<Japanese>BTR-K Kazak</Japanese>
 				<Turkish>BTR-K Kazak</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AA_F0">
-				<Original>ZSU-39 Tugarin</Original>
-				<Chinese>ZSU-39 Tugarin</Chinese>
-				<French>ZSU-39 Tugarin</French>
-				<Spanish>ZSU-39 Tugarin</Spanish>
-				<Italian>ZSU-39 Tugarin</Italian>
-				<Polish>ZSU-39 Tugarin</Polish>
-				<Russian>ZSU-39 Tugarin</Russian>
-				<German>ZSU-39 Tugarin</German>
-				<Czech>ZSU-39 Tugarin</Czech>
-				<English>ZSU-39 Tugarin</English>
-				<Portuguese>ZSU-39 Tugarin</Portuguese>
-				<Korean>ZSU-39 Tugarin</Korean>
-				<Chinesesimp>ZSU-39 Tugarin</Chinesesimp>
-				<Japanese>ZSU-39 Tugarin</Japanese>
-				<Turkish>ZSU-39 Tugarin</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0">
 				<Original>FV-720 Lancer</Original>
@@ -6664,22 +6613,22 @@
 					<Japanese>ロシア（乾燥地帯）</Japanese>
 					<Turkish>Rusya (Kurak)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_OPF_W_F0">
-					<Original>CSAT (Woodland)</Original>
-					<Chinese>CSAT (森林)</Chinese>
-					<French>CSAT (forêt)</French>
-					<Spanish>CSAT (bosque)</Spanish>
-					<Italian>CSAT (boschi)</Italian>
-					<Polish>CSAT (las)</Polish>
-					<Russian>CSAT (лес)</Russian>
-					<German>CSAT (Waldland)</German>
-					<Czech>CSAT (woodland)</Czech>
-					<English>CSAT (Woodland)</English>
-					<Portuguese>CSAT (floresta)</Portuguese>
-					<Korean>CSAT(산악)</Korean>
-					<Chinesesimp>CSAT (林地)</Chinesesimp>
-					<Japanese>CSAT（森林）</Japanese>
-					<Turkish>CSAT (Ağaçlık)</Turkish>
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_E_ard_F0">
+					<Original>LDF (Arid)</Original>
+					<Chinese>LDF (乾燥氣候)</Chinese>
+					<French>LDF (Aride)</French>
+					<Spanish>LDF (árido)</Spanish>
+					<Italian>LDF (arido)</Italian>
+					<Polish>LDF (region suchy)</Polish>
+					<Russian>LDF (засушливая местность)</Russian>
+					<German>LDF (Trocken)</German>
+					<Czech>LDF (suchý porost)</Czech>
+					<English>LDF (Arid)</English>
+					<Portuguese>LDF (Árido)</Portuguese>
+					<Korean>LDF(건조)</Korean>
+					<Chinesesimp>LDF (干旱)</Chinesesimp>
+					<Japanese>LDF（乾燥地帯）</Japanese>
+					<Turkish>LDF (Kurak)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Editor_Categories">
@@ -12300,23 +12249,6 @@
 				<Chinesesimp>454th后卫机动步兵团</Chinesesimp>
 				<Japanese>454thガードモーターライフル連隊</Japanese>
 				<Turkish>454. Muhafızlar Motorlu Tüfek Alayı</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0">
-				<Original>Bear Regiment</Original>
-				<Chinese>熊團</Chinese>
-				<French>Régiment Ours</French>
-				<Spanish>Regimiento de oso</Spanish>
-				<Italian>Reggimento di orso</Italian>
-				<Polish>Pułk Niedźwiedź</Polish>
-				<Russian>Медведь полк</Russian>
-				<German>Bär Regiment</German>
-				<Czech>Medvěd pluk</Czech>
-				<English>Bear Regiment</English>
-				<Portuguese>Regimento Urso</Portuguese>
-				<Korean>곰 연대</Korean>
-				<Chinesesimp>熊团</Chinesesimp>
-				<Japanese>くま連隊</Japanese>
-				<Turkish>Ayı Alayı</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_Iran">
 				<Original>Iran</Original>

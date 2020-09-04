@@ -9,9 +9,15 @@ class CfgVehicles
 		class Turrets;
 	};
 	class Truck_02_transport_base_F;
+	class O_Truck_02_covered_F;
+    class O_Truck_02_transport_F;
 	// Arma 3 Aegis
 	class Truck_02_cargo_base_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"
-	#include "cfgHIL.hpp"
+	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+    /*
+	#include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
+	#include "cfgHIMF.hpp"              // HIMF
+	#include "cfgCDF.hpp"               // CDF
+    */
 };

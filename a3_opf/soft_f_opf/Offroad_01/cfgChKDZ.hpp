@@ -67,4 +67,15 @@ class O_E_Offroad_01_armed_F: O_G_Offroad_01_armed_F
 			magazines[] = {mag_3(100Rnd_127x99_mag_Tracer_Green)};
 		};
 	};
+	class AnimationSources: AnimationSources
+	{
+		class Hide_Shield: Hide_Shield
+		{
+			initPhase = false;
+		};
+		class Hide_Rail: Hide_Rail
+		{
+			initPhase = true;
+		};
+	};
 };

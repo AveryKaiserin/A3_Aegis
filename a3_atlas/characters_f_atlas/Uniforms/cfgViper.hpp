@@ -11,7 +11,7 @@ class U_O_V_Soldier_Viper_whex_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_V_Soldier_TL_whex_F;
+		uniformClass = U_O_V_SpecialPurposeSuit_01_whex_F;
 		containerClass = Supply20;
 		mass = 120;
 	};

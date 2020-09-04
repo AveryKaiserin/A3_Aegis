@@ -49,14 +49,11 @@ class CfgVehicles
 	{
 		class Turrets: Turrets
 		{
-			class LMG_Turret: MainTurret
-			{
-				magazines[] = {mag_3(200Rnd_556x45_Box_Tracer_Red_F)};
-			};
-			class CargoTurret_01: CargoTurret{};
+			class LMG_Turret;
+			class CargoTurret_01;
 		};
 	};
 	class Offroad_02_AT_base_F;
     // Arma 3 Atlas
-    #include "cfgHIL.hpp"
+    #include "cfgHIMF.hpp"              // HIMF
 };

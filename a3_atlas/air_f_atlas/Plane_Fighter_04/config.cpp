@@ -7,13 +7,9 @@ class CfgVehicles
 	// Arma 3 Jets
 	class Plane_Fighter_04_Base_F: Plane_Base_F
 	{
-		class TextureSources
-		{
-			class Grey;
-		};
 		class EjectionSystem;
 	};
 	class Ejection_Seat_Plane_Fighter_04_base_F;
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	#include "cfgLegion.hpp"    		// Legion
 };

@@ -3,5 +3,5 @@
 class CfgVehicles
 {
     // Arma 3 Apex
-	// Arma 3 Aegis
+	// Arma 3 Opposing Forces
 };

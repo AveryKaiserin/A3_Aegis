@@ -72,4 +72,15 @@ class I_T_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 		"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
 		"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa"
 	};
+	class AnimationSources: AnimationSources
+	{
+		class Hide_Shield: Hide_Shield
+		{
+			initPhase = true;
+		};
+		class Hide_Rail: Hide_Rail
+		{
+			initPhase = true;
+		};
+	};
 };

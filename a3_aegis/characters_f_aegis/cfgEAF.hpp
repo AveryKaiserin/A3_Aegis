@@ -1,3 +1,4 @@
+// LDF
 // Arma 3 Enoch
 class I_E_Man_Base_F;
 class I_E_Uniform_01_F: I_E_Man_Base_F
@@ -1765,3 +1766,4 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
         G_NATO_pilot
 	};
 };
+// LDF (Arid)

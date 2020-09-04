@@ -37,6 +37,10 @@ class I_E_Offroad_01_armed_F: Offroad_01_armed_base_F
 	};
 	class AnimationSources: AnimationSources
 	{
+		class Hide_Shield: Hide_Shield
+		{
+			initPhase = false;
+		};
 		class Hide_Rail: Hide_Rail
 		{
 		    initPhase = false;

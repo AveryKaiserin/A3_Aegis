@@ -119,16 +119,7 @@ class CfgWeapons
         */
 	};
 	class HMG_static;
-	class HMG_M2: HMG_01
-	{
-		magazines[] +=
-		{
-			200Rnd_127x99_mag,
-			200Rnd_127x99_mag_Tracer_Red,
-			200Rnd_127x99_mag_Tracer_Green,
-			200Rnd_127x99_mag_Tracer_Yellow
-		};
-	};
+	class HMG_M2;
 	class SmokeLauncher;
 	class CMFlareLauncher: SmokeLauncher
 	{
@@ -1262,7 +1253,16 @@ class CfgWeapons
 			};
 		};
 	};
-	class HMG_127_AFV: HMG_M2{};
+	class HMG_127_AFV: HMG_M2
+    {
+        magazines[] =
+		{
+			200Rnd_127x99_mag,
+			200Rnd_127x99_mag_Tracer_Red,
+			200Rnd_127x99_mag_Tracer_Green,
+			200Rnd_127x99_mag_Tracer_Yellow
+		};
+    };
 	class launch_MRAWS_base_F;
 	class launch_MRAWS_olive_rail_F;
 	class launch_Vorona_base_F: Launcher_Base_F

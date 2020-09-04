@@ -15,5 +15,7 @@ class CfgVehicles
 	class Truck_01_flatbed_base_F;
 	class Truck_01_cargo_base_F;
 	// Arma 3 Atlas
+	#include "cfgLegion.hpp"            // Legion
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
 	#include "cfgIDF.hpp"				// IDF
 };

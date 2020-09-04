@@ -17,7 +17,6 @@ class CfgVehicles
 	};
 	class Heli_Attack_01_base_F: Helicopter_Base_F
 	{
-		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
 		reportRemoteTargets = true;
 		reportOwnPosition = true;
 		class Turrets: Turrets
@@ -93,14 +92,8 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_Heli_Attack_01_F: Heli_Attack_01_base_F
-	{
-		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
-	};
-	class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
-	{
-		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_01_base_F0;
-	};
+	class B_Heli_Attack_01_F: Heli_Attack_01_base_F{};
+	class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
 	#include "cfgBlufor_Exp.hpp"
 	#include "cfgBlufor_Enoch.hpp"

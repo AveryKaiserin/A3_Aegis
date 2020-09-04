@@ -534,7 +534,7 @@ class CfgWeapons
 	class V_HarnessO_oicamo: V_HarnessO_gry
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessO_oicamo_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessO_oicamo_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_oicamo0;
 		hiddenSelectionsTextures[] =
 		{
@@ -546,7 +546,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_oicamo0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOGL_oicamo_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOGL_oicamo_CA.paa";
 		hiddenSelections[] =
 		{
 			camo1,
@@ -580,7 +580,7 @@ class CfgWeapons
 	class V_HarnessOSpec_oicamo: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOSpec_oicamo_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_HarnessOSpec_oicamo_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_oicamo0;
 		hiddenSelectionsTextures[] =
 		{

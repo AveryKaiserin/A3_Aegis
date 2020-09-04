@@ -53,6 +53,6 @@ class CfgVehicles
 	class B_MBT_01_arty_F: B_MBT_01_arty_base_F{};
 	class B_MBT_01_TUSK_F;
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"
-	#include "cfgIDF.hpp"
+	#include "cfgLegion.hpp"            // Legion
+	#include "cfgIDF.hpp"               // IDF
 };

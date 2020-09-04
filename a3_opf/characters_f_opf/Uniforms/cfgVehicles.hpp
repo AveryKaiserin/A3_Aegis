@@ -29,6 +29,8 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_O_E_Gorka_01_autumn_F,"Granit-A Suit")
 	UNIFORM_HOLDER(U_O_E_Gorka_01_summer_F,"Granit-S Suit")
 	UNIFORM_HOLDER(U_O_E_Uniform_01_taiga_F,"Deserter Clothes (Taiga)")
+	UNIFORM_HOLDER(U_O_E_Uniform_01_arid_F,"Deserter Clothes (Arid)")
+	UNIFORM_HOLDER(U_O_E_Uniform_01_sweater_F,"Deserter Clothes (Sweater)")
 	// Insurgents
 	UNIFORM_HOLDER(U_IG_Guerilla3_3_F,"Guerilla Smocks (Grey)")
 	UNIFORM_HOLDER(U_I_T_Uniform_01_hex_F,"Deserter Clothes (Hex)")

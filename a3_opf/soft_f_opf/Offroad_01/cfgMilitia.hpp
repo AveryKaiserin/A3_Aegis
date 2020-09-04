@@ -31,6 +31,17 @@ class I_M_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 		"\A3\Soft_F_Enoch\Offroad_01\Data\Offroad_01_ext_blk_CO.paa",
 		"\A3\Soft_F_Enoch\Offroad_01\Data\Offroad_01_ext_blk_CO.paa"
 	};
+	class AnimationSources: AnimationSources
+	{
+		class Hide_Shield: Hide_Shield
+		{
+			initPhase = false;
+		};
+		class Hide_Rail: Hide_Rail
+		{
+			initPhase = false;
+		};
+	};
 };
 class I_M_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {

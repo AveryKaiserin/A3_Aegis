@@ -7,4 +7,7 @@ class CfgVehicles
 	class O_Heli_Light_02_dynamicLoadout_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+    /*
+	#include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
+    */
 };

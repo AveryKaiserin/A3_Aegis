@@ -105,12 +105,12 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_C_CfgVehicles_Offroad_01_military_covered_base_F_AnimationSources_HideCover0;
 				author = $STR_A3_A_AveryTheKitty;
-				source = Proxy;
+				source = user;
 				animPeriod = 0.001;
 				initPhase = false;
 			};
 		};
-		animationList[] = {HideCover,0.67};
+		animationList[] = {HideCover,0.5};
 		class MarkerLights
 		{
 			class PositionRed

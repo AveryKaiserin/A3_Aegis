@@ -3,7 +3,7 @@
 	class A3_Opf_Armor_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Aegis Opposing Forces Addon - Armored Land Vehicles";
+		name = "Arma 3 Opposing Forces - Armored Land Vehicles";
 		url = "";
 		requiredAddons[] = {A3_Opf_Data_F_Opf};
 		requiredVersion = 0.1;

@@ -35,7 +35,7 @@ class U_C_Poor_2: Uniform_Base
 class U_C_PriestBody: Uniform_Base
 {
     scope = public;
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_PriestBody_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_PriestBody_CA.paa";
     hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\priest_CO.paa"};
 };
 class U_NikosAgedBody: Uniform_Base

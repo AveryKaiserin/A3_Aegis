@@ -58,6 +58,7 @@ class CfgWeapons
 			};
 		};
 	};
+    /*
 	class V_HarnessO_owcamo: V_HarnessO_gry
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -93,6 +94,7 @@ class CfgWeapons
 			};
 		};
 	};
+    */
 	class V_HarnessOSpec_tan: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -104,6 +106,7 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 		};
 	};
+    /*
 	class V_HarnessOSpec_owcamo: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -115,6 +118,7 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
 		};
 	};
+    */
 	class V_PlateCarrierIA1_grn: V_PlateCarrierIA1_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -171,6 +175,7 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_khk_CO.paa"
 		};
 	};
+    /*
 	class V_SmershVest_01_olive_F: V_SmershVest_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -208,6 +213,7 @@ class CfgWeapons
 			"\A3\Characters_F\Data\visors_CA.paa"
 		};
 	};
+    */
 	class V_RebreatherI_I: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;

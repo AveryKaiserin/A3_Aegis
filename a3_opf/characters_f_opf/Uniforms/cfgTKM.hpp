@@ -20,7 +20,7 @@ class U_I_T_Uniform_01_hex_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Deserter Clothes (Hex)";
-	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_hex_F_CA.paa";
+	//picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_hex_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_hex_CO.paa"};
@@ -37,7 +37,7 @@ class U_I_T_Uniform_01_urb_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Deserter Clothes (Urban)";
-	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_urb_F_CA.paa";
+	//picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_urb_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_urb_CO.paa"};
@@ -54,7 +54,7 @@ class U_I_T_Uniform_01_ghex_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Deserter Clothes (Green Hex)";
-	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_ghex_F_CA.paa";
+	//picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_ghex_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_tna_CO.paa"};

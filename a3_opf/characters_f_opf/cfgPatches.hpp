@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Opf_Characters_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Aegis Opposing Forces Addon - Characters and Clothing";
+		name = "Arma 3 Opposing Forces - Characters and Clothing";
 		url = "";
 		requiredAddons[] =
 		{
@@ -39,6 +39,7 @@ class CfgPatches
             I_R_Soldier_unarmed_F,
 
             // Separatists
+            O_E_Crew_F,
             O_E_Soldier_1_F,
             O_E_Soldier_2_F,
             O_E_Soldier_3_F,
@@ -59,6 +60,7 @@ class CfgPatches
             I_T_Soldier_6_F,
             I_T_Soldier_7_F,
             I_T_Soldier_8_F,
+            I_T_Soldier_9_F,
             I_T_Soldier_Base_unarmed_F,
 
             // Patriots

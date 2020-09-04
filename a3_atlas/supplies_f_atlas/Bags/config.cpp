@@ -21,6 +21,9 @@ class CfgVehicles
 	class B_FieldPack_oli;
 	class B_Carryall_oli;
 	// Arma 3 Apex
+	class B_Bergen_Base_F;
+	class B_Carryall_ghex_F;
+	class B_FieldPack_ghex_F;
 	class B_ViperHarness_base_F;
 	class B_ViperLightHarness_base_F;
 	// Arma 3 Enoch
@@ -34,6 +37,7 @@ class CfgVehicles
 	class B_TacticalPack_sgg;
 	class B_Kitbag_wdl_F;
 	// Arma 3 Atlas
+    /*
 	class B_RadioBag_01_semiarid_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -64,6 +68,7 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+    */
 	class B_RadioBag_01_jungle_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -79,6 +84,7 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+    /*
 	class B_RadioBag_01_autumn_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -94,6 +100,7 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+    */
 	class B_Carryall_owcamo: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -110,6 +117,7 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_semiarid_CO.paa"};
 	};
+    /*
 	class B_Carryall_aucamo_F: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -118,6 +126,7 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_aucamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_aucamo_CO.paa"};
 	};
+    */
 	class B_Carryall_jungle: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -142,6 +151,7 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_semiarid_CO.paa"};
 	};
+    /*
 	class B_AssaultPack_aucamo_F: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -166,6 +176,7 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
 	};
+    */
 	class B_ViperHarness_whex_F: B_ViperHarness_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -185,11 +196,14 @@ class CfgVehicles
 	#include "cfgViper.hpp"				// Viper
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgLegion.hpp"			// Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	#include "cfgADF.hpp"				// ADF
-	#include "cfgHIL.hpp"				// HIL
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    /*
 	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
-	// #include "cfgCDF.hpp"				// CDF
+	#include "cfgADF.hpp"				// ADF
+    */
+	#include "cfgHIMF.hpp"				// HIMF
+	/*
+    #include "cfgCDF.hpp"				// CDF
+    */
 	#include "cfgIDF.hpp"				// IDF
-	// #include "cfgUNO.hpp"				// UNO
 };

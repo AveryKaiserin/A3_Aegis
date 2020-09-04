@@ -17,16 +17,17 @@ class Box_E_NATO_Wps_F: ReammoBox_F
 	editorCategory = EdCat_Supplies;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag_red,12);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
 		mag_xx(200Rnd_65x39_cased_Box_Red,2);
 		mag_xx(20Rnd_762x51_Mag,3);
+		mag_xx(30Rnd_556x45_Stanag_red,4);
 		mag_xx(150Rnd_556x45_Drum_Mag_F,1);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_Mk20_black_F,4);
-		weap_xx(arifle_Mk20_GL_black_F,2);
-		weap_xx(arifle_Mk20C_black_F,2);
+		weap_xx(arifle_G36_F,4);
+		weap_xx(arifle_G36_GL_F,2);
+		weap_xx(arifle_G36C_F,2);
 		weap_xx(LMG_Mk200_black_F,2);
 		weap_xx(srifle_DMR_03_F,2);
 		weap_xx(arifle_SPAR_01_blk_F,3);
@@ -55,9 +56,10 @@ class Box_E_NATO_Ammo_F: ReammoBox_F
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag_red,72);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,48);
 		mag_xx(200Rnd_65x39_cased_Box_Red,6);
 		mag_xx(20Rnd_762x51_Mag,18);
+		mag_xx(30Rnd_556x45_Stanag_red,24);
 		mag_xx(150Rnd_556x45_Drum_Mag_F,6);
 	};
 	class TransportWeapons{};
@@ -122,7 +124,7 @@ class B_E_supplyCrate_F: B_supplyCrate_F
 	{
 		mag_xx(17Rnd_9x21_Mag,6);
 		mag_xx(40Rnd_460x30_Mag_F,6);
-		mag_xx(30Rnd_556x45_Stanag_red,24);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
 		mag_xx(20Rnd_762x51_Mag,6);
 		mag_xx(200Rnd_65x39_cased_Box_Red,3);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -139,9 +141,9 @@ class B_E_supplyCrate_F: B_supplyCrate_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_Mk20_black_F,2);
-		weap_xx(arifle_Mk20_GL_black_F,1);
-		weap_xx(arifle_Mk20C_black_F,1);
+		weap_xx(arifle_G36_F,2);
+		weap_xx(arifle_G36_GL_F,1);
+		weap_xx(arifle_G36C_F,1);
 		weap_xx(LMG_Mk200_black_F,1);
 		weap_xx(srifle_DMR_03_F,1);
 		weap_xx(launch_NLAW_F,1);

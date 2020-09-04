@@ -21,7 +21,14 @@ class CfgWeapons
 		class ThrowMuzzle;
 		class IRGrenade: ThrowMuzzle
 		{
-			magazines[] += {I_I_IR_Grenade};
+			magazines[] +=
+            {
+                /*
+                B_O_IR_Grenade,
+                I_W_IR_Grenade,
+                */
+                I_I_IR_Grenade
+            };
 		};
 	};
 	class ItemCore;
@@ -47,6 +54,7 @@ class CfgWeapons
 	// Arma 3 Apex
 	class LMG_03_F;
 	class arifle_SPAR_01_blk_F;
+    class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_02_blk_F;
 	class SMG_05_F;
 	// Arma 3 Tanks

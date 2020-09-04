@@ -192,16 +192,16 @@ class O_E_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	scopeCurator = public;
 	side = TEast;
 	faction = OPF_E_F;
-	crew = O_E_crew_F;
+	crew = O_E_Crew_F;
 	typicalCargo[] = {O_E_Soldier_1_F};
-	textureList[] = {Separatists,1};
+	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Opf\Armor_F_Opf\APC_Tracked_02\Data\APC_Tracked_02_ext_01_camo_CO.paa",
-		"\A3_Opf\Armor_F_Opf\APC_Tracked_02\Data\APC_Tracked_02_ext_02_camo_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUgrn_CO.paa",
-		"\A3\Armor_F\Data\camonet_green_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUgrn_CO.paa"
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\RCWS30_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
 	};
 	class TransportWeapons
 	{

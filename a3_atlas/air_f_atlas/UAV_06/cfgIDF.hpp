@@ -208,7 +208,7 @@ class I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
 	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_06_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_IDF_CO.paa",
+		"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_khk_CO.paa",
 		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_I_UAV_06_CO.paa"
 	};
 	class assembleInfo: assembleInfo
@@ -227,7 +227,7 @@ class I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_06_medical_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_IDF_CO.paa",
+		"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_khk_CO.paa",
 		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_I_UAV_06_medical_CO.paa"
 	};
 	class assembleInfo: assembleInfo

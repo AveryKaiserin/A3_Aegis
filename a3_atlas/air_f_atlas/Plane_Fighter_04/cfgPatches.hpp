@@ -11,9 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (European)
-            B_E_Ejection_Seat_Plane_Fighter_04_F,
-            B_E_Plane_Fighter_04_F
+            // Legion
+            B_L_Ejection_Seat_Plane_Fighter_04_F,
+            B_L_Plane_Fighter_04_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

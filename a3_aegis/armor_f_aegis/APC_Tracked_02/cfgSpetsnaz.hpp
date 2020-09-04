@@ -431,7 +431,6 @@ class O_R_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_AA_F.jpg";
 	scope = public;
 	scopeCurator = public;
-    displayName = $STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AA_F0;
 	side = TEast;
 	faction = OPF_R_F;
 	crew = O_R_crew_F;

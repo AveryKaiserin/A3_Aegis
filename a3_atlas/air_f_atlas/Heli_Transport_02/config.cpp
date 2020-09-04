@@ -24,5 +24,8 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+    /*
+	#include "cfgLegion.hpp"            // Legion
+	*/
+    #include "cfgBlufor_Atlas.hpp"      // NATO (German)
 };

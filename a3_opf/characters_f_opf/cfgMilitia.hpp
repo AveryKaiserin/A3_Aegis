@@ -66,6 +66,8 @@ class I_M_Soldier_1_F: I_M_Soldier_Base_F
 	role = Rifleman;
     headgearList[] = 
     {
+        H_Beret_02,1,
+        H_Beret_grn_SF,1,
         H_Cap_red,1,
         H_Cap_oli,1,
         H_Cap_tan,1,
@@ -100,6 +102,7 @@ class I_M_Soldier_1_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -188,6 +191,7 @@ class I_M_Soldier_2_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -214,12 +218,14 @@ class I_M_Soldier_3_F: I_M_Soldier_Base_F
 	{
 		V_TacVest_camo,
 		H_Cap_brn_SERO,
+        G_Cigarette,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacVest_camo,
 		H_Cap_brn_SERO,
+        G_Cigarette,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -275,6 +281,7 @@ class I_M_Soldier_3_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -369,6 +376,7 @@ class I_M_Soldier_4_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -465,6 +473,7 @@ class I_M_Soldier_5_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -489,24 +498,24 @@ class I_M_Soldier_6_F: I_M_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		GL_M79_F,
+		GL_M32_F,
         hgun_C1911_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		GL_M79_F,
+		GL_M32_F,
         hgun_C1911_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_12(1Rnd_HE_Grenade_shell),
+        mag_4(6Rnd_Pellets_Grenade_shell),
         mag_2(7Rnd_45ACP_Mag)
 	};
 	respawnMagazines[] = 
 	{
-        mag_12(1Rnd_HE_Grenade_shell),
+        mag_4(6Rnd_Pellets_Grenade_shell),
         mag_2(7Rnd_45ACP_Mag)
 	};
 	cost = 200000;
@@ -547,6 +556,7 @@ class I_M_Soldier_6_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -632,6 +642,7 @@ class I_M_Soldier_7_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };
@@ -709,6 +720,7 @@ class I_M_Soldier_8_F: I_M_Soldier_Base_F
 		H_Cap_headphones_tan,1,
 		H_Cap_headphones_blk,1,
         H_Headset_light,1,
+        H_Hat_Tinfoil_F,1,
         H_FakeHeadgear_F,2
     };
 };

@@ -6,5 +6,7 @@ class CfgVehicles
     class APC_Wheeled_02_base_v2_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
+    /*
     #include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
+    */
 };

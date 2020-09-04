@@ -31,7 +31,7 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_base_INDP_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_adds_INDP_CO.paa",
-					""
+					"\A3\Data_F\Vehicles\Turret_INDP_CO.paa"
 				};
 				factions[] = {IND_F};
 			};
@@ -44,21 +44,6 @@ class CfgVehicles
 			class MainTurret: MainTurret
 			{
 				magazines[] = {mag_2(64Rnd_40mm_G_belt)};
-			};
-		};
-		class TextureSources
-		{
-			class Indep
-			{
-				DisplayName = $STR_A3_TEXTURESOURCES_INDEP0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_base_INDP_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_adds_INDP_CO.paa",
-					"\A3\Data_F\Vehicles\Turret_INDP_CO.paa"
-				};
-				factions[] = {IND_F};
 			};
 		};
 	};

@@ -5,7 +5,28 @@ class CfgPatches
 		addonRootClass = A3_Atlas_Soft_F_Atlas;
 		requiredAddons[] = {A3_Atlas_Soft_F_Atlas};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (Woodland)
+            O_W_Truck_02_cargo_F,
+            O_W_Truck_02_F,
+            O_W_Truck_02_transport_F,
+
+            // CSAT (Caspian)
+            O_C_Truck_02_cargo_F,
+            O_C_Truck_02_F,
+            O_C_Truck_02_transport_F,
+
+            // HIMF
+            B_H_Truck_02_cargo_F,
+            B_H_Truck_02_F,
+            B_H_Truck_02_transport_F,
+
+            // CDF
+            I_W_Truck_02_cargo_F,
+            I_W_Truck_02_F,
+            I_W_Truck_02_transport_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

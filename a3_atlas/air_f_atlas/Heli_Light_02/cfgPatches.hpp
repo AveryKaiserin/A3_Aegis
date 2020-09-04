@@ -13,11 +13,7 @@ class CfgPatches
 
             // CSAT (Caspian)
             O_C_Heli_Light_02_dynamicLoadout_F,
-            O_C_Heli_Light_02_unarmed_F,
-
-            // CDF
-            I_W_Heli_Light_02_dynamicLoadout_F,
-            I_W_Heli_Light_02_unarmed_F
+            O_C_Heli_Light_02_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

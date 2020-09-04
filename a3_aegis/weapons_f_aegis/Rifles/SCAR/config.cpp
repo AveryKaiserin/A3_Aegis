@@ -344,7 +344,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_F;
 	};
 	class arifle_SCAR_GL_F: arifle_SCAR_GL_base_F
@@ -352,7 +352,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_GL_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_GL_F;
 	};
 	class arifle_SCAR_short_F: arifle_SCAR_short_base_F
@@ -360,7 +360,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_short_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_short_F;
 	};
 	class arifle_SCAR_grip_F: arifle_SCAR_grip_base_F
@@ -368,7 +368,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_grip_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_grip_F;
 	};
 	class arifle_SCAR_black_F: arifle_SCAR_black_base_F
@@ -376,7 +376,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_black_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_black_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_black_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_black_F;
 	};
 	class arifle_SCAR_GL_black_F: arifle_SCAR_GL_black_base_F
@@ -384,7 +384,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_GL_black_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_black_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_black_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_GL_black_F;
 	};
 	class arifle_SCAR_short_black_F: arifle_SCAR_short_black_base_F
@@ -392,7 +392,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_short_black_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_black_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_black_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_short_black_F;
 	};
 	class arifle_SCAR_grip_black_F: arifle_SCAR_grip_black_base_F
@@ -400,7 +400,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_grip_black_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_black_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_black_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_grip_black_F;
 	};
 	class arifle_SCAR_khaki_F: arifle_SCAR_khaki_base_F
@@ -408,7 +408,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_khaki_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_khaki_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_khaki_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_khaki_F;
 	};
 	class arifle_SCAR_GL_khaki_F: arifle_SCAR_GL_khaki_base_F
@@ -416,7 +416,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_GL_khaki_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_khaki_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_GL_khaki_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_GL_khaki_F;
 	};
 	class arifle_SCAR_short_khaki_F: arifle_SCAR_short_khaki_base_F
@@ -424,7 +424,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_short_khaki_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_khaki_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_short_khaki_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_short_khaki_F;
 	};
 	class arifle_SCAR_grip_khaki_F: arifle_SCAR_grip_khaki_base_F
@@ -432,7 +432,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_grip_khaki_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_khaki_F_X_CA.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\UI\icon_arifle_SCAR_grip_khaki_F_X_CA.paa";
 		baseWeapon = arifle_SCAR_grip_khaki_F;
 	};
 	#include "presets.hpp"

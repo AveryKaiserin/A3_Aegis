@@ -2,6 +2,7 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+    /*
 	// Arma 3
 	class Plane_Base_F;
 	class Ejection_Seat_Plane_Fighter_03_base_F;
@@ -25,6 +26,7 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	#include "cfgOpfor_Atlas.hpp"		// NATO (Caspian)
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	#include "cfgCDF.hpp"		        // CDF
+    */
 };

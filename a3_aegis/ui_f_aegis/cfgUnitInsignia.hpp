@@ -28,11 +28,4 @@ class CfgUnitInsignia
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class CSAT_BearRegiment
-	{
-		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0;
-		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_BearRegiment_CA.paa";
-		author = $STR_A3_A_Kydoimos;
-		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-	};
 };

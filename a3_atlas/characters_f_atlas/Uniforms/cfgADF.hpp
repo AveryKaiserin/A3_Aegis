@@ -2,7 +2,7 @@ class U_B_O_CombatUniform_aucamo_f: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = $STR_A3_A_CfgWeapons_U_B_O_Uniform_01_F0;
+	displayName = $STR_A3_A_CfgWeapons_U_B_O_CombatUniform_aucamo_f0;
 	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_O_CombatUniform_aucamo_f_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -19,7 +19,7 @@ class U_B_O_CombatUniform_tshirt_aucamo_f: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = $STR_A3_A_CfgWeapons_U_B_O_Uniform_01_tshirt_F0;
+	displayName = $STR_A3_A_CfgWeapons_U_B_O_CombatUniform_tshirt_aucamo_f0;
 	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_O_CombatUniform_tshirt_aucamo_f_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -36,7 +36,7 @@ class U_B_O_CombatUniform_vest_aucamo_f: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = $STR_A3_A_CfgWeapons_U_B_O_Uniform_01_shortsleeve_F0;
+	displayName = $STR_A3_A_CfgWeapons_U_B_O_CombatUniform_vest_aucamo_f0;
 	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_O_CombatUniform_vest_aucamo_f_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};

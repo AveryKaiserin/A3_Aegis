@@ -17,6 +17,7 @@ class CfgVehicles
 	};
 	class B_AssaultPack_ocamo: B_AssaultPack_Base
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_AssaultPack_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_compact_ocamo_CO.paa"};
 	};
 	class B_Kitbag_Base;
@@ -34,11 +35,13 @@ class CfgVehicles
 	};
 	class B_TacticalPack_ocamo: B_TacticalPack_Base
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_hex_CO.paa"};
 	};
 	class B_FieldPack_Base;
 	class B_FieldPack_ocamo: B_FieldPack_Base
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_FieldPack_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_gorod_hex_CO.paa"};
 	};
 	class B_FieldPack_blk: B_FieldPack_Base
@@ -48,6 +51,7 @@ class CfgVehicles
 	class B_Carryall_Base;
 	class B_Carryall_ocamo: B_Carryall_Base
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_Carryall_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_tortila_hex_CO.paa"};
 	};
 	class B_Carryall_mcamo: B_Carryall_Base
@@ -89,6 +93,7 @@ class CfgVehicles
 	class B_ViperHarness_ghex_F;
 	class B_ViperHarness_hex_F: B_ViperHarness_base_F
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_ViperHarness_hex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
 	};
 	class B_ViperLightHarness_base_F: Bag_Base
@@ -98,6 +103,7 @@ class CfgVehicles
 	class B_ViperLightHarness_ghex_F;
 	class B_ViperLightHarness_hex_F: B_ViperLightHarness_base_F
 	{
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_ViperLightHarness_hex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\Backpack_ViperOp_hex_CO.paa"};
 	};
 	// Arma 3 Enoch

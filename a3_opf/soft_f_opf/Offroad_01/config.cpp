@@ -250,8 +250,12 @@ class CfgVehicles
 	class Offroad_01_military_covered_base_F: Offroad_01_military_base_F{};
 	class Offroad_01_military_comms_base_F: Offroad_01_military_covered_base_F{};
 	// Arma 3 Opposing Forces
+    /*
     #include "cfgPara.hpp"
+	*/
 	#include "cfgChKDZ.hpp"
 	#include "cfgTKM.hpp"
+    /*
     #include "cfgMilitia.hpp"
+    */
 };

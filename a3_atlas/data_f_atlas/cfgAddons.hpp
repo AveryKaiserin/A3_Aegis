@@ -12,7 +12,9 @@ class CfgAddons
                 A3_Atlas_Air_F_Atlas_Heli_Light_02,
                 A3_Atlas_Air_F_Atlas_Heli_Transport_01,
                 A3_Atlas_Air_F_Atlas_Heli_Transport_02,
+                /*
                 A3_Atlas_Air_F_Atlas_Heli_Transport_03,
+                */
                 A3_Atlas_Air_F_Atlas_Plane_CAS_02,
                 A3_Atlas_Air_F_Atlas_Plane_Fighter_01,
                 A3_Atlas_Air_F_Atlas_Plane_Fighter_02,
@@ -38,9 +40,7 @@ class CfgAddons
                 A3_Atlas_Armor_F_Atlas_MBT_04,
                 A3_Atlas_BaseConfig_F_Atlas,
                 A3_Atlas_Boat_F_Atlas,
-                A3_Atlas_Boat_F_Atlas_Boat_Armed_01,
-                A3_Atlas_Boat_F_Atlas_Boat_Transport_01,
-                A3_Atlas_Boat_F_Atlas_SDV_01,
+                A3_Atlas_Boat_F_Atlas_Boat_Transport_02,
                 A3_Atlas_Characters_F_Atlas,
                 A3_Atlas_Characters_F_Atlas_Facewear,
                 A3_Atlas_Characters_F_Atlas_Headgear,
@@ -83,7 +83,9 @@ class CfgAddons
                 A3_Atlas_Supplies_F_Atlas_CargoNets,
                 A3_Atlas_UI_F_Atlas,
                 A3_Atlas_Weapons_F_Atlas,
+                /*
                 A3_Atlas_Weapons_F_Atlas_Rifles_AUG,
+                */
                 A3_Atlas_Weapons_F_Atlas_Rifles_G36
 			};
 		};

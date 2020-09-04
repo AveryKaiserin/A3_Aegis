@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Opf_Data_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Aegis Opposing Forces Addon - Main Configuration";
+		name = "Arma 3 Opposing Forces - Main Configuration";
 		url = "";
 		requiredAddons[] =
 		{

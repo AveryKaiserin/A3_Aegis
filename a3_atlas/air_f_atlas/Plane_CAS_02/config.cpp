@@ -3,8 +3,16 @@
 class CfgVehicles
 {
 	// Arma 3
-	class O_Plane_CAS_02_dynamicLoadout_F;
+	class Plane_CAS_02_dynamicLoadout_base_F;
+	class O_Plane_CAS_02_dynamicLoadout_F: Plane_CAS_02_dynamicLoadout_base_F
+	{
+		class EjectionSystem;
+	};
     class Ejection_Seat_Plane_CAS_02_base_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+	/*
+    #include "cfgCDF.hpp"				// CDF
+    #include "cfgIDF.hpp"				// IDF
+    */
 };

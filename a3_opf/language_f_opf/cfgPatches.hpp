@@ -3,7 +3,7 @@ class CfgPatches
 	class A3_Opf_Language_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Arma 3 Aegis Opposing Forces Addon - Texts and Translations";
+		name = "Arma 3 Opposing Forces - Texts and Translations";
 		url = "";
 		requiredAddons[] = {A3_Opf_Data_F_Opf};
 		requiredVersion = 0.1;

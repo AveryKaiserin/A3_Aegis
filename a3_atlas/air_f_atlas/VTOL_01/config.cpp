@@ -1,5 +1,6 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+/*
 class CfgVehicles
 {
 	// Arma 3 Apex
@@ -29,3 +30,4 @@ class CfgVehicles
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"				// IDF
 };
+*/

@@ -4,10 +4,13 @@ class CfgVehicles
 {
 	// Arma 3
 	class B_HMG_01_F;
+	class O_HMG_01_F;
 	class I_HMG_01_F;
 	class B_HMG_01_A_F;
+	class O_HMG_01_A_F;
 	class I_HMG_01_A_F;
 	class B_HMG_01_high_F;
+	class O_HMG_01_high_F;
 	class I_HMG_01_high_F;
 	class B_HMG_01_support_F;
 	class I_HMG_01_support_F: B_HMG_01_support_F
@@ -36,6 +39,14 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+	/*
+    #include "cfgLegion.hpp"		    // Legion
+    */
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+	/*
+    #include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	#include "cfgADF.hpp"				// ADF
+	#include "cfgCDF.hpp"				// CDF
+    */
 	#include "cfgIDF.hpp"				// IDF
 };

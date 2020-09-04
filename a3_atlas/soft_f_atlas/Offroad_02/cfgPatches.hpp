@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // HIL
+            // HIMF
             B_H_Offroad_02_AT_F,
             B_H_Offroad_02_LMG_F,
             B_H_Offroad_02_unarmed_F

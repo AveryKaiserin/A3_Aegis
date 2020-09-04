@@ -76,4 +76,12 @@ class CfgFactionClasses
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_RUS_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
 	};
+	class IND_E_ard_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+		priority = 6;
+		side = TGuerrila;
+		icon = "\A3\Data_F_Enoch\FactionIcons\icon_EAF_CA.paa";
+		flag = "\A3\Data_F_Enoch\Flags\flag_EAF_CO.paa";
+	};
 };

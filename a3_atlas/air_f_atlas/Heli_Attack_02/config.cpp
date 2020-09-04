@@ -5,5 +5,8 @@ class CfgVehicles
 	// Arma 3
 	class O_Heli_Attack_02_dynamicLoadout_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"
+	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+    /*
+	#include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
+    */
 };

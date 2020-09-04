@@ -53,5 +53,8 @@ class CfgVehicles
     class O_MBT_02_cannon_F: O_MBT_02_base_F{};
 	// Arma 3 Atlas
     #include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
-	//#include "cfgCDF.hpp"             // CDF
+    /*
+    #include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
+	#include "cfgCDF.hpp"               // CDF
+    */
 };

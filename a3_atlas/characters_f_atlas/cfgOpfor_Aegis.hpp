@@ -60,7 +60,7 @@ class O_recon_GL_F;
 class O_Fatigues_01_whex_F: O_Soldier_F
 {
     scope = protected;
-    scopeCurator = protected;
+    scopeCurator = private;
 	uniformClass = U_O_W_CombatUniform_owcamo;
 	hiddenSelectionsTextures[] =
 	{

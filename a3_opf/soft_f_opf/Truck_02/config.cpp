@@ -370,7 +370,7 @@ class CfgVehicles
 			};
 		};
 	};
-	*/
     #include "cfgPara.hpp"
+	*/
 	#include "cfgChKDZ.hpp"
 };

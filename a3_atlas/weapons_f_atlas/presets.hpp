@@ -83,6 +83,29 @@ class arifle_SPAR_01_blk_LRCO_Pointer_Snds_F: arifle_SPAR_01_blk_F
 		};
 	};
 };
+// SPAR-16 GL 5.56 mm (Black) + LRCO + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_SPAR_01_GL_blk_LRCO_Pointer_Snds_F: arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
 // SPAR-16S 5.56 mm (Black) + LRCO + IR Laser Pointer + Bipod (Black) [NATO] + Sound Suppressor (5.56 mm)
 class arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 {

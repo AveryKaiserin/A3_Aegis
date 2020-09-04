@@ -140,7 +140,7 @@ class B_L_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	{
 		weap_xx(arifle_MSBS65_black_F,2);
 		weap_xx(LMG_Mk200_black_F,1);
-		weap_xx(launch_MRAWS_green_F,1);
+		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportMagazines
 	{
@@ -157,8 +157,7 @@ class B_L_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellOrange,8);
 		mag_xx(SmokeShellBlue,8);
-		mag_xx(MRAWS_HEAT_F,3);
-		mag_xx(MRAWS_HE_F,3);
+		mag_xx(NLAW_F,5);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);

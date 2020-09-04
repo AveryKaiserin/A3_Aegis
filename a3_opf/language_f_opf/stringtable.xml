@@ -186,21 +186,21 @@
 					<Turkish>Insurgents</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgFactionClasses_IND_M_F0">
-					<Original>Patriots</Original>
-					<Chinese>Patriots</Chinese>
-					<French>Patriots</French>
-					<Spanish>Patriots</Spanish>
-					<Italian>Patriots</Italian>
-					<Polish>Patriots</Polish>
-					<Russian>Patriots</Russian>
-					<German>Patriots</German>
-					<Czech>Patriots</Czech>
-					<English>Patriots</English>
-					<Portuguese>Patriots</Portuguese>
-					<Korean>Patriots</Korean>
-					<Chinesesimp>Patriots</Chinesesimp>
-					<Japanese>Patriots</Japanese>
-					<Turkish>Patriots</Turkish>
+					<Original>Preppers</Original>
+					<Chinese>Preppers</Chinese>
+					<French>Preppers</French>
+					<Spanish>Preppers</Spanish>
+					<Italian>Preppers</Italian>
+					<Polish>Preppers</Polish>
+					<Russian>Preppers</Russian>
+					<German>Preppers</German>
+					<Czech>Preppers</Czech>
+					<English>Preppers</English>
+					<Portuguese>Preppers</Portuguese>
+					<Korean>Preppers</Korean>
+					<Chinesesimp>Preppers</Chinesesimp>
+					<Japanese>Preppers</Japanese>
+					<Turkish>Preppers</Turkish>
 				</Key>
 			</Container>
 		</Container>

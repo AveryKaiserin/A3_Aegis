@@ -141,14 +141,14 @@ class I_I_Soldier_A_F: I_I_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_556x45_Stanag),
+		mag_12(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_556x45_Stanag),
+		mag_12(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)

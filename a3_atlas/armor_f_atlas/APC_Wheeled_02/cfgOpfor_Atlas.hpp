@@ -184,8 +184,8 @@ class O_C_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	textureList[] = {Hex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_OPFOR_CO.paa",
-		"\A3\Armor_F\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_OPFOR_CO.paa",
+		"\A3\Armor_F_Beta\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_OPFOR_CO.paa",
+		"\A3\Armor_F_Beta\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_OPFOR_CO.paa",
 		"\A3\Data_F\Vehicles\Turret_OPFOR_CO.paa",
 		"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa",
 		"\A3\Armor_F\Data\cage_CSAT_CO.paa"

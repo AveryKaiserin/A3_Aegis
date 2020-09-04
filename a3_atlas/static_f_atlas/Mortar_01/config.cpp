@@ -38,6 +38,7 @@ class CfgVehicles
 		};
 	};
 	class B_Mortar_01_F;
+	class O_Mortar_01_F;
 	class I_Mortar_01_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
@@ -48,6 +49,12 @@ class CfgVehicles
 	class B_Mortar_01_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
+    #include "cfgLegion.hpp"		    // Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+	/*
+    #include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
+	#include "cfgADF.hpp"				// ADF
+	#include "cfgCDF.hpp"				// CDF
+    */
 	#include "cfgIDF.hpp"				// IDF
 };

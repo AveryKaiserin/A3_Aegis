@@ -8,7 +8,9 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class Land_RallyPoint_01_base_F;
 	// Arma 3 Atlas
+    /*
 	class B_TacticalPack_aucamo;
+    */
 	class B_H_Respawn_RallyPoint_01_bag_F: B_TacticalPack_oli
 	{
 		author = $STR_A3_A_AveryTheKitty;

@@ -3,23 +3,6 @@
 	<Package name="Language_Atlas">
 		<Container name="Air_F">
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_F0">
-				<Original>RAH-99 Akav</Original>
-				<Chinese>RAH-99 Akav</Chinese>
-				<French>RAH-99 Akav</French>
-				<Spanish>RAH-99 Akav</Spanish>
-				<Italian>RAH-99 Akav</Italian>
-				<Polish>RAH-99 Akav</Polish>
-				<Russian>RAH-99 Akav</Russian>
-				<German>RAH-99 Akav</German>
-				<Czech>RAH-99 Akav</Czech>
-				<English>RAH-99 Akav</English>
-				<Portuguese>RAH-99 Akav</Portuguese>
-				<Korean>RAH-99 Akav</Korean>
-				<Chinesesimp>RAH-99 Akav</Chinesesimp>
-				<Japanese>RAH-99 Akav</Japanese>
-				<Turkish>RAH-99 Akav</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_heavy_F0">
 				<Original>AH-99 Akav</Original>
 				<Chinese>AH-99 Akav</Chinese>
 				<French>AH-99 Akav</French>
@@ -552,106 +535,106 @@
 					<Turkish>Helikopter Mürettebat Kaskı [Lejyon]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_H0">
-					<Original>Crew Helmet [HIL]</Original>
-					<Chinese>隊員頭盔（HIL）</Chinese>
-					<French>Casque d'équipage [HIL]</French>
-					<Spanish>Casco de tripulación [HIL]</Spanish>
-					<Italian>Casco equipaggio [HIL]</Italian>
-					<Polish>Hełm załogi [HIL]</Polish>
-					<Russian>Танковый шлем [HIL]</Russian>
-					<German>Crew-Helm [HIL]</German>
-					<Czech>Přilba posádky [HIL]</Czech>
-					<English>Crew Helmet [HIL]</English>
-					<Portuguese>Capacete de tripulação [HIL]</Portuguese>
-					<Korean>승무원 헬멧[HIL]</Korean>
-					<Chinesesimp>机组人员头盔 [HIL]</Chinesesimp>
-					<Japanese>乗員ヘルメット[HIL]</Japanese>
-					<Turkish>Mürettebat Kaskı [HIL]</Turkish>
+					<Original>Crew Helmet [HIMF]</Original>
+					<Chinese>隊員頭盔（HIMF）</Chinese>
+					<French>Casque d'équipage [HIMF]</French>
+					<Spanish>Casco de tripulación [HIMF]</Spanish>
+					<Italian>Casco equipaggio [HIMF]</Italian>
+					<Polish>Hełm załogi [HIMF]</Polish>
+					<Russian>Танковый шлем [HIMF]</Russian>
+					<German>Crew-Helm [HIMF]</German>
+					<Czech>Přilba posádky [HIMF]</Czech>
+					<English>Crew Helmet [HIMF]</English>
+					<Portuguese>Capacete de tripulação [HIMF]</Portuguese>
+					<Korean>승무원 헬멧[HIMF]</Korean>
+					<Chinesesimp>机组人员头盔 [HIMF]</Chinesesimp>
+					<Japanese>乗員ヘルメット[HIMF]</Japanese>
+					<Turkish>Mürettebat Kaskı [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_H0">
-					<Original>Heli Pilot Helmet [HIL]</Original>
-					<Chinese>直升機飛行員頭盔（HIL）</Chinese>
-					<French>Casque de pilote d'hélico [HIL]</French>
-					<Spanish>Casco de piloto de helicóptero [HIL]</Spanish>
-					<Italian>Casco da elicotterista [HIL]</Italian>
-					<Polish>Hełm pilota śmigłowca [HIL]</Polish>
-					<Russian>Шлем пилота вертолёта [HIL]</Russian>
-					<German>Helipilotenhelm [HIL]</German>
-					<Czech>Přilba pilota helikoptéry [HIL]</Czech>
-					<English>Heli Pilot Helmet [HIL]</English>
-					<Portuguese>Capacete de piloto de helicóptero [HIL]</Portuguese>
-					<Korean>헬기 조종사 헬멧[HIL]</Korean>
-					<Chinesesimp>直升机飞行员头盔 [HIL]</Chinesesimp>
-					<Japanese>ヘリパイロットヘルメット[HIL]</Japanese>
-					<Turkish>Helikopter Pilotu Kaskı [HIL]</Turkish>
+					<Original>Heli Pilot Helmet [HIMF]</Original>
+					<Chinese>直升機飛行員頭盔（HIMF）</Chinese>
+					<French>Casque de pilote d'hélico [HIMF]</French>
+					<Spanish>Casco de piloto de helicóptero [HIMF]</Spanish>
+					<Italian>Casco da elicotterista [HIMF]</Italian>
+					<Polish>Hełm pilota śmigłowca [HIMF]</Polish>
+					<Russian>Шлем пилота вертолёта [HIMF]</Russian>
+					<German>Helipilotenhelm [HIMF]</German>
+					<Czech>Přilba pilota helikoptéry [HIMF]</Czech>
+					<English>Heli Pilot Helmet [HIMF]</English>
+					<Portuguese>Capacete de piloto de helicóptero [HIMF]</Portuguese>
+					<Korean>헬기 조종사 헬멧[HIMF]</Korean>
+					<Chinesesimp>直升机飞行员头盔 [HIMF]</Chinesesimp>
+					<Japanese>ヘリパイロットヘルメット[HIMF]</Japanese>
+					<Turkish>Helikopter Pilotu Kaskı [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_H0">
-					<Original>Heli Crew Helmet [HIL]</Original>
-					<Chinese>直升機隊員頭盔（HIL）</Chinese>
-					<French>Casque d'équipage d'hélico [HIL]</French>
-					<Spanish>Casco de tripulación de helicóptero [HIL]</Spanish>
-					<Italian>Casco equipaggio elicottero [HIL]</Italian>
-					<Polish>Hełm załogi śmigłowca [HIL]</Polish>
-					<Russian>Шлем члена экипажа вертолёта [HIL]</Russian>
-					<German>Helicrew-Helm [HIL]</German>
-					<Czech>Přilba posádky helikoptéry [HIL]</Czech>
-					<English>Heli Crew Helmet [HIL]</English>
-					<Portuguese>Capacete de tripulação de helicóptero [HIL]</Portuguese>
-					<Korean>헬기 승무원 헬멧[HIL]</Korean>
-					<Chinesesimp>直升机机组人员头盔 [HIL]</Chinesesimp>
-					<Japanese>ヘリ乗員ヘルメット[HIL]</Japanese>
-					<Turkish>Helikopter Mürettebat Kaskı [HIL]</Turkish>
+					<Original>Heli Crew Helmet [HIMF]</Original>
+					<Chinese>直升機隊員頭盔（HIMF）</Chinese>
+					<French>Casque d'équipage d'hélico [HIMF]</French>
+					<Spanish>Casco de tripulación de helicóptero [HIMF]</Spanish>
+					<Italian>Casco equipaggio elicottero [HIMF]</Italian>
+					<Polish>Hełm załogi śmigłowca [HIMF]</Polish>
+					<Russian>Шлем члена экипажа вертолёта [HIMF]</Russian>
+					<German>Helicrew-Helm [HIMF]</German>
+					<Czech>Přilba posádky helikoptéry [HIMF]</Czech>
+					<English>Heli Crew Helmet [HIMF]</English>
+					<Portuguese>Capacete de tripulação de helicóptero [HIMF]</Portuguese>
+					<Korean>헬기 승무원 헬멧[HIMF]</Korean>
+					<Chinesesimp>直升机机组人员头盔 [HIMF]</Chinesesimp>
+					<Japanese>ヘリ乗員ヘルメット[HIMF]</Japanese>
+					<Turkish>Helikopter Mürettebat Kaskı [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_jungle_F0">
-					<Original>Military Cap [HIL]</Original>
-					<Chinese>軍用棒球帽（HIL）</Chinese>
-					<French>Casquette militaire [HIL]</French>
-					<Spanish>Gorra militar [HIL]</Spanish>
-					<Italian>Cappellino militare [HIL]</Italian>
-					<Polish>Czapka wojskowa [HIL]</Polish>
-					<Russian>Армейская кепка [HIL]</Russian>
-					<German>Militärmütze [HIL]</German>
-					<Czech>Vojenská čepice [HIL]</Czech>
-					<English>Military Cap [HIL]</English>
-					<Portuguese>Boné militar [HIL]</Portuguese>
-					<Korean>군용 모자[HIL]</Korean>
-					<Chinesesimp>军帽 [HIL]</Chinesesimp>
-					<Japanese>ミリタリーキャップ[HIL]</Japanese>
-					<Turkish>Askeri Kasket [HIL]</Turkish>
+					<Original>Military Cap [HIMF]</Original>
+					<Chinese>軍用棒球帽（HIMF）</Chinese>
+					<French>Casquette militaire [HIMF]</French>
+					<Spanish>Gorra militar [HIMF]</Spanish>
+					<Italian>Cappellino militare [HIMF]</Italian>
+					<Polish>Czapka wojskowa [HIMF]</Polish>
+					<Russian>Армейская кепка [HIMF]</Russian>
+					<German>Militärmütze [HIMF]</German>
+					<Czech>Vojenská čepice [HIMF]</Czech>
+					<English>Military Cap [HIMF]</English>
+					<Portuguese>Boné militar [HIMF]</Portuguese>
+					<Korean>군용 모자[HIMF]</Korean>
+					<Chinesesimp>军帽 [HIMF]</Chinesesimp>
+					<Japanese>ミリタリーキャップ[HIMF]</Japanese>
+					<Turkish>Askeri Kasket [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_jungle_F0">
-					<Original>Booniehat [HIL]</Original>
-					<Chinese>登山帽（HIL）</Chinese>
-					<French>Chapeau de brousse [HIL]</French>
-					<Spanish>Gorro militar [HIL]</Spanish>
-					<Italian>Boonie hat [HIL]</Italian>
-					<Polish>Kapelusz wojskowy [HIL]</Polish>
-					<Russian>Панама [HIL]</Russian>
-					<German>Buschhut [HIL]</German>
-					<Czech>Klobouk [HIL]</Czech>
-					<English>Booniehat [HIL]</English>
-					<Portuguese>Chapéu tático [HIL]</Portuguese>
-					<Korean>부니햇[HIL]</Korean>
-					<Chinesesimp>奔尼帽 [HIL]</Chinesesimp>
-					<Japanese>ブーニーハット[HIL]</Japanese>
-					<Turkish>Boonie Şapka [HIL]</Turkish>
+					<Original>Booniehat [HIMF]</Original>
+					<Chinese>登山帽（HIMF）</Chinese>
+					<French>Chapeau de brousse [HIMF]</French>
+					<Spanish>Gorro militar [HIMF]</Spanish>
+					<Italian>Boonie hat [HIMF]</Italian>
+					<Polish>Kapelusz wojskowy [HIMF]</Polish>
+					<Russian>Панама [HIMF]</Russian>
+					<German>Buschhut [HIMF]</German>
+					<Czech>Klobouk [HIMF]</Czech>
+					<English>Booniehat [HIMF]</English>
+					<Portuguese>Chapéu tático [HIMF]</Portuguese>
+					<Korean>부니햇[HIMF]</Korean>
+					<Chinesesimp>奔尼帽 [HIMF]</Chinesesimp>
+					<Japanese>ブーニーハット[HIMF]</Japanese>
+					<Turkish>Boonie Şapka [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_jungle_hs_F0">
-					<Original>Booniehat (Headset) [HIL]</Original>
-					<Chinese>登山帽（耳機）（HIL）</Chinese>
-					<French>Chapeau de brousse (micro-casque) [HIL]</French>
-					<Spanish>Gorro militar (auricular) [HIL]</Spanish>
-					<Italian>Bonnie hat (cuffia) [HIL]</Italian>
-					<Polish>Kapelusz wojskowy (głowa) [HIL]</Polish>
-					<Russian>Панама (гарнитура) [HIL]</Russian>
-					<German>Buschhut (Headset) [HIL]</German>
-					<Czech>Klobouk (náhlavní souprava) [HIL]</Czech>
-					<English>Booniehat (Headset) [HIL]</English>
-					<Portuguese>Chapéu tático (headset) [HIL]</Portuguese>
-					<Korean>부니햇(헤드셋) [HIL]</Korean>
-					<Chinesesimp>奔尼帽（头戴式耳机）[HIL]</Chinesesimp>
-					<Japanese>ブーニーハット（ヘッドセット）[HIL]</Japanese>
-					<Turkish>Boonie Şapka (Baş Giysisi) [HIL]</Turkish>
+					<Original>Booniehat (Headset) [HIMF]</Original>
+					<Chinese>登山帽（耳機）（HIMF）</Chinese>
+					<French>Chapeau de brousse (micro-casque) [HIMF]</French>
+					<Spanish>Gorro militar (auricular) [HIMF]</Spanish>
+					<Italian>Bonnie hat (cuffia) [HIMF]</Italian>
+					<Polish>Kapelusz wojskowy (głowa) [HIMF]</Polish>
+					<Russian>Панама (гарнитура) [HIMF]</Russian>
+					<German>Buschhut (Headset) [HIMF]</German>
+					<Czech>Klobouk (náhlavní souprava) [HIMF]</Czech>
+					<English>Booniehat (Headset) [HIMF]</English>
+					<Portuguese>Chapéu tático (headset) [HIMF]</Portuguese>
+					<Korean>부니햇(헤드셋) [HIMF]</Korean>
+					<Chinesesimp>奔尼帽（头戴式耳机）[HIMF]</Chinesesimp>
+					<Japanese>ブーニーハット（ヘッドセット）[HIMF]</Japanese>
+					<Turkish>Boonie Şapka (Baş Giysisi) [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_aucamo_F0">
 					<Original>Crew Helmet [ADF]</Original>
@@ -843,89 +826,89 @@
 					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Kolları Kıvrık)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_F0">
-					<Original>Combat Fatigues [HIL]</Original>
-					<Chinese>作戰戰鬥服（HIL）</Chinese>
-					<French>Treillis [HIL]</French>
-					<Spanish>Traje de combate [HIL]</Spanish>
-					<Italian>Uniforme da combattimento [HIL]</Italian>
-					<Polish>Mundur bojowy [HIL]</Polish>
-					<Russian>Полевая форма [HIL]</Russian>
-					<German>Kampfanzug [HIL]</German>
-					<Czech>Bojová uniforma [HIL]</Czech>
-					<English>Combat Fatigues [HIL]</English>
-					<Portuguese>Uniforme de combate [HIL]</Portuguese>
-					<Korean>전투병 전투복[HIL]</Korean>
-					<Chinesesimp>作战服 [HIL]</Chinesesimp>
-					<Japanese>戦闘服[HIL]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti [HIL]</Turkish>
+					<Original>Combat Fatigues [HIMF]</Original>
+					<Chinese>作戰戰鬥服（HIMF）</Chinese>
+					<French>Treillis [HIMF]</French>
+					<Spanish>Traje de combate [HIMF]</Spanish>
+					<Italian>Uniforme da combattimento [HIMF]</Italian>
+					<Polish>Mundur bojowy [HIMF]</Polish>
+					<Russian>Полевая форма [HIMF]</Russian>
+					<German>Kampfanzug [HIMF]</German>
+					<Czech>Bojová uniforma [HIMF]</Czech>
+					<English>Combat Fatigues [HIMF]</English>
+					<Portuguese>Uniforme de combate [HIMF]</Portuguese>
+					<Korean>전투병 전투복[HIMF]</Korean>
+					<Chinesesimp>作战服 [HIMF]</Chinesesimp>
+					<Japanese>戦闘服[HIMF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0">
-					<Original>Combat Fatigues (Rolled-up) [HIL]</Original>
-					<Chinese>作戰戰鬥服（捲起）（HIL）</Chinese>
-					<French>Treillis (manches retroussées) [HIL]</French>
-					<Spanish>Traje de combate (arremangado) [HIL]</Spanish>
-					<Italian>Uniforme da combattimento (Maniche arrotolate) [HIL]</Italian>
-					<Polish>Mundur bojowy (podwinięty) [HIL]</Polish>
-					<Russian>Полевая форма (закатанными рукавами) [HIL] </Russian>
-					<German>Kampfanzug (hochgekrempelt) [HIL]</German>
-					<Czech>Bojová uniforma (vyhrnutá) [HIL]</Czech>
-					<English>Combat Fatigues (Rolled-up) [HIL]</English>
-					<Portuguese>Uniforme de combate (Manga dobrada) [HIL]</Portuguese>
-					<Korean>전투 퍼티그 (롤업) [HIL]</Korean>
-					<Chinesesimp>作战服（卷起）[HIL]</Chinesesimp>
-					<Japanese>戦闘服（ロールアップ）[HIL]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [HIL]</Turkish>
+					<Original>Combat Fatigues (Rolled-up) [HIMF]</Original>
+					<Chinese>作戰戰鬥服（捲起）（HIMF）</Chinese>
+					<French>Treillis (manches retroussées) [HIMF]</French>
+					<Spanish>Traje de combate (arremangado) [HIMF]</Spanish>
+					<Italian>Uniforme da combattimento (Maniche arrotolate) [HIMF]</Italian>
+					<Polish>Mundur bojowy (podwinięty) [HIMF]</Polish>
+					<Russian>Полевая форма (закатанными рукавами) [HIMF] </Russian>
+					<German>Kampfanzug (hochgekrempelt) [HIMF]</German>
+					<Czech>Bojová uniforma (vyhrnutá) [HIMF]</Czech>
+					<English>Combat Fatigues (Rolled-up) [HIMF]</English>
+					<Portuguese>Uniforme de combate (Manga dobrada) [HIMF]</Portuguese>
+					<Korean>전투 퍼티그 (롤업) [HIMF]</Korean>
+					<Chinesesimp>作战服（卷起）[HIMF]</Chinesesimp>
+					<Japanese>戦闘服（ロールアップ）[HIMF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0">
-					<Original>Combat Fatigues (Tank Top) [HIL]</Original>
-					<Chinese>作戰戰鬥服（上衣背心）（HIL）</Chinese>
-					<French>Treillis (manches débardeur) [HIL]</French>
-					<Spanish>Traje de combate (sin mangas) [HIL]</Spanish>
-					<Italian>Uniforme da combattimento (canotta) [HIL]</Italian>
-					<Polish>Mundur bojowy (bezrękawnik) [HIL]</Polish>
-					<Russian>Полевая форма (безрукавка) [HIL] </Russian>
-					<German>Kampfanzug (Muskelshirt) [HIL]</German>
-					<Czech>Bojová uniforma (tílko) [HIL]</Czech>
-					<English>Combat Fatigues (Tank Top) [HIL]</English>
-					<Portuguese>Uniforme de combate (regata) [HIL]</Portuguese>
-					<Korean>전투 퍼티그 (탱크톱) [HIL]</Korean>
-					<Chinesesimp>作战服（背心装）[HIL]</Chinesesimp>
-					<Japanese>戦闘服（タンクトップ）[HIL]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Atlet) [HIL]</Turkish>
+					<Original>Combat Fatigues (Tank Top) [HIMF]</Original>
+					<Chinese>作戰戰鬥服（上衣背心）（HIMF）</Chinese>
+					<French>Treillis (manches débardeur) [HIMF]</French>
+					<Spanish>Traje de combate (sin mangas) [HIMF]</Spanish>
+					<Italian>Uniforme da combattimento (canotta) [HIMF]</Italian>
+					<Polish>Mundur bojowy (bezrękawnik) [HIMF]</Polish>
+					<Russian>Полевая форма (безрукавка) [HIMF] </Russian>
+					<German>Kampfanzug (Muskelshirt) [HIMF]</German>
+					<Czech>Bojová uniforma (tílko) [HIMF]</Czech>
+					<English>Combat Fatigues (Tank Top) [HIMF]</English>
+					<Portuguese>Uniforme de combate (regata) [HIMF]</Portuguese>
+					<Korean>전투 퍼티그 (탱크톱) [HIMF]</Korean>
+					<Chinesesimp>作战服（背心装）[HIMF]</Chinesesimp>
+					<Japanese>戦闘服（タンクトップ）[HIMF]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Atlet) [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Officer_F0">
-					<Original>Officer Fatigues [HIL]</Original>
-					<Chinese>軍官戰鬥服（HIL）</Chinese>
-					<French>Treillis d'officier [HIL]</French>
-					<Spanish>Traje de oficial [HIL]</Spanish>
-					<Italian>Uniforme da ufficiale [HIL]</Italian>
-					<Polish>Mundur oficerski [HIL]</Polish>
-					<Russian>Офицерская форма [HIL]</Russian>
-					<German>Offizier-Militäranzug [HIL]</German>
-					<Czech>Důstojnická uniforma [HIL]</Czech>
-					<English>Officer Fatigues [HIL]</English>
-					<Portuguese>Uniforme de oficial [HIL]</Portuguese>
-					<Korean>장교 전투복[HIL]</Korean>
-					<Chinesesimp>军官服 [HIL]</Chinesesimp>
-					<Japanese>士官服[HIL]</Japanese>
-					<Turkish>Subay Kıyafeti [HIL]</Turkish>
+					<Original>Officer Fatigues [HIMF]</Original>
+					<Chinese>軍官戰鬥服（HIMF）</Chinese>
+					<French>Treillis d'officier [HIMF]</French>
+					<Spanish>Traje de oficial [HIMF]</Spanish>
+					<Italian>Uniforme da ufficiale [HIMF]</Italian>
+					<Polish>Mundur oficerski [HIMF]</Polish>
+					<Russian>Офицерская форма [HIMF]</Russian>
+					<German>Offizier-Militäranzug [HIMF]</German>
+					<Czech>Důstojnická uniforma [HIMF]</Czech>
+					<English>Officer Fatigues [HIMF]</English>
+					<Portuguese>Uniforme de oficial [HIMF]</Portuguese>
+					<Korean>장교 전투복[HIMF]</Korean>
+					<Chinesesimp>军官服 [HIMF]</Chinesesimp>
+					<Japanese>士官服[HIMF]</Japanese>
+					<Turkish>Subay Kıyafeti [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Helipilot_F0">
-					<Original>Heli Pilot Coveralls [HIL]</Original>
-					<Chinese>直升機飛行員連身服（HIL）</Chinese>
-					<French>Combinaisons Pilote Hélicoptère [HIL]</French>
-					<Spanish>Mono de piloto de helicóptero [HIL]</Spanish>
-					<Italian>Tuta da elicotterista [HIL]</Italian>
-					<Polish>Kombinezon pilota śmigłowca [HIL]</Polish>
-					<Russian>Комбинезон вертолетчика [HIL]</Russian>
-					<German>Heli-Pilot-Overall [HIL]</German>
-					<Czech>Kombinéza pilota vrtulníku [HIL]</Czech>
-					<English>Heli Pilot Coveralls [HIL]</English>
-					<Portuguese>Macacão de piloto de helicóptero [HIL]</Portuguese>
-					<Korean>헬기 조종사 비행복 [HIL]</Korean>
-					<Chinesesimp>直升机飞行员服 [HIL]</Chinesesimp>
-					<Japanese>ヘリパイロットカバーオール [HIL]</Japanese>
-					<Turkish>Helikopter Pilotu Tulumu [HIL]</Turkish>
+					<Original>Heli Pilot Coveralls [HIMF]</Original>
+					<Chinese>直升機飛行員連身服（HIMF）</Chinese>
+					<French>Combinaisons Pilote Hélicoptère [HIMF]</French>
+					<Spanish>Mono de piloto de helicóptero [HIMF]</Spanish>
+					<Italian>Tuta da elicotterista [HIMF]</Italian>
+					<Polish>Kombinezon pilota śmigłowca [HIMF]</Polish>
+					<Russian>Комбинезон вертолетчика [HIMF]</Russian>
+					<German>Heli-Pilot-Overall [HIMF]</German>
+					<Czech>Kombinéza pilota vrtulníku [HIMF]</Czech>
+					<English>Heli Pilot Coveralls [HIMF]</English>
+					<Portuguese>Macacão de piloto de helicóptero [HIMF]</Portuguese>
+					<Korean>헬기 조종사 비행복 [HIMF]</Korean>
+					<Chinesesimp>直升机飞行员服 [HIMF]</Chinesesimp>
+					<Japanese>ヘリパイロットカバーオール [HIMF]</Japanese>
+					<Turkish>Helikopter Pilotu Tulumu [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_E_Uniform_01_F0">
 					<Original>Field Uniform (Woodland)</Original>
@@ -1310,55 +1293,55 @@
 					<Turkish>Lejyon</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
-					<Original>NATO (European)</Original>
-					<Chinese>NATO (歐洲人)</Chinese>
-					<French>OTAN (européens)</French>
-					<Spanish>OTAN (europeos)</Spanish>
-					<Italian>OTAN (europei)</Italian>
-					<Polish>NATO (Europejczycy)</Polish>
-					<Russian>НАТО (европейцы)</Russian>
-					<German>NATO (Europa)</German>
-					<Czech>NATO (Evropané)</Czech>
-					<English>NATO (European)</English>
-					<Portuguese>OTAN (europeus)</Portuguese>
-					<Korean>NATO(유럽)</Korean>
-					<Chinesesimp>NATO (欧洲人)</Chinesesimp>
-					<Japanese>NATO（ヨーロッパ系）</Japanese>
-					<Turkish>NATO (Avrupalı)</Turkish>
+					<Original>NATO (German)</Original>
+					<Chinese>NATO (德語)</Chinese>
+					<French>OTAN (Allemand)</French>
+					<Spanish>OTAN (Alemán)</Spanish>
+					<Italian>OTAN (Germano)</Italian>
+					<Polish>NATO (Niemiecki)</Polish>
+					<Russian>НАТО (Немецкий)</Russian>
+					<German>NATO (Deutsche)</German>
+					<Czech>NATO (Němec)</Czech>
+					<English>NATO (German)</English>
+					<Portuguese>OTAN (Germano)</Portuguese>
+					<Korean>NATO(독일 사람)</Korean>
+					<Chinesesimp>NATO (德语)</Chinesesimp>
+					<Japanese>NATO（ドイツ人）</Japanese>
+					<Turkish>NATO (Almanca)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_O_F0">
-					<Original>ADF</Original>
-					<Chinese>ADF</Chinese>
-					<French>FDA</French>
-					<Spanish>FDA</Spanish>
-					<Italian>FDA</Italian>
-					<Polish>ASO</Polish>
-					<Russian>АСО</Russian>
-					<German>AS</German>
-					<Czech>AOS</Czech>
-					<English>ADF</English>
-					<Portuguese>FDA</Portuguese>
-					<Korean>ADF</Korean>
-					<Chinesesimp>ADF</Chinesesimp>
-					<Japanese>ADF</Japanese>
-					<Turkish>ASG</Turkish>
+					<Original>HIMF</Original>
+					<Chinese>HIMF</Chinese>
+					<French>HIMF</French>
+					<Spanish>HIMF</Spanish>
+					<Italian>HIMF</Italian>
+					<Polish>HIMF</Polish>
+					<Russian>HIMF</Russian>
+					<German>HIMF</German>
+					<Czech>HIMF</Czech>
+					<English>HIMF</English>
+					<Portuguese>HIMF</Portuguese>
+					<Korean>HIMF</Korean>
+					<Chinesesimp>HIMF</Chinesesimp>
+					<Japanese>HIMF</Japanese>
+					<Turkish>HIMF</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_H_F0">
-					<Original>HIL</Original>
-					<Chinese>HIL</Chinese>
-					<French>HIL</French>
-					<Spanish>HIL</Spanish>
-					<Italian>HIL</Italian>
-					<Polish>HIL</Polish>
-					<Russian>HIL</Russian>
-					<German>HIL</German>
-					<Czech>HIL</Czech>
-					<English>HIL</English>
-					<Portuguese>HIL</Portuguese>
-					<Korean>HIL</Korean>
-					<Chinesesimp>HIL</Chinesesimp>
-					<Japanese>HIL</Japanese>
-					<Turkish>HIL</Turkish>
+					<Original>HIMF</Original>
+					<Chinese>HIMF</Chinese>
+					<French>HIMF</French>
+					<Spanish>HIMF</Spanish>
+					<Italian>HIMF</Italian>
+					<Polish>HIMF</Polish>
+					<Russian>HIMF</Russian>
+					<German>HIMF</German>
+					<Czech>HIMF</Czech>
+					<English>HIMF</English>
+					<Portuguese>HIMF</Portuguese>
+					<Korean>HIMF</Korean>
+					<Chinesesimp>HIMF</Chinesesimp>
+					<Japanese>HIMF</Japanese>
+					<Turkish>HIMF</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_C_F0">
 					<Original>CSAT (Caspian)</Original>
@@ -1449,21 +1432,21 @@
 		</Container>
 		<Container name="ContentLicensing">
 			<Key ID="STR_A3_A_CfgMods_Atlas_overview">
-				<Original>TODO</Original>
-				<Chinese>TODO</Chinese>
-				<French>TODO</French>
-				<Spanish>TODO</Spanish>
-				<Italian>TODO</Italian>
-				<Polish>TODO</Polish>
-				<Russian>TODO</Russian>
-				<German>TODO</German>
-				<Czech>TODO</Czech>
-				<English>TODO</English>
-				<Portuguese>TODO</Portuguese>
-				<Korean>TODO</Korean>
-				<Chinesesimp>TODO</Chinesesimp>
-				<Japanese>TODO</Japanese>
-				<Turkish>TODO</Turkish>
+				<Original>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Original>
+				<Chinese>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Chinese>
+				<French>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</French>
+				<Spanish>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Spanish>
+				<Italian>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Italian>
+				<Polish>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Polish>
+				<Russian>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Russian>
+				<German>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</German>
+				<Czech>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Czech>
+				<English>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</English>
+				<Portuguese>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Portuguese>
+				<Korean>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Korean>
+				<Chinesesimp>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Chinesesimp>
+				<Japanese>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Japanese>
+				<Turkish>Arma 3 Atlas is an expansion for Arma 3 Aegis focused on expanding 2035 setting beyond Altis, Tanoa, Malden, and Livonia. it introduces a variety of new factions, weapons, equipment, and vehicles, with emphasis on matching the quality and consistency of the vanilla sandbox.</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMods_Atlas_name">
 				<Original>Arma 3 Atlas</Original>
@@ -1502,24 +1485,24 @@
 		</Container>
 		<!--TODO-->
 		<Container name="FieldManual">
-			<Key ID="STR_A3_A_HIL1">
-				<Original>HIL</Original>
-				<Chinese>HIL</Chinese>
-				<French>HIL</French>
-				<Spanish>HIL</Spanish>
-				<Italian>HIL</Italian>
-				<Polish>HIL</Polish>
-				<Russian>HIL</Russian>
-				<German>HIL</German>
-				<Czech>HIL</Czech>
-				<English>HIL</English>
-				<Portuguese>HIL</Portuguese>
-				<Korean>HIL</Korean>
-				<Chinesesimp>HIL</Chinesesimp>
-				<Japanese>HIL</Japanese>
-				<Turkish>HIL</Turkish>
+			<Key ID="STR_A3_A_HIMF1">
+				<Original>HIMF</Original>
+				<Chinese>HIMF</Chinese>
+				<French>HIMF</French>
+				<Spanish>HIMF</Spanish>
+				<Italian>HIMF</Italian>
+				<Polish>HIMF</Polish>
+				<Russian>HIMF</Russian>
+				<German>HIMF</German>
+				<Czech>HIMF</Czech>
+				<English>HIMF</English>
+				<Portuguese>HIMF</Portuguese>
+				<Korean>HIMF</Korean>
+				<Chinesesimp>HIMF</Chinesesimp>
+				<Japanese>HIMF</Japanese>
+				<Turkish>HIMF</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_HIL0">
+			<Key ID="STR_A3_A_HIMF0">
 				<Original>TODO</Original>
 				<Chinese>TODO</Chinese>
 				<French>TODO</French>
@@ -2232,72 +2215,72 @@
 					<Turkish>İkmal Kutusu [Lejyon]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_H_Wps_F0">
-					<Original>Basic Weapons [HIL]</Original>
-					<Chinese>基本武器（HIL）</Chinese>
-					<French>Armes de base [HIL]</French>
-					<Spanish>Armas básicas [HIL]</Spanish>
-					<Italian>Armi di base [HIL]</Italian>
-					<Polish>Broń podstawowa [HIL]</Polish>
-					<Russian>Основное оружие [HIL]</Russian>
-					<German>Standardwaffen [HIL]</German>
-					<Czech>Základní zbraně [HIL]</Czech>
-					<English>Basic Weapons [HIL]</English>
-					<Portuguese>Armas básicas [HIL]</Portuguese>
-					<Korean>기본무기[HIL]</Korean>
-					<Chinesesimp>基本武器 [HIL]</Chinesesimp>
-					<Japanese>基本武器[HIL]</Japanese>
-					<Turkish>Temel Silahlar [HIL]</Turkish>
+					<Original>Basic Weapons [HIMF]</Original>
+					<Chinese>基本武器（HIMF）</Chinese>
+					<French>Armes de base [HIMF]</French>
+					<Spanish>Armas básicas [HIMF]</Spanish>
+					<Italian>Armi di base [HIMF]</Italian>
+					<Polish>Broń podstawowa [HIMF]</Polish>
+					<Russian>Основное оружие [HIMF]</Russian>
+					<German>Standardwaffen [HIMF]</German>
+					<Czech>Základní zbraně [HIMF]</Czech>
+					<English>Basic Weapons [HIMF]</English>
+					<Portuguese>Armas básicas [HIMF]</Portuguese>
+					<Korean>기본무기[HIMF]</Korean>
+					<Chinesesimp>基本武器 [HIMF]</Chinesesimp>
+					<Japanese>基本武器[HIMF]</Japanese>
+					<Turkish>Temel Silahlar [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_H_Ammo_F0">
-					<Original>Basic Ammo [HIL]</Original>
-					<Chinese>基本彈藥（HIL）</Chinese>
-					<French>Munitions de base [HIL]</French>
-					<Spanish>Munición básica [HIL]</Spanish>
-					<Italian>Munizioni di base [HIL]</Italian>
-					<Polish>Amunicja podstawowa [HIL]</Polish>
-					<Russian>Основные боеприпасы [HIL]</Russian>
-					<German>Standardmunition [HIL]</German>
-					<Czech>Základní munice [HIL]</Czech>
-					<English>Basic Ammo [HIL]</English>
-					<Portuguese>Munição básica [HIL]</Portuguese>
-					<Korean>기본 탄약[HIL]</Korean>
-					<Chinesesimp>基本弹药 [HIL]</Chinesesimp>
-					<Japanese>基本弾薬[HIL]</Japanese>
-					<Turkish>Temel Mühimmat [HIL]</Turkish>
+					<Original>Basic Ammo [HIMF]</Original>
+					<Chinese>基本彈藥（HIMF）</Chinese>
+					<French>Munitions de base [HIMF]</French>
+					<Spanish>Munición básica [HIMF]</Spanish>
+					<Italian>Munizioni di base [HIMF]</Italian>
+					<Polish>Amunicja podstawowa [HIMF]</Polish>
+					<Russian>Основные боеприпасы [HIMF]</Russian>
+					<German>Standardmunition [HIMF]</German>
+					<Czech>Základní munice [HIMF]</Czech>
+					<English>Basic Ammo [HIMF]</English>
+					<Portuguese>Munição básica [HIMF]</Portuguese>
+					<Korean>기본 탄약[HIMF]</Korean>
+					<Chinesesimp>基本弹药 [HIMF]</Chinesesimp>
+					<Japanese>基本弾薬[HIMF]</Japanese>
+					<Turkish>Temel Mühimmat [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_H_WpsLaunch_F0">
-					<Original>Launchers [HIL]</Original>
-					<Chinese>發射器（HIL）</Chinese>
-					<French>Lanceurs [HIL]</French>
-					<Spanish>Lanzadores [HIL]</Spanish>
-					<Italian>Lanciatori [HIL]</Italian>
-					<Polish>Wyrzutnie [HIL]</Polish>
-					<Russian>Пусковые установки [HIL]</Russian>
-					<German>Werfer [HIL]</German>
-					<Czech>Raketomety [HIL]</Czech>
-					<English>Launchers [HIL]</English>
-					<Portuguese>Lançadores [HIL]</Portuguese>
-					<Korean>발사기[HIL]</Korean>
-					<Chinesesimp>发射器 [HIL]</Chinesesimp>
-					<Japanese>ランチャー[HIL]</Japanese>
-					<Turkish>Fırlatıcılar [HIL]</Turkish>
+					<Original>Launchers [HIMF]</Original>
+					<Chinese>發射器（HIMF）</Chinese>
+					<French>Lanceurs [HIMF]</French>
+					<Spanish>Lanzadores [HIMF]</Spanish>
+					<Italian>Lanciatori [HIMF]</Italian>
+					<Polish>Wyrzutnie [HIMF]</Polish>
+					<Russian>Пусковые установки [HIMF]</Russian>
+					<German>Werfer [HIMF]</German>
+					<Czech>Raketomety [HIMF]</Czech>
+					<English>Launchers [HIMF]</English>
+					<Portuguese>Lançadores [HIMF]</Portuguese>
+					<Korean>발사기[HIMF]</Korean>
+					<Chinesesimp>发射器 [HIMF]</Chinesesimp>
+					<Japanese>ランチャー[HIMF]</Japanese>
+					<Turkish>Fırlatıcılar [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_H_supplyCrate_F0">
-					<Original>Supply Box [HIL]</Original>
-					<Chinese>補給盒（HIL）</Chinese>
-					<French>Caisse de ravitaillements [HIL]</French>
-					<Spanish>Caja de suministros [HIL]</Spanish>
-					<Italian>Scatola di rifornimenti [HIL]</Italian>
-					<Polish>Skrzynia z zaopatrzeniem [HIL]</Polish>
-					<Russian>Ящик с припасами [HIL]</Russian>
-					<German>Nachschubkiste [HIL]</German>
-					<Czech>Bedna se zásobami [HIL]</Czech>
-					<English>Supply Box [HIL]</English>
-					<Portuguese>Caixa de suprimentos [HIL]</Portuguese>
-					<Korean>보급상자[HIL]</Korean>
-					<Chinesesimp>供给箱 [HIL]</Chinesesimp>
-					<Japanese>物資箱[HIL]</Japanese>
-					<Turkish>İkmal Kutusu [HIL]</Turkish>
+					<Original>Supply Box [HIMF]</Original>
+					<Chinese>補給盒（HIMF）</Chinese>
+					<French>Caisse de ravitaillements [HIMF]</French>
+					<Spanish>Caja de suministros [HIMF]</Spanish>
+					<Italian>Scatola di rifornimenti [HIMF]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [HIMF]</Polish>
+					<Russian>Ящик с припасами [HIMF]</Russian>
+					<German>Nachschubkiste [HIMF]</German>
+					<Czech>Bedna se zásobami [HIMF]</Czech>
+					<English>Supply Box [HIMF]</English>
+					<Portuguese>Caixa de suprimentos [HIMF]</Portuguese>
+					<Korean>보급상자[HIMF]</Korean>
+					<Chinesesimp>供给箱 [HIMF]</Chinesesimp>
+					<Japanese>物資箱[HIMF]</Japanese>
+					<Turkish>İkmal Kutusu [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_Wps_F0">
 					<Original>Basic Weapons [NATO European]</Original>
@@ -2370,21 +2353,21 @@
 			</Container>
 			<Container name="Bags">
 				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_jungle_F0">
-					<Original>Radio Pack (Jungle) [HIL]</Original>
-					<Chinese>無線電背包（叢林）（HIL）</Chinese>
-					<French>Sac à dos radio (jungle) [HIL]</French>
-					<Spanish>Mochila para radio (jungla) [HIL]</Spanish>
-					<Italian>Zaino per radio (giungla) [HIL]</Italian>
-					<Polish>Plecak z radiostacją (dżungla) [HIL]</Polish>
-					<Russian>Ранец радиста (джунгли) [HIL]</Russian>
-					<German>Funkrucksack (Urwald) [HIL]</German>
-					<Czech>Batoh s vysílačkou (džungle) [HIL]</Czech>
-					<English>Radio Pack (Jungle) [HIL]</English>
-					<Portuguese>Pacote de rádio (selva) [HIL]</Portuguese>
-					<Korean>무전 팩 (정글) [HIL]</Korean>
-					<Chinesesimp>无线电包（丛林）[HIL]</Chinesesimp>
-					<Japanese>無線機パック（ジャングル）[HIL]</Japanese>
-					<Turkish>Telsiz Paketi (Orman) [HIL]</Turkish>
+					<Original>Radio Pack (Jungle) [HIMF]</Original>
+					<Chinese>無線電背包（叢林）（HIMF）</Chinese>
+					<French>Sac à dos radio (jungle) [HIMF]</French>
+					<Spanish>Mochila para radio (jungla) [HIMF]</Spanish>
+					<Italian>Zaino per radio (giungla) [HIMF]</Italian>
+					<Polish>Plecak z radiostacją (dżungla) [HIMF]</Polish>
+					<Russian>Ранец радиста (джунгли) [HIMF]</Russian>
+					<German>Funkrucksack (Urwald) [HIMF]</German>
+					<Czech>Batoh s vysílačkou (džungle) [HIMF]</Czech>
+					<English>Radio Pack (Jungle) [HIMF]</English>
+					<Portuguese>Pacote de rádio (selva) [HIMF]</Portuguese>
+					<Korean>무전 팩 (정글) [HIMF]</Korean>
+					<Chinesesimp>无线电包（丛林）[HIMF]</Chinesesimp>
+					<Japanese>無線機パック（ジャングル）[HIMF]</Japanese>
+					<Turkish>Telsiz Paketi (Orman) [HIMF]</Turkish>
 				</Key>
 			</Container>
 		</Container>
@@ -2405,6 +2388,23 @@
 				<Chinesesimp>Arma 3 Atlas</Chinesesimp>
 				<Japanese>Arma 3 Atlas</Japanese>
 				<Turkish>Arma 3 Atlas</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0">
+				<Original>Bear Regiment</Original>
+				<Chinese>熊團</Chinese>
+				<French>Régiment Ours</French>
+				<Spanish>Regimiento de oso</Spanish>
+				<Italian>Reggimento di orso</Italian>
+				<Polish>Pułk Niedźwiedź</Polish>
+				<Russian>Медведь полк</Russian>
+				<German>Bär Regiment</German>
+				<Czech>Medvěd pluk</Czech>
+				<English>Bear Regiment</English>
+				<Portuguese>Regimento Urso</Portuguese>
+				<Korean>곰 연대</Korean>
+				<Chinesesimp>熊团</Chinesesimp>
+				<Japanese>くま連隊</Japanese>
+				<Turkish>Ayı Alayı</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgUnitInsignia_NATO_31stBattalion0">
 				<Original>31st Panzergrenadier Battalion</Original>

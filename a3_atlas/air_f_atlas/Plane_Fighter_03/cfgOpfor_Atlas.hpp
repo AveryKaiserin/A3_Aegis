@@ -124,7 +124,6 @@ class O_C_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_C_Plane_Fighter_03_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_Plane_Fighter_03_base_F0;
 	side = TEast;
 	faction = OPF_C_F;
 	crew = O_C_Fighter_Pilot_F;

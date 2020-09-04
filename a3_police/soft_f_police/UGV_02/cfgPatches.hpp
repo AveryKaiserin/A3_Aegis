@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class A3_Police_Soft_F_Police_Quadbike_01
+	class A3_Police_Soft_F_Police_UGV_02
 	{
 		addonRootClass = A3_Police_Soft_F_Police;
 		requiredAddons[] = {A3_Police_Soft_F_Police};

@@ -54,5 +54,5 @@ class CfgVehicles
 	};
 	class MRAP_03_gmg_base_F;
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
 };

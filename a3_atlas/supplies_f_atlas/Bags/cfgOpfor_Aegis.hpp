@@ -1,5 +1,4 @@
-// Arma 3 Aegis
-class B_Carryall_ghex_OWAmmo_F: B_Carryall_ghex_F
+class B_Carryall_owcamo_OWAmmo_F: B_Carryall_owcamo
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

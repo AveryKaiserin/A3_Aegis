@@ -49,6 +49,7 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
+            /*
 			class CDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
@@ -63,6 +64,7 @@ class CfgVehicles
 				};
 				factions[] = {OPF_R_F};
 			};
+            */
 		};
 	};
 	class O_APC_Tracked_02_AA_F: O_APC_Tracked_02_base_F
@@ -73,6 +75,7 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
+            /*
 			class CDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
@@ -87,6 +90,7 @@ class CfgVehicles
 				};
 				factions[] = {OPF_R_F};
 			};
+            */
 		};
 	};
 	// Arma 3 Aegis
@@ -94,6 +98,7 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
+            /*
 			class CDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
@@ -108,9 +113,13 @@ class CfgVehicles
 				};
 				factions[] = {OPF_R_F};
 			};
+            */
 		};
 	};
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
+    /*
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgCDF.hpp"				// CDF
+    */
 };
