@@ -329,7 +329,7 @@ class B_L_Soldier_AAA_F: B_L_Soldier_base_F
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
-	backpack = B_Carryall_green_BLAAA_F;
+	backpack = B_Carryall_green_AAA_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_ico_pointer_f,
@@ -393,7 +393,7 @@ class B_L_Soldier_AAT_F: B_L_Soldier_base_F
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
-	backpack = B_Carryall_green_BLAAT_F;
+	backpack = B_Carryall_green_AAT_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_ico_pointer_f,
@@ -575,59 +575,6 @@ class B_L_Medic_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Crew_F: B_L_Soldier_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Crew_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_B_crew_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
-	linkedItems[] =
-	{
-		V_CarrierRigKBT_01_Olive_F,
-		H_HelmetCrew_B_oli_F,
-		DefaultManLinkedItems,
-		NVGoggles_INDEP
-	};
-	respawnLinkedItems[] =
-	{
-		V_CarrierRigKBT_01_Olive_F,
-		H_HelmetCrew_B_oli_F,
-		DefaultManLinkedItems,
-		NVGoggles_INDEP
-	};
-	weapons[] =
-	{
-		SMG_03C_black,
-		hgun_Pistol_heavy_01_black_F,
-        DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		SMG_03C_black,
-		hgun_Pistol_heavy_01_black_F,
-        DefaultManWeapons
-	};
-	magazines[] =
-	{
-		mag_6(50Rnd_570x28_SMG_03),
-		mag_2(11Rnd_45ACP_Mag),
-        HandGrenade,
-        SmokeShell
-	};
-	respawnMagazines[] =
-	{
-		mag_6(50Rnd_570x28_SMG_03),
-		mag_2(11Rnd_45ACP_Mag),
-        HandGrenade,
-        SmokeShell
-	};
-	camouflage = 1.6;
-    engineer = true;
-	cost = 90000;
-	role = Crewman;
-};
 class B_L_Engineer_F: B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -719,7 +666,7 @@ class B_L_Soldier_Exp_F: B_L_Soldier_base_F
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
-	backpack = B_Kitbag_sgg_BLExp_F;
+	backpack = B_Kitbag_sgg_IIExp_F;
 	weapons[] =
 	{
 		arifle_MSBS65_black_ico_pointer_f,
@@ -762,56 +709,6 @@ class B_L_soldier_mine_F: B_L_Soldier_Exp_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_green_Mine;
-};
-class B_L_Fighter_Pilot_F: B_L_Soldier_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Fighter_Pilot_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_B_Fighter_Pilot_name;
-	uniformClass = U_B_PilotCoveralls;
-    linkedItems[] =
-    {
-        H_PilotHelmetFighter_B,
-        DefaultManLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        H_PilotHelmetFighter_B,
-        DefaultManLinkedItems
-    };
-	weapons[] =
-	{
-		hgun_Pistol_heavy_01_black_F,
-        DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		hgun_Pistol_heavy_01_black_F,
-        DefaultManWeapons
-	};
-	magazines[] =
-	{
-		mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
-	};
-	respawnMagazines[] =
-	{
-		mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
-	};
-    cost = 165000;
-    role = Crewman;
-	camouflage = 2;
-	identityTypes[] =
-	{
-		LanguageENGFRE_F,
-		Head_NATO,
-		Head_Greek,
-		Head_Tanoan,
-		G_NATO_pilot
-	};
 };
 class B_L_Soldier_GL_F: B_L_Soldier_base_F
 {
@@ -2032,27 +1929,6 @@ class B_L_Soldier_UAV_F: B_L_Soldier_base_F
 		Head_Tanoan,
         G_NATO_recon
 	};
-};
-class B_L_soldier_UAV_06_F: B_L_Soldier_UAV_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UAV_06_F.jpg";
-	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
-	backpack = B_UAV_06_backpack_F;
-};
-class B_L_soldier_UAV_06_medical_F: B_L_Soldier_UAV_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UAV_06_medical_F.jpg";
-	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
-	backpack = B_UAV_06_medical_backpack_F;
-};
-class B_L_soldier_UGV_02_Demining_F: B_L_Soldier_UAV_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_UGV_02_Demining_F.jpg";
-	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
-	backpack = B_UGV_02_Demining_backpack_F;
 };
 class B_L_Soldier_universal_F: B_L_Soldier_F
 {

@@ -1848,69 +1848,6 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 		O_NVGoggles_ghex_F
 	};
 };
-class O_W_Soldier_CBRN_F: O_W_Soldier_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_CBRN_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
-	uniformClass = U_O_W_CombatUniform_owcamo;
-	linkedItems[] =
-	{
-		V_SmershVest_01_khaki_F,
-		H_HelmetAggressor_F,
-		G_AirPurifyingRespirator_02_olive_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	respawnLinkedItems[] =
-	{
-		V_SmershVest_01_khaki_F,
-		H_HelmetAggressor_F,
-		G_AirPurifyingRespirator_02_olive_F,
-		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
-	};
-	weapons[] =
-    {
-        arifle_AK12U_545_aco_FL_F,
-        hgun_Pistol_01_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_AK12U_545_aco_FL_F,
-        hgun_Pistol_01_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
-        mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
-        mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-    };
-    cost = 93000;
-	camouflage = 1.6;
-    icon = iconManEngineer;
-    picture = pictureRepair;
-    role = Sapper;
-	class EventHandlers: EventHandlers
-	{
-		class BIN_CBRN_INIT
-		{
-			init = "_this call bin_fnc_CBRNHoseInit;";
-		};
-	};
-};
 class O_W_RadioOperator_F: O_W_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;

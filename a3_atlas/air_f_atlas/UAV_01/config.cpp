@@ -40,6 +40,7 @@ class CfgVehicles
 		class assembleInfo;
 	};
 	// Arma 3 Atlas
+	#include "cfgLegion.hpp"		    // Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
     /*
 	#include "cfgADF.hpp"				// ADF

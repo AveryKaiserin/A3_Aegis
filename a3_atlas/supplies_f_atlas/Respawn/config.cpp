@@ -14,7 +14,7 @@ class CfgVehicles
 	class B_H_Respawn_RallyPoint_01_bag_F: B_TacticalPack_oli
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgVehicles_B_Respawn_RallyPoint_01_bag_F0;
+		displayName = $STR_A3_A_CfgVehicles_B_H_Respawn_RallyPoint_01_bag_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -56,7 +56,7 @@ class CfgVehicles
 	class I_I_Respawn_RallyPoint_01_bag_F: B_TacticalPack_sgg
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgVehicles_B_Respawn_RallyPoint_01_bag_F0;
+		displayName = $STR_A3_A_CfgVehicles_I_I_Respawn_RallyPoint_01_bag_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;

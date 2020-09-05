@@ -39,9 +39,7 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	/*
     #include "cfgLegion.hpp"		    // Legion
-    */
 	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
 	/*
     #include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)

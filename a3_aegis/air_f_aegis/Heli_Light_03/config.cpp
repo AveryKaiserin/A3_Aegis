@@ -56,7 +56,12 @@ class CfgVehicles
 					"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Box_A_NATO_Wps_F_CO.paa",
 					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 				};
-				factions[] = {BLU_A_F};
+				factions[] =
+                {
+                    BLU_A_F,
+                    BLU_A_tna_F,
+                    BLU_A_wdl_F
+                };
 			};
 			class Grey
 			{
@@ -68,7 +73,12 @@ class CfgVehicles
 					"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Box_A_NATO_Wps_F_CO.paa",
 					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 				};
-				factions[] = {BLU_A_F};
+				factions[] =
+                {
+                    BLU_A_F,
+                    BLU_A_tna_F,
+                    BLU_A_wdl_F
+                };
 			};
 		};
 	};

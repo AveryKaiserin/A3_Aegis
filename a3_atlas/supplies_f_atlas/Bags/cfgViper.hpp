@@ -1,6 +1,7 @@
-// Arma 3 Atlas
 class B_ViperHarness_whex_TL_F: B_ViperLightHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green_mag_Tracer,2);
@@ -18,6 +19,8 @@ class B_ViperHarness_whex_TL_F: B_ViperLightHarness_whex_F
 };
 class B_ViperHarness_whex_Exp_F: B_ViperHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,5);
@@ -38,6 +41,8 @@ class B_ViperHarness_whex_Exp_F: B_ViperHarness_whex_F
 };
 class B_ViperHarness_whex_Medic_F: B_ViperHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,5);
@@ -56,6 +61,8 @@ class B_ViperHarness_whex_Medic_F: B_ViperHarness_whex_F
 };
 class B_ViperHarness_whex_M_F: B_ViperLightHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,7);
@@ -71,6 +78,8 @@ class B_ViperHarness_whex_M_F: B_ViperLightHarness_whex_F
 };
 class B_ViperHarness_whex_LAT_F: B_ViperHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,5);
@@ -87,6 +96,8 @@ class B_ViperHarness_whex_LAT_F: B_ViperHarness_whex_F
 };
 class B_ViperHarness_whex_JTAC_F: B_ViperLightHarness_whex_F
 {
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,5);

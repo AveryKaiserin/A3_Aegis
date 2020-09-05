@@ -71,8 +71,8 @@ class B_H_HMG_02_support_F: B_HMG_02_support_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_support_F0;
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
-	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
+	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
 	faction = BLU_H_F;
 };
 class B_H_HMG_02_support_high_F: B_HMG_02_support_high_F
@@ -80,8 +80,8 @@ class B_H_HMG_02_support_high_F: B_HMG_02_support_high_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_support_high_F0;
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
-	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
+	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
 	faction = BLU_H_F;
 };
 class B_H_HMG_02_weapon_F: B_HMG_02_weapon_F
@@ -89,8 +89,8 @@ class B_H_HMG_02_weapon_F: B_HMG_02_weapon_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_weapon_F0;
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
-	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
+	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
 	faction = BLU_H_F;
 	class assembleInfo: assembleInfo
 	{
@@ -102,8 +102,8 @@ class B_H_HMG_02_high_weapon_F: B_HMG_02_high_weapon_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_high_weapon_F0;
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
-	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
+	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
 	faction = BLU_H_F;
 	class assembleInfo: assembleInfo
 	{

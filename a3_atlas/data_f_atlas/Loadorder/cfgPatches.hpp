@@ -8,7 +8,9 @@ class CfgPatches
 			A3_Atlas_Air_F_Atlas,
 			A3_Atlas_Air_F_Atlas_Heli_Attack_01,
 			A3_Atlas_Air_F_Atlas_Heli_Attack_02,
+			A3_Atlas_Air_F_Atlas_Heli_Light_01,
 			A3_Atlas_Air_F_Atlas_Heli_Light_02,
+			A3_Atlas_Air_F_Atlas_Heli_Light_03,
 			A3_Atlas_Air_F_Atlas_Heli_Transport_01,
 			A3_Atlas_Air_F_Atlas_Heli_Transport_02,
             /*
@@ -49,6 +51,7 @@ class CfgPatches
 			A3_Atlas_EditorPreviews_F_Atlas,
 			A3_Atlas_Language_F_Atlas,
 			A3_Atlas_Soft_F_Atlas,
+			A3_Atlas_Soft_F_Atlas_LSV_01,
 			A3_Atlas_Soft_F_Atlas_LSV_02,
 			A3_Atlas_Soft_F_Atlas_MRAP_01,
 			A3_Atlas_Soft_F_Atlas_MRAP_02,

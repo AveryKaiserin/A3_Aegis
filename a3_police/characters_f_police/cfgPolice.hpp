@@ -390,7 +390,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
         I_P_UavTerminal,
 		DefaultManLinkedItems
 	};
-    backpack = I_P_UGV_02_backpack_F;
+    backpack = I_P_UGV_02_Demining_backpack_F;
 	weapons[] =
 	{
 		arifle_G36C_Holo_FL_F,

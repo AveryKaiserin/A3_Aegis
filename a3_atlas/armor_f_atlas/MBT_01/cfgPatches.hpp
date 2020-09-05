@@ -7,10 +7,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_MBT_01_cannon_F,
-            B_L_MBT_01_TUSK_F,
-
             // IDF
             I_I_MBT_01_arty_F,
             I_I_MBT_01_cannon_F

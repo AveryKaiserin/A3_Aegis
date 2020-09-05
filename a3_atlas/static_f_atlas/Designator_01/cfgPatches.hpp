@@ -7,9 +7,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_Static_Designator_01_F,
-
             // NATO (German)
             B_E_Static_Designator_01_F,
 

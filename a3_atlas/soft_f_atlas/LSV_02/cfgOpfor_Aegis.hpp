@@ -87,6 +87,7 @@ class O_W_LSV_02_armed_F: LSV_02_armed_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
 	side = TEast;
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
@@ -217,6 +218,7 @@ class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;
 	side = TEast;
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
@@ -345,6 +347,7 @@ class O_W_LSV_02_AT_F: LSV_02_AT_base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_AT_F0;
 	side = TEast;
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;

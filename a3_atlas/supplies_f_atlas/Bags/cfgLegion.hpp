@@ -16,6 +16,22 @@ class B_Carryall_green_BLAmmo_F: B_Carryall_green_F
 		item_xx(FirstAidKit,4);
 	};
 };
+class B_Kitbag_sgg_BLAAR_F: B_Kitbag_sgg
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(200Rnd_65x39_cased_Box_Red,3);
+		mag_xx(200Rnd_65x39_cased_Box_Tracer_Red,1);
+	};
+	class TransportItems
+	{
+		item_xx(optic_tws_mg,1);
+		item_xx(bipod_01_F_blk,1);
+		item_xx(muzzle_snds_M,1);
+	};
+};
 class B_Kitbag_sgg_BLAA_F: B_Kitbag_sgg
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -42,6 +58,15 @@ class B_AssaultPack_sgg_BLMedic_F: B_AssaultPack_sgg
 	{
 		item_xx(Medikit,1);
 		item_xx(FirstAidKit,10);
+	};
+};
+class B_AssaultPack_sgg_BLRepair_F: B_AssaultPack_sgg
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
 	};
 };
 class B_AssaultPack_sgg_BLLAT_F: B_AssaultPack_sgg

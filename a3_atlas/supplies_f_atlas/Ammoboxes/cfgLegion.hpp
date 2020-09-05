@@ -63,7 +63,7 @@ class L_supplyCrate_F: ReammoBox_F
 	{
 		item_xx(FirstAidKit,10);
 		item_xx(Binocular,1);
-		item_xx(Laserdesignator_01_khk_F,1);
+		item_xx(Laserdesignator_03,1);
 		item_xx(optic_Holosight_blk_F,1);
 		item_xx(optic_Holosight_smg_blk_F,1);
 		item_xx(optic_ico_01_black_f,1);

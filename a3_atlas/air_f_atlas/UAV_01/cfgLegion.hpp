@@ -1,4 +1,4 @@
-class B_E_UAV_01_F: B_UAV_01_F
+class B_L_UAV_01_F: UAV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -42,13 +42,14 @@ class B_E_UAV_01_F: B_UAV_01_F
 		verticalOffsetWorld = -0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_01_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
+	faction = BLU_L_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
+	accuracy = 0.5;
 	class assembleInfo
 	{
 		primary = true;
@@ -57,4 +58,6 @@ class B_E_UAV_01_F: B_UAV_01_F
 		displayName = "";
 		dissasembleTo[] = {B_UAV_01_backpack_F};
 	};
+	hiddenSelectionsTextures[] = {"\A3\Drones_F\Air_F_Gamma\UAV_01\Data\UAV_01_CO.paa"};
+	textureList[] = {Blufor,1};
 };

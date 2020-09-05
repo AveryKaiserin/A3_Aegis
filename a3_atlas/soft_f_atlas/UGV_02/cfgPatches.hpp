@@ -7,9 +7,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_UGV_02_Demining_F,
-
             // NATO (German)
             B_E_UGV_02_Demining_F,
 

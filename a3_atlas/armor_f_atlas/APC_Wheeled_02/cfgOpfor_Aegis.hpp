@@ -177,6 +177,7 @@ class O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_APC_Wheeled_02_rcws_v2_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_APC_Wheeled_02_rcws_v2_F0;
 	side = TEast;
 	faction = OPF_W_F;
 	crew = O_W_Crew_F;

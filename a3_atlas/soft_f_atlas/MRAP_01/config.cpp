@@ -67,6 +67,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"			// Legion
 	#include "cfgIDF.hpp"				// IDF
 };

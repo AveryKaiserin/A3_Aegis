@@ -7,9 +7,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_APC_Tracked_01_rcws_F,
-
             // IDF
             I_I_APC_Tracked_01_AA_F,
             I_I_APC_Tracked_01_CRV_F,

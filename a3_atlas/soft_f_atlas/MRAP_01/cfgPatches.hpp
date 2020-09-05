@@ -7,11 +7,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_MRAP_01_F,
-            B_L_MRAP_01_gmg_F,
-            B_L_MRAP_01_hmg_F,
-
             // IDF
             I_I_MRAP_01_F,
             I_I_MRAP_01_gmg_F,

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class A3_Atlas_Soft_F_Atlas_LSV_02
+	class A3_Atlas_Soft_F_Atlas_LSV_01
 	{
 		addonRootClass = A3_Atlas_Soft_F_Atlas;
 		requiredAddons[] = {A3_Atlas_Soft_F_Atlas};

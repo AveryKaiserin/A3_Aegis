@@ -7,6 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+            // Legion
+            B_L_UAV_01_F,
+
             // NATO (European)
             B_E_UAV_01_F,
 
