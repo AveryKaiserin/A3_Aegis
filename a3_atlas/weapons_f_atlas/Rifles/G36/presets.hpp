@@ -53,7 +53,7 @@ class arifle_G36_Holo_Pointer_F: arifle_G36_F
 	};
 };
 // G36K 6.5 mm + MRCO + Flashlight
-class arifle_G36_MRCO_FL_F: arifle_G36_GL_F
+class arifle_G36_MRCO_FL_F: arifle_G36_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -71,7 +71,7 @@ class arifle_G36_MRCO_FL_F: arifle_G36_GL_F
 	};
 };
 // G36K 6.5 mm + ACO (Red) + Flashlight
-class arifle_G36_ACO_FL_F: arifle_G36_GL_F
+class arifle_G36_ACO_FL_F: arifle_G36_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
@@ -89,7 +89,7 @@ class arifle_G36_ACO_FL_F: arifle_G36_GL_F
 	};
 };
 // G36K 6.5 mm + Flashlight
-class arifle_G36_FL_F: arifle_G36_GL_F
+class arifle_G36_FL_F: arifle_G36_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
