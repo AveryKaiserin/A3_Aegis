@@ -146,6 +146,32 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_USNavyJack_CO.paa'";
 		};
 	};
+	class Flag_TFAegis_F: FlagCarrier
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Flag_TFAegis_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Flag_TFAegis_F0;
+		hiddenSelectionsTextures[] = {"\A3\Structures_F\Mil\Flags\Data\Mast_mil_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3\Structures_F\Mil\Flags\Data\Mast_mil.rvmat"};
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_TFAegis_CO.paa'";
+		};
+	};
 	class Flag_China_F: FlagCarrier
 	{
 		author = $STR_A3_A_AveryTheKitty;

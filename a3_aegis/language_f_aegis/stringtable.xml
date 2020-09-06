@@ -9595,6 +9595,23 @@
 						<Japanese>旗（アメリカ海軍ジャック）</Japanese>
 						<Turkish>Bayrak (ABD Donanması jack)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Flag_TFAegis_F0">
+						<Original>Flag (TF Aegis)</Original>
+						<Chinese>旗幟（TF Aegis）</Chinese>
+						<French>Drapeau (Force Aegis)</French>
+						<Spanish>Bandera (Dest. Aegis)</Spanish>
+						<Italian>Bandiera (TF Aegis)</Italian>
+						<Polish>Flaga (GU Aegis)</Polish>
+						<Russian>Флаг (Группа Иджис)</Russian>
+						<German>Flagge (TF Ägis)</German>
+						<Czech>Vlajka (TU Aegis)</Czech>
+						<English>Flag (TF Aegis)</English>
+						<Portuguese>Bandeira (FT Aegis)</Portuguese>
+						<Korean>깃발 (이지스 기동대)</Korean>
+						<Chinesesimp>旗标 (TF Aegis)</Chinesesimp>
+						<Japanese>旗（TFイージス）</Japanese>
+						<Turkish>Bayrak (TF Aegis)</Turkish>
+					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_China_F0">
 						<Original>Flag (China)</Original>
 						<Chinese>旗幟（中國）</Chinese>
