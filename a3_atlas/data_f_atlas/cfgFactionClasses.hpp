@@ -64,7 +64,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_IND_W_F0;
 		priority = 8;
 		side = TGuerrila;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_CDF_CA.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_IND_W_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_CDF_CO.paa";
 	};
     */
