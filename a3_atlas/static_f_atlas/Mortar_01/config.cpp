@@ -28,13 +28,6 @@ class CfgVehicles
 					BLU_E_F
 				};
 			};
-			class Brown
-			{
-				displayName = $STR_A3_TEXTURESOURCES_BROWN0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Atlas\Static_F_Atlas\Mortar_01\Data\Mortar_01_brown_CO.paa"};
-				factions[] = {IND_I_F};
-			};
 		};
 	};
 	class B_Mortar_01_F;

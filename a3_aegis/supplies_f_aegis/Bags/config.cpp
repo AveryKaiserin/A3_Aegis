@@ -466,7 +466,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_arid_F0;
-		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_arid_F_CA.paa";
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_arid_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_RUarid_CO.paa"};
 		// TFAR compatibility
 		tf_dialog = rt1523g_radio_dialog;
@@ -481,7 +481,7 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_oicamo_F0;
-		//picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_oicamo_F_CA.paa";
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_RadioBag_01_oicamo_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\B_RadioBag_01_oicamo_CO.paa"};
 		// TFAR compatibility
 		tf_dialog = rt1523g_radio_dialog;

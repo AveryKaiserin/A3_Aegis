@@ -128,6 +128,7 @@ class CfgPatches
             B_E_Soldier_Lite_F,
             B_E_soldier_mine_F,
             B_E_soldier_M_F,
+            B_E_Soldier_PG_F,
             B_E_Soldier_Repair_F,
             B_E_Soldier_SL_F,
             B_E_Soldier_TL_F,

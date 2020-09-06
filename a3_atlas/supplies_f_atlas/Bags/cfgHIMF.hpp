@@ -23,7 +23,6 @@ class B_Carryall_jungle_BHEng_F: B_Carryall_jungle
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
 		mag_xx(HandGrenade,1);
 		mag_xx(DemoCharge_Remote_Mag,1);
 	};

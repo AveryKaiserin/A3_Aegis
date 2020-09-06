@@ -5,7 +5,7 @@ class B_Carryall_green_BLAmmo_F: B_Carryall_green_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
-		mag_xx(200Rnd_65x39_cased_Box_Red,1);
+		mag_xx(200Rnd_556x45_Box_Red_F,1);
 		mag_xx(NLAW_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
@@ -22,8 +22,8 @@ class B_Kitbag_sgg_BLAAR_F: B_Kitbag_sgg
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(200Rnd_65x39_cased_Box_Red,3);
-		mag_xx(200Rnd_65x39_cased_Box_Tracer_Red,1);
+		mag_xx(200Rnd_556x45_Box_Red_F,3);
+		mag_xx(200Rnd_556x45_Box_Tracer_Red_F,1);
 	};
 	class TransportItems
 	{

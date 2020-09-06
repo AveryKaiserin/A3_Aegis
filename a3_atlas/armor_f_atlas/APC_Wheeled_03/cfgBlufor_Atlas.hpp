@@ -203,8 +203,8 @@ class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_E_F;
-	crew = B_E_Crew_acr_F;
-	typicalCargo[] = {B_E_Soldier_acr_F};
+	crew = B_E_Crew_F;
+	typicalCargo[] = {B_E_Soldier_F};
 	textureList[] =
 	{
 		Olive_01,1,

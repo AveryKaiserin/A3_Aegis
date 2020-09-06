@@ -51,4 +51,10 @@ class CfgMarkers
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Venezuela_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Venezuela_CA.paa";
 	};
+	class flag_Japan: flag_NATO
+	{
+		name = "Japan";
+		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Japan_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Japan_CA.paa";
+	};
 };

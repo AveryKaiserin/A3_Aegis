@@ -42,6 +42,24 @@ class LMG_03_Flash_F: LMG_03_F
 		};
 	};
 };
+// LIM-85 5.56 mm + RCO + IR Laser Pointer
+class LMG_03_Hamr_Pointer_F: LMG_03_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // LIM-85 5.56 mm + ERCO (Black) + IR Laser Pointer
 class LMG_03_ERCO_Pointer_F: LMG_03_F
 {
@@ -231,6 +249,29 @@ class arifle_MSBS65_GL_black_aco_pointer_f: arifle_MSBS65_GL_black_F
 		{
 			slot = PointerSlot;
 			item = acc_pointer_IR;
+		};
+	};
+};
+// Rahim 7.62 mm (Black) + ARCO (Black) + IR Laser Pointer + Bipod [CSAT] (Black)
+class srifle_DMR_01_black_ARCO_LP_BI_F: srifle_DMR_01_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_02_F_blk;
 		};
 	};
 };
@@ -634,7 +675,19 @@ class arifle_TRG21_GL_black_SRS_pointer_snds_F: arifle_TRG21_GL_black_F
 		};
 	};
 };
-// AK-12 5.45 mm + ACO AK (Green) + Flashlight
+// AK-12 5.45 mm + IR Laser Pointer
+class arifle_AK12_545_pointer_F: arifle_AK12_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 class arifle_AK12_545_aco_FL_F: arifle_AK12_545_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -683,6 +736,19 @@ class arifle_AK12_545_arco_FL_F: arifle_AK12_545_F
 		};
 	};
 };
+// AK-12 GL 5.45 mm + ACO AK (Green)
+class arifle_AK12_GL_545_aco_F: arifle_AK12_GL_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+	};
+};
 // AK-12 GL 5.45 mm + ACO AK (Green) + Flashlight
 class arifle_AK12_GL_545_aco_FL_F: arifle_AK12_GL_545_F
 {
@@ -719,6 +785,19 @@ class arifle_AK12_GL_545_arco_FL_F: arifle_AK12_GL_545_F
 		};
 	};
 };
+// AKU-12 5.45 mm + IR Laser Pointer
+class arifle_AK12U_545_pointer_F: arifle_AK12U_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // AKU-12 5.45 mm + Flashlight
 class arifle_AK12U_545_FL_F: arifle_AK12U_545_F
 {
@@ -732,6 +811,7 @@ class arifle_AK12U_545_FL_F: arifle_AK12U_545_F
 		};
 	};
 };
+/*
 // Mk18 ABR 7.62 mm (Coyote) + AMS (Sand) + IR Laser Pointer + Bipod [NATO] (Sand)
 class srifle_EBR_cbr_AMS_LP_BI_F: srifle_EBR_cbr_F
 {
@@ -755,3 +835,4 @@ class srifle_EBR_cbr_AMS_LP_BI_F: srifle_EBR_cbr_F
 		};
 	};
 };
+*/

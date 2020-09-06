@@ -41,10 +41,10 @@ class CfgVehicles
 	// Viper
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_whex_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_whex_F0)
 	// CSAT (Woodland)
-	UNIFORM_HOLDER(U_O_W_CombatUniform_owcamo,"Fatigues (Woodland Hex) [CSAT]")
+	UNIFORM_HOLDER(U_O_W_CombatUniform_owcamo,$STR_A3_A_CfgWeapons_U_O_W_CombatUniform_owcamo0)
 	UNIFORM_HOLDER(U_O_W_PilotCoveralls,$STR_A3_A_CfgWeapons_U_O_W_PilotCoveralls0)
-	UNIFORM_HOLDER(U_O_W_OfficerUniform,"Officer Fatigues (Woodland Hex) [CSAT]")
-	UNIFORM_HOLDER(U_O_officer_noInsignia_whex_F,"Light Fatigues (Woodland Hex)")
+	UNIFORM_HOLDER(U_O_W_OfficerUniform,$STR_A3_A_CfgWeapons_U_O_W_OfficerUniform0)
+	UNIFORM_HOLDER(U_O_officer_noInsignia_whex_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_whex_F0)
 	// NATO (German)
 	UNIFORM_HOLDER(U_B_E_CombatUniform_wdl,$STR_A3_A_CfgWeapons_U_B_E_CombatUniform_wdl0)
 	UNIFORM_HOLDER(U_B_E_CombatUniform_tshirt_wdl,$STR_A3_A_CfgWeapons_U_B_E_CombatUniform_tshirt_wdl0)
@@ -68,7 +68,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_H_Soldier_2_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0)
 	UNIFORM_HOLDER(U_B_H_Soldier_3_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0)
 	UNIFORM_HOLDER(U_B_H_Officer_F,$STR_A3_A_CfgWeapons_U_B_H_Officer_F0)
-	UNIFORM_HOLDER(U_B_H_Helipilot_F,$STR_A3_A_CfgWeapons_U_B_H_Helipilot_F0)
+	UNIFORM_HOLDER(U_B_H_Coveralls_F,$STR_A3_A_CfgWeapons_U_B_H_Coveralls_F0)
 	/*
     // CDF
 	UNIFORM_HOLDER(U_I_W_Uniform_01_F,$STR_A3_A_CfgWeapons_U_I_W_Uniform_01_F0)

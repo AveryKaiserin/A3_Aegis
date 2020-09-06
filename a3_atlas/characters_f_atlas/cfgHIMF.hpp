@@ -374,11 +374,13 @@ class B_H_Engineer_F: B_H_Soldier_Base_F
 	};
 	magazines[] =
 	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
         SmokeShell,
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
+		mag_6(30Rnd_65x39_caseless_msbs_mag),
         SmokeShell,
         SmokeShellYellow
 	};

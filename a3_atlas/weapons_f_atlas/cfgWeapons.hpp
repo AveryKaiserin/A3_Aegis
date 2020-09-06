@@ -69,6 +69,7 @@ class CfgWeapons
 	class arifle_MSBS65_GL_black_F;
 	class arifle_MSBS65_UBS_black_F;
 	// Arma 3 Aegis
+	class srifle_DMR_01_black_F;
 	class LMG_Zafir_black_F: LMG_Zafir_F
 	{
 		magazines[] =
@@ -85,6 +86,7 @@ class CfgWeapons
 	class arifle_AK12_GL_545_F;
 	class arifle_AK12U_545_F;
 	// Arma 3 Atlas
+    /*
 	class NVGoggles_aucamo_F: NVGoggles
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -147,6 +149,7 @@ class CfgWeapons
 			"\A3\Weapons_F_Tank\Launchers\MRAWS\Data\launch_MRAWS_rail_02_F_CO.paa"
 		};
 	};
+    */
 	#include "presets.hpp"
 	class optic_LRCO_blk_F: optic_MRCO
 	{

@@ -26,7 +26,7 @@ class CfgWeapons
 	class V_HarnessO_tan: V_HarnessO_gry
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_tan_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_tan_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessO_tan0;
 		hiddenSelectionsTextures[] =
 		{
@@ -38,7 +38,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessOGL_tan0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_tan_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_tan_CA.paa";
 		hiddenSelections[] =
 		{
 			camo1,
@@ -58,11 +58,10 @@ class CfgWeapons
 			};
 		};
 	};
-    /*
-	class V_HarnessO_owcamo: V_HarnessO_gry
+	class V_HarnessO_whex_F: V_HarnessO_gry
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_owcamo_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_whex_F_CA.paa";
 		displayName = "LBV Harness (Woodland Hex)";
 		hiddenSelectionsTextures[] =
 		{
@@ -70,11 +69,11 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
 		};
 	};
-	class V_HarnessOGL_owcamo: V_HarnessOGL_brn
+	class V_HarnessOGL_whex_F: V_HarnessOGL_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "LBV Grenadier Harness (Woodland Hex)";
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_owcamo_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOGL_whex_F_CA.paa";
 		hiddenSelections[] =
 		{
 			camo1,
@@ -94,11 +93,10 @@ class CfgWeapons
 			};
 		};
 	};
-    */
 	class V_HarnessOSpec_tan: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_tan_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_tan_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_V_HarnessOSpec_tan0;
 		hiddenSelectionsTextures[] =
 		{
@@ -106,11 +104,10 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 		};
 	};
-    /*
-	class V_HarnessOSpec_owcamo: V_HarnessOSpec_brn
+	class V_HarnessOSpec_whex_F: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_owcamo_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessOSpec_whex_F_CA.paa";
 		displayName = "ELBV Harness (Woodland Hex)";
 		hiddenSelectionsTextures[] =
 		{
@@ -118,26 +115,25 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_wdl_CO.paa"
 		};
 	};
-    */
 	class V_PlateCarrierIA1_grn: V_PlateCarrierIA1_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA1_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIA2_grn: V_PlateCarrierIA2_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA2_grn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_grn: V_PlateCarrierIAGL_dgtl
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_grn_CO.paa",
@@ -148,7 +144,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_TacVest_tan0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
 	class V_SmershVest_01_khaki_F: V_SmershVest_01_base_F
@@ -156,7 +152,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
@@ -168,14 +164,13 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0;
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_khk_CO.paa"
 		};
 	};
-    /*
 	class V_SmershVest_01_olive_F: V_SmershVest_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -200,6 +195,7 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_miscellaneous_oli_CO.paa"
 		};
 	};
+    /*
 	class V_RebreatherB_O: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -218,7 +214,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_RebreatherI_I0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherI_I_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_RebreatherI_I_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa"};
 		hiddenUnderwaterSelectionsTextures[] =
 		{

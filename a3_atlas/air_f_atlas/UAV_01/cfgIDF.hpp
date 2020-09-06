@@ -72,7 +72,7 @@ class I_I_UAV_01_backpack_F: Weapon_Bag_Base
 	editorCategory = EdCat_Equipment;
 	editorSubcategory = EdSubcat_Backpacks;
 	faction = IND_I_F;
-	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_01_backpack_F_CA.paa";
+	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_01_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_khk_CO.paa"};
 	maximumLoad = 0;
 	mass = 300;

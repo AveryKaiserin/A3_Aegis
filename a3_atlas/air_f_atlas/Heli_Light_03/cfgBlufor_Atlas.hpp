@@ -131,7 +131,8 @@ class B_E_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Heli_light_03_dynamicLoadout_F.jpg";
-	scope = public;
+	scope = protected;
+    scopeCurator = private; //del this line
 	side = TWest;
 	faction = BLU_E_F;
 	crew = B_E_Helipilot_F;
@@ -296,7 +297,8 @@ class B_E_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Heli_light_03_unarmed_F.jpg";
-	scope = public;
+	scope = protected;
+    scopeCurator = private; //del this line
 	side = TWest;
 	faction = BLU_E_F;
 	crew = B_E_Helipilot_F;

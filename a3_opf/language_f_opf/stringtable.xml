@@ -205,41 +205,41 @@
 			</Container>
 		</Container>
 		<Container name="ContentLicensing">
-			<Key ID="STR_A3_cfgMods_Opfor_overview">
-				<Original>TODO</Original>
-				<Chinese>TODO</Chinese>
-				<French>TODO</French>
-				<Spanish>TODO</Spanish>
-				<Italian>TODO</Italian>
-				<Polish>TODO</Polish>
-				<Russian>TODO</Russian>
-				<German>TODO</German>
-				<Czech>TODO</Czech>
-				<English>TODO</English>
-				<Portuguese>TODO</Portuguese>
-				<Korean>TODO</Korean>
-				<Chinesesimp>TODO</Chinesesimp>
-				<Japanese>TODO</Japanese>
-				<Turkish>TODO</Turkish>
+			<Key ID="STR_A3_O_cfgMods_Opfor_overview0">
+				<Original>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Original>
+				<Chinese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Chinese>
+				<French>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</French>
+				<Spanish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Spanish>
+				<Italian>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Italian>
+				<Polish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Polish>
+				<Russian>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Russian>
+				<German>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</German>
+				<Czech>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Czech>
+				<English>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</English>
+				<Portuguese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Portuguese>
+				<Korean>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Korean>
+				<Chinesesimp>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Japanese>
+				<Turkish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Turkish>
 			</Key>
-			<Key ID="STR_A3_cfgMods_Opfor_name">
-				<Original>Arma 3 Opposing Forces</Original>
-				<Chinese>Arma 3 Opposing Forces</Chinese>
-				<French>Arma 3 Opposing Forces</French>
-				<Spanish>Arma 3 Opposing Forces</Spanish>
-				<Italian>Arma 3 Opposing Forces</Italian>
-				<Polish>Arma 3 Opposing Forces</Polish>
-				<Russian>Arma 3 Opposing Forces</Russian>
-				<German>Arma 3 Opposing Forces</German>
-				<Czech>Arma 3 Opposing Forces</Czech>
-				<English>Arma 3 Opposing Forces</English>
-				<Portuguese>Arma 3 Opposing Forces</Portuguese>
-				<Korean>Arma 3 Opposing Forces</Korean>
-				<Chinesesimp>Arma 3 Opposing Forces</Chinesesimp>
-				<Japanese>Arma 3 Opposing Forces</Japanese>
-				<Turkish>Arma 3 Opposing Forces</Turkish>
+			<Key ID="STR_A3_O_cfgMods_Opfor_name0">
+				<Original>Arma 3 Aegis - Opposing Forces</Original>
+				<Chinese>Arma 3 Aegis - Opposing Forces</Chinese>
+				<French>Arma 3 Aegis - Opposing Forces</French>
+				<Spanish>Arma 3 Aegis - Opposing Forces</Spanish>
+				<Italian>Arma 3 Aegis - Opposing Forces</Italian>
+				<Polish>Arma 3 Aegis - Opposing Forces</Polish>
+				<Russian>Arma 3 Aegis - Opposing Forces</Russian>
+				<German>Arma 3 Aegis - Opposing Forces</German>
+				<Czech>Arma 3 Aegis - Opposing Forces</Czech>
+				<English>Arma 3 Aegis - Opposing Forces</English>
+				<Portuguese>Arma 3 Aegis - Opposing Forces</Portuguese>
+				<Korean>Arma 3 Aegis - Opposing Forces</Korean>
+				<Chinesesimp>Arma 3 Aegis - Opposing Forces</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Opposing Forces</Japanese>
+				<Turkish>Arma 3 Aegis - Opposing Forces</Turkish>
 			</Key>
-			<Key ID="STR_A3_cfgMods_Opfor_nameShort">
+			<Key ID="STR_A3_O_cfgMods_Opfor_nameShort0">
 				<Original>Opposing Forces</Original>
 				<Chinese>Opposing Forces</Chinese>
 				<French>Opposing Forces</French>

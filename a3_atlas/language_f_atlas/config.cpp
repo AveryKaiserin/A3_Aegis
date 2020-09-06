@@ -12,7 +12,7 @@ class CfgHints
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_arifle_AUG_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_AUG_F0},
 				{STR_A3_A_CfgWeapons_arifle_AUG_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
@@ -27,7 +27,7 @@ class CfgHints
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_arifle_G36_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_G36_F0},
 				{STR_A3_A_CfgWeapons_arifle_G36_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";

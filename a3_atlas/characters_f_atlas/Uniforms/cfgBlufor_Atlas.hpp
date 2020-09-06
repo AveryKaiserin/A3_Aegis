@@ -3,7 +3,7 @@ class U_B_E_CombatUniform_wdl: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_E_CombatUniform_wdl0;
-	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_wdl_CA.paa";
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_wdl_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_CO.paa"};
@@ -20,7 +20,7 @@ class U_B_E_CombatUniform_tshirt_wdl: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_E_CombatUniform_tshirt_wdl0;
-	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_tshirt_wdl_CA.paa";
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_tshirt_wdl_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_TankTop_CO.paa"};
@@ -37,7 +37,7 @@ class U_B_E_CombatUniform_vest_wdl: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_E_CombatUniform_vest_wdl0;
-	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_vest_wdl_CA.paa";
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_CombatUniform_vest_wdl_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_CO.paa"};
@@ -54,7 +54,7 @@ class U_B_E_HeliPilotCoveralls: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_E_HeliPilotCoveralls0;
-	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_HeliPilotCoveralls_CA.paa";
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_E_HeliPilotCoveralls_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_green_CO.paa"};
@@ -71,7 +71,7 @@ class U_Tank_wdl_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_Tank_wdl_F0;
-	//picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_Tank_wdl_F_CA.paa";
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_Tank_wdl_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] =
     {

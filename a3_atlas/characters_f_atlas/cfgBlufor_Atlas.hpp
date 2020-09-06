@@ -16,6 +16,7 @@ class B_engineer_F;
 class B_crew_F;
 class B_officer_F;
 class B_helicrew_F;
+class B_soldier_PG_F;
 class B_soldier_UAV_F;
 class B_recon_F;
 class B_recon_LAT_F;
@@ -537,14 +538,14 @@ class B_E_Soldier_AR_F: B_soldier_AR_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -597,14 +598,14 @@ class B_E_Medic_F: B_medic_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_green,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_green,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -774,14 +775,14 @@ class B_E_Soldier_Exp_F: B_soldier_exp_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -902,14 +903,14 @@ class B_E_Support_GMG_F: B_support_GMG_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -962,14 +963,14 @@ class B_E_Support_MG_F: B_support_MG_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1022,14 +1023,14 @@ class B_E_Support_Mort_F: B_support_Mort_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1240,14 +1241,14 @@ class B_E_soldier_M_F: B_soldier_M_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1302,14 +1303,14 @@ class B_E_Soldier_AA_F: B_soldier_AA_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1364,14 +1365,14 @@ class B_E_Soldier_AT_F: B_soldier_AT_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1433,6 +1434,66 @@ class B_E_Officer_F: B_officer_F
 		DefaultManLinkedItems
 	};
 };
+class B_E_Soldier_PG_F: B_soldier_PG_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_PG_F.jpg";
+	faction = BLU_E_F;
+	genericNames = GermanMen;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_Euro,
+		Head_Enoch,
+		G_NATO_tropic
+	};
+    scope = public;
+    scopeCurator = public;
+	uniformClass = U_B_E_CombatUniform_wdl;
+	backpack = B_Parachute;
+	weapons[] =
+	{
+		arifle_G36C_ACO_Pointer_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_G36C_ACO_Pointer_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Green_F,
+		H_HelmetB_light_green,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Green_F,
+		H_HelmetB_light_green,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+};
 class B_E_Soldier_Repair_F: B_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1479,14 +1540,14 @@ class B_E_Soldier_Repair_F: B_soldier_repair_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1536,14 +1597,14 @@ class B_E_Soldier_F: B_Soldier_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1598,14 +1659,14 @@ class B_E_Soldier_LAT_F: B_soldier_LAT_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1713,14 +1774,14 @@ class B_E_Soldier_CQ_F: B_Soldier_CQ_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		H_HelmetB_light_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1779,7 +1840,7 @@ class B_E_Soldier_SL_F: B_Soldier_SL_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_green,
+		H_HelmetSpecB_light_wdl,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1787,7 +1848,7 @@ class B_E_Soldier_SL_F: B_Soldier_SL_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_green,
+		H_HelmetSpecB_light_wdl,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1850,7 +1911,7 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1858,7 +1919,7 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1875,7 +1936,7 @@ class B_E_Soldier_CBRN_F: B_E_Soldier_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light,
+		H_HelmetB_light_green,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_INDEP
@@ -1883,7 +1944,7 @@ class B_E_Soldier_CBRN_F: B_E_Soldier_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light,
+		H_HelmetB_light_green,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_INDEP
@@ -1934,6 +1995,20 @@ class B_E_RadioOperator_F: B_E_Soldier_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Green_F,
+		H_HelmetB_light_wdl,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Green_F,
+		H_HelmetB_light_wdl,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
 	backpack = B_RadioBag_01_wdl_F;
 	weapons[] =
     {
@@ -1961,20 +2036,6 @@ class B_E_RadioOperator_F: B_E_Soldier_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	linkedItems[] =
-	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
-		DefaultManLinkedItems,
-		NVGoggles_INDEP
-	};
-	respawnLinkedItems[] =
-	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
-		DefaultManLinkedItems,
-		NVGoggles_INDEP
-	};
 };
 class B_E_Survivor_F: B_E_Soldier_F
 {
@@ -2037,7 +2098,7 @@ class B_E_Soldier_UAV_F: B_soldier_UAV_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles_INDEP
@@ -2045,7 +2106,7 @@ class B_E_Soldier_UAV_F: B_soldier_UAV_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetB_light_green,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles_INDEP
@@ -2507,7 +2568,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	linkedItems[] =
 	{
 		V_TacVest_grn,
-        H_Booniehat_wdl_hs,
+        H_HelmetB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2515,7 +2576,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	respawnLinkedItems[] =
 	{
 		V_TacVest_grn,
-        H_Booniehat_wdl_hs,
+        H_HelmetB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2570,7 +2631,7 @@ class B_E_Recon_F: B_recon_F
 	linkedItems[] =
 	{
 		V_TacVest_grn,
-        H_HelmetB_light_wdl,
+        H_HelmetSpecB_light_wdl,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2578,7 +2639,7 @@ class B_E_Recon_F: B_recon_F
 	respawnLinkedItems[] =
 	{
 		V_TacVest_grn,
-        H_HelmetB_light_wdl,
+        H_HelmetSpecB_light_wdl,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2703,7 +2764,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	linkedItems[] =
 	{
 		V_TacVest_grn,
-        H_HelmetSpecB_light_wdl,
+        H_HelmetSpecB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2711,7 +2772,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	respawnLinkedItems[] =
 	{
 		V_TacVest_grn,
-        H_HelmetSpecB_light_wdl,
+        H_HelmetSpecB_light_green,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -2749,13 +2810,13 @@ class B_E_Soldier_unarmed_F: B_E_Soldier_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light,
+		H_HelmetSpecB_light_wdl,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;

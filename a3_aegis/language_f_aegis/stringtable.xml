@@ -4672,7 +4672,7 @@
 					<Chinese>飛行員連身服（綠色六邊形）（CSAT）</Chinese>
 					<French>Combinaison de pilote (hex vert) [CSAT]</French>
 					<Spanish>Mono de piloto (Hex verde) [CSAT]</Spanish>
-					<Italian>Tuta da pilota (esag. verde [CSAT]</Italian>
+					<Italian>Tuta da pilota (esag. verde) [CSAT]</Italian>
 					<Polish>Mundur pilota (zielone hex) [CSAT]</Polish>
 					<Russian>Летный комбинезон (зеленый гекс) [CSAT]</Russian>
 					<German>Pilotenoverall (Grüne Sechsecke) [CSAT]</German>
@@ -6063,74 +6063,6 @@
 					<Japanese>モジュラーキャリア GL リグ（緑）</Japanese>
 					<Turkish>Modüler Taşıyıcı GL Yelek (Yeşil)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0">
-					<Original>Kipchak Vest (Khaki)</Original>
-					<Chinese>奇布夏背心（卡其色）</Chinese>
-					<French>Gilet Kipchak (kaki)</French>
-					<Spanish>Chaleco kipchak (caqui)</Spanish>
-					<Italian>Giubbotto kipchak (kaki)</Italian>
-					<Polish>Kamizelka Kipczak (khaki)</Polish>
-					<Russian>Жилет Кипчака (хаки)</Russian>
-					<German>Kipchak-Weste (Khaki)</German>
-					<Czech>Vesta Kipčak (khaki)</Czech>
-					<English>Kipchak Vest (Khaki)</English>
-					<Portuguese>Traje Kipchak (cáqui)</Portuguese>
-					<Korean>킵차크 조끼 (카키)</Korean>
-					<Chinesesimp>钦察背心（卡其色）</Chinesesimp>
-					<Japanese>キプチャクベスト（カーキ）</Japanese>
-					<Turkish>Kıpçak Yeleği (Haki)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0">
-					<Original>Kipchak Vest (Khaki, Tactical Radio)</Original>
-					<Chinese>奇布夏背心（卡其色，戰術無線電）</Chinese>
-					<French>Gilet Kipchak (kaki, radio tactique)</French>
-					<Spanish>Chaleco kipchak (caqui, radio táctica)</Spanish>
-					<Italian>Giubbotto kipchak (kaki, radio tattica)</Italian>
-					<Polish>Kamizelka Kipczak (khaki, radio taktyczne)</Polish>
-					<Russian>Жилет Кипчака (хаки, тактический, радист)</Russian>
-					<German>Kipchak-Weste (Khaki, taktisches Funkgerät)</German>
-					<Czech>Vesta Kipčak (khaki, taktická vysílačka)</Czech>
-					<English>Kipchak Vest (Khaki, Tactical Radio)</English>
-					<Portuguese>Traje Kipchak (cáqui, rádio tático)</Portuguese>
-					<Korean>킵차크 조끼 (카키, 전술 무전기)</Korean>
-					<Chinesesimp>钦察背心（卡其色，战术电台）</Chinesesimp>
-					<Japanese>キプチャクベスト（カーキ、戦術無線）</Japanese>
-					<Turkish>Kıpçak Yeleği (Haki, Taktiksel Telsiz)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_olive_F0">
-					<Original>Kipchak Vest (Olive)</Original>
-					<Chinese>奇布夏背心（橄欖色）</Chinese>
-					<French>Gilet Kipchak (olive)</French>
-					<Spanish>Chaleco kipchak (oliva)</Spanish>
-					<Italian>Giubbotto kipchak (oliva)</Italian>
-					<Polish>Kamizelka Kipczak (oliwkowa)</Polish>
-					<Russian>Жилет Кипчака (оливковая)</Russian>
-					<German>Kipchak-Weste (Oliv)</German>
-					<Czech>Vesta Kipčak (olivový)</Czech>
-					<English>Kipchak Vest (Olive)</English>
-					<Portuguese>Traje Kipchak (verde-oliva)</Portuguese>
-					<Korean>킵차크 조끼 (올리브)</Korean>
-					<Chinesesimp>钦察背心（橄榄色）</Chinesesimp>
-					<Japanese>キプチャクベスト（オリーブ）</Japanese>
-					<Turkish>Kıpçak Yeleği (Zeytin Yeşili)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_SmershVest_01_radio_olive_F0">
-					<Original>Kipchak Vest (Olive, Tactical Radio)</Original>
-					<Chinese>奇布夏背心（橄欖色，戰術無線電）</Chinese>
-					<French>Gilet Kipchak (olive, radio tactique)</French>
-					<Spanish>Chaleco kipchak (oliva, radio táctica)</Spanish>
-					<Italian>Giubbotto kipchak (oliva, radio tattica)</Italian>
-					<Polish>Kamizelka Kipczak (oliwkowa, radio taktyczne)</Polish>
-					<Russian>Жилет Кипчака (оливковая, тактический, радист)</Russian>
-					<German>Kipchak-Weste (Oliv, taktisches Funkgerät)</German>
-					<Czech>Vesta Kipčak (olivový, taktická vysílačka)</Czech>
-					<English>Kipchak Vest (Olive, Tactical Radio)</English>
-					<Portuguese>Traje Kipchak (verde-oliva, rádio tático)</Portuguese>
-					<Korean>킵차크 조끼 (올리브, 전술 무전기)</Korean>
-					<Chinesesimp>钦察背心（橄榄色，战术电台）</Chinesesimp>
-					<Japanese>キプチャクベスト（オリーブ、戦術無線）</Japanese>
-					<Turkish>Kıpçak Yeleği (Zeytin Yeşili, Taktiksel Telsiz)</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0">
 					<Original>Slash Bandolier (Taiga)</Original>
 					<Chinese>斜肩子彈帶（Taiga）</Chinese>
@@ -6703,7 +6635,7 @@
 			</Container>
 		</Container>
 		<Container name="ContentLicensing">
-			<Key ID="STR_A3_A_CfgMods_Aegis_overview">
+			<Key ID="STR_A3_A_CfgMods_Aegis_overview0">
 				<Original>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Original>
 				<Chinese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Chinese>
 				<French>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</French>
@@ -6720,7 +6652,7 @@
 				<Japanese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Japanese>
 				<Turkish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMods_Aegis_name">
+			<Key ID="STR_A3_A_CfgMods_Aegis_name0">
 				<Original>Arma 3 Aegis</Original>
 				<Chinese>Arma 3 Aegis</Chinese>
 				<French>Arma 3 Aegis</French>
@@ -6737,7 +6669,7 @@
 				<Japanese>Arma 3 Aegis</Japanese>
 				<Turkish>Arma 3 Aegis</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMods_Aegis_nameShort">
+			<Key ID="STR_A3_A_CfgMods_Aegis_nameShort0">
 				<Original>Aegis</Original>
 				<Chinese>Aegis</Chinese>
 				<French>Aegis</French>
@@ -7945,21 +7877,21 @@
 				<Turkish>UGV Çantası (ED-1D) [Rusya]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Demining_backpack_F_assembleInfo0">
-				<Original>Gremlin ED-1D</Original>
-				<Chinese>Gremlin ED-1D</Chinese>
-				<French>Gremlin ED-1D</French>
-				<Spanish>Gremlin ED-1D</Spanish>
-				<Italian>Gremlin ED-1D</Italian>
-				<Polish>Gremlin ED-1D</Polish>
-				<Russian>Gremlin ED-1D</Russian>
-				<German>Gremlin ED-1D</German>
-				<Czech>Gremlin ED-1D</Czech>
-				<English>Gremlin ED-1D</English>
-				<Portuguese>Gremlin ED-1D</Portuguese>
-				<Korean>Gremlin ED-1D</Korean>
-				<Chinesesimp>Gremlin ED-1D</Chinesesimp>
-				<Japanese>Gremlin ED-1D</Japanese>
-				<Turkish>Gremlin ED-1D</Turkish>
+				<Original>UGV Bag (ED-1D) [Russia]</Original>
+				<Chinese>無人地面載具袋子（ED-1D）（俄國）</Chinese>
+				<French>Sac drone terrestre (ED-1D) [Russie]</French>
+				<Spanish>Bolsa de VTNT (ED-1D) [Rusia]</Spanish>
+				<Italian>Borsa UGV (ED-1D) [Russia]</Italian>
+				<Polish>Torba na UGV (ED-1D) [Rosja]</Polish>
+				<Russian>Сумка для БПА (ED-1D) [Россия]</Russian>
+				<German>UGV-Tragetasche (ED-1D) [Russland]</German>
+				<Czech>Batoh, bezpilotní vozidlo (ED-1D) [Rusko]</Czech>
+				<English>UGV Bag (ED-1D) [Russia]</English>
+				<Portuguese>Bolsa VTNT (ED-1D) [Rússia]</Portuguese>
+				<Korean>UGV 가방 (ED-1D) [러시아]</Korean>
+				<Chinesesimp>UGV 包（ED-1D）[俄国]</Chinesesimp>
+				<Japanese>UGV バッグ (ED-1D) [ロシア]</Japanese>
+				<Turkish>UGV Çantası (ED-1D) [Rusya]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Science_backpack_F0">
 				<Original>UGV Bag (ED-1E) [Russia]</Original>
@@ -7979,21 +7911,21 @@
 				<Turkish>UGV Çantası (ED-1E) [Rusya]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_UGV_02_Science_backpack_F_assembleInfo0">
-				<Original>Monokl ED-1E</Original>
-				<Chinese>Monokl ED-1E</Chinese>
-				<French>Monokl ED-1E</French>
-				<Spanish>Monokl ED-1E</Spanish>
-				<Italian>Monokl ED-1E</Italian>
-				<Polish>Monokl ED-1E</Polish>
-				<Russian>Monokl ED-1E</Russian>
-				<German>Monokl ED-1E</German>
-				<Czech>Monokl ED-1E</Czech>
-				<English>Monokl ED-1E</English>
-				<Portuguese>Monokl ED-1E</Portuguese>
-				<Korean>Monokl ED-1E</Korean>
-				<Chinesesimp>Monokl ED-1E</Chinesesimp>
-				<Japanese>Monokl ED-1E</Japanese>
-				<Turkish>Monokl ED-1E</Turkish>
+				<Original>UGV Bag (ED-1E) [Russia]</Original>
+				<Chinese>無人地面載具袋子（ED-1E）（俄國）</Chinese>
+				<French>Sac drone terrestre (ED-1E) [Russie]</French>
+				<Spanish>Bolsa de VTNT (ED-1E) [Rusia]</Spanish>
+				<Italian>Borsa UGV (ED-1E) [Russia]</Italian>
+				<Polish>Torba na UGV (ED-1E) [Rosja]</Polish>
+				<Russian>Сумка для БПА (ED-1E) [Россия]</Russian>
+				<German>UGV-Tragetasche (ED-1E) [Russland]</German>
+				<Czech>Batoh, bezpilotní vozidlo (ED-1E) [Rusko]</Czech>
+				<English>UGV Bag (ED-1E) [Russia]</English>
+				<Portuguese>Bolsa VTNT (ED-1E) [Rússia]</Portuguese>
+				<Korean>UGV 가방 (ED-1E) [러시아]</Korean>
+				<Chinesesimp>UGV 包（ED-1E）[俄国]</Chinesesimp>
+				<Japanese>UGV バッグ (ED-1E) [ロシア]</Japanese>
+				<Turkish>UGV Çantası (ED-1E) [Rusya]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_02_Demining_backpack_F0">
 				<Original>UGV Bag (Demining) [ION]</Original>
@@ -8013,21 +7945,21 @@
 				<Turkish>UGV Çantası (Mayın Temizleme) [ION]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_ION_UGV_02_Demining_backpack_F_assembleInfo0">
-				<Original>Demining UGV</Original>
-				<English>Demining UGV</English>
-				<Czech>Odminovací bezpilotní vozidlo</Czech>
-				<German>Minenräumungs-UGV</German>
-				<Russian>Разминирующий БПА</Russian>
-				<Polish>UGV przeciwminowy</Polish>
-				<Italian>UGV di sminamento</Italian>
-				<Spanish>VTNT desminador</Spanish>
-				<French>Drone terrestre de déminage</French>
-				<Chinese>無人地面掃雷載具</Chinese>
-				<Japanese>地雷除去用 UGV</Japanese>
-				<Korean>지뢰 제거 UGV</Korean>
-				<Portuguese>VTNT de desminagem</Portuguese>
-				<Chinesesimp>排雷 UGV</Chinesesimp>
-				<Turkish>Mayın Temizleme UGV’si</Turkish>
+				<Original>UGV Bag (Demining) [ION]</Original>
+				<English>UGV Bag (Demining) [ION]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [ION]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [ION]</German>
+				<Russian>Сумка для БПА (разминирование) [ION]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [ION]</Polish>
+				<Italian>Borsa UGV (sminamento) [ION]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [ION]</Spanish>
+				<French>Sac drone terrestre (déminage) [ION]</French>
+				<Chinese>無人機袋子（掃雷）（ION）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[ION]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [ION]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [ION]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[ION]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [ION]</Turkish>
 			</Key>
 		</Container>
 		<Container name="Static_F">

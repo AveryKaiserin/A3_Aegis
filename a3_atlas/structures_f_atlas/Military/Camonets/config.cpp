@@ -1,5 +1,6 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+/*
 class CfgVehicles
 {
 	class CamoNet_BLUFOR_F;
@@ -106,3 +107,4 @@ class CfgVehicles
 		faction = Default;
 	};
 };
+*/

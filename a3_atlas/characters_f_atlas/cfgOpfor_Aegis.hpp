@@ -98,7 +98,6 @@ class O_W_Soldier_A_F: O_Soldier_A_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -135,14 +134,14 @@ class O_W_Soldier_A_F: O_Soldier_A_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -157,7 +156,6 @@ class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -168,14 +166,14 @@ class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 	backpack = B_FieldPack_owcamo_OWAAR_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -198,14 +196,14 @@ class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -220,7 +218,6 @@ class O_W_Support_AMG_F: O_support_AMG_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -231,13 +228,13 @@ class O_W_Support_AMG_F: O_support_AMG_F
 	backpack = O_HMG_01_support_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -281,7 +278,6 @@ class O_W_Support_AMort_F: O_support_AMort_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -292,13 +288,13 @@ class O_W_Support_AMort_F: O_support_AMort_F
 	backpack = O_Mortar_01_support_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -342,7 +338,6 @@ class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -353,15 +348,17 @@ class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 	backpack = B_Carryall_owcamo_OWAHAT_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+        Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+        Rangefinder
 	};
 	magazines[] =
 	{
@@ -403,7 +400,6 @@ class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -414,14 +410,14 @@ class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 	backpack = B_Carryall_owcamo_OWAAA_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -444,14 +440,14 @@ class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -466,7 +462,6 @@ class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -477,14 +472,14 @@ class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 	backpack = B_Carryall_owcamo_OWAAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -507,14 +502,14 @@ class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -529,7 +524,6 @@ class O_W_Soldier_AR_F: O_Soldier_AR_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -539,40 +533,40 @@ class O_W_Soldier_AR_F: O_Soldier_AR_F
 	uniformClass = U_O_W_CombatUniform_owcamo;
 	weapons[] =
 	{
-		arifle_RPK12_arco_pointer_F,
+		arifle_RPK_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_RPK12_arco_pointer_F,
+		arifle_RPK_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_8(75Rnd_762x39_AK12_Mag_F),
+		mag_8(75Rnd_762x39_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(75Rnd_762x39_AK12_Mag_F),
+		mag_8(75Rnd_762x39_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -587,7 +581,6 @@ class O_W_Medic_F: O_medic_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -598,13 +591,13 @@ class O_W_Medic_F: O_medic_F
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		arifle_AK12_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -648,7 +641,6 @@ class O_W_Crew_F: O_crew_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -684,14 +676,14 @@ class O_W_Crew_F: O_crew_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_BandollierB_khk,
 		H_Tank_black_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_BandollierB_khk,
 		H_Tank_black_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -706,7 +698,6 @@ class O_W_Engineer_F: O_engineer_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -717,13 +708,13 @@ class O_W_Engineer_F: O_engineer_F
 	backpack = B_Carryall_owcamo_OWEng_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -745,14 +736,14 @@ class O_W_Engineer_F: O_engineer_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -767,7 +758,6 @@ class O_W_Soldier_Exp_F: O_soldier_exp_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -778,13 +768,13 @@ class O_W_Soldier_Exp_F: O_soldier_exp_F
 	backpack = B_Carryall_owcamo_OWExp_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -835,7 +825,6 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -845,13 +834,13 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	uniformClass = U_O_W_CombatUniform_owcamo;
 	weapons[] =
 	{
-		arifle_AK12_GL_545_aco_pointer_F,
+		arifle_AK12_GL_545_aco_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_545_aco_pointer_F,
+		arifle_AK12_GL_545_aco_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -875,14 +864,14 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -897,7 +886,6 @@ class O_W_Support_GMG_F: O_support_GMG_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -908,13 +896,13 @@ class O_W_Support_GMG_F: O_support_GMG_F
 	backpack = O_GMG_01_weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -958,7 +946,6 @@ class O_W_Support_MG_F: O_support_MG_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -969,13 +956,13 @@ class O_W_Support_MG_F: O_support_MG_F
 	backpack = O_HMG_01_weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -1019,7 +1006,6 @@ class O_W_Support_Mort_F: O_support_Mort_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1030,13 +1016,13 @@ class O_W_Support_Mort_F: O_support_Mort_F
 	backpack = O_Mortar_01_weapon_F;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -1080,7 +1066,6 @@ class O_W_Helicrew_F: O_helicrew_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch
 	};
@@ -1129,7 +1114,6 @@ class O_W_Helipilot_F: O_helipilot_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch
 	};
@@ -1178,7 +1162,6 @@ class O_W_soldier_M_F: O_soldier_M_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1238,7 +1221,6 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1301,7 +1283,6 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1364,7 +1345,6 @@ class O_W_Officer_F: O_officer_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_casual
@@ -1400,14 +1380,14 @@ class O_W_Officer_F: O_officer_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_BandollierB_khk,
 		H_Beret_CSAT_01_F,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_BandollierB_khk,
 		H_Beret_CSAT_01_F,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -1422,7 +1402,6 @@ class O_W_Soldier_Repair_F: O_soldier_repair_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1459,14 +1438,14 @@ class O_W_Soldier_Repair_F: O_soldier_repair_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1481,7 +1460,6 @@ class O_W_Soldier_F: O_Soldier_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1491,13 +1469,13 @@ class O_W_Soldier_F: O_Soldier_F
 	uniformClass = U_O_W_CombatUniform_owcamo;
 	weapons[] =
 	{
-		arifle_AK12_545_arco_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_arco_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -1517,14 +1495,14 @@ class O_W_Soldier_F: O_Soldier_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1539,7 +1517,6 @@ class O_W_Soldier_HAT_F: O_Soldier_HAT_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1602,7 +1579,6 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1665,7 +1641,6 @@ class O_W_Soldier_Lite_F: O_Soldier_lite_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_casual
@@ -1699,14 +1674,14 @@ class O_W_Soldier_Lite_F: O_Soldier_lite_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_oli,
-		H_MilCap_owcamo,
+		V_BandollierB_khk,
+		H_MilCap_whex_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_oli,
-		H_MilCap_owcamo,
+		V_BandollierB_khk,
+		H_MilCap_whex_F,
 		DefaultManLinkedItems
 	};
 };
@@ -1719,7 +1694,6 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1761,7 +1735,7 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1769,7 +1743,7 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1785,7 +1759,6 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -1833,7 +1806,7 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	};
 	linkedItems[] =
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1841,7 +1814,7 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1857,14 +1830,14 @@ class O_W_RadioOperator_F: O_W_Soldier_F
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_NVGoggles_ghex_F
@@ -1922,7 +1895,6 @@ class O_W_Soldier_UAV_F: O_soldier_UAV_F
 	identityTypes[] =
 	{
 		LanguageRUS_F,
-		Head_Russian,
 		Head_Euro,
 		Head_Enoch,
 		G_RUS_default
@@ -2026,13 +1998,13 @@ class O_W_Soldier_unarmed_F: O_W_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems
 	};

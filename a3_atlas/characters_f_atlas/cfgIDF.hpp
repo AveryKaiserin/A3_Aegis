@@ -1500,14 +1500,14 @@ class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_TRG21_black_SRS_pointer_F,
-		launch_MRAWS_olive_rail_F,
+		launch_MRAWS_black_rail_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_TRG21_black_SRS_pointer_F,
-		launch_MRAWS_olive_rail_F,
+		launch_MRAWS_black_rail_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
@@ -2658,14 +2658,14 @@ class I_I_recon_LAT_F: I_I_Soldier_recon_base
 	weapons[] =
     {
         arifle_TRG21_black_SRS_pointer_snds_F,
-		launch_MRAWS_olive_rail_F,
+		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_TRG21_black_SRS_pointer_snds_F,
-		launch_MRAWS_olive_rail_F,
+		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };

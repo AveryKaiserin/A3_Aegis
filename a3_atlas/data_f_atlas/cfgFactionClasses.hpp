@@ -1,13 +1,5 @@
 class CfgFactionClasses
 {
-	class OPF_V_wdl_F
-	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_V_wdl_F0;
-		priority = 8;
-		side = TEast;
-		icon = "\A3\Data_F_Exp\FactionIcons\icon_VIPER_CA.paa";
-		flag = "\A3\Data_F_Exp\Flags\flag_Viper_CO.paa";
-	};
 	class OPF_W_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_W_F0;

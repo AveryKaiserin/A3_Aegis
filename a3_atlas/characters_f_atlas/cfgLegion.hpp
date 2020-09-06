@@ -16,6 +16,7 @@ class B_L_Man_Base_F: B_Soldier_F
 	identityTypes[] =
 	{
 		LanguageENGFRE_F,
+		LanguageGRE_F,
 		Head_NATO,
 		Head_Greek,
 		Head_Tanoan,
@@ -470,26 +471,26 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		LMG_Mk200_black_RCO_LP_F,
+		LMG_03_Hamr_Pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Mk200_black_RCO_LP_F,
+		LMG_03_Hamr_Pointer_F,
 		hgun_Pistol_heavy_01_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_3(200Rnd_65x39_cased_box_Red),
+		mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_3(200Rnd_65x39_cased_box_Red),
+		mag_3(200Rnd_556x45_Box_Red_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
