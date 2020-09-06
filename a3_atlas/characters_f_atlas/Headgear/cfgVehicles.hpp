@@ -48,6 +48,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetSpecter_cover_autumn_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_autumn_F0,EdSubcat_Helmets)
     */
 	HEADGEAR_HOLDER(H_HelmetI_I_01_F,$STR_A3_A_CfgWeapons_H_HelmetI_I_01_F0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_HelmetI_I_01_cover_F,$STR_A3_A_CfgWeapons_H_HelmetI_I_01_cover_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_Booniehat_whex_F,$STR_A3_A_CfgWeapons_H_Booniehat_whex_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_whex_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_whex_hs_F0,EdSubcat_Hats)
     /*
