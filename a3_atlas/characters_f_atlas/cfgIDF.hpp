@@ -1328,27 +1328,27 @@ class I_I_officer_F: I_I_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_TRG20_black_F,
-		hgun_ACPC2_F,
+		hgun_Mk26_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_TRG20_black_F,
-		hgun_ACPC2_F,
+		hgun_Mk26_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_556x45_Stanag),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(7Rnd_127x33_Mag),
         SOLDIER_SMOKE_SHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_Stanag),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(7Rnd_127x33_Mag),
         SOLDIER_SMOKE_SHELLS_INDEP
 	};
 	camouflage = 1.6;
