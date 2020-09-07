@@ -234,6 +234,42 @@
 				<Turkish>Police</Turkish>
 			</Key>
 		</Container>
+		<Container name="Soft_F">
+			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F0">
+				<Original>UGV Bag (Demining) [Police]</Original>
+				<English>UGV Bag (Demining) [Police]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [Polizei]</German>
+				<Russian>Сумка для БПА (разминирование) [Полиция]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [Policja]</Polish>
+				<Italian>Borsa UGV (sminamento) [Polizia]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [Policía]</Spanish>
+				<French>Sac drone terrestre (déminage) [Police]</French>
+				<Chinese>無人機袋子（掃雷）（警察）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[警察]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [경찰]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [Polícia]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[警察]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [Polis]</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0">
+				<Original>UGV Bag (Demining) [Police]</Original>
+				<English>UGV Bag (Demining) [Police]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [Polizei]</German>
+				<Russian>Сумка для БПА (разминирование) [Полиция]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [Policja]</Polish>
+				<Italian>Borsa UGV (sminamento) [Polizia]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [Policía]</Spanish>
+				<French>Sac drone terrestre (déminage) [Police]</French>
+				<Chinese>無人機袋子（掃雷）（警察）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[警察]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [경찰]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [Polícia]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[警察]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [Polis]</Turkish>
+			</Key>
+		</Container>
 		<Container name="Supplies_F">
 			<Container name="Ammoboxes">
 				<Key ID="STR_A3_P_CfgVehicles_Box_POLICE_Equip_F0">

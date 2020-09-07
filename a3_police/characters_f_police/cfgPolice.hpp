@@ -230,14 +230,14 @@ class I_P_TacPoliceOfficer_F: I_P_TacPoliceOfficer_Base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
 		DefaultManLinkedItems
 	};
@@ -327,14 +327,14 @@ class I_P_TacPoliceOfficer_SG_F: I_P_TacPoliceOfficer_Base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_G_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_G_blk_F,
 		DefaultManLinkedItems
 	};
@@ -377,7 +377,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
         I_P_UavTerminal,
 		DefaultManLinkedItems
@@ -385,7 +385,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_POLICE_F,
-		H_HelmetSpecter_black_headset_noflag_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
         I_P_UavTerminal,
 		DefaultManLinkedItems

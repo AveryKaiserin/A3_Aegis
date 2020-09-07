@@ -137,7 +137,8 @@ class I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 			init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Heli_Light_01_police_F.jpg";
-	scope = public;
+	scope = protected;
+    scopeCurator = private; // del this line
 	side = TGuerrila;
 	faction = IND_P_F;
 	crew = I_P_Helipilot_F;
