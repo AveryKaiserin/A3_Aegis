@@ -54,23 +54,6 @@
 				<Turkish>Polis (Av Tüfeği)</Turkish>
 			</Key>
 			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0">
-				<Original>Tactical Police Officer</Original>
-				<Chinese>戰術警察</Chinese>
-				<French>Policier tactique</French>
-				<Spanish>Policía táctico</Spanish>
-				<Italian>Poliziotto tattico</Italian>
-				<Polish>Takt. policjant</Polish>
-				<Italian>Тактический полицейский</Russian>
-				<German>Taktischer Polizist</German>
-				<Czech>Taktický policista</Czech>
-				<English>Tactical Police Officer</English>
-				<Portuguese>Policial tático</Portuguese>
-				<Korean>전략 경찰관</Korean>
-				<Chinesesimp>战术警察</Chinesesimp>
-				<Japanese>タクティカル警官</Japanese>
-				<Turkish>Taktiksel Polis</Turkish>
-			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_Rifle_F0">
 				<Original>Tactical Police Officer (Rifle)</Original>
 				<Chinese>戰術警察（步槍）</Chinese>
 				<French>Policier tactique (fusil)</French>
@@ -294,21 +277,21 @@
 		<Container name="Weapons_F">
 			<Container name="Items">
 				<Key ID="STR_A3_P_CfgWeapons_I_P_UavTerminal0">
-					<Original>UAV Terminal [ION]</Original>
-					<Chinese>無人機終端機（ION）</Chinese>
-					<French>Terminal drone [ION]</French>
-					<Spanish>Terminal VANT [ION]</Spanish>
-					<Italian>Terminale UAV [ION]</Italian>
-					<Polish>Terminal dronów [ION]</Polish>
-					<Russian>Терминал БПЛА [ION]</Russian>
-					<German>UAC-Terminal [ION]</German>
-					<Czech>UAV terminál [ION]</Czech>
-					<English>UAV Terminal [ION]</English>
-					<Portuguese>Terminal de VANT [ION]</Portuguese>
-					<Korean>무인기 단말[ION]</Korean>
-					<Chinesesimp>UAV 终端 [ION]</Chinesesimp>
-					<Japanese>UAV ターミナル［ION］</Japanese>
-					<Turkish>İHA Terminali [ION]</Turkish>
+					<Original>UAV Terminal [Police]</Original>
+					<Chinese>無人機終端機（警察）</Chinese>
+					<French>Terminal drone [police]</French>
+					<Spanish>Terminal VANT [Policía]</Spanish>
+					<Italian>Terminale UAV [Polizia]</Italian>
+					<Polish>Terminal dronów [policja]</Polish>
+					<Russian>Терминал БПЛА [Полиция]</Russian>
+					<German>UAC-Terminal [Polizei]</German>
+					<Czech>UAV terminál [Policejní]</Czech>
+					<English>UAV Terminal [Police]</English>
+					<Portuguese>Terminal de VANT [Polícia]</Portuguese>
+					<Korean>무인기 단말[경찰]</Korean>
+					<Chinesesimp>UAV 终端 [警察]</Chinesesimp>
+					<Japanese>UAV ターミナル［警察］</Japanese>
+					<Turkish>İHA Terminali [Polis]</Turkish>
 				</Key>
 			</Container>
 		</Container>

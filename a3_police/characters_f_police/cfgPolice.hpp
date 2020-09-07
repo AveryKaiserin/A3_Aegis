@@ -267,13 +267,13 @@ class I_P_TacPoliceOfficer_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_TacPoliceOfficer_Rifle_F: I_P_TacPoliceOfficer_Base_F
+class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Rifle_F.jpg";
+	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Sniper_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_Rifle_F0;
+	displayName = $STR_B_Sniper_F0;
 	uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
