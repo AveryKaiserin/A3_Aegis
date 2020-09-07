@@ -1,4 +1,3 @@
-// Arma 3 Marine
 class U_B_MCU_desert_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;

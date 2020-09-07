@@ -946,6 +946,7 @@ class B_USMC_Soldier_A_wdl_F: B_USMC_Soldier_A_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
+    backpack = B_Carryall_khk_USMCAmmo_F;
 	weapons[] =
 	{
 		arifle_MX_Black_ACO_Pointer_F,

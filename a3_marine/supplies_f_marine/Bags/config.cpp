@@ -3,13 +3,9 @@
 class CfgVehicles
 {
 	// Arma 3
-	class B_AssaultPack_blk;
 	class B_AssaultPack_cbr;
 	class B_Kitbag_cbr;
-	class B_FieldPack_blk;
 	class B_Carryall_cbr;
-	// Arma 3 Aegis
-	class B_Carryall_blk;
-	#include "cfgOpfor_Exp.hpp"		// CSAT (Pacific)
+	// Arma 3 Marine
 	#include "cfgUSMC.hpp"			// USMC
 };

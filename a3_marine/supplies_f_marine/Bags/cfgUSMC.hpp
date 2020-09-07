@@ -4,6 +4,25 @@ class B_Carryall_cbr_USMCAmmo_F: B_Carryall_cbr
 	scope = protected;
 	class TransportMagazines
 	{
+		mag_xx(30Rnd_65x39_caseless_mag,6);
+		mag_xx(100Rnd_65x39_caseless_mag,1);
+		mag_xx(MRAWS_HEAT_F,1);
+		mag_xx(HandGrenade,2);
+		mag_xx(MiniGrenade,2);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
+	};
+};
+class B_Carryall_khk_USMCAmmo_F: B_Carryall_cbr
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
 		mag_xx(30Rnd_65x39_caseless_black_mag,6);
 		mag_xx(100Rnd_65x39_caseless_black_mag,1);
 		mag_xx(MRAWS_HEAT_F,1);
