@@ -339,6 +339,34 @@ class MMG_01_black_LRCO_LP_F: MMG_01_black_F
 		};
 	};
 };
+// Navid 9.3 mm (Black) + LRCO + IR Laser Pointer + Sound Suppressor (9.3 mm, Black)
+class MMG_01_black_LRCO_LP_S_F: MMG_01_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_93mmg;
+		};
+	};
+};
 // TRG-20 5.56 mm (Black) + ACO
 class arifle_TRG20_black_ACO_F: arifle_TRG20_black_F
 {

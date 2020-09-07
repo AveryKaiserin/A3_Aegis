@@ -9697,6 +9697,23 @@
 						<Japanese>旗（Bocano）</Japanese>
 						<Turkish>Bayrak (Bocano)</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgVehicles_Banner_01_TFAegis_F0">
+						<Original>Banner (TF Aegis)</Original>
+						<Chinese>徽記（TF Aegis）</Chinese>
+						<French>Bannière (Force Aegis)</French>
+						<Spanish>Estandarte (Dest. Aegis)</Spanish>
+						<Italian>Striscione (TF Aegis)</Italian>
+						<Polish>Sztandar (GU Aegis)</Polish>
+						<Russian>Баннер (Группа Иджис)</Russian>
+						<German>Banner (TF Ägis)</German>
+						<Czech>Prapor (TU Aegis)</Czech>
+						<English>Banner (TF Aegis)</English>
+						<Portuguese>Bandeira (FT Aegis)</Portuguese>
+						<Korean>배너 (이지스 기동대)</Korean>
+						<Chinesesimp>横幅 (TF Aegis)</Chinesesimp>
+						<Japanese>垂れ幕（TFイージス）</Japanese>
+						<Turkish>Flama (TF Aegis)</Turkish>
+					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Banner_01_Russia_F0">
 						<Original>Banner (Russia)</Original>
 						<Chinese>徽記（俄國）</Chinese>

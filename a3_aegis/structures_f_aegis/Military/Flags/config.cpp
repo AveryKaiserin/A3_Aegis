@@ -295,6 +295,24 @@ class CfgVehicles
 		};
 	};
 	class Banner_01_base_F;
+	class Banner_01_TFAegis_F: Banner_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.469;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Banner_01_TFAegis_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Banner_01_TFAegis_F0;
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Data_F_Aegis\Flags\flag_TFAegis_CO.paa"};
+	};
 	class Banner_01_Russia_F: Banner_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -310,7 +328,7 @@ class CfgVehicles
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Banner_01_Russia_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = "Banner (Russia)";
+		displayName = $STR_A3_A_CfgVehicles_Banner_01_Russia_F0;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa"};
 	};
 };

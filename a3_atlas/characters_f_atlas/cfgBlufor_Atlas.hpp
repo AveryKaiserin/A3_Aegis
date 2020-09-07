@@ -1682,7 +1682,7 @@ class B_E_Soldier_Lite_F: B_Soldier_lite_F
 		LanguageENG_F,
 		Head_Euro,
 		Head_Enoch,
-		G_NATO_tropic
+		G_NATO_casual
 	};
     scope = public;
     scopeCurator = public;
@@ -2406,7 +2406,7 @@ class B_E_Recon_MG_F: B_recon_MG_F
 		LanguageENG_F,
 		Head_Euro,
 		Head_Enoch,
-		G_W_NATO_SF
+		G_NATO_recon
 	};
 	uniformClass = U_B_E_CombatUniform_vest_wdl;
 	backpack = B_TacticalPack_rgr_BEReconMG_F;
