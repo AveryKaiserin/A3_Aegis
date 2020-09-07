@@ -1617,6 +1617,23 @@
 				<Chinesesimp>逃兵（枪榴弹发射器）</Chinesesimp>
 				<Turkish>Bakaya (UGL)</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0">
+                <Original>UGV Operator (Demining)</Original>
+                <English>UGV Operator (Demining)</English>
+                <Czech>Operátor bezpilotního vozidla (odminovací)</Czech>
+                <German>UGV-Pilot (Minenräumung)</German>
+                <Russian>Оператор БПА (разминирование)</Russian>
+                <Polish>Operator UGV (przeciwminowy)</Polish>
+                <Italian>Operatore UGV (sminamento)</Italian>
+                <Spanish>Operario de VTNT (desminador)</Spanish>
+                <French>Opérateur drone terrestre (déminage)</French>
+                <Chinese>無人地面載具操作員（掃雷）</Chinese>
+                <Japanese>UGV 操作手 (地雷除去用)</Japanese>
+                <Korean>UGV 운전병 (지뢰제거)</Korean>
+                <Portuguese>Operador de VTNT (desminagem)</Portuguese>
+                <Chinesesimp>无人地面车辆 (UGV) 操作员 (排雷)</Chinesesimp>
+                <Turkish>UGV Operatörü (Mayın Temizleme)</Turkish>
+			</Key>
 			<Container name="Facewear">
 				<Key ID="STR_A3_A_CfgGlasses_G_Balaclava_Skull10">
 					<Original>Balaclava (Skull)</Original>

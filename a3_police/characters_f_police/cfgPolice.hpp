@@ -372,7 +372,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	// editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0;
 	uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{

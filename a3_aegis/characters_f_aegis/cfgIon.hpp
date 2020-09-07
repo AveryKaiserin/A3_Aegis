@@ -818,21 +818,21 @@ class B_ION_soldier_UAV_06_F: B_ION_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UAV_06_F.jpg";
-	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
+	displayName = $STR_A3_C_IDAP_Man_UAV_06_F0;
 	backpack = B_ION_UAV_06_backpack_F;
 };
 class B_ION_soldier_UAV_06_medical_F: B_ION_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UAV_06_medical_F.jpg";
-	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
+	displayName = $STR_A3_C_IDAP_Man_UAV_06_medical_F0;
 	backpack = B_ION_UAV_06_medical_backpack_F;
 };
 class B_ION_soldier_UGV_02_Demining_F: B_ION_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UGV_02_Demining_F.jpg";
-	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0;
 	backpack = B_ION_UGV_02_Demining_backpack_F;
 };
 class B_ION_Soldier_universal_F: B_ION_Soldier_F
