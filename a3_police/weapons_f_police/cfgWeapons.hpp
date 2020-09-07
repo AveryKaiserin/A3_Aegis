@@ -1,5 +1,5 @@
 class CfgWeapons
 {
-    class arifle_DMR_06_black_F;
+    class srifle_DMR_06_black_F;
     #include "presets.hpp"
 };
