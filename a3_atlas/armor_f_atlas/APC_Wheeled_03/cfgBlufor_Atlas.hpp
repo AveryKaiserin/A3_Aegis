@@ -234,12 +234,11 @@ class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_black_mag,12);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
 		mag_xx(200Rnd_65x39_cased_box_Red,3);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(3Rnd_HE_Grenade_shell,1);
-		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
@@ -255,7 +254,7 @@ class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MX_Black_F,2);
+		weap_xx(arifle_G36_F,2);
 	};
 	class TransportBackpacks
 	{
