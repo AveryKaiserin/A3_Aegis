@@ -291,14 +291,14 @@ class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
 	};
 	weapons[] =
 	{
-		srifle_DMR_06_black_DMS_F,
+		srifle_DMR_06_black_AMS_BI_F,
 		hgun_G17_black_F,
 		DefaultManWeapons,
         Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_black_DMS_F,
+		srifle_DMR_06_black_AMS_BI_F,
 		hgun_G17_black_F,
 		DefaultManWeapons,
         Binocular
