@@ -5,22 +5,107 @@
 			<Container name="Groups">
 			</Container>
 			<Container name="Headgear">
-				<Key ID="STR_A3_O_CfgWeapons_H_MilCap_rucamo0">
-					<Original>Military Cap (Raven Security)</Original>
-					<Chinese>軍用棒球帽（Raven Security）</Chinese>
-					<French>Casquette militaire (Raven Security)</French>
-					<Spanish>Gorra militar (Raven Security)</Spanish>
-					<Italian>Berretto militare (Raven Security)</Italian>
-					<Polish>Czapka wojskowa (Raven Security)</Polish>
-					<Russian>Армейская кепка (Raven Security)</Russian>
-					<German>Militärmütze (Raven Security)</German>
-					<Czech>Vojenská čepice (Raven Security)</Czech>
-					<English>Military Cap (Raven Security)</English>
-					<Portuguese>Boné militar (Raven Security)</Portuguese>
-					<Korean>군용모자(레이븐 보안)</Korean>
-					<Chinesesimp>军帽（Raven Security）</Chinesesimp>
-					<Japanese>ミリタリーキャップ（レイヴン・セキュリティ）</Japanese>
-					<Turkish>Askeri Kasket (Kuzgun Güvenliği)</Turkish>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_khk0">
+					<Original>Shemag (Khaki)</Original>
+					<Chinese>阿拉伯頭巾（卡其色）</Chinese>
+					<French>Keffieh (kaki)</French>
+					<Spanish>Máscara palestina (caqui)</Spanish>
+					<Italian>Shemagh (kaki)</Italian>
+					<Polish>Shemag (khaki)</Polish>
+					<Russian>Шемаг (хаки)</Russian>
+					<German>Shemag (Khaki)</German>
+					<Czech>Shemag (khaki)</Czech>
+					<English>Shemag (Khaki)</English>
+					<Portuguese>Shemag (cáqui)</Portuguese>
+					<Korean>쉬마그(카키)</Korean>
+					<Chinesesimp>阿拉伯头巾（卡其色）</Chinesesimp>
+					<Japanese>シュマグ（カーキ）</Japanese>
+					<Turkish>Poşu (Haki)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_khk_hs0">
+					<Original>Shemag (Khaki, Headset)</Original>
+					<Chinese>阿拉伯頭巾（卡其色，耳機）</Chinese>
+					<French>Keffieh (kaki, micro-casque)</French>
+					<Spanish>Palestina (caqui, auricular)</Spanish>
+					<Italian>Shemag (kaki, cuffia)</Italian>
+					<Polish>Shemag (khaki, głowa)</Polish>
+					<Russian>Шемаг (хаки, гарнитура)</Russian>
+					<German>Shemag (Khaki, Headset)</German>
+					<Czech>Shemag (khaki, náhlavní souprava)</Czech>
+					<English>Shemag (Khaki, Headset)</English>
+					<Portuguese>Shemag (cáqui, headset)</Portuguese>
+					<Korean>쉬마그(카키, 헤드셋)</Korean>
+					<Chinesesimp>阿拉伯头巾（卡其色，头戴式耳机）</Chinesesimp>
+					<Japanese>シュマグ（カーキ、ヘッドセット）</Japanese>
+					<Turkish>Poşu (Haki, Baş Giysisi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_blk0">
+					<Original>Shemag (Black)</Original>
+					<Chinese>阿拉伯頭巾（黑）</Chinese>
+					<French>Keffieh (noire)</French>
+					<Spanish>Máscara palestina (negro)</Spanish>
+					<Italian>Shemagh (nero)</Italian>
+					<Polish>Shemag (czarna)</Polish>
+					<Russian>Шемаг (черный)</Russian>
+					<German>Shemag (Schwarz)</German>
+					<Czech>Shemag (černá)</Czech>
+					<English>Shemag (Black)</English>
+					<Portuguese>Shemag (preta)</Portuguese>
+					<Korean>쉬마그(흑색)</Korean>
+					<Chinesesimp>阿拉伯头巾（黑色）</Chinesesimp>
+					<Japanese>シュマグ（黒）</Japanese>
+					<Turkish>Poşu (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_blk_hs0">
+					<Original>Shemag (Black, Headset)</Original>
+					<Chinese>阿拉伯頭巾（黑，耳機）</Chinese>
+					<French>Keffieh (noire, micro-casque)</French>
+					<Spanish>Palestina (negro, auricular)</Spanish>
+					<Italian>Shemag (nero, cuffia)</Italian>
+					<Polish>Shemag (czarna, głowa)</Polish>
+					<Russian>Шемаг (черный, гарнитура)</Russian>
+					<German>Shemag (Schwarz, Headset)</German>
+					<Czech>Shemag (černá, náhlavní souprava)</Czech>
+					<English>Shemag (Black, Headset)</English>
+					<Portuguese>Shemag (preta, headset)</Portuguese>
+					<Korean>쉬마그(흑색, 헤드셋)</Korean>
+					<Chinesesimp>阿拉伯头巾（黑色，头戴式耳机）</Chinesesimp>
+					<Japanese>シュマグ（黒、ヘッドセット）</Japanese>
+					<Turkish>Poşu (Siyah, Baş Giysisi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_red0">
+					<Original>Shemag (Red)</Original>
+					<Chinese>阿拉伯頭巾（紅）</Chinese>
+					<French>Keffieh (rouge)</French>
+					<Spanish>Máscara palestina (roja)</Spanish>
+					<Italian>Shemagh (rosso)</Italian>
+					<Polish>Shemag (czerwony)</Polish>
+					<Russian>Шемаг (красный)</Russian>
+					<German>Shemag (rot)</German>
+					<Czech>Shemag (červený)</Czech>
+					<English>Shemag (Red)</English>
+					<Portuguese>Shemag (vermelha)</Portuguese>
+					<Korean>쉬마그(적색)</Korean>
+					<Chinesesimp>阿拉伯头巾（红色）</Chinesesimp>
+					<Japanese>シュマグ（赤）</Japanese>
+					<Turkish>Poşu (Kırmızı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_red_hs0">
+					<Original>Shemag (Red, Headset)</Original>
+					<Chinese>阿拉伯頭巾（紅，耳機）</Chinese>
+					<French>Keffieh (rouge, micro-casque)</French>
+					<Spanish>Palestina (roja, auricular)</Spanish>
+					<Italian>Shemag (rosso, cuffia)</Italian>
+					<Polish>Shemag (czerwony, głowa)</Polish>
+					<Russian>Шемаг (красный, гарнитура)</Russian>
+					<German>Shemag (rot, Headset)</German>
+					<Czech>Shemag (červený, náhlavní souprava)</Czech>
+					<English>Shemag (Red, Headset)</English>
+					<Portuguese>Shemag (vermelha, headset)</Portuguese>
+					<Korean>쉬마그(적색, 헤드셋)</Korean>
+					<Chinesesimp>阿拉伯头巾（红色，头戴式耳机）</Chinesesimp>
+					<Japanese>シュマグ（赤、ヘッドセット）</Japanese>
+					<Turkish>Poşu (Kırmızı, Baş Giysisi)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven0">
 					<Original>Cap (Raven Security)</Original>
@@ -56,49 +141,268 @@
 					<Japanese>キャップ（レイヴン・セキュリティ、ヘッドセット）</Japanese>
 					<Turkish>Şapka (Kuzgun Güvenliği, Baş Giysisi)</Turkish>
 				</Key>
-				<Key ID="STR_A3_O_CfgWeapons_H_Cap_headphones_Raven0">
-					<Original>Rangemaster Cap (Raven Security)</Original>
-					<Chinese>賽場管理人帽（Raven Security）</Chinese>
-					<French>Casquette d'intendant (Raven Security)</French>
-					<Spanish>Gorra de responsable de galería de tiro (Raven Security)</Spanish>
-					<Italian>Cappello responsabile poligono (Raven Security)</Italian>
-					<Polish>Czapka instruktora (Raven Security)</Polish>
-					<Russian>Кепка инструктора (Raven Security)</Russian>
-					<German>Schießplatzverwalter-Mütze (Raven Security)</German>
-					<Czech>Čepice vedoucího střelby (Raven Security)</Czech>
-					<English>Rangemaster Cap (Raven Security)</English>
-					<Portuguese>Boné do líder de combate a distância (Raven Security)</Portuguese>
-					<Korean>사격통제관 모자(레이븐 보안)</Korean>
-					<Chinesesimp>靶场总监帽子（Raven Security）</Chinesesimp>
-					<Japanese>射撃場管理者キャップ（レイヴン・セキュリティ）</Japanese>
-					<Turkish>Menzil Ustası Şapkası (Kuzgun Güvenliği)</Turkish>
-				</Key>
 			</Container>
 			<Container name="Uniforms">
+				<Key ID="STR_A3_O_CfgWeapons_U_O_ParamilitaryBody0">
+					<Original>Rugged Coveralls</Original>
+					<Chinese>堅固的工作服</Chinese>
+					<French>Combinaison renforcée</French>
+					<Spanish>Mono resistente</Spanish>
+					<Italian>Tuta rugged</Italian>
+					<Polish>Mundur wzmocniony</Polish>
+					<Russian>Защищенный комбинезон</Russian>
+					<German>Robustes overall</German>
+					<Czech>Odolný kombinéza</Czech>
+					<English>Rugged Coveralls</English>
+					<Portuguese>Macacão robusta</Portuguese>
+					<Korean>러기드 비행복</Korean>
+					<Chinesesimp>坚固的工作服</Chinesesimp>
+					<Japanese>頑丈なカバーオール</Japanese>
+					<Turkish>Dayanıklı Tulumu</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_taiga_F0">
+					<Original>Light Fatigues (Taiga, Tee)</Original>
+					<Chinese>輕型戰鬥服（Taiga，T 恤）</Chinese>
+					<French>Treillis clair (taïga, t-shirt)</French>
+					<Spanish>Ropa ligera (taiga, camiseta)</Spanish>
+					<Italian>Uniforme leggera (taiga, man. corte)</Italian>
+					<Polish>Jasny mundur (tajga, koszulka)</Polish>
+					<Russian>Летняя форма (таежная, футболка)</Russian>
+					<German>Leichter Anzug (Taiga, T-Shirt)</German>
+					<Czech>Lehká uniforma (tajga, triko)</Czech>
+					<English>Light Fatigues (Taiga, Tee)</English>
+					<Portuguese>Trajes leves (taiga, camiseta)</Portuguese>
+					<Korean>경량 전투복(침엽수, 티셔츠)</Korean>
+					<Chinesesimp>轻便军服（针叶林，T 恤）</Chinesesimp>
+					<Japanese>軽装野戦服（タイガ、T シャツ）</Japanese>
+					<Turkish>Hafif Asker Kıyafeti (Tayga, Tişört)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_arid_F0">
+					<Original>Light Fatigues (Arid, Tee)</Original>
+					<Chinese>輕型戰鬥服（乾燥氣候，T 恤）</Chinese>
+					<French>Treillis clair (désert, t-shirt)</French>
+					<Spanish>Ropa ligera (árido, camiseta)</Spanish>
+					<Italian>Uniforme leggera (arido, man. corte)</Italian>
+					<Polish>Jasny mundur (region suchy, koszulka)</Polish>
+					<Russian>Летняя форма (пустынный, футболка)</Russian>
+					<German>Leichter Anzug (Karg, T-Shirt)</German>
+					<Czech>Lehká uniforma (suchý, triko)</Czech>
+					<English>Light Fatigues (Arid, Tee)</English>
+					<Portuguese>Trajes leves (árido, camiseta)</Portuguese>
+					<Korean>경량 전투복(황폐, 티셔츠)</Korean>
+					<Chinesesimp>轻便军服（干旱，T 恤）</Chinesesimp>
+					<Japanese>軽装野戦服（乾燥地帯、T シャツ）</Japanese>
+					<Turkish>Hafif Asker Kıyafeti (Kurak, Tişört)</Turkish>
+				</Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Gorka_01_autumn_F0">
+                    <Original>Granit-A Suit (Weathered)</Original>
+                    <Chinese>花崗岩-A 套裝（風吹雨打）</Chinese>
+                    <French>Tenue Granit-A (usée)</French>
+                    <Spanish>Traje Granit-A (ajado)</Spanish>
+                    <Italian>Tuta militare Granit-A (corrosa)</Italian>
+                    <Polish>Mundur Granit-A (znoszony)</Polish>
+                    <Russian>Костюм "Гранит-Б" (поношенный)</Russian>
+                    <German>Granit-A-Anzug (abgenutzt)</German>
+                    <Czech>Kombinéza Granit-A (obnošená)</Czech>
+                    <English>Granit-A Suit (Weathered)</English>
+                    <Portuguese>Traje Granit-A (desgastado)</Portuguese>
+                    <Korean>그라니트-A 수트 (노후)</Korean>
+                    <Chinesesimp>Granit-A 套装（风化）</Chinesesimp>
+                    <Japanese>Granit-A スーツ（風化）</Japanese>
+                    <Turkish>Granit-A Kıyafet (Rengi Solmuş)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Gorka_01_summer_F0">
+                    <Original>Granit-C Suit (Weathered)</Original>
+                    <Chinese>花崗岩-C 套裝（風吹雨打）</Chinese>
+                    <French>Tenue Granit-C (usée)</French>
+                    <Spanish>Traje Granit-C (ajado)</Spanish>
+                    <Italian>Tuta militare Granit-C (corrosa)</Italian>
+                    <Polish>Mundur Granit-C (znoszony)</Polish>
+                    <Russian>Костюм "Гранит-Б" (поношенный)</Russian>
+                    <German>Granit-C-Anzug (abgenutzt)</German>
+                    <Czech>Kombinéza Granit-C (obnošená)</Czech>
+                    <English>Granit-C Suit (Weathered)</English>
+                    <Portuguese>Traje Granit-C (desgastado)</Portuguese>
+                    <Korean>그라니트-C 수트 (노후)</Korean>
+                    <Chinesesimp>Granit-C 套装（风化）</Chinesesimp>
+                    <Japanese>Granit-C スーツ（風化）</Japanese>
+                    <Turkish>Granit-C Kıyafet (Rengi Solmuş)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_taiga_F0">
+                    <Original>Deserter Clothes (Taiga)</Original>
+                    <Chinese>逃兵衣服（Taiga）</Chinese>
+                    <French>Vêtements de déserteur (taïga)</French>
+                    <Spanish>Ropa de desertor (taiga)</Spanish>
+                    <Italian>Vestiti da disertore (taiga)</Italian>
+                    <Polish>Odzież dezertera (tajga)</Polish>
+                    <Russian>Одежда дезертира (таежная)</Russian>
+                    <German>Deserteur-Kleidung (Taiga)</German>
+                    <Czech>Oblečení rabujícího (tajga)</Czech>
+                    <English>Deserter Clothes (Taiga)</English>
+                    <Portuguese>Roupas de desertor (taiga)</Portuguese>
+                    <Korean>탈영병 옷 (침엽수림)</Korean>
+                    <Chinesesimp>逃兵服装（针叶林）</Chinesesimp>
+                    <Japanese>脱走兵の服（タイガ）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Tayga)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_arid_F0">
+                    <Original>Deserter Clothes (Arid)</Original>
+                    <Chinese>逃兵衣服（乾燥氣候）</Chinese>
+                    <French>Vêtements de déserteur (désert)</French>
+                    <Spanish>Ropa de desertor (árido)</Spanish>
+                    <Italian>Vestiti da disertore (arido)</Italian>
+                    <Polish>Odzież dezertera (region suchy)</Polish>
+                    <Russian>Одежда дезертира (пустынный)</Russian>
+                    <German>Deserteur-Kleidung (Karg)</German>
+                    <Czech>Oblečení rabujícího (suchý)</Czech>
+                    <English>Deserter Clothes (Arid)</English>
+                    <Portuguese>Roupas de desertor (árido)</Portuguese>
+                    <Korean>탈영병 옷 (황폐)</Korean>
+                    <Chinesesimp>逃兵服装（干旱）</Chinesesimp>
+                    <Japanese>脱走兵の服（乾燥地帯）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Kurak)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_sweater_F0">
+                    <Original>Deserter Clothes (Sweater)</Original>
+                    <Chinese>逃兵衣服（毛衣）</Chinese>
+                    <French>Vêtements de déserteur (pullover)</French>
+                    <Spanish>Ropa de desertor (jersey)</Spanish>
+                    <Italian>Vestiti da disertore (maglione)</Italian>
+                    <Polish>Odzież dezertera (sweter)</Polish>
+                    <Russian>Одежда дезертира (свитер)</Russian>
+                    <German>Deserteur-Kleidung (Pullover)</German>
+                    <Czech>Oblečení rabujícího (svetr)</Czech>
+                    <English>Deserter Clothes (Sweater)</English>
+                    <Portuguese>Roupas de desertor (suéter)</Portuguese>
+                    <Korean>탈영병 옷 (스웨터)</Korean>
+                    <Chinesesimp>逃兵服装（毛衣）</Chinesesimp>
+                    <Japanese>脱走兵の服（セーター）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Kazak)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_IG_Guerilla3_3_F0">
+                    <Original>Guerilla Smocks (Grey)</Original>
+                    <Chinese>游擊外衣（灰）</Chinese>
+                    <French>Sarrau de guérillero (gris)</French>
+                    <Spanish>Blusón de guerrilla (gris)</Spanish>
+                    <Italian>Tenuta da guerrigliero (grigia)</Italian>
+                    <Polish>Kaftan partyzanta (szara)</Polish>
+                    <Russian>Партизанский комбинезон (серая)</Russian>
+                    <German>Guerillakittel (grau)</German>
+                    <Czech>Partyzánská blůza (šedý)</Czech>
+                    <English>Guerilla Smocks (Grey)</English>
+                    <Portuguese>Casaco de guerrilheiro (cinza)</Portuguese>
+                    <Korean>게릴라 덧옷(회색)</Korean>
+                    <Chinesesimp>游击队伪装服（灰色）</Chinesesimp>
+                    <Japanese>ゲリラスモック（灰色）</Japanese>
+                    <Turkish>Gerilla Kostümü (Gri)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_hex_F0">
+                    <Original>Deserter Clothes (Hex)</Original>
+                    <Chinese>逃兵衣服（六邊形）</Chinese>
+                    <French>Vêtements de déserteur (hex)</French>
+                    <Spanish>Ropa de desertor (hex)</Spanish>
+                    <Italian>Vestiti da disertore (mimetico esag.)</Italian>
+                    <Polish>Odzież dezertera (hex)</Polish>
+                    <Russian>Одежда дезертира (гекс)</Russian>
+                    <German>Deserteur-Kleidung (Hex-Camouflage)</German>
+                    <Czech>Oblečení rabujícího (hex)</Czech>
+                    <English>Deserter Clothes (Hex)</English>
+                    <Portuguese>Roupas de desertor (hexagonal)</Portuguese>
+                    <Korean>탈영병 옷 (헥스)</Korean>
+                    <Chinesesimp>逃兵服装（六角）</Chinesesimp>
+                    <Japanese>脱走兵の服（六角形）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Hex)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_urb_F0">
+                    <Original>Deserter Clothes (Urban)</Original>
+                    <Chinese>逃兵衣服（城鎮）</Chinese>
+                    <French>Vêtements de déserteur (urbain)</French>
+                    <Spanish>Ropa de desertor (urbano)</Spanish>
+                    <Italian>Vestiti da disertore (urbano)</Italian>
+                    <Polish>Odzież dezertera (Urban)</Polish>
+                    <Russian>Одежда дезертира (городской)</Russian>
+                    <German>Deserteur-Kleidung (Urban)</German>
+                    <Czech>Oblečení rabujícího (urban)</Czech>
+                    <English>Deserter Clothes (Urban)</English>
+                    <Portuguese>Roupas de desertor (Urbano)</Portuguese>
+                    <Korean>탈영병 옷 (도심)</Korean>
+                    <Chinesesimp>逃兵服装（都市）</Chinesesimp>
+                    <Japanese>脱走兵の服（市街）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Şehir)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_ghex_F0">
+                    <Original>Deserter Clothes (Green Hex)</Original>
+                    <Chinese>逃兵衣服（綠色六邊形）</Chinese>
+                    <French>Vêtements de déserteur (hex vert)</French>
+                    <Spanish>Ropa de desertor (Hex verde)</Spanish>
+                    <Italian>Vestiti da disertore (esag. verde)</Italian>
+                    <Polish>Odzież dezertera (zielona hex)</Polish>
+                    <Russian>Одежда дезертира (зеленый гекс)</Russian>
+                    <German>Deserteur-Kleidung (Grüne Sechsecke)</German>
+                    <Czech>Oblečení rabujícího (zelený hex)</Czech>
+                    <English>Deserter Clothes (Green Hex)</English>
+                    <Portuguese>Roupas de desertor (verde camuflado)</Portuguese>
+                    <Korean>탈영병 옷 (녹색 헥스)</Korean>
+                    <Chinesesimp>逃兵服装（绿色六角形）</Chinesesimp>
+                    <Japanese>脱走兵の服（緑六角形）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Yeşil Hex)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_tshirt_black_F0">
+					<Original>Worn Clothes (Black)</Original>
+					<Chinese>破舊服裝（黑）</Chinese>
+					<French>Vieux vêtements (Noir)</French>
+					<Spanish>Ropa desgastada (Black)</Spanish>
+					<Italian>Abiti logori (nero)</Italian>
+					<Polish>Znoszone ubranie (czarny)</Polish>
+					<Russian>Поношенная одежда (черный)</Russian>
+					<German>Getragene Kleidung (schwarz)</German>
+					<Czech>Obnošené šaty (černá)</Czech>
+					<English>Worn Clothes (Black)</English>
+					<Portuguese>Roupas usadas (Preto)</Portuguese>
+					<Korean>헤진 복장(흑색)</Korean>
+					<Chinesesimp>穿旧的衣服（黑色）</Chinesesimp>
+					<Japanese>着古した衣服（黒）</Japanese>
+					<Turkish>Giyilmiş Kıyafetler (Siyah)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Vests">
+                <Key ID="STR_A3_O_CfgWeapons_V_Pocketed_hunter_F0">
+                    <Original>Multi-Pocket Vest (Camo)</Original>
+                    <Chinese>多口袋背心（迷彩型）</Chinese>
+                    <French>Gilet multipoches (Camo)</French>
+                    <Spanish>Chaleco multibolsillos (camuflaje)</Spanish>
+                    <Italian>Gilet multitasche (mimetico)</Italian>
+                    <Polish>Kamizelka z kieszeniami (kamuflaż)</Polish>
+                    <Russian>Многокарманный жилет (камуфляж)</Russian>
+                    <German>Multi-Taschen-Weste (Flecktarn)</German>
+                    <Czech>Mnohokapsá vesta (kamufláž)</Czech>
+                    <English>Multi-Pocket Vest (Camo)</English>
+                    <Portuguese>Colete multibolso (Camuflagem)</Portuguese>
+                    <Korean>멀티 포켓 조끼(위장)</Korean>
+                    <Chinesesimp>多袋背心（迷彩）</Chinesesimp>
+                    <Japanese>マルチポケットベスト（カモフラ）</Japanese>
+                    <Turkish>Çok Cepli Yelek (Kamuflaj)</Turkish>
+                </Key>
+                <Key ID="STR_A3_O_CfgWeapons_V_Pocketed_wdl_F0">
+                    <Original>Multi-Pocket Vest (Woodland)</Original>
+                    <Chinese>多口袋背心（森林）</Chinese>
+                    <French>Gilet multipoches (Boisé)</French>
+                    <Spanish>Chaleco multibolsillos (bosque)</Spanish>
+                    <Italian>Gilet multitasche (boschi)</Italian>
+                    <Polish>Kamizelka z kieszeniami (leśny)</Polish>
+                    <Russian>Многокарманный жилет (лес)</Russian>
+                    <German>Multi-Taschen-Weste (Wald)</German>
+                    <Czech>Mnohokapsá vesta (woodland)</Czech>
+                    <English>Multi-Pocket Vest (Woodland)</English>
+                    <Portuguese>Colete multibolso (Floresta)</Portuguese>
+                    <Korean>멀티 포켓 조끼(산악)</Korean>
+                    <Chinesesimp>多袋背心（林地）</Chinesesimp>
+                    <Japanese>マルチポケットベスト（森林）</Japanese>
+                    <Turkish>Çok Cepli Yelek (Ağaçlık)</Turkish>
+                </Key>
 			</Container>
 		</Container>
 		<Container name="Data_F">
-			<Container name="Author">
-				<Key ID="STR_A3_A_AveryTheKitty_and_Krycek">
-					<Original>AveryTheKitty and Krycek</Original>
-					<Chinese>AveryTheKitty 克與 Krycek</Chinese>
-					<French>AveryTheKitty et Krycek</French>
-					<Spanish>AveryTheKitty y Krycek</Spanish>
-					<Italian>AveryTheKitty e Krycek</Italian>
-					<Polish>AveryTheKitty i Krycek</Polish>
-					<Russian>AveryTheKitty и Krycek</Russian>
-					<German>AveryTheKitty und Krycek</German>
-					<Czech>AveryTheKitty a Krycek</Czech>
-					<English>AveryTheKitty and Krycek</English>
-					<Portuguese>AveryTheKitty e Krycek</Portuguese>
-					<Korean>AveryTheKitty Krycek</Korean>
-					<Chinesesimp>AveryTheKitty 和 Krycek</Chinesesimp>
-					<Japanese>AveryTheKitty ＆ Krycek</Japanese>
-					<Turkish>AveryTheKitty ve Krycek</Turkish>
-				</Key>
-			</Container>
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_O_CfgFactionClasses_OPF_P_F0">
 					<Original>Paramilitary</Original>

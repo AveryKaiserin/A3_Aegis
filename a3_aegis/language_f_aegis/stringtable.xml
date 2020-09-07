@@ -2010,12 +2010,12 @@
 					<Turkish>Poşu (Kırmızı)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgGlasses_G_Shemag_shades0">
-					<Original>Shemag (Tactical)</Original>
-					<Chinese>阿拉伯頭巾（戰術）</Chinese>
-					<French>Keffieh (tactiques)</French>
-					<Spanish>Máscara palestina (tácticas)</Spanish>
-					<Italian>Shemagh (tattici)</Italian>
-					<Polish>Shemag (taktyczne)</Polish>
+					<Original>Shemag (Shades)</Original>
+					<Chinese>阿拉伯頭巾（遮陽）</Chinese>
+					<French>Keffieh (Ombres)</French>
+					<Spanish>Máscara palestina (Sombras)</Spanish>
+					<Italian>Shemagh (occhiali da sole)</Italian>
+					<Polish>Shemag (okulary)</Polish>
 					<Russian>Шемаг (хаки)</Russian>
 					<German>Shemag (Sonnenbrille)</German>
 					<Czech>Shemag (zrcadlovky)</Czech>
@@ -2027,12 +2027,12 @@
 					<Turkish>Poşu (Güneş Gözlüğü)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgGlasses_G_Shemag_tactical0">
-					<Original>Shemag (Shades)</Original>
-					<Chinese>阿拉伯頭巾（卡其色）</Chinese>
-					<French>Keffieh (kaki)</French>
-					<Spanish>Máscara palestina (caqui)</Spanish>
-					<Italian>Shemagh (kaki)</Italian>
-					<Polish>Shemag (khaki)</Polish>
+					<Original>Shemag (Tactical)</Original>
+					<Chinese>阿拉伯頭巾（戰術）</Chinese>
+					<French>Keffieh (tactiques)</French>
+					<Spanish>Máscara palestina (tácticas)</Spanish>
+					<Italian>Shemagh (tattici)</Italian>
+					<Polish>Shemag (taktyczne)</Polish>
 					<Russian>Шемаг (тактич.)</Russian>
 					<German>Shemag (Taktische)</German>
 					<Czech>Shemag (taktické)</Czech>

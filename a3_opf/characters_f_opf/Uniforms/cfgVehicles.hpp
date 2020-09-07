@@ -21,20 +21,22 @@ class CfgVehicles
 	class Item_Base_F;
 	// Arma 3 Opposing Forces
 	// Paramilitary
-	UNIFORM_HOLDER(U_O_ParamilitaryBody,"Rugged Coveralls")
+	UNIFORM_HOLDER(U_O_ParamilitaryBody,$STR_A3_O_CfgWeapons_U_O_ParamilitaryBody0)
 	// Raven
-	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_taiga_F,"Fatigues (Taiga, Tee) [Russia]")
-	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_arid_F,"Fatigues (Arid, Tee) [Russia]")
-	// Separatists
-	UNIFORM_HOLDER(U_O_E_Gorka_01_autumn_F,"Granit-A Suit")
-	UNIFORM_HOLDER(U_O_E_Gorka_01_summer_F,"Granit-S Suit")
-	UNIFORM_HOLDER(U_O_E_Uniform_01_taiga_F,"Deserter Clothes (Taiga)")
-	UNIFORM_HOLDER(U_O_E_Uniform_01_arid_F,"Deserter Clothes (Arid)")
-	UNIFORM_HOLDER(U_O_E_Uniform_01_sweater_F,"Deserter Clothes (Sweater)")
+    /*
+	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_taiga_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_taiga_F0)
+	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_arid_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_arid_F0)
+	*/
+    // Separatists
+	UNIFORM_HOLDER(U_O_E_Gorka_01_autumn_F,$STR_A3_O_CfgWeapons_U_O_E_Gorka_01_autumn_F0)
+	UNIFORM_HOLDER(U_O_E_Gorka_01_summer_F,$STR_A3_O_CfgWeapons_U_O_E_Gorka_01_summer_F0)
+	UNIFORM_HOLDER(U_O_E_Uniform_01_taiga_F,$STR_A3_O_CfgWeapons_U_O_E_Uniform_01_taiga_F0)
+	UNIFORM_HOLDER(U_O_E_Uniform_01_arid_F,$STR_A3_O_CfgWeapons_U_O_E_Uniform_01_arid_F0)
+	UNIFORM_HOLDER(U_O_E_Uniform_01_sweater_F,$STR_A3_O_CfgWeapons_U_O_E_Uniform_01_sweater_F0)
 	// Insurgents
-	UNIFORM_HOLDER(U_IG_Guerilla3_3_F,"Guerilla Smocks (Grey)")
-	UNIFORM_HOLDER(U_I_T_Uniform_01_hex_F,"Deserter Clothes (Hex)")
-	UNIFORM_HOLDER(U_I_T_Uniform_01_urb_F,"Deserter Clothes (Urban)")
-	UNIFORM_HOLDER(U_I_T_Uniform_01_ghex_F,"Deserter Clothes (Green Hex)")
-	UNIFORM_HOLDER(U_I_T_Uniform_01_tshirt_black_F,"Worn Clothes (Black)")
+	UNIFORM_HOLDER(U_IG_Guerilla3_3_F,$STR_A3_O_CfgWeapons_U_IG_Guerilla3_3_F0)
+	UNIFORM_HOLDER(U_I_T_Uniform_01_hex_F,$STR_A3_O_CfgWeapons_U_I_T_Uniform_01_hex_F0)
+	UNIFORM_HOLDER(U_I_T_Uniform_01_urb_F,$STR_A3_O_CfgWeapons_U_I_T_Uniform_01_urb_F0)
+	UNIFORM_HOLDER(U_I_T_Uniform_01_ghex_F,$STR_A3_O_CfgWeapons_U_I_T_Uniform_01_ghex_F0)
+	UNIFORM_HOLDER(U_I_T_Uniform_01_tshirt_black_F,$STR_A3_O_CfgWeapons_U_I_T_Uniform_01_tshirt_black_F0)
 };

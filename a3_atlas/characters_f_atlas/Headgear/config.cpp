@@ -387,7 +387,7 @@ class CfgWeapons
 	};
 	class H_HelmetI_I_01_cover_F: H_HelmetI_I_01_cover_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Lakarak;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetI_I_01_cover_F0;
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetI_I_01_cover_F_CA.paa";

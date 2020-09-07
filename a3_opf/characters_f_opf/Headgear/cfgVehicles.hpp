@@ -26,10 +26,4 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Shemag_blk_hs,$STR_A3_O_CfgWeapons_H_Shemag_blk_hs0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Shemag_red,$STR_A3_O_CfgWeapons_H_Shemag_red0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Shemag_red_hs,$STR_A3_O_CfgWeapons_H_Shemag_red_hs0,EdSubcat_Hats)
-	/*
-	//HEADGEAR_HOLDER(H_MilCap_rucamo,$STR_A3_O_CfgWeapons_H_MilCap_rucamo0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(H_Cap_khk_Raven,$STR_A3_O_CfgWeapons_H_Cap_khk_Raven0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(H_Cap_khk_Raven_hs,$STR_A3_O_CfgWeapons_H_Cap_khk_Raven_hs0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(H_Cap_headphones_Raven,$STR_A3_O_CfgWeapons_H_Cap_headphones_Raven0,EdSubcat_Hats)
-	*/
 };

@@ -15,16 +15,6 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	class H_MilCap_oucamo;
-	/*
-	class H_MilCap_rucamo: H_MilCap_oucamo
-	{
-		scope = public;
-		scopeCurator = public;
-		displayName = $STR_A3_O_CfgWeapons_H_MilCap_rucamo0;
-		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_MilCap_rucamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\cappatrol_rucamo_CO.paa"};
-	};
-	*/
 	class H_Cap_headphones;
 	class H_Shemag_khk: HelmetBase
 	{
@@ -73,7 +63,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_O_CfgWeapons_H_Shemag_blk0;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Shemag_blk_CA.paa";
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Shemag_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\H_Shemag_black_CO.paa"};
 		allowedFacewear[] =
 		{
@@ -109,7 +99,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_O_CfgWeapons_H_Shemag_red0;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Shemag_red_CA.paa";
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Shemag_red_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\H_Shemag_red_CO.paa"};
 		allowedFacewear[] =
 		{
@@ -148,31 +138,4 @@ class CfgWeapons
 		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_redburger_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\capb_redburger_CO.paa"};
 	};
-	/*
-	class H_Cap_khk_Raven: H_Cap_red
-	{
-		author = $STR_A3_A_AveryTheKitty;
-	  	displayName = $STR_A3_O_CfgWeapons_H_Cap_khk_Raven0;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_khk_Raven_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\capb_raven_CO.paa"};
-	};
-	class H_Cap_khk_Raven_hs: H_Cap_khk_Raven
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_blk_Raven_hs_CA.paa";
-		displayName = $STR_A3_O_CfgWeapons_H_Cap_khk_Raven_hs0;
-		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
-		};
-	};
-	class H_Cap_headphones_Raven: H_Cap_headphones
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_O_CfgWeapons_H_Cap_headphones_Raven0;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_headphones_Raven_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\capb_headphones_raven_CO.paa"};
-	};
-	*/
 };

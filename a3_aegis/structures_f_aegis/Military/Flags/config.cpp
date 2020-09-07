@@ -146,7 +146,7 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_USNavyJack_CO.paa'";
 		};
 	};
-	class Flag_TFAegis_F: FlagCarrier
+	class Flag_TFAegis_F: FlagCarrier_Asym
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class SimpleObject

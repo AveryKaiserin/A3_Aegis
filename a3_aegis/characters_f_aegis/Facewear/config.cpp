@@ -47,7 +47,7 @@ class CfgGlasses
 			G_IRAN_officer,500
 		};
 	};
-	class G_Diving: None
+	class G_Diving
 	{
 		identityTypes[] = {NoGlasses,0};
 	};
