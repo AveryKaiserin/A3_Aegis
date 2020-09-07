@@ -22,6 +22,74 @@
 					<Japanese>シュマグ（カーキ）</Japanese>
 					<Turkish>Poşu (Haki)</Turkish>
 				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0">
+					<Original>Raven Helmet (Spraypaint)</Original>
+					<Chinese>Raven 頭盔（噴漆）</Chinese>
+					<French>Casque Raven (Aérosol)</French>
+					<Spanish>Casco de Raven (pintado con spray)</Spanish>
+					<Italian>Elmetto Raven (vernice a spruzzo)</Italian>
+					<Polish>Hełm Raven (smugi)</Polish>
+					<Russian>Шлем Raven (распыление)</Russian>
+					<German>Raven Helm (Sprühlack)</German>
+					<Czech>Přilba Raven (sprejová barva)</Czech>
+					<English>Raven Helmet (Spraypaint)</English>
+					<Portuguese>Capacete Raven (Tinta spray)</Portuguese>
+					<Korean>레이븐 헬멧(스프레이페인트)</Korean>
+					<Chinesesimp>Raven 头盔（喷漆）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（スプレーペイント）</Japanese>
+					<Turkish>Avcı Miğfer (Sprey Boya)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0">
+					<Original>Raven Helmet (Spraypaint, Headset)</Original>
+					<Chinese>Raven 頭盔（噴漆，耳機）</Chinese>
+					<French>Casque Raven (Aérosol, micro-casque)</French>
+					<Spanish>Casco de Raven (pintado con spray, auricular)</Spanish>
+					<Italian>Elmetto Raven (vernice a spruzzo, cuffia)</Italian>
+					<Polish>Hełm Raven (smugi, głowa)</Polish>
+					<Russian>Шлем Raven (распыление, гарнитура)</Russian>
+					<German>Raven Helm (Sprühlack, Headset)</German>
+					<Czech>Přilba Raven (sprejová barva, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Spraypaint, Headset)</English>
+					<Portuguese>Capacete Raven (Tinta spray, headset)</Portuguese>
+					<Korean>레이븐 헬멧(스프레이페인트, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（喷漆，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（スプレーペイント、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Sprey Boya, Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_khaki_F0">
+					<Original>Raven Helmet (Cover B)</Original>
+					<Chinese>Raven 頭盔（B 型）</Chinese>
+					<French>Casque Raven (tenue B)</French>
+					<Spanish>Casco de Raven (cobertura B)</Spanish>
+					<Italian>Elmetto Raven (copertura B)</Italian>
+					<Polish>Hełm Raven (wariant B)</Polish>
+					<Russian>Шлем Raven (подкладка Т)</Russian>
+					<German>Raven Helm (B-Bezug)</German>
+					<Czech>Přilba Raven (kryt B)</Czech>
+					<English>Raven Helmet (Cover B)</English>
+					<Portuguese>Capacete Raven (cobertura B)</Portuguese>
+					<Korean>레이븐 헬멧(커버 B)</Korean>
+					<Chinesesimp>Raven 头盔（B 罩）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（B カバー）</Japanese>
+					<Turkish>Avcı Miğfer (Siper B)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_taiga_F0">
+					<Original>Raven Helmet (Cover T)</Original>
+					<Chinese>Raven 頭盔（T 型）</Chinese>
+					<French>Casque Raven (tenue T)</French>
+					<Spanish>Casco de Raven (cobertura T)</Spanish>
+					<Italian>Elmetto Raven (copertura T)</Italian>
+					<Polish>Hełm Raven (wariant T)</Polish>
+					<Russian>Шлем Raven (подкладка Т)</Russian>
+					<German>Raven Helm (T-Bezug)</German>
+					<Czech>Přilba Raven (kryt T)</Czech>
+					<English>Raven Helmet (Cover T)</English>
+					<Portuguese>Capacete Raven (cobertura T)</Portuguese>
+					<Korean>레이븐 헬멧(커버 T)</Korean>
+					<Chinesesimp>Raven 头盔（T 罩）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（T カバー）</Japanese>
+					<Turkish>Avcı Miğfer (Siper T)</Turkish>
+				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_khk_hs0">
 					<Original>Shemag (Khaki, Headset)</Original>
 					<Chinese>阿拉伯頭巾（卡其色，耳機）</Chinese>
@@ -510,38 +578,38 @@
 		</Container>
 		<Container name="ContentLicensing">
 			<Key ID="STR_A3_O_cfgMods_Opfor_overview0">
-				<Original>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Original>
-				<Chinese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Chinese>
-				<French>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</French>
-				<Spanish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Spanish>
-				<Italian>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Italian>
-				<Polish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Polish>
-				<Russian>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Russian>
-				<German>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</German>
-				<Czech>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Czech>
-				<English>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</English>
-				<Portuguese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Portuguese>
-				<Korean>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Korean>
-				<Chinesesimp>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Chinesesimp>
-				<Japanese>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Japanese>
-				<Turkish>Arma 3 Aegis - Opposing Forces is a small addon for Arma 3 Aegis with a focus on small irregular, and ambiguous paramilitary forces.</Turkish>
+				<Original>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Original>
+				<Chinese>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Chinese>
+				<French>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</French>
+				<Spanish>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Spanish>
+				<Italian>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Italian>
+				<Polish>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Polish>
+				<Russian>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Russian>
+				<German>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</German>
+				<Czech>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Czech>
+				<English>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</English>
+				<Portuguese>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Portuguese>
+				<Korean>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Korean>
+				<Chinesesimp>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Chinesesimp>
+				<Japanese>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Japanese>
+				<Turkish>Arma 3 Atlas - Opposing Forces is a small addon for Arma 3 Atlas with a focus on small irregular, and ambiguous paramilitary forces.</Turkish>
 			</Key>
 			<Key ID="STR_A3_O_cfgMods_Opfor_name0">
-				<Original>Arma 3 Aegis - Opposing Forces</Original>
-				<Chinese>Arma 3 Aegis - Opposing Forces</Chinese>
-				<French>Arma 3 Aegis - Opposing Forces</French>
-				<Spanish>Arma 3 Aegis - Opposing Forces</Spanish>
-				<Italian>Arma 3 Aegis - Opposing Forces</Italian>
-				<Polish>Arma 3 Aegis - Opposing Forces</Polish>
-				<Russian>Arma 3 Aegis - Opposing Forces</Russian>
-				<German>Arma 3 Aegis - Opposing Forces</German>
-				<Czech>Arma 3 Aegis - Opposing Forces</Czech>
-				<English>Arma 3 Aegis - Opposing Forces</English>
-				<Portuguese>Arma 3 Aegis - Opposing Forces</Portuguese>
-				<Korean>Arma 3 Aegis - Opposing Forces</Korean>
-				<Chinesesimp>Arma 3 Aegis - Opposing Forces</Chinesesimp>
-				<Japanese>Arma 3 Aegis - Opposing Forces</Japanese>
-				<Turkish>Arma 3 Aegis - Opposing Forces</Turkish>
+				<Original>Arma 3 Atlas - Opposing Forces</Original>
+				<Chinese>Arma 3 Atlas - Opposing Forces</Chinese>
+				<French>Arma 3 Atlas - Opposing Forces</French>
+				<Spanish>Arma 3 Atlas - Opposing Forces</Spanish>
+				<Italian>Arma 3 Atlas - Opposing Forces</Italian>
+				<Polish>Arma 3 Atlas - Opposing Forces</Polish>
+				<Russian>Arma 3 Atlas - Opposing Forces</Russian>
+				<German>Arma 3 Atlas - Opposing Forces</German>
+				<Czech>Arma 3 Atlas - Opposing Forces</Czech>
+				<English>Arma 3 Atlas - Opposing Forces</English>
+				<Portuguese>Arma 3 Atlas - Opposing Forces</Portuguese>
+				<Korean>Arma 3 Atlas - Opposing Forces</Korean>
+				<Chinesesimp>Arma 3 Atlas - Opposing Forces</Chinesesimp>
+				<Japanese>Arma 3 Atlas - Opposing Forces</Japanese>
+				<Turkish>Arma 3 Atlas - Opposing Forces</Turkish>
 			</Key>
 			<Key ID="STR_A3_O_cfgMods_Opfor_nameShort0">
 				<Original>Opposing Forces</Original>

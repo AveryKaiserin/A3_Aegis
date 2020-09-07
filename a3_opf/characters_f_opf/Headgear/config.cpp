@@ -38,7 +38,55 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
+    // Arma 3 Atlas
+	class H_HelmetSpecter_base_F;
+	class H_HelmetSpecter_headset_base_F;
+	class H_HelmetSpecter_cover_base_F;
 	// Arma 3 Opposing Forces
+	class H_HelmetSpecter_paint_F: H_HelmetSpecter_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0;
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_paint_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\H_HelmetSpecter_01_paint_CO.paa"};
+	};
+	class H_HelmetSpecter_paint_headset_F: H_HelmetSpecter_headset_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0;
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_paint_headset_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Opf\Characters_F_Opf\Headgear\Data\H_HelmetSpecter_01_paint_CO.paa",
+			"\A3_Opf\Characters_F_Opf\Headgear\Data\H_HelmetSpecter_01_cover_khaki_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_khaki_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = protected;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_khaki_F0;
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_cover_khaki_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Opf\Characters_F_Opf\Headgear\Data\H_HelmetSpecter_01_cover_khaki_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_taiga_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = protected;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_taiga_F0;
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_cover_taiga_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Opf\Characters_F_Opf\Headgear\Data\H_HelmetSpecter_01_cover_taiga_CO.paa"
+		};
+	};
 	class H_Shemag_khk_hs: H_Shemag_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -131,6 +179,7 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		};
 	};
+    /*
 	class H_Cap_redburger: H_Cap_red
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -138,4 +187,5 @@ class CfgWeapons
 		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Cap_redburger_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\capb_redburger_CO.paa"};
 	};
+    */
 };

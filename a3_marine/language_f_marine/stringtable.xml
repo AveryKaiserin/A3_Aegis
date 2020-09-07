@@ -201,56 +201,56 @@
 			</Container>
 		</Container>
 		<Container name="ContentLicensing">
-			<Key ID="STR_A3_M_CfgMods_Marine_overview">
-				<Original>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Original>
-				<Chinese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Chinese>
-				<French>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</French>
-				<Spanish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Spanish>
-				<Italian>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Italian>
-				<Polish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Polish>
-				<Russian>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Russian>
-				<German>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</German>
-				<Czech>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Czech>
-				<English>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</English>
-				<Portuguese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Portuguese>
-				<Korean>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Korean>
-				<Chinesesimp>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Chinesesimp>
-				<Japanese>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Japanese>
-				<Turkish>This addon includes a USMC faction, desert and woodland infantry, and a variety of relevant gear.</Turkish>
+			<Key ID="STR_A3_M_CfgMods_Marine_overview0">
+				<Original>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Original>
+				<Chinese>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Chinese>
+				<French>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</French>
+				<Spanish>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Spanish>
+				<Italian>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Italian>
+				<Polish>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Polish>
+				<Russian>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Russian>
+				<German>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</German>
+				<Czech>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Czech>
+				<English>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</English>
+				<Portuguese>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Portuguese>
+				<Korean>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Korean>
+				<Chinesesimp>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Japanese>
+				<Turkish>Arma 3 Aegis - Marines is a small addon for Arma 3 Aegis introducing US Marines to the 2035 setting, including several new uniforms and hats with appropriate camouflage.</Turkish>
 			</Key>
-			<Key ID="STR_A3_M_CfgMods_Marine_name">
-				<Original>Arma 3 Marine Corps</Original>
-				<Chinese>Arma 3 Marine Corps</Chinese>
-				<French>Arma 3 Marine Corps</French>
-				<Spanish>Arma 3 Marine Corps</Spanish>
-				<Italian>Arma 3 Marine Corps</Italian>
-				<Polish>Arma 3 Marine Corps</Polish>
-				<Russian>Arma 3 Marine Corps</Russian>
-				<German>Arma 3 Marine Corps</German>
-				<Czech>Arma 3 Marine Corps</Czech>
-				<English>Arma 3 Marine Corps</English>
-				<Portuguese>Arma 3 Marine Corps</Portuguese>
-				<Korean>Arma 3 Marine Corps</Korean>
-				<Chinesesimp>Arma 3 Marine Corps</Chinesesimp>
-				<Japanese>Arma 3 Marine Corps</Japanese>
-				<Turkish>Arma 3 Marine Corps</Turkish>
+			<Key ID="STR_A3_M_CfgMods_Marine_name0">
+				<Original>Arma 3 Aegis - Marines</Original>
+				<Chinese>Arma 3 Aegis - Marines</Chinese>
+				<French>Arma 3 Aegis - Marines</French>
+				<Spanish>Arma 3 Aegis - Marines</Spanish>
+				<Italian>Arma 3 Aegis - Marines</Italian>
+				<Polish>Arma 3 Aegis - Marines</Polish>
+				<Russian>Arma 3 Aegis - Marines</Russian>
+				<German>Arma 3 Aegis - Marines</German>
+				<Czech>Arma 3 Aegis - Marines</Czech>
+				<English>Arma 3 Aegis - Marines</English>
+				<Portuguese>Arma 3 Aegis - Marines</Portuguese>
+				<Korean>Arma 3 Aegis - Marines</Korean>
+				<Chinesesimp>Arma 3 Aegis - Marines</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Marines</Japanese>
+				<Turkish>Arma 3 Aegis - Marines</Turkish>
 			</Key>
-			<Key ID="STR_A3_M_CfgMods_Marine_nameShort">
-				<Original>Marine Corps</Original>
-				<Chinese>Marine Corps</Chinese>
-				<French>Marine Corps</French>
-				<Spanish>Marine Corps</Spanish>
-				<Italian>Marine Corps</Italian>
-				<Polish>Marine Corps</Polish>
-				<Russian>Marine Corps</Russian>
-				<German>Marine Corps</German>
-				<Czech>Marine Corps</Czech>
-				<English>Marine Corps</English>
-				<Portuguese>Marine Corps</Portuguese>
-				<Korean>Marine Corps</Korean>
-				<Chinesesimp>Marine Corps</Chinesesimp>
-				<Japanese>Marine Corps</Japanese>
-				<Turkish>Marine Corps</Turkish>
+			<Key ID="STR_A3_M_CfgMods_Marine_nameShort0">
+				<Original>Marines</Original>
+				<Chinese>Marines</Chinese>
+				<French>Marines</French>
+				<Spanish>Marines</Spanish>
+				<Italian>Marines</Italian>
+				<Polish>Marines</Polish>
+				<Russian>Marines</Russian>
+				<German>Marines</German>
+				<Czech>Marines</Czech>
+				<English>Marines</English>
+				<Portuguese>Marines</Portuguese>
+				<Korean>Marines</Korean>
+				<Chinesesimp>Marines</Chinesesimp>
+				<Japanese>Marines</Japanese>
+				<Turkish>Marines</Turkish>
 			</Key>
 		</Container>
 		<Container name="Structures_F">

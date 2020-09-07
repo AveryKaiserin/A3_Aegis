@@ -1,4 +1,4 @@
-class B_Carryall_cbr_BUSMCAmmo_F: B_Carryall_cbr
+class B_Carryall_cbr_USMCAmmo_F: B_Carryall_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -17,7 +17,7 @@ class B_Carryall_cbr_BUSMCAmmo_F: B_Carryall_cbr
 		item_xx(FirstAidKit,4);
 	};
 };
-class B_AssaultPack_cbr_BUSMCAA_F: B_AssaultPack_cbr
+class B_AssaultPack_cbr_USMCAA_F: B_Kitbag_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -26,7 +26,7 @@ class B_AssaultPack_cbr_BUSMCAA_F: B_AssaultPack_cbr
 		mag_xx(Titan_AA,2);
 	};
 };
-class B_AssaultPack_cbr_BUSMCAT_F: B_AssaultPack_cbr
+class B_AssaultPack_cbr_USMCAT_F: B_Kitbag_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -35,7 +35,7 @@ class B_AssaultPack_cbr_BUSMCAT_F: B_AssaultPack_cbr
 		mag_xx(Titan_AT,2);
 	};
 };
-class B_Kitbag_cbr_BUSMCEng_F: B_Kitbag_cbr
+class B_Kitbag_cbr_USMCEng_F: B_Kitbag_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -50,7 +50,7 @@ class B_Kitbag_cbr_BUSMCEng_F: B_Kitbag_cbr
 		item_xx(MineDetector,1);
 	};
 };
-class B_AssaultPack_cbr_BUSMCLAT_F: B_AssaultPack_cbr
+class B_AssaultPack_cbr_USMCLAT_F: B_AssaultPack_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -60,7 +60,7 @@ class B_AssaultPack_cbr_BUSMCLAT_F: B_AssaultPack_cbr
 		mag_xx(MRAWS_HE_F,1);
 	};
 };
-class B_AssaultPack_cbr_BUSMCMedic_F: B_AssaultPack_cbr
+class B_AssaultPack_cbr_USMCMedic_F: B_AssaultPack_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

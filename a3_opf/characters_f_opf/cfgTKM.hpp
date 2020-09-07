@@ -26,6 +26,8 @@ class I_T_Guerilla3_3_F: I_G_Soldier_M_F
 };
 class I_T_Uniform_01_hex_F: I_G_Soldier_SL_F
 {
+	scope = protected;
+	scopeCurator = private;
 	uniformClass = U_I_T_Uniform_01_hex_F;
 	hiddenSelections[] =
 	{

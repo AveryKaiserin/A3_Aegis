@@ -31,7 +31,7 @@ class B_MCUCombatFatigues_01_Tshirt_desert_F: B_soldier_AR_F
 	hiddenSelectionsTextures[] =
     {
         "\A3_Marine\Characters_F_Marine\Uniforms\Data\clothing1_desert_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_green_CO.paa"
+        "\A3\Characters_F\Common\Data\basicbody_brown_CO.paa"
     };
 };
 class B_MCUCombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
@@ -386,14 +386,14 @@ class B_USMC_soldier_M_F: B_USMC_Soldier_Base_F
     };
     weapons[] =
     {
-        arifle_MXM_RCO_LP_BI_F,
+        arifle_MXM_Hamr_LP_BI_F,
         hgun_P07_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_MXM_RCO_LP_BI_F,
+        arifle_MXM_Hamr_LP_BI_F,
         hgun_P07_F,
         DefaultManWeapons,
         Rangefinder
