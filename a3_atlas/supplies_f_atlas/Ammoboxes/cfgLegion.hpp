@@ -11,7 +11,7 @@ class L_supplyCrate_F: ReammoBox_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\L_supplyCrate_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\L_supplyCrate_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_L_supplyCrate_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Supplydrop.p3d";

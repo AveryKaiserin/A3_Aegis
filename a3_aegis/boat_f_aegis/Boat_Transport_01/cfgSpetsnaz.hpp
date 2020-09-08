@@ -111,7 +111,7 @@ class O_R_Boat_Transport_01_ard_F: O_R_Boat_Transport_01_F
 		verticalOffsetWorld = -0.168;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Boat_Transport_01_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Boat_Transport_01_ard_F.jpg";
 	crew = O_R_Soldier_ard_F;
 	faction = OPF_R_ard_F;
 	typicalCargo[] =
@@ -149,7 +149,7 @@ class O_R_Lifeboat_ard_F: O_R_Lifeboat
 		verticalOffsetWorld = -0.168;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Lifeboat_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Lifeboat_ard_F.jpg";
 	crew = O_R_Soldier_ard_F;
 	faction = OPF_R_ard_F;
 	typicalCargo[] =

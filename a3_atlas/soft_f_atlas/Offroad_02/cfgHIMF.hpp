@@ -97,7 +97,7 @@ class B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 		verticalOffsetWorld = -0.09;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -320,7 +320,7 @@ class B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 		verticalOffsetWorld = -0.137;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_LMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_LMG_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_I_C_Offroad_02_LMG_F0;
@@ -499,7 +499,7 @@ class B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
 		verticalOffsetWorld = -0.089;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Offroad_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_I_C_Offroad_02_AT_F0;

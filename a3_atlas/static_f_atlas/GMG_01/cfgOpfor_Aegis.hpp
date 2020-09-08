@@ -55,7 +55,7 @@ class O_W_GMG_01_F: O_GMG_01_F
 		verticalOffsetWorld = 0.103;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	class assembleInfo
@@ -74,7 +74,7 @@ class O_W_GMG_01_F: O_GMG_01_F
 class O_W_GMG_01_high_F: O_GMG_01_high_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_high_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_GMG_01_high_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	class assembleInfo

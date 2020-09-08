@@ -28,7 +28,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_01_alt_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_01_alt_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_CfgVehicles_Land_IRMaskingCover_01_F0;
@@ -47,7 +47,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_02_alt_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_IRMaskingCover_02_alt_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_CfgVehicles_Land_IRMaskingCover_02_F0;
@@ -66,7 +66,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_01_green_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_01_green_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_CfgVehicles_Land_CanvasCover_01_F0;
@@ -85,7 +85,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_02_green_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_CanvasCover_02_green_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_CfgVehicles_Land_CanvasCover_02_F0;

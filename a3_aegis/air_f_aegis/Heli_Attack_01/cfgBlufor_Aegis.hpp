@@ -127,7 +127,7 @@ class B_A_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 		verticalOffsetWorld = 0.041;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -289,7 +289,7 @@ class B_A_Heli_Attack_01_dynamicLoadout_tna_F: B_A_Heli_Attack_01_dynamicLoadout
 		verticalOffsetWorld = 0.041;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Helipilot_tna_F;
 	typicalCargo[] = {B_A_Helipilot_tna_F};
@@ -433,7 +433,7 @@ class B_A_Heli_Attack_01_dynamicLoadout_wdl_F: B_A_Heli_Attack_01_dynamicLoadout
 		verticalOffsetWorld = 0.041;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	crew = B_A_Helipilot_wdl_F;
 	typicalCargo[] = {B_A_Helipilot_wdl_F};

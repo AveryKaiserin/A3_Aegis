@@ -1,7 +1,7 @@
 class B_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_infantry_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_infantry_F.jpg";
 	scope = protected;
 	scopeCurator = private;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_infantry_base_F0;
@@ -25,7 +25,7 @@ class B_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 class B_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_vehicle_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_vehicle_F.jpg";
 	scope = protected;
 	scopeCurator = private;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_vehicle_base_F0;

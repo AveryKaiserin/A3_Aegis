@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class CowsSlot;
@@ -55,10 +56,12 @@ class CfgWeapons
 		{
 			mass = 50;
 			holsterScale = 0.7;
-			class CowsSlot: CowsSlot
+			class CowsSlot: asdg_PistolOpticRail1913
 			{
+                /*
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 				compatibleItems[] = {optic_Yorris};
+                */
 				iconPosition[] =
 				{
 					0.46, // X
@@ -67,10 +70,12 @@ class CfgWeapons
 				iconScale = 0.15;
 			};
 			class MuzzleSlot{};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
+                /*
 				linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
+                */
 				iconPosition[] =
 				{
 					0.35, // X

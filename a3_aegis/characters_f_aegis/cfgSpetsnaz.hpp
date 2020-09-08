@@ -2444,7 +2444,7 @@ class O_R_soldier_UGV_02_Demining_F: O_R_Soldier_UAV_F
 class O_R_soldier_UGV_02_Science_F: O_R_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UGV_02_Science_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UGV_02_Science_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
@@ -3231,14 +3231,14 @@ class O_R_Fighter_Pilot_F: O_R_Soldier_Base_F
 class O_R_Soldier_A_ard_F: O_R_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_A_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_A_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_Soldier_AAR_ard_F: O_R_Soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAR_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3259,21 +3259,21 @@ class O_R_Soldier_AAR_ard_F: O_R_Soldier_AAR_F
 class O_R_support_AMG_ard_F: O_R_support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_AMG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_AMG_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_support_AMort_ard_F: O_R_support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_AMort_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_AMort_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_Soldier_AHAT_ard_F: O_R_Soldier_AHAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AHAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AHAT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_Carryall_green_AHAT_F;
@@ -3295,7 +3295,7 @@ class O_R_Soldier_AHAT_ard_F: O_R_Soldier_AHAT_F
 class O_R_Soldier_AAA_ard_F: O_R_Soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAA_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAA_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_Carryall_green_AAA_F;
@@ -3317,7 +3317,7 @@ class O_R_Soldier_AAA_ard_F: O_R_Soldier_AAA_F
 class O_R_Soldier_AAT_ard_F: O_R_Soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AAT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3338,7 +3338,7 @@ class O_R_Soldier_AAT_ard_F: O_R_Soldier_AAT_F
 class O_R_soldier_AR_ard_F: O_R_soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AR_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3359,7 +3359,7 @@ class O_R_soldier_AR_ard_F: O_R_soldier_AR_F
 class O_R_medic_ard_F: O_R_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_medic_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_medic_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_FieldPack_green_Medic_F;
@@ -3381,7 +3381,7 @@ class O_R_medic_ard_F: O_R_medic_F
 class O_R_crew_ard_F: O_R_crew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_crew_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_crew_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3402,7 +3402,7 @@ class O_R_crew_ard_F: O_R_crew_F
 class O_R_engineer_ard_F: O_R_engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_engineer_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_engineer_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_Carryall_green_eng_F;
@@ -3410,7 +3410,7 @@ class O_R_engineer_ard_F: O_R_engineer_F
 class O_R_soldier_exp_ard_F: O_R_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_exp_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_exp_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_Carryall_green_exp_F;
@@ -3432,14 +3432,14 @@ class O_R_soldier_exp_ard_F: O_R_soldier_exp_F
 class O_R_soldier_mine_ard_F: O_R_soldier_exp_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_mine_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_mine_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_green_Mine;
 };
 class O_R_Soldier_GL_ard_F: O_R_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_GL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_GL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3460,42 +3460,42 @@ class O_R_Soldier_GL_ard_F: O_R_Soldier_GL_F
 class O_R_support_GMG_ard_F: O_R_support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_GMG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_GMG_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_support_MG_ard_F: O_R_support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_MG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_MG_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_support_Mort_ard_F: O_R_support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_Mort_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_support_Mort_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_helipilot_ard_F: O_R_helipilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helipilot_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helipilot_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_PilotCoveralls;
 };
 class O_R_helicrew_ard_F: O_R_helicrew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helicrew_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helicrew_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_PilotCoveralls;
 };
 class O_R_soldier_M_ard_F: O_R_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_M_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_M_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3516,7 +3516,7 @@ class O_R_soldier_M_ard_F: O_R_soldier_M_F
 class O_R_soldier_AA_ard_F: O_R_soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AA_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AA_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_FieldPack_green_AA_F;
@@ -3524,14 +3524,14 @@ class O_R_soldier_AA_ard_F: O_R_soldier_AA_F
 class O_R_soldier_AT_ard_F: O_R_soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_AT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 };
 class O_R_officer_ard_F: O_R_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_officer_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_officer_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_OfficerUniform_arid_F;
 	linkedItems[] =
@@ -3552,7 +3552,7 @@ class O_R_officer_ard_F: O_R_officer_F
 class O_R_soldier_repair_ard_F: O_R_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_repair_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_repair_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_FieldPack_green_Repair_F;
@@ -3560,7 +3560,7 @@ class O_R_soldier_repair_ard_F: O_R_soldier_repair_F
 class O_R_Soldier_ard_F: O_R_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3581,7 +3581,7 @@ class O_R_Soldier_ard_F: O_R_Soldier_F
 class O_R_Soldier_HAT_ard_F: O_R_Soldier_HAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_HAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_HAT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_FieldPack_green_HAT_F;
@@ -3603,7 +3603,7 @@ class O_R_Soldier_HAT_ard_F: O_R_Soldier_HAT_F
 class O_R_Soldier_lite_ard_F: O_R_Soldier_lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_lite_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_lite_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3622,7 +3622,7 @@ class O_R_Soldier_lite_ard_F: O_R_Soldier_lite_F
 class O_R_Soldier_LAT_ard_F: O_R_Soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_LAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_LAT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	backpack = B_FieldPack_green_RPG_AT_F;
@@ -3644,7 +3644,7 @@ class O_R_Soldier_LAT_ard_F: O_R_Soldier_LAT_F
 class O_R_Soldier_CQ_ard_F: O_R_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_CQ_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_CQ_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3665,7 +3665,7 @@ class O_R_Soldier_CQ_ard_F: O_R_Soldier_CQ_F
 class O_R_Soldier_SL_ard_F: O_R_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_SL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_SL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3688,7 +3688,7 @@ class O_R_Soldier_SL_ard_F: O_R_Soldier_SL_F
 class O_R_Soldier_TL_ard_F: O_R_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_TL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_TL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3711,7 +3711,7 @@ class O_R_Soldier_TL_ard_F: O_R_Soldier_TL_F
 class O_R_Soldier_CBRN_ard_F: O_R_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_CBRN_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_CBRN_ard_F.jpg";
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
 	linkedItems[] =
 	{
@@ -3764,7 +3764,7 @@ class O_R_Soldier_CBRN_ard_F: O_R_Soldier_ard_F
 class O_R_RadioOperator_ard_F: O_R_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_RadioOperator_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_RadioOperator_ard_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	backpack = B_RadioBag_01_arid_F;
 	linkedItems[] =
@@ -3798,7 +3798,7 @@ class O_R_RadioOperator_ard_F: O_R_Soldier_ard_F
 class O_R_soldier_UAV_ard_F: O_R_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_CombatUniform_arid_F;
 	linkedItems[] =
@@ -3821,21 +3821,21 @@ class O_R_soldier_UAV_ard_F: O_R_soldier_UAV_F
 class O_R_soldier_UAV_06_ard_F: O_R_soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_06_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_06_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = O_R_UAV_06_backpack_F;
 };
 class O_R_soldier_UAV_06_medical_ard_F: O_R_soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_06_medical_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_06_medical_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = O_R_UAV_06_medical_backpack_F;
 };
 class O_R_soldier_UGV_02_Demining_ard_F: O_R_soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UGV_02_Demining_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UGV_02_Demining_ard_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_R_UGV_02_Demining_backpack_F;
 };
@@ -3851,25 +3851,25 @@ class O_R_soldier_UGV_02_Science_ard_F: O_R_soldier_UAV_ard_F
 class O_R_diver_ard_F: O_R_diver_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };
 class O_R_diver_exp_ard_F: O_R_diver_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_exp_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_exp_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };
 class O_R_diver_TL_ard_F: O_R_diver_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_TL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_TL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };
 class O_R_recon_TL_ard_F: O_R_recon_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_TL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_TL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	linkedItems[] =
@@ -3926,7 +3926,7 @@ class O_R_recon_TL_ard_F: O_R_recon_TL_F
 class O_R_recon_exp_ard_F: O_R_recon_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_exp_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_exp_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	weapons[] =
@@ -3963,7 +3963,7 @@ class O_R_recon_exp_ard_F: O_R_recon_exp_F
 class O_R_recon_AR_ard_F: O_R_recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_AR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_AR_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	linkedItems[] =
@@ -4014,7 +4014,7 @@ class O_R_recon_AR_ard_F: O_R_recon_AR_F
 class O_R_recon_M_ard_F: O_R_recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_M_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_M_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	linkedItems[] =
@@ -4037,7 +4037,7 @@ class O_R_recon_M_ard_F: O_R_recon_M_F
 class O_R_recon_medic_ard_F: O_R_recon_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_medic_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_medic_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	backpack = B_FieldPack_green_ReconMedic_F;
@@ -4075,7 +4075,7 @@ class O_R_recon_medic_ard_F: O_R_recon_medic_F
 class O_R_recon_GL_ard_F: O_R_recon_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_GL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_GL_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	weapons[] =
@@ -4114,7 +4114,7 @@ class O_R_recon_GL_ard_F: O_R_recon_GL_F
 class O_R_recon_LAT_ard_F: O_R_recon_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_LAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_LAT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	weapons[] =
@@ -4153,7 +4153,7 @@ class O_R_recon_LAT_ard_F: O_R_recon_LAT_F
 class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_JTAC_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_JTAC_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	backpack = B_RadioBag_01_arid_F;
@@ -4219,7 +4219,7 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
 class O_R_recon_ard_F: O_R_recon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	linkedItems[] =
@@ -4272,14 +4272,14 @@ class O_R_recon_ard_F: O_R_recon_F
 class O_R_recon_CQ_ard_F: O_R_recon_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_CQ_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_recon_CQ_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_Gorka_01_brown_F;
 };
 class O_R_spotter_ard_F: O_R_spotter_F
 {
 	author = $STR_A3_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_spotter_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_spotter_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_GhillieSuit_arid_F;
 	weapons[] =
@@ -4324,7 +4324,7 @@ class O_R_spotter_ard_F: O_R_spotter_F
 class O_R_sniper_ard_F: O_R_sniper_F
 {
 	author = $STR_A3_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_sniper_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_sniper_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_GhillieSuit_arid_F;
 };
@@ -4352,7 +4352,7 @@ class O_R_Soldier_universal_ard_F: O_R_Soldier_ard_F
 class O_R_Survivor_ard_F: O_R_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Survivor_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Survivor_ard_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -4367,7 +4367,7 @@ class O_R_Survivor_ard_F: O_R_Soldier_ard_F
 class O_R_Soldier_unarmed_ard_F: O_R_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_unarmed_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_unarmed_ard_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -4391,7 +4391,7 @@ class O_R_Soldier_unarmed_ard_F: O_R_Soldier_ard_F
 class O_R_ghillie_ard_F: O_R_ghillie_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_ard_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_O_ghillie_ard_F0;
@@ -4416,7 +4416,7 @@ class O_R_ghillie_ard_F: O_R_ghillie_base_F
 class O_R_ghillie_lsh_F: O_R_ghillie_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_lsh_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_lsh_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_O_ghillie_lsh_F0;
@@ -4441,7 +4441,7 @@ class O_R_ghillie_lsh_F: O_R_ghillie_base_F
 class O_R_ghillie_sard_F: O_R_ghillie_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_sard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_sard_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_O_ghillie_sard_F0;
@@ -4477,7 +4477,7 @@ class O_R_ghillie_spotter_ard_F: O_R_ghillie_ard_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_ard_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_ard_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_ghillie_spotter_ard_F0;
@@ -4535,7 +4535,7 @@ class O_R_ghillie_spotter_lsh_F: O_R_ghillie_lsh_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_lsh_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_lsh_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_ghillie_spotter_lsh_F0;
@@ -4593,7 +4593,7 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_sard_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_ghillie_spotter_sard_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_ghillie_spotter_sard_F0;
@@ -4640,7 +4640,7 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
 class O_R_Fighter_Pilot_ard_F: O_R_Fighter_Pilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Fighter_Pilot_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Fighter_Pilot_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_PilotCoveralls;
 };

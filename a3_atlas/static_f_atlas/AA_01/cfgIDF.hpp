@@ -48,7 +48,7 @@ class I_I_Static_AA_F: I_static_AA_F
 		verticalOffsetWorld = 0.005;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_AA_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_I_Static_AA_F0;
 	faction = IND_I_F;
 	crew = I_I_Soldier_F;

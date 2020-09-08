@@ -467,7 +467,7 @@ class O_R_LSV_02_armed_ard_F: O_R_LSV_02_armed_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_armed_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_armed_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -558,7 +558,7 @@ class O_R_LSV_02_unarmed_ard_F: O_R_LSV_02_unarmed_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_unarmed_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_unarmed_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -647,7 +647,7 @@ class O_R_LSV_02_AT_ard_F: O_R_LSV_02_AT_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\ard_.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_LSV_02_AT_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};

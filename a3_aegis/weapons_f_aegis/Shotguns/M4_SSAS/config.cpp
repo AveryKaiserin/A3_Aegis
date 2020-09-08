@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class PointerSlot;
@@ -39,7 +40,7 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class MuzzleSlot{};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913_short
 			{
 				iconPosition[] =
 				{
@@ -48,7 +49,7 @@ class CfgWeapons
 				};
 				iconScale = 0.15;
 			};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};

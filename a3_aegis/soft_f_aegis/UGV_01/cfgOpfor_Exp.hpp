@@ -1,7 +1,7 @@
 class O_T_UGV_01_medical_ghex_F: UGV_01_medical_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_UGV_01_medical_ghex_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_UGV_01_medical_ghex_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_UGV_01_medical_F0;

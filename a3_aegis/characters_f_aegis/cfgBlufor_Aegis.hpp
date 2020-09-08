@@ -2042,7 +2042,7 @@ class B_A_soldier_UGV_02_Demining_F: B_A_Soldier_UAV_F
 class B_A_soldier_UGV_02_Science_F: B_A_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
@@ -2438,7 +2438,7 @@ class B_A_Recon_JTAC_F: B_recon_JTAC_F
 class B_A_Recon_MG_F: B_recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_F.jpg";
     faction = BLU_A_F;
 	identityTypes[] =
 	{
@@ -2806,7 +2806,7 @@ class B_A_Recon_CQ_F: B_recon_CQ_F
 class B_A_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_F.jpg";
     faction = BLU_A_F;
 	identityTypes[] =
 	{
@@ -2987,7 +2987,7 @@ class B_A_Soldier_unarmed_F: B_A_Soldier_F
 class B_A_HeavyGunner_F: B_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_F.jpg";
     faction = BLU_A_F;
 	identityTypes[] =
 	{
@@ -5358,7 +5358,7 @@ class B_A_soldier_UGV_02_Demining_tna_F: B_A_Soldier_UAV_tna_F
 class B_A_soldier_UGV_02_Science_tna_F: B_A_Soldier_UAV_tna_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_tna_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_tna_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
@@ -5661,7 +5661,7 @@ class B_A_Recon_JTAC_tna_F: B_A_Recon_JTAC_F
 class B_A_Recon_MG_tna_F: B_A_Recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	identityTypes[] =
 	{
@@ -5977,7 +5977,7 @@ class B_A_Recon_CQ_tna_F: B_A_Recon_CQ_F
 class B_A_Recon_Sharpshooter_tna_F: B_A_Recon_Sharpshooter_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_tna_F.jpg";
     faction = BLU_A_tna_F;
 	uniformClass = U_B_UBACS_tna_f;
 	weapons[] =
@@ -6122,7 +6122,7 @@ class B_A_Soldier_unarmed_tna_F: B_A_Soldier_tna_F
 class B_A_HeavyGunner_tna_F: B_A_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	identityTypes[] =
 	{
@@ -8170,7 +8170,7 @@ class B_A_soldier_UGV_02_Demining_wdl_F: B_A_Soldier_UAV_wdl_F
 class B_A_soldier_UGV_02_Science_wdl_F: B_A_Soldier_UAV_wdl_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_wdl_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UGV_02_Science_wdl_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
@@ -8423,7 +8423,7 @@ class B_A_Recon_JTAC_wdl_F: B_A_Recon_JTAC_F
 class B_A_Recon_MG_wdl_F: B_A_Recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_MG_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	identityTypes[] =
 	{
@@ -8739,7 +8739,7 @@ class B_A_Recon_CQ_wdl_F: B_A_Recon_CQ_F
 class B_A_Recon_Sharpshooter_wdl_F: B_A_Recon_Sharpshooter_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Recon_Sharpshooter_wdl_F.jpg";
     faction = BLU_A_wdl_F;
 	uniformClass = U_B_UBACS_wdl_f;
 	weapons[] =
@@ -8884,7 +8884,7 @@ class B_A_Soldier_unarmed_wdl_F: B_A_Soldier_wdl_F
 class B_A_HeavyGunner_wdl_F: B_A_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_HeavyGunner_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	identityTypes[] =
 	{

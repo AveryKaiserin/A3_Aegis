@@ -16,7 +16,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Land_BagBunker_Tower_TTsKO_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Land_BagBunker_Tower_TTsKO_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_BagBunker_Tower_TTsKO_F0;

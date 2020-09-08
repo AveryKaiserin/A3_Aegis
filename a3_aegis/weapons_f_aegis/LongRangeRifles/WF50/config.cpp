@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class MuzzleSlot;
 class SlotInfo;
@@ -120,7 +121,7 @@ class CfgWeapons
 		{
 			mass = 380;
 			class MuzzleSlot{};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] =
 				{

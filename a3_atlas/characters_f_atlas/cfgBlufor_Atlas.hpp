@@ -189,7 +189,7 @@ class B_E_Soldier_A_F: B_Soldier_A_F
 class B_E_Soldier_AAR_F: B_soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAR_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -251,7 +251,7 @@ class B_E_Soldier_AAR_F: B_soldier_AAR_F
 class B_E_Support_AMG_F: B_support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMG_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -311,7 +311,7 @@ class B_E_Support_AMG_F: B_support_AMG_F
 class B_E_Support_AMort_F: B_support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMort_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -371,7 +371,7 @@ class B_E_Support_AMort_F: B_support_AMort_F
 class B_E_Soldier_AAA_F: B_soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAA_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -433,7 +433,7 @@ class B_E_Soldier_AAA_F: B_soldier_AAA_F
 class B_E_Soldier_AAT_F: B_soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAT_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -730,7 +730,7 @@ class B_E_Engineer_F: B_engineer_F
 class B_E_Soldier_Exp_F: B_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Exp_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -790,7 +790,7 @@ class B_E_Soldier_Exp_F: B_soldier_exp_F
 class B_E_soldier_mine_F: B_E_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_mine_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_wdl_Mine;
 };
@@ -858,7 +858,7 @@ class B_E_Soldier_GL_F: B_Soldier_GL_F
 class B_E_Support_GMG_F: B_support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_GMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_GMG_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -918,7 +918,7 @@ class B_E_Support_GMG_F: B_support_GMG_F
 class B_E_Support_MG_F: B_support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_MG_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -978,7 +978,7 @@ class B_E_Support_MG_F: B_support_MG_F
 class B_E_Support_Mort_F: B_support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_Mort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_Mort_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1437,7 +1437,7 @@ class B_E_Officer_F: B_officer_F
 class B_E_Soldier_PG_F: B_soldier_PG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_PG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_PG_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1497,7 +1497,7 @@ class B_E_Soldier_PG_F: B_soldier_PG_F
 class B_E_Soldier_Repair_F: B_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Repair_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Repair_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1674,7 +1674,7 @@ class B_E_Soldier_LAT_F: B_soldier_LAT_F
 class B_E_Soldier_Lite_F: B_Soldier_lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Lite_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Lite_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1728,7 +1728,7 @@ class B_E_Soldier_Lite_F: B_Soldier_lite_F
 class B_E_Soldier_CQ_F: B_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CQ_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CQ_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1928,7 +1928,7 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 class B_E_Soldier_CBRN_F: B_E_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CBRN_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CBRN_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
@@ -2040,7 +2040,7 @@ class B_E_RadioOperator_F: B_E_Soldier_F
 class B_E_Survivor_F: B_E_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Survivor_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Survivor_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -2055,7 +2055,7 @@ class B_E_Survivor_F: B_E_Soldier_F
 class B_E_Soldier_UAV_F: B_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_UAV_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2115,21 +2115,21 @@ class B_E_Soldier_UAV_F: B_soldier_UAV_F
 class B_E_soldier_UAV_06_F: B_E_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = B_UAV_06_backpack_F;
 };
 class B_E_soldier_UAV_06_medical_F: B_E_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = B_UAV_06_medical_backpack_F;
 };
 class B_E_soldier_UGV_02_Demining_F: B_E_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
@@ -2398,7 +2398,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 class B_E_Recon_MG_F: B_recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_MG_F.jpg";
 	faction = BLU_E_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2825,7 +2825,7 @@ class B_E_Soldier_unarmed_F: B_E_Soldier_F
 class B_E_Fighter_Pilot_F: B_Fighter_Pilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
 	genericNames = GermanMen;
 	faction = BLU_E_F;
 	identityTypes[] =

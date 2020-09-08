@@ -223,7 +223,7 @@ class O_R_HMG_01_ard_F: O_HMG_01_F
 		verticalOffsetWorld = 0.077;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	class assembleInfo
@@ -242,7 +242,7 @@ class O_R_HMG_01_ard_F: O_HMG_01_F
 class O_R_HMG_01_high_ard_F: O_HMG_01_high_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_high_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_high_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	class assembleInfo
@@ -261,7 +261,7 @@ class O_R_HMG_01_high_ard_F: O_HMG_01_high_F
 class O_R_HMG_01_A_ard_F: O_HMG_01_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_A_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_HMG_01_A_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	class assembleInfo
 	{

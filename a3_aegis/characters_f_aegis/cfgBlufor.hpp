@@ -1592,7 +1592,7 @@ class B_sniper_F: B_Soldier_sniper_base_F
 };
 class B_Story_Protagonist_F: B_Soldier_02_f
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Story_Protagonist_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Story_Protagonist_F.jpg";
     weapons[] =
     {
         arifle_MX_GL_Hamr_pointer_F,
@@ -1707,7 +1707,7 @@ class B_Soldier_support_base_F: B_Soldier_base_F
 };
 class B_soldier_AAR_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_soldier_AAR_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_soldier_AAR_F.jpg";
 	linkedItems[] =
 	{
 		V_PlateCarrier1_rgr,
@@ -1763,7 +1763,7 @@ class B_soldier_AAA_F: B_Soldier_support_base_F
 };
 class B_support_MG_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_MG_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_MG_F.jpg";
 	weapons[] =
 	{
 		arifle_MXC_ACO_pointer_F,
@@ -1779,7 +1779,7 @@ class B_support_MG_F: B_Soldier_support_base_F
 };
 class B_support_GMG_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_GMG_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_GMG_F.jpg";
 	weapons[] =
 	{
 		arifle_MXC_ACO_pointer_F,
@@ -1795,7 +1795,7 @@ class B_support_GMG_F: B_Soldier_support_base_F
 };
 class B_support_Mort_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_Mort_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_Mort_F.jpg";
 	weapons[] =
 	{
 		arifle_MXC_ACO_pointer_F,
@@ -1811,7 +1811,7 @@ class B_support_Mort_F: B_Soldier_support_base_F
 };
 class B_support_AMG_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_AMG_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_AMG_F.jpg";
 	weapons[] =
 	{
 		arifle_MXC_ACO_pointer_F,
@@ -1827,7 +1827,7 @@ class B_support_AMG_F: B_Soldier_support_base_F
 };
 class B_support_AMort_F: B_Soldier_support_base_F
 {
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_AMort_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_support_AMort_F.jpg";
 	weapons[] =
 	{
 		arifle_MXC_ACO_pointer_F,

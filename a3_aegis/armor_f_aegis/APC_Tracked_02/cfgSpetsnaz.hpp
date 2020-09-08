@@ -664,7 +664,7 @@ class O_R_APC_Tracked_02_medical_F: APC_Tracked_02_medical_base_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_medical_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_medical_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_medical_F0;
@@ -876,7 +876,7 @@ class O_R_APC_Tracked_02_cannon_ard_F: O_R_APC_Tracked_02_cannon_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_cannon_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_cannon_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -1078,7 +1078,7 @@ class O_R_APC_Tracked_02_AA_ard_F: O_R_APC_Tracked_02_AA_F
 		verticalOffsetWorld = -0.172;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_AA_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_AA_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -1276,7 +1276,7 @@ class O_R_APC_Tracked_02_medical_ard_F: O_R_APC_Tracked_02_medical_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_medical_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Tracked_02_medical_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};

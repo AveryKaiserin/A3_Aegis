@@ -84,7 +84,7 @@ class O_W_LSV_02_armed_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
@@ -215,7 +215,7 @@ class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;
@@ -344,7 +344,7 @@ class O_W_LSV_02_AT_F: LSV_02_AT_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_AT_F0;

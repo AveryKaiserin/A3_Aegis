@@ -299,7 +299,7 @@ class O_R_UAV_06_ard_F: O_R_UAV_06_F
 		verticalOffsetWorld = 0;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };
 class O_R_UAV_06_medical_ard_F: O_R_UAV_06_medical_F
@@ -363,6 +363,6 @@ class O_R_UAV_06_medical_ard_F: O_R_UAV_06_medical_F
 		verticalOffsetWorld = 0;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_medical_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UAV_06_medical_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };

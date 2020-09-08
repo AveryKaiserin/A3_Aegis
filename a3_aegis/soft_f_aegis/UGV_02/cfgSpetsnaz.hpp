@@ -20,7 +20,7 @@ class O_R_UGV_02_Demining_F: UGV_02_Demining_Base_F
 class O_R_UGV_02_Science_F: UGV_02_Science_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_02_Science_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_02_Science_F.jpg";
 	scope = protected;
 	scopeCurator = private;
 	displayName = $STR_A3_A_CfgVehicles_O_R_UGV_02_Science_F0;
@@ -68,6 +68,6 @@ class O_R_UGV_02_Science_backpack_F: UGV_02_Science_backpack_base_F
 class O_R_UGV_02_Demining_ard_F: O_R_UGV_02_Demining_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_02_Demining_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_02_Demining_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };

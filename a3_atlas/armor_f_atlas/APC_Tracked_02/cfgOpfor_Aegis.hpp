@@ -187,7 +187,7 @@ class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_APC_Tracked_02_cannon_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_APC_Tracked_02_cannon_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

@@ -1,7 +1,7 @@
 class B_O_SAM_System_03_F: SAM_System_03_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_O_SAM_System_03_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_O_SAM_System_03_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	hiddenSelectionsTextures[] =

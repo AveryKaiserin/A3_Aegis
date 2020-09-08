@@ -1,7 +1,7 @@
 class I_T_Van_01_transport_F: Van_01_transport_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Van_01_transport_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Van_01_transport_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_C_Van_01;
 	model = "\A3\Soft_F_Gamma\Van_01\Van_01_transport_F.p3d";

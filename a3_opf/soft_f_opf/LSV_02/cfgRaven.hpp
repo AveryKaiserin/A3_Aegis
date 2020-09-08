@@ -84,7 +84,7 @@ class I_R_LSV_02_armed_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_LSV_02_armed_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
@@ -200,7 +200,7 @@ class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_LSV_02_unarmed_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;

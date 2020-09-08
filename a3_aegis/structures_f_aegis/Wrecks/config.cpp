@@ -23,7 +23,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_datsun01T_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_datsun01T_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Wreck_datsun01T_F0;
@@ -44,7 +44,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_datsun02T_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_datsun02T_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Wreck_datsun02T_F0;
@@ -65,7 +65,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_hiluxT_F.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Wreck_hiluxT_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Wreck_hiluxT_F0;

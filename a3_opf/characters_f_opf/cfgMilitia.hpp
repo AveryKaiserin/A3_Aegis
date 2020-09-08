@@ -23,7 +23,7 @@ class I_M_Soldier_Base_F: I_M_Man_Base_F
 class I_M_Soldier_1_F: I_M_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_1_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_1_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -109,7 +109,7 @@ class I_M_Soldier_1_F: I_M_Soldier_Base_F
 class I_M_Soldier_2_F: I_M_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_2_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_HighCommand_ModuleDescription_AnyBrain_0;
@@ -209,7 +209,7 @@ class I_M_Soldier_3_F: I_M_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_3_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_3_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
@@ -299,7 +299,7 @@ class I_M_Soldier_4_F: I_M_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_4_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_4_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
@@ -394,7 +394,7 @@ class I_M_Soldier_5_F: I_M_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_5_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_5_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -480,7 +480,7 @@ class I_M_Soldier_5_F: I_M_Soldier_Base_F
 class I_M_Soldier_6_F: I_M_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_6_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_6_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -574,7 +574,7 @@ class I_M_Soldier_7_F: I_M_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
     textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
     nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_7_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_7_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Sniper_F0;
@@ -649,7 +649,7 @@ class I_M_Soldier_7_F: I_M_Soldier_Base_F
 class I_M_Soldier_8_F: I_M_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_8_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_8_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgRoles_Sapper0;
@@ -748,7 +748,7 @@ class I_M_Soldier_universal_F: I_M_Soldier_1_F
 class I_M_Soldier_Base_unarmed_F: I_M_Soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_Base_unarmed_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Soldier_Base_unarmed_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};

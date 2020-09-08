@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class SlotInfo;
@@ -58,7 +59,7 @@ class CfgWeapons
 		discreteDistanceInitIndex = 1;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_65
+			class MuzzleSlot: asdg_MuzzleSlot_65
 			{
 				iconPosition[] =
 				{
@@ -67,7 +68,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] =
 				{
@@ -76,7 +77,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{
@@ -181,7 +182,7 @@ class CfgWeapons
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{
@@ -248,7 +249,8 @@ class CfgWeapons
 		maxZeroing = 600;
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
+			class CowsSlot: asdg_OpticRail1913_short{};
+			class MuzzleSlot: asdg_MuzzleSlot_65
 			{
 				iconPosition[] =
 				{
@@ -257,7 +259,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{

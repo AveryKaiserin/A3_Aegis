@@ -40,7 +40,10 @@ class CfgWeapons
 	class launch_Titan_base;
 	class srifle_EBR_F;
 	class srifle_DMR_01_F;
-	class LMG_Zafir_F;
+	class LMG_Zafir_F: Rifle_Long_Base_F
+    {
+        class WeaponSlotsInfo;
+    };
 	class SMG_02_F;
 	class optic_MRCO: ItemCore
 	{
@@ -72,6 +75,18 @@ class CfgWeapons
 	class srifle_DMR_01_black_F;
 	class LMG_Zafir_black_F: LMG_Zafir_F
 	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_762
+			{
+				iconPosition[] =
+				{
+					0.05, // X
+					0.38 // Y
+				};
+				iconScale = 0.2;
+			};
+		};
 		magazines[] =
 		{
 			150Rnd_762x51_Box_Yellow,

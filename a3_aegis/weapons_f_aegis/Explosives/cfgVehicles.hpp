@@ -8,7 +8,7 @@ class CfgVehicles
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 3.06;
-		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\FlareTripMine.jpg";
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\FlareTripMine.jpg";
 		scope = public;
 		scopeCurator = public;
 		ammo = FlareTripMine_Wire_Ammo;

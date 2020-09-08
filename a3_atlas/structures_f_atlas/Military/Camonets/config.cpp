@@ -16,7 +16,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_F.jpg";
 		scope = public;
 		scopeCurator = private;
 		displayName = $STR_A3_A_CfgVehicles_CamoNet_CDF_F0;
@@ -37,7 +37,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_open_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_open_F.jpg";
 		displayName = $STR_A3_A_CfgVehicles_CamoNet_CDF_open_F0;
 		model = "\A3\Structures_F\Mil\Shelters\CamoNet_open_F.p3d";
 	};
@@ -53,7 +53,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_big_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\CamoNet_CDF_big_F.jpg";
 		displayName = $STR_A3_A_CfgVehicles_CamoNet_CDF_big_F0;
 		model = "\A3\Structures_F\Mil\Shelters\CamoNet_Big_F.p3d";
 		icon = "\A3\Structures_F\Mil\Shelters\Data\UI\Map_CamoNet_Big_CA.paa";

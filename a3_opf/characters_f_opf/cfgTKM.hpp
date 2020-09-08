@@ -499,7 +499,7 @@ class I_T_Soldier_8_F: I_T_Soldier_Base_F
 class I_T_Soldier_9_F: I_T_Soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Soldier_9_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Soldier_9_F.jpg";
 	identityTypes[] =
 	{
         LanguagePER_F,

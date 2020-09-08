@@ -77,7 +77,7 @@ class I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
 		verticalOffsetWorld = -0.001;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_03_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_03_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_03_dynamicLoadout_F0;

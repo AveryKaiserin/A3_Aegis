@@ -749,7 +749,7 @@ class O_E_Soldier_8_F: O_E_Soldier_Base_F
 class O_E_Soldier_9_F: O_E_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_9_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_9_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Partisan";
@@ -825,7 +825,7 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
 class O_E_Crew_F: O_E_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_crew_F0;

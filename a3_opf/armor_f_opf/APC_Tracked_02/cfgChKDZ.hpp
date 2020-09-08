@@ -187,7 +187,7 @@ class O_E_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_APC_Tracked_02_cannon_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_APC_Tracked_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

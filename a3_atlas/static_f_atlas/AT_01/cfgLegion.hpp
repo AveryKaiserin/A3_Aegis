@@ -48,7 +48,7 @@ class B_L_Static_AT_F: B_static_AT_F
 		verticalOffsetWorld = 0.005;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Static_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Static_AT_F.jpg";
 	faction = BLU_L_F;
 	crew = B_L_Soldier_F;
 	hiddenSelections[] =

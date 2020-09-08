@@ -187,7 +187,7 @@ class I_CDF_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_APC_Tracked_02_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_APC_Tracked_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
@@ -427,7 +427,7 @@ class I_CDF_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 		verticalOffsetWorld = -0.172;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_APC_Tracked_02_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_APC_Tracked_02_AA_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AA_F0;

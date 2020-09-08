@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -25,8 +26,6 @@ class CfgWeapons
 		class GunParticles;
 	};
 	class UGL_F;
-
-	// arsenal weapons
 	class GL_M32_F: Rifle_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -124,7 +123,7 @@ class CfgWeapons
 		{
 			class MuzzleSlot{};
 			class CowsSlot{};
-	    	class PointerSlot: PointerSlot_Rail
+	    	class PointerSlot: asdg_FrontSideRail
 	    	{
 	      		iconPosition[] = {0.35,0.45};
 	    	  	iconScale = 0.2;
@@ -138,20 +137,6 @@ class CfgWeapons
 				positionName = "usti hlavne";
 				directionName = "konec hlavne";
 				effectName = GrenadeLauncherCloud;
-			};
-		};
-	};
-
-	// unit weapons
-	class GL_M32_Pointer_F: GL_M32_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
 			};
 		};
 	};

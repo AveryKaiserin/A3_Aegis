@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -148,7 +149,7 @@ class B_A_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 		bag_xx(B_AA_01_weapon_F,1);
 	};
 };
-// NATO (Pacific, British)
+// BLU_A_tna_F
 class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -161,7 +162,7 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_CargoNet_01_ammo_tropic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_CargoNet_01_ammo_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_CargoNet_01_ammo_tropic_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -296,7 +297,7 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		bag_xx(B_AA_01_Weapon_grn_F,1);
 	};
 };
-// NATO (Woodland, British)
+// BLU_A_wdl_F
 class B_A_CargoNet_01_ammo_wdl_F: CargoNet_01_ammo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -309,7 +310,7 @@ class B_A_CargoNet_01_ammo_wdl_F: CargoNet_01_ammo_base_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_CargoNet_01_ammo_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_CargoNet_01_ammo_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_CargoNet_01_ammo_wdl_F0;
 	hiddenSelectionsMaterials[] =
 	{

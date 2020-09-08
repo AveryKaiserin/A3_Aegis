@@ -1,7 +1,7 @@
 class O_P_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_HMG_02_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_HMG_02_F.jpg";
 	scope = public;
 	side = TEast;
 	faction = OPF_P_F;
@@ -36,7 +36,7 @@ class O_P_HMG_02_F: HMG_02_base_F
 class O_P_HMG_02_high_F: HMG_02_high_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_HMG_02_high_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_HMG_02_high_F.jpg";
 	scope = public;
 	side = TEast;
 	faction = OPF_P_F;

@@ -371,7 +371,7 @@ class O_R_Heli_Attack_02_dynamicLoadout_ard_F: O_R_Heli_Attack_02_dynamicLoadout
 		verticalOffsetWorld = 0.026;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Attack_02_dynamicLoadout_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Attack_02_dynamicLoadout_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_helipilot_ard_F;
 	typicalCargo[] = {O_R_helipilot_ard_F};

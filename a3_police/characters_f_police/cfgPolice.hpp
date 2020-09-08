@@ -270,7 +270,7 @@ class I_P_TacPoliceOfficer_F: I_P_TacPoliceOfficer_Base_F
 class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Sniper_F.jpg";
+	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Sniper_F.jpg";
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Sniper_F0;
@@ -320,7 +320,7 @@ class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
 class I_P_TacPoliceOfficer_SG_F: I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
+	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0;
@@ -369,7 +369,7 @@ class I_P_TacPoliceOfficer_SG_F: I_P_TacPoliceOfficer_Base_F
 class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	// editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
+	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0;

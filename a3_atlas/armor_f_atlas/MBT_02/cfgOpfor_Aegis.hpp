@@ -171,7 +171,7 @@ class O_W_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MBT_02_cannon_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MBT_02_cannon_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

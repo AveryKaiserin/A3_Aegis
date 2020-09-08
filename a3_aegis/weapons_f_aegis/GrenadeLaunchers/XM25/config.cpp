@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -25,8 +26,6 @@ class CfgWeapons
 		class GunParticles;
 	};
 	class UGL_F;
-
-	// arsenal weapons
 	class GL_XM25_F: Rifle_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Ataboo;

@@ -66,7 +66,7 @@ class O_C_soldier_A_F: O_C_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_p;
 	nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_A_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_A_F0;
     items[] = {FirstAidKit};
@@ -123,7 +123,7 @@ class O_C_soldier_AR_F: O_C_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AR_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_AR_F0;
 	icon = iconManMG;
@@ -180,7 +180,7 @@ class O_C_medic_F: O_C_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_medic_F.jpg";
 	scope = public;
 	displayName = $STR_B_medic_F0;
 	icon = iconManMedic;
@@ -241,7 +241,7 @@ class O_C_crew_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_crew_F.jpg";
     scope = public;
     displayName = $STR_B_crew_F0;
     role = Crewman;
@@ -300,7 +300,7 @@ class O_C_engineer_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_engineer_F.jpg";
     scope = public;
 	displayName = $STR_B_engineer_F0;
     role = Sapper;
@@ -366,7 +366,7 @@ class O_C_soldier_GL_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_GL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_GL_F0;
 	role = Grenadier;
@@ -426,7 +426,7 @@ class O_C_helipilot_F: O_helipilot_F
     textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
     textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
     nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_helipilot_F.jpg";
     scope = public;
     identityTypes[] =
     {
@@ -491,7 +491,7 @@ class O_C_helicrew_F: O_C_helipilot_F
     textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
     textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
     nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_helicrew_F.jpg";
     scope = public;
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
@@ -547,7 +547,7 @@ class O_C_soldier_M_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
     textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
     nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_M_F0;
 	role = Marksman;
@@ -606,7 +606,7 @@ class O_C_soldier_AA_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
     textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
     nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AA_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_AA_F0;
 	icon = iconManAT;
@@ -670,7 +670,7 @@ class O_C_soldier_AT_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
     textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
     nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_AT_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_AT_F0;
 	icon = iconManAT;
@@ -723,7 +723,7 @@ class O_C_soldier_AT_F: O_C_soldier_base_F
 class O_C_officer_F: O_C_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_officer_F.jpg";
 	scope = public;
 	displayName = $STR_B_officer_F0;
 	icon = iconManOfficer;
@@ -781,7 +781,7 @@ class O_C_soldier_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
     linkedItems[] =
@@ -835,7 +835,7 @@ class O_C_soldier_LAT_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
     textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
     nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_LAT_F0;
 	icon = iconManAT;
@@ -899,7 +899,7 @@ class O_C_soldier_SL_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_SL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_SL_F0;
 	icon = iconManLeader;
@@ -965,7 +965,7 @@ class O_C_soldier_TL_F: O_C_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_s;
     textPlural = $STR_A3_nameSound_veh_infantry_p;
     nameSound = veh_infantry_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_soldier_TL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_TL_F0;
 	icon = iconManLeader;
@@ -1027,7 +1027,7 @@ class O_C_soldier_TL_F: O_C_soldier_base_F
 class O_C_Fighter_Pilot_F: O_C_soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Fighter_Pilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Fighter_Pilot_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_Fighter_Pilot_name;
@@ -1090,7 +1090,7 @@ class O_C_soldier_universal_F: O_C_soldier_F
 class O_C_RadioOperator_F: O_C_soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_RadioOperator_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;

@@ -18,6 +18,6 @@ class O_R_SAM_System_04_F: SAM_System_04_base_F
 class O_R_SAM_System_04_ard_F: O_R_SAM_System_04_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_SAM_System_04_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_SAM_System_04_ard_F.jpg";
 	faction = OPF_R_ard_F;
 };

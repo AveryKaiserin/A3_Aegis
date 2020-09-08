@@ -13,7 +13,7 @@ class Box_IR_Equip_F: Box_NATO_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_IR_Equip_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_IR_Equip_F.jpg";
 	displayName = $STR_A3_O_CfgVehicles_Box_IR_Equip_F0;
     /*
 	hiddenSelectionsTextures[] =

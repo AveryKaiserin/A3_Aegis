@@ -52,7 +52,7 @@ class O_R_UGV_01_rcws_F: UGV_01_rcws_base_F
 class O_R_UGV_01_medical_F: UGV_01_medical_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_medical_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_medical_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_UGV_01_medical_F0;
@@ -72,21 +72,21 @@ class O_R_UGV_01_medical_F: UGV_01_medical_base_F
 class O_R_UGV_01_ard_F: O_R_UGV_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_ard_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_ard_F.jpg";
     faction = OPF_R_ard_F;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };
 class O_R_UGV_01_rcws_ard_F: O_R_UGV_01_rcws_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_rcws_ard_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_rcws_ard_F.jpg";
     faction = OPF_R_ard_F;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };
 class O_R_UGV_01_medical_ard_F: O_R_UGV_01_medical_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_medical_ard_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_UGV_01_medical_ard_F.jpg";
     faction = OPF_R_ard_F;
     typicalCargo[] = {O_R_Soldier_ard_F};
 };

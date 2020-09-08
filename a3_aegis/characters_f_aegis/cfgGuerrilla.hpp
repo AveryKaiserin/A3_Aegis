@@ -1723,11 +1723,11 @@ class I_G_officer_F: I_G_Soldier_base_F
 };
 class B_G_Soldier_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_F.jpg";
 };
 class O_G_Soldier_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_F.jpg";
 };
 class B_G_Soldier_lite_F: I_G_Soldier_lite_F
 {
@@ -1739,75 +1739,75 @@ class O_G_Soldier_lite_F: I_G_Soldier_lite_F
 };
 class B_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_SL_F.jpg";
 };
 class O_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_SL_F.jpg";
 };
 class B_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_TL_F.jpg";
 };
 class O_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_TL_F.jpg";
 };
 class B_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_AR_F.jpg";
 };
 class O_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_AR_F.jpg";
 };
 class B_G_medic_F: I_G_medic_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_medic_F.jpg";
 };
 class O_G_medic_F: I_G_medic_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_medic_F.jpg";
 };
 class B_G_engineer_F: I_G_engineer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_engineer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_engineer_F.jpg";
 };
 class O_G_engineer_F: I_G_engineer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_engineer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_engineer_F.jpg";
 };
 class B_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_exp_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_exp_F.jpg";
 };
 class O_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_exp_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_exp_F.jpg";
 };
 class B_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_GL_F.jpg";
 };
 class O_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_GL_F.jpg";
 };
 class B_G_Soldier_M_F: I_G_Soldier_M_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_M_F.jpg";
 };
 class O_G_Soldier_M_F: I_G_Soldier_M_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_M_F.jpg";
 };
 class B_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_LAT_F.jpg";
 };
 class O_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_LAT_F.jpg";
 };
 class B_G_Soldier_A_F: I_G_Soldier_A_F
 {
@@ -1821,15 +1821,15 @@ class O_G_Soldier_A_F: I_G_Soldier_A_F
 };
 class B_G_officer_F: I_G_officer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_officer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_officer_F.jpg";
 };
 class O_G_officer_F: I_G_officer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_officer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_officer_F.jpg";
 };
 class I_G_Soldier_unarmed_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_unarmed_F.jpg";
 	linkedItems[] =
 	{
 		H_ShemagOpen_khk,
@@ -1845,23 +1845,11 @@ class I_G_Soldier_unarmed_F: I_G_Soldier_F
 };
 class B_G_Soldier_unarmed_F: B_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_unarmed_F.jpg";
 };
 class O_G_Soldier_unarmed_F: O_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_unarmed_F.jpg";
-};
-class I_G_Survivor_F: I_G_Soldier_F
-{
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Survivor_F.jpg";
-};
-class B_G_Survivor_F: B_G_Soldier_F
-{
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Survivor_F.jpg";
-};
-class O_G_Survivor_F: O_G_Soldier_F
-{
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Survivor_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_unarmed_F.jpg";
 };
 class B_G_Soldier_universal_F: B_G_Soldier_F
 {
@@ -2061,12 +2049,12 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
 class B_G_Sharpshooter_F: I_G_Sharpshooter_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Sharpshooter_F.jpg";
-    uniformClass = U_IG_Guerilla3_2;
+    uniformClass = U_BG_Guerilla3_2;
 };
 class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 {	
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Sharpshooter_F.jpg";
-    uniformClass = U_IG_Guerilla3_2;
+    uniformClass = U_OG_Guerilla3_2;
 };
 // Arma 3 Tanks
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
@@ -2214,7 +2202,7 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 class I_G_crew_F: I_G_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_crew_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -2263,7 +2251,7 @@ class I_G_crew_F: I_G_Soldier_base_F
 class B_G_crew_F: I_G_crew_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_crew_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_crew_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -2278,7 +2266,7 @@ class B_G_crew_F: I_G_crew_F
 class O_G_crew_F: I_G_crew_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_crew_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_crew_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TEast;

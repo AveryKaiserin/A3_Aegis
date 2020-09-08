@@ -92,31 +92,6 @@ class CfgWeapons
 				effectName = MachineGunEject;
 			};
 		};
-        /*
-		modes[] =
-        {
-            HighROF,
-            LowROF,
-            manual,
-            close,
-            short,
-            medium,
-            far
-        };
-		class manual: manual
-        {
-			showToPlayer = false;
-        };
-        class LowROF: manual
-		{
-			showToPlayer = true;
-		};
-        class HighROF: LowROF
-		{
-			reloadTime = 0.1; // 600 RPM
-			textureType = fastAuto;
-		};
-        */
 	};
 	class HMG_static;
 	class HMG_M2;
@@ -409,9 +384,9 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
-				iconPosition[] = // TODO: Adjust position
+				iconPosition[] =
 				{
 					0.05, // X
 					0.38 // Y
@@ -444,7 +419,7 @@ class CfgWeapons
 					muzzle_snds_408_green,
 					muzzle_snds_408_sand
 				};
-				iconPosition[] = // TODO: Adjust position
+				iconPosition[] =
 				{
 					0.05, // X
 					0.38 // Y
@@ -453,35 +428,57 @@ class CfgWeapons
 			};
 		};
 	};
-	class EBR_base_F;
-	class srifle_EBR_F;
+    class EBR_base_F: Rifle_Long_Base_F{};
+	class srifle_EBR_F: EBR_base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+			class MuzzleSlot: asdg_MuzzleSlot_762{};
+        };
+    };
 	class DMR_01_base_F: Rifle_Long_Base_F
 	{
+		class WeaponSlotsInfo;
+	};
+	class srifle_DMR_01_F: DMR_01_base_F
+    {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_762
-			{
-				compatibleItems[] +=
-				{
-					muzzle_snds_B_arid_F,
-					muzzle_snds_B_lush_F,
-					muzzle_mzls_B,
-					muzzle_snds_B_wdm_F
-				};
-			};
-			class PointerSlot: PointerSlot_rail
-			{
-				compatibleItems[] =
-				{
-					acc_flashlight,
-					acc_pointer_IR
-				};
-			};
+			class MuzzleSlot: asdg_MuzzleSlot_762R_SVD{};
 		};
-	};
-	class srifle_DMR_01_F;
+    };
 	class LMG_Mk200_F: Rifle_Long_Base_F
 	{
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+			class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+                compatibleItems[] =
+                {
+                    muzzle_snds_h,
+                    muzzle_snds_h_khk_F,
+                    muzzle_snds_h_snd_F,
+                    muzzle_snds_65_TI_blk_F,
+                    muzzle_snds_65_TI_hex_F,
+                    muzzle_snds_65_TI_ghex_F,
+                    muzzle_tma_65,
+                    muzzle_mzls_H
+                };
+                /*
+                class compatibleItems
+                {
+                    muzzle_snds_h = true;
+                    muzzle_snds_h_khk_F = true;
+                    muzzle_snds_h_snd_F = true;
+                    muzzle_snds_65_TI_blk_F = true;
+                    muzzle_snds_65_TI_hex_F = true;
+                    muzzle_snds_65_TI_ghex_F = true;
+                    muzzle_tma_65 = true;
+                    muzzle_mzls_H = true;
+                };
+                */
+            };
+        };
 		class GunParticles: GunParticles
 		{
 			class SecondEffect
@@ -496,20 +493,9 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_762
+			class MuzzleSlot: asdg_MuzzleSlot_762R_PK
 			{
-				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
-				compatibleItems[] =
-				{
-					muzzle_snds_B,
-					muzzle_snds_B_khk_F,
-					muzzle_snds_B_snd_F,
-					muzzle_snds_B_arid_F,
-					muzzle_snds_B_lush_F,
-					muzzle_mzls_B,
-					muzzle_snds_B_wdm_F
-				};
-				iconPosition[] = // TODO: Adjust position
+				iconPosition[] =
 				{
 					0.05, // X
 					0.38 // Y
@@ -536,29 +522,13 @@ class CfgWeapons
 			reloadTime = 0.08;
 		};
 	};
-	class hgun_ACPC2_F: Pistol_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_acp};
-			};
-		};
-	};
 	class hgun_P07_F: Pistol_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
-				compatibleItems[] += {muzzle_mzls_L};
-			};
-			class PointerSlot: PointerSlot
-			{
-				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
-				compatibleItems[] = {acc_flashlight_pistol};
-				iconPosition[] = // TODO: Adjust position
+				iconPosition[] =
 				{
 					0.39, // X
 					0.48 // Y
@@ -567,20 +537,14 @@ class CfgWeapons
 			};
 		};
 	};
-	class hgun_Pistol_heavy_01_F: Pistol_Base_F
-	{
+	class hgun_Pistol_heavy_01_F;
+	class hgun_Pistol_heavy_02_F: Pistol_Base_F
+    {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] +=
-				{
-					muzzle_snds_pistol_heavy_01,
-					muzzle_mzls_acp
-				};
-			};
+			class MuzzleSlot{};
 		};
-	};
+    };
 	class hgun_Rook40_F: Pistol_Base_F
 	{
 		magazines[] =
@@ -591,33 +555,32 @@ class CfgWeapons
 			16Rnd_9x21_green_Mag,
 			16Rnd_9x21_yellow_Mag
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_L};
-			};
-		};
 	};
 	class arifle_Katiba_Base_F: Rifle_Base_F
 	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_Katiba_F: arifle_Katiba_Base_F
+    {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_65
-			{
-				compatibleItems[] +=
-				{
-					muzzle_mzls_H,
-					muzzle_snds_65_TI_blk_F,
-					muzzle_snds_65_TI_hex_F,
-					muzzle_snds_65_TI_ghex_F
-				};
-			};
+			class MuzzleSlot: asdg_MuzzleSlot_65{};
 		};
-	};
-	class arifle_Katiba_F;
-	class arifle_Katiba_C_F;
-	class arifle_Katiba_GL_F;
+    };
+	class arifle_Katiba_C_F: arifle_Katiba_Base_F
+    {
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_65{};
+		};
+    };
+	class arifle_Katiba_GL_F: arifle_Katiba_Base_F
+    {
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_65{};
+		};
+    };
 	class arifle_Katiba_GL_ACO_pointer_snds_F: arifle_Katiba_GL_F
 	{
 		class LinkedItems
@@ -658,11 +621,33 @@ class CfgWeapons
 			};
 		};
 	};
-	class arifle_Mk20_F;
+	class mk20_base_F: Rifle_Base_F
+    {
+        class WeaponSlotsInfo;
+    };
+	class arifle_Mk20_F: mk20_base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
+    };
 	class arifle_Mk20_plain_F;
-	class arifle_Mk20C_F;
+	class arifle_Mk20C_F: mk20_base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
+    };
 	class arifle_Mk20C_plain_F;
-	class arifle_Mk20_GL_F;
+	class arifle_Mk20_GL_F: mk20_base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
+    };
 	class arifle_Mk20_GL_plain_F: arifle_Mk20_GL_F
 	{
 		hiddenSelectionsTextures[] =
@@ -671,11 +656,19 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\MK20\Data\MK20_utilities_black_CO.paa"
 		};
 	};
-	class arifle_MX_Base_F;
+	class arifle_MX_Base_F: Rifle_Base_F
+    {
+        class WeaponSlotsInfo;
+    };
 	class arifle_MXC_F: arifle_MX_Base_F
 	{
 		hiddenSelections[] = {camo1};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_CO.paa"};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_65{};
+            class PointerSlot: asdg_FrontSideRail{};
+        };
 	};
 	class arifle_MX_F: arifle_MX_Base_F
 	{
@@ -689,6 +682,11 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa",
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_CO.paa"
 		};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_65{};
+            class PointerSlot: asdg_FrontSideRail{};
+        };
 	};
 	class arifle_MX_GL_F: arifle_MX_Base_F
 	{
@@ -702,6 +700,11 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa",
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\GLX_CO.paa"
 		};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_65{};
+            class PointerSlot: asdg_FrontSideRail{};
+        };
 	};
 	class arifle_MX_SW_F: arifle_MX_Base_F
 	{
@@ -709,11 +712,47 @@ class CfgWeapons
 		cursor = arifle;
 		hiddenSelections[] = {camo1};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+                compatibleItems[] =
+                {
+                    muzzle_snds_h,
+                    muzzle_snds_h_khk_F,
+                    muzzle_snds_h_snd_F,
+                    muzzle_snds_65_TI_blk_F,
+                    muzzle_snds_65_TI_hex_F,
+                    muzzle_snds_65_TI_ghex_F,
+                    muzzle_tma_65,
+                    muzzle_mzls_H
+                };
+                /*
+                class compatibleItems
+                {
+                    muzzle_snds_h = true;
+                    muzzle_snds_h_khk_F = true;
+                    muzzle_snds_h_snd_F = true;
+                    muzzle_snds_65_TI_blk_F = true;
+                    muzzle_snds_65_TI_hex_F = true;
+                    muzzle_snds_65_TI_ghex_F = true;
+                    muzzle_tma_65 = true;
+                    muzzle_mzls_H = true;
+                };
+                */
+            };
+            class PointerSlot: asdg_FrontSideRail{};
+        };
 	};
 	class arifle_MXM_F: arifle_MX_Base_F
 	{
 		hiddenSelections[] = {camo1};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Long_CO.paa"};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_65{};
+            class PointerSlot: asdg_FrontSideRail{};
+        };
 	};
 	class arifle_MX_SW_Hamr_pointer_F: arifle_MX_SW_F
 	{
@@ -818,6 +857,7 @@ class CfgWeapons
 	};
 	class Tavor_base_F: Rifle_Base_F
 	{
+        class WeaponSlotsInfo;
 		class Single: Mode_SemiAuto
 		{
 			reloadTime = 0.066; // 910 RPM
@@ -830,9 +870,17 @@ class CfgWeapons
 	class arifle_TRG21_F: Tavor_base_F
 	{
 		hiddenSelections[] = {camo};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
 	};
 	class arifle_TRG20_F: Tavor_base_F
 	{
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
 		class Single: Single
 		{
 			reloadTime = 0.067; // 890 RPM
@@ -842,7 +890,13 @@ class CfgWeapons
 			reloadTime = 0.067; // 890 RPM
 		};
 	};
-	class arifle_TRG21_GL_F;
+	class arifle_TRG21_GL_F: Tavor_base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556{};
+        };
+    };
 	class pdw2000_base_F: Rifle_Short_Base_F
 	{
 		magazines[] =
@@ -851,13 +905,6 @@ class CfgWeapons
 			30Rnd_9x21_Red_Mag,
 			30Rnd_9x21_Yellow_Mag,
 			30Rnd_9x21_Green_Mag
-		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_L};
-			};
 		};
 		modes[] =
 		{
@@ -886,31 +933,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class SMG_01_Base: Rifle_Short_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] +=
-				{
-					muzzle_mzls_acp,
-					muzzle_mzls_smg_01
-				};
-			};
-		};
-	};
 	class SMG_01_F;
-	class SMG_02_base_F: Rifle_Short_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_L};
-			};
-		};
-	};
 	class SMG_02_F;
 	class InventoryMuzzleItem_Base_F;
 	class InventoryOpticsItem_Base_F;
@@ -922,6 +945,14 @@ class CfgWeapons
 	};
 	class muzzle_snds_M;
 	class muzzle_snds_B;
+	class muzzle_snds_H_MG: muzzle_snds_H
+    {
+        scope = protected;
+    };
+	class muzzle_snds_H_SW: muzzle_snds_H_MG
+    {
+        scope = protected;
+    };
 	class muzzle_snds_acp;
 	class muzzle_snds_338_black;
 	class acc_pointer_IR;
@@ -935,7 +966,17 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_02\Data\DMR_02_02_tan_CO.paa"
 		};
 	};
-	class srifle_DMR_03_F;
+    class DMR_03_base_F: Rifle_Long_Base_F
+    {
+        class WeaponSlotsInfo;
+    };
+	class srifle_DMR_03_F: DMR_03_base_F
+	{
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_762{};
+        };
+	};
 	class srifle_DMR_03_khaki_F;
 	class srifle_DMR_03_tan_F: srifle_DMR_03_F
 	{
@@ -947,10 +988,19 @@ class CfgWeapons
 	};
 	class srifle_DMR_05_blk_F;
 	class srifle_DMR_05_hex_F;
-	class DMR_06_base_F;
+	class DMR_06_base_F: Rifle_Long_Base_F
+    {
+        class WeaponSlotsInfo;
+    };
 	class srifle_DMR_06_camo_F: DMR_06_base_F
 	{
 		magazines[] = {20Rnd_762x51_weathered_Mag};
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_762{};
+            class CowsSlot: asdg_OpticRail1913_short{};
+            class UnderBarrelSlot: asdg_UnderSlot{};
+        };
 	};
 	class MMG_01_hex_F;
 	class MMG_02_camo_F;
@@ -1023,8 +1073,27 @@ class CfgWeapons
 	class DMR_07_base_F: Rifle_Long_Base_F
 	{
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_sniper_CA.paa";
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class PointerSlot{};
+        };
 	};
-	class LMG_03_base_F;
+    class LMG_03_base_F: Rifle_Long_Base_F
+    {
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+                class compatibleItems: compatibleItems
+                {
+                    muzzle_snds_M = true;
+                    muzzle_snds_m_khk_F = true;
+                    muzzle_snds_m_snd_F = true;
+		            muzzle_mzls_M = true;
+                };
+            };
+        };
+    };
 	class LMG_03_F: LMG_03_base_F
 	{
 		hiddenSelectionsTextures[] =
@@ -1063,27 +1132,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class arifle_CTAR_base_F: Rifle_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_58_F};
-			};
-		};
-	};
 	class arifle_CTAR_GL_blk_F;
-	class arifle_CTARS_base_F: Rifle_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_58_F};
-			};
-		};
-	};
 	class arifle_CTARS_blk_F;
 	class arifle_SPAR_01_base_F;
 	class arifle_SPAR_01_blk_F: arifle_SPAR_01_base_F
@@ -1202,16 +1251,7 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\SPAR_01\Data\arifle_SPAR_01_snd_F_01_CO.paa"
 		};
 	};
-	class SMG_05_base_F: Rifle_Short_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[] += {muzzle_mzls_L};
-			};
-		};
-	};
+	class SMG_05_base_F;
 	// Arma 3 Jets
 	class weapon_Fighter_Gun20mm_AA: CannonCore
 	{
@@ -1278,6 +1318,15 @@ class CfgWeapons
 	class launch_RPG32_camo_F: launch_RPG32_F
 	{
 		scope = public;
+	};
+	class DMR_06_hunter_base_F: DMR_06_base_F
+	{
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            class MuzzleSlot: asdg_MuzzleSlot_762{};
+            class CowsSlot: asdg_OpticRail1913_short{};
+            class UnderBarrelSlot: asdg_UnderSlot{};
+        };
 	};
 	class LMG_Mk200_black_F;
 	class hgun_Pistol_heavy_01_green_F;
@@ -1770,27 +1819,16 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_TRG21_GL_black_F;
 	};
-	class arifle_SPAR_01_C_base_F: arifle_SPAR_01_base_F
+	class arifle_SPAR_01_C_blk_F: arifle_SPAR_01_blk_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = private;
-	};
-	class arifle_SPAR_01_C_blk_F: arifle_SPAR_01_C_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = arifle_SPAR_01_C_blk_F;
 		scope = protected;
 	};
-	class arifle_SPAR_01_C_khk_F: arifle_SPAR_01_C_base_F
+	class arifle_SPAR_01_C_khk_F: arifle_SPAR_01_khk_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = arifle_SPAR_01_C_khk_F;
 		scope = protected;
 	};
-	class arifle_SPAR_01_C_snd_F: arifle_SPAR_01_C_base_F
+	class arifle_SPAR_01_C_snd_F: arifle_SPAR_01_snd_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = arifle_SPAR_01_C_snd_F;
 		scope = protected;
 	};
 	class SMG_01_black_F: SMG_01_F

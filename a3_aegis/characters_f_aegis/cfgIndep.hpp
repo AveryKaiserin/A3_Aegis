@@ -668,7 +668,7 @@ class I_crew_F: I_Soldier_base_F
 };
 class I_helipilot_F: I_Soldier_03_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_helipilot_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_helipilot_F.jpg";
     weapons[] =
     {
         hgun_PDW2000_Holo_F,
@@ -780,7 +780,7 @@ class I_helicrew_F: I_helipilot_F
 };
 class I_officer_F: I_Soldier_base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_officer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_officer_F.jpg";
     weapons[] =
     {
         arifle_Mk20C_F,

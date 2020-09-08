@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class PointerSlot_Rail;
@@ -39,7 +40,7 @@ class CfgWeapons
 		{
 			class MuzzleSlot{};
 			class CowsSlot{};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_PistolUnderRail
 			{
 				iconPosition[] = {0.5,0.3};
 				iconScale = 0.2;

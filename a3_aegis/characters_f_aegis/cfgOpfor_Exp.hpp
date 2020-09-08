@@ -156,7 +156,7 @@ class O_T_Soldier_AAA_F: O_Soldier_AAA_F
 };
 class O_T_Soldier_AAT_F: O_Soldier_AAT_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AAT_F.jpg";
     identityTypes[] =
     {
         LanguageCHI_F,
@@ -2164,7 +2164,7 @@ class O_T_soldier_UGV_02_Demining_F: O_T_Soldier_UAV_F
 class O_T_soldier_UGV_02_Science_F: O_T_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_soldier_UGV_02_Science_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_soldier_UGV_02_Science_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
@@ -2173,7 +2173,7 @@ class O_T_soldier_UGV_02_Science_F: O_T_Soldier_UAV_F
 class O_T_Survivor_F: O_T_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Survivor_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Survivor_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};

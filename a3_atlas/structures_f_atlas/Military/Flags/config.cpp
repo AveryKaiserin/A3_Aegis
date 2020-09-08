@@ -19,7 +19,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Belarus_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Belarus_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_Belarus_F0;
@@ -43,7 +43,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_CZ_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_CZ_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (Czech Republic)";
@@ -67,7 +67,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_France_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_France_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (France)";
@@ -91,7 +91,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Germany_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Germany_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_Germany_F0;
@@ -115,7 +115,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Takistan_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Takistan_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (Takistan)";
@@ -139,7 +139,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Australia_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Australia_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (Australia)";
@@ -163,7 +163,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_CDF_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_CDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (CDF)";
@@ -189,7 +189,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Chernarus_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Chernarus_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (Chernarus)";
@@ -213,7 +213,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_IDF_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_IDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_IDF_F0;
@@ -239,7 +239,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Israel_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Israel_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_Israel_F0;
@@ -261,7 +261,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Banner_01_CDF_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Banner_01_CDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Banner (CDF)";
@@ -279,7 +279,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Banner_01_IDF_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Banner_01_IDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Banner (IDF)";

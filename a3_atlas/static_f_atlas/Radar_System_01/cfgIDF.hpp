@@ -1,7 +1,7 @@
 class I_I_Radar_System_01_F: Radar_System_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Radar_System_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Radar_System_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	hiddenSelectionsTextures[] =

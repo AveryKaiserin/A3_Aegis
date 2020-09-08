@@ -797,7 +797,7 @@ class O_helicrew_F: O_helipilot_F
 };
 class O_soldier_PG_F: O_Soldier_base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldier_PG_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldier_PG_F.jpg";
 	weapons[] =
 	{
 		arifle_Katiba_C_ACO_pointer_F,
@@ -3015,7 +3015,7 @@ class O_Soldier_CBRN_F: O_Soldier_F
 class O_soldierU_CBRN_F: O_soldierU_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldierU_CBRN_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldierU_CBRN_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
@@ -3122,7 +3122,7 @@ class O_RadioOperator_F: O_Soldier_F
 class O_soldier_UGV_02_Demining_F: O_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_UGV_02_Demining_backpack_F;
 };

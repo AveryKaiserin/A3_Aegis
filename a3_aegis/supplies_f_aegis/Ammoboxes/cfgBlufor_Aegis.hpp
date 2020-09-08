@@ -546,7 +546,7 @@ class Box_A_NATO_Equip_tropic_F: Box_A_NATO_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_tropic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_tropic_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -606,7 +606,7 @@ class Box_A_NATO_Uniforms_tropic_F: Box_A_NATO_Uniforms_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_tropic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_tropic_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -638,7 +638,7 @@ class Box_A_NATO_Wps_tropic_F: Box_A_NATO_Wps_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Wps_tropic_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Wps_tropic_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Wps_tropic_F0;
     hiddenSelectionsTextures[] =
     {
@@ -689,7 +689,7 @@ class Box_A_NATO_WpsSpecial_tropic_F: Box_A_NATO_WpsSpecial_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_WpsSpecial_tropic_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_WpsSpecial_tropic_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_WpsSpecial_tropic_F0;
     hiddenSelectionsTextures[] =
     {
@@ -750,7 +750,7 @@ class Box_A_NATO_Ammo_tropic_F: Box_A_NATO_Ammo_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Ammo_tropic_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Ammo_tropic_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Ammo_tropic_F0;
     hiddenSelectionsTextures[] =
     {
@@ -788,7 +788,7 @@ class B_A_supplyCrate_tropic_F: B_A_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_tropic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_tropic_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
@@ -861,7 +861,7 @@ class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_wdl_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -928,7 +928,7 @@ class Box_A_NATO_Uniforms_wdl_F: Box_A_NATO_Uniforms_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_wdl_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -960,7 +960,7 @@ class Box_A_NATO_Wps_wdl_F: Box_A_NATO_Wps_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Wps_wdl_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Wps_wdl_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Wps_wdl_F0;
     hiddenSelectionsMaterials[] =
     {
@@ -1006,7 +1006,7 @@ class Box_A_NATO_WpsSpecial_wdl_F: Box_A_NATO_WpsSpecial_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_WpsSpecial_wdl_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_WpsSpecial_wdl_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_WpsSpecial_wdl_F0;
     hiddenSelectionsMaterials[] =
     {
@@ -1062,7 +1062,7 @@ class Box_A_NATO_Ammo_wdl_F: Box_A_NATO_Ammo_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Ammo_wdl_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Ammo_wdl_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Ammo_wdl_F0;
     hiddenSelectionsMaterials[] =
     {
@@ -1095,7 +1095,7 @@ class B_A_supplyCrate_wdl_F: B_A_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_wdl_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines

@@ -696,7 +696,7 @@ class B_ION_Soldier_TL_F: B_ION_Soldier_base_F
 class B_ION_RadioOperator_F: B_ION_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_RadioOperator_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_RadioOperator_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
@@ -831,7 +831,7 @@ class B_ION_soldier_UAV_06_medical_F: B_ION_Soldier_UAV_F
 class B_ION_soldier_UGV_02_Demining_F: B_ION_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_ION_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0;
 	backpack = B_ION_UGV_02_Demining_backpack_F;
 };

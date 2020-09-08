@@ -70,7 +70,7 @@ class I_I_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;

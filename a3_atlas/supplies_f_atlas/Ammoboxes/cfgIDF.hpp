@@ -11,7 +11,7 @@ class Box_IDF_Equip_F: Box_AAF_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Equip_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Equip_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_IDF_Equip_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -63,7 +63,7 @@ class Box_IDF_Uniforms_F: Box_AAF_Uniforms_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Uniforms_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Uniforms_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_IDF_Uniforms_F0;
 	hiddenSelectionsTextures[] =
 	{
@@ -96,7 +96,7 @@ class Box_IDF_Wps_F: Box_IND_Wps_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Wps_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Wps_F.jpg";
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_IDF_Wps_F0;
     editorCategory = EdCat_Supplies;
@@ -136,7 +136,7 @@ class Box_IDF_WpsSpecial_F: Box_IND_WpsSpecial_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_WpsSpecial_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_WpsSpecial_F.jpg";
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_IDF_WpsSpecial_F0;
     editorCategory = EdCat_Supplies;
@@ -188,7 +188,7 @@ class Box_IDF_Ammo_F: Box_IND_Ammo_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Ammo_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Ammo_F.jpg";
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_IDF_Ammo_F0;
     editorCategory = EdCat_Supplies;
@@ -226,7 +226,7 @@ class Box_IDF_AmmoOrd_F: Box_IND_AmmoOrd_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_AmmoOrd_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_AmmoOrd_F.jpg";
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_IDF_AmmoOrd_F0;
     editorCategory = EdCat_Supplies;
@@ -270,7 +270,7 @@ class Box_IDF_Grenades_F: Box_IND_Grenades_F
         verticalOffsetWorld = 0;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Grenades_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Grenades_F.jpg";
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_IDF_Grenades_F0;
     editorCategory = EdCat_Supplies;
@@ -324,7 +324,7 @@ class Box_IDF_Support_F: Box_IND_Support_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Support_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_Support_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_IDF_Support_F0;
 	editorCategory = EdCat_Supplies;
@@ -376,7 +376,7 @@ class Box_IDF_WpsLaunch_F: Box_IND_WpsLaunch_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_WpsLaunch_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_WpsLaunch_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_IDF_WpsLaunch_F0;
 	editorCategory = EdCat_Supplies;
@@ -418,7 +418,7 @@ class Box_IDF_AmmoVeh_F: Box_IND_AmmoVeh_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_AmmoVeh_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_IDF_AmmoVeh_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_IDF_AmmoVeh_F0;
 	editorCategory = EdCat_Supplies;
@@ -443,7 +443,7 @@ class I_I_supplyCrate_F: I_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_supplyCrate_F.jpg";
+	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_I_supplyCrate_F0;
 	class TransportMagazines
 	{

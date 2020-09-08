@@ -25,7 +25,7 @@ class I_I_Mortar_01_F: I_Mortar_01_F
 		verticalOffsetWorld = 0.037;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Mortar_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Mortar_01_F.jpg";
 	faction = IND_I_F;
 	crew = I_I_Soldier_F;
 	hiddenSelectionsTextures[] = {"\A3\Static_F\Mortar_01\Data\Mortar_01_CO.paa"};

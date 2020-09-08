@@ -10,7 +10,7 @@ class Box_C_East_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Wps_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Wps_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_C_East_Wps_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
@@ -42,7 +42,7 @@ class Box_C_East_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Ammo_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Ammo_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_C_East_Ammo_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
@@ -69,7 +69,7 @@ class Box_C_East_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_WpsLaunch_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_WpsLaunch_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_C_East_WpsLaunch_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
@@ -111,7 +111,7 @@ class O_C_supplyCrate_F: O_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_supplyCrate_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_O_C_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
 	class TransportMagazines

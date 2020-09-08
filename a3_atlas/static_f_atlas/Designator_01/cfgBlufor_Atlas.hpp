@@ -31,7 +31,7 @@ class B_E_Static_Designator_01_F: B_Static_Designator_01_F
 		verticalOffsetWorld = 0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Static_Designator_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Static_Designator_01_F.jpg";
 	side = TWest;
 	faction = BLU_E_F;
 	crew = B_UAV_AI;

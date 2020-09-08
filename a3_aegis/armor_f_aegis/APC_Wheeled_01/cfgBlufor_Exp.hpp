@@ -431,7 +431,7 @@ class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_cannon_v2_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_cannon_v2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;

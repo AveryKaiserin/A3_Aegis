@@ -121,7 +121,7 @@ class O_C_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
 		verticalOffsetWorld = 0.025;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_C_Plane_Fighter_03_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_C_Plane_Fighter_03_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

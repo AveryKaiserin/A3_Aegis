@@ -152,7 +152,6 @@ class CfgVehicles
 	class LSV_02_AT_base_F;
 	class O_T_LSV_02_armed_F: LSV_02_armed_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_LSV_02_armed_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
@@ -176,7 +175,6 @@ class CfgVehicles
 	};
 	class O_T_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_LSV_02_unarmed_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
@@ -192,7 +190,6 @@ class CfgVehicles
 	};
 	class O_T_LSV_02_AT_F: LSV_02_AT_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_LSV_02_AT_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",

@@ -1,7 +1,7 @@
 class B_T_UGV_01_medical_olive_F: UGV_01_medical_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_UGV_01_medical_olive_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_UGV_01_medical_olive_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;

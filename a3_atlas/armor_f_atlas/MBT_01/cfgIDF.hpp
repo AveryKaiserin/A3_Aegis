@@ -165,7 +165,7 @@ class I_I_MBT_01_arty_F: B_MBT_01_arty_F
 		verticalOffsetWorld = -0.199;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MBT_01_arty_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MBT_01_arty_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_MBT_01_arty_F0;
@@ -371,7 +371,7 @@ class I_I_MBT_01_cannon_F: B_MBT_01_cannon_F
 		verticalOffsetWorld = -0.22;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MBT_01_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MBT_01_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_MBT_01_cannon_F0;

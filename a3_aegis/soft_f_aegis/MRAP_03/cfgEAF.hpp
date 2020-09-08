@@ -1,7 +1,7 @@
 class I_E_MRAP_03_F: I_MRAP_03_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -39,7 +39,7 @@ class I_E_MRAP_03_F: I_MRAP_03_F
 class I_E_MRAP_03_hmg_F: I_MRAP_03_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_hmg_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -85,7 +85,7 @@ class I_E_MRAP_03_hmg_F: I_MRAP_03_hmg_F
 class I_E_MRAP_03_gmg_F: I_MRAP_03_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_gmg_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;

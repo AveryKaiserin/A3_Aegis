@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class MuzzleSlot;
@@ -55,14 +56,16 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 20;
-			class MuzzleSlot: MuzzleSlot
+			class MuzzleSlot: asdg_MuzzleSlot_9MM
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
 				compatibleItems[] =
 				{
 					muzzle_snds_L,
 					muzzle_mzls_L
 				};
+                */
 				iconPosition[] =
 				{
 					0.22, // X
@@ -71,10 +74,12 @@ class CfgWeapons
 				iconScale = 0.2;
 			};
 			class CowsSlot{};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
+                */
 				iconPosition[] =
 				{
 					0.36, // X

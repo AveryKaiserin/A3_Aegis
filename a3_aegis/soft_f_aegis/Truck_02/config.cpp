@@ -232,7 +232,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_covered_F: Truck_02_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_covered_F.jpg";
 		hiddenSelections[] =
 		{
 			camo1,
@@ -250,7 +249,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_transport_F: Truck_02_transport_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_transport_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
@@ -261,7 +259,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_covered_F: Truck_02_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_covered_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -272,7 +269,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_transport_F: Truck_02_transport_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_transport_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -623,7 +619,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_box_F: Truck_02_box_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_box_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
@@ -634,7 +629,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_medical_F: Truck_02_medical_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_medical_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
@@ -645,7 +639,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_Ammo_F: Truck_02_Ammo_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_Ammo_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
@@ -656,7 +649,6 @@ class CfgVehicles
 	};
 	class O_Truck_02_fuel_F: Truck_02_fuel_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Truck_02_fuel_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
@@ -667,7 +659,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_ammo_F: Truck_02_Ammo_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_ammo_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -678,7 +669,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_box_F: Truck_02_box_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_box_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -689,7 +679,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_medical_F: Truck_02_medical_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_medical_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -700,7 +689,6 @@ class CfgVehicles
 	};
 	class I_Truck_02_fuel_F: Truck_02_fuel_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_fuel_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
@@ -809,7 +797,6 @@ class CfgVehicles
 	// Arma 3 Apex
 	class O_T_Truck_02_F: Truck_02_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
@@ -820,7 +807,6 @@ class CfgVehicles
 	};
 	class O_T_Truck_02_transport_F: Truck_02_transport_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_transport_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
@@ -831,7 +817,6 @@ class CfgVehicles
 	};
 	class O_T_Truck_02_Box_F: Truck_02_box_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_Box_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
@@ -842,7 +827,6 @@ class CfgVehicles
 	};
 	class O_T_Truck_02_Medical_F: Truck_02_medical_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_Medical_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
@@ -853,7 +837,6 @@ class CfgVehicles
 	};
 	class O_T_Truck_02_Ammo_F: Truck_02_ammo_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_Ammo_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
@@ -864,7 +847,6 @@ class CfgVehicles
 	};
 	class O_T_Truck_02_fuel_F: Truck_02_fuel_base_F
 	{
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Truck_02_fuel_F.jpg";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",

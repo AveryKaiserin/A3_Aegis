@@ -11,7 +11,7 @@ class Box_ION_Equip_F: Box_NATO_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_ION_Equip_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_ION_Equip_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_ION_Equip_F0;
 	hiddenSelectionsTextures[] =
 	{

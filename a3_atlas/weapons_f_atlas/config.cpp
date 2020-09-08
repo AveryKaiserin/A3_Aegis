@@ -5,6 +5,7 @@
 #include "cfgRecoils.hpp"
 #include "cfgVehicles.hpp"
 #include "cfgMagazineWells.hpp"
+#include "ASDG.hpp"
 #include "cfgWeapons.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
@@ -44,4 +45,3 @@ class CowsSlot_Rail: CowsSlot
 };
 class PointerSlot_Rail;
 class UnderBarrelSlot_rail;
-#include "ASDG.hpp"

@@ -166,7 +166,7 @@ class O_W_Plane_CAS_02_dynamicLoadout_ghex_F: O_Plane_CAS_02_dynamicLoadout_F
 		verticalOffsetWorld = -0.108;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Plane_CAS_02_dynamicLoadout_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Plane_CAS_02_dynamicLoadout_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

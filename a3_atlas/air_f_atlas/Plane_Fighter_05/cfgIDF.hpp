@@ -1,7 +1,7 @@
 class I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_F0;
 	side = TGuerrila;
@@ -227,7 +227,7 @@ class I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 class I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_Stealth_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_Stealth_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_Stealth_F0;
 	side = TGuerrila;

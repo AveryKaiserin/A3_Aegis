@@ -30,7 +30,7 @@ class O_T_Boat_Transport_02_F: Boat_Transport_02_base_F
 		verticalOffsetWorld = -0.681;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Boat_Transport_02_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Boat_Transport_02_F.jpg";
 	scope = protected;
 	scopeCurator = private;
 	side = TEast;

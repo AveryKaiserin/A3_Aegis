@@ -92,7 +92,7 @@ class O_LightFatigues_01_whex_F: O_A_officer_F
 class O_W_Soldier_A_F: O_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_A_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -150,7 +150,7 @@ class O_W_Soldier_A_F: O_Soldier_A_F
 class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAR_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -212,7 +212,7 @@ class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 class O_W_Support_AMG_F: O_support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_AMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_AMG_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -272,7 +272,7 @@ class O_W_Support_AMG_F: O_support_AMG_F
 class O_W_Support_AMort_F: O_support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_AMort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_AMort_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -332,7 +332,7 @@ class O_W_Support_AMort_F: O_support_AMort_F
 class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_W_Soldier_AHAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AHAT_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -394,7 +394,7 @@ class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAA_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -456,7 +456,7 @@ class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AAT_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -518,7 +518,7 @@ class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 class O_W_Soldier_AR_F: O_Soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AR_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -575,7 +575,7 @@ class O_W_Soldier_AR_F: O_Soldier_AR_F
 class O_W_Medic_F: O_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Medic_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -635,7 +635,7 @@ class O_W_Medic_F: O_medic_F
 class O_W_Crew_F: O_crew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Crew_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -692,7 +692,7 @@ class O_W_Crew_F: O_crew_F
 class O_W_Engineer_F: O_engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Engineer_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -752,7 +752,7 @@ class O_W_Engineer_F: O_engineer_F
 class O_W_Soldier_Exp_F: O_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Exp_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -812,14 +812,14 @@ class O_W_Soldier_Exp_F: O_soldier_exp_F
 class O_W_soldier_mine_F: O_W_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_mine_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_owcamo_Mine;
 };
 class O_W_Soldier_GL_F: O_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_GL_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -880,7 +880,7 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 class O_W_Support_GMG_F: O_support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_GMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_GMG_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -940,7 +940,7 @@ class O_W_Support_GMG_F: O_support_GMG_F
 class O_W_Support_MG_F: O_support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_MG_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1000,7 +1000,7 @@ class O_W_Support_MG_F: O_support_MG_F
 class O_W_Support_Mort_F: O_support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_Mort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Support_Mort_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1060,7 +1060,7 @@ class O_W_Support_Mort_F: O_support_Mort_F
 class O_W_Helicrew_F: O_helicrew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Helicrew_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1108,7 +1108,7 @@ class O_W_Helicrew_F: O_helicrew_F
 class O_W_Helipilot_F: O_helipilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Helipilot_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1156,7 +1156,7 @@ class O_W_Helipilot_F: O_helipilot_F
 class O_W_soldier_M_F: O_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_M_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1215,7 +1215,7 @@ class O_W_soldier_M_F: O_soldier_M_F
 class O_W_Soldier_AA_F: O_Soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AA_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1277,7 +1277,7 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 class O_W_Soldier_AT_F: O_Soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_AT_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1339,7 +1339,7 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 class O_W_Officer_F: O_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Officer_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1396,7 +1396,7 @@ class O_W_Officer_F: O_officer_F
 class O_W_Soldier_Repair_F: O_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Repair_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Repair_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1454,7 +1454,7 @@ class O_W_Soldier_Repair_F: O_soldier_repair_F
 class O_W_Soldier_F: O_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1511,7 +1511,7 @@ class O_W_Soldier_F: O_Soldier_F
 class O_W_Soldier_HAT_F: O_Soldier_HAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_HAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_HAT_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1573,7 +1573,7 @@ class O_W_Soldier_HAT_F: O_Soldier_HAT_F
 class O_W_Soldier_LAT_F: O_soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_LAT_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1635,7 +1635,7 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 class O_W_Soldier_Lite_F: O_Soldier_lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Lite_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_Lite_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1688,7 +1688,7 @@ class O_W_Soldier_Lite_F: O_Soldier_lite_F
 class O_W_Soldier_SL_F: O_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_SL_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1753,7 +1753,7 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 class O_W_Soldier_TL_F: O_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_TL_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1824,7 +1824,7 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 class O_W_RadioOperator_F: O_W_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_RadioOperator_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
@@ -1874,7 +1874,7 @@ class O_W_RadioOperator_F: O_W_Soldier_F
 class O_W_Survivor_F: O_W_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Survivor_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Survivor_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -1889,7 +1889,7 @@ class O_W_Survivor_F: O_W_Soldier_F
 class O_W_Soldier_UAV_F: O_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Soldier_UAV_F.jpg";
 	faction = OPF_W_F;
 	genericNames = RussianMen;
 	identityTypes[] =
@@ -1949,21 +1949,21 @@ class O_W_Soldier_UAV_F: O_soldier_UAV_F
 class O_W_soldier_UAV_06_F: O_W_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = O_UAV_06_backpack_F;
 };
 class O_W_soldier_UAV_06_medical_F: O_W_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = O_UAV_06_medical_backpack_F;
 };
 class O_W_soldier_UGV_02_Demining_F: O_W_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_UGV_02_Demining_backpack_F;
 };

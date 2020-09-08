@@ -31,7 +31,7 @@ class I_I_Static_Designator_01_F: I_Static_Designator_01_F
 		verticalOffsetWorld = 0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_Designator_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_Designator_01_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F0;
 	faction = IND_I_F;
 	class assembleInfo

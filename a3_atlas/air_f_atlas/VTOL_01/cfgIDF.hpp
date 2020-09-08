@@ -129,7 +129,7 @@ class I_I_VTOL_01_infantry_F: VTOL_01_infantry_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_VTOL_01_infantry_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_VTOL_01_infantry_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_infantry_base_F0;
@@ -278,7 +278,7 @@ class I_I_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_VTOL_01_vehicle_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_VTOL_01_vehicle_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_vehicle_base_F0;

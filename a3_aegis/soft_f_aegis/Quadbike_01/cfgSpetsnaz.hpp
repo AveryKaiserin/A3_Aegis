@@ -158,7 +158,7 @@ class O_R_Quadbike_01_ard_F: O_R_Quadbike_01_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Quadbike_01_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Quadbike_01_ard_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

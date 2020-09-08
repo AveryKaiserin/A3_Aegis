@@ -768,7 +768,7 @@ class O_R_Truck_03_transport_ard_F: O_R_Truck_03_transport_F
 		verticalOffsetWorld = -0.159;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_transport_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_transport_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -870,7 +870,7 @@ class O_R_Truck_03_covered_ard_F: O_R_Truck_03_covered_F
 		verticalOffsetWorld = -0.131;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_covered_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_covered_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -972,7 +972,7 @@ class O_R_Truck_03_repair_ard_F: O_R_Truck_03_repair_F
 		verticalOffsetWorld = -0.141;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_repair_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_repair_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1074,7 +1074,7 @@ class O_R_Truck_03_ammo_ard_F: O_R_Truck_03_ammo_F
 		verticalOffsetWorld = -0.178;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_ammo_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_ammo_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1176,7 +1176,7 @@ class O_R_Truck_03_fuel_ard_F: O_R_Truck_03_fuel_F
 		verticalOffsetWorld = -0.199;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_fuel_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_fuel_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =
@@ -1278,7 +1278,7 @@ class O_R_Truck_03_medical_ard_F: O_R_Truck_03_medical_F
 		verticalOffsetWorld = -0.131;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_medical_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Truck_03_medical_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_Soldier_ard_F;
 	typicalCargo[] =

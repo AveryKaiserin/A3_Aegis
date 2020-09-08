@@ -197,7 +197,7 @@ class B_E_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 		verticalOffsetWorld = -0.051;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -422,7 +422,7 @@ class B_E_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 		verticalOffsetWorld = -0.051;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_Stealth_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_Stealth_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;

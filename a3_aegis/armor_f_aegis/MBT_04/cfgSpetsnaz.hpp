@@ -612,7 +612,7 @@ class O_R_MBT_04_cannon_ard_F: O_R_MBT_04_cannon_F
 		verticalOffsetWorld = -0.162;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_cannon_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_cannon_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};
@@ -802,7 +802,7 @@ class O_R_MBT_04_command_ard_F: O_R_MBT_04_command_F
 		verticalOffsetWorld = -0.164;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_command_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MBT_04_command_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_Soldier_ard_F};

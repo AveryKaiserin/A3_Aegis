@@ -1448,7 +1448,7 @@ class I_E_Soldier_CQ_F: I_E_Soldier_base_F
 class I_E_JTAC_F: I_E_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_JTAC_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_JTAC_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_CTRG_Soldier_JTAC_tna_F0;

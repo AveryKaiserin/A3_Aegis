@@ -176,7 +176,7 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 		verticalOffsetWorld = -0.195;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_AA_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_AA_F0;
@@ -386,7 +386,7 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_CRV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_CRV_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_CRV_F0;
@@ -591,7 +591,7 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		verticalOffsetWorld = -0.191;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_rcws_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_rcws_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_rcws_F0;

@@ -130,7 +130,7 @@ class B_A_VTOL_01_infantry_F: VTOL_01_infantry_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_infantry_base_F0;
@@ -279,7 +279,7 @@ class B_A_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_vehicle_base_F0;
@@ -429,7 +429,7 @@ class B_A_VTOL_01_infantry_tna_F: VTOL_01_infantry_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_tna_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_infantry_base_F0;
@@ -578,7 +578,7 @@ class B_A_VTOL_01_vehicle_tna_F: VTOL_01_vehicle_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_tna_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_vehicle_base_F0;
@@ -728,7 +728,7 @@ class B_A_VTOL_01_infantry_wdl_F: VTOL_01_infantry_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_infantry_wdl_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_infantry_base_F0;
@@ -877,7 +877,7 @@ class B_A_VTOL_01_vehicle_wdl_F: VTOL_01_vehicle_base_F
 		verticalOffsetWorld = 0.049;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_wdl_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_VTOL_01_vehicle_wdl_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_VTOL_01_vehicle_base_F0;

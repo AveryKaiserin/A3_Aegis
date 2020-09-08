@@ -42,7 +42,7 @@ class B_E_UAV_01_F: B_UAV_01_F
 		verticalOffsetWorld = -0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;

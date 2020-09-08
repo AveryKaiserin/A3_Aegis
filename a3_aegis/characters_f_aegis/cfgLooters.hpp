@@ -49,7 +49,7 @@ class I_L_Looter_SG_F: I_L_Soldier_Base_F
 };
 class I_L_Looter_Rifle_F: I_L_Soldier_Base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Looter_Rifle_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Looter_Rifle_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_L_Looter_Rifle_F0;
 	uniformClass = U_IG_Guerilla3_2;
 	linkedItems[] =
@@ -102,7 +102,7 @@ class I_L_Criminal_SG_F: I_L_Soldier_Base_F
 };
 class I_L_Hunter_F: I_L_Soldier_Base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Hunter_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Hunter_F.jpg";
 	uniformClass = U_IG_Guerilla3_1;
 };
 // Arma 3 Contact

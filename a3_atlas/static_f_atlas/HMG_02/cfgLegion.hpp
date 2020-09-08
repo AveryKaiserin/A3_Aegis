@@ -1,6 +1,7 @@
 class B_L_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_HMG_02_F.jpg";
 	scope = public;
 	side = TWest;
 	faction = BLU_L_F;
@@ -35,6 +36,7 @@ class B_L_HMG_02_F: HMG_02_base_F
 class B_L_HMG_02_high_F: HMG_02_high_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_HMG_02_high_F.jpg";
 	scope = public;
 	side = TWest;
 	faction = BLU_L_F;

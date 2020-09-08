@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class SlotInfo;
@@ -54,7 +55,7 @@ class CfgWeapons
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_762
+			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
 				iconPosition[] =
 				{
@@ -63,7 +64,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] =
 				{
@@ -72,7 +73,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{
@@ -81,7 +82,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{

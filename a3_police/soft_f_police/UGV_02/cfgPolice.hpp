@@ -1,7 +1,7 @@
 class I_P_UGV_02_Demining_F: UGV_02_Demining_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_UGV_02_Demining_F.jpg";
 	scope = public;
 	displayName = $STR_A3_C_CfgVehicles_C_IDAP_UGV_02_Demining_F0;
 	side = TGuerrila;

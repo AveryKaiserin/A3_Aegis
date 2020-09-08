@@ -48,7 +48,7 @@ class O_W_Static_AA_F: O_static_AA_F
 		verticalOffsetWorld = 0.005;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Static_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Static_AA_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
 	hiddenSelections[] =

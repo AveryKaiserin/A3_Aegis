@@ -399,7 +399,7 @@ class O_R_APC_Wheeled_02_rcws_v2_ard_F: O_R_APC_Wheeled_02_rcws_v2_F
 		verticalOffsetWorld = -0.148;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Wheeled_02_rcws_v2_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Wheeled_02_rcws_v2_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	crew = O_R_crew_ard_F;
 	typicalCargo[] = {O_R_crew_ard_F};

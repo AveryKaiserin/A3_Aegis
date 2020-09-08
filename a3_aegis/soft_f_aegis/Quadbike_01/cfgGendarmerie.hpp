@@ -70,7 +70,7 @@ class B_GEN_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
