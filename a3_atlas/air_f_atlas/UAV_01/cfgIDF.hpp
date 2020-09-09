@@ -79,6 +79,7 @@ class I_I_UAV_01_backpack_F: Weapon_Bag_Base
 	class assembleInfo: assembleInfo
 	{
 		base = "";
+		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_01_backpack_F_assembleInfo0;
 		assembleTo = I_I_UAV_01_F;
 	};
 };

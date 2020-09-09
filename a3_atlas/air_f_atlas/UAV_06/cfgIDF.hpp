@@ -213,7 +213,7 @@ class I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
 	};
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_CfgVehicles_I_UAV_06_backpack_F_assembleInfo0;
+		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F_assembleInfo0;
 		assembleTo = I_I_UAV_06_F;
 	};
 };
@@ -232,7 +232,7 @@ class I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 	};
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_CfgVehicles_I_UAV_06_medical_backpack_F_assembleInfo0;
+		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F_assembleInfo0;
 		assembleTo = I_I_UAV_06_medical_F;
 	};
 };
