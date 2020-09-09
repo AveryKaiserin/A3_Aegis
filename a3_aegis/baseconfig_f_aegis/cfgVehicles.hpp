@@ -1067,4 +1067,44 @@ class CfgVehicles
     COMPATIBILITYCLASS(Land_BagBunker_01_nest_green_F,ThingX)
     COMPATIBILITYCLASS(Land_RuggedRadio_F,ThingX)
     COMPATIBILITYCLASS(Land_Magazine_caseless_F,ThingX)
+    class Box_RUS_Ammo_F;
+    COMPATIBILITYCLASS(Box_RU_Ammo_F,Box_RUS_Ammo_F)
+    class Box_RUS_AmmoOrd_F;
+    COMPATIBILITYCLASS(Box_RU_AmmoOrd_F,Box_RUS_AmmoOrd_F)
+    class Box_RUS_AmmoVeh_F;
+    COMPATIBILITYCLASS(Box_RU_AmmoVeh_F,Box_RUS_AmmoVeh_F)
+    class Box_RUS_Equip_F;
+    COMPATIBILITYCLASS(Box_RU_Equip_F,Box_RUS_Equip_F)
+    class Box_RUS_Grenades_F;
+    COMPATIBILITYCLASS(Box_RU_Grenades_F,Box_RUS_Grenades_F)
+    class Box_RUS_Support_F;
+    COMPATIBILITYCLASS(Box_RU_Support_F,Box_RUS_Support_F)
+    class Box_RUS_Uniforms_F;
+    COMPATIBILITYCLASS(Box_RU_Uniforms_F,Box_RUS_Uniforms_F)
+    class Box_RUS_Wps_F;
+    COMPATIBILITYCLASS(Box_RU_Wps_F,Box_RUS_Wps_F)
+    class Box_RUS_WpsLaunch_F;
+    COMPATIBILITYCLASS(Box_RU_WpsLaunch_F,Box_RUS_WpsLaunch_F)
+    class Box_RUS_WpsSpecial_F;
+    COMPATIBILITYCLASS(Box_RU_WpsSpecial_F,Box_RUS_WpsSpecial_F)
+    class Box_NATO_Support_F;
+    COMPATIBILITYCLASS(Box_A_NATO_Support_F,Box_NATO_Support_F)
+    class Box_NATO_WpsLaunch_F;
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_F,Box_NATO_WpsLaunch_F)
+    class Box_NATO_AmmoVeh_F;
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_F,Box_NATO_AmmoVeh_F)
+    class Box_NATO_AmmoOrd_F;
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_F,Box_NATO_AmmoOrd_F)
+    class Box_NATO_Grenades_F;
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_F,Box_NATO_Grenades_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Support_tropic_F,Box_NATO_Support_F)
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_tropic_F,Box_NATO_WpsLaunch_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_tropic_F,Box_NATO_AmmoVeh_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_tropic_F,Box_NATO_AmmoOrd_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_tropic_F,Box_NATO_Grenades_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Support_wdl_F,Box_NATO_Support_F)
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_wdl_F,Box_NATO_WpsLaunch_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_wdl_F,Box_NATO_AmmoVeh_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_wdl_F,Box_NATO_AmmoOrd_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_wdl_F,Box_NATO_Grenades_F)
 };
