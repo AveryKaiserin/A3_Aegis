@@ -305,7 +305,7 @@ class CfgMagazines
 	};
 	class 20Rnd_762x51_weathered_Mag: 20Rnd_762x51_Mag
 	{
-		picture = "\A3\Weapons_F\Data\UI\M_20Rnd_762x51_CA.paa";
+		picture = "\A3\Weapons_F\MagazineProxies\Data\UI\icon_20Rnd_762x51_Mag_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "7.62 mm 20rnd Mk14 Mag";
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\Data\DMR_06_02_CO.paa"};
