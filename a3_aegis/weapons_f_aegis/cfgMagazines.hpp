@@ -198,6 +198,46 @@ class CfgMagazines
 		lastRoundsTracer = 100;
 	};
 	// Arma 3 Enoch
+	class 30rnd_762x39_AK12_Lush_Mag_F: 30Rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 30Rnd AK-15 Khaki Mag";
+	};
+	class 30rnd_762x39_AK12_Lush_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 30Rnd AK-15 Tracer Khaki Mag";
+	};
+	class 30rnd_762x39_AK12_Arid_Mag_F: 30Rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 30Rnd AK-15 Sand Mag";
+	};
+	class 30rnd_762x39_AK12_Arid_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 30Rnd AK-15 Tracer Sand Mag";
+	};
+	class 75rnd_762x39_AK12_Mag_F: 30Rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Mag";
+	};
+	class 75rnd_762x39_AK12_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Tracer Mag";
+	};
+	class 75rnd_762x39_AK12_Lush_Mag_F: 75rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Lush Mag";
+	};
+	class 75rnd_762x39_AK12_Lush_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Tracer Lush Mag";
+	};
+	class 75rnd_762x39_AK12_Arid_Mag_F: 75rnd_762x39_AK12_Mag_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Arid Mag";
+	};
+	class 75rnd_762x39_AK12_Arid_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 75Rnd AK-15 Tracer Arid Mag";
+	};
 	class 10Rnd_Mk14_762x51_Mag: 20Rnd_762x51_Mag
 	{
 		hiddenSelections[] = {camo};
@@ -638,7 +678,7 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "6Rnd M32 APERS Mines";
-		picture = "\A3\Weapons_F\Data\Placeholder_CO.paa";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\gear_UGL_APERS_CA.paa";
 		ammo = G_40mm_APERSMine;
 		descriptionShort = "Type: Anti-Personnel Mine Rounds<br />Rounds: 6<br />Used in: M32";
 		displayNameShort = $STR_A3_CfgMagazines_ClassicMineRangeMagazine0;
