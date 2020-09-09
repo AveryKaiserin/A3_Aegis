@@ -1779,7 +1779,7 @@ class I_I_Soldier_UAV_F: I_I_Soldier_Base_F
 		V_CarrierRigKBT_01_light_Olive_F,
 		H_HelmetI_I_01_F,
 		DefaultManLinkedItems,
-        I_I_UAVTerminal,
+        I_I_UavTerminal,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
@@ -1787,7 +1787,7 @@ class I_I_Soldier_UAV_F: I_I_Soldier_Base_F
 		V_CarrierRigKBT_01_light_Olive_F,
 		H_HelmetI_I_01_F,
 		DefaultManLinkedItems,
-        I_I_UAVTerminal,
+        I_I_UavTerminal,
 		NVGoggles_OPFOR
 	};
 	backpack = I_I_UAV_01_backpack_F;

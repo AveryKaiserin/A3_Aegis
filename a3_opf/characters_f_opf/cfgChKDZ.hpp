@@ -67,7 +67,11 @@ class O_E_Uniform_01_arid_F: O_E_Uniform_01_taiga_F
 	scope = protected;
     scopeCurator = private;
 	uniformClass = U_O_E_Uniform_01_arid_F;
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa"};
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa",
+		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
+	};
 };
 class O_E_Uniform_01_sweater_F: O_G_Soldier_LAT_F
 {

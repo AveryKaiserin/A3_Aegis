@@ -3437,6 +3437,25 @@
 					</Key>
 				</Container>
 			</Container>
+			<Container name="Items">
+				<Key ID="STR_A3_A_CfgWeapons_I_I_UavTerminal0">
+					<Original>UAV Terminal [IDF]</Original>
+					<Chinese>無人機終端機（IDF）</Chinese>
+					<French>Terminal drone [IDF]</French>
+					<Spanish>Terminal VANT [IDF]</Spanish>
+					<Italian>Terminale UAV [IDF]</Italian>
+					<Polish>Terminal dronów [IDF]</Polish>
+					<Russian>Терминал БПЛА [IDF]</Russian>
+					<German>UAC-Terminal [IDF]</German>
+					<Czech>UAV terminál [IDF]</Czech>
+					<English>UAV Terminal [IDF]</English>
+					<Portuguese>Terminal de VANT [IDF]</Portuguese>
+					<Korean>무인기 단말[IDF]</Korean>
+					<Chinesesimp>UAV 终端 [IDF]</Chinesesimp>
+					<Japanese>UAV ターミナル［IDF］</Japanese>
+					<Turkish>İHA Terminali [IDF]</Turkish>
+				</Key>
+			</Container>
 			<Container name="Rifles">
 				<Container name="DescriptionShort">
 					<Key ID="STR_A3_A_CfgWeapons_arifle_AUG_base_F1">
