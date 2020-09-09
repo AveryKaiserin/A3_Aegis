@@ -15,6 +15,7 @@ class Box_Para_Wps_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Paramilitary;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,12);
@@ -58,6 +59,7 @@ class Box_Para_Ammo_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Paramilitary;
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
@@ -95,6 +97,7 @@ class Box_Para_WpsLaunch_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Paramilitary;
 	class TransportMagazines
 	{
 		mag_xx(RPG32_F,10);

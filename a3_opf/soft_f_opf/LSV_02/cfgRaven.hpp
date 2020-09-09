@@ -103,7 +103,7 @@ class I_R_LSV_02_armed_F: LSV_02_armed_base_F
 	{
 		mag_xx(SmokeShell,4);
 		mag_xx(HandGrenade,4);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,8);
+		mag_xx(30Rnd_65x39_case_mag,8);
 	};
 	class TransportItems
 	{
@@ -111,7 +111,7 @@ class I_R_LSV_02_armed_F: LSV_02_armed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AK12_545_F,2);
+		weap_xx(arifle_Abakan_F,2);
 	};
 };
 class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
@@ -219,7 +219,7 @@ class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	{
 		mag_xx(SmokeShell,4);
 		mag_xx(HandGrenade,4);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,8);
+		mag_xx(30Rnd_65x39_case_mag,8);
 	};
 	class TransportItems
 	{
@@ -227,6 +227,6 @@ class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AK12_545_F,2);
+		weap_xx(arifle_Abakan_F,2);
 	};
 };

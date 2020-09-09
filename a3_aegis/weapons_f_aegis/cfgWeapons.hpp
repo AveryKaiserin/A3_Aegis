@@ -957,6 +957,7 @@ class CfgWeapons
 	class muzzle_snds_338_black;
 	class acc_pointer_IR;
 	// Arma 3 Marksman
+    class bipod_02_F_blk;
 	class srifle_DMR_02_F;
 	class srifle_DMR_02_sniper_F: srifle_DMR_02_F
 	{
@@ -1315,6 +1316,14 @@ class CfgWeapons
 	  	displayName = $STR_A3_A_CfgWeapons_weapon_SDBLauncher0;
 	};
 	// Arma 3 Enoch
+	class bipod_02_F_lush: bipod_02_F_blk
+	{
+		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_lush0;
+	};
+	class bipod_02_F_arid: bipod_02_F_blk
+	{
+		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
+	};
 	class launch_RPG32_camo_F: launch_RPG32_F
 	{
 		scope = public;

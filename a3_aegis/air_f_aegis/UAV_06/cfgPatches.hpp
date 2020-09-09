@@ -45,8 +45,6 @@ class CfgPatches
             B_A_UAV_06_medical_wdl_F,
             B_A_UAV_06_tna_F,
             B_A_UAV_06_wdl_F,
-            Box_B_A_UAV_06_F,
-            Box_B_A_UAV_06_medical_F,
 
             // ION
             B_ION_UAV_06_backpack_F,

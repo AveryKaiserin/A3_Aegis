@@ -11,7 +11,7 @@ class L_supplyCrate_F: ReammoBox_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\L_supplyCrate_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\L_supplyCrate_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_L_supplyCrate_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Supplydrop.p3d";
@@ -29,26 +29,28 @@ class L_supplyCrate_F: ReammoBox_F
 		SlingLoadCargo3,
 		SlingLoadCargo4
 	};
+    editorSubcategory = EdSubcat_Ammo_Legion;
 	class TransportMagazines
 	{
-		mag_xx(11Rnd_45ACP_Mag,6);
 		mag_xx(50Rnd_570x28_SMG_03,6);
+		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,30);
+		mag_xx(200Rnd_556x45_Box_Red_F,3);
+		mag_xx(17Rnd_9x21_Mag,2);
         mag_xx(6Rnd_12Gauge_Pellets,3);
         mag_xx(6Rnd_12Gauge_Slug,3);
-		mag_xx(200Rnd_556x45_Box_Red_F,3);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(1Rnd_Smoke_Grenade_shell,2);
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
-		mag_xx(chemlight_blue,6);
-		mag_xx(NLAW_F,3);
-		mag_xx(Laserbatteries,2);
-		mag_xx(HandGrenade,6);
-		mag_xx(MiniGrenade,6);
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellGreen,2);
+		mag_xx(chemlight_green,2);
+		mag_xx(B_IR_Grenade,2);
+		mag_xx(Laserbatteries,1);
 		mag_xx(UGL_FlareGreen_F,2);
 		mag_xx(UGL_FlareWhite_F,2);
+		mag_xx(NLAW_F,3);
+		mag_xx(MiniGrenade,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShell,2);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
+		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 	};
 	class TransportWeapons
 	{
@@ -61,25 +63,20 @@ class L_supplyCrate_F: ReammoBox_F
 	};
 	class TransportItems
 	{
+		item_xx(bipod_01_F_blk,2);
 		item_xx(FirstAidKit,10);
-		item_xx(Binocular,1);
+		item_xx(acc_flashlight,5);
+		item_xx(acc_pointer_IR,5);
 		item_xx(Laserdesignator_03,1);
-		item_xx(optic_Holosight_blk_F,1);
-		item_xx(optic_Holosight_smg_blk_F,1);
-		item_xx(optic_ico_01_black_f,1);
-		item_xx(optic_DMS,1);
-		item_xx(optic_NVS,1);
-		item_xx(optic_TWS,1);
-		item_xx(optic_TWS_MG,1);
-		item_xx(optic_TWS_Sniper,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
-		item_xx(acc_pointer_IR,2);
+		item_xx(Binocular,1);
 		item_xx(Medikit,1);
-		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
-		item_xx(bipod_01_F_blk,3);
-		item_xx(NVGoggles_INDEP,1);
+		item_xx(ToolKit,1);
+		item_xx(optic_ACO,2);
+		item_xx(optic_ico_01_black_f,2);
+		item_xx(optic_SOS,2);
+		item_xx(Rangefinder,1);
+		item_xx(NVGoggles_INDEP,5);
 	};
 	class TransportBackpacks
 	{

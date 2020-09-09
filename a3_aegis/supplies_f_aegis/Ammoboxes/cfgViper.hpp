@@ -30,23 +30,21 @@ class V_supplyCrate_F: ReammoBox_F
 	};
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
+    editorSubcategory = EdSubcat_Ammo_Viper;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);
 		mag_xx(10Rnd_50BW_Mag_F,12);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(1Rnd_Smoke_Grenade_shell,2);
-		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
-		mag_xx(chemlight_red,6);
+		mag_xx(17Rnd_9x21_Mag,2);
+		mag_xx(chemlight_red,2);
+		mag_xx(O_IR_Grenade,2);
+		mag_xx(Laserbatteries,1);
 		mag_xx(RPG32_F,3);
-		mag_xx(RPG32_HE_F,1);
-		mag_xx(Laserbatteries,2);
-		mag_xx(HandGrenade,6);
+		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(SmokeShell,2);
+		mag_xx(HandGrenade,6);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(UGL_FlareYellow_F,2);
-		mag_xx(UGL_FlareRed_F,2);
+		mag_xx(SmokeShell,2);
 	};
 	class TransportWeapons
 	{
@@ -55,24 +53,20 @@ class V_supplyCrate_F: ReammoBox_F
 	};
 	class TransportItems
 	{
+		item_xx(bipod_02_F_hex,2);
 		item_xx(FirstAidKit,10);
-		item_xx(Binocular,1);
+		item_xx(acc_flashlight,5);
+		item_xx(acc_pointer_IR,5);
 		item_xx(Laserdesignator_02,1);
-		item_xx(optic_ACO_grn,1);
-		item_xx(optic_ACO_grn_smg,1);
-		item_xx(optic_ARCO,1);
-		item_xx(optic_DMS,1);
-		item_xx(optic_Nightstalker,1);
-		item_xx(optic_TWS,1);
-		item_xx(optic_TWS_MG,1);
-		item_xx(optic_TWS_Sniper,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
-		item_xx(acc_pointer_IR,2);
+		item_xx(Binocular,1);
 		item_xx(Medikit,1);
-		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
-		item_xx(bipod_02_F_hex,1);
+		item_xx(ToolKit,1);
+		item_xx(optic_ACO_grn,2);
+		item_xx(optic_Arco,2);
+		item_xx(optic_DMS,2);
+		item_xx(optic_Nightstalker,5);
+		item_xx(Rangefinder,1);
 	};
 	class TransportBackpacks
 	{
@@ -109,24 +103,22 @@ class V_T_supplyCrate_F: ReammoBox_F
 		SlingLoadCargo4
 	};
     hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_T_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_Viper_CO.paa"};
+    editorSubcategory = EdSubcat_Ammo_Viper_Pacific;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);
 		mag_xx(10Rnd_50BW_Mag_F,12);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(1Rnd_Smoke_Grenade_shell,2);
-		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
-		mag_xx(chemlight_red,6);
+		mag_xx(17Rnd_9x21_Mag,2);
+		mag_xx(chemlight_red,2);
+		mag_xx(O_IR_Grenade,2);
+		mag_xx(Laserbatteries,1);
 		mag_xx(RPG32_F,3);
-		mag_xx(RPG32_HE_F,1);
-		mag_xx(Laserbatteries,2);
-		mag_xx(HandGrenade,6);
+		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(SmokeShell,2);
+		mag_xx(HandGrenade,6);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(UGL_FlareYellow_F,2);
-		mag_xx(UGL_FlareRed_F,2);
+		mag_xx(SmokeShell,2);
 	};
 	class TransportWeapons
 	{
@@ -135,24 +127,20 @@ class V_T_supplyCrate_F: ReammoBox_F
 	};
 	class TransportItems
 	{
+		item_xx(bipod_02_F_hex,2);
 		item_xx(FirstAidKit,10);
-		item_xx(Binocular,1);
+		item_xx(acc_flashlight,5);
+		item_xx(acc_pointer_IR,5);
 		item_xx(Laserdesignator_02_ghex_F,1);
-		item_xx(optic_ACO_grn,1);
-		item_xx(optic_ACO_grn_smg,1);
-		item_xx(optic_ARCO_ghex_F,1);
-		item_xx(optic_DMS_ghex_F,1);
-		item_xx(optic_Nightstalker,1);
-		item_xx(optic_TWS,1);
-		item_xx(optic_TWS_MG,1);
-		item_xx(optic_TWS_Sniper,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
-		item_xx(acc_pointer_IR,2);
+		item_xx(Binocular,1);
 		item_xx(Medikit,1);
-		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
-		item_xx(bipod_02_F_hex,1);
+		item_xx(ToolKit,1);
+		item_xx(optic_ACO_grn,2);
+		item_xx(optic_Arco_ghex_F,2);
+		item_xx(optic_DMS_ghex_F,2);
+		item_xx(optic_Nightstalker,5);
+		item_xx(Rangefinder,1);
 	};
 	class TransportBackpacks
 	{

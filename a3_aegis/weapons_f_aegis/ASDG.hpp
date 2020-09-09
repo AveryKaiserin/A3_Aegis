@@ -74,6 +74,7 @@ class asdg_MuzzleSlot_45ACP: asdg_MuzzleSlot
 {
     class compatibleItems
     {
+        muzzle_snds_pistol_heavy_01 = true;
         muzzle_mzls_acp = true;
     };
 };

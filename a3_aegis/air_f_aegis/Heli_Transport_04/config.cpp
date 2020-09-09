@@ -179,66 +179,59 @@ class CfgVehicles
 		};
 		class TransportMagazines
 		{
-			delete _xx_16Rnd_9x21_Mag;
-			mag_xx(17Rnd_9x21_Mag,6);
-			mag_xx(30Rnd_9x21_Mag_SMG_02,6);
-			mag_xx(30Rnd_65x39_caseless_green,24);
-			mag_xx(10Rnd_762x54_Mag,12);
-			mag_xx(150Rnd_762x54_Box,4);
-			mag_xx(1Rnd_HE_Grenade_shell,6);
-			mag_xx(1Rnd_Smoke_Grenade_shell,2);
-			mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
-			mag_xx(chemlight_red,6);
-			mag_xx(RPG32_F,3);
-			mag_xx(RPG32_HE_F,3);
-			mag_xx(Laserbatteries,2);
-			mag_xx(HandGrenade,6);
-			mag_xx(MiniGrenade,6);
-			mag_xx(SmokeShell,2);
-			mag_xx(SmokeShellRed,2);
-			mag_xx(UGL_FlareYellow_F,2);
-			mag_xx(UGL_FlareRed_F,2);
-		};
-		class TransportWeapons
-		{
-			weap_xx(arifle_Katiba_F,2);
-			weap_xx(arifle_Katiba_GL_F,1);
-			weap_xx(arifle_Katiba_C_F,1);
-			weap_xx(LMG_Zafir_F,1);
-			weap_xx(srifle_DMR_01_F,1);
-			weap_xx(launch_RPG32_F,1);
-		};
-		class TransportItems
-		{
-			item_xx(FirstAidKit,10);
-			item_xx(Binocular,1);
-			item_xx(Laserdesignator_02,1);
-			item_xx(optic_ACO_grn,1);
-			item_xx(optic_ACO_grn_smg,1);
-			item_xx(optic_Arco_blk_F,1);
-			item_xx(optic_DMS,1);
-			item_xx(optic_NVS,1);
-			item_xx(optic_tws,1);
-			item_xx(optic_tws_mg,1);
-			item_xx(optic_tws_sniper,1);
-			item_xx(acc_flashlight,2);
-			item_xx(acc_flashlight_pistol,2);
-			item_xx(acc_pointer_IR,2);
-			item_xx(Medikit,1);
-			item_xx(ToolKit,1);
-			item_xx(MineDetector,1);
-			item_xx(bipod_02_F_blk,1);
-			item_xx(bipod_02_F_hex,1);
-			item_xx(bipod_02_F_tan,1);
-			item_xx(NVGoggles_OPFOR,1);
-			item_xx(O_NVGoggles_blk_F,1);
-			item_xx(O_NVGoggles_hex_F,1);
-			item_xx(O_NVGoggles_urb_F,1);
-		};
-		class TransportBackpacks
-		{
-			bag_xx(B_Parachute,3);
-			bag_xx(B_FieldPack_ocamo,2);
+            delete _xx_16Rnd_9x21_Mag;
+            mag_xx(17Rnd_9x21_Mag,2);
+            mag_xx(30Rnd_9x21_Mag_SMG_02,6);
+            mag_xx(30Rnd_65x39_caseless_green,24);
+            mag_xx(10Rnd_762x54_Mag,6);
+            mag_xx(150Rnd_762x54_Box,4);
+            mag_xx(1Rnd_HE_Grenade_shell,6);
+            mag_xx(1Rnd_Smoke_Grenade_shell,2);
+            mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
+            mag_xx(chemlight_red,2);
+            mag_xx(RPG32_F,3);
+            mag_xx(RPG32_HE_F,3);
+            mag_xx(Laserbatteries,1);
+            mag_xx(HandGrenade,6);
+            mag_xx(MiniGrenade,6);
+            mag_xx(SmokeShell,2);
+            mag_xx(SmokeShellRed,2);
+            mag_xx(UGL_FlareYellow_F,2);
+            mag_xx(UGL_FlareRed_F,2);
+        };
+        class TransportWeapons
+        {
+            weap_xx(launch_RPG32_F,1);
+            weap_xx(arifle_Katiba_F,2);
+            weap_xx(LMG_Zafir_F,1);
+            weap_xx(arifle_Katiba_GL_F,1);
+            weap_xx(arifle_Katiba_C_F,1);
+            weap_xx(srifle_DMR_01_F,1);
+        };
+        class TransportItems
+        {
+            item_xx(FirstAidKit,10);
+            item_xx(Laserdesignator_02,1);
+            item_xx(bipod_02_F_blk,2);
+            item_xx(acc_flashlight,5);
+            item_xx(Binocular,1);
+            item_xx(optic_ACO_grn,1);
+            item_xx(optic_ACO_grn_smg,1);
+            item_xx(optic_Arco,1);
+            item_xx(optic_Arco_blk_F,1);
+            item_xx(optic_DMS,1);
+            item_xx(acc_pointer_IR,5);
+            item_xx(Medikit,1);
+            item_xx(ToolKit,1);
+            item_xx(MineDetector,1);
+            item_xx(O_NVGoggles_blk_F,1);
+            item_xx(O_NVGoggles_hex_F,3);
+            item_xx(O_NVGoggles_urb_F,1);
+        };
+        class TransportBackpacks
+        {
+            bag_xx(B_Parachute,3);
+            bag_xx(B_FieldPack_ocamo,2);
 		};
 	};
 	class O_Heli_Transport_04_covered_F: Heli_Transport_04_base_F

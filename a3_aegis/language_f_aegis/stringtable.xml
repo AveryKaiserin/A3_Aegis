@@ -10541,7 +10541,7 @@
 					<Japanese>ユニフォーム箱[LDF]</Japanese>
 					<Turkish>Üniforma Kutusu [LDF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Equip_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Equip_F0">
 					<Original>Equipment Box [Russia]</Original>
 					<Chinese>裝備盒（俄國）</Chinese>
 					<French>Caisse d'équipement [Russie]</French>
@@ -10558,7 +10558,7 @@
 					<Japanese>装備箱[ロシア]</Japanese>
 					<Turkish>Ekipman Kutusu [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Uniforms_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Uniforms_F0">
 					<Original>Uniforms Box [Russia]</Original>
 					<Chinese>制服盒（俄國）</Chinese>
 					<French>Caisse d'uniformes [Russie]</French>
@@ -10575,7 +10575,7 @@
 					<Japanese>ユニフォーム箱[ロシア]</Japanese>
 					<Turkish>Üniforma Kutusu [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Wps_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Wps_F0">
 					<Original>Basic Weapons [Russia]</Original>
 					<Chinese>基本武器（俄國）</Chinese>
 					<French>Armes de base [Russie]</French>
@@ -10592,7 +10592,7 @@
 					<Japanese>基本武器[ロシア]</Japanese>
 					<Turkish>Temel Silahlar [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_WpsSpecial_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_WpsSpecial_F0">
 					<Original>Special Weapons [Russia]</Original>
 					<Chinese>特殊武器（俄國）</Chinese>
 					<French>Armes spéciales [Russie]</French>
@@ -10609,7 +10609,7 @@
 					<Japanese>特殊武器[ロシア]</Japanese>
 					<Turkish>Özel Silahlar [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Ammo_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Ammo_F0">
 					<Original>Basic Ammo [Russia]</Original>
 					<Chinese>基本彈藥（俄國）</Chinese>
 					<French>Munitions de base [Russie]</French>
@@ -10626,7 +10626,7 @@
 					<Japanese>基本弾薬[ロシア]</Japanese>
 					<Turkish>Temel Mühimmat [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_AmmoOrd_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_AmmoOrd_F0">
 					<Original>Explosives [Russia]</Original>
 					<Chinese>爆裂物（俄國）</Chinese>
 					<French>Explosifs [Russie]</French>
@@ -10643,7 +10643,7 @@
 					<Japanese>爆発物[ロシア]</Japanese>
 					<Turkish>Patlayıcılar [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Grenades_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Grenades_F0">
 					<Original>Grenades [Russia]</Original>
 					<Chinese>手榴彈（俄國）</Chinese>
 					<French>Grenades [Russie]</French>
@@ -10660,7 +10660,7 @@
 					<Japanese>手榴弾[ロシア]</Japanese>
 					<Turkish>El Bombaları [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_Support_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_Support_F0">
 					<Original>Support [Russia]</Original>
 					<Chinese>後勤物資（俄國）</Chinese>
 					<French>Appui [Russie]</French>
@@ -10677,7 +10677,7 @@
 					<Japanese>支援[ロシア]</Japanese>
 					<Turkish>Destek [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_WpsLaunch_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_WpsLaunch_F0">
 					<Original>Launchers [Russia]</Original>
 					<Chinese>發射器（俄國）</Chinese>
 					<French>Lanceurs [Russie]</French>
@@ -10694,7 +10694,7 @@
 					<Japanese>ランチャー[ロシア]</Japanese>
 					<Turkish>Fırlatıcılar [Rusya]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_RU_AmmoVeh_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_RUS_AmmoVeh_F0">
 					<Original>Vehicle Ammo [Russia]</Original>
 					<Chinese>載具彈藥（俄國）</Chinese>
 					<French>Munitions pour véhicules [Russie]</French>
@@ -11118,74 +11118,6 @@
 					<Chinesesimp>供给箱 [北约太林地英国的]</Chinesesimp>
 					<Japanese>物資箱[NATO森林 イギリス人]</Japanese>
 					<Turkish>İkmal Kutusu [NATO Ağaçlık İngiliz]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_W_East_Wps_F0">
-					<Original>Basic Weapons [CSAT Woodland]</Original>
-					<Chinese>基本武器（CSAT 森林）</Chinese>
-					<French>Armes standard [CSAT, forêt]</French>
-					<Spanish>Armas básicas [CSAT, bosque]</Spanish>
-					<Italian>Armi di base [CSAT, boschi]</Italian>
-					<Polish>Broń podstawowa [CSAT, las]</Polish>
-					<Russian>Основное оружие [CSAT, лес]</Russian>
-					<German>Basiswaffen [CSAT, Waldland]</German>
-					<Czech>Základní zbraně [CSAT, woodland]</Czech>
-					<English>Basic Weapons [CSAT Woodland]</English>
-					<Portuguese>Armas básicas [CSAT, floresta]</Portuguese>
-					<Korean>기본무기[CSAT 산악]</Korean>
-					<Chinesesimp>基本武器 [CSAT 林地]</Chinesesimp>
-					<Japanese>基本武器 [CSAT 森林]</Japanese>
-					<Turkish>Temel Silahlar [CSAT Ağaçlık]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_W_East_Ammo_F0">
-					<Original>Basic Ammo [CSAT Woodland]</Original>
-					<Chinese>基本彈藥（CSAT 森林）</Chinese>
-					<French>Munitions standard [CSAT, forêt]</French>
-					<Spanish>Munición básica [CSAT, bosque]</Spanish>
-					<Italian>Munizioni di base [CSAT, boschi]</Italian>
-					<Polish>Amunicja podstawowa [CSAT, las]</Polish>
-					<Russian>Основные боеприпасы [CSAT, лес]</Russian>
-					<German>Basismunition [CSAT, Waldland]</German>
-					<Czech>Základní munice [CSAT, woodland]</Czech>
-					<English>Basic Ammo [CSAT Woodland]</English>
-					<Portuguese>Munição básica [CSAT, floresta]</Portuguese>
-					<Korean>기본탄약[CSAT 산악]</Korean>
-					<Chinesesimp>基本弹药 [CSAT 林地]</Chinesesimp>
-					<Japanese>基本弾薬 [CSAT 森林]</Japanese>
-					<Turkish>Temel Mühimmat [CSAT Ağaçlık]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_W_East_WpsLaunch_F0">
-					<Original>Launchers [CSAT Woodland]</Original>
-					<Chinese>發射器（CSAT 森林）</Chinese>
-					<French>Lanceurs [CSAT, forêt]</French>
-					<Spanish>Lanzadores [CSAT, bosque]</Spanish>
-					<Italian>Lanciatori [CSAT, boschi]</Italian>
-					<Polish>Wyrzutnie [CSAT, las]</Polish>
-					<Russian>Пусковые установки [CSAT, лес]</Russian>
-					<German>Werfer [CSAT, Waldland]</German>
-					<Czech>Raketomety [CSAT, woodland]</Czech>
-					<English>Launchers [CSAT Woodland]</English>
-					<Portuguese>Lançadores [CSAT, floresta]</Portuguese>
-					<Korean>발사기[CSAT 산악]</Korean>
-					<Chinesesimp>发射器 [CSAT 林地]</Chinesesimp>
-					<Japanese>ランチャー [CSAT 森林]</Japanese>
-					<Turkish>Fırlatıcılar [CSAT Ağaçlık]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_O_W_supplyCrate_F0">
-					<Original>Supply Box [CSAT Woodland]</Original>
-					<Chinese>補給盒（CSAT 森林）</Chinese>
-					<French>Caisse de ravitaillements [CSAT, forêt]</French>
-					<Spanish>Caja de suministros [CSAT, bosque]</Spanish>
-					<Italian>Scatola di rifornimenti [CSAT, boschi]</Italian>
-					<Polish>Skrzynia z zaopatrzeniem [CSAT, las]</Polish>
-					<Russian>Ящик с припасами [CSAT, лес]</Russian>
-					<German>Nachschubkiste [CSAT, Waldland]</German>
-					<Czech>Bedna se zásobami [CSAT, woodland]</Czech>
-					<English>Supply Box [CSAT Woodland]</English>
-					<Portuguese>Caixa de suprimentos [CSAT, floresta]</Portuguese>
-					<Korean>보급상자[CSAT 산악]</Korean>
-					<Chinesesimp>电源箱 [CSAT 林地]</Chinesesimp>
-					<Japanese>物資箱 [CSAT 森林]</Japanese>
-					<Turkish>İkmal Kutusu [CSAT Ağaçlık]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Box_ION_Equip_F0">
 					<Original>Supply Box [ION]</Original>
@@ -12661,6 +12593,40 @@
 		</Container>
 		<Container name="Weapons_F">
 			<Container name="Accessories">
+                <Key ID="STR_A3_A_CfgWeapons_bipod_02_F_lush0">
+                    <Original>Bipod (Lush) [Russia]</Original>
+                    <Chinese>二腳架（林地用）（俄國）</Chinese>
+                    <French>Bipied (luxuriant) [Russie]</French>
+                    <Spanish>Bípode (exuberante) [Rusia]</Spanish>
+                    <Italian>Cavalletto (verdeggiante) [Russia]</Italian>
+                    <Polish>Dwójnóg (gąszcz) [Rosja]</Polish>
+                    <Russian>Сошка (болотный) [Россия]</Russian>
+                    <German>Zweibein (üppig) [Russland]</German>
+                    <Czech>Dvojnožka (lesní) [Rusko]</Czech>
+                    <English>Bipod (Lush) [Russia]</English>
+                    <Portuguese>Bipé (exuberante) [Rússia]</Portuguese>
+                    <Korean>양각대 (초목) [러시아]</Korean>
+                    <Chinesesimp>两脚架（繁茂）[俄国]</Chinesesimp>
+                    <Japanese>二脚架（緑地）［ロシア］</Japanese>
+                    <Turkish>İkili Ayak (Orman Kam.) [Rusya]</Turkish>
+                </Key>
+                <Key ID="STR_A3_A_CfgWeapons_bipod_02_F_arid0">
+                    <Original>Bipod (Arid) [Russia]</Original>
+                    <Chinese>二腳架（旱地用）（俄國）</Chinese>
+                    <French>Bipied (aride) [Russie]</French>
+                    <Spanish>Bípode (árido) [Rusia]</Spanish>
+                    <Italian>Cavalletto (arido) [Russia]</Italian>
+                    <Polish>Dwójnóg (region suchy) [Rosja]</Polish>
+                    <Russian>Сошка (пустынный) [Россия]</Russian>
+                    <German>Zweibein (trocken) [Russland]</German>
+                    <Czech>Dvojnožka (pouštní) [Rusko]</Czech>
+                    <English>Bipod (Arid) [Russia]</English>
+                    <Portuguese>Bipé (árido) [Rússia]</Portuguese>
+                    <Korean>양각대 (사막) [러시아]</Korean>
+                    <Chinesesimp>两脚架（干旱）[俄国]</Chinesesimp>
+                    <Japanese>二脚架（乾燥地帯）［ロシア］</Japanese>
+                    <Turkish>İkili Ayak (Kurak Kam.) [Rusya]</Turkish>
+                </Key>
 				<Container name="DescriptionShort">
 					<Key ID="STR_A3_A_CfgWeapons_optic_srs1">
 						<Original>SRS Collimator Optics&lt;br /&gt;Magnification: 1x</Original>

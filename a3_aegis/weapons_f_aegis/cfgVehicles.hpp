@@ -113,6 +113,14 @@ class CfgVehicles
 	class Launcher_Base_F;
 	class Item_Base_F;
 	// Arma 3 Enoch
+	class Item_bipod_02_F_lush: Item_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_lush0;
+	};
+	class Item_bipod_02_F_arid: Item_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
+	};
 	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
 	// Arma 3 Oldman
 	class OM_Electro;

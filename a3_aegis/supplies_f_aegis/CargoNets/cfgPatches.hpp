@@ -6,7 +6,9 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Aegis_Supplies_F_Aegis,
-			A3_Supplies_F_Heli_CargoNets
+            A3_Supplies_F_Enoch_Ammoboxes,
+			A3_Supplies_F_Heli_CargoNets,
+            A3_Supplies_F_Orange_CargoNets
 		};
 		requiredVersion = 0.1;
 		units[] =

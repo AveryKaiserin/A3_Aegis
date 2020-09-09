@@ -12,6 +12,7 @@ class CfgPatches
 			A3_Sounds_F_Tank,
 			A3_Weapons_F,
 			A3_Weapons_F_Enoch,
+            A3_Weapons_F_Enoch_Acc,
 			A3_Weapons_F_Enoch_Rifles_AK12,
 			A3_Weapons_F_Enoch_Rifles_MSBS,
 			A3_Weapons_F_Exp,

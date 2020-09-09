@@ -2859,6 +2859,23 @@
 		</Container>
 		<Container name="Supplies_F">
 			<Container name="Ammoboxes">
+				<Key ID="STR_A3_A_CfgVehicles_O_W_supplyCrate_F0">
+					<Original>Supply Box [CSAT Woodland]</Original>
+					<Chinese>補給盒（CSAT 森林）</Chinese>
+					<French>Caisse de ravitaillements [CSAT, forêt]</French>
+					<Spanish>Caja de suministros [CSAT, bosque]</Spanish>
+					<Italian>Scatola di rifornimenti [CSAT, boschi]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [CSAT, las]</Polish>
+					<Russian>Ящик с припасами [CSAT, лес]</Russian>
+					<German>Nachschubkiste [CSAT, Waldland]</German>
+					<Czech>Bedna se zásobami [CSAT, woodland]</Czech>
+					<English>Supply Box [CSAT Woodland]</English>
+					<Portuguese>Caixa de suprimentos [CSAT, floresta]</Portuguese>
+					<Korean>보급상자[CSAT 산악]</Korean>
+					<Chinesesimp>电源箱 [CSAT 林地]</Chinesesimp>
+					<Japanese>物資箱 [CSAT 森林]</Japanese>
+					<Turkish>İkmal Kutusu [CSAT Ağaçlık]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_L_supplyCrate_F0">
 					<Original>Supply Box [Legion]</Original>
 					<Chinese>補給盒（軍團）</Chinese>
@@ -2876,7 +2893,24 @@
 					<Japanese>物資箱[軍団]</Japanese>
 					<Turkish>İkmal Kutusu [Lejyon]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_H_Wps_F0">
+				<Key ID="STR_A3_A_CfgVehicles_B_E_supplyCrate_F0">
+					<Original>Supply Box [NATO German]</Original>
+					<Chinese>補給盒（NATO 德語）</Chinese>
+					<French>Caisse de ravitaillements [OTAN Allemand]</French>
+					<Spanish>Caja de suministros [OTAN, Alemán]</Spanish>
+					<Italian>Scatola di rifornimenti [NATO Germano]</Italian>
+					<Polish>Skrzynka z zaopatrzeniem [NATO Niemiecki]</Polish>
+					<Russian>Ящик с припасами [НАТО, Немецкий]</Russian>
+					<German>Nachschubkiste [NATO Deutsche]</German>
+					<Czech>Bedna se zásobami [NATO Němec]</Czech>
+					<English>Supply Box [NATO German]</English>
+					<Portuguese>Caixa de Suprimentos [OTAN Germano]</Portuguese>
+					<Korean>보급상자[NATO 독일 사람]</Korean>
+					<Chinesesimp>供给箱 [NATO 德语]</Chinesesimp>
+					<Japanese>物資箱[NATOドイツ人]</Japanese>
+					<Turkish>İkmal Kutusu [NATO Almanca]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Box_Tanoan_Wps_F0">
 					<Original>Basic Weapons [HIMF]</Original>
 					<Chinese>基本武器（HIMF）</Chinese>
 					<French>Armes de base [HIMF]</French>
@@ -2893,7 +2927,7 @@
 					<Japanese>基本武器[HIMF]</Japanese>
 					<Turkish>Temel Silahlar [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_H_Ammo_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_Tanoan_Ammo_F0">
 					<Original>Basic Ammo [HIMF]</Original>
 					<Chinese>基本彈藥（HIMF）</Chinese>
 					<French>Munitions de base [HIMF]</French>
@@ -2910,7 +2944,7 @@
 					<Japanese>基本弾薬[HIMF]</Japanese>
 					<Turkish>Temel Mühimmat [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_H_WpsLaunch_F0">
+				<Key ID="STR_A3_A_CfgVehicles_Box_Tanoan_WpsLaunch_F0">
 					<Original>Launchers [HIMF]</Original>
 					<Chinese>發射器（HIMF）</Chinese>
 					<French>Lanceurs [HIMF]</French>
@@ -2944,73 +2978,22 @@
 					<Japanese>物資箱[HIMF]</Japanese>
 					<Turkish>İkmal Kutusu [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_Wps_F0">
-					<Original>Basic Weapons [NATO European]</Original>
-					<Chinese>基本武器（NATO 歐洲人）</Chinese>
-					<French>Armes standard [OTAN européens]</French>
-					<Spanish>Armas básicas [OTAN, europeos]</Spanish>
-					<Italian>Armi di base [NATO europei]</Italian>
-					<Polish>Broń podstawowa [NATO Europejczycy]</Polish>
-					<Russian>Основное оружие [НАТО, европейцы]</Russian>
-					<German>Standardwaffen [NATO Europa]</German>
-					<Czech>Základní zbraně [NATO Evropané]</Czech>
-					<English>Basic Weapons [NATO European]</English>
-					<Portuguese>Armas Básicas [OTAN europeus]</Portuguese>
-					<Korean>기본무기[NATO 유럽]</Korean>
-					<Chinesesimp>基本武器 [NATO 欧洲人]</Chinesesimp>
-					<Japanese>基本武器[NATOヨーロッパ系]</Japanese>
-					<Turkish>Temel Silahlar [NATO Avrupalı]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_Ammo_F0">
-					<Original>Basic Ammo [NATO European]</Original>
-					<Chinese>基本彈藥（NATO 歐洲人）</Chinese>
-					<French>Munitions standard [OTAN européens]</French>
-					<Spanish>Munición básica [OTAN, europeos]</Spanish>
-					<Italian>Munizioni di base [NATO europei]</Italian>
-					<Polish>Amunicja podstawowa [NATO Europejczycy]</Polish>
-					<Russian>Основные боеприпасы [НАТО, европейцы]</Russian>
-					<German>Basismunition [NATO Europa]</German>
-					<Czech>Základní munice [NATO Evropané]</Czech>
-					<English>Basic Ammo [NATO European]</English>
-					<Portuguese>Munição básica [OTAN europeus]</Portuguese>
-					<Korean>기본탄약[NATO 유럽]</Korean>
-					<Chinesesimp>基本弹药 [NATO 欧洲人]</Chinesesimp>
-					<Japanese>基本弾薬 [NATOヨーロッパ系]</Japanese>
-					<Turkish>Temel Mühimmat [NATO Avrupalı]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_Box_E_NATO_WpsLaunch_F0">
-					<Original>Launchers [NATO European]</Original>
-					<Chinese>發射器（NATO 歐洲人）</Chinese>
-					<French>Lanceurs [OTAN européens]</French>
-					<Spanish>Lanzadores [OTAN, europeos]</Spanish>
-					<Italian>Lanciatori [NATO europei]</Italian>
-					<Polish>Wyrzutnie [NATO Europejczycy]</Polish>
-					<Russian>Пусковые установки [НАТО, европейцы]</Russian>
-					<German>Werfer [NATO Europa]</German>
-					<Czech>Raketomety [NATO Evropané]</Czech>
-					<English>Launchers [NATO European]</English>
-					<Portuguese>Lançadores [OTAN europeus]</Portuguese>
-					<Korean>발사기[NATO 유럽]</Korean>
-					<Chinesesimp>发射器 [NATO 欧洲人]</Chinesesimp>
-					<Japanese>ランチャー[NATOヨーロッパ系]</Japanese>
-					<Turkish>Fırlatıcılar [NATO Avrupalı]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_E_supplyCrate_F0">
-					<Original>Supply Box [NATO European]</Original>
-					<Chinese>補給盒（NATO 歐洲人）</Chinese>
-					<French>Caisse de ravitaillements [OTAN européens]</French>
-					<Spanish>Caja de suministros [OTAN, europeos]</Spanish>
-					<Italian>Scatola di rifornimenti [NATO europei]</Italian>
-					<Polish>Skrzynka z zaopatrzeniem [NATO Europejczycy]</Polish>
-					<Russian>Ящик с припасами [НАТО, европейцы]</Russian>
-					<German>Nachschubkiste [NATO Europa]</German>
-					<Czech>Bedna se zásobami [NATO Evropané]</Czech>
-					<English>Supply Box [NATO European]</English>
-					<Portuguese>Caixa de Suprimentos [OTAN europeus]</Portuguese>
-					<Korean>보급상자[NATO 유럽]</Korean>
-					<Chinesesimp>供给箱 [NATO 欧洲人]</Chinesesimp>
-					<Japanese>物資箱[NATOヨーロッパ系]</Japanese>
-					<Turkish>İkmal Kutusu [NATO Avrupalı]</Turkish>
+				<Key ID="STR_A3_A_CfgVehicles_I_I_supplyCrate_F0">
+					<Original>Supply Box [IDF]</Original>
+					<Chinese>補給盒（IDF）</Chinese>
+					<French>Caisse de ravitaillements [IDF]</French>
+					<Spanish>Caja de suministros [IDF]</Spanish>
+					<Italian>Scatola di rifornimenti [IDF]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [IDF]</Polish>
+					<Russian>Ящик с припасами [IDF]</Russian>
+					<German>Nachschubkiste [IDF]</German>
+					<Czech>Bedna se zásobami [IDF]</Czech>
+					<English>Supply Box [IDF]</English>
+					<Portuguese>Caixa de suprimentos [IDF]</Portuguese>
+					<Korean>보급상자[IDF]</Korean>
+					<Chinesesimp>供给箱 [IDF]</Chinesesimp>
+					<Japanese>物資箱[IDF]</Japanese>
+					<Turkish>İkmal Kutusu [IDF]</Turkish>
 				</Key>
 			</Container>
 			<Container name="Bags">

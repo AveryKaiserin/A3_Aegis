@@ -15,6 +15,7 @@ class Box_TKM_Wps_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Insurgents;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_762x39_Mag_F,6);
@@ -56,6 +57,7 @@ class Box_TKM_Ammo_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Insurgents;
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
@@ -93,6 +95,7 @@ class Box_TKM_WpsLaunch_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Insurgents;
 	class TransportMagazines
 	{
 		mag_xx(RPG7_F,15);

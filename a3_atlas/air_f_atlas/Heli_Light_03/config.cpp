@@ -15,8 +15,8 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_wdl_CO.paa",
-					"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Box_A_NATO_Wps_F_CO.paa",
-					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_CO.paa",
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 				};
 				factions[] = {BLU_E_F};
 			};
