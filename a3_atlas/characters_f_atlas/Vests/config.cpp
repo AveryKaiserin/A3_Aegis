@@ -152,7 +152,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_khaki_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
@@ -164,7 +164,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_khaki_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_khaki_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_khk_CO.paa",
@@ -176,7 +176,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_olive_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_olive_F_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_olive_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_oli_CO.paa",
@@ -188,7 +188,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_olive_F0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_olive_F_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_SmershVest_01_radio_olive_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\Smersh_oli_CO.paa",

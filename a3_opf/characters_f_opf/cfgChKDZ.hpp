@@ -102,13 +102,13 @@ class O_E_Soldier_1_F: O_E_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] = 
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
@@ -180,13 +180,13 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	uniformClass = U_O_E_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_MilCap_grn,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_radio_khaki_F,
+		V_SmershVest_01_radio_olive_F,
 		H_MilCap_grn,
 		DefaultManGuerillaLinkedItems
 	};
@@ -357,13 +357,13 @@ class O_E_Soldier_4_F: O_E_Soldier_Base_F
 	linkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -903,13 +903,13 @@ class O_E_Soldier_Base_unarmed_F: O_E_Soldier_1_F
 	respawnMagazines[] = {};
 	linkedItems[] = 
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_khaki_F,
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
 		DefaultManGuerillaLinkedItems
 	};

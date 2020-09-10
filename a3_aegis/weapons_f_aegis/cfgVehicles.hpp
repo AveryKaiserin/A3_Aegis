@@ -187,9 +187,13 @@ class CfgVehicles
 	ACC_HOLDER(muzzle_mzls_B,$STR_A3_A_CfgWeapons_muzzle_mzls_B0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
 	ACC_HOLDER(muzzle_mzls_acp,$STR_A3_A_CfgWeapons_muzzle_mzls_acp0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
 	ACC_HOLDER(muzzle_mzls_smg_01,$STR_A3_A_CfgWeapons_muzzle_mzls_smg_010,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
-	ACC_HOLDER(optic_srs,$STR_A3_A_CfgWeapons_optic_srs0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
-	ACC_HOLDER(optic_dcl,$STR_A3_A_CfgWeapons_optic_dcl0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
+	/*
+    ACC_HOLDER(optic_srs,$STR_A3_A_CfgWeapons_optic_srs0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
+	*/
+    ACC_HOLDER(optic_dcl,$STR_A3_A_CfgWeapons_optic_dcl0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
+	/*
 	ACC_HOLDER(optic_ACOG,$STR_A3_A_CfgWeapons_optic_ACOG0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
+	*/
 	ACC_HOLDER(optic_tws_sniper,$STR_A3_CfgWeapons_optic_tws_sniper0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
 	WEAPON_HOLDER(srifle_DMR_02_tna_F,$STR_A3_A_CfgWeapons_srifle_DMR_02_tna_F0,EdSubcat_SniperRifles,10Rnd_338_Mag)
 	WEAPON_HOLDER(srifle_DMR_05_ghex_F,$STR_A3_A_CfgWeapons_srifle_DMR_05_ghex_F0,EdSubcat_SniperRifles,10Rnd_93x64_DMR_05_Mag)

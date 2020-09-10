@@ -1019,7 +1019,7 @@ class B_Soldier_diver_base_F: B_Soldier_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
     };
-    canHideBodies = true;
+    canHideBodies = false;
 };
 class B_diver_F: B_Soldier_diver_base_F
 {
@@ -1064,7 +1064,7 @@ class B_diver_TL_F: B_Soldier_diver_base_F
 class B_Soldier_recon_base: B_Soldier_base_F
 {
     icon = iconManRecon;
-    canHideBodies = true;
+    canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,
@@ -1488,7 +1488,7 @@ class B_recon_JTAC_F: B_Soldier_recon_base
 };
 class B_Soldier_sniper_base_F: B_Soldier_base_F
 {
-    canHideBodies = true;
+    canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,

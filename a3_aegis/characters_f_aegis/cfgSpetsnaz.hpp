@@ -379,7 +379,7 @@ class O_R_Soldier_recon_base: O_R_Soldier_Base_F
 		FirstAidKit,
 		optic_Nightstalker
 	};
-	canHideBodies = true;
+	canHideBodies = false;
     icon = iconManRecon;
 };
 class O_R_recon_TL_F: O_R_Soldier_recon_base
@@ -2478,7 +2478,7 @@ class O_R_Soldier_diver_base: O_R_Soldier_Base_F
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
 	role = SpecialOperative;
 	camouflage = 2;
-	canHideBodies = true;
+	canHideBodies = false;
 };
 class O_R_diver_F: O_R_Soldier_diver_base
 {
@@ -2775,7 +2775,7 @@ class O_R_Soldier_sniper_base: O_R_Soldier_Base_F
 		FirstAidKit,
 		optic_Nightstalker
 	};
-	canHideBodies = true;
+	canHideBodies = false;
 	role = Marksman;
 	primaryAmmoCoef = 0.2;
 	secondaryAmmoCoef = 0.05;

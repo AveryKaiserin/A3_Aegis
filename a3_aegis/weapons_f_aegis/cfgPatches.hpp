@@ -60,7 +60,8 @@ class CfgPatches
 			A3_Weapons_F_SMGs_SMG_02,
 			A3_Weapons_F_Tank,
 			A3_Weapons_F_Tank_Launchers_Vorona,
-            cba_jr
+            cba_jr,
+            cba_jr_prep
 		};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};

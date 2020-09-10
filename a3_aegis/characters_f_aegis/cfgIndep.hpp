@@ -901,7 +901,7 @@ class I_Soldier_diver_base_F: I_Soldier_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
     };
-    canHideBodies = true;
+    canHideBodies = false;
 };
 class I_diver_F: I_Soldier_diver_base_F
 {
@@ -944,7 +944,7 @@ class I_diver_TL_F: I_Soldier_diver_base_F
 };
 class I_Soldier_sniper_base_F: I_Soldier_base_F
 {
-    canHideBodies = true;
+    canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,

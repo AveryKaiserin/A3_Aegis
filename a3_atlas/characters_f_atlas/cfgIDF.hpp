@@ -1979,7 +1979,7 @@ class I_I_Soldier_diver_base: I_I_Soldier_Base_F
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
 	role = SpecialOperative;
 	camouflage = 2;
-	canHideBodies = true;
+	canHideBodies = false;
 };
 class I_I_diver_F: I_I_Soldier_diver_base
 {
@@ -2169,7 +2169,7 @@ class I_I_Soldier_recon_base: I_I_Soldier_Base_F
 	};
 	vehicleClass = MenRecon;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
-	canHideBodies = true;
+	canHideBodies = false;
     icon = iconManRecon;
 	role = Rifleman;
 	camouflage = 0.6;
@@ -2791,7 +2791,7 @@ class I_I_Soldier_sniper_base: I_I_Soldier_Base_F
 		optic_tws_sniper,
         muzzle_snds_408_black
 	};
-	canHideBodies = true;
+	canHideBodies = false;
 	role = Marksman;
 	primaryAmmoCoef = 0.2;
 	secondaryAmmoCoef = 0.05;

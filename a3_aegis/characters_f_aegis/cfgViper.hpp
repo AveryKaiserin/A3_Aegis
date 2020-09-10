@@ -19,7 +19,7 @@ class O_V_Soldier_base_F: O_Soldier_base_F
 		Head_Asian,
 		G_IRAN_default
 	};
-	canHideBodies = true;
+	canHideBodies = false;
 	weapons[] =
 	{
 		arifle_ARX_hex_ARCO_Pointer_Snds_F,

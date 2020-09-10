@@ -339,7 +339,7 @@ class B_CTRG_Soldier_base_F: B_Soldier_base_F
         Head_NATO,
         G_NATO_SF
     };
-	canHideBodies = true;
+	canHideBodies = false;
 	weapons[] =
     {
         arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,

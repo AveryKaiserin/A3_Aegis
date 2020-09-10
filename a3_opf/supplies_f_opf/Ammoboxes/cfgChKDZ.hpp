@@ -39,7 +39,7 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 	};
 	class TransportItems
 	{
-		item_xx(V_BandollierB_rgr,6);
+		item_xx(V_BandollierB_taiga_F,6);
 	};
 };
 class Box_ChDKZ_Ammo_F: ReammoBox_F

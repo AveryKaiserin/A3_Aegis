@@ -45,7 +45,7 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_whex_CO.paa"};
 		// TFAR compatibility
-		tf_dialog = rt1523g_radio_dialog;
+		tf_dialog = bussole_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_east_radio_code;
 		tf_hasLRradio = true;
@@ -60,7 +60,7 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_semiarid_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_semiarid_CO.paa"};
 		// TFAR compatibility
-		tf_dialog = rt1523g_radio_dialog;
+		tf_dialog = bussole_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_east_radio_code;
 		tf_hasLRradio = true;
@@ -108,9 +108,9 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_autumn_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_autumn_CO.paa"};
 		// TFAR compatibility
-		tf_dialog = rt1523g_radio_dialog;
+		tf_dialog = anprc155_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode = tf_guer_radio_code;
+		tf_encryptionCode = tf_independent_radio_code;
 		tf_hasLRradio = true;
 		tf_range = 20000;
 		tf_subtype = digital_lr;

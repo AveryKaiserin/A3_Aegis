@@ -911,7 +911,7 @@ class O_Soldier_diver_base_F: O_Soldier_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
     };
-    canHideBodies = true;
+    canHideBodies = false;
 };
 class O_diver_F: O_Soldier_diver_base_F
 {
@@ -941,7 +941,7 @@ class O_diver_TL_F: O_Soldier_diver_base_F
 class O_diver_exp_F;
 class O_Soldier_sniper_base_F: O_Soldier_base_F
 {
-    canHideBodies = true;
+    canHideBodies = false;
     hiddenSelections[] =
     {
         camo1,
@@ -1055,7 +1055,7 @@ class O_Soldier_recon_base: O_Soldier_base_F
 		G_IRAN_SF
 	};
     icon = iconManRecon;
-    canHideBodies = true;
+    canHideBodies = false;
 	uniformClass = U_O_CombatUniform_ocamo;
 	items[] =
 	{

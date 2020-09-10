@@ -132,6 +132,9 @@ class CfgVehicles
 				"A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_destruct.rvmat"
 			};
 		};
+        // TFAR compatibility
+		tf_hasLRradio = true;
+		tf_isolatedAmount = 0.7;
 	};
 	class LSV_02_armed_base_F: LSV_02_base_F
 	{

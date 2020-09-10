@@ -24,13 +24,7 @@ class CfgWeapons
 	// Arma 3 Apex
 	class arifle_AK12_base_F: Rifle_Base_F
 	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot;
-			class CowsSlot;
-			class PointerSlot;
-			class UnderBarrelSlot;
-		};
+		class WeaponSlotsInfo;
 		class Single: Mode_SemiAuto
 		{
 			reloadTime = 0.1; // 600 RPM
@@ -50,18 +44,38 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_F_X_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot
+            {
+				iconPosition[] =
+                {
+                    0.35, // X
+                    0.7 // Y
+                };
+				iconScale = 0.3;
+            };
         };
 	};
 	class arifle_AK12_GL_base_F: arifle_AK12_base_F
     {
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
-        };
+		class WeaponSlotsInfo;
     };
 	class arifle_AK12_GL_F: arifle_AK12_GL_base_F
 	{
@@ -69,8 +83,24 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_GL_F_X_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 	};
 	// Arma 3 Enoch
@@ -79,9 +109,33 @@ class CfgWeapons
 	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_lush_F0;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot
+            {
+				iconPosition[] =
+                {
+                    0.35, // X
+                    0.7 // Y
+                };
+				iconScale = 0.3;
+            };
         };
 	};
 	class arifle_AK12_arid_F: arifle_AK12_base_F
@@ -89,9 +143,33 @@ class CfgWeapons
 	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_arid_F0;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot
+            {
+				iconPosition[] =
+                {
+                    0.35, // X
+                    0.7 // Y
+                };
+				iconScale = 0.3;
+            };
         };
 	};
 	class arifle_AK12_GL_lush_F: arifle_AK12_GL_base_F
@@ -99,8 +177,24 @@ class CfgWeapons
 	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_lush_F0;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 	};
 	class arifle_AK12_GL_arid_F: arifle_AK12_GL_base_F
@@ -108,17 +202,57 @@ class CfgWeapons
 	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_arid_F0;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 	};
 	class arifle_AK12U_base_F: arifle_AK12_base_F
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.4, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot
+            {
+				iconPosition[] =
+                {
+                    0.24, // X
+                    0.7 // Y
+                };
+				iconScale = 0.3;
+            };
         };
     };
 	class arifle_AK12U_F: arifle_AK12U_base_F
@@ -143,8 +277,24 @@ class CfgWeapons
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R{};
-			class CowsSlot: asdg_OpticRail1913{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.57, // X
+                    0.31 // Y
+                };
+				iconScale = 0.17;
+            };
         };
     };
 	class arifle_RPK12_F;
@@ -167,10 +317,42 @@ class CfgWeapons
 	  	recoil = recoil_ak12_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_545R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.3, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot
+            {
+				iconPosition[] =
+                {
+                    0.35, // X
+                    0.7 // Y
+                };
+				iconScale = 0.3;
+            };
         };
 		class Single: Single
 		{
@@ -195,9 +377,33 @@ class CfgWeapons
 	  	recoil = recoil_ak12_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
+			class MuzzleSlot: asdg_MuzzleSlot_545R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
+			class CowsSlot: asdg_OpticRail1913
+            {
+				iconPosition[] =
+                {
+                    0.5, // X
+                    0.25 // Y
+                };
+				iconScale = 0.2;
+            };
+			class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.3, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 		class Single: Single
 		{
@@ -222,10 +428,15 @@ class CfgWeapons
 	  	recoil = recoil_ak12u_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_545R
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.35 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 		class Single: Single
 		{
@@ -248,13 +459,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_545_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_545_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Mag_F,
@@ -278,13 +482,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_545_lush_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_545_lush_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Lush_Mag_F,
@@ -308,13 +505,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_545_arid_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_545_arid_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-			class UnderBarrelSlot: asdg_UnderSlot{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Arid_Mag_F,
@@ -338,12 +528,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_545_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_GL_545_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Mag_F,
@@ -369,12 +553,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_545_lush_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_GL_545_lush_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Lush_Mag_F,
@@ -400,12 +578,6 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_545_arid_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_GL_545_arid_F_X_CA.paa";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class MuzzleSlot: asdg_MuzzleSlot_545R{};
-			class CowsSlot: asdg_OpticRail1913{};
-			class PointerSlot: asdg_FrontSideRail{};
-        };
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Arid_Mag_F,

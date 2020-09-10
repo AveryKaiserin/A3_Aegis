@@ -1467,6 +1467,7 @@ class I_E_JTAC_F: I_E_Soldier_base_F
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
+	backpack = B_RadioBag_01_eaf_F;
     weapons[] =
     {
         arifle_MSBS65_ico_pointer_F,
@@ -1524,7 +1525,7 @@ class I_E_Soldier_sniper_base: I_E_Soldier_Base_F
 	primaryAmmoCoef = 0.2;
 	secondaryAmmoCoef = 0.05;
 	handgunAmmoCoef = 0.1;
-	canHideBodies = true;
+	canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,

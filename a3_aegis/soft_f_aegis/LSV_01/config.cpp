@@ -125,6 +125,9 @@ class CfgVehicles
 				};
 			};
 		};
+        // TFAR compatibility
+		tf_hasLRradio = true;
+		tf_isolatedAmount = 0.7;
 	};
 	class LSV_01_armed_base_F: LSV_01_base_F
 	{

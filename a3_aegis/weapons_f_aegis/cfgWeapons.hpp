@@ -433,7 +433,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-			class MuzzleSlot: asdg_MuzzleSlot_762{};
+			class MuzzleSlot: asdg_MuzzleSlot_762
+            {
+                iconPosition[] =
+                {
+                    0.05, // X
+                    0.38 // Y
+                };
+				iconScale = 0.2;
+            };
         };
     };
 	class DMR_01_base_F: Rifle_Long_Base_F
@@ -444,7 +452,15 @@ class CfgWeapons
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_762R_SVD{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R_SVD
+            {
+                iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
 		};
     };
 	class LMG_Mk200_F: Rifle_Long_Base_F
@@ -564,21 +580,45 @@ class CfgWeapons
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_65{};
+			class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
 		};
     };
 	class arifle_Katiba_C_F: arifle_Katiba_Base_F
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_65{};
+			class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.1, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
 		};
     };
 	class arifle_Katiba_GL_F: arifle_Katiba_Base_F
     {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: asdg_MuzzleSlot_65{};
+			class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
 		};
     };
 	class arifle_Katiba_GL_ACO_pointer_snds_F: arifle_Katiba_GL_F
@@ -629,7 +669,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0, // X
+                    0.36 // Y
+                };
+				iconScale = 0.2;
+            };
         };
     };
 	class arifle_Mk20_plain_F;
@@ -637,7 +685,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0.1, // X
+                    0.36 // Y
+                };
+				iconScale = 0.2;
+            };
         };
     };
 	class arifle_Mk20C_plain_F;
@@ -645,7 +701,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0.1, // X
+                    0.36 // Y
+                };
+				iconScale = 0.2;
+            };
         };
     };
 	class arifle_Mk20_GL_plain_F: arifle_Mk20_GL_F
@@ -666,8 +730,24 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_CO.paa"};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_65{};
-            class PointerSlot: asdg_FrontSideRail{};
+            class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.4 // Y
+                };
+				iconScale = 0.2;
+            };
+            class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.2, // X
+                    0.4 // Y
+                };
+				iconScale = 0.25;
+            };
         };
 	};
 	class arifle_MX_F: arifle_MX_Base_F
@@ -684,8 +764,24 @@ class CfgWeapons
 		};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_65{};
-            class PointerSlot: asdg_FrontSideRail{};
+            class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
+            class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.2, // X
+                    0.45 // Y
+                };
+				iconScale = 0.25;
+            };
         };
 	};
 	class arifle_MX_GL_F: arifle_MX_Base_F
@@ -702,8 +798,24 @@ class CfgWeapons
 		};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_65{};
-            class PointerSlot: asdg_FrontSideRail{};
+            class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
+            };
+            class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.2, // X
+                    0.45 // Y
+                };
+				iconScale = 0.25;
+            };
         };
 	};
 	class arifle_MX_SW_F: arifle_MX_Base_F
@@ -740,8 +852,22 @@ class CfgWeapons
                     muzzle_mzls_H = true;
                 };
                 */
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.45 // Y
+                };
+				iconScale = 0.2;
             };
-            class PointerSlot: asdg_FrontSideRail{};
+            class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.2, // X
+                    0.45 // Y
+                };
+				iconScale = 0.25;
+            };
         };
 	};
 	class arifle_MXM_F: arifle_MX_Base_F
@@ -750,8 +876,24 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Long_CO.paa"};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_65{};
-            class PointerSlot: asdg_FrontSideRail{};
+            class MuzzleSlot: asdg_MuzzleSlot_65
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.4 // Y
+                };
+				iconScale = 0.2;
+            };
+            class PointerSlot: asdg_FrontSideRail
+            {
+				iconPosition[] =
+                {
+                    0.2, // X
+                    0.45 // Y
+                };
+				iconScale = 0.25;
+            };
         };
 	};
 	class arifle_MX_SW_Hamr_pointer_F: arifle_MX_SW_F
@@ -872,14 +1014,30 @@ class CfgWeapons
 		hiddenSelections[] = {camo};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.4 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 	};
 	class arifle_TRG20_F: Tavor_base_F
 	{
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.4 // Y
+                };
+				iconScale = 0.2;
+            };
         };
 		class Single: Single
 		{
@@ -894,7 +1052,15 @@ class CfgWeapons
     {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_556{};
+            class MuzzleSlot: asdg_MuzzleSlot_556
+            {
+				iconPosition[] =
+                {
+                    0.0, // X
+                    0.4 // Y
+                };
+				iconScale = 0.2;
+            };
         };
     };
 	class pdw2000_base_F: Rifle_Short_Base_F
@@ -975,7 +1141,15 @@ class CfgWeapons
 	{
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_762{};
+            class MuzzleSlot: asdg_MuzzleSlot_762
+            {
+				iconPosition[] =
+                {
+                    0.12, // X
+                    0.431 // Y
+                };
+				iconScale = 0.15;
+            };
         };
 	};
 	class srifle_DMR_03_khaki_F;
@@ -998,9 +1172,33 @@ class CfgWeapons
 		magazines[] = {20Rnd_762x51_weathered_Mag};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_762{};
-            class CowsSlot: asdg_OpticRail1913_short{};
-            class UnderBarrelSlot: asdg_UnderSlot{};
+            class MuzzleSlot: asdg_MuzzleSlot_762
+            {
+				iconPosition[] =
+                {
+                    0.06, // X
+                    0.4 // Y
+                };
+				iconScale = 0.15;
+            };
+            class CowsSlot: asdg_OpticRail1913_short
+			{
+				iconPosition[] =
+                {
+                    0.52, // X
+                    0.36 // Y
+                };
+				iconScale = 0.15;
+			};
+            class UnderBarrelSlot: asdg_UnderSlot
+			{
+				iconPosition[] =
+                {
+                    0.32, // X
+                    0.8 // Y
+                };
+				iconScale = 0.3;
+			};
         };
 	};
 	class MMG_01_hex_F;
@@ -1332,9 +1530,33 @@ class CfgWeapons
 	{
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            class MuzzleSlot: asdg_MuzzleSlot_762{};
-            class CowsSlot: asdg_OpticRail1913_short{};
-            class UnderBarrelSlot: asdg_UnderSlot{};
+            class MuzzleSlot: asdg_MuzzleSlot_762
+            {
+				iconPosition[] =
+                {
+                    0.06, // X
+                    0.4 // Y
+                };
+				iconScale = 0.15;
+            };
+            class CowsSlot: asdg_OpticRail1913_short
+			{
+				iconPosition[] =
+                {
+                    0.52, // X
+                    0.36 // Y
+                };
+				iconScale = 0.15;
+			};
+            class UnderBarrelSlot: asdg_UnderSlot
+			{
+				iconPosition[] =
+                {
+                    0.32, // X
+                    0.8 // Y
+                };
+				iconScale = 0.3;
+			};
         };
 	};
 	class LMG_Mk200_black_F;
@@ -2112,7 +2334,7 @@ class CfgWeapons
 	class optic_srs: ItemCore
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_optic_srs0;
 		picture = "\A3\Weapons_F\Data\UI\gear_acco_srs_CA.paa";
 		model = "\A3\Weapons_F\Acc\acco_srs_F.p3d";
@@ -2194,7 +2416,7 @@ class CfgWeapons
 	class optic_ACOG: ItemCore
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_optic_ACOG0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_ACOG_CA.paa";
 		model = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_ACOG_F.p3d";
