@@ -13830,39 +13830,90 @@
 				</Container>
 			</Container>
 			<Container name="Machineguns">
+				<Key ID="STR_A3_A_CfgWeapons_LMG_Mk200_F0">
+					<Original>M200 6.5 mm</Original>
+					<Chinese>M200 6.5 mm</Chinese>
+					<French>M200 6,5 mm</French>
+					<Spanish>M200 6,5 mm</Spanish>
+					<Italian>M200 6,5 mm</Italian>
+					<Polish>M200 6,5 mm</Polish>
+					<Russian>M200 6,5 мм</Russian>
+					<German>M200 6,5 mm</German>
+					<Czech>M200 6,5 mm</Czech>
+					<English>M200 6.5 mm</English>
+					<Portuguese>M200 6,5 mm</Portuguese>
+					<Korean>M200 6.5mm</Korean>
+					<Chinesesimp>M200 6.5 毫米</Chinesesimp>
+					<Japanese>M200 6.5 mm</Japanese>
+					<Turkish>M200 6.5 mm</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_LMG_Mk200_F_Library0">
+					<Original>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Original>
+					<Chinese>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Chinese>
+					<French>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</French>
+					<Spanish>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Spanish>
+					<Italian>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Italian>
+					<Polish>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Polish>
+					<Russian>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Russian>
+					<German>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</German>
+					<Czech>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Czech>
+					<English>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</English>
+					<Portuguese>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Portuguese>
+					<Korean>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Korean>
+					<Chinesesimp>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Chinesesimp>
+					<Japanese>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Japanese>
+					<Turkish>The M200 is a gas-operated, belt-fed light machine gun originating from the United States, featuring an ergonomic design with a reinforced lock and a quick barrel removal system. It fires 6.5x39 mm caseless ammunition with a rate of 800 rounds per minute. The M200 provies squads with the accurate and sustained fire-power required to suppress and destroy enemy targets.</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_LMG_Mk200_black_F0">
+					<Original>M200 6.5 mm (Black)</Original>
+					<Chinese>M200 6.5 mm（黑）</Chinese>
+					<French>M200 6,5 mm (Noir)</French>
+					<Spanish>M200 6,5 mm (negro)</Spanish>
+					<Italian>M200 6,5 mm (nero)</Italian>
+					<Polish>M200 6,5 mm (czarny)</Polish>
+					<Russian>M200 6,5 мм (черный)</Russian>
+					<German>M200 6,5 mm (Schwarz)</German>
+					<Czech>M200 6,5 mm (černý)</Czech>
+					<English>M200 6.5 mm (Black)</English>
+					<Portuguese>M200 6,5 mm (Preta)</Portuguese>
+					<Korean>M200 6.5mm (흑색)</Korean>
+					<Chinesesimp>M200 6.5 毫米（黑色）</Chinesesimp>
+					<Japanese>M200 6.5 mm（黒）</Japanese>
+					<Turkish>M200 6.5 mm (Siyah)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_LMG_Mk200_plain_F0">
-					<Original>Mk200 6.5 mm (Sand)</Original>
-					<Chinese>Mk200 6.5 mm（沙色）</Chinese>
-					<French>Mk200 6,5 mm (Sable)</French>
-					<Spanish>Mk200 6,5 mm (arena)</Spanish>
-					<Italian>Mk200 6,5 mm (sabbia)</Italian>
-					<Polish>Mk200 6,5 mm (piaskowa)</Polish>
-					<Russian>Mk200 6,5 мм (песочный)</Russian>
-					<German>Mk200 6,5 mm (Sandfarben)</German>
-					<Czech>Mk200 6,5 mm (písková)</Czech>
-					<English>Mk200 6.5 mm (Sand)</English>
-					<Portuguese>Mk200 6,5 mm (Areia)</Portuguese>
-					<Korean>Mk200 6.5mm (모래)</Korean>
-					<Chinesesimp>Mk200 6.5 毫米（沙色）</Chinesesimp>
-					<Japanese>Mk200 6.5 mm（砂）</Japanese>
-					<Turkish>Mk200 6.5 mm (Kum)</Turkish>
+					<Original>M200 6.5 mm (Sand)</Original>
+					<Chinese>M200 6.5 mm（沙色）</Chinese>
+					<French>M200 6,5 mm (Sable)</French>
+					<Spanish>M200 6,5 mm (arena)</Spanish>
+					<Italian>M200 6,5 mm (sabbia)</Italian>
+					<Polish>M200 6,5 mm (piaskowa)</Polish>
+					<Russian>M200 6,5 мм (песочный)</Russian>
+					<German>M200 6,5 mm (Sandfarben)</German>
+					<Czech>M200 6,5 mm (písková)</Czech>
+					<English>M200 6.5 mm (Sand)</English>
+					<Portuguese>M200 6,5 mm (Areia)</Portuguese>
+					<Korean>M200 6.5mm (모래)</Korean>
+					<Chinesesimp>M200 6.5 毫米（沙色）</Chinesesimp>
+					<Japanese>M200 6.5 mm（砂）</Japanese>
+					<Turkish>M200 6.5 mm (Kum)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_LMG_Mk200_khk_F0">
-					<Original>Mk200 6.5 mm (Khaki)</Original>
-					<Chinese>Mk200 6.5 mm（卡其）</Chinese>
-					<French>Mk200 6,5 mm (Khaki)</French>
-					<Spanish>Mk200 6,5 mm (caqui)</Spanish>
-					<Italian>Mk200 6,5 mm (kaki)</Italian>
-					<Polish>Mk200 6,5 mm (khaki)</Polish>
-					<Russian>Mk200 6,5 мм (хаки)</Russian>
-					<German>Mk200 6,5 mm (Khaki)</German>
-					<Czech>Mk200 6,5 mm (khaki)</Czech>
-					<English>Mk200 6.5 mm (Khaki)</English>
-					<Portuguese>Mk200 6,5 mm (Caqui)</Portuguese>
-					<Korean>Mk200 6.5mm (카키)</Korean>
-					<Chinesesimp>Mk200 6.5 毫米（卡其色）</Chinesesimp>
-					<Japanese>Mk200 6.5 mm（カーキ）</Japanese>
-					<Turkish>Mk200 6.5 mm (Haki)</Turkish>
+					<Original>M200 6.5 mm (Khaki)</Original>
+					<Chinese>M200 6.5 mm（卡其）</Chinese>
+					<French>M200 6,5 mm (Khaki)</French>
+					<Spanish>M200 6,5 mm (caqui)</Spanish>
+					<Italian>M200 6,5 mm (kaki)</Italian>
+					<Polish>M200 6,5 mm (khaki)</Polish>
+					<Russian>M200 6,5 мм (хаки)</Russian>
+					<German>M200 6,5 mm (Khaki)</German>
+					<Czech>M200 6,5 mm (khaki)</Czech>
+					<English>M200 6.5 mm (Khaki)</English>
+					<Portuguese>M200 6,5 mm (Caqui)</Portuguese>
+					<Korean>M200 6.5mm (카키)</Korean>
+					<Chinesesimp>M200 6.5 毫米（卡其色）</Chinesesimp>
+					<Japanese>M200 6.5 mm（カーキ）</Japanese>
+					<Turkish>M200 6.5 mm (Haki)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_MMG_01_black_F0">
 					<Original>Navid 9.3 mm (Black)</Original>

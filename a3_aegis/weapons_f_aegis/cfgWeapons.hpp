@@ -465,6 +465,11 @@ class CfgWeapons
     };
 	class LMG_Mk200_F: Rifle_Long_Base_F
 	{
+        displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_F0;
+		class Library
+		{
+			libTextDesc = $STR_A3_A_CfgWeapons_LMG_Mk200_F_Library0;
+		};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
 			class MuzzleSlot: asdg_MuzzleSlot_65
@@ -1559,7 +1564,10 @@ class CfgWeapons
 			};
         };
 	};
-	class LMG_Mk200_black_F;
+	class LMG_Mk200_black_F: LMG_Mk200_F
+    {
+        displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_black_F0;
+    };
 	class hgun_Pistol_heavy_01_green_F;
 	class arifle_MSBS65_base_F: Rifle_Base_F
 	{
@@ -1905,9 +1913,9 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\UI\icon_LMG_Mk200_plain_F_X_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\1st_person_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\body_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\grip_CO.paa"
+			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\1st_person_sand_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\Body_sand_CO.paa",
+			"\A3\Weapons_F\Machineguns\M200\Data\grip_CO.paa"
 		};
 		baseWeapon = LMG_Mk200_plain_F;
 	};

@@ -1,3 +1,13 @@
+/* Future Ideas & Plans
+- Combat Shirt uniform to add some variety, maybe a rolled-up variant too?
+- Replace the tank-top uniform with a proper t-shirt
+- NATO gloves and boots when possible?
+- NATO heavy vest, without pauldrons for standard vest
+- Redo the Flecktarn camouflage
+- Snipers with Warfare-50 rifles?
+- Perhaps rebrand the faction as simply 'Germany' - will need new IR strobes and UAV terminal though
+*/
+
 // Arma 3
 class B_Soldier_04_f;
 class B_Soldier_lite_F;

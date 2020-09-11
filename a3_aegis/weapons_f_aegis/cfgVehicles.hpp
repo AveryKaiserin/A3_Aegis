@@ -112,6 +112,10 @@ class CfgVehicles
 	class Pistol_Base_F;
 	class Launcher_Base_F;
 	class Item_Base_F;
+	class Weapon_LMG_Mk200_F: Weapon_Base_F
+    {
+        displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_F0;
+    };
 	// Arma 3 Enoch
 	class Item_bipod_02_F_lush: Item_Base_F
 	{
@@ -121,6 +125,10 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
 	};
+	class Weapon_LMG_Mk200_black_F: Weapon_Base_F
+    {
+        displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_black_F0;
+    };
 	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
 	// Arma 3 Oldman
 	class OM_Electro;

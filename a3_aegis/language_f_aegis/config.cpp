@@ -110,6 +110,14 @@ class CfgHints
 	class WeaponList
 	{
 		// Arma 3
+		class gaAutomatic
+		{
+			arguments[] =
+            {
+                {STR_A3_A_CfgWeapons_LMG_Mk200_F0},
+                {STR_A3_A_CfgWeapons_LMG_Mk200_F_Library0}
+            };
+		};
 		// Arma 3 Enoch
 		class MSBS65
 		{
@@ -231,6 +239,20 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
 			weapon = arifle_SA80_blk_F;
+			logicalOrder = 45;
+		};
+		class SCAR
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_SCAR_F0},
+				{STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_SCAR_F;
 			logicalOrder = 45;
 		};
 		class AA40

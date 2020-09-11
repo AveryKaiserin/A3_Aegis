@@ -23,6 +23,10 @@ class CfgMagazines
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
 	};
+	class 100Rnd_65x39_caseless_mag_Tracer: 100Rnd_65x39_caseless_mag
+	{
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
+	};
 	class 30Rnd_9x21_Mag;
 	class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag
 	{
