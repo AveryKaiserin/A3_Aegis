@@ -102,7 +102,7 @@ class CfgVehicles
 		mapSize = 3.07;
 		scope = private;
 		model = "\A3_Aegis\Supplies_F_Aegis\Respawn\RallyPoint_01_F.p3d";
-		//destrType = DestructNo;
+		destrType = DestructTent;
 		cost = 1000;
 		attendant = true;
 		hiddenSelections[] = {camo};

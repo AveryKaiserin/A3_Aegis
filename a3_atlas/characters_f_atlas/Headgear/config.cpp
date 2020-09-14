@@ -17,6 +17,7 @@ class CfgWeapons
 		class ItemInfo: ItemInfo{};
 	};
 	class H_HelmetSpecB;
+    class H_Cap_red;
 	class H_HelmetCrew_B;
 	class H_HelmetCrew_I: H_HelmetCrew_B
 	{
@@ -680,5 +681,45 @@ class CfgWeapons
 				TCivilian
 			};
 		};
+	};
+	class H_Hat_Pakol_base_F: HelmetBase
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = private;
+		model = "\A3_Atlas\Characters_F_Atlas\Headgear\H_Hat_Pakol_01_F.p3d";
+		hiddenSelections[] = {Camo};
+		descriptionShort = $STR_A3_SP_noarmor;
+		class ItemInfo: ItemInfo
+		{
+			mass = 5;
+			hiddenSelections[] = {Camo};
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Headgear\H_Hat_Pakol_01_F.p3d";
+			modelSides[] = {TCivilian};
+            class HitpointsProtectionInfo{};
+		};
+	};
+	class H_Hat_Pakol_brn_F: H_Hat_Pakol_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = "Traditional Hat (Brown)";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Hat_Pakol_brn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_Hat_Pakol_01_brn_CO.paa"};
+	};
+	class H_Hat_Pakol_gry_F: H_Hat_Pakol_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = "Traditional Hat (Grey)";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Hat_Pakol_gry_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_Hat_Pakol_01_gry_CO.paa"};
+	};
+	class H_Hat_Pakol_tan_F: H_Hat_Pakol_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = "Traditional Hat (Tan)";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Hat_Pakol_tan_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_Hat_Pakol_01_tan_CO.paa"};
 	};
 };

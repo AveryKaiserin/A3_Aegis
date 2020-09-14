@@ -38,6 +38,10 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg_vest0;
 	};
 	// Arma 3 Atlas
+    // Civilians
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_black_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_black_F0)
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_blue_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_blue_F0)
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_grey_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_grey_F0)
 	// Viper
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_whex_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_whex_F0)
 	// CSAT (Woodland)

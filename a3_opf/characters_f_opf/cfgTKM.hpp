@@ -21,7 +21,14 @@ class I_T_Guerilla3_3_F: I_G_Soldier_M_F
 {
 	scope = protected;
 	scopeCurator = private;
+	modelSides[] =
+    {
+        TCivilian,
+        TGuerrila
+    };
+	model = "\A3\Characters_F\Civil\C_Hunter_F.p3d";
 	uniformClass = U_IG_Guerilla3_3_F;
+    hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\hunter_bushman_CO.paa"};
 };
 class I_T_Uniform_01_hex_F: I_G_Soldier_SL_F

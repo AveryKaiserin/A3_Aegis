@@ -5,6 +5,7 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
+    #include "cfgCivil.hpp"             // Civilians
 	#include "cfgViper.hpp"				// Viper
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
     #include "cfgLegion.hpp"			// Legion

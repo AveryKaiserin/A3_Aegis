@@ -95,4 +95,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_CrewHelmetHeli_I_W,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_W0,EdSubcat_Helmets)
     */
 	HEADGEAR_HOLDER(H_CrewHelmetHeli_I_I,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_Hat_Pakol_brn_F,"Traditional Hat (Brown)",EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Hat_Pakol_gry_F,"Traditional Hat (Grey)",EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Hat_Pakol_tan_F,"Traditional Hat (Tan)",EdSubcat_Hats)
 };

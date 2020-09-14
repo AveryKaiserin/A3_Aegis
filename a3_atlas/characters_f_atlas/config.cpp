@@ -7,6 +7,7 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
+    #include "cfgCivil.hpp"             // Civilians
     class I_Soldier_base_F: SoldierGB
     {
         class EventHandlers;

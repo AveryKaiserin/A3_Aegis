@@ -15,6 +15,7 @@ class C_man_1: Civilian_F
         H_Cap_surfer,0.25,
         H_Cap_Lyfe,0.25,
         H_Cap_MaldenTours,0.25,
+        H_Cap_redburger,0.25,
         H_Bandanna_khk,0.25,
         H_Bandanna_sgg,0.25,
         H_Bandanna_cbr,0.25,
@@ -34,15 +35,14 @@ class C_man_1: Civilian_F
         H_Hat_grey,0.25,
         H_Hat_checker,0.25,
         H_Hat_tan,0.25,
-        H_CapBandana_oli,0.25,
         H_Watchcap_blk,0.25,
         H_Watchcap_cbr,0.25,
         H_Watchcap_camo,0.25,
         H_Watchcap_khk,0.25,
         H_Watchcap_sgg,0.25,
         H_Watchcap_red,0.25,
-        H_FakeHeadgear,1,
-        "",1
+        H_FakeHeadgear,2,
+        "",2
     };
     class Wounds
     {
