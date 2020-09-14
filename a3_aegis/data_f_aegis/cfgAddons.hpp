@@ -72,6 +72,7 @@ class CfgAddons
                 A3_Aegis_EditorPreviews_F_Aegis,
                 A3_Aegis_Functions_F_Aegis,
                 A3_Aegis_Language_F_Aegis,
+                A3_Aegis_Missions_F_Aegis,
                 A3_Aegis_Modules_F_Aegis,
                 A3_Aegis_Music_F_Aegis,
                 A3_Aegis_Props_F_Aegis,
