@@ -137,7 +137,7 @@ class O_C_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.026;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Attack_02_dynamicLoadout_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Attack_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

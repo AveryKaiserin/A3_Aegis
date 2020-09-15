@@ -98,9 +98,11 @@ class CfgWeapons
 			100,
 			150,
 			200,
-			250,
+			250
+            /*
 			300,
 			350
+            */
 		};
 		discreteDistanceCameraPoint[] =
 		{
@@ -109,9 +111,11 @@ class CfgWeapons
 			OP_eye_100,
 			OP_eye_150,
 			OP_eye_200,
-			OP_eye_250,
+			OP_eye_250
+            /*
 			OP_eye_300,
 			OP_eye_350
+            */
 		};
 		discreteDistanceInitIndex = 1;
 		initSpeed = 75;
@@ -125,7 +129,11 @@ class CfgWeapons
 			class CowsSlot{};
 	    	class PointerSlot: asdg_FrontSideRail
 	    	{
-	      		iconPosition[] = {0.35,0.45};
+	      		iconPosition[] =
+                {
+                    0.35, // X
+                    0.45 // Y
+                };
 	    	  	iconScale = 0.2;
 	    	};
 			mass = 220;

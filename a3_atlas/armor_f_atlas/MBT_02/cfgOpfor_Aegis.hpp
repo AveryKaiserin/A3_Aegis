@@ -195,14 +195,14 @@ class O_W_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
+		mag_xx(30Rnd_545x39_Mag_F,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AK12U_545_F,2);
+		weap_xx(arifle_AKS_F,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_green_F,2);
+		bag_xx(B_FieldPack_owcamo,2);
 	};
 };

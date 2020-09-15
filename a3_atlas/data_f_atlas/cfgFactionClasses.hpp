@@ -42,15 +42,15 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_H_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
-    /*
 	class OPF_C_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_C_F0;
+		displayName = "CSAT (Takistani)";
 		priority = 11;
 		side = TEast;
 		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
 	};
+    /*
 	class OPF_S_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_S_F0;

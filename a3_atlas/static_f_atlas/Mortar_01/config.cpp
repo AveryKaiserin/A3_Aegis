@@ -44,8 +44,8 @@ class CfgVehicles
 	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
     #include "cfgLegion.hpp"		    // Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    #include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
 	/*
-    #include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgCDF.hpp"				// CDF
     */

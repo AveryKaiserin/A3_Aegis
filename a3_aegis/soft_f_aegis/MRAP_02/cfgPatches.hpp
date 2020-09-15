@@ -12,11 +12,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (African)
-            O_A_MRAP_02_F,
-            O_A_MRAP_02_gmg_F,
-            O_A_MRAP_02_hmg_F,
-
             // Russian
             O_R_MRAP_02_ard_F,
             O_R_MRAP_02_F,

@@ -15,8 +15,8 @@ class CfgVehicles
 	class Truck_02_cargo_base_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+	#include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
     /*
-	#include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
 	#include "cfgHIMF.hpp"              // HIMF
 	#include "cfgCDF.hpp"               // CDF
     */

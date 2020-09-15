@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Characters and Clothing";
-		url = "https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] =
 		{
 			A3_Aegis_Data_F_Aegis,

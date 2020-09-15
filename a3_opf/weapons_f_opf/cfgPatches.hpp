@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Opposing Forces - Weapons and Accessories";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
 		requiredAddons[] =
         {
             A3_Aegis_Weapons_F_Aegis,

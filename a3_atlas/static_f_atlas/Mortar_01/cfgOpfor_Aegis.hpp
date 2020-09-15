@@ -28,7 +28,6 @@ class O_W_Mortar_01_F: O_Mortar_01_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Mortar_01_F.jpg";
 	faction = OPF_W_F;
 	crew = O_W_Soldier_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Static_F_Aegis\Mortar_01\Data\Mortar_01_ghex_CO.paa"};
 	class assembleInfo
 	{
 		displayName = "";
@@ -37,7 +36,7 @@ class O_W_Mortar_01_F: O_Mortar_01_F
 		primary = false;
 		dissasembleTo[] =
 		{
-            O_T_Mortar_01_weapon_F,
+            O_Mortar_01_weapon_F,
             O_Mortar_01_support_F
 		};
 	};

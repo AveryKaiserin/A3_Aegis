@@ -9,9 +9,15 @@ class CfgMods
 		logoSmall = "\A3_Opf\Data_F_Opf\Logos\arma3_Opfor_logo_small_CA.paa";
 		tooltip = $STR_A3_O_cfgMods_Opfor_name0;
 		tooltipOwned = $STR_A3_O_cfgMods_Opfor_name0;
-		action = "";
+		action = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
 		fieldManualTopicAndHint[] = {};
-		dlcColor[] = {0.38,0,0,1};
+		dlcColor[] =
+        {
+            0.38, // R
+            0, // G
+            0, // B
+            1 // A
+        };
 		overview = $STR_A3_O_cfgMods_Opfor_overview0;
 		logoTitle = "\A3_Opf\Data_F_Opf\Logos\arma3_Opfor_logoTitle_CA.paa";
 		hideName = true;

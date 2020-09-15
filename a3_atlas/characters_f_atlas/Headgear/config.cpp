@@ -416,7 +416,6 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-    /*
 	class H_Booniehat_semiarid: H_Booniehat_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -435,7 +434,6 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-    */
 	class H_Booniehat_jungle: H_Booniehat_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -488,7 +486,6 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_owcamo_CO.paa"};
 	};
-    /*
 	class H_MilCap_semiarid: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -496,7 +493,6 @@ class CfgWeapons
 		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_semiarid_CO.paa"};
 	};
-    */
 	class H_MilCap_jungle: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;

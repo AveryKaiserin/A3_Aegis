@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Atlas - Weapons and Accessories";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516";
 		requiredAddons[] =
         {
             A3_Aegis_Weapons_F_Aegis,

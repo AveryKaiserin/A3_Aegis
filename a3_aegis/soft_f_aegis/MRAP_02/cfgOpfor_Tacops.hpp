@@ -2,8 +2,8 @@ class O_A_MRAP_02_F: O_MRAP_02_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_MRAP_02_F.jpg";
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = private;
     side = TEast;
     faction =  OPF_A_F;
     crew = O_A_soldier_F;
@@ -44,8 +44,8 @@ class O_A_MRAP_02_hmg_F: O_MRAP_02_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_MRAP_02_hmg_F.jpg";
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = private;
     side = TEast;
     faction =  OPF_A_F;
     crew = O_A_soldier_F;
@@ -87,8 +87,8 @@ class O_A_MRAP_02_gmg_F: O_MRAP_02_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_MRAP_02_gmg_F.jpg";
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = private;
     side = TEast;
     faction =  OPF_A_F;
     crew = O_A_soldier_F;

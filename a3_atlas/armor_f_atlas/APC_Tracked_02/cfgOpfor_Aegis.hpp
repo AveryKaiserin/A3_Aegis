@@ -206,13 +206,13 @@ class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 	class TransportWeapons
 	{
 		weap_xx(arifle_AK12_545_F,2);
-		weap_xx(arifle_RPK12_F,1);
-		weap_xx(launch_RPG32_ghex_F,1);
+		weap_xx(arifle_RPK_F,1);
+		weap_xx(launch_RPG32_F,1);
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+		mag_xx(75Rnd_762x39_Mag_F,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
@@ -231,6 +231,6 @@ class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_green_F,2);
+		bag_xx(B_FieldPack_owcamo,2);
 	};
 };

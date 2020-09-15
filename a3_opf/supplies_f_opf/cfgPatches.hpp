@@ -3,8 +3,8 @@ class CfgPatches
 	class A3_Opf_Supplies_F_Opf
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Opposing Forces - Ammoboxes and Supplies";
-		url = "";
+		name = "Arma 3 Opposing Forces - Ammoboxes and Supplies";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
 		requiredAddons[] = {A3_Opf_Data_F_Opf};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};

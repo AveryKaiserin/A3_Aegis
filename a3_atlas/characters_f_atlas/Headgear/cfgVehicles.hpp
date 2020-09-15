@@ -51,10 +51,8 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetI_I_01_cover_F,$STR_A3_A_CfgWeapons_H_HelmetI_I_01_cover_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_Booniehat_whex_F,$STR_A3_A_CfgWeapons_H_Booniehat_whex_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_whex_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_whex_hs_F0,EdSubcat_Hats)
-    /*
 	HEADGEAR_HOLDER(H_Booniehat_semiarid,$STR_A3_A_CfgWeapons_H_Booniehat_semiarid0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_semiarid_hs,$STR_A3_A_CfgWeapons_H_Booniehat_semiarid_hs0,EdSubcat_Hats)
-    */
 	HEADGEAR_HOLDER(H_Booniehat_jungle,$STR_A3_A_CfgWeapons_H_Booniehat_jungle0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_jungle_hs,$STR_A3_A_CfgWeapons_H_Booniehat_jungle_hs0,EdSubcat_Hats)
     /*
@@ -63,9 +61,7 @@ class CfgVehicles
     */
 	HEADGEAR_HOLDER(H_MilCap_sgg,$STR_A3_A_CfgWeapons_H_MilCap_sgg0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_MilCap_whex_F,$STR_A3_A_CfgWeapons_H_MilCap_whex_F0,EdSubcat_Hats)
-    /*
 	HEADGEAR_HOLDER(H_MilCap_semiarid,$STR_A3_A_CfgWeapons_H_MilCap_semiarid0,EdSubcat_Hats)
-    */
 	HEADGEAR_HOLDER(H_MilCap_jungle,$STR_A3_A_CfgWeapons_H_MilCap_jungle0,EdSubcat_Hats)
     /*
 	HEADGEAR_HOLDER(H_MilCap_autumn,$STR_A3_A_CfgWeapons_H_MilCap_autumn0,EdSubcat_Hats)

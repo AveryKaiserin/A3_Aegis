@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Police - Characters and Clothing";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225865544";
 		requiredAddons[] = {A3_Police_Data_F_Police};
 		requiredVersion = 0.1;
 		units[] =
