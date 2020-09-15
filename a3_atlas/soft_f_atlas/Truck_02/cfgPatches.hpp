@@ -12,7 +12,7 @@ class CfgPatches
             O_W_Truck_02_F,
             O_W_Truck_02_transport_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Truck_02_cargo_F,
             O_C_Truck_02_F,
             O_C_Truck_02_transport_F,

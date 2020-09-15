@@ -12,11 +12,6 @@ class CfgPatches
             O_W_MRAP_02_gmg_F,
             O_W_MRAP_02_hmg_F,
 
-            // CSAT (Caspian)
-            O_C_MRAP_02_F,
-            O_C_MRAP_02_gmg_F,
-            O_C_MRAP_02_hmg_F,
-
             // CDF
             I_W_MRAP_02_F,
             I_W_MRAP_02_gmg_F,

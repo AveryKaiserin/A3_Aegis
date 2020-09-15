@@ -57,7 +57,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_Tank_wdl_F,$STR_A3_A_CfgWeapons_U_Tank_wdl_F0)
     // CSAT (Takistani)
 	UNIFORM_HOLDER(U_O_CombatUniform_semiarid,$STR_A3_A_CfgWeapons_U_O_CombatUniform_semiarid0)
-	UNIFORM_HOLDER(U_O_C_officer_noInsignia_semiarid_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_semiarid0)
+	UNIFORM_HOLDER(U_O_officer_noInsignia_semiarid_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_semiarid0)
     /*
 	// ADF
 	UNIFORM_HOLDER(U_B_O_CombatUniform_aucamo_f,$STR_A3_A_CfgWeapons_U_B_O_CombatUniform_aucamo_f0)

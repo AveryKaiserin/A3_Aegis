@@ -21,7 +21,7 @@ class CfgPatches
             // NATO (German)
             B_E_Quadbike_01_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Quadbike_01_F,
 
             // ADF

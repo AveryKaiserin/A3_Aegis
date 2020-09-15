@@ -20,7 +20,7 @@ class CfgPatches
             // NATO (German)
             B_E_Mortar_01_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Mortar_01_F,
 
             // ADF

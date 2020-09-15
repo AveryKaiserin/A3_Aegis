@@ -1,4 +1,3 @@
-// Arma 3 Atlas
 class U_O_CombatUniform_semiarid: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -16,7 +15,7 @@ class U_O_CombatUniform_semiarid: Uniform_Base
 		mass = 80;
 	};
 };
-class U_O_C_officer_noInsignia_semiarid_F: Uniform_Base
+class U_O_officer_noInsignia_semiarid_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;

@@ -704,6 +704,40 @@
 					<Japanese>ブーニーハット（砂漠六角形、ヘッドセット）</Japanese>
 					<Turkish>Boonie Şapka (Ağaçlık Hex, Mik. Kulaklık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_semiarid0">
+					<Original>Booniehat (Semi-Arid)</Original>
+					<Chinese>登山帽（半乾燥氣候）</Chinese>
+					<French>Chapeau de brousse (Semi-Aride)</French>
+					<Spanish>Sombrero militar (semiárido)</Spanish>
+					<Italian>Cappello militare a falda larga (semi-arido)</Italian>
+					<Polish>Kapelusz wojskowy (region półsuchy)</Polish>
+					<Russian>Панама (полузасушливая местность)</Russian>
+					<German>Tarnhut (Halbtrocken)</German>
+					<Czech>Klobouk (polosuchý porost)</Czech>
+					<English>Booniehat (Semi-Arid)</English>
+					<Portuguese>Chapéu tático (Semiárido)</Portuguese>
+					<Korean>부니햇(반건조)</Korean>
+					<Chinesesimp>郊区（半干旱）</Chinesesimp>
+					<Japanese>ブーニーハット（半乾燥地）</Japanese>
+					<Turkish>Boonie Şapka (Yarı Kurak)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_semiarid_hs0">
+					<Original>Booniehat (Semi-Arid, Headset)</Original>
+					<Chinese>登山帽（半乾燥氣候，耳機）</Chinese>
+					<French>Chapeau de brousse (Semi-Aride, micro-casque)</French>
+					<Spanish>Sombrero militar (semiárido, auricular)</Spanish>
+					<Italian>Cappello militare a falda larga (semi-arido, cuffia)</Italian>
+					<Polish>Kapelusz wojskowy (region półsuchy, głowa)</Polish>
+					<Russian>Панама (полузасушливая местность, гарнитура)</Russian>
+					<German>Tarnhut (Halbtrocken, Headset)</German>
+					<Czech>Klobouk (polosuchý porost, náhlavní souprava)</Czech>
+					<English>Booniehat (Semi-Arid, Headset)</English>
+					<Portuguese>Chapéu tático (Semiárido, headset)</Portuguese>
+					<Korean>부니햇(반건조, 헤드셋)</Korean>
+					<Chinesesimp>郊区（半干旱，头戴式耳机）</Chinesesimp>
+					<Japanese>ブーニーハット（半乾燥地、ヘッドセット）</Japanese>
+					<Turkish>Boonie Şapka (Yarı Kurak, Mik. Kulaklık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_jungle0">
 					<Original>Booniehat [HIMF]</Original>
 					<Chinese>登山帽（HIMF）</Chinese>
@@ -772,6 +806,23 @@
                     <Japanese>ミリタリーキャップ（砂漠六角形）</Japanese>
                     <Turkish>Askeri Kasket (Ağaçlık Hex)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_semiarid0">
+					<Original>Military Cap (Semi-Arid)</Original>
+					<Chinese>軍用棒球帽（半乾燥氣候）</Chinese>
+					<French>Casquette militaire (Semi-Aride)</French>
+					<Spanish>Gorra militar (semiárido)</Spanish>
+					<Italian>Berretto militare (semi-arido)</Italian>
+					<Polish>Czapka wojskowa (region półsuchy)</Polish>
+					<Russian>Армейская кепка (полузасушливая местность)</Russian>
+					<German>Militärmütze (Halbtrocken)</German>
+					<Czech>Vojenská čepice (polosuchý porost)</Czech>
+					<English>Military Cap (Semi-Arid)</English>
+					<Portuguese>Boné militar (Semiárido)</Portuguese>
+					<Korean>군용모자(반건조)</Korean>
+					<Chinesesimp>军帽（半干旱）</Chinesesimp>
+					<Japanese>ミリタリーキャップ（半乾燥地）</Japanese>
+					<Turkish>Askeri Kasket (Yarı Kurak)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_jungle0">
 					<Original>Military Cap [HIMF]</Original>
 					<Chinese>軍用棒球帽（HIMF）</Chinese>
@@ -789,7 +840,7 @@
 					<Japanese>ミリタリーキャップ[HIMF]</Japanese>
 					<Turkish>Askeri Kasket [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_aucamo_F0">
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetCrew_B_O0">
 					<Original>Crew Helmet [ADF]</Original>
 					<Chinese>隊員頭盔（ADF）</Chinese>
 					<French>Casque d'équipage [ADF]</French>
@@ -1249,6 +1300,41 @@
 					<Chinesesimp>坦克手服（林地）[NATO]</Chinesesimp>
 					<Japanese>戦車乗員用カバーオール（森林）[NATO]</Japanese>
 					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_CombatUniform_semiarid0">
+					<Original>Fatigues (Semi-Arid) [CSAT]</Original>
+					<Chinese>戰鬥服（半乾燥氣候）（CSAT）</Chinese>
+					<French>Treillis (Semi-Aride) [CSAT]</French>
+					<Spanish>Traje militar (semiárido) [CSAT]</Spanish>
+					<Italian>Uniforme (semi-arido) [CSAT]</Italian>
+					<Polish>Mundur (region półsuchy) [CSAT]</Polish>
+					<Russian>Форма (полузасушливая местность) [CSAT]</Russian>
+					<German>Militäranzug (Halbtrocken) [CSAT]</German>
+					<Czech>Uniforma (polosuchý porost) [CSAT]</Czech>
+					<English>Fatigues (Semi-Arid) [CSAT]</English>
+					<Portuguese>Fardas (Semiárido) [CSAT]</Portuguese>
+					<Korean>전투복(반건조)[CSAT]</Korean>
+					<Chinesesimp>军装（半干旱）[CSAT]</Chinesesimp>
+					<Japanese>服（半乾燥地）</Japanese>
+					<Turkish>Asker Kıyafeti (Yarı Kurak) [CSAT]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_officer_noInsignia_semiarid_F0">
+					<Original>Light Fatigues (Semi-Arid)</Original>
+					<Chinese>輕型戰鬥服（半乾燥氣候）</Chinese>
+					<French>Treillis clair (Semi-Aride)</French>
+					<Spanish>Ropa ligera (semiárido)</Spanish>
+					<Italian>Uniforme leggera (semi-arido)</Italian>
+					<Polish>Jasny mundur (region półsuchy)</Polish>
+					<Russian>Летняя форма (полузасушливая местность)</Russian>
+					<German>Leichter Anzug (Halbtrocken)</German>
+					<Czech>Lehká uniforma polosuchý porost)</Czech>
+					<English>Light Fatigues (Semi-Arid)</English>
+					<Portuguese>Trajes leves (Semiárido)</Portuguese>
+					<Korean>경량 전투복(반건조)</Korean>
+					<Chinesesimp>轻便军服（半干旱）</Chinesesimp>
+					<Japanese>軽装野戦服（半乾燥地）</Japanese>
+					<Turkish>Hafif Asker Kıyafeti (Yarı Kurak)</Turkish>
+				</Key>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_O_PilotCoveralls0">
 					<Original>Pilot Coveralls [ADF]</Original>

@@ -10,6 +10,9 @@
             // CSAT (Woodland)
             O_W_APC_Tracked_02_cannon_ghex_F,
 
+            // CSAT (Takistani)
+            O_C_APC_Tracked_02_cannon_F,
+
             // CDF
             I_W_APC_Tracked_02_cannon_F,
             I_W_APC_Tracked_02_AA_F

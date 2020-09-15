@@ -46,6 +46,11 @@ class I_T_Uniform_01_hex_F: I_G_Soldier_SL_F
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_hex_CO.paa",
 		"\A3\Characters_F_Gamma\Civil\Data\c_cloth1_black.paa"
 	};
+    hiddenSelectionsMaterials[] =
+    {
+        "\A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
+        "\A3\Characters_F\Civil\Data\c_cloth1.rvmat"
+    };
 };
 class I_T_Uniform_01_urb_F: I_T_Uniform_01_hex_F
 {

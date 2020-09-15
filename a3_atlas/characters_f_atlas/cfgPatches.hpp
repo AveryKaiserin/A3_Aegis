@@ -144,7 +144,7 @@ class CfgPatches
             B_E_Support_Mort_F,
             B_E_Survivor_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_crew_F,
             O_C_engineer_F,
             O_C_Fighter_Pilot_F,

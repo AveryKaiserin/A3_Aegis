@@ -16,7 +16,7 @@ class CfgPatches
             // NATO (German)
             B_E_Static_AA_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Static_AA_F,
 
             // ADF

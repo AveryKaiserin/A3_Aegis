@@ -2261,7 +2261,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_gmg_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_armed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AR_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_LAT_F,PRIVATE,-5,-5)
 				};
@@ -2271,7 +2271,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_unarmed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AT_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_AT_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_A_soldier_F,PRIVATE,0,-10)
@@ -2282,7 +2282,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_unarmed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AA_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_AA_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_A_soldier_F,PRIVATE,0,-10)

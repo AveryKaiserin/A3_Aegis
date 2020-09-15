@@ -21,7 +21,7 @@ class CfgPatches
             B_E_HMG_01_F,
             B_E_HMG_01_high_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_HMG_01_F,
             O_C_HMG_01_high_F,
 

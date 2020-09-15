@@ -12,7 +12,7 @@ class CfgPatches
             O_W_LSV_02_AT_F,
             O_W_LSV_02_unarmed_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_LSV_02_armed_F,
             O_C_LSV_02_AT_F,
             O_C_LSV_02_unarmed_F

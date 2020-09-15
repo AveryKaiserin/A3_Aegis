@@ -98,7 +98,7 @@ class Box_C_East_WpsLaunch_F: ReammoBox_F
 	class TransportItems{};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_ocamo,3);
+		bag_xx(B_FieldPack_semiarid,4);
 	};
 };
 class O_C_supplyCrate_F: O_supplyCrate_F

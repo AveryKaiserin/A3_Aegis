@@ -14,7 +14,7 @@ class O_C_soldier_base_F: O_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = private;
-	model = "\A3\Characters_F\OPFOR\O_Officer_noinsignia_F.p3d";
+	model = "\A3\Characters_F_Gamma\Guerrilla\IG_Leader.p3d";
 	modelSides[] =
 	{
 		TEast,
@@ -25,14 +25,29 @@ class O_C_soldier_base_F: O_officer_F
 	icon = iconMan;
 	role = Rifleman;
 	camouflage = 1.6;
-	uniformClass = U_O_C_officer_noInsignia_semiarid_F;
+	uniformClass = U_O_officer_noInsignia_semiarid_F;
     identityTypes[] =
     {
         LanguagePER_F,
         Head_TK,
         G_IRAN_default
     };
-    hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_noinsignia_semiarid_CO.paa"};
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        insignia
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_noinsignia_semiarid_CO.paa",
+        "\A3\Characters_F_Gamma\Civil\Data\c_cloth1_black.paa"
+    };
+    hiddenSelectionsMaterials[] =
+    {
+        "\A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
+        "\A3\Characters_F\Civil\Data\c_cloth1.rvmat"
+    };
     items[] = {FirstAidKit};
 	respawnItems[] = {FirstAidKit};
 	linkedItems[] = {DefaultManLinkedItems};
@@ -75,14 +90,14 @@ class O_C_soldier_A_F: O_C_soldier_base_F
     {
         V_HarnessO_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_HarnessO_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	weapons[] =
@@ -133,14 +148,14 @@ class O_C_soldier_AR_F: O_C_soldier_base_F
     {
         V_HarnessO_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_HarnessO_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	weapons[] =
@@ -191,14 +206,14 @@ class O_C_medic_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
         DefaultManLinkedItems
     };
 	weapons[] =
@@ -251,14 +266,14 @@ class O_C_crew_F: O_C_soldier_base_F
     {
         V_BandollierB_khk,
         H_Tank_black_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_BandollierB_khk,
         H_Tank_black_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -316,14 +331,14 @@ class O_C_engineer_F: O_C_soldier_base_F
     {
         V_HarnessO_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_HarnessO_tan,
         H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -375,14 +390,14 @@ class O_C_soldier_GL_F: O_C_soldier_base_F
     {
         V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -439,12 +454,12 @@ class O_C_helipilot_F: O_helipilot_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = U_O_C_officer_noInsignia_semiarid_F;
+	uniformClass = U_O_officer_noInsignia_semiarid_F;
     linkedItems[] =
     {
         V_TacVest_tan,
         H_PilotHelmetHeli_O,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems,
         O_NVGoggles_hex_F
     };
@@ -452,7 +467,7 @@ class O_C_helipilot_F: O_helipilot_F
     {
         V_TacVest_tan,
         H_PilotHelmetHeli_O,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems,
         O_NVGoggles_hex_F
     };
@@ -500,7 +515,7 @@ class O_C_helicrew_F: O_C_helipilot_F
     {
         V_TacVest_tan,
         H_CrewHelmetHeli_O,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems,
         O_NVGoggles_hex_F
     };
@@ -508,7 +523,7 @@ class O_C_helicrew_F: O_C_helipilot_F
     {
         V_TacVest_tan,
         H_CrewHelmetHeli_O,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems,
         O_NVGoggles_hex_F
     };
@@ -557,14 +572,14 @@ class O_C_soldier_M_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -618,14 +633,14 @@ class O_C_soldier_AA_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
 	weapons[] =
@@ -682,14 +697,14 @@ class O_C_soldier_AT_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
 	weapons[] =
@@ -788,14 +803,14 @@ class O_C_soldier_F: O_C_soldier_base_F
     {
         V_HarnessO_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_HarnessO_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -847,14 +862,14 @@ class O_C_soldier_LAT_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -908,14 +923,14 @@ class O_C_soldier_SL_F: O_C_soldier_base_F
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_TacVest_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -975,14 +990,14 @@ class O_C_soldier_TL_F: O_C_soldier_base_F
     {
         V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
     };
     weapons[] =
@@ -1098,14 +1113,14 @@ class O_C_RadioOperator_F: O_C_soldier_F
 	{
 		V_HarnessO_tan,
 		H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_tan,
 		H_Beret_ocamo,
-        G_Shemag_white,
+        //G_Shemag_white,
 		DefaultManLinkedItems
 	};
 	backpack = B_RadioBag_01_semiarid_F;

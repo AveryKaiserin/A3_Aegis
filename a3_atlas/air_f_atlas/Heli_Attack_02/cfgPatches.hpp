@@ -10,7 +10,7 @@ class CfgPatches
             // CSAT (Woodland)
             O_W_Heli_Attack_02_dynamicLoadout_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Heli_Attack_02_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};

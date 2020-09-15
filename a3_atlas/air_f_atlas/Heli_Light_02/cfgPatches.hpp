@@ -11,7 +11,7 @@ class CfgPatches
             O_W_Heli_Light_02_dynamicLoadout_F,
             O_W_Heli_Light_02_unarmed_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_Heli_Light_02_dynamicLoadout_F,
             O_C_Heli_Light_02_unarmed_F
         };

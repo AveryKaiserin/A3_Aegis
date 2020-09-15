@@ -38,8 +38,8 @@ class CfgVehicles
 	// Arma 3 Atlas
     #include "cfgLegion.hpp"		    // Legion
 	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    #include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
 	/*
-    #include "cfgOpfor_Atlas.hpp"		// CSAT (Caspian)
 	#include "cfgADF.hpp"				// ADF
     */
 	#include "cfgHIMF.hpp"		        // HIMF

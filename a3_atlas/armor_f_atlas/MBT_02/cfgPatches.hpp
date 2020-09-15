@@ -10,7 +10,7 @@
             // CSAT (Woodland)
             O_W_MBT_02_cannon_ghex_F,
 
-            // CSAT (Caspian)
+            // CSAT (Takistani)
             O_C_MBT_02_cannon_F,
 
             // CDF
