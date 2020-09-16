@@ -39,9 +39,13 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
     // Civilians
-	UNIFORM_HOLDER(U_C_CommonerJacket_01_black_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_black_F0)
-	UNIFORM_HOLDER(U_C_CommonerJacket_01_blue_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_blue_F0)
-	UNIFORM_HOLDER(U_C_CommonerJacket_01_grey_F,$STR_A3_A_CfgWeapons_U_C_CommonerJacket_01_grey_F0)
+	UNIFORM_HOLDER(U_C_Uniform_01_shirt_pattern_F,"Commoner Outfit (Pattern)")
+	UNIFORM_HOLDER(U_C_Uniform_01_shirt_striped_F,"Commoner Outfit (Striped)")
+	UNIFORM_HOLDER(U_C_Uniform_01_shirt_white_F,"Commoner Outfit (White)")
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_marroon_F,"Commoner Jacket (Marroon)")
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_blue_F,"Commoner Jacket (Blue)")
+	UNIFORM_HOLDER(U_C_CommonerJacket_01_grey_F,"Commoner Jacket (Grey)")
+	UNIFORM_HOLDER(U_C_Uniform_01_tshirt_white_F,"Worn Clothes (White)")
 	// Viper
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_whex_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_whex_F0)
 	// CSAT (Woodland)

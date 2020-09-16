@@ -59,6 +59,7 @@ class B_Soldier_CQ_F;
 class B_recon_AR_F;
 class B_recon_GL_F;
 class B_recon_MG_F;
+// BLU_E_F
 // Arma 3 Atlas
 class B_E_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
 {
@@ -2866,3 +2867,4 @@ class B_E_Fighter_Pilot_F: B_Fighter_Pilot_F
         SOLDIER_SMOKE_SHELLS_BLUFOR
 	};
 };
+// BLU_E_ard_F

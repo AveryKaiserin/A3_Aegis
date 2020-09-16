@@ -399,7 +399,7 @@ class Box_RUS_Support_F: Box_East_Support_F
 		item_xx(ItemGPS,5);
 		item_xx(O_R_UavTerminal,2);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02,1);
+		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(O_NVGoggles_grn_F,5);
@@ -534,7 +534,7 @@ class O_R_supplyCrate_F: O_supplyCrate_F
 		item_xx(FirstAidKit,10);
 		item_xx(acc_flashlight,5);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02,1);
+		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(Binocular,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
@@ -674,7 +674,7 @@ class Box_RUS_Support_arid_F: Box_RUS_Support_F
 		item_xx(ItemGPS,5);
 		item_xx(O_R_UavTerminal,2);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02,1);
+		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(O_NVGoggles_grn_F,5);

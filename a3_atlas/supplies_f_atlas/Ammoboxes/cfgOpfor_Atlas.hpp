@@ -11,7 +11,7 @@ class Box_C_East_Wps_F: ReammoBox_F
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Wps_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Box_C_East_Wps_F0;
+	displayName = "Basic Weapons [CSAT Takistani]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
@@ -44,7 +44,7 @@ class Box_C_East_Ammo_F: ReammoBox_F
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Ammo_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Box_C_East_Ammo_F0;
+	displayName = "Basic Ammo [CSAT Takistani]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
@@ -72,7 +72,7 @@ class Box_C_East_WpsLaunch_F: ReammoBox_F
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_WpsLaunch_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Box_C_East_WpsLaunch_F0;
+	displayName = "Launchers [CSAT Takistani]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
@@ -114,7 +114,7 @@ class O_C_supplyCrate_F: O_supplyCrate_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_C_supplyCrate_F0;
+	displayName = "Supply Box [CSAT Takistani]";
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CSAT_Takistani;
 	class TransportMagazines

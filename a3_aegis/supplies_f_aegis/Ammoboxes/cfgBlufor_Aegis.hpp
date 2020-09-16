@@ -622,9 +622,9 @@ class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 	{
 		item_xx(V_BandollierB_rgr,2);
 		item_xx(V_TacChestrig_grn_F,2);
-		item_xx(V_CarrierRigKBT_01_Green_F,2);
-		item_xx(V_CarrierRigKBT_01_heavy_Green_F,2);
-		item_xx(V_CarrierRigKBT_01_light_Green_F,4);
+		item_xx(V_CarrierRigKBT_01_Olive_F,2);
+		item_xx(V_CarrierRigKBT_01_heavy_Olive_F,2);
+		item_xx(V_CarrierRigKBT_01_light_Olive_F,4);
 		item_xx(V_PlateCarrierH_CTRG_grn_F,2);
 		item_xx(V_PlateCarrierL_CTRG_grn_F,2);
 		item_xx(H_Cap_khaki_specops_UK,1);

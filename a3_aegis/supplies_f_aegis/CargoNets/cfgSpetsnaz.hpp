@@ -117,7 +117,7 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		item_xx(acc_flashlight,5);
 		item_xx(acc_flashlight_pistol,2);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02,1);
+		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(muzzle_snds_b_lush_F,5);
 		item_xx(muzzle_snds_L,5);
 		item_xx(muzzle_snds_545,5);
@@ -245,7 +245,7 @@ class O_R_CargoNet_01_ammo_arid_F: O_R_CargoNet_01_ammo_F
 		item_xx(acc_flashlight,5);
 		item_xx(acc_flashlight_pistol,2);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02,1);
+		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(muzzle_snds_b_arid_F,5);
 		item_xx(muzzle_snds_L,5);
 		item_xx(muzzle_snds_545,5);

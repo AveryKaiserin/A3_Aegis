@@ -420,13 +420,13 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_semiarid0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_semiarid_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\booniehat_semiarid_CO.paa"};
 	};
 	class H_Booniehat_semiarid_hs: H_Booniehat_semiarid
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_semiarid_hs_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_semiarid_hs_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_semiarid_hs0;
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
@@ -490,7 +490,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_MilCap_semiarid0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_semiarid_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_MilCap_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\cappatrol_semiarid_CO.paa"};
 	};
 	class H_MilCap_jungle: H_MilCap_ocamo

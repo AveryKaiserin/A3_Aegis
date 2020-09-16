@@ -314,14 +314,14 @@ class O_R_JTAC_F: O_R_Soldier_Base_F
         arifle_AK12_545_aco_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_545_aco_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -759,14 +759,14 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
         arifle_AK12_GL_lush_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_GL_lush_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -2818,14 +2818,14 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
         arifle_AK12_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -3131,14 +3131,14 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
         arifle_AK12_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -4178,14 +4178,14 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
         arifle_AK12_GL_arid_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_GL_arid_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-		Laserdesignator_02
+		Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -4287,14 +4287,14 @@ class O_R_spotter_ard_F: O_R_spotter_F
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -4487,14 +4487,14 @@ class O_R_ghillie_spotter_ard_F: O_R_ghillie_ard_F
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -4545,14 +4545,14 @@ class O_R_ghillie_spotter_lsh_F: O_R_ghillie_lsh_F
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {
@@ -4603,14 +4603,14 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
-        Laserdesignator_02
+        Laserdesignator_02_grn_F
     };
     magazines[] =
     {

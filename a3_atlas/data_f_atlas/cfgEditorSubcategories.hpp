@@ -1,5 +1,9 @@
 class CfgEditorSubcategories
 {
+	class EdSubcat_Personnel_Persian
+	{
+		displayName = "Men (Middle Eastern)";
+	};
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_CSAT_Woodland
 	{
@@ -7,7 +11,7 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_Legion
 	{
-		displayName = "Ammo (Legion)";
+		displayName = "Ammo (Legionnaires)";
 	};
 	class EdSubcat_Ammo_NATO_German
 	{

@@ -1974,21 +1974,21 @@
 					<Turkish>CSAT (Ağaçlık)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_L_F0">
-					<Original>Legion</Original>
-					<Chinese>軍團</Chinese>
-					<French>Légion</French>
-					<Spanish>Legión</Spanish>
-					<Italian>Legione</Italian>
+					<Original>Legionnaires</Original>
+					<Chinese>軍團士兵</Chinese>
+					<French>Légionnaires</French>
+					<Spanish>Legionarios</Spanish>
+					<Italian>Legionari</Italian>
 					<Polish>Legioniści</Polish>
-					<Russian>Легион</Russian>
+					<Russian>Легионеры</Russian>
 					<German>Legionäre</German>
 					<Czech>Legionáři</Czech>
-					<English>Legion</English>
-					<Portuguese>Legião</Portuguese>
+					<English>Legionnaires</English>
+					<Portuguese>Legionários</Portuguese>
 					<Korean>군단병</Korean>
-					<Chinesesimp>军团</Chinesesimp>
+					<Chinesesimp>军团士兵</Chinesesimp>
 					<Japanese>軍団</Japanese>
-					<Turkish>Lejyon</Turkish>
+					<Turkish>Lejyonerler</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
 					<Original>NATO (German)</Original>
@@ -2963,21 +2963,21 @@
 					<Turkish>İkmal Kutusu [CSAT Ağaçlık]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_L_supplyCrate_F0">
-					<Original>Supply Box [Legion]</Original>
-					<Chinese>補給盒（軍團）</Chinese>
-					<French>Caisse de ravitaillements [Légion]</French>
-					<Spanish>Caja de suministros [Legión]</Spanish>
-					<Italian>Scatola di rifornimenti [Legione]</Italian>
+					<Original>Supply Box [Legionnaires]</Original>
+					<Chinese>補給盒（軍團士兵）</Chinese>
+					<French>Caisse de ravitaillements [Légionnaires]</French>
+					<Spanish>Caja de suministros [Legionarios]</Spanish>
+					<Italian>Scatola di rifornimenti [Legionari]</Italian>
 					<Polish>Skrzynia z zaopatrzeniem [Legioniści]</Polish>
-					<Russian>Ящик с припасами [Легион]</Russian>
+					<Russian>Ящик с припасами [Легионеры]</Russian>
 					<German>Nachschubkiste [Legionäre]</German>
 					<Czech>Bedna se zásobami [Legionáři]</Czech>
-					<English>Supply Box [Legion]</English>
-					<Portuguese>Caixa de suprimentos [Legião]</Portuguese>
+					<English>Supply Box [Legionnaires]</English>
+					<Portuguese>Caixa de suprimentos [Legionários]</Portuguese>
 					<Korean>보급상자[군단병]</Korean>
-					<Chinesesimp>供给箱 [军团]</Chinesesimp>
+					<Chinesesimp>供给箱 [军团士兵]</Chinesesimp>
 					<Japanese>物資箱[軍団]</Japanese>
-					<Turkish>İkmal Kutusu [Lejyon]</Turkish>
+					<Turkish>İkmal Kutusu [Lejyonerler]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_E_supplyCrate_F0">
 					<Original>Supply Box [NATO German]</Original>

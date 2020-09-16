@@ -1787,22 +1787,20 @@ class CfgWeapons
 		lockedTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_3",db-5,2.5};
 		lockingTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_1",db-5,1};
 	};
-	/*
 	class Laserdesignator_02_blk_F: Laserdesignator_02
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0;
-		model = "\A3_Aegis\Hexedit_F_Aegis\Laserdesignator_02_blk_F.p3d";
-		picture = "\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_blk_F_X_CA.paa";
+		model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_blk_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
+		picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_blk_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
 	};
 	class Laserdesignator_02_grn_F: Laserdesignator_02
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_grn_F0;
-		model = "\A3_Aegis\Hexedit_F_Aegis\Laserdesignator_02_grn_F.p3d";
-		picture = "\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_grn_F_X_CA.paa";
+		model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_grn_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
+		picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_grn_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
 	};
-	*/
 	class Laserdesignator_04: Laserdesignator
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -2888,16 +2886,17 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_optic_ACO_grn_AK_F0;
-		model = "\A3\Weapons_F\Acc\acco_aco_OP_smg_F.p3d";
-		picture = "\A3\Weapons_F\Acc\Data\UI\icon_optic_ACO_grn_smg_CA.paa";
+		model = /*"\A3_Aegis\Weapons_F_Aegis\Acc\acco_aco_AK_F.p3d"*/ "\A3\Weapons_F\Acc\acco_aco_OP_smg_F.p3d";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_ACO_grn_AK_F_CA.paa";
 	};
+    /*
 	class optic_Kobra_F: ItemCore
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_optic_Kobra_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_Kobra_F_CA.paa";
-		//model = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_Kobra_F.p3d";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_Kobra_F_CA.paa";
+		model = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_Kobra_F.p3d";
 		descriptionShort = $STR_A3_A_CfgWeapons_optic_Kobra_F1;
 		weaponInfoType = RscWeaponZeroing;
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -2932,8 +2931,8 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_optic_pso_F0;
-		//picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_pso_F_CA.paa";
-		//model = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_pso_F.p3d";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_optic_pso_F_CA.paa";
+		model = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_pso_F.p3d";
 		descriptionShort = $STR_A3_A_CfgWeapons_optic_pso_F1;
 		weaponInfoType = RscWeaponZeroing;
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -2988,4 +2987,5 @@ class CfgWeapons
 		};
 		inertia = 0.2;
 	};
+    */
 };

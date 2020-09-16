@@ -117,6 +117,10 @@ class CfgVehicles
         displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_F0;
     };
 	// Arma 3 Enoch
+	class Item_optic_MRD_black: Item_Base_F
+	{
+        editorSubcategory = EdSubcat_TopSlot_Collimators;
+    };
 	class Item_bipod_02_F_lush: Item_Base_F
 	{
 		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_lush0;
@@ -158,10 +162,8 @@ class CfgVehicles
 		scopeCurator = public;
 	};
 	// Arma 3 Aegis
-	/*
 	ITEM_HOLDER(Laserdesignator_02_blk_F,$STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0,"\A3\Weapons_F\DummyBinoc.p3d")
 	ITEM_HOLDER(Laserdesignator_02_grn_F,$STR_A3_A_CfgWeapons_Laserdesignator_02_grn_F0,"\A3\Weapons_F\DummyBinoc.p3d")
-	*/
 	ITEM_HOLDER(Laserdesignator_04,$STR_A3_A_CfgWeapons_Laserdesignator_040,"\A3\Weapons_F\DummyBinoc.p3d")
 	LAUNCHER_HOLDER(launch_RPG32_black_F,$STR_A3_A_CfgWeapons_launch_RPG32_black_F0,RPG32_F)
 	LAUNCHER_HOLDER(launch_O_Titan_camo_F,$STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0,Titan_AA)
@@ -230,6 +232,8 @@ class CfgVehicles
 	ACC_HOLDER(muzzle_mzls_58_F,$STR_A3_A_CfgWeapons_muzzle_mzls_58_F0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
 	ACC_HOLDER(muzzle_mzls_545,$STR_A3_A_CfgWeapons_muzzle_mzls_5450,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
 	ACC_HOLDER(optic_ACO_grn_AK_F,$STR_A3_A_CfgWeapons_optic_ACO_grn_AK_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
+    /*
 	ACC_HOLDER(optic_Kobra_F,$STR_A3_A_CfgWeapons_optic_Kobra_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
 	ACC_HOLDER(optic_pso_F,$STR_A3_A_CfgWeapons_optic_pso_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
+    */
 };

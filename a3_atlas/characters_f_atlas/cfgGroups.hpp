@@ -65,8 +65,7 @@ class CfgGroups
 					faction = BLU_L_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_motor_inf.paa";
 					GROUP_UNIT(0,TWest,B_L_LSV_01_armed_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TWest,B_L_soldier_AR_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TWest,B_L_soldier_LAT_F,PRIVATE,-5,-5)
+					GROUP_UNIT(1,TWest,B_L_soldier_LAT_F,PRIVATE,5,-5)
 				};
 			};
 		};
