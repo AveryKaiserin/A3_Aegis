@@ -1216,6 +1216,34 @@ class arifle_MX_SW_khk_Hamr_Pointer_Snds_F: arifle_MX_SW_khk_F
 		};
 	};
 };
+/*
+// AKM 7.62 mm + KSO
+class arifle_AKM_kso_F: arifle_AKM_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_kso_F;
+		};
+	};
+};
+// AKM 7.62 mm + PSO
+class arifle_AKM_pso_F: arifle_AKM_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_pso_F;
+		};
+	};
+};
+*/
 // CAR-95 GL 5.8 mm (Black) + ACO (Red) + IR Laser Pointer
 class arifle_CTAR_GL_blk_ACO_Pointer_F: arifle_CTAR_GL_blk_F
 {

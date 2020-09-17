@@ -291,6 +291,95 @@
 				<Japanese>F-38I Aiit（ステルス）</Japanese>
 				<Turkish>F-38I Aiit (gizlilik)</Turkish>
 			</Key>
+			<Container name="DisplayName">
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_05_base_F0">
+					<Original>MH-150 Mohican</Original>
+					<Chinese>MH-150 Mohican</Chinese>
+					<French>MH-150 Mohican</French>
+					<Spanish>MH-150 Mohican</Spanish>
+					<Italian>MH-150 Mohican</Italian>
+					<Polish>MH-150 Mohican</Polish>
+					<Russian>MH-150 Mohican</Russian>
+					<German>MH-150 Mohican</German>
+					<Czech>MH-150 Mohican</Czech>
+					<English>MH-150 Mohican</English>
+					<Portuguese>MH-150 Mohican</Portuguese>
+					<Korean>MH-150 Mohican</Korean>
+					<Chinesesimp>MH-150 Mohican</Chinesesimp>
+					<Japanese>MH-150 Mohican</Japanese>
+					<Turkish>MH-150 Mohican</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_05_armed_base_F0">
+					<Original>MH-150 Mohican (Armed)</Original>
+					<Chinese>MH-150 Mohican（武裝）</Chinese>
+					<French>MH-150 Mohican(armé)</French>
+					<Spanish>MH-150 Mohican (con armas)</Spanish>
+					<Italian>MH-150 Mohican (armato)</Italian>
+					<Polish>MH-150 Mohican (uzbrojony)</Polish>
+					<Russian>MH-150 Mohican (с оружием)</Russian>
+					<German>MH-150 Mohican (Bewaffnet)</German>
+					<Czech>MH-150 Mohican (ozbrojený)</Czech>
+					<English>MH-150 Mohican (Armed)</English>
+					<Portuguese>MH-150 Mohican (armado)</Portuguese>
+					<Korean>MH-150 Mohican (무장)</Korean>
+					<Chinesesimp>MH-150 Mohican（武装）</Chinesesimp>
+					<Japanese>MH-150 Mohican （武装）</Japanese>
+					<Turkish>MH-150 Mohican (Silahlı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_05_medevac_base_F0">
+					<Original>MH-150 Mohican (Medical)</Original>
+					<Chinese>MH-150 Mohican（醫療用）</Chinese>
+					<French>MH-150 Mohican(médical)</French>
+					<Spanish>MH-150 Mohican (médico)</Spanish>
+					<Italian>MH-150 Mohican (medico)</Italian>
+					<Polish>MH-150 Mohican (sprzęt medyczny)</Polish>
+					<Russian>MH-150 Mohican (медицинский)</Russian>
+					<German>MH-150 Mohican (Medizin)</German>
+					<Czech>MH-150 Mohican (zdravotnický)</Czech>
+					<English>MH-150 Mohican (Medical)</English>
+					<Portuguese>MH-150 Mohican (médico)</Portuguese>
+					<Korean>MH-150 Mohican (의료)</Korean>
+					<Chinesesimp>MH-150 Mohican（医疗）</Chinesesimp>
+					<Japanese>MH-150 Mohican （医療）</Japanese>
+					<Turkish>MH-150 Mohican (Sıhhiye)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_05_unarmed_base_F0">
+					<Original>MH-150 Mohican (Unarmed)</Original>
+					<Chinese>MH-150 Mohican（無武裝）</Chinese>
+					<French>MH-150 Mohican(désarmé)</French>
+					<Spanish>MH-150 Mohican (sin armas)</Spanish>
+					<Italian>MH-150 Mohican (disarmato)</Italian>
+					<Polish>MH-150 Mohican (nieuzbrojony)</Polish>
+					<Russian>MH-150 Mohican (без оружия)</Russian>
+					<German>MH-150 Mohican (Unbewaffnet)</German>
+					<Czech>MH-150 Mohican (neozbrojený)</Czech>
+					<English>MH-150 Mohican (Unarmed)</English>
+					<Portuguese>MH-150 Mohican (desarmado)</Portuguese>
+					<Korean>MH-150 Mohican (비무장)</Korean>
+					<Chinesesimp>MH-150 Mohican（非武装）</Chinesesimp>
+					<Japanese>MH-150 Mohican （非武装）</Japanese>
+					<Turkish>MH-150 Mohican (Silahsız)</Turkish>
+				</Key>
+			</Container>
+			<Container name="Library">
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_05_base_F_Library0">
+					<Original>**TO TRANSLATE**</Original>
+					<Chinese>**TO TRANSLATE**</Chinese>
+					<French>**TO TRANSLATE**</French>
+					<Spanish>**TO TRANSLATE**</Spanish>
+					<Italian>**TO TRANSLATE**</Italian>
+					<Polish>**TO TRANSLATE**</Polish>
+					<Russian>**TO TRANSLATE**</Russian>
+					<German>**TO TRANSLATE**</German>
+					<Czech>**TO TRANSLATE**</Czech>
+					<English>**TO TRANSLATE**</English>
+					<Portuguese>**TO TRANSLATE**</Portuguese>
+					<Korean>**TO TRANSLATE**</Korean>
+					<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+					<Japanese>**TO TRANSLATE**</Japanese>
+					<Turkish>**TO TRANSLATE**</Turkish>
+				</Key>
+		    </Container>
 		</Container>
 		<Container name="Armor_F">
 			<Key ID="STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_AA_F0">

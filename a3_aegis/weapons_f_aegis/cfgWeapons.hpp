@@ -1307,6 +1307,8 @@ class CfgWeapons
 			"\A3\Weapons_F_Enoch\Machineguns\M200\Data\grip_black_CO.paa"
 		};
 	};
+	class arifle_AKM_base_F;
+	class arifle_AKM_F;
 	class arifle_AKS_base_F: Rifle_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
