@@ -8,13 +8,22 @@ class CfgPatches
 		units[] =
         {
             // CSAT (Woodland)
+            O_W_Truck_02_Ammo_F,
+            O_W_Truck_02_box_F,
             O_W_Truck_02_cargo_F,
             O_W_Truck_02_F,
+            O_W_Truck_02_fuel_F,
+            O_W_Truck_02_medical_F,
+            O_W_Truck_02_MRL_F,
             O_W_Truck_02_transport_F,
 
             // CSAT (Takistani)
+            O_C_Truck_02_Ammo_F,
+            O_C_Truck_02_box_F,
             O_C_Truck_02_cargo_F,
             O_C_Truck_02_F,
+            O_C_Truck_02_fuel_F,
+            O_C_Truck_02_medical_F,
             O_C_Truck_02_transport_F,
 
             // HIMF

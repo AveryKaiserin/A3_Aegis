@@ -8,9 +8,15 @@ class CfgPatches
 		units[] =
         {
             // Legion
+            B_L_Truck_01_ammo_F,
+            B_L_Truck_01_box_F,
             B_L_Truck_01_cargo_F,
             B_L_Truck_01_covered_F,
             B_L_Truck_01_flatbed_F,
+            B_L_Truck_01_fuel_F,
+            B_L_Truck_01_medical_F,
+            B_L_Truck_01_mover_F,
+            B_L_Truck_01_Repair_F,
             B_L_Truck_01_transport_F,
 
             // NATO (German)

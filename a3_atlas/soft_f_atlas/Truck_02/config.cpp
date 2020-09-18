@@ -11,6 +11,11 @@ class CfgVehicles
 	class Truck_02_transport_base_F;
 	class O_Truck_02_covered_F;
     class O_Truck_02_transport_F;
+	class O_Truck_02_box_F;
+	class O_Truck_02_medical_F;
+	class O_Truck_02_Ammo_F;
+	class O_Truck_02_fuel_F;
+    class Truck_02_MRL_base_F;
 	// Arma 3 Aegis
 	class Truck_02_cargo_base_F;
 	// Arma 3 Atlas
