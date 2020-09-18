@@ -124,6 +124,8 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
 	};
 	// Arma 3 Aegis
+    // NATO
+	UNIFORM_HOLDER(U_Tank_sand_F,$STR_A3_A_CfgWeapons_U_Tank_sand_F0)
 	// Civilians
 	UNIFORM_HOLDER(U_Jayholder,$STR_A3_A_CfgWeapons_U_Jayholder0)
 	UNIFORM_HOLDER(U_C_Man_casual_7_F,$STR_A3_A_CfgWeapons_U_C_Man_casual_7_F0)

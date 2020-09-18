@@ -363,6 +363,7 @@ class B_T_Crew_F: B_crew_F
 		Head_NATO,
 		G_NATO_tropic
 	};
+    uniformClass = U_Tank_sand_F;
 	weapons[] =
     {
         arifle_MXC_khk_Holo_F,

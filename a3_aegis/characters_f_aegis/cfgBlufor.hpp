@@ -722,6 +722,7 @@ class B_engineer_F: B_Soldier_03_f
 class B_crew_F: B_Soldier_03_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_crew_F.jpg";
+    uniformClass = U_Tank_sand_F;
 	weapons[] =
     {
         arifle_MXC_Holo_F,
@@ -2154,6 +2155,7 @@ class B_soldier_LAT2_F: B_Soldier_base_F
         mag_2(SmokeShell)
 	};
 };
+class I_Story_Crew_F;
 // Arma 3 Enoch
 class B_CBRN_Man_Oversuit_01_MTP_F;
 // Arma 3 Aegis
@@ -2859,4 +2861,16 @@ class B_RadioOperator_F: B_Soldier_F
         mag_2(SmokeShell)
     };
     role = RadioOperator;
+};
+class B_TankerCoveralls_01_F: I_Story_Crew_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	modelSides[] =
+	{
+		TWest,
+		TCivilian
+	};
+	uniformClass = U_Tank_sand_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_Tank_sand_CO.paa"};
 };
