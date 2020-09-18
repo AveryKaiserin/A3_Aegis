@@ -268,6 +268,8 @@ class CfgFaces
 		{
 			author = $STR_A3_A_AveryTheKitty;
 			displayname = $STR_A3_TakistaniMen_LastNames36;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_bald_1_co.paa";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_bald_co.paa";
 			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_CO.paa";
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_injury.rvmat";
@@ -286,6 +288,8 @@ class CfgFaces
 		{
 			author = $STR_A3_A_AveryTheKitty;
 			displayname = $STR_A3_TakistaniMen_LastNames47;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_bald_1_co.paa";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_bald_co.paa";
 			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_CO.paa";
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_injury.rvmat";

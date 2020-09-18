@@ -39,6 +39,74 @@
 				</Key>
 			</Container>
 			<Container name="Headgear">
+				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_desert0">
+					<Original>Booniehat (Desert) [USMC]</Original>
+					<Chinese>登山帽（沙漠）（USMC）</Chinese>
+					<French>Chapeau de brousse (désert) [USMC]</French>
+					<Spanish>Sombrero militar (desierto) [USMC]</Spanish>
+					<Italian>Cappello militare a falda larga (deserto) [USMC]</Italian>
+					<Polish>Kapelusz wojskowy (pustynia) [USMC]</Polish>
+					<Russian>Панама (пустыня) [USMC]</Russian>
+					<German>Tarnhut (Wüste) [USMC]</German>
+					<Czech>Klobouk (poušť) [USMC]</Czech>
+					<English>Booniehat (Desert) [USMC]</English>
+					<Portuguese>Chapéu tático (Deserto) [USMC]</Portuguese>
+					<Korean>부니햇(사막) [USMC]</Korean>
+					<Chinesesimp>郊区（沙漠） [USMC]</Chinesesimp>
+					<Japanese>ブーニーハット（砂漠） [USMC]</Japanese>
+					<Turkish>Boonie Şapka (Çöl) [USMC]</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_desert_hs0">
+					<Original>Booniehat (Woodland, Headset) [USMC]</Original>
+					<Chinese>登山帽（森林，耳機）（USMC）</Chinese>
+					<French>Chapeau de brousse (forêt, micro-casque) [USMC]</French>
+					<Spanish>Sombrero militar (bosque, auricular) [USMC]</Spanish>
+					<Italian>Cappello militare a falda larga (boschi, cuffia) [USMC]</Italian>
+					<Polish>Kapelusz wojskowy (las, głowa) [USMC]</Polish>
+					<Russian>Панама (лес, гарнитура) [USMC]</Russian>
+					<German>Tarnhut (Waldland, Headset [USMC])</German>
+					<Czech>Klobouk (woodland, náhlavní souprava) [USMC]</Czech>
+					<English>Booniehat (Woodland, Headset) [USMC]</English>
+					<Portuguese>Chapéu tático (floresta, headset) [USMC]</Portuguese>
+					<Korean>부니햇(산악, 헤드셋) [USMC]</Korean>
+					<Chinesesimp>郊区（林地，头戴式耳机） [USMC]</Chinesesimp>
+					<Japanese>ブーニーハット（森林、ヘッドセット） [USMC]</Japanese>
+					<Turkish>Boonie Şapka (Ağaçlık, Mik. Kulaklık) [USMC]</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_mwdl0">
+					<Original>Booniehat (Woodland) [USMC]</Original>
+					<Chinese>登山帽（森林）（USMC）</Chinese>
+					<French>Chapeau de brousse (forêt) [USMC]</French>
+					<Spanish>Sombrero militar (bosque) [USMC]</Spanish>
+					<Italian>Cappello militare a falda larga (boschi) [USMC]</Italian>
+					<Polish>Kapelusz wojskowy (las) [USMC]</Polish>
+					<Russian>Панама (лес) [USMC]</Russian>
+					<German>Tarnhut (Waldland) [USMC]</German>
+					<Czech>Klobouk (woodland) [USMC]</Czech>
+					<English>Booniehat (Woodland) [USMC]</English>
+					<Portuguese>Chapéu tático (floresta) [USMC]</Portuguese>
+					<Korean>부니햇(산악) [USMC]</Korean>
+					<Chinesesimp>郊区（林地） [USMC]</Chinesesimp>
+					<Japanese>ブーニーハット（森林） [USMC]</Japanese>
+					<Turkish>Boonie Şapka (Ağaçlık) [USMC]</Turkish>
+				</Key>
+				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_mwdl_hs0">
+					<Original>Booniehat (Woodland, Headset) [USMC]</Original>
+					<Chinese>登山帽（森林，耳機）（USMC）</Chinese>
+					<French>Chapeau de brousse (forêt, micro-casque) [USMC]</French>
+					<Spanish>Sombrero militar (bosque, auricular) [USMC]</Spanish>
+					<Italian>Cappello militare a falda larga (boschi, cuffia) [USMC]</Italian>
+					<Polish>Kapelusz wojskowy (las, głowa) [USMC]</Polish>
+					<Russian>Панама (лес, гарнитура) [USMC]</Russian>
+					<German>Tarnhut (Waldland, Headset [USMC])</German>
+					<Czech>Klobouk (woodland, náhlavní souprava) [USMC]</Czech>
+					<English>Booniehat (Woodland, Headset) [USMC]</English>
+					<Portuguese>Chapéu tático (floresta, headset) [USMC]</Portuguese>
+					<Korean>부니햇(산악, 헤드셋) [USMC]</Korean>
+					<Chinesesimp>郊区（林地，头戴式耳机） [USMC]</Chinesesimp>
+					<Japanese>ブーニーハット（森林、ヘッドセット） [USMC]</Japanese>
+					<Turkish>Boonie Şapka (Ağaçlık, Mik. Kulaklık) [USMC]</Turkish>
+				</Key>
 				<Key ID="STR_A3_M_CfgWeapons_H_MilCap_desert0">
 					<Original>Military Cap (Desert) [USMC]</Original>
 					<Chinese>軍用棒球帽（沙漠）（USMC）</Chinese>

@@ -346,11 +346,21 @@ class CfgWeapons
 	};
 	class V_PlateCarrier1_wdl: V_PlateCarrier1_blk
 	{
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier1_wdl_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"};
 	};
 	class V_PlateCarrier2_wdl: V_PlateCarrier2_blk
 	{
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier2_wdl_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"};
+	};
+	class V_PlateCarrierGL_wdl: V_PlateCarrierGL_rgr
+	{
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierGL_wdl_CA.paa";
+	};
+	class V_PlateCarrierSpec_wdl: V_PlateCarrierSpec_rgr
+	{
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierSpec_wdl_CA.paa";
 	};
 	// Arma 3 Aegis
 	class V_Rangemaster_belt_khk: V_Rangemaster_belt
