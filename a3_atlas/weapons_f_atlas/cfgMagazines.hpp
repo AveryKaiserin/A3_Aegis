@@ -9,8 +9,6 @@ class CfgMagazines
 		displayName = "7.62 mm 150Rnd Reload Tracer (Green) Box";
 	};
 	class 150Rnd_762x51_Box_Tracer;
-	class B_IR_Grenade;
-	class I_IR_Grenade;
 	// Arma 3 Marksman
 	class 150Rnd_93x64_Mag: CA_Magazine
 	{
@@ -34,29 +32,6 @@ class CfgMagazines
 		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: Negev";
 		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
 		tracersEvery = 1;
-	};
-    /*
-	class B_O_IR_Grenade: B_IR_Grenade
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		ammo = B_O_IRStrobe;
-		displayName = $STR_A3_A_CfgMagazines_B_O_IR_Grenade0;
-		descriptionShort = $STR_A3_A_CfgMagazines_B_O_IR_Grenade1;
-	};
-	class I_W_IR_Grenade: I_IR_Grenade
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		ammo = I_W_IRStrobe;
-		displayName = $STR_A3_A_CfgMagazines_I_W_IR_Grenade0;
-		descriptionShort = $STR_A3_A_CfgMagazines_I_W_IR_Grenade1;
-	};
-    */
-	class I_I_IR_Grenade: I_IR_Grenade
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		ammo = I_I_IRStrobe;
-		displayName = $STR_A3_A_CfgMagazines_I_I_IR_Grenade0;
-		descriptionShort = $STR_A3_A_CfgMagazines_I_I_IR_Grenade1;
 	};
     /*
 	class 30Rnd_556x45_AUG_Mag_F: 30Rnd_556x45_Stanag

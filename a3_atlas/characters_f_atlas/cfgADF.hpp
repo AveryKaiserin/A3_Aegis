@@ -277,7 +277,7 @@ class B_O_Soldier_AAR_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -285,7 +285,7 @@ class B_O_Soldier_AAR_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	role = Assistant;
@@ -632,7 +632,7 @@ class B_O_Soldier_SL_F: B_O_Soldier_base_F
 		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
 	};
@@ -642,7 +642,7 @@ class B_O_Soldier_SL_F: B_O_Soldier_base_F
 		mag_2(30Rnd_556x45_AUG_Mag_Tracer_F),
 		mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
 	};
@@ -1038,7 +1038,7 @@ class B_O_Soldier_AAA_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1046,7 +1046,7 @@ class B_O_Soldier_AAA_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1094,7 +1094,7 @@ class B_O_Soldier_AAT_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1102,7 +1102,7 @@ class B_O_Soldier_AAT_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 130000;
@@ -1148,7 +1148,7 @@ class B_O_Support_GMG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1156,7 +1156,7 @@ class B_O_Support_GMG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1202,7 +1202,7 @@ class B_O_Support_MG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1210,7 +1210,7 @@ class B_O_Support_MG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1256,7 +1256,7 @@ class B_O_Support_Mort_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1264,7 +1264,7 @@ class B_O_Support_Mort_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1310,7 +1310,7 @@ class B_O_Support_AMG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1318,7 +1318,7 @@ class B_O_Support_AMG_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1364,7 +1364,7 @@ class B_O_Support_AMort_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -1372,7 +1372,7 @@ class B_O_Support_AMort_F: B_O_Soldier_base_F
 		mag_8(30Rnd_556x45_AUG_Mag_F),
         mag_2(11Rnd_45ACP_Mag),
         HandGrenade,
-        mag_2(B_O_IR_Grenade),
+        mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -1885,7 +1885,7 @@ class B_O_Soldier_UAV_F: B_O_Soldier_base_F
 	{
 		V_PlateCarrier1_aucamo_F,
 		H_HelmetHBK_aucamo_F,
-        B_O_UavTerminal,
+        B_UavTerminal,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};
@@ -1893,7 +1893,7 @@ class B_O_Soldier_UAV_F: B_O_Soldier_base_F
 	{
 		V_PlateCarrier1_aucamo_F,
 		H_HelmetHBK_aucamo_F,
-        B_O_UavTerminal,
+        B_UavTerminal,
 		DefaultManLinkedItems,
 		NVGoggles_aucamo_F
 	};

@@ -157,7 +157,7 @@ class I_E_Soldier_AAR_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -165,7 +165,7 @@ class I_E_Soldier_AAR_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -405,7 +405,7 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
@@ -415,7 +415,7 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
@@ -610,7 +610,7 @@ class I_E_Soldier_AAA_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -618,7 +618,7 @@ class I_E_Soldier_AAA_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -658,7 +658,7 @@ class I_E_Soldier_AAT_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -666,7 +666,7 @@ class I_E_Soldier_AAT_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -704,7 +704,7 @@ class I_E_Support_GMG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -712,7 +712,7 @@ class I_E_Support_GMG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -750,7 +750,7 @@ class I_E_Support_MG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -758,7 +758,7 @@ class I_E_Support_MG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -796,7 +796,7 @@ class I_E_Support_Mort_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -804,7 +804,7 @@ class I_E_Support_Mort_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -842,7 +842,7 @@ class I_E_Support_AMG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -850,7 +850,7 @@ class I_E_Support_AMG_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -888,7 +888,7 @@ class I_E_Support_AMort_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -896,7 +896,7 @@ class I_E_Support_AMort_F: I_E_Soldier_base_F
         mag_8(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
     };
 };
@@ -942,7 +942,7 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_3(6Rnd_12Gauge_Slug),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR,
         mag_2(Chemlight_blue)
@@ -954,7 +954,7 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_3(6Rnd_12Gauge_Slug),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR,
         mag_2(Chemlight_blue)
@@ -1319,7 +1319,7 @@ class I_E_Soldier_UAV_F: I_E_Soldier_base_F
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
 		H_HelmetHBK_F,
-        I_E_UAVTerminal,
+        I_UAVTerminal,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1327,7 +1327,7 @@ class I_E_Soldier_UAV_F: I_E_Soldier_base_F
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
 		H_HelmetHBK_F,
-        I_E_UAVTerminal,
+        I_UAVTerminal,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1487,7 +1487,7 @@ class I_E_JTAC_F: I_E_Soldier_base_F
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
@@ -1497,7 +1497,7 @@ class I_E_JTAC_F: I_E_Soldier_base_F
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_BLUFOR
@@ -1690,7 +1690,7 @@ class I_E_ghillie_spotter_wdl_F: I_E_ghillie_wdl_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_blue)
@@ -1702,7 +1702,7 @@ class I_E_ghillie_spotter_wdl_F: I_E_ghillie_wdl_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(I_E_IR_Grenade),
+        mag_2(I_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_blue)

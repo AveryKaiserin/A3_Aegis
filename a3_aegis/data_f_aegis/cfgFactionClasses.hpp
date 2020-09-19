@@ -1,18 +1,49 @@
 class CfgFactionClasses
 {
+	class BLU_F
+	{
+        displayName = "US";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
+	};
+	class OPF_F
+	{
+        displayName = "Iran";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_CA.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Iran_CO.paa";
+	};
+    // Arma 3 Apex
+	class BLU_T_F
+	{
+        displayName = "US (Pacific)";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
+	};
+	class OPF_T_F
+	{
+		displayName = "China";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_T_CA.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_China_CO.paa";
+	};
 	// Arma 3 Tacops
 	class OPF_A_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_A_F0;
+		displayName = "Argana";
 		priority = 6;
 		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_A_CA.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Argana_CO.paa";
 	};
 	// Arma 3 Enoch
 	class IND_L_F
 	{
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Looters_CO.paa";
+	};
+	class BLU_W_F
+	{
+        displayName = "US (Woodland)";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
 	};
 	class OPF_R_F
 	{
@@ -30,27 +61,27 @@ class CfgFactionClasses
 	};
 	class BLU_A_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F0;
+		displayName = "BAF";
 		priority = 8;
 		side = TWest;
-		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
 	};
 	class BLU_A_tna_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_tna_F0;
+		displayName = "BAF (Pacific)";
 		priority = 9;
 		side = TWest;
-		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
 	};
 	class BLU_A_wdl_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_wdl_F0;
+		displayName = "BAF (Woodland)";
 		priority = 10;
 		side = TWest;
-		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
 	};
 	class BLU_ION_F
 	{

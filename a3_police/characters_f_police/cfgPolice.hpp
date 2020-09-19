@@ -379,7 +379,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 		V_CarrierRigKBT_01_light_POLICE_F,
 		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
-        I_P_UavTerminal,
+        I_UavTerminal,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -387,7 +387,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 		V_CarrierRigKBT_01_light_POLICE_F,
 		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
-        I_P_UavTerminal,
+        I_UavTerminal,
 		DefaultManLinkedItems
 	};
     backpack = I_P_UGV_02_Demining_backpack_F;

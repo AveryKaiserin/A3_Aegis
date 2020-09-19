@@ -17,3 +17,7 @@ class U_I_OfficerUniform: Uniform_Base
 {
     displayName = $STR_A3_A_CfgWeapons_U_I_OfficerUniform0;
 };
+class U_Tank_green_F: Uniform_Base
+{
+    displayName = $STR_A3_A_CfgWeapons_U_Tank_green_F0;
+};

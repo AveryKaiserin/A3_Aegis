@@ -114,6 +114,11 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_F0;
 	};
+    // Arma 3 Tanks
+    class Item_U_Tank_green_F: Item_Base_F
+    {
+        displayName = $STR_A3_A_CfgWeapons_U_Tank_green_F0;
+    };
 	// Arma 3 Enoch
 	class Item_U_B_CombatUniform_vest_mcam_wdl_f: Item_Base_F
 	{
@@ -141,6 +146,8 @@ class CfgVehicles
 	// CSAT
 	UNIFORM_HOLDER(U_O_CombatUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_oicamo0)
 	UNIFORM_HOLDER(U_O_OfficerUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_OfficerUniform_oicamo0)
+    // NATO (Pacific)
+	UNIFORM_HOLDER(U_Tank_tropic_F,$STR_A3_A_CfgWeapons_U_Tank_tropic_F0)
 	// CSAT (Pacific)
 	UNIFORM_HOLDER(U_O_T_Pilot_F,$STR_A3_A_CfgWeapons_U_O_T_Pilot_F0)
 	// CTRG

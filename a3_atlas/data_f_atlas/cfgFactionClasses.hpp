@@ -2,11 +2,11 @@ class CfgFactionClasses
 {
 	class OPF_W_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
+		displayName = "Belarus";
 		priority = 9;
 		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_OPF_W_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Belarus_CO.paa";
 	};
 	class BLU_L_F
 	{
@@ -18,11 +18,11 @@ class CfgFactionClasses
 	};
 	class BLU_E_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_E_F0;
+		displayName = "Germany";
 		priority = 14;
 		side = TWest;
-		icon = "\A3\Data_F\CfgFactionClasses_BLU_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_NATO_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_E_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Germany_CO.paa";
 	};
     /*
 	class BLU_O_F
@@ -44,21 +44,13 @@ class CfgFactionClasses
 	};
 	class OPF_C_F
 	{
-		displayName = "CSAT (Takistani)";
+		displayName = "NTA";
 		priority = 11;
 		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_OPF_C_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Takistan_CO.paa";
 	};
     /*
-	class OPF_S_F
-	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_S_F0;
-		priority = 11;
-		side = TEast;
-		icon = "\A3\Data_F\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3\Data_F\Flags\flag_CSAT_CO.paa";
-	};
 	class IND_W_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_IND_W_F0;

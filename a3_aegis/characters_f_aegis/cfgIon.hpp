@@ -794,16 +794,16 @@ class B_ION_Soldier_UAV_F: B_ION_Soldier_base_F
 		V_HarnessOSpec_blk,
 		H_Cap_blk_ION,
 		G_Tactical_Clear,
-		DefaultManLinkedItems,
-		B_ION_UAVTerminal
+		B_UavTerminal,
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOSpec_blk,
 		H_Cap_blk_ION,
 		G_Tactical_Clear,
-		DefaultManLinkedItems,
-		B_ION_UAVTerminal
+		B_UavTerminal,
+		DefaultManLinkedItems
 	};
 	headgearList[] =
 	{

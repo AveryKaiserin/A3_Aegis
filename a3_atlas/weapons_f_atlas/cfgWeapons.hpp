@@ -14,23 +14,7 @@ class CfgWeapons
 	{
 		class player;
 	};
-	class GrenadeLauncher;
 	class Rifle_Long_Base_F;
-	class Throw: GrenadeLauncher
-	{
-		class ThrowMuzzle;
-		class IRGrenade: ThrowMuzzle
-		{
-			magazines[] +=
-            {
-                /*
-                B_O_IR_Grenade,
-                I_W_IR_Grenade,
-                */
-                I_I_IR_Grenade
-            };
-		};
-	};
 	class ItemCore;
 	class Binocular;
 	class NVGoggles: Binocular

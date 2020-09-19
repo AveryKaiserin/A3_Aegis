@@ -328,7 +328,7 @@ class O_R_JTAC_F: O_R_Soldier_Base_F
         mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
@@ -339,7 +339,7 @@ class O_R_JTAC_F: O_R_Soldier_Base_F
         mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
@@ -773,7 +773,7 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
         mag_6(30Rnd_762x39_AK12_Lush_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
@@ -787,7 +787,7 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
         mag_6(30Rnd_762x39_AK12_Lush_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
@@ -1018,7 +1018,7 @@ class O_R_Soldier_AAR_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1026,7 +1026,7 @@ class O_R_Soldier_AAR_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 95000;
@@ -1071,7 +1071,7 @@ class O_R_support_AMG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1079,7 +1079,7 @@ class O_R_support_AMG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 91000;
@@ -1124,7 +1124,7 @@ class O_R_support_AMort_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1132,7 +1132,7 @@ class O_R_support_AMort_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 81000;
@@ -1179,7 +1179,7 @@ class O_R_Soldier_AHAT_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1187,7 +1187,7 @@ class O_R_Soldier_AHAT_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 93000;
@@ -1234,7 +1234,7 @@ class O_R_Soldier_AAA_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1242,7 +1242,7 @@ class O_R_Soldier_AAA_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 94000;
@@ -1289,7 +1289,7 @@ class O_R_Soldier_AAT_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1297,7 +1297,7 @@ class O_R_Soldier_AAT_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 93000;
@@ -1461,7 +1461,7 @@ class O_R_support_GMG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1469,7 +1469,7 @@ class O_R_support_GMG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 470000;
@@ -1515,7 +1515,7 @@ class O_R_support_MG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1523,7 +1523,7 @@ class O_R_support_MG_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 460000;
@@ -1569,7 +1569,7 @@ class O_R_support_Mort_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1577,7 +1577,7 @@ class O_R_support_Mort_F: O_R_Soldier_Base_F
         mag_8(30Rnd_545x39_AK12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
 	cost = 480000;
@@ -2246,7 +2246,7 @@ class O_R_Soldier_SL_F: O_R_Soldier_Base_F
         mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -2256,7 +2256,7 @@ class O_R_Soldier_SL_F: O_R_Soldier_Base_F
         mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -2378,7 +2378,7 @@ class O_R_soldier_UAV_F: O_R_Soldier_Base_F
 	{
 		V_TacVest_grn,
 		H_HelmetAggressor_cover_taiga_F,
-		O_R_UavTerminal,
+		O_UavTerminal,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -2386,7 +2386,7 @@ class O_R_soldier_UAV_F: O_R_Soldier_Base_F
 	{
 		V_TacVest_grn,
 		H_HelmetAggressor_cover_taiga_F,
-		O_R_UavTerminal,
+		O_UavTerminal,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -2834,7 +2834,7 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -2846,7 +2846,7 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -3147,7 +3147,7 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -3159,7 +3159,7 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -3805,7 +3805,7 @@ class O_R_soldier_UAV_ard_F: O_R_soldier_UAV_F
 	{
 		V_TacVest_grn,
 		H_HelmetAggressor_cover_F,
-		O_R_UavTerminal,
+		O_UavTerminal,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -3813,7 +3813,7 @@ class O_R_soldier_UAV_ard_F: O_R_soldier_UAV_F
 	{
 		V_TacVest_grn,
 		H_HelmetAggressor_cover_F,
-		O_R_UavTerminal,
+		O_UavTerminal,
 		DefaultManLinkedItems,
 		O_NVGoggles_grn_F
 	};
@@ -4192,7 +4192,7 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
         mag_6(30Rnd_762x39_AK12_Arid_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
@@ -4206,7 +4206,7 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
         mag_6(30Rnd_762x39_AK12_Arid_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
@@ -4303,7 +4303,7 @@ class O_R_spotter_ard_F: O_R_spotter_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4315,7 +4315,7 @@ class O_R_spotter_ard_F: O_R_spotter_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4503,7 +4503,7 @@ class O_R_ghillie_spotter_ard_F: O_R_ghillie_ard_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4515,7 +4515,7 @@ class O_R_ghillie_spotter_ard_F: O_R_ghillie_ard_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4561,7 +4561,7 @@ class O_R_ghillie_spotter_lsh_F: O_R_ghillie_lsh_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4573,7 +4573,7 @@ class O_R_ghillie_spotter_lsh_F: O_R_ghillie_lsh_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4619,7 +4619,7 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
@@ -4631,7 +4631,7 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
         ClaymoreDirectionalMine_Remote_Mag,
         APERSTripMine_Wire_Mag,
         mag_2(MiniGrenade),
-        mag_2(O_R_IR_Grenade),
+        mag_2(O_IR_Grenade),
         Laserbatteries,
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
