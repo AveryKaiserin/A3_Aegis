@@ -174,7 +174,7 @@ class CfgGroups
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
 					side = TGuerrila;
 					faction = IND_R_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
 					GROUP_UNIT(0,TGuerrila,I_R_soldier_TL_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TGuerrila,I_R_soldier_F,PRIVATE,5,-5)
 					GROUP_UNIT(2,TGuerrila,I_R_soldier_LAT_F,CORPORAL,-5,-5)
@@ -189,7 +189,7 @@ class CfgGroups
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
 					side = TGuerrila;
 					faction = IND_R_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
 					GROUP_UNIT(0,TGuerrila,I_R_soldier_TL_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TGuerrila,I_R_soldier_AR_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TGuerrila,I_R_soldier_GL_F,PRIVATE,-5,-5)
@@ -200,7 +200,7 @@ class CfgGroups
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0;
 					side = TGuerrila;
 					faction = IND_R_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
 					GROUP_UNIT(0,TGuerrila,I_R_soldier_GL_F,CORPORAL,0,0)
 					GROUP_UNIT(1,TGuerrila,I_R_soldier_F,PRIVATE,5,-5)
 				};

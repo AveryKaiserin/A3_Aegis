@@ -13,13 +13,6 @@ class B_AA_01_Weapon_grn_F: Weapon_Bag_Base
 	{
 		displayName = $STR_A3_A_CfgVehicles_B_AA_01_Weapon_grn_F_assembleInfo0;
 		assembleTo = B_T_Static_AA_F;
-		base[] =
-		{
-            B_HMG_01_support_F,
-            O_HMG_01_support_F,
-            I_HMG_01_support_F,
-            B_HMG_01_support_grn_F,
-            O_R_HMG_01_support_F
-		};
+		base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 	};
 };

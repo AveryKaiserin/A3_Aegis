@@ -95,18 +95,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] =
-			{
-				B_HMG_02_support_F,
-				O_HMG_02_support_F,
-				I_HMG_02_support_F,
-				I_E_HMG_02_support_F,
-				I_C_HMG_02_support_F,
-				I_G_HMG_02_support_F,
-				O_G_HMG_02_support_F,
-				B_G_HMG_02_support_F,
-				B_HMG_02_support_grn_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_02};
 		};
 	};
 	class O_HMG_02_weapon_F: B_HMG_02_weapon_F
@@ -130,18 +119,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] =
-			{
-				B_HMG_02_support_high_F,
-				O_HMG_02_support_high_F,
-				I_HMG_02_support_high_F,
-				I_E_HMG_02_support_high_F,
-				I_C_HMG_02_support_high_F,
-				I_G_HMG_02_support_high_F,
-				O_G_HMG_02_support_high_F,
-				B_G_HMG_02_support_high_F,
-				B_HMG_02_support_high_grn_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_02_HIGH};
 		};
 	};
 	class O_HMG_02_high_weapon_F: B_HMG_02_high_weapon_F

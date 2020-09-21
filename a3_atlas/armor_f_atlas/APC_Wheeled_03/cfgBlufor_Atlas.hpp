@@ -1,13 +1,4 @@
-class B_E_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	mapSize = 10.25;
-	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
-};
-class B_E_APC_Wheeled_03_cannon_F: B_E_APC_Wheeled_03_base_F
+class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -209,67 +200,15 @@ class B_E_APC_Wheeled_03_cannon_F: B_E_APC_Wheeled_03_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
-	accuracy = 0.3;
-	displayName = $STR_A3_CFGVEHICLES_APC_WHEELED_03_WAPC0;
-	class Library
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_E_F;
+	crew = B_E_Crew_F;
+	typicalCargo[] = {B_E_Soldier_F};
+	textureList[] =
 	{
-		libTextDesc = $STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0;
-	};
-	model = "\A3\Armor_F_Gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
-	picture = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
-	Icon = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\Map_APC_Wheeled_03_CA.paa";
-	memoryPointTaskMarker = TaskMarker_1_pos;
-	unitInfoType = RscUnitInfoTank;
-	driverCanSee = CanSeeOptics+CanSeeEar+CanSeeEye+CanSeePeripheral+CanSeeCompass;
-	gunnerCanSee = CanSeeOptics+CanSeeEye+CanSeeEar+CanSeePeripheral+CanSeeCompass;
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-			weapons[] =
-			{
-				autocannon_30mm_CTWS,
-				LMG_coax,
-				missiles_titan
-			};
-			magazines[] =
-			{
-				mag_2(140Rnd_30mm_MP_shells_Tracer_Red),
-				mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Red),
-				mag_10(200Rnd_762x51_Belt_Red),
-				mag_2(2Rnd_GAT_missiles)
-			};
-			soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",0.39810717,1,30};
-			soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",0.39810717,1,30};
-		};
-	};
-	threat[] = {1,1,0.3};
-	class AnimationSources: AnimationSources
-	{
-		class Missiles_revolving
-		{
-			source = revolving;
-			weapon = missiles_titan;
-		};
-		class muzzle_rot
-		{
-			source = ammorandom;
-			weapon = autocannon_30mm_CTWS;
-		};
-		class muzzle_hide
-		{
-			source = reload;
-			weapon = autocannon_30mm_CTWS;
-		};
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4,
-		camoNet,
-		camoSlat
+		Olive_01,1,
+		Sand_01,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -280,10 +219,18 @@ class B_E_APC_Wheeled_03_cannon_F: B_E_APC_Wheeled_03_base_F
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
-	textureList[] =
+	class Turrets: Turrets
 	{
-		Olive_01,1,
-		Sand_01,0
+		class MainTurret: MainTurret
+		{
+			magazines[] =
+			{
+				mag_2(140Rnd_30mm_MP_shells_Tracer_Red),
+				mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Red),
+				mag_10(200Rnd_762x51_Belt_Red),
+				mag_2(2Rnd_GAT_missiles)
+			};
+		};
 	};
 	class TransportMagazines
 	{

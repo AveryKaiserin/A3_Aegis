@@ -1,3 +1,4 @@
+// Russia
 class O_R_Static_Designator_02_F: Static_Designator_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -34,8 +35,9 @@ class O_R_Static_Designator_02_F: Static_Designator_02_base_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_Designator_02_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
 	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_Static_Designator_02_F0;
 	side = TEast;
 	faction = OPF_R_F;
 	crew = O_UAV_AI;
@@ -46,8 +48,8 @@ class O_R_Static_Designator_02_F: Static_Designator_02_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Static_F_Aegis\Designator_02\Data\LD02_remote_grn_CO.paa",
-		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\Laserdesignator_02_grn_F_CO.paa"
+		"\A3_Aegis\Static_F_Aegis\Designator_02\Data\LD02_remote_RUkhk_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\Laserdesignator_02_RUkhk_F_CO.paa"
 	};
 	class assembleInfo
 	{
@@ -71,4 +73,43 @@ class O_R_Static_Designator_02_weapon_F: O_Static_Designator_02_weapon_F
 	{
 		assembleTo = O_R_Static_Designator_02_F;
 	};
+};
+// Russia (Arid)
+class O_R_Static_Designator_02_ard_F: O_R_Static_Designator_02_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
+		{
+            {mainturret,0},
+            {maingun,0},
+            {mainelevation_01,0},
+            {mainelevation_02,0},
+            {mainelevation_03,0},
+            {mainelevation_04,0},
+            {mainelevation_05,0},
+            {initturret,0},
+            {initgun,0},
+            {initelevation_01,0},
+            {initelevation_02,0},
+            {initelevation_03,0},
+            {initelevation_04,0},
+            {initelevation_05,0}
+		};
+		hide[] =
+		{
+            light_back,
+            "brzdove svetlo",
+            clan,
+            "podsvit pristroju",
+            poskozeni
+		};
+		verticalOffset = 0.473;
+		verticalOffsetWorld = -0.001;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_Designator_02_ard_F.jpg";
+	faction = OPF_R_ard_F;
 };

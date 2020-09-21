@@ -42,10 +42,9 @@ class I_I_UAV_01_F: UAV_01_base_F
 		verticalOffsetWorld = -0.001;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UAV_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_01_F0;
 	side = TGuerrila;
 	faction = IND_I_F;
 	crew = I_UAV_AI_F;
@@ -73,8 +72,8 @@ class I_I_UAV_01_backpack_F: Weapon_Bag_Base
 	editorCategory = EdCat_Equipment;
 	editorSubcategory = EdSubcat_Backpacks;
 	faction = IND_I_F;
-	//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_01_backpack_F_CA.paa";
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_IDF_CO.paa"};
+	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_01_backpack_F_CA.paa";
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_khk_CO.paa"};
 	maximumLoad = 0;
 	mass = 300;
 	class assembleInfo: assembleInfo

@@ -7,16 +7,28 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgLegion.hpp"			// Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (European)
-	/*#include "cfgOpfor_Atlas.hpp"*/	// CSAT (Caspian)
-	#include "cfgANZAC.hpp"				// ADF
-	#include "cfgHIDF.hpp"				// HIDF
+    #include "cfgCivil.hpp"             // Civilians
+    class I_Soldier_base_F: SoldierGB
+    {
+        class EventHandlers;
+    };
+    class I_soldier_F: I_Soldier_base_F{};
+    class I_pilot_F;
+	#include "cfgViper.hpp"				// Viper
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
+    #include "cfgLegion.hpp"			// Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+	#include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	/*
+    #include "cfgADF.hpp"				// ADF
+	*/
+    #include "cfgHIMF.hpp"				// HIMF
+    /*
 	#include "cfgCDF.hpp"				// CDF
-	#include "cfgIDF.hpp"				// IDF
-	/*#include "cfgEAF.hpp"*/			// EAF
-	/*#include "cfgBocano.hpp"*/		// Bocano
-	/*#include "cfgHAF.hpp"*/			// HAF
-	/*#include "cfgUNO.hpp"*/			// UNO
+	*/
+    #include "cfgIDF.hpp"				// IDF
+	/*
+    #include "cfgUNO.hpp"				// UNO
+    */
 };
 #include "cfgGroups.hpp"

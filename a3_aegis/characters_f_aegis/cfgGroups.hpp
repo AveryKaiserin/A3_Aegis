@@ -120,9 +120,20 @@ class CfgGroups
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
 				class BUS_MechInfSquad
 				{
+					class Unit0
+					{
+						vehicle = B_APC_Wheeled_01_cannon_v2_F;
+					};
 					class Unit2
 					{
 						vehicle = B_RadioOperator_F;
+					};
+				};
+				class BUS_MechInf_Support
+				{
+					class Unit0
+					{
+						vehicle = B_APC_Wheeled_01_cannon_v2_F;
 					};
 				};
 			};
@@ -233,9 +244,20 @@ class CfgGroups
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
 				class B_T_MechInfSquad
 				{
+					class Unit0
+					{
+						vehicle = B_T_APC_Wheeled_01_cannon_v2_F;
+					};
 					class Unit2
 					{
 						vehicle = B_T_RadioOperator_F;
+					};
+				};
+				class B_T_MechInf_Support
+				{
+					class Unit0
+					{
+						vehicle = B_T_APC_Wheeled_01_cannon_v2_F;
 					};
 				};
 			};
@@ -254,6 +276,13 @@ class CfgGroups
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class IRG_SniperTeam_M
+				{
+					class Unit0
+					{
+						vehicle = B_G_Sharpshooter_F;
+					};
+				};
 			};
 		};
 		class BLU_W_F
@@ -2059,8 +2088,8 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_G_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
-					GROUP_UNIT(0,TEast,O_G_Sniper_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_G_Spotter_F,CORPORAL,5,-5)
+					GROUP_UNIT(0,TEast,O_G_Sharpshooter_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_G_Soldier_M_F,CORPORAL,5,-5)
 				};
 			};
 			class Support
@@ -2232,7 +2261,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_gmg_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_armed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AR_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_LAT_F,PRIVATE,-5,-5)
 				};
@@ -2242,7 +2271,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_unarmed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AT_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_AT_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_A_soldier_F,PRIVATE,0,-10)
@@ -2253,7 +2282,7 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_A_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_A_MRAP_02_F,SERGEANT,0,0)
+					GROUP_UNIT(0,TEast,O_A_LSV_02_unarmed_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,O_A_soldier_AA_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,O_A_soldier_AA_F,CORPORAL,-5,-5)
 					GROUP_UNIT(3,TEast,O_A_soldier_F,PRIVATE,0,-10)
@@ -2828,227 +2857,452 @@ class CfgGroups
 				};
 			};
 		};
-		class OPF_R_alt_F
+		class OPF_R_ard_F
 		{
-		  	name = $STR_A3_A_CfgFactionClasses_OPF_R_alt_F0;
+		  	name = $STR_A3_A_CfgFactionClasses_OPF_R_ard_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-			};
-		};
-		class OPF_W_F
-		{
-		  	name = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
-			class Infantry
-			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-				class O_W_InfSquad
+				class O_R_InfSquad_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_SL_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_RadioOperator_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_LAT_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_M_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_W_soldier_TL_F,SERGEANT,-10,-10)
-					GROUP_UNIT(5,TEast,O_W_soldier_AR_F,CORPORAL,15,-15)
-					GROUP_UNIT(6,TEast,O_W_soldier_A_F,PRIVATE,-15,-15)
-					GROUP_UNIT(7,TEast,O_W_medic_F,PRIVATE,20,-20)
+					GROUP_UNIT(0,TEast,O_R_soldier_SL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_RadioOperator_ard_F,PRIVATE,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_LAT_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_M_ard_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_R_soldier_TL_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_soldier_AR_ard_F,CORPORAL,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_A_ard_F,PRIVATE,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_medic_ard_F,PRIVATE,20,-20)
 				};
-				class O_W_InfSquad_Weapons
+				class O_R_InfSquad_Weapons_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_SL_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AR_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_GL_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_M_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_W_soldier_AT_F,PRIVATE,-10,-10)
-					GROUP_UNIT(5,TEast,O_W_soldier_F,PRIVATE,15,-15)
-					GROUP_UNIT(6,TEast,O_W_soldier_A_F,PRIVATE,-15,-15)
-					GROUP_UNIT(7,TEast,O_W_medic_F,PRIVATE,20,-20)
+					GROUP_UNIT(0,TEast,O_R_soldier_SL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AR_ard_F,PRIVATE,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_GL_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_M_ard_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_R_soldier_AT_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_soldier_AAT_ard_F,CORPORAL,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_A_ard_F,PRIVATE,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_medic_ard_F,PRIVATE,20,-20)
 				};
-				class O_W_InfTeam
+				class O_R_InfTeam_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_TL_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AR_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_GL_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_LAT_F,PRIVATE,10,-10)
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AR_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_GL_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_RadioOperator_ard_F,PRIVATE,10,-10)
 				};
-				class O_W_InfTeam_AT
+				class O_R_InfTeam_AT_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_TL_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AT_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AT_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_F,PRIVATE,10,-10)
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AT_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AT_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AAT_ard_F,PRIVATE,10,-10)
 				};
-				class O_W_InfTeam_AA
+				class O_R_InfTeam_AA_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_TL_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AA_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AA_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_F,PRIVATE,10,-10)
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AA_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AA_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AAA_ard_F,PRIVATE,10,-10)
 				};
-				class O_W_InfSentry
+				class O_R_InfSentry_A
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_soldier_GL_F,CORPORAL,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_F,PRIVATE,5,-5)
+					GROUP_UNIT(0,TEast,O_R_soldier_GL_ard_F,CORPORAL,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_ard_F,PRIVATE,5,-5)
+				};
+				class O_R_InfTeam_AT_Heavy_A
+				{
+					name = $STR_A3_CfgGroups_East_OPF_F_Infantry_O_InfTeam_AT0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_HAT_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_HAT_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AHAT_ard_F,PRIVATE,10,-10)
 				};
 			};
-			class Motorized
+			class SpecOps
 			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
-				class O_W_MotInf_Team
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class O_R_reconTeam_A
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconTeam0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_R_recon_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_recon_M_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_recon_medic_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_recon_LAT_ard_F,CORPORAL,10,-10)
+					GROUP_UNIT(4,TEast,O_R_recon_JTAC_ard_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_recon_exp_ard_F,PRIVATE,15,-15)
+				};
+				class O_R_reconSentry_A
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconSentry0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_R_recon_M_ard_F,CORPORAL,0,0)
+					GROUP_UNIT(1,TEast,O_R_recon_ard_F,PRIVATE,5,-5)
+				};
+				class O_R_reconPatrol_A
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconPatrol0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_R_recon_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_recon_M_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_recon_medic_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_recon_ard_F,PRIVATE,10,-10)
+				};
+				class O_R_diverTeam_A
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_SpecOps_BUS_DiverTeam0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_R_diver_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_diver_exp_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_diver_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_diver_ard_F,PRIVATE,10,-10)
+				};
+			};
+			class Support
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Support0;
+				class O_R_Support_CLS
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_CLS0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AR_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_medic_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_medic_ard_F,PRIVATE,10,-10)
+				};
+				class O_R_Support_EOD
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_EOD0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_engineer_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_exp_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_exp_ard_F,PRIVATE,10,-10)
+				};
+				class O_R_Support_ENG
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_ENG0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_engineer_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_engineer_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_repair_ard_F,PRIVATE,10,-10)
+				};
+				class O_R_Recon_EOD
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Recon_EOD0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_recon_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_recon_exp_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_recon_exp_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_recon_ard_F,PRIVATE,10,-10)
+				};
+				class O_R_Support_MG
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_MG0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_support_MG_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_AMG_ard_F,PRIVATE,-5,-5)
+				};
+				class O_R_Support_GMG
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_GMG0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_support_GMG_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_AMG_ard_F,PRIVATE,-5,-5)
+				};
+				class O_R_Support_Mort
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_Mort0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mortar.paa";
+					GROUP_UNIT(0,TEast,O_R_soldier_TL_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_support_Mort_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_AMort_ard_F,PRIVATE,-5,-5)
+				};
+			};
+			class Motorized_MTP
+			{
+				name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP0;
+				class O_R_MotInf_Team
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_MRAP_02_gmg_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AR_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_LAT_F,PRIVATE,-5,-5)
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_gmg_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AR_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_LAT_ard_F,PRIVATE,-5,-5)
 				};
-				class O_W_MotInf_AT
+				class O_R_MotInf_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AT0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_MRAP_02_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AT_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AT_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_F,PRIVATE,0,-10)
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AT_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AT_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AAT_ard_F,PRIVATE,0,-10)
 				};
-				class O_W_MotInf_AA
+				class O_R_MotInf_AA
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AA0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_MRAP_02_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_AA_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AA_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_F,PRIVATE,0,-10)
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_AA_ard_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AA_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AAA_ard_F,PRIVATE,0,-10)
 				};
-				class O_W_MotInf_Reinforcements
+				class O_R_MotInf_MGTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_MGTeam0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_TL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_MG_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_support_AMG_ard_F,PRIVATE,0,-10)
+				};
+				class O_R_MotInf_GMGTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_GMGTeam0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_TL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_GMG_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_support_AMG_ard_F,PRIVATE,0,-10)
+				};
+				class O_R_MotInf_MortTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_MortTeam0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_MRAP_02_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_TL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_support_Mort_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_support_AMort_ard_F,PRIVATE,0,-10)
+				};
+				class O_R_MotInf_Reinforcements
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Reinforce0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_Truck_02_transport_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,0)
-					GROUP_UNIT(2,TEast,O_W_RadioOperator_F,PRIVATE,5,-2)
-					GROUP_UNIT(3,TEast,O_W_soldier_LAT_F,CORPORAL,5,-4)
-					GROUP_UNIT(4,TEast,O_W_soldier_M_F,PRIVATE,5,-6)
-					GROUP_UNIT(5,TEast,O_W_soldier_TL_F,SERGEANT,5,-8)
-					GROUP_UNIT(6,TEast,O_W_soldier_AR_F,CORPORAL,5,-10)
-					GROUP_UNIT(7,TEast,O_W_soldier_A_F,PRIVATE,5,-12)
-					GROUP_UNIT(8,TEast,O_W_medic_F,PRIVATE,5,-14)
-					GROUP_UNIT(9,TEast,O_W_soldier_SL_F,SERGEANT,-5,0)
-					GROUP_UNIT(10,TEast,O_W_RadioOperator_F,PRIVATE,-5,-2)
-					GROUP_UNIT(11,TEast,O_W_soldier_LAT_F,CORPORAL,-5,-4)
-					GROUP_UNIT(12,TEast,O_W_soldier_M_F,PRIVATE,-5,-6)
-					GROUP_UNIT(13,TEast,O_W_soldier_TL_F,SERGEANT,-5,-8)
-					GROUP_UNIT(14,TEast,O_W_soldier_AR_F,CORPORAL,-5,-10)
-					GROUP_UNIT(15,TEast,O_W_soldier_A_F,PRIVATE,-5,-12)
-					GROUP_UNIT(16,TEast,O_W_medic_F,PRIVATE,-5,-14)
+					GROUP_UNIT(0,TEast,O_R_Truck_03_transport_ard_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,0)
+					GROUP_UNIT(2,TEast,O_R_RadioOperator_ard_F,PRIVATE,5,-2)
+					GROUP_UNIT(3,TEast,O_R_soldier_LAT_ard_F,CORPORAL,5,-4)
+					GROUP_UNIT(4,TEast,O_R_soldier_M_ard_F,PRIVATE,5,-6)
+					GROUP_UNIT(5,TEast,O_R_soldier_TL_ard_F,SERGEANT,5,-8)
+					GROUP_UNIT(6,TEast,O_R_soldier_AR_ard_F,CORPORAL,5,-10)
+					GROUP_UNIT(7,TEast,O_R_soldier_A_ard_F,PRIVATE,-5,-8)
+					GROUP_UNIT(8,TEast,O_R_medic_ard_F,PRIVATE,-5,-10)
+					GROUP_UNIT(9,TEast,O_R_soldier_TL_ard_F,SERGEANT,-5,0)
+					GROUP_UNIT(10,TEast,O_R_soldier_AR_ard_F,CORPORAL,-5,-2)
+					GROUP_UNIT(11,TEast,O_R_soldier_GL_ard_F,PRIVATE,-5,-4)
+					GROUP_UNIT(12,TEast,O_R_soldier_LAT_ard_F,PRIVATE,-5,-6)
 				};
 			};
 			class Mechanized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
-				class O_W_MechInfSquad
+				class O_R_MechInfSquad
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Wheeled_02_rcws_v2_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
-					GROUP_UNIT(2,TEast,O_W_RadioOperator_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_LAT_F,CORPORAL,10,-10)
-					GROUP_UNIT(4,TEast,O_W_soldier_M_F,PRIVATE,-10,-10)
-					GROUP_UNIT(5,TEast,O_W_soldier_TL_F,SERGEANT,15,-15)
-					GROUP_UNIT(6,TEast,O_W_soldier_AR_F,CORPORAL,-15,-15)
-					GROUP_UNIT(7,TEast,O_W_soldier_A_F,PRIVATE,20,-20)
-					GROUP_UNIT(8,TEast,O_W_medic_F,PRIVATE,-20,-20)
+					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_02_rcws_v2_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_RadioOperator_ard_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_LAT_ard_F,CORPORAL,10,-10)
+					GROUP_UNIT(4,TEast,O_R_soldier_M_ard_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_soldier_TL_ard_F,SERGEANT,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_AR_ard_F,CORPORAL,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_soldier_A_ard_F,PRIVATE,20,-20)
+					GROUP_UNIT(8,TEast,O_R_medic_ard_F,PRIVATE,-20,-20)
 				};
-				class O_W_MechInf_AT
+				class O_R_MechInf_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AT0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AR_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_AT_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_W_soldier_AT_F,PRIVATE,-10,-10)
-					GROUP_UNIT(5,TEast,O_W_soldier_AT_F,SERGEANT,15,-15)
-					GROUP_UNIT(6,TEast,O_W_soldier_F,CORPORAL,-15,-15)
-					GROUP_UNIT(7,TEast,O_W_soldier_F,PRIVATE,20,-20)
-					GROUP_UNIT(8,TEast,O_W_soldier_F,PRIVATE,-20,-20)
+					GROUP_UNIT(0,TEast,O_R_APC_Tracked_02_cannon_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AR_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AT_ard_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_R_soldier_AT_ard_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_soldier_AT_ard_F,SERGEANT,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_AAT_ard_F,CORPORAL,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_soldier_AAT_ard_F,PRIVATE,20,-20)
+					GROUP_UNIT(8,TEast,O_R_soldier_AAT_ard_F,PRIVATE,-20,-20)
 				};
-				class O_W_MechInf_AA
+				class O_R_MechInf_AA
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AA0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,O_W_APC_Tracked_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_soldier_SL_F,SERGEANT,5,-5)
-					GROUP_UNIT(2,TEast,O_W_soldier_AR_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_W_soldier_AA_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_W_soldier_AA_F,PRIVATE,-10,-10)
-					GROUP_UNIT(5,TEast,O_W_soldier_AA_F,SERGEANT,15,-15)
-					GROUP_UNIT(6,TEast,O_W_soldier_F,CORPORAL,-15,-15)
-					GROUP_UNIT(7,TEast,O_W_soldier_F,PRIVATE,20,-20)
-					GROUP_UNIT(8,TEast,O_W_soldier_F,PRIVATE,-20,-20)
+					GROUP_UNIT(0,TEast,O_R_APC_Tracked_02_cannon_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_AR_ard_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_AA_ard_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_R_soldier_AA_ard_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_soldier_AA_ard_F,SERGEANT,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_AAA_ard_F,CORPORAL,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_soldier_AAA_ard_F,PRIVATE,20,-20)
+					GROUP_UNIT(8,TEast,O_R_soldier_AAA_ard_F,PRIVATE,-20,-20)
+				};
+				class O_R_MechInf_Support
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_Support0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
+					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_02_rcws_v2_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_R_soldier_TL_ard_F,SERGEANT,-5,-5)
+					GROUP_UNIT(3,TEast,O_R_soldier_repair_ard_F,CORPORAL,10,-10)
+					GROUP_UNIT(4,TEast,O_R_engineer_ard_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_R_medic_ard_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,O_R_soldier_AR_ard_F,CORPORAL,-15,-15)
+					GROUP_UNIT(7,TEast,O_R_soldier_exp_ard_F,PRIVATE,20,-20)
+					GROUP_UNIT(8,TEast,O_R_soldier_A_ard_F,PRIVATE,-20,-20)
 				};
 			};
 			class Armored
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Armored0;
-				class O_W_TankPlatoon
+				class O_R_TankPlatoon
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
-					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_F,SERGEANT,10,-10)
-					GROUP_UNIT(2,TEast,O_W_MBT_02_cannon_F,SERGEANT,-10,-10)
-					GROUP_UNIT(3,TEast,O_W_MBT_02_cannon_F,CORPORAL,20,-20)
+					GROUP_UNIT(0,TEast,O_R_MBT_02_cannon_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_02_cannon_ard_F,SERGEANT,10,-10)
+					GROUP_UNIT(2,TEast,O_R_MBT_02_cannon_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(3,TEast,O_R_MBT_02_cannon_ard_F,CORPORAL,20,-20)
 				};
-				class O_W_TankSection
+				class O_R_TankPlatoon_AA
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon_AA0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
+					GROUP_UNIT(0,TEast,O_R_MBT_02_cannon_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_APC_Tracked_02_AA_ard_F,SERGEANT,10,-10)
+					GROUP_UNIT(2,TEast,O_R_MBT_02_cannon_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(3,TEast,O_R_APC_Tracked_02_AA_ard_F,CORPORAL,20,-20)
+				};
+				class O_R_TankSection
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankSection0;
 					side = TEast;
-					faction = OPF_W_F;
+					faction = OPF_R_ard_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
-					GROUP_UNIT(0,TEast,O_W_MBT_02_cannon_F,LIEUTENANT,0,0)
-					GROUP_UNIT(1,TEast,O_W_MBT_02_cannon_F,SERGEANT,10,-10)
+					GROUP_UNIT(0,TEast,O_R_MBT_02_cannon_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_02_cannon_ard_F,SERGEANT,10,-10)
+				};
+				class O_R_SPGPlatoon_Scorcher
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGPlatoon_Scorcher0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_art.paa";
+					GROUP_UNIT(0,TEast,O_R_MBT_02_arty_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_02_arty_ard_F,SERGEANT,10,-10)
+					GROUP_UNIT(2,TEast,O_R_MBT_02_arty_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(3,TEast,O_R_MBT_02_arty_ard_F,CORPORAL,20,-20)
+				};
+				class O_R_SPGSection_Scorcher
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGSection_Scorcher0;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_art.paa";
+					GROUP_UNIT(0,TEast,O_R_MBT_02_arty_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_02_arty_ard_F,SERGEANT,10,-10)
+				};
+				class O_R_TankSection_Heavy
+				{
+					name = $STR_A3_CfgGroups_TankHeavySection;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
+					GROUP_UNIT(0,TEast,O_R_MBT_04_command_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,10,-10)
+				};
+				class O_R_TankPlatoon_Heavy
+				{
+					name = $STR_A3_CfgGroups_TankHeavyPlatoon;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
+					GROUP_UNIT(0,TEast,O_R_MBT_04_command_ard_F,LIEUTENANT,0,0)
+					GROUP_UNIT(1,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,10,-10)
+					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,-10,-10)
+					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_ard_F,CORPORAL,20,-20)
 				};
 			};
 		};
@@ -3115,6 +3369,31 @@ class CfgGroups
 					class Unit2
 					{
 						vehicle = I_RadioOperator_F;
+					};
+				};
+				class HAF_MechInf_AT
+				{
+					class Unit0
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
+					};
+				};
+				class HAF_MechInf_AA
+				{
+					class Unit0
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
+					};
+				};
+			};
+			class Armored
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Armored0;
+				class HAF_TankPlatoon_AA
+				{
+					class Unit3
+					{
+						vehicle = I_APC_tracked_03_cannon_v2_F;
 					};
 				};
 			};
@@ -3209,8 +3488,8 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_G_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_recon.paa";
-					GROUP_UNIT(0,TGuerrila,I_G_Sniper_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TGuerrila,I_G_Spotter_F,CORPORAL,5,-5)
+					GROUP_UNIT(0,TGuerrila,I_G_Sharpshooter_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TGuerrila,I_G_Soldier_M_F,CORPORAL,5,-5)
 				};
 			};
 			class Support
@@ -3504,6 +3783,13 @@ class CfgGroups
 			class Mechanized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
+				class I_E_MechInfSquad
+				{
+					class Unit0
+					{
+						vehicle = I_E_APC_tracked_03_cannon_v2_F;
+					};
+				};
 				class I_E_MechInf_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInf_AT0;
@@ -3551,6 +3837,20 @@ class CfgGroups
 				};
 			};
 		};
-		class IND_L_F{};
+		class IND_L_F
+		{
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class I_L_LooterGang
+				{
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+				};
+				class I_L_CriminalGang
+				{
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
+				};
+			};
+		};
 	};
 };

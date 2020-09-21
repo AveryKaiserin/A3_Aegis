@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Sound Effects";
-		url = "https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] =
 		{
 			A3_Aegis_Air_F_Aegis_Plane_Fighter_05,
@@ -18,6 +18,7 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_Pistols_C1911,
 			A3_Aegis_Weapons_F_Aegis_Pistols_G17,
 			A3_Aegis_Weapons_F_Aegis_Pistols_MK26,
+			A3_Aegis_Weapons_F_Aegis_Rifles_AK12,
 			A3_Aegis_Weapons_F_Aegis_Rifles_RPK,
 			A3_Aegis_Weapons_F_Aegis_Rifles_SA80,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_AA40,
@@ -25,7 +26,6 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_Shotguns_M4_SSAS,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_Mp153,
 			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04,
-			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_06,
 			A3_Air_F_Exp_VTOL_01,
 			A3_Air_F_EPC_Plane_CAS_01,
 			A3_Air_F_EPC_Plane_CAS_02,

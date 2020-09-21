@@ -47,7 +47,7 @@ class CfgGlasses
 			G_IRAN_officer,500
 		};
 	};
-	class G_Diving: None
+	class G_Diving
 	{
 		identityTypes[] = {NoGlasses,0};
 	};
@@ -965,14 +965,14 @@ class CfgGlasses
 		identityTypes[] = {NoGlasses,0};
 		mass = 6;
 	};
-	class G_RU_Diving: G_Diving
+	class G_O_R_Diving: G_Diving
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "Diving Goggles [Russia]";
+		displayName = $STR_A3_A_CfgGlasses_G_O_R_Diving0;
 		model = "\A3\Characters_F_EPB\Heads\Glasses\G_O_Diving.p3d";
-		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_G_RU_Diving_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_G_O_R_Diving_CA.paa";
 		hiddenSelections[] = {camo};
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Diving_RUgry_CA.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Diving_rus_CA.paa"};
 		identityTypes[] =
 		{
 			G_RUS_diver,1000,

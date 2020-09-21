@@ -28,6 +28,10 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Opposing Forces
-	#include "cfgChKDZ.hpp"
-	#include "cfgTKM.hpp"
+	#include "cfgPara.hpp"              // Paramilitary
+	#include "cfgChKDZ.hpp"             // Separatists
+	#include "cfgTKM.hpp"               // Insurgents
+    /*
+	#include "cfgMilitia.hpp"           // Patriots
+    */
 };

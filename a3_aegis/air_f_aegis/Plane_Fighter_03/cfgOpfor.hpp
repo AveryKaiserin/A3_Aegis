@@ -121,9 +121,9 @@ class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_
 		verticalOffsetWorld = 0.025;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Plane_Fighter_03_dynamicLoadout_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Plane_Fighter_03_dynamicLoadout_F.jpg";
+	scope = protected;
+	scopeCurator = private;
 	displayName = $STR_A3_CfgVehicles_Plane_Fighter_03_base_F0;
 	side = TEast;
 	faction = OPF_F;
@@ -289,9 +289,9 @@ class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_
                     {
                         PylonRack_1Rnd_Missile_AA_03_F,
                         PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonMissile_1Rnd_BombCluster_02_F,
+                        PylonMissile_1Rnd_BombCluster_02_cap_F,
                         PylonWeapon_300Rnd_20mm_shells,
-                        PylonMissile_1Rnd_BombCluster_02_F,
+                        PylonMissile_1Rnd_BombCluster_02_cap_F,
                         PylonRack_20Rnd_Rocket_03_HE_F,
                         PylonRack_1Rnd_Missile_AA_03_F
                     };

@@ -31,6 +31,23 @@ class CfgVehicles
 		};
 	};
 	class B_Mortar_01_F;
+	class O_Mortar_01_F;
+	class I_Mortar_01_F;
+	class Bag_Base;
+	class Weapon_Bag_Base: Bag_Base
+	{
+		class assembleInfo{};
+	};
+	class B_Mortar_01_support_F;
+	class B_Mortar_01_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
+    #include "cfgLegion.hpp"		    // Legion
+	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+    #include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	/*
+	#include "cfgADF.hpp"				// ADF
+	#include "cfgCDF.hpp"				// CDF
+    */
+	#include "cfgIDF.hpp"				// IDF
 };

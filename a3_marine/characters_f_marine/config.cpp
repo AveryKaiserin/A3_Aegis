@@ -6,7 +6,6 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgOpfor_Exp.hpp"
 	#include "cfgUSMC.hpp"
 };
 #include "cfgGroups.hpp"

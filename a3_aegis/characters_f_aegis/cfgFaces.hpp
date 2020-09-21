@@ -7,7 +7,16 @@ class CfgFaces
 		class Default{};
 		class PersianHead_A3_01;
 		class WhiteHead_01: Default{};
-		class GreekHead_A3_01: Default{};
+		class WhiteHead_10: WhiteHead_01
+		{
+			displayname = $STR_A3_NATOMen_lastnames17;
+		};
+		class GreekHead_A3_01: Default
+		{
+			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01_injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Greek_01_injury.rvmat";
+		};
 		class Nikos: GreekHead_A3_01
 		{
 			disabled = false;
@@ -20,11 +29,6 @@ class CfgFaces
 		class Kerry_A_F: Kerry
 		{
 			displayName = "Kerry (Survive)";
-			identityTypes[] =
-			{
-				Head_NATO,
-				Head_Euro
-			};
 			disabled = false;
 		};
 		class kerry_B1_F: Kerry
@@ -40,11 +44,6 @@ class CfgFaces
 		class Kerry_C_F: Kerry
 		{
 			displayName = "Kerry (Win)";
-			identityTypes[] =
-			{
-				Head_NATO,
-				Head_Euro
-			};
 			disabled = false;
 		};
 		class IG_Leader: Default
@@ -264,16 +263,13 @@ class CfgFaces
 				Head_NATO
 			};
 		};
-		// Arma 3 Oldman
-		class TanoanHead_A3_09: TanoanHead_A3_01
-		{
-			identityTypes[] = {Head_Tanoan};
-		};
 		// Arma 3 Aegis
 		class PersianHead_A3_05: PersianHead_A3_01
 		{
 			author = $STR_A3_A_AveryTheKitty;
 			displayname = $STR_A3_TakistaniMen_LastNames36;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_bald_1_co.paa";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_bald_co.paa";
 			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_CO.paa";
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_injury.rvmat";
@@ -292,6 +288,8 @@ class CfgFaces
 		{
 			author = $STR_A3_A_AveryTheKitty;
 			displayname = $STR_A3_TakistaniMen_LastNames47;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_bald_1_co.paa";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_bald_co.paa";
 			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_CO.paa";
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_injury.rvmat";
@@ -313,5 +311,43 @@ class CfgFaces
 				Head_Euro
 			};
 		};
+		class LatinoHead_A3_01: Default
+		{
+			author = $STR_A3_A_AveryTheKitty;
+			displayname = $STR_A3_NATOMen_lastnames103;
+			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_01_CO.paa";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_Black_bald_CO.paa";
+			head = GreekHead_A3;
+			identityTypes[] =
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_01.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_01_injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_01_injury.rvmat";
+		};
+		/*
+		class LatinoHead_A3_02: LatinoHead_A3_01
+		{
+			author = $STR_A3_A_AveryTheKitty;
+			displayname = "Rodriguez";
+			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_02_CO.paa";
+			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_02.rvmat";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_Black_bald_CO.paa";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_02_injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_02_injury.rvmat";
+		};
+		class LatinoHead_A3_03: LatinoHead_A3_01
+		{
+			author = $STR_A3_A_AveryTheKitty;
+			displayname = "Serrano";
+			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_03_CO.paa";
+			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_03.rvmat";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_Black_bald_CO.paa";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_03_injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_03_injury.rvmat";
+		};
+		*/
   	};
 };

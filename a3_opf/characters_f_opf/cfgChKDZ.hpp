@@ -1,5 +1,6 @@
 // Arma 3
 class O_G_Soldier_SL_F;
+class O_G_Soldier_LAT_F;
 // Arma 3 Enoch
 class O_R_Gorka_base_F;
 class O_R_Gorka_F: O_R_Gorka_base_F
@@ -11,6 +12,8 @@ class O_R_Gorka_F: O_R_Gorka_base_F
         TGuerrila
     };
 };
+// Arma 3 Aegis
+class O_R_LightFatigues_01_taiga_F;
 // Arma 3 Opposing Forces
 class O_E_Man_Base_F: O_G_Soldier_F
 {
@@ -40,8 +43,7 @@ class O_E_Gorka_summer_F: O_R_Gorka_F
 class O_E_Uniform_01_taiga_F: O_G_Soldier_SL_F
 {
 	scope = protected;
-	side = TEast;
-	faction = OPF_E_F;
+    scopeCurator = private;
 	modelSides[] =
     {
         TEast,
@@ -60,6 +62,29 @@ class O_E_Uniform_01_taiga_F: O_G_Soldier_SL_F
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_taiga_2_CO.paa"
 	};
 };
+class O_E_Uniform_01_arid_F: O_E_Uniform_01_taiga_F
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_E_Uniform_01_arid_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa",
+		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
+	};
+};
+class O_E_Uniform_01_sweater_F: O_G_Soldier_LAT_F
+{
+	scope = protected;
+    scopeCurator = private;
+	modelSides[] =
+    {
+        TEast,
+        TCivilian
+    };
+	uniformClass = U_O_E_Uniform_01_sweater_F;
+	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_sweater_CO.paa"};
+};
 class O_E_Soldier_Base_F: O_E_Man_Base_F
 {
 	uniformClass = U_O_E_Gorka_01_summer_F;
@@ -77,14 +102,14 @@ class O_E_Soldier_1_F: O_E_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] = 
 	{
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -112,7 +137,7 @@ class O_E_Soldier_1_F: O_E_Soldier_Base_F
         mag_2(HandGrenade)
 	};
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -155,14 +180,14 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	uniformClass = U_O_E_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
+		V_SmershVest_01_radio_olive_F,
 		H_MilCap_grn,
-		V_SmershVest_01_radio_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_radio_olive_F,
 		H_MilCap_grn,
-		V_SmershVest_01_radio_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -181,13 +206,13 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade)
 	};
@@ -195,7 +220,7 @@ class O_E_Soldier_2_F: O_E_Soldier_Base_F
 	camouflage = 1.6;
 	icon = iconManLeader;
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -246,18 +271,18 @@ class O_E_Soldier_3_F: O_E_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
 	backpack = B_FieldPack_green_OEMedic_F;
 	linkedItems[] = 
 	{
+		V_TacVest_grn,
 		H_Bandanna_khk,
-		V_ChestrigF_rgr,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_TacVest_grn,
 		H_Bandanna_khk,
-		V_ChestrigF_rgr,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -277,7 +302,7 @@ class O_E_Soldier_3_F: O_E_Soldier_Base_F
 	picture = pictureHeal;
 	role = CombatLifeSaver;
 	camouflage = 1.6;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -332,13 +357,13 @@ class O_E_Soldier_4_F: O_E_Soldier_Base_F
 	linkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
+		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
+		V_SmershVest_01_olive_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -366,7 +391,7 @@ class O_E_Soldier_4_F: O_E_Soldier_Base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -457,7 +482,7 @@ class O_E_Soldier_5_F: O_E_Soldier_Base_F
 	threat[] = {0.8,0.8,0.3};
 	icon = iconManAT;
 	role = MissileSpecialist;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -522,17 +547,17 @@ class O_E_Soldier_6_F: O_E_Soldier_Base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_black_Mag_F),
+        mag_6(30Rnd_545x39_AK12_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	cost = 200000;
 	role = Grenadier;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -612,7 +637,7 @@ class O_E_Soldier_7_F: O_E_Soldier_Base_F
 	respawnMagazines[] = {mag_6(10Rnd_762x54_Mag)};
 	cost = 250000;
 	role = Marksman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -656,35 +681,43 @@ class O_E_Soldier_8_F: O_E_Soldier_Base_F
 	backpack = B_FieldPack_green_OEExp_F;
 	linkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_ChestrigF_rgr,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_ChestrigF_rgr,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		sgun_Mp153_classic_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		sgun_Mp153_classic_F,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
-	respawnMagazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
+	magazines[] =
+    {
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug)
+    };
+	respawnMagazines[] =
+    {
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug)
+    };
 	canDeactivateMines = true;
 	detectSkill = 38;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	role = Sapper;
 	camouflage = 1.6;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -720,45 +753,47 @@ class O_E_Soldier_8_F: O_E_Soldier_Base_F
 class O_E_Soldier_9_F: O_E_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_9_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_9_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Partisan";
-	uniformClass = U_O_R_Gorka_01_F;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
 	linkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_TacChestRig_oli_F,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_Watchcap_camo,
 		V_TacChestRig_oli_F,
+		H_Watchcap_camo,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_G36C_F,
+		sgun_HunterShotgun_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_G36C_F,
+		sgun_HunterShotgun_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(2Rnd_12Gauge_Pellets),
+        mag_3(2Rnd_12Gauge_Slug),
         mag_2(HandGrenade)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_3(2Rnd_12Gauge_Pellets),
+        mag_3(2Rnd_12Gauge_Slug),
         mag_2(HandGrenade)
 	};
 	role = Rifleman;
-    headgearList[] = 
+    headgearList[] =
     {
         H_Bandanna_gry,1,
         H_Bandanna_khk_hs,1,
@@ -791,6 +826,50 @@ class O_E_Soldier_9_F: O_E_Soldier_Base_F
         H_FakeHeadgear_F,2
     };
 };
+class O_E_Crew_F: O_E_Soldier_Base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	uniformClass = U_O_E_Uniform_01_sweater_F;
+	linkedItems[] = 
+	{
+		V_BandollierB_taiga_F,
+		H_Tank_black_F,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		V_BandollierB_taiga_F,
+		H_Tank_black_F,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade)
+	};
+	respawnMagazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade)
+	};
+	camouflage = 1.6;
+    cost = 93000;
+	role = Crewman;
+};
 class O_E_Soldier_universal_F: O_E_Soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -806,6 +885,7 @@ class O_E_Soldier_universal_F: O_E_Soldier_1_F
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
 	scope = protected;
+    scopeCurator = private;
 	displayName = $STR_A3_CfgVehicles_b_soldier_universal_f_displayName;
 	attendant = true;
 	engineer = true;
@@ -823,14 +903,14 @@ class O_E_Soldier_Base_unarmed_F: O_E_Soldier_1_F
 	respawnMagazines[] = {};
 	linkedItems[] = 
 	{
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
+		V_SmershVest_01_olive_F,
 		H_PASGT_basic_olive_F,
-		V_SmershVest_01_F,
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;

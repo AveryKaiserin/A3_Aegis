@@ -3,8 +3,13 @@
 class CfgVehicles
 {
 	// Arma 3
+	class StaticShip;
 	class House_F;
 	// Arma 3 Jets
+	class Land_Destroyer_01_base_F: StaticShip
+	{
+		displayName = "USS Liberty";
+	};
 	class Land_Destroyer_01_hull_base_F: House_F
 	{
 		class MarkerLights

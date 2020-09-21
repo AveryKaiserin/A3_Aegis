@@ -1,6 +1,11 @@
 class asdg_SlotInfo;
 class asdg_OpticRail;
 class asdg_MuzzleSlot;
+class asdg_FrontSideRail;
+class asdg_UnderSlot;
+class asdg_PistolUnderRail;
+class asdg_PistolOpticMount;
+class asdg_PistolOpticRail1913;
 class asdg_OpticRail1913: asdg_OpticRail
 {
     class compatibleItems
@@ -12,6 +17,13 @@ class asdg_OpticRail1913: asdg_OpticRail
 		optic_ACO_grn_AK_F = true;
     };
 };
+class asdg_OpticRail1913_short;
+class asdg_OpticRail1913_short_MG;
+class asdg_OpticRail1913_long;
+class asdg_OpticSideMount;
+class asdg_OpticSideRail_AK;
+class asdg_OpticSideRail_SVD;
+class asdg_OpticSideRail_AKSVD;
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot
 {
     class compatibleItems
@@ -20,10 +32,17 @@ class asdg_MuzzleSlot_762: asdg_MuzzleSlot
 		muzzle_mzls_B = true;
     };
 };
-class asdg_MuzzleSlot_65: asdg_MuzzleSlot_762
+class asdg_MuzzleSlot_65: asdg_MuzzleSlot
 {
-    class compatibleItems: compatibleItems
+    class compatibleItems
     {
+        muzzle_snds_h = true;
+        muzzle_snds_h_khk_F = true;
+        muzzle_snds_h_snd_F = true;
+        muzzle_snds_65_TI_blk_F = true;
+        muzzle_snds_65_TI_hex_F = true;
+        muzzle_snds_65_TI_ghex_F = true;
+        muzzle_tma_65 = true;
 		muzzle_mzls_H = true;
     };
 };
@@ -34,13 +53,9 @@ class asdg_MuzzleSlot_556: asdg_MuzzleSlot
 		muzzle_mzls_M = true;
     };
 };
-class asdg_MuzzleSlot_762MG: asdg_MuzzleSlot
-{
-    class compatibleItems
-    {
-		muzzle_mzls_H = true;
-    };
-};
+class asdg_MuzzleSlot_762MG;
+class asdg_MuzzleSlot_338;
+class asdg_MuzzleSlot_93x64;
 class asdg_MuzzleSlot_9MM: asdg_MuzzleSlot
 {
     class compatibleItems
@@ -59,8 +74,8 @@ class asdg_MuzzleSlot_45ACP: asdg_MuzzleSlot
 {
     class compatibleItems
     {
+        muzzle_snds_pistol_heavy_01 = true;
         muzzle_mzls_acp = true;
-        muzzle_mzls_smg_01 = true;
     };
 };
 class asdg_MuzzleSlot_45ACP_SMG: asdg_MuzzleSlot
@@ -68,6 +83,7 @@ class asdg_MuzzleSlot_45ACP_SMG: asdg_MuzzleSlot
     class compatibleItems
     {
         muzzle_mzls_acp = true;
+        muzzle_mzls_smg_01 = true;
     };
 };
 class asdg_MuzzleSlot_545R: asdg_MuzzleSlot
@@ -82,6 +98,28 @@ class asdg_MuzzleSlot_545R: asdg_MuzzleSlot
     };
 };
 class asdg_MuzzleSlot_762R: asdg_MuzzleSlot
+{
+    class compatibleItems
+    {
+        muzzle_snds_B = true;
+        muzzle_snds_B_wdm_F = true;
+        muzzle_snds_B_lush_F = true;
+        muzzle_snds_B_arid_F = true;
+        muzzle_mzls_B = true;
+    };
+};
+class asdg_MuzzleSlot_762R_PK: asdg_MuzzleSlot
+{
+    class compatibleItems
+    {
+        muzzle_snds_B = true;
+        muzzle_snds_B_wdm_F = true;
+        muzzle_snds_B_lush_F = true;
+        muzzle_snds_B_arid_F = true;
+        muzzle_mzls_B = true;
+    };
+};
+class asdg_MuzzleSlot_762R_SVD: asdg_MuzzleSlot
 {
     class compatibleItems
     {

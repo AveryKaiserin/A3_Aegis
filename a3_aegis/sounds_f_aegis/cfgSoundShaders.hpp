@@ -1275,159 +1275,6 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	// RSh-42 12.7 mm
-	class MP412_Closure_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closure_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closure_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closure_03",1}
-		};
-		range = 5;
-		volume = db-13;
-	};
-	class MP412_closeShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closeShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closeShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_closeShot_03",1}
-		};
-		volume = db0;
-		range = 50;
-		rangeCurve = closeShotCurve;
-	};
-	class MP412_midShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_midShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_midShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_midShot_03",1}
-		};
-		volume = db-3;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,0.2},
-			{50,1},
-			{150,0},
-			{1200,0}
-		};
-	};
-	class MP412_distShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_distShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_distShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_distShot_03",1}
-		};
-		volume = db0;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,0},
-			{50,0},
-			{150,1},
-			{1200,1}
-		};
-	};
-	class MP412_tailDistant_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_taildistant",1}
-		};
-		volume = db0;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,0},{300,0.7},
-			{1200,1}
-		};
-		limitation = true;
-	};
-	class MP412_tailForest_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_tailforest",1}
-		};
-		volume = (1-interior/1.4)*forest/3;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1200,0}
-		};
-		limitation = true;
-	};
-	class MP412_tailHouses_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_tailhouses",1}
-		};
-		volume = (1-interior/1.4)*houses/3;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,1},
-			{150,0.3},
-			{1200,0}
-		};
-		limitation = true;
-	};
-	class MP412_tailInterior_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_tailinterior",1}
-		};
-		volume = interior;
-		range = 250;
-		rangeCurve[] =
-		{
-			{0,1},
-			{30,0.4},
-			{100,0.2},
-			{250,0}
-		};
-		limitation = true;
-	};
-	class MP412_tailMeadows_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_tailmeadows",1}
-		};
-		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1200,0}
-		};
-		limitation = true;
-	};
-	class MP412_tailTrees_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_tailtrees",1}
-		};
-		volume = (1-interior/1.4)*trees/3;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1200,0}
-		};
-		limitation = true;
-	};
 	// RFL 7.62 mm
 	class RFL_Closure_SoundShader
 	{
@@ -1600,6 +1447,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_03",1}
 		};
+		frequency = 0.7;
 		volume = db-2;
 		range = 50;
 		rangeCurve = closeShotCurve;
@@ -1811,6 +1659,246 @@ class CfgSoundShaders
 		samples[] =
 		{
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_silencerTailTrees",1}
+		};
+		volume = (1-interior/1.4)*trees/3;
+		range = 150;
+		rangeCurve[] =
+		{
+			{0,1},
+			{150,0.3}
+		};
+		limitation = true;
+	};
+	// Mk17 7.62 mm
+	class SCAR_Closure_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_closure_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_closure_02",1}
+		};
+		range = 5;
+		volume = db-7;
+	};
+	class SCAR_closeShot_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_closeShot_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_closeShot_02",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_closeShot_03",1}
+		};
+		volume = db0;
+		range = 50;
+		rangeCurve = closeShotCurve;
+	};
+	class SCAR_midShot_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_midShot_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_midShot_02",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_midShot_03",1}
+		};
+		volume = db-2;
+		range = 1800;
+		rangeCurve[] =
+		{
+			{0,0.2},
+			{50,1},
+			{300,0},
+			{1800,0}
+		};
+	};
+	class SCAR_distShot_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_distShot_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_distShot_02",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_distShot_03",1}
+		};
+		volume = db0;
+		range = 1800;
+		rangeCurve[] =
+		{
+			{0,0},
+			{50,0},
+			{300,1},
+			{1800,1}
+	  };
+	};
+	class SCAR_tailDistant_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_taildistant",1}
+		};
+		volume = db0;
+		range = 2000;
+		rangeCurve[] =
+		{
+			{0,0},
+			{600,0.7},
+			{2000,1}
+		};
+		limitation = true;
+	};
+	class SCAR_tailForest_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_tailforest",1}
+		};
+		volume = (1-interior/1.4)*forest/3;
+		range = 2000;
+		rangeCurve[] =
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation = true;
+	};
+	class SCAR_tailHouses_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_tailhouses",1}
+		};
+		volume = (1-interior/1.4)*houses/3;
+		range = 1500;
+		rangeCurve[] =
+		{
+			{0,1},
+			{250,0.3},
+			{1500,0}
+		};
+		limitation = true;
+	};
+	class SCAR_tailInterior_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_tailinterior",1}
+		};
+		volume = interior;
+		range = 350;
+		rangeCurve[] =
+		{
+			{0,1},
+			{50,0.4},
+			{100,0.2},
+			{350,0}
+		};
+		limitation = true;
+	};
+	class SCAR_tailMeadows_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_tailmeadows",1}
+		};
+		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
+		range = 2000;
+		rangeCurve[] =
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation = true;
+	};
+	class SCAR_tailTrees_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_tailtrees",1}
+		};
+		volume = (1-interior/1.4)*trees/3;
+		range = 2000;
+		rangeCurve[] =
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation = true;
+	};
+	class SCAR_silencerShot_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerShot_01",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerShot_02",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerShot_03",1}
+		};
+		volume = 1;
+		range = 150;
+		rangeCurve = closeShotCurve;
+	};
+	class SCAR_silencerTailForest_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerTailForest",1}
+		};
+		volume = (1-interior/1.4)*forest/3;
+		range = 150;
+		rangeCurve[] =
+		{
+			{0,1},
+			{150,0.3}
+		};
+		limitation = true;
+	};
+	class SCAR_silencerTailHouses_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerTailHouses",1}
+		};
+		volume = (1-interior/1.4)*houses/3;
+		range = 150;
+		rangeCurve[] =
+		{
+			{0,1},
+			{150,0}
+		};
+		limitation = true;
+	};
+	class SCAR_silencerTailInterior_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerTailInterior",1}
+		};
+		volume = interior;
+		range = 150;
+		rangeCurve[] =
+		{
+			{0,1},
+			{50,0.3},
+			{150,0}
+		};
+		limitation = true;
+	};
+	class SCAR_silencerTailMeadows_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerTailMeadows",1}
+		};
+		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
+		range = 150;
+		rangeCurve[] =
+		{
+			{0,1},{150,0.3}
+		};
+		limitation = true;
+	};
+	class SCAR_silencerTailTrees_SoundShader
+	{
+		samples[] =
+		{
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerTailTrees",1}
 		};
 		volume = (1-interior/1.4)*trees/3;
 		range = 150;
@@ -2618,247 +2706,6 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	// Vepr 9 mm
-	class SMG06_Closure_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_closure_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_closure_02",1}
-		};
-		range = 5;
-		volume = db-7;
-	};
-	class SMG06_closeShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_closeShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_closeShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_closeShot_03",1}
-		};
-		volume = db-2;
-		range = 50;
-		rangeCurve = closeShotCurve;
-	};
-	class SMG06_midShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_midShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_midShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_midShot_03",1}
-		};
-		volume = db-6;
-		range = 2000;
-		rangeCurve[] =
-		{
-			{0,0.2},
-			{50,1},
-			{300,0},
-			{2000,0}
-		};
-	};
-	class SMG06_distShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_distShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_distShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_distShot_03",1}
-		};
-		volume = db0;
-		range = 2000;
-		rangeCurve[] =
-		{
-			{0,0},
-			{50,0},
-			{300,1},
-			{2000,1}
-		};
-	};
-	class SMG06_tailDistant_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_taildistant",1}
-		};
-		volume = db5;
-		range = 1500;
-		rangeCurve[] =
-		{
-			{0,0},
-			{300,0.7},
-			{1500,1}
-		};
-		limitation = true;
-	};
-	class SMG06_tailForest_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_tailforest",1}
-		};
-		volume = (1-interior/1.4)*forest/3;
-		range = 1500;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1500,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_tailHouses_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_tailhouses",1}
-		};
-		volume = (1-interior/1.4)*houses/3;
-		range = 1500;
-		rangeCurve[] =
-		{
-			{0,1},
-			{200,0.3},
-			{1500,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_tailInterior_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_tailinterior",1}
-		};
-		volume = interior;
-		range = 350;
-		rangeCurve[] =
-		{
-			{0,1},
-			{50,0.4},
-			{100,0.2},
-			{350,0}
-		};
-		limitation = true;
-	};
-	class SMG06_tailMeadows_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_tailmeadows",1}
-		};
-		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
-		range = 1500;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1500,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_tailTrees_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_tailtrees",1}
-		};
-		volume = (1-interior/1.4)*trees/3;
-		range = 1500;
-		rangeCurve[] =
-		{
-			{0,1},
-			{1500,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_silencerShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerShot_03",1}
-		};
-		volume = db-5;
-		range = 150;
-		rangeCurve = closeShotCurve;
-	};
-	class SMG06_silencerTailForest_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerTailForest",1}
-		};
-		volume = (1-interior/1.4)*forest/3;
-		range = 150;
-		rangeCurve[] =
-		{
-			{0,1},
-			{150,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_silencerTailHouses_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerTailHouses",1}
-		};
-		volume = (1-interior/1.4)*houses/3;
-		range = 150;
-		rangeCurve[] =
-		{
-			{0,1},
-			{150,0}
-		};
-		limitation = true;
-	};
-	class SMG06_silencerTailInterior_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerTailInterior",1}
-		};
-		volume = interior;
-		range = 150;
-		rangeCurve[] =
-		{
-			{0,1},
-			{50,0.3},
-			{150,0}
-		};
-		limitation = true;
-	};
-	class SMG06_silencerTailMeadows_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerTailMeadows",1}
-		};
-		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
-		range = 150;
-		rangeCurve[] =
-		{
-			{0,1},{150,0.3}
-		};
-		limitation = true;
-	};
-	class SMG06_silencerTailTrees_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG06\SMG06_silencerTailTrees",1}
-		};
-		volume = (1-interior/1.4)*trees/3;
-		range = 150;
-		rangeCurve[] =
-		{
-			{0,1},
-			{150,0.3}
-		};
-		limitation = true;
-	};
-	// F-35F Lightning II
 	class Plane_Fighter_RainExt_SoundShader
 	{
 		samples[] =
@@ -2909,6 +2756,7 @@ class CfgSoundShaders
 		volume = engineOn * (1-camPos) * (gmeterZ factor[1, 2.5]);
 		range = 50;
 	};
+	// F-38C Peregrine
 	class Plane_Fighter_05_EngineLowExt_SoundShader
 	{
 		samples[] =

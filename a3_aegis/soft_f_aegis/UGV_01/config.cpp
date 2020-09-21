@@ -26,9 +26,25 @@ class CfgVehicles
 		{
 			class Indep;
 			class Opfor;
-			class Blufor;
+			class Blufor
+            {
+				factions[] =
+				{
+					BLU_F,
+                    BLU_A_F
+				};
+            };
 			class GreenHex;
-			class Olive;
+			class Olive
+            {
+				factions[] =
+				{
+					BLU_T_F,
+                    BLU_W_F,
+                    BLU_A_tna_F,
+                    BLU_A_wdl_F
+				};
+            };
 			class EAF;
 			class Green
 			{
@@ -36,23 +52,27 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
-			class Taiga
+			class Ion
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
+				displayName = $STR_A3_TEXTURESOURCES_ION0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_ION_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_ION_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] = {BLU_ION_F};
 			};
 		};
 	};
@@ -228,29 +248,30 @@ class CfgVehicles
 			{
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUkhk_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
-			class Taiga: Taiga
+			class Ion: Ion
 			{
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_RUS_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_ION_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
 		};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgOpfor.hpp"
-	#include "cfgIndep.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgEAF.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgOpfor.hpp"				// CSAT
+	#include "cfgIndep.hpp"				// AAF
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgOpfor_Exp.hpp"			// CSAT (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgSpetsnaz.hpp"			// Russia
+	#include "cfgEAF.hpp"				// LDF
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgIon.hpp"				// ION
 };

@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -68,6 +69,7 @@ class B_A_HMG_02_high_F: HMG_02_high_base_F
 		};
 	};
 };
+// BLU_A_tna_F
 class B_A_HMG_02_tna_F: B_A_HMG_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;

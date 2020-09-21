@@ -70,17 +70,21 @@ class B_L_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_L_F;
 	crew = B_L_Soldier_F;
 	typicalCargo[] = {B_L_Soldier_F};
-	textureList[] = {Olive,1};
+	textureList[] =
+    {
+        Blufor,1,
+        Olive,0
+    };
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_olive_CO.paa",
-		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_wheel_olive_CO.paa"
+		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_CO.paa",
+		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_CO.paa"
 	};
 };

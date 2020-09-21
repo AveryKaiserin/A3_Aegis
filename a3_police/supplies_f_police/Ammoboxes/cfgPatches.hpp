@@ -5,7 +5,11 @@ class CfgPatches
 		addonRootClass = A3_Police_Supplies_F_Police;
 		requiredAddons[] = {A3_Police_Supplies_F_Police};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Police
+            Box_POLICE_Equip_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

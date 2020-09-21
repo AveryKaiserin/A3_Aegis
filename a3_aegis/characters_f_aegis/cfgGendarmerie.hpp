@@ -135,14 +135,14 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
@@ -183,14 +183,14 @@ class B_GEN_Soldier_Rifle_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
@@ -235,21 +235,21 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };
 class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_GEN_Soldier_LAT_F0;
 	role = MissileSpecialist;
@@ -292,14 +292,14 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_gen_F,
 		V_TacVest_gen_F,
+		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
 };

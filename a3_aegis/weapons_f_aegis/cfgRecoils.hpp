@@ -18,23 +18,6 @@ class CfgRecoils
 		};
 		temporary = 0.12;
 	};
-	// SVD 7.62 mm
-	class recoil_dmr_08: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.5,
-			1.8,
-			0.6,
-			0.5
-		};
-		kickBack[] =
-		{
-			0.03,
-			0.08
-		};
-		temporary = 0.01;
-	};
 	// Warfare-50 12.7 mm
 	class recoil_wf50: recoil_default
 	{
@@ -103,23 +86,6 @@ class CfgRecoils
 		};
 		temporary = 0.06;
 	};
-	// RSh-42 12.7 mm
-	class recoil_pistol_rsh42: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.3,
-			1.5,
-			0.4,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.06,
-			0.08
-		};
-		temporary = 0.08;
-	};
 	// AK-12 5.45 mm
 	class recoil_ak12_545: recoil_default
 	{
@@ -154,6 +120,7 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
+	// Grot 5.56 mm
 	class recoil_MSBS556: recoil_default
 	{
 		muzzleOuter[] =
@@ -170,7 +137,8 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
-	class recoil_SA80: recoil_default
+	// L85A3 6.5 mm
+	class recoil_sa80: recoil_default
 	{
 		muzzleOuter[] =
 		{
@@ -185,6 +153,23 @@ class CfgRecoils
 			0.04
 		};
 		temporary = 0.01;
+	};
+	// Mk17 7.62 mm
+	class recoil_scar: recoil_default
+	{
+		muzzleOuter[] =
+		{
+			0.3,
+			1.5,
+			0.5,
+			0.5
+		};
+		kickBack[] =
+		{
+			0.03,
+			0.07
+		};
+		temporary = 0.005;
 	};
 	// RFL 7.62 mm
 	class recoil_rfb: recoil_default
@@ -204,7 +189,7 @@ class CfgRecoils
 		temporary = 0.01;
 	};
 	// RPK 7.62 mm
-	class recoil_RPK: recoil_default
+	class recoil_rpk: recoil_default
 	{
 		muzzleOuter[] =
 		{
@@ -272,7 +257,7 @@ class CfgRecoils
 		temporary = 0.02;
 	};
 	// BK-153 12G
-	class recoil_Mp153: recoil_default
+	class recoil_mp153: recoil_default
 	{
 		muzzleOuter[] =
 		{
@@ -304,22 +289,5 @@ class CfgRecoils
 			0.03
 		};
 		temporary = 0.01;
-	};
-	// Vepr 9 mm
-	class recoil_smg_06: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.2,
-			0.5,
-			0.3,
-			0.3
-		};
-		kickBack[] =
-		{
-			0.02,
-			0.04
-		};
-		temporary = 0.015;
 	};
 };

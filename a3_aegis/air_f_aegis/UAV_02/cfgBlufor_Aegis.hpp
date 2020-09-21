@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -76,6 +77,7 @@ class B_A_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 		};
 	};
 };
+// BLU_A_tna_F
 class B_A_UAV_02_dynamicLoadout_tna_F: B_A_UAV_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -139,6 +141,7 @@ class B_A_UAV_02_dynamicLoadout_tna_F: B_A_UAV_02_dynamicLoadout_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_UAV_02_dynamicLoadout_tna_F.jpg";
 	faction = BLU_A_tna_F;
 };
+// BLU_A_wdl_F
 class B_A_UAV_02_dynamicLoadout_wdl_F: B_A_UAV_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;

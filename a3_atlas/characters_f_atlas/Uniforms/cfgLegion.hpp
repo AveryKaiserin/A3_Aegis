@@ -1,3 +1,4 @@
+// Arma 3
 class U_B_CombatUniform_sgg: Uniform_Base
 {
     scope = public;

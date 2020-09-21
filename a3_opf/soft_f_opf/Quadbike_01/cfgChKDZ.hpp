@@ -80,6 +80,7 @@ class O_E_Quadbike_01_F: Quadbike_01_base_F
 	textureList[] =
 	{
 		Black,1,
+		Guerrilla_01,1,
 		Guerrilla_02,1
 	};
 	hiddenSelectionsTextures[] =

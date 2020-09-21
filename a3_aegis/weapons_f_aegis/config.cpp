@@ -85,5 +85,5 @@ class UnderBarrelSlot_rail;
 #include "cfgRecoils.hpp"
 #include "cfgVehicles.hpp"
 #include "cfgMagazineWells.hpp"
-#include "cfgWeapons.hpp"
 #include "ASDG.hpp"
+#include "cfgWeapons.hpp"

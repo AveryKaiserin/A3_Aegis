@@ -9,6 +9,14 @@ class I_L_Soldier_Base_F: I_Soldier_base_F
         G_LOOTER_default
     };
 };
+class I_L_Uniform_01_camo_F: I_G_Soldier_LAT_F
+{
+    scopeCurator = private;
+};
+class I_L_Uniform_01_deserter_F: I_G_Soldier_F
+{
+    scopeCurator = private;
+};
 class I_L_Uniform_01_tshirt_skull_F;
 class I_L_Uniform_01_tshirt_black_F: I_L_Uniform_01_tshirt_skull_F
 {
@@ -41,7 +49,7 @@ class I_L_Looter_SG_F: I_L_Soldier_Base_F
 };
 class I_L_Looter_Rifle_F: I_L_Soldier_Base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Looter_Rifle_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Looter_Rifle_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_L_Looter_Rifle_F0;
 	uniformClass = U_IG_Guerilla3_2;
 	linkedItems[] =
@@ -94,7 +102,7 @@ class I_L_Criminal_SG_F: I_L_Soldier_Base_F
 };
 class I_L_Hunter_F: I_L_Soldier_Base_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Hunter_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Hunter_F.jpg";
 	uniformClass = U_IG_Guerilla3_1;
 };
 // Arma 3 Contact
@@ -230,18 +238,14 @@ class I_L_Militiaman_Leader_F: I_L_Deserter_base_F
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellGreen
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 	respawnMagazines[] =
     {
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        SmokeShellGreen
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };
 class I_L_Deserter_Rifle_F: I_L_Deserter_base_F

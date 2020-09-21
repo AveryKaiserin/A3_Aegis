@@ -2,10 +2,33 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	class Air;
+	class Helicopter: Air
+	{
+		class Turrets;
+	};
+	class Helicopter_Base_F: Helicopter
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
 	// Arma 3
-	class Helicopter_Base_F;
 	class UAV_01_base_F: Helicopter_Base_F
 	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+            {
+				class OpticsIn
+                {
+					class Wide;
+					class Medium: Wide{};
+					class Narrow: Wide{};
+                };
+            };
+        };
 		class TextureSources
 		{
 			class Opfor
@@ -37,8 +60,12 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_RUS_CO.paa"};
-				factions[] = {OPF_R_F};
+				textures[] = {"\A3_Aegis\Air_F_Aegis\UAV_01\Data\UAV_01_RUgrey_CO.paa"};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 		};
 	};
@@ -49,6 +76,33 @@ class CfgVehicles
 	{
 		class assembleInfo;
 	};
+    // Arma 3 Laws of War
+    /*
+    class C_IDAP_UAV_01_F: UAV_01_base_F
+    {
+	    class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                class OpticsIn: OpticsIn
+                {
+                    class Wide: Wide
+                    {
+                        visionMode[] = {Normal};
+                    };
+                    class Medium: Medium
+                    {
+                        visionMode[] = {Normal};
+                    };
+                    class Narrow: Narrow
+                    {
+                        visionMode[] = {Normal};
+                    };
+                };
+            };
+        };
+    };
+    */
 	// Arma 3 Aegis
 	#include "cfgBlufor_Exp.hpp"
 	#include "cfgOpfor_Exp.hpp"

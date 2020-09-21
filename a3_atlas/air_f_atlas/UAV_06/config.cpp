@@ -9,6 +9,30 @@ class CfgVehicles
 		class TextureSources
 		{
 			class Blufor;
+            /*
+			class ADF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ADF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_O_UAV_06_CO.paa",
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_O_UAV_06_CO.paa"
+                };
+				factions[] = {BLU_O_F};
+			};
+			class CDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_W_UAV_06_CO.paa",
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_W_UAV_06_CO.paa"
+                };
+				factions[] = {IND_W_F};
+			};
+            */
 			class IDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
@@ -23,6 +47,30 @@ class CfgVehicles
 		class TextureSources
 		{
 			class Blufor;
+            /*
+			class ADF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ADF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_O_UAV_06_medical_CO.paa",
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_O_UAV_06_medical_CO.paa"
+                };
+				factions[] = {BLU_O_F};
+			};
+			class CDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_W_UAV_06_medical_CO.paa",
+                    "\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_W_UAV_06_medical_CO.paa"
+                };
+				factions[] = {IND_W_F};
+			};
+            */
 			class IDF
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
@@ -45,6 +93,10 @@ class CfgVehicles
 	};
 	class UAV_06_medical_backpack_base_F: UAV_06_backpack_base_F{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
-	#include "cfgIDF.hpp"
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    /*
+	#include "cfgADF.hpp"				// ADF
+	#include "cfgCDF.hpp"				// CDF
+    */
+	#include "cfgIDF.hpp"				// IDF
 };

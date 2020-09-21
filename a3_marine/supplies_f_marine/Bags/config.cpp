@@ -2,10 +2,10 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	// Arma 3
 	class B_AssaultPack_cbr;
 	class B_Kitbag_cbr;
 	class B_Carryall_cbr;
-
-	// Soldier Bags
-	#include "cfgUSMC.hpp"
+	// Arma 3 Marine
+	#include "cfgUSMC.hpp"			// USMC
 };

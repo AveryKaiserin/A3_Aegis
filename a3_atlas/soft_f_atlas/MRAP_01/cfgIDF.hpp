@@ -93,7 +93,7 @@ class I_I_MRAP_01_F: MRAP_01_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -102,12 +102,12 @@ class I_I_MRAP_01_F: MRAP_01_base_F
     typicalCargo[] = {I_I_Soldier_lite_F};
 	unitInfoType = RscUnitInfoNoWeapon;
 	threat[] = {0.1,0.1,0.1};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_IDF_CO.paa",
-        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
+        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
     };
 	class Turrets{};
     class TransportWeapons
@@ -129,7 +129,7 @@ class I_I_MRAP_01_F: MRAP_01_base_F
         mag_xx(SmokeShellGreen,4);
         mag_xx(SmokeShellYellow,4);
         mag_xx(SmokeShellOrange,4);
-		mag_xx(MRAWS_HEAT55_F,2);
+		mag_xx(MRAWS_HEAT_F,2);
     };
 };
 class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
@@ -227,19 +227,19 @@ class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_gmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_lite_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_IDF_CO.paa",
-        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
+        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
     };
     class TransportWeapons
     {
@@ -260,7 +260,7 @@ class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
         mag_xx(SmokeShellGreen,4);
         mag_xx(SmokeShellYellow,4);
         mag_xx(SmokeShellOrange,4);
-		mag_xx(MRAWS_HEAT55_F,2);
+		mag_xx(MRAWS_HEAT_F,2);
     };
 };
 class I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
@@ -358,19 +358,19 @@ class I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_hmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
     faction = IND_I_F;
     crew = I_I_Soldier_F;
     typicalCargo[] = {I_I_Soldier_lite_F};
-    textureList[] = {IDF,1};
+    textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_IDF_CO.paa",
-        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_IDF_CO.paa",
-        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_base_brown_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
+        "\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
     };
 	class Turrets: Turrets
 	{
@@ -398,6 +398,6 @@ class I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
         mag_xx(SmokeShellGreen,4);
         mag_xx(SmokeShellYellow,4);
         mag_xx(SmokeShellOrange,4);
-		mag_xx(MRAWS_HEAT55_F,2);
+		mag_xx(MRAWS_HEAT_F,2);
     };
 };

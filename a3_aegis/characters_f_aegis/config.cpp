@@ -1,7 +1,6 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgFaces.hpp"
-#include "cfgIdentities.hpp"
 class UniformSlotInfo;
 class CfgVehicles
 {
@@ -25,7 +24,6 @@ class CfgVehicles
 	#include "cfgEAF.hpp"				// LDF
 	#include "cfgLooters.hpp"			// Looters
 	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 	#include "cfgIon.hpp"				// ION
 };
 #include "cfgGroups.hpp"

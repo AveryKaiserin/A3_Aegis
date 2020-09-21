@@ -147,7 +147,8 @@ class B_VTOL_01_infantry_F: VTOL_01_infantry_base_F
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 class B_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
@@ -299,7 +300,8 @@ class B_VTOL_01_vehicle_F: VTOL_01_vehicle_base_F
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };
 class B_VTOL_01_armed_F: VTOL_01_armed_base_F
@@ -468,6 +470,7 @@ class B_VTOL_01_armed_F: VTOL_01_armed_base_F
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT02_olive_CO.paa",
 		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT03_olive_CO.paa",
-		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa"
+		"\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT04_olive_CO.paa",
+        "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_signs_CA.paa"
 	};
 };

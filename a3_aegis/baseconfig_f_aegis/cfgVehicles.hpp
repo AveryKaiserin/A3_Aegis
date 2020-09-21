@@ -77,6 +77,29 @@ class CfgVehicles
     COMPATIBILITYCLASS(B_Wood_HeavyGunner_F,B_W_Soldier_F)
     COMPATIBILITYCLASS(B_Wood_Sharpshooter_F,B_W_Soldier_F)
     COMPATIBILITYCLASS(B_SoldierW_CQ_F,B_W_Soldier_F)
+    class B_Soldier_F;
+    COMPATIBILITYCLASS(B_Sage_RadioOperator_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AR_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AAR_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_LAT_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AT_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AAT_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AA_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_AAA_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_TL_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_SL_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_medic_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_repair_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_exp_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_engineer_S_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_M_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_A_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_GL_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_unarmed_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_Sage_HeavyGunner_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_Sage_Sharpshooter_F,B_Soldier_F)
+    COMPATIBILITYCLASS(B_SoldierS_CQ_F,B_Soldier_F)
     class I_Soldier_F;
     COMPATIBILITYCLASS(I_R_helipilot_F,I_Soldier_F)
     COMPATIBILITYCLASS(I_R_Soldier_AR_F,I_Soldier_F)
@@ -280,8 +303,6 @@ class CfgVehicles
     COMPATIBILITYCLASS(B_A_Medic_dpm_F,B_A_Medic_F)
     class B_A_Recon_LAT_F;
     COMPATIBILITYCLASS(B_A_Recon_LAT2_F,B_A_Recon_LAT_F)
-    class B_A_Recon_M_F;
-    COMPATIBILITYCLASS(B_A_Recon_Sharpshooter_F,B_A_Recon_M_F)
     class B_A_soldier_M_F;
     COMPATIBILITYCLASS(B_A_Sharpshooter_ddpm_F,B_A_soldier_M_F)
     COMPATIBILITYCLASS(B_A_Sharpshooter_dpm_F,B_A_soldier_M_F)
@@ -362,6 +383,7 @@ class CfgVehicles
     class B_A_Recon_Medic_F;
     COMPATIBILITYCLASS(B_A_Specop_Medic_F,B_A_Recon_Medic_F)
     COMPATIBILITYCLASS(B_A_Specop_MG_F,B_A_Recon_AR_F)
+    class B_A_Recon_M_F;
     COMPATIBILITYCLASS(B_A_Specop_M_F,B_A_Recon_M_F)
     COMPATIBILITYCLASS(B_A_Specop_Sharpshooter_F,B_A_Recon_M_F)
     class B_A_Recon_TL_F;
@@ -378,7 +400,6 @@ class CfgVehicles
     class B_recon_LAT_F;
     COMPATIBILITYCLASS(B_recon_LAT2_F,B_recon_LAT_F)
     COMPATIBILITYCLASS(B_sniperH_F,B_sniper_F)
-    class B_Soldier_F;
     COMPATIBILITYCLASS(B_soldier_EOD_F,B_Soldier_F)
     class B_recon_AR_F;
     COMPATIBILITYCLASS(B_Specop_AR_F,B_recon_AR_F)
@@ -810,10 +831,6 @@ class CfgVehicles
     class O_R_Support_Mort_F;
     COMPATIBILITYCLASS(I_RU_Support_Mort_F,O_R_Support_Mort_F)
     COMPATIBILITYCLASS(O_RU_Support_Mort_F,O_R_Support_Mort_F)
-    class B_Radar_System_01_F;
-    COMPATIBILITYCLASS(B_A_Radar_System_01_F,B_Radar_System_01_F)
-    class B_SAM_System_03_F;
-    COMPATIBILITYCLASS(B_A_SAM_System_03_F,B_SAM_System_03_F)
     class B_SAM_System_01_F;
     COMPATIBILITYCLASS(B_T_SAM_System_01_F,B_SAM_System_01_F)
     class B_SAM_System_02_F;
@@ -1000,90 +1017,94 @@ class CfgVehicles
     COMPATIBILITYCLASS(O_RU_Truck_02_transport_F,O_R_Truck_02_transport_F)
     class O_R_CargoNet_01_ammo_F;
     COMPATIBILITYCLASS(I_RU_CargoNet_01_ammo_F,O_R_CargoNet_01_ammo_F)
-    class Weapon_arifle_Mk20_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20_olive_F,Weapon_arifle_Mk20_F)
-    class Weapon_arifle_Mk20_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20_GL_olive_F,Weapon_arifle_Mk20_GL_F)
-    class Weapon_arifle_Mk20C_F;
-    COMPATIBILITYCLASS(Weapon_arifle_Mk20C_olive_F,Weapon_arifle_Mk20C_F)
-    class Weapon_hgun_G17_black_F;
-    COMPATIBILITYCLASS(Weapon_hgun_G17_blk_F,Weapon_hgun_G17_black_F)
-    class Weapon_hgun_G17_khaki_F;
-    COMPATIBILITYCLASS(Weapon_hgun_G17_khk_F,Weapon_hgun_G17_khaki_F)
-    class Weapon_sgun_KSG_F;
-    COMPATIBILITYCLASS(Weapon_sgun_KSG_black_F,Weapon_sgun_KSG_F)
-    class Weapon_arifle_SDAR_F;
-    COMPATIBILITYCLASS(Weapon_arifle_RFB_F,Weapon_arifle_SDAR_F)
-    class Weapon_arifle_SA80_blk_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_C_F,Weapon_arifle_SA80_blk_F)
-    class Weapon_arifle_SA80_snd_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_C_sand_F,Weapon_arifle_SA80_snd_F)
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_F,Weapon_arifle_SA80_blk_F)
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_sand_F,Weapon_arifle_SA80_snd_F)
-    class Weapon_arifle_SA80_GL_blk_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_GL_F,Weapon_arifle_SA80_GL_blk_F)
-    class Weapon_arifle_SA80_GL_snd_F;
-    COMPATIBILITYCLASS(Weapon_arifle_SA80_GL_sand_F,Weapon_arifle_SA80_GL_snd_F)
-    class Weapon_hgun_P07_F;
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_camo_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_khk_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_snd_F,Weapon_hgun_P07_F)
-    COMPATIBILITYCLASS(Weapon_hgun_Pistol_02_tna_F,Weapon_hgun_P07_F)
-    class Weapon_srifle_EBR_F;
-    COMPATIBILITYCLASS(Weapon_arifle_FAL_F,Weapon_srifle_EBR_F)
-    class Weapon_launch_O_Titan_F;
-    COMPATIBILITYCLASS(Weapon_launch_O_Volga_brown_F,Weapon_launch_O_Titan_F)
-    class Weapon_launch_O_Titan_ghex_F;
-    COMPATIBILITYCLASS(Weapon_launch_O_Volga_green_F,Weapon_launch_O_Titan_ghex_F)
-    class Weapon_arifle_MXC_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_short_F,Weapon_arifle_MXC_F)
-    class Weapon_arifle_MX_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_F,Weapon_arifle_MX_F)
-    class Weapon_arifle_MX_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_GL_F,Weapon_arifle_MX_GL_F)
-    class Weapon_arifle_MXM_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_long_F,Weapon_arifle_MXM_F)
-    class Weapon_arifle_MX_SW_F;
-    COMPATIBILITYCLASS(Weapon_arifle_M8_SAW_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_blk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_blk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_GL_khk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_khk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_blk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_long_khk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_blk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk16_short_khk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_blk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_blk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_GL_khk_F,Weapon_arifle_MX_GL_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_khk_F,Weapon_arifle_MX_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_blk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_long_khk_F,Weapon_arifle_MX_SW_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_blk_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_F,Weapon_arifle_MXC_F)
-    COMPATIBILITYCLASS(Weapon_arifle_Mk17_short_khk_F,Weapon_arifle_MXC_F)
-    class Weapon_MMG_01_black_F;
-    COMPATIBILITYCLASS(Weapon_MMG_03_F,Weapon_MMG_01_black_F)
-    class Item_O_R_UavTerminal;
-    COMPATIBILITYCLASS(Item_R_UavTerminal,Item_O_R_UavTerminal)
-    class Weapon_srifle_DMR_04_F;
-    COMPATIBILITYCLASS(Weapon_srifle_DMR_04_green_F,Weapon_srifle_DMR_04_F)
-    class Weapon_srifle_DMR_05_blk_F;
-    COMPATIBILITYCLASS(Weapon_srifle_DMR_05_green_F,Weapon_srifle_DMR_05_blk_F)
-    class Weapon_SMG_04_blk_F;
-    COMPATIBILITYCLASS(Weapon_SMG_04_F,Weapon_SMG_04_blk_F)
-    class Weapon_arifle_AK12U_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK105_F,Weapon_arifle_AK12U_F)
-    class Weapon_arifle_AK12_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK107_F,Weapon_arifle_AK12_F)
-    class Weapon_arifle_AK12_GL_F;
-    COMPATIBILITYCLASS(Weapon_arifle_AK107_GL_F,Weapon_arifle_AK12_GL_F)
+    class B_CTRG_Soldier_JTAC_F;
+    COMPATIBILITYCLASS(B_CTRG_Soldier_GL_F,B_CTRG_Soldier_JTAC_F)
+    class B_CTRG_Soldier_JTAC_tna_F;
+    COMPATIBILITYCLASS(B_CTRG_Soldier_GL_tna_F,B_CTRG_Soldier_JTAC_tna_F)
+    class B_CTRG_Soldier_JTAC_urb_F;
+    COMPATIBILITYCLASS(B_CTRG_Soldier_GL_urb_F,B_CTRG_Soldier_JTAC_urb_F)
+    COMPATIBILITYCLASS(B_G_Offroad_01_police_F,C_Offroad_01_F)
+    COMPATIBILITYCLASS(I_G_Offroad_01_police_F,C_Offroad_01_F)
+    COMPATIBILITYCLASS(O_G_Offroad_01_police_F,C_Offroad_01_F)
+    class C_Boat_Civil_01_police_F;
+    COMPATIBILITYCLASS(B_G_Boat_Civil_01_police_F,C_Boat_Civil_01_police_F)
+    COMPATIBILITYCLASS(I_G_Boat_Civil_01_police_F,C_Boat_Civil_01_police_F)
+    COMPATIBILITYCLASS(O_G_Boat_Civil_01_police_F,C_Boat_Civil_01_police_F)
+    class B_G_Soldier_F;
+    COMPATIBILITYCLASS(B_G_PoliceOfficer_F,B_G_Soldier_F)
+    COMPATIBILITYCLASS(B_G_Sniper_F,B_G_Soldier_F)
+    COMPATIBILITYCLASS(B_G_Spotter_F,B_G_Soldier_F)
+    class I_G_Soldier_F;
+    COMPATIBILITYCLASS(I_G_PoliceOfficer_F,I_G_Soldier_F)
+    COMPATIBILITYCLASS(I_G_Sniper_F,I_G_Soldier_F)
+    COMPATIBILITYCLASS(I_G_Spotter_F,I_G_Soldier_F)
+    COMPATIBILITYCLASS(O_G_PoliceOfficer_F,O_G_Soldier_F)
+    COMPATIBILITYCLASS(O_G_Sniper_F,O_G_Soldier_F)
+    COMPATIBILITYCLASS(O_G_Spotter_F,O_G_Soldier_F)
+    COMPATIBILITYCLASS(C_Man_Functionary_3_F,C_man_1)
+    COMPATIBILITYCLASS(C_Man_Functionary_2_F,C_man_1)
+    COMPATIBILITYCLASS(C_Man_Functionary_1_F,C_man_1)
+    COMPATIBILITYCLASS(C_Man_Hiker_2_F,C_man_1)
+    COMPATIBILITYCLASS(C_Man_Hiker_1_F,C_man_1)
+    COMPATIBILITYCLASS(C_Man_Hiker_3_F,C_man_1)
+    class ThingX;
+    COMPATIBILITYCLASS(Flag_HAF_F,ThingX)
+    COMPATIBILITYCLASS(Flag_Greece_F,ThingX)
+    COMPATIBILITYCLASS(Flag_GreekOrthodoxy_F,ThingX)
+    COMPATIBILITYCLASS(Flag_UCPT_F,ThingX)
+    COMPATIBILITYCLASS(Land_ConcretePatch_01_F,ThingX)
+    COMPATIBILITYCLASS(Land_Sign_WarningCheckpoint_AAF_F,ThingX)
+    COMPATIBILITYCLASS(Land_Sign_WarningCheckpoint_RUS_F,ThingX)
+    COMPATIBILITYCLASS(Land_Sign_WarningCheckpoint_East_F,ThingX)
+    COMPATIBILITYCLASS(Land_Sign_WarningCheckpoint_NATO_F,ThingX)
+    COMPATIBILITYCLASS(Land_Sign_WarningCheckpoint_EAF_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_Nest_INDP_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_Nest_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_Nest_OPFOR_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_Nest_sand_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_Nest_wdl_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_01_nest_ghex_F,ThingX)
+    COMPATIBILITYCLASS(Land_BagBunker_01_nest_green_F,ThingX)
+    COMPATIBILITYCLASS(Land_RuggedRadio_F,ThingX)
+    COMPATIBILITYCLASS(Land_Magazine_caseless_F,ThingX)
+    class Box_RUS_Ammo_F;
+    COMPATIBILITYCLASS(Box_RU_Ammo_F,Box_RUS_Ammo_F)
+    class Box_RUS_AmmoOrd_F;
+    COMPATIBILITYCLASS(Box_RU_AmmoOrd_F,Box_RUS_AmmoOrd_F)
+    class Box_RUS_AmmoVeh_F;
+    COMPATIBILITYCLASS(Box_RU_AmmoVeh_F,Box_RUS_AmmoVeh_F)
+    class Box_RUS_Equip_F;
+    COMPATIBILITYCLASS(Box_RU_Equip_F,Box_RUS_Equip_F)
+    class Box_RUS_Grenades_F;
+    COMPATIBILITYCLASS(Box_RU_Grenades_F,Box_RUS_Grenades_F)
+    class Box_RUS_Support_F;
+    COMPATIBILITYCLASS(Box_RU_Support_F,Box_RUS_Support_F)
+    class Box_RUS_Uniforms_F;
+    COMPATIBILITYCLASS(Box_RU_Uniforms_F,Box_RUS_Uniforms_F)
+    class Box_RUS_Wps_F;
+    COMPATIBILITYCLASS(Box_RU_Wps_F,Box_RUS_Wps_F)
+    class Box_RUS_WpsLaunch_F;
+    COMPATIBILITYCLASS(Box_RU_WpsLaunch_F,Box_RUS_WpsLaunch_F)
+    class Box_RUS_WpsSpecial_F;
+    COMPATIBILITYCLASS(Box_RU_WpsSpecial_F,Box_RUS_WpsSpecial_F)
+    class Box_NATO_Support_F;
+    COMPATIBILITYCLASS(Box_A_NATO_Support_F,Box_NATO_Support_F)
+    class Box_NATO_WpsLaunch_F;
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_F,Box_NATO_WpsLaunch_F)
+    class Box_NATO_AmmoVeh_F;
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_F,Box_NATO_AmmoVeh_F)
+    class Box_NATO_AmmoOrd_F;
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_F,Box_NATO_AmmoOrd_F)
+    class Box_NATO_Grenades_F;
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_F,Box_NATO_Grenades_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Support_tropic_F,Box_NATO_Support_F)
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_tropic_F,Box_NATO_WpsLaunch_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_tropic_F,Box_NATO_AmmoVeh_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_tropic_F,Box_NATO_AmmoOrd_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_tropic_F,Box_NATO_Grenades_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Support_wdl_F,Box_NATO_Support_F)
+    COMPATIBILITYCLASS(Box_A_NATO_WpsLaunch_wdl_F,Box_NATO_WpsLaunch_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoVeh_wdl_F,Box_NATO_AmmoVeh_F)
+    COMPATIBILITYCLASS(Box_A_NATO_AmmoOrd_wdl_F,Box_NATO_AmmoOrd_F)
+    COMPATIBILITYCLASS(Box_A_NATO_Grenades_wdl_F,Box_NATO_Grenades_F)
 };

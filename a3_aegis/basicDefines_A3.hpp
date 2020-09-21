@@ -156,11 +156,27 @@ enum
 #define VIEW_PILOT 1100
 #define VIEW_CARGO 1200
 
-#define DefaultManWeapons Throw,Put
+#define DefaultManWeapons \
+Throw, \
+Put \
 
-#define DefaultManLinkedItems ItemMap,ItemCompass,ItemWatch,ItemRadio
-#define DefaultManGuerillaLinkedItems ItemMap,ItemCompass,ItemWatch,ItemRadio
-#define DefaultManCbrnLinkedItems ItemMap,ItemCompass,ChemicalDetector_01_watch_F,ItemRadio
+#define DefaultManLinkedItems \
+ItemMap, \
+ItemCompass, \
+ItemWatch, \
+ItemRadio \
+
+#define DefaultManGuerillaLinkedItems \
+ItemMap, \
+ItemCompass, \
+ItemWatch, \
+ItemRadio \
+
+#define DefaultManCbrnLinkedItems \
+ItemMap, \
+ItemCompass, \
+ChemicalDetector_01_watch_F, \
+ItemRadio \
 
 // thermal modes
 #define TiWHot 0
@@ -172,7 +188,149 @@ enum
 #define TiSWHot 6
 #define TiSBHot 7
 
-// weapon rounds per minute
-#define RPM(a) reloadTime = 60/##a##;
+#define SOLDIER_SMOKE_SHELLS_BLUFOR \
+SmokeShellGreen, \
+SmokeShellBlue, \
+SmokeShellOrange \
 
-#define INJURY_PERSONALITY_MATERIALS "A3\characters_f\Heads\Data\hl_white.rvmat","A3\characters_f\Heads\Data\hl_white_injury.rvmat","A3\characters_f\Heads\Data\hl_white_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat","A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+#define SOLDIER_SMOKE_GRENADES_BLUFOR \
+1Rnd_SmokeBlue_Grenade_shell, \
+1Rnd_SmokeGreen_Grenade_shell, \
+1Rnd_SmokeOrange_Grenade_shell \
+
+#define SOLDIER_SMOKE_SHELLS_OPFOR \
+SmokeShellRed, \
+SmokeShellOrange, \
+SmokeShellYellow \
+
+#define SOLDIER_SMOKE_GRENADES_OPFOR \
+1Rnd_SmokeRed_Grenade_shell, \
+1Rnd_SmokeOrange_Grenade_shell, \
+1Rnd_SmokeYellow_Grenade_shell \
+
+#define SOLDIER_SMOKE_SHELLS_INDEP \
+SmokeShellGreen, \
+SmokeShellOrange, \
+SmokeShellPurple \
+
+#define SOLDIER_SMOKE_GRENADES_INDEP \
+1Rnd_SmokeGreen_Grenade_shell, \
+1Rnd_SmokeOrange_Grenade_shell, \
+1Rnd_SmokePurple_Grenade_shell \
+
+#define SOLDIER_SMOKE_SHELLS_FIA \
+SmokeShellGreen, \
+SmokeShellRed, \
+SmokeShellBlue \
+
+#define SOLDIER_SMOKE_GRENADES_FIA \
+1Rnd_SmokeGreen_Grenade_shell, \
+1Rnd_SmokeRed_Grenade_shell, \
+1Rnd_SmokeBlue_Grenade_shell \
+
+#define SOLDIER_SMOKE_SHELLS_MEDIC \
+SmokeShellRed, \
+SmokeShellBlue, \
+SmokeShellOrange \
+
+#define TRANSPORT_SMOKE_SHELLS_OPFOR \
+mag_xx(SmokeShellRed,1); \
+mag_xx(SmokeShellYellow,1); \
+mag_xx(SmokeShellOrange,1); \
+
+#define TRANSPORT_SMOKE_SHELLS_MEDIC \
+mag_xx(SmokeShellRed,1); \
+mag_xx(SmokeShellBlue,1); \
+mag_xx(SmokeShellOrange,1); \
+
+#define STATIC_SUPPORT_BAGS_HMG_01 \
+B_HMG_01_support_F, \
+O_HMG_01_support_F, \
+I_HMG_01_support_F, \
+B_HMG_01_support_grn_F, \
+I_E_HMG_01_support_F, \
+O_R_HMG_01_support_F, \
+I_I_HMG_01_support_F \
+
+#define STATIC_SUPPORT_BAGS_HMG_01_HIGH \
+B_HMG_01_support_high_F, \
+O_HMG_01_support_high_F, \
+I_HMG_01_support_high_F, \
+B_HMG_01_support_high_grn_F, \
+I_E_HMG_01_support_high_F, \
+O_R_HMG_01_support_high_F, \
+I_I_HMG_01_support_high_F \
+
+#define STATIC_SUPPORT_BAGS_HMG_02 \
+B_HMG_02_support_F, \
+O_HMG_02_support_F, \
+I_HMG_02_support_F, \
+I_E_HMG_02_support_F, \
+I_C_HMG_02_support_F, \
+I_G_HMG_02_support_F, \
+O_G_HMG_02_support_F, \
+B_G_HMG_02_support_F, \
+B_HMG_02_support_grn_F, \
+I_I_HMG_02_support_F \
+
+#define STATIC_SUPPORT_BAGS_HMG_02_HIGH \
+B_HMG_02_support_high_F, \
+O_HMG_02_support_high_F, \
+I_HMG_02_support_high_F, \
+I_E_HMG_02_support_high_F, \
+I_C_HMG_02_support_high_F, \
+I_G_HMG_02_support_high_F, \
+O_G_HMG_02_support_high_F, \
+B_G_HMG_02_support_high_F, \
+B_HMG_02_support_high_grn_F, \
+I_I_HMG_02_support_high_F \
+
+#define STATIC_SUPPORT_BAGS_MORTAR_01 \
+B_Mortar_01_support_F, \
+O_Mortar_01_support_F, \
+I_Mortar_01_support_F, \
+B_Mortar_01_support_grn_F, \
+I_E_Mortar_01_support_F, \
+O_R_Mortar_01_support_F, \
+I_I_Mortar_01_support_F \
+
+#define INJURY_PERSONALITY_MATERIALS \
+"A3\Characters_F\Common\Data\basicbody.rvmat", \
+"A3\Characters_F\Common\Data\basicbody_injury.rvmat", \
+"A3\Characters_F\Common\Data\basicbody_injury.rvmat", \
+ \
+"a3\characters_f\heads\data\hl_white.rvmat", \
+"a3\characters_f\heads\data\hl_white_injury.rvmat", \
+"a3\characters_f\heads\data\hl_white_injury.rvmat", \
+\
+"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", \
+\
+"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat", \
+ \
+"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat", \
+"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", \
+ \
+"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", \
+ \
+"A3\Characters_F\Heads\Data\hl_white_old.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", \
+ \
+"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat", \
+"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", \
+"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", \
+ \
+"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat", \
+"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat", \
+"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat", \
+ \
+"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat", \
+"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat", \
+"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"

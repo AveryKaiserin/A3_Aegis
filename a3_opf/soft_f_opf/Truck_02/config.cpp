@@ -19,12 +19,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_02
 			{
@@ -32,12 +32,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_03
 			{
@@ -45,12 +45,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 		};
 		class AnimationSources: AnimationSources
@@ -69,12 +69,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_02
 			{
@@ -82,12 +82,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_03
 			{
@@ -95,15 +95,17 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 		};
 	};
+    class O_Truck_02_covered_F;
+    class O_Truck_02_transport_F;
 	// Arma 3 Aegis
 	class Truck_02_cargo_base_F: Truck_02_base_F
 	{
@@ -115,12 +117,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_02
 			{
@@ -128,12 +130,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_03
 			{
@@ -141,12 +143,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 		};
 	};
@@ -216,12 +218,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_02
 			{
@@ -229,12 +231,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 			class Separatist_03
 			{
@@ -242,12 +244,12 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUgrn_CO.paa",
-					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_S_F};
+				factions[] = {OPF_E_F};
 			};
 		};
 		enableManualFire = false;
@@ -368,6 +370,7 @@ class CfgVehicles
 			};
 		};
 	};
+    #include "cfgPara.hpp"
 	*/
 	#include "cfgChKDZ.hpp"
 };

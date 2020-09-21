@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Crew Animations";
-		url = "https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] = {A3_Aegis_Data_F_Aegis};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};

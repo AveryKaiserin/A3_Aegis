@@ -1,4 +1,3 @@
-class B_FieldPack_cbr;
 class B_FieldPack_cbr_Medic_F: B_FieldPack_cbr
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -22,7 +21,6 @@ class B_FieldPack_cbr_RPG_F: B_FieldPack_cbr
 		mag_xx(RPG7_F,3);
 	};
 };
-class B_Kitbag_tan;
 class B_Kitbag_tan_AR_F: B_Kitbag_tan
 {
 	author = $STR_A3_A_AveryTheKitty;

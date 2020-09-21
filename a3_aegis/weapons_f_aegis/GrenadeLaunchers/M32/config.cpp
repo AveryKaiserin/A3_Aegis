@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -25,8 +26,6 @@ class CfgWeapons
 		class GunParticles;
 	};
 	class UGL_F;
-
-	// arsenal weapons
 	class GL_M32_F: Rifle_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -51,6 +50,7 @@ class CfgWeapons
 			6Rnd_SmokePurple_Grenade_shell,
 			6Rnd_SmokeBlue_Grenade_shell,
 			6Rnd_SmokeOrange_Grenade_shell,
+			6Rnd_Pellets_Grenade_shell,
 			6Rnd_APERSMine_Grenade_shell
 		};
 		magazineWell[] = {M32_40x36};
@@ -74,7 +74,7 @@ class CfgWeapons
 		{
 			sounds[] = {StandardSound};
 			reloadTime = 0.25;
-			dispersion = 0.00102;
+			dispersion = 0.00203;
 			minRange = 30;
 			minRangeProbab = 0.1;
 			midRange = 200;
@@ -98,9 +98,11 @@ class CfgWeapons
 			100,
 			150,
 			200,
-			250,
+			250
+            /*
 			300,
 			350
+            */
 		};
 		discreteDistanceCameraPoint[] =
 		{
@@ -109,9 +111,11 @@ class CfgWeapons
 			OP_eye_100,
 			OP_eye_150,
 			OP_eye_200,
-			OP_eye_250,
+			OP_eye_250
+            /*
 			OP_eye_300,
 			OP_eye_350
+            */
 		};
 		discreteDistanceInitIndex = 1;
 		initSpeed = 75;
@@ -123,9 +127,13 @@ class CfgWeapons
 		{
 			class MuzzleSlot{};
 			class CowsSlot{};
-	    	class PointerSlot: PointerSlot_Rail
+	    	class PointerSlot: asdg_FrontSideRail
 	    	{
-	      		iconPosition[] = {0.35,0.45};
+	      		iconPosition[] =
+                {
+                    0.35, // X
+                    0.45 // Y
+                };
 	    	  	iconScale = 0.2;
 	    	};
 			mass = 220;
@@ -137,20 +145,6 @@ class CfgWeapons
 				positionName = "usti hlavne";
 				directionName = "konec hlavne";
 				effectName = GrenadeLauncherCloud;
-			};
-		};
-	};
-
-	// unit weapons
-	class GL_M32_Pointer_F: GL_M32_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
 			};
 		};
 	};

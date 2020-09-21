@@ -113,7 +113,7 @@ class C_Truck_02_cargo_F: Truck_02_cargo_base_F
 	};
 	textureList[] =
 	{
-		Blue,0,
+		Blue,1,
 		Orange,1
 	};
 	hiddenSelections[] =

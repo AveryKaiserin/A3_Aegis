@@ -50,6 +50,7 @@ class CfgVehicles
 	};
 	class LT_01_AT_base_F: LT_01_base_F
 	{
+		editorSubcategory = EdSubcat_TankDestroyers;
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret

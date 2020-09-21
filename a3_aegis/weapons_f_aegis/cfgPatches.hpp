@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Weapons and Accessories";
-		url = "https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] =
 		{
 			A3_Aegis_Data_F_Aegis,
@@ -12,6 +12,7 @@ class CfgPatches
 			A3_Sounds_F_Tank,
 			A3_Weapons_F,
 			A3_Weapons_F_Enoch,
+            A3_Weapons_F_Enoch_Acc,
 			A3_Weapons_F_Enoch_Rifles_AK12,
 			A3_Weapons_F_Enoch_Rifles_MSBS,
 			A3_Weapons_F_Exp,
@@ -40,6 +41,7 @@ class CfgPatches
 			A3_Weapons_F_Mark_LongRangeRifles_DMR_06,
 			A3_Weapons_F_Mark_Machineguns_MMG_01,
 			A3_Weapons_F_Mark_Machineguns_MMG_02,
+			A3_Weapons_F_Mark_Rifles_MX,
 			A3_Weapons_F_Mod,
 			A3_Weapons_F_Mod_SMGs_SMG_03,
 			A3_Weapons_F_Orange,
@@ -57,7 +59,9 @@ class CfgPatches
 			A3_Weapons_F_SMGs_SMG_01,
 			A3_Weapons_F_SMGs_SMG_02,
 			A3_Weapons_F_Tank,
-			A3_Weapons_F_Tank_Launchers_Vorona
+			A3_Weapons_F_Tank_Launchers_Vorona,
+            cba_jr,
+            cba_jr_prep
 		};
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};

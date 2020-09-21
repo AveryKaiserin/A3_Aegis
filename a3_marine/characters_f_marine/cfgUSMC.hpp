@@ -31,7 +31,7 @@ class B_MCUCombatFatigues_01_Tshirt_desert_F: B_soldier_AR_F
 	hiddenSelectionsTextures[] =
     {
         "\A3_Marine\Characters_F_Marine\Uniforms\Data\clothing1_desert_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_green_CO.paa"
+        "\A3\Characters_F\Common\Data\basicbody_brown_CO.paa"
     };
 };
 class B_MCUCombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
@@ -73,41 +73,41 @@ class B_USMC_Soldier_A_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = B_Carryall_cbr_BUSMCAmmo_F;
+	backpack = B_Carryall_cbr_USMCAmmo_F;
 	weapons[] =
 	{
-		arifle_MX_Black_ACO_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_ACO_pointer_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_Black_ACO_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_ACO_pointer_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_12(30Rnd_65x39_caseless_black_mag),
+		mag_12(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_12(30Rnd_65x39_caseless_black_mag),
+		mag_12(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -124,40 +124,40 @@ class B_USMC_Soldier_AR_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_tshirt_desert_F;
     linkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
 	};
 	weapons[] =
 	{
-        arifle_MX_SW_Black_Hamr_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_SW_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_SW_Black_Hamr_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_SW_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(100Rnd_65x39_caseless_black_mag),
+        mag_6(100Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(100Rnd_65x39_caseless_black_mag),
+        mag_6(100Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         HandGrenade,
         mag_2(SmokeShell)
@@ -188,50 +188,46 @@ class B_USMC_medic_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
 	};
-	backpack = B_AssaultPack_cbr_BUSMCMedic_F;
+	backpack = B_AssaultPack_cbr_USMCMedic_F;
 	weapons[] =
 	{
-        arifle_MX_Black_ACO_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_Holo_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_Black_ACO_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_Holo_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_MEDIC
     };
 	attendant = true;
 	icon = iconManMedic;
@@ -249,50 +245,46 @@ class B_USMC_engineer_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = B_Kitbag_cbr_BUSMCEng_F;
+	backpack = B_Kitbag_cbr_USMCEng_F;
 	weapons[] =
     {
-        arifle_MXC_Black_Holo_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MXC_Holo_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MXC_Black_Holo_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MXC_Holo_pointer_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_BLUFOR
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 	engineer = true;
 	canDeactivateMines = true;
@@ -311,36 +303,36 @@ class B_USMC_Soldier_GL_F: B_USMC_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_sand,
-		V_PlateCarrier2_khk,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_sand,
-		V_PlateCarrier2_khk,
         DefaultManLinkedItems,
         NVGoggles
 	};
-	uniformClass = U_B_MCU_desert_F;
 	weapons[] =
 	{
-        arifle_MX_GL_Black_ACO_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_GL_ACO_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_GL_Black_ACO_pointer_F,
-        hgun_P07_blk_F,
+        arifle_MX_GL_ACO_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -349,7 +341,7 @@ class B_USMC_Soldier_GL_F: B_USMC_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -377,45 +369,45 @@ class B_USMC_soldier_M_F: B_USMC_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_M_F0;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-        H_HelmetB_light_sand,
-        V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_HelmetB_light_sand,
-        V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
-	uniformClass = U_B_MCU_desert_F;
     weapons[] =
     {
-        arifle_MXM_Black_MOS_LP_BI_F,
-        hgun_P07_blk_F,
+        arifle_MXM_Hamr_LP_BI_F,
+        hgun_P07_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_MXM_Black_MOS_LP_BI_F,
-        hgun_P07_blk_F,
+        arifle_MXM_Hamr_LP_BI_F,
+        hgun_P07_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_8(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_8(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -444,36 +436,36 @@ class B_USMC_soldier_AA_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = B_AssaultPack_cbr_BUSMCAA_F;
+	backpack = B_AssaultPack_cbr_USMCAA_F;
 	weapons[] =
 	{
-		arifle_MXC_Black_Holo_pointer_F,
+		arifle_MXC_Holo_pointer_F,
 		launch_B_Titan_F,
-		hgun_P07_blk_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MXC_Black_Holo_pointer_F,
+		arifle_MXC_Holo_pointer_F,
 		launch_B_Titan_F,
-		hgun_P07_blk_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -481,7 +473,7 @@ class B_USMC_soldier_AA_F: B_USMC_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade),
@@ -513,36 +505,36 @@ class B_USMC_soldier_AT_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = B_AssaultPack_cbr_BUSMCAT_F;
+	backpack = B_AssaultPack_cbr_USMCAT_F;
 	weapons[] =
 	{
-		arifle_MXC_Black_Holo_pointer_F,
+		arifle_MXC_Holo_pointer_F,
 		launch_B_Titan_short_F,
-		hgun_P07_blk_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MXC_Black_Holo_pointer_F,
+		arifle_MXC_Holo_pointer_F,
 		launch_B_Titan_short_F,
-		hgun_P07_blk_F,
+		hgun_P07_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -550,7 +542,7 @@ class B_USMC_soldier_AT_F: B_USMC_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_6(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade),
@@ -588,47 +580,43 @@ class B_USMC_officer_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		H_MilCap_desert,
 		V_BandollierB_khk,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_MilCap_desert,
 		V_BandollierB_khk,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		arifle_MXC_Black_F,
+		arifle_MXC_F,
 		hgun_Pistol_heavy_01_MRD_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_MXC_Black_F,
+		arifle_MXC_F,
 		hgun_Pistol_heavy_01_MRD_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
+        mag_4(30Rnd_65x39_caseless_mag),
 		mag_2(11Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
+        mag_4(30Rnd_65x39_caseless_mag),
 		mag_2(11Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 	camouflage = 1.6;
     cost = 600000;
@@ -645,40 +633,40 @@ class B_USMC_Soldier_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB_light_sand,
 		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	weapons[] =
 	{
-		arifle_MX_Black_Hamr_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_Holo_pointer_F,
+		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_Black_Hamr_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_Holo_pointer_F,
+		hgun_P07_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_black_mag),
+		mag_10(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_black_mag),
+		mag_10(30Rnd_65x39_caseless_mag),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -707,36 +695,36 @@ class B_USMC_Soldier_LAT_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
+		H_HelmetB_light_sand,
         DefaultManLinkedItems,
         NVGoggles
     };
-	backpack = B_AssaultPack_cbr_BUSMCLAT_F;
+	backpack = B_AssaultPack_cbr_USMCLAT_F;
     weapons[] =
     {
-        arifle_MX_Black_ACO_pointer_F,
+        arifle_MX_Holo_pointer_F,
         launch_MRAWS_sand_F,
-        hgun_P07_blk_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_Black_ACO_pointer_F,
+        arifle_MX_Holo_pointer_F,
         launch_MRAWS_sand_F,
-        hgun_P07_blk_F,
+        hgun_P07_F,
         DefaultManWeapons
     };
 	magazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         MRAWS_HEAT_F,
         mag_2(HandGrenade),
@@ -744,7 +732,7 @@ class B_USMC_Soldier_LAT_F: B_USMC_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_mag),
         mag_2(16Rnd_9x21_Mag),
         MRAWS_HEAT_F,
         mag_2(HandGrenade),
@@ -765,67 +753,53 @@ class B_USMC_Soldier_SL_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecB_light_sand,
 		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_sand,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB_light_sand,
 		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_sand,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	weapons[] =
     {
-		arifle_MX_GL_Black_Hamr_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_Hamr_pointer_F,
+		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
     };
     respawnWeapons[] =
     {
-		arifle_MX_GL_Black_Hamr_pointer_F,
-		hgun_P07_blk_F,
+		arifle_MX_Hamr_pointer_F,
+		hgun_P07_F,
         DefaultManWeapons,
         Binocular
     };
 	magazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
-        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_4(30Rnd_65x39_caseless_mag),
+        mag_2(30Rnd_65x39_caseless_mag_Tracer),
         mag_2(16Rnd_9x21_Mag),
-        mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
-        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_4(30Rnd_65x39_caseless_mag),
+        mag_2(30Rnd_65x39_caseless_mag_Tracer),
         mag_2(16Rnd_9x21_Mag),
-        mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange,
-        1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+        SOLDIER_SMOKE_SHELLS_BLUFOR
     };
     cost = 500000;
 	camouflage = 1.4;
@@ -842,19 +816,800 @@ class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_vest_desert_F;
     linkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_HelmetSpecB_light_sand,
-        V_PlateCarrier2_khk,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_sand,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
+    };
+    weapons[] =
+    {
+        arifle_MX_GL_Hamr_pointer_F,
+        hgun_P07_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_GL_Hamr_pointer_F,
+        hgun_P07_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_mag),
+        mag_2(30Rnd_65x39_caseless_mag_Tracer),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+        SOLDIER_SMOKE_GRENADES_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_mag),
+        mag_2(30Rnd_65x39_caseless_mag_Tracer),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+        SOLDIER_SMOKE_GRENADES_BLUFOR
+    };
+	cost = 250000;
+	icon = iconManLeader;
+	role = Grenadier;
+};
+class B_USMC_RadioOperator_F: B_USMC_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_RadioOperator_F.jpg";
+    displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	uniformClass = U_B_MCU_vest_desert_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
+		DefaultManLinkedItems,
+		NVGoggles
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light_sand,
+		DefaultManLinkedItems,
+		NVGoggles
+	};
+	backpack = B_RadioBag_01_coyote_F;
+	weapons[] =
+    {
+		arifle_MX_Holo_pointer_F,
+		hgun_P07_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Holo_pointer_F,
+		hgun_P07_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+};
+class B_USMC_Soldier_A_wdl_F: B_USMC_Soldier_A_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_A_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+    backpack = B_Carryall_khk_USMCAmmo_F;
+	weapons[] =
+	{
+		arifle_MX_Black_ACO_Pointer_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_ACO_Pointer_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_12(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_12(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+};
+class B_USMC_Soldier_AR_wdl_F: B_USMC_Soldier_AR_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_AR_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_tshirt_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier2_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier2_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+        arifle_MX_SW_Black_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_SW_Black_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(100Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(100Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+    };
+};
+class B_USMC_medic_wdl_F: B_USMC_medic_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_medic_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+        arifle_MX_Black_Holo_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_Black_Holo_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_MEDIC
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_MEDIC
+    };
+};
+class B_USMC_engineer_wdl_F: B_USMC_engineer_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_engineer_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_vest_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        arifle_MXC_Black_Holo_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MXC_Black_Holo_Pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+    };
+};
+class B_USMC_Soldier_GL_wdl_F: B_USMC_Soldier_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_GL_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+        arifle_MX_GL_Black_ACO_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_GL_Black_ACO_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(3Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+};
+class B_USMC_soldier_M_wdl_F: B_USMC_soldier_M_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_M_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    weapons[] =
+    {
+        arifle_MXM_Black_Hamr_pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        arifle_MXM_Black_Hamr_pointer_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+};
+class B_USMC_soldier_AA_wdl_F: B_USMC_soldier_AA_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AA_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_Pointer_F,
+		launch_B_Titan_olive_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_Pointer_F,
+		launch_B_Titan_olive_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+    {
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+};
+class B_USMC_soldier_AT_wdl_F: B_USMC_soldier_AT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AT_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+		arifle_MXC_Black_Holo_Pointer_F,
+		launch_I_Titan_short_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_Holo_Pointer_F,
+		launch_I_Titan_short_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+    {
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+		mag_6(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+};
+class B_USMC_officer_wdl_F: B_USMC_officer_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_officer_wdl_F.jpg";
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+	linkedItems[] =
+	{
+		V_BandollierB_khk,
+		H_MilCap_mwdl,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_BandollierB_khk,
+		H_MilCap_mwdl,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	weapons[] =
+	{
+		arifle_MXC_Black_F,
+		hgun_Pistol_heavy_01_black_MRD_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_MXC_Black_F,
+		hgun_Pistol_heavy_01_black_MRD_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_black_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+    };
+};
+class B_USMC_Soldier_wdl_F: B_USMC_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+		arifle_MX_Black_Holo_pointer_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MX_Black_Holo_pointer_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_black_mag),
+		mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+};
+class B_USMC_Soldier_LAT_wdl_F: B_USMC_Soldier_LAT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_LAT_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier2_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier2_khk,
+		H_HelmetB_light,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    weapons[] =
+    {
+        arifle_MX_Black_Holo_Pointer_F,
+        launch_MRAWS_green_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_Black_Holo_Pointer_F,
+        launch_MRAWS_green_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+	magazines[] =
+	{
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+};
+class B_USMC_Soldier_SL_wdl_F: B_USMC_Soldier_SL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_SL_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_vest_wdl_F;
+	linkedItems[] =
+	{
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
+		ItemGPS,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+		arifle_MX_Black_Hamr_pointer_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+		arifle_MX_Black_Hamr_pointer_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons,
+        Binocular
+    };
+	magazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_black_mag),
+        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_65x39_caseless_black_mag),
+        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_BLUFOR
+    };
+};
+class B_USMC_Soldier_TL_wdl_F: B_USMC_Soldier_TL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_TL_wdl_F.jpg";
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Head_NATO,
+		G_NATO_tropic
+	};
+	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
+	uniformClass = U_B_MCU_vest_wdl_F;
+    linkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+        ItemGPS,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
+    };
+    respawnLinkedItems[] =
+    {
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
+        ItemGPS,
+        DefaultManLinkedItems,
+        NVGoggles_OPFOR
     };
     weapons[] =
     {
@@ -878,13 +1633,9 @@ class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
         mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
+        SOLDIER_SMOKE_GRENADES_BLUFOR
     };
     respawnMagazines[] =
     {
@@ -894,441 +1645,9 @@ class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
         mag_2(3Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeOrange_Grenade_shell
-    };
-	cost = 250000;
-	icon = iconManLeader;
-	role = Grenadier;
-};
-class B_USMC_RadioOperator_F: B_USMC_Soldier_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_RadioOperator_F.jpg";
-    displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_B_MCU_vest_desert_F;
-	linkedItems[] =
-	{
-		H_HelmetSpecB_light_sand,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetSpecB_light_sand,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	backpack = B_RadioBag_01_coyote_F;
-	weapons[] =
-    {
-		arifle_MX_Black_ACO_pointer_F,
-		hgun_P07_blk_F,
-        DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		arifle_MX_Black_ACO_pointer_F,
-		hgun_P07_blk_F,
-        DefaultManWeapons
-    };
-};
-class B_USMC_Soldier_A_wdl_F: B_USMC_Soldier_A_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_A_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-};
-class B_USMC_Soldier_AR_wdl_F: B_USMC_Soldier_AR_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_AR_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_tshirt_wdl_F;
-    linkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-	};
-};
-class B_USMC_medic_wdl_F: B_USMC_medic_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_medic_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-    linkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier1_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier1_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-	};
-};
-class B_USMC_engineer_wdl_F: B_USMC_engineer_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_engineer_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_vest_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-};
-class B_USMC_Soldier_GL_wdl_F: B_USMC_Soldier_GL_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_GL_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-    linkedItems[] =
-    {
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-	};
-};
-class B_USMC_soldier_M_wdl_F: B_USMC_soldier_M_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_M_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-    linkedItems[] =
-    {
-        H_HelmetB_light_snakeskin,
-        V_PlateCarrier1_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetB_light_snakeskin,
-        V_PlateCarrier1_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-};
-class B_USMC_soldier_AA_wdl_F: B_USMC_soldier_AA_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AA_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	weapons[] =
-	{
-		arifle_MXC_Black_Holo_pointer_F,
-		launch_B_Titan_olive_F,
-		hgun_P07_blk_F,
-		DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		arifle_MXC_Black_Holo_pointer_F,
-		launch_B_Titan_olive_F,
-		hgun_P07_blk_F,
-		DefaultManWeapons
-	};
-};
-class B_USMC_soldier_AT_wdl_F: B_USMC_soldier_AT_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AT_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	weapons[] =
-	{
-		arifle_MXC_Black_Holo_pointer_F,
-		launch_I_Titan_short_F,
-		hgun_P07_blk_F,
-		DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		arifle_MXC_Black_Holo_pointer_F,
-		launch_I_Titan_short_F,
-		hgun_P07_blk_F,
-		DefaultManWeapons
-	};
-};
-class B_USMC_officer_wdl_F: B_USMC_officer_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_officer_wdl_F.jpg";
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-	linkedItems[] =
-	{
-		H_MilCap_mwdl,
-		V_BandollierB_khk,
-		ItemGPS,
-		DefaultManLinkedItems
-	};
-	respawnLinkedItems[] =
-	{
-		H_MilCap_mwdl,
-		V_BandollierB_khk,
-		ItemGPS,
-		DefaultManLinkedItems
-	};
-};
-class B_USMC_Soldier_wdl_F: B_USMC_Soldier_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetSpecB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetSpecB_light_snakeskin,
-		V_PlateCarrier1_khk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-};
-class B_USMC_Soldier_LAT_wdl_F: B_USMC_Soldier_LAT_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_LAT_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_wdl_F;
-    linkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    weapons[] =
-    {
-        arifle_MX_Black_ACO_pointer_F,
-        launch_MRAWS_green_F,
-        hgun_P07_blk_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_MX_Black_ACO_pointer_F,
-        launch_MRAWS_green_F,
-        hgun_P07_blk_F,
-        DefaultManWeapons
-    };
-};
-class B_USMC_Soldier_SL_wdl_F: B_USMC_Soldier_SL_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_SL_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_vest_wdl_F;
-	linkedItems[] =
-	{
-		H_HelmetSpecB_light_snakeskin,
-		V_PlateCarrier2_khk,
-		ItemGPS,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_HelmetSpecB_light_snakeskin,
-		V_PlateCarrier2_khk,
-		ItemGPS,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-};
-class B_USMC_Soldier_TL_wdl_F: B_USMC_Soldier_TL_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_TL_wdl_F.jpg";
-	identityTypes[] =
-	{
-		LanguageENG_F,
-		Head_NATO,
-		G_NATO_tropic
-	};
-	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = U_B_MCU_vest_wdl_F;
-    linkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        ItemGPS,
-        DefaultManLinkedItems,
-        NVGoggles
-    };
-    respawnLinkedItems[] =
-    {
-        H_HelmetSpecB_light_snakeskin,
-        V_PlateCarrier2_khk,
-        ItemGPS,
-        DefaultManLinkedItems,
-        NVGoggles
+        SOLDIER_SMOKE_GRENADES_BLUFOR
     };
 };
 class B_USMC_RadioOperator_wdl_F: B_USMC_Soldier_wdl_F
@@ -1339,29 +1658,43 @@ class B_USMC_RadioOperator_wdl_F: B_USMC_Soldier_wdl_F
 	uniformClass = U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		H_HelmetSpecB_light_snakeskin,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light,
 		DefaultManLinkedItems,
-		NVGoggles
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		H_HelmetSpecB_light_snakeskin,
 		V_PlateCarrier1_khk,
+		H_HelmetB_light,
 		DefaultManLinkedItems,
-		NVGoggles
+		NVGoggles_OPFOR
 	};
 	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
-		arifle_MX_Black_ACO_pointer_F,
+		arifle_MX_Black_Holo_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_Black_ACO_pointer_F,
+		arifle_MX_Black_Holo_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
     };
 };

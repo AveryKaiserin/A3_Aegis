@@ -1,8 +1,8 @@
 class CfgRecoils
 {
 	class recoil_default;
-	// Arma 3 Atlas
-	class recoil_AUG: recoil_default
+	// AUR 90 5.56 mm
+	class recoil_aug: recoil_default
 	{
 		muzzleOuter[] =
 		{
@@ -18,6 +18,7 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
+	// G36K 6.5 mm
 	class recoil_G36: recoil_default
 	{
 		muzzleOuter[] =
@@ -33,21 +34,5 @@ class CfgRecoils
 			0.03
 		};
 		temporary = 0.01;
-	};
-	class recoil_SCAR: recoil_default
-	{
-		muzzleOuter[] =
-		{
-			0.3,
-			1.5,
-			0.5,
-			0.5
-		};
-		kickBack[] =
-		{
-			0.03,
-			0.07
-		};
-		temporary = 0.005;
 	};
 };

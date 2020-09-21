@@ -126,15 +126,15 @@ class I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
 		verticalOffsetWorld = 0.041;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Heli_Attack_01_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Heli_Attack_01_dynamicLoadout_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_F0;
 	side = TGuerrila;
 	faction = IND_I_F;
 	crew = I_I_helipilot_F;
 	typicalCargo[] = {I_I_helipilot_F};
-	textureList[] = {IDF,1};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_IDF_CO.paa"};
+	textureList[] = {Desert,1};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_desert_CO.paa"};
 	accuracy = 2.5;
 	availableForSupportTypes[] = {CAS_Heli};
 	class Library

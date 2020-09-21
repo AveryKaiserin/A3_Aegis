@@ -1,7 +1,7 @@
 class O_A_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	    class SimpleObject
+	class SimpleObject
 	{
 		eden = true;
 		animate[] =

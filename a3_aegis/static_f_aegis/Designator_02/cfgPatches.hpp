@@ -9,7 +9,17 @@ class CfgPatches
 			A3_Static_F_Mark_Designator_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (Pacific)
+            O_T_Static_Designator_02_F,
+            O_T_Static_Designator_02_weapon_F,
+            
+            // Russia
+            O_R_Static_Designator_02_ard_F,
+            O_R_Static_Designator_02_F,
+            O_R_Static_Designator_02_weapon_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

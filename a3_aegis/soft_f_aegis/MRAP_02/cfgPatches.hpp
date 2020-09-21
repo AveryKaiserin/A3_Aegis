@@ -10,7 +10,16 @@ class CfgPatches
 			A3_Soft_F_MRAP_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Russian
+            O_R_MRAP_02_ard_F,
+            O_R_MRAP_02_F,
+            O_R_MRAP_02_gmg_ard_F,
+            O_R_MRAP_02_gmg_F,
+            O_R_MRAP_02_hmg_ard_F,
+            O_R_MRAP_02_hmg_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

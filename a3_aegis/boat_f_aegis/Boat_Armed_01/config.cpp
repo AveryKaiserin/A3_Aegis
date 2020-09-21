@@ -45,15 +45,19 @@ class CfgVehicles
 			};
 			class Rus
 			{
-				displayName = $STR_A3_TEXTURESOURCES_GREY0;
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_ext_RUS_CO.paa",
-					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUS_CO.paa",
-					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUS_CO.paa"
+					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_ext_RUgrey_CO.paa",
+					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_int_RUgrey_CO.paa",
+					"\A3_Aegis\Boat_F_Aegis\Boat_Armed_01\Data\Boat_Armed_01_crows_RUgrey_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 		};
 	};

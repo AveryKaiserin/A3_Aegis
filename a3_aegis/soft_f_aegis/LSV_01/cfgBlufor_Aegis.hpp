@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_LSV_01_armed_F: LSV_01_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -11,7 +12,6 @@ class B_A_LSV_01_armed_F: LSV_01_armed_base_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,0,
 		Sand,1
 	};
 	hiddenSelectionsTextures[] =
@@ -56,7 +56,6 @@ class B_A_LSV_01_AT_F: LSV_01_AT_base_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,0,
 		Sand,1
 	};
 	hiddenSelectionsTextures[] =
@@ -103,7 +102,6 @@ class B_A_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,0,
 		Sand,1
 	};
 	hiddenSelectionsTextures[] =
@@ -148,7 +146,6 @@ class B_A_LSV_01_light_F: LSV_01_light_base_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,0,
 		Sand,1
 	};
 	hiddenSelectionsTextures[] =
@@ -180,6 +177,7 @@ class B_A_LSV_01_light_F: LSV_01_light_base_F
 		weap_xx(arifle_SA80_snd_F,2);
 	};
 };
+// BLU_A_tna_F
 class B_A_LSV_01_armed_tna_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -190,8 +188,7 @@ class B_A_LSV_01_armed_tna_F: B_A_LSV_01_armed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -232,8 +229,7 @@ class B_A_LSV_01_AT_tna_F: B_A_LSV_01_AT_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -276,8 +272,7 @@ class B_A_LSV_01_unarmed_tna_F: B_A_LSV_01_unarmed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -318,8 +313,7 @@ class B_A_LSV_01_light_tna_F: B_A_LSV_01_light_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -350,6 +344,7 @@ class B_A_LSV_01_light_tna_F: B_A_LSV_01_light_F
 		weap_xx(arifle_SA80_khk_F,2);
 	};
 };
+// BLU_A_wdl_F
 class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -360,8 +355,7 @@ class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -404,7 +398,7 @@ class B_A_LSV_01_armed_wdl_F: B_A_LSV_01_armed_F
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
-        };
+		};
 	};
 };
 class B_A_LSV_01_AT_wdl_F: B_A_LSV_01_AT_F
@@ -417,8 +411,7 @@ class B_A_LSV_01_AT_wdl_F: B_A_LSV_01_AT_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -476,8 +469,7 @@ class B_A_LSV_01_unarmed_wdl_F: B_A_LSV_01_unarmed_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -520,7 +512,7 @@ class B_A_LSV_01_unarmed_wdl_F: B_A_LSV_01_unarmed_F
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
-            };
+		};
 	};
 };
 class B_A_LSV_01_light_wdl_F: B_A_LSV_01_light_F
@@ -533,8 +525,7 @@ class B_A_LSV_01_light_wdl_F: B_A_LSV_01_light_F
 	textureList[] =
 	{
 		Black,0,
-		Olive,1,
-		Sand,0
+		Olive,0
 	};
 	hiddenSelectionsTextures[] =
 	{

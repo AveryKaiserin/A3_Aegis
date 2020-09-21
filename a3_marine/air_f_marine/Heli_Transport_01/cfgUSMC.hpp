@@ -18,10 +18,10 @@ class B_USMC_Heli_Transport_01_F: B_Heli_Transport_01_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellBlue,2);
-		mag_xx(30Rnd_65x39_caseless_black_mag,4);
+		mag_xx(30Rnd_65x39_caseless_mag,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MXC_Black_F,2);
+		weap_xx(arifle_MXC_F,2);
 	};
 };

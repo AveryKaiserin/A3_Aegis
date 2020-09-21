@@ -1,5 +1,5 @@
-class B_Carryall_khk;
-class B_Carryall_khk_BAUSAmmo_F: B_Carryall_khk
+// Arma 3 Atlas
+class B_Carryall_aucamo_BOAmmo_F: B_Carryall_aucamo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -14,8 +14,107 @@ class B_Carryall_khk_BAUSAmmo_F: B_Carryall_khk
 		mag_xx(20Rnd_762x51_Mag,2);
 	};
 };
-class B_Kitbag_khk;
-class B_Kitbag_khk_BAUSEng_F: B_Kitbag_khk
+class B_Carryall_aucamo_BOAAA_F: B_Carryall_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,3);
+	};
+};
+class B_Carryall_aucamo_BOAAT_F: B_Carryall_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+	};
+};
+class B_Carryall_aucamo_Mine: B_Carryall_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(APERSMine_Range_Mag,2);
+		mag_xx(APERSBoundingMine_Range_Mag,2);
+		mag_xx(APERSMineDispenser_Mag,2);
+		mag_xx(APERSTripMine_Wire_Mag,2);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(MineDetector,1);
+	};
+};
+class B_AssaultPack_aucamo_BOLAT_F: B_AssaultPack_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(MRAWS_HEAT_F,2);
+		mag_xx(MRAWS_HE_F,1);
+	};
+};
+class B_AssaultPack_aucamo_BOMedic_F: B_AssaultPack_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_AssaultPack_aucamo_BORepair_F: B_AssaultPack_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+	};
+};
+class B_Kitbag_aucamo_BOAAR_F: B_Kitbag_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(200Rnd_556x45_Box_Red_F,3);
+		mag_xx(200Rnd_556x45_Box_Tracer_Red_F,1);
+		mag_xx(130Rnd_338_Mag,2);
+	};
+	class TransportItems
+	{
+		item_xx(optic_tws_mg,1);
+		item_xx(bipod_01_F_blk,1);
+		item_xx(muzzle_snds_M,1);
+	};
+};
+class B_Kitbag_aucamo_BOAA_F: B_Kitbag_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,2);
+	};
+};
+class B_Kitbag_aucamo_BOAT_F: B_Kitbag_aucamo_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AT,2);
+	};
+};
+class B_Kitbag_aucamo_BOEng_F: B_Kitbag_aucamo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -30,42 +129,20 @@ class B_Kitbag_khk_BAUSEng_F: B_Kitbag_khk
 		item_xx(MineDetector,1);
 	};
 };
-class B_AssaultPack_khk;
-class B_AssaultPack_khk_BAUSAA_F: B_AssaultPack_khk
+class B_Kitbag_aucamo_BOExp_F: B_Kitbag_aucamo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(Titan_AA,2);
+		mag_xx(APERSBoundingMine_Range_Mag,3);
+		mag_xx(ClaymoreDirectionalMine_Remote_Mag,2);
+		mag_xx(SLAMDirectionalMine_Wire_Mag,2);
+		mag_xx(DemoCharge_Remote_Mag,1);
 	};
-};
-class B_AssaultPack_khk_BAUSAT_F: B_AssaultPack_khk
-{
-	author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	class TransportMagazines
-	{
-		mag_xx(Titan_AT,2);
-	};
-};
-class B_AssaultPack_khk_BAUSLAT_F: B_AssaultPack_khk
-{
-	author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	class TransportMagazines
-	{
-		mag_xx(MRAWS_HEAT_F,2);
-		mag_xx(MRAWS_HE_F,1);
-	};
-};
-class B_AssaultPack_khk_BAUSMedic_F: B_AssaultPack_khk
-{
-	author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
 	class TransportItems
 	{
-		item_xx(Medikit,1);
-		item_xx(FirstAidKit,10);
+		item_xx(ToolKit,1);
+		item_xx(MineDetector,1);
 	};
 };

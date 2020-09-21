@@ -36,25 +36,6 @@
 				<Japanese>スポッター（北極）</Japanese>
 				<Turkish>Gözetleyici (Buzul)</Turkish>
 			</Key>
-			<Container name="Groups">
-				<Key ID="STR_A3_A_CfgGroups_West_BLU_A_F_Infantry_A0">
-					<Original>Infantry (Arctic)</Original>
-					<Chinese>步兵（極區）</Chinese>
-					<French>Infanterie (arctique)</French>
-					<Spanish>Infantería (ártico)</Spanish>
-					<Italian>Fanteria (artico)</Italian>
-					<Polish>Piechota (region polarny)</Polish>
-					<Russian>Пехота (Арктика)</Russian>
-					<German>Infanterie (Arktisch)</German>
-					<Czech>Pěchota (arktické oblasti)</Czech>
-					<English>Infantry (Arctic)</English>
-					<Portuguese>Infantaria (Ártico)</Portuguese>
-					<Korean>보병(북극)</Korean>
-					<Chinesesimp>步兵（北极）</Chinesesimp>
-					<Japanese>歩兵（北極）</Japanese>
-					<Turkish>Piyade (Buzul)</Turkish>
-				</Key>
-			</Container>
 			<Container name="Headgear">
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_plain_white0">
 					<Original>Combat Helmet (White)</Original>
@@ -140,57 +121,6 @@
 					<Chinesesimp>Avenger Helmet (Cover S)</Chinesesimp>
 					<Japanese>Avenger Helmet (Cover S)</Japanese>
 					<Turkish>Avenger Helmet (Cover S)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_arctic_F0">
-					<Original>Specter Helmet (Arctic)</Original>
-					<Chinese>Specter Helmet (Arctic)</Chinese>
-					<French>Specter Helmet (Arctic)</French>
-					<Spanish>Specter Helmet (Arctic)</Spanish>
-					<Italian>Specter Helmet (Arctic)</Italian>
-					<Polish>Specter Helmet (Arctic)</Polish>
-					<Russian>Specter Helmet (Arctic)</Russian>
-					<German>Specter Helmet (Arctic)</German>
-					<Czech>Specter Helmet (Arctic)</Czech>
-					<English>Specter Helmet (Arctic)</English>
-					<Portuguese>Specter Helmet (Arctic)</Portuguese>
-					<Korean>Specter Helmet (Arctic)</Korean>
-					<Chinesesimp>Specter Helmet (Arctic)</Chinesesimp>
-					<Japanese>Specter Helmet (Arctic)</Japanese>
-					<Turkish>Specter Helmet (Arctic)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_arctic_headset_F0">
-					<Original>Specter Helmet (Arctic, Head Set)</Original>
-					<Chinese>Specter Helmet (Arctic, Head Set)</Chinese>
-					<French>Specter Helmet (Arctic, Head Set)</French>
-					<Spanish>Specter Helmet (Arctic, Head Set)</Spanish>
-					<Italian>Specter Helmet (Arctic, Head Set)</Italian>
-					<Polish>Specter Helmet (Arctic, Head Set)</Polish>
-					<Russian>Specter Helmet (Arctic, Head Set)</Russian>
-					<German>Specter Helmet (Arctic, Head Set)</German>
-					<Czech>Specter Helmet (Arctic, Head Set)</Czech>
-					<English>Specter Helmet (Arctic, Head Set)</English>
-					<Portuguese>Specter Helmet (Arctic, Head Set)</Portuguese>
-					<Korean>Specter Helmet (Arctic, Head Set)</Korean>
-					<Chinesesimp>Specter Helmet (Arctic, Head Set)</Chinesesimp>
-					<Japanese>Specter Helmet (Arctic, Head Set)</Japanese>
-					<Turkish>Specter Helmet (Arctic, Head Set)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_arctic_F0">
-					<Original>Specter Helmet (Cover S)</Original>
-					<Chinese>Specter Helmet (Cover S)</Chinese>
-					<French>Specter Helmet (Cover S)</French>
-					<Spanish>Specter Helmet (Cover S)</Spanish>
-					<Italian>Specter Helmet (Cover S)</Italian>
-					<Polish>Specter Helmet (Cover S)</Polish>
-					<Russian>Specter Helmet (Cover S)</Russian>
-					<German>Specter Helmet (Cover S)</German>
-					<Czech>Specter Helmet (Cover S)</Czech>
-					<English>Specter Helmet (Cover S)</English>
-					<Portuguese>Specter Helmet (Cover S)</Portuguese>
-					<Korean>Specter Helmet (Cover S)</Korean>
-					<Chinesesimp>Specter Helmet (Cover S)</Chinesesimp>
-					<Japanese>Specter Helmet (Cover S)</Japanese>
-					<Turkish>Specter Helmet (Cover S)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -303,7 +233,7 @@
 			</Container>
 		</Container>
 		<Container name="ContentLicensing">
-			<Key ID="STR_A3_A_CfgMods_Arctic_overview">
+			<Key ID="STR_A3_A_CfgMods_Arctic_overview0">
 				<Original>**TO TRANSLATE**</Original>
 				<Chinese>**TO TRANSLATE**</Chinese>
 				<French>**TO TRANSLATE**</French>
@@ -320,7 +250,7 @@
 				<Japanese>**TO TRANSLATE**</Japanese>
 				<Turkish>**TO TRANSLATE**</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMods_Arctic_name">
+			<Key ID="STR_A3_A_CfgMods_Arctic_name0">
 				<Original>Arma 3 Cold Front</Original>
 				<Chinese>Arma 3 Cold Front</Chinese>
 				<French>Arma 3 Cold Front</French>
@@ -337,7 +267,7 @@
 				<Japanese>Arma 3 Cold Front</Japanese>
 				<Turkish>Arma 3 Cold Front</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgMods_Arctic_nameShort">
+			<Key ID="STR_A3_A_CfgMods_Arctic_nameShort0">
 				<Original>Cold Front</Original>
 				<Chinese>Cold Front</Chinese>
 				<French>Cold Front</French>

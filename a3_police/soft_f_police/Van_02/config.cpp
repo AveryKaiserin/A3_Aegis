@@ -57,5 +57,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Police
-	#include "cfgPolice.hpp"
+	#include "cfgPolice.hpp"			// Police
 };

@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -42,7 +43,11 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\Anim\SPAR_02.rtm"
 		};
 		reloadAction = GestureReloadG36;
-		magazines[] = {30Rnd_65x39_caseless_msbs_mag};
+		magazines[] =
+		{
+			30Rnd_65x39_caseless_msbs_mag,
+			30Rnd_65x39_caseless_msbs_mag_Tracer
+		};
 		magazineWell[] = {MX_65x39_MSBS};
 		magazineReloadSwitchPhase = 0.48;
 		recoil = recoil_G36;
@@ -63,7 +68,7 @@ class CfgWeapons
 		discreteDistanceInitIndex = 1;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_65
+			class MuzzleSlot: asdg_MuzzleSlot_65
 			{
 				iconPosition[] =
 				{
@@ -72,7 +77,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] =
 				{
@@ -81,7 +86,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{
@@ -90,7 +95,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{
@@ -112,7 +117,7 @@ class CfgWeapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			RPM(750);
+			reloadTime = 0.08;
 			dispersion = 0.00102;
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -125,7 +130,7 @@ class CfgWeapons
 		{
 			textureType = dual;
 			burst = 2;
-			RPM(750);
+			reloadTime = 0.08;
 			dispersion = 0.00102;
 			minRange = 2;
 			minRangeProbab = 0.9;
@@ -136,7 +141,7 @@ class CfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
-			RPM(750);
+			reloadTime = 0.08;
 			dispersion = 0.00102;
 			minRange = 2;
 			minRangeProbab = 0.9;
@@ -218,7 +223,7 @@ class CfgWeapons
 		aimTransitionSpeed = 1;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{
@@ -294,7 +299,7 @@ class CfgWeapons
 		maxZeroing = 600;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{
@@ -316,31 +321,6 @@ class CfgWeapons
 		class FullAuto: FullAuto
 		{
 			dispersion = 0.00131;
-		};
-	};
-	class arifle_G36_base_sand_F: arifle_G36_base_F
-	{
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_sand_CO.paa",
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_sand_CO.paa"
-		};
-	};
-	class arifle_G36_GL_base_sand_F: arifle_G36_GL_base_F
-	{
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_sand_CO.paa",
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_sand_CO.paa",
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_GL_sand_CO.paa"
-		};
-	};
-	class arifle_G36C_base_sand_F: arifle_G36C_base_F
-	{
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_sand_CO.paa",
-			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_sand_CO.paa"
 		};
 	};
 	class arifle_G36_F: arifle_G36_base_F
@@ -367,229 +347,5 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_G36C_F0;
 		baseWeapon = arifle_G36C_F;
 	};
-	class arifle_G36_sand_F: arifle_G36_base_sand_F
-	{
-		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
-		scope = public;
-		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36_sand_F_X_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_arifle_G36_sand_F0;
-		baseWeapon = arifle_G36_sand_F;
-	};
-	class arifle_G36_GL_sand_F: arifle_G36_GL_base_sand_F
-	{
-		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
-		scope = public;
-		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36_GL_sand_F_X_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_arifle_G36_GL_sand_F0;
-		baseWeapon = arifle_G36_GL_sand_F;
-	};
-	class arifle_G36C_sand_F: arifle_G36C_base_sand_F
-	{
-		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
-		scope = public;
-		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36C_sand_F_X_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_arifle_G36C_sand_F0;
-		baseWeapon = arifle_G36C_sand_F;
-	};
-	// G36 6.5 mm + LRCO + IR Laser Pointer
-	class arifle_G36_lrco_LP_f: arifle_G36_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_LRCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// G36 6.5 mm + ACO (Red) + IR Laser Pointer
-	class arifle_G36_aco_LP_f: arifle_G36_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// G36 6.5 mm + Flashlight
-	class arifle_G36_FL_f: arifle_G36_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	// G36 6.5 mm + ACO (Red) + Flashlight
-	class arifle_G36_aco_FL_f: arifle_G36_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	// G36 GL 6.5 mm + ACO (Red) + IR Laser Pointer
-	class arifle_G36_GL_aco_LP_f: arifle_G36_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// G36 GL 6.5 mm + LRCO + IR Laser Pointer
-	class arifle_G36_GL_lrco_LP_f: arifle_G36_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_LRCO_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// G36 GL 6.5 mm + ACO (Red) + Flashlight
-	class arifle_G36_GL_aco_FL_f: arifle_G36_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	// G36 GL 6.5 mm + MRCO + Flashlight
-	class arifle_G36_GL_mrco_FL_f: arifle_G36_GL_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_MRCO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	// G36C 6.5 mm + Mk17 Holosight
-	class arifle_G36C_holo_f: arifle_G36C_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-		};
-	};
-	// G36C 6.5 mm + Mk17 Holosight + IR Laser Pointer
-	class arifle_G36C_holo_LP_f: arifle_G36C_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// G36C 6.5 mm + Flashlight
-	class arifle_G36C_FL_f: arifle_G36C_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	// G36C 6.5 mm + Mk17 Holosight + Flashlight
-	class arifle_G36C_holo_FL_f: arifle_G36C_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
+	#include "presets.hpp"
 };

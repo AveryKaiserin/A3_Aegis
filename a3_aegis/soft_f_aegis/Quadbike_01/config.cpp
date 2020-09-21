@@ -15,14 +15,38 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
+			class Black
+			{
+				factions[] =
+				{
+					CIV_F,
+                    BLU_GEN_F,
+					IND_C_F
+				};
+			};
 			class Blufor
 			{
-				factions[] += {BLU_A_F};
+				factions[] =
+				{
+					BLU_F,
+					BLU_A_F
+				};
+			};
+			class Guerrilla_02
+			{
+				factions[] =
+				{
+					BLU_G_F,
+					IND_G_F,
+					OPF_G_F,
+					IND_C_F
+				};
 			};
 			class Olive
 			{
-				factions[] +=
+				factions[] =
 				{
+					BLU_T_F,
 					BLU_W_F,
 					BLU_A_tna_F,
 					BLU_A_wdl_F
@@ -36,50 +60,25 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_EAF_CO.paa"
 				};
 			};
-			class Guerrilla_03
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_GUERRILLA_030;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3\Soft_F_Gamma\Quadbike_01\Data\Quadbike_01_IG_CO.paa",
-					"\A3\Soft_F_Gamma\Quadbike_01\Data\Quadbike_01_wheel_IG_CO.paa"
-				};
-				factions[] =
-				{
-					BLU_G_F,
-					IND_G_F,
-					OPF_G_F
-				};
-			};
 			class Green
 			{
 				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUgrn_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_R_F};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
+				factions[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_RUcamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_RUS_CO.paa"
+					OPF_R_F,
+					OPF_R_ard_F
 				};
-				factions[] = {OPF_R_F};
 			};
 		};
 	};
-	class I_G_Quadbike_01_F: Quadbike_01_base_F
-	{
-		textureList[] += {Guerrilla_03,1};
-	};
+	class B_Quadbike_01_F;
+	class O_Quadbike_01_F;
 	// Arma 3 Enoch
 	class I_E_Quadbike_01_F: Quadbike_01_base_F
 	{
@@ -91,9 +90,9 @@ class CfgVehicles
 	};
 	// Arma 3 Aegis
 	#include "cfgSyndikat.hpp"
+	#include "cfgGendarmerie.hpp"
 	#include "cfgOpfor_Tacops.hpp"
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

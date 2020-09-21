@@ -12,19 +12,9 @@ class CfgWeapons
 	};
 	class H_HelmetB: ItemCore
 	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip1_CO.paa"};
 	  	class ItemInfo;
 	};
-	class H_HelmetB_camo: H_HelmetB
-	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_camo_CA.paa";
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip1_CO.paa",
-			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\ghillie2_wdl_CO.paa"
-		};
-	};
+	class H_HelmetB_camo;
 	class H_HelmetB_light: H_HelmetB
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_light_CA.paa";
@@ -174,9 +164,7 @@ class CfgWeapons
 	};
 	class H_HelmetSpecB: H_HelmetB_plain_mcamo
 	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecB_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecB0;
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip1_CO.paa"};
 		class ItemInfo;
 	};
 	class H_HelmetSpecB_paint1: H_HelmetSpecB
@@ -333,6 +321,8 @@ class CfgWeapons
 	class H_Cap_brn_SPECOPS: H_Cap_red
 	{
 	 	displayName = $STR_A3_A_CfgWeapons_H_Cap_brn_SPECOPS0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\capb_iran_CO.paa"};
 	};
 	class H_Cap_tan_specops_US: H_Cap_red
 	{
@@ -416,13 +406,10 @@ class CfgWeapons
 	{
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Beta\Indep\Data\armor1_oli_CO.paa"};
 	};
-	class H_HelmetCrew_O: H_HelmetCrew_B
-	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetCrew_O_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\helmet_crew_ocamo_CO.paa"};
-	};
+    class H_HelmetCrew_O;
 	class H_HelmetCrew_I: H_HelmetCrew_B{};
 	class H_PilotHelmetFighter_B;
+	class H_PilotHelmetFighter_O;
 	class H_PilotHelmetFighter_I: H_PilotHelmetFighter_B
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetFighter_I_CA.paa";
@@ -445,21 +432,9 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	class H_CrewHelmetHeli_I;
-	class H_HelmetO_ocamo: H_HelmetB
-	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_ocamo_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"};
-	};
-	class H_HelmetLeaderO_ocamo: H_HelmetO_ocamo
-	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetLeaderO_ocamo_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"};
-	};
-	class H_MilCap_ocamo: HelmetBase
-	{
-	  	picture = "\A3\Characters_F\Data\UI\icon_H_Cap_patrol_ocamo_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_ocamo_CO.paa"};
-	};
+	class H_HelmetO_ocamo;
+	class H_HelmetLeaderO_ocamo;
+	class H_MilCap_ocamo;
 	class H_MilCap_mcamo: H_MilCap_ocamo
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_multicam_CO.paa"};
@@ -492,11 +467,7 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_light_sand_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip1_sand_CO.paa"};
 	};
-	class H_HelmetSpecO_ocamo: H_HelmetO_ocamo
-	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecO_ocamo_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_CO.paa"};
-	};
+	class H_HelmetSpecO_ocamo;
 	class H_Bandanna_surfer: HelmetBase
 	{
 		allowedFacewear[] =
@@ -1003,8 +974,6 @@ class CfgWeapons
 	};
 	class H_HelmetO_ViperSP_hex_F: H_HelmetB
 	{
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_ViperSP_hex_F_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_ViperSP_alt_CO.paa"};
 		class ItemInfo: HeadgearItem
 		{
 			subItems[] = {Integrated_NVG_TI_0_F};
@@ -1210,6 +1179,7 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetHBK_chops_F0;
 	};
 	class H_HelmetAggressor_base_F;
+	class H_HelmetAggressor_cover_base_F;
 	class H_Booniehat_mgrn: H_Booniehat_khk{};
 	class H_Booniehat_taiga: H_Booniehat_khk{};
 	class H_Booniehat_eaf: H_Booniehat_khk{};
@@ -1226,12 +1196,17 @@ class CfgWeapons
 	{
 		scope = protected;
 	};
-	class H_PilotHelmetHeli_I_E: H_PilotHelmetHeli_I
+	class H_PilotHelmetFighter_I_E: H_PilotHelmetFighter_O
+	{
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetFighter_I_E_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\pilot_helmet_eaf_CO.paa"};
+	};
+	class H_PilotHelmetHeli_I_E: H_PilotHelmetHeli_O
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetHeli_I_E_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\helmet_heli_eaf_CO.paa"};
 	};
-	class H_CrewHelmetHeli_I_E: H_CrewHelmetHeli_I
+	class H_CrewHelmetHeli_I_E: H_CrewHelmetHeli_O
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_CrewHelmetHeli_I_E_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\helmet_heli_eaf_CO.paa"};
@@ -1263,6 +1238,13 @@ class CfgWeapons
 		displayName = $STR_A3_H_Booniehat_ocamo0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_ocamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\booniehat_ocamo_CO.paa"};
+	};
+	class H_Booniehat_oicamo: H_Booniehat_khk
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_oicamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\booniehat_oicamo_CO.paa"};
 	};
 	class H_Booniehat_oli_hs: H_Booniehat_oli
 	{
@@ -1348,6 +1330,17 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
+	class H_Booniehat_oicamo_hs: H_Booniehat_oicamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_oicamo_hs0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_oicamo_hs_CA.paa";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
 	class H_HelmetSpecB_mcamo: H_HelmetSpecB
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1361,6 +1354,13 @@ class CfgWeapons
 		displayName = $STR_A3_H_Cap_brn_SERO0;
 		picture = "\A3\Characters_F\Data\UI\icon_H_Cap_brn_SERO_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_SERO_CO.paa"};
+	};
+	class H_Cap_oicamo: H_Cap_red
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo0;
+		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_iran_CO.paa"};
 	};
 	class H_Cap_headphones_gry: H_Cap_headphones
 	{
@@ -1456,6 +1456,17 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
 		};
 	};
+	class H_Cap_oicamo_hs: H_Cap_oicamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_oicamo_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0;
+		model = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\capb_hs.p3d";
+		};
+	};
 	class H_PilotHelmetHeli_B_visor_up: H_PilotHelmetHeli_B
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
@@ -1510,6 +1521,20 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetLeaderO_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"};
 	};
+	class H_HelmetO_oicamo: H_HelmetO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_oicamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
+	};
+	class H_HelmetLeaderO_oicamo: H_HelmetLeaderO_ocamo
+	{
+	  	author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetLeaderO_oicamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetLeaderO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
+	};
 	class H_MilCap_tan: H_MilCap_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1523,6 +1548,13 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_MilCap_blk0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_MilCap_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\Common\Data\cappatrol_blk_CO.paa"};
+	};
+	class H_MilCap_oicamo: H_MilCap_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_oicamo0;
+		picture = "\A3\Characters_F\Data\UI\icon_H_Cap_patrol_ocamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_oicamo_CO.paa"};
 	};
 	class H_HelmetB_light_mcamo: H_HelmetB_light
 	{
@@ -1595,20 +1627,19 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecB_light_mcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip1_mcamo_CO.paa"};
 	};
-	class H_HelmetB_heavy_mcamo: H_HelmetB_TI_tna_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = "Combat Helmet (MTP, Face Guard)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_heavy_mcamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_heavy_mcamo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_heavy_mcamo.rvmat"};
-	};
 	class H_HelmetSpecO_oucamo: H_HelmetSpecO_ocamo
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_oucamo0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecO_oucamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\tech_oucamo_CO.paa"};
+	};
+	class H_HelmetSpecO_oicamo: H_HelmetSpecO_ocamo
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecO_oicamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecO_oicamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"};
 	};
 	class H_Bandanna_mcamo_hs: H_Bandanna_mcamo
 	{
@@ -1632,11 +1663,11 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Civil\headgear_C_Bandana1_hs.p3d";
 		};
 	};
-	class H_Shemag_khk_hs: H_ShemagOpen_khk
+	class H_ShemagOpen_khk_hs: H_ShemagOpen_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Shemag_khk_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Shemag_khk_hs0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_ShemagOpen_khk_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_ShemagOpen_khk_hs0;
 		model = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		allowedFacewear[] =
 		{
@@ -1652,11 +1683,11 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		};
 	};
-	class H_Shemag_tan_hs: H_ShemagOpen_tan
+	class H_ShemagOpen_tan_hs: H_ShemagOpen_tan
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Shemag_tan_hs_CA.paa";
-		displayName = $STR_A3_A_CfgWeapons_H_Shemag_tan_hs0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_ShemagOpen_tan_hs_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_H_ShemagOpen_tan_hs0;
 		model = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		allowedFacewear[] =
 		{
@@ -1858,6 +1889,13 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_TI_alt_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_TI_alt_F_CO.paa"};
 	};
+	class H_HelmetO_ViperSP_oicamo_F: H_HelmetO_ViperSP_hex_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetO_ViperSP_oicamo_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetO_ViperSP_oicamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_ViperSP_oicamo_CO.paa"};
+	};
 	class H_HelmetB_Camo_tna_F: H_HelmetB_camo
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1875,13 +1913,6 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetB_Enh_Light_tna_F0;
 		picture = "\A3\Characters_F_Exp\Headgear\Data\UI\icon_H_HelmetB_Light_tna_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_tna_F_CO.paa"};
-	};
-	class H_HelmetB_Heavy_tna_F: H_HelmetB_heavy_mcamo
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = "Combat Helmet (Tropic, Face Guard)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_Heavy_tna_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_Heavy_tna_F_CO.paa"};
 	};
 	class H_HelmetCrew_B_oli_F: H_HelmetCrew_B
 	{
@@ -2075,15 +2106,7 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetAggressor_black_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetAggressor_black_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_RUblk_CO.paa"};
-	};
-	class H_HelmetAggressor_sand_F: H_HelmetAggressor_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetAggressor_sand_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetAggressor_sand_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_sand_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_black_CO.paa"};
 	};
 	class H_Booniehat_mgrn_hs: H_Booniehat_mgrn
 	{
@@ -2134,7 +2157,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 	  	displayName = $STR_A3_A_CfgWeapons_H_Cap_eaf_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_eaf_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Cap_eaf_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\capb_eaf_CO.paa"};
 	};
 	class H_Cap_eaf_hs_F: H_Cap_eaf_F
 	{
@@ -2165,14 +2188,7 @@ class CfgWeapons
 		picture = "\A3\Characters_F_Enoch\Headgear\Data\UI\icon_H_HelmetB_light_wdl_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\equip1_wdl_CO.paa"};
 	};
-	class H_HelmetB_heavy_wdl: H_HelmetB_heavy_mcamo
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = "Combat Helmet (Woodland, Face Guard)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_heavy_wdl_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_heavy_wdl_CO.paa"};
-	};
-	class H_PilotHelmetFighter_O_R: H_PilotHelmetFighter_B
+	class H_PilotHelmetFighter_O_R: H_PilotHelmetFighter_I
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_O_R0;

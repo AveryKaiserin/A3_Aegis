@@ -58,7 +58,7 @@ class B_E_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.025;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_02_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;

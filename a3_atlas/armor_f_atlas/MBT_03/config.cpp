@@ -61,7 +61,7 @@ class CfgVehicles
 			class Woodland_01
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
-				author = $STR_A3_A_AveryTheKitty;
+				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_wdl_CO.paa",
@@ -74,5 +74,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
 };

@@ -14,7 +14,7 @@ class CfgPatches
 			A3_Arc_Weapons_F_Arc
 		};
 		requiredVersion = 0.1;
-		units[] = {};
-		weapons[] = {};
+		units[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

@@ -5,7 +5,11 @@ class CfgPatches
 		addonRootClass = A3_Aegis_Boat_F_Aegis;
 		requiredAddons[] = {A3_Aegis_Boat_F_Aegis};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Civilians
+            C_Boat_Civil_02_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

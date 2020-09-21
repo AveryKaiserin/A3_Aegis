@@ -1,4 +1,3 @@
-class B_FieldPack_green_F;
 class B_FieldPack_green_IRMedic_F: B_FieldPack_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -9,8 +8,7 @@ class B_FieldPack_green_IRMedic_F: B_FieldPack_green_F
 		item_xx(FirstAidKit,4);
 	};
 };
-class B_FieldPack_taiga_F;
-class B_FieldPack_taiga_IRRPG_AT_F: B_FieldPack_taiga_F
+class B_FieldPack_green_IRLAT_F: B_FieldPack_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -20,8 +18,7 @@ class B_FieldPack_taiga_IRRPG_AT_F: B_FieldPack_taiga_F
 		mag_xx(RPG32_HE_F,2);
 	};
 };
-class B_Carryall_taiga_F;
-class B_Carryall_taiga_IREng_F: B_Carryall_taiga_F
+class B_Carryall_green_IREng_F: B_Carryall_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

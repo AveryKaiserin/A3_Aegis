@@ -5,6 +5,5 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgOpfor_Exp.hpp"
 	#include "cfgUSMC.hpp"
 };

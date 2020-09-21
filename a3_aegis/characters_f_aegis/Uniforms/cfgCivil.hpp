@@ -35,7 +35,7 @@ class U_C_Poor_2: Uniform_Base
 class U_C_PriestBody: Uniform_Base
 {
     scope = public;
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_PriestBody_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_PriestBody_CA.paa";
     hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\priest_CO.paa"};
 };
 class U_NikosAgedBody: Uniform_Base
@@ -168,7 +168,7 @@ class U_C_CBRN_Suit_01_Black_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Black_F0;
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Black_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Black_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Black_CO.paa"};
@@ -185,7 +185,7 @@ class U_C_CBRN_Suit_01_Yellow_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0;
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Yellow_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_C_CBRN_Suit_01_Yellow_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Yellow_CO.paa"};

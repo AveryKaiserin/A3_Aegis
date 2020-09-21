@@ -465,17 +465,31 @@ class CfgGlasses
 		};
 	};
 	// Arma 3 Atlas
-	class G_B_ANZAC_Diving: G_Diving
+	class G_B_O_Diving: G_Diving
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "Diving Goggles [ADF]";
 		model = "\A3\Characters_F_EPB\Heads\Glasses\G_B_Diving.p3d";
-		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_B_ANZAC_Diving_CA.paa";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_B_O_Diving_CA.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Facewear\Data\G_Diving_aucamo_CA.paa"};
 		identityTypes[] =
 		{
 			G_ADF_diver,1000,
+			NoGlasses,0
+		};
+	};
+	class G_I_I_Diving: G_Diving
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "Diving Goggles [IDF]";
+		model = "\A3\Characters_F_EPB\Heads\Glasses\G_I_Diving.p3d";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_I_I_Diving_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Facewear\Data\G_Diving_olive_CA.paa"};
+		identityTypes[] =
+		{
+			G_IDF_diver,1000,
 			NoGlasses,0
 		};
 	};

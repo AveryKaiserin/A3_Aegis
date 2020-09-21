@@ -1,3 +1,4 @@
+// BLU_A_F
 class B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -376,6 +377,7 @@ class B_A_Heli_Transport_02_medevac_F: Heli_Transport_02_medevac_base_F
 		"\A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
 	};
 };
+// BLU_A_tna_F
 class B_A_Heli_Transport_02_tna_F: B_A_Heli_Transport_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -722,6 +724,7 @@ class B_A_Heli_Transport_02_medevac_tna_F: B_A_Heli_Transport_02_medevac_F
 	crew = B_A_Helipilot_tna_F;
 	typicalCargo[] = {B_A_Helicrew_tna_F};
 };
+// BLU_A_wdl_F
 class B_A_Heli_Transport_02_wdl_F: B_A_Heli_Transport_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;

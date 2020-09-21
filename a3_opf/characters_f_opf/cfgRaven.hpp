@@ -10,7 +10,7 @@ class O_A_officer_F;
 class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
 {
     scope = protected;
-    scopeCurator = protected;
+    scopeCurator = private;
 	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
 	model = "\A3_Opf\Characters_F_Opf\Uniforms\O_Soldier_02.p3d";
 	hiddenSelections[] =
@@ -34,12 +34,12 @@ class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
 class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
 {
     scope = protected;
-    scopeCurator = protected;
+    scopeCurator = private;
 	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUkhk_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
 	};
 };
 class I_R_soldier_base_F: I_soldier_F
@@ -56,7 +56,7 @@ class I_R_soldier_base_F: I_soldier_F
 	};
 	faction = IND_R_F;
 	genericNames = RussianMen;
-	uniformClass = U_O_E_Uniform_01_taiga_F;
+	uniformClass = U_O_E_Uniform_01_arid_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -65,7 +65,7 @@ class I_R_soldier_base_F: I_soldier_F
 class I_R_soldier_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	role = Rifleman;
@@ -121,7 +121,7 @@ class I_R_soldier_F: I_R_soldier_base_F
 class I_R_soldier_GL_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_GL_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_GL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_GL_F0;
 	weapons[] = 
@@ -183,7 +183,7 @@ class I_R_soldier_GL_F: I_R_soldier_base_F
 class I_R_soldier_MG_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_MG_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_MG_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_AR_F0;
 	weapons[] = 
@@ -215,7 +215,7 @@ class I_R_soldier_MG_F: I_R_soldier_base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
@@ -242,7 +242,7 @@ class I_R_soldier_MG_F: I_R_soldier_base_F
 class I_R_soldier_TL_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_TL_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_TL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_TL_F0;
 	uniformClass = U_O_R_Gorka_01_F;
@@ -319,10 +319,10 @@ class I_R_soldier_M_F: I_R_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
     textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
     nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_M_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	weapons[] = 
 	{
 		srifle_DMR_01_lush_ARCO_BI_F,
@@ -390,21 +390,21 @@ class I_R_soldier_LAT_F: I_R_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_LAT_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
-	backpack = B_FieldPack_taiga_IRRPG_AT_F;
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	backpack = B_FieldPack_green_IRLAT_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
-        launch_RPG32_camo_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
-        launch_RPG32_camo_F,
+        launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
@@ -465,7 +465,7 @@ class I_R_medic_F: I_R_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_medic_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_medic_F.jpg";
 	scope = public;
 	displayName = $STR_A3_B_CTRG_Soldier_Medic_tna_F0;
 	attendant = true;
@@ -532,12 +532,12 @@ class I_R_medic_F: I_R_soldier_base_F
 class I_R_engineer_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_engineer_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_engineer_F.jpg";
 	scope = public;
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
-	backpack = B_Carryall_taiga_IREng_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	backpack = B_Carryall_green_IREng_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_FL_f,
@@ -596,13 +596,13 @@ class I_R_engineer_F: I_R_soldier_base_F
 class I_R_Soldier_UAV_F: I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_UAV_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_SOLDIER_UAV_F0;
 	role = SpecialOperative;
 	uavHacker = true;
-	uniformClass = U_O_R_officer_noInsignia_taiga_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	backpack = I_R_UAV_01_backpack_F;
 	weapons[] =
 	{
@@ -660,14 +660,14 @@ class I_R_Soldier_UAV_F: I_R_soldier_base_F
 class I_R_soldier_UAV_06_F: I_R_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = I_R_UAV_06_backpack_F;
 };
 class I_R_soldier_UAV_06_medical_F: I_R_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = I_R_UAV_06_medical_backpack_F;
 };
@@ -695,7 +695,7 @@ class I_R_Soldier_universal_F: I_R_soldier_F
 class I_R_Soldier_unarmed_F: I_R_soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_unarmed_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};

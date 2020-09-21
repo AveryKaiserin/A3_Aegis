@@ -21,11 +21,20 @@ class I_T_Guerilla3_3_F: I_G_Soldier_M_F
 {
 	scope = protected;
 	scopeCurator = private;
+	modelSides[] =
+    {
+        TCivilian,
+        TGuerrila
+    };
+	model = "\A3\Characters_F\Civil\C_Hunter_F.p3d";
 	uniformClass = U_IG_Guerilla3_3_F;
+    hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\hunter_bushman_CO.paa"};
 };
 class I_T_Uniform_01_hex_F: I_G_Soldier_SL_F
 {
+	scope = protected;
+	scopeCurator = private;
 	uniformClass = U_I_T_Uniform_01_hex_F;
 	hiddenSelections[] =
 	{
@@ -37,6 +46,11 @@ class I_T_Uniform_01_hex_F: I_G_Soldier_SL_F
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_hex_CO.paa",
 		"\A3\Characters_F_Gamma\Civil\Data\c_cloth1_black.paa"
 	};
+    hiddenSelectionsMaterials[] =
+    {
+        "\A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
+        "\A3\Characters_F\Civil\Data\c_cloth1.rvmat"
+    };
 };
 class I_T_Uniform_01_urb_F: I_T_Uniform_01_hex_F
 {
@@ -118,7 +132,7 @@ class I_T_Soldier_1_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -176,7 +190,7 @@ class I_T_Soldier_2_F: I_T_Soldier_Base_F
 		H_Beret_blk,1,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -223,8 +237,8 @@ class I_T_Soldier_3_F: I_T_Soldier_Base_F
 	{
 		"",2,
         H_Headset_light,1,
-        H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_Shemag_blk,2,
+        H_Shemag_blk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -277,6 +291,8 @@ class I_T_Soldier_4_F: I_T_Soldier_Base_F
 	{
 		"",2,
         H_Headset_light,1,
+        H_Shemag_red,2,
+        H_Shemag_red_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -341,7 +357,7 @@ class I_T_Soldier_5_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -390,7 +406,7 @@ class I_T_Soldier_6_F: I_T_Soldier_Base_F
 		"",2,
         H_Headset_light,1,
         H_ShemagOpen_khk,2,
-        H_Shemag_khk_hs,2,
+        H_ShemagOpen_khk_hs,2,
         H_FakeHeadgear_F,1
 	};
 };
@@ -492,6 +508,62 @@ class I_T_Soldier_8_F: I_T_Soldier_Base_F
         H_FakeHeadgear_F,1
 	};
 };
+class I_T_Soldier_9_F: I_T_Soldier_1_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Soldier_9_F.jpg";
+	identityTypes[] =
+	{
+        LanguagePER_F,
+        Head_TK,
+		G_IRAN_default
+	};
+	scope = public;
+	scopeCurator = public;
+	displayName = "Operative (Rifle)";
+	uniformClass = U_C_E_LooterJacket_01_F;
+	linkedItems[] =
+	{
+		V_ChestrigF_blk,
+		G_AirPurifyingRespirator_02_sand_F,
+        DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_ChestrigF_blk,
+		G_AirPurifyingRespirator_02_sand_F,
+        DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_Katiba_C_ACO_F,
+        hgun_Rook40_snds_F,
+		DefaultManWeapons,
+        Binocular
+	};
+	respawnWeapons[] = 
+	{
+		arifle_Katiba_C_ACO_F,
+        hgun_Rook40_snds_F,
+		DefaultManWeapons,
+        Binocular
+	};
+	magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade)
+    };
+	cost = 200000;
+	camouflage = 1.6;
+	role = SpecialOperative;
+};
 class I_T_Soldier_universal_F: I_T_Soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -507,6 +579,7 @@ class I_T_Soldier_universal_F: I_T_Soldier_1_F
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
 	scope = protected;
+    scopeCurator = private;
 	displayName = $STR_A3_CfgVehicles_b_soldier_universal_f_displayName;
 	attendant = true;
 	engineer = true;

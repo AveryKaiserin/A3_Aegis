@@ -59,7 +59,7 @@ class B_E_UAV_06_F: UAV_06_base_F
 		verticalOffsetWorld = 0;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_06_F.jpg";
 	displayName = $STR_A3_CfgVehicles_B_UAV_06_F0;
 	scope = public;
 	side = TWest;
@@ -145,7 +145,7 @@ class B_E_UAV_06_medical_F: UAV_06_medical_base_F
 		verticalOffsetWorld = 0;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_CfgVehicles_B_UAV_06_medical_F0;
 	scope = public;
 	side = TWest;

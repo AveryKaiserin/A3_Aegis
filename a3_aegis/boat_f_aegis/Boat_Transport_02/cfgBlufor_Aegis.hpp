@@ -30,9 +30,9 @@ class B_A_Boat_Transport_02_F: Boat_Transport_02_base_F
 		verticalOffsetWorld = -0.681;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Boat_Transport_02_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Boat_Transport_02_F.jpg";
+	scope = protected;
+	scopeCurator = private;
 	side = TWest;
 	faction = BLU_A_F;
 	crew = B_A_Soldier_F;
@@ -80,7 +80,7 @@ class B_A_Boat_Transport_02_tna_F: B_A_Boat_Transport_02_F
 		verticalOffsetWorld = -0.681;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Boat_Transport_02_tna_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Boat_Transport_02_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Soldier_tna_F;
 	typicalCargo[] =

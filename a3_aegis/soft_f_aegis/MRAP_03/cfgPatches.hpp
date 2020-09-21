@@ -9,7 +9,19 @@ class CfgPatches
 			A3_Soft_F_Beta_MRAP_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (British)
+            B_A_MRAP_03_F,
+            B_A_MRAP_03_tna_F,
+            B_A_MRAP_03_wdl_F,
+            B_A_MRAP_03_gmg_F,
+            B_A_MRAP_03_gmg_tna_F,
+            B_A_MRAP_03_gmg_wdl_F,
+            B_A_MRAP_03_hmg_F,
+            B_A_MRAP_03_hmg_tna_F,
+            B_A_MRAP_03_hmg_wdl_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

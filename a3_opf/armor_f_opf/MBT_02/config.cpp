@@ -2,12 +2,8 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
-	/*
 	// Arma 3
-	class MBT_02_base_F;
-	// Arma 3 Aegis
-	#include "cfgSpetsnaz.hpp"
+	class O_MBT_02_cannon_F;
 	// Arma 3 Opposing Forces
-	#include "cfgChKDZ.hpp"
-	*/
+	#include "cfgChKDZ.hpp"				// Separatists
 };

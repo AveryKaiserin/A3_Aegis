@@ -5,13 +5,22 @@ class CfgMagazineWells
     {
         Aegis_Magazines[] =
         {
-            30Rnd_545x39_black_Mag_F,
-            30Rnd_545x39_black_Mag_Tracer_F,
-            30Rnd_545x39_lush_Mag_F,
-            30Rnd_545x39_lush_Mag_Tracer_F,
-            30Rnd_545x39_arid_Mag_F,
-            30Rnd_545x39_arid_Mag_Tracer_F
+            30Rnd_545x39_AK12_Mag_F,
+            30Rnd_545x39_AK12_Mag_Tracer_F,
+            30Rnd_545x39_AK12_Lush_Mag_F,
+            30Rnd_545x39_AK12_Lush_Mag_Tracer_F,
+            30Rnd_545x39_AK12_Arid_Mag_F,
+            30Rnd_545x39_AK12_Arid_Mag_Tracer_F,
+            30Rnd_545x39_Black_Mag_F,
+            30Rnd_545x39_Black_Mag_Tracer_F
         };
+		Aegis_Compatibility_Magazines[] =
+		{
+            30Rnd_545x39_Lush_Mag_F,
+            30Rnd_545x39_Lush_Mag_Tracer_F,
+            30Rnd_545x39_Arid_Mag_F,
+            30Rnd_545x39_Arid_Mag_Tracer_F
+		};
     };
 	class M14_762x51
 	{
@@ -41,14 +50,6 @@ class CfgMagazineWells
 			20Rnd_556x45_Stanag_Tracer_Yellow,
 			20Rnd_556x45_Stanag_red,
 			20Rnd_556x45_Stanag_green
-		};
-	};
-	class STANAG_556x45_MSBS
-	{
-		Aegis_Magazines[] =
-		{
-			30Rnd_556x45_msbs_mag,
-			30Rnd_556x45_msbs_mag_Tracer
 		};
 	};
 	class M32_40x36
@@ -88,13 +89,13 @@ class CfgMagazineWells
 	{
 		Aegis_Magazines[] = {7Rnd_45ACP_Mag};
 	};
+	class G17_9x21
+	{
+		Aegis_Magazines[] = {17Rnd_9x21_Mag};
+	};
 	class Mk26_127x33
 	{
 		Aegis_Magazines[] = {7Rnd_127x33_Mag};
-	};
-	class MP412_9x33
-	{
-		Aegis_Magazines[] = {6Rnd_9x33_Cylinder};
 	};
 	class Shotgun_12GA
 	{
@@ -102,8 +103,6 @@ class CfgMagazineWells
 		{
 			8Rnd_12Gauge_Pellets,
 			8Rnd_12Gauge_Slug,
-			7Rnd_12Gauge_Pellets,
-			7Rnd_12Gauge_Slug,
 			4Rnd_12Gauge_Pellets,
 			4Rnd_12Gauge_Slug,
 			2Rnd_12Gauge_Pellets,
@@ -125,18 +124,6 @@ class CfgMagazineWells
 			20Rnd_AA40_Pellets,
 			20Rnd_AA40_Slug,
 			20Rnd_AA40_HE
-		};
-	};
-	class KSG_12GA
-	{
-		Aegis_Magazines[] =
-		{
-			7Rnd_12Gauge_Pellets,
-			7Rnd_12Gauge_Slug,
-			4Rnd_12Gauge_Pellets,
-			4Rnd_12Gauge_Slug,
-			2Rnd_12Gauge_Pellets,
-			2Rnd_12Gauge_Slug
 		};
 	};
 	class MP153_12GA

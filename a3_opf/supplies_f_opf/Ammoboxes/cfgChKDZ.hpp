@@ -15,13 +15,14 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Separatists;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_762x39_Mag_Green_F,6);
 		mag_xx(30Rnd_545x39_Mag_Green_F,6);
 		mag_xx(75Rnd_762x39_Mag_F,2);
 		//mag_xx(30Rnd_762x39_SKS_Mag_F,2);
-		mag_xx(30Rnd_545x39_black_Mag_F,2);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,2);
 		mag_xx(10Rnd_762x54_Mag,6);
 		mag_xx(10Rnd_9x21_Mag,2);
 	};
@@ -38,7 +39,7 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 	};
 	class TransportItems
 	{
-		item_xx(V_BandollierB_rgr,6);
+		item_xx(V_BandollierB_taiga_F,6);
 	};
 };
 class Box_ChDKZ_Ammo_F: ReammoBox_F
@@ -57,6 +58,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Separatists;
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
@@ -64,7 +66,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 		mag_xx(30Rnd_545x39_Mag_Green_F,12);
 		mag_xx(75Rnd_762x39_Mag_F,16);
 		//mag_xx(30Rnd_762x39_SKS_Mag_F,12);
-		mag_xx(30Rnd_545x39_black_Mag_F,12);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
 		mag_xx(10Rnd_762x54_Mag,12);
 		mag_xx(10Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -95,6 +97,7 @@ class Box_ChDKZ_WpsLaunch_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
+	editorSubcategory = EdSubcat_Ammo_Separatists;
 	class TransportMagazines
 	{
 		mag_xx(RPG32_F,10);

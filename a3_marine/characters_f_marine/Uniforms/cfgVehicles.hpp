@@ -20,9 +20,6 @@ class CfgVehicles
 	// Arma 3
 	class Item_Base_F;
 	// Arma 3 Marine
-	// CSAT (Pacific)
-	UNIFORM_HOLDER(U_O_T_CombatUniform_oceanic_F,$STR_A3_M_CfgWeapons_U_O_T_CombatUniform_oceanic_F0)
-	UNIFORM_HOLDER(U_O_T_officer_noInsignia_oceanic_F,$STR_A3_M_CfgWeapons_U_O_T_officer_noInsignia_oceanic_F0)
 	// USMC
 	UNIFORM_HOLDER(U_B_MCU_desert_F,$STR_A3_M_CfgWeapons_U_B_MCU_desert_F0)
 	UNIFORM_HOLDER(U_B_MCU_wdl_F,$STR_A3_M_CfgWeapons_U_B_MCU_wdl_F0)

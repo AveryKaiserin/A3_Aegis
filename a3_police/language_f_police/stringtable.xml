@@ -54,21 +54,38 @@
 				<Turkish>Polis (Av Tüfeği)</Turkish>
 			</Key>
 			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0">
-				<Original>Tactical Police Officer</Original>
-				<Chinese>戰術警察</Chinese>
-				<French>Policier tactique</French>
-				<Spanish>Policía táctico</Spanish>
-				<Italian>Poliziotto tattico</Italian>
-				<Polish>Takt. policjant</Polish>
-				<Italian>Тактический полицейский</Russian>
-				<German>Taktischer Polizist</German>
-				<Czech>Taktický policista</Czech>
-				<English>Tactical Police Officer</English>
-				<Portuguese>Policial tático</Portuguese>
-				<Korean>전략 경찰관</Korean>
-				<Chinesesimp>战术警察</Chinesesimp>
-				<Japanese>タクティカル警官</Japanese>
-				<Turkish>Taktiksel Polis</Turkish>
+				<Original>Tactical Police Officer (Rifle)</Original>
+				<Chinese>戰術警察（步槍）</Chinese>
+				<French>Policier tactique (fusil)</French>
+				<Spanish>Policía táctico (fusil)</Spanish>
+				<Italian>Poliziotto tattico (fucile)</Italian>
+				<Polish>Takt. policjant (karabin)</Polish>
+				<Italian>Тактический полицейский (винтовка)</Russian>
+				<German>Taktischer Polizist (Gewehr)</German>
+				<Czech>Taktický policista (puška)</Czech>
+				<English>Tactical Police Officer (Rifle)</English>
+				<Portuguese>Policial tático< (fuzil)/Portuguese>
+				<Korean>전략 경찰관(소총)</Korean>
+				<Chinesesimp>战术警察（步枪）</Chinesesimp>
+				<Japanese>タクティカル警官（ライフル）</Japanese>
+				<Turkish>Taktiksel Polis (Tüfek)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0">
+				<Original>Tactical Police Officer (Shotgun)</Original>
+				<Chinese>戰術警察（獵槍）</Chinese>
+				<French>Policier tactique (fusil de chasse)</French>
+				<Spanish>Policía táctico (escopeta)</Spanish>
+				<Italian>Poliziotto tattico (fucile da caccia)</Italian>
+				<Polish>Takt. policjant (strzelba)</Polish>
+				<Italian>Тактический полицейский (дробовик)</Russian>
+				<German>Taktischer Polizist (Schrotflinte)</German>
+				<Czech>Taktický policista (brokovnice)</Czech>
+				<English>Tactical Police Officer (Shotgun)</English>
+				<Portuguese>Policial tático (espingarda)</Portuguese>
+				<Korean>전략 경찰관(산탄총)</Korean>
+				<Chinesesimp>战术警察（霰弹枪）</Chinesesimp>
+				<Japanese>タクティカル警官（ショットガン）</Japanese>
+				<Turkish>Taktiksel Polis (Av Tüfeği)</Turkish>
 			</Key>
 			<Container name="Uniforms">
 				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_F0">
@@ -148,41 +165,41 @@
 			</Container>
 		</Container>
 		<Container name="ContentLicensing">
-			<Key ID="STR_A3_P_CfgMods_Police_overview">
-				<Original>**TO TRANSLATE**</Original>
-				<Chinese>**TO TRANSLATE**</Chinese>
-				<French>**TO TRANSLATE**</French>
-				<Spanish>**TO TRANSLATE**</Spanish>
-				<Italian>**TO TRANSLATE**</Italian>
-				<Polish>**TO TRANSLATE**</Polish>
-				<Russian>**TO TRANSLATE**</Russian>
-				<German>**TO TRANSLATE**</German>
-				<Czech>**TO TRANSLATE**</Czech>
-				<English>**TO TRANSLATE**</English>
-				<Portuguese>**TO TRANSLATE**</Portuguese>
-				<Korean>**TO TRANSLATE**</Korean>
-				<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
-				<Japanese>**TO TRANSLATE**</Japanese>
-				<Turkish>**TO TRANSLATE**</Turkish>
+			<Key ID="STR_A3_P_CfgMods_Police_overview0">
+				<Original>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Original>
+				<Chinese>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Chinese>
+				<French>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</French>
+				<Spanish>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Spanish>
+				<Italian>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Italian>
+				<Polish>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Polish>
+				<Russian>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Russian>
+				<German>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</German>
+				<Czech>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Czech>
+				<English>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</English>
+				<Portuguese>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Portuguese>
+				<Korean>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Korean>
+				<Chinesesimp>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Japanese>
+				<Turkish>Arma 3 Aegis - Police is a small addon for Arma 3 Aegis centered around ambiguous Police forces appropriate to the 2035 setting.</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgMods_Police_name">
-				<Original>Arma 3 Police</Original>
-				<Chinese>Arma 3 Police</Chinese>
-				<French>Arma 3 Police</French>
-				<Spanish>Arma 3 Police</Spanish>
-				<Italian>Arma 3 Police</Italian>
-				<Polish>Arma 3 Police</Polish>
-				<Russian>Arma 3 Police</Russian>
-				<German>Arma 3 Police</German>
-				<Czech>Arma 3 Police</Czech>
-				<English>Arma 3 Police</English>
-				<Portuguese>Arma 3 Police</Portuguese>
-				<Korean>Arma 3 Police</Korean>
-				<Chinesesimp>Arma 3 Police</Chinesesimp>
-				<Japanese>Arma 3 Police</Japanese>
-				<Turkish>Arma 3 Police</Turkish>
+			<Key ID="STR_A3_P_CfgMods_Police_name0">
+				<Original>Arma 3 Aegis - Police</Original>
+				<Chinese>Arma 3 Aegis - Police</Chinese>
+				<French>Arma 3 Aegis - Police</French>
+				<Spanish>Arma 3 Aegis - Police</Spanish>
+				<Italian>Arma 3 Aegis - Police</Italian>
+				<Polish>Arma 3 Aegis - Police</Polish>
+				<Russian>Arma 3 Aegis - Police</Russian>
+				<German>Arma 3 Aegis - Police</German>
+				<Czech>Arma 3 Aegis - Police</Czech>
+				<English>Arma 3 Aegis - Police</English>
+				<Portuguese>Arma 3 Aegis - Police</Portuguese>
+				<Korean>Arma 3 Aegis - Police</Korean>
+				<Chinesesimp>Arma 3 Aegis - Police</Chinesesimp>
+				<Japanese>Arma 3 Aegis - Police</Japanese>
+				<Turkish>Arma 3 Aegis - Police</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgMods_Police_nameShort">
+			<Key ID="STR_A3_P_CfgMods_Police_nameShort0">
 				<Original>Police</Original>
 				<Chinese>Police</Chinese>
 				<French>Police</French>
@@ -198,6 +215,42 @@
 				<Chinesesimp>Police</Chinesesimp>
 				<Japanese>Police</Japanese>
 				<Turkish>Police</Turkish>
+			</Key>
+		</Container>
+		<Container name="Soft_F">
+			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F0">
+				<Original>UGV Bag (Demining) [Police]</Original>
+				<English>UGV Bag (Demining) [Police]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [Polizei]</German>
+				<Russian>Сумка для БПА (разминирование) [Полиция]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [Policja]</Polish>
+				<Italian>Borsa UGV (sminamento) [Polizia]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [Policía]</Spanish>
+				<French>Sac drone terrestre (déminage) [Police]</French>
+				<Chinese>無人機袋子（掃雷）（警察）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[警察]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [경찰]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [Polícia]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[警察]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [Polis]</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0">
+				<Original>UGV Bag (Demining) [Police]</Original>
+				<English>UGV Bag (Demining) [Police]</English>
+				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
+				<German>UGV-Tragetasche (Minenräumung) [Polizei]</German>
+				<Russian>Сумка для БПА (разминирование) [Полиция]</Russian>
+				<Polish>Torba na UGV (przeciwminowy) [Policja]</Polish>
+				<Italian>Borsa UGV (sminamento) [Polizia]</Italian>
+				<Spanish>Bolsa de VTNT (desminador) [Policía]</Spanish>
+				<French>Sac drone terrestre (déminage) [Police]</French>
+				<Chinese>無人機袋子（掃雷）（警察）</Chinese>
+				<Japanese>UGV バッグ（地雷除去用）[警察]</Japanese>
+				<Korean>UGV 가방 (지뢰제거) [경찰]</Korean>
+				<Portuguese>Bolsa VTNT (desminagem) [Polícia]</Portuguese>
+				<Chinesesimp>UGV 包（排雷）[警察]</Chinesesimp>
+				<Turkish>UGV Çantası (Mayın Temizleme) [Polis]</Turkish>
 			</Key>
 		</Container>
 		<Container name="Supplies_F">
@@ -218,6 +271,27 @@
 					<Chinesesimp>电源箱 [警察]</Chinesesimp>
 					<Japanese>物資箱 [警察]</Japanese>
 					<Turkish>İkmal Kutusu [Polis]</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="Weapons_F">
+			<Container name="Items">
+				<Key ID="STR_A3_P_CfgWeapons_I_P_UavTerminal0">
+					<Original>UAV Terminal [Police]</Original>
+					<Chinese>無人機終端機（警察）</Chinese>
+					<French>Terminal drone [police]</French>
+					<Spanish>Terminal VANT [Policía]</Spanish>
+					<Italian>Terminale UAV [Polizia]</Italian>
+					<Polish>Terminal dronów [policja]</Polish>
+					<Russian>Терминал БПЛА [Полиция]</Russian>
+					<German>UAC-Terminal [Polizei]</German>
+					<Czech>UAV terminál [Policejní]</Czech>
+					<English>UAV Terminal [Police]</English>
+					<Portuguese>Terminal de VANT [Polícia]</Portuguese>
+					<Korean>무인기 단말[경찰]</Korean>
+					<Chinesesimp>UAV 终端 [警察]</Chinesesimp>
+					<Japanese>UAV ターミナル［警察］</Japanese>
+					<Turkish>İHA Terminali [Polis]</Turkish>
 				</Key>
 			</Container>
 		</Container>

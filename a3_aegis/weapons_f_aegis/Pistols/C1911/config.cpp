@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class MuzzleSlot;
 class SlotInfo;
@@ -45,33 +46,6 @@ class CfgWeapons
 			aiRateOfFire = 2;
 			aiRateOfFireDistance = 25;
 		};
-		bullet1[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_01",db-6,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_02",db-6,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_03",db-6,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_04",db-6,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_01",db-8,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_02",db-8,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_03",db-8,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_04",db-8,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_01",db-13,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_02",db-13,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_03",db-13,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_04",db-13,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
-		};
 		inertia = 0.2;
 		aimTransitionSpeed = 1.6;
 		dexterity = 1.8;
@@ -83,21 +57,25 @@ class CfgWeapons
 			mass = 20;
 			holsterScale = 0.95;
 			class CowsSlot{};
-			class MuzzleSlot: MuzzleSlot
+			class MuzzleSlot: asdg_MuzzleSlot_45ACP
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
 				compatibleItems[] =
 				{
 					muzzle_snds_acp,
 					muzzle_mzls_acp
 				};
+                */
 				iconPosition[] = {0.25,0.4};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
+                */
 				iconPosition[] = {0.2,0.45};
 				iconScale = 0.25;
 			};

@@ -1,13 +1,4 @@
-class I_G_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	mapSize = 10.25;
-	side = TGuerrila;
-	faction = IND_G_F;
-	crew = I_G_crew_F;
-	typicalCargo[] = {I_G_crew_F};
-};
-class I_G_APC_Wheeled_03_cannon_F: I_G_APC_Wheeled_03_base_F
+class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -209,67 +200,16 @@ class I_G_APC_Wheeled_03_cannon_F: I_G_APC_Wheeled_03_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
-	accuracy = 0.3;
-	displayName = $STR_A3_CfGVEHICLES_APC_WHEELED_03_WAPC0;
-	class Library
+	scopeCurator = public;
+	side = TGuerrila;
+	faction = IND_G_F;
+	crew = I_G_crew_F;
+	typicalCargo[] = {I_G_crew_F};
+	textureList[] =
 	{
-		libTextDesc = $STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0;
-	};
-	model = "\A3\Armor_F_Gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
-	picture = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
-	Icon = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\Map_APC_Wheeled_03_CA.paa";
-	memoryPointTaskMarker = TaskMarker_1_pos;
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-            weapons[] =
-            {
-                autocannon_30mm_CTWS,
-                LMG_coax_ext,
-                missiles_titan
-            };
-            magazines[] =
-            {
-                mag_2(140Rnd_30mm_MP_shells_Tracer_Yellow),
-                mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Yellow),
-                mag_10(200Rnd_762x51_Belt_Yellow),
-                mag_2(2Rnd_GAT_missiles)
-            };
-            soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
-            soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
-		};
-	};
-	class AnimationSources: AnimationSources
-	{
-		class Missiles_revolving
-		{
-            source = revolving;
-            weapon = missiles_titan;
-		};
-		class Missiles_reloadMagazine: Missiles_revolving
-		{
-		    source = reloadMagazine;
-		};
-		class muzzle_rot
-		{
-            source = ammorandom;
-            weapon = autocannon_30mm_CTWS;
-		};
-		class muzzle_hide
-		{
-            source = reload;
-            weapon = autocannon_30mm_CTWS;
-		};
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4,
-		camoNet,
-		camoSlat
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -280,23 +220,12 @@ class I_G_APC_Wheeled_03_cannon_F: I_G_APC_Wheeled_03_base_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
-	textureList[] =
+	class EventHandlers: EventHandlers
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };
-class B_G_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	mapSize = 10.25;
-	side = TWest;
-	faction = BLU_G_F;
-	crew = B_G_crew_F;
-	typicalCargo[] = {B_G_crew_F};
-};
-class B_G_APC_Wheeled_03_cannon_F: B_G_APC_Wheeled_03_base_F
+class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -498,67 +427,16 @@ class B_G_APC_Wheeled_03_cannon_F: B_G_APC_Wheeled_03_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
-	accuracy = 0.3;
-	displayName = $STR_A3_CfGVEHICLES_APC_WHEELED_03_WAPC0;
-	class Library
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_G_F;
+	crew = B_G_crew_F;
+	typicalCargo[] = {B_G_crew_F};
+	textureList[] =
 	{
-		libTextDesc = $STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0;
-	};
-	model = "\A3\Armor_F_Gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
-	picture = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
-	Icon = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\Map_APC_Wheeled_03_CA.paa";
-	memoryPointTaskMarker = TaskMarker_1_pos;
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-            weapons[] =
-            {
-                autocannon_30mm_CTWS,
-                LMG_coax_ext,
-                missiles_titan
-            };
-            magazines[] =
-            {
-                mag_2(140Rnd_30mm_MP_shells_Tracer_Yellow),
-                mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Yellow),
-                mag_10(200Rnd_762x51_Belt_Yellow),
-                mag_2(2Rnd_GAT_missiles)
-            };
-            soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
-            soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
-		};
-	};
-	class AnimationSources: AnimationSources
-	{
-		class Missiles_revolving
-		{
-            source = revolving;
-            weapon = missiles_titan;
-		};
-		class Missiles_reloadMagazine: Missiles_revolving
-		{
-		    source = reloadMagazine;
-		};
-		class muzzle_rot
-		{
-            source = ammorandom;
-            weapon = autocannon_30mm_CTWS;
-		};
-		class muzzle_hide
-		{
-            source = reload;
-            weapon = autocannon_30mm_CTWS;
-		};
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4,
-		camoNet,
-		camoSlat
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -569,23 +447,12 @@ class B_G_APC_Wheeled_03_cannon_F: B_G_APC_Wheeled_03_base_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
-	textureList[] =
+	class EventHandlers: EventHandlers
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };
-class O_G_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	mapSize = 10.25;
-	side = TEast;
-	faction = OPF_G_F;
-	crew = O_G_crew_F;
-	typicalCargo[] = {O_G_crew_F};
-};
-class O_G_APC_Wheeled_03_cannon_F: O_G_APC_Wheeled_03_base_F
+class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -787,67 +654,16 @@ class O_G_APC_Wheeled_03_cannon_F: O_G_APC_Wheeled_03_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
-	accuracy = 0.3;
-	displayName = $STR_A3_CfGVEHICLES_APC_WHEELED_03_WAPC0;
-	class Library
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_G_F;
+	crew = O_G_crew_F;
+	typicalCargo[] = {O_G_crew_F};
+	textureList[] =
 	{
-		libTextDesc = $STR_A3_CfgVehicles_APC_Wheeled_03_WAPC_Library0;
-	};
-	model = "\A3\Armor_F_Gamma\APC_Wheeled_03\APC_Wheeled_03_cannon_F.p3d";
-	picture = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\APC_Wheeled_03_CA.paa";
-	Icon = "\A3\Armor_F_Gamma\APC_Wheeled_03\Data\UI\Map_APC_Wheeled_03_CA.paa";
-	memoryPointTaskMarker = TaskMarker_1_pos;
-	class Turrets: Turrets
-	{
-		class MainTurret: MainTurret
-		{
-            weapons[] =
-            {
-                autocannon_30mm_CTWS,
-                LMG_coax_ext,
-                missiles_titan
-            };
-            magazines[] =
-            {
-                mag_2(140Rnd_30mm_MP_shells_Tracer_Yellow),
-                mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Yellow),
-                mag_10(200Rnd_762x51_Belt_Yellow),
-                mag_2(2Rnd_GAT_missiles)
-            };
-            soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
-            soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
-		};
-	};
-	class AnimationSources: AnimationSources
-	{
-		class Missiles_revolving
-		{
-            source = revolving;
-            weapon = missiles_titan;
-		};
-		class Missiles_reloadMagazine: Missiles_revolving
-		{
-		    source = reloadMagazine;
-		};
-		class muzzle_rot
-		{
-            source = ammorandom;
-            weapon = autocannon_30mm_CTWS;
-		};
-		class muzzle_hide
-		{
-            source = reload;
-            weapon = autocannon_30mm_CTWS;
-		};
-	};
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		camo3,
-		camo4,
-		camoNet,
-		camoSlat
+		Guerilla_01,1,
+		Guerilla_02,1,
+		Guerilla_03,1
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -858,10 +674,8 @@ class O_G_APC_Wheeled_03_cannon_F: O_G_APC_Wheeled_03_base_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
-	textureList[] =
+	class EventHandlers: EventHandlers
 	{
-		Guerilla_01,1,
-		Guerilla_02,1,
-		Guerilla_03,1
+		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
 	};
 };

@@ -1,9 +1,8 @@
-// Arma 3 Opposing Forces
 class U_O_ParamilitaryBody: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Militia Coveralls";
+	displayName = $STR_A3_O_CfgWeapons_U_O_ParamilitaryBody0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_O_ParamilitaryBody_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};

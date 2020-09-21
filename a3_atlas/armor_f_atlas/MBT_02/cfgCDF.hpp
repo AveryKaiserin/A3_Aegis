@@ -9,7 +9,7 @@ class I_CDF_MBT_02_base_F: MBT_02_base_F
 class I_CDF_MBT_02_cannon_F: I_CDF_MBT_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_MBT_02_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_CDF_MBT_02_cannon_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_MBT_02_base0;
 	textureList[] = {CDF,1};

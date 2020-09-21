@@ -45,6 +45,7 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
 };

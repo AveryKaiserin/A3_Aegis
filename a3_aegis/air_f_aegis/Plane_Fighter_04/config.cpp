@@ -42,21 +42,6 @@ class CfgVehicles
 				};
 				factions[] = {IND_E_F};
 			};
-			class Green
-			{
-				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_04\Data\Fighter_04_fuselage_01_green_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_04\Data\Fighter_04_fuselage_02_green_CO.paa",
-					"\A3\Air_F_Jets\Plane_Fighter_04\Data\Fighter_04_misc_01_CO.paa",
-					"\A3\Air_F_Jets\Plane_Fighter_04\Data\Numbers\Fighter_04_number_04_CA.paa",
-					"\A3\Air_F_Jets\Plane_Fighter_04\Data\Numbers\Fighter_04_number_01_CA.paa",
-					"\A3\Air_F_Jets\Plane_Fighter_04\Data\Numbers\Fighter_04_number_04_CA.paa"
-				};
-				factions[] = {IND_E_F};
-			};
 		};
 	};
 	class Ejection_Seat_Plane_Fighter_04_base_F;

@@ -9,7 +9,12 @@
 			A3_Armor_F_Tank_AFV_Wheeled_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO (Woodland)
+            B_W_AFV_Wheeled_01_cannon_F,
+            B_W_AFV_Wheeled_01_up_cannon_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

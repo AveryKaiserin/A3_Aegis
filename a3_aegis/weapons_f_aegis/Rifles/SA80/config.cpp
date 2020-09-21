@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_FullAuto;
 class SlotInfo;
@@ -58,7 +59,7 @@ class CfgWeapons
 		discreteDistanceInitIndex = 1;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_65
+			class MuzzleSlot: asdg_MuzzleSlot_65
 			{
 				iconPosition[] =
 				{
@@ -67,7 +68,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] =
 				{
@@ -76,7 +77,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{
@@ -98,7 +99,7 @@ class CfgWeapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			RPM(705);
+			reloadTime = 0.0851; // 705 RPM
 			dispersion = 0.00058;
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -109,7 +110,7 @@ class CfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
-			RPM(705);
+			reloadTime = 0.0851; // 705 RPM
 			dispersion = 0.00058;
 			minRange = 2;
 			minRangeProbab = 0.9;
@@ -171,7 +172,6 @@ class CfgWeapons
 	class arifle_SA80_GL_base_F: arifle_SA80_base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\SA80_GL_F.p3d";
-		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
@@ -179,9 +179,10 @@ class CfgWeapons
 		};
 		inertia = 0.6;
 		aimTransitionSpeed = 0.8;
+		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[] =
 				{
@@ -248,7 +249,8 @@ class CfgWeapons
 		maxZeroing = 600;
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot
+			class CowsSlot: asdg_OpticRail1913_short{};
+			class MuzzleSlot: asdg_MuzzleSlot_65
 			{
 				iconPosition[] =
 				{
@@ -257,7 +259,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
 				{
@@ -407,370 +409,5 @@ class CfgWeapons
 		};
 		magazines[] = {30Rnd_65x39_caseless_khaki_mag};
 	};
-	// L85A3 6.5 mm (Black) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_blk_aco_pointer_f: arifle_SA80_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Black) + Mk17 Holosight (Black) + IR Laser Pointer
-	class arifle_SA80_blk_holo_pointer_f: arifle_SA80_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Black) + ARCO (Black) + IR Laser Pointer
-	class arifle_SA80_blk_arco_pointer_f: arifle_SA80_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Black) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_GL_blk_aco_pointer_f: arifle_SA80_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Black) + ARCO (Black) + IR Laser Pointer
-	class arifle_SA80_GL_blk_arco_pointer_f: arifle_SA80_GL_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		_generalMacro = arifle_SA80_GL_blk_arco_pointer_f;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Black) + Mk17 Holosight (Black) + IR Laser Pointer
-	class arifle_SA80_C_blk_holo_pointer_f: arifle_SA80_C_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Black) + Mk17 Holosight (Black)
-	class arifle_SA80_C_blk_holo_f: arifle_SA80_C_blk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_blk_F;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Khaki) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_khk_aco_pointer_f: arifle_SA80_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Khaki) + Mk17 Holosight (Khaki) + IR Laser Pointer
-	class arifle_SA80_khk_holo_pointer_f: arifle_SA80_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Khaki) + ARCO (Black) + IR Laser Pointer
-	class arifle_SA80_khk_arco_pointer_f: arifle_SA80_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Khaki) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_GL_khk_aco_pointer_f: arifle_SA80_GL_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Khaki) + ARCO (Black) + IR Laser Pointer
-	class arifle_SA80_GL_khk_arco_pointer_f: arifle_SA80_GL_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_blk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Khaki) + Mk17 Holosight (Khaki) + IR Laser Pointer
-	class arifle_SA80_C_khk_holo_pointer_f: arifle_SA80_C_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Khaki) + Mk17 Holosight (Khaki)
-	class arifle_SA80_C_khk_holo_f: arifle_SA80_C_khk_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_khk_F;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Sand) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_snd_aco_pointer_f: arifle_SA80_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Sand) + Mk17 Holosight + IR Laser Pointer
-	class arifle_SA80_snd_holo_pointer_f: arifle_SA80_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 6.5 mm (Sand) + ARCO + IR Laser Pointer
-	class arifle_SA80_snd_arco_pointer_f: arifle_SA80_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Sand) + ACO (Red) + IR Laser Pointer
-	class arifle_SA80_GL_snd_aco_pointer_f: arifle_SA80_GL_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L85A3 GL 6.5 mm (Sand) + ARCO + IR Laser Pointer
-	class arifle_SA80_GL_snd_arco_pointer_f: arifle_SA80_GL_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Sand) + Mk17 Holosight + IR Laser Pointer
-	// L85A3 6.5 mm (Sand) + ARCO + IR Laser Pointer
-	class arifle_SA80_C_snd_holo_pointer_f: arifle_SA80_C_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_pointer_IR;
-			};
-		};
-	};
-	// L22A3 6.5 mm (Sand) + Mk17 Holosight
-	// L85A3 6.5 mm (Sand) + ARCO + IR Laser Pointer
-	class arifle_SA80_C_snd_holo_f: arifle_SA80_C_snd_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight;
-			};
-		};
-	};
+	#include "presets.hpp"
 };

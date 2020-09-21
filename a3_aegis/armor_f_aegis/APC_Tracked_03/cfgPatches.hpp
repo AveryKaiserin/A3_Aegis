@@ -10,7 +10,19 @@
 			A3_Armor_F_EPB_APC_Tracked_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // AAF
+            I_APC_tracked_03_cannon_v2_F,
+
+            // LDF
+            I_E_APC_tracked_03_cannon_v2_F,
+
+            // NATO (British)
+            B_A_APC_tracked_03_cannon_F,
+            B_A_APC_tracked_03_cannon_tna_F,
+            B_A_APC_tracked_03_cannon_wdl_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

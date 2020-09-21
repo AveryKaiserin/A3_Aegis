@@ -107,6 +107,7 @@ class CfgVehicles
 			"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 		};
 	};
+	class MBT_01_mlrs_base_F: MBT_01_base_F{};
 	class B_MBT_01_mlrs_F;
 	class B_MBT_01_TUSK_F: B_MBT_01_cannon_F
 	{
@@ -166,5 +167,35 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
+	/*
+	class MBT_01_mlrs_dynamicLoadout_base_F: MBT_01_mlrs_base_F
+	{
+		class Components: Components
+		{
+			class TransportPylonsComponent
+			{
+				UIPicture = "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\UI\MBT_01_MLRS_3DEN_CA.paa";
+				class pylons
+				{
+					class pylons1
+					{
+						maxweight = 15000;
+						hardpoints[] = {UNI_MLRS_PYLON};
+						attachment = "";
+						bay = -1;
+						priority = 1;
+						UIposition[] =
+						{
+							0.32,
+							0.28
+						};
+						turret[] = {MainTurret};
+						mirroredMissilePos = false;
+					};
+				};
+			};
+		};
+	};
+	*/
 	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
 };

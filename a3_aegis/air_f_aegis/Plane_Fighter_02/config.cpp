@@ -49,7 +49,11 @@ class CfgVehicles
 					"\A3\Air_F_Jets\Plane_Fighter_02\Data\Numbers\Fighter_02_number_01_CO.paa",
 					"\A3\Data_F\clear_empty.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 			class CamoGreenHex
 			{

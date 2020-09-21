@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class MuzzleSlot;
@@ -22,7 +23,7 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Pistols\G17\Data\UI\icon_hgun_G17_F_X_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
 		magazines[] = {17Rnd_9x21_Mag};
-		magazineWell[] = {Pistol_9x21};
+		magazineWell[] = {G17_9x21};
 		reloadAction = GestureReloadPistol;
 		recoil = recoil_pistol_g17;
 		displayname = $STR_A3_A_CfgWeapons_hgun_G17_F0;
@@ -42,33 +43,6 @@ class CfgWeapons
 			aiRateOfFire = 2;
 			aiRateOfFireDistance = 25;
 		};
-		bullet1[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_01",db-6,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_02",db-6,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_03",db-6,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_04",db-6,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_01",db-8,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_02",db-8,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_03",db-8,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_04",db-8,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_01",db-13,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_02",db-13,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_03",db-13,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_04",db-13,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
-		};
 		class Library
 		{
 			libTextDesc = $STR_A3_A_CfgWeapons_hgun_G17_F_Library0;
@@ -82,14 +56,16 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 20;
-			class MuzzleSlot: MuzzleSlot
+			class MuzzleSlot: asdg_MuzzleSlot_9MM
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
 				compatibleItems[] =
 				{
 					muzzle_snds_L,
 					muzzle_mzls_L
 				};
+                */
 				iconPosition[] =
 				{
 					0.22, // X
@@ -98,10 +74,12 @@ class CfgWeapons
 				iconScale = 0.2;
 			};
 			class CowsSlot{};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
+                /*
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
+                */
 				iconPosition[] =
 				{
 					0.36, // X
@@ -127,43 +105,5 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Pistols\G17\Data\G17_khaki_CO.paa"};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Pistols\G17\Data\UI\icon_hgun_G17_khaki_F_X_CA.paa";
 	};
-	// G17 9 mm + Sound Suppressor (9 mm)
-	class hgun_G17_snds_F: hgun_G17_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_L;
-			};
-		};
-	};
-	// G17 9 mm (Black) + Sound Suppressor (9 mm)
-	class hgun_G17_black_snds_F: hgun_G17_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_L;
-			};
-		};
-	};
-	// G17 9 mm (Khaki) + Sound Suppressor (9 mm)
-	class hgun_G17_khaki_snds_F: hgun_G17_khaki_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				slot = MuzzleSlot;
-				item = muzzle_snds_L;
-			};
-		};
-	};
+	#include "presets.hpp"
 };

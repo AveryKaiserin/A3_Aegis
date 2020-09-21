@@ -9,9 +9,15 @@ class CfgMods
 		logoSmall = "\A3_Atlas\Data_F_Atlas\Logos\arma3_Atlas_logo_small_CA.paa";
 		tooltip = $STR_A3_cfgMods_Atlas_name0;
 		tooltipOwned = $STR_A3_cfgMods_Atlas_name0;
-		action = "https://www.youtube.com/watch?v=lAIGb1lfpBw";
+		action = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516";
 		fieldManualTopicAndHint[] = {};
-		dlcColor[] = {0.58,0.82,0.89,1};
+		dlcColor[] =
+        {
+            0.58, // R
+            0.82, // G
+            0.89, // B
+            1 // A
+        };
 		overview = $STR_A3_cfgMods_Atlas_overview0;
 		logoTitle = "\A3_Atlas\Data_F_Atlas\Logos\arma3_Atlas_logoTitle_CA.paa";
 		hideName = true;

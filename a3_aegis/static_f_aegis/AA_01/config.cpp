@@ -15,33 +15,21 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] +=
-			{
-				B_HMG_01_support_grn_F,
-				O_R_HMG_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 		};
 	};
 	class O_AA_01_weapon_F: Weapon_Bag_Base
 	{
 		class assembleInfo: assembleInfo
 		{
-			base[] +=
-			{
-				B_HMG_01_support_grn_F,
-				O_R_HMG_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 		};
 	};
 	class I_AA_01_weapon_F: Weapon_Bag_Base
 	{
 		class assembleInfo: assembleInfo
 		{
-			base[] +=
-			{
-				B_HMG_01_support_grn_F,
-				O_R_HMG_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 		};
 	};
 	// Arma 3 Apex
@@ -73,5 +61,4 @@ class CfgVehicles
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

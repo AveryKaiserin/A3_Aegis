@@ -1,5 +1,12 @@
 class CfgUnitInsignia
 {
+	class CSAT_BearRegiment
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_BearRegiment0;
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\CSAT_BearRegiment_CA.paa";
+		author = $STR_A3_A_Kydoimos;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 	class NATO_31stBattalion
 	{
 		displayName = $STR_A3_A_CfgUnitInsignia_NATO_31stBattalion0;
@@ -14,32 +21,34 @@ class CfgUnitInsignia
 		author = $STR_A3_A_Kydoimos;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class HIDF_Placeholder
+    /*
+	class ADF_Placeholder
 	{
-		displayName = "HIDF placeholder insignia";
-		//texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\HIDF_Placeholder_CA.paa";
+		displayName = "ADF placeholder insignia";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\ADF_Placeholder_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class IDF_Placeholder
+	class HIMF_Placeholder
 	{
-		displayName = "HIDF placeholder insignia";
-		//texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\IDF_Placeholder_CA.paa";
+		displayName = "HIMF placeholder insignia";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\HIMF_Placeholder_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class CDF_Placeholder
 	{
 		displayName = "CDF placeholder insignia";
-		//texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\CDF_Placeholder_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\CDF_Placeholder_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class ADF_Placeholder
+	class IDF_Placeholder
 	{
-		displayName = "ADF placeholder insignia";
-		//texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\ADF_Placeholder_CA.paa";
+		displayName = "HIDF placeholder insignia";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgUnitInsignia\IDF_Placeholder_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+    */
 };

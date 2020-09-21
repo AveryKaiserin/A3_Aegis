@@ -20,15 +20,15 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class IDF
+			class Brown
 			{
-				DisplayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+				DisplayName = $STR_A3_TEXTURESOURCES_BROWN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_IDF_CO.paa",
-					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_IDF_CO.paa",
-					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_brown_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_brown_CO.paa",
+					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
 				};
 				factions[] = {IND_I_F};
 			};
@@ -47,18 +47,23 @@ class CfgVehicles
 	{
 		class TextureSources: TextureSources
 		{
-			class IDF: IDF
+			class Brown: Brown
 			{
 				textures[] =
 				{
-					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_medevac_IDF_CO.paa",
-					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_IDF_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_medevac_brown_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_brown_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"
-	#include "cfgIDF.hpp"
+	#include "cfgLegion.hpp"            // Legion
+	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    /*
+	#include "cfgADF.hpp"               // ADF
+	#include "cfgCDF.hpp"               // CDF
+    */
+	#include "cfgIDF.hpp"               // IDF
 };

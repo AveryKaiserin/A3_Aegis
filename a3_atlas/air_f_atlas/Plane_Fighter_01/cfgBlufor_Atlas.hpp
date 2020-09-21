@@ -197,44 +197,30 @@ class B_E_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 		verticalOffsetWorld = -0.051;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_E_F;
 	crew = B_E_Fighter_Pilot_F;
 	typicalCargo[] = {B_E_Fighter_Pilot_F};
-	textureList[] = {DarkGrey,1};
+	textureList[] = {/*DarkGrey,1*/};
 	hiddenSelectionsTextures[] =
-	{
+    {
         "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa"
-	};
-	class TextureSources: TextureSources
-	{
-		class DarkGrey: DarkGrey
-		{
-            textures[] =
-            {
-                "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
-				"\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa"
-            };
-            factions[] = {BLU_E_F};
-		};
-	};
+        "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_01_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_00_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_01_CA.paa"
+    };
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_E_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_E_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
 class B_E_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
@@ -436,44 +422,30 @@ class B_E_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 		verticalOffsetWorld = -0.051;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_Stealth_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Plane_Fighter_01_Stealth_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_E_F;
 	crew = B_E_Fighter_Pilot_F;
 	typicalCargo[] = {B_E_Fighter_Pilot_F};
-	textureList[] = {DarkGrey,1};
+	textureList[] = {/*DarkGrey,1*/};
 	hiddenSelectionsTextures[] =
-	{
+    {
         "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
-		"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa"
-	};
-	class TextureSources: TextureSources
-	{
-		class DarkGrey: DarkGrey
-		{
-            textures[] =
-            {
-                "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
-				"\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
-				"\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa"
-            };
-            factions[] = {BLU_E_F};
-		};
-	};
+        "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_02_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_glass_01_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_01_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_02_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_03_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Fighter_01_cockpit_05_CO.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_01_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_00_CA.paa",
+        "\A3\Air_F_Jets\Plane_Fighter_01\Data\Numbers\Fighter_01_01_CA.paa"
+    };
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_E_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_E_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
 class B_E_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F

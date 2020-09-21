@@ -176,7 +176,7 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 		verticalOffsetWorld = -0.195;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_AA_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_AA_F0;
@@ -205,7 +205,7 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellYellow,8);
 		mag_xx(SmokeShellOrange,8);
-		mag_xx(MRAWS_HEAT55_F,3);
+		mag_xx(MRAWS_HEAT_F,3);
 		mag_xx(MRAWS_HE_F,3);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
@@ -217,11 +217,12 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_body_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_IDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_body_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_brown_CO.paa",
 		"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 	};
+    textureList[] = {Brown,1};
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -239,15 +240,15 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 	};
 	class TextureSources
 	{
-		class IDF
+		class Brown
 		{
-			displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+			displayName = $STR_A3_TEXTURESOURCES_BROWN0;
 			author = $STR_A3_A_AveryTheKitty;
 			textures[] =
 			{
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_body_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_IDF_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_body_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
 			factions[] = {IND_I_F};
@@ -385,7 +386,7 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_CRV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_CRV_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_CRV_F0;
@@ -414,7 +415,7 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellYellow,8);
 		mag_xx(SmokeShellOrange,8);
-		mag_xx(MRAWS_HEAT55_F,3);
+		mag_xx(MRAWS_HEAT_F,3);
 		mag_xx(MRAWS_HE_F,3);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
@@ -426,12 +427,13 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_CRV_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_CRV_IDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_CRV_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_CRV_brown_CO.paa",
 		"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 	};
+    textureList[] = {Brown,1};
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -442,16 +444,16 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 	};
 	class TextureSources
 	{
-		class IDF
+		class Brown
 		{
-			displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+			displayName = $STR_A3_TEXTURESOURCES_BROWN0;
 			author = $STR_A3_A_AveryTheKitty;
 			textures[] =
 			{
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_CRV_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_CRV_IDF_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_CRV_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_CRV_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
 			factions[] = {IND_I_F};
@@ -589,7 +591,7 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		verticalOffsetWorld = -0.191;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_rcws_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_APC_Tracked_01_rcws_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_rcws_F0;
@@ -618,7 +620,7 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellYellow,8);
 		mag_xx(SmokeShellOrange,8);
-		mag_xx(MRAWS_HEAT55_F,3);
+		mag_xx(MRAWS_HEAT_F,3);
 		mag_xx(MRAWS_HE_F,3);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
@@ -630,11 +632,12 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_IDF_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_brown_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
 		"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 	};
+    textureList[] = {Brown,1};
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -649,15 +652,15 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	};
 	class TextureSources
 	{
-		class IDF
+		class Brown
 		{
-			displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
+			displayName = $STR_A3_TEXTURESOURCES_BROWN0;
 			author = $STR_A3_A_AveryTheKitty;
 			textures[] =
 			{
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_IDF_CO.paa",
-				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_IDF_CO.paa",
-				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_IDF_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_body_brown_CO.paa",
+				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\MBT_01_body_brown_CO.paa",
+				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
 			factions[] = {IND_I_F};

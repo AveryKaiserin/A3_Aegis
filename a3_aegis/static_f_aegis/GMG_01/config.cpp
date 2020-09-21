@@ -88,15 +88,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] =
-			{
-				B_HMG_01_support_F,
-				O_HMG_01_support_F,
-				I_HMG_01_support_F,
-				B_HMG_01_support_grn_F,
-				I_E_HMG_01_support_F,
-				O_R_HMG_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 		};
 	};
 	class I_GMG_01_weapon_F: B_GMG_01_weapon_F{};
@@ -105,15 +97,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
 		class assembleInfo: assembleInfo
 		{
-			base[] =
-			{
-				B_HMG_01_support_F,
-				O_HMG_01_support_F,
-				I_HMG_01_support_F,
-				B_HMG_01_support_grn_F,
-				I_E_HMG_01_support_F,
-				O_R_HMG_01_support_F
-			};
+			base[] = {STATIC_SUPPORT_BAGS_HMG_01};
 		};
 	};
 	class I_GMG_01_A_weapon_F: B_GMG_01_A_weapon_F{};
@@ -157,5 +141,4 @@ class CfgVehicles
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgOpfor_Aegis.hpp"
 };

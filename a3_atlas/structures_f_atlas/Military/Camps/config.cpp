@@ -1,5 +1,6 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+/*
 class CfgVehicles
 {
 	// Arma 3
@@ -42,7 +43,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Land_DeconTent_01_cdf_F.jpg";
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Land_DeconTent_01_cdf_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_DeconTent_01_cdf_F0;
@@ -63,7 +64,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_open_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_open_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_ConnectorTent_01_cdf_open_F0;
@@ -84,7 +85,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_closed_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_closed_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_ConnectorTent_01_cdf_closed_F0;
@@ -105,7 +106,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_cross_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_ConnectorTent_01_cdf_cross_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_ConnectorTent_01_cdf_cross_F0;
@@ -135,7 +136,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_closed_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_closed_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_MedicalTent_01_cdf_closed_F0;
@@ -164,7 +165,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_inner_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_inner_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_MedicalTent_01_cdf_generic_inner_F0;
@@ -222,7 +223,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_closed_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_closed_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_MedicalTent_01_cdf_generic_closed_F0;
@@ -276,7 +277,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_open_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_open_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_MedicalTent_01_cdf_generic_open_F0;
@@ -337,7 +338,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-		//editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_outer_F.jpg";
+		editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\Land_MedicalTent_01_cdf_generic_outer_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_MedicalTent_01_cdf_generic_outer_F0;
@@ -375,3 +376,4 @@ class CfgVehicles
 		};
 	};
 };
+*/

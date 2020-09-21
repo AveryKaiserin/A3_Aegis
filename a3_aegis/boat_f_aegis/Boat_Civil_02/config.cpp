@@ -5,6 +5,7 @@ class CfgVehicles
 	class Ship_F;
 	class Boat_F: Ship_F
 	{
+        class AnimationSources;
 		class EventHandlers;
 	};
 	class Boat_Civil_02_base_F: Boat_F
@@ -99,18 +100,20 @@ class CfgVehicles
 				"A3_Aegis\Boat_F_Aegis\Boat_Civil_02\Data\Boat_Civil_02_damage.rvmat"
 			};
 		};
-		class AnimationSources
+		class AnimationSources: AnimationSources
 		{
 			class HideCover
 			{
 				displayName = $STR_A3_C_CfgVehicles_Offroad_01_military_covered_base_F_AnimationSources_HideCover0;
 				author = $STR_A3_A_AveryTheKitty;
-				source = Proxy;
+                scope = public;
+				source = user;
 				animPeriod = 0.001;
 				initPhase = false;
+				mass = -5;
 			};
 		};
-		animationList[] = {HideCover,0.67};
+		animationList[] = {HideCover,0.5};
 		class MarkerLights
 		{
 			class PositionRed

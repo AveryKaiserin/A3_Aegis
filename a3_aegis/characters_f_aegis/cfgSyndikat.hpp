@@ -112,6 +112,10 @@ class I_C_Soldier_Bandit_6_F: I_C_Soldier_base_F
 		DefaultManGuerillaLinkedItems
 	};
 };
+class I_C_Soldier_universal_F: I_C_Soldier_Para_1_F
+{
+	scopeCurator = private;
+};
 class I_C_Soldier_base_unarmed_F: I_C_Soldier_Para_1_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Soldier_base_unarmed_F.jpg";
@@ -125,6 +129,11 @@ class I_C_Soldier_base_unarmed_F: I_C_Soldier_Para_1_F
 		V_TacChestrig_cbr_F,
 		DefaultManGuerillaLinkedItems
 	};
+};
+// Arma 3 Oldman
+class SyndikatSoldier_Default: I_C_Soldier_Para_1_F
+{
+	scopeCurator = private;
 };
 // Arma 3 Aegis
 class I_C_Sharpshooter_F: I_C_Soldier_base_F

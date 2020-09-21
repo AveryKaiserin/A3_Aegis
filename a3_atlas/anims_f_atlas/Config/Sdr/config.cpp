@@ -5,12 +5,24 @@ class CfgMovesBasic
 	class Default;
 	class ManActions
 	{
+		GestureReloadAUG = "";
+		GestureReloadAUGSMG = "";
 		GestureReloadG36 = "";
 	};
 	class Actions
 	{
 		class NoActions: ManActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUG,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMG,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36,
@@ -20,6 +32,16 @@ class CfgMovesBasic
 		class RifleBaseStandActions;
 		class RifleProneActions: RifleBaseStandActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGProne,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGProne,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Prone,
@@ -29,6 +51,16 @@ class CfgMovesBasic
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGContext,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGContext,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Context,
@@ -37,6 +69,16 @@ class CfgMovesBasic
 		};
 		class RifleAdjustLProneActions: RifleAdjustProneBaseActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGContext,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGContext,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Context,
@@ -45,6 +87,16 @@ class CfgMovesBasic
 		};
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGContext,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGContext,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Context,
@@ -54,6 +106,16 @@ class CfgMovesBasic
 		class PistolStandActions;
 		class PistolProneActions: PistolStandActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGProne,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGProne,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Prone,
@@ -62,6 +124,16 @@ class CfgMovesBasic
 		};
 		class DeployedProneActions: RifleProneActions
 		{
+			GestureReloadAUG[] =
+			{
+				GestureReloadAUGProne,
+				Gesture
+			};
+			GestureReloadAUGSMG[] =
+			{
+				GestureReloadAUGSMGProne,
+				Gesture
+			};
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Prone,
@@ -100,6 +172,76 @@ class CfgGesturesMale
 	class States
 	{
 		class GestureReloadBase;
+		class GestureReloadAUG: GestureReloadBase
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadAUG.rtm";
+			speed = 0.18;
+            mask = handsWeapon;
+            headBobStrength = 0.22;
+            headBobMode = 2;
+			weaponIK = true;
+			leftHandIKCurve[] =
+			{
+				0,true,
+				0.036,false,
+				0.836,false,
+				0.873,true
+			};
+		};
+		class GestureReloadAUGProne: GestureReloadAUG
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadAUGProne.rtm";
+			leftHandIKCurve[] =
+			{
+				0,true,
+				0.036,false,
+				0.836,false,
+				0.873,true
+			};
+		};
+		class GestureReloadAUGContext: GestureReloadAUG
+		{
+			mask = handsWeapon_context;
+		};
+		class GestureReloadAUGContextAnimDrive: GestureReloadAUG
+		{
+			mask = handsWeapon_contextAnimDrive;
+		};
+		class GestureReloadAUGSMG: GestureReloadBase
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadAUGSMG.rtm";
+			speed = 0.18;
+            mask = handsWeapon;
+            headBobStrength = 0.22;
+            headBobMode = 2;
+			weaponIK = true;
+			leftHandIKCurve[] =
+			{
+				0,true,
+				0.036,false,
+				0.836,false,
+				0.873,true
+			};
+		};
+		class GestureReloadAUGSMGProne: GestureReloadAUGSMG
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadAUGSMGProne.rtm";
+			leftHandIKCurve[] =
+			{
+				0,true,
+				0.036,false,
+				0.836,false,
+				0.873,true
+			};
+		};
+		class GestureReloadAUGSMGContext: GestureReloadAUGSMG
+		{
+			mask = handsWeapon_context;
+		};
+		class GestureReloadAUGSMGContextAnimDrive: GestureReloadAUGSMG
+		{
+			mask = handsWeapon_contextAnimDrive;
+		};
 		class GestureReloadG36: GestureReloadBase
 		{
 			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadG36.rtm";
@@ -119,7 +261,6 @@ class CfgGesturesMale
 		class GestureReloadG36Prone: GestureReloadG36
 		{
 			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadG36Prone.rtm";
-//			mask = BodyFull;
 			leftHandIKCurve[] =
 			{
 				0,true,

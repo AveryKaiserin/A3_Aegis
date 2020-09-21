@@ -13,7 +13,7 @@ aileronSensitivity = 1.3;
 elevatorSensitivity = 1.5;
 // CONTROLS - sensitivity/speed in which control surface reaches its maximum extent, IE sensitivity for the player
 elevatorControlsSensitivityCoef = 4.2; // default value is 4
-aileronControlsSensitivityCoef = 4.0; // default value is 4
+aileronControlsSensitivityCoef = 5.4; // default value is 4
 rudderControlsSensitivityCoef = 4.0; // default value is 4
 envelope[] =
 {
@@ -21,18 +21,18 @@ envelope[] =
 	// the first element of the array is for zero speed, the last for 125 % of maxSpeed, the rest in between is evenly distributed
 	// there may be as many elements as you wish, using 13 should be preferred as it modulates the 10% increase with reasonable error
 	0.0, // 0%
-	0.51, // 10%
-	0.81, // 20%
-	1.11, // 30%
-	2.0, // 40%
-	2.8, // 50%
-	4.0, // 60%
-	5.31, // 70%
-	7.25, // 80%
-	8.8, // 90%
-	9.1, // 100%
-	8.6, // 110%
-	8.1, // 125%
+	0.34, // 10%
+    2.61, // 20%
+	3.24, // 30%
+	3.58, // 40%
+	3.79, // 50%
+	4.01, // 60%
+	4.2, // 70%
+	4.37, // 80%
+	4.42, // 90%
+	5.0, // 100%
+	4.01, // 110%
+	3.53, // 125%
 };
 // rudder, elevator, aileron, thrust effectiveness; if empty old settings is used
 // effectiveness according to current speed and maxSpeed ratio
@@ -108,7 +108,7 @@ rudderCoef[] =
 	0.6, // 135%
 	0.3	// 150%
 };
-angleOfIndicence = (rad 2) /*-1.0*3.1415/180*/; // difference between forward and airfold chord line in radians
+angleOfIndicence = (rad 3) /*-1.0*3.1415/180*/; // difference between forward and airfold chord line in radians
 // FORCES - how good the airplane changes the flight vector or alignes with it
 draconicForceXCoef = 7.0; //7.5, left and right
 draconicForceYCoef = 1.1; //1, up and down

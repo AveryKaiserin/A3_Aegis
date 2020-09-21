@@ -19,5 +19,6 @@ class CfgVehicles
 	// Arma 3
 	class Vest_Base_F;
 	// Arma 3 Opposing Forces
-	VEST_HOLDER(V_Pocketed_wdl_F,"Multi-Pocket Vest (Woodland)")
+	VEST_HOLDER(V_Pocketed_hunter_F,$STR_A3_O_CfgWeapons_V_Pocketed_hunter_F0)
+	VEST_HOLDER(V_Pocketed_wdl_F,$STR_A3_O_CfgWeapons_V_Pocketed_wdl_F0)
 };

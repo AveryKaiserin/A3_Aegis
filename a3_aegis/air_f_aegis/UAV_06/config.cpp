@@ -22,7 +22,11 @@ class CfgVehicles
 				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_CO.paa"};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 		};
 	};
@@ -52,7 +56,11 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
 			};
 		};
 	};

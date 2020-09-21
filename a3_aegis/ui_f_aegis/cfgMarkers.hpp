@@ -31,11 +31,11 @@ class CfgMarkers
 		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Argana_CA.paa";
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Argana_CA.paa";
 	};
-	class flag_Belarus: flag_NATO
+	class flag_Bocano: flag_NATO
 	{
-		name = $STR_A3_A_CfgMarkers_flag_Belarus;
-		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Belarus_CA.paa";
-		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Belarus_CA.paa";
+		name = $STR_A3_A_CfgMarkers_flag_Bocano;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Bocano_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Bocano_CA.paa";
 	};
 	class flag_China: flag_NATO
 	{
@@ -84,5 +84,65 @@ class CfgMarkers
 		name = $STR_A3_A_CfgMarkers_flag_Macedonia;
 		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Macedonia_CA.paa";
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Macedonia_CA.paa";
+	};
+	class flag_Algeria: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Algeria;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Algeria_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Algeria_CA.paa";
+	};
+	class flag_Iraq: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Iraq;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Iraq_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Iraq_CA.paa";
+	};
+	class flag_Jordan: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Jordan;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Jordan_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Jordan_CA.paa";
+	};
+	class flag_Libya: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Libya;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Libya_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Libya_CA.paa";
+	};
+	class flag_Morocco: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Morocco;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Morocco_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Morocco_CA.paa";
+	};
+	class flag_NorthKorea: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_NorthKorea;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\NorthKorea_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\NorthKorea_CA.paa";
+	};
+	class flag_Pakistan: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Pakistan;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Pakistan_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Pakistan_CA.paa";
+	};
+	class flag_Syria: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Syria;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Syria_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Syria_CA.paa";
+	};
+	class flag_Tunisia: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Tunisia;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Tunisia_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Tunisia_CA.paa";
+	};
+	class flag_Turkey: flag_NATO
+	{
+		name = $STR_A3_A_CfgMarkers_flag_Turkey;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Turkey_CA.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\Turkey_CA.paa";
 	};
 };

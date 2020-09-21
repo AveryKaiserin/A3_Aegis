@@ -20,13 +20,13 @@ class B_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 		verticalOffsetWorld =-0.051;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Base_F0;
 };
 class B_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Stealth_F0;
 	radarTargetSize = 0.4;

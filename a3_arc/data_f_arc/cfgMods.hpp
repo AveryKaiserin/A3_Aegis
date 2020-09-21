@@ -11,7 +11,13 @@ class CfgMods
 		tooltipOwned = $STR_A3_A_CfgMods_Arctic_name0;
 		action = "";
 		fieldManualTopicAndHint[] = {};
-		dlcColor[] = {0.46,0.73,0.77,1};
+		dlcColor[] =
+        {
+            0.46, // R
+            0.73, // G
+            0.77, // B
+            1 // A
+        };
 		overview = $STR_A3_A_CfgMods_Arctic_overview0;
 		logoTitle = "\A3_Arc\Data_F_Arc\Logos\arma3_Arctic_logoTitle_CA.paa";
 		hideName = true;

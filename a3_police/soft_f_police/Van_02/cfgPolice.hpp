@@ -2,8 +2,8 @@ class I_P_Van_02_transport_F: Van_02_transport_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Van_02_transport_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = private;
 	side = TGuerrila;
 	faction = IND_P_F;
 	crew = I_P_PoliceOfficer_F;
@@ -31,8 +31,8 @@ class I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Van_02_vehicle_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = private;
 	side = TGuerrila;
 	faction = IND_P_F;
 	crew = I_P_PoliceOfficer_F;

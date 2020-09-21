@@ -9,7 +9,15 @@ class CfgPatches
 			A3_Static_F_Sams_SAM_System_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // CSAT (Pacific)
+            O_T_SAM_System_04_F,
+            
+            // Russia
+            O_R_SAM_System_04_ard_F,
+            O_R_SAM_System_04_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

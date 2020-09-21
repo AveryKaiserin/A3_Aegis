@@ -19,7 +19,7 @@ class B_W_UGV_02_Demining_F: UGV_02_Demining_Base_F
 class B_W_UGV_02_Science_F: UGV_02_Science_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_UGV_02_Science_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_UGV_02_Science_F.jpg";
 	scope = protected;
 	scopeCurator = private;
 	displayName = $STR_A3_C_CfgVehicles_I_UGV_02_Science_F0;

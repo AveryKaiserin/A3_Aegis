@@ -10,20 +10,21 @@ class CfgVehicles
 		{
 			class Blue
 			{
-				factions[] =
+				factions[] +=
 				{
 					BLU_F,
-					BLU_T_F,
 					BLU_W_F
 				};
 			};
 			class Olive
 			{
-				factions[] =
+				factions[] +=
 				{
 					BLU_F,
-					BLU_T_F,
-					BLU_W_F
+					BLU_W_F,
+					BLU_A_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 		};
@@ -32,6 +33,7 @@ class CfgVehicles
 	class VTOL_01_vehicle_base_F;
 	class VTOL_01_armed_base_F;
 	// Arma 3 Aegis
-	#include "cfgBlufor.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
 };

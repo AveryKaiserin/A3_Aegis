@@ -18,13 +18,13 @@ class I_G_Soldier_base_F: SoldierGB
 	};
 	linkedItems[] =
 	{
-		H_Shemag_olive,
+		H_ShemagOpen_khk,
 		V_TacChestRig_oli_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Shemag_olive,
+		H_ShemagOpen_khk,
 		V_TacChestRig_oli_F,
 		DefaultManGuerillaLinkedItems
 	};
@@ -32,12 +32,6 @@ class I_G_Soldier_base_F: SoldierGB
 class I_G_Soldier_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_F.jpg";
-    hiddenSelections[] =
-    {
-        camo1,
-        camo2,
-        camo3
-    };
     allowedHeadgear[] =
     {
         H_Bandanna_gry,
@@ -83,8 +77,8 @@ class I_G_Soldier_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -137,8 +131,8 @@ class I_G_Soldier_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -150,12 +144,6 @@ class I_G_Soldier_F: I_G_Soldier_base_F
 };
 class I_G_Soldier_lite_F: I_G_Soldier_base_F
 {
-    hiddenSelections[] =
-    {
-        camo1,
-        camo2,
-        camo3
-    };
     hiddenSelectionsTextures[] =
     {
         "\A3\Characters_F\Civil\Data\C_Cloth1_kabeiroi_CO.paa",
@@ -219,8 +207,8 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -273,8 +261,8 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -287,6 +275,20 @@ class I_G_Soldier_lite_F: I_G_Soldier_base_F
 class I_G_Soldier_SL_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_SL_F.jpg";
+	weapons[] =
+    {
+        arifle_TRG21_MRCO_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons,
+        Binocular
+    };
+	respawnWeapons[] =
+    {
+        arifle_TRG21_MRCO_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons,
+        Binocular
+    };
 	magazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
@@ -295,9 +297,7 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	respawnMagazines[] =
 	{
@@ -307,9 +307,7 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	linkedItems[] =
 	{
@@ -368,8 +366,8 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -422,8 +420,8 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -445,13 +443,9 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         MiniGrenade,
         mag_3(1Rnd_HE_Grenade_shell),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue,
+        SOLDIER_SMOKE_SHELLS_FIA,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell
+        SOLDIER_SMOKE_GRENADES_FIA
 	};
 	respawnMagazines[] =
 	{
@@ -462,13 +456,9 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         MiniGrenade,
         mag_3(1Rnd_HE_Grenade_shell),
         SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue,
+        SOLDIER_SMOKE_SHELLS_FIA,
         1Rnd_Smoke_Grenade_shell,
-		1Rnd_SmokeGreen_Grenade_shell,
-		1Rnd_SmokeRed_Grenade_shell,
-		1Rnd_SmokeBlue_Grenade_shell
+        SOLDIER_SMOKE_GRENADES_FIA
 	};
     allowedHeadgear[] =
     {
@@ -515,8 +505,8 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -569,8 +559,8 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -642,8 +632,8 @@ class I_G_Soldier_AR_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -696,8 +686,8 @@ class I_G_Soldier_AR_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -710,9 +700,19 @@ class I_G_Soldier_AR_F: I_G_Soldier_base_F
 class I_G_medic_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_medic_F.jpg";
+	weapons[] =
+    {
+        arifle_AKM_F,
+        DefaultManWeapons
+    };
+	respawnWeapons[] =
+    {
+        arifle_AKM_F,
+        DefaultManWeapons
+    };
 	magazines[] =
 	{
-        mag_6(30Rnd_556x45_Stanag),
+        mag_6(30Rnd_762x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         MiniGrenade,
@@ -723,7 +723,7 @@ class I_G_medic_F: I_G_Soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_556x45_Stanag),
+        mag_6(30Rnd_762x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         MiniGrenade,
@@ -777,8 +777,8 @@ class I_G_medic_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -831,8 +831,8 @@ class I_G_medic_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -845,25 +845,31 @@ class I_G_medic_F: I_G_Soldier_base_F
 class I_G_engineer_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_engineer_F.jpg";
+	weapons[] =
+    {
+        arifle_AKS_F,
+        DefaultManWeapons
+    };
+	respawnWeapons[] =
+    {
+        arifle_AKS_F,
+        DefaultManWeapons
+    };
 	magazines[] =
 	{
-        mag_6(30Rnd_556x45_Stanag),
+        mag_6(30Rnd_545x39_Mag_F),
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	respawnMagazines[] =
 	{
-        mag_6(30Rnd_556x45_Stanag),
+        mag_6(30Rnd_545x39_Mag_F),
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	linkedItems[] =
 	{
@@ -922,8 +928,8 @@ class I_G_engineer_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -976,8 +982,8 @@ class I_G_engineer_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1063,8 +1069,8 @@ class I_G_Soldier_exp_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1117,8 +1123,8 @@ class I_G_Soldier_exp_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1206,8 +1212,8 @@ class I_G_Soldier_GL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1260,8 +1266,8 @@ class I_G_Soldier_GL_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1334,8 +1340,8 @@ class I_G_Soldier_M_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1388,8 +1394,8 @@ class I_G_Soldier_M_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1463,8 +1469,8 @@ class I_G_Soldier_LAT_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1517,8 +1523,8 @@ class I_G_Soldier_LAT_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1532,16 +1538,10 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_A_F.jpg";
 	uniformClass = U_IG_Guerilla1_2_F;
-    hiddenSelections[] =
-    {
-        camo1,
-        camo2,
-        camo3
-    };
     hiddenSelectionsTextures[] =
     {
-        "A3\Characters_F_Orange\Uniforms\Data\C_Cloth1_olive_CO.paa",
-        "A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
+        "\A3\Characters_F_Orange\Uniforms\Data\C_Cloth1_olive_CO.paa",
+        "\A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
     };
 	magazines[] =
 	{
@@ -1614,8 +1614,8 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -1668,8 +1668,8 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -1682,21 +1682,29 @@ class I_G_Soldier_A_F: I_G_Soldier_base_F
 class I_G_officer_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_officer_F.jpg";
+	weapons[] =
+    {
+        arifle_AKS_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+	respawnweapons[] =
+    {
+        arifle_AKS_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
 	magazines[] =
 	{
-        mag_4(30Rnd_556x45_Stanag),
+        mag_4(30Rnd_545x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	respawnMagazines[] =
 	{
-        mag_4(30Rnd_556x45_Stanag),
+        mag_4(30Rnd_545x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
+        SOLDIER_SMOKE_SHELLS_FIA
 	};
 	linkedItems[] =
 	{
@@ -1715,11 +1723,11 @@ class I_G_officer_F: I_G_Soldier_base_F
 };
 class B_G_Soldier_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_F.jpg";
 };
 class O_G_Soldier_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_F.jpg";
 };
 class B_G_Soldier_lite_F: I_G_Soldier_lite_F
 {
@@ -1731,75 +1739,75 @@ class O_G_Soldier_lite_F: I_G_Soldier_lite_F
 };
 class B_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_SL_F.jpg";
 };
 class O_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_SL_F.jpg";
 };
 class B_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_TL_F.jpg";
 };
 class O_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_TL_F.jpg";
 };
 class B_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_AR_F.jpg";
 };
 class O_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_AR_F.jpg";
 };
 class B_G_medic_F: I_G_medic_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_medic_F.jpg";
 };
 class O_G_medic_F: I_G_medic_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_medic_F.jpg";
 };
 class B_G_engineer_F: I_G_engineer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_engineer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_engineer_F.jpg";
 };
 class O_G_engineer_F: I_G_engineer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_engineer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_engineer_F.jpg";
 };
 class B_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_exp_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_exp_F.jpg";
 };
 class O_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_exp_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_exp_F.jpg";
 };
 class B_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_GL_F.jpg";
 };
 class O_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_GL_F.jpg";
 };
 class B_G_Soldier_M_F: I_G_Soldier_M_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_M_F.jpg";
 };
 class O_G_Soldier_M_F: I_G_Soldier_M_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_M_F.jpg";
 };
 class B_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_LAT_F.jpg";
 };
 class O_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_LAT_F.jpg";
 };
 class B_G_Soldier_A_F: I_G_Soldier_A_F
 {
@@ -1813,35 +1821,47 @@ class O_G_Soldier_A_F: I_G_Soldier_A_F
 };
 class B_G_officer_F: I_G_officer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_officer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_officer_F.jpg";
 };
 class O_G_officer_F: I_G_officer_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_officer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_officer_F.jpg";
 };
 class I_G_Soldier_unarmed_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_unarmed_F.jpg";
+	linkedItems[] =
+	{
+		H_ShemagOpen_khk,
+		V_TacChestRig_oli_F,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_ShemagOpen_khk,
+		V_TacChestRig_oli_F,
+		DefaultManGuerillaLinkedItems
+	};
 };
 class B_G_Soldier_unarmed_F: B_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_unarmed_F.jpg";
 };
 class O_G_Soldier_unarmed_F: O_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_unarmed_F.jpg";
 };
-class I_G_Survivor_F: I_G_Soldier_F
+class B_G_Soldier_universal_F: B_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Survivor_F.jpg";
+    scopeCurator = private;
 };
-class B_G_Survivor_F: B_G_Soldier_F
+class O_G_Soldier_universal_F: O_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Survivor_F.jpg";
+    scopeCurator = private;
 };
-class O_G_Survivor_F: O_G_Soldier_F
+class I_G_Soldier_universal_F: I_G_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Survivor_F.jpg";
+    scopeCurator = private;
 };
 class I_G_Story_Protagonist_F: B_G_Soldier_F
 {
@@ -1961,8 +1981,8 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2015,8 +2035,8 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -2029,21 +2049,33 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
 class B_G_Sharpshooter_F: I_G_Sharpshooter_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Sharpshooter_F.jpg";
-    uniformClass = U_IG_Guerilla3_2;
+    uniformClass = U_BG_Guerilla3_2;
 };
 class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 {	
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Sharpshooter_F.jpg";
-    uniformClass = U_IG_Guerilla3_2;
+    uniformClass = U_OG_Guerilla3_2;
 };
 // Arma 3 Tanks
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_LAT2_F.jpg";
+	weapons[] =
+    {
+        arifle_TRG21_F,
+        launch_RPG7_F,
+        DefaultManWeapons
+    };
+	respawnWeapons[] =
+    {
+        arifle_TRG21_F,
+        launch_RPG7_F,
+        DefaultManWeapons
+    };
 	magazines[] =
 	{
         mag_6(30Rnd_556x45_Stanag),
-        MRAWS_HEAT_F,
+        RPG7_F,
         HandGrenade,
         MiniGrenade,
         mag_2(SmokeShell)
@@ -2051,7 +2083,7 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 	respawnMagazines[] =
 	{
         mag_6(30Rnd_556x45_Stanag),
-        MRAWS_HEAT_F,
+        RPG7_F,
         HandGrenade,
         MiniGrenade,
         mag_2(SmokeShell)
@@ -2101,8 +2133,8 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2155,8 +2187,8 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -2167,6 +2199,85 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
     };
 };
 // Arma 3 Aegis
+class I_G_crew_F: I_G_Soldier_base_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	cost = 93000;
+	role = Crewman;
+	camouflage = 1.6;
+    uniformClass = U_IG_Guerilla1_3;
+    weapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+    };
+    linkedItems[] =
+    {
+        H_HelmetCrew_I,
+        V_BandollierB_blk,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_HelmetCrew_I,
+        V_BandollierB_blk,
+        DefaultManGuerillaLinkedItems
+    };
+    allowedHeadgear[] = {H_HelmetCrew_I};
+    headgearList[] = {H_HelmetCrew_I,1};
+    engineer = true;
+};
+class B_G_crew_F: I_G_crew_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = BLU_G_F;
+    modelSides[] =
+    {
+        TWest,
+        TCivilian
+    };
+    uniformClass = U_BG_Guerilla1_2_F;
+};
+class O_G_crew_F: I_G_crew_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TEast;
+    faction = OPF_G_F;
+	modelSides[] =
+	{
+		TEast,
+		TCivilian
+	};
+    uniformClass = U_OG_Guerilla1_2_F;
+};
 class I_G_Soldier_CQ_F: I_G_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2175,17 +2286,11 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
     threat[] = {1,0.3,0.1};
-    uniformClass = U_IG_Guerilla1_2_F;
-    hiddenSelections[] =
-    {
-        camo1,
-        camo2,
-        camo3
-    };
+    uniformClass = U_IG_Guerilla1_3;
     hiddenSelectionsTextures[] =
     {
-        "A3\Characters_F_Orange\Uniforms\Data\C_Cloth1_olive_CO.paa",
-        "A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
+        "\A3\Characters_F\Civil\Data\C_Cloth1_kabeiroi_CO.paa",
+        "\A3\Characters_F_Beta\INDEP\Data\IA_soldier_01_clothing_CO.paa"
     };
     weapons[] =
     {
@@ -2215,13 +2320,13 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
     };
     linkedItems[] =
     {
-        H_ShemagOpen_khk,
+        H_ShemagOpen_oli,
         V_ChestrigF_blk,
         DefaultManGuerillaLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_ShemagOpen_khk,
+        H_ShemagOpen_oli,
         V_ChestrigF_blk,
         DefaultManGuerillaLinkedItems
     };
@@ -2270,8 +2375,8 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,
         H_ShemagOpen_tan,
         H_ShemagOpen_khk,
-        H_Shemag_khk_hs,
-        H_Shemag_tan_hs,
+        H_ShemagOpen_khk_hs,
+        H_ShemagOpen_tan_hs,
         H_HeadSet_light_F,
         H_Hat_Safari_sand_F,
         H_Hat_Safari_olive_F,
@@ -2324,8 +2429,8 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
         H_Shemag_olive_hs,1,
         H_ShemagOpen_tan,1,
         H_ShemagOpen_khk,1,
-        H_Shemag_khk_hs,1,
-        H_Shemag_tan_hs,1,
+        H_ShemagOpen_khk_hs,1,
+        H_ShemagOpen_tan_hs,1,
         H_HeadSet_light_F,1,
         H_Hat_Safari_sand_F,1,
         H_Hat_Safari_olive_F,1,
@@ -2348,7 +2453,7 @@ class B_G_Soldier_CQ_F: I_G_Soldier_CQ_F
         TWest,
         TCivilian
     };
-    uniformClass = U_BG_Guerilla1_2_F;
+    uniformClass = U_BG_Guerilla1_3;
 };
 class O_G_Soldier_CQ_F: I_G_Soldier_CQ_F
 {
@@ -2363,243 +2468,5 @@ class O_G_Soldier_CQ_F: I_G_Soldier_CQ_F
 		TEast,
 		TCivilian
 	};
-    uniformClass = U_OG_Guerilla1_2_F;
-};
-class I_G_Sniper_F: I_G_Soldier_base_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    class SpeechVariants
-    {
-        class Default
-        {
-            speechSingular[] = {veh_infantry_sniper_s};
-            speechPlural[] = {veh_infantry_sniper_p};
-        };
-    };
-    textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
-    textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
-    nameSound = veh_infantry_sniper_s;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Sniper_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_B_Sniper_F0;
-    cost = 350000;
-    role = Marksman;
-    threat[] = {1,0.3,0.3};
-    camouflage = 0.6;
-    model = "\A3\Characters_F_Beta\INDEP\IA_Sniper.p3d";
-    uniformClass = U_IG_GhillieSuit;
-    hiddenSelections[] =
-    {
-        camo,
-        camo3
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3\Characters_F_Bootcamp\Guerrilla\Data\IG_Guerrilla_6_1_CO.paa",
-        "\A3\Characters_F\Common\Data\ghillie_woodland_CO.paa"
-    };
-    hiddenSelectionsMaterials[] =
-    {
-        "\A3\Characters_F_Bootcamp\Guerrilla\Data\IG_Guerrilla_6_1.rvmat",
-        "\A3\Characters_F\Common\Data\ghillie.rvmat"
-    };
-    weapons[] =
-    {
-        srifle_DMR_06_camo_khs_F,
-        hgun_ACPC2_F,
-        DefaultManWeapons,
-        Binocular
-    };
-    respawnWeapons[] =
-    {
-        srifle_DMR_06_camo_khs_F,
-        hgun_ACPC2_F,
-        DefaultManWeapons,
-        Binocular
-    };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_weathered_Mag),
-        mag_2(9Rnd_45ACP_Mag),
-        IEDLandSmall_Remote_Mag,
-        APERSTripMine_Wire_Mag,
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_weathered_Mag),
-        mag_2(9Rnd_45ACP_Mag),
-        IEDLandSmall_Remote_Mag,
-        APERSTripMine_Wire_Mag,
-        mag_2(SmokeShell)
-    };
-    linkedItems[] =
-    {
-        V_TacVest_blk,
-        DefaultManGuerillaLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        V_TacVest_blk,
-        DefaultManGuerillaLinkedItems
-    };
-    allowedHeadgear[] = {};
-    allowedHeadgearB[] = {};
-    primaryAmmoCoef = 0.2;
-    secondaryAmmoCoef = 0.05;
-    handgunAmmoCoef = 0.1;
-};
-class B_G_Sniper_F: I_G_Sniper_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Sniper_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
-    faction = BLU_G_F;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-    uniformClass = U_BG_GhillieSuit;
-};
-class O_G_Sniper_F: I_G_Sniper_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Sniper_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_G_F;
-	modelSides[] =
-	{
-		TEast,
-		TCivilian
-	};
-    uniformClass = U_OG_GhillieSuit;
-};
-class I_G_Spotter_F: I_G_Soldier_base_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    class SpeechVariants
-    {
-        class Default
-        {
-            speechSingular[] = {veh_infantry_SF_s};
-            speechPlural[] = {veh_infantry_SF_p};
-        };
-    };
-    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
-    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
-    nameSound = veh_infantry_SF_s;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Spotter_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_B_Spotter_F0;
-    cost = 250000;
-    role = Marksman;
-    threat[] = {1,0.3,0.3};
-    camouflage = 0.6;
-    model = "\A3\Characters_F_Beta\INDEP\IA_Sniper.p3d";
-    uniformClass = U_IG_GhillieSuit;
-    hiddenSelections[] =
-    {
-        camo,
-        camo3
-    };
-    hiddenSelectionsTextures[] =
-    {
-        "\A3\Characters_F_Bootcamp\Guerrilla\Data\IG_Guerrilla_6_1_CO.paa",
-        "\A3\Characters_F\Common\Data\ghillie_woodland_CO.paa"
-    };
-    hiddenSelectionsMaterials[] =
-    {
-        "\A3\Characters_F_Bootcamp\Guerrilla\Data\IG_Guerrilla_6_1.rvmat",
-        "\A3\Characters_F\Common\Data\ghillie.rvmat"
-    };
-    weapons[] =
-    {
-        arifle_TRG21_MRCO_F,
-        hgun_ACPC2_F,
-        DefaultManWeapons,
-        Rangefinder
-    };
-    respawnWeapons[] =
-    {
-        arifle_TRG21_MRCO_F,
-        hgun_ACPC2_F,
-        DefaultManWeapons,
-        Rangefinder
-    };
-    magazines[] =
-    {
-        mag_6(30Rnd_556x45_Stanag),
-        mag_2(9Rnd_45ACP_Mag),
-        IEDLandSmall_Remote_Mag,
-        APERSTripMine_Wire_Mag,
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
-    };
-    respawnMagazines[] =
-    {
-        mag_6(30Rnd_556x45_Stanag),
-        mag_2(9Rnd_45ACP_Mag),
-        IEDLandSmall_Remote_Mag,
-        APERSTripMine_Wire_Mag,
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SmokeShellGreen,
-        SmokeShellRed,
-        SmokeShellBlue
-    };
-    linkedItems[] =
-    {
-        V_TacChestRig_oli_F,
-        DefaultManGuerillaLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        V_TacChestRig_oli_F,
-        DefaultManGuerillaLinkedItems
-    };
-    allowedHeadgear[] = {};
-    allowedHeadgearB[] = {};
-    primaryAmmoCoef = 0.2;
-    secondaryAmmoCoef = 0.05;
-    handgunAmmoCoef = 0.1;
-};
-class B_G_Spotter_F: I_G_Spotter_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Spotter_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TWest;
-    faction = BLU_G_F;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-    uniformClass = U_BG_GhillieSuit;
-};
-class O_G_Spotter_F: I_G_Spotter_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Spotter_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    side = TEast;
-    faction = OPF_G_F;
-	modelSides[] =
-	{
-		TEast,
-		TCivilian
-	};
-    uniformClass = U_OG_GhillieSuit;
+    uniformClass = U_OG_Guerilla1_3;
 };

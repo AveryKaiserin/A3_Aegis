@@ -111,7 +111,6 @@ class CfgVehicles
 	};
 	class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F
 	{
-		mapSize = 9.83;
 		accuracy = 1;
 		class UserActions
 		{
@@ -435,10 +434,6 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgVehicles_Heli_Light_01_recon_base_F0;
 		icon = "\A3\Air_F\Heli_Light_01\Data\UI\Map_Heli_Light_01_CIV_CA.paa";
-		class Armory
-		{
-			description = $STR_A3_CfgVehicles_B_Heli_Light_01_recon_Armory0;
-		};
 		accuracy = 1;
 		hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
 		transportSoldier = 2;

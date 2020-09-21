@@ -1,4 +1,4 @@
-
+// BLU_A_F
 class B_A_Boat_Transport_01_F: Rubber_duck_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

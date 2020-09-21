@@ -3,6 +3,7 @@
 #include "cfgVehicles.hpp"
 class CfgWeapons
 {
+    // Arma 3
 	class ItemCore;
 	class InventoryItem_Base_F;
 	class InventoryOpticsItem_Base_F: InventoryItem_Base_F
@@ -13,34 +14,37 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
-	class B_ION_UavTerminal: UavTerminal_base
+	class B_UavTerminal: UavTerminal_base
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_B_ION_UavTerminal0;
-		model = "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
-		picture = "\A3_Aegis\Weapons_F_Aegis\Items\Data\UI\icon_B_ION_UavTerminal_CA.paa";
-        hiddenSelections[] = {camo};
-        hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Items\Data\UAV_controller_ION_CO.paa"};
-		class ItemInfo: ItemInfo
-		{
-			side = TWest;
-        	hiddenSelections[] = {camo};
-		};
+		displayName = "UAV Terminal [BLUFOR]";
 	};
-	class O_R_UavTerminal: UavTerminal_base
+	class O_UavTerminal: UavTerminal_base
+	{
+		displayName = "UAV Terminal [OPFOR]";
+	};
+	class I_UavTerminal: UavTerminal_base
+	{
+		displayName = "UAV Terminal [Independent]";
+	};
+    // Arma 3 Enoch
+	class I_E_UavTerminal: UavTerminal_base
+	{
+		scope = protected;
+	};
+    // Arma 3 Aegis
+	class ItemSmartPhone: ItemCore
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_O_R_UavTerminal0;
-		model = "\A3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_F.p3d";
-		picture = "\A3_Aegis\Weapons_F_Aegis\Items\Data\UI\icon_O_R_UavTerminal_CA.paa";
-        hiddenSelections[] = {camo};
-        hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Items\Data\UAV_controller_RUS_CO.paa"};
-		class ItemInfo: ItemInfo
+		displayName = $STR_A3_A_CfgWeapons_ItemSmartPhone0;
+		descriptionUse = $STR_A3_CfgWeapons_Default_ItemGPS0;
+		simulation = ItemGPS;
+		picture = "\A3\Missions_F_Oldman\Props\Data\SmartPhone_CA.paa";
+		model = "\A3\Structures_F\Items\Electronics\MobilePhone_smart_F.p3d";
+		descriptionShort = $STR_A3_CfgWeapons_ItemGPS1;
+		class ItemInfo
 		{
-			side = TEast;
-        	hiddenSelections[] = {camo};
+			mass = 5;
 		};
 	};
 };

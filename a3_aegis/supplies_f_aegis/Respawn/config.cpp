@@ -96,23 +96,22 @@ class CfgVehicles
 		};
 	};
 	class Camping_base_F;
-	class Respawn_RallyPoint_01_base_F: Camping_base_F
+	class Land_RallyPoint_01_base_F: Camping_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 3.07;
 		scope = private;
 		model = "\A3_Aegis\Supplies_F_Aegis\Respawn\RallyPoint_01_F.p3d";
-		destrType = DestructNo;
+		destrType = DestructTent;
 		cost = 1000;
 		attendant = true;
 		hiddenSelections[] = {camo};
 	};
-	class Respawn_RallyPoint_01_mtp_F: Respawn_RallyPoint_01_base_F
+	class Respawn_RallyPoint_01_mtp_F: Land_RallyPoint_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		scopeCurator = private;
-		displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -147,16 +146,15 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_mtp_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};
-	class Respawn_RallyPoint_01_grn_F: Respawn_RallyPoint_01_base_F
+	class Respawn_RallyPoint_01_grn_F: Land_RallyPoint_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		scopeCurator = private;
-		displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -191,16 +189,15 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_grn_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};
-	class Respawn_RallyPoint_01_khaki_F: Respawn_RallyPoint_01_base_F
+	class Respawn_RallyPoint_01_khaki_F: Land_RallyPoint_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		scopeCurator = private;
-		displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -235,16 +232,15 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_khaki_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};
-	class Respawn_RallyPoint_01_olive_F: Respawn_RallyPoint_01_base_F
+	class Respawn_RallyPoint_01_olive_F: Land_RallyPoint_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		scopeCurator = private;
-		displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -279,16 +275,15 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_olive_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};
-	class Respawn_RallyPoint_01_eaf_F: Respawn_RallyPoint_01_base_F
+	class Respawn_RallyPoint_01_eaf_F: Land_RallyPoint_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		scopeCurator = private;
-		displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 		faction = Interactive_F;
 		vehicleCategory = Interactive_F;
 		vehicleClass = Respawn;
@@ -323,7 +318,7 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_eaf_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};
@@ -340,7 +335,7 @@ class CfgVehicles
 			primary = true;
 			base = "";
 			assembleTo = Respawn_RallyPoint_01_grn_F;
-			displayName = $STR_A3_A_CfgVehicles_Respawn_RallyPoint_01_base_F0;
+			displayName = $STR_A3_A_CfgVehicles_Land_RallyPoint_01_base_F0;
 			dissasembleTo[] = {};
 		};
 	};

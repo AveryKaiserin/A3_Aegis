@@ -92,3 +92,21 @@ class B_E_HMG_01_high_F: B_HMG_01_high_F
 		};
 	};
 };
+class B_E_HMG_01_A_F: B_HMG_01_A_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_HMG_01_A_F.jpg";
+	faction = BLU_E_F;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] =
+		{
+            B_HMG_01_A_Weapon_grn_F,
+            B_HMG_01_support_grn_F
+		};
+	};
+};

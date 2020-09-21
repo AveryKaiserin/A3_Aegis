@@ -449,9 +449,9 @@ class B_T_Heli_light_01_recon_F: B_Heli_Light_01_recon_F
 			verticalOffsetWorld = 0.006;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_Heli_light_01_recon_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_Heli_light_01_recon_F.jpg";
+	scope = protected;
+    scopeCurator = private;
 	side = TWest;
 	faction = BLU_T_F;
 	crew = B_T_Helipilot_F;

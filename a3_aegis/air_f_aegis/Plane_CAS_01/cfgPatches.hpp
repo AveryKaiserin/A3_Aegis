@@ -9,7 +9,16 @@ class CfgPatches
 			A3_Air_F_EPC_Plane_CAS_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] = 
+        {
+            // NATO (Pacific)
+            B_T_Ejection_Seat_Plane_CAS_01_F,
+            B_T_Plane_CAS_01_dynamicLoadout_F,
+
+            // NATO (Woodland)
+            B_W_Ejection_Seat_Plane_CAS_01_F,
+            B_W_Plane_CAS_01_dynamicLoadout_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

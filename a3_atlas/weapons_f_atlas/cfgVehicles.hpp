@@ -108,6 +108,13 @@ class CfgVehicles
 		};
 	};
     // Arma 3 Atlas
+    /*
+	ITEM_HOLDER(NVGoggles_aucamo_F,$STR_A3_A_CfgWeapons_NVGoggles_aucamo_F0,"\A3\Weapons_F\DummyNVG.p3d")
+    LAUNCHER_HOLDER(launch_B_Titan_coyote_F,$STR_A3_A_CfgWeapons_launch_B_Titan_coyote_F0,Titan_AA)
+	WEAPON_HOLDER(srifle_EBR_cbr_F,$STR_A3_A_CfgWeapons_srifle_EBR_cbr_F0,EdSubcat_SniperRifles,20Rnd_762x51_Mag)
+	LAUNCHER_HOLDER(launch_MRAWS_coyote_F,$STR_A3_A_CfgWeapons_launch_MRAWS_coyote_F0,MRAWS_HEAT_F)
+	LAUNCHER_HOLDER(launch_MRAWS_coyote_rail_F,$STR_A3_A_CfgWeapons_launch_MRAWS_coyote_rail_F0,MRAWS_HEAT_F)
+	*/
 	ACC_HOLDER(optic_LRCO_blk_F,$STR_A3_A_CfgWeapons_optic_LRCO_blk_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
 	ACC_HOLDER(optic_LRCO_snd_F,$STR_A3_A_CfgWeapons_optic_LRCO_snd_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
 };

@@ -10,7 +10,21 @@ class CfgPatches
 			A3_Armor_F_Exp_APC_Wheeled_01
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO
+            B_APC_Wheeled_01_cannon_v2_F,
+            B_APC_Wheeled_01_medical_F,
+
+            // NATO (Pacific)
+            B_T_APC_Wheeled_01_cannon_v2_F,
+            B_T_APC_Wheeled_01_medical_F,
+
+            // NATO (Woodland)
+            B_W_APC_Wheeled_01_cannon_F,
+            B_W_APC_Wheeled_01_cannon_v2_F,
+            B_W_APC_Wheeled_01_medical_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

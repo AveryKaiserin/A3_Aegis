@@ -16,20 +16,11 @@ class CfgVehicles
 		{
 			class Hex
 			{
-				factions[] =
-				{
-					OPF_F,
-					OPF_A_F
-				};
+				factions[] = {OPF_A_F};
 			};
 			class Grey
 			{
-				factions[] =
-				{
-					OPF_F,
-					OPF_T_F,
-					OPF_A_F
-				};
+				factions[] = {OPF_A_F};
 			};
 		};
 		class AnimationSources: AnimationSources

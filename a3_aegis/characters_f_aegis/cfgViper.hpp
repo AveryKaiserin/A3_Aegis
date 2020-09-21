@@ -1,9 +1,4 @@
 // Arma 3 Apex
-class O_V_Soldier_Viper_F: O_Soldier_base_F{};
-class O_V_Soldier_Viper_hex_F: O_V_Soldier_Viper_F
-{
-  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ViperOp_Suit_hex_CO.paa"};
-};
 class O_V_Soldier_base_F: O_Soldier_base_F
 {
 	class SpeechVariants
@@ -24,9 +19,21 @@ class O_V_Soldier_base_F: O_Soldier_base_F
 		Head_Asian,
 		G_IRAN_default
 	};
-	editorSubcategory = EdSubcat_Personnel;
-	canHideBodies = true;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ViperOp_Suit_hex_CO.paa"};
+	canHideBodies = false;
+	weapons[] =
+	{
+		arifle_ARX_hex_ARCO_Pointer_Snds_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_ARX_hex_ARCO_Pointer_Snds_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
 	magazines[] =
 	{
 		30Rnd_65x39_caseless_green,
@@ -45,20 +52,6 @@ class O_V_Soldier_base_F: O_Soldier_base_F
 class O_V_Soldier_hex_F: O_V_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_V_Soldier_hex_F.jpg";
-	weapons[] =
-	{
-		arifle_ARX_hex_ARCO_Pointer_Snds_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons,
-		Binocular
-	};
-	respawnWeapons[] =
-	{
-		arifle_ARX_hex_ARCO_Pointer_Snds_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons,
-		Binocular
-	};
 };
 class O_V_Soldier_TL_hex_F: O_V_Soldier_base_F
 {
@@ -113,14 +106,16 @@ class O_V_Soldier_LAT_hex_F: O_V_Soldier_base_F
 		arifle_ARX_hex_ARCO_Pointer_Snds_F,
 		launch_RPG32_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_ARX_hex_ARCO_Pointer_Snds_F,
 		launch_RPG32_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 	magazines[] =
 	{
@@ -167,14 +162,14 @@ class O_V_Soldier_ghex_F: O_V_Soldier_hex_F
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
-		Binocular
+		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
-		Binocular
+		Rangefinder
 	};
 };
 class O_V_Soldier_TL_ghex_F: O_V_Soldier_TL_hex_F
@@ -188,13 +183,15 @@ class O_V_Soldier_Exp_ghex_F: O_V_Soldier_Exp_hex_F
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 };
 class O_V_Soldier_Medic_ghex_F: O_V_Soldier_Medic_hex_F
@@ -204,13 +201,15 @@ class O_V_Soldier_Medic_ghex_F: O_V_Soldier_Medic_hex_F
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 };
 class O_V_Soldier_M_ghex_F: O_V_Soldier_M_hex_F
@@ -225,17 +224,27 @@ class O_V_Soldier_LAT_ghex_F: O_V_Soldier_LAT_hex_F
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		launch_RPG32_ghex_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_ARX_ghex_ARCO_Pointer_Snds_F,
 		launch_RPG32_ghex_F,
 		hgun_Rook40_snds_F,
-		DefaultManWeapons
+		DefaultManWeapons,
+		Rangefinder
 	};
 };
 class O_V_Soldier_JTAC_ghex_F: O_V_Soldier_JTAC_hex_F
 {
 	faction = OPF_V_tna_F;
+};
+// Arma 3 Aegis
+class U_O_V_SpecialPurposeSuit_01_oicamo_F: O_V_Soldier_hex_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = U_O_V_Soldier_Viper_oicamo_F;
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ViperOp_Suit_oicamo_CO.paa"};
 };

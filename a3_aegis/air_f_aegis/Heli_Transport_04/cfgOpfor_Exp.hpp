@@ -874,18 +874,19 @@ class O_T_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(17Rnd_9x21_Mag,6);
+		mag_xx(17Rnd_9x21_Mag,2);
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(30Rnd_580x42_Mag_F,24);
-		mag_xx(20Rnd_650x39_Cased_Mag_F,12);
+		mag_xx(20Rnd_650x39_Cased_Mag_F,6);
 		mag_xx(100Rnd_580x42_Mag_F,8);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
-		mag_xx(chemlight_red,6);
+		mag_xx(chemlight_red,2);
+		mag_xx(O_IR_Grenade,2);
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
-		mag_xx(Laserbatteries,2);
+		mag_xx(Laserbatteries,1);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,2);
@@ -908,23 +909,17 @@ class O_T_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F
 		item_xx(Laserdesignator_02_ghex_F,1);
 		item_xx(optic_ACO_grn,1);
 		item_xx(optic_ACO_grn_smg,1);
-		item_xx(optic_Arco_ghex_F,1);
-		item_xx(optic_DMS_ghex_F,1);
-		item_xx(optic_NVS,1);
-		item_xx(optic_tws,1);
-		item_xx(optic_tws_mg,1);
-		item_xx(optic_tws_sniper,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
-		item_xx(acc_pointer_IR,2);
+		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_DMS,1);
+		item_xx(acc_flashlight,5);
+		item_xx(acc_pointer_IR,5);
 		item_xx(Medikit,1);
 		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
-		item_xx(bipod_02_F_blk,1);
-		item_xx(bipod_02_F_hex,1);
-		item_xx(NVGoggles_OPFOR,1);
+		item_xx(bipod_02_F_blk,2);
+		item_xx(bipod_02_F_hex,3);
 		item_xx(O_NVGoggles_blk_F,1);
-		item_xx(O_NVGoggles_ghex_F,1);
+		item_xx(O_NVGoggles_ghex_F,4);
 	};
 	class TransportBackpacks
 	{

@@ -79,6 +79,16 @@ class B_A_Static_Designator_01_tna_F: B_A_Static_Designator_01_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Static_Designator_01_tna_F.jpg";
 	faction = BLU_A_tna_F;
+	hiddenSelections[] =
+	{
+		camo,
+		camo1
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Static_F_Enoch\Designator_01\Data\LD01_remote_khk_CO.paa",
+		"\A3\Weapons_F_Exp\Binocular\Data\Laserdesignator_01_khk_F_CO.paa"
+	};
 	class assembleInfo: assembleInfo
 	{
 		dissasembleTo[] = {B_T_Static_Designator_01_Weapon_F};
@@ -119,6 +129,16 @@ class B_A_Static_Designator_01_wdl_F: B_A_Static_Designator_01_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Static_Designator_01_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
+	hiddenSelections[] =
+	{
+		camo,
+		camo1
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Static_F_Enoch\Designator_01\Data\LD01_remote_khk_CO.paa",
+		"\A3\Weapons_F_Exp\Binocular\Data\Laserdesignator_01_khk_F_CO.paa"
+	};
 	class assembleInfo: assembleInfo
 	{
 		dissasembleTo[] = {B_W_Static_Designator_01_weapon_F};

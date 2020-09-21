@@ -2,7 +2,7 @@ class U_IG_Guerilla3_3_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Guerilla Smocks (Grey)";
+	displayName = $STR_A3_O_CfgWeapons_U_IG_Guerilla3_3_F0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_IG_Guerilla3_3_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
@@ -19,7 +19,7 @@ class U_I_T_Uniform_01_hex_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Deserter Clothes (Hex)";
+	displayName = $STR_A3_O_CfgWeapons_U_I_T_Uniform_01_hex_F0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_hex_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
@@ -36,7 +36,7 @@ class U_I_T_Uniform_01_urb_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Deserter Clothes (Urban)";
+	displayName = $STR_A3_O_CfgWeapons_U_I_T_Uniform_01_urb_F0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_urb_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
@@ -53,7 +53,7 @@ class U_I_T_Uniform_01_ghex_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Deserter Clothes (Green Hex)";
+	displayName = $STR_A3_O_CfgWeapons_U_I_T_Uniform_01_ghex_F0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_ghex_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
@@ -70,7 +70,7 @@ class U_I_T_Uniform_01_tshirt_black_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Worn Clothes (Black)";
+	displayName = $STR_A3_O_CfgWeapons_U_I_T_Uniform_01_tshirt_black_F0;
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_I_T_Uniform_01_tshirt_black_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};

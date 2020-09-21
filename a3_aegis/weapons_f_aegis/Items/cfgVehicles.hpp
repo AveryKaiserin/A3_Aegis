@@ -1,4 +1,4 @@
-#define ITEM_HOLDER(a,b,c) \
+#define ITEM_HOLDER(a,b) \
 	class Item_##a##: Item_Base_F \
 	{ \
 		scope = public; \
@@ -7,7 +7,6 @@
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_InventoryItems; \
 		vehicleClass = Items; \
-		faction = ##c##; \
 		author = $STR_A3_A_AveryTheKitty; \
 		model = "\A3\Weapons_F\DummyItemHorizontal.p3d"; \
 		class TransportItems \
@@ -18,8 +17,9 @@
 
 class CfgVehicles
 {
-	// editor weapons
+    // Arma 3
 	class Item_Base_F;
-	ITEM_HOLDER(B_ION_UavTerminal,"UAV Terminal [ION]",BLU_ION_F)
-	ITEM_HOLDER(O_R_UavTerminal,"UAV Terminal [Russia]",OPF_R_F)
+    // Arma 3 Enoch
+    // Arma 3 Aegis
+	ITEM_HOLDER(ItemSmartPhone,$STR_A3_A_CfgWeapons_ItemSmartPhone0)
 };

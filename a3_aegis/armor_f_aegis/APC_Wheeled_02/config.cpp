@@ -79,27 +79,17 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUgrn_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUgrn_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUgrn_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUkhk_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUkhk_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
 				};
-				factions[] = {OPF_R_F};
-			};
-			class Taiga
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_TAIGA0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
+				factions[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_RUcamo_CO.paa",
-					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUS_CO.paa"
+					OPF_R_F,
+					OPF_R_ard_F
 				};
-				factions[] = {OPF_R_F};
 			};
 		};
 	};
@@ -146,5 +136,4 @@ class CfgVehicles
 	// Arma 3 Aegis
 	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
 	#include "cfgSpetsnaz.hpp"			// Russia
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
 };

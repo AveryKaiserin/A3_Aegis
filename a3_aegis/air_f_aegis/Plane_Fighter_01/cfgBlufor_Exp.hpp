@@ -206,7 +206,7 @@ class B_T_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 	typicalCargo[] = {B_T_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
 class B_T_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
@@ -417,7 +417,7 @@ class B_T_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 	typicalCargo[] = {B_T_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
 class B_T_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F

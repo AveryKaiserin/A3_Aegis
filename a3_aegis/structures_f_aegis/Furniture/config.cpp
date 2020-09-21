@@ -88,7 +88,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_closed_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_closed_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Locker_01_closed_F0;
@@ -110,7 +110,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_closed_blue_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_closed_blue_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_locker_closed_blue_v10;
@@ -128,7 +128,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_open_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_open_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Locker_01_open_F0;
@@ -148,7 +148,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_open_blue_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Locker_01_open_blue_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Locker_01_open_blue_F0;
@@ -167,7 +167,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Workbench_02_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Workbench_02_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Workbench_02_F0;
@@ -188,7 +188,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Metal_wooden_table_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Metal_wooden_table_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Metal_wooden_table_F0;
@@ -209,7 +209,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Folding_ladder_big_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Folding_ladder_big_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Folding_ladder_big_F0;
@@ -230,7 +230,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_beaker_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_beaker_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_beaker_F0;
@@ -251,7 +251,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_bunsen_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_bunsen_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_bunsen_F0;
@@ -272,7 +272,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_cylinder_beaker_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_cylinder_beaker_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_cylinder_beaker_F0;
@@ -293,7 +293,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_dropper_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_dropper_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_dropper_F0;
@@ -314,7 +314,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_erlenmeyer_flask_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_erlenmeyer_flask_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_erlenmeyer_flask_F0;
@@ -335,7 +335,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_microscope_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_microscope_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_microscope_F0;
@@ -356,7 +356,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_microscope_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_microscope_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_petri_dish_F0;
@@ -377,7 +377,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_bench_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_bench_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_bench_F0;
@@ -398,7 +398,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_triplebeam_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_triplebeam_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_triplebeam_F0;
@@ -419,7 +419,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_vial_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_vial_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_vial_F0;
@@ -440,7 +440,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_volume_beaker_F.jpg";
+		//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_Lab_volume_beaker_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Land_Lab_volume_beaker_F0;

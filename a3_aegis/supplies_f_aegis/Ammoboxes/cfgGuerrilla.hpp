@@ -1,6 +1,8 @@
 // Arma 3
 class IG_supplyCrate_F: ReammoBox_F
 {
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_IG_CO.paa"};
+    editorSubcategory = EdSubcat_Ammo_FIA;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
@@ -9,10 +11,9 @@ class IG_supplyCrate_F: ReammoBox_F
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
-		mag_xx(chemlight_blue,6);
+		mag_xx(chemlight_blue,2);
 		mag_xx(RPG32_F,3);
-		mag_xx(RPG32_HE_F,1);
-		mag_xx(Laserbatteries,2);
+		mag_xx(RPG32_HE_F,3);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,2);
@@ -36,17 +37,11 @@ class IG_supplyCrate_F: ReammoBox_F
 		delete _xx_V_TacVest_blk;
 		item_xx(FirstAidKit,10);
 		item_xx(Binocular,1);
-		item_xx(Rangefinder,1);
-		item_xx(optic_ACO_grn,1);
-		item_xx(optic_ACO_smg_grn,1);
-		item_xx(optic_MRCO,1);
-		item_xx(acc_flashlight,2);
-		item_xx(acc_flashlight_pistol,2);
+		delete _xx_Rangefinder;
+		item_xx(acc_flashlight,5);
 		item_xx(Medikit,1);
 		item_xx(ToolKit,1);
-		item_xx(MineDetector,1);
-		item_xx(bipod_03_F_blk,1);
-		item_xx(bipod_03_F_oli,1);
+		item_xx(bipod_03_F_oli,2);
 	};
 	class TransportBackpacks
 	{
@@ -56,6 +51,7 @@ class IG_supplyCrate_F: ReammoBox_F
 class FIA_Box_Base_F;
 class Box_FIA_Wps_F: FIA_Box_Base_F
 {
+    editorSubcategory = EdSubcat_Ammo_FIA;
 	class TransportMagazines
 	{
 		mag_xx(200Rnd_65x39_cased_Box,6);
@@ -78,6 +74,7 @@ class Box_FIA_Wps_F: FIA_Box_Base_F
 };
 class Box_FIA_Ammo_F: FIA_Box_Base_F
 {
+    editorSubcategory = EdSubcat_Ammo_FIA;
 	class TransportMagazines
 	{
 		mag_xx(200Rnd_65x39_cased_Box,6);
@@ -93,7 +90,6 @@ class Box_FIA_Ammo_F: FIA_Box_Base_F
 		mag_xx(SmokeShell,6);
 		mag_xx(SmokeShellGreen,6);
 		mag_xx(APERSTripMine_Wire_Mag,4);
-		mag_xx(FlareTripMine_Wire_Mag,4);
 		mag_xx(ClaymoreDirectionalMine_Remote_Mag,2);
 		mag_xx(DemoCharge_Remote_Mag,2);
 	};
@@ -102,18 +98,19 @@ class Box_FIA_Ammo_F: FIA_Box_Base_F
 };
 class Box_FIA_Support_F: FIA_Box_Base_F
 {
+    editorSubcategory = EdSubcat_Ammo_FIA;
 	class TransportMagazines{};
 	class TransportWeapons{};
 	class TransportItems
 	{
-		item_xx(Binocular,2);
-		item_xx(Rangefinder,1);
+		item_xx(Binocular,1);
+		delete _xx_Rangefinder;
 		item_xx(FirstAidKit,10);
 		item_xx(Medikit,1);
 		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
 		item_xx(acc_flashlight,5);
-		item_xx(acc_flashlight_pistol,5);
+		item_xx(acc_flashlight_pistol,2);
 		item_xx(optic_ACO_grn,5);
 		item_xx(optic_ACO_grn_smg,5);
 		item_xx(optic_MRCO,2);

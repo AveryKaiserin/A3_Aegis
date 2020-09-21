@@ -1,4 +1,5 @@
-class B_A_Quadbike_01_F: Quadbike_01_base_F
+// BLU_A_F
+class B_A_Quadbike_01_F: B_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -84,6 +85,7 @@ class B_A_Quadbike_01_F: Quadbike_01_base_F
 		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_CO.paa"
 	};
 };
+// BLU_A_tna_F
 class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -167,6 +169,7 @@ class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
 		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_wheel_olive_CO.paa"
 	};
 };
+// BLU_A_tna_F
 class B_A_Quadbike_01_wdl_F: B_A_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;

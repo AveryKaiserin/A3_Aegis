@@ -9,7 +9,14 @@ class CfgPatches
 			A3_Air_F_Exp_UAV_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // NATO
+            B_UAV_03_dynamicLoadout_F,
+
+            // NATO (Woodland)
+            B_W_UAV_03_dynamicLoadout_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

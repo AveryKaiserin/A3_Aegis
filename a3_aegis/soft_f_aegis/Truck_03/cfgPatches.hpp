@@ -10,7 +10,22 @@ class CfgPatches
 			A3_Soft_F_Exp_Truck_03
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // Russia
+            O_R_Truck_03_ammo_ard_F,
+            O_R_Truck_03_ammo_F,
+            O_R_Truck_03_covered_ard_F,
+            O_R_Truck_03_covered_F,
+            O_R_Truck_03_fuel_ard_F,
+            O_R_Truck_03_fuel_F,
+            O_R_Truck_03_medical_ard_F,
+            O_R_Truck_03_medical_F,
+            O_R_Truck_03_repair_ard_F,
+            O_R_Truck_03_repair_F,
+            O_R_Truck_03_transport_ard_F,
+            O_R_Truck_03_transport_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

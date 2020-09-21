@@ -79,12 +79,6 @@ class CfgVehicles
 	{
     	displayName = $STR_A3_A_CfgWeapons_U_OrestesBody0;
 	};
-	class Item_U_OI_Scientist: Item_Base_F
-	{
-		scope = public;
-		scopeCurator = public;
-		displayName = $STR_A3_A_CfgWeapons_U_OI_Scientist0;
-	};
 	class Item_U_BG_Guerilla3_2: Item_Base_F
 	{
 		scope = public;
@@ -120,6 +114,11 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_F0;
 	};
+    // Arma 3 Tanks
+    class Item_U_Tank_green_F: Item_Base_F
+    {
+        displayName = $STR_A3_A_CfgWeapons_U_Tank_green_F0;
+    };
 	// Arma 3 Enoch
 	class Item_U_B_CombatUniform_vest_mcam_wdl_f: Item_Base_F
 	{
@@ -129,11 +128,9 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
 	};
-	class Item_U_O_R_Gorka_01_black_F: Item_Base_F
-	{
-		displayName = $STR_A3_A_CfgWeapons_U_O_R_Gorka_01_black_F0;
-	};
 	// Arma 3 Aegis
+    // NATO
+	UNIFORM_HOLDER(U_Tank_sand_F,$STR_A3_A_CfgWeapons_U_Tank_sand_F0)
 	// Civilians
 	UNIFORM_HOLDER(U_Jayholder,$STR_A3_A_CfgWeapons_U_Jayholder0)
 	UNIFORM_HOLDER(U_C_Man_casual_7_F,$STR_A3_A_CfgWeapons_U_C_Man_casual_7_F0)
@@ -146,31 +143,39 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_C_CBRN_Suit_01_Yellow_F,$STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0)
 	// FIA
 	UNIFORM_HOLDER(U_BG_Guerilla1_3,$STR_A3_A_CfgWeapons_U_BG_Guerilla1_30)
-	UNIFORM_HOLDER(U_BG_GhillieSuit,$STR_A3_Ghillie_suit_guerilla)
+	// CSAT
+	UNIFORM_HOLDER(U_O_CombatUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_oicamo0)
+	UNIFORM_HOLDER(U_O_OfficerUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_OfficerUniform_oicamo0)
+    // NATO (Pacific)
+	UNIFORM_HOLDER(U_Tank_tropic_F,$STR_A3_A_CfgWeapons_U_Tank_tropic_F0)
 	// CSAT (Pacific)
 	UNIFORM_HOLDER(U_O_T_Pilot_F,$STR_A3_A_CfgWeapons_U_O_T_Pilot_F0)
 	// CTRG
-	UNIFORM_HOLDER(U_B_CTRG_Soldier_tna_1_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_tna_1_F0)
-	UNIFORM_HOLDER(U_B_CTRG_Soldier_tna_2_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_tna_2_F0)
-	UNIFORM_HOLDER(U_B_CTRG_Soldier_tna_3_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_tna_3_F0)
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_alt_1_F,$STR_A3_U_B_CTRG_Soldier_F0)
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_alt_2_F,$STR_A3_U_B_CTRG_Soldier_2_F0)
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_alt_3_F,$STR_A3_U_B_CTRG_Soldier_3_F0)
+	// Viper
+	UNIFORM_HOLDER(U_O_V_Soldier_Viper_oicamo_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_oicamo_F0)
 	// CSAT (African)
 	UNIFORM_HOLDER(U_O_officer_noInsignia_urb_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_urb_F0)
 	UNIFORM_HOLDER(U_O_T_officer_noInsignia_ghex_F,$STR_A3_A_CfgWeapons_U_O_T_officer_noInsignia_ghex_F0)
+	UNIFORM_HOLDER(U_O_officer_noInsignia_oicamo_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_oicamo_F0)
 	// NATO (Woodland)
 	UNIFORM_HOLDER(U_B_GhillieSuit_wdl_f,$STR_A3_A_CfgWeapons_U_B_GhillieSuit_wdl_f0)
 	UNIFORM_HOLDER(U_B_W_FullGhillie_wdl_F,$STR_A3_A_CfgWeapons_U_B_W_FullGhillie_wdl_F0)
 	// Russia
 	UNIFORM_HOLDER(U_O_R_CombatUniform_taiga_F,$STR_A3_A_CfgWeapons_U_O_R_CombatUniform_taiga_F0)
-	UNIFORM_HOLDER(U_O_R_GhillieSuit_F,$STR_A3_A_CfgWeapons_U_O_R_GhillieSuit_F0)
-	UNIFORM_HOLDER(U_O_R_PilotCoveralls_F,$STR_A3_A_CfgWeapons_U_O_R_PilotCoveralls_F0)
-	UNIFORM_HOLDER(U_O_R_Wetsuit_F,$STR_A3_A_CfgWeapons_U_O_R_Wetsuit_F0)
+	UNIFORM_HOLDER(U_O_R_GhillieSuit_taiga_F,$STR_A3_A_CfgWeapons_U_O_R_GhillieSuit_taiga_F0)
+	UNIFORM_HOLDER(U_O_R_PilotCoveralls,$STR_A3_A_CfgWeapons_U_O_R_PilotCoveralls0)
+	UNIFORM_HOLDER(U_O_R_Wetsuit,$STR_A3_A_CfgWeapons_U_O_R_Wetsuit0)
 	UNIFORM_HOLDER(U_O_R_FullGhillie_wdl_F,$STR_A3_A_CfgWeapons_U_O_R_FullGhillie_wdl_F0)
 	UNIFORM_HOLDER(U_O_R_OfficerUniform_taiga_F,$STR_A3_A_CfgWeapons_U_O_R_OfficerUniform_taiga_F0)
 	UNIFORM_HOLDER(U_O_R_officer_noInsignia_taiga_F,$STR_A3_A_CfgWeapons_U_O_R_officer_noInsignia_taiga_F0)
 	UNIFORM_HOLDER(U_O_R_CombatUniform_arid_F,$STR_A3_A_CfgWeapons_U_O_R_CombatUniform_arid_F0)
+	UNIFORM_HOLDER(U_O_R_GhillieSuit_arid_F,$STR_A3_A_CfgWeapons_U_O_R_GhillieSuit_arid_F0)
+	UNIFORM_HOLDER(U_O_R_FullGhillie_ard_F,$STR_A3_A_CfgWeapons_U_O_R_FullGhillie_ard_F0)
+	UNIFORM_HOLDER(U_O_R_FullGhillie_lsh_F,$STR_A3_A_CfgWeapons_U_O_R_FullGhillie_lsh_F0)
+	UNIFORM_HOLDER(U_O_R_FullGhillie_sard_F,$STR_A3_A_CfgWeapons_U_O_R_FullGhillie_sard_F0)
 	UNIFORM_HOLDER(U_O_R_OfficerUniform_arid_F,$STR_A3_A_CfgWeapons_U_O_R_OfficerUniform_arid_F0)
 	UNIFORM_HOLDER(U_O_R_officer_noInsignia_arid_F,$STR_A3_A_CfgWeapons_U_O_R_officer_noInsignia_arid_F0)
 	// LDF

@@ -1,6 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class SlotInfo;
 class PointerSlot;
@@ -21,7 +22,11 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_sgun_M4_F0;
 		model = "\A3_Aegis\Weapons_F_Aegis\Shotguns\M4_SSAS\M4_F.p3d";
-		magazines[] = {8Rnd_12Gauge_Pellets};
+		magazines[] =
+		{
+			8Rnd_12Gauge_Pellets,
+			8Rnd_12Gauge_Slug
+		};
 		magazineWell[] = {Shotgun_12GA};
 		maxZeroing = 100;
 		reloadAction = GestureReloadM4SSAS;
@@ -35,7 +40,7 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class MuzzleSlot{};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913_short
 			{
 				iconPosition[] =
 				{
@@ -44,7 +49,7 @@ class CfgWeapons
 				};
 				iconScale = 0.15;
 			};
-			class PointerSlot: PointerSlot
+			class PointerSlot: asdg_PistolUnderRail
 			{
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
@@ -70,33 +75,6 @@ class CfgWeapons
 		{
 			libTextDesc = $STR_A3_A_CfgWeapons_sgun_M4_F_Library0;
 		};
-		bullet1[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_01",db-4,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_02",db-4,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_03",db-4,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\metal_shotgun_04",db-4,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_01",db-6,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_02",db-6,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_03",db-6,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\dirt_shotgun_04",db-6,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_01",db-6,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_02",db-6,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_03",db-6,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\Shells\Shotgun\grass_shotgun_04",db-6,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
-		};
 		distanceZoomMin = 100;
 		distanceZoomMax = 100;
 		modes[] = {Single};
@@ -113,30 +91,5 @@ class CfgWeapons
 			maxRangeProbab = 0.05;
 		};
 	};
-	// M4 SSAS 12G + ACO SMG (Red)
-	class sgun_M4_Holo_F: sgun_M4_F
-	{
-		author = $STR_A3_A_AveryTheKitty_and_Tigg;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_smg;
-			};
-		};
-	};
-	// M4 SSAS 12G + ACO SMG (Green)
-	class sgun_M4_ACO_F: sgun_M4_F
-	{
-		author = $STR_A3_A_AveryTheKitty_and_Tigg;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_ACO_grn_smg;
-			};
-		};
-	};
+	#include "presets.hpp"
 };
