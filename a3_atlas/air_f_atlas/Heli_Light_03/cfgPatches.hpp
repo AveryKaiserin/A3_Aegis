@@ -7,7 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
+            // Legionnaires
+            B_L_Heli_Light_03_dynamicLoadout_F,
+            B_L_Heli_Light_03_unarmed_F,
+
+            // Germany
             B_E_Heli_Light_03_dynamicLoadout_F,
             B_E_Heli_Light_03_unarmed_F
         };

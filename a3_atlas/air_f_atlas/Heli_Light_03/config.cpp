@@ -8,6 +8,18 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
+			class Jagged
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_JAGGED0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_jagged_CO.paa",
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_CO.paa",
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+				};
+				factions[] = {BLU_L_F};
+			};
 			class Woodland
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
@@ -25,5 +37,6 @@ class CfgVehicles
 	class Heli_light_03_dynamicLoadout_base_F: Heli_light_03_base_F{};
 	class Heli_light_03_unarmed_base_F: Heli_light_03_base_F{};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    #include "cfgLegion.hpp"            // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"      // Germany
 };

@@ -9,4 +9,5 @@ class CfgVehicles
     class Heli_Light_01_recon_base_F;
 	// Arma 3 Atlas
 	#include "cfgLegion.hpp"            // Legion
+	#include "cfgIDF.hpp"               // IDF
 };
