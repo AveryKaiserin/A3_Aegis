@@ -43,32 +43,23 @@ class CfgHints
 			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\FIA_CA.paa";
 			logicalOrder = 4;
 		};
-		class Syndikat
+		class Syndicate
 		{
-			displayName = $STR_A3_A_Syndikat1;
-			description = $STR_A3_A_Syndikat0;
+			displayName = $STR_A3_A_Syndicate1;
+			description = $STR_A3_A_Syndicate0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\Syndicate_CA.paa";
 			logicalOrder = 11;
 		};
-		class CTRG
+		class Gendarmerie
 		{
-			displayName = $STR_A3_A_CTRG1;
-			description = $STR_A3_A_CTRG0;
+			displayName = $STR_A3_A_Gendarmerie1;
+			description = $STR_A3_A_Gendarmerie0;
 			tip = "";
 			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
-			logicalOrder = 2;
-		};
-		class Viper
-		{
-			displayName = $STR_A3_A_Viper1;
-			description = $STR_A3_A_Viper0;
-			tip = "";
-			arguments[] = {};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
-			logicalOrder = 12;
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\Gendarmerie_CA.paa";
+			logicalOrder = 11;
 		};
 		class IDAP
 		{
@@ -78,15 +69,6 @@ class CfgHints
 			arguments[] = {};
 			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\IDAP_CA.paa";
 			logicalOrder = 6;
-		};
-		class LDF
-		{
-			displayName = $STR_A3_A_LDF1;
-			description = $STR_A3_A_LDF0;
-			tip = "";
-			arguments[] = {};
-			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\LDF_CA.paa";
-			logicalOrder = 8;
 		};
 		class Spetsnaz
 		{

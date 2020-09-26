@@ -119,7 +119,7 @@ class O_C_supplyCrate_F: O_supplyCrate_F
     editorSubcategory = EdSubcat_Ammo_CSAT_Takistani;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
+		mag_xx(30Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);

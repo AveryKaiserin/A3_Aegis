@@ -15,24 +15,34 @@ class CfgPatches
         {
             // Civilians
             C_Truck_02_cargo_F,
+            C_Truck_02_flatbed_F,
 
             // AAF
             I_Truck_02_cargo_F,
+            I_Truck_02_flatbed_F,
 
             // CSAT
             O_Truck_02_cargo_F,
+            O_Truck_02_flatbed_F,
             O_Truck_02_MRL_F,
 
             // CSAT (Pacific)
             O_T_Truck_02_cargo_F,
+            O_T_Truck_02_flatbed_F,
             O_T_Truck_02_MRL_F,
 
             // IDAP
             C_IDAP_Truck_02_cargo_F,
+            C_IDAP_Truck_02_flatbed_F,
 
             // CSAT (African)
+            O_A_Truck_02_Ammo_F,
+            O_A_Truck_02_box_F,
             O_A_Truck_02_cargo_F,
             O_A_Truck_02_F,
+            O_A_Truck_02_flatbed_F,
+            O_A_Truck_02_fuel_F,
+            O_A_Truck_02_medical_F,
             O_A_Truck_02_transport_F,
 
             // LDF
@@ -47,6 +57,8 @@ class CfgPatches
             O_R_Truck_02_cargo_ard_F,
             O_R_Truck_02_cargo_F,
             O_R_Truck_02_F,
+            O_R_Truck_02_flatbed_ard_F,
+            O_R_Truck_02_flatbed_F,
             O_R_Truck_02_fuel_ard_F,
             O_R_Truck_02_fuel_F,
             O_R_Truck_02_medical_ard_F,

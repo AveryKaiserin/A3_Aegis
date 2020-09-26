@@ -2,34 +2,34 @@ class CfgFactionClasses
 {
 	class BLU_F
 	{
-        displayName = "US";
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
 	};
 	class OPF_F
 	{
-        displayName = "Iran";
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Iran_CO.paa";
 	};
     // Arma 3 Apex
 	class BLU_T_F
 	{
-        displayName = "US (Pacific)";
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_T_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
 	};
 	class OPF_T_F
 	{
-		displayName = "China";
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_T_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_T_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_China_CO.paa";
 	};
-	// Arma 3 Tacops
+	// Arma 3 Tac-ops
 	class OPF_A_F
 	{
-		displayName = "Argana";
-		priority = 6;
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_A_F0;
+		priority = 3;
 		side = TEast;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_A_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Argana_CO.paa";
@@ -41,7 +41,7 @@ class CfgFactionClasses
 	};
 	class BLU_W_F
 	{
-        displayName = "US (Woodland)";
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_W_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
 	};
@@ -54,31 +54,31 @@ class CfgFactionClasses
 	class BLU_CTRG_tna_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_CTRG_tna_F0;
-		priority = 7;
+		priority = 3;
 		side = TWest;
 		icon = "\A3\Data_F_Exp\FactionIcons\icon_CTRG_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_CTRG_CO.paa";
 	};
 	class BLU_A_F
 	{
-		displayName = "BAF";
-		priority = 8;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F0;
+		priority = 3;
 		side = TWest;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
 	};
 	class BLU_A_tna_F
 	{
-		displayName = "BAF (Pacific)";
-		priority = 9;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_tna_F0;
+		priority = 3;
 		side = TWest;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
 	};
 	class BLU_A_wdl_F
 	{
-		displayName = "BAF (Woodland)";
-		priority = 10;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_wdl_F0;
+		priority = 3;
 		side = TWest;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_UK_CO.paa";
@@ -86,7 +86,7 @@ class CfgFactionClasses
 	class BLU_ION_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_ION_F0;
-		priority = 12;
+		priority = 3;
 		side = TWest;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\icon_ION_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_ION_CO.paa";
@@ -94,7 +94,7 @@ class CfgFactionClasses
 	class OPF_V_tna_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_V_tna_F0;
-		priority = 7;
+		priority = 3;
 		side = TEast;
 		icon = "\A3\Data_F_Exp\FactionIcons\icon_VIPER_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Viper_CO.paa";
@@ -102,7 +102,7 @@ class CfgFactionClasses
 	class OPF_R_ard_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_R_ard_F0;
-		priority = 8;
+		priority = 3;
 		side = TEast;
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_RUS_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
@@ -110,7 +110,7 @@ class CfgFactionClasses
 	class IND_E_ard_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
-		priority = 6;
+		priority = 3;
 		side = TGuerrila;
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_EAF_CA.paa";
 		flag = "\A3\Data_F_Enoch\Flags\flag_EAF_CO.paa";

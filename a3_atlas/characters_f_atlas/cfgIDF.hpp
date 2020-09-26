@@ -1010,22 +1010,22 @@ class I_I_helipilot_F: I_I_Soldier_Base_F
     };
 	weapons[] =
 	{
-		hgun_PDW2000_Holo_F,
+		SMG_05_ACO_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		hgun_PDW2000_Holo_F,
+		SMG_05_ACO_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag),
+		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Yellow),
         SOLDIER_SMOKE_SHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag),
+		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Yellow),
         SOLDIER_SMOKE_SHELLS_INDEP
 	};
 	camouflage = 2;

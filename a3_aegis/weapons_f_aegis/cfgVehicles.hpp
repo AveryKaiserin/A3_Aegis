@@ -129,11 +129,19 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
 	};
+	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
 	class Weapon_LMG_Mk200_black_F: Weapon_Base_F
     {
         displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_black_F0;
     };
-	LAUNCHER_HOLDER(launch_RPG32_camo_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0,RPG32_F)
+	class Weapon_sgun_HunterShotgun_01_F: Weapon_Base_F
+    {
+		editorSubcategory = EdSubcat_Shotguns; // Let's use our editor subcategory for shotguns
+    };
+	class Weapon_sgun_HunterShotgun_01_sawedoff_F: Weapon_Base_F
+    {
+		editorSubcategory = EdSubcat_Shotguns; // Let's use our editor subcategory for shotguns
+    };
 	// Arma 3 Oldman
 	class OM_Electro;
 	class Item_CSAToperatorAccesCard_01: OM_Electro

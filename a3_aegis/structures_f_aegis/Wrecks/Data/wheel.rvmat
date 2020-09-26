@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+	texture="a3\structures_f\wrecks\data\brdm2b_wrecked_dt.tga";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -119,7 +119,7 @@ class O_A_supplyCrate_F: O_supplyCrate_F
     editorSubcategory = EdSubcat_Ammo_CSAT_African;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
+		mag_xx(30Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_580x42_Mag_F,24);
 		mag_xx(100Rnd_580x42_Mag_F,8);

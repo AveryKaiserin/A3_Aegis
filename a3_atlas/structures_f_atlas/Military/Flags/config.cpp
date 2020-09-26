@@ -67,7 +67,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_EU_F.jpg";
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_EU_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = "Flag (European Union)";

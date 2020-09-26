@@ -2046,21 +2046,21 @@
 			</Container>
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_W_F0">
-					<Original>CSAT (Woodland)</Original>
-					<Chinese>CSAT (森林)</Chinese>
-					<French>CSAT (forêt)</French>
-					<Spanish>CSAT (bosque)</Spanish>
-					<Italian>CSAT (boschi)</Italian>
-					<Polish>CSAT (las)</Polish>
-					<Russian>CSAT (лес)</Russian>
-					<German>CSAT (Waldland)</German>
-					<Czech>CSAT (woodland)</Czech>
-					<English>CSAT (Woodland)</English>
-					<Portuguese>CSAT (floresta)</Portuguese>
-					<Korean>CSAT(산악)</Korean>
-					<Chinesesimp>CSAT (林地)</Chinesesimp>
-					<Japanese>CSAT（森林）</Japanese>
-					<Turkish>CSAT (Ağaçlık)</Turkish>
+                    <Original>Belarus</Original>
+                    <Chinese>白俄羅斯</Chinese>
+                    <French>Biélorussie</French>
+                    <Spanish>Bielorrusia</Spanish>
+                    <Italian>Bielorussia</Italian>
+                    <Polish>Białoruś</Polish>
+                    <Russian>Беларусь</Russian>
+                    <German>Weißrussland</German>
+                    <Czech>bělorusko</Czech>
+                    <English>Belarus</English>
+                    <Portuguese>belarus</Portuguese>
+                    <Korean>벨라루스</Korean>
+                    <Chinesesimp>白俄罗斯</Chinesesimp>
+                    <Japanese>ベラルーシ</Japanese>
+                    <Turkish>beyaz rusya</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_L_F0">
 					<Original>Legionnaires</Original>
@@ -2080,21 +2080,21 @@
 					<Turkish>Lejyonerler</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
-					<Original>NATO (German)</Original>
-					<Chinese>NATO (德語)</Chinese>
-					<French>OTAN (Allemand)</French>
-					<Spanish>OTAN (Alemán)</Spanish>
-					<Italian>OTAN (Germano)</Italian>
-					<Polish>NATO (Niemiecki)</Polish>
-					<Russian>НАТО (Немецкий)</Russian>
-					<German>NATO (Deutsche)</German>
-					<Czech>NATO (Němec)</Czech>
-					<English>NATO (German)</English>
-					<Portuguese>OTAN (Germano)</Portuguese>
-					<Korean>NATO(독일 사람)</Korean>
-					<Chinesesimp>NATO (德语)</Chinesesimp>
-					<Japanese>NATO（ドイツ人）</Japanese>
-					<Turkish>NATO (Almanca)</Turkish>
+					<Original>Germany</Original>
+					<Chinese>德國</Chinese>
+					<French>Allemagne</French>
+					<Spanish>Alemania</Spanish>
+					<Italian>Germania</Italian>
+					<Polish>Niemcy</Polish>
+					<Russian>Германия</Russian>
+					<German>Deutschland</German>
+					<Czech>Německo</Czech>
+					<English>Germany</English>
+					<Portuguese>Alemanha</Portuguese>
+					<Korean>독일</Korean>
+					<Chinesesimp>德国</Chinesesimp>
+					<Japanese>ドイツ</Japanese>
+					<Turkish>Almanya</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_O_F0">
 					<Original>ADF</Original>
@@ -2130,39 +2130,56 @@
 					<Japanese>HIMF</Japanese>
 					<Turkish>HIMF</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_C_F0">
+					<Original>ACR</Original>
+					<Chinese>ACR</Chinese>
+					<French>ACR</French>
+					<Spanish>ACR</Spanish>
+					<Italian>ACR</Italian>
+					<Polish>ACR</Polish>
+					<Russian>ACR</Russian>
+					<German>ACR</German>
+					<Czech>ACR</Czech>
+					<English>ACR</English>
+					<Portuguese>ACR</Portuguese>
+					<Korean>ACR</Korean>
+					<Chinesesimp>ACR</Chinesesimp>
+					<Japanese>ACR</Japanese>
+					<Turkish>ACR</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_C_F0">
-					<Original>CSAT (Caspian)</Original>
-					<Chinese>CSAT (Caspian)</Chinese>
-					<French>CSAT (Caspian)</French>
-					<Spanish>CSAT (Caspian)</Spanish>
-					<Italian>CSAT (Caspian)</Italian>
-					<Polish>CSAT (Caspian)</Polish>
-					<Russian>CSAT (Caspian)</Russian>
-					<German>CSAT (Caspian)</German>
-					<Czech>CSAT (Caspian)</Czech>
-					<English>CSAT (Caspian)</English>
-					<Portuguese>CSAT (Caspian)</Portuguese>
-					<Korean>CSAT (Caspian)</Korean>
-					<Chinesesimp>CSAT (Caspian)</Chinesesimp>
-					<Japanese>CSAT (Caspian)</Japanese>
-					<Turkish>CSAT (Caspian)</Turkish>
+                    <Original>Takistani Army</Original>
+                    <Chinese>Takistani Army</Chinese>
+                    <French>Takistani Army</French>
+                    <Spanish>Takistani Army</Spanish>
+                    <Italian>Takistani Army</Italian>
+                    <Polish>Takistani Army</Polish>
+                    <Russian>Takistani Army</Russian>
+                    <German>Takistani Army</German>
+                    <Czech>Takistani Army</Czech>
+                    <English>Takistani Army</English>
+                    <Portuguese>Takistani Army</Portuguese>
+                    <Korean>Takistani Army</Korean>
+                    <Chinesesimp>Takistani Army</Chinesesimp>
+                    <Japanese>Takistani Army</Japanese>
+                    <Turkish>Takistani Army</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_S_F0">
-					<Original>CSAT (South American)</Original>
-					<Chinese>CSAT (South American)</Chinese>
-					<French>CSAT (South American)</French>
-					<Spanish>CSAT (South American)</Spanish>
-					<Italian>CSAT (South American)</Italian>
-					<Polish>CSAT (South American)</Polish>
-					<Russian>CSAT (South American)</Russian>
-					<German>CSAT (South American)</German>
-					<Czech>CSAT (South American)</Czech>
-					<English>CSAT (South American)</English>
-					<Portuguese>CSAT (South American)</Portuguese>
-					<Korean>CSAT (South American)</Korean>
-					<Chinesesimp>CSAT (South American)</Chinesesimp>
-					<Japanese>CSAT (South American)</Japanese>
-					<Turkish>CSAT (South American)</Turkish>
+                    <Original>Venezuela</Original>
+                    <Chinese>委內瑞拉</Chinese>
+                    <French>Venezuela</French>
+                    <Spanish>Venezuela</Spanish>
+                    <Italian>Venezuela</Italian>
+                    <Polish>Wenezuela</Polish>
+                    <Russian>Венесуэла</Russian>
+                    <German>Venezuela</German>
+                    <Czech>Venezuela</Czech>
+                    <English>Venezuela</English>
+                    <Portuguese>Venezuela</Portuguese>
+                    <Korean>베네수엘라</Korean>
+                    <Chinesesimp>委内瑞拉</Chinesesimp>
+                    <Japanese>ベネズエラ</Japanese>
+                    <Turkish>Venezuela</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_IND_W_F0">
 					<Original>CDF</Original>
@@ -2214,6 +2231,23 @@
 					<Chinesesimp>联合国组织</Chinesesimp>
 					<Japanese>UNO</Japanese>
 					<Turkish>UNO</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_S_F0">
+					<Original>RACS</Original>
+					<Chinese>RACS</Chinese>
+					<French>RACS</French>
+					<Spanish>RACS</Spanish>
+					<Italian>RACS</Italian>
+					<Polish>RACS</Polish>
+					<Russian>RACS</Russian>
+					<German>RACS</German>
+					<Czech>RACS</Czech>
+					<English>RACS</English>
+					<Portuguese>RACS</Portuguese>
+					<Korean>RACS</Korean>
+					<Chinesesimp>RACS</Chinesesimp>
+					<Japanese>RACS</Japanese>
+					<Turkish>RACS</Turkish>
 				</Key>
 			</Container>
 		</Container>
@@ -2499,21 +2533,21 @@
 		</Container>
 		<Container name="Static_F">
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_AA_F0">
-				<Original>Static Titan Launcher (AA) [IDF]</Original>
-				<Chinese>固定式 Titan 發射器（AA）（IDF）</Chinese>
-				<French>Lance-roquettes fixe Titan (AA) [IDF]</French>
-				<Spanish>Lanzador Titan estático (AA) [IDF]</Spanish>
-				<Italian>Lanciatore Titan statico (AA) [IDF]</Italian>
-				<Polish>Statyczna wyrzutnia Titan (plot) [IDF]</Polish>
-				<Russian>Стационарная ПУ Titan (ПВО) [IDF]</Russian>
-				<German>Statischer Titan-Werfer (Flugabwehr) [IDF]</German>
-				<Czech>Statický odpalovač Titan (AA) [IDF]</Czech>
-				<English>Static Titan Launcher (AA) [IDF]</English>
-				<Portuguese>Lançador estático de Titan (ar-ar) [IDF]</Portuguese>
-				<Korean>고정 타이탄발사기(AA) [IDF]</Korean>
-				<Chinesesimp>静态 Titan 发射器 (AA) [IDF]</Chinesesimp>
-				<Japanese>固定式タイタンランチャー（AA） [IDF]</Japanese>
-				<Turkish>Sabit Titan Fırlatıcı (AA) [IDF]</Turkish>
+				<Original>Static Titan Launcher (AA)</Original>
+				<Chinese>固定式 Titan 發射器（AA）</Chinese>
+				<French>Lance-roquettes fixe Titan (AA)</French>
+				<Spanish>Lanzador Titan estático (AA)</Spanish>
+				<Italian>Lanciatore Titan statico (AA)</Italian>
+				<Polish>Statyczna wyrzutnia Titan (plot)</Polish>
+				<Russian>Стационарная ПУ Titan (ПВО)</Russian>
+				<German>Statischer Titan-Werfer (Flugabwehr)</German>
+				<Czech>Statický odpalovač Titan (AA)</Czech>
+				<English>Static Titan Launcher (AA)</English>
+				<Portuguese>Lançador estático de Titan (ar-ar)</Portuguese>
+				<Korean>고정 타이탄발사기(AA)</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AA)</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AA）</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AA)</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_AA_01_weapon_F_assembleInfo0">
 				<Original>Static AA Launcher</Original>
@@ -2550,21 +2584,21 @@
 				<Turkish>Sabit Titan Fırlatıcı (AA) [IDF]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_AT_F0">
-				<Original>Static Titan Launcher (AT) [IDF]</Original>
-				<Chinese>固定式 Titan 發射器（AT）（IDF）</Chinese>
-				<French>Lance-roquettes fixe Titan (AC) [IDF]</French>
-				<Spanish>Lanzador Titan estático (AT) [IDF]</Spanish>
-				<Italian>Lanciatore Titan statico (AC) [IDF]</Italian>
-				<Polish>Statyczna wyrzutnia Titan (ppanc) [IDF]</Polish>
-				<Russian>Стационарная ПУ Titan (ПТ) [IDF]</Russian>
-				<German>Statischer Titan-Werfer (Panzerabwehr) [IDF]</German>
-				<Czech>Statický odpalovač Titan (AT) [IDF]</Czech>
-				<English>Static Titan Launcher (AT) [IDF]</English>
-				<Portuguese>Lançador estático de Titan (antitanque) [IDF]</Portuguese>
-				<Korean>고정 타이탄발사기(AT) [IDF]</Korean>
-				<Chinesesimp>静态 Titan 发射器 (AT) [IDF]</Chinesesimp>
-				<Japanese>固定式タイタンランチャー（AT） [IDF]</Japanese>
-				<Turkish>Sabit Titan Fırlatıcı (AT) [IDF]</Turkish>
+				<Original>Static Titan Launcher (AT)</Original>
+				<Chinese>固定式 Titan 發射器（AT）</Chinese>
+				<French>Lance-roquettes fixe Titan (AC)</French>
+				<Spanish>Lanzador Titan estático (AT)</Spanish>
+				<Italian>Lanciatore Titan statico (AC)</Italian>
+				<Polish>Statyczna wyrzutnia Titan (ppanc)</Polish>
+				<Russian>Стационарная ПУ Titan (ПТ)</Russian>
+				<German>Statischer Titan-Werfer (Panzerabwehr)</German>
+				<Czech>Statický odpalovač Titan (AT)</Czech>
+				<English>Static Titan Launcher (AT)</English>
+				<Portuguese>Lançador estático de Titan (antitanque)</Portuguese>
+				<Korean>고정 타이탄발사기(AT)</Korean>
+				<Chinesesimp>静态 Titan 发射器 (AT)</Chinesesimp>
+				<Japanese>固定式タイタンランチャー（AT）</Japanese>
+				<Turkish>Sabit Titan Fırlatıcı (AT)</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F_assembleInfo0">
 				<Original>Static AT Launcher</Original>
@@ -2601,38 +2635,38 @@
 				<Turkish>Sabit Titan Fırlatıcı (AT) [IDF]</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F0">
-				<Original>Remote Designator [IDF]</Original>
-				<Chinese>遠距指標器（IDF）</Chinese>
-				<French>Désignateur à distance [IDF]</French>
-				<Spanish>Marcador remoto [IDF]</Spanish>
-				<Italian>Designatore remoto [IDF]</Italian>
-				<Polish>Zdalny wskaźnik [IDF]</Polish>
-				<Russian>Дистанционный целеуказатель [IDF]</Russian>
-				<German>Fernmarkierer [IDF]</German>
-				<Czech>Dálkově ovládaný laserový značkovač [IDF]</Czech>
-				<English>Remote Designator [IDF]</English>
-				<Portuguese>Designador remoto [IDF]</Portuguese>
-				<Korean>원격 표시기 [IDF]</Korean>
-				<Chinesesimp>远程指示器 [IDF]</Chinesesimp>
-				<Japanese>リモート目標指示装置 [IDF]</Japanese>
-				<Turkish>Uzaktan İşaretleyici [IDF]</Turkish>
+                <Original>Remote Designator</Original>
+                <Chinese>遠距指標器</Chinese>
+                <French>Désignateur à distance</French>
+                <Spanish>Marcador remoto</Spanish>
+                <Italian>Designatore remoto</Italian>
+                <Polish>Zdalny wskaźnik</Polish>
+                <Russian>Дистанционный целеуказатель</Russian>
+                <German>Fernmarkierer</German>
+                <Czech>Dálkově ovládaný laserový značkovač</Czech>
+                <English>Remote Designator</English>
+                <Portuguese>Designador remoto</Portuguese>
+                <Korean>원격 표시기</Korean>
+                <Chinesesimp>远程指示器</Chinesesimp>
+                <Japanese>リモート目標指示装置</Japanese>
+                <Turkish>Uzaktan İşaretleyici</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F_assembleInfo0">
-				<Original>Remote Designator [IDF]</Original>
-				<Chinese>遠距指標器（IDF）</Chinese>
-				<French>Désignateur à distance [IDF]</French>
-				<Spanish>Marcador remoto [IDF]</Spanish>
-				<Italian>Designatore remoto [IDF]</Italian>
-				<Polish>Zdalny wskaźnik [IDF]</Polish>
-				<Russian>Дистанционный целеуказатель [IDF]</Russian>
-				<German>Fernmarkierer [IDF]</German>
-				<Czech>Dálkově ovládaný laserový značkovač [IDF]</Czech>
-				<English>Remote Designator [IDF]</English>
-				<Portuguese>Designador remoto [IDF]</Portuguese>
-				<Korean>원격 표시기 [IDF]</Korean>
-				<Chinesesimp>远程指示器 [IDF]</Chinesesimp>
-				<Japanese>リモート目標指示装置 [IDF]</Japanese>
-				<Turkish>Uzaktan İşaretleyici [IDF]</Turkish>
+                <Original>Remote Designator</Original>
+                <Chinese>遠距指標器</Chinese>
+                <French>Désignateur à distance</French>
+                <Spanish>Marcador remoto</Spanish>
+                <Italian>Designatore remoto</Italian>
+                <Polish>Zdalny wskaźnik</Polish>
+                <Russian>Дистанционный целеуказатель</Russian>
+                <German>Fernmarkierer</German>
+                <Czech>Dálkově ovládaný laserový značkovač</Czech>
+                <English>Remote Designator</English>
+                <Portuguese>Designador remoto</Portuguese>
+                <Korean>원격 표시기</Korean>
+                <Chinesesimp>远程指示器</Chinesesimp>
+                <Japanese>リモート目標指示装置</Japanese>
+                <Turkish>Uzaktan İşaretleyici</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_I_I_Static_Designator_01_weapon_F0">
 				<Original>Remote Designator Bag [IDF]</Original>

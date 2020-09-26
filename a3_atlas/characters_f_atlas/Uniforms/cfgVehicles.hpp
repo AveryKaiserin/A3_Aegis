@@ -76,7 +76,6 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_H_Soldier_2_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0)
 	UNIFORM_HOLDER(U_B_H_Soldier_3_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0)
 	UNIFORM_HOLDER(U_B_H_Officer_F,$STR_A3_A_CfgWeapons_U_B_H_Officer_F0)
-	UNIFORM_HOLDER(U_B_H_Coveralls_F,$STR_A3_A_CfgWeapons_U_B_H_Coveralls_F0)
 	/*
     // CDF
 	UNIFORM_HOLDER(U_I_W_Uniform_01_F,$STR_A3_A_CfgWeapons_U_I_W_Uniform_01_F0)

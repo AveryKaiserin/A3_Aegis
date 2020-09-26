@@ -7,5 +7,6 @@ class CfgVehicles
 	class SoldierEB;
 	class SoldierGB;
 	#include "cfgUSMC.hpp"
+    #include "cfgUniforms.hpp"
 };
 #include "cfgGroups.hpp"

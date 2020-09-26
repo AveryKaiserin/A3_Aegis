@@ -16,7 +16,7 @@ class I_I_supplyCrate_F: I_supplyCrate_F
     editorSubcategory = EdSubcat_Ammo_IDF;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_9x21_Mag,6);
+		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_556x45_Stanag,24);
 		mag_xx(150Rnd_762x51_Box_Yellow,3);

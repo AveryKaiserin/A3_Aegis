@@ -2083,3 +2083,16 @@ class SMG_02_ACO_FL_F: SMG_02_F
 		};
 	};
 };
+// Protector 9 mm + ACO SMG (Green)
+class SMG_05_ACO_F: SMG_05_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_smg;
+		};
+	};
+};

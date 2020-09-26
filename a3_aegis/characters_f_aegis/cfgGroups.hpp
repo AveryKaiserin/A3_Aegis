@@ -15,7 +15,7 @@ class CfgGroups
 		side = TWest;
 		class BLU_F
 		{
-			name = $STR_A3_CfgGroups_West_BLU_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -140,7 +140,7 @@ class CfgGroups
 		};
 		class BLU_T_F
 		{
-			name = $STR_A3_CfgGroups_West_BLU_T_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_T_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -287,7 +287,7 @@ class CfgGroups
 		};
 		class BLU_W_F
 		{
-			name = $STR_A3_C_CfgFactionClasses_BLU_W_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_W_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -1754,7 +1754,7 @@ class CfgGroups
 		side = TEast;
 		class OPF_F
 		{
-			name = $STR_A3_CfgGroups_East_OPF_F0;
+			name = $STR_A3_A_CfgFactionClasses_OPF_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -1896,7 +1896,7 @@ class CfgGroups
 		};
 		class OPF_T_F
 		{
-			name = $STR_A3_CfgGroups_East_OPF_T_F0;
+			name = $STR_A3_A_CfgFactionClasses_OPF_T_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;

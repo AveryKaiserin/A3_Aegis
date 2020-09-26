@@ -3,8 +3,23 @@
 class CfgVehicles
 {
 	// Arma 3
-	class B_static_AT_F;
-	class O_static_AT_F;
+    class StaticMGWeapon;
+    class AT_01_base_F: StaticMGWeapon
+    {
+	    displayName = $STR_A3_A_CfgVehicles_B_static_AT_F0;
+    };
+	class B_static_AT_F: AT_01_base_F
+    {
+	    displayName = $STR_A3_A_CfgVehicles_B_static_AT_F0;
+    };
+	class O_static_AT_F: AT_01_base_F
+    {
+	    displayName = $STR_A3_A_CfgVehicles_B_static_AT_F0;
+    };
+    class I_static_AT_F: AT_01_base_F
+    {
+	    displayName = $STR_A3_A_CfgVehicles_B_static_AT_F0;
+    };
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -49,6 +64,10 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Enoch
+	class I_E_Static_AT_F: I_static_AT_F
+	{
+	    displayName = $STR_A3_A_CfgVehicles_B_static_AT_F0;
+	};
 	class I_E_AT_01_weapon_F: I_AT_01_weapon_F
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};

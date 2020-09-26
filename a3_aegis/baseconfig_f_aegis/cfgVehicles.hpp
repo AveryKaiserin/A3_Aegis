@@ -911,13 +911,9 @@ class CfgVehicles
     COMPATIBILITYCLASS(I_R_MRAP_01_hmg_F,B_MRAP_01_hmg_F)
     COMPATIBILITYCLASS(O_P_MRAP_01_hmg_F,B_MRAP_01_hmg_F)
     class O_Truck_02_Ammo_F;
-    COMPATIBILITYCLASS(O_A_Truck_02_Ammo_F,O_Truck_02_Ammo_F)
     class O_Truck_02_box_F;
-    COMPATIBILITYCLASS(O_A_Truck_02_box_F,O_Truck_02_box_F)
     class O_Truck_02_fuel_F;
-    COMPATIBILITYCLASS(O_A_Truck_02_fuel_F,O_Truck_02_fuel_F)
     class O_Truck_02_medical_F;
-    COMPATIBILITYCLASS(O_A_Truck_02_medical_F,O_Truck_02_medical_F)
     class O_Truck_02_MRL_F;
     COMPATIBILITYCLASS(O_A_Truck_02_MRL_F,O_Truck_02_MRL_F)
     class O_T_Truck_02_Ammo_F;

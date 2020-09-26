@@ -796,14 +796,14 @@ class B_officer_F: B_Soldier_base_F
     };
 	linkedItems[] =
     {
-        V_BandollierB_rgr,
+        V_Rangemaster_belt,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
-        V_BandollierB_rgr,
+        V_Rangemaster_belt,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems

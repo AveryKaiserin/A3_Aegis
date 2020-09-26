@@ -4,7 +4,10 @@ class CfgVehicles
 {
 	// Arma 3 Marksman
 	class Static_Designator_02_base_F;
-	class O_Static_Designator_02_F;
+	class O_Static_Designator_02_F: Static_Designator_02_base_F
+    {
+        displayName = $STR_A3_CfgVehicles_Static_Designator_01_base_F1;
+    };
 	class Weapon_Bag_Base;
 	class O_Static_Designator_02_weapon_F: Weapon_Bag_Base
 	{

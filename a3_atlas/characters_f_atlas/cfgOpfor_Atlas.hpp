@@ -278,24 +278,24 @@ class O_C_crew_F: O_C_soldier_base_F
     };
     weapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_6(30Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_6(30Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
@@ -473,22 +473,22 @@ class O_C_helipilot_F: O_helipilot_F
     };
     weapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(30Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(30Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
 };
@@ -757,27 +757,27 @@ class O_C_officer_F: O_C_soldier_base_F
     };
     weapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        SMG_05_F,
+        hgun_PDW2000_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(30Rnd_9x21_Mag),
         mag_3(17Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(30Rnd_9x21_Mag),
         mag_3(17Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };

@@ -95,7 +95,18 @@ class CfgMagazines
 		count = 15;
 		descriptionShort = $STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag1;
 	};
-	class O_IR_Grenade;
+	class B_IR_Grenade: CA_Magazine
+    {
+        displayName = "IR Grenade [BLUFOR]";
+    };
+	class O_IR_Grenade: B_IR_Grenade
+    {
+        displayName = "IR Grenade [OPFOR]";
+    };
+	class I_IR_Grenade: B_IR_Grenade
+    {
+        displayName = "IR Grenade [Independent]";
+    };
 	class 1000Rnd_762x51_Belt_T_Red;
 	class 1000Rnd_762x51_Belt_T_Green;
 	class 1000Rnd_762x51_Belt_T_Yellow;
@@ -251,8 +262,13 @@ class CfgMagazines
 	class 2Rnd_12Gauge_Slug;
 	class O_R_IR_Grenade: O_IR_Grenade
 	{
+		scope = protected;
 		displayName = $STR_A3_A_CfgMagazines_O_R_IR_Grenade0;
 		descriptionShort = $STR_A3_A_CfgMagazines_O_R_IR_Grenade1;
+	};
+	class I_E_IR_Grenade: I_IR_Grenade
+	{
+		scope = protected;
 	};
 	// Arma 3 Aegis
 	class 20Rnd_556x45_Stanag: 30Rnd_556x45_Stanag

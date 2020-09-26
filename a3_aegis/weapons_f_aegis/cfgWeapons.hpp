@@ -1458,6 +1458,7 @@ class CfgWeapons
 		};
 	};
 	class SMG_05_base_F;
+	class SMG_05_F;
 	// Arma 3 Jets
 	class weapon_Fighter_Gun20mm_AA: CannonCore
 	{
