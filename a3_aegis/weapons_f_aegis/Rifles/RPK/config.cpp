@@ -105,6 +105,9 @@ class CfgWeapons
 			maxRangeProbab = 0.25;
 			aiRateOfFire = 2;
 		};
+        // ACE compatibility
+        ACE_barrelTwist = 195.04;
+        ACE_barrelLength = 590;
 	};
 	class arifle_RPK_F: arifle_RPK_base_F
 	{

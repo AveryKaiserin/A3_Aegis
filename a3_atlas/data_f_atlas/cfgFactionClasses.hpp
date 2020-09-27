@@ -77,7 +77,6 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_UNO_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_UNO_CO.paa";
 	};
-    */
 	class IND_S_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_IND_S_F0;
@@ -86,4 +85,5 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_RACS_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_RACS_CO.paa";
 	};
+    */
 };

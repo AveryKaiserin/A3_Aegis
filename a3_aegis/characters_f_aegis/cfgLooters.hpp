@@ -29,6 +29,8 @@ class I_L_Uniform_01_tshirt_black_F: I_L_Uniform_01_tshirt_skull_F
 };
 class I_L_Looter_Pistol_F: I_L_Soldier_Base_F
 {
+	linkedItems[] = {DefaultManLooterLinkedItems};
+	respawnLinkedItems[] = {DefaultManLooterLinkedItems};
 	weapons[] =
     {
         hgun_Pistol_01_F,
@@ -44,6 +46,16 @@ class I_L_Looter_Pistol_F: I_L_Soldier_Base_F
 };
 class I_L_Looter_SG_F: I_L_Soldier_Base_F
 {
+	linkedItems[] =
+    {
+        V_pocketed_coyote_F,
+        DefaultManLooterLinkedItems
+    };
+	respawnLinkedItems[] =
+    {
+        V_pocketed_coyote_F,
+        DefaultManLooterLinkedItems
+    };
 	magazines[] = {mag_6(2Rnd_12Gauge_Pellets)};
 	respawnMagazines[] = {mag_6(2Rnd_12Gauge_Pellets)};
 };
@@ -55,12 +67,12 @@ class I_L_Looter_Rifle_F: I_L_Soldier_Base_F
 	linkedItems[] =
     {
         V_LegStrapBag_black_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	respawnLinkedItems[] =
     {
         V_LegStrapBag_black_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	weapons[] =
     {
@@ -77,6 +89,8 @@ class I_L_Looter_Rifle_F: I_L_Soldier_Base_F
 };
 class I_L_Criminal_SG_F: I_L_Soldier_Base_F
 {
+	linkedItems[] = {DefaultManLooterLinkedItems};
+	respawnLinkedItems[] = {DefaultManLooterLinkedItems};
 	weapons[] =
     {
         sgun_HunterShotgun_01_Sawedoff_F,
@@ -100,10 +114,17 @@ class I_L_Criminal_SG_F: I_L_Soldier_Base_F
         17Rnd_9x21_Mag
     };
 };
+class I_L_Criminal_SMG_F: I_L_Soldier_Base_F
+{
+	linkedItems[] = {DefaultManLooterLinkedItems};
+	respawnLinkedItems[] = {DefaultManLooterLinkedItems};
+};
 class I_L_Hunter_F: I_L_Soldier_Base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_L_Hunter_F.jpg";
 	uniformClass = U_IG_Guerilla3_1;
+	linkedItems[] = {DefaultManLooterLinkedItems};
+	respawnLinkedItems[] = {DefaultManLooterLinkedItems};
 };
 // Arma 3 Contact
 class I_L_Deserter_base_F: I_L_Soldier_Base_F
@@ -129,22 +150,22 @@ class I_L_Militiaman_SMG_F: I_L_Deserter_base_F
     {
         H_Booniehat_mgrn,
         V_Pocketed_coyote_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_Booniehat_mgrn,
         V_Pocketed_coyote_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	weapons[] =
     {
-        SMG_03C_TR_black,
+        SMG_03_TR_black,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        SMG_03C_TR_black,
+        SMG_03_TR_black,
         DefaultManWeapons
     };
 	magazines[] =
@@ -172,13 +193,13 @@ class I_L_Militiaman_Rifle_F: I_L_Deserter_base_F
     {
         H_Bandanna_khk,
         V_TacVest_oli,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_Bandanna_khk,
         V_TacVest_oli,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	weapons[] =
     {
@@ -215,13 +236,13 @@ class I_L_Militiaman_Leader_F: I_L_Deserter_base_F
     {
         H_Cap_oli,
         V_BandollierB_oli,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_Cap_oli,
         V_BandollierB_oli,
-        DefaultManGuerillaLinkedItems
+        DefaultManLooterLinkedItems
     };
 	weapons[] =
     {
@@ -260,13 +281,13 @@ class I_L_Deserter_Rifle_F: I_L_Deserter_base_F
     {
         H_HelmetHBK_F,
         V_CarrierRigKBT_01_light_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_F,
         V_CarrierRigKBT_01_light_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	weapons[] =
     {
@@ -307,13 +328,13 @@ class I_L_Deserter_AR_F: I_L_Deserter_base_F
     {
         H_HelmetHBK_ear_F,
         V_CarrierRigKBT_01_light_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_ear_F,
         V_CarrierRigKBT_01_light_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	weapons[] =
     {
@@ -354,13 +375,13 @@ class I_L_Deserter_GL_F: I_L_Deserter_base_F
     {
         H_HelmetHBK_chops_F,
         V_CarrierRigKBT_01_heavy_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_chops_F,
         V_CarrierRigKBT_01_heavy_EAF_F,
-        DefaultManGuerillaLinkedItems
+        DefaultManLinkedItems
     };
 	weapons[] =
     {

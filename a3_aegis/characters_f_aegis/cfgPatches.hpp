@@ -169,6 +169,9 @@ class CfgPatches
             B_GEN_Soldier_Rifle_F,
             B_GEN_Soldier_SG_F,
 
+            // IDAP
+            C_IDAP_Man_UGV_02_Demining_F,
+
             // CSAT (African)
             O_A_crew_F,
             O_A_engineer_F,

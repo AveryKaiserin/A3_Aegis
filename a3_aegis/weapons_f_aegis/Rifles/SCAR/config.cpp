@@ -161,6 +161,10 @@ class CfgWeapons
 			aiRateOfFire = 2;
 			aiRateOfFireDistance = 500;
 	  	};
+        // ACE compatibility
+		ACE_barrelTwist = 304.8;
+		ACE_barrelLength = 406.4;
+		ACE_railHeightAboveBore = 4.7;
 	};
 	class arifle_SCAR_GL_base_F: arifle_SCAR_base_F
 	{
@@ -238,6 +242,8 @@ class CfgWeapons
 			reloadAction = GestureReloadSPARUGL;
 			magazineReloadSwitchPhase = 0.4;
 		};
+        // ACE compatibility
+        ACE_barrelLength = 330.2;
 	};
 	class arifle_SCAR_short_base_F: arifle_SCAR_base_F
 	{
@@ -258,6 +264,8 @@ class CfgWeapons
 		{
 			dispersion = 0.00102;
 		};
+        // ACE compatibility
+        ACE_barrelLength = 330.2;
 	};
 	class arifle_SCAR_grip_base_F: arifle_SCAR_base_F
 	{

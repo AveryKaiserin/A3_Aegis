@@ -264,14 +264,14 @@ class O_C_crew_F: O_C_soldier_base_F
     engineer = true;
     linkedItems[] =
     {
-        V_BandollierB_khk,
+        V_BandollierB_tan,
         H_Tank_black_F,
         //G_Shemag_white,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        V_BandollierB_khk,
+        V_BandollierB_tan,
         H_Tank_black_F,
         //G_Shemag_white,
 		DefaultManLinkedItems
@@ -745,13 +745,13 @@ class O_C_officer_F: O_C_soldier_base_F
 	cost = 250000;
     linkedItems[] =
     {
-        V_BandollierB_khk,
+        V_Rangemaster_belt_tan,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        V_BandollierB_khk,
+        V_Rangemaster_belt_tan,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };

@@ -1299,14 +1299,14 @@ class B_A_Officer_F: B_officer_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_cbr,
+		V_Rangemaster_belt_cbr,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_cbr,
+		V_Rangemaster_belt_cbr,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -4679,14 +4679,14 @@ class B_A_Officer_tna_F: B_A_Officer_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_tna_F,
+		V_Rangemaster_belt_tna_F,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_tna_F,
+		V_Rangemaster_belt_tna_F,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -7491,14 +7491,14 @@ class B_A_Officer_wdl_F: B_A_Officer_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_Beret_red,
 		ItemGPS,
 		DefaultManLinkedItems

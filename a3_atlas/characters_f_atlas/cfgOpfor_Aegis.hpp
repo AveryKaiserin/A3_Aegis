@@ -1380,14 +1380,14 @@ class O_W_Officer_F: O_officer_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_Beret_CSAT_01_F,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_Beret_CSAT_01_F,
 		ItemGPS,
 		DefaultManLinkedItems

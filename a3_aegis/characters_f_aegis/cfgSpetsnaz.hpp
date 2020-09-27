@@ -1878,14 +1878,14 @@ class O_R_officer_F: O_R_Soldier_Base_F
 	uniformClass = U_O_R_OfficerUniform_taiga_F;
 	linkedItems[] =
 	{
-		V_BandollierB_taiga_F,
+		V_Rangemaster_belt_taiga_F,
 		H_MilCap_taiga,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_taiga_F,
+		V_Rangemaster_belt_taiga_F,
 		H_MilCap_taiga,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -3536,14 +3536,14 @@ class O_R_officer_ard_F: O_R_officer_F
 	uniformClass = U_O_R_OfficerUniform_arid_F;
 	linkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_MilCap_grn,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_MilCap_grn,
 		ItemGPS,
 		DefaultManLinkedItems

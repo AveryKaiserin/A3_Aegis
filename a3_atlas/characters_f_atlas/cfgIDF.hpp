@@ -1313,14 +1313,14 @@ class I_I_officer_F: I_I_Soldier_Base_F
 	uniformClass = U_I_I_OfficerUniform;
 	linkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_Rangemaster_belt,
 		H_Headset_light,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_Rangemaster_belt,
 		H_Headset_light,
 		ItemGPS,
 		DefaultManLinkedItems

@@ -86,7 +86,6 @@ class CfgAddons
                 A3_Atlas_Supplies_F_Atlas_CargoNets,
                 A3_Atlas_UI_F_Atlas,
                 A3_Atlas_Weapons_F_Atlas,
-			    A3_Atlas_Weapons_F_Atlas_Items,
                 /*
                 A3_Atlas_Weapons_F_Atlas_Rifles_AUG,
                 */

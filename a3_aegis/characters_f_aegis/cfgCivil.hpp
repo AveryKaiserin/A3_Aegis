@@ -1,5 +1,10 @@
 // Arma 3
-class Civilian_F;
+class Civilian;
+class Civilian_F: Civilian
+{
+	linkedItems[] = {ItemSmartPhone};
+	respawnLinkedItems[] = {ItemSmartPhone};
+};
 class C_man_1: Civilian_F
 {
     headgearList[] =
@@ -131,6 +136,8 @@ class C_man_p_fugitive_F: C_man_1
 {
     hiddenSelections[] = {camo};
     hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\c_cloth1_CO.paa"};
+	linkedItems[] = {};
+	respawnLinkedItems[] = {};
 };
 class C_man_p_beggar_F: C_man_p_fugitive_F
 {
@@ -162,6 +169,22 @@ class C_man_hunter_1_F: C_man_1
         H_Booniehat_tan,1,
         H_Booniehat_mgrn,1
     };
+	linkedItems[] =
+    {
+        H_Booniehat_mgrn,
+        ItemSmartPhone,
+        ItemMap,
+        ItemCompass,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        H_Booniehat_mgrn,
+        ItemSmartPhone,
+        ItemMap,
+        ItemCompass,
+        ItemWatch
+    };
 };
 class C_man_p_shorts_1_F: C_man_1
 {
@@ -184,12 +207,232 @@ class C_man_pilot_F: C_man_1
         H_HeadSet_white_F,1,
         H_HeadSet_yellow_F,1
     };
+	linkedItems[] =
+    {
+        H_HeadSet_black_F,
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        H_HeadSet_black_F,
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_journalist_F: C_man_1
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
+// Arma 3 Karts
+class C_Driver_1_F: C_man_1
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
+class C_Marshal_F: B_RangeMaster_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
 };
 // Arma 3 Apex
-class C_Man_casual_1_F;
+class C_man_sport_1_F: C_man_1
+{
+	linkedItems[] = {};
+	respawnLinkedItems[] = {};
+};
+class C_Man_casual_1_F: C_man_1
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
 // Arma 3 Laws of War
+class C_Man_ConstructionWorker_01_Red_F: C_Driver_1_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Man_ConstructionWorker_01_Vrana_F: C_Man_ConstructionWorker_01_Red_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Man_ConstructionWorker_01_Black_F: C_Man_ConstructionWorker_01_Red_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Man_ConstructionWorker_01_Blue_F: C_Man_ConstructionWorker_01_Red_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Paramedic_01_base_F: Civilian_F
+{
+	linkedItems[] = {DefaultManAidWorkerLinkedItems};
+	respawnLinkedItems[] = {DefaultManAidWorkerLinkedItems};
+};
+class C_Journalist_01_War_F: C_journalist_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemMap,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemMap,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Man_UtilityWorker_01_F: Civilian_F
+{
+	linkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class C_Man_UAV_06_F: Civilian_F
+{
+	linkedItems[] = {C_UavTerminal};
+	respawnLinkedItems[] = {C_UavTerminal};
+};
+class C_Man_UAV_06_medical_F: Civilian_F
+{
+	linkedItems[] = {C_UavTerminal};
+	respawnLinkedItems[] = {C_UavTerminal};
+};
+class C_Man_Fisherman_01_F: Civilian_F
+{
+	linkedItems[] =
+    {
+        V_Pocketed_coyote_F,
+        H_Booniehat_tan,
+        ItemSmartPhone
+    };
+	respawnLinkedItems[] =
+    {
+        V_Pocketed_coyote_F,
+        H_Booniehat_tan,
+        ItemSmartPhone
+    };
+};
 class C_Man_Messenger_01_F: Civilian_F
 {
+	linkedItems[] =
+    {
+        V_LegStrapBag_coyote_F,
+        H_Cap_tan,
+        ItemSmartPhone
+    };
+	respawnLinkedItems[] =
+    {
+        V_LegStrapBag_coyote_F,
+        H_Cap_tan,
+        ItemSmartPhone
+    };
+};
+class C_Story_Mechanic_01_F: Civilian_F
+{
+	linkedItems[] =
+    {
+        H_Cap_red,
+        ItemSmartPhone
+    };
+	respawnLinkedItems[] =
+    {
+        H_Cap_red,
+        ItemSmartPhone
+    };
 };
 // Arma 3 Enoch
 class C_E_Man_Base_F;

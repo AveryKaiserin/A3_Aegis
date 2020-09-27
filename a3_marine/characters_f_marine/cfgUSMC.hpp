@@ -22,14 +22,14 @@ class B_USMC_Soldier_A_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -73,14 +73,14 @@ class B_USMC_Soldier_AR_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier2_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_PlateCarrier2_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
 	};
@@ -137,14 +137,14 @@ class B_USMC_medic_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
 	};
@@ -194,14 +194,14 @@ class B_USMC_engineer_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -255,14 +255,14 @@ class B_USMC_Soldier_GL_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
 	};
@@ -321,14 +321,14 @@ class B_USMC_soldier_M_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
@@ -385,14 +385,14 @@ class B_USMC_soldier_AA_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -454,14 +454,14 @@ class B_USMC_soldier_AT_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -528,14 +528,14 @@ class B_USMC_officer_F: B_USMC_Soldier_Base_F
 	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -543,27 +543,27 @@ class B_USMC_officer_F: B_USMC_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_MXC_F,
-		hgun_Pistol_heavy_01_MRD_F,
+		hgun_ACPC2_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_MXC_F,
-		hgun_Pistol_heavy_01_MRD_F,
+		hgun_ACPC2_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
     {
         mag_4(30Rnd_65x39_caseless_mag),
-		mag_2(11Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_mag),
-		mag_2(11Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 	camouflage = 1.6;
@@ -582,14 +582,14 @@ class B_USMC_Soldier_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -644,14 +644,14 @@ class B_USMC_Soldier_LAT_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier2_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_PlateCarrier2_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
@@ -702,7 +702,7 @@ class B_USMC_Soldier_SL_F: B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrier2_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -710,7 +710,7 @@ class B_USMC_Soldier_SL_F: B_USMC_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -765,7 +765,7 @@ class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
     linkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
@@ -773,7 +773,7 @@ class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
     respawnLinkedItems[] =
     {
 		V_PlateCarrier1_khk,
-		H_HelmetSpecB_light_sand,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
@@ -829,14 +829,14 @@ class B_USMC_RadioOperator_F: B_USMC_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_khk,
-		H_HelmetB_light_sand,
+		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -1319,14 +1319,14 @@ class B_USMC_officer_wdl_F: B_USMC_officer_F
 	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_khk,
+		V_Rangemaster_belt_khk,
 		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -1334,27 +1334,27 @@ class B_USMC_officer_wdl_F: B_USMC_officer_F
 	weapons[] =
 	{
 		arifle_MXC_Black_F,
-		hgun_Pistol_heavy_01_black_MRD_F,
+		hgun_ACPC2_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_MXC_Black_F,
-		hgun_Pistol_heavy_01_black_MRD_F,
+		hgun_ACPC2_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
     {
         mag_4(30Rnd_65x39_caseless_black_mag),
-		mag_2(11Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_black_mag),
-		mag_2(11Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };

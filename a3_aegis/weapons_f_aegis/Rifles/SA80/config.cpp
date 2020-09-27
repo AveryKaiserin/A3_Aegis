@@ -168,6 +168,9 @@ class CfgWeapons
 				effectName = CaselessAmmoCloud;
 			};
 		};
+        // ACE compatibility
+        ACE_barrelTwist = 180.5;
+        ACE_barrelLength = 518;
 	};
 	class arifle_SA80_GL_base_F: arifle_SA80_base_F
 	{
@@ -279,6 +282,8 @@ class CfgWeapons
 			dispersion = 0.00116;
 		};
 		hasBipod = false;
+        // ACE compatibility
+        ACE_barrelLength = 285;
 	};
 	class arifle_SA80_blk_F: arifle_SA80_base_F
 	{

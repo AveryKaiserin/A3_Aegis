@@ -16,6 +16,7 @@ class CfgWeapons
 	};
 	class V_Rangemaster_belt: Vest_NoCamo_Base
 	{
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_CA.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_rgr_CO.paa"};
@@ -444,7 +445,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrier2_oli0;
-		picture = "\A3\Characters_F\Data\UI\icon_V_Plate_Carrier_2_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier2_oli_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_oli_CO.paa"};
 	};
 	class V_PlateCarrierGL_cbr: V_PlateCarrierGL_rgr
@@ -637,6 +638,20 @@ class CfgWeapons
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\GA_Carrier_GL_Rig_khk_CO.paa"
 		};
 	};
+	class V_Rangemaster_belt_tna_F: V_Rangemaster_belt
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_tna_F0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_tna_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_PlateCarrier1_tna_F_CO.paa"};
+	};
+	class V_Rangemaster_belt_ghex_F: V_Rangemaster_belt
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_ghex_F0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_ghex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_BandollierB_ghex_F_CO.paa"};
+	};
 	class V_HarnessOSpec_ghex_F: V_HarnessOSpec_brn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -740,6 +755,13 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_heavy_Green_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Green_CO.paa"};
+	};
+	class V_Rangemaster_belt_taiga_F: V_Rangemaster_belt
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_taiga_F0;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_taiga_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_RUtaiga_CO.paa"};
 	};
 	class V_BandollierB_taiga_F: V_BandollierB_khk
 	{

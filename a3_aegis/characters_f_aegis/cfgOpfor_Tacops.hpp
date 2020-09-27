@@ -203,13 +203,13 @@ class O_A_officer_F: O_A_soldier_base_F
 	scope = public;
     linkedItems[] =
     {
-        V_BandollierB_khk,
+        V_Rangemaster_belt_khk,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        V_BandollierB_khk,
+        V_Rangemaster_belt_khk,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };

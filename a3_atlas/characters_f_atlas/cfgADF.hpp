@@ -537,14 +537,14 @@ class B_O_Officer_F: B_O_Soldier_base_F
     uniformClass = U_B_O_CombatUniform_aucamo_f;
 	linkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt_cbr,
 		H_Beret_grn,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt_cbr,
 		H_Beret_grn,
 		ItemGPS,
 		DefaultManLinkedItems

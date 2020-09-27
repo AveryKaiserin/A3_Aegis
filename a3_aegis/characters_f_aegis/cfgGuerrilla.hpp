@@ -1708,15 +1708,15 @@ class I_G_officer_F: I_G_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		H_Watchcap_blk,
 		V_ChestrigF_oli,
+		H_Watchcap_blk,
         ItemGPS,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		H_Watchcap_blk,
 		V_ChestrigF_oli,
+		H_Watchcap_blk,
         ItemGPS,
 		DefaultManGuerillaLinkedItems
 	};

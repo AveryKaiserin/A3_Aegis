@@ -867,7 +867,7 @@ class O_C_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 	hiddenSelectionsTextures[] =
 	{
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_flatbed_OPFOR_CO.paa",
+	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
 	};

@@ -39,4 +39,6 @@ class CfgVehicles
 	// Arma 3 Atlas
     #include "cfgLegion.hpp"            // Legionnaires
 	#include "cfgBlufor_Atlas.hpp"      // Germany
+    // compatibility classes
+    #include "compatibility.hpp"
 };

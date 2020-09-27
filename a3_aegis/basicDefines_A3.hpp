@@ -166,9 +166,26 @@ ItemCompass, \
 ItemWatch, \
 ItemRadio \
 
+#define DefaultManLeaderLinkedItems \
+ItemGPS, \
+ItemMap, \
+ItemCompass, \
+ItemWatch, \
+ItemRadio \
+
+#define DefaultManRangemasterLinkedItems \
+ItemSmartPhone, \
+ItemWatch \
+
 #define DefaultManGuerillaLinkedItems \
 ItemMap, \
 ItemCompass, \
+ItemWatch, \
+ItemRadio \
+
+#define DefaultManAidWorkerLinkedItems \
+ItemSmartPhone, \
+ItemMap, \
 ItemWatch, \
 ItemRadio \
 
@@ -176,6 +193,19 @@ ItemRadio \
 ItemMap, \
 ItemCompass, \
 ChemicalDetector_01_watch_F, \
+ItemRadio \
+
+#define DefaultManLooterLinkedItems \
+ItemSmartPhone, \
+ItemMap, \
+ItemWatch, \
+ItemRadio \
+
+#define DefaultManIonLinkedItems \
+ItemSmartPhone, \
+ItemMap, \
+ItemCompass, \
+ItemWatch, \
 ItemRadio \
 
 // thermal modes
@@ -334,3 +364,8 @@ I_I_Mortar_01_support_F \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat", \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat", \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+
+// ACE defines
+#define ACE_BarrelTwistLeft -1
+#define ACE_BarrelTwistNone 0
+#define ACE_BarrelTwistRight 1

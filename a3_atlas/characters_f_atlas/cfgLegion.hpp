@@ -1319,14 +1319,14 @@ class B_L_Officer_F: B_L_Soldier_base_F
 	uniformClass = U_B_CombatUniform_sgg;
 	linkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_Beret_grn,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_Beret_grn,
 		ItemGPS,
 		DefaultManLinkedItems

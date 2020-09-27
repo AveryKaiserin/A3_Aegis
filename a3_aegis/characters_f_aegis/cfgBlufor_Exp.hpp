@@ -917,14 +917,14 @@ class B_T_Officer_F: B_officer_F
     };
 	linkedItems[] =
 	{
-		V_BandollierB_tna_F,
+		V_Rangemaster_belt_tna_F,
 		H_MilCap_tna_F,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_tna_F,
+		V_Rangemaster_belt_tna_F,
 		H_MilCap_tna_F,
 		ItemGPS,
 		DefaultManLinkedItems

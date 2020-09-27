@@ -18,6 +18,10 @@ class CfgVehicles
 {
 	// Arma 3
 	class Vest_Base_F;
+	class Vest_V_Rangemaster_belt: Vest_Base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt0;
+	};
 	class Vest_V_TacVestIR_blk: Vest_Base_F
 	{
 		scope = protected;
@@ -73,6 +77,8 @@ class CfgVehicles
 	VEST_HOLDER(V_PlateCarrierIA2_oli,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_oli0)
 	VEST_HOLDER(V_PlateCarrierIA2_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIA2_khk0)
 	VEST_HOLDER(V_PlateCarrierIAGL_khk,$STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_khk0)
+	VEST_HOLDER(V_Rangemaster_belt_tna_F,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_tna_F0)
+	VEST_HOLDER(V_Rangemaster_belt_ghex_F,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_ghex_F0)
 	VEST_HOLDER(V_HarnessOSpec_ghex_F,$STR_A3_A_CfgWeapons_V_HarnessOSpec_ghex_F0)
 	VEST_HOLDER(V_BandollierB_tna_F,$STR_A3_A_CfgWeapons_V_BandollierB_tna_F0)
 	VEST_HOLDER(V_PlateCarrierL_CTRG_grn_F,$STR_A3_A_CfgWeapons_V_PlateCarrierL_CTRG_grn_F0)
@@ -86,6 +92,7 @@ class CfgVehicles
 	VEST_HOLDER(V_CarrierRigKBT_01_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Green_F0)
 	VEST_HOLDER(V_CarrierRigKBT_01_light_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Green_F0)
 	VEST_HOLDER(V_CarrierRigKBT_01_heavy_Green_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0)
+	VEST_HOLDER(V_Rangemaster_belt_taiga_F,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_taiga_F0)
 	VEST_HOLDER(V_BandollierB_taiga_F,$STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0)
 	VEST_HOLDER(V_TacVest_grn,$STR_A3_A_CfgWeapons_V_TacVest_grn0)
 	VEST_HOLDER(V_RebreatherRU,$STR_A3_A_CfgWeapons_V_RebreatherRU0)

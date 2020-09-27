@@ -333,6 +333,20 @@ class I_E_soldier_M_F: I_E_Soldier_base_F
 class I_E_Officer_F: I_E_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Officer_F.jpg";
+	linkedItems[] =
+    {
+        V_Rangemaster_belt_oli,
+        H_Beret_EAF_01_F,
+        ItemGPS,
+		DefaultManLinkedItems
+    };
+	respawnLinkedItems[] =
+    {
+        V_Rangemaster_belt_oli,
+        H_Beret_EAF_01_F,
+        ItemGPS,
+		DefaultManLinkedItems
+    };
 	weapons[] =
 	{
 		arifle_MSBS65_F,

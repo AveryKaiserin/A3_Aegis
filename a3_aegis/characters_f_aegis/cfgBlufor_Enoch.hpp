@@ -1040,14 +1040,14 @@ class B_W_Officer_F: B_officer_F
     };
 	linkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_MilCap_wdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_rgr,
+		V_Rangemaster_belt,
 		H_MilCap_wdl,
 		ItemGPS,
 		DefaultManLinkedItems

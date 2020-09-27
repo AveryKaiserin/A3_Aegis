@@ -809,15 +809,15 @@ class I_officer_F: I_Soldier_base_F
 	};
     linkedItems[] =
     {
+        V_Rangemaster_belt_oli,
         H_MilCap_dgtl,
-        V_BandollierB_oli,
         ItemGPS,
         DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
+        V_Rangemaster_belt_oli,
         H_MilCap_dgtl,
-        V_BandollierB_oli,
         ItemGPS,
         DefaultManLinkedItems
     };

@@ -538,15 +538,15 @@ class I_W_Officer_F: I_W_Soldier_base_F
 	};
 	linkedItems[] =
 	{
+		V_Rangemaster_belt,
 		H_MilCap_autumn,
-		V_BandollierB_rgr,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
+		V_Rangemaster_belt,
 		H_MilCap_autumn,
-		V_BandollierB_rgr,
 		ItemGPS,
 		DefaultManLinkedItems
 	};

@@ -258,8 +258,8 @@ class B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	scope = public;
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",
-        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\afv_wheeled_01_EXT2_jagged_01_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT2_jagged_01_CO.paa",
         "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_wheel_CO.paa",
         "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
         "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
@@ -570,8 +570,8 @@ class B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	scope = public;
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",
-        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\afv_wheeled_01_EXT2_jagged_01_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT2_jagged_01_CO.paa",
         "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_wheel_CO.paa",
         "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa",
         "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_commander_tow_sand_CO.paa",

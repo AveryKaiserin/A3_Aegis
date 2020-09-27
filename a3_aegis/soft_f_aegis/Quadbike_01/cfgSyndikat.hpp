@@ -1,4 +1,4 @@
-class I_C_Quadbike_01_F: Quadbike_01_base_F
+class Aegis_I_C_Quadbike_01_F: Quadbike_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

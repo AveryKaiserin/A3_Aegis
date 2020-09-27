@@ -640,13 +640,13 @@ class B_H_Officer_F: B_H_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_Rangemaster_belt_oli,
 		H_MilCap_jungle,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_BandollierB_oli,
+		V_Rangemaster_belt_oli,
 		H_MilCap_jungle,
 		DefaultManLinkedItems
 	};

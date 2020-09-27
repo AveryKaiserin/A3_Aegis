@@ -1,5 +1,5 @@
-// BLU_A_F
-class B_A_Quadbike_01_F: B_Quadbike_01_F
+// Aegis_BLU_B_F
+class Aegis_B_B_Quadbike_01_F: B_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -75,9 +75,9 @@ class B_A_Quadbike_01_F: B_Quadbike_01_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_A_F;
-	crew = B_A_Soldier_F;
-	typicalCargo[] = {B_A_Soldier_F};
+	faction = Aegis_BLU_B_F;
+	crew = Aegis_B_B_Soldier_F;
+	typicalCargo[] = {Aegis_B_B_Soldier_F};
 	textureList[] = {Blufor,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -85,8 +85,8 @@ class B_A_Quadbike_01_F: B_Quadbike_01_F
 		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_CO.paa"
 	};
 };
-// BLU_A_tna_F
-class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
+// Aegis_BLU_B_tna_F
+class Aegis_B_B_Quadbike_01_tna_F: B_A_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -159,9 +159,9 @@ class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Quadbike_01_tna_F.jpg";
-	faction = BLU_A_tna_F;
-	crew = B_A_Soldier_tna_F;
-	typicalCargo[] = {B_A_Soldier_tna_F};
+	faction = Aegis_BLU_B_tna_F;
+	crew = Aegis_B_B_Soldier_tna_F;
+	typicalCargo[] = {Aegis_B_B_Soldier_tna_F};
 	textureList[] = {Olive,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -169,8 +169,8 @@ class B_A_Quadbike_01_tna_F: B_A_Quadbike_01_F
 		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_wheel_olive_CO.paa"
 	};
 };
-// BLU_A_tna_F
-class B_A_Quadbike_01_wdl_F: B_A_Quadbike_01_F
+// Aegis_BLU_B_wdl_F
+class Aegis_B_B_Quadbike_01_wdl_F: B_A_Quadbike_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -243,9 +243,9 @@ class B_A_Quadbike_01_wdl_F: B_A_Quadbike_01_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Quadbike_01_wdl_F.jpg";
-	faction = BLU_A_wdl_F;
-	crew = B_A_Soldier_wdl_F;
-	typicalCargo[] = {B_A_Soldier_wdl_F};
+	faction = Aegis_BLU_B_wdl_F;
+	crew = Aegis_B_B_Soldier_wdl_F;
+	typicalCargo[] = {Aegis_B_B_Soldier_wdl_F};
 	textureList[] = {Olive,1};
 	hiddenSelectionsTextures[] =
 	{

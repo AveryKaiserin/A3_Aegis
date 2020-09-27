@@ -537,7 +537,7 @@ class B_H_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_jungle_CO.paa",
-		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_flatbed_jungle_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_jungle_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
