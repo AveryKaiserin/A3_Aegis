@@ -1,4 +1,4 @@
-class B_USMC_Boat_Transport_02_F: Boat_Transport_02_base_F
+class Marine_B_USMC_Boat_Transport_02_F: Boat_Transport_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -34,12 +34,12 @@ class B_USMC_Boat_Transport_02_F: Boat_Transport_02_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_USMC_F;
-	crew = B_USMC_Soldier_F;
+	faction = Marine_BLU_USMC_F;
+	crew = Marine_B_USMC_Soldier_F;
 	typicalCargo[] =
 	{
-		B_USMC_Soldier_F,
-		B_USMC_Soldier_F
+		Marine_B_USMC_Soldier_F,
+		Marine_B_USMC_Soldier_F
 	};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =

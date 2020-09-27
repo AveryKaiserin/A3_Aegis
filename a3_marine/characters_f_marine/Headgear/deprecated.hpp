@@ -1,0 +1,6 @@
+COMPATIBILITYCLASS(H_Booniehat_desert,Marine_H_Booniehat_desert)
+COMPATIBILITYCLASS(H_Booniehat_desert_hs,Marine_H_Booniehat_desert_hs)
+COMPATIBILITYCLASS(H_Booniehat_mwdl,Marine_H_Booniehat_mwdl)
+COMPATIBILITYCLASS(H_Booniehat_mwdl_hs,Marine_H_Booniehat_mwdl_hs)
+COMPATIBILITYCLASS(H_MilCap_desert,Marine_H_MilCap_desert)
+COMPATIBILITYCLASS(H_MilCap_mwdl,Marine_H_MilCap_mwdl)
