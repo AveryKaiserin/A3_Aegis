@@ -1,5 +1,5 @@
 // OPF_R_F
-class O_R_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
+class Aegis_O_R_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -143,8 +143,8 @@ class O_R_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 	scopeCurator = public;
 	side = TEast;
 	faction = OPF_R_F;
-	crew = O_R_helipilot_F;
-	typicalCargo[] = {O_R_helipilot_F};
+	crew = Aegis_O_R_helipilot_F;
+	typicalCargo[] = {Aegis_O_R_helipilot_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -231,8 +231,8 @@ class O_R_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 		};
 	};
 };
-// OPF_R_ard_F
-class O_R_Heli_Attack_02_dynamicLoadout_ard_F: O_R_Heli_Attack_02_dynamicLoadout_F
+// Aegis_OPF_R_ard_F
+class Aegis_O_R_Heli_Attack_02_dynamicLoadout_ard_F: Aegis_O_R_Heli_Attack_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -372,7 +372,7 @@ class O_R_Heli_Attack_02_dynamicLoadout_ard_F: O_R_Heli_Attack_02_dynamicLoadout
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Heli_Attack_02_dynamicLoadout_ard_F.jpg";
-	faction = OPF_R_ard_F;
-	crew = O_R_helipilot_ard_F;
-	typicalCargo[] = {O_R_helipilot_ard_F};
+	faction = Aegis_OPF_R_ard_F;
+	crew = Aegis_O_R_helipilot_ard_F;
+	typicalCargo[] = {Aegis_O_R_helipilot_ard_F};
 };

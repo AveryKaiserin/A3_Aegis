@@ -15,10 +15,10 @@ class CfgGroups
 		side = TWest;
 		class Marine_BLU_USMC_F
 		{
-			name = $STR_A3_M_CfgFactionClasses_BLU_USMC_F0;
+			name = $STR_A3_M_CfgFactionClasses_Marine_BLU_USMC_F0;
 			class Infantry
 			{
-				name = $STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry0;
+				name = $STR_A3_M_CfgGroups_West_Marine_BLU_USMC_F_Infantry0;
 				class B_USMC_InfSquad
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
@@ -57,7 +57,7 @@ class CfgGroups
 			};
 			class Infantry_W
 			{
-				name = $STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry_W0;
+				name = $STR_A3_M_CfgGroups_West_Marine_BLU_USMC_F_Infantry_W0;
 				class B_USMC_InfSquad_W
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;

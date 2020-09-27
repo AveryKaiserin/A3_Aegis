@@ -1,9 +1,9 @@
-class I_E_Plane_Fighter_04_Cluster_F: I_Plane_Fighter_04_Cluster_F
+class Aegis_I_E_Plane_Fighter_04_Cluster_F: I_Plane_Fighter_04_Cluster_F
 {
 	displayName = $STR_A3_A_CfgVehicles_I_E_Plane_Fighter_04_Cluster_F0;
 	faction = IND_E_F;
-	crew = I_E_Fighter_Pilot_F;
-	typicalCargo[] = {I_E_Fighter_Pilot_F};
+	crew = Aegis_I_E_Fighter_Pilot_F;
+	typicalCargo[] = {Aegis_I_E_Fighter_Pilot_F};
 	textureList[] = {EAF,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -22,6 +22,6 @@ class I_E_Plane_Fighter_04_Cluster_F: I_Plane_Fighter_04_Cluster_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = I_E_Ejection_Seat_Plane_Fighter_04_F;
+		EjectionSeatClass = Aegis_I_E_Ejection_Seat_Plane_Fighter_04_F;
 	};
 };

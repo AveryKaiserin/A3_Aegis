@@ -1,4 +1,4 @@
-class B_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_F
+class Aegis_B_Plane_Fighter_05_Cluster_F: Aegis_B_Plane_Fighter_05_F
 {
 	scope = protected;
 	scopeCurator = public;
