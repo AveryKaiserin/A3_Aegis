@@ -1,4 +1,4 @@
-class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
+class Aegis_I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -147,8 +147,8 @@ class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 	displayName = $STR_A3_A_CfgVehicles_I_E_Plane_Fighter_04_F0;
 	side = TGuerrila;
 	faction = IND_E_F;
-	crew = I_E_Fighter_Pilot_F;
-	typicalCargo[] = {I_E_Fighter_Pilot_F};
+	crew = Aegis_I_E_Fighter_Pilot_F;
+	typicalCargo[] = {Aegis_I_E_Fighter_Pilot_F};
 	textureList[] = {EAF,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -167,10 +167,10 @@ class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = I_E_Ejection_Seat_Plane_Fighter_04_F;
+		EjectionSeatClass = Aegis_I_E_Ejection_Seat_Plane_Fighter_04_F;
 	};
 };
-class I_E_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_F
+class Aegis_I_E_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_F
 {
 	class SimpleObject
 	{
@@ -193,5 +193,5 @@ class I_E_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_
 	scope = protected;
 	side = TGuerilla;
 	faction = IND_E_F;
-	crew = I_E_Fighter_Pilot_F;
+	crew = Aegis_I_E_Fighter_Pilot_F;
 };

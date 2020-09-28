@@ -3,7 +3,7 @@
 	<Package name="Language_Marine">
 		<Container name="Characters_F">
 			<Container name="Groups">
-				<Key ID="STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry0">
+				<Key ID="STR_A3_M_CfgGroups_West_Marine_BLU_USMC_F_Infantry0">
 					<Original>Infantry (Desert)</Original>
 					<Chinese>步兵（沙漠）</Chinese>
 					<French>Infanterie (désert)</French>
@@ -20,7 +20,7 @@
 					<Japanese>歩兵（砂漠）</Japanese>
 					<Turkish>Piyade (Çöl)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry_W0">
+				<Key ID="STR_A3_M_CfgGroups_West_Marine_BLU_USMC_F_Infantry_W0">
 					<Original>Infantry (Woodland)</Original>
 					<Chinese>步兵（森林）</Chinese>
 					<French>Infanterie (forêt)</French>
@@ -39,7 +39,7 @@
 				</Key>
 			</Container>
 			<Container name="Headgear">
-				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_desert0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_Booniehat_desert0">
 					<Original>Booniehat (Desert) [USMC]</Original>
 					<Chinese>登山帽（沙漠）（USMC）</Chinese>
 					<French>Chapeau de brousse (désert) [USMC]</French>
@@ -56,24 +56,24 @@
 					<Japanese>ブーニーハット（砂漠） [USMC]</Japanese>
 					<Turkish>Boonie Şapka (Çöl) [USMC]</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_desert_hs0">
-					<Original>Booniehat (Woodland, Headset) [USMC]</Original>
-					<Chinese>登山帽（森林，耳機）（USMC）</Chinese>
-					<French>Chapeau de brousse (forêt, micro-casque) [USMC]</French>
-					<Spanish>Sombrero militar (bosque, auricular) [USMC]</Spanish>
-					<Italian>Cappello militare a falda larga (boschi, cuffia) [USMC]</Italian>
-					<Polish>Kapelusz wojskowy (las, głowa) [USMC]</Polish>
-					<Russian>Панама (лес, гарнитура) [USMC]</Russian>
-					<German>Tarnhut (Waldland, Headset [USMC])</German>
-					<Czech>Klobouk (woodland, náhlavní souprava) [USMC]</Czech>
-					<English>Booniehat (Woodland, Headset) [USMC]</English>
-					<Portuguese>Chapéu tático (floresta, headset) [USMC]</Portuguese>
-					<Korean>부니햇(산악, 헤드셋) [USMC]</Korean>
-					<Chinesesimp>郊区（林地，头戴式耳机） [USMC]</Chinesesimp>
-					<Japanese>ブーニーハット（森林、ヘッドセット） [USMC]</Japanese>
-					<Turkish>Boonie Şapka (Ağaçlık, Mik. Kulaklık) [USMC]</Turkish>
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_Booniehat_desert_hs0">
+					<Original>Booniehat (Desert, Headset) [USMC]</Original>
+					<Chinese>登山帽（沙漠，耳機）（USMC）</Chinese>
+					<French>Chapeau de brousse (désert, micro-casque) [USMC]</French>
+					<Spanish>Sombrero militar (desierto, auricular) [USMC]</Spanish>
+					<Italian>Cappello militare a falda larga (deserto, cuffia) [USMC]</Italian>
+					<Polish>Kapelusz wojskowy (pustynia, głowa) [USMC]</Polish>
+					<Russian>Панама (пустыня, гарнитура) [USMC]</Russian>
+					<German>Tarnhut (Wüste, Headset [USMC])</German>
+					<Czech>Klobouk (poušť, náhlavní souprava) [USMC]</Czech>
+					<English>Booniehat (Desert, Headset) [USMC]</English>
+					<Portuguese>Chapéu tático (Deserto, headset) [USMC]</Portuguese>
+					<Korean>부니햇(사막, 헤드셋) [USMC]</Korean>
+					<Chinesesimp>郊区（沙漠，头戴式耳机） [USMC]</Chinesesimp>
+					<Japanese>ブーニーハット（砂漠、ヘッドセット） [USMC]</Japanese>
+					<Turkish>Boonie Şapka (Çöl, Mik. Kulaklık) [USMC]</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_mwdl0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_Booniehat_mwdl0">
 					<Original>Booniehat (Woodland) [USMC]</Original>
 					<Chinese>登山帽（森林）（USMC）</Chinese>
 					<French>Chapeau de brousse (forêt) [USMC]</French>
@@ -90,7 +90,7 @@
 					<Japanese>ブーニーハット（森林） [USMC]</Japanese>
 					<Turkish>Boonie Şapka (Ağaçlık) [USMC]</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_H_Booniehat_mwdl_hs0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_Booniehat_mwdl_hs0">
 					<Original>Booniehat (Woodland, Headset) [USMC]</Original>
 					<Chinese>登山帽（森林，耳機）（USMC）</Chinese>
 					<French>Chapeau de brousse (forêt, micro-casque) [USMC]</French>
@@ -107,7 +107,7 @@
 					<Japanese>ブーニーハット（森林、ヘッドセット） [USMC]</Japanese>
 					<Turkish>Boonie Şapka (Ağaçlık, Mik. Kulaklık) [USMC]</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_H_MilCap_desert0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_MilCap_desert0">
 					<Original>Military Cap (Desert) [USMC]</Original>
 					<Chinese>軍用棒球帽（沙漠）（USMC）</Chinese>
 					<French>Casquette militaire (désert) [USMC]</French>
@@ -124,7 +124,7 @@
 					<Japanese>ミリタリーキャップ（砂漠） [USMC]</Japanese>
 					<Turkish>Askeri Kasket (Çöl) [USMC]</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_H_MilCap_mwdl0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_H_MilCap_mwdl0">
 					<Original>Military Cap (Woodland) [USMC]</Original>
 					<Chinese>軍用棒球帽（森林）（USMC）</Chinese>
 					<French>Casquette militaire (forêt) [USMC]</French>
@@ -143,7 +143,7 @@
 				</Key>
 			</Container>
 			<Container name="Uniforms">
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_desert_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_desert_f0">
 					<Original>MCU Combat Uniform (Desert)</Original>
 					<Chinese>MCU 作戰服（沙漠）</Chinese>
 					<French>Uniforme de combat MCU (désert)</French>
@@ -160,7 +160,7 @@
 					<Japanese>MCU戦闘服（砂漠）</Japanese>
 					<Turkish>MCU Savaş Üniforması (Çöl)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_wdl_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_wdl_f0">
 					<Original>MCU Combat Uniform (Woodland)</Original>
 					<Chinese>MCU 作戰服（森林）</Chinese>
 					<French>Uniforme de combat MCU (forêt)</French>
@@ -177,7 +177,7 @@
 					<Japanese>MCU戦闘服（森林）</Japanese>
 					<Turkish>MCU Savaş Üniforması (Ağaçlık)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_tshirt_desert_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_tshirt_desert_f0">
 					<Original>MCU Combat Uniform (Desert, Tee)</Original>
 					<Chinese>MCU 作戰服（沙漠，T 恤）</Chinese>
 					<French>Uniforme de combat MCU (désert, t-shirt)</French>
@@ -194,7 +194,7 @@
 					<Japanese>MCU戦闘服（砂漠、T シャツ）</Japanese>
 					<Turkish>MCU Savaş Üniforması (Çöl, Tişört)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_tshirt_wdl_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_tshirt_wdl_f0">
 					<Original>MCU Combat Uniform (Woodland, Tee)</Original>
 					<Chinese>MCU 作戰服（森林，T 恤）</Chinese>
 					<French>Uniforme de combat MCU (forêt, t-shirt)</French>
@@ -211,7 +211,7 @@
 					<Japanese>MCU戦闘服（森林、T シャツ）</Japanese>
 					<Turkish>MCU Savaş Üniforması (Ağaçlık, Tişört)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_vest_desert_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_vest_desert_f0">
 					<Original>MCU Combat Uniform (Desert, Rolled-up)</Original>
 					<Chinese>MCU 作戰服（沙漠，捲袖）</Chinese>
 					<French>Uniforme de combat MCU (désert, manches retroussées)</French>
@@ -228,7 +228,7 @@
 					<Japanese>MCU戦闘服（砂漠、袖まくり）</Japanese>
 					<Turkish>MCU Savaş Üniforması (Çöl, Kolları Kıvrık)</Turkish>
 				</Key>
-				<Key ID="STR_A3_M_CfgWeapons_U_B_MCU_vest_wdl_f0">
+				<Key ID="STR_A3_M_CfgWeapons_Marine_U_B_MCU_vest_wdl_f0">
 					<Original>MCU Combat Uniform (Woodland, Rolled-up)</Original>
 					<Chinese>MCU 作戰服（森林，捲袖）</Chinese>
 					<French>Uniforme de combat MCU (forêt, manches retroussées)</French>
@@ -249,7 +249,7 @@
 		</Container>
 		<Container name="Data_F">
 			<Container name="Faction_Classes">
-				<Key ID="STR_A3_M_CfgFactionClasses_BLU_USMC_F0">
+				<Key ID="STR_A3_M_CfgFactionClasses_Marine_BLU_USMC_F0">
 					<Original>USMC</Original>
 					<Chinese>USMC</Chinese>
 					<French>USMC</French>
@@ -324,7 +324,7 @@
 		<Container name="Structures_F">
         	<Container name="Military">
 				<Container name="Flags">
-					<Key ID="STR_A3_M_CfgVehicles_Flag_USMC_F0">
+					<Key ID="STR_A3_M_CfgVehicles_Marine_Flag_USMC_F0">
 						<Original>Flag (USMC)</Original>
 						<Chinese>旗幟（USMC）</Chinese>
 						<French>Drapeau (USMC)</French>
@@ -341,7 +341,7 @@
 						<Japanese>旗（USMC）</Japanese>
 						<Turkish>Bayrak (USMC)</Turkish>
 					</Key>
-					<Key ID="STR_A3_M_CfgVehicles_Banner_01_USMC_F0">
+					<Key ID="STR_A3_M_CfgVehicles_Marine_Banner_01_USMC_F0">
 						<Original>Banner (USMC)</Original>
 						<Chinese>徽記（USMC）</Chinese>
 						<French>Bannière (USMC)</French>
@@ -361,5 +361,24 @@
 				</Container>
 			</Container>
 		</Container>
+		<Container name="UI_F">
+			<Key ID="STR_A3_M_CfgMarkers_flag_USMC">
+				<Original>USMC</Original>
+				<Chinese>USMC</Chinese>
+				<French>USMC</French>
+				<Spanish>USMC</Spanish>
+				<Italian>USMC</Italian>
+				<Polish>USMC</Polish>
+				<Russian>USMC</Russian>
+				<German>USMC</German>
+				<Czech>USMC</Czech>
+				<English>USMC</English>
+				<Portuguese>USMC</Portuguese>
+				<Korean>USMC</Korean>
+				<Chinesesimp>USMC</Chinesesimp>
+				<Japanese>USMC</Japanese>
+				<Turkish>USMC</Turkish>
+			</Key>
+        </Container>
 	</Package>
 </Project>
