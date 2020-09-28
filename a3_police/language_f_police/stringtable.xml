@@ -2,7 +2,7 @@
 <Project name="Arma3Police">
 	<Package name="Language_Police">
 		<Container name="Characters_F">
-			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_F0">
 				<Original>Police Officer (SMG)</Original>
 				<Chinese>警察（SMG）</Chinese>
 				<French>Policier (SMG)</French>
@@ -19,7 +19,7 @@
 				<Japanese>警官（SMG）</Japanese>
 				<Turkish>Polis (SMG)</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_Rifle_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_Rifle_F0">
 				<Original>Police Officer (Rifle)</Original>
 				<Chinese>警察（步槍）</Chinese>
 				<French>Policier (fusil)</French>
@@ -36,7 +36,7 @@
 				<Japanese>警官（ライフル）</Japanese>
 				<Turkish>Polis (Tüfek)</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_SG_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_SG_F0">
 				<Original>Police Officer (Shotgun)</Original>
 				<Chinese>警察（獵槍）</Chinese>
 				<French>Policier (fusil de chasse)</French>
@@ -53,7 +53,7 @@
 				<Japanese>警官（ショットガン）</Japanese>
 				<Turkish>Polis (Av Tüfeği)</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_F0">
 				<Original>Tactical Police Officer (Rifle)</Original>
 				<Chinese>戰術警察（步槍）</Chinese>
 				<French>Policier tactique (fusil)</French>
@@ -70,7 +70,7 @@
 				<Japanese>タクティカル警官（ライフル）</Japanese>
 				<Turkish>Taktiksel Polis (Tüfek)</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_SG_F0">
 				<Original>Tactical Police Officer (Shotgun)</Original>
 				<Chinese>戰術警察（獵槍）</Chinese>
 				<French>Policier tactique (fusil de chasse)</French>
@@ -88,7 +88,7 @@
 				<Turkish>Taktiksel Polis (Av Tüfeği)</Turkish>
 			</Key>
 			<Container name="Uniforms">
-				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_F0">
+				<Key ID="STR_A3_P_CfgWeapons_Police_U_I_P_PoliceUniform_F0">
 					<Original>Police Uniform</Original>
 					<Chinese>警察服</Chinese>
 					<French>Uniforme de police</French>
@@ -105,7 +105,7 @@
 					<Japanese>警察の制服</Japanese>
 					<Turkish>Polis Üniforması</Turkish>
 				</Key>
-				<Key ID="STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_gloves_F0">
+				<Key ID="STR_A3_P_CfgWeapons_Police_U_I_P_PoliceUniform_gloves_F0">
 					<Original>Police Uniform (Tactical Gloves)</Original>
 					<Chinese>警察服（战术手套）</Chinese>
 					<French>Uniforme de police (gants tactiques)</French>
@@ -124,7 +124,7 @@
 				</Key>
 			</Container>
 			<Container name="Vests">
-				<Key ID="STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0">
+				<Key ID="STR_A3_P_CfgWeapons_Police_V_CarrierRigKBT_01_light_POLICE_F0">
 					<Original>Police Carrier Vest</Original>
 					<Chinese>警察背心</Chinese>
 					<French>Gilet de police</French>
@@ -145,7 +145,7 @@
 		</Container>
 		<Container name="Data_F">
 			<Container name="Faction_Classes">
-				<Key ID="STR_A3_P_CfgFactionClasses_IND_P_F0">
+				<Key ID="STR_A3_P_CfgFactionClasses_Police_IND_P_F0">
 					<Original>Police</Original>
 					<Chinese>警察</Chinese>
 					<French>Police</French>
@@ -218,7 +218,7 @@
 			</Key>
 		</Container>
 		<Container name="Soft_F">
-			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F0">
 				<Original>UGV Bag (Demining) [Police]</Original>
 				<English>UGV Bag (Demining) [Police]</English>
 				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
@@ -235,7 +235,7 @@
 				<Chinesesimp>UGV 包（排雷）[警察]</Chinesesimp>
 				<Turkish>UGV Çantası (Mayın Temizleme) [Polis]</Turkish>
 			</Key>
-			<Key ID="STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0">
+			<Key ID="STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F_assembleInfo0">
 				<Original>UGV Bag (Demining) [Police]</Original>
 				<English>UGV Bag (Demining) [Police]</English>
 				<Czech>Batoh, bezpilotní vozidlo (odminovací) [Policejní]</Czech>
@@ -255,7 +255,7 @@
 		</Container>
 		<Container name="Supplies_F">
 			<Container name="Ammoboxes">
-				<Key ID="STR_A3_P_CfgVehicles_Box_POLICE_Equip_F0">
+				<Key ID="STR_A3_P_CfgVehicles_Police_Box_POLICE_Equip_F0">
 					<Original>Supply Box [Police]</Original>
 					<Chinese>補給盒（警察）</Chinese>
 					<French>Caisse de ravitaillements [police]</French>
@@ -276,7 +276,7 @@
 		</Container>
 		<Container name="Weapons_F">
 			<Container name="Items">
-				<Key ID="STR_A3_P_CfgWeapons_I_P_UavTerminal0">
+				<Key ID="STR_A3_P_CfgWeapons_Police_I_P_UavTerminal0">
 					<Original>UAV Terminal [Police]</Original>
 					<Chinese>無人機終端機（警察）</Chinese>
 					<French>Terminal drone [police]</French>

@@ -8,7 +8,7 @@ class CfgPatches
 		units[] =
         {
             // Police
-            Box_POLICE_Equip_F
+            Police_Box_POLICE_Equip_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

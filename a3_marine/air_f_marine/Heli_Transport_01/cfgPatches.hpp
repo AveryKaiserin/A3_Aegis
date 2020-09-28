@@ -12,7 +12,7 @@ class CfgPatches
 		units[] =
         {
             // USMC
-            B_USMC_Heli_Transport_01_F
+            Marine_B_USMC_Heli_Transport_01_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

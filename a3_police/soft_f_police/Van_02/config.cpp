@@ -26,7 +26,7 @@ class CfgVehicles
 					"",
 					"\A3\Data_F\Lights\Car_Beacon_Blue_emit.rvmat"
 				};
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
 	};
@@ -52,7 +52,7 @@ class CfgVehicles
 					"",
 					"\A3\Data_F\Lights\Car_Beacon_Blue_emit.rvmat"
 				};
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
 	};

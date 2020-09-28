@@ -208,6 +208,12 @@ ItemCompass, \
 ItemWatch, \
 ItemRadio \
 
+#define DefaultManPoliceLinkedItems \
+ItemSmartPhone, \
+ItemMap, \
+ItemWatch, \
+ItemRadio \
+
 // thermal modes
 #define TiWHot 0
 #define TiBHot 1
@@ -364,6 +370,14 @@ I_I_Mortar_01_support_F \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat", \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat", \
 "A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+
+// Deprecated classes
+#define DEPRECATED_CLASS(a,b) \
+class ##a##: ##b## \
+{ \
+	scope = protected; \
+    scopeCurator = private; \
+};
 
 // ACE defines
 #define ACE_BarrelTwistLeft -1
