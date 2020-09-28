@@ -10,7 +10,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_P_CfgWeapons_Police_V_CarrierRigKBT_01_light_POLICE_F0;
+		displayName = $STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0;
 		picture = "\A3_Police\Characters_F_Police\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_POLICE_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police.rvmat"};
