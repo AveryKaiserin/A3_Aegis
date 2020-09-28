@@ -11,11 +11,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_Heli_Transport_03_F,
             B_T_Heli_Transport_03_unarmed_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_Heli_Transport_03_F,
             B_W_Heli_Transport_03_unarmed_F
         };

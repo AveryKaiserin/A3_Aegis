@@ -49,8 +49,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
-					OPF_R_ard_F,
-					OPF_W_F
+					OPF_R_ard_F
 				};
 			};
 			class Blackcustom
@@ -61,8 +60,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
-					OPF_R_ard_F,
-					OPF_W_F
+					OPF_R_ard_F
 				};
 			};
 			class Blue
@@ -81,11 +79,7 @@ class CfgVehicles
 				displayName = $STR_A3_TEXTURESOURCES_GREENHEX0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_ghex_CO.paa"};
-				faction[] =
-				{
-					OPF_T_F,
-					OPF_W_F
-				};
+				faction[] = {OPF_T_F};
 			};
 		};
 		class EventHandlers;
@@ -205,8 +199,8 @@ class CfgVehicles
 			defaultCollective = 0.545;
 		};
 	};
-	#include "cfgCivil.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgOpfor_Tacops.hpp"
-	#include "cfgSpetsnaz.hpp"
+	#include "cfgCivil.hpp"             // Civilians
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgOpfor_Tacops.hpp"      // Argana
+	#include "cfgSpetsnaz.hpp"          // Russia
 };

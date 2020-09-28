@@ -134,7 +134,7 @@ class CfgVehicles
 		};
 		class TextureSources{};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor.hpp"			// US
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 };

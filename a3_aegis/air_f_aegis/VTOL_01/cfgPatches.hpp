@@ -11,17 +11,17 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO
+            // US
             B_VTOL_01_armed_F,
             B_VTOL_01_infantry_F,
             B_VTOL_01_vehicle_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_VTOL_01_armed_F,
             B_W_VTOL_01_infantry_F,
             B_W_VTOL_01_vehicle_F,
 
-            // NATO (British)
+            // BAF
             B_A_VTOL_01_infantry_F,
             B_A_VTOL_01_infantry_tna_F,
             B_A_VTOL_01_infantry_wdl_F,

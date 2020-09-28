@@ -64,6 +64,7 @@ class B_Soldier_F: B_Soldier_base_F
 {
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Soldier_F.jpg";
 };
+class B_RangeMaster_F;
 class B_Soldier_lite_F: B_Soldier_03_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Soldier_lite_F.jpg";

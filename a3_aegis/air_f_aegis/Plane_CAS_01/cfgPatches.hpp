@@ -11,11 +11,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_Ejection_Seat_Plane_CAS_01_F,
             B_T_Plane_CAS_01_dynamicLoadout_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_Ejection_Seat_Plane_CAS_01_F,
             B_W_Plane_CAS_01_dynamicLoadout_F
         };

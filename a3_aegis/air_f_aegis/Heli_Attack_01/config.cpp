@@ -95,7 +95,7 @@ class CfgVehicles
 	class B_Heli_Attack_01_F: Heli_Attack_01_base_F{};
 	class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

@@ -11,11 +11,11 @@ class CfgPatches
             I_Plane_Transport_01_infantry_F,
             I_Plane_Transport_01_vehicle_F,
 
-            // CSAT
+            // Iran
             O_Plane_Transport_01_infantry_F,
             O_Plane_Transport_01_vehicle_F,
 
-            // CSAT (Pacific)
+            // China
             O_T_Plane_Transport_01_infantry_ghex_F,
             O_T_Plane_Transport_01_vehicle_ghex_F
         };

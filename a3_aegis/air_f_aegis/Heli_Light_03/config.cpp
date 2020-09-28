@@ -137,5 +137,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

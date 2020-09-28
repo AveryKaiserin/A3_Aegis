@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Pacific)
+            // China
             Land_Pod_Heli_Transport_04_ammo_ghex_F,
             Land_Pod_Heli_Transport_04_bench_ghex_F,
             Land_Pod_Heli_Transport_04_box_ghex_F,

@@ -13,13 +13,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_UAV_01_F,
 
-            // CSAT (Woodland)
+            // China
             O_T_UAV_01_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_UAV_01_F,
 
             // Russia
@@ -27,7 +27,7 @@ class CfgPatches
             O_R_UAV_01_F,
             O_R_UAV_01_backpack_F,
 
-            // NATO (British)
+            // BAF
             B_A_UAV_01_F,
             B_A_UAV_01_tna_F,
             B_A_UAV_01_wdl_F,

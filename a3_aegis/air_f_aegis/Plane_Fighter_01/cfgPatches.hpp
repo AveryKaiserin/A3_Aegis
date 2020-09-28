@@ -7,12 +7,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_Ejection_Seat_Plane_Fighter_01_F,
             B_T_Plane_Fighter_01_F,
             B_T_Plane_Fighter_01_Stealth_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_Plane_Fighter_01_F,
             B_W_Plane_Fighter_01_Stealth_F,
             B_W_Ejection_Seat_Plane_Fighter_01_F

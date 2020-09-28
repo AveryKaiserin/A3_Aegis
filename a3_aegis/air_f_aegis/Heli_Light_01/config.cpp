@@ -628,9 +628,9 @@ class CfgVehicles
 			controllable = true;
 		};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgIndep.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgIon.hpp"
+	#include "cfgBlufor.hpp"			// US
+	#include "cfgIndep.hpp"             // AAF
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"      // US (Woodland)
+	#include "cfgIon.hpp"               // ION
 };

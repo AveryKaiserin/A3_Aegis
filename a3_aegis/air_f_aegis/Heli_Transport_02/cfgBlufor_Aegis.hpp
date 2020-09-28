@@ -170,7 +170,6 @@ class B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
 	faction = BLU_A_F;
 	textureList[] =
 	{
-		Black,0,
 		Blufor,1,
 		Grey,0
 	};

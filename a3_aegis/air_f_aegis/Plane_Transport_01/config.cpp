@@ -1230,13 +1230,13 @@ class CfgVehicles
 			bag_xx(B_Parachute,3);
 		};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgOpfor.hpp"
-	#include "cfgIndep.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor.hpp"            // US
+	#include "cfgOpfor.hpp"             // Iran
+	#include "cfgIndep.hpp"             // AAF
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 	class Plane_Transport_01_Wreck_F: PlaneWreck
 	{
 		class SimpleObject

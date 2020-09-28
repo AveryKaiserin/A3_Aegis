@@ -11,10 +11,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO
+            // US
             B_UAV_03_dynamicLoadout_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_UAV_03_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};

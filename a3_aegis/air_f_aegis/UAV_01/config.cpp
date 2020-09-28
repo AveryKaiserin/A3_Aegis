@@ -46,7 +46,9 @@ class CfgVehicles
 					BLU_F,
 					BLU_T_F,
 					BLU_W_F,
-					BLU_A_F
+					BLU_A_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 			class ION
@@ -104,10 +106,10 @@ class CfgVehicles
     };
     */
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgIon.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgSpetsnaz.hpp"          // Russia
+	#include "cfgBlufor_Aegis.hpp"		// BAF
+	#include "cfgIon.hpp"               // ION
 };

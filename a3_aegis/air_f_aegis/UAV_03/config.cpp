@@ -49,6 +49,6 @@ class CfgVehicles
 	};
 	class B_T_UAV_03_dynamicLoadout_F;
 	// Arma 3 Aegis
-	#include "cfgBlufor.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor.hpp"			// US
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 };

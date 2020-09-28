@@ -170,7 +170,6 @@ class C_Heli_Transport_02_civil_F: Heli_Transport_02_civil_base_F
 	textureList[] =
 	{
 		Dahoman,1,
-		ION,1,
 		Vrana,1,
 		Wave,1
 	};

@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (British)
+            // BAF
             B_A_Heli_light_03_dynamicLoadout_F,
             B_A_Heli_light_03_dynamicLoadout_tna_F,
             B_A_Heli_light_03_dynamicLoadout_wdl_F,

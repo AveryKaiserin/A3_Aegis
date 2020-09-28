@@ -25,11 +25,11 @@ class CfgVehicles
 		{
 			class CamoAridHex
 			{
-				displayName = $STR_A3_TEXTURESOURCES_HEX0;
+				displayName = $STR_A3_A_TEXTURESOURCES_CAMOARIDHEX0;
 			};
 			class CamoGreyHex
 			{
-				displayName = $STR_A3_TEXTURESOURCES_GREY0;
+				displayName = $STR_A3_A_TEXTURESOURCES_CAMOGREYHEX0;
 				factions[] =
 				{
 					OPF_F,
@@ -38,7 +38,7 @@ class CfgVehicles
 			};
 			class CamoBlue
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLUE0;
+				displayName = $STR_A3_A_TEXTURESOURCES_CAMOBLUE0;
 				textures[] =
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_02\Data\Fighter_02_fuselage_01_blue_CO.paa",
@@ -57,7 +57,7 @@ class CfgVehicles
 			};
 			class CamoGreenHex
 			{
-				displayName = $STR_A3_TEXTURESOURCES_GREENHEX0;
+				displayName = $STR_A3_A_TEXTURESOURCES_CAMOGREENHEX0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -85,6 +85,6 @@ class CfgVehicles
 	class O_Plane_Fighter_02_Stealth_F: Plane_Fighter_02_Base_F{};
 	class Ejection_Seat_Plane_Fighter_02_base_F;
 	// Arma 3 Aegis
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgSpetsnaz.hpp"
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgSpetsnaz.hpp"          // Russia
 };

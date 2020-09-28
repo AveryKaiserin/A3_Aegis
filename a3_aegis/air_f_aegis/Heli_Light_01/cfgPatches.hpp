@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO
+            // US
             B_Heli_Light_01_recon_F,
 
             // AAF
@@ -19,12 +19,12 @@ class CfgPatches
             I_Heli_Light_01_F,
             I_Heli_Light_01_recon_F,
 
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_Heli_Light_01_dynamicLoadout_F,
             B_T_Heli_light_01_F,
             B_T_Heli_light_01_recon_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_Heli_Light_01_dynamicLoadout_F,
             B_W_Heli_light_01_F,
             B_W_Heli_light_01_recon_F,

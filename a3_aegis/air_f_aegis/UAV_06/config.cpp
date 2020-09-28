@@ -77,10 +77,10 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_C_IDAP_UAV_06_medical_backpack_F0;
 	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgBlufor_Aegis.hpp"
-	#include "cfgIon.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgSpetsnaz.hpp"          // Russia
+	#include "cfgBlufor_Aegis.hpp"		// BAF
+	#include "cfgIon.hpp"               // ION
 };

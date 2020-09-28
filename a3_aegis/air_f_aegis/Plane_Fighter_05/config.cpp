@@ -1454,10 +1454,10 @@ class CfgVehicles
 		driverAction = Pilot_Plane_Fighter_Ejection;
 		cargoAction[] = {Pilot_Plane_Fighter_Ejection};
 	};
-	#include "cfgBlufor.hpp"
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor.hpp"            // US
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };
 class CfgNonAIVehicles
 {

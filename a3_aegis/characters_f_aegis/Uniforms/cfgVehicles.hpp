@@ -129,7 +129,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
 	};
 	// Arma 3 Aegis
-    // NATO
+    // US
 	UNIFORM_HOLDER(U_Tank_sand_F,$STR_A3_A_CfgWeapons_U_Tank_sand_F0)
 	// Civilians
 	UNIFORM_HOLDER(U_Jayholder,$STR_A3_A_CfgWeapons_U_Jayholder0)
@@ -143,12 +143,12 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_C_CBRN_Suit_01_Yellow_F,$STR_A3_A_CfgWeapons_U_C_CBRN_Suit_01_Yellow_F0)
 	// FIA
 	UNIFORM_HOLDER(U_BG_Guerilla1_3,$STR_A3_A_CfgWeapons_U_BG_Guerilla1_30)
-	// CSAT
+	// Iran
 	UNIFORM_HOLDER(U_O_CombatUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_oicamo0)
 	UNIFORM_HOLDER(U_O_OfficerUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_OfficerUniform_oicamo0)
-    // NATO (Pacific)
+    // US (Pacific)
 	UNIFORM_HOLDER(U_Tank_tropic_F,$STR_A3_A_CfgWeapons_U_Tank_tropic_F0)
-	// CSAT (Pacific)
+	// China
 	UNIFORM_HOLDER(U_O_T_Pilot_F,$STR_A3_A_CfgWeapons_U_O_T_Pilot_F0)
 	// CTRG
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_alt_1_F,$STR_A3_U_B_CTRG_Soldier_F0)
@@ -156,11 +156,11 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_alt_3_F,$STR_A3_U_B_CTRG_Soldier_3_F0)
 	// Viper
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_oicamo_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_oicamo_F0)
-	// CSAT (African)
+	// Argana
 	UNIFORM_HOLDER(U_O_officer_noInsignia_urb_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_urb_F0)
 	UNIFORM_HOLDER(U_O_T_officer_noInsignia_ghex_F,$STR_A3_A_CfgWeapons_U_O_T_officer_noInsignia_ghex_F0)
 	UNIFORM_HOLDER(U_O_officer_noInsignia_oicamo_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_oicamo_F0)
-	// NATO (Woodland)
+	// US (Woodland)
 	UNIFORM_HOLDER(U_B_GhillieSuit_wdl_f,$STR_A3_A_CfgWeapons_U_B_GhillieSuit_wdl_f0)
 	UNIFORM_HOLDER(U_B_W_FullGhillie_wdl_F,$STR_A3_A_CfgWeapons_U_B_W_FullGhillie_wdl_F0)
 	// Russia
@@ -181,7 +181,7 @@ class CfgVehicles
 	// LDF
 	UNIFORM_HOLDER(U_I_E_Uniform_01_pilot_F,$STR_A3_A_CfgWeapons_U_I_E_Uniform_01_pilot_F0)
 	UNIFORM_HOLDER(U_I_E_FullGhillie_wdl_F,$STR_A3_A_CfgWeapons_U_I_E_FullGhillie_wdl_F0)
-	// NATO (British)
+	// BAF
 	UNIFORM_HOLDER(U_B_UBACS_mtp_f,$STR_A3_A_CfgWeapons_U_B_UBACS_mtp_f0)
 	UNIFORM_HOLDER(U_B_UBACS_tshirt_mtp_f,$STR_A3_A_CfgWeapons_U_B_UBACS_tshirt_mtp_f0)
 	UNIFORM_HOLDER(U_B_UBACS_vest_mtp_f,$STR_A3_A_CfgWeapons_U_B_UBACS_vest_mtp_f0)

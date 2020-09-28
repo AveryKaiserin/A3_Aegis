@@ -11,10 +11,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_UAV_05_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_UAV_05_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};

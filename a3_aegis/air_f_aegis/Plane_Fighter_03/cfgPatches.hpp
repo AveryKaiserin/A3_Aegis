@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (African)
+            // Argana
             O_A_Ejection_Seat_Plane_Fighter_03_F,
             O_A_Plane_Fighter_03_dynamicLoadout_F
         };

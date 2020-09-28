@@ -11,11 +11,14 @@ class CfgVehicles
 		{
 			class Blufor
 			{
-				factions[] +=
+				factions[] =
 				{
+					BLU_F,
 					BLU_T_F,
 					BLU_W_F,
-					BLU_A_F
+					BLU_A_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
 				};
 			};
 			class Rus
@@ -54,8 +57,8 @@ class CfgVehicles
 	class B_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
 	class O_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgBlufor_Aegis.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgSpetsnaz.hpp"          // Russia
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

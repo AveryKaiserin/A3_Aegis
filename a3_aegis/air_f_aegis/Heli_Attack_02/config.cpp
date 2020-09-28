@@ -17,8 +17,7 @@ class CfgVehicles
 					OPF_T_F,
 					OPF_A_F,
 					OPF_R_F,
-					OPF_R_ard_F,
-					OPF_W_F
+					OPF_R_ard_F
 				};
 			};
 			class Opfor
@@ -39,11 +38,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_ghex_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_ghex_CO.paa"
 				};
-				factions[] =
-				{
-					OPF_T_F,
-					OPF_W_F
-				};
+				factions[] = {OPF_T_F};
 			};
 		};
 	};
@@ -73,7 +68,7 @@ class CfgVehicles
 	};
 	class O_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
-	#include "cfgOpfor_Exp.hpp"
-	#include "cfgOpfor_Tacops.hpp"
-	#include "cfgSpetsnaz.hpp"
+	#include "cfgOpfor_Exp.hpp"         // China
+	#include "cfgOpfor_Tacops.hpp"      // Argana
+	#include "cfgSpetsnaz.hpp"          // Russia
 };

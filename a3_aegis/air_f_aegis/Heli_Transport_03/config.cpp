@@ -79,6 +79,6 @@ class CfgVehicles
 	class B_Heli_Transport_03_F: Heli_Transport_03_base_F{};
 	class B_Heli_Transport_03_unarmed_F;
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 };

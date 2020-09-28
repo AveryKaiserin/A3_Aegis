@@ -23,7 +23,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO
+            // US
             B_ghillie_spotter_ard_F,
             B_ghillie_spotter_lsh_F,
             B_ghillie_spotter_sard_F,
@@ -80,7 +80,7 @@ class CfgPatches
             O_G_crew_F,
             O_G_Soldier_CQ_F,
 
-            // CSAT
+            // Iran
             O_ghillie_spotter_ard_F,
             O_ghillie_spotter_lsh_F,
             O_ghillie_spotter_sard_F,
@@ -99,7 +99,7 @@ class CfgPatches
             // Syndikat
             I_C_Sharpshooter_F,
 
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_Fighter_Pilot_F,
             B_T_ghillie_spotter_tna_F,
             B_T_HeavyGunner_F,
@@ -118,7 +118,7 @@ class CfgPatches
             B_T_soldier_UGV_02_Science_F,
             B_T_Survivor_F,
 
-            // CSAT (Pacific)
+            // China
             O_T_Fighter_Pilot_F,
             O_T_ghillie_spotter_tna_F,
             O_T_HeavyGunner_F,
@@ -172,7 +172,7 @@ class CfgPatches
             // IDAP
             C_IDAP_Man_UGV_02_Demining_F,
 
-            // CSAT (African)
+            // Argana
             O_A_crew_F,
             O_A_engineer_F,
             O_A_Fighter_Pilot_F,
@@ -180,7 +180,7 @@ class CfgPatches
             O_A_helipilot_F,
             O_A_RadioOperator_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_Fighter_Pilot_F,
             B_W_ghillie_spotter_wdl_F,
             B_W_ghillie_wdl_F,
@@ -330,7 +330,7 @@ class CfgPatches
             I_L_Militiaman_Rifle_F,
             I_L_Militiaman_SMG_F,
 
-            // NATO (British)
+            // BAF
             B_A_Crew_F,
             B_A_Crew_tna_F,
             B_A_Crew_wdl_F,

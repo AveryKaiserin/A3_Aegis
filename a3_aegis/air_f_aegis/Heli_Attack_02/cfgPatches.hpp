@@ -11,10 +11,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Pacific)
+            // China
             O_T_Heli_Attack_02_dynamicLoadout_F,
 
-            // CSAT (African)
+            // Argana
             O_A_Heli_Attack_02_dynamicLoadout_F,
             
             // Russia

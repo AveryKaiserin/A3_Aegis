@@ -7,17 +7,17 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_UAV_02_dynamicLoadout_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_UAV_02_dynamicLoadout_F,
 
             // Russia
             O_R_UAV_02_dynamicLoadout_ard_F,
             O_R_UAV_02_dynamicLoadout_F,
 
-            // NATO (British)
+            // BAF
             B_A_UAV_02_dynamicLoadout_F,
             B_A_UAV_02_dynamicLoadout_tna_F,
             B_A_UAV_02_dynamicLoadout_wdl_F

@@ -34,6 +34,6 @@ class CfgVehicles
 		displayName = $STR_A3_CfGVEHICLES_B_PLANE_01_F0;
 	};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 };

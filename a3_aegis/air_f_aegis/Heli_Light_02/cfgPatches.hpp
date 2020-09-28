@@ -14,11 +14,11 @@ class CfgPatches
             // Civilians
             C_Heli_Light_02_civil_F,
 
-            // CSAT (Pacific)
+            // China
             O_T_Heli_Light_02_dynamicLoadout_ghex_F,
             O_T_Heli_Light_02_unarmed_F,
 
-            // CSAT (African)
+            // Argana
             O_A_Heli_Light_02_dynamicLoadout_F,
             O_A_Heli_Light_02_unarmed_F,
 

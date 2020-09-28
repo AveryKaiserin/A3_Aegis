@@ -28,7 +28,7 @@ class CfgVehicles
 		{
 			class DarkGrey
 			{
-				displayName = "Dark Grey";
+				displayName = $STR_A3_A_TEXTURESOURCES_DARKGREY0;
 				factions[] =
 				{
 					BLU_F,
@@ -38,7 +38,7 @@ class CfgVehicles
 			};
 			class DarkGreyCamo
 			{
-				displayName = "Dark Grey Camo";
+				displayName = $STR_A3_A_TEXTURESOURCES_DARKGREYCAMO0;
 				factions[] =
 				{
 					BLU_F,
@@ -50,6 +50,6 @@ class CfgVehicles
 	};
 	class B_UAV_05_F;
 	// Arma 3
-	#include "cfgBlufor_Exp.hpp"
-	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 };

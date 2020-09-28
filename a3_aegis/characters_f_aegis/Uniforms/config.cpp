@@ -5,19 +5,19 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgBlufor.hpp"			// NATO
+	#include "cfgBlufor.hpp"			// US
 	#include "cfgCivil.hpp"				// Civilians
 	#include "cfgIndep.hpp"				// AAF
 	#include "cfgGuerrilla.hpp"			// FIA
-	#include "cfgOpfor.hpp"				// CSAT
-	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
-	#include "cfgOpfor_Exp.hpp"			// CSAT (Pacific)
+	#include "cfgOpfor.hpp"				// Iran
+	#include "cfgBlufor_Exp.hpp"		// US (Pacific)
+	#include "cfgOpfor_Exp.hpp"			// China
 	#include "cfgCTRG.hpp"				// CTRG
 	#include "cfgViper.hpp"				// Viper
-	#include "cfgOpfor_Tacops.hpp"		// CSAT (African)
-	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgOpfor_Tacops.hpp"		// Argana
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
 	#include "cfgSpetsnaz.hpp"			// Russia
 	#include "cfgEAF.hpp"				// LDF
-	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 	#include "cfgIon.hpp"				// ION
 };

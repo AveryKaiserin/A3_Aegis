@@ -12,19 +12,19 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            // US (Pacific)
             B_T_UAV_06_F,
             B_T_UAV_06_medical_F,
             Box_B_T_UAV_06_F,
             Box_B_T_UAV_06_medical_F,
 
-            // CSAT (Pacific)
+            // China
             O_T_UAV_06_F,
             O_T_UAV_06_medical_F,
             Box_O_T_UAV_06_F,
             Box_O_T_UAV_06_medical_F,
 
-            // NATO (Woodland)
+            // US (Woodland)
             B_W_UAV_06_F,
             B_W_UAV_06_medical_F,
 
@@ -38,7 +38,7 @@ class CfgPatches
             Box_O_R_UAV_06_F,
             Box_O_R_UAV_06_medical_F,
 
-            // NATO (British)
+            // BAF
             B_A_UAV_06_F,
             B_A_UAV_06_medical_F,
             B_A_UAV_06_medical_tna_F,

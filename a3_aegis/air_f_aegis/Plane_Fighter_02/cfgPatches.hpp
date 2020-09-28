@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            // CSAT (Pacific)
+            // China
             O_T_Ejection_Seat_Plane_Fighter_02_F,
             O_T_Plane_Fighter_02_ghex_F,
             O_T_Plane_Fighter_02_Stealth_ghex_F,

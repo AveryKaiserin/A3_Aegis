@@ -33,7 +33,7 @@ class CfgVehicles
 	class VTOL_01_vehicle_base_F;
 	class VTOL_01_armed_base_F;
 	// Arma 3 Aegis
-	#include "cfgBlufor.hpp"			// NATO
-	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
-	#include "cfgBlufor_Aegis.hpp"		// NATO (British)
+	#include "cfgBlufor.hpp"			// US
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

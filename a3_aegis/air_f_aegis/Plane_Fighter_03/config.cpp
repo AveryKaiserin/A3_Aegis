@@ -41,6 +41,6 @@ class CfgVehicles
 		textureList[] = {Green,1};
 	};
 	// Arma 3 Aegis
-	#include "cfgOpfor.hpp"
-	#include "cfgOpfor_Tacops.hpp"
+	#include "cfgOpfor.hpp"             // Iran
+	#include "cfgOpfor_Tacops.hpp"      // Argana
 };
