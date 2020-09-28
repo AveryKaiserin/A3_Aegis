@@ -17,15 +17,15 @@ class CfgVehicles
 		{
 			class DigitalCamoGreen
 			{
-				displayName = "Green Digital";
+				displayName = $STR_A3_A_TEXTURESOURCES_DIGITALCAMOGREEN0;
 			};
 			class DigitalCamoGrey
 			{
-				displayName = "Grey Digital";
+				displayName = $STR_A3_A_TEXTURESOURCES_DIGITALCAMOGREY0;
 			};
 			class CamoGrey
 			{
-				displayName = $STR_A3_TEXTURESOURCES_LIGHTGREY0;
+				displayName = $STR_A3_A_TEXTURESOURCES_CAMOGREY0;
 			};
 			class EAF
 			{
@@ -46,5 +46,7 @@ class CfgVehicles
 	};
 	class Ejection_Seat_Plane_Fighter_04_base_F;
 	// Arma 3 Aegis
-	#include "cfgEAF.hpp"
+	#include "cfgEAF.hpp"           // LDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -1,4 +1,4 @@
-class O_A_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
+class Aegis_O_A_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -141,9 +141,9 @@ class O_A_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_A_F;
-	crew = O_A_Helipilot_F;
-	typicalCargo[] = {O_A_Helipilot_F};
+	faction = Aegis_OPF_A_F;
+	crew = Aegis_O_A_Helipilot_F;
+	typicalCargo[] = {Aegis_O_A_Helipilot_F};
 	textureList[] =
 	{
 		Hex,1,

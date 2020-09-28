@@ -448,5 +448,4 @@ class CfgVehicles
 		icon = iconObject_circle;
 		editorSubcategory = EdSubcat_Laboratory;
 	};
-	#include "furnishedObjects.hpp"
 };

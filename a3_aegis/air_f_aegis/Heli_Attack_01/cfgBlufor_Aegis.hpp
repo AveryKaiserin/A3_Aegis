@@ -1,5 +1,5 @@
-// BLU_A_F
-class B_A_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
+// Aegis_BLU_B_F
+class Aegis_B_B_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -131,10 +131,10 @@ class B_A_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_A_F;
-	crew = B_A_Helipilot_F;
-	typicalCargo[] = {B_A_Helipilot_F};
-    textureList[] = {Green,1};
+	faction = Aegis_BLU_B_F;
+	crew = Aegis_B_B_Helipilot_F;
+	typicalCargo[] = {Aegis_B_B_Helipilot_F};
+    textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_BAF_CO.paa"};
 	class TransportMagazines
 	{
@@ -144,24 +144,11 @@ class B_A_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_SA80_C_snd_F,2);
+		weap_xx(Aegis_arifle_SA80_C_snd_F,2);
 	};
-	class TextureSources: TextureSources
-	{
-		class Green: Green
-		{
-			textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_BAF_CO.paa"};
-			factions[] =
-			{					
-                BLU_A_F,
-				BLU_A_tna_F,
-				BLU_A_wdl_F
-			};
-		};
-    };
 };
-// BLU_A_tna_F
-class B_A_Heli_Attack_01_dynamicLoadout_tna_F: B_A_Heli_Attack_01_dynamicLoadout_F
+// Aegis_BLU_B_tna_F
+class Aegis_B_B_Heli_Attack_01_dynamicLoadout_tna_F: Aegis_B_B_Heli_Attack_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -290,9 +277,9 @@ class B_A_Heli_Attack_01_dynamicLoadout_tna_F: B_A_Heli_Attack_01_dynamicLoadout
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_tna_F.jpg";
-	faction = BLU_A_tna_F;
-	crew = B_A_Helipilot_tna_F;
-	typicalCargo[] = {B_A_Helipilot_tna_F};
+	faction = Aegis_BLU_B_tna_F;
+	crew = Aegis_B_B_Helipilot_tna_F;
+	typicalCargo[] = {Aegis_B_B_Helipilot_tna_F};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -301,11 +288,11 @@ class B_A_Heli_Attack_01_dynamicLoadout_tna_F: B_A_Heli_Attack_01_dynamicLoadout
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_SA80_C_khk_F,2);
+		weap_xx(Aegis_arifle_SA80_C_khk_F,2);
 	};
 };
-// BLU_A_wdl_F
-class B_A_Heli_Attack_01_dynamicLoadout_wdl_F: B_A_Heli_Attack_01_dynamicLoadout_F
+// Aegis_BLU_B_wdl_F
+class Aegis_B_B_Heli_Attack_01_dynamicLoadout_wdl_F: Aegis_B_B_Heli_Attack_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -434,9 +421,9 @@ class B_A_Heli_Attack_01_dynamicLoadout_wdl_F: B_A_Heli_Attack_01_dynamicLoadout
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_01_dynamicLoadout_wdl_F.jpg";
-	faction = BLU_A_wdl_F;
-	crew = B_A_Helipilot_wdl_F;
-	typicalCargo[] = {B_A_Helipilot_wdl_F};
+	faction = Aegis_BLU_B_wdl_F;
+	crew = Aegis_B_B_Helipilot_wdl_F;
+	typicalCargo[] = {Aegis_B_B_Helipilot_wdl_F};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -445,6 +432,6 @@ class B_A_Heli_Attack_01_dynamicLoadout_wdl_F: B_A_Heli_Attack_01_dynamicLoadout
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_SA80_C_blk_F,2);
+		weap_xx(Aegis_arifle_SA80_C_blk_F,2);
 	};
 };

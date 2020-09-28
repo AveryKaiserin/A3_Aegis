@@ -22,7 +22,7 @@ class CfgVehicles
 	};
 	class B_Heli_Attack_01_dynamicLoadout_F;
 	// Arma 3 Marine
-	#include "cfgUSMC.hpp"
+	#include "cfgUSMC.hpp"			// USMC
 	// Deprecated classes
 	#include "deprecated.hpp"
 };

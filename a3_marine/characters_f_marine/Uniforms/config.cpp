@@ -5,7 +5,7 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
-	#include "cfgUSMC.hpp"
+	#include "cfgUSMC.hpp"			// USMC
 	// Deprecated classes
 	#include "deprecated.hpp"
 };

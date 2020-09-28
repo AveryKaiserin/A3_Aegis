@@ -1,4 +1,4 @@
-class B_W_Plane_Fighter_01_F: B_Plane_Fighter_01_F
+class Aegis_B_W_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -202,14 +202,14 @@ class B_W_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_W_F;
-	crew = B_W_Fighter_Pilot_F;
-	typicalCargo[] = {B_W_Fighter_Pilot_F};
+	crew = Aegis_B_W_Fighter_Pilot_F;
+	typicalCargo[] = {Aegis_B_W_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_W_Ejection_Seat_Plane_Fighter_01_F;
+		EjectionSeatClass = Aegis_B_W_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
-class B_W_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
+class Aegis_B_W_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -413,14 +413,14 @@ class B_W_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 	scopeCurator = public;
 	side = TWest;
 	faction = BLU_W_F;
-	crew = B_W_Fighter_Pilot_F;
-	typicalCargo[] = {B_W_Fighter_Pilot_F};
+	crew = Aegis_B_W_Fighter_Pilot_F;
+	typicalCargo[] = {Aegis_B_W_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_W_Ejection_Seat_Plane_Fighter_01_F;
+		EjectionSeatClass = Aegis_B_W_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
-class B_W_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F
+class Aegis_B_W_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F
 {
 	class SimpleObject
 	{
@@ -443,5 +443,5 @@ class B_W_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_
 	scope = protected;
 	side = TWest;
 	faction = BLU_W_F;
-	crew = B_W_Fighter_Pilot_F;
+	crew = Aegis_B_W_Fighter_Pilot_F;
 };

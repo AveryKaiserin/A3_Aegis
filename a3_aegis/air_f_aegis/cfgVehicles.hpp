@@ -21,6 +21,7 @@ class CfgVehicles
     {
         class EjectionSystem;
     };
+    // Arma 3 Jets
 	class B_Plane_Fighter_01_F;
 	class B_Plane_Fighter_01_Cluster_F: B_Plane_Fighter_01_F
     {
@@ -37,7 +38,7 @@ class CfgVehicles
         class EjectionSystem;
     };
     // Arma 3 Aegis
-    class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F
+    class Aegis_O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F
     {
         class Components: Components
         {
@@ -57,7 +58,7 @@ class CfgVehicles
         };
         class EjectionSystem;
     };
-	class Plane_Fighter_05_Base_F: Plane_Base_F
+	class Aegis_Plane_Fighter_05_Base_F: Plane_Base_F
     {
         class Components: Components
         {
@@ -81,14 +82,14 @@ class CfgVehicles
         };
         class EjectionSystem;
     };
-	class B_Plane_Fighter_05_F:Plane_Fighter_05_Base_F{};
-    #include "cfgBlufor.hpp"
-    #include "cfgOpfor.hpp"
-    #include "cfgBlufor_Exp.hpp"
-    #include "cfgOpfor_Exp.hpp"
-    #include "cfgOpfor_Tacops.hpp"
-    #include "cfgBlufor_Enoch.hpp"
-    #include "cfgSpetsnaz.hpp"
-    #include "cfgEAF.hpp"
-    #include "cfgBlufor_Aegis.hpp"
+	class Aegis_B_Plane_Fighter_05_F: Aegis_Plane_Fighter_05_Base_F{};
+    #include "cfgBlufor.hpp"        // US
+    #include "cfgOpfor.hpp"         // IAF
+    #include "cfgBlufor_Exp.hpp"    // US (Pacific)
+    #include "cfgOpfor_Exp.hpp"     // China
+    #include "cfgOpfor_Tacops.hpp"  // Argana
+    #include "cfgBlufor_Enoch.hpp"  // US (Woodland)
+    #include "cfgSpetsnaz.hpp"      // Russia
+    #include "cfgEAF.hpp"           // LDF
+	#include "cfgBlufor_Aegis.hpp"  // BAF
 };

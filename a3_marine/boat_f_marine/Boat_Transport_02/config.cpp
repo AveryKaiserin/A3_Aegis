@@ -15,7 +15,7 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Marine
-	#include "cfgUSMC.hpp"
+	#include "cfgUSMC.hpp"			// USMC
 	// Deprecated classes
 	#include "deprecated.hpp"
 };
