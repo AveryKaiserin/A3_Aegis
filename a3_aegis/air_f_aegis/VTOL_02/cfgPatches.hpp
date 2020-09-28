@@ -7,9 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT
-            O_VTOL_02_infantry_dynamicLoadout_F,
-            O_VTOL_02_vehicle_dynamicLoadout_F
+            // IAF
+            Aegis_O_VTOL_02_infantry_dynamicLoadout_F,
+            Aegis_O_VTOL_02_vehicle_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

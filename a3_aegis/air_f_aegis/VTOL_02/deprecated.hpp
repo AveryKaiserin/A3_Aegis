@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(O_VTOL_02_infantry_dynamicLoadout_F,Aegis_O_VTOL_02_infantry_dynamicLoadout_F)
+DEPRECATED_CLASS(O_VTOL_02_vehicle_dynamicLoadout_F,Aegis_O_VTOL_02_vehicle_dynamicLoadout_F)
