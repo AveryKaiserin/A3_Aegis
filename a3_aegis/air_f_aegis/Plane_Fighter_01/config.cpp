@@ -10,7 +10,7 @@ class CfgVehicles
 		{
 			class DarkGrey
 			{
-				displayName = $STR_A3_TEXTURESOURCES_DARKGREY0;
+				displayName = "Dark Grey";
 				factions[] =
 				{
 					BLU_F,
@@ -20,7 +20,7 @@ class CfgVehicles
 			};
 			class DarkGreyCamo
 			{
-				displayName = $STR_A3_TEXTURESOURCES_DARKGREYCAMO0;
+				displayName = "Dark Grey Camo";
 				factions[] =
 				{
 					BLU_F,
@@ -73,8 +73,6 @@ class CfgVehicles
 	class B_Plane_Fighter_01_F: Plane_Fighter_01_Base_F{};
 	class B_Plane_Fighter_01_Stealth_F: Plane_Fighter_01_Base_F{};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"    // US (Pacific)
-	#include "cfgBlufor_Enoch.hpp"  // US (Woodland)
-    // Deprecated classes
-    #include "deprecated.hpp"
+	#include "cfgBlufor_Exp.hpp"
+	#include "cfgBlufor_Enoch.hpp"
 };

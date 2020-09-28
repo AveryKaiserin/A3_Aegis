@@ -1,10 +1,10 @@
-class Aegis_O_T_Plane_CAS_02_Cluster_F: O_Plane_CAS_02_Cluster_F
+class O_T_Plane_CAS_02_Cluster_F: O_Plane_CAS_02_Cluster_F
 {
 	scope = protected;
 	scopeCurator = public;
 	faction = OPF_T_F;
-	crew = Aegis_O_T_Fighter_Pilot_F;
-	typicalCargo[] = {Aegis_O_T_Fighter_Pilot_F};
+	crew = O_T_Fighter_Pilot_F;
+	typicalCargo[] = {O_T_Fighter_Pilot_F};
 	textureList[] =
 	{
 		Grey,0,
@@ -17,16 +17,16 @@ class Aegis_O_T_Plane_CAS_02_Cluster_F: O_Plane_CAS_02_Cluster_F
 	};
     class EjectionSystem: EjectionSystem
     {
-        EjectionSeatClass = Aegis_O_T_Ejection_Seat_Plane_CAS_02_F;
+        EjectionSeatClass = O_T_Ejection_Seat_Plane_CAS_02_F;
     };
 };
-class Aegis_O_T_Plane_Fighter_02_Cluster_F: O_Plane_Fighter_02_Cluster_F
+class O_T_Plane_Fighter_02_Cluster_F: O_Plane_Fighter_02_Cluster_F
 {
 	scope = protected;
 	scopeCurator = public;
 	faction = OPF_T_F;
-	crew = Aegis_O_T_Fighter_Pilot_F;
-	typicalCargo[] = {Aegis_O_T_Fighter_Pilot_F};
+	crew = O_T_Fighter_Pilot_F;
+	typicalCargo[] = {O_T_Fighter_Pilot_F};
 	textureList[] =
 	{
 		CamoGreyHex,0,
@@ -44,6 +44,6 @@ class Aegis_O_T_Plane_Fighter_02_Cluster_F: O_Plane_Fighter_02_Cluster_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = Aegis_O_T_Ejection_Seat_Plane_Fighter_02_F;
+		EjectionSeatClass = O_T_Ejection_Seat_Plane_Fighter_02_F;
 	};
 };

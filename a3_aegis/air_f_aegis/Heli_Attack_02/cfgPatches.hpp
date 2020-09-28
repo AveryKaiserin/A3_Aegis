@@ -11,15 +11,15 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // China
-            Aegis_O_T_Heli_Attack_02_dynamicLoadout_F,
+            // CSAT (Pacific)
+            O_T_Heli_Attack_02_dynamicLoadout_F,
 
-            // Argana
-            Aegis_O_A_Heli_Attack_02_dynamicLoadout_F,
+            // CSAT (African)
+            O_A_Heli_Attack_02_dynamicLoadout_F,
             
             // Russia
-            Aegis_O_R_Heli_Attack_02_dynamicLoadout_ard_F,
-            Aegis_O_R_Heli_Attack_02_dynamicLoadout_F
+            O_R_Heli_Attack_02_dynamicLoadout_ard_F,
+            O_R_Heli_Attack_02_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

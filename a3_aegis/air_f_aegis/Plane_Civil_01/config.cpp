@@ -10,7 +10,7 @@ class CfgVehicles
 		{
 			class White_1
 			{
-				displayName = $STR_A3_A_CfgVehicles_Plane_Civil_01_base_F_TextureSources_White_10;
+				displayName = $STR_A3_TEXTURESOURCES_WHITE0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -23,7 +23,7 @@ class CfgVehicles
 			};
 			class White_2
 			{
-				displayName = $STR_A3_A_CfgVehicles_Plane_Civil_01_base_F_TextureSources_White_20;
+				displayName = "White (Tan Interior)";
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{

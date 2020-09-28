@@ -1,4 +1,4 @@
-class Aegis_B_W_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
+class B_W_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
