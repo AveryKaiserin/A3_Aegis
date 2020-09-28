@@ -14,24 +14,24 @@ class CfgPatches
 		units[] =
         {
             // Syndikat
-            Aegis_I_C_Quadbike_01_F,
+            I_C_Quadbike_01_F,
 
             // Gendarmerie
-            Aegis_B_GEN_Quadbike_01_F,
+            B_GEN_Quadbike_01_F,
 
-            // CSAT (African)
-            Aegis_O_A_Quadbike_01_F,
+            // China
+            O_A_Quadbike_01_F,
 
-            // NATO (Woodland)
-            Aegis_B_W_Quadbike_01_F,
+            // US (Woodland)
+            B_W_Quadbike_01_F,
 
             // Russia,
-            Aegis_O_R_Quadbike_01_F,
+            O_R_Quadbike_01_F,
 
-            // NATO (British)
-            Aegis_B_A_Quadbike_01_F,
-            Aegis_B_A_Quadbike_01_tna_F,
-            Aegis_B_A_Quadbike_01_wdl_F
+            // BAF
+            B_A_Quadbike_01_F,
+            B_A_Quadbike_01_tna_F,
+            B_A_Quadbike_01_wdl_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

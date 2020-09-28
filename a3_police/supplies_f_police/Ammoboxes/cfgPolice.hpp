@@ -26,15 +26,15 @@ class Police_Box_POLICE_Equip_F: Box_NATO_Equip_F
 		mag_xx(50Rnd_570x28_SMG_03,18);
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,18);
 		mag_xx(20Rnd_762x51_mag,6);
-		mag_xx(Aegis_17Rnd_9x21_Mag,12);
+		mag_xx(17Rnd_9x21_Mag,12);
 		mag_xx(Chemlight_blue,2);
 	};
 	class TransportWeapons
 	{
 		weap_xx(SMG_03C_black,3);
         weap_xx(Atlas_arifle_G36C_F,3);
-        weap_xx(Aegis_srifle_DMR_06_black_F,1);
-		weap_xx(Aegis_hgun_G17_black_F,6);
+        weap_xx(srifle_DMR_06_black_F,1);
+		weap_xx(hgun_G17_black_F,6);
 	};
 	class TransportItems
 	{

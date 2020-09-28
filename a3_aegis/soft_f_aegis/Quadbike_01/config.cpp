@@ -89,12 +89,10 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgSyndikat.hpp"
-	#include "cfgGendarmerie.hpp"
-	#include "cfgOpfor_Tacops.hpp"
-	#include "cfgBlufor_Enoch.hpp"
-	#include "cfgSpetsnaz.hpp"
-	#include "cfgBlufor_Aegis.hpp"
-    // compatibility classes
-    #include "compatibility.hpp"
+	#include "cfgSyndikat.hpp"          // Syndikat
+	#include "cfgGendarmerie.hpp"       // Gendarmerie
+	#include "cfgOpfor_Tacops.hpp"      // Argana
+	#include "cfgBlufor_Enoch.hpp"      // US (Woodland)
+	#include "cfgSpetsnaz.hpp"          // Russia
+	#include "cfgBlufor_Aegis.hpp"      // BAF
 };

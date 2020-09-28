@@ -10,5 +10,5 @@ class CfgPatches
 		units[] = {/* Auto-compiled by pboProject */};
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
-	#include "legacyPatches.hpp"
+	#include "deprecated.hpp"
 };
