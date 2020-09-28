@@ -1,11 +1,11 @@
-class Marine_B_USMC_Heli_Transport_01_F: B_Heli_Transport_01_F
+class B_USMC_Heli_Transport_01_F: B_Heli_Transport_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Heli_Transport_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = Marine_BLU_USMC_F;
+	faction = BLU_USMC_F;
 	crew = B_Helipilot_F;
 	typicalCargo[] = {B_USMC_Soldier_F};
 	textureList[] = {Grey,1};

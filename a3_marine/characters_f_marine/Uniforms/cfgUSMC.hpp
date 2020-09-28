@@ -1,4 +1,4 @@
-class Marine_U_B_MCU_desert_F: Uniform_Base
+class U_B_MCU_desert_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class Marine_U_B_MCU_desert_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUCombatFatigues_01_desert_F;
+		uniformClass = B_MCUCombatFatigues_01_desert_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Marine_U_B_MCU_wdl_F: Uniform_Base
+class U_B_MCU_wdl_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,12 +27,12 @@ class Marine_U_B_MCU_wdl_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUCombatFatigues_01_wdl_F;
+		uniformClass = B_MCUCombatFatigues_01_wdl_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Marine_U_B_MCU_tshirt_desert_F: Uniform_Base
+class U_B_MCU_tshirt_desert_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -44,12 +44,12 @@ class Marine_U_B_MCU_tshirt_desert_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUCombatFatigues_01_Tshirt_desert_F;
+		uniformClass = B_MCUCombatFatigues_01_Tshirt_desert_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Marine_U_B_MCU_tshirt_wdl_F: Uniform_Base
+class U_B_MCU_tshirt_wdl_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -61,12 +61,12 @@ class Marine_U_B_MCU_tshirt_wdl_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUCombatFatigues_01_Tshirt_wdl_F;
+		uniformClass = B_MCUCombatFatigues_01_Tshirt_wdl_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Marine_U_B_MCU_vest_desert_F: Uniform_Base
+class U_B_MCU_vest_desert_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -78,12 +78,12 @@ class Marine_U_B_MCU_vest_desert_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUReconFatigues_01_desert_F;
+		uniformClass = B_MCUReconFatigues_01_desert_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Marine_U_B_MCU_vest_wdl_F: Uniform_Base
+class U_B_MCU_vest_wdl_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -95,7 +95,7 @@ class Marine_U_B_MCU_vest_wdl_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Marine_B_MCUReconFatigues_01_wdl_F;
+		uniformClass = B_MCUReconFatigues_01_wdl_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

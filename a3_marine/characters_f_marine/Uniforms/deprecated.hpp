@@ -1,6 +1,0 @@
-COMPATIBILITYCLASS(U_B_MCU_desert_F,Marine_U_B_MCU_desert_F)
-COMPATIBILITYCLASS(U_B_MCU_wdl_F,Marine_U_B_MCU_wdl_F)
-COMPATIBILITYCLASS(U_B_MCU_tshirt_desert_F,Marine_U_B_MCU_tshirt_desert_F)
-COMPATIBILITYCLASS(U_B_MCU_tshirt_wdl_F,Marine_U_B_MCU_tshirt_wdl_F)
-COMPATIBILITYCLASS(U_B_MCU_vest_desert_F,Marine_U_B_MCU_vest_desert_F)
-COMPATIBILITYCLASS(U_B_MCU_vest_wdl_F,Marine_U_B_MCU_vest_wdl_F)

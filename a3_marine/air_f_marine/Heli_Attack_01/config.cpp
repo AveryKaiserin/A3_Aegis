@@ -15,14 +15,12 @@ class CfgVehicles
 					BLU_F,
 					BLU_T_F,
 					BLU_W_F,
-					Marine_BLU_USMC_F
+					BLU_USMC_F
 				};
 			};
 		};
 	};
 	class B_Heli_Attack_01_dynamicLoadout_F;
-	// Arma 3 Marine
+	// Arma 3 Marine Corps
 	#include "cfgUSMC.hpp"
-	// Deprecated classes
-	#include "deprecated.hpp"
 };

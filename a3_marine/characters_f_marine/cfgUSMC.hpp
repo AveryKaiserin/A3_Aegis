@@ -1,34 +1,34 @@
 // Arma 3
 class B_Soldier_F;
 // Arma 3 Marine
-class Marine_B_USMC_Man_Base_F: B_Soldier_F
+class B_USMC_Man_Base_F: B_Soldier_F
 {
     scope = private;
     scopeCurator = private;
-	faction = Marine_BLU_USMC_F;
+	faction = BLU_USMC_F;
 };
-class Marine_B_USMC_Soldier_Base_F: Marine_B_USMC_Man_Base_F
+class B_USMC_Soldier_Base_F: B_USMC_Man_Base_F
 {
 	editorSubcategory = EdSubcat_Personnel_Camo_Desert;
 };
-class Marine_B_USMC_Soldier_A_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_A_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_A_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -62,24 +62,24 @@ class Marine_B_USMC_Soldier_A_F: Marine_B_USMC_Soldier_Base_F
 	};
 	cost = 110000;
 };
-class Marine_B_USMC_Soldier_AR_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_AR_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_AR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
-	uniformClass = Marine_U_B_MCU_tshirt_desert_F;
+	uniformClass = U_B_MCU_tshirt_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -115,7 +115,7 @@ class Marine_B_USMC_Soldier_AR_F: Marine_B_USMC_Soldier_Base_F
 	role = MachineGunner;
 	threat[] = {1,0.1,0.3};
 };
-class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_medic_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -133,18 +133,18 @@ class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
 	};
@@ -183,24 +183,24 @@ class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
 	role = CombatLifeSaver;
 	camouflage = 1.6;
 };
-class Marine_B_USMC_engineer_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_engineer_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = Marine_U_B_MCU_vest_desert_F;
+	uniformClass = U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -244,24 +244,24 @@ class Marine_B_USMC_engineer_F: Marine_B_USMC_Soldier_Base_F
 	threat[] = {1,0.5,0.1};
 	camouflage = 1.6;
 };
-class Marine_B_USMC_Soldier_GL_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_GL_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_GL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -299,7 +299,7 @@ class Marine_B_USMC_Soldier_GL_F: Marine_B_USMC_Soldier_Base_F
 	cost = 200000;
 	role = Grenadier;
 };
-class Marine_B_USMC_soldier_M_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_soldier_M_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -317,17 +317,17 @@ class Marine_B_USMC_soldier_M_F: Marine_B_USMC_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_M_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -363,7 +363,7 @@ class Marine_B_USMC_soldier_M_F: Marine_B_USMC_Soldier_Base_F
 	cost = 250000;
 	role = Marksman;
 };
-class Marine_B_USMC_soldier_AA_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_soldier_AA_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -381,17 +381,17 @@ class Marine_B_USMC_soldier_AA_F: Marine_B_USMC_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -432,7 +432,7 @@ class Marine_B_USMC_soldier_AA_F: Marine_B_USMC_Soldier_Base_F
 	role = MissileSpecialist;
 	threat[] = {1,0.7,0.3};
 };
-class Marine_B_USMC_soldier_AT_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_soldier_AT_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -450,17 +450,17 @@ class Marine_B_USMC_soldier_AT_F: Marine_B_USMC_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -501,7 +501,7 @@ class Marine_B_USMC_soldier_AT_F: Marine_B_USMC_Soldier_Base_F
 	role = MissileSpecialist;
 	threat[] = {1,0.7,0.3};
 };
-class Marine_B_USMC_officer_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_officer_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -525,18 +525,18 @@ class Marine_B_USMC_officer_F: Marine_B_USMC_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
-		Marine_H_MilCap_desert,
+		V_Rangemaster_belt_khk,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
-		Marine_H_MilCap_desert,
+		V_Rangemaster_belt_khk,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -571,25 +571,25 @@ class Marine_B_USMC_officer_F: Marine_B_USMC_Soldier_Base_F
 	icon = iconManOfficer;
     role = Rifleman;
 };
-class Marine_B_USMC_Soldier_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -622,7 +622,7 @@ class Marine_B_USMC_Soldier_F: Marine_B_USMC_Soldier_Base_F
 	cost = 100000;
 	role = Rifleman;
 };
-class Marine_B_USMC_Soldier_LAT_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_LAT_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -640,17 +640,17 @@ class Marine_B_USMC_Soldier_LAT_F: Marine_B_USMC_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_LAT_F0;
-	uniformClass = Marine_U_B_MCU_desert_F;
+	uniformClass = U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -691,26 +691,26 @@ class Marine_B_USMC_Soldier_LAT_F: Marine_B_USMC_Soldier_Base_F
 	role = MissileSpecialist;
 	threat[] = {0.8,0.8,0.3};
 };
-class Marine_B_USMC_Soldier_SL_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_SL_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = Marine_U_B_MCU_vest_desert_F;
+	uniformClass = U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -754,26 +754,26 @@ class Marine_B_USMC_Soldier_SL_F: Marine_B_USMC_Soldier_Base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class Marine_B_USMC_Soldier_TL_F: Marine_B_USMC_Soldier_Base_F
+class B_USMC_Soldier_TL_F: B_USMC_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_TL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = Marine_U_B_MCU_vest_desert_F;
+	uniformClass = U_B_MCU_vest_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
@@ -820,27 +820,27 @@ class Marine_B_USMC_Soldier_TL_F: Marine_B_USMC_Soldier_Base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class Marine_B_USMC_RadioOperator_F: Marine_B_USMC_Soldier_F
+class B_USMC_RadioOperator_F: B_USMC_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Marine_U_B_MCU_vest_desert_F;
+	uniformClass = U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = Aegis_B_RadioBag_01_coyote_F;
+	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
 		arifle_MX_Holo_pointer_F,
@@ -868,7 +868,7 @@ class Marine_B_USMC_RadioOperator_F: Marine_B_USMC_Soldier_F
         mag_2(SmokeShell)
     };
 };
-class Marine_B_USMC_Soldier_A_wdl_F: Marine_B_USMC_Soldier_A_F
+class B_USMC_Soldier_A_wdl_F: B_USMC_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_A_wdl_F.jpg";
@@ -879,17 +879,17 @@ class Marine_B_USMC_Soldier_A_wdl_F: Marine_B_USMC_Soldier_A_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -922,7 +922,7 @@ class Marine_B_USMC_Soldier_A_wdl_F: Marine_B_USMC_Soldier_A_F
         mag_2(SmokeShell)
 	};
 };
-class Marine_B_USMC_Soldier_AR_wdl_F: Marine_B_USMC_Soldier_AR_F
+class B_USMC_Soldier_AR_wdl_F: B_USMC_Soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_AR_wdl_F.jpg";
@@ -933,17 +933,17 @@ class Marine_B_USMC_Soldier_AR_wdl_F: Marine_B_USMC_Soldier_AR_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_tshirt_wdl_F;
+	uniformClass = U_B_MCU_tshirt_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -975,7 +975,7 @@ class Marine_B_USMC_Soldier_AR_wdl_F: Marine_B_USMC_Soldier_AR_F
         mag_2(SmokeShell)
     };
 };
-class Marine_B_USMC_medic_wdl_F: Marine_B_USMC_medic_F
+class B_USMC_medic_wdl_F: B_USMC_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_medic_wdl_F.jpg";
@@ -986,18 +986,18 @@ class Marine_B_USMC_medic_wdl_F: Marine_B_USMC_medic_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
@@ -1030,7 +1030,7 @@ class Marine_B_USMC_medic_wdl_F: Marine_B_USMC_medic_F
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
 };
-class Marine_B_USMC_engineer_wdl_F: Marine_B_USMC_engineer_F
+class B_USMC_engineer_wdl_F: B_USMC_engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_engineer_wdl_F.jpg";
@@ -1041,17 +1041,17 @@ class Marine_B_USMC_engineer_wdl_F: Marine_B_USMC_engineer_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_vest_wdl_F;
+	uniformClass = U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1085,7 +1085,7 @@ class Marine_B_USMC_engineer_wdl_F: Marine_B_USMC_engineer_F
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };
-class Marine_B_USMC_Soldier_GL_wdl_F: Marine_B_USMC_Soldier_GL_F
+class B_USMC_Soldier_GL_wdl_F: B_USMC_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_GL_wdl_F.jpg";
@@ -1096,17 +1096,17 @@ class Marine_B_USMC_Soldier_GL_wdl_F: Marine_B_USMC_Soldier_GL_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1142,7 +1142,7 @@ class Marine_B_USMC_Soldier_GL_wdl_F: Marine_B_USMC_Soldier_GL_F
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
 };
-class Marine_B_USMC_soldier_M_wdl_F: Marine_B_USMC_soldier_M_F
+class B_USMC_soldier_M_wdl_F: B_USMC_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_M_wdl_F.jpg";
@@ -1153,17 +1153,17 @@ class Marine_B_USMC_soldier_M_wdl_F: Marine_B_USMC_soldier_M_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1197,7 +1197,7 @@ class Marine_B_USMC_soldier_M_wdl_F: Marine_B_USMC_soldier_M_F
         mag_2(SmokeShell)
     };
 };
-class Marine_B_USMC_soldier_AA_wdl_F: Marine_B_USMC_soldier_AA_F
+class B_USMC_soldier_AA_wdl_F: B_USMC_soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AA_wdl_F.jpg";
@@ -1208,17 +1208,17 @@ class Marine_B_USMC_soldier_AA_wdl_F: Marine_B_USMC_soldier_AA_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1254,7 +1254,7 @@ class Marine_B_USMC_soldier_AA_wdl_F: Marine_B_USMC_soldier_AA_F
         mag_2(SmokeShell)
     };
 };
-class Marine_B_USMC_soldier_AT_wdl_F: Marine_B_USMC_soldier_AT_F
+class B_USMC_soldier_AT_wdl_F: B_USMC_soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_soldier_AT_wdl_F.jpg";
@@ -1265,17 +1265,17 @@ class Marine_B_USMC_soldier_AT_wdl_F: Marine_B_USMC_soldier_AT_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1311,23 +1311,23 @@ class Marine_B_USMC_soldier_AT_wdl_F: Marine_B_USMC_soldier_AT_F
         mag_2(SmokeShell)
     };
 };
-class Marine_B_USMC_officer_wdl_F: Marine_B_USMC_officer_F
+class B_USMC_officer_wdl_F: B_USMC_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_officer_wdl_F.jpg";
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
-		Marine_H_MilCap_mwdl,
+		V_Rangemaster_belt_khk,
+		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
-		Marine_H_MilCap_mwdl,
+		V_Rangemaster_belt_khk,
+		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -1358,7 +1358,7 @@ class Marine_B_USMC_officer_wdl_F: Marine_B_USMC_officer_F
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };
-class Marine_B_USMC_Soldier_wdl_F: Marine_B_USMC_Soldier_F
+class B_USMC_Soldier_wdl_F: B_USMC_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_wdl_F.jpg";
@@ -1369,18 +1369,18 @@ class Marine_B_USMC_Soldier_wdl_F: Marine_B_USMC_Soldier_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1411,7 +1411,7 @@ class Marine_B_USMC_Soldier_wdl_F: Marine_B_USMC_Soldier_F
         mag_2(SmokeShell)
 	};
 };
-class Marine_B_USMC_Soldier_LAT_wdl_F: Marine_B_USMC_Soldier_LAT_F
+class B_USMC_Soldier_LAT_wdl_F: B_USMC_Soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_LAT_wdl_F.jpg";
@@ -1422,17 +1422,17 @@ class Marine_B_USMC_Soldier_LAT_wdl_F: Marine_B_USMC_Soldier_LAT_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_wdl_F;
+	uniformClass = U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1468,7 +1468,7 @@ class Marine_B_USMC_Soldier_LAT_wdl_F: Marine_B_USMC_Soldier_LAT_F
         mag_2(SmokeShell)
 	};
 };
-class Marine_B_USMC_Soldier_SL_wdl_F: Marine_B_USMC_Soldier_SL_F
+class B_USMC_Soldier_SL_wdl_F: B_USMC_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_SL_wdl_F.jpg";
@@ -1479,19 +1479,19 @@ class Marine_B_USMC_Soldier_SL_wdl_F: Marine_B_USMC_Soldier_SL_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_vest_wdl_F;
+	uniformClass = U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1531,7 +1531,7 @@ class Marine_B_USMC_Soldier_SL_wdl_F: Marine_B_USMC_Soldier_SL_F
         SOLDIER_SMOKE_SHELLS_BLUFOR
     };
 };
-class Marine_B_USMC_Soldier_TL_wdl_F: Marine_B_USMC_Soldier_TL_F
+class B_USMC_Soldier_TL_wdl_F: B_USMC_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Soldier_TL_wdl_F.jpg";
@@ -1542,19 +1542,19 @@ class Marine_B_USMC_Soldier_TL_wdl_F: Marine_B_USMC_Soldier_TL_F
 		G_NATO_tropic
 	};
 	editorSubcategory = EdSubcat_Personnel_Camo_Woodland;
-	uniformClass = Marine_U_B_MCU_vest_wdl_F;
+	uniformClass = U_B_MCU_vest_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1598,27 +1598,27 @@ class Marine_B_USMC_Soldier_TL_wdl_F: Marine_B_USMC_Soldier_TL_F
         SOLDIER_SMOKE_GRENADES_BLUFOR
     };
 };
-class Marine_B_USMC_RadioOperator_wdl_F: Marine_B_USMC_Soldier_wdl_F
+class B_USMC_RadioOperator_wdl_F: B_USMC_Soldier_wdl_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_RadioOperator_wdl_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Marine_U_B_MCU_vest_wdl_F;
+	uniformClass = U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = Aegis_B_RadioBag_01_coyote_F;
+	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
 		arifle_MX_Black_Holo_Pointer_F,

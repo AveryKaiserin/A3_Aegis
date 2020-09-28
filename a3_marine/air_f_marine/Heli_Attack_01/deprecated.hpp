@@ -1,1 +1,0 @@
-COMPATIBILITYCLASS(B_USMC_Heli_Attack_01_dynamicLoadout_F,Marine_B_USMC_Heli_Attack_01_dynamicLoadout_F)

@@ -1,11 +1,11 @@
-class Marine_B_USMC_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
+class B_USMC_Heli_Attack_01_dynamicLoadout_F: B_Heli_Attack_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_Heli_Attack_01_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = Marine_BLU_USMC_F;
+	faction = BLU_USMC_F;
 	crew = B_Helipilot_F;
 	typicalCargo[] = {B_Helipilot_F};
 	textureList[] = {Grey,1};

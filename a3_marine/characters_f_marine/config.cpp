@@ -8,7 +8,5 @@ class CfgVehicles
 	class SoldierGB;
 	#include "cfgUSMC.hpp"
     #include "cfgUniforms.hpp"
-	// Deprecated classes
-	#include "deprecated.hpp"
 };
 #include "cfgGroups.hpp"

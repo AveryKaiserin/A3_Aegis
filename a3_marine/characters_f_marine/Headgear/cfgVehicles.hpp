@@ -20,17 +20,10 @@ class CfgVehicles
 	// Arma 3
 	class Headgear_Base_F;
 	// Arma 3 Marine
-	HEADGEAR_HOLDER(Marine_H_Booniehat_desert,$STR_A3_M_CfgWeapons_H_Booniehat_desert0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(Marine_H_Booniehat_desert_hs,$STR_A3_M_CfgWeapons_H_Booniehat_desert_hs0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(Marine_H_Booniehat_mwdl,$STR_A3_M_CfgWeapons_H_Booniehat_mwdl0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(Marine_H_Booniehat_mwdl_hs,$STR_A3_M_CfgWeapons_H_Booniehat_mwdl_hs0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(Marine_H_MilCap_desert,$STR_A3_M_CfgWeapons_H_MilCap_desert0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(Marine_H_MilCap_mwdl,$STR_A3_M_CfgWeapons_H_MilCap_mwdl0,EdSubcat_Hats)
-	// Deprecated classes
-	COMPATIBILITYCLASS(Headgear_H_Booniehat_desert,Headgear_Marine_H_Booniehat_desert)
-	COMPATIBILITYCLASS(Headgear_H_Booniehat_desert_hs,Headgear_Marine_H_Booniehat_desert_hs)
-	COMPATIBILITYCLASS(Headgear_H_Booniehat_mwdl,Headgear_Marine_H_Booniehat_mwdl)
-	COMPATIBILITYCLASS(Headgear_H_Booniehat_mwdl_hs,Headgear_Marine_H_Booniehat_mwdl_hs)
-	COMPATIBILITYCLASS(Headgear_H_MilCap_desert,Headgear_Marine_H_MilCap_desert)
-	COMPATIBILITYCLASS(Headgear_H_MilCap_mwdl,Headgear_Marine_H_MilCap_mwdl)
+	HEADGEAR_HOLDER(H_Booniehat_desert,$STR_A3_M_CfgWeapons_H_Booniehat_desert0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Booniehat_desert_hs,$STR_A3_M_CfgWeapons_H_Booniehat_desert_hs0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Booniehat_mwdl,$STR_A3_M_CfgWeapons_H_Booniehat_mwdl0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Booniehat_mwdl_hs,$STR_A3_M_CfgWeapons_H_Booniehat_mwdl_hs0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_MilCap_desert,$STR_A3_M_CfgWeapons_H_MilCap_desert0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_MilCap_mwdl,$STR_A3_M_CfgWeapons_H_MilCap_mwdl0,EdSubcat_Hats)
 };

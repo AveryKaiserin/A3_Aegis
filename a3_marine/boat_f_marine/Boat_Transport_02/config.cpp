@@ -10,12 +10,10 @@ class CfgVehicles
 		{
 			class Black
 			{
-				factions[] += {Marine_BLU_USMC_F};
+				factions[] += {BLU_USMC_F};
 			};
 		};
 	};
 	// Arma 3 Marine
 	#include "cfgUSMC.hpp"
-	// Deprecated classes
-	#include "deprecated.hpp"
 };
