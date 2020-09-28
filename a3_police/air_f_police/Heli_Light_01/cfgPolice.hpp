@@ -1,4 +1,4 @@
-class I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
+class Police_I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -140,8 +140,8 @@ class I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 	scope = protected;
     scopeCurator = private; // del this line
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_Helipilot_F;
+	faction = Police_IND_P_F;
+	crew = Police_I_P_Helipilot_F;
 	textureList[] = {Police,1};
 	hiddenSelectionsTextures[] = {"\A3_Police\Air_F_Police\Heli_Light_01\Data\Heli_Light_01_ext_police_CO.paa"};
 	animationList[] =

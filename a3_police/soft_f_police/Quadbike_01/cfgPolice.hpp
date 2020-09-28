@@ -1,4 +1,4 @@
-class I_P_Quadbike_01_F: Quadbike_01_base_F
+class Police_I_P_Quadbike_01_F: Quadbike_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -74,9 +74,9 @@ class I_P_Quadbike_01_F: Quadbike_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_PoliceOfficer_F;
-	typicalCargo[] = {I_P_PoliceOfficer_F};
+	faction = Police_IND_P_F;
+	crew = Police_I_P_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	textureList[] = {White,1};
 	hiddenSelectionsTextures[] =
 	{

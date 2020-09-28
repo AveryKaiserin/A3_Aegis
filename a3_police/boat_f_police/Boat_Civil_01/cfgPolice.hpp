@@ -1,13 +1,13 @@
-class I_P_Boat_Civil_01_police_F: Boat_Civil_01_base_F
+class Police_I_P_Boat_Civil_01_police_F: Boat_Civil_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Boat_Civil_01_police_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_C_Boat_Civil_01_police0;
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_PoliceOfficer_F;
-	typicalCargo[] = {I_P_PoliceOfficer_F};
+	faction = Police_IND_P_F;
+	crew = Police_I_P_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	class AnimationSources: AnimationSources
 	{
 		class Proxy

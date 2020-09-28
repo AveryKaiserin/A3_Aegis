@@ -1,4 +1,4 @@
-class I_P_Offroad_01_police_F: Offroad_01_civil_base_F
+class Police_I_P_Offroad_01_police_F: Offroad_01_civil_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_police_F.jpg";
@@ -9,9 +9,9 @@ class I_P_Offroad_01_police_F: Offroad_01_civil_base_F
 	icon = "\A3\Soft_F_Exp\Offroad_01\Data\UI\Map_Offroad_01_gen_CA.paa";
 	picture = "\A3\Soft_F_Exp\Offroad_01\Data\UI\Offroad_01_gen_CA.paa";
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_PoliceOfficer_F;
-	typicalCargo[] = {I_P_PoliceOfficer_F};
+	faction = Police_IND_P_F;
+	crew = Police_I_P_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	textureList[] = {Police,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -28,16 +28,16 @@ class I_P_Offroad_01_police_F: Offroad_01_civil_base_F
 		HideBackpacks,1
 	};
 };
-class I_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
+class Police_I_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_covered_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_PoliceOfficer_F;
-	typicalCargo[] = {I_P_PoliceOfficer_F};
+	faction = Police_IND_P_F;
+	crew = Police_I_P_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
 	textureList[] = {Police,1};
 	hiddenSelectionsTextures[] =
@@ -56,16 +56,16 @@ class I_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
         HideBumper2,0
     };
 };
-class I_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
+class Police_I_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_comms_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_P_F;
-	crew = I_P_PoliceOfficer_F;
-	typicalCargo[] = {I_P_PoliceOfficer_F};
+	faction = Police_IND_P_F;
+	crew = Police_I_P_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
 	textureList[] = {Police,1};
 	hiddenSelectionsTextures[] =

@@ -8,8 +8,8 @@ class CfgPatches
 		units[] =
         {
             // Police
-            I_P_UGV_02_Demining_F,
-            I_P_UGV_02_Demining_backpack_F
+            Police_I_P_UGV_02_Demining_F,
+            Police_I_P_UGV_02_Demining_backpack_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

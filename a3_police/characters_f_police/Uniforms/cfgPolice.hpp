@@ -1,4 +1,4 @@
-class U_I_P_PoliceUniform_F: Uniform_Base
+class Police_U_I_P_PoliceUniform_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -15,7 +15,7 @@ class U_I_P_PoliceUniform_F: Uniform_Base
 		mass = 40;
 	};
 };
-class U_I_P_PoliceUniform_gloves_F: Uniform_Base
+class Police_U_I_P_PoliceUniform_gloves_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;

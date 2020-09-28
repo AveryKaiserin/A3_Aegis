@@ -13,11 +13,13 @@ class CfgVehicles
 				factions[] =
 				{
 					CIV_F,
-                    IND_P_F
+                    Police_IND_P_F
 				};
 			};
         };
     };
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated Classes
+	#include "deprecated.hpp"
 };

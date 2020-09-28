@@ -1,4 +1,4 @@
-class I_P_Van_02_transport_F: Van_02_transport_base_F
+class Police_I_P_Van_02_transport_F: Van_02_transport_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Van_02_transport_F.jpg";
@@ -27,7 +27,7 @@ class I_P_Van_02_transport_F: Van_02_transport_base_F
 	};
 	textureList[] = {Police,1};
 };
-class I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
+class Police_I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Van_02_vehicle_F.jpg";

@@ -17,7 +17,7 @@ class CfgVehicles
 					"\A3_Police\Soft_F_Police\Offroad_01\Data\Offroad_01_ext_police_CO.paa",
 					"\A3_Police\Soft_F_Police\Offroad_01\Data\Offroad_01_ext_police_CO.paa"
 				};
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
 	};
@@ -37,11 +37,13 @@ class CfgVehicles
 					"\A3_Police\Soft_F_Police\Offroad_01\Data\Offroad_01_ext_police_CO.paa",
 					"\A3_Police\Soft_F_Police\Offroad_01\Data\Offroad_01_cover_police_CO.paa"
 				};
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
 	};
 	class Offroad_01_military_comms_base_F;
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated Classes
+	#include "deprecated.hpp"
 };

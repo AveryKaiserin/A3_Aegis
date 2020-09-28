@@ -8,4 +8,6 @@ class CfgWeapons
 	class Uniform_Base;
     // Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated classes
+	#include "deprecated.hpp"
 };

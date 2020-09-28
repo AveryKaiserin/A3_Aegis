@@ -4,7 +4,7 @@ class I_G_Soldier_LAT_F;
 // Arma 3 Enoch
 class I_E_Uniform_01_sweater_F;
 // Arma 3 Police
-class I_P_Man_Base_F: I_soldier_F
+class Police_I_P_Man_Base_F: I_soldier_F
 {
 	scope = private;
     scopeCurator = private;
@@ -37,7 +37,7 @@ class I_P_Man_Base_F: I_soldier_F
 		};
 	};
 };
-class I_P_PoliceUniform_01_F: I_E_Uniform_01_sweater_F
+class Police_I_P_PoliceUniform_01_F: I_E_Uniform_01_sweater_F
 {
     scope = protected;
     scopeCurator = private;
@@ -50,7 +50,7 @@ class I_P_PoliceUniform_01_F: I_E_Uniform_01_sweater_F
 	hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01_CO.paa"};
 	hiddenSelectionsMaterials[] = {"A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01.rvmat"};
 };
-class I_P_PoliceUniform_01_gloves_F: I_G_Soldier_LAT_F
+class Police_I_P_PoliceUniform_01_gloves_F: I_G_Soldier_LAT_F
 {
     scope = protected;
     scopeCurator = private;
@@ -63,11 +63,11 @@ class I_P_PoliceUniform_01_gloves_F: I_G_Soldier_LAT_F
 	hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01_CO.paa"};
 	hiddenSelectionsMaterials[] = {"A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01.rvmat"};
 };
-class I_P_PoliceOfficer_Base_F: I_P_Man_Base_F
+class Police_I_P_PoliceOfficer_Base_F: Police_I_P_Man_Base_F
 {
     uniformClass = U_Marshal;
 };
-class I_P_PoliceOfficer_F: I_P_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_F.jpg";
@@ -114,7 +114,7 @@ class I_P_PoliceOfficer_F: I_P_PoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_PoliceOfficer_Rifle_F: I_P_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_Rifle_F.jpg";
@@ -162,7 +162,7 @@ class I_P_PoliceOfficer_Rifle_F: I_P_PoliceOfficer_Base_F
 	cost = 100000;
 	role = Rifleman;
 };
-class I_P_PoliceOfficer_SG_F: I_P_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_SG_F.jpg";
@@ -213,14 +213,14 @@ class I_P_PoliceOfficer_SG_F: I_P_PoliceOfficer_Base_F
 	role = Rifleman;
     threat[] = {1,0.3,0.1};
 };
-class I_P_TacPoliceOfficer_Base_F: I_P_PoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_Base_F: Police_I_P_PoliceOfficer_Base_F
 {
     uniformClass = U_I_P_PoliceUniform_gloves_F;
 	vehicleClass = MenRecon;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
     icon = iconManRecon;
 };
-class I_P_TacPoliceOfficer_F: I_P_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_F.jpg";
@@ -267,7 +267,7 @@ class I_P_TacPoliceOfficer_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_Sniper_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Sniper_F.jpg";
@@ -317,7 +317,7 @@ class I_P_TacPoliceOfficer_Sniper_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_TacPoliceOfficer_SG_F: I_P_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_SG_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
@@ -366,7 +366,7 @@ class I_P_TacPoliceOfficer_SG_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
@@ -417,7 +417,7 @@ class I_P_TacPoliceOfficer_UGV_02_F: I_P_TacPoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class I_P_Helipilot_F: I_P_PoliceOfficer_Base_F
+class Police_I_P_Helipilot_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Helipilot_F.jpg";

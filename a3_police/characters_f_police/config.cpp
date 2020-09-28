@@ -10,5 +10,7 @@ class CfgVehicles
     // Arma 3 Police
 	#include "cfgCivil.hpp"             // Civilians
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated classes
+	#include "deprecated.hpp"
 };
 #include "cfgGroups.hpp"

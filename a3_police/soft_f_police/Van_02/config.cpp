@@ -58,4 +58,6 @@ class CfgVehicles
 	};
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated Classes
+	#include "deprecated.hpp"
 };

@@ -8,7 +8,7 @@ class CfgWeapons
 	class V_CarrierRigKBT_01_light_base_F;
 	class V_CarrierRigKBT_01_heavy_base_F;
 	// Arma 3 Police
-	class V_CarrierRigKBT_01_light_POLICE_F: V_CarrierRigKBT_01_light_base_F
+	class Police_V_CarrierRigKBT_01_light_POLICE_F: V_CarrierRigKBT_01_light_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
@@ -17,4 +17,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police.rvmat"};
 	};
+	// Deprecated classes
+	#include "deprecated.hpp"
 };

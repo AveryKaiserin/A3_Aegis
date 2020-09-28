@@ -25,8 +25,8 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_P_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_inf.paa";
-					GROUP_UNIT(0,TGuerrila,I_P_PoliceOfficer_Rifle_F,CORPORAL,0,0)
-					GROUP_UNIT(1,TGuerrila,I_P_PoliceOfficer_F,PRIVATE,5,-5)
+					GROUP_UNIT(0,TGuerrila,Police_I_P_PoliceOfficer_Rifle_F,CORPORAL,0,0)
+					GROUP_UNIT(1,TGuerrila,Police_I_P_PoliceOfficer_F,PRIVATE,5,-5)
 				};
             };
 			class SpecOps
@@ -38,10 +38,10 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_P_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_recon.paa";
-					GROUP_UNIT(0,TGuerrila,I_P_TacPoliceOfficer_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TGuerrila,I_P_TacPoliceOfficer_Sniper_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TGuerrila,I_P_TacPoliceOfficer_SG_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TGuerrila,I_P_TacPoliceOfficer_F,PRIVATE,10,-10)
+					GROUP_UNIT(0,TGuerrila,Police_I_P_TacPoliceOfficer_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TGuerrila,Police_I_P_TacPoliceOfficer_Sniper_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TGuerrila,Police_I_P_TacPoliceOfficer_SG_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TGuerrila,Police_I_P_TacPoliceOfficer_F,PRIVATE,10,-10)
 				};
             };
 			class Motorized
@@ -53,8 +53,8 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_P_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_motor_inf.paa";
-					GROUP_UNIT(0,TGuerrila,I_P_Offroad_01_police_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TGuerrila,I_P_PoliceOfficer_F,CORPORAL,5,-5)
+					GROUP_UNIT(0,TGuerrila,Police_I_P_Offroad_01_police_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TGuerrila,Police_I_P_PoliceOfficer_F,CORPORAL,5,-5)
 				};
             };
         };

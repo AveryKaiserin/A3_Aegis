@@ -1,4 +1,4 @@
-class I_P_UGV_02_Demining_F: UGV_02_Demining_Base_F
+class Police_I_P_UGV_02_Demining_F: UGV_02_Demining_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_UGV_02_Demining_F.jpg";
@@ -13,10 +13,10 @@ class I_P_UGV_02_Demining_F: UGV_02_Demining_Base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_P_UGV_02_Demining_backpack_F};
+		dissasembleTo[] = {Police_I_P_UGV_02_Demining_backpack_F};
 	};
 };
-class I_P_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
+class Police_I_P_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,6 +27,6 @@ class I_P_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
 	class assembleInfo: assembleInfo
 	{
 		displayName = $STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0;
-		assembleTo = I_P_UGV_02_Demining_F;
+		assembleTo = Police_I_P_UGV_02_Demining_F;
 	};
 };

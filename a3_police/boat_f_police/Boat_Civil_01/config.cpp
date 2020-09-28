@@ -12,7 +12,7 @@ class CfgVehicles
 		{
 			class Police
 			{
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
 	};
@@ -23,4 +23,6 @@ class CfgVehicles
 	};
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated classes
+	#include "deprecated.hpp"
 };

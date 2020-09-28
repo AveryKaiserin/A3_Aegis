@@ -13,10 +13,12 @@ class CfgVehicles
 				displayName = $STR_A3_TEXTURESOURCES_POLICE0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3_Police\Air_F_Police\Heli_Light_01\Data\Heli_Light_01_ext_police_CO.paa"};
-				factions[] = {IND_P_F};
+				factions[] = {Police_IND_P_F};
 			};
 		};
     };
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated classes
+	#include "deprecated.hpp"
 };

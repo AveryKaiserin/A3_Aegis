@@ -12,4 +12,6 @@ class CfgVehicles
 	class UGV_02_Demining_backpack_base_F: UGV_02_backpack_base_F{};
 	// Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+	// Deprecated Classes
+	#include "deprecated.hpp"
 };

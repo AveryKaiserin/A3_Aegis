@@ -10,14 +10,14 @@ class CfgPatches
 		units[] =
         {
             // Police
-            I_P_Helipilot_F,
-            I_P_PoliceOfficer_F,
-            I_P_PoliceOfficer_Rifle_F,
-            I_P_PoliceOfficer_SG_F,
-            I_P_TacPoliceOfficer_F,
-            I_P_TacPoliceOfficer_SG_F,
-            I_P_TacPoliceOfficer_Sniper_F,
-            I_P_TacPoliceOfficer_UGV_02_F
+            Police_I_P_Helipilot_F,
+            Police_I_P_PoliceOfficer_F,
+            Police_I_P_PoliceOfficer_Rifle_F,
+            Police_I_P_PoliceOfficer_SG_F,
+            Police_I_P_TacPoliceOfficer_F,
+            Police_I_P_TacPoliceOfficer_SG_F,
+            Police_I_P_TacPoliceOfficer_Sniper_F,
+            Police_I_P_TacPoliceOfficer_UGV_02_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
