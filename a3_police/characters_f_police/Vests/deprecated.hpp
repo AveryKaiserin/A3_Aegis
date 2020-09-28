@@ -1,1 +1,1 @@
-DEPRECATED_CLASS(V_CarrierRigKBT_01_light_POLICE_F,Police_V_CarrierRigKBT_01_light_POLICE_F)
+COMPATIBILITYCLASS(V_CarrierRigKBT_01_light_POLICE_F,Police_V_CarrierRigKBT_01_light_POLICE_F)

@@ -10,7 +10,7 @@ class Police_U_I_P_PoliceUniform_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Police_I_P_PoliceUniform_01_F;
+		uniformClass = I_P_PoliceUniform_01_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -27,7 +27,7 @@ class Police_U_I_P_PoliceUniform_gloves_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Police_I_P_PoliceUniform_01_gloves_F;
+		uniformClass = I_P_PoliceUniform_01_gloves_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

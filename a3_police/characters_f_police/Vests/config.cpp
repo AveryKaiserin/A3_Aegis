@@ -4,7 +4,9 @@
 class CfgWeapons
 {
 	// Arma 3 Enoch
+	class V_CarrierRigKBT_01_base_F;
 	class V_CarrierRigKBT_01_light_base_F;
+	class V_CarrierRigKBT_01_heavy_base_F;
 	// Arma 3 Police
 	class Police_V_CarrierRigKBT_01_light_POLICE_F: V_CarrierRigKBT_01_light_base_F
 	{

@@ -5,9 +5,9 @@ class Police_I_P_Van_02_transport_F: Van_02_transport_base_F
 	scope = protected;
 	scopeCurator = private;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
-	crew = Police_I_P_PoliceOfficer_F;
-	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
+	faction = IND_P_F;
+	crew = I_P_PoliceOfficer_F;
+	typicalCargo[] = {I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
 	animationList[] =
 	{
@@ -34,9 +34,9 @@ class Police_I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
 	scope = protected;
 	scopeCurator = private;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
-	crew = Police_I_P_PoliceOfficer_F;
-	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
+	faction = IND_P_F;
+	crew = I_P_PoliceOfficer_F;
+	typicalCargo[] = {I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
 	hiddenSelectionsTextures[] =
 	{

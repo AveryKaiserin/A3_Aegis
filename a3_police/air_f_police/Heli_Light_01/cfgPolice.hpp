@@ -136,7 +136,7 @@ class Police_I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 			verticalOffsetWorld = 0.004;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\Police_I_P_Heli_Light_01_police_F.jpg";
+	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Heli_Light_01_police_F.jpg";
 	scope = protected;
     scopeCurator = private; // del this line
 	side = TGuerrila;

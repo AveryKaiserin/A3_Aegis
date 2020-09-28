@@ -21,6 +21,6 @@ class CfgVehicles
 	// Arma 3 Police
 	VEST_HOLDER(Police_V_CarrierRigKBT_01_light_POLICE_F,$STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0)
 	// Deprecated Class
-	DEPRECATED_CLASS(Vest_V_CarrierRigKBT_01_light_POLICE_F,Vest_Police_V_CarrierRigKBT_01_light_POLICE_F)
+	COMPATIBILITYCLASS(V_CarrierRigKBT_01_light_POLICE_F,Police_V_CarrierRigKBT_01_light_POLICE_F)
 
 };

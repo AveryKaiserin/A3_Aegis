@@ -208,12 +208,6 @@ ItemCompass, \
 ItemWatch, \
 ItemRadio \
 
-#define DefaultManPoliceLinkedItems \
-ItemSmartPhone, \
-ItemMap, \
-ItemWatch, \
-ItemRadio \
-
 // thermal modes
 #define TiWHot 0
 #define TiBHot 1

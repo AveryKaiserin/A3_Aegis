@@ -1,11 +1,14 @@
 // Arma 3
 class I_soldier_F;
+class I_G_Soldier_LAT_F;
+// Arma 3 Enoch
+class I_E_Uniform_01_sweater_F;
 // Arma 3 Police
 class Police_I_P_Man_Base_F: I_soldier_F
 {
 	scope = private;
     scopeCurator = private;
-	faction = Aegis_IND_P_F;
+	faction = IND_P_F;
 	genericNames = EnochMen;
 	identityTypes[] =
 	{
@@ -34,6 +37,32 @@ class Police_I_P_Man_Base_F: I_soldier_F
 		};
 	};
 };
+class Police_I_P_PoliceUniform_01_F: I_E_Uniform_01_sweater_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = U_I_P_PoliceUniform_F;
+	hiddenSelections[] =
+	{
+		camo,
+		insignia
+	};
+	hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01_CO.paa"};
+	hiddenSelectionsMaterials[] = {"A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01.rvmat"};
+};
+class Police_I_P_PoliceUniform_01_gloves_F: I_G_Soldier_LAT_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = U_I_P_PoliceUniform_gloves_F;
+	hiddenSelections[] =
+	{
+		camo,
+		insignia
+	};
+	hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01_CO.paa"};
+	hiddenSelectionsMaterials[] = {"A3_Police\Characters_F_Police\Uniforms\Data\I_P_PoliceUniform_01.rvmat"};
+};
 class Police_I_P_PoliceOfficer_Base_F: Police_I_P_Man_Base_F
 {
     uniformClass = U_Marshal;
@@ -50,37 +79,37 @@ class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 		V_TacVest_blk_POLICE,
 		H_Cap_police,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
 		H_Cap_police,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
 		SMG_03C_black,
-		Aegis_hgun_G17_black_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		SMG_03C_black,
-		Aegis_hgun_G17_black_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_4(50Rnd_570x28_SMG_03),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
 		mag_4(50Rnd_570x28_SMG_03),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	role = Rifleman;
@@ -97,37 +126,37 @@ class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 		V_TacVest_blk_POLICE,
 		H_Beret_blk_POLICE,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
 		H_Beret_blk_POLICE,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		Atlas_arifle_G36C_F,
-		Aegis_hgun_G17_black_F,
+		arifle_G36C_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_G36C_F,
-		Aegis_hgun_G17_black_F,
+		arifle_G36C_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	cost = 100000;
@@ -145,39 +174,39 @@ class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 		V_TacVest_blk_POLICE,
 		H_Cap_police,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
 		H_Cap_police,
         G_WirelessEarpiece_F,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		Aegis_sgun_Mp153_classic_F,
-		Aegis_hgun_G17_black_F,
+		sgun_Mp153_classic_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Aegis_sgun_Mp153_classic_F,
-		Aegis_hgun_G17_black_F,
+		sgun_Mp153_classic_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-        mag_3(Aegis_4Rnd_12Gauge_Pellets),
-        mag_3(Aegis_4Rnd_12Gauge_Slug),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
-        mag_3(Aegis_4Rnd_12Gauge_Pellets),
-        mag_3(Aegis_4Rnd_12Gauge_Slug),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
     cost = 130000;
@@ -186,7 +215,7 @@ class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 };
 class Police_I_P_TacPoliceOfficer_Base_F: Police_I_P_PoliceOfficer_Base_F
 {
-    uniformClass = Police_U_I_P_PoliceUniform_gloves_F;
+    uniformClass = U_I_P_PoliceUniform_gloves_F;
 	vehicleClass = MenRecon;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
     icon = iconManRecon;
@@ -200,40 +229,40 @@ class Police_I_P_TacPoliceOfficer_F: Police_I_P_TacPoliceOfficer_Base_F
 	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_blk_F,
-		DefaultManPoliceLinkedItems
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_blk_F,
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_blk_F,
-		DefaultManPoliceLinkedItems
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_blk_F,
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
-		Aegis_hgun_G17_black_F,
+		arifle_G36C_Holo_FL_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
-		Aegis_hgun_G17_black_F,
+		arifle_G36C_Holo_FL_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	role = Rifleman;
@@ -245,45 +274,45 @@ class Police_I_P_TacPoliceOfficer_Sniper_F: Police_I_P_TacPoliceOfficer_Base_F
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Sniper_F0;
-	uniformClass = Police_U_I_P_PoliceUniform_F;
+	uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		Aegis_H_Cap_headphones_blk,
-        Aegis_G_Balaclava_light_blk_F,
-		DefaultManPoliceLinkedItems
+		H_Cap_headphones_blk,
+        G_Balaclava_light_blk_F,
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		Aegis_H_Cap_headphones_blk,
-        Aegis_G_Balaclava_light_blk_F,
-		DefaultManPoliceLinkedItems
+		H_Cap_headphones_blk,
+        G_Balaclava_light_blk_F,
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		Aegis_srifle_DMR_06_black_AMS_BI_F,
-		Aegis_hgun_G17_black_F,
+		srifle_DMR_06_black_AMS_BI_F,
+		hgun_G17_black_F,
 		DefaultManWeapons,
         Binocular
 	};
 	respawnWeapons[] =
 	{
-		Aegis_srifle_DMR_06_black_AMS_BI_F,
-		Aegis_hgun_G17_black_F,
+		srifle_DMR_06_black_AMS_BI_F,
+		hgun_G17_black_F,
 		DefaultManWeapons,
         Binocular
 	};
 	magazines[] =
 	{
 		mag_6(20Rnd_762x51_Mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
 		mag_6(20Rnd_762x51_Mag),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	role = Rifleman;
@@ -297,42 +326,42 @@ class Police_I_P_TacPoliceOfficer_SG_F: Police_I_P_TacPoliceOfficer_Base_F
 	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_G_blk_F,
-		DefaultManPoliceLinkedItems
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_G_blk_F,
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_G_blk_F,
-		DefaultManPoliceLinkedItems
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_G_blk_F,
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		Aegis_sgun_Mp153_black_F,
-		Aegis_hgun_G17_black_F,
+		sgun_Mp153_black_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Aegis_sgun_Mp153_black_F,
-		Aegis_hgun_G17_black_F,
+		sgun_Mp153_black_F,
+		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-        mag_3(Aegis_4Rnd_12Gauge_Pellets),
-        mag_3(Aegis_4Rnd_12Gauge_Slug),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
-        mag_3(Aegis_4Rnd_12Gauge_Pellets),
-        mag_3(Aegis_4Rnd_12Gauge_Slug),
-		mag_2(Aegis_17Rnd_9x21_Mag),
+        mag_3(4Rnd_12Gauge_Pellets),
+        mag_3(4Rnd_12Gauge_Slug),
+		mag_2(17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	role = Rifleman;
@@ -344,24 +373,24 @@ class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_ION_soldier_UGV_02_Demining_F0;
-	uniformClass = Police_U_I_P_PoliceUniform_F;
+	uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_blk_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_blk_F,
         I_UavTerminal,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
-        Aegis_G_Balaclava_light_blk_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
+        G_Balaclava_light_blk_F,
         I_UavTerminal,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
-    backpack = Police_I_P_UGV_02_Demining_backpack_F;
+    backpack = I_P_UGV_02_Demining_backpack_F;
 	weapons[] =
 	{
 		arifle_G36C_Holo_FL_F,
@@ -395,20 +424,20 @@ class Police_I_P_Helipilot_F: Police_I_P_PoliceOfficer_Base_F
 	scope = protected;
     scopeCurator = private;
 	displayName = $STR_B_Helipilot_F0;
-    uniformClass = Police_U_I_P_PoliceUniform_F;
+    uniformClass = U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		Aegis_H_Cap_headphones_blk,
+		H_Cap_headphones_blk,
 		G_Aviators,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		Aegis_H_Cap_headphones_blk,
+		H_Cap_headphones_blk,
 		G_Aviators,
-		DefaultManPoliceLinkedItems
+		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
