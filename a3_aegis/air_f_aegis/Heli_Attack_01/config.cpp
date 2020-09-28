@@ -70,18 +70,6 @@ class CfgVehicles
 					BLU_W_F
 				};
 			};
-			class BAF
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
-				author = $STR_A3_A_AveryTheKitty;
-			    textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_BAF_CO.paa"};
-				factions[] =
-				{
-                    Aegis_BLU_B_F,
-                    Aegis_BLU_B_tna_F,
-                    Aegis_BLU_B_wdl_F
-				};
-			};
 		};
 		textureList[] =
 		{
@@ -107,9 +95,7 @@ class CfgVehicles
 	class B_Heli_Attack_01_F: Heli_Attack_01_base_F{};
 	class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F{};
 	// Arma 3 Aegis
-	#include "cfgBlufor_Exp.hpp"    // US (Pacific)
-	#include "cfgBlufor_Enoch.hpp"  // US (Woodland)
-	#include "cfgBlufor_Aegis.hpp"  // BAF
-    // Deprecated classes
-    #include "deprecated.hpp"
+	#include "cfgBlufor_Exp.hpp"
+	#include "cfgBlufor_Enoch.hpp"
+	#include "cfgBlufor_Aegis.hpp"
 };

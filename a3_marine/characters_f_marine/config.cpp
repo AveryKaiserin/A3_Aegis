@@ -6,7 +6,7 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgUSMC.hpp"			// USMC
+	#include "cfgUSMC.hpp"
     #include "cfgUniforms.hpp"
 	// Deprecated classes
 	#include "deprecated.hpp"

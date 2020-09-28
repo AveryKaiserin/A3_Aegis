@@ -1,4 +1,4 @@
-class Aegis_O_Plane_Fighter_03_Cluster_F: Aegis_O_Plane_Fighter_03_dynamicLoadout_F
+class O_Plane_Fighter_03_Cluster_F: O_Plane_Fighter_03_dynamicLoadout_F
 {
 	scope = protected;
 	scopeCurator = public;
