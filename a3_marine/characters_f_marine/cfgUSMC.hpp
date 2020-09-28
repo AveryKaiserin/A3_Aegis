@@ -21,14 +21,14 @@ class Marine_B_USMC_Soldier_A_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -72,14 +72,14 @@ class Marine_B_USMC_Soldier_AR_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_tshirt_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -136,15 +136,15 @@ class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
 	};
@@ -193,14 +193,14 @@ class Marine_B_USMC_engineer_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -254,14 +254,14 @@ class Marine_B_USMC_Soldier_GL_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -320,14 +320,14 @@ class Marine_B_USMC_soldier_M_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -384,14 +384,14 @@ class Marine_B_USMC_soldier_AA_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -453,14 +453,14 @@ class Marine_B_USMC_soldier_AT_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -528,14 +528,14 @@ class Marine_B_USMC_officer_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
+		V_Rangemaster_belt_khk,
 		Marine_H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
+		V_Rangemaster_belt_khk,
 		Marine_H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -581,15 +581,15 @@ class Marine_B_USMC_Soldier_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -643,14 +643,14 @@ class Marine_B_USMC_Soldier_LAT_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light_desert,
         DefaultManLinkedItems,
         NVGoggles
@@ -701,16 +701,16 @@ class Marine_B_USMC_Soldier_SL_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light_desert,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -764,16 +764,16 @@ class Marine_B_USMC_Soldier_TL_F: Marine_B_USMC_Soldier_Base_F
 	uniformClass = Marine_U_B_MCU_vest_desert_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light_desert,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light_desert,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles
@@ -828,19 +828,19 @@ class Marine_B_USMC_RadioOperator_F: Marine_B_USMC_Soldier_F
 	uniformClass = Marine_U_B_MCU_vest_desert_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
-	backpack = Aegis_B_RadioBag_01_coyote_F;
+	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
 		arifle_MX_Holo_pointer_F,
@@ -882,14 +882,14 @@ class Marine_B_USMC_Soldier_A_wdl_F: Marine_B_USMC_Soldier_A_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -936,14 +936,14 @@ class Marine_B_USMC_Soldier_AR_wdl_F: Marine_B_USMC_Soldier_AR_F
 	uniformClass = Marine_U_B_MCU_tshirt_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -989,15 +989,15 @@ class Marine_B_USMC_medic_wdl_F: Marine_B_USMC_medic_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
@@ -1044,14 +1044,14 @@ class Marine_B_USMC_engineer_wdl_F: Marine_B_USMC_engineer_F
 	uniformClass = Marine_U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1099,14 +1099,14 @@ class Marine_B_USMC_Soldier_GL_wdl_F: Marine_B_USMC_Soldier_GL_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1156,14 +1156,14 @@ class Marine_B_USMC_soldier_M_wdl_F: Marine_B_USMC_soldier_M_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1211,14 +1211,14 @@ class Marine_B_USMC_soldier_AA_wdl_F: Marine_B_USMC_soldier_AA_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1268,14 +1268,14 @@ class Marine_B_USMC_soldier_AT_wdl_F: Marine_B_USMC_soldier_AT_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1319,14 +1319,14 @@ class Marine_B_USMC_officer_wdl_F: Marine_B_USMC_officer_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
+		V_Rangemaster_belt_khk,
 		Marine_H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_Rangemaster_belt_khk,
+		V_Rangemaster_belt_khk,
 		Marine_H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -1372,15 +1372,15 @@ class Marine_B_USMC_Soldier_wdl_F: Marine_B_USMC_Soldier_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1425,14 +1425,14 @@ class Marine_B_USMC_Soldier_LAT_wdl_F: Marine_B_USMC_Soldier_LAT_F
 	uniformClass = Marine_U_B_MCU_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier2_khk,
+		V_PlateCarrier2_khk,
 		H_HelmetB_light,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1482,16 +1482,16 @@ class Marine_B_USMC_Soldier_SL_wdl_F: Marine_B_USMC_Soldier_SL_F
 	uniformClass = Marine_U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier2_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier2_khk,
+		H_HelmetSpecB_light,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1545,16 +1545,16 @@ class Marine_B_USMC_Soldier_TL_wdl_F: Marine_B_USMC_Soldier_TL_F
 	uniformClass = Marine_U_B_MCU_vest_wdl_F;
     linkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-		Aegis_V_PlateCarrier1_khk,
-		Aegis_H_HelmetSpecB_light,
+		V_PlateCarrier1_khk,
+		H_HelmetSpecB_light,
         ItemGPS,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1606,19 +1606,19 @@ class Marine_B_USMC_RadioOperator_wdl_F: Marine_B_USMC_Soldier_wdl_F
 	uniformClass = Marine_U_B_MCU_vest_wdl_F;
 	linkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Aegis_V_PlateCarrier1_khk,
+		V_PlateCarrier1_khk,
 		H_HelmetB_light,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = Aegis_B_RadioBag_01_coyote_F;
+	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
 		arifle_MX_Black_Holo_Pointer_F,
