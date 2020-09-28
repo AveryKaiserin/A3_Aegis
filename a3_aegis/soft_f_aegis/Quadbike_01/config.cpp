@@ -95,6 +95,6 @@ class CfgVehicles
 	#include "cfgBlufor_Enoch.hpp"
 	#include "cfgSpetsnaz.hpp"
 	#include "cfgBlufor_Aegis.hpp"
-    // Deprecated classes
-    #include "deprecated.hpp"
+    // compatibility classes
+    #include "compatibility.hpp"
 };
