@@ -35,14 +35,6 @@ class CfgMusic
 	{
 		musicClass = Stealth;
 	};
-	class AmbientTrack04b_F
-	{
-		name = $STR_A3_A_CfgMusic_AmbientTrack04b_F;
-		sound[] = {"\A3_Aegis\Music_F_Aegis\Music\AmbientTrack04b_F.ogg",1,1};
-		duration = 218;
-		theme = stealth;
-		musicClass = Stealth;
-	};
 	class BackgroundTrack03_F
 	{
 		musicClass = Action;
@@ -74,13 +66,6 @@ class CfgMusic
 	class LeadTrack03a_F_EPA
 	{
 		musicClass = Action;
-	};
-	class LeadTrack04_F_EPA
-	{
-		name = $STR_A3_A_CfgMusic_LeadTrack04_F_EPA;
-		sound[] = {"\A3_Aegis\Music_F_Aegis\Music\LeadTrack04_F_EPA.ogg",1,1};
-		duration = 161;
-		musicClass = Calm;
 	};
 	class EventTrack01_F_EPA
 	{
@@ -163,7 +148,22 @@ class CfgMusic
 	{
 		musicClass = Stealth;
 	};
-	// Arma 3 Apex
+	// Arma 3 Aegis
+	class AmbientTrack04b_F
+	{
+		name = $STR_A3_A_CfgMusic_AmbientTrack04b_F;
+		sound[] = {"\A3_Aegis\Music_F_Aegis\Music\AmbientTrack04b_F.ogg",1,1};
+		duration = 218;
+		theme = stealth;
+		musicClass = Stealth;
+	};
+	class LeadTrack04_F_EPA
+	{
+		name = $STR_A3_A_CfgMusic_LeadTrack04_F_EPA;
+		sound[] = {"\A3_Aegis\Music_F_Aegis\Music\LeadTrack04_F_EPA.ogg",1,1};
+		duration = 161;
+		musicClass = Calm;
+	};
 	class LeadTrack02a_F_EXP
 	{
 		name = $STR_A3_A_CfgMusic_LeadTrack02a_F_EXP;
@@ -192,7 +192,6 @@ class CfgMusic
 		duration = 40;
 		musicClass = Calm;
 	};
-	// Arma 3 Jets
 	class LeadTrack01a_F_Jets
 	{
 		name = $STR_A3_A_CfgMusic_LeadTrack01a_F_Jets;
@@ -207,7 +206,6 @@ class CfgMusic
 		duration = 113;
 		musicClass = Lead;
 	};
-	// Arma 3 Malden
 	class LeadTrack03_F_Malden
 	{
 		name = $STR_A3_A_CfgMusic_LeadTrack03_F_Malden;
@@ -215,7 +213,6 @@ class CfgMusic
 		duration = 138;
 		musicClass = Lead;
 	};
-	// Arma 3 Laws of War
 	class LeadTrack02_F_Orange
 	{
 		name = $STR_A3_A_CfgMusic_LeadTrack02_F_Orange;
