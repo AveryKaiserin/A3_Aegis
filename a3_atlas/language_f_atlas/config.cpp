@@ -5,33 +5,33 @@ class CfgHints
 	class WeaponList
 	{
         /*
-		class Atlas_arifle_AUG
+		class arifle_AUG
 		{
 			displayName = %11;
 			description = %12;
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_Atlas_arifle_AUG_F0},
-				{STR_A3_A_CfgWeapons_Atlas_arifle_AUG_base_F_Library0}
+				{STR_A3_A_CfgWeapons_arifle_AUG_F0},
+				{STR_A3_A_CfgWeapons_arifle_AUG_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = Atlas_arifle_AUG_F;
+			weapon = arifle_AUG_F;
 			logicalOrder = 45;
 		};
         */
-		class Atlas_arifle_G36
+		class arifle_G36
 		{
 			displayName = %11;
 			description = %12;
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_Atlas_arifle_G36_F0},
-				{STR_A3_A_CfgWeapons_Atlas_arifle_G36_base_F_Library0}
+				{STR_A3_A_CfgWeapons_arifle_G36_F0},
+				{STR_A3_A_CfgWeapons_arifle_G36_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = Atlas_arifle_G36_F;
+			weapon = arifle_G36_F;
 			logicalOrder = 45;
 		};
 	};

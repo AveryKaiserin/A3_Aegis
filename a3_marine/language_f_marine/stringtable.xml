@@ -362,24 +362,7 @@
 			</Container>
 		</Container>
 		<Container name="UI_F">
-			<Key ID="STR_A3_M_CfgUnitInsignia_Marine_27thMEU0">
-				<Original>27th Marine Expeditionary Unit</Original>
-				<Chinese>27th Marine Expeditionary Unit</Chinese>
-				<French>27th Marine Expeditionary Unit</French>
-				<Spanish>27th Marine Expeditionary Unit</Spanish>
-				<Italian>27th Marine Expeditionary Unit</Italian>
-				<Polish>27th Marine Expeditionary Unit</Polish>
-				<Russian>27th Marine Expeditionary Unit</Russian>
-				<German>27th Marine Expeditionary Unit</German>
-				<Czech>27th Marine Expeditionary Unit</Czech>
-				<English>27th Marine Expeditionary Unit</English>
-				<Portuguese>27th Marine Expeditionary Unit</Portuguese>
-				<Korean>27th Marine Expeditionary Unit</Korean>
-				<Chinesesimp>27th Marine Expeditionary Unit</Chinesesimp>
-				<Japanese>27th Marine Expeditionary Unit</Japanese>
-				<Turkish>27th Marine Expeditionary Unit</Turkish>
-			</Key>
-			<Key ID="STR_A3_M_CfgMarkers_Marine_flag_USMC">
+			<Key ID="STR_A3_M_CfgMarkers_flag_USMC">
 				<Original>USMC</Original>
 				<Chinese>USMC</Chinese>
 				<French>USMC</French>
