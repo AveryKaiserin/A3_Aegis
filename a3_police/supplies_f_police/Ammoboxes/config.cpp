@@ -6,4 +6,6 @@ class CfgVehicles
 	class ReammoBox_F;
     // Arma 3 Police
 	#include "cfgPolice.hpp"			// Police
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

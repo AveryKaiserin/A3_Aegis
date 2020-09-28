@@ -20,7 +20,7 @@ class CfgVehicles
 	class Item_Base_F;
 	UNIFORM_HOLDER(Police_U_I_P_PoliceUniform_F,$STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_F0)
 	UNIFORM_HOLDER(Police_U_I_P_PoliceUniform_gloves_F,$STR_A3_P_CfgWeapons_U_I_P_PoliceUniform_gloves_F0)
-	// Compatability Classes
-	COMPATIBILITYCLASS(U_I_P_PoliceUniform_F,Police_U_I_P_PoliceUniform_F)
-	COMPATIBILITYCLASS(U_I_P_PoliceUniform_gloves_F,Police_U_I_P_PoliceUniform_gloves_F)
+	// Deprecated classes
+	DEPRECATED_CLASS(Item_U_I_P_PoliceUniform_F,Item_Police_U_I_P_PoliceUniform_F)
+	DEPRECATED_CLASS(Item_U_I_P_PoliceUniform_gloves_F,Item_Police_U_I_P_PoliceUniform_gloves_F)
 };

@@ -5,7 +5,7 @@ class Police_I_P_UGV_02_Demining_F: UGV_02_Demining_Base_F
 	scope = public;
 	displayName = $STR_A3_C_CfgVehicles_C_IDAP_UGV_02_Demining_F0;
 	side = TGuerrila;
-	faction = IND_P_F;
+	faction = Police_IND_P_F;
 	crew = I_UAV_AI;
 	class assembleInfo
 	{
@@ -21,12 +21,12 @@ class Police_I_P_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F0;
-	faction = IND_P_F;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F0;
+	faction = Police_IND_P_F;
 	picture = "\A3\Supplies_F_Enoch\Bags\Data\UI\icon_I_UGV_02_demining_CA.paa";
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0;
+		displayName = $STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F_assembleInfo0;
 		assembleTo = Police_I_P_UGV_02_Demining_F;
 	};
 };
