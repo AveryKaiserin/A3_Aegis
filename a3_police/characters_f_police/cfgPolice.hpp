@@ -364,26 +364,26 @@ class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
     backpack = Police_I_P_UGV_02_Demining_backpack_F;
 	weapons[] =
 	{
-		arifle_G36C_Holo_FL_F,
-		hgun_G17_black_F,
+		Atlas_arifle_G36C_Holo_FL_F,
+		Aegis_hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_FL_F,
-		hgun_G17_black_F,
+		Atlas_arifle_G36C_Holo_FL_F,
+		Aegis_hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(Aegis_17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(17Rnd_9x21_Mag),
+		mag_2(Aegis_17Rnd_9x21_Mag),
         mag_2(Chemlight_blue)
 	};
 	role = Rifleman;
