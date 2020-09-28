@@ -10,11 +10,11 @@ class CfgVehicles
 	{
 		class EventHandlers;
 	};
-	class Aegis_Cow_random_F: Animal_Base_F
+	class Cow_random_F: Animal_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = protected;
-		displayName = $STR_A3_A_CfgVehicles_Aegis_Cow_random_F0;
+		displayName = $STR_A3_A_CfgVehicles_Cow_random_F0;
 		model = "\A3_Aegis\Animals_F_Aegis\Cow\Cow_F.p3d";
 		hasGeometry = true;
 		moves = CfgMovesCow_F;

@@ -20,7 +20,7 @@ class Police_Box_POLICE_Equip_F: Box_NATO_Equip_F
 		"\A3_Police\Supplies_F_Police\Ammoboxes\Data\equipment_box_POLICE_CO.paa",
 		"\A3_Police\Supplies_F_Police\Ammoboxes\Data\equipment_box_POLICE_CA.paa"
 	};
-	editorSubcategory = Police_EdSubcat_Ammo_Police;
+	editorSubcategory = EdSubcat_Ammo_Police;
 	class TransportMagazines
 	{
 		mag_xx(50Rnd_570x28_SMG_03,18);
