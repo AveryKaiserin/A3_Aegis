@@ -7,7 +7,7 @@
 
 if !(local _this) exitWith {};
 
-if (_this isKindOf "Cow_random_F") exitWith
+if (_this isKindOf "Aegis_Cow_random_F") exitWith
 {
 	_textureList =
 	[

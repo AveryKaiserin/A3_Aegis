@@ -1,107 +1,107 @@
 class CfgEditorSubcategories
 {
-	class EdSubcat_Laboratory
+	class Aegis_EdSubcat_Laboratory
 	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Laboratory0;
+		displayName = $STR_A3_A_CfgEditorSubcategories_Aegis_EdSubcat_Laboratory0;
 	};
-	class EdSubcat_TankDestroyers
+	class Aegis_EdSubcat_TankDestroyers
 	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_TankDestroyers0;
+		displayName = $STR_A3_A_CfgEditorSubcategories_Aegis_EdSubcat_TankDestroyers0;
 	};
-	class EdSubcat_GrenadeLaunchers
+	class Aegis_EdSubcat_GrenadeLaunchers
 	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_GrenadeLaunchers0;
+		displayName = $STR_A3_A_CfgEditorSubcategories_Aegis_EdSubcat_GrenadeLaunchers0;
 	};
-	class EdSubcat_Shotguns
+	class Aegis_EdSubcat_Shotguns
 	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Shotguns0;
+		displayName = $STR_A3_A_CfgEditorSubcategories_Aegis_EdSubcat_Shotguns0;
 	};
     // Ammo boxes' subcategories
-	class EdSubcat_Ammo_NATO
+	class Aegis_EdSubcat_Ammo_NATO
 	{
 		displayName = "Ammo (NATO)";
 	};
-	class EdSubcat_Ammo_AAF
+	class Aegis_EdSubcat_Ammo_AAF
 	{
 		displayName = "Ammo (AAF)";
 	};
-	class EdSubcat_Ammo_FIA
+	class Aegis_EdSubcat_Ammo_FIA
 	{
 		displayName = "Ammo (FIA)";
 	};
-	class EdSubcat_Ammo_CSAT
+	class Aegis_EdSubcat_Ammo_CSAT
 	{
 		displayName = "Ammo (CSAT)";
 	};
-	class EdSubcat_Ammo_Syndicate
+	class Aegis_EdSubcat_Ammo_Syndicate
 	{
 		displayName = "Ammo (Syndikat)";
 	};
-	class EdSubcat_Ammo_NATO_Pacific
+	class Aegis_EdSubcat_Ammo_NATO_Pacific
 	{
 		displayName = "Ammo (NATO Pacific)";
 	};
-	class EdSubcat_Ammo_CSAT_Pacific
+	class Aegis_EdSubcat_Ammo_CSAT_Pacific
 	{
 		displayName = "Ammo (CSAT Pacific)";
 	};
-	class EdSubcat_Ammo_CTRG
+	class Aegis_EdSubcat_Ammo_CTRG
 	{
 		displayName = "Ammo (CTRG)";
 	};
-	class EdSubcat_Ammo_CTRG_Pacific
+	class Aegis_EdSubcat_Ammo_CTRG_Pacific
 	{
 		displayName = "Ammo (CTRG Pacific)";
 	};
-	class EdSubcat_Ammo_Viper
+	class Aegis_EdSubcat_Ammo_Viper
 	{
 		displayName = "Ammo (Viper)";
 	};
-	class EdSubcat_Ammo_Viper_Pacific
+	class Aegis_EdSubcat_Ammo_Viper_Pacific
 	{
 		displayName = "Ammo (Viper Pacific)";
 	};
-	class EdSubcat_Ammo_Gendarmerie
+	class Aegis_EdSubcat_Ammo_Gendarmerie
 	{
 		displayName = "Ammo (Gendarmerie)";
 	};
-	class EdSubcat_Ammo_IDAP
+	class Aegis_EdSubcat_Ammo_IDAP
 	{
 		displayName = "Ammo (IDAP)";
 	};
-	class EdSubcat_Ammo_CSAT_African
+	class Aegis_EdSubcat_Ammo_CSAT_African
 	{
 		displayName = "Ammo (CSAT African)";
 	};
-	class EdSubcat_Ammo_NATO_Woodland
+	class Aegis_EdSubcat_Ammo_NATO_Woodland
 	{
 		displayName = "Ammo (NATO Woodland)";
 	};
-	class EdSubcat_Ammo_Spetsnaz
+	class Aegis_EdSubcat_Ammo_Spetsnaz
 	{
 		displayName = "Ammo (Russia)";
 	};
-	class EdSubcat_Ammo_Spetsnaz_Arid
+	class Aegis_EdSubcat_Ammo_Spetsnaz_Arid
 	{
 		displayName = "Ammo (Russia Arid)";
 	};
-	class EdSubcat_Ammo_EAF
+	class Aegis_EdSubcat_Ammo_EAF
 	{
 		displayName = "Ammo (LDF)";
 	};
-	class EdSubcat_Ammo_NATO_British
+	class Aegis_EdSubcat_Ammo_NATO_British
 	{
 		displayName = "Ammo (NATO British)";
 	};
-	class EdSubcat_Ammo_NATO_Pacific_British
+	class Aegis_EdSubcat_Ammo_NATO_Pacific_British
 	{
 		displayName = "Ammo (NATO Pacific British)";
 	};
-	class EdSubcat_Ammo_NATO_Woodland_British
+	class Aegis_EdSubcat_Ammo_NATO_Woodland_British
 	{
 		displayName = "Ammo (NATO Woodland British)";
 	};
-	class EdSubcat_Ammo_ION
+	class Aegis_EdSubcat_Ammo_ION
 	{
 		displayName = "Ammo (ION)";
 	};

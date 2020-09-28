@@ -5,66 +5,66 @@ class CfgMovesBasic
 	class Default;
 	class ManActions
 	{
-		GestureReloadWF50 = "";
+		Aegis_GestureReloadWF50 = "";
 	};
 	class Actions
 	{
 		class NoActions: ManActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50,
+				Aegis_GestureReloadWF50,
 				Gesture
 			};
 		};
 		class RifleBaseStandActions;
 		class RifleProneActions: RifleBaseStandActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Prone,
+				Aegis_GestureReloadWF50Prone,
 				Gesture
 			};
 		};
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Context,
+				Aegis_GestureReloadWF50Context,
 				Gesture
 			};
 		};
 		class RifleAdjustLProneActions: RifleAdjustProneBaseActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Context,
+				Aegis_GestureReloadWF50Context,
 				Gesture
 			};
 		};
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Context,
+				Aegis_GestureReloadWF50Context,
 				Gesture
 			};
 		};
 		class PistolStandActions;
 		class PistolProneActions: PistolStandActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Prone,
+				Aegis_GestureReloadWF50Prone,
 				Gesture
 			};
 		};
 		class DeployedProneActions: RifleProneActions
 		{
-			GestureReloadWF50[] =
+			Aegis_GestureReloadWF50[] =
 			{
-				GestureReloadWF50Prone,
+				Aegis_GestureReloadWF50Prone,
 				Gesture
 			};
 		};
@@ -76,7 +76,7 @@ class CfgGesturesMale
 	class States
 	{
 		class GestureReloadBase;
-		class GestureReloadWF50: GestureReloadBase
+		class Aegis_GestureReloadWF50: GestureReloadBase
 		{
 			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureReloadWF50.rtm";
 			speed = 0.23;
@@ -92,7 +92,7 @@ class CfgGesturesMale
 				0.88,true
 			};
 		};
-		class GestureReloadWF50Prone: GestureReloadWF50
+		class Aegis_GestureReloadWF50Prone: Aegis_GestureReloadWF50
 		{
 			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureReloadWF50Prone.rtm";
 			leftHandIKCurve[] =
@@ -103,15 +103,15 @@ class CfgGesturesMale
 				0.84,true
 			};
 		};
-		class GestureReloadWF50Context: GestureReloadWF50
+		class Aegis_GestureReloadWF50Context: Aegis_GestureReloadWF50
 		{
 			mask = handsWeapon_context;
 		};
-		class GestureReloadWF50ContextAnimDrive: GestureReloadWF50
+		class Aegis_GestureReloadWF50ContextAnimDrive: Aegis_GestureReloadWF50
 		{
 			mask = handsWeapon_contextAnimDrive;
 		};
-		class GestureFireWF50: GestureReloadBase
+		class Aegis_GestureFireWF50: GestureReloadBase
 		{
 			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureFireWF50.rtm";
 			speed = -2.33;
@@ -123,15 +123,15 @@ class CfgGesturesMale
 				1,true
 			};
 		};
-		class GestureFireWF50Context: GestureFireWF50
+		class Aegis_GestureFireWF50Context: Aegis_GestureFireWF50
 		{
 			mask = handsWeapon_context;
 		};
-		class GestureFireWF50ContextAnimDrive: GestureFireWF50
+		class Aegis_GestureFireWF50ContextAnimDrive: Aegis_GestureFireWF50
 		{
 			mask = handsWeapon_contextAnimDrive;
 		};
-		class GestureFireWF50Prone: GestureFireWF50
+		class Aegis_GestureFireWF50Prone: Aegis_GestureFireWF50
 		{
 			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureFireWF50Prone.rtm";
 		};
