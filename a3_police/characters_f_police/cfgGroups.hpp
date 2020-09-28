@@ -15,7 +15,7 @@ class CfgGroups
 		side = TGuerrila;
 		class Police
 		{
-			name = $STR_A3_P_CfgFactionClasses_IND_P_F0;
+			name = $STR_A3_P_CfgFactionClasses_Police_IND_P_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;

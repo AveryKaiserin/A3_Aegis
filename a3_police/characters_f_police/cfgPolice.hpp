@@ -5,7 +5,7 @@ class Police_I_P_Man_Base_F: I_soldier_F
 {
 	scope = private;
     scopeCurator = private;
-	faction = Aegis_IND_P_F;
+	faction = Police_IND_P_F;
 	genericNames = EnochMen;
 	identityTypes[] =
 	{
@@ -44,7 +44,7 @@ class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_F0;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -91,7 +91,7 @@ class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_Rifle_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_Rifle_F0;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_Rifle_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -139,7 +139,7 @@ class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_SG_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_SG_F0;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_SG_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -197,7 +197,7 @@ class Police_I_P_TacPoliceOfficer_F: Police_I_P_TacPoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_F0;
 	linkedItems[] =
 	{
 		Police_V_CarrierRigKBT_01_light_POLICE_F,
@@ -294,7 +294,7 @@ class Police_I_P_TacPoliceOfficer_SG_F: Police_I_P_TacPoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0;
+	displayName = $STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_SG_F0;
 	linkedItems[] =
 	{
 		Police_V_CarrierRigKBT_01_light_POLICE_F,
