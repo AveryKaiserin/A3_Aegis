@@ -37,7 +37,5 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Aegis
-	#include "cfgOpfor.hpp"         // IAF
-    // Deprecated classes
-    #include "deprecated.hpp"
+	#include "cfgOpfor.hpp"
 };

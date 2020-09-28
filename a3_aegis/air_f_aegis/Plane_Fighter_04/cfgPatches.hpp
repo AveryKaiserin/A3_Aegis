@@ -12,8 +12,8 @@ class CfgPatches
 		units[] =
         {
             // LDF
-            Aegis_I_Ejection_Seat_Plane_Fighter_04_F,
-            Aegis_I_E_Plane_Fighter_04_F
+            I_Ejection_Seat_Plane_Fighter_04_F,
+            I_E_Plane_Fighter_04_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
