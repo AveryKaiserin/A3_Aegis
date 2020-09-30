@@ -19,3 +19,4 @@ class CfgVehicles
     */
 };
 #include "cfgGroups.hpp"
+#include "deprecated.hpp"

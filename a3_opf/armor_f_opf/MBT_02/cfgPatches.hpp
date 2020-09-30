@@ -12,7 +12,7 @@
 		units[] =
         {
             // Separatists
-            O_E_MBT_02_cannon_F
+            Opf_O_S_MBT_02_cannon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,11 +1,11 @@
-class I_T_HMG_02_F: HMG_02_base_F
+class Opf_I_I_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_HMG_02_F.jpg";
 	scope = public;
 	side = TGuerrila;
-	faction = IND_T_F;
-	crew = I_T_Soldier_1_F;
+	faction = Opf_IND_I_F;
+	crew = Opf_I_I_Soldier_1_F;
 	class assembleInfo
 	{
 		primary = 0;
@@ -37,14 +37,14 @@ class I_T_HMG_02_F: HMG_02_base_F
 		};
 	};
 };
-class I_T_HMG_02_high_F: HMG_02_high_base_F
+class Opf_I_I_HMG_02_high_F: HMG_02_high_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_HMG_02_high_F.jpg";
 	scope = public;
 	side = TGuerrila;
-	faction = IND_T_F;
-	crew = I_T_Soldier_1_F;
+	faction = Opf_IND_I_F;
+	crew = Opf_I_I_Soldier_1_F;
 	class assembleInfo
 	{
 		primary = 0;

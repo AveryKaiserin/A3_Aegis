@@ -1,4 +1,4 @@
-class O_E_MBT_02_cannon_F: O_MBT_02_cannon_F
+class Opf_O_S_MBT_02_cannon_F: O_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -175,13 +175,13 @@ class O_E_MBT_02_cannon_F: O_MBT_02_cannon_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_E_F;
-	crew = O_E_Crew_F;
+	faction = Opf_OPF_S_F;
+	crew = Opf_O_S_Crew_F;
 	typicalCargo[] =
 	{
-		O_E_Soldier_1_F,
-		O_E_Soldier_1_F,
-		O_E_Soldier_1_F
+		Opf_O_S_Soldier_1_F,
+		Opf_O_S_Soldier_1_F,
+		Opf_O_S_Soldier_1_F
 	};
 	textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =

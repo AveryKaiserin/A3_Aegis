@@ -12,8 +12,8 @@ class CfgPatches
 		units[] =
         {
             // Russia
-            I_R_Heli_Light_02_dynamicLoadout_F,
-            I_R_Heli_Light_02_unarmed_F
+            Opf_I_R_Heli_Light_02_dynamicLoadout_F,
+            Opf_I_R_Heli_Light_02_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -6,4 +6,6 @@ class CfgVehicles
 	class O_APC_Tracked_02_cannon_F;
 	// Arma 3 Opposing Forces
 	#include "cfgChKDZ.hpp"				// Separatists
+	// Deprecated Classes
+	#include "deprecated.hpp"
 };

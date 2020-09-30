@@ -1,13 +1,13 @@
-class I_M_Offroad_01_F: I_G_Offroad_01_F
+class Opf_I_P_Offroad_01_F: I_G_Offroad_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Offroad_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_M_F;
-	crew = I_M_Soldier_1_F;
-	typicalCargo[] = {I_M_Soldier_1_F};
+	faction = Opf_IND_P_F;
+	crew = Opf_I_P_Soldier_1_F;
+	typicalCargo[] = {Opf_I_P_Soldier_1_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -15,16 +15,16 @@ class I_M_Offroad_01_F: I_G_Offroad_01_F
 		"\A3\Soft_F_Enoch\Offroad_01\Data\Offroad_01_ext_blk_CO.paa"
 	};
 };
-class I_M_Offroad_01_armed_F: I_G_Offroad_01_armed_F
+class Opf_I_P_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Offroad_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_M_F;
-	crew = I_M_Soldier_1_F;
-	typicalCargo[] = {I_M_Soldier_1_F};
+	faction = Opf_IND_P_F;
+	crew = Opf_I_P_Soldier_1_F;
+	typicalCargo[] = {Opf_I_P_Soldier_1_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -43,7 +43,7 @@ class I_M_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 		};
 	};
 };
-class I_M_Offroad_01_covered_F: Offroad_01_military_covered_base_F
+class Opf_I_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_M_Offroad_01_covered_F.jpg";
@@ -51,9 +51,9 @@ class I_M_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 	scopeCurator = public;
 	accuracy = 1.25;
 	side = TGuerrila;
-	faction = IND_M_F;
-	crew = I_M_Soldier_1_F;
-	typicalCargo[] = {I_M_Soldier_1_F};
+	faction = Opf_IND_P_F;
+	crew = Opf_I_P_Soldier_1_F;
+	typicalCargo[] = {Opf_I_P_Soldier_1_F};
 	animationList[] =
 	{
 		HideRoofRack,1,

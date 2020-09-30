@@ -1,0 +1,9 @@
+// Paramilitary
+DEPRECATED_CLASS(O_P_Truck_02_cargo_F,Opf_O_P_Truck_02_cargo_F)
+DEPRECATED_CLASS(O_P_Truck_02_F,Opf_O_P_Truck_02_F)
+DEPRECATED_CLASS(O_P_Truck_02_transport_F,Opf_O_P_Truck_02_transport_F)
+
+// Separatists
+DEPRECATED_CLASS(O_E_Truck_02_cargo_F,Opf_O_S_Truck_02_cargo_F)
+DEPRECATED_CLASS(O_E_Truck_02_F,Opf_O_S_Truck_02_F)
+DEPRECATED_CLASS(O_E_Truck_02_transport_F,Opf_O_S_Truck_02_transport_F)

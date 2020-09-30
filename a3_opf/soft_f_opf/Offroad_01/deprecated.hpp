@@ -1,0 +1,21 @@
+// Paramilitary
+DEPRECATED_CLASS(O_P_Offroad_01_armed_F,Opf_O_P_Offroad_01_armed_F)
+DEPRECATED_CLASS(O_P_Offroad_01_AT_F,Opf_O_P_Offroad_01_AT_F)
+DEPRECATED_CLASS(O_P_Offroad_01_comms_F,Opf_O_P_Offroad_01_comms_F)
+DEPRECATED_CLASS(O_P_Offroad_01_covered_F,Opf_O_P_Offroad_01_covered_F)
+DEPRECATED_CLASS(O_P_Offroad_01_F,Opf_O_P_Offroad_01_F)
+
+// Separatists
+DEPRECATED_CLASS(O_E_Offroad_01_armed_F,Opf_O_S_Offroad_01_armed_F)
+DEPRECATED_CLASS(O_E_Offroad_01_at_F,Opf_O_S_Offroad_01_at_F)
+DEPRECATED_CLASS(O_E_Offroad_01_F,Opf_O_S_Offroad_01_F)
+
+// Insurgents
+DEPRECATED_CLASS(I_T_Offroad_01_armed_F,Opf_I_I_Offroad_01_armed_F)
+DEPRECATED_CLASS(I_T_Offroad_01_at_F,Opf_I_I_Offroad_01_at_F)
+DEPRECATED_CLASS(I_T_Offroad_01_F,Opf_I_I_Offroad_01_F)
+
+// Patriots
+DEPRECATED_CLASS(I_M_Offroad_01_armed_F,Opf_I_P_Offroad_01_armed_F)
+DEPRECATED_CLASS(I_M_Offroad_01_at_F,Opf_I_P_Offroad_01_at_F)
+DEPRECATED_CLASS(I_M_Offroad_01_F,Opf_I_P_Offroad_01_F)

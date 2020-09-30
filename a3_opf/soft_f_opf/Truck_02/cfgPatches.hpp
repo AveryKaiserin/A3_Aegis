@@ -8,14 +8,14 @@ class CfgPatches
 		units[] =
         {
             // Paramilitary
-            O_P_Truck_02_cargo_F,
-            O_P_Truck_02_F,
-            O_P_Truck_02_transport_F,
+            Opf_O_P_Truck_02_cargo_F,
+            Opf_O_P_Truck_02_F,
+            Opf_O_P_Truck_02_transport_F,
 
             // Separatists
-            O_E_Truck_02_cargo_F,
-            O_E_Truck_02_F,
-            O_E_Truck_02_transport_F
+            Opf_O_S_Truck_02_cargo_F,
+            Opf_O_S_Truck_02_F,
+            Opf_O_S_Truck_02_transport_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

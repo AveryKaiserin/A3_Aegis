@@ -34,4 +34,6 @@ class CfgVehicles
     /*
 	#include "cfgMilitia.hpp"           // Patriots
     */
+    // Deprecated... CLASSES! :O
+	#include "deprecated.hpp"
 };

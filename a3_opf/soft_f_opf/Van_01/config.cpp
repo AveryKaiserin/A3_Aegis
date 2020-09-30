@@ -84,4 +84,6 @@ class CfgVehicles
 	};
 	// Arma 3 Opposing Forces
     #include "cfgTKM.hpp"
+	// Deprecated Classes! :)
+	#include "deprecated.hpp"
 };

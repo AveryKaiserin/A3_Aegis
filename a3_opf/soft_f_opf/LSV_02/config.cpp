@@ -9,4 +9,5 @@ class CfgVehicles
     /*
 	#include "cfgRaven.hpp"
     */
+   #include "deprecated.hpp"
 };

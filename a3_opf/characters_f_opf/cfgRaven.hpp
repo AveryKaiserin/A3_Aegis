@@ -42,7 +42,7 @@ class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
 	};
 };
-class I_R_soldier_base_F: I_soldier_F
+class Opf_I_R_soldier_base_F: I_soldier_F
 {
 	scope = private;
 	identityTypes[] =
@@ -54,7 +54,7 @@ class I_R_soldier_base_F: I_soldier_F
 		Head_Asian,
 		G_ION_default
 	};
-	faction = IND_R_F;
+	faction = Opf_IND_R_F;
 	genericNames = RussianMen;
 	uniformClass = U_O_E_Uniform_01_arid_F;
 	class EventHandlers: EventHandlers
@@ -62,7 +62,7 @@ class I_R_soldier_base_F: I_soldier_F
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
 	};
 };
-class I_R_soldier_F: I_R_soldier_base_F
+class Opf_I_R_soldier_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_F.jpg";
@@ -118,7 +118,7 @@ class I_R_soldier_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_GL_F: I_R_soldier_base_F
+class Opf_I_R_soldier_GL_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_GL_F.jpg";
@@ -180,7 +180,7 @@ class I_R_soldier_GL_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_MG_F: I_R_soldier_base_F
+class Opf_I_R_soldier_MG_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_MG_F.jpg";
@@ -239,7 +239,7 @@ class I_R_soldier_MG_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_TL_F: I_R_soldier_base_F
+class Opf_I_R_soldier_TL_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_TL_F.jpg";
@@ -305,7 +305,7 @@ class I_R_soldier_TL_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_M_F: I_R_soldier_base_F
+class Opf_I_R_soldier_M_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SpeechVariants
@@ -376,7 +376,7 @@ class I_R_soldier_M_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_LAT_F: I_R_soldier_base_F
+class Opf_I_R_soldier_LAT_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -451,7 +451,7 @@ class I_R_soldier_LAT_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_medic_F: I_R_soldier_base_F
+class Opf_I_R_medic_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -529,7 +529,7 @@ class I_R_medic_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_engineer_F: I_R_soldier_base_F
+class Opf_I_R_engineer_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_engineer_F.jpg";
@@ -593,7 +593,7 @@ class I_R_engineer_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_Soldier_UAV_F: I_R_soldier_base_F
+class Opf_I_R_Soldier_UAV_F: Opf_I_R_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_UAV_F.jpg";
@@ -603,7 +603,7 @@ class I_R_Soldier_UAV_F: I_R_soldier_base_F
 	role = SpecialOperative;
 	uavHacker = true;
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
-	backpack = I_R_UAV_01_backpack_F;
+	backpack = Opf_I_R_UAV_01_backpack_F;
 	weapons[] =
 	{
 		SMG_02_ACO_flash_F,
@@ -657,21 +657,21 @@ class I_R_Soldier_UAV_F: I_R_soldier_base_F
 		H_Headset_light,1
     };
 };
-class I_R_soldier_UAV_06_F: I_R_Soldier_UAV_F
+class Opf_I_R_soldier_UAV_06_F: Opf_I_R_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
-	backpack = I_R_UAV_06_backpack_F;
+	backpack = UAV_06_backpack_F;
 };
-class I_R_soldier_UAV_06_medical_F: I_R_Soldier_UAV_F
+class Opf_I_R_soldier_UAV_06_medical_F: Opf_I_R_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = I_R_UAV_06_medical_backpack_F;
 };
-class I_R_Soldier_universal_F: I_R_soldier_F
+class Opf_I_R_Soldier_universal_F: Opf_I_R_soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -692,7 +692,7 @@ class I_R_Soldier_universal_F: I_R_soldier_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class I_R_Soldier_unarmed_F: I_R_soldier_F
+class Opf_I_R_Soldier_unarmed_F: Opf_I_R_soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Soldier_unarmed_F.jpg";

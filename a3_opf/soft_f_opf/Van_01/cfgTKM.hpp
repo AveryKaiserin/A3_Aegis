@@ -1,4 +1,4 @@
-class I_T_Van_01_transport_F: Van_01_transport_base_F
+class I_I_Van_01_transport_F: Van_01_transport_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_T_Van_01_transport_F.jpg";
@@ -8,9 +8,9 @@ class I_T_Van_01_transport_F: Van_01_transport_base_F
 	icon = "\A3\Soft_F_Gamma\Van_01\Data\UI\map_Van_01_dropside_CA.paa";
 	picture = "\A3\Soft_F_Gamma\Van_01\Data\UI\portrait_Van_01_dropside_CA.paa";
 	side = TGuerrila;
-	faction = IND_T_F;
-	crew = I_T_Soldier_1_F;
-	typicalCargo[] = {I_T_Soldier_1_F};
+	faction = Opf_IND_I_F;
+	crew = I_I_Soldier_1_F;
+	typicalCargo[] = {I_I_Soldier_1_F};
 	textureList[] =
 	{
 		Insurgent_01,1,

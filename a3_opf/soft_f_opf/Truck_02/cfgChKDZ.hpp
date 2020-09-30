@@ -1,4 +1,4 @@
-class O_E_Truck_02_F: O_Truck_02_covered_F
+class Opf_O_S_Truck_02_F: O_Truck_02_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -95,9 +95,9 @@ class O_E_Truck_02_F: O_Truck_02_covered_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_E_F;
-	crew = O_E_Soldier_1_F;
-	typicalCargo[] = {O_E_Soldier_1_F};
+	faction = Opf_OPF_S_F;
+	crew = Opf_O_S_Soldier_1_F;
+	typicalCargo[] = {Opf_O_S_Soldier_1_F};
 	textureList[] =
 	{
 		Separatist_01,1,
@@ -112,7 +112,7 @@ class O_E_Truck_02_F: O_Truck_02_covered_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class O_E_Truck_02_transport_F: O_Truck_02_transport_F
+class Opf_O_S_Truck_02_transport_F: O_Truck_02_transport_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -210,9 +210,9 @@ class O_E_Truck_02_transport_F: O_Truck_02_transport_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_C_Truck_02_Dump0;
 	side = TEast;
-	faction = OPF_E_F;
-	crew = O_E_Soldier_1_F;
-	typicalCargo[] = {O_E_Soldier_1_F};
+	faction = Opf_OPF_S_F;
+	crew = Opf_O_S_Soldier_1_F;
+	typicalCargo[] = {Opf_O_S_Soldier_1_F};
 	textureList[] =
 	{
 		Separatist_01,1,
@@ -227,7 +227,7 @@ class O_E_Truck_02_transport_F: O_Truck_02_transport_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class O_E_Truck_02_cargo_F: Truck_02_cargo_base_F
+class Opf_O_S_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -325,9 +325,9 @@ class O_E_Truck_02_cargo_F: Truck_02_cargo_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
 	side = TEast;
-	faction = OPF_E_F;
-	crew = O_E_Soldier_1_F;
-	typicalCargo[] = {O_E_Soldier_1_F};
+	faction = Opf_OPF_S_F;
+	crew = Opf_O_S_Soldier_1_F;
+	typicalCargo[] = {Opf_O_S_Soldier_1_F};
 	textureList[] =
 	{
 		Separatist_01,1,
@@ -343,17 +343,17 @@ class O_E_Truck_02_cargo_F: Truck_02_cargo_base_F
 	};
 };
 /*
-class O_E_Truck_02_AA_F: Truck_02_AA_base_F
+class Opf_O_S_Truck_02_AA_F: Truck_02_AA_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Truck_02_AA_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_O_CfgVehicles_O_E_Truck_02_AA_F0;
+	displayName = $STR_A3_O_CfgVehicles_Opf_O_S_Truck_02_AA_F0;
 	side = TEast;
-	faction = OPF_E_F;
-	crew = O_E_Soldier_1_F;
-	typicalCargo[] = {O_E_Soldier_1_F};
+	faction = Opf_OPF_S_F;
+	crew = Opf_O_S_Soldier_1_F;
+	typicalCargo[] = {Opf_O_S_Soldier_1_F};
 	textureList[] =
 	{
 		Separatist_01,1,

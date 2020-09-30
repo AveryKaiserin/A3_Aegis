@@ -13,20 +13,20 @@ class CfgPatches
 		units[] =
         {
             // Paramilitary
-            O_P_HMG_02_F,
-            O_P_HMG_02_high_F,
+            Opf_O_P_HMG_02_F,
+            Opf_O_P_HMG_02_high_F,
 
             // Separatists
-            O_E_HMG_02_F,
-            O_E_HMG_02_high_F,
+            Opf_O_S_HMG_02_F,
+            Opf_O_S_HMG_02_high_F,
 
             // Insurgents
-            I_T_HMG_02_F,
-            I_T_HMG_02_high_F,
+            Opf_I_I_HMG_02_F,
+            Opf_I_I_HMG_02_high_F,
 
             // Patriots
-            I_M_HMG_02_F,
-            I_M_HMG_02_high_F
+            Opf_I_P_HMG_02_F,
+            Opf_I_P_HMG_02_high_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

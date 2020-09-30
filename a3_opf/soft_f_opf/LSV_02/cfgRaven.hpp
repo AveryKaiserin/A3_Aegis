@@ -1,4 +1,4 @@
-class I_R_LSV_02_armed_F: LSV_02_armed_base_F
+class Opf_I_R_LSV_02_armed_F: LSV_02_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -89,9 +89,9 @@ class I_R_LSV_02_armed_F: LSV_02_armed_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
 	side = TGuerrila;
-	faction = IND_R_F;
-	crew = I_R_soldier_F;
-	typicalCargo[] = {I_R_soldier_F};
+	faction = Opf_IND_R_F;
+	crew = Opf_I_R_soldier_F;
+	typicalCargo[] = {Opf_I_R_soldier_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -114,7 +114,7 @@ class I_R_LSV_02_armed_F: LSV_02_armed_base_F
 		weap_xx(arifle_Abakan_F,2);
 	};
 };
-class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
+class Opf_I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -205,9 +205,9 @@ class I_R_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;
 	side = TGuerrila;
-	faction = IND_R_F;
-	crew = I_R_soldier_F;
-	typicalCargo[] = {I_R_soldier_F};
+	faction = Opf_IND_R_F;
+	crew = Opf_I_R_soldier_F;
+	typicalCargo[] = {Opf_I_R_soldier_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{

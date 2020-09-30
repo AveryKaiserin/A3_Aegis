@@ -6,7 +6,7 @@ class I_G_Soldier_base_F: SoldierGB
 class I_G_Soldier_F: I_G_Soldier_base_F{};
 class O_G_Soldier_F: I_G_Soldier_F{};
 // Arma 3 Opposing Forces
-class O_P_soldier_base_F: O_G_Soldier_F
+class Opf_O_P_soldier_base_F: O_G_Soldier_F
 {
 	scope = private;
 	identityTypes[] =
@@ -15,7 +15,7 @@ class O_P_soldier_base_F: O_G_Soldier_F
 		Head_TK,
 		G_PARA_default
 	};
-	faction = OPF_P_F;
+	faction = Opf_OPF_P_F;
 	genericNames = TakistaniMen;
 	model = "\A3\Characters_F\OPFOR\O_Paramilitary.p3d";
 	modelSides[] =
@@ -69,7 +69,7 @@ class O_P_soldier_base_F: O_G_Soldier_F
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
 	};
 };
-class O_P_soldier_1_F: O_P_soldier_base_F
+class Opf_O_P_soldier_1_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_soldier_1_F.jpg";
@@ -124,7 +124,7 @@ class O_P_soldier_1_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_soldier_GL_F: O_P_soldier_base_F
+class Opf_O_P_soldier_GL_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_soldier_GL_F.jpg";
@@ -180,7 +180,7 @@ class O_P_soldier_GL_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_soldier_AR_F: O_P_soldier_base_F
+class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_soldier_AR_F.jpg";
@@ -237,7 +237,7 @@ class O_P_soldier_AR_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_soldier_TL_F: O_P_soldier_base_F
+class Opf_O_P_soldier_TL_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_soldier_TL_F.jpg";
@@ -287,7 +287,7 @@ class O_P_soldier_TL_F: O_P_soldier_base_F
 	};
     headgearList[] = {H_Beret_gry,1};
 };
-class O_P_soldier_M_F: O_P_soldier_base_F
+class Opf_O_P_soldier_M_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SpeechVariants
@@ -348,7 +348,7 @@ class O_P_soldier_M_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_soldier_LAT_F: O_P_soldier_base_F
+class Opf_O_P_soldier_LAT_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -407,7 +407,7 @@ class O_P_soldier_LAT_F: O_P_soldier_base_F
 	secondaryAmmoCoef = 0.5;
     headgearList[] = {"",1};
 };
-class O_P_medic_F: O_P_soldier_base_F
+class Opf_O_P_medic_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -470,7 +470,7 @@ class O_P_medic_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_soldier_exp_F: O_P_soldier_base_F
+class Opf_O_P_soldier_exp_F: Opf_O_P_soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_soldier_exp_F.jpg";
@@ -524,7 +524,7 @@ class O_P_soldier_exp_F: O_P_soldier_base_F
         H_FakeHeadgear_Para_F,2
     };
 };
-class O_P_Soldier_universal_F: O_P_soldier_1_F
+class Opf_O_P_Soldier_universal_F: Opf_O_P_soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -546,7 +546,7 @@ class O_P_Soldier_universal_F: O_P_soldier_1_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class O_P_Soldier_unarmed_F: O_P_soldier_1_F
+class Opf_O_P_Soldier_unarmed_F: Opf_O_P_soldier_1_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_Soldier_unarmed_F.jpg";

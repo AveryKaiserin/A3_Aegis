@@ -8,13 +8,13 @@ class CfgPatches
 		units[] =
         {
             // Paramilitary
-            O_P_Quadbike_01_F,
+            Opf_O_P_Quadbike_01_F,
 
             // Separatists
-            O_E_Quadbike_01_F,
+            Opf_O_S_Quadbike_01_F,
 
             // Patriots
-            I_M_Quadbike_01_F
+            Opf_I_P_Quadbike_01_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

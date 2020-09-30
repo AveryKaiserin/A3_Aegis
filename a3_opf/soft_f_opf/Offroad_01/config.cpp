@@ -258,4 +258,6 @@ class CfgVehicles
     /*
     #include "cfgMilitia.hpp"
     */
+    // Deprecated Classes
+	#include "deprecated.hpp"
 };

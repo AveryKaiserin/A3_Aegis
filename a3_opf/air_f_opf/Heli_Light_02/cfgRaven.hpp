@@ -1,4 +1,4 @@
-class I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
+class Opf_I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -128,9 +128,9 @@ class I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_R_F;
-	crew = I_R_helipilot_F;
-	typicalCargo[] = {I_R_helipilot_F};
+	faction = Opf_IND_R_F;
+	crew = Opf_I_R_helipilot_F;
+	typicalCargo[] = {Opf_I_R_helipilot_F};
 	textureList[] =
 	{
 		Black,1,
@@ -148,7 +148,7 @@ class I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		weap_xx(arifle_Abakan_F,2);
 	};
 };
-class I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
+class Opf_I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -278,9 +278,9 @@ class I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_R_F;
-	crew = I_R_helipilot_F;
-	typicalCargo[] = {I_R_helipilot_F};
+	faction = Opf_IND_R_F;
+	crew = Opf_I_R_helipilot_F;
+	typicalCargo[] = {Opf_I_R_helipilot_F};
 	textureList[] =
 	{
 		Black,1,

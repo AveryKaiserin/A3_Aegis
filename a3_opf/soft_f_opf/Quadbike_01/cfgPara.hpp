@@ -1,4 +1,4 @@
-class O_P_Quadbike_01_F: Quadbike_01_base_F
+class Opf_O_P_Quadbike_01_F: Quadbike_01_base_F
 {
 	author = $STR_A3_AveryTheKitty;
 	class SimpleObject
@@ -74,9 +74,9 @@ class O_P_Quadbike_01_F: Quadbike_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_P_F;
-	crew = O_P_Soldier_1_F;
-	typicalCargo[] = {O_P_Soldier_1_F};
+	faction = Opf_OPF_P_F;
+	crew = Opf_O_P_Soldier_1_F;
+	typicalCargo[] = {Opf_O_P_Soldier_1_F};
 	textureList[] = {Black,1};
 	hiddenSelectionsTextures[] =
 	{
