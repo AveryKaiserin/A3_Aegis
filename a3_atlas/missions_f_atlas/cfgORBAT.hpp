@@ -1,9 +1,6 @@
 class CfgORBAT
 {
-    // 
-    // German 31st Panzergrenadier Battalion
-    //
-
+    /* NATO 31st Panzergrenadier Battalion */
     class 31stbattalion
 	{
 		id = 31;
@@ -167,11 +164,7 @@ class CfgORBAT
 			textShort = "Support";
 		};
 	};
-
-    //
-    // Belarussian 7th Bear Regiment
-    //
-
+    /* CSAT 7th Mechanized Regiment */
     class bearregiment
 	{
 		id = 7;
