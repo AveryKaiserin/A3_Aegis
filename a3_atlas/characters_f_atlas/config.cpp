@@ -27,8 +27,8 @@ class CfgVehicles
 	#include "cfgCDF.hpp"				// CDF
 	*/
     #include "cfgIDF.hpp"				// IDF
-	/*
     #include "cfgUNO.hpp"				// UNO
-    */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };
 #include "cfgGroups.hpp"
