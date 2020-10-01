@@ -1,170 +1,147 @@
 class CfgORBAT
 {
     /* NATO 31st Panzergrenadier Battalion */
-    class 31stbattalion
+    class 31stPanzergrenadier
 	{
 		id = 31;
-		idType = 0;
-		type = "MechanizedInfantry";
-		side = "West";
-		size = "Battalion"
-        insignia = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\NATO_31stBattalion_CA");
-		colorInsignia[] = {0,0,0,1};
-		commander = "Rehkopf";
-		commanderRank = "Major";
-		description = "The 31st Panzergrenadier Battalion is Germany's primary expeditionary force, and among the best equipped units in the German military, surviving military expenditure cuts in the 2020's amidst a faltering European economy.";
-		text = "31st Panzergrenadier Bn.";
-		textShort = "%1 %3";
-		
-		class 31stHQ
+        text = "%1 Panzergrenadier %3";
+		textShort = "PzBtl %1";
+		type = MechanizedInfantry;
+		textureSize = 1;
+        insignia = "\A3_Atlas\Missions_F_Atlas\Data\ORBAT\NATO_31stBattalion_CA.paa";
+		side = West;
+		size = Battalion;
+		commander = "Rhekopf";
+		commanderRank = Major;
+		description = "The 31st Panzergrenadier Battalion comprises the German Army's primary expeditionary force. It among the best equipped units in the German Army, surviving military expenditure cuts in the mid-2020s amidst a faltering European economy. It relies on its sister units for artillery and air support, however.";
+		class 1stCompany
 		{
 			id = 1;
-			idType = 2;
-			type = "HQ";
-			side = "West";
-			size = "Company";
-			commander = "Rehkopf";
-			commanderRank = "Major";
-			text = "Headquarters Element";
-			textShort = "HQ";
+			type = HQ;
+			size = Company;
+			side = West;
+			commander = GermanMen;
+			commanderRank = Captain;
+			text = "%1 %2 and Supply %3";
+			assets[] =
+            {
+                {Atlas_B_G_Truck_01_Repair_F,4},
+                {Atlas_B_G_Truck_01_fuel_F,4},
+                {Atlas_B_G_Truck_01_transport_F,10}
+            };
 		};
-
-		class 31stArmoredCompany1
-		{
-			id = 1;
-			idType = 2;
-			type = "Armored";
-			side = "West";
-			size = "Company";
-			commander = "GermanMen";
-			commanderRank = "Captain";
-			text = "%1 %3";
-			textShort = "%1 %3";
-			assets[] = {{B_E_MBT_03_cannon_f,14},{B_E_LT_01_cannon_f,2},{B_E_LT_01_AT_f,2},{B_E_LT_01_AA_f,3},{B_E_LT_01_scout_f,1}};
-        
-			class 31stArmoredPlatoon1
-			{
-				id = 1;
-				idType = 0;
-				type = "Recon";
-				side = "West";
-				commander = "GermanMen";
-				commanderRank = "Lieutenant";
-				size = "Platoon";
-				text = "%1 %2 %3";
-				textShort = "%1 %3";
-				assets[] = {{B_E_LT_01_cannon_f,2},{B_E_LT_01_AT_f,2}};
-			};
-			class 31stArmoredPlatoon2
-			{
-				id = 2;
-				idType = 0;
-				type = "Armored";
-				side = "West";
-				commander = "GermanMen";
-				commanderRank = "Lieutenant";
-				size = "Platoon";
-				text = "%1 %2 %3";
-				textShort = "%1 %3";
-				assets[] = {{B_E_MBT_03_cannon_f,4}};
-			};
-			class 31stArmoredPlatoon3
-			{
-				id = 3;
-				idType = 0;
-				type = "Armored";
-				commander = "GermanMen";
-				commanderRank = "Lieutenant";
-				side = "West";
-				size = "Platoon";
-				text = "%1 %2 %3";
-				textShort = "%1 %3";
-				assets[] = {{B_E_MBT_03_cannon_f,4}};
-			};
-			class 31stArmoredPlatoon4
-			{
-				id = 4;
-				idType = 0;
-				type = "Armored";
-				side = "West";
-				commander = "GermanMen";
-				commanderRank = "Lieutenant";
-				size = "Platoon";
-				text = "%1 %2 %3";
-				textShort = "%1 %3";
-				assets[] = {{B_E_MBT_03_cannon_f,4}};
-			};
-			class 31stArmoredPlatoon5
-			{
-				id = 5;
-				idType = 0;
-				type = "Antiair";
-				side = "West";
-				commander = "GermanMen";
-				commanderRank = "Lieutenant";
-				size = "Platoon";
-				text = "%1 %2 %3";
-				textShort = "%1 %3";
-				assets[] = {{B_E_LT_01_AA_f,3},{B_E_LT_01_scout_f,1}};
-			};
-		};
-		
-		class 31stArmoredCompany2
+		class 2ndCompany
 		{
 			id = 2;
-			idType = 2;
-			type = "Armored";
-			side = "West";
-			size = "Company";
-			commander = "GermanMen";
-			commanderRank = "Captain";
-			text = "%1 %3";
-			textShort = "%1 %3";
-			assets[] = {{B_E_MBT_03_cannon_f,14},{B_E_LT_01_cannon_f,2},{B_E_LT_01_AT_f,2},{B_E_LT_01_AA_f,3},{B_E_LT_01_scout_f,1}};
-		}
-
-		class 31stMechanizedInfantryCompany1
+			type = Armored;
+			size = Company;
+			side = West;
+			commander = GermanMen;
+			commanderRank = Captain;
+			assets[] =
+            {
+                {Atlas_B_G_MBT_03_cannon_F,8},
+                {Atlas_B_G_LT_01_cannon_F,8}
+            };
+			class 1stPlatoon
+			{
+				id = 1;
+				type = Recon;
+				size = Platoon;
+				side = West;
+				commander = GermanMen;
+				commanderRank = Lieutenant;
+				assets[] =
+                {
+                    {Atlas_B_G_MBT_03_cannon_F,4}
+                };
+			};
+			class 2ndPlatoon
+			{
+				id = 2;
+				type = Armored;
+				size = Platoon;
+				side = West;
+				commander = GermanMen;
+				commanderRank = Lieutenant;
+				assets[] =
+                {
+                    {Atlas_B_G_MBT_03_cannon_F,4}
+                };
+			};
+			class 3rdPlatoon
+			{
+				id = 3;
+				type = AttackRecon;
+				size = Platoon;
+				side = West;
+				commander = GermanMen;
+				commanderRank = Lieutenant;
+				assets[] =
+                {
+                    {Atlas_B_G_LT_01_cannon_F,4}
+                };
+			};
+			class 4thPlatoon
+			{
+				id = 4;
+				type = AttackRecon;
+				size = Platoon;
+				side = West;
+				commander = GermanMen;
+				commanderRank = Lieutenant;
+				assets[] =
+                {
+                    {Atlas_B_G_LT_01_AT_F,4}
+                };
+			};
+		};
+		class 3rdCompany
 		{
 			id = 3;
-			idType = 2;
-			side = "West";
-			size = "Company";
-			type = "MechanizedInfantry";
-			commander = "GermanMen";
-			commanderRank = "Captain";
-			text = "%1 %3";
-			textShort = "%1 %3";
-			assets[] = {{B_E_APC_Wheeled_03_cannon_F,16}};
+			type = MechanizedInfantry;
+			size = Company;
+			side = West;
+			commander = GermanMen;
+			commanderRank = Captain;
+			assets[] =
+            {
+                {Atlas_B_G_MBT_03_cannon_F,4},
+                {Atlas_B_G_APC_Wheeled_03_cannon_F,12}
+            };
 		};
-
-		class 31stMechanizedInfantryCompany2
+		class 4thCompany
 		{
 			id = 4;
-			idType = 2;
-			side = "West";
-			size = "Company";
-			type = "MechanizedInfantry";
-			commander = "GermanMen";
-			commanderRank = "Captain";
-			text = "%1 %3";
-			textShort = "%1 %3";
-			assets[] = {{B_E_APC_Wheeled_03_cannon_F,16}};
+			type = MechanizedInfantry;
+			size = Company;
+			side = West;
+			commander = GermanMen;
+			commanderRank = Captain;
+			assets[] =
+            {
+                {Atlas_B_G_MBT_03_cannon_F,4},
+                {Atlas_B_G_APC_Wheeled_03_cannon_F,12}
+            };
 		};
-		
-		class 31stSupportCompany
+		class 5thCompany
 		{
 			id = 5;
-			idType = 2;
-			side = "West";
-			size = "Company";
-			type = "Support";
-			commander = "GermanMen";
-			commanderRank = "Captain";
-			text = "%2 %3";
-			textShort = "Support";
+			type = Support;
+			size = Company;
+			side = West;
+			commander = GermanMen;
+			commanderRank = Captain;
+			assets[] =
+            {
+                {Atlas_B_G_LT_01_AA_F,6},
+                {Atlas_B_G_LT_01_scout_F,2},
+                {Atlas_B_G_MRAP_03_gmg_F,4},
+                {Atlas_B_G_MRAP_03_hmg_F,8}
+            };
 		};
 	};
-    /* CSAT 7th Mechanized Regiment */
+    /* CSAT 7th Mechanized Regiment
     class bearregiment
 	{
 		id = 7;
@@ -438,54 +415,55 @@ class CfgORBAT
 			commanderRank = "Major";
 			text = "6th Support Battalion";
 			textShort = "%1 %3";
-				class brsupport
-				{
-					id = 7;
-					idType = 0;
-					side = "East";
-					size = "Company";
-					type = "Support";
-					commander = "RussianMen";
-					commanderRank = "Captain";
-					text = "%2 %3";
-					textShort = "%2";
-				};
-				class brmedical
-				{
-					id = 7;
-					idType = 0;
-					side = "East";
-					size = "Company";
-					type = "Medical";
-					commander = "RussianMen";
-					commanderRank = "Captain";
-					text = "%2 %3";
-					textShort = "%2";
-				};
-				class brmaintenance
-				{
-					id = 7;
-					idType = 0;
-					side = "East";
-					size = "Company";
-					type = "Maintenance";
-					commander = "RussianMen";
-					commanderRank = "Captain";
-					text = "%2 %3";
-					textShort = "%2";
-				};
-				class brservice
-				{
-					id = 7;
-					idType = 0;
-					side = "East";
-					size = "Company";
-					type = "Service";
-					commander = "RussianMen";
-					commanderRank = "Captain";
-					text = "%2 %3";
-					textShort = "%2";
-				};
+			class brsupport
+			{
+				id = 7;
+				idType = 0;
+				side = "East";
+				size = "Company";
+				type = "Support";
+				commander = "RussianMen";
+				commanderRank = "Captain";
+				text = "%2 %3";
+				textShort = "%2";
+			};
+			class brmedical
+			{
+				id = 7;
+				idType = 0;
+				side = "East";
+				size = "Company";
+				type = "Medical";
+				commander = "RussianMen";
+				commanderRank = "Captain";
+				text = "%2 %3";
+				textShort = "%2";
+			};
+			class brmaintenance
+			{
+				id = 7;
+				idType = 0;
+				side = "East";
+				size = "Company";
+				type = "Maintenance";
+				commander = "RussianMen";
+				commanderRank = "Captain";
+				text = "%2 %3";
+				textShort = "%2";
+			};
+			class brservice
+			{
+				id = 7;
+				idType = 0;
+				side = "East";
+				size = "Company";
+				type = "Service";
+				commander = "RussianMen";
+				commanderRank = "Captain";
+				text = "%2 %3";
+				textShort = "%2";
+			};
 		};
 	};
+    */
 };
