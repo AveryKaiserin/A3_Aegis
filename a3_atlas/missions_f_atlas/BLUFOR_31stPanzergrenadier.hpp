@@ -1,3 +1,4 @@
+/*
 class GermanArmy
 {
     text = "German Army";
@@ -32,6 +33,7 @@ class GermanArmy
                 side = West;
                 size = Brigade;
                 commander = GermanMen;
+                */
                 class 31stPanzergrenadier
                 {
                     id = 31;
@@ -53,9 +55,9 @@ class GermanArmy
                         text = "%1 %2 and Supply %3";
                         assets[] =
                         {
-                            {Atlas_B_G_Truck_01_Repair_F,4},
-                            {Atlas_B_G_Truck_01_fuel_F,4},
-                            {Atlas_B_G_Truck_01_transport_F,10}
+                            {B_E_Truck_01_Repair_F,4},
+                            {B_E_Truck_01_fuel_F,4},
+                            {B_E_Truck_01_transport_F,10}
                         };
                     };
                     class 2ndCompany: 1stCompany
@@ -66,8 +68,8 @@ class GermanArmy
                         type = Armored;
                         assets[] =
                         {
-                            {Atlas_B_G_MBT_03_cannon_F,8},
-                            {Atlas_B_G_LT_01_cannon_F,8}
+                            {B_E_MBT_03_cannon_F,8},
+                            {B_E_LT_01_cannon_F,8}
                         };
                         class 1stPlatoon
                         {
@@ -78,7 +80,7 @@ class GermanArmy
                             commander = GermanMen;
                             assets[] =
                             {
-                                {Atlas_B_G_MBT_03_cannon_F,4}
+                                {B_E_MBT_03_cannon_F,4}
                             };
                         };
                         class 2ndPlatoon: 1stPlatoon
@@ -90,8 +92,8 @@ class GermanArmy
                             id = 3;
                             assets[] =
                             {
-                                {Atlas_B_G_LT_01_cannon_F,2},
-                                {Atlas_B_G_LT_01_AT_F,2}
+                                {B_E_LT_01_cannon_F,2},
+                                {B_E_LT_01_AT_F,2}
                             };
                         };
                         class 4thPlatoon: 3rdPlatoon
@@ -108,8 +110,8 @@ class GermanArmy
                         commander = GermanMen;
                         assets[] =
                         {
-                            {Atlas_B_G_MBT_03_cannon_F,4},
-                            {Atlas_B_G_APC_Wheeled_03_cannon_F,12}
+                            {B_E_MBT_03_cannon_F,4},
+                            {B_E_APC_Wheeled_03_cannon_F,12}
                         };
                         class 1stPlatoon
                         {
@@ -120,8 +122,8 @@ class GermanArmy
                             commander = GermanMen;
                             assets[] =
                             {
-                                {Atlas_B_G_MBT_03_cannon_F,1},
-                                {Atlas_B_G_APC_Wheeled_03_cannon_F,3}
+                                {B_E_MBT_03_cannon_F,1},
+                                {B_E_APC_Wheeled_03_cannon_F,3}
                             };
                             class 1stSquad
                             {
@@ -130,10 +132,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -150,10 +161,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -170,10 +190,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -190,10 +219,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -213,8 +251,8 @@ class GermanArmy
                             commander = GermanMen;
                             assets[] =
                             {
-                                {Atlas_B_G_MBT_03_cannon_F,1},
-                                {Atlas_B_G_APC_Wheeled_03_cannon_F,3}
+                                {B_E_MBT_03_cannon_F,1},
+                                {B_E_APC_Wheeled_03_cannon_F,3}
                             };
                             class 1stSquad
                             {
@@ -223,10 +261,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -243,10 +290,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -263,10 +319,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -283,10 +348,19 @@ class GermanArmy
                                 size = Squad;
                                 side = West;
                                 commander = GermanMen;
+                                assets[] =
+                                {
+                                    {B_E_MBT_03_cannon_F,1},
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 2ndSquad: 1stSquad
                             {
                                 id = 2;
+                                assets[] =
+                                {
+                                    {B_E_APC_Wheeled_03_cannon_F,1}
+                                };
                             };
                             class 3rdSquad: 2ndSquad
                             {
@@ -302,10 +376,10 @@ class GermanArmy
                         type = Support;
                         assets[] =
                         {
-                            {Atlas_B_G_LT_01_AA_F,6},
-                            {Atlas_B_G_LT_01_scout_F,2},
-                            {Atlas_B_G_MRAP_03_gmg_F,2},
-                            {Atlas_B_G_MRAP_03_hmg_F,4}
+                            {B_E_LT_01_AA_F,6},
+                            {B_E_LT_01_scout_F,2},
+                            {B_E_MRAP_03_gmg_F,2},
+                            {B_E_MRAP_03_hmg_F,4}
                         };
                         class 1stPlatoon
                         {
@@ -316,8 +390,8 @@ class GermanArmy
                             commander = GermanMen;
                             assets[] =
                             {
-                                {Atlas_B_G_MRAP_03_gmg_F,1},
-                                {Atlas_B_G_MRAP_03_hmg_F,2}
+                                {B_E_MRAP_03_gmg_F,1},
+                                {B_E_MRAP_03_hmg_F,2}
                             };
                         };
                         class 2ndPlatoon: 1stPlatoon
@@ -330,8 +404,8 @@ class GermanArmy
                             type = AntiAir;
                             assets[] =
                             {
-                                {Atlas_B_G_LT_01_AA_F,3},
-                                {Atlas_B_G_LT_01_scout_F,1}
+                                {B_E_LT_01_AA_F,3},
+                                {B_E_LT_01_scout_F,1}
                             };
                         };
                         class 4thPlatoon: 3rdPlatoon
@@ -340,6 +414,7 @@ class GermanArmy
                         };
                     };
                 };
+            /*
             };
         };
         class 8thAirborne
@@ -367,3 +442,4 @@ class GermanArmy
         };
     };
 };
+*/

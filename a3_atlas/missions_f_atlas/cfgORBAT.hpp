@@ -1,9 +1,9 @@
 class CfgORBAT
 {
 	class BIS;
-	class Aegis
+	class Atlas
 	{
-        #include "BLUFOR_GermanArmy.hpp"
+        #include "BLUFOR_31stPanzergrenadier.hpp"
         /* CSAT 7th Mechanized Regiment */
         class 7thMechanized
         {
