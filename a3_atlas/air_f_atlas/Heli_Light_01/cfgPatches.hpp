@@ -7,10 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_Heli_Light_01_dynamicLoadout_F,
-            B_L_Heli_Light_01_F,
-            B_L_Heli_Light_01_recon_F
+            // IDF
+            Atlas_I_I_Heli_Light_01_dynamicLoadout_F,
+            Atlas_I_I_Heli_Light_01_F,
+            Atlas_I_I_Heli_Light_01_recon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

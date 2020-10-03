@@ -8,8 +8,7 @@ class CfgVehicles
     // Arma 3 Aegis
     class Heli_Light_01_recon_base_F;
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"            // Legion
 	#include "cfgIDF.hpp"               // IDF
-    // compatibility classes
-    #include "compatibility.hpp"
+    // Deprecated classes
+    #include "deprecated.hpp"
 };
