@@ -57,4 +57,10 @@ class CfgMarkers
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Japan_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Japan_CA.paa";
 	};
+	class flag_Sahrani: flag_NATO
+	{
+		name = "Sahrani";
+		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Sahrani_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Sahrani_CA.paa";
+	};
 };
