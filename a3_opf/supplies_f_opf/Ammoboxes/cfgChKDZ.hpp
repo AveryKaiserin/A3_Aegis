@@ -1,4 +1,4 @@
-class Box_ChDKZ_Wps_F: ReammoBox_F
+class Opf_Box_ChDKZ_Wps_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.23;
@@ -9,7 +9,7 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_ChDKZ_Wps_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_ChDKZ_Wps_F.jpg";
 	scope = public;
 	displayName = "Basic Weapons [Separatists]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
@@ -42,7 +42,7 @@ class Box_ChDKZ_Wps_F: ReammoBox_F
 		item_xx(V_BandollierB_taiga_F,6);
 	};
 };
-class Box_ChDKZ_Ammo_F: ReammoBox_F
+class Opf_Box_ChDKZ_Ammo_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -52,7 +52,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_ChDKZ_Ammo_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_ChDKZ_Ammo_F.jpg";
 	scope = public;
 	displayName = "Basic Ammo [Separatists]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
@@ -80,7 +80,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 		item_xx(V_TacChestrig_oli_F,6);
 	};
 };
-class Box_ChDKZ_WpsLaunch_F: ReammoBox_F
+class Opf_Box_ChDKZ_WpsLaunch_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.76;
@@ -91,7 +91,7 @@ class Box_ChDKZ_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_ChDKZ_WpsLaunch_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_ChDKZ_WpsLaunch_F.jpg";
 	scope = public;
 	displayName = "Launchers [Separatists]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";

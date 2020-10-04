@@ -1,4 +1,4 @@
-class O_W_supplyCrate_F: O_supplyCrate_F
+class Atlas_O_W_supplyCrate_F: O_supplyCrate_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -10,8 +10,8 @@ class O_W_supplyCrate_F: O_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_O_W_supplyCrate_F0;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_supplyCrate_F.jpg";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_O_W_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_Viper_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CSAT_Woodland;
 	class TransportMagazines
@@ -60,10 +60,10 @@ class O_W_supplyCrate_F: O_supplyCrate_F
 		item_xx(optic_Arco_blk_F,2);
 		item_xx(optic_DMS,2);
 		item_xx(Rangefinder,1);
-		item_xx(O_NVGoggles_ghex_F,5);
+		item_xx(NVGoggles_OPFOR,5);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_owcamo,2);
+		bag_xx(Atlas_B_FieldPack_owcamo,2);
 	};
 };

@@ -8,6 +8,16 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
+			class Green
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_CO.paa",
+                    "\A3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa",
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+				};
+				factions[] = {Atlas_BLU_L_F};
+			};
 			class Jagged
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_JAGGED0;
@@ -15,10 +25,10 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_jagged_CO.paa",
-                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_CO.paa",
+                    "\A3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa",
                     "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 				};
-				factions[] = {BLU_L_F};
+				factions[] = {Atlas_BLU_L_F};
 			};
 			class Woodland
 			{
@@ -30,7 +40,7 @@ class CfgVehicles
                     "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_CO.paa",
                     "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {Atlas_BLU_G_F};
 			};
 		};
 	};
@@ -39,6 +49,4 @@ class CfgVehicles
 	// Arma 3 Atlas
     #include "cfgLegion.hpp"            // Legionnaires
 	#include "cfgBlufor_Atlas.hpp"      // Germany
-    // Deprecated classes
-    #include "deprecated.hpp"
 };

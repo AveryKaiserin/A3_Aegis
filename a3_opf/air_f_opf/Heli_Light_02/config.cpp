@@ -1,7 +1,5 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
-#include "deprecated.hpp"
-/*
 class CfgVehicles
 {
 	// Arma 3
@@ -25,4 +23,3 @@ class CfgVehicles
     // Arma 3 Opposing Forces
 	#include "cfgRaven.hpp"
 };
-*/

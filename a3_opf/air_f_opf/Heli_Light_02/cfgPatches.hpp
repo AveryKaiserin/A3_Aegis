@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Russia
+            // Raven
             Opf_I_R_Heli_Light_02_dynamicLoadout_F,
             Opf_I_R_Heli_Light_02_unarmed_F
         };

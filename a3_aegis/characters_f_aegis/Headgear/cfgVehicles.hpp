@@ -205,4 +205,6 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_PilotHelmetFighter_O_R,$STR_A3_A_CfgWeapons_H_PilotHelmetFighter_O_R0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_CrewHelmetHeli_O_R,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_O_R0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_R,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_O_R0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_O_Helmet_canvas_ocamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ocamo0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_O_Helmet_canvas_oucamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_oucamo0,EdSubcat_Helmets)
 };

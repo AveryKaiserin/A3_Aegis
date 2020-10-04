@@ -8,12 +8,12 @@ class CfgPatches
 		units[] =
         {
             // Legionnaires
-            B_L_Heli_Light_03_dynamicLoadout_F,
-            B_L_Heli_Light_03_unarmed_F,
+            Atlas_B_L_Heli_Light_03_dynamicLoadout_F,
+            Atlas_B_L_Heli_Light_03_unarmed_F,
 
             // Germany
-            B_E_Heli_Light_03_dynamicLoadout_F,
-            B_E_Heli_Light_03_unarmed_F
+            Atlas_B_G_Heli_Light_03_dynamicLoadout_F,
+            Atlas_B_G_Heli_Light_03_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,4 +1,4 @@
-class B_FieldPack_green_OEMedic_F: B_FieldPack_green_F
+class B_FieldPack_green_OSMedic_F: B_FieldPack_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -8,7 +8,7 @@ class B_FieldPack_green_OEMedic_F: B_FieldPack_green_F
 		item_xx(FirstAidKit,4);
 	};
 };
-class B_FieldPack_green_OERPG_AT_F: B_FieldPack_green_F
+class B_FieldPack_green_OSRPG_AT_F: B_FieldPack_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -18,7 +18,7 @@ class B_FieldPack_green_OERPG_AT_F: B_FieldPack_green_F
 		mag_xx(RPG32_HE_F,2);
 	};
 };
-class B_FieldPack_green_OEExp_F: B_FieldPack_green_F
+class B_FieldPack_green_OSExp_F: B_FieldPack_green_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

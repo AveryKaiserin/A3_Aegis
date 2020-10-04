@@ -1,7 +1,7 @@
 // Arma 3 Apex
 class Box_NATO_Equip_F;
 // Arma 3 Aegis
-class Box_IR_Equip_F: Box_NATO_Equip_F
+class Opf_Box_IR_Equip_F: Box_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -13,8 +13,8 @@ class Box_IR_Equip_F: Box_NATO_Equip_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_IR_Equip_F.jpg";
-	displayName = $STR_A3_O_CfgVehicles_Box_IR_Equip_F0;
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_IR_Equip_F.jpg";
+	displayName = $STR_A3_O_CfgVehicles_Opf_Box_IR_Equip_F0;
     /*
 	hiddenSelectionsTextures[] =
 	{

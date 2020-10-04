@@ -137,14 +137,14 @@ class O_W_Soldier_A_F: O_Soldier_A_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AAR_F: O_Soldier_AAR_F
@@ -199,14 +199,14 @@ class O_W_Soldier_AAR_F: O_Soldier_AAR_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Support_AMG_F: O_support_AMG_F
@@ -259,14 +259,14 @@ class O_W_Support_AMG_F: O_support_AMG_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Support_AMort_F: O_support_AMort_F
@@ -319,14 +319,14 @@ class O_W_Support_AMort_F: O_support_AMort_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
@@ -381,14 +381,14 @@ class O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AAA_F: O_Soldier_AAA_F
@@ -443,14 +443,14 @@ class O_W_Soldier_AAA_F: O_Soldier_AAA_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AAT_F: O_Soldier_AAT_F
@@ -505,14 +505,14 @@ class O_W_Soldier_AAT_F: O_Soldier_AAT_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AR_F: O_Soldier_AR_F
@@ -562,14 +562,14 @@ class O_W_Soldier_AR_F: O_Soldier_AR_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Medic_F: O_medic_F
@@ -622,14 +622,14 @@ class O_W_Medic_F: O_medic_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Crew_F: O_crew_F
@@ -679,14 +679,14 @@ class O_W_Crew_F: O_crew_F
 		V_BandollierB_khk,
 		H_Tank_black_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_BandollierB_khk,
 		H_Tank_black_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Engineer_F: O_engineer_F
@@ -739,14 +739,14 @@ class O_W_Engineer_F: O_engineer_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_Exp_F: O_soldier_exp_F
@@ -799,14 +799,14 @@ class O_W_Soldier_Exp_F: O_soldier_exp_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_soldier_mine_F: O_W_Soldier_Exp_F
@@ -867,14 +867,14 @@ class O_W_Soldier_GL_F: O_Soldier_GL_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Support_GMG_F: O_support_GMG_F
@@ -927,14 +927,14 @@ class O_W_Support_GMG_F: O_support_GMG_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Support_MG_F: O_support_MG_F
@@ -987,14 +987,14 @@ class O_W_Support_MG_F: O_support_MG_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Support_Mort_F: O_support_Mort_F
@@ -1047,14 +1047,14 @@ class O_W_Support_Mort_F: O_support_Mort_F
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Helicrew_F: O_helicrew_F
@@ -1096,13 +1096,13 @@ class O_W_Helicrew_F: O_helicrew_F
     {
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
+        NVGoggles_OPFOR
     };
 };
 class O_W_Helipilot_F: O_helipilot_F
@@ -1144,13 +1144,13 @@ class O_W_Helipilot_F: O_helipilot_F
     {
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
+        NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
-        O_NVGoggles_ghex_F
+        NVGoggles_OPFOR
     };
 };
 class O_W_soldier_M_F: O_soldier_M_F
@@ -1202,14 +1202,14 @@ class O_W_soldier_M_F: O_soldier_M_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AA_F: O_Soldier_AA_F
@@ -1264,14 +1264,14 @@ class O_W_Soldier_AA_F: O_Soldier_AA_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_AT_F: O_Soldier_AT_F
@@ -1326,14 +1326,14 @@ class O_W_Soldier_AT_F: O_Soldier_AT_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Officer_F: O_officer_F
@@ -1441,14 +1441,14 @@ class O_W_Soldier_Repair_F: O_soldier_repair_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_F: O_Soldier_F
@@ -1498,14 +1498,14 @@ class O_W_Soldier_F: O_Soldier_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_HAT_F: O_Soldier_HAT_F
@@ -1560,14 +1560,14 @@ class O_W_Soldier_HAT_F: O_Soldier_HAT_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_LAT_F: O_soldier_LAT_F
@@ -1622,14 +1622,14 @@ class O_W_Soldier_LAT_F: O_soldier_LAT_F
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_oli,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_Lite_F: O_Soldier_lite_F
@@ -1739,7 +1739,7 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -1747,7 +1747,7 @@ class O_W_Soldier_SL_F: O_Soldier_SL_F
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_Soldier_TL_F: O_Soldier_TL_F
@@ -1810,7 +1810,7 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -1818,7 +1818,7 @@ class O_W_Soldier_TL_F: O_Soldier_TL_F
 		H_HelmetAggressor_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_RadioOperator_F: O_W_Soldier_F
@@ -1833,14 +1833,14 @@ class O_W_RadioOperator_F: O_W_Soldier_F
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_SmershVest_01_olive_F,
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	backpack = B_RadioBag_01_whex_F;
 	weapons[] =
@@ -1935,7 +1935,7 @@ class O_W_Soldier_UAV_F: O_soldier_UAV_F
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_UavTerminal,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
@@ -1943,7 +1943,7 @@ class O_W_Soldier_UAV_F: O_soldier_UAV_F
 		H_HelmetAggressor_F,
 		DefaultManLinkedItems,
 		O_UavTerminal,
-		O_NVGoggles_ghex_F
+		NVGoggles_OPFOR
 	};
 };
 class O_W_soldier_UAV_06_F: O_W_Soldier_UAV_F

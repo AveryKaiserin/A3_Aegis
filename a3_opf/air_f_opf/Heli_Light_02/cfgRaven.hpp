@@ -124,7 +124,7 @@ class Opf_I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Heli_Light_02_dynamicLoadout_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_R_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
@@ -274,7 +274,7 @@ class Opf_I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_Heli_Light_02_unarmed_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_R_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;

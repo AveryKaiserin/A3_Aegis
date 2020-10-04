@@ -311,6 +311,43 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
 	{
 		weap_xx(arifle_TRG20_black_F,2);
 	};
+	magazines[] = {5000Rnd_762x51_Belt_Yellow};
+	class Components: Components
+    {
+		class TransportPylonsComponent: TransportPylonsComponent
+        {
+			class Pylons: Pylons
+			{
+				class PylonLeft1: PylonLeft1
+                {
+					attachment = PylonRack_7Rnd_Rocket_04_HE_F;
+                };
+				class PylonRight1: PylonRight1
+                {
+					attachment = PylonRack_7Rnd_Rocket_04_HE_F;
+                };
+            };
+			class Presets: Presets
+			{
+				class Default: Default
+                {
+					attachment[] = 
+                    {
+                        PylonRack_7Rnd_Rocket_04_HE_F,
+                        PylonRack_7Rnd_Rocket_04_HE_F
+                    };
+                };
+				class AT: AT
+                {
+					attachment[] = 
+                    {
+                        PylonRack_3Rnd_LG_scalpel,
+                        PylonRack_3Rnd_LG_scalpel
+                    };
+                };
+			};
+        };
+    };
 };
 class Atlas_I_I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 {

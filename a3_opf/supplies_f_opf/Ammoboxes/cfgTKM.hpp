@@ -1,4 +1,4 @@
-class Box_TKM_Wps_F: ReammoBox_F
+class Opf_Box_TKM_Wps_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.23;
@@ -9,7 +9,7 @@ class Box_TKM_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_TKM_Wps_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_TKM_Wps_F.jpg";
 	scope = public;
 	displayName = "Basic Weapons [Insurgents]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
@@ -41,7 +41,7 @@ class Box_TKM_Wps_F: ReammoBox_F
 		item_xx(V_BandollierB_khk,6);
 	};
 };
-class Box_TKM_Ammo_F: ReammoBox_F
+class Opf_Box_TKM_Ammo_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -51,7 +51,7 @@ class Box_TKM_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_TKM_Ammo_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_TKM_Ammo_F.jpg";
 	scope = public;
 	displayName = "Basic Ammo [Insurgents]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
@@ -78,7 +78,7 @@ class Box_TKM_Ammo_F: ReammoBox_F
 		item_xx(V_Pocketed_wdl_F,6);
 	};
 };
-class Box_TKM_WpsLaunch_F: ReammoBox_F
+class Opf_Box_TKM_WpsLaunch_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.76;
@@ -89,7 +89,7 @@ class Box_TKM_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_TKM_WpsLaunch_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_TKM_WpsLaunch_F.jpg";
 	scope = public;
 	displayName = "Launchers [Insurgents]";
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";

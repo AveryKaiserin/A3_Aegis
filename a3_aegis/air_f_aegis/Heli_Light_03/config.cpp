@@ -136,6 +136,11 @@ class CfgVehicles
 			"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_HAF_CA.paa"
 		};
 	};
+	class I_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
+	{
+		hiddenSelectionsTextures[] = {"\A3\Air_F_EPB\Heli_Light_03\Data\Heli_Light_03_base_INDP_CO.paa"};
+		textureList[] = {Indep,1};
+	};
 	// Arma 3 Aegis
 	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

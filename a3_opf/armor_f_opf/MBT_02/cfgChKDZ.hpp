@@ -171,7 +171,7 @@ class Opf_O_S_MBT_02_cannon_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_MBT_02_cannon_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_MBT_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

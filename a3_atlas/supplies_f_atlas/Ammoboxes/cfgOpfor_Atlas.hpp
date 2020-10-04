@@ -1,4 +1,4 @@
-class Box_C_East_Wps_F: ReammoBox_F
+class Atlas_Box_TKA_Wps_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.23;
@@ -9,9 +9,9 @@ class Box_C_East_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Wps_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_Wps_F.jpg";
 	scope = public;
-	displayName = "Basic Weapons [CSAT Takistani]";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_Wps_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
@@ -32,7 +32,7 @@ class Box_C_East_Wps_F: ReammoBox_F
 	};
 	class TransportItems{};
 };
-class Box_C_East_Ammo_F: ReammoBox_F
+class Atlas_Box_TKA_Ammo_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -42,9 +42,9 @@ class Box_C_East_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_Ammo_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_Ammo_F.jpg";
 	scope = public;
-	displayName = "Basic Ammo [CSAT Takistani]";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_Ammo_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
@@ -59,7 +59,7 @@ class Box_C_East_Ammo_F: ReammoBox_F
 	class TransportWeapons{};
 	class TransportItems{};
 };
-class Box_C_East_WpsLaunch_F: ReammoBox_F
+class Atlas_Box_TKA_WpsLaunch_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.76;
@@ -70,9 +70,9 @@ class Box_C_East_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_C_East_WpsLaunch_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_WpsLaunch_F.jpg";
 	scope = public;
-	displayName = "Launchers [CSAT Takistani]";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_WpsLaunch_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
@@ -98,10 +98,10 @@ class Box_C_East_WpsLaunch_F: ReammoBox_F
 	class TransportItems{};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_semiarid,4);
+		bag_xx(Atlas_B_FieldPack_semiarid,4);
 	};
 };
-class O_C_supplyCrate_F: O_supplyCrate_F
+class Atlas_O_T_supplyCrate_F: O_supplyCrate_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -113,8 +113,8 @@ class O_C_supplyCrate_F: O_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_supplyCrate_F.jpg";
-	displayName = "Supply Box [CSAT Takistani]";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_supplyCrate_F.jpg";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_O_T_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CSAT_Takistani;
 	class TransportMagazines
@@ -126,6 +126,8 @@ class O_C_supplyCrate_F: O_supplyCrate_F
 		mag_xx(10Rnd_762x54_Mag,6);
 		mag_xx(10Rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);
+		mag_xx(O_IR_Grenade,2);
+		mag_xx(Laserbatteries,1);
 		mag_xx(UGL_FlareRed_F,2);
 		mag_xx(UGL_FlareYellow_F,2);
 		mag_xx(RPG32_F,3);
@@ -151,15 +153,20 @@ class O_C_supplyCrate_F: O_supplyCrate_F
 		item_xx(bipod_02_F_blk,2);
 		item_xx(FirstAidKit,10);
 		item_xx(acc_flashlight,5);
+		item_xx(acc_pointer_IR,5);
+		item_xx(Laserdesignator_02,1);
 		item_xx(Binocular,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
 		item_xx(optic_ACO_grn,2);
 		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_DMS,2);
+		item_xx(Rangefinder,1);
+		item_xx(NVGoggles_OPFOR,5);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_FieldPack_semiarid,2);
+		bag_xx(Atlas_B_FieldPack_semiarid,2);
 	};
 };

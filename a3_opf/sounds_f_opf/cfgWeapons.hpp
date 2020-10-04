@@ -3,7 +3,7 @@ class CfgWeapons
 	// Arma 3
 	class Rifle_Base_F;
 	// Arma 3 Opposing Forces
-	class arifle_SKS_base_F: Rifle_Base_F
+	class Opf_arifle_SKS_base_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Opf\Sounds_F_Opf\arsenal\weapons\Rifles\SKS\SKS_dry",db-5,1,10};
 		reloadMagazineSound[] = {"\A3_Opf\Sounds_F_Opf\arsenal\weapons\Rifles\SKS\SKS_reload",db0,1,10};
@@ -14,9 +14,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SKS_Shot_SoundSet,
-					SKS_Tail_SoundSet,
-					SKS_InteriorTail_SoundSet
+					Opf_SKS_Shot_SoundSet,
+					Opf_SKS_Tail_SoundSet,
+					Opf_SKS_InteriorTail_SoundSet
 				};
 			};
 	  	};
@@ -27,9 +27,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SKS_Shot_SoundSet,
-					SKS_Tail_SoundSet,
-					SKS_InteriorTail_SoundSet
+					Opf_SKS_Shot_SoundSet,
+					Opf_SKS_Tail_SoundSet,
+					Opf_SKS_InteriorTail_SoundSet
 				};
 			};
 	  	};

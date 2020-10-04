@@ -14,29 +14,29 @@ class CfgSoundSets
 	class Pistol_silencerTail_Base_SoundSet;
 	class Pistol_silencerInteriorTail_Base_SoundSet;
 	// Arma 3 Opposing Forces
-	class SKS_Shot_SoundSet: Rifle_Shot_Base_SoundSet
+	class Opf_SKS_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =
 		{
-			SKS_closure_SoundShader,
-			SKS_closeShot_SoundShader,
-			SKS_midShot_SoundShader,
-			SKS_distShot_SoundShader
+			Opf_SKS_closure_SoundShader,
+			Opf_SKS_closeShot_SoundShader,
+			Opf_SKS_midShot_SoundShader,
+			Opf_SKS_distShot_SoundShader
 		};
 	};
-	class SKS_Tail_SoundSet: Rifle_Tail_Base_SoundSet
+	class Opf_SKS_Tail_SoundSet: Rifle_Tail_Base_SoundSet
 	{
 		soundShaders[] =
 		{
-			SKS_tailDistant_SoundShader,
-			SKS_tailForest_SoundShader,
-			SKS_tailHouses_SoundShader,
-			SKS_tailMeadows_SoundShader,
-			SKS_tailTrees_SoundShader
+			Opf_SKS_tailDistant_SoundShader,
+			Opf_SKS_tailForest_SoundShader,
+			Opf_SKS_tailHouses_SoundShader,
+			Opf_SKS_tailMeadows_SoundShader,
+			Opf_SKS_tailTrees_SoundShader
 		};
 	};
-	class SKS_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
+	class Opf_SKS_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
 	{
-		soundShaders[] = {SKS_tailInterior_SoundShader};
+		soundShaders[] = {Opf_SKS_tailInterior_SoundShader};
 	};
 };

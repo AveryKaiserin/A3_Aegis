@@ -1,4 +1,4 @@
-class B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
+class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -130,13 +130,12 @@ class B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 		verticalOffsetWorld = -0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Heli_light_03_dynamicLoadout_F.jpg";
-	scope = protected;
-    scopeCurator = private; //del this line
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_dynamicLoadout_F.jpg";
+	scope = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Helipilot_F;
-	typicalCargo[] = {B_L_Soldier_Lite_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Helipilot_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_Lite_F};
 	hiddenSelections[] =
 	{
 		camo,
@@ -146,8 +145,8 @@ class B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_jagged_CO.paa",
-		"\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_CO.paa",
-		"\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+        "\A3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa",
+        "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 	};
 	textureList[] = {Jagged,1};
 	magazines[] =
@@ -166,7 +165,7 @@ class B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 		weap_xx(arifle_MSBS65_black_F,2);
 	};
 };
-class B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
+class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -296,16 +295,15 @@ class B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 		verticalOffsetWorld = -0.143;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Heli_light_03_unarmed_F.jpg";
-	scope = protected;
-    scopeCurator = private; //del this line
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_unarmed_F.jpg";
+	scope = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Helipilot_F;
-	typicalCargo[] = {B_L_Soldier_Lite_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Helipilot_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_Lite_F};
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_jagged_CO.paa"};
-	textureList[] = {Jagged,1};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_CO.paa"};
+	textureList[] = {Green,1};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

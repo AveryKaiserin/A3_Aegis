@@ -1,4 +1,4 @@
-class Box_Para_Wps_F: ReammoBox_F
+class Opf_Box_Para_Wps_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.23;
@@ -9,7 +9,7 @@ class Box_Para_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_Para_Wps_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_Para_Wps_F.jpg";
 	scope = public;
 	displayName = "Basic Weapons [Paramilitary]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
@@ -43,7 +43,7 @@ class Box_Para_Wps_F: ReammoBox_F
 		item_xx(V_TacVest_gry,6);
 	};
 };
-class Box_Para_Ammo_F: ReammoBox_F
+class Opf_Box_Para_Ammo_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -53,7 +53,7 @@ class Box_Para_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_Para_Ammo_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_Para_Ammo_F.jpg";
 	scope = public;
 	displayName = "Basic Ammo [Paramilitary]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
@@ -80,7 +80,7 @@ class Box_Para_Ammo_F: ReammoBox_F
 		item_xx(V_ChestrigF_rgr,6);
 	};
 };
-class Box_Para_WpsLaunch_F: ReammoBox_F
+class Opf_Box_Para_WpsLaunch_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.76;
@@ -91,7 +91,7 @@ class Box_Para_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Box_Para_WpsLaunch_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_Box_Para_WpsLaunch_F.jpg";
 	scope = public;
 	displayName = "Launchers [Paramilitary]";
 	model = "\A3\Weapons_F\Ammoboxes\Ammobox.p3d";
