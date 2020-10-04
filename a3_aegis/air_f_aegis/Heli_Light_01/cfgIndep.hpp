@@ -143,7 +143,7 @@ class I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 	crew = I_helipilot_F;
 	cost = 7000000;
 	textureList[] = {Indep,1};
-	hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -300,7 +300,11 @@ class I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
 	crew = I_helipilot_F;
 	cost = 1000000;
 	textureList[] = {Indep,1};
-	hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+	hiddenSelectionsTextures[] =
+    {
+        "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa",
+        "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+    };
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -458,7 +462,7 @@ class I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 	faction = IND_F;
 	crew = I_helipilot_F;
 	textureList[] = {Indep,1};
-	hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

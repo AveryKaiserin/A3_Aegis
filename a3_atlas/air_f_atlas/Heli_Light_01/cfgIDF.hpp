@@ -300,7 +300,11 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
 	crew = Atlas_I_I_Helipilot_F;
 	cost = 1000000;
 	textureList[] = {Desert,1};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa"};
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa",
+        "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+    };
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

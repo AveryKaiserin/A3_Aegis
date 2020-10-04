@@ -142,7 +142,7 @@ class B_ION_Heli_Light_01_civil_F: Heli_Light_01_civil_base_F
 	faction = BLU_ION_F;
 	crew = B_ION_Helipilot_F;
 	textureList[] = {Ion,1};
-	hiddenSelectionsTextures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa"};
 	animationList[] =
 	{
 		AddDoors,0,

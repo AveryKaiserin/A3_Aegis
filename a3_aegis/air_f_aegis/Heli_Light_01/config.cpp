@@ -74,7 +74,7 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_BLU0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
 				factions[] =
 				{
 					BLU_F,
@@ -86,7 +86,7 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_BLACK0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa"};
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa"};
 				factions[] =
 				{
 					BLU_F,
@@ -98,7 +98,7 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_INDEP0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
 				factions[] = {IND_F};
 			};
 		};
@@ -350,6 +350,36 @@ class CfgVehicles
 			class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightPilot{};
 		};
 	};
+    class Heli_Light_01_armed_base_F: Heli_Light_01_base_F
+    {
+		class TextureSources: TextureSources
+		{
+			class Blufor: Blufor
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+			class Black: Black
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+			class Indep: Indep
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+		};
+    };
 	class Heli_Light_01_dynamicLoadout_base_F;
 	class B_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 	{
