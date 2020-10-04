@@ -76,10 +76,10 @@ class Opf_O_S_Uniform_01_taiga_F: O_G_Soldier_SL_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUtaiga_CO.paa",
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_taiga_2_CO.paa"
+		"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_S_Uniform_01_taiga_2_CO.paa"
 	};
 };
-class Opf_O_S_Uniform_01_arid_F: O_E_Uniform_01_taiga_F
+class Opf_O_S_Uniform_01_arid_F: Opf_O_S_Uniform_01_taiga_F
 {
 	scope = protected;
     scopeCurator = private;
@@ -100,7 +100,7 @@ class Opf_O_S_Uniform_01_sweater_F: O_G_Soldier_LAT_F
         TCivilian
     };
 	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_sweater_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_S_Uniform_01_sweater_CO.paa"};
 };
 // Insurgents
 class Opf_I_I_Guerilla3_3_F: I_G_Soldier_M_F

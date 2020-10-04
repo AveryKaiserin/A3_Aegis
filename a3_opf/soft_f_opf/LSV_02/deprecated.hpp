@@ -1,2 +1,0 @@
-DEPRECATED_CLASS(I_R_LSV_02_armed_F,Opf_I_R_LSV_02_armed_F)
-DEPRECATED_CLASS(I_R_LSV_02_unarmed_F,Opf_I_R_LSV_02_unarmed_F)
