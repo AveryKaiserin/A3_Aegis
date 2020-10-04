@@ -305,17 +305,7 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
         "\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa",
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
     };
-	class TransportMagazines
-	{
-		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellGreen,2);
-		mag_xx(30Rnd_556x45_Stanag,4);
-	};
-	class TransportWeapons
-	{
-		weap_xx(arifle_TRG20_black_F,2);
-	};
-	magazines[] = {5000Rnd_762x51_Belt_Yellow};
+	magazines[] = {5000Rnd_762x51_Yellow_Belt};
 	class Components: Components
     {
 		class TransportPylonsComponent: TransportPylonsComponent
@@ -352,6 +342,16 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
 			};
         };
     };
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellGreen,2);
+		mag_xx(30Rnd_556x45_Stanag,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_TRG20_black_F,2);
+	};
 };
 class Atlas_I_I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 {

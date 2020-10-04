@@ -148,7 +148,11 @@ class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_bas
         "\A3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa",
         "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 	};
-	textureList[] = {Jagged,1};
+	textureList[] =
+    {
+        Green,0,
+        Jagged,1
+    };
 	magazines[] =
 	{
 		5000Rnd_762x51_Belt,
@@ -303,7 +307,11 @@ class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 	typicalCargo[] = {Atlas_B_L_Soldier_Lite_F};
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_CO.paa"};
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,1,
+        Jagged,0
+    };
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
