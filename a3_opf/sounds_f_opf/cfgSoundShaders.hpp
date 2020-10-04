@@ -1,7 +1,7 @@
 class CfgSoundShaders
 {
 	// SKS 7.62 mm
-	class Opf_SKS_Closure_SoundShader
+	class SKS_Closure_SoundShader
 	{
 		samples[] =
 		{
@@ -11,7 +11,7 @@ class CfgSoundShaders
 		range = 5;
 		volume = db-7;
 	};
-	class Opf_SKS_closeShot_SoundShader
+	class SKS_closeShot_SoundShader
 	{
 		samples[] =
 		{
@@ -23,7 +23,7 @@ class CfgSoundShaders
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
-	class Opf_SKS_midShot_SoundShader
+	class SKS_midShot_SoundShader
 	{
 		samples[] =
 		{
@@ -41,7 +41,7 @@ class CfgSoundShaders
 			{1800,0}
 		};
 	};
-	class Opf_SKS_distShot_SoundShader
+	class SKS_distShot_SoundShader
 	{
 		samples[] =
 		{
@@ -59,7 +59,7 @@ class CfgSoundShaders
 			{1800,1}
 	  };
 	};
-	class Opf_SKS_tailDistant_SoundShader
+	class SKS_tailDistant_SoundShader
 	{
 		samples[] =
 		{
@@ -75,7 +75,7 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	class Opf_SKS_tailForest_SoundShader
+	class SKS_tailForest_SoundShader
 	{
 		samples[] =
 		{
@@ -90,7 +90,7 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	class Opf_SKS_tailHouses_SoundShader
+	class SKS_tailHouses_SoundShader
 	{
 		samples[] =
 		{
@@ -106,7 +106,7 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	class Opf_SKS_tailInterior_SoundShader
+	class SKS_tailInterior_SoundShader
 	{
 		samples[] =
 		{
@@ -123,7 +123,7 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	class Opf_SKS_tailMeadows_SoundShader
+	class SKS_tailMeadows_SoundShader
 	{
 		samples[] =
 		{
@@ -138,7 +138,7 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
-	class Opf_SKS_tailTrees_SoundShader
+	class SKS_tailTrees_SoundShader
 	{
 		samples[] =
 		{

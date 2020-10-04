@@ -529,14 +529,14 @@ class Marine_B_USMC_officer_F: Marine_B_USMC_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_khk,
-		Marine_H_MilCap_desert,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt_khk,
-		Marine_H_MilCap_desert,
+		H_MilCap_desert,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -1320,14 +1320,14 @@ class Marine_B_USMC_officer_wdl_F: Marine_B_USMC_officer_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_khk,
-		Marine_H_MilCap_mwdl,
+		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt_khk,
-		Marine_H_MilCap_mwdl,
+		H_MilCap_mwdl,
 		ItemGPS,
 		DefaultManLinkedItems
 	};

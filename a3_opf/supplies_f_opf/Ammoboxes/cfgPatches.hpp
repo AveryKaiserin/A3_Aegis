@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class A3_Opf_Supplies_F_Opf_Ammoboxes
+	class A3_Supplies_F_Ammoboxes
 	{
-		addonRootClass = A3_Opf_Supplies_F_Opf;
-		requiredAddons[] = {A3_Opf_Supplies_F_Opf};
+		addonRootClass = A3_Supplies_F_Opf;
+		requiredAddons[] = {A3_Supplies_F_Opf};
 		requiredVersion = 0.1;
 		units[] =
         {

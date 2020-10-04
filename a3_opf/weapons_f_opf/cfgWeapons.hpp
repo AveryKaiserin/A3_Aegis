@@ -6,17 +6,12 @@ class CfgWeapons
 	class arifle_Katiba_F;
 	class arifle_Katiba_C_F;
 	class SMG_02_F;
-	// Arma 3 Enoch
-	class arifle_RPK12_lush_F;
 	// Arma 3 Aegis
 	class srifle_DMR_01_black_F;
 	class srifle_DMR_01_lush_F;
 	class arifle_TRG21_black_F;
 	class arifle_TRG20_black_F;
 	class arifle_TRG21_GL_black_F;
-	class arifle_AK12_545_lush_F;
-	class arifle_AK12_GL_545_lush_F;
-	class arifle_AK12U_545_lush_F;
 	// Arma 3 Opposing Forces
 	/*
 	class autocannon_23mm: CannonCore
@@ -268,86 +263,6 @@ class CfgWeapons
 		};
 	};
 	class arifle_TRG21_GL_black_FL_F: arifle_TRG21_GL_black_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_AK12_545_lush_aco_FL_f: arifle_AK12_545_lush_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_lush_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_AK12_545_lush_arco_FL_f: arifle_AK12_545_lush_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Arco_lush_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_AK12_GL_545_lush_aco_FL_f: arifle_AK12_GL_545_lush_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_lush_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_AK12U_545_lush_aco_FL_f: arifle_AK12U_545_lush_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = CowsSlot;
-				item = optic_Holosight_lush_F;
-			};
-			class LinkedItemsAcc
-			{
-				slot = PointerSlot;
-				item = acc_flashlight;
-			};
-		};
-	};
-	class arifle_RPK12_lush_FL_f: arifle_RPK12_lush_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		class LinkedItems

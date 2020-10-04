@@ -17,6 +17,8 @@ class CfgVehicles
 	#include "cfgMilitia.hpp"           // Patriots
 	#include "cfgRebels.hpp"            // Rebels
     */
+    #include "cfgUniforms.hpp"
+    // Deprecated classes
+    #include "deprecated.hpp"
 };
 #include "cfgGroups.hpp"
-#include "deprecated.hpp"

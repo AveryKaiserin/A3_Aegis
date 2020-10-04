@@ -21,12 +21,12 @@ class CfgVehicles
 	class Item_Base_F;
 	// Arma 3 Marine
 	// USMC
-	UNIFORM_HOLDER(Marine_U_B_MCU_desert_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_desert_F0)
-	UNIFORM_HOLDER(Marine_U_B_MCU_wdl_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_wdl_F0)
-	UNIFORM_HOLDER(Marine_U_B_MCU_tshirt_desert_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_tshirt_desert_F0)
-	UNIFORM_HOLDER(Marine_U_B_MCU_tshirt_wdl_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_tshirt_wdl_F0)
-	UNIFORM_HOLDER(Marine_U_B_MCU_vest_desert_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_vest_desert_F0)
-	UNIFORM_HOLDER(Marine_U_B_MCU_vest_wdl_F,$STR_A3_M_CfgWeapons_Marine_U_B_MCU_vest_wdl_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_desert_F,$STR_A3_M_CfgWeapons_U_B_MCU_desert_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_wdl_F,$STR_A3_M_CfgWeapons_U_B_MCU_wdl_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_tshirt_desert_F,$STR_A3_M_CfgWeapons_U_B_MCU_tshirt_desert_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_tshirt_wdl_F,$STR_A3_M_CfgWeapons_U_B_MCU_tshirt_wdl_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_vest_desert_F,$STR_A3_M_CfgWeapons_U_B_MCU_vest_desert_F0)
+	UNIFORM_HOLDER(Marine_U_B_MCU_vest_wdl_F,$STR_A3_M_CfgWeapons_U_B_MCU_vest_wdl_F0)
 	// Deprecated classes
 	DEPRECATED_CLASS(Item_U_B_MCU_desert_F,Item_Marine_U_B_MCU_desert_F)
 	DEPRECATED_CLASS(Item_U_B_MCU_wdl_F,Item_Marine_U_B_MCU_wdl_F)

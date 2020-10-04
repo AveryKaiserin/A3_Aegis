@@ -44,7 +44,7 @@ class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -91,7 +91,7 @@ class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_Rifle_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_Rifle_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_Rifle_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -108,13 +108,13 @@ class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 	};
 	weapons[] =
 	{
-		Atlas_arifle_G36C_F,
+		arifle_G36C_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_G36C_F,
+		arifle_G36C_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
@@ -139,7 +139,7 @@ class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_SG_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_PoliceOfficer_SG_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_PoliceOfficer_SG_F0;
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
@@ -197,30 +197,30 @@ class Police_I_P_TacPoliceOfficer_F: Police_I_P_TacPoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_F0;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
 		DefaultManPoliceLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
 		DefaultManPoliceLinkedItems
 	};
 	weapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
+		arifle_G36C_Holo_FL_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
+		arifle_G36C_Holo_FL_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
@@ -294,18 +294,18 @@ class Police_I_P_TacPoliceOfficer_SG_F: Police_I_P_TacPoliceOfficer_Base_F
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
 	scope = public;
     scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_TacPoliceOfficer_SG_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_TacPoliceOfficer_SG_F0;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_G_blk_F,
 		DefaultManPoliceLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_G_blk_F,
 		DefaultManPoliceLinkedItems
 	};
@@ -347,16 +347,16 @@ class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
 	uniformClass = Police_U_I_P_PoliceUniform_F;
 	linkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
         I_UavTerminal,
 		DefaultManPoliceLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Police_V_CarrierRigKBT_01_light_POLICE_F,
-		Atlas_H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_POLICE_F,
+		H_HelmetSpecter_black_headset_F,
         G_Balaclava_light_blk_F,
         I_UavTerminal,
 		DefaultManPoliceLinkedItems
@@ -364,13 +364,13 @@ class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
     backpack = Police_I_P_UGV_02_Demining_backpack_F;
 	weapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
+		arifle_G36C_Holo_FL_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_G36C_Holo_FL_F,
+		arifle_G36C_Holo_FL_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};

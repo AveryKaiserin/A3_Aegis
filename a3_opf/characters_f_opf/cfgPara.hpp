@@ -23,7 +23,7 @@ class Opf_O_P_soldier_base_F: O_G_Soldier_F
 		TEast,
 		TCivilian
 	};
-	uniformClass = U_O_ParamilitaryBody;
+	uniformClass = Opf_U_O_ParamilitaryBody;
     class Wounds
     {
         tex[] = {};

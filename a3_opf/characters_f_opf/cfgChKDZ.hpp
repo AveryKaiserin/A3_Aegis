@@ -1,6 +1,3 @@
-// Arma 3
-class O_G_Soldier_SL_F;
-class O_G_Soldier_LAT_F;
 // Arma 3 Enoch
 class O_R_Gorka_base_F;
 class O_R_Gorka_F: O_R_Gorka_base_F
@@ -12,8 +9,6 @@ class O_R_Gorka_F: O_R_Gorka_base_F
         TGuerrila
     };
 };
-// Arma 3 Aegis
-class O_R_LightFatigues_01_taiga_F;
 // Arma 3 Opposing Forces
 class Opf_O_S_Man_Base_F: O_G_Soldier_F
 {
@@ -30,64 +25,9 @@ class Opf_O_S_Man_Base_F: O_G_Soldier_F
 		G_RUS_default
 	};
 };
-class Opf_O_S_Gorka_autumn_F: O_R_Gorka_F
-{
-	uniformClass = U_Opf_O_S_Gorka_01_autumn_F;
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Gorka_01_Autumn_CO.paa"};
-};
-class Opf_O_S_Gorka_summer_F: O_R_Gorka_F
-{
-	uniformClass = U_Opf_O_S_Gorka_01_summer_F;
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Gorka_01_Summer_CO.paa"};
-};
-class Opf_O_S_Uniform_01_taiga_F: O_G_Soldier_SL_F
-{
-	scope = protected;
-    scopeCurator = private;
-	modelSides[] =
-    {
-        TEast,
-        TGuerrila,
-        TCivilian
-    };
-	uniformClass = U_Opf_O_S_Uniform_01_taiga_F;
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUtaiga_CO.paa",
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_taiga_2_CO.paa"
-	};
-};
-class Opf_O_S_Uniform_01_arid_F: O_E_Uniform_01_taiga_F
-{
-	scope = protected;
-    scopeCurator = private;
-	uniformClass = U_Opf_O_S_Uniform_01_arid_F;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa",
-		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
-	};
-};
-class Opf_O_S_Uniform_01_sweater_F: O_G_Soldier_LAT_F
-{
-	scope = protected;
-    scopeCurator = private;
-	modelSides[] =
-    {
-        TEast,
-        TCivilian
-    };
-	uniformClass = U_Opf_O_S_Uniform_01_sweater_F;
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_E_Uniform_01_sweater_CO.paa"};
-};
 class Opf_O_S_Soldier_Base_F: Opf_O_S_Man_Base_F
 {
-	uniformClass = U_Opf_O_S_Gorka_01_summer_F;
+	uniformClass = Opf_U_O_S_Gorka_01_summer_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -177,7 +117,7 @@ class Opf_O_S_Soldier_2_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_HighCommand_ModuleDescription_AnyBrain_0;
-	uniformClass = U_Opf_O_S_Uniform_01_taiga_F;
+	uniformClass = Opf_U_O_S_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
 		V_SmershVest_01_radio_olive_F,
@@ -271,7 +211,7 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
-	uniformClass = U_Opf_O_S_Uniform_01_sweater_F;
+	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
 	backpack = B_FieldPack_green_OEMedic_F;
 	linkedItems[] = 
 	{
@@ -353,7 +293,7 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
-	uniformClass = U_Opf_O_S_Gorka_01_autumn_F;
+	uniformClass = Opf_U_O_S_Gorka_01_autumn_F;
 	linkedItems[] = 
 	{
 		H_PASGT_basic_olive_F,
@@ -522,7 +462,7 @@ class Opf_O_S_Soldier_6_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_Opf_O_S_Uniform_01_taiga_F;
+	uniformClass = Opf_U_O_S_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
 		G_Balaclava_blk,
@@ -608,7 +548,7 @@ class Opf_O_S_Soldier_7_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Sniper_F0;
-	uniformClass = U_Opf_O_S_Gorka_01_autumn_F;
+	uniformClass = Opf_U_O_S_Gorka_01_autumn_F;
 	linkedItems[] = 
 	{
 		H_Booniehat_mgrn,
@@ -757,7 +697,7 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Partisan";
-	uniformClass = U_Opf_O_S_Uniform_01_sweater_F;
+	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
 	linkedItems[] = 
 	{
 		V_TacChestRig_oli_F,
@@ -833,7 +773,7 @@ class Opf_O_S_Crew_F: Opf_O_S_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	uniformClass = U_Opf_O_S_Uniform_01_sweater_F;
+	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
 	linkedItems[] = 
 	{
 		V_BandollierB_taiga_F,

@@ -1,8 +1,3 @@
-// Arma 3
-class I_G_Soldier_SL_F;
-class I_G_Soldier_M_F;
-// Arma 3 Apex
-class I_C_Soldier_Bandit_3_F;
 // Arma 3 Opposing Forces
 class Opf_I_I_Man_Base_F: I_G_Soldier_F
 {
@@ -17,73 +12,9 @@ class Opf_I_I_Man_Base_F: I_G_Soldier_F
 		G_GUERIL_default
 	};
 };
-class Opf_I_I_Guerilla3_3_F: I_G_Soldier_M_F
-{
-	scope = protected;
-	scopeCurator = private;
-	modelSides[] =
-    {
-        TCivilian,
-        TGuerrila
-    };
-	model = "\A3\Characters_F\Civil\C_Hunter_F.p3d";
-	uniformClass = U_IG_Guerilla3_3_F;
-    hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\hunter_bushman_CO.paa"};
-};
-class Opf_I_I_Uniform_01_hex_F: I_G_Soldier_SL_F
-{
-	scope = protected;
-	scopeCurator = private;
-	uniformClass = U_Opf_I_I_Uniform_01_hex_F;
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_hex_CO.paa",
-		"\A3\Characters_F_Gamma\Civil\Data\c_cloth1_black.paa"
-	};
-    hiddenSelectionsMaterials[] =
-    {
-        "\A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
-        "\A3\Characters_F\Civil\Data\c_cloth1.rvmat"
-    };
-};
-class Opf_I_I_Uniform_01_urb_F: Opf_I_I_Uniform_01_hex_F
-{
-	uniformClass = U_Opf_I_I_Uniform_01_urb_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_urb_CO.paa",
-		"\A3\Characters_F_Gamma\Civil\Data\c_cloth1_black.paa"
-	};
-};
-class Opf_I_I_Uniform_01_ghex_F: Opf_I_I_Uniform_01_hex_F
-{
-	uniformClass = U_Opf_I_I_Uniform_01_ghex_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\officer_tna_CO.paa",
-		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
-	};
-};
-class Opf_I_I_Uniform_01_tshirt_black_F: I_C_Soldier_Bandit_3_F
-{
-	scope = protected;
-	scopeCurator = private;
-	uniformClass = U_Opf_I_I_Uniform_01_tshirt_black_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Opf\Characters_F_Opf\Uniforms\Data\c_cloth1_black_CO.paa",
-		"\A3\Characters_F_Orange\Uniforms\Data\C_Mechanic_01_camo2_CO.paa"
-	};
-};
 class Opf_I_I_Soldier_Base_F: Opf_I_I_Man_Base_F
 {
-	uniformClass = U_Opf_I_I_Uniform_01_tshirt_black_F;
+	uniformClass = Opf_U_I_I_Uniform_01_tshirt_black_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -143,7 +74,7 @@ class Opf_I_I_Soldier_2_F: Opf_I_I_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Militia Leader (Rifle)";
-	uniformClass = U_Opf_I_I_Uniform_01_urb_F;
+	uniformClass = Opf_U_I_I_Uniform_01_urb_F;
 	linkedItems[] = 
 	{
 		V_TacVest_gry,
@@ -314,7 +245,7 @@ class Opf_I_I_Soldier_5_F: Opf_I_I_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Militiaman (Launcher)";
-	uniformClass = U_IG_Guerilla3_3_F;
+	uniformClass = Opf_U_IG_Guerilla3_3_F;
 	backpack = B_FieldPack_cbr_RPG_F;
 	linkedItems[] =
 	{
@@ -368,7 +299,7 @@ class Opf_I_I_Soldier_6_F: Opf_I_I_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Militiaman (UGL)";
-	uniformClass = U_Opf_I_I_Uniform_01_hex_F;
+	uniformClass = Opf_U_I_I_Uniform_01_hex_F;
 	linkedItems[] = 
 	{
 		V_ChestrigF_khk,

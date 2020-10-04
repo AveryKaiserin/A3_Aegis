@@ -4,7 +4,7 @@ class CfgFunctions
 {
 	class A3Opf
 	{
-		tag = "Aegis";
+		tag = "Opf";
 		project = "arma3opf";
 		class Environment
 		{

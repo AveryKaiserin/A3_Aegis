@@ -48,6 +48,4 @@ class CfgVehicles
 		displayName = $STR_A3_M_CfgVehicles_Banner_01_USMC_F0;
 		hiddenSelectionsTextures[] = {"\A3_Marine\Data_F_Marine\Flags\flag_USMC_CO.paa"};
 	};
-    // Deprecated classes
-    #include "deprecated.hpp"
 };

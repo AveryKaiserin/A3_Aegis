@@ -1,7 +1,7 @@
 // Arma 3 Apex
 class Box_NATO_Equip_F;
 // Arma 3 Police
-class Police_Box_POLICE_Equip_F: Box_NATO_Equip_F
+class Box_POLICE_Equip_F: Box_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -14,7 +14,7 @@ class Police_Box_POLICE_Equip_F: Box_NATO_Equip_F
 		init = "''";
 	};
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\Box_POLICE_Equip_F.jpg";
-	displayName = $STR_A3_P_CfgVehicles_Police_Box_POLICE_Equip_F0;
+	displayName = $STR_A3_P_CfgVehicles_Box_POLICE_Equip_F0;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Police\Supplies_F_Police\Ammoboxes\Data\equipment_box_POLICE_CO.paa",
@@ -32,7 +32,7 @@ class Police_Box_POLICE_Equip_F: Box_NATO_Equip_F
 	class TransportWeapons
 	{
 		weap_xx(SMG_03C_black,3);
-        weap_xx(Atlas_arifle_G36C_F,3);
+        weap_xx(arifle_G36C_F,3);
         weap_xx(srifle_DMR_06_black_F,1);
 		weap_xx(hgun_G17_black_F,6);
 	};

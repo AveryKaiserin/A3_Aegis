@@ -4,44 +4,7 @@ class I_Soldier_base_F: SoldierGB
 	class EventHandlers;
 };
 class I_soldier_F: I_Soldier_base_F{};
-// Arma 3 Tacops
-class O_A_officer_F;
 // Arma 3 Opposing Forces
-class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
-{
-    scope = protected;
-    scopeCurator = private;
-	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
-	model = "\A3_Opf\Characters_F_Opf\Uniforms\O_Soldier_02.p3d";
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2,
-		insignia
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
-	};
-	modelSides[] =
-    {
-        TEast,
-        TCivilian,
-        TGuerrila
-    };
-};
-class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
-{
-    scope = protected;
-    scopeCurator = private;
-	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
-	};
-};
 class Opf_I_R_soldier_base_F: I_soldier_F
 {
 	scope = private;
@@ -215,7 +178,7 @@ class Opf_I_R_soldier_MG_F: Opf_I_R_soldier_base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	uniformClass = Opf_U_O_R_CombatUniform_tshirt_arid_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
@@ -393,7 +356,7 @@ class Opf_I_R_soldier_LAT_F: Opf_I_R_soldier_base_F
 	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\I_R_soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	uniformClass = Opf_U_O_R_CombatUniform_tshirt_arid_F;
 	backpack = B_FieldPack_green_IRLAT_F;
 	weapons[] = 
 	{

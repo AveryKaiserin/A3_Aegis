@@ -13,7 +13,6 @@ class CfgMagazines
 		displayName = "Type 66 Mag";
 		ammo = B_762x39_Ball_Green_F;
 	};
-	*/
     class 80Rnd_23mm_Shells: VehicleMagazine
     {
 		author = $STR_A3_A_AveryTheKitty;
@@ -43,4 +42,5 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		ammo = B_23mm_AA_Tracer_Yellow;
     };
+	*/
 };

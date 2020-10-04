@@ -1,6 +1,0 @@
-DEPRECATED_CLASS(H_Booniehat_desert,Marine_H_Booniehat_desert)
-DEPRECATED_CLASS(H_Booniehat_desert_hs,Marine_H_Booniehat_desert_hs)
-DEPRECATED_CLASS(H_Booniehat_mwdl,Marine_H_Booniehat_mwdl)
-DEPRECATED_CLASS(H_Booniehat_mwdl_hs,Marine_H_Booniehat_mwdl_hs)
-DEPRECATED_CLASS(H_MilCap_desert,Marine_H_MilCap_desert)
-DEPRECATED_CLASS(H_MilCap_mwdl,Marine_H_MilCap_mwdl)

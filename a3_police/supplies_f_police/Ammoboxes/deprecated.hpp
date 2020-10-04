@@ -1,1 +1,0 @@
-DEPRECATED_CLASS(Box_POLICE_Equip_F,Police_Box_POLICE_Equip_F)

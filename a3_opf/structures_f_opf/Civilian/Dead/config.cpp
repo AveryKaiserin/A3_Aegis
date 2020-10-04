@@ -27,7 +27,7 @@ class CfgVehicles
 		keepHorizontalPlacement = false;
 		class EventHandlers
 		{
-			init = "[getPos (_this#0)] call Aegis_fnc_flies";
+			init = "[getPos (_this#0)] call Opf_fnc_flies";
 		};
 	};
 };

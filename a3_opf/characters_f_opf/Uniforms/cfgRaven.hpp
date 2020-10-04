@@ -1,4 +1,4 @@
-class U_O_R_CombatUniform_tshirt_taiga_F: Uniform_Base
+class Opf_U_O_R_CombatUniform_tshirt_taiga_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class U_O_R_CombatUniform_tshirt_taiga_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_R_Fatigues_01_Tshirt_taiga_F;
+		uniformClass = Opf_O_R_Fatigues_01_Tshirt_taiga_F;
 		containerClass = Supply40;
 		mass = 60;
 	};
 };
-class U_O_R_CombatUniform_tshirt_arid_F: Uniform_Base
+class Opf_U_O_R_CombatUniform_tshirt_arid_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,7 +27,7 @@ class U_O_R_CombatUniform_tshirt_arid_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_R_Fatigues_01_Tshirt_arid_F;
+		uniformClass = Opf_O_R_Fatigues_01_Tshirt_arid_F;
 		containerClass = Supply40;
 		mass = 60;
 	};

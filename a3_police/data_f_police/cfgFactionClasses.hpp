@@ -2,7 +2,7 @@ class CfgFactionClasses
 {
 	class Police_IND_P_F
 	{
-		displayName = $STR_A3_P_CfgFactionClasses_Police_IND_P_F0;
+		displayName = $STR_A3_P_CfgFactionClasses_IND_P_F0;
 		priority = 3;
 		side = TGuerrila;
 		icon = "\A3_Police\Data_F_Police\FactionIcons\icon_Police_CA.paa";

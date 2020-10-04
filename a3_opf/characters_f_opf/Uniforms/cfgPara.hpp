@@ -1,4 +1,4 @@
-class U_O_ParamilitaryBody: Uniform_Base
+class Opf_U_O_ParamilitaryBody: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,7 +10,7 @@ class U_O_ParamilitaryBody: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_P_soldier_1_F;
+		uniformClass = Opf_O_P_soldier_1_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
