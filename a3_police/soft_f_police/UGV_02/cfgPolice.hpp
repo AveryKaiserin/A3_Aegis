@@ -21,12 +21,12 @@ class Police_I_P_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F0;
+	displayName = $STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F0;
 	faction = Police_IND_P_F;
 	picture = "\A3\Supplies_F_Enoch\Bags\Data\UI\icon_I_UGV_02_demining_CA.paa";
 	class assembleInfo: assembleInfo
 	{
-		displayName = $STR_A3_P_CfgVehicles_Police_I_P_UGV_02_Demining_backpack_F_assembleInfo0;
+		displayName = $STR_A3_P_CfgVehicles_I_P_UGV_02_Demining_backpack_F_assembleInfo0;
 		assembleTo = Police_I_P_UGV_02_Demining_F;
 	};
 };

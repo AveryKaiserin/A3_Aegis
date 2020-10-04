@@ -272,6 +272,30 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Israel_CO.paa'";
 		};
 	};
+	class Flag_Sahrani_F: FlagCarrier
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Sahrani_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Flag_Sahrani_F0;
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Sahrani_CO.paa'";
+		};
+	};
 	class Banner_01_base_F;
 	class Banner_01_CDF_F: Banner_01_base_F
 	{

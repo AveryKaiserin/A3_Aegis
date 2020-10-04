@@ -2079,7 +2079,7 @@
 					<Japanese>軍団</Japanese>
 					<Turkish>Lejyonerler</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_E_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_G_F0">
 					<Original>Germany</Original>
 					<Chinese>德國</Chinese>
 					<French>Allemagne</French>
@@ -2096,7 +2096,7 @@
 					<Japanese>ドイツ</Japanese>
 					<Turkish>Almanya</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_BLU_O_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_A_F1">
 					<Original>ADF</Original>
 					<Chinese>ADF</Chinese>
 					<French>ADF</French>
@@ -2130,6 +2130,23 @@
 					<Japanese>HIMF</Japanese>
 					<Turkish>HIMF</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_J_F0">
+					<Original>JSDF</Original>
+					<Chinese>JSDF</Chinese>
+					<French>JSDF</French>
+					<Spanish>JSDF</Spanish>
+					<Italian>JSDF</Italian>
+					<Polish>JSDF</Polish>
+					<Russian>JSDF</Russian>
+					<German>JSDF</German>
+					<Czech>JSDF</Czech>
+					<English>JSDF</English>
+					<Portuguese>JSDF</Portuguese>
+					<Korean>JSDF</Korean>
+					<Chinesesimp>JSDF</Chinesesimp>
+					<Japanese>JSDF</Japanese>
+					<Turkish>JSDF</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_C_F0">
 					<Original>ACR</Original>
 					<Chinese>ACR</Chinese>
@@ -2147,7 +2164,24 @@
 					<Japanese>ACR</Japanese>
 					<Turkish>ACR</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_OPF_C_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_I_F0">
+					<Original>Italy</Original>
+					<Chinese>Italy</Chinese>
+					<French>Italy</French>
+					<Spanish>Italy</Spanish>
+					<Italian>Italy</Italian>
+					<Polish>Italy</Polish>
+					<Russian>Italy</Russian>
+					<German>Italy</German>
+					<Czech>Italy</Czech>
+					<English>Italy</English>
+					<Portuguese>Italy</Portuguese>
+					<Korean>Italy</Korean>
+					<Chinesesimp>Italy</Chinesesimp>
+					<Japanese>Italy</Japanese>
+					<Turkish>Italy</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_T_F1">
                     <Original>Takistani Army</Original>
                     <Chinese>Takistani Army</Chinese>
                     <French>Takistani Army</French>
@@ -2164,7 +2198,7 @@
                     <Japanese>Takistani Army</Japanese>
                     <Turkish>Takistani Army</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_OPF_S_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_V_F0">
                     <Original>Venezuela</Original>
                     <Chinese>委內瑞拉</Chinese>
                     <French>Venezuela</French>

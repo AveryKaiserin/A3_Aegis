@@ -27,7 +27,7 @@ class CfgFactionClasses
     /*
 	class Atlas_BLU_A_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F1;
 		priority = 3;
 		side = TWest;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ADF_CA.paa";
@@ -70,7 +70,7 @@ class CfgFactionClasses
     */
 	class Atlas_OPF_T_F
 	{
-		displayName = $STR_A3_A_CfgFactionClasses_OPF_T_F0;
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_T_F1;
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_TKA_CA.paa";

@@ -15,7 +15,7 @@ class CfgGroups
 		side = TWest;
 		class Atlas_BLU_L_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_BLU_L_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_L_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -71,7 +71,7 @@ class CfgGroups
 		};
 		class Atlas_BLU_G_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_BLU_G_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_G_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -324,7 +324,7 @@ class CfgGroups
 		/*
         class Atlas_BLU_A_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_BLU_A_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_A_F1;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -405,7 +405,7 @@ class CfgGroups
         */
 		class Atlas_BLU_H_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_BLU_H_F0;
+			name = $STR_A3_A_CfgFactionClasses_BLU_H_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -492,7 +492,7 @@ class CfgGroups
 		side = TEast;
 		class Atlas_OPF_W_F
 		{
-		  	name = $STR_A3_A_CfgFactionClasses_Atlas_OPF_W_F0;
+		  	name = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -708,7 +708,7 @@ class CfgGroups
 		};
 		class Atlas_OPF_T_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_OPF_T_F0;
+			name = $STR_A3_A_CfgFactionClasses_OPF_T_F1;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -930,12 +930,12 @@ class CfgGroups
         /*
 		class Atlas_IND_C_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_IND_C_F0;
+			name = $STR_A3_A_CfgFactionClasses_IND_C_F0;
 		};
         */
 		class Atlas_IND_I_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_IND_I_F0;
+			name = $STR_A3_A_CfgFactionClasses_IND_I_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -1356,7 +1356,7 @@ class CfgGroups
         /*
 		class Atlas_IND_UNO_F
 		{
-			name = $STR_A3_A_CfgFactionClasses_Atlas_IND_UNO_F0;
+			name = $STR_A3_A_CfgFactionClasses_IND_UNO_F0;
 		};
         */
 	};

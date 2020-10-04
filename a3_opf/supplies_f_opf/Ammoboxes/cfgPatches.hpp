@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class A3_Supplies_F_Ammoboxes
+	class A3_Opf_Supplies_F_Opf_Ammoboxes
 	{
-		addonRootClass = A3_Supplies_F_Opf;
-		requiredAddons[] = {A3_Supplies_F_Opf};
+		addonRootClass = A3_Opf_Supplies_F_Opf;
+		requiredAddons[] = {A3_Opf_Supplies_F_Opf};
 		requiredVersion = 0.1;
 		units[] =
         {
@@ -25,7 +25,10 @@ class CfgPatches
             Box_TKM_Wps_F,
             Box_TKM_WpsLaunch_F
 
-            // Patriots
+            // Preppers
+            Box_Preppers_Wps_F,
+            Box_Preppers_Ammo_F,
+            Box_Preppers_WpsLaunch_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
