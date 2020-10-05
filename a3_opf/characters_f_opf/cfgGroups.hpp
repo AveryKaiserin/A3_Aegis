@@ -87,7 +87,7 @@ class CfgGroups
 		};
 		class Opf_OPF_S_F
 		{
-		  	name = $STR_A3_O_CfgFactionClasses_OPF_E_F0;
+		  	name = $STR_A3_O_CfgFactionClasses_OPF_S_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -165,7 +165,7 @@ class CfgGroups
 		/*
 		class Opf_IND_R_F
 		{
-			name = $STR_A3_O_CfgFactionClasses_Opf_IND_R_F0;
+			name = $STR_A3_O_CfgFactionClasses_IND_R_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -209,7 +209,7 @@ class CfgGroups
 		*/
 		class Opf_IND_I_F
 		{
-		  	name = $STR_A3_O_CfgFactionClasses_Opf_IND_I_F0;
+		  	name = $STR_A3_O_CfgFactionClasses_IND_I_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
