@@ -1,15 +1,4 @@
 // Arma 3 Atlas
-class Atlas_O_T_Fatigues_01_semiarid_F: O_Soldier_F
-{
-    scope = protected;
-    scopeCurator = protected;
-	uniformClass = Atlas_U_O_CombatUniform_semiarid;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
-	};
-};
 class Atlas_O_T_soldier_base_F: O_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -88,14 +77,14 @@ class Atlas_O_T_soldier_A_F: Atlas_O_T_soldier_base_F
 	respawnItems[] = {FirstAidKit};
 	linkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_Beret_ocamo,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	respawnLinkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_Beret_ocamo,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -122,7 +111,7 @@ class Atlas_O_T_soldier_A_F: Atlas_O_T_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = Atlas_B_Carryall_semiarid_Ammo_F;
+	backpack = B_Carryall_semiarid_Ammo_F;
 };
 class Atlas_O_T_soldier_AR_F: Atlas_O_T_soldier_base_F
 {
@@ -146,14 +135,14 @@ class Atlas_O_T_soldier_AR_F: Atlas_O_T_soldier_base_F
 	cost = 220000;
 	linkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	respawnLinkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -204,14 +193,14 @@ class Atlas_O_T_medic_F: Atlas_O_T_soldier_base_F
 	attendant = true;
 	linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_Beret_ocamo,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_Beret_ocamo,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -240,7 +229,7 @@ class Atlas_O_T_medic_F: Atlas_O_T_soldier_base_F
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
-	backpack = Atlas_B_FieldPack_semiarid_Medic_F;
+	backpack = B_FieldPack_semiarid_Medic_F;
 };
 class Atlas_O_T_crew_F: Atlas_O_T_soldier_base_F
 {
@@ -264,14 +253,14 @@ class Atlas_O_T_crew_F: Atlas_O_T_soldier_base_F
     engineer = true;
     linkedItems[] =
     {
-        Atlas_V_BandollierB_tan,
+        V_BandollierB_tan,
         H_Tank_black_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_BandollierB_tan,
+        V_BandollierB_tan,
         H_Tank_black_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -329,14 +318,14 @@ class Atlas_O_T_engineer_F: Atlas_O_T_soldier_base_F
 	camouflage = 1.6;
     linkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_Beret_ocamo,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_Beret_ocamo,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -365,7 +354,7 @@ class Atlas_O_T_engineer_F: Atlas_O_T_soldier_base_F
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
-	backpack = Atlas_B_FieldPack_semiarid_Eng_F;
+	backpack = B_FieldPack_semiarid_Eng_F;
 };
 class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
 {
@@ -388,14 +377,14 @@ class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
 	cost = 200000;
     linkedItems[] =
     {
-        Atlas_V_HarnessOGL_tan,
+        V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_HarnessOGL_tan,
+        V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -457,14 +446,14 @@ class Atlas_O_T_helipilot_F: O_helipilot_F
 	uniformClass = Atlas_U_O_officer_noInsignia_semiarid_F;
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PilotHelmetHeli_O,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PilotHelmetHeli_O,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -511,14 +500,14 @@ class Atlas_O_T_helicrew_F: Atlas_O_T_helipilot_F
 	cost = 80000;
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_CrewHelmetHeli_O,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_CrewHelmetHeli_O,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -566,14 +555,14 @@ class Atlas_O_T_soldier_M_F: Atlas_O_T_soldier_base_F
 	threat[] = {0.8,0.3,0.3};
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -627,14 +616,14 @@ class Atlas_O_T_soldier_AA_F: Atlas_O_T_soldier_base_F
 	secondaryAmmoCoef = 0.5;
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -665,7 +654,7 @@ class Atlas_O_T_soldier_AA_F: Atlas_O_T_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = Atlas_B_FieldPack_semiarid_AA_F;
+	backpack = B_FieldPack_semiarid_AA_F;
 };
 class Atlas_O_T_soldier_AT_F: Atlas_O_T_soldier_base_F
 {
@@ -691,14 +680,14 @@ class Atlas_O_T_soldier_AT_F: Atlas_O_T_soldier_base_F
 	secondaryAmmoCoef = 0.5;
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -729,7 +718,7 @@ class Atlas_O_T_soldier_AT_F: Atlas_O_T_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = Atlas_B_FieldPack_semiarid_AT_F;
+	backpack = B_FieldPack_semiarid_AT_F;
 };
 class Atlas_O_T_officer_F: Atlas_O_T_soldier_base_F
 {
@@ -741,13 +730,13 @@ class Atlas_O_T_officer_F: Atlas_O_T_soldier_base_F
 	cost = 250000;
     linkedItems[] =
     {
-        Atlas_V_Rangemaster_belt_tan,
+        V_Rangemaster_belt_tan,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_Rangemaster_belt_tan,
+        V_Rangemaster_belt_tan,
         H_Beret_CSAT_01_F,
 		DefaultManLinkedItems
     };
@@ -797,14 +786,14 @@ class Atlas_O_T_soldier_F: Atlas_O_T_soldier_base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
     linkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_HarnessO_tan,
+        V_HarnessO_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -856,14 +845,14 @@ class Atlas_O_T_soldier_LAT_F: Atlas_O_T_soldier_base_F
 	secondaryAmmoCoef = 0.5;
     linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -894,7 +883,7 @@ class Atlas_O_T_soldier_LAT_F: Atlas_O_T_soldier_base_F
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
-	backpack = Atlas_B_FieldPack_semiarid_LAT_F;
+	backpack = B_FieldPack_semiarid_LAT_F;
 };
 class Atlas_O_T_soldier_SL_F: Atlas_O_T_soldier_base_F
 {
@@ -917,14 +906,14 @@ class Atlas_O_T_soldier_SL_F: Atlas_O_T_soldier_base_F
 	cost = 250000;
    linkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_TacVest_tan,
+        V_TacVest_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -984,14 +973,14 @@ class Atlas_O_T_soldier_TL_F: Atlas_O_T_soldier_base_F
 	cost = 250000;
     linkedItems[] =
     {
-        Atlas_V_HarnessOGL_tan,
+        V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
-        Atlas_V_HarnessOGL_tan,
+        V_HarnessOGL_tan,
         H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
@@ -1107,19 +1096,19 @@ class Atlas_O_T_RadioOperator_F: Atlas_O_T_soldier_F
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	linkedItems[] =
 	{
-		Atlas_V_HarnessO_tan,
+		V_HarnessO_tan,
 		H_Beret_ocamo,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_HarnessO_tan,
+		V_HarnessO_tan,
 		H_Beret_ocamo,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
-	backpack = Atlas_B_RadioBag_01_semiarid_F;
+	backpack = B_RadioBag_01_semiarid_F;
 	weapons[] =
     {
         arifle_AK12_545_FL_F,

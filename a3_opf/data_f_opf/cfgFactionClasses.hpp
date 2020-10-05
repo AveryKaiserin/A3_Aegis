@@ -2,7 +2,7 @@ class CfgFactionClasses
 {
 	class Opf_OPF_P_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_OPF_P_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_OPF_P_F0;
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_OPF_P_CA.paa";
@@ -10,7 +10,7 @@ class CfgFactionClasses
 	};
 	class Opf_IND_R_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_IND_R_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_IND_R_F0;
 		priority = 3;
 		side = TGuerrila;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_R_CA.paa";
@@ -18,7 +18,7 @@ class CfgFactionClasses
 	};
 	class Opf_OPF_R_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_OPF_R_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_IND_R_F0;
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_R_CA.paa";
@@ -26,7 +26,7 @@ class CfgFactionClasses
 	};
 	class Opf_OPF_S_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_OPF_S_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_OPF_S_F0;
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_OPF_S_CA.paa";
@@ -34,7 +34,7 @@ class CfgFactionClasses
 	};
 	class Opf_OPF_L_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_OPF_L_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_OPF_L_F0;
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_OPF_L_CA.paa";
@@ -42,15 +42,23 @@ class CfgFactionClasses
 	};
 	class Opf_IND_I_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_IND_I_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_IND_I_F0;
 		priority = 3;
 		side = TGuerrila;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_I_CA.paa";
 		flag = "\A3_Opf\Data_F_Opf\Flags\flag_TKM_CO.paa";
 	};
-	class Opf_IND_M_F
+	class Opf_OPF_I_F
 	{
-		displayName = $STR_A3_O_CfgFactionClasses_Opf_IND_P_F0;
+		displayName = $STR_A3_O_CfgFactionClasses_IND_I_F0;
+		priority = 3;
+		side = TEast;
+		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_I_CA.paa";
+		flag = "\A3_Opf\Data_F_Opf\Flags\flag_TKM_CO.paa";
+	};
+	class Opf_IND_P_F
+	{
+		displayName = $STR_A3_O_CfgFactionClasses_IND_P_F0;
 		priority = 3;
 		side = TGuerrila;
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_P_CA.paa";

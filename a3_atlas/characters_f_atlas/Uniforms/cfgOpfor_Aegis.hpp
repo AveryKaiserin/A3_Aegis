@@ -1,4 +1,4 @@
-class U_O_W_CombatUniform_owcamo: Uniform_Base
+class Atlas_U_O_W_CombatUniform_owcamo: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class U_O_W_CombatUniform_owcamo: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_Fatigues_01_whex_F;
+		uniformClass = Atlas_O_Fatigues_01_whex_F;
 		containerClass = Supply40;
 		mass = 80;
 	};
 };
-class U_O_W_PilotCoveralls: Uniform_Base
+class Atlas_U_O_W_PilotCoveralls: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,12 +27,12 @@ class U_O_W_PilotCoveralls: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_PilotCoveralls_01_whex_F;
+		uniformClass = Atlas_O_PilotCoveralls_01_whex_F;
 		containerClass = Supply60;
 		mass = 100;
 	};
 };
-class U_O_W_OfficerUniform: Uniform_Base
+class Atlas_U_O_W_OfficerUniform: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -44,12 +44,12 @@ class U_O_W_OfficerUniform: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_OfficerFatigues_01_whex_F;
+		uniformClass = Atlas_O_OfficerFatigues_01_whex_F;
 		containerClass = Supply40;
 		mass = 60;
 	};
 };
-class U_O_officer_noInsignia_whex_F: Uniform_Base
+class Atlas_U_O_officer_noInsignia_whex_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -61,7 +61,7 @@ class U_O_officer_noInsignia_whex_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_LightFatigues_01_whex_F;
+		uniformClass = Atlas_O_LightFatigues_01_whex_F;
 		containerClass = Supply40;
 		mass = 60;
 	};

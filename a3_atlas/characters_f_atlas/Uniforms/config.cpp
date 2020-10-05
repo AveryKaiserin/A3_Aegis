@@ -22,4 +22,6 @@ class CfgWeapons
 	/*
     #include "cfgUNO.hpp"				// UNO
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

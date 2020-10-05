@@ -212,7 +212,7 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
 	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
-	backpack = B_FieldPack_green_OEMedic_F;
+	backpack = B_FieldPack_green_OSMedic_F;
 	linkedItems[] = 
 	{
 		V_TacVest_grn,
@@ -383,7 +383,7 @@ class Opf_O_S_Soldier_5_F: Opf_O_S_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
 	uniformClass = U_O_R_Gorka_01_F;
-	backpack = B_FieldPack_green_OERPG_AT_F;
+	backpack = B_FieldPack_green_OSRPG_AT_F;
 	linkedItems[] = 
 	{
 		G_Balaclava_blk,
@@ -618,7 +618,7 @@ class Opf_O_S_Soldier_8_F: Opf_O_S_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgRoles_Sapper0;
 	uniformClass = U_C_E_LooterJacket_01_F;
-	backpack = B_FieldPack_green_OEExp_F;
+	backpack = B_FieldPack_green_OSExp_F;
 	linkedItems[] = 
 	{
 		V_ChestrigF_rgr,

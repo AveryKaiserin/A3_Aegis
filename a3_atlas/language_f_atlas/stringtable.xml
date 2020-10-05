@@ -2215,7 +2215,7 @@
                     <Japanese>ベネズエラ</Japanese>
                     <Turkish>Venezuela</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_IND_W_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_C_F0">
 					<Original>CDF</Original>
 					<Chinese>CDF</Chinese>
 					<French>CDF</French>
@@ -2266,7 +2266,7 @@
 					<Japanese>UNO</Japanese>
 					<Turkish>UNO</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgFactionClasses_IND_S_F0">
+				<Key ID="STR_A3_A_CfgFactionClasses_IND_R_F0">
 					<Original>RACS</Original>
 					<Chinese>RACS</Chinese>
 					<French>RACS</French>

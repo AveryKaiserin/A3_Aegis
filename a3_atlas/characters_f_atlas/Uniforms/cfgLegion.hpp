@@ -7,7 +7,7 @@ class U_B_CombatUniform_sgg: Uniform_Base
     hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_CO.paa"};
     class ItemInfo: UniformItem
     {
-        uniformClass = B_CombatFatigues_sage_F;
+        uniformClass = Atlas_B_CombatFatigues_sage_F;
     };
 };
 class U_B_CombatUniform_sgg_tshirt: Uniform_Base
@@ -18,7 +18,7 @@ class U_B_CombatUniform_sgg_tshirt: Uniform_Base
     hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_CO.paa"};
     class ItemInfo: UniformItem
     {
-        uniformClass = B_CombatFatigues_01_Tshirt_sage_F;
+        uniformClass = Atlas_B_CombatFatigues_01_Tshirt_sage_F;
     };
 };
 class U_B_CombatUniform_sgg_vest: Uniform_Base
@@ -29,6 +29,6 @@ class U_B_CombatUniform_sgg_vest: Uniform_Base
     hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_sage_CO.paa"};
     class ItemInfo: UniformItem
     {
-        uniformClass = B_ReconFatigues_01_sage_F;
+        uniformClass = Atlas_B_ReconFatigues_01_sage_F;
     };
 };

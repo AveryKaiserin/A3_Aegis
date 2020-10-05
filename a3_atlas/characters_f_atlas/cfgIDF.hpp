@@ -1,20 +1,9 @@
-// Arma 3
-class I_soldier_lite_F;
-class I_officer_F;
-class I_diver_F;
-class I_sniper_F;
 // Arma 3 Atlas
-class I_I_CBRN_Man_Oversuit_01_Olive_F: B_CBRN_Man_Oversuit_01_MTP_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	uniformClass = U_I_I_CBRN_Suit_01_Olive_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Olive_CO.paa"};
-};
-class I_I_Man_Base_F: I_soldier_F
+class Atlas_I_I_Man_Base_F: I_soldier_F
 {
     scope = private;
     scopeCurator = private;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	genericNames = IDFMen;
 	identityTypes[] =
 	{
@@ -23,95 +12,18 @@ class I_I_Man_Base_F: I_soldier_F
 		G_IDF_default
 	};
 };
-class I_I_CombatFatigues_01_olive_F: I_soldier_F
+class Atlas_I_I_Soldier_Base_F: Atlas_I_I_Man_Base_F
 {
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_I_CombatUniform_olive;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 };
-class I_I_CombatFatigues_01_RolledUp_olive_F: I_soldier_lite_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
-};
-class I_I_GhillieSuit_01_F: I_sniper_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_I_GhillieSuit;
-	hiddenSelections[] =
-    {
-		camo,
-		camo3,
-		insignia
-    };
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa",
-        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ghillie_olive_CO.paa"
-    };
-};
-class I_I_OfficerFatigues_01_F: I_officer_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_I_OfficerUniform;
-	hiddenSelections[] =
-    {
-		camo1,
-		camo2,
-		insignia
-    };
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Officer_01_CO.paa",
-        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"
-    };
-	hiddenSelectionsMaterials[] =
-    {
-        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Officer_01.rvmat",
-        "\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
-    };
-};
-class I_I_Coveralls_01_olive_F: I_Story_Crew_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_Tank_olive_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_olive_CO.paa"};
-};
-class I_I_Wetsuit_01_F: I_diver_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_I_I_Wetsuit;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_suit_olive_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa"
-	};
-	hiddenUnderwaterSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_olive_CO.paa",
-		"\A3\Characters_F\Data\visors_CA.paa"
-	};
-};
-class I_I_Soldier_Base_F: I_I_Man_Base_F
-{
-	uniformClass = U_I_I_CombatUniform_olive;
-};
-class I_I_Soldier_A_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_A_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+    uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -155,14 +67,14 @@ class I_I_Soldier_A_F: I_I_Soldier_Base_F
 	};
 	cost = 110000;
 };
-class I_I_soldier_AAR_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_O_SOLDIERU_AAR_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -210,14 +122,14 @@ class I_I_soldier_AAR_F: I_I_Soldier_Base_F
 	};
 	role = Assistant;
 };
-class I_I_soldier_AAA_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAA_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -266,14 +178,14 @@ class I_I_soldier_AAA_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_soldier_AAT_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -322,14 +234,14 @@ class I_I_soldier_AAT_F: I_I_Soldier_Base_F
 	cost = 130000;
 	role = Assistant;
 };
-class I_I_support_AMG_F: I_I_Soldier_Base_F
+class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_AMG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMG_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacChestrig_oli_F,
@@ -344,7 +256,7 @@ class I_I_support_AMG_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_HMG_01_support_F;
+	backpack = Atlas_I_I_HMG_01_support_F;
 	weapons[] =
 	{
 		arifle_TRG20_black_ACO_pointer_F,
@@ -378,14 +290,14 @@ class I_I_support_AMG_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_support_AMort_F: I_I_Soldier_Base_F
+class Atlas_I_I_support_AMort_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_AMort_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMort_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacChestrig_oli_F,
@@ -400,7 +312,7 @@ class I_I_support_AMort_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_Mortar_01_support_F;
+	backpack = Atlas_I_I_Mortar_01_support_F;
 	weapons[] =
 	{
 		arifle_TRG20_black_ACO_pointer_F,
@@ -434,7 +346,7 @@ class I_I_support_AMort_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_Soldier_AR_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -452,7 +364,7 @@ class I_I_Soldier_AR_F: I_I_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+    uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -498,7 +410,7 @@ class I_I_Soldier_AR_F: I_I_Soldier_Base_F
 	role = MachineGunner;
 	threat[] = {1,0.1,0.3};
 };
-class I_I_medic_F: I_I_Soldier_Base_F
+class Atlas_I_I_medic_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -516,7 +428,7 @@ class I_I_medic_F: I_I_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-    uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+    uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -566,7 +478,7 @@ class I_I_medic_F: I_I_Soldier_Base_F
 	picture = pictureHeal;
 	role = CombatLifeSaver;
 };
-class I_I_crew_F: I_I_Soldier_Base_F
+class Atlas_I_I_crew_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_crew_F.jpg";
@@ -619,14 +531,14 @@ class I_I_crew_F: I_I_Soldier_Base_F
 	cost = 90000;
 	role = Crewman;
 };
-class I_I_engineer_F: I_I_Soldier_Base_F
+class Atlas_I_I_engineer_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -680,14 +592,14 @@ class I_I_engineer_F: I_I_Soldier_Base_F
     role = Sapper;
 	threat[] = {1,0.5,0.1};
 };
-class I_I_soldier_exp_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_exp_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_exp_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_heavy_Olive_F,
@@ -739,21 +651,21 @@ class I_I_soldier_exp_F: I_I_Soldier_Base_F
 	picture = pictureExplosive;
 	role = Sapper;
 };
-class I_I_soldier_mine_F: I_I_soldier_exp_F
+class Atlas_I_I_soldier_mine_F: Atlas_I_I_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_oli_Mine;
 };
-class I_I_Soldier_GL_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Olive_F,
@@ -801,14 +713,14 @@ class I_I_Soldier_GL_F: I_I_Soldier_Base_F
 	cost = 200000;
     role = Grenadier;
 };
-class I_I_support_GMG_F: I_I_Soldier_Base_F
+class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_GMG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_GMG_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacChestrig_oli_F,
@@ -823,7 +735,7 @@ class I_I_support_GMG_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_GMG_01_weapon_F;
+	backpack = Atlas_I_I_GMG_01_weapon_F;
 	weapons[] =
 	{
 		arifle_TRG20_black_ACO_pointer_F,
@@ -857,14 +769,14 @@ class I_I_support_GMG_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_support_MG_F: I_I_Soldier_Base_F
+class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_MG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_MG_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacChestrig_oli_F,
@@ -879,7 +791,7 @@ class I_I_support_MG_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_HMG_01_weapon_F;
+	backpack = Atlas_I_I_HMG_01_weapon_F;
 	weapons[] =
 	{
 		arifle_TRG20_black_ACO_pointer_F,
@@ -913,14 +825,14 @@ class I_I_support_MG_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_support_Mort_F: I_I_Soldier_Base_F
+class Atlas_I_I_support_Mort_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_Mort_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacChestrig_oli_F,
@@ -935,7 +847,7 @@ class I_I_support_Mort_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_Mortar_01_weapon_F;
+	backpack = Atlas_I_I_Mortar_01_weapon_F;
 	weapons[] =
 	{
 		arifle_TRG20_black_ACO_pointer_F,
@@ -969,7 +881,7 @@ class I_I_support_Mort_F: I_I_Soldier_Base_F
 	cost = 220000;
 	role = Assistant;
 };
-class I_I_helipilot_F: I_I_Soldier_Base_F
+class Atlas_I_I_helipilot_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1032,7 +944,7 @@ class I_I_helipilot_F: I_I_Soldier_Base_F
 	cost = 160000;
 	role = Crewman;
 };
-class I_I_helicrew_F: I_I_Soldier_Base_F
+class Atlas_I_I_helicrew_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1095,14 +1007,14 @@ class I_I_helicrew_F: I_I_Soldier_Base_F
 	cost = 80000;
 	role = Crewman;
 };
-class I_I_soldier_M_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_M_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1148,7 +1060,7 @@ class I_I_soldier_M_F: I_I_Soldier_Base_F
 	cost = 250000;
 	role = Marksman;
 };
-class I_I_soldier_AA_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_AA_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1166,7 +1078,7 @@ class I_I_soldier_AA_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1217,7 +1129,7 @@ class I_I_soldier_AA_F: I_I_Soldier_Base_F
 	role = MissileSpecialist;
 	threat[] = {1,0.7,0.3};
 };
-class I_I_soldier_AT_F: I_I_Soldier_Base_F
+class Atlas_I_I_soldier_AT_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1235,7 +1147,7 @@ class I_I_soldier_AT_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1286,7 +1198,7 @@ class I_I_soldier_AT_F: I_I_Soldier_Base_F
 	role = MissileSpecialist;
 	threat[] = {1,0.7,0.3};
 };
-class I_I_officer_F: I_I_Soldier_Base_F
+class Atlas_I_I_officer_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1310,7 +1222,7 @@ class I_I_officer_F: I_I_Soldier_Base_F
 		G_NATO_casual
 	};
     displayName = $STR_B_officer_F0;
-	uniformClass = U_I_I_OfficerUniform;
+	uniformClass = Atlas_U_I_I_OfficerUniform;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt,
@@ -1356,14 +1268,14 @@ class I_I_officer_F: I_I_Soldier_Base_F
 	icon = iconManOfficer;
     role = Rifleman;
 };
-class I_I_Soldier_repair_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_repair_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_repair_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_Soldier_repair_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1413,14 +1325,14 @@ class I_I_Soldier_repair_F: I_I_Soldier_Base_F
 	picture = pictureRepair;
 	role = Sapper;
 };
-class I_I_Soldier_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1463,7 +1375,7 @@ class I_I_Soldier_F: I_I_Soldier_Base_F
 	};
 	cost = 100000;
 };
-class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_LAT_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1481,7 +1393,7 @@ class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1533,7 +1445,7 @@ class I_I_Soldier_LAT_F: I_I_Soldier_Base_F
 	secondaryAmmoCoef = 0.5;
 	threat[] = {0.8,0.8,0.3};
 };
-class I_I_Soldier_lite_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_lite_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_lite_F.jpg";
@@ -1546,7 +1458,7 @@ class I_I_Soldier_lite_F: I_I_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_Olive_F,
@@ -1584,7 +1496,7 @@ class I_I_Soldier_lite_F: I_I_Soldier_Base_F
 	camouflage = 1.2;
 	role = Rifleman;
 };
-class I_I_Soldier_CQ_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_CQ_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_CQ_F.jpg";
@@ -1636,14 +1548,14 @@ class I_I_Soldier_CQ_F: I_I_Soldier_Base_F
     cost = 130000;
     threat[] = {1,0.3,0.1};
 };
-class I_I_Soldier_SL_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_SL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1699,14 +1611,14 @@ class I_I_Soldier_SL_F: I_I_Soldier_Base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class I_I_Soldier_TL_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_TL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = U_I_I_CombatUniform_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_heavy_Olive_F,
@@ -1766,14 +1678,14 @@ class I_I_Soldier_TL_F: I_I_Soldier_Base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class I_I_Soldier_UAV_F: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_UAV_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_UAV_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
-    uniformClass = U_I_I_CombatUniform_olive;
+    uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1790,7 +1702,7 @@ class I_I_Soldier_UAV_F: I_I_Soldier_Base_F
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = I_I_UAV_01_backpack_F;
+	backpack = Atlas_I_I_UAV_01_backpack_F;
 	weapons[] =
     {
 		arifle_TRG20_black_ACO_pointer_F,
@@ -1821,35 +1733,35 @@ class I_I_Soldier_UAV_F: I_I_Soldier_Base_F
     cost = 150000;
 	role = SpecialOperative;
 };
-class I_I_soldier_UAV_06_F: I_I_Soldier_UAV_F
+class Atlas_I_I_soldier_UAV_06_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
-	backpack = I_I_UAV_06_backpack_F;
+	backpack = Atlas_I_I_UAV_06_backpack_F;
 };
-class I_I_soldier_UAV_06_medical_F: I_I_Soldier_UAV_F
+class Atlas_I_I_soldier_UAV_06_medical_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
-	backpack = I_I_UAV_06_medical_backpack_F;
+	backpack = Atlas_I_I_UAV_06_medical_backpack_F;
 };
-class I_I_soldier_UGV_02_Demining_F: I_I_Soldier_UAV_F
+class Atlas_I_I_soldier_UGV_02_Demining_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
-	backpack = I_I_UGV_02_Demining_backpack_F;
+	backpack = Atlas_I_I_UGV_02_Demining_backpack_F;
 };
-class I_I_Soldier_CBRN_F: I_I_Soldier_F
+class Atlas_I_I_Soldier_CBRN_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_CBRN_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
-	uniformClass = U_I_I_CBRN_Suit_01_Olive_F;
+	uniformClass = Atlas_U_I_I_CBRN_Suit_01_Olive_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1906,12 +1818,12 @@ class I_I_Soldier_CBRN_F: I_I_Soldier_F
 		};
 	};
 };
-class I_I_RadioOperator_F: I_I_Soldier_F
+class Atlas_I_I_RadioOperator_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_F,
@@ -1954,7 +1866,7 @@ class I_I_RadioOperator_F: I_I_Soldier_F
         mag_2(SmokeShell)
     };
 };
-class I_I_Soldier_diver_base: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_diver_base: Atlas_I_I_Soldier_Base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SpeechVariants
@@ -1974,14 +1886,14 @@ class I_I_Soldier_diver_base: I_I_Soldier_Base_F
 		Head_IDF,
 		G_IDF_diver
 	};
-	uniformClass = U_I_I_Wetsuit;
+	uniformClass = Atlas_U_I_I_Wetsuit;
     vehicleClass = MenDiver;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
 	role = SpecialOperative;
 	camouflage = 2;
 	canHideBodies = false;
 };
-class I_I_diver_F: I_I_Soldier_diver_base
+class Atlas_I_I_diver_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_F.jpg";
@@ -2030,7 +1942,7 @@ class I_I_diver_F: I_I_Soldier_diver_base
     };
     cost = 70000;
 };
-class I_I_diver_exp_F: I_I_Soldier_diver_base
+class Atlas_I_I_diver_exp_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_exp_F.jpg";
@@ -2082,7 +1994,7 @@ class I_I_diver_exp_F: I_I_Soldier_diver_base
     cost = 90000;
 	icon = iconManExplosive;
 };
-class I_I_diver_TL_F: I_I_Soldier_diver_base
+class Atlas_I_I_diver_TL_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_TL_F.jpg";
@@ -2138,7 +2050,7 @@ class I_I_diver_TL_F: I_I_Soldier_diver_base
     cost = 430000;
 	icon = iconManLeader;
 };
-class I_I_Soldier_recon_base: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_recon_base: Atlas_I_I_Soldier_Base_F
 {
     class SpeechVariants
     {
@@ -2175,14 +2087,14 @@ class I_I_Soldier_recon_base: I_I_Soldier_Base_F
 	camouflage = 0.6;
 	detectSkill = 18;
 };
-class I_I_recon_AR_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_AR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_AR_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	items[] =
 	{
 		FirstAidKit,
@@ -2242,14 +2154,14 @@ class I_I_recon_AR_F: I_I_Soldier_recon_base
 	role = MachineGunner;
     threat[] = {1,0.1,0.3};
 };
-class I_I_recon_exp_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_exp_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_exp_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_exp_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	backpack = B_Kitbag_blk_IIReconExp_F;
 	linkedItems[] =
 	{
@@ -2305,7 +2217,7 @@ class I_I_recon_exp_F: I_I_Soldier_recon_base
 	picture = pictureExplosive;
 	role = Sapper;
 };
-class I_I_recon_GL_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_GL_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_GL_F.jpg";
@@ -2363,14 +2275,14 @@ class I_I_recon_GL_F: I_I_Soldier_recon_base
 	cost = 200000;
 	role = Grenadier;
 };
-class I_I_recon_JTAC_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_JTAC_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_JTAC_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_JTAC_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	backpack = B_RadioBag_01_black_F;
 	linkedItems[] =
 	{
@@ -2428,7 +2340,7 @@ class I_I_recon_JTAC_F: I_I_Soldier_recon_base
     };
 	role = SpecialOperative;
 };
-class I_I_recon_M_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_M_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -2511,14 +2423,14 @@ class I_I_recon_M_F: I_I_Soldier_recon_base
 	secondaryAmmoCoef = 0.05;
 	handgunAmmoCoef = 0.1;
 };
-class I_I_recon_medic_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_medic_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_medic_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	backpack = B_AssaultPack_blk_IIReconMedic_F;
 	linkedItems[] =
 	{
@@ -2576,14 +2488,14 @@ class I_I_recon_medic_F: I_I_Soldier_recon_base
 	role = CombatLifeSaver;
     threat[] = {1,0.1,0.3};
 };
-class I_I_recon_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_recon_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacVest_blk,
@@ -2631,7 +2543,7 @@ class I_I_recon_F: I_I_Soldier_recon_base
         mag_2(Chemlight_green)
     };
 };
-class I_I_recon_LAT_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_LAT_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_LAT_F.jpg";
@@ -2693,14 +2605,14 @@ class I_I_recon_LAT_F: I_I_Soldier_recon_base
 	icon = iconManAT;
 	role = MissileSpecialist;
 };
-class I_I_recon_TL_F: I_I_Soldier_recon_base
+class Atlas_I_I_recon_TL_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_TL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_TL_F0;
-	uniformClass = U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
 		V_TacVest_blk,
@@ -2756,7 +2668,7 @@ class I_I_recon_TL_F: I_I_Soldier_recon_base
 	role = Rifleman;
     threat[] = {1,0.1,0.3};
 };
-class I_I_Soldier_sniper_base: I_I_Soldier_Base_F
+class Atlas_I_I_Soldier_sniper_base: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SpeechVariants
@@ -2776,7 +2688,7 @@ class I_I_Soldier_sniper_base: I_I_Soldier_Base_F
 		Head_IDF,
 		G_NATO_sniper
 	};
-	uniformClass = U_I_I_GhillieSuit;
+	uniformClass = Atlas_U_I_I_GhillieSuit;
     vehicleClass = MenSniper;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
 	items[] =
@@ -2797,7 +2709,7 @@ class I_I_Soldier_sniper_base: I_I_Soldier_Base_F
 	secondaryAmmoCoef = 0.05;
 	handgunAmmoCoef = 0.1;
 };
-class I_I_spotter_F: I_I_Soldier_sniper_base
+class Atlas_I_I_spotter_F: Atlas_I_I_Soldier_sniper_base
 {
 	author = $STR_A3_AveryTheKitty;
 	class SpeechVariants
@@ -2882,7 +2794,7 @@ class I_I_spotter_F: I_I_Soldier_sniper_base
 	role = Marksman;
 	threat[] = {0.8,0.1,0.1};
 };
-class I_I_sniper_F: I_I_Soldier_sniper_base
+class Atlas_I_I_sniper_F: Atlas_I_I_Soldier_sniper_base
 {
 	author = $STR_A3_AveryTheKitty;
 	class SpeechVariants
@@ -2950,7 +2862,7 @@ class I_I_sniper_F: I_I_Soldier_sniper_base
 	camouflage = 0.6;
 	role = Marksman;
 };
-class I_I_Survivor_F: I_I_Soldier_F
+class Atlas_I_I_Survivor_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Survivor_F.jpg";
@@ -2965,7 +2877,7 @@ class I_I_Survivor_F: I_I_Soldier_F
 	respawnLinkedItems[] = {};
 	role = Unarmed;
 };
-class I_I_Soldier_universal_F: I_I_Soldier_F
+class Atlas_I_I_Soldier_universal_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -2986,7 +2898,7 @@ class I_I_Soldier_universal_F: I_I_Soldier_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class I_I_Soldier_unarmed_F: I_I_Soldier_F
+class Atlas_I_I_Soldier_unarmed_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
@@ -3009,7 +2921,7 @@ class I_I_Soldier_unarmed_F: I_I_Soldier_F
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
-class I_I_Fighter_Pilot_F: I_I_Soldier_Base_F
+class Atlas_I_I_Fighter_Pilot_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants

@@ -1,4 +1,4 @@
-class U_C_Uniform_01_shirt_pattern_F: Uniform_Base
+class Atlas_U_C_Uniform_01_shirt_pattern_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -10,12 +10,12 @@ class U_C_Uniform_01_shirt_pattern_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_Uniform_01_shirt_pattern_F;
+        uniformClass = Atlas_C_Uniform_01_shirt_pattern_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_Uniform_01_shirt_striped_F: Uniform_Base
+class Atlas_U_C_Uniform_01_shirt_striped_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -27,12 +27,12 @@ class U_C_Uniform_01_shirt_striped_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_Uniform_01_shirt_striped_F;
+        uniformClass = Atlas_C_Uniform_01_shirt_striped_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_Uniform_01_shirt_white_F: Uniform_Base
+class Atlas_U_C_Uniform_01_shirt_white_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -44,12 +44,12 @@ class U_C_Uniform_01_shirt_white_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_Uniform_01_shirt_white_F;
+        uniformClass = Atlas_C_Uniform_01_shirt_white_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_CommonerJacket_01_marroon_F: Uniform_Base
+class Atlas_U_C_CommonerJacket_01_marroon_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -61,12 +61,12 @@ class U_C_CommonerJacket_01_marroon_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_CommonerJacket_01_marroon_F;
+        uniformClass = Atlas_C_CommonerJacket_01_marroon_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_CommonerJacket_01_blue_F: Uniform_Base
+class Atlas_U_C_CommonerJacket_01_blue_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -78,12 +78,12 @@ class U_C_CommonerJacket_01_blue_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_CommonerJacket_01_blue_F;
+        uniformClass = Atlas_C_CommonerJacket_01_blue_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_CommonerJacket_01_grey_F: Uniform_Base
+class Atlas_U_C_CommonerJacket_01_grey_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -95,12 +95,12 @@ class U_C_CommonerJacket_01_grey_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_CommonerJacket_01_grey_F;
+        uniformClass = Atlas_C_CommonerJacket_01_grey_F;
         containerClass = Supply30;
         mass = 30;
 	};
 };
-class U_C_Uniform_01_tshirt_white_F: Uniform_Base
+class Atlas_U_C_Uniform_01_tshirt_white_F: Uniform_Base
 {
     author = $STR_A3_A_AveryTheKitty;
     scope = public;
@@ -112,7 +112,7 @@ class U_C_Uniform_01_tshirt_white_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
         uniformModel = "-";
-        uniformClass = C_Uniform_01_tshirt_white_F;
+        uniformClass = Atlas_C_Uniform_01_tshirt_white_F;
         containerClass = Supply30;
         mass = 30;
 	};

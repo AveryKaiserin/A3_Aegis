@@ -23,7 +23,7 @@ class CfgPatches
             // Insurgents
             Box_TKM_Ammo_F,
             Box_TKM_Wps_F,
-            Box_TKM_WpsLaunch_F
+            Box_TKM_WpsLaunch_F,
 
             // Preppers
             Box_Preppers_Wps_F,

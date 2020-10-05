@@ -1,4 +1,4 @@
-class U_O_CombatUniform_semiarid: Uniform_Base
+class Atlas_U_O_CombatUniform_semiarid: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class U_O_CombatUniform_semiarid: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_C_Fatigues_01_semiarid_F;
+		uniformClass = Atlas_O_Fatigues_01_semiarid_F;
 		containerClass = Supply40;
 		mass = 80;
 	};
 };
-class U_O_officer_noInsignia_semiarid_F: Uniform_Base
+class Atlas_U_O_officer_noInsignia_semiarid_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,7 +27,7 @@ class U_O_officer_noInsignia_semiarid_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = O_C_soldier_F;
+		uniformClass = Atlas_O_T_soldier_F;
 		containerClass = Supply40;
 		mass = 60;
 	};

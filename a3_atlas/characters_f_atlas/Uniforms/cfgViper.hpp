@@ -1,4 +1,4 @@
-class U_O_V_Soldier_Viper_whex_F: Uniform_Base
+class Atlas_U_O_V_Soldier_Viper_whex_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,7 +10,7 @@ class U_O_V_Soldier_Viper_whex_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = U_O_V_SpecialPurposeSuit_01_whex_F;
+		uniformClass = Atlas_U_O_V_SpecialPurposeSuit_01_whex_F;
 		containerClass = Supply20;
 		mass = 120;
 	};

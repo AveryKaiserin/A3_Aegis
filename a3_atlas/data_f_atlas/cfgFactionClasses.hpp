@@ -30,8 +30,8 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F1;
 		priority = 3;
 		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_ADF_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Australia_CO.paa";
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_A_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_ANZAC_CO.paa";
 	};
     */
 	class Atlas_BLU_H_F

@@ -7,11 +7,11 @@ class B_Soldier_F: B_Soldier_base_F{};
 class B_soldier_AR_F;
 class B_Soldier_SL_F;
 // Arma 3 Atlas
-class B_L_Man_Base_F: B_Soldier_F
+class Atlas_B_L_Man_Base_F: B_Soldier_F
 {
     scope = private;
     scopeCurator = private;
-	faction = BLU_L_F;
+	faction = Atlas_BLU_L_F;
 	genericNames = FrenchMen;
 	identityTypes[] =
 	{
@@ -23,43 +23,11 @@ class B_L_Man_Base_F: B_Soldier_F
 		G_NATO_tropic
 	};
 };
-class B_CombatFatigues_sage_F: B_Soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_sgg;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
-	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
-};
-class B_CombatFatigues_01_Tshirt_sage_F: B_Soldier_AR_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_sgg_tshirt;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
-	};
-	hiddenSelectionsMaterials[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat",
-		"\A3\Characters_F\Common\Data\basicbody.rvmat"
-	};
-};
-class B_ReconFatigues_01_sage_F: B_Soldier_SL_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = U_B_CombatUniform_sgg_vest;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
-	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
-};
-class B_L_Soldier_base_F: B_L_Man_Base_F
+class Atlas_B_L_Soldier_base_F: Atlas_B_L_Man_Base_F
 {
 	uniformClass = U_B_CombatUniform_sgg;
 };
-class B_L_Soldier_A_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_A_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_A_F.jpg";
@@ -117,7 +85,7 @@ class B_L_Soldier_A_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_AAR_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AAR_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAA_F.jpg";
@@ -180,7 +148,7 @@ class B_L_Soldier_AAR_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Support_AMG_F: B_L_Soldier_base_F
+class Atlas_B_L_Support_AMG_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_AMG_F.jpg";
@@ -244,7 +212,7 @@ class B_L_Support_AMG_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Support_AMort_F: B_L_Soldier_base_F
+class Atlas_B_L_Support_AMort_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_AMort_F.jpg";
@@ -308,7 +276,7 @@ class B_L_Support_AMort_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_AAA_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AAA_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAA_F.jpg";
@@ -372,7 +340,7 @@ class B_L_Soldier_AAA_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_AAT_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AAT_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_AAT_F.jpg";
@@ -436,7 +404,7 @@ class B_L_Soldier_AAT_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_AR_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AR_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -500,7 +468,7 @@ class B_L_Soldier_AR_F: B_L_Soldier_base_F
 	role = MachineGunner;
 	threat[] = {1,0.1,0.3};
 };
-class B_L_Medic_F: B_L_Soldier_base_F
+class Atlas_B_L_Medic_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -576,7 +544,7 @@ class B_L_Medic_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Engineer_F: B_L_Soldier_base_F
+class Atlas_B_L_Engineer_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Engineer_F.jpg";
@@ -645,7 +613,7 @@ class B_L_Engineer_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_Exp_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_Exp_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Exp_F.jpg";
@@ -704,14 +672,14 @@ class B_L_Soldier_Exp_F: B_L_Soldier_base_F
 	picture = pictureExplosive;
 	role = Sapper;
 };
-class B_L_soldier_mine_F: B_L_Soldier_Exp_F
+class Atlas_B_L_soldier_mine_F: Atlas_B_L_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_green_Mine;
 };
-class B_L_Soldier_GL_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_GL_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_GL_F.jpg";
@@ -775,7 +743,7 @@ class B_L_Soldier_GL_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Support_GMG_F: B_L_Soldier_base_F
+class Atlas_B_L_Support_GMG_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_GMG_F.jpg";
@@ -839,7 +807,7 @@ class B_L_Support_GMG_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Support_MG_F: B_L_Soldier_base_F
+class Atlas_B_L_Support_MG_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_MG_F.jpg";
@@ -903,7 +871,7 @@ class B_L_Support_MG_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Support_Mort_F: B_L_Soldier_base_F
+class Atlas_B_L_Support_Mort_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Support_Mort_F.jpg";
@@ -967,7 +935,7 @@ class B_L_Support_Mort_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Helicrew_F: B_L_Soldier_base_F
+class Atlas_B_L_Helicrew_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1030,7 +998,7 @@ class B_L_Helicrew_F: B_L_Soldier_base_F
 		G_NATO_pilot
 	};
 };
-class B_L_Helipilot_F: B_L_Soldier_base_F
+class Atlas_B_L_Helipilot_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1095,7 +1063,7 @@ class B_L_Helipilot_F: B_L_Soldier_base_F
 		G_NATO_pilot
 	};
 };
-class B_L_soldier_M_F: B_L_Soldier_base_F
+class Atlas_B_L_soldier_M_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_soldier_M_F.jpg";
@@ -1156,7 +1124,7 @@ class B_L_soldier_M_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_AA_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AA_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1227,7 +1195,7 @@ class B_L_Soldier_AA_F: B_L_Soldier_base_F
 	role = MissileSpecialist;
 	secondaryAmmoCoef = 0.5;
 };
-class B_L_Soldier_AT_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_AT_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1298,7 +1266,7 @@ class B_L_Soldier_AT_F: B_L_Soldier_base_F
 	role = MissileSpecialist;
 	secondaryAmmoCoef = 0.5;
 };
-class B_L_Officer_F: B_L_Soldier_base_F
+class Atlas_B_L_Officer_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1370,7 +1338,7 @@ class B_L_Officer_F: B_L_Soldier_base_F
 		G_NATO_casual
 	};
 };
-class B_L_Soldier_Repair_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_Repair_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Repair_F.jpg";
@@ -1435,7 +1403,7 @@ class B_L_Soldier_Repair_F: B_L_Soldier_base_F
         G_NATO_casual
 	};
 };
-class B_L_Soldier_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_F.jpg";
@@ -1484,7 +1452,7 @@ class B_L_Soldier_F: B_L_Soldier_base_F
 	};
 	role = Rifleman;
 };
-class B_L_Soldier_LAT_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_LAT_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1554,7 +1522,7 @@ class B_L_Soldier_LAT_F: B_L_Soldier_base_F
 	role = MissileSpecialist;
 	secondaryAmmoCoef = 0.5;
 };
-class B_L_Soldier_Lite_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_Lite_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_Lite_F.jpg";
@@ -1609,7 +1577,7 @@ class B_L_Soldier_Lite_F: B_L_Soldier_base_F
         G_NATO_casual
 	};
 };
-class B_L_Soldier_CQ_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_CQ_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_CQ_F.jpg";
@@ -1664,7 +1632,7 @@ class B_L_Soldier_CQ_F: B_L_Soldier_base_F
     cost = 130000;
     threat[] = {1,0.3,0.1};
 };
-class B_L_Soldier_SL_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_SL_F.jpg";
@@ -1727,7 +1695,7 @@ class B_L_Soldier_SL_F: B_L_Soldier_base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class B_L_Soldier_TL_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_TL_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_TL_F.jpg";
@@ -1794,7 +1762,7 @@ class B_L_Soldier_TL_F: B_L_Soldier_base_F
 	icon = iconManLeader;
 	role = Grenadier;
 };
-class B_L_RadioOperator_F: B_L_Soldier_base_F
+class Atlas_B_L_RadioOperator_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_RadioOperator_F.jpg";
@@ -1853,7 +1821,7 @@ class B_L_RadioOperator_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Survivor_F: B_L_Soldier_F
+class Atlas_B_L_Survivor_F: Atlas_B_L_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Survivor_F.jpg";
@@ -1868,7 +1836,7 @@ class B_L_Survivor_F: B_L_Soldier_F
 	respawnLinkedItems[] = {};
 	role = Unarmed;
 };
-class B_L_Soldier_UAV_F: B_L_Soldier_base_F
+class Atlas_B_L_Soldier_UAV_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Soldier_UAV_F.jpg";
@@ -1931,7 +1899,7 @@ class B_L_Soldier_UAV_F: B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
-class B_L_Soldier_universal_F: B_L_Soldier_F
+class Atlas_B_L_Soldier_universal_F: Atlas_B_L_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -1953,7 +1921,7 @@ class B_L_Soldier_universal_F: B_L_Soldier_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class B_L_Soldier_unarmed_F: B_L_Soldier_F
+class Atlas_B_L_Soldier_unarmed_F: Atlas_B_L_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;

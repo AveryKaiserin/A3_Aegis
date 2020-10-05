@@ -506,7 +506,7 @@
 					<Japanese>レイヴン</Japanese>
 					<Turkish>Kuzgun</Turkish>
 				</Key>
-				<Key ID="STR_A3_O_CfgFactionClasses_OPF_E_F0">
+				<Key ID="STR_A3_O_CfgFactionClasses_OPF_S_F0">
 					<Original>Separatists</Original>
 					<Chinese>Separatists</Chinese>
 					<French>Separatists</French>
@@ -540,7 +540,7 @@
 					<Japanese>Rebels</Japanese>
 					<Turkish>Rebels</Turkish>
 				</Key>
-				<Key ID="STR_A3_O_CfgFactionClasses_IND_T_F0">
+				<Key ID="STR_A3_O_CfgFactionClasses_IND_I_F0">
 					<Original>Insurgents</Original>
 					<Chinese>Insurgents</Chinese>
 					<French>Insurgents</French>
@@ -557,7 +557,7 @@
 					<Japanese>Insurgents</Japanese>
 					<Turkish>Insurgents</Turkish>
 				</Key>
-				<Key ID="STR_A3_O_CfgFactionClasses_IND_M_F0">
+				<Key ID="STR_A3_O_CfgFactionClasses_IND_P_F0">
 					<Original>Preppers</Original>
 					<Chinese>Preppers</Chinese>
 					<French>Preppers</French>

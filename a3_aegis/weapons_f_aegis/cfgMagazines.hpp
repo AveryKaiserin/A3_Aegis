@@ -8,11 +8,23 @@ class CfgMagazines
 	class 30Rnd_65x39_caseless_mag: CA_Magazine
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa"};
-		descriptionShort = "Caliber: 6.5x39 mm - STANAG Caseless<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3";
+		descriptionShort = "Caliber: 6.5x39 mm - STANAG Caseless<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag1*/;
+	};
+	class 30Rnd_65x39_caseless_green: 30Rnd_65x39_caseless_mag
+	{
+		descriptionShort = "Caliber: 6.5x39 mm - Caseless<br />Rounds: 25<br />Used in: Katiba, Type 115" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1*/;
+        displayName = "6.5 mm 25Rnd Caseless Mag" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0*/;
+		count = 25;
 	};
 	class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag
 	{
-		descriptionShort = "Caliber: 6.5x39 mm Tracer - Red<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3";
+		descriptionShort = "Caliber: 6.5x39 mm Tracer - Red<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag_Tracer1*/;
+	};
+	class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green
+	{
+		lastRoundsTracer = 25;
+        displayName = "6.5 mm 25Rnd Tracer (Green) Caseless Mag" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer0*/;
+		descriptionShort = "Caliber: 6.5x39 mm Tracer (Green) - Caseless<br />Rounds: 25<br />Used in: Katiba, Type 115" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer1*/;
 	};
 	class 20Rnd_762x51_Mag: CA_Magazine
 	{
@@ -97,15 +109,15 @@ class CfgMagazines
 	};
 	class B_IR_Grenade: CA_Magazine
     {
-        displayName = "IR Grenade [BLUFOR]";
+        displayName = "IR Grenade [BLUFOR]" /*$STR_A3_A_CfgMagazines_B_IR_Grenade0*/;
     };
 	class O_IR_Grenade: B_IR_Grenade
     {
-        displayName = "IR Grenade [OPFOR]";
+        displayName = "IR Grenade [OPFOR]" /*$STR_A3_A_CfgMagazines_O_IR_Grenade0*/;
     };
 	class I_IR_Grenade: B_IR_Grenade
     {
-        displayName = "IR Grenade [Independent]";
+        displayName = "IR Grenade [Independent]" /*$STR_A3_A_CfgMagazines_I_IR_Grenade0*/;
     };
 	class 1000Rnd_762x51_Belt_T_Red;
 	class 1000Rnd_762x51_Belt_T_Green;

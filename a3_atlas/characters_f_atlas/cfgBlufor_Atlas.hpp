@@ -9,7 +9,6 @@
 */
 
 // Arma 3
-class B_Soldier_04_f;
 class B_Soldier_lite_F;
 class B_Soldier_GL_F;
 class B_Soldier_TL_F;
@@ -49,101 +48,18 @@ class B_HeavyGunner_F;
 class B_Fighter_Pilot_F;
 // Arma 3 Tanks
 class I_Story_Crew_F;
-// Arma 3 Enoch
-class B_CBRN_Man_Oversuit_01_MTP_F;
-class I_E_Uniform_01_F;
-class I_E_Uniform_01_shortsleeve_F;
-class I_E_Uniform_01_tanktop_F;
 // Arma 3 Aegis
 class B_Soldier_CQ_F;
 class B_recon_AR_F;
 class B_recon_GL_F;
 class B_recon_MG_F;
-// BLU_E_F
+// Atlas_BLU_G_F
 // Arma 3 Atlas
-class B_E_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_E_CombatUniform_wdl;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_Pants_CO.paa",
-		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
-	};
-};
-class B_E_CombatFatigues_01_Tshirt_wdl_F: I_E_Uniform_01_tanktop_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_E_CombatUniform_tshirt_wdl;
-	hiddenSelectionsTextures[] =
-	{
-		// "\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_TankTop_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_Pants_CO.paa",
-		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
-	};
-};
-class B_E_CombatFatigues_01_RolledUp_wdl_F: I_E_Uniform_01_shortsleeve_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_E_Soldier_01_Pants_CO.paa"
-		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
-	};
-};
-class B_E_Coveralls_01_F: B_Soldier_04_f
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_E_HeliPilotCoveralls;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_green_CO.paa"};
-};
-class B_E_TankerCoveralls_01_F: I_Story_Crew_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_Tank_wdl_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_wdl_CO.paa"};
-};
-class B_E_Soldier_A_F: B_Soldier_A_F
+class Atlas_B_G_Soldier_A_F: B_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_A_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -154,7 +70,7 @@ class B_E_Soldier_A_F: B_Soldier_A_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Carryall_wdl_BEAmmo_F;
 	weapons[] =
 	{
@@ -197,11 +113,11 @@ class B_E_Soldier_A_F: B_Soldier_A_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AAR_F: B_soldier_AAR_F
+class Atlas_B_G_Soldier_AAR_F: B_soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAR_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -212,7 +128,7 @@ class B_E_Soldier_AAR_F: B_soldier_AAR_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_Kitbag_wdl_BEAAR_F;
 	weapons[] =
 	{
@@ -259,11 +175,11 @@ class B_E_Soldier_AAR_F: B_soldier_AAR_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Support_AMG_F: B_support_AMG_F
+class Atlas_B_G_Support_AMG_F: B_support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMG_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -274,7 +190,7 @@ class B_E_Support_AMG_F: B_support_AMG_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_HMG_01_support_grn_F;
 	weapons[] =
 	{
@@ -319,11 +235,11 @@ class B_E_Support_AMG_F: B_support_AMG_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Support_AMort_F: B_support_AMort_F
+class Atlas_B_G_Support_AMort_F: B_support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMort_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -334,7 +250,7 @@ class B_E_Support_AMort_F: B_support_AMort_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_Mortar_01_support_grn_F;
 	weapons[] =
 	{
@@ -379,11 +295,11 @@ class B_E_Support_AMort_F: B_support_AMort_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AAA_F: B_soldier_AAA_F
+class Atlas_B_G_Soldier_AAA_F: B_soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAA_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -394,7 +310,7 @@ class B_E_Soldier_AAA_F: B_soldier_AAA_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Carryall_wdl_BWAAA_F;
 	weapons[] =
 	{
@@ -441,11 +357,11 @@ class B_E_Soldier_AAA_F: B_soldier_AAA_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AAT_F: B_soldier_AAT_F
+class Atlas_B_G_Soldier_AAT_F: B_soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAT_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -456,7 +372,7 @@ class B_E_Soldier_AAT_F: B_soldier_AAT_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Carryall_wdl_BWAAT_F;
 	weapons[] =
 	{
@@ -503,11 +419,11 @@ class B_E_Soldier_AAT_F: B_soldier_AAT_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AR_F: B_soldier_AR_F
+class Atlas_B_G_Soldier_AR_F: B_soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AR_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -519,7 +435,7 @@ class B_E_Soldier_AR_F: B_soldier_AR_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	weapons[] =
 	{
 		LMG_Mk200_black_LRCO_LP_BI_F,
@@ -561,11 +477,11 @@ class B_E_Soldier_AR_F: B_soldier_AR_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Medic_F: B_medic_F
+class Atlas_B_G_Medic_F: B_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Medic_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -576,7 +492,7 @@ class B_E_Medic_F: B_medic_F
 	};
   	scope = public;
   	scopeCurator = public;
-    uniformClass = U_B_E_CombatUniform_wdl;
+    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_TacticalPack_rgr_BAMedic_F;
 	weapons[] =
 	{
@@ -621,11 +537,11 @@ class B_E_Medic_F: B_medic_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Crew_F: B_crew_F
+class Atlas_B_G_Crew_F: B_crew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Crew_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -678,11 +594,11 @@ class B_E_Crew_F: B_crew_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Engineer_F: B_engineer_F
+class Atlas_B_G_Engineer_F: B_engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Engineer_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -693,7 +609,7 @@ class B_E_Engineer_F: B_engineer_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Kitbag_wdl_BWEng_F;
 	weapons[] =
 	{
@@ -738,11 +654,11 @@ class B_E_Engineer_F: B_engineer_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_Exp_F: B_soldier_exp_F
+class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Exp_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -753,7 +669,7 @@ class B_E_Soldier_Exp_F: B_soldier_exp_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	backpack = B_Kitbag_rgr_Exp;
 	weapons[] =
 	{
@@ -798,18 +714,18 @@ class B_E_Soldier_Exp_F: B_soldier_exp_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_soldier_mine_F: B_E_Soldier_Exp_F
+class Atlas_B_G_soldier_mine_F: Atlas_B_G_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_wdl_Mine;
 };
-class B_E_Soldier_GL_F: B_Soldier_GL_F
+class Atlas_B_G_Soldier_GL_F: B_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_GL_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -820,7 +736,7 @@ class B_E_Soldier_GL_F: B_Soldier_GL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		arifle_G36_GL_ACO_Pointer_F,
@@ -866,11 +782,11 @@ class B_E_Soldier_GL_F: B_Soldier_GL_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Support_GMG_F: B_support_GMG_F
+class Atlas_B_G_Support_GMG_F: B_support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_GMG_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -881,7 +797,7 @@ class B_E_Support_GMG_F: B_support_GMG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_GMG_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -926,11 +842,11 @@ class B_E_Support_GMG_F: B_support_GMG_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Support_MG_F: B_support_MG_F
+class Atlas_B_G_Support_MG_F: B_support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_MG_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -941,7 +857,7 @@ class B_E_Support_MG_F: B_support_MG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_HMG_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -986,11 +902,11 @@ class B_E_Support_MG_F: B_support_MG_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Support_Mort_F: B_support_Mort_F
+class Atlas_B_G_Support_Mort_F: B_support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_Mort_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1001,7 +917,7 @@ class B_E_Support_Mort_F: B_support_Mort_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	backpack = B_Mortar_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -1046,11 +962,11 @@ class B_E_Support_Mort_F: B_support_Mort_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_HeavyGunner_F: B_HeavyGunner_F
+class Atlas_B_G_HeavyGunner_F: B_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_HeavyGunner_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1061,7 +977,7 @@ class B_E_HeavyGunner_F: B_HeavyGunner_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		MMG_01_black_LRCO_LP_F,
@@ -1103,11 +1019,11 @@ class B_E_HeavyGunner_F: B_HeavyGunner_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Helicrew_F: B_helicrew_F
+class Atlas_B_G_Helicrew_F: B_helicrew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Helicrew_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1118,7 +1034,7 @@ class B_E_Helicrew_F: B_helicrew_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_HeliPilotCoveralls;
+	uniformClass = Atlas_U_B_G_HeliPilotCoveralls;
 	weapons[] =
 	{
 		arifle_G36C_Holo_F,
@@ -1154,11 +1070,11 @@ class B_E_Helicrew_F: B_helicrew_F
         NVGoggles_INDEP
     };
 };
-class B_E_Helipilot_F: B_Helipilot_F
+class Atlas_B_G_Helipilot_F: B_Helipilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Helipilot_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1169,7 +1085,7 @@ class B_E_Helipilot_F: B_Helipilot_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_HeliPilotCoveralls;
+	uniformClass = Atlas_U_B_G_HeliPilotCoveralls;
 	weapons[] =
 	{
 		SMG_04_blk_Holo_F,
@@ -1205,11 +1121,11 @@ class B_E_Helipilot_F: B_Helipilot_F
         NVGoggles_INDEP
     };
 };
-class B_E_soldier_M_F: B_soldier_M_F
+class Atlas_B_G_soldier_M_F: B_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_M_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1220,7 +1136,7 @@ class B_E_soldier_M_F: B_soldier_M_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		srifle_DMR_03_AMS_LP_BI_F,
@@ -1264,11 +1180,11 @@ class B_E_soldier_M_F: B_soldier_M_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AA_F: B_soldier_AA_F
+class Atlas_B_G_Soldier_AA_F: B_soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AA_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1279,7 +1195,7 @@ class B_E_Soldier_AA_F: B_soldier_AA_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Kitbag_wdl_BWAA_F;
 	weapons[] =
 	{
@@ -1326,11 +1242,11 @@ class B_E_Soldier_AA_F: B_soldier_AA_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_AT_F: B_soldier_AT_F
+class Atlas_B_G_Soldier_AT_F: B_soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AT_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1341,7 +1257,7 @@ class B_E_Soldier_AT_F: B_soldier_AT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Kitbag_wdl_BWAT_F;
 	weapons[] =
 	{
@@ -1388,11 +1304,11 @@ class B_E_Soldier_AT_F: B_soldier_AT_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Officer_F: B_officer_F
+class Atlas_B_G_Officer_F: B_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Officer_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1403,7 +1319,7 @@ class B_E_Officer_F: B_officer_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	weapons[] =
 	{
 		arifle_G36C_F,
@@ -1445,11 +1361,11 @@ class B_E_Officer_F: B_officer_F
 		DefaultManLinkedItems
 	};
 };
-class B_E_Soldier_PG_F: B_soldier_PG_F
+class Atlas_B_G_Soldier_PG_F: B_soldier_PG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_PG_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1460,7 +1376,7 @@ class B_E_Soldier_PG_F: B_soldier_PG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_Parachute;
 	weapons[] =
 	{
@@ -1505,11 +1421,11 @@ class B_E_Soldier_PG_F: B_soldier_PG_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_Repair_F: B_soldier_repair_F
+class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Repair_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1520,7 +1436,7 @@ class B_E_Soldier_Repair_F: B_soldier_repair_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_TacticalPack_rgr_BARepair_F;
 	weapons[] =
 	{
@@ -1563,11 +1479,11 @@ class B_E_Soldier_Repair_F: B_soldier_repair_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_F: B_Soldier_F
+class Atlas_B_G_Soldier_F: B_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1578,7 +1494,7 @@ class B_E_Soldier_F: B_Soldier_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		arifle_G36_LRCO_Pointer_F,
@@ -1620,11 +1536,11 @@ class B_E_Soldier_F: B_Soldier_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_LAT_F: B_soldier_LAT_F
+class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_LAT_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1635,7 +1551,7 @@ class B_E_Soldier_LAT_F: B_soldier_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_TacticalPack_rgr_BALAT_F;
 	weapons[] =
 	{
@@ -1682,11 +1598,11 @@ class B_E_Soldier_LAT_F: B_soldier_LAT_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_Lite_F: B_Soldier_lite_F
+class Atlas_B_G_Soldier_Lite_F: B_Soldier_lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Lite_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1697,7 +1613,7 @@ class B_E_Soldier_Lite_F: B_Soldier_lite_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	weapons[] =
 	{
 		arifle_G36C_F,
@@ -1736,11 +1652,11 @@ class B_E_Soldier_Lite_F: B_Soldier_lite_F
 	};
 };
 /*
-class B_E_Soldier_CQ_F: B_Soldier_CQ_F
+class Atlas_B_G_Soldier_CQ_F: B_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CQ_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1751,7 +1667,7 @@ class B_E_Soldier_CQ_F: B_Soldier_CQ_F
 	};
     scope = protected;
     scopeCurator = private;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		arifle_G36_UBS_ACO_Pointer_F,
@@ -1798,11 +1714,11 @@ class B_E_Soldier_CQ_F: B_Soldier_CQ_F
 	};
 };
 */
-class B_E_Soldier_SL_F: B_Soldier_SL_F
+class Atlas_B_G_Soldier_SL_F: B_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_SL_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1813,7 +1729,7 @@ class B_E_Soldier_SL_F: B_Soldier_SL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	weapons[] =
 	{
 		arifle_G36_LRCO_Pointer_F,
@@ -1865,11 +1781,11 @@ class B_E_Soldier_SL_F: B_Soldier_SL_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_TL_F: B_Soldier_TL_F
+class Atlas_B_G_Soldier_TL_F: B_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_TL_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -1880,7 +1796,7 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		arifle_G36_GL_LRCO_Pointer_F,
@@ -1936,7 +1852,7 @@ class B_E_Soldier_TL_F: B_Soldier_TL_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_CBRN_F: B_E_Soldier_F
+class Atlas_B_G_Soldier_CBRN_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CBRN_F.jpg";
@@ -2000,12 +1916,12 @@ class B_E_Soldier_CBRN_F: B_E_Soldier_F
 		};
 	};
 };
-class B_E_RadioOperator_F: B_E_Soldier_F
+class Atlas_B_G_RadioOperator_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Green_F,
@@ -2048,7 +1964,7 @@ class B_E_RadioOperator_F: B_E_Soldier_F
         mag_2(SmokeShell)
     };
 };
-class B_E_Survivor_F: B_E_Soldier_F
+class Atlas_B_G_Survivor_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Survivor_F.jpg";
@@ -2063,11 +1979,11 @@ class B_E_Survivor_F: B_E_Soldier_F
 	respawnLinkedItems[] = {};
 	role = Unarmed;
 };
-class B_E_Soldier_UAV_F: B_soldier_UAV_F
+class Atlas_B_G_Soldier_UAV_F: B_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_UAV_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2078,7 +1994,7 @@ class B_E_Soldier_UAV_F: B_soldier_UAV_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	backpack = B_UAV_01_backpack_F;
 	weapons[] =
 	{
@@ -2123,32 +2039,32 @@ class B_E_Soldier_UAV_F: B_soldier_UAV_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_soldier_UAV_06_F: B_E_Soldier_UAV_F
+class Atlas_B_G_soldier_UAV_06_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = B_UAV_06_backpack_F;
 };
-class B_E_soldier_UAV_06_medical_F: B_E_Soldier_UAV_F
+class Atlas_B_G_soldier_UAV_06_medical_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = B_UAV_06_medical_backpack_F;
 };
-class B_E_soldier_UGV_02_Demining_F: B_E_Soldier_UAV_F
+class Atlas_B_G_soldier_UGV_02_Demining_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
-class B_E_Recon_AR_F: B_recon_AR_F
+class Atlas_B_G_Recon_AR_F: B_recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_AR_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2159,7 +2075,7 @@ class B_E_Recon_AR_F: B_recon_AR_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	weapons[] =
 	{
 		arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F,
@@ -2205,11 +2121,11 @@ class B_E_Recon_AR_F: B_recon_AR_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_Exp_F: B_recon_exp_F
+class Atlas_B_G_Recon_Exp_F: B_recon_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_Exp_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2220,7 +2136,7 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	backpack = B_Kitbag_rgr_Exp;
 	weapons[] =
 	{
@@ -2269,11 +2185,11 @@ class B_E_Recon_Exp_F: B_recon_exp_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_GL_F: B_recon_GL_F
+class Atlas_B_G_Recon_GL_F: B_recon_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_GL_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2284,7 +2200,7 @@ class B_E_Recon_GL_F: B_recon_GL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
         arifle_SPAR_01_GL_blk_LRCO_Pointer_Snds_F,
@@ -2334,11 +2250,11 @@ class B_E_Recon_GL_F: B_recon_GL_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_JTAC_F: B_recon_JTAC_F
+class Atlas_B_G_Recon_JTAC_F: B_recon_JTAC_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_JTAC_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2349,7 +2265,7 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_RadioBag_01_wdl_F;
 	weapons[] =
 	{
@@ -2406,11 +2322,11 @@ class B_E_Recon_JTAC_F: B_recon_JTAC_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_MG_F: B_recon_MG_F
+class Atlas_B_G_Recon_MG_F: B_recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_MG_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2419,7 +2335,7 @@ class B_E_Recon_MG_F: B_recon_MG_F
 		Head_Enoch,
 		G_NATO_recon
 	};
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	backpack = B_TacticalPack_rgr_BEReconMG_F;
 	weapons[] =
 	{
@@ -2466,11 +2382,11 @@ class B_E_Recon_MG_F: B_recon_MG_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_M_F: B_recon_M_F
+class Atlas_B_G_Recon_M_F: B_recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_M_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2481,7 +2397,7 @@ class B_E_Recon_M_F: B_recon_M_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
 		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
@@ -2529,11 +2445,11 @@ class B_E_Recon_M_F: B_recon_M_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_Medic_F: B_recon_medic_F
+class Atlas_B_G_Recon_Medic_F: B_recon_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_Medic_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2544,7 +2460,7 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	backpack = B_TacticalPack_rgr_BAReconMedic_F;
 	weapons[] =
 	{
@@ -2593,11 +2509,11 @@ class B_E_Recon_Medic_F: B_recon_medic_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_F: B_recon_F
+class Atlas_B_G_Recon_F: B_recon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2608,7 +2524,7 @@ class B_E_Recon_F: B_recon_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -2656,11 +2572,11 @@ class B_E_Recon_F: B_recon_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_LAT_F: B_recon_LAT_F
+class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_LAT_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2671,7 +2587,7 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	backpack = B_TacticalPack_rgr_BALAT_F;
 	weapons[] =
 	{
@@ -2722,11 +2638,11 @@ class B_E_Recon_LAT_F: B_recon_LAT_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Recon_TL_F: B_recon_TL_F
+class Atlas_B_G_Recon_TL_F: B_recon_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_TL_F.jpg";
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
 	{
@@ -2737,7 +2653,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_E_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -2789,7 +2705,7 @@ class B_E_Recon_TL_F: B_recon_TL_F
 		NVGoggles_INDEP
 	};
 };
-class B_E_Soldier_universal_F: B_E_Soldier_F
+class Atlas_B_G_Soldier_universal_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SpeechVariants
@@ -2810,7 +2726,7 @@ class B_E_Soldier_universal_F: B_E_Soldier_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class B_E_Soldier_unarmed_F: B_E_Soldier_F
+class Atlas_B_G_Soldier_unarmed_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
@@ -2833,12 +2749,12 @@ class B_E_Soldier_unarmed_F: B_E_Soldier_F
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
-class B_E_Fighter_Pilot_F: B_Fighter_Pilot_F
+class Atlas_B_G_Fighter_Pilot_F: B_Fighter_Pilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
 	genericNames = GermanMen;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,

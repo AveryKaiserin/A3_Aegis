@@ -1,4 +1,4 @@
-class U_I_I_CombatUniform_olive: Uniform_Base
+class Atlas_U_I_I_CombatUniform_olive: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class U_I_I_CombatUniform_olive: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_CombatFatigues_01_olive_F;
+		uniformClass = Atlas_I_I_CombatFatigues_01_olive_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_I_I_CombatUniform_shortsleeve_olive: Uniform_Base
+class Atlas_U_I_I_CombatUniform_shortsleeve_olive: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,12 +27,12 @@ class U_I_I_CombatUniform_shortsleeve_olive: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_CombatFatigues_01_RolledUp_olive_F;
+		uniformClass = Atlas_I_I_CombatFatigues_01_RolledUp_olive_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_I_I_GhillieSuit: Uniform_Base
+class Atlas_U_I_I_GhillieSuit: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -44,12 +44,12 @@ class U_I_I_GhillieSuit: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_GhillieSuit_01_F;
+		uniformClass = Atlas_I_I_GhillieSuit_01_F;
 		containerClass = Supply60;
 		mass = 60;
 	};
 };
-class U_I_I_OfficerUniform: Uniform_Base
+class Atlas_U_I_I_OfficerUniform: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -61,12 +61,12 @@ class U_I_I_OfficerUniform: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_OfficerFatigues_01_F;
+		uniformClass = Atlas_I_I_OfficerFatigues_01_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_I_I_Wetsuit: Uniform_Base
+class Atlas_U_I_I_Wetsuit: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -78,13 +78,13 @@ class U_I_I_Wetsuit: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_Wetsuit_01_F;
+		uniformClass = Atlas_I_I_Wetsuit_01_F;
 		containerClass = Supply80;
 		uniformType = Neopren;
 		mass = 60;
 	};
 };
-class U_Tank_olive_F: Uniform_Base
+class Atlas_U_Tank_olive_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -100,12 +100,12 @@ class U_Tank_olive_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_Coveralls_01_olive_F;
+		uniformClass = Atlas_I_I_Coveralls_01_olive_F;
 		containerClass = Supply30;
 		mass = 30;
 	};
 };
-class U_I_I_CBRN_Suit_01_Olive_F: Uniform_Base
+class Atlas_U_I_I_CBRN_Suit_01_Olive_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -117,7 +117,7 @@ class U_I_I_CBRN_Suit_01_Olive_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = I_I_CBRN_Man_Oversuit_01_Olive_F;
+		uniformClass = Atlas_I_I_CBRN_Man_Oversuit_01_Olive_F;
 		containerClass = Supply30;
 		mass = 45;
 	};

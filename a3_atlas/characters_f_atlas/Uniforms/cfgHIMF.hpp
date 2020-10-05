@@ -1,4 +1,4 @@
-class U_B_H_Soldier_F: Uniform_Base
+class Atlas_U_B_H_Soldier_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -10,12 +10,12 @@ class U_B_H_Soldier_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = B_H_CombatFatigues_01_jungle_F;
+		uniformClass = Atlas_B_H_CombatFatigues_01_jungle_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_B_H_Soldier_2_F: Uniform_Base
+class Atlas_U_B_H_Soldier_2_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -27,12 +27,12 @@ class U_B_H_Soldier_2_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = B_H_CombatFatigues_01_RolledUp_jungle_F;
+		uniformClass = Atlas_B_H_CombatFatigues_01_RolledUp_jungle_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_B_H_Soldier_3_F: Uniform_Base
+class Atlas_U_B_H_Soldier_3_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -44,12 +44,12 @@ class U_B_H_Soldier_3_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = B_H_CombatFatigues_01_TankTop_jungle_F;
+		uniformClass = Atlas_B_H_CombatFatigues_01_TankTop_jungle_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class U_B_H_Officer_F: Uniform_Base
+class Atlas_U_B_H_Officer_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
@@ -61,7 +61,7 @@ class U_B_H_Officer_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = B_H_OfficerFatigues_01_jungle_F;
+		uniformClass = Atlas_B_H_OfficerFatigues_01_jungle_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
