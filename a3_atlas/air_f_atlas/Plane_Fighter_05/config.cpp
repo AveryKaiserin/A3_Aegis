@@ -27,6 +27,16 @@ class CfgVehicles
             {
 			    class pylons
                 {
+                    class pylons1;
+                    class pylons2;
+                    class pylons3;
+                    class pylons4;
+                    class pylons5;
+                    class pylons6;
+                    class pylonBayRight1;
+                    class pylonBayLeft1;
+                    class pylonBayRight2;
+                    class pylonBayLeft2;
                     class pylonCenter1;
                 };
 			    class presets
@@ -35,6 +45,11 @@ class CfgVehicles
                     class AA;
                     class CAS;
                     class Cluster;
+                };
+                class Bays
+                {
+                    class BayLeft1;
+                    class BayRight1;
                 };
             };
         };
