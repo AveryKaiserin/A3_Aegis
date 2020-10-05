@@ -1,4 +1,4 @@
-class B_E_Mortar_01_F: B_Mortar_01_F
+class Atlas_B_G_Mortar_01_F: B_Mortar_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -26,8 +26,8 @@ class B_E_Mortar_01_F: B_Mortar_01_F
 		init = "''";
 	};
 	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Mortar_01_F.jpg";
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
 	class assembleInfo
 	{
 		displayName = "";

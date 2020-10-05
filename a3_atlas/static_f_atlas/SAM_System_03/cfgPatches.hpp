@@ -7,14 +7,14 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_SAM_System_03_F,
+            // Germany
+            Atlas_B_G_SAM_System_03_F,
 
             // ADF
-            B_O_SAM_System_03_F,
+            Atlas_B_A_SAM_System_03_F,
 
             // IDF
-            I_I_SAM_System_03_F
+            Atlas_I_I_SAM_System_03_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

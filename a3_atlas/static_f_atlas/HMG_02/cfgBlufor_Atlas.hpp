@@ -1,11 +1,11 @@
-class B_E_HMG_02_F: HMG_02_base_F
+class Atlas_B_G_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_HMG_02_F.jpg";
 	scope = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
 	class assembleInfo
 	{
 		primary = 0;
@@ -33,14 +33,14 @@ class B_E_HMG_02_F: HMG_02_base_F
 		};
 	};
 };
-class B_E_HMG_02_high_F: HMG_02_high_base_F
+class Atlas_B_G_HMG_02_high_F: HMG_02_high_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_HMG_02_high_F.jpg";
 	scope = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
 	class assembleInfo
 	{
 		primary = 0;

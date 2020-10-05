@@ -13,19 +13,13 @@ class CfgVehicles
 				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3\Static_F\Mortar_01\Data\Mortar_01_CO.paa"};
-				factions[] =
+				factions[] +=
 				{
-					BLU_F,
-					IND_F,
-					BLU_G_F,
-					IND_G_F,
-					OPF_G_F,
-					BLU_T_F,
-					BLU_W_F,
-					OPF_R_F,
-					IND_E_F,
-					BLU_A_F,
-					BLU_E_F
+					Atlas_BLU_L_F,
+					Atlas_BLU_G_F,
+					Atlas_BLU_A_F,
+					Atlas_IND_C_F,
+					Atlas_IND_I_F
 				};
 			};
 		};
@@ -41,13 +35,15 @@ class CfgVehicles
 	class B_Mortar_01_support_F;
 	class B_Mortar_01_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-    #include "cfgLegion.hpp"		    // Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
-    #include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"		// Belarus
+    #include "cfgLegion.hpp"		    // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"		// Germany
+    #include "cfgOpfor_Atlas.hpp"		// Takistani Army
 	/*
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgCDF.hpp"				// CDF
     */
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

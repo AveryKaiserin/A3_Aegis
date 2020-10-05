@@ -7,49 +7,49 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_HMG_02_F,
-            B_L_HMG_02_high_F,
+            // Legionnaires
+            Atlas_B_L_HMG_02_F,
+            Atlas_B_L_HMG_02_high_F,
 
-            // NATO (German)
-            B_E_HMG_02_F,
-            B_E_HMG_02_high_F,
+            // Germany
+            Atlas_B_G_HMG_02_F,
+            Atlas_B_G_HMG_02_high_F,
 
-            // CSAT (Takistani)
-            O_C_HMG_02_F,
-            O_C_HMG_02_high_F,
+            // Takistani Army
+            Atlas_O_T_HMG_02_F,
+            Atlas_O_T_HMG_02_high_F,
 
             // ADF
-            B_O_HMG_02_F,
-            B_O_HMG_02_high_F,
-            B_O_HMG_02_high_weapon_F,
-            B_O_HMG_02_support_F,
-            B_O_HMG_02_support_high_F,
-            B_O_HMG_02_weapon_F,
+            Atlas_B_A_HMG_02_F,
+            Atlas_B_A_HMG_02_high_F,
+            Atlas_B_A_HMG_02_high_weapon_F,
+            Atlas_B_A_HMG_02_support_F,
+            Atlas_B_A_HMG_02_support_high_F,
+            Atlas_B_A_HMG_02_weapon_F,
 
             // HIMF
-            B_H_HMG_02_F,
-            B_H_HMG_02_high_F,
-            B_H_HMG_02_high_weapon_F,
-            B_H_HMG_02_support_F,
-            B_H_HMG_02_support_high_F,
-            B_H_HMG_02_weapon_F,
+            Atlas_B_H_HMG_02_F,
+            Atlas_B_H_HMG_02_high_F,
+            Atlas_B_H_HMG_02_high_weapon_F,
+            Atlas_B_H_HMG_02_support_F,
+            Atlas_B_H_HMG_02_support_high_F,
+            Atlas_B_H_HMG_02_weapon_F,
 
             // CDF
-            I_W_HMG_02_F,
-            I_W_HMG_02_high_F,
-            I_W_HMG_02_high_weapon_F,
-            I_W_HMG_02_support_F,
-            I_W_HMG_02_support_high_F,
-            I_W_HMG_02_weapon_F,
+            Atlas_I_C_HMG_02_F,
+            Atlas_I_C_HMG_02_high_F,
+            Atlas_I_C_HMG_02_high_weapon_F,
+            Atlas_I_C_HMG_02_support_F,
+            Atlas_I_C_HMG_02_support_high_F,
+            Atlas_I_C_HMG_02_weapon_F,
 
             // IDF
-            I_I_HMG_02_F,
-            I_I_HMG_02_high_F,
-            I_I_HMG_02_high_weapon_F,
-            I_I_HMG_02_support_F,
-            I_I_HMG_02_support_high_F,
-            I_I_HMG_02_weapon_F
+            Atlas_I_I_HMG_02_F,
+            Atlas_I_I_HMG_02_high_F,
+            Atlas_I_I_HMG_02_high_weapon_F,
+            Atlas_I_I_HMG_02_support_F,
+            Atlas_I_I_HMG_02_support_high_F,
+            Atlas_I_I_HMG_02_weapon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

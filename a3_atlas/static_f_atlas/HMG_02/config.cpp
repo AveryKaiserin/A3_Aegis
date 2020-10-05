@@ -36,9 +36,9 @@ class CfgVehicles
 	class B_HMG_02_weapon_F: Weapon_Bag_Base{};
 	class B_HMG_02_high_weapon_F: Weapon_Bag_Base{};
 	// Arma 3 Atlas
-    #include "cfgLegion.hpp"		    // Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
-    #include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+    #include "cfgLegion.hpp"		    // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"		// Germany
+    #include "cfgOpfor_Atlas.hpp"		// Takistani Army
 	/*
 	#include "cfgADF.hpp"				// ADF
     */
@@ -47,4 +47,6 @@ class CfgVehicles
     #include "cfgCDF.hpp"				// CDF
     */
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

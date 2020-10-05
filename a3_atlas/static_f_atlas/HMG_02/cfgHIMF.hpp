@@ -1,11 +1,11 @@
-class B_H_HMG_02_F: HMG_02_base_F
+class Atlas_B_H_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_HMG_02_F.jpg";
 	scope = public;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
 	class assembleInfo
 	{
 		primary = 0;
@@ -13,8 +13,8 @@ class B_H_HMG_02_F: HMG_02_base_F
 		assembleTo = "";
 		dissasembleTo[] =
 		{
-			B_H_HMG_02_weapon_F,
-			B_H_HMG_02_support_F
+			Atlas_B_H_HMG_02_weapon_F,
+			Atlas_B_H_HMG_02_support_F
 		};
 		displayName = "";
 	};
@@ -33,14 +33,14 @@ class B_H_HMG_02_F: HMG_02_base_F
 		};
 	};
 };
-class B_H_HMG_02_high_F: HMG_02_high_base_F
+class Atlas_B_H_HMG_02_high_F: HMG_02_high_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_HMG_02_high_F.jpg";
 	scope = public;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
 	class assembleInfo
 	{
 		primary = 0;
@@ -48,8 +48,8 @@ class B_H_HMG_02_high_F: HMG_02_high_base_F
 		assembleTo = "";
 		dissasembleTo[] =
 		{
-			B_H_HMG_02_high_weapon_F,
-			B_H_HMG_02_support_high_F
+			Atlas_B_H_HMG_02_high_weapon_F,
+			Atlas_B_H_HMG_02_support_high_F
 		};
 		displayName = "";
 	};
@@ -68,47 +68,47 @@ class B_H_HMG_02_high_F: HMG_02_high_base_F
 		};
 	};
 };
-class B_H_HMG_02_support_F: B_HMG_02_support_F
+class Atlas_B_H_HMG_02_support_F: B_HMG_02_support_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_support_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
-	faction = BLU_H_F;
+	faction = Atlas_BLU_H_F;
 };
-class B_H_HMG_02_support_high_F: B_HMG_02_support_high_F
+class Atlas_B_H_HMG_02_support_high_F: B_HMG_02_support_high_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_support_high_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
-	faction = BLU_H_F;
+	faction = Atlas_BLU_H_F;
 };
-class B_H_HMG_02_weapon_F: B_HMG_02_weapon_F
+class Atlas_B_H_HMG_02_weapon_F: B_HMG_02_weapon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_weapon_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
-	faction = BLU_H_F;
+	faction = Atlas_BLU_H_F;
 	class assembleInfo: assembleInfo
 	{
-		assembleTo = B_H_HMG_02_F;
+		assembleTo = Atlas_B_H_HMG_02_F;
 	};
 };
-class B_H_HMG_02_high_weapon_F: B_HMG_02_high_weapon_F
+class Atlas_B_H_HMG_02_high_weapon_F: B_HMG_02_high_weapon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_H_HMG_02_high_weapon_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_CO.paa"};
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_oli.paa";
-	faction = BLU_H_F;
+	faction = Atlas_BLU_H_F;
 	class assembleInfo: assembleInfo
 	{
-		assembleTo = B_H_HMG_02_high_F;
+		assembleTo = Atlas_B_H_HMG_02_high_F;
 	};
 };

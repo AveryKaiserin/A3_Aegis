@@ -11,32 +11,32 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Mortar_01_F,
+            // Belarus
+            Atlas_O_W_Mortar_01_F,
 
-            // Legion
-            B_L_Mortar_01_F,
+            // Legionnaires
+            Atlas_B_L_Mortar_01_F,
 
-            // NATO (German)
-            B_E_Mortar_01_F,
+            // Germany
+            Atlas_B_G_Mortar_01_F,
 
-            // CSAT (Takistani)
-            O_C_Mortar_01_F,
+            // Takistani Army
+            Atlas_O_T_Mortar_01_F,
 
             // ADF
-            B_O_Mortar_01_F,
-            B_O_Mortar_01_support_F,
-            B_O_Mortar_01_weapon_F,
+            Atlas_B_A_Mortar_01_F,
+            Atlas_B_A_Mortar_01_support_F,
+            Atlas_B_A_Mortar_01_weapon_F,
 
             // CDF
-            I_W_Mortar_01_F,
-            I_W_Mortar_01_support_F,
-            I_W_Mortar_01_weapon_F,
+            Atlas_I_C_Mortar_01_F,
+            Atlas_I_C_Mortar_01_support_F,
+            Atlas_I_C_Mortar_01_weapon_F,
 
             // IDF
-            I_I_Mortar_01_F,
-            I_I_Mortar_01_support_F,
-            I_I_Mortar_01_weapon_F
+            Atlas_I_I_Mortar_01_F,
+            Atlas_I_I_Mortar_01_support_F,
+            Atlas_I_I_Mortar_01_weapon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
