@@ -7,9 +7,10 @@ class CfgVehicles
 	class O_MRAP_02_hmg_F;
 	class O_MRAP_02_gmg_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+	#include "cfgOpfor_Aegis.hpp"       // Belarus
     /*
-	#include "cfgOpfor_Atlas.hpp"       // CSAT (Caspian)
 	#include "cfgCDF.hpp"               // CDF
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

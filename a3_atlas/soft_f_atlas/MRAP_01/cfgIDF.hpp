@@ -1,4 +1,4 @@
-class I_I_MRAP_01_F: MRAP_01_base_F
+class Atlas_I_I_MRAP_01_F: MRAP_01_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -97,9 +97,9 @@ class I_I_MRAP_01_F: MRAP_01_base_F
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
-    faction = IND_I_F;
-    crew = I_I_Soldier_F;
-    typicalCargo[] = {I_I_Soldier_lite_F};
+    faction = Atlas_IND_I_F;
+    crew = Atlas_I_I_Soldier_F;
+    typicalCargo[] = {Atlas_I_I_Soldier_lite_F};
 	unitInfoType = RscUnitInfoNoWeapon;
 	threat[] = {0.1,0.1,0.1};
     textureList[] = {Brown,1};
@@ -132,7 +132,7 @@ class I_I_MRAP_01_F: MRAP_01_base_F
 		mag_xx(MRAWS_HEAT_F,2);
     };
 };
-class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
+class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -231,9 +231,9 @@ class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
-    faction = IND_I_F;
-    crew = I_I_Soldier_F;
-    typicalCargo[] = {I_I_Soldier_lite_F};
+    faction = Atlas_IND_I_F;
+    crew = Atlas_I_I_Soldier_F;
+    typicalCargo[] = {Atlas_I_I_Soldier_lite_F};
     textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {
@@ -263,7 +263,7 @@ class I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
 		mag_xx(MRAWS_HEAT_F,2);
     };
 };
-class I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
+class Atlas_I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -362,9 +362,9 @@ class I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
-    faction = IND_I_F;
-    crew = I_I_Soldier_F;
-    typicalCargo[] = {I_I_Soldier_lite_F};
+    faction = Atlas_IND_I_F;
+    crew = Atlas_I_I_Soldier_F;
+    typicalCargo[] = {Atlas_I_I_Soldier_lite_F};
     textureList[] = {Brown,1};
     hiddenSelectionsTextures[] =
     {

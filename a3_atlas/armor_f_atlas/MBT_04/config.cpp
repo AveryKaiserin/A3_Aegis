@@ -37,7 +37,7 @@ class CfgVehicles
 		{
 			class Jungle
 			{
-				factions[] = {BLU_H_F};
+				factions[] = {Atlas_BLU_H_F};
 			};
 		};
 	};
@@ -57,4 +57,6 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgHIMF.hpp"              // HIMF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -1,4 +1,4 @@
-class B_E_UAV_01_F: B_UAV_01_F
+class Atlas_B_G_UAV_01_F: B_UAV_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -46,7 +46,7 @@ class B_E_UAV_01_F: B_UAV_01_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
 	class assembleInfo

@@ -8,8 +8,8 @@ class CfgPatches
 		units[] =
         {
             // Legionnaires
-            B_L_AFV_Wheeled_01_cannon_F,
-            B_L_AFV_Wheeled_01_up_cannon_F
+            Atlas_B_L_AFV_Wheeled_01_cannon_F,
+            Atlas_B_L_AFV_Wheeled_01_up_cannon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

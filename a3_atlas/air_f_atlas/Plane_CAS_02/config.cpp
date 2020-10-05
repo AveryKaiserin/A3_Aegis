@@ -10,9 +10,11 @@ class CfgVehicles
 	};
     class Ejection_Seat_Plane_CAS_02_base_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	/*
     #include "cfgCDF.hpp"				// CDF
     #include "cfgIDF.hpp"				// IDF
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

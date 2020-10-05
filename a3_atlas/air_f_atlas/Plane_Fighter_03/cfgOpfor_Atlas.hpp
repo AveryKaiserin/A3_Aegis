@@ -1,4 +1,4 @@
-class O_C_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_base_F
+class Atlas_O_T_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_base_F
 {
 	class SimpleObject
 	{
@@ -20,10 +20,10 @@ class O_C_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_base_
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_Fighter_Pilot_F;
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_Fighter_Pilot_F;
 };
-class O_C_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
+class Atlas_O_T_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -125,9 +125,9 @@ class O_C_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_Fighter_Pilot_F;
-	typicalCargo[] = {O_C_Fighter_Pilot_F};
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_Fighter_Pilot_F;
+	typicalCargo[] = {Atlas_O_T_Fighter_Pilot_F};
 	textureList[] =
 	{
 		Hex,1,
@@ -140,6 +140,6 @@ class O_C_Plane_Fighter_03_dynamicLoadout_F: O_Plane_Fighter_03_dynamicLoadout_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = O_C_Ejection_Seat_Plane_Fighter_03_F;
+		EjectionSeatClass = Atlas_O_T_Ejection_Seat_Plane_Fighter_03_F;
 	};
 };

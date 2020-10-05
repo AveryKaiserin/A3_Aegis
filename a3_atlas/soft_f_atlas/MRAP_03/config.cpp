@@ -25,11 +25,11 @@ class CfgVehicles
 		{
 			class Blufor
 			{
-				factions[] += {BLU_E_F};
+				factions[] += {Atlas_BLU_G_F};
 			};
 			class Olive
 			{
-				factions[] += {BLU_E_F};
+				factions[] += {Atlas_BLU_G_F};
 			};
 			class Woodland
 			{
@@ -40,7 +40,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
 					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {Atlas_BLU_G_F};
 			};
 		};
 	};
@@ -54,5 +54,7 @@ class CfgVehicles
 	};
 	class MRAP_03_gmg_base_F;
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+	#include "cfgBlufor_Atlas.hpp"      // Germany
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

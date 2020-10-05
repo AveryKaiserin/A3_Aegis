@@ -8,7 +8,7 @@ class CfgPatches
 		units[] =
         {
             // IDF
-            I_I_Heli_Attack_01_dynamicLoadout_F
+            Atlas_I_I_Heli_Attack_01_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -7,9 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Takistani)
-            O_C_Ejection_Seat_Plane_Fighter_03_F,
-            O_C_Plane_Fighter_03_dynamicLoadout_F
+            // Takistani Army
+            Atlas_O_T_Ejection_Seat_Plane_Fighter_03_F,
+            Atlas_O_T_Plane_Fighter_03_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

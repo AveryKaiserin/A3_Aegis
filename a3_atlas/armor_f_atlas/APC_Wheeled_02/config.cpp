@@ -5,6 +5,8 @@ class CfgVehicles
 	// Arma 3
     class APC_Wheeled_02_base_v2_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-    #include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"		// Belarus
+    #include "cfgOpfor_Atlas.hpp"       // Takistani Army
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

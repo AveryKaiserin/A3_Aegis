@@ -1,4 +1,4 @@
-class O_C_MBT_02_cannon_F: O_MBT_02_cannon_F
+class Atlas_O_T_MBT_02_cannon_F: O_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -171,17 +171,17 @@ class O_C_MBT_02_cannon_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_MBT_02_cannon_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_MBT_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_crew_F;
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_crew_F;
 	typicalCargo[] =
 	{
-		O_C_soldier_F,
-		O_C_soldier_F,
-		O_C_soldier_F
+		Atlas_O_T_soldier_F,
+		Atlas_O_T_soldier_F,
+		Atlas_O_T_soldier_F
 	};
 	textureList[] = {Hex,1};
 	hiddenSelectionsTextures[] =

@@ -7,11 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Heli_Attack_02_dynamicLoadout_F,
+            // Belarus
+            Atlas_O_W_Heli_Attack_02_dynamicLoadout_F,
 
-            // CSAT (Takistani)
-            O_C_Heli_Attack_02_dynamicLoadout_F
+            // Takistani Army
+            Atlas_O_T_Heli_Attack_02_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

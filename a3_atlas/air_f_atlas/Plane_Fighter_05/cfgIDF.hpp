@@ -1,13 +1,13 @@
-class I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
+class Atlas_I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_Fighter_Pilot_F;
-	typicalCargo[] = {I_I_Fighter_Pilot_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_Fighter_Pilot_F;
+	typicalCargo[] = {Atlas_I_I_Fighter_Pilot_F};
 	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -221,19 +221,19 @@ class I_I_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = I_I_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = Atlas_I_I_Ejection_Seat_Plane_Fighter_05_F;
 	};
 };
-class I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
+class Atlas_I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Plane_Fighter_05_Stealth_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Plane_Fighter_05_Stealth_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_Fighter_Pilot_F;
-	typicalCargo[] = {I_I_Fighter_Pilot_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_Fighter_Pilot_F;
+	typicalCargo[] = {Atlas_I_I_Fighter_Pilot_F};
 	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -444,7 +444,7 @@ class I_I_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 		EjectionSeatClass = I_I_Ejection_Seat_Plane_Fighter_05_F;
 	};
 };
-class I_I_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
+class Atlas_I_I_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
 {
 	class SimpleObject
 	{
@@ -466,6 +466,6 @@ class I_I_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_Fighter_Pilot_F;
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_Fighter_Pilot_F;
 };

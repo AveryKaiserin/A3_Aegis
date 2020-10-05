@@ -7,10 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_Ejection_Seat_Plane_Fighter_01_F,
-            B_E_Plane_Fighter_01_F,
-            B_E_Plane_Fighter_01_Stealth_F
+            // Germany
+            Atlas_B_G_Ejection_Seat_Plane_Fighter_01_F,
+            Atlas_B_G_Plane_Fighter_01_F,
+            Atlas_B_G_Plane_Fighter_01_Stealth_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,4 +1,4 @@
-class I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
+class Atlas_I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 11.82;
@@ -82,7 +82,7 @@ class I_I_UAV_03_dynamicLoadout_F: UAV_03_dynamicLoadout_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_03_dynamicLoadout_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	crew = I_UAV_AI;
 	typicalCargo[] = {I_UAV_AI};
 	textureList[] = {Desert,1};

@@ -6,6 +6,8 @@ class CfgVehicles
 	class O_Heli_Light_02_unarmed_F;
 	class O_Heli_Light_02_dynamicLoadout_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
-	#include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"       // Belarus
+	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

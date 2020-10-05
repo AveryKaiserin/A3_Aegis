@@ -62,7 +62,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\Data\camonet_CDF_green_CO.paa",
 					"\A3_Atlas\Armor_F_Atlas\Data\cage_CDF_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] = {Atlas_IND_C_F};
 			};
             */
 		};
@@ -88,7 +88,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\Data\camonet_CDF_green_CO.paa",
 					"\A3_Atlas\Armor_F_Atlas\Data\cage_CDF_CO.paa"
 				};
-				factions[] = {OPF_R_F};
+				factions[] = {Atlas_IND_C_F};
 			};
             */
 		};
@@ -111,15 +111,17 @@ class CfgVehicles
 					"",
 					""
 				};
-				factions[] = {OPF_R_F};
+				factions[] = {Atlas_IND_C_F};
 			};
             */
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	#include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"		// Belarus
+	#include "cfgOpfor_Atlas.hpp"		// Takistani Army
     /*
 	#include "cfgCDF.hpp"				// CDF
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

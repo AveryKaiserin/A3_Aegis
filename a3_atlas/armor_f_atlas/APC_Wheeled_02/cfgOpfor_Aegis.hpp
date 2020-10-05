@@ -1,4 +1,4 @@
-class O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
+class Atlas_O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -179,9 +179,9 @@ class O_W_APC_Wheeled_02_rcws_v2_ghex_F: APC_Wheeled_02_base_v2_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_APC_Wheeled_02_rcws_v2_F0;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Crew_F;
-	typicalCargo[] = {O_W_Soldier_F};
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Crew_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{

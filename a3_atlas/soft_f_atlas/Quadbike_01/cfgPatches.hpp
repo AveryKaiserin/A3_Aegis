@@ -12,29 +12,29 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Quadbike_01_F,
+            // Belarus
+            Atlas_O_W_Quadbike_01_F,
 
-            // Legion
-            B_L_Quadbike_01_F,
+            // Legionnaires
+            Atlas_B_L_Quadbike_01_F,
 
-            // NATO (German)
-            B_E_Quadbike_01_F,
+            // Germany
+            Atlas_B_G_Quadbike_01_F,
 
-            // CSAT (Takistani)
-            O_C_Quadbike_01_F,
+            // Takistani Army
+            Atlas_O_T_Quadbike_01_F,
 
             // ADF
-            B_O_Quadbike_01_F,
+            Atlas_B_A_Quadbike_01_F,
 
             // HIMF
-            B_H_Quadbike_01_F,
+            Atlas_B_H_Quadbike_01_F,
         
             // CDF
-            I_W_Quadbike_01_F,
+            Atlas_I_C_Quadbike_01_F,
         
             // IDF
-            I_I_Quadbike_01_F
+            Atlas_I_I_Quadbike_01_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

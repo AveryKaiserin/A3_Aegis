@@ -19,13 +19,13 @@ class CfgVehicles
 					"\A3_Atlas\Air_F_Atlas\Heli_Transport_02\Data\Heli_Transport_02_3_CO.paa",
 					"\A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {Atlas_BLU_G_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
     /*
-	#include "cfgLegion.hpp"            // Legion
+	#include "cfgLegion.hpp"            // Legionnaires
 	*/
-    #include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    #include "cfgBlufor_Atlas.hpp"      // Germany
 };

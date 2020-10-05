@@ -1,10 +1,10 @@
-class B_E_MBT_03_base_F: MBT_03_base_F
+class Atlas_B_G_MBT_03_base_F: MBT_03_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	animationList[] =
     {
         HideTurret,1,
@@ -15,7 +15,7 @@ class B_E_MBT_03_base_F: MBT_03_base_F
         showCamonetCannon1,0
     };
 };
-class B_E_MBT_03_cannon_F: B_E_MBT_03_base_F
+class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -208,7 +208,7 @@ class B_E_MBT_03_cannon_F: B_E_MBT_03_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MBT_03_cannon_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_B_E_MBT_03_cannon_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_G_MBT_03_cannon_F0;
 	textureList[] = {Woodland_01,1};
 	hiddenSelectionsTextures[] =
 	{

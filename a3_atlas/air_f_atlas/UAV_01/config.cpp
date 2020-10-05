@@ -29,7 +29,7 @@ class CfgVehicles
 				displayName = $STR_A3_A_TEXTURESOURCES_IDF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_IDF_CO.paa"};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -40,11 +40,13 @@ class CfgVehicles
 		class assembleInfo;
 	};
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"		    // Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
+	#include "cfgLegion.hpp"		    // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"		// Germany
     /*
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgCDF.hpp"				// CDF
     */
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

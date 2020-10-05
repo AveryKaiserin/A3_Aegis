@@ -7,15 +7,15 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_MRAP_02_F,
-            O_W_MRAP_02_gmg_F,
-            O_W_MRAP_02_hmg_F,
+            // Belarus
+            Atlas_O_W_MRAP_02_F,
+            Atlas_O_W_MRAP_02_gmg_F,
+            Atlas_O_W_MRAP_02_hmg_F,
 
             // CDF
-            I_W_MRAP_02_F,
-            I_W_MRAP_02_gmg_F,
-            I_W_MRAP_02_hmg_F
+            Atlas_I_C_MRAP_02_F,
+            Atlas_I_C_MRAP_02_gmg_F,
+            Atlas_I_C_MRAP_02_hmg_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

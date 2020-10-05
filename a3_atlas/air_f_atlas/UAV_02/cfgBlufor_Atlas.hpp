@@ -1,4 +1,4 @@
-class B_E_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
+class Atlas_B_G_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -62,7 +62,7 @@ class B_E_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI;
 	typicalCargo[] = {B_UAV_AI};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_CO.paa"};
@@ -72,7 +72,7 @@ class B_E_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 		class Blufor: Blufor
 		{
 			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_CO.paa"};
-			factions[] = {BLU_E_F};
+			factions[] = {Atlas_BLU_G_F};
 		};
 	};
 };

@@ -1,4 +1,4 @@
-class O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
+class Atlas_O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -95,12 +95,12 @@ class O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
@@ -110,7 +110,7 @@ class O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
 		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa"
     };
 };
-class O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
+class Atlas_O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -207,12 +207,12 @@ class O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
@@ -223,7 +223,7 @@ class O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
 		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cover_ghex_CO.paa"
     };
 };
-class O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
+class Atlas_O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -320,12 +320,12 @@ class O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
@@ -335,7 +335,7 @@ class O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
 		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ammo_ghex_CO.paa"
     };
 };
-class O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
+class Atlas_O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -432,12 +432,12 @@ class O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
@@ -448,7 +448,7 @@ class O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_ghex_CO.paa"
     };
 };
-class O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
+class Atlas_O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -545,12 +545,12 @@ class O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
@@ -560,7 +560,7 @@ class O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
 		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_fuel_ghex_CO.paa"
     };
 };
-class O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
+class Atlas_O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -657,12 +657,12 @@ class O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =

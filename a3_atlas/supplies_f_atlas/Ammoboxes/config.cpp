@@ -8,10 +8,10 @@ class CfgVehicles
 	class O_supplyCrate_F;
 	class I_supplyCrate_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	#include "cfgLegion.hpp"			// Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
-	#include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"		// Belarus
+	#include "cfgLegion.hpp"			// Legionnaires
+	#include "cfgBlufor_Atlas.hpp"		// Germany
+	#include "cfgOpfor_Atlas.hpp"		// Takistani Army
     /*
 	#include "cfgADF.hpp"				// ADF
 	*/
@@ -20,4 +20,6 @@ class CfgVehicles
     #include "cfgCDF.hpp"				// CDF
 	*/
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -10,7 +10,7 @@ class CfgVehicles
 		{
 			class Olive
 			{
-				factions[] += {BLU_E_F};
+				factions[] += {Atlas_BLU_G_F};
 			};
 			class Jungle
 			{
@@ -21,7 +21,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_jungle_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_jungle_CO.paa"
                 };
-				factions[] = {BLU_H_F};
+				factions[] = {Atlas_BLU_H_F};
 			};
 			class Brown
 			{
@@ -32,15 +32,15 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_brown_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_brown_CO.paa"
                 };
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
+	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	#include "cfgLegion.hpp"            // Legion
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
-	#include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
+	#include "cfgBlufor_Atlas.hpp"      // Germany
+	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
     /*
 	#include "cfgADF.hpp"               // ADF
 	*/
@@ -49,4 +49,6 @@ class CfgVehicles
 	#include "cfgCDF.hpp"               // CDF
     */
 	#include "cfgIDF.hpp"               // IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

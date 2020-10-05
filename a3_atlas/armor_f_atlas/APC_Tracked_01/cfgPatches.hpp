@@ -8,9 +8,9 @@ class CfgPatches
 		units[] =
         {
             // IDF
-            I_I_APC_Tracked_01_AA_F,
-            I_I_APC_Tracked_01_CRV_F,
-            I_I_APC_Tracked_01_rcws_F
+            Atlas_I_I_APC_Tracked_01_AA_F,
+            Atlas_I_I_APC_Tracked_01_CRV_F,
+            Atlas_I_I_APC_Tracked_01_rcws_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,4 +1,4 @@
-class B_L_UAV_01_F: UAV_01_base_F
+class Atlas_B_L_UAV_01_F: UAV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -46,7 +46,7 @@ class B_L_UAV_01_F: UAV_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
+	faction = Atlas_BLU_L_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
 	accuracy = 0.5;

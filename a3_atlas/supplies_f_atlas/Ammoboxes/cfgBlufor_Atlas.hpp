@@ -1,4 +1,4 @@
-class B_E_supplyCrate_F: B_supplyCrate_F
+class Atlas_B_G_supplyCrate_F: B_supplyCrate_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -10,8 +10,8 @@ class B_E_supplyCrate_F: B_supplyCrate_F
 		verticalOffsetWorld = 0;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_B_E_supplyCrate_F0;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_G_supplyCrate_F.jpg";
+	displayName = $STR_A3_A_CfgVehicles_Atlas_B_G_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_NATO_German;
 	class TransportMagazines

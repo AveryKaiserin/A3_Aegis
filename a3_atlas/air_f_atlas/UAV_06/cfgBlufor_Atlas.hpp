@@ -1,4 +1,4 @@
-class B_E_UAV_06_F: UAV_06_base_F
+class Atlas_B_G_UAV_06_F: UAV_06_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -63,7 +63,7 @@ class B_E_UAV_06_F: UAV_06_base_F
 	displayName = $STR_A3_CfgVehicles_B_UAV_06_F0;
 	scope = public;
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
 	class assembleInfo
@@ -74,17 +74,17 @@ class B_E_UAV_06_F: UAV_06_base_F
 		displayName = "";
 		dissasembleTo[] = {B_UAV_06_backpack_F};
 	};
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_CO.paa"};
 	class TextureSources: TextureSources
 	{
 		class Blufor: Blufor
 		{
-			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_CO.paa"};
-			factions[]= {BLU_E_F};
+			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_CO.paa"};
+			factions[]= {Atlas_BLU_G_F};
 		};
 	};
 };
-class B_E_UAV_06_medical_F: UAV_06_medical_base_F
+class Atlas_B_G_UAV_06_medical_F: UAV_06_medical_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -149,7 +149,7 @@ class B_E_UAV_06_medical_F: UAV_06_medical_base_F
 	displayName = $STR_A3_CfgVehicles_B_UAV_06_medical_F0;
 	scope = public;
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI_F;
 	typicalCargo[] = {B_UAV_AI_F};
 	class assembleInfo
@@ -162,8 +162,8 @@ class B_E_UAV_06_medical_F: UAV_06_medical_base_F
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_medical_CO.paa",
-		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_medical_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa"
 	};
 	class TextureSources: TextureSources
 	{
@@ -171,10 +171,10 @@ class B_E_UAV_06_medical_F: UAV_06_medical_base_F
 		{
 			textures[] =
 			{
-				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_medical_CO.paa",
-				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_E_UAV_06_medical_CO.paa"
+				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa",
+				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa"
 			};
-			factions[]= {BLU_E_F};
+			factions[]= {Atlas_BLU_G_F};
 		};
 	};
 };

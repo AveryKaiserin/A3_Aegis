@@ -65,4 +65,6 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"               // IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

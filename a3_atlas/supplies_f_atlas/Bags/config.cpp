@@ -25,7 +25,9 @@ class CfgVehicles
 	class B_Carryall_ghex_F;
 	class B_FieldPack_ghex_F;
 	class B_ViperHarness_base_F;
+	class B_ViperHarness_oli_F;
 	class B_ViperLightHarness_base_F;
+	class B_ViperLightHarness_oli_F;
 	// Arma 3 Enoch
 	class B_RadioBag_01_base_F;
 	class B_Carryall_green_F;

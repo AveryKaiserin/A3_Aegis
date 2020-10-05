@@ -12,5 +12,7 @@ class CfgVehicles
 	class B_Plane_Fighter_01_F: Plane_Fighter_01_Base_F{};
 	class B_Plane_Fighter_01_Stealth_F: Plane_Fighter_01_Base_F{};
     // Arma 3 Atlas
-    #include "cfgBlufor_Atlas.hpp"      // NATO (German)
+    #include "cfgBlufor_Atlas.hpp"      // Germany
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

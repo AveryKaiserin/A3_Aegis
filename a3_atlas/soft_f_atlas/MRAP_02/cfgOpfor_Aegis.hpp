@@ -1,4 +1,4 @@
-class O_W_MRAP_02_F: O_MRAP_02_F
+class Atlas_O_W_MRAP_02_F: O_MRAP_02_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -116,12 +116,12 @@ class O_W_MRAP_02_F: O_MRAP_02_F
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_F0;
     side = TEast;
-    faction =  OPF_W_F;
-    crew = O_W_Soldier_F;
+    faction =  Atlas_OPF_W_F;
+    crew = Atlas_O_W_Soldier_F;
     typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
     textureList[] = {GreenHex,1};
     hiddenSelectionsTextures[] =
@@ -151,7 +151,7 @@ class O_W_MRAP_02_F: O_MRAP_02_F
         weap_xx(arifle_AK12_545_F,2);
     };
 };
-class O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
+class Atlas_O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -277,12 +277,12 @@ class O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_hmg_F0;
     side = TEast;
-    faction =  OPF_W_F;
-    crew = O_W_Soldier_F;
+    faction =  Atlas_OPF_W_F;
+    crew = Atlas_O_W_Soldier_F;
     typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
     textureList[] = {GreenHex,1};
     hiddenSelectionsTextures[] =
@@ -313,7 +313,7 @@ class O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
         weap_xx(arifle_AK12_545_F,2);
     };
 };
-class O_W_MRAP_02_gmg_F: O_MRAP_02_gmg_F
+class Atlas_O_W_MRAP_02_gmg_F: O_MRAP_02_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -439,12 +439,12 @@ class O_W_MRAP_02_gmg_F: O_MRAP_02_gmg_F
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_gmg_F0;
     side = TEast;
-    faction =  OPF_W_F;
-    crew = O_W_Soldier_F;
+    faction =  Atlas_OPF_W_F;
+    crew = Atlas_O_W_Soldier_F;
     typicalCargo[] =
     {
-        O_W_Soldier_F,
-        O_W_Soldier_F
+        Atlas_O_W_Soldier_F,
+        Atlas_O_W_Soldier_F
     };
     textureList[] = {GreenHex,1};
     hiddenSelectionsTextures[] =

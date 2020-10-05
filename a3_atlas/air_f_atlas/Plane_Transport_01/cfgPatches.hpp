@@ -7,13 +7,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_Plane_Transport_01_infantry_F,
-            B_E_Plane_Transport_01_vehicle_F,
+            // Germany
+            Atlas_B_G_Plane_Transport_01_infantry_F,
+            Atlas_B_G_Plane_Transport_01_vehicle_F,
 
             // ADF
-            B_O_Plane_Transport_01_infantry_F,
-            B_O_Plane_Transport_01_vehicle_F
+            Atlas_B_A_Plane_Transport_01_infantry_F,
+            Atlas_B_A_Plane_Transport_01_vehicle_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

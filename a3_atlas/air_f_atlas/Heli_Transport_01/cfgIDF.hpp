@@ -1,4 +1,4 @@
-class I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
+class Atlas_I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -131,9 +131,9 @@ class I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Heli_Transport_01_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_helipilot_F;
-	typicalCargo[] = {I_I_helipilot_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_helipilot_F;
+	typicalCargo[] = {Atlas_I_I_helipilot_F};
 	availableForSupportTypes[] =
 	{
 		Drop,
@@ -150,12 +150,12 @@ class I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 		class CopilotTurret: CopilotTurret{};
 		class MainTurret: MainTurret
 		{
-		    gunnerType = I_I_helicrew_F;
+		    gunnerType = Atlas_I_I_helicrew_F;
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
 		};
 		class RightDoorGun: RightDoorGun
 		{
-		    gunnerType = I_I_helicrew_F;
+		    gunnerType = Atlas_I_I_helicrew_F;
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
 		};
 	};

@@ -7,14 +7,14 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_MBT_02_cannon_ghex_F,
+            // Belarus
+            Atlas_O_W_MBT_02_cannon_ghex_F,
 
-            // CSAT (Takistani)
-            O_C_MBT_02_cannon_F,
+            // Takistani Army
+            Atlas_O_T_MBT_02_cannon_F,
 
             // CDF
-            I_W_MBT_02_cannon_F
+            Atlas_I_C_MBT_02_cannon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

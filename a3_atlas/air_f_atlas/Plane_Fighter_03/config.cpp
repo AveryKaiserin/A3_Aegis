@@ -11,11 +11,11 @@ class CfgVehicles
 		{
 			class Hex
 			{
-				factions[] += {OPF_C_F};
+				factions[] += {Atlas_OPF_T_F};
 			};
 			class Grey
 			{
-				factions[] += {OPF_C_F};
+				factions[] += {Atlas_OPF_T_F};
 			};
 		};
 		class AnimationSources;
@@ -25,7 +25,7 @@ class CfgVehicles
 	// Arma 3 Aegis
 	class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F{};
 	// Arma 3 Atlas
-	#include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
+	#include "cfgOpfor_Atlas.hpp"		// Takistani Army
     /*
 	#include "cfgCDF.hpp"		        // CDF
     */

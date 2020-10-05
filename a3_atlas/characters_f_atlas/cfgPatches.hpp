@@ -17,6 +17,17 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+            // Civilians
+            C_man_1_persian_F,
+            C_Man_2_persian_F,
+            C_Man_3_persian_F,
+            C_Man_4_persian_F,
+            C_Man_5_persian_F,
+            C_Man_6_persian_F,
+            C_Man_7_persian_F,
+            C_Man_8_persian_F,
+            C_Man_9_persian_F,
+
             // Belarus
             Atlas_O_W_Crew_F,
             Atlas_O_W_Engineer_F,

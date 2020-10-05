@@ -7,30 +7,30 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_UGV_01_F,
-            B_L_UGV_01_medical_F,
-            B_L_UGV_01_rcws_F,
+            // Legionnaires
+            Atlas_B_L_UGV_01_F,
+            Atlas_B_L_UGV_01_medical_F,
+            Atlas_B_L_UGV_01_rcws_F,
 
-            // NATO (German)
-            B_E_UGV_01_F,
-            B_E_UGV_01_medical_F,
-            B_E_UGV_01_rcws_F,
+            // Germany
+            Atlas_B_G_UGV_01_F,
+            Atlas_B_G_UGV_01_medical_F,
+            Atlas_B_G_UGV_01_rcws_F,
 
             // ADF
-            B_O_UGV_01_F,
-            B_O_UGV_01_medical_F,
-            B_O_UGV_01_rcws_F,
+            Atlas_B_A_UGV_01_F,
+            Atlas_B_A_UGV_01_medical_F,
+            Atlas_B_A_UGV_01_rcws_F,
 
             // CDF
-            I_W_UGV_01_F,
-            I_W_UGV_01_medical_F,
-            I_W_UGV_01_rcws_F,
+            Atlas_I_C_UGV_01_F,
+            Atlas_I_C_UGV_01_medical_F,
+            Atlas_I_C_UGV_01_rcws_F,
 
             // IDF
-            I_I_UGV_01_F,
-            I_I_UGV_01_medical_F,
-            I_I_UGV_01_rcws_F
+            Atlas_I_I_UGV_01_F,
+            Atlas_I_I_UGV_01_medical_F,
+            Atlas_I_I_UGV_01_rcws_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

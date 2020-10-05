@@ -1,11 +1,11 @@
-class B_E_LT_01_AT_F: LT_01_AT_base_F
+class Atlas_B_G_LT_01_AT_F: LT_01_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_LT_01_AT_F.jpg";
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_I_LT_01_AT_F0;
 	textureList[] = {Indep_Olive,1};
@@ -62,14 +62,14 @@ class B_E_LT_01_AT_F: LT_01_AT_base_F
 		};
 	};
 };
-class B_E_LT_01_scout_F: LT_01_scout_base_F
+class Atlas_B_G_LT_01_scout_F: LT_01_scout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_LT_01_scout_F.jpg";
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_I_LT_01_scout_F0;
 	textureList[] = {Indep_Olive,1};
@@ -114,14 +114,14 @@ class B_E_LT_01_scout_F: LT_01_scout_base_F
 		};
 	};
 };
-class B_E_LT_01_AA_F: LT_01_AA_base_F
+class Atlas_B_G_LT_01_AA_F: LT_01_AA_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_LT_01_AA_F.jpg";
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_I_LT_01_AA_F0;
 	editorSubcategory = EdSubcat_AAs;
@@ -179,14 +179,14 @@ class B_E_LT_01_AA_F: LT_01_AA_base_F
 		};
 	};
 };
-class B_E_LT_01_cannon_F: LT_01_cannon_base_F
+class Atlas_B_G_LT_01_cannon_F: LT_01_cannon_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_LT_01_cannon_F.jpg";
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_I_LT_01_cannon_F0;
 	textureList[] = {Indep_Olive,1};

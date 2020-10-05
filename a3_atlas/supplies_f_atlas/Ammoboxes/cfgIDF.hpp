@@ -1,4 +1,4 @@
-class I_I_supplyCrate_F: I_supplyCrate_F
+class Atlas_I_I_supplyCrate_F: I_supplyCrate_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

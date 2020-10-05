@@ -7,11 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_LSV_01_armed_F,
-            B_L_LSV_01_AT_F,
-            B_L_LSV_01_light_F,
-            B_L_LSV_01_unarmed_F
+            // Legionnaires
+            Atlas_B_L_LSV_01_armed_F,
+            Atlas_B_L_LSV_01_AT_F,
+            Atlas_B_L_LSV_01_light_F,
+            Atlas_B_L_LSV_01_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

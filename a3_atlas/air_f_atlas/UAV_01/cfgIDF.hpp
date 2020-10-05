@@ -1,4 +1,4 @@
-class I_I_UAV_01_F: UAV_01_base_F
+class Atlas_I_I_UAV_01_F: UAV_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -46,7 +46,7 @@ class I_I_UAV_01_F: UAV_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	crew = I_UAV_AI_F;
 	typicalCargo[] = {I_UAV_AI_F};
 	accuracy = 0.5;
@@ -56,12 +56,12 @@ class I_I_UAV_01_F: UAV_01_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_I_UAV_01_backpack_F};
+		dissasembleTo[] = {Atlas_I_I_UAV_01_backpack_F};
 	};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_01\Data\UAV_01_IDF_CO.paa"};
 	textureList[] = {IDF,1};
 };
-class I_I_UAV_01_backpack_F: Weapon_Bag_Base
+class Atlas_I_I_UAV_01_backpack_F: Weapon_Bag_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 0.6;
@@ -71,7 +71,7 @@ class I_I_UAV_01_backpack_F: Weapon_Bag_Base
 	model = "\A3\Drones_F\Weapons_F_Gamma\Ammoboxes\Bags\UAV_backpack_F.p3d";
 	editorCategory = EdCat_Equipment;
 	editorSubcategory = EdSubcat_Backpacks;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_01_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\UAV_backpack_khk_CO.paa"};
 	maximumLoad = 0;
@@ -80,6 +80,6 @@ class I_I_UAV_01_backpack_F: Weapon_Bag_Base
 	{
 		base = "";
 		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_01_backpack_F_assembleInfo0;
-		assembleTo = I_I_UAV_01_F;
+		assembleTo = Atlas_I_I_UAV_01_F;
 	};
 };

@@ -10,15 +10,12 @@ class CfgVehicles
 		{
 			class Black
 			{
-				factions[] =
-				{
-                    BLU_GEN_F,
-                    BLU_H_F,
-					IND_C_F
-				};
+				factions[] += {Atlas_BLU_H_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
 	#include "cfgHIMF.hpp"
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

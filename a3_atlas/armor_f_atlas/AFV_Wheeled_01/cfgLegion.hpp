@@ -1,4 +1,4 @@
-class B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
+class Atlas_B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -251,9 +251,9 @@ class B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_AFV_Wheeled_01_cannon_F.jpg";
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Crew_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Crew_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_AFV_Wheeled_01_cannon_F0;
 	scope = public;
 	hiddenSelectionsTextures[] =
@@ -290,7 +290,7 @@ class B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 		bag_xx(B_AssaultPack_sgg,2);
 	};
 };
-class B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
+class Atlas_B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -563,9 +563,9 @@ class B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_AFV_Wheeled_01_up_cannon_F.jpg";
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Crew_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Crew_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_T_AFV_Wheeled_01_up_cannon_F0;
 	scope = public;
 	hiddenSelectionsTextures[] =

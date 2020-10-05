@@ -1,4 +1,4 @@
-class I_I_UAV_06_F: UAV_06_base_F
+class Atlas_I_I_UAV_06_F: UAV_06_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -63,7 +63,7 @@ class I_I_UAV_06_F: UAV_06_base_F
 	displayName = $STR_A3_CfgVehicles_I_UAV_06_F0;
 	scope = public;
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	crew = I_UAV_AI_F;
 	typicalCargo[] = {I_UAV_AI_F};
 	class assembleInfo
@@ -72,11 +72,11 @@ class I_I_UAV_06_F: UAV_06_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_I_UAV_06_backpack_F};
+		dissasembleTo[] = {Atlas_I_I_UAV_06_backpack_F};
 	};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_I_UAV_06_CO.paa"};
 };
-class I_I_UAV_06_medical_F: UAV_06_medical_base_F
+class Atlas_I_I_UAV_06_medical_F: UAV_06_medical_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -141,7 +141,7 @@ class I_I_UAV_06_medical_F: UAV_06_medical_base_F
 	displayName = $STR_A3_CfgVehicles_I_UAV_06_medical_F0;
 	scope = public;
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	crew = I_UAV_AI_F;
 	typicalCargo[] = {I_UAV_AI_F};
 	class assembleInfo
@@ -150,7 +150,7 @@ class I_I_UAV_06_medical_F: UAV_06_medical_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_I_UAV_06_medical_backpack_F};
+		dissasembleTo[] = {Atlas_I_I_UAV_06_medical_backpack_F};
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -198,13 +198,13 @@ class Box_I_I_UAV_06_medical_F: Box_UAV_06_medical_base_F
 		"\A3_Atlas\Air_F_Atlas\UAV_06\Data\I_I_UAV_06_medical_CO.paa"
 	};
 };
-class I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
+class Atlas_I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F0;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_06_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
 	{
@@ -214,16 +214,16 @@ class I_I_UAV_06_backpack_F: UAV_06_backpack_base_F
 	class assembleInfo: assembleInfo
 	{
 		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_backpack_F_assembleInfo0;
-		assembleTo = I_I_UAV_06_F;
+		assembleTo = Atlas_I_I_UAV_06_F;
 	};
 };
-class I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
+class Atlas_I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F0;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_06_medical_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
 	{
@@ -233,6 +233,6 @@ class I_I_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 	class assembleInfo: assembleInfo
 	{
 		displayName = $STR_A3_A_CfgVehicles_I_I_UAV_06_medical_backpack_F_assembleInfo0;
-		assembleTo = I_I_UAV_06_medical_F;
+		assembleTo = Atlas_I_I_UAV_06_medical_F;
 	};
 };

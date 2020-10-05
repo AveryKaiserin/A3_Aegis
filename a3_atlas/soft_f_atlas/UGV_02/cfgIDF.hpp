@@ -1,11 +1,11 @@
-class I_I_UGV_02_Demining_F: UGV_02_Demining_Base_F
+class Atlas_I_I_UGV_02_Demining_F: UGV_02_Demining_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_UGV_02_Demining_F.jpg";
 	scope = public;
 	displayName = $STR_A3_C_CfgVehicles_I_UGV_02_Demining_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	crew = I_UAV_AI;
 	class assembleInfo
 	{
@@ -13,20 +13,20 @@ class I_I_UGV_02_Demining_F: UGV_02_Demining_Base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_I_UGV_02_Demining_backpack_F};
+		dissasembleTo[] = {Atlas_I_I_UGV_02_Demining_backpack_F};
 	};
 };
-class I_I_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
+class Atlas_I_I_UGV_02_Demining_backpack_F: UGV_02_Demining_backpack_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_UGV_02_Demining_backpack_F0;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	picture = "\A3\Supplies_F_Enoch\Bags\Data\UI\icon_I_UGV_02_demining_CA.paa";
 	class assembleInfo: assembleInfo
 	{
 		displayName = $STR_A3_A_CfgVehicles_I_I_UGV_02_Demining_backpack_F_assembleInfo0;
-		assembleTo = I_I_UGV_02_Demining_F;
+		assembleTo = Atlas_I_I_UGV_02_Demining_F;
 	};
 };

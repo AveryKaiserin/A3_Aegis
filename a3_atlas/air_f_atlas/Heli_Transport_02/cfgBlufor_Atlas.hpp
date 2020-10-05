@@ -1,4 +1,4 @@
-class B_E_Heli_Transport_02_F: Heli_Transport_02_base_F
+class Atlas_B_G_Heli_Transport_02_F: Heli_Transport_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -163,10 +163,10 @@ class B_E_Heli_Transport_02_F: Heli_Transport_02_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Heli_Transport_02_F.jpg";
 	scope = public;
-	crew = B_E_Helipilot_F;
-	typicalCargo[] = {B_E_Helicrew_F};
+	crew = Atlas_B_G_Helipilot_F;
+	typicalCargo[] = {Atlas_B_G_Helicrew_F};
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{

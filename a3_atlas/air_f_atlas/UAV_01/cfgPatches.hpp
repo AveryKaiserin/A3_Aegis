@@ -7,23 +7,23 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_UAV_01_F,
+            // Legionnaires
+            Atlas_B_L_UAV_01_F,
 
-            // NATO (European)
-            B_E_UAV_01_F,
+            // Germany
+            Atlas_B_G_UAV_01_F,
 
             // ADF
-            B_O_UAV_01_backpack_F,
-            B_O_UAV_01_F,
+            Atlas_B_A_UAV_01_backpack_F,
+            Atlas_B_A_UAV_01_F,
 
             // CDF
-            I_W_UAV_01_backpack_F,
-            I_W_UAV_01_F,
+            Atlas_I_C_UAV_01_backpack_F,
+            Atlas_I_C_UAV_01_F,
 
             // IDF
-            I_I_UAV_01_backpack_F,
-            I_I_UAV_01_F
+            Atlas_I_I_UAV_01_backpack_F,
+            Atlas_I_I_UAV_01_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

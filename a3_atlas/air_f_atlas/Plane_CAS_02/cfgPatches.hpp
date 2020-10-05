@@ -7,9 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Ejection_Seat_Plane_CAS_02_F,
-            O_W_Plane_CAS_02_dynamicLoadout_ghex_F
+            // Belarus
+            Atlas_O_W_Ejection_Seat_Plane_CAS_02_F,
+            Atlas_O_W_Plane_CAS_02_dynamicLoadout_ghex_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

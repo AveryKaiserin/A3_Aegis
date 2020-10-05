@@ -8,9 +8,9 @@ class CfgPatches
 		units[] =
         {
             // IDF
-            I_I_MRAP_01_F,
-            I_I_MRAP_01_gmg_F,
-            I_I_MRAP_01_hmg_F
+            Atlas_I_I_MRAP_01_F,
+            Atlas_I_I_MRAP_01_gmg_F,
+            Atlas_I_I_MRAP_01_hmg_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

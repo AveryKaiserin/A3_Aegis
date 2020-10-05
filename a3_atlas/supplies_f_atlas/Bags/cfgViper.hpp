@@ -1,4 +1,4 @@
-class B_ViperHarness_whex_TL_F: B_ViperLightHarness_whex_F
+class B_ViperLightHarness_whex_TL_F: B_ViperLightHarness_whex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -59,7 +59,7 @@ class B_ViperHarness_whex_Medic_F: B_ViperHarness_whex_F
 		item_xx(optic_Nightstalker,1);
 	};
 };
-class B_ViperHarness_whex_M_F: B_ViperLightHarness_whex_F
+class B_ViperLightHarness_whex_M_F: B_ViperLightHarness_whex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -94,7 +94,7 @@ class B_ViperHarness_whex_LAT_F: B_ViperHarness_whex_F
 		item_xx(optic_Nightstalker,1);
 	};
 };
-class B_ViperHarness_whex_JTAC_F: B_ViperLightHarness_whex_F
+class B_ViperLightHarness_whex_JTAC_F: B_ViperLightHarness_whex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;

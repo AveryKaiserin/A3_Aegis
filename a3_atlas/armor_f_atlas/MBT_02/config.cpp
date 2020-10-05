@@ -35,7 +35,7 @@ class CfgVehicles
 			/*
 			class CDF
 			{
-				displayName = "CDF";
+				displayName = $STR_A3_A_TEXTURESOURCES_CDF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -44,7 +44,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_CDF_CO.paa",
 					"\A3_Atlas\Armor_F_Atlas\Data\camonet_CDF_Green_CO.paa"
 				};
-				factions[] = {IND_CDF_F};
+				factions[] = {Atlas_IND_C_F};
 			};
 			*/
 		};
@@ -52,9 +52,11 @@ class CfgVehicles
     class O_MBT_02_base_F: MBT_02_base_F{};
     class O_MBT_02_cannon_F: O_MBT_02_base_F{};
 	// Arma 3 Atlas
-    #include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
-    #include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
+    #include "cfgOpfor_Aegis.hpp"       // Belarus
+    #include "cfgOpfor_Atlas.hpp"       // Takistani Army
     /*
 	#include "cfgCDF.hpp"               // CDF
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

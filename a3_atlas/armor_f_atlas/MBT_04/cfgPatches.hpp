@@ -9,7 +9,12 @@
 			A3_Armor_F_Tank_MBT_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            // HIMF
+            Atlas_B_H_MBT_04_cannon_F,
+            Atlas_B_H_MBT_04_command_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

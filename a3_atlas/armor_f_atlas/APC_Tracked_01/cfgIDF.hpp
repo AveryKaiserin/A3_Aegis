@@ -1,4 +1,4 @@
-class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
+class Atlas_I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -181,9 +181,9 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_AA_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_crew_F;
-	typicalCargo[] = {I_I_soldier_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_crew_F;
+	typicalCargo[] = {Atlas_I_I_soldier_F};
 	class TransportWeapons
 	{
 		weap_xx(arifle_TRG21_black_F,2);
@@ -251,11 +251,11 @@ class I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
-			factions[] = {IND_I_F};
+			factions[] = {Atlas_IND_I_F};
 		};
 	};
 };
-class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
+class Atlas_I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -391,9 +391,9 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_CRV_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_crew_F;
-	typicalCargo[] = {I_I_soldier_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_crew_F;
+	typicalCargo[] = {Atlas_I_I_soldier_F};
 	class TransportWeapons
 	{
 		weap_xx(arifle_TRG21_black_F,2);
@@ -456,11 +456,11 @@ class I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 				"\A3_Atlas\Armor_F_Atlas\APC_Tracked_01\Data\APC_Tracked_01_CRV_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
-			factions[] = {IND_I_F};
+			factions[] = {Atlas_IND_I_F};
 		};
 	};
 };
-class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
+class Atlas_I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -596,9 +596,9 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_I_I_APC_Tracked_01_rcws_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_crew_F;
-	typicalCargo[] = {I_I_soldier_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_crew_F;
+	typicalCargo[] = {Atlas_I_I_soldier_F};
 	class TransportWeapons
 	{
 		weap_xx(arifle_TRG21_black_F,2);
@@ -663,7 +663,7 @@ class I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 				"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa",
 				"\A3\Armor_F\Data\camonet_greenbeige_CO.paa"
 			};
-			factions[] = {IND_I_F};
+			factions[] = {Atlas_IND_I_F};
 		};
 	};
 };

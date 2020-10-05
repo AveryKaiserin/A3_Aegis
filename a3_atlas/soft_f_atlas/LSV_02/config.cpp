@@ -7,9 +7,11 @@ class CfgVehicles
 	class LSV_02_unarmed_base_F;
 	class LSV_02_AT_base_F;
 	// Arma 3 Atlas
-	#include "cfgOpfor_Aegis.hpp"       // CSAT (Woodland)
-	#include "cfgOpfor_Atlas.hpp"       // CSAT (Takistani)
+	#include "cfgOpfor_Aegis.hpp"       // Belarus
+	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
     /*
 	#include "cfgCDF.hpp"               // CDF
     */
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

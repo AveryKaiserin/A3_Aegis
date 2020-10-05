@@ -77,19 +77,19 @@ class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
 	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_cover_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_cover_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
-	backpack = B_TacticalPack_sgg_IIAAR_F;
+	backpack = B_ViperHarness_oli_IIAAR_F;
 	weapons[] =
 	{
 		arifle_TRG21_black_ACO_pointer_F,
@@ -110,7 +110,7 @@ class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(I_IR_Grenade),
-        mag_2(SmokeShell)
+        SmokeShell
 	};
 	respawnMagazines[] =
 	{
@@ -118,7 +118,7 @@ class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(I_IR_Grenade),
-        mag_2(SmokeShell)
+        SmokeShell
 	};
 	role = Assistant;
 };
@@ -163,7 +163,7 @@ class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -171,7 +171,7 @@ class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -219,7 +219,7 @@ class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -227,7 +227,7 @@ class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -275,7 +275,7 @@ class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -283,7 +283,7 @@ class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -331,7 +331,7 @@ class Atlas_I_I_support_AMort_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -339,7 +339,7 @@ class Atlas_I_I_support_AMort_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -367,18 +367,19 @@ class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
     uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_cover_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_cover_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
+    backpack = B_ViperLightHarness_oli_IIAR_F;
 	weapons[] =
 	{
 		LMG_Zafir_black_MRCO_pointer_F,
@@ -393,14 +394,14 @@ class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(150Rnd_762x51_Box_Yellow),
+		mag_2(150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_4(150Rnd_762x51_Box_Yellow),
+		mag_2(150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
@@ -668,18 +669,19 @@ class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
 	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_Olive_F,
 		H_HelmetI_I_01_F,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
+    backpack = B_ViperHarness_oli_IIGL_F;
 	weapons[] =
 	{
 		arifle_TRG21_GL_black_ACO_pointer_F,
@@ -696,19 +698,13 @@ class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
-		mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
-		mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        mag_2(SmokeShell)
 	};
 	cost = 200000;
     role = Grenadier;
@@ -754,7 +750,7 @@ class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -762,7 +758,7 @@ class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -810,7 +806,7 @@ class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -818,7 +814,7 @@ class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -866,7 +862,7 @@ class Atlas_I_I_support_Mort_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -874,7 +870,7 @@ class Atlas_I_I_support_Mort_F: Atlas_I_I_Soldier_Base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        HandGrenade,
+        mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};

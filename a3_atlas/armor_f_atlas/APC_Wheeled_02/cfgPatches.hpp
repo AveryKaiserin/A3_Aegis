@@ -7,11 +7,11 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_APC_Wheeled_02_rcws_v2_ghex_F,
+            // Belarus
+            Atlas_O_W_APC_Wheeled_02_rcws_v2_ghex_F,
 
-            // CSAT (Takistani)
-            O_C_APC_Wheeled_02_rcws_v2_F
+            // Takistani Army
+            Atlas_O_T_APC_Wheeled_02_rcws_v2_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

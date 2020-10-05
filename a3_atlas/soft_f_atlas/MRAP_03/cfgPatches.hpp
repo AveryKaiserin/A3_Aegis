@@ -11,10 +11,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_MRAP_03_F,
-            B_E_MRAP_03_gmg_F,
-            B_E_MRAP_03_hmg_F
+            // Germany
+            Atlas_B_G_MRAP_03_F,
+            Atlas_B_G_MRAP_03_gmg_F,
+            Atlas_B_G_MRAP_03_hmg_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

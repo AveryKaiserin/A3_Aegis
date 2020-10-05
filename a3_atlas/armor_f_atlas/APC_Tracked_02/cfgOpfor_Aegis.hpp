@@ -1,4 +1,4 @@
-class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
+class Atlas_O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -191,9 +191,9 @@ class O_W_APC_Tracked_02_cannon_ghex_F: O_APC_Tracked_02_cannon_F
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Crew_F;
-	typicalCargo[] = {O_W_Soldier_F};
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Crew_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{

@@ -1,4 +1,4 @@
-class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
+class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -202,9 +202,9 @@ class B_E_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Crew_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Crew_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	textureList[] =
 	{
 		Olive_01,1,

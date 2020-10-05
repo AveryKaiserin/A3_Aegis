@@ -8,7 +8,7 @@ class CfgPatches
 		units[] =
         {
             // HIMF
-            B_H_Boat_Transport_02_F
+            Atlas_B_H_Boat_Transport_02_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

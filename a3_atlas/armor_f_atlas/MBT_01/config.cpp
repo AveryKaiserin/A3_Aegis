@@ -54,4 +54,6 @@ class CfgVehicles
 	class B_MBT_01_TUSK_F;
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"               // IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -1,4 +1,4 @@
-class I_I_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F
+class Atlas_I_I_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -64,7 +64,7 @@ class I_I_UAV_02_dynamicLoadout_F: UAV_02_dynamicLoadout_base_F
 	crew = I_UAV_AI;
 	typicalCargo[] = {I_UAV_AI};
 	side = TGuerrila;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	accuracy = 1;
 	displayName = $STR_A3_CfgVehicles_UAV_02_base0;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_IDF_CO.paa"};

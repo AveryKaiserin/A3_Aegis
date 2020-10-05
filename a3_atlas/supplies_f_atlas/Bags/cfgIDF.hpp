@@ -95,7 +95,7 @@ class B_Kitbag_sgg_IIAT_F: B_Kitbag_sgg
 		mag_xx(Titan_AT,2);
 	};
 };
-class B_TacticalPack_sgg_IIAAR_F: B_TacticalPack_sgg
+class B_ViperHarness_oli_IIAAR_F: B_ViperHarness_oli_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -103,12 +103,34 @@ class B_TacticalPack_sgg_IIAAR_F: B_TacticalPack_sgg
 	{
 		mag_xx(150Rnd_762x51_Box_Yellow,3);
 		mag_xx(150Rnd_762x51_Box_Tracer_Yellow,1);
+		mag_xx(HandGrenade,1);
+		mag_xx(SmokeShell,1);
 	};
 	class TransportItems
 	{
 		item_xx(optic_tws_mg,1);
 		item_xx(bipod_03_F_blk,1);
 		item_xx(muzzle_snds_B,1);
+	};
+};
+class B_ViperHarness_oli_IIGL_F: B_ViperHarness_oli_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_Smoke_Grenade_shell,2);
+		mag_xx(HandGrenade,2);
+	};
+};
+class B_ViperLightHarness_oli_IIAR_F: B_ViperLightHarness_oli_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(150Rnd_762x51_Box_Yellow,2);
 	};
 };
 class B_AssaultPack_blk_IIReconMedic_F: B_AssaultPack_blk

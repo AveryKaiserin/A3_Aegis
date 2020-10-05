@@ -7,15 +7,15 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_APC_Tracked_02_cannon_ghex_F,
+            // Belarus
+            Atlas_O_W_APC_Tracked_02_cannon_ghex_F,
 
-            // CSAT (Takistani)
-            O_C_APC_Tracked_02_cannon_F,
+            // Takistani Army
+            Atlas_O_T_APC_Tracked_02_cannon_F,
 
             // CDF
-            I_W_APC_Tracked_02_cannon_F,
-            I_W_APC_Tracked_02_AA_F
+            Atlas_I_C_APC_Tracked_02_cannon_F,
+            Atlas_I_C_APC_Tracked_02_AA_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

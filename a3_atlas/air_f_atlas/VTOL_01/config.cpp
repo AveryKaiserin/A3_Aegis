@@ -1,6 +1,5 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
-/*
 class CfgVehicles
 {
 	// Arma 3 Apex
@@ -21,7 +20,7 @@ class CfgVehicles
 					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_EXT04_desert_CO.paa",
 					"\A3_Atlas\Air_F_Atlas\VTOL_01\Data\VTOL_01_signs_desert_CA.paa"
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -30,4 +29,3 @@ class CfgVehicles
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"				// IDF
 };
-*/

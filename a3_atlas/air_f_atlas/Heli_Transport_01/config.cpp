@@ -34,10 +34,12 @@ class CfgVehicles
 					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext01_desert_CO.paa",
 					"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_desert_CO.paa"
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

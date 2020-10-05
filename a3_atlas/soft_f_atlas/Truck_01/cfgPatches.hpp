@@ -7,41 +7,41 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
-            B_L_Truck_01_ammo_F,
-            B_L_Truck_01_box_F,
-            B_L_Truck_01_cargo_F,
-            B_L_Truck_01_covered_F,
-            B_L_Truck_01_flatbed_F,
-            B_L_Truck_01_fuel_F,
-            B_L_Truck_01_medical_F,
-            B_L_Truck_01_mover_F,
-            B_L_Truck_01_Repair_F,
-            B_L_Truck_01_transport_F,
+            // Legionnaires
+            Atlas_B_L_Truck_01_ammo_F,
+            Atlas_B_L_Truck_01_box_F,
+            Atlas_B_L_Truck_01_cargo_F,
+            Atlas_B_L_Truck_01_covered_F,
+            Atlas_B_L_Truck_01_flatbed_F,
+            Atlas_B_L_Truck_01_fuel_F,
+            Atlas_B_L_Truck_01_medical_F,
+            Atlas_B_L_Truck_01_mover_F,
+            Atlas_B_L_Truck_01_Repair_F,
+            Atlas_B_L_Truck_01_transport_F,
 
-            // NATO (German)
-            B_E_Truck_01_ammo_F,
-            B_E_Truck_01_box_F,
-            B_E_Truck_01_cargo_F,
-            B_E_Truck_01_covered_F,
-            B_E_Truck_01_flatbed_F,
-            B_E_Truck_01_fuel_F,
-            B_E_Truck_01_medical_F,
-            B_E_Truck_01_mover_F,
-            B_E_Truck_01_Repair_F,
-            B_E_Truck_01_transport_F,
+            // Germany
+            Atlas_B_G_Truck_01_ammo_F,
+            Atlas_B_G_Truck_01_box_F,
+            Atlas_B_G_Truck_01_cargo_F,
+            Atlas_B_G_Truck_01_covered_F,
+            Atlas_B_G_Truck_01_flatbed_F,
+            Atlas_B_G_Truck_01_fuel_F,
+            Atlas_B_G_Truck_01_medical_F,
+            Atlas_B_G_Truck_01_mover_F,
+            Atlas_B_G_Truck_01_Repair_F,
+            Atlas_B_G_Truck_01_transport_F,
 
             // IDF
-            I_I_Truck_01_ammo_F,
-            I_I_Truck_01_box_F,
-            I_I_Truck_01_cargo_F,
-            I_I_Truck_01_covered_F,
-            I_I_Truck_01_flatbed_F,
-            I_I_Truck_01_fuel_F,
-            I_I_Truck_01_medical_F,
-            I_I_Truck_01_mover_F,
-            I_I_Truck_01_Repair_F,
-            I_I_Truck_01_transport_F
+            Atlas_I_I_Truck_01_ammo_F,
+            Atlas_I_I_Truck_01_box_F,
+            Atlas_I_I_Truck_01_cargo_F,
+            Atlas_I_I_Truck_01_covered_F,
+            Atlas_I_I_Truck_01_flatbed_F,
+            Atlas_I_I_Truck_01_fuel_F,
+            Atlas_I_I_Truck_01_medical_F,
+            Atlas_I_I_Truck_01_mover_F,
+            Atlas_I_I_Truck_01_Repair_F,
+            Atlas_I_I_Truck_01_transport_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

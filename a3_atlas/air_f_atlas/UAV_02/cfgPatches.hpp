@@ -7,11 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (European)
-            B_E_UAV_02_dynamicLoadout_F,
+            // Germany
+            Atlas_B_G_UAV_02_dynamicLoadout_F,
 
             // IDF
-            I_I_UAV_02_dynamicLoadout_F
+            Atlas_I_I_UAV_02_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

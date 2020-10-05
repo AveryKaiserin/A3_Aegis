@@ -17,7 +17,7 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {Atlas_BLU_G_F};
 			};
 		};
 		class Turrets;
@@ -103,5 +103,7 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+	#include "cfgBlufor_Atlas.hpp"      // Germany
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

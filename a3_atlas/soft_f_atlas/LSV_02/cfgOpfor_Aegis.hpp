@@ -1,4 +1,4 @@
-class O_W_LSV_02_armed_F: LSV_02_armed_base_F
+class Atlas_O_W_LSV_02_armed_F: LSV_02_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -89,9 +89,9 @@ class O_W_LSV_02_armed_F: LSV_02_armed_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
-	typicalCargo[] = {O_W_Soldier_F};
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -129,7 +129,7 @@ class O_W_LSV_02_armed_F: LSV_02_armed_base_F
 		weap_xx(arifle_AK12_545_F,2);
 	};
 };
-class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
+class Atlas_O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -220,9 +220,9 @@ class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
-	typicalCargo[] = {O_W_Soldier_F};
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -260,7 +260,7 @@ class O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		weap_xx(arifle_AK12_545_F,2);
 	};
 };
-class O_W_LSV_02_AT_F: LSV_02_AT_base_F
+class Atlas_O_W_LSV_02_AT_F: LSV_02_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -349,9 +349,9 @@ class O_W_LSV_02_AT_F: LSV_02_AT_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_AT_F0;
 	side = TEast;
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
-	typicalCargo[] = {O_W_Soldier_F};
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
 	textureList[] =
 	{
 		Black,0,

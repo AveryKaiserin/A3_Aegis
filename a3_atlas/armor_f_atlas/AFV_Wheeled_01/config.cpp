@@ -20,7 +20,7 @@ class CfgVehicles
                     "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
                     "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
                 };
-				factions[] = {BLU_L_F};
+				factions[] = {Atlas_BLU_L_F};
 			};
 			class Jagged_02
 			{
@@ -34,7 +34,7 @@ class CfgVehicles
                     "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
                     "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_CO.paa"
                 };
-				factions[] = {BLU_L_F};
+				factions[] = {Atlas_BLU_L_F};
 			};
 		};
     };

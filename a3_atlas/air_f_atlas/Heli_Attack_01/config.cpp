@@ -14,7 +14,7 @@ class CfgVehicles
 				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_desert_CO.paa"};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -27,4 +27,6 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

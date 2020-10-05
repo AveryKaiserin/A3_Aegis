@@ -7,20 +7,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legion
+            // Belarus
+            Atlas_O_W_supplyCrate_F,
+
+            // Legionnaires
             L_supplyCrate_F,
+            
+            // Germany
+            Atlas_B_G_supplyCrate_F,
 
-            // CSAT (Woodland)
-            O_W_supplyCrate_F,
-
-            // NATO (German)
-            B_E_supplyCrate_F,
-
-            // CSAT (Takistani)
-            Box_C_East_Ammo_F,
-            Box_C_East_Wps_F,
-            Box_C_East_WpsLaunch_F,
-            O_C_supplyCrate_F,
+            // Takistani Army
+            Box_TKA_Ammo_F,
+            Box_TKA_Wps_F,
+            Box_TKA_WpsLaunch_F,
+            Atlas_O_T_supplyCrate_F,
 
             // HIMF
             Box_Tanoan_Ammo_F,
@@ -29,7 +29,7 @@ class CfgPatches
             H_supplyCrate_F,
 
             // IDF
-            I_I_supplyCrate_F
+            Atlas_I_I_supplyCrate_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

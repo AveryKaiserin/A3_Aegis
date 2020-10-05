@@ -1,4 +1,4 @@
-class Atlas_Box_TKA_Wps_F: ReammoBox_F
+class Box_TKA_Wps_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.23;
@@ -9,9 +9,9 @@ class Atlas_Box_TKA_Wps_F: ReammoBox_F
 		verticalOffset = 0.07;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_Wps_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_TKA_Wps_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_Wps_F0;
+	displayName = $STR_A3_A_CfgVehicles_Box_TKA_Wps_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
@@ -32,7 +32,7 @@ class Atlas_Box_TKA_Wps_F: ReammoBox_F
 	};
 	class TransportItems{};
 };
-class Atlas_Box_TKA_Ammo_F: ReammoBox_F
+class Box_TKA_Ammo_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -42,9 +42,9 @@ class Atlas_Box_TKA_Ammo_F: ReammoBox_F
 		verticalOffset = 0.21;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_Ammo_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_TKA_Ammo_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_Ammo_F0;
+	displayName = $STR_A3_A_CfgVehicles_Box_TKA_Ammo_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
@@ -59,7 +59,7 @@ class Atlas_Box_TKA_Ammo_F: ReammoBox_F
 	class TransportWeapons{};
 	class TransportItems{};
 };
-class Atlas_Box_TKA_WpsLaunch_F: ReammoBox_F
+class Box_TKA_WpsLaunch_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	mapSize = 1.76;
@@ -70,9 +70,9 @@ class Atlas_Box_TKA_WpsLaunch_F: ReammoBox_F
 		verticalOffset = 0.18;
 		verticalOffsetWorld = 0;
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_Box_TKA_WpsLaunch_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Box_TKA_WpsLaunch_F.jpg";
 	scope = public;
-	displayName = $STR_A3_A_CfgVehicles_Atlas_Box_TKA_WpsLaunch_F0;
+	displayName = $STR_A3_A_CfgVehicles_Box_TKA_WpsLaunch_F0;
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
@@ -98,7 +98,7 @@ class Atlas_Box_TKA_WpsLaunch_F: ReammoBox_F
 	class TransportItems{};
 	class TransportBackpacks
 	{
-		bag_xx(Atlas_B_FieldPack_semiarid,4);
+		bag_xx(B_FieldPack_semiarid,4);
 	};
 };
 class Atlas_O_T_supplyCrate_F: O_supplyCrate_F
@@ -167,6 +167,6 @@ class Atlas_O_T_supplyCrate_F: O_supplyCrate_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(Atlas_B_FieldPack_semiarid,2);
+		bag_xx(B_FieldPack_semiarid,2);
 	};
 };

@@ -8,8 +8,8 @@ class CfgPatches
 		units[] =
         {
             // IDF
-            I_I_VTOL_01_infantry_F,
-            I_I_VTOL_01_vehicle_F
+            Atlas_I_I_VTOL_01_infantry_F,
+            Atlas_I_I_VTOL_01_vehicle_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

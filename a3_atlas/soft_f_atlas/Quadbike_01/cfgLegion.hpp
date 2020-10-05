@@ -1,4 +1,4 @@
-class B_L_Quadbike_01_F: Quadbike_01_base_F
+class Atlas_B_L_Quadbike_01_F: Quadbike_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -74,9 +74,9 @@ class B_L_Quadbike_01_F: Quadbike_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Soldier_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Soldier_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	textureList[] =
     {
         Blufor,1,

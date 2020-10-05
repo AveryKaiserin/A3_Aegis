@@ -12,14 +12,14 @@ class CfgPatches
 		units[] =
         {
             // ADF
-            B_O_Ejection_Seat_Plane_Fighter_05_F,
-            B_O_Plane_Fighter_05_F,
-            B_O_Plane_Fighter_05_Stealth_F,
+            Atlas_B_A_Ejection_Seat_Plane_Fighter_05_F,
+            Atlas_B_A_Plane_Fighter_05_F,
+            Atlas_B_A_Plane_Fighter_05_Stealth_F,
 
             // IDF
-            I_I_Ejection_Seat_Plane_Fighter_05_F,
-            I_I_Plane_Fighter_05_F,
-            I_I_Plane_Fighter_05_Stealth_F
+            Atlas_I_I_Ejection_Seat_Plane_Fighter_05_F,
+            Atlas_I_I_Plane_Fighter_05_F,
+            Atlas_I_I_Plane_Fighter_05_Stealth_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

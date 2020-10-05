@@ -1,4 +1,4 @@
-class B_H_Truck_02_F: Truck_02_base_F
+class Atlas_B_H_Truck_02_F: Truck_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -95,9 +95,9 @@ class B_H_Truck_02_F: Truck_02_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	transportSoldier = 14;
 	cargoProxyIndexes[] =
@@ -205,7 +205,7 @@ class B_H_Truck_02_F: Truck_02_base_F
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
-class B_H_Truck_02_transport_F: Truck_02_transport_base_F
+class Atlas_B_H_Truck_02_transport_F: Truck_02_transport_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -303,9 +303,9 @@ class B_H_Truck_02_transport_F: Truck_02_transport_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_C_Truck_02_Dump0;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelections[] =
     {
@@ -322,7 +322,7 @@ class B_H_Truck_02_transport_F: Truck_02_transport_base_F
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
-class B_H_Truck_02_cargo_F: Truck_02_cargo_base_F
+class Atlas_B_H_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -420,9 +420,9 @@ class B_H_Truck_02_cargo_F: Truck_02_cargo_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -432,7 +432,7 @@ class B_H_Truck_02_cargo_F: Truck_02_cargo_base_F
 		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_chassis_jungle_CO.paa"
 	};
 };
-class B_H_Truck_02_flatbed_F: Truck_02_flatbed_base_F
+class Atlas_B_H_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -530,9 +530,9 @@ class B_H_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelectionsTextures[] =
 	{

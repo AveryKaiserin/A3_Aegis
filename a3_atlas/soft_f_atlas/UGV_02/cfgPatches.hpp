@@ -7,20 +7,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_UGV_02_Demining_F,
+            // Germany
+            Atlas_B_G_UGV_02_Demining_F,
 
             // ADF
-            B_O_UGV_02_Demining_backpack_F,
-            B_O_UGV_02_Demining_F,
+            Atlas_B_A_UGV_02_Demining_backpack_F,
+            Atlas_B_A_UGV_02_Demining_F,
 
             // CDF
-            I_W_UGV_02_Demining_backpack_F,
-            I_W_UGV_02_Demining_F,
+            Atlas_I_C_UGV_02_Demining_backpack_F,
+            Atlas_I_C_UGV_02_Demining_F,
 
             // IDF
-            I_I_UGV_02_Demining_backpack_F,
-            I_I_UGV_02_Demining_F
+            Atlas_I_I_UGV_02_Demining_backpack_F,
+            Atlas_I_I_UGV_02_Demining_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

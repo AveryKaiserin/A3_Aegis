@@ -33,7 +33,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
 					""
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -55,7 +55,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\MRAP_01\Data\MRAP_01_adds_brown_CO.paa",
 					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -68,4 +68,6 @@ class CfgVehicles
 	};
 	// Arma 3 Atlas
 	#include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

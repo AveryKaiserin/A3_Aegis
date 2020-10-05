@@ -1,13 +1,13 @@
-class B_E_MRAP_03_F: MRAP_03_base_F
+class Atlas_B_G_MRAP_03_F: MRAP_03_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MRAP_03_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -28,7 +28,7 @@ class B_E_MRAP_03_F: MRAP_03_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(16Rnd_9x21_Mag,12);
+		mag_xx(17Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons
@@ -36,16 +36,16 @@ class B_E_MRAP_03_F: MRAP_03_base_F
 		weap_xx(arifle_G36_F,2);
 	};
 };
-class B_E_MRAP_03_hmg_F: MRAP_03_hmg_base_F
+class Atlas_B_G_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MRAP_03_hmg_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -74,7 +74,7 @@ class B_E_MRAP_03_hmg_F: MRAP_03_hmg_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(16Rnd_9x21_Mag,12);
+		mag_xx(17Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons
@@ -82,16 +82,16 @@ class B_E_MRAP_03_hmg_F: MRAP_03_hmg_base_F
 		weap_xx(arifle_G36_F,2);
 	};
 };
-class B_E_MRAP_03_gmg_F: MRAP_03_gmg_base_F
+class Atlas_B_G_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MRAP_03_gmg_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
-	typicalCargo[] = {B_E_Soldier_F};
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
+	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -112,7 +112,7 @@ class B_E_MRAP_03_gmg_F: MRAP_03_gmg_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(16Rnd_9x21_Mag,12);
+		mag_xx(17Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons

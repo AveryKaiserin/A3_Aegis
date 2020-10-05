@@ -38,7 +38,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
 				};
-				factions[] = {BLU_O_F};
+				factions[] = {Atlas_BLU_A_F};
 			};
             */
 			class Desert
@@ -55,7 +55,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 		class EjectionSystem;
@@ -68,4 +68,6 @@ class CfgVehicles
 	#include "cfgADF.hpp"               // ADF
 	*/
     #include "cfgIDF.hpp"				// IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -8,7 +8,7 @@ class CfgPatches
 		units[] =
         {
             // IDF
-            I_I_Heli_Transport_01_F
+            Atlas_I_I_Heli_Transport_01_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

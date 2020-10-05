@@ -30,7 +30,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_brown_CO.paa",
 					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
 				};
-				factions[] = {IND_I_F};
+				factions[] = {Atlas_IND_I_F};
 			};
 		};
 	};
@@ -59,11 +59,13 @@ class CfgVehicles
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"            // Legion
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+	#include "cfgLegion.hpp"            // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"      // Germany
     /*
 	#include "cfgADF.hpp"               // ADF
 	#include "cfgCDF.hpp"               // CDF
     */
 	#include "cfgIDF.hpp"               // IDF
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

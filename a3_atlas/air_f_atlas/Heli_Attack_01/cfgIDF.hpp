@@ -1,4 +1,4 @@
-class I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
+class Atlas_I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -130,9 +130,9 @@ class I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Heli_Attack_01_F0;
 	side = TGuerrila;
-	faction = IND_I_F;
-	crew = I_I_helipilot_F;
-	typicalCargo[] = {I_I_helipilot_F};
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_helipilot_F;
+	typicalCargo[] = {Atlas_I_I_helipilot_F};
 	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Attack_01\Data\Heli_Attack_01_desert_CO.paa"};
 	accuracy = 2.5;

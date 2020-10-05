@@ -7,13 +7,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Heli_Light_02_dynamicLoadout_F,
-            O_W_Heli_Light_02_unarmed_F,
+            // Belarus
+            Atlas_O_W_Heli_Light_02_dynamicLoadout_F,
+            Atlas_O_W_Heli_Light_02_unarmed_F,
 
-            // CSAT (Takistani)
-            O_C_Heli_Light_02_dynamicLoadout_F,
-            O_C_Heli_Light_02_unarmed_F
+            // Takistani Army
+            Atlas_O_T_Heli_Light_02_dynamicLoadout_F,
+            Atlas_O_T_Heli_Light_02_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

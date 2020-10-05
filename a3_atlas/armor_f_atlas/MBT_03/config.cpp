@@ -43,7 +43,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 				};
-				factions[] = {};
+				factions[] = {Atlas_BLU_G_F};
 			};
 			class Olive_01
 			{
@@ -56,7 +56,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_olive_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 				};
-				factions[] = {};
+				factions[] = {Atlas_BLU_G_F};
 			};
 			class Woodland_01
 			{
@@ -69,10 +69,12 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_wdl_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 				};
-				factions[] = {BLU_E_F};
+				factions[] = {Atlas_BLU_G_F};
 			};
 		};
 	};
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"      // NATO (German)
+	#include "cfgBlufor_Atlas.hpp"      // Germany
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

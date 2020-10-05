@@ -16,5 +16,7 @@ class CfgVehicles
 	class LSV_01_light_base_F: LSV_01_base_F{};
 	class LSV_01_AT_base_F: LSV_01_base_F{};
 	// Arma 3 Atlas
-	#include "cfgLegion.hpp"               // Legion
+	#include "cfgLegion.hpp"               // Legionnaires
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -64,6 +64,6 @@ class Atlas_O_W_supplyCrate_F: O_supplyCrate_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(Atlas_B_FieldPack_owcamo,2);
+		bag_xx(B_FieldPack_owcamo,2);
 	};
 };

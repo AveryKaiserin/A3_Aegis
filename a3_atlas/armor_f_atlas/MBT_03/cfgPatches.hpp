@@ -11,8 +11,8 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_MBT_03_cannon_F
+            // Germany
+            Atlas_B_G_MBT_03_cannon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

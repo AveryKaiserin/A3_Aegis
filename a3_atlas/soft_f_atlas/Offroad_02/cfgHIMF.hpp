@@ -1,4 +1,4 @@
-class B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
+class Atlas_B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -101,9 +101,9 @@ class B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelectionsTextures[] =
     {
@@ -143,7 +143,7 @@ class B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 		weap_xx(arifle_G36C_F,2);
 	};
 };
-class B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
+class Atlas_B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -325,9 +325,9 @@ class B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_I_C_Offroad_02_LMG_F0;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelectionsTextures[] =
     {
@@ -375,7 +375,7 @@ class B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 		class CargoTurret_01: CargoTurret_01{};
 	};
 };
-class B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
+class Atlas_B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -504,9 +504,9 @@ class B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_I_C_Offroad_02_AT_F0;
 	side = TWest;
-	faction = BLU_H_F;
-	crew = B_H_Soldier_F;
-	typicalCargo[] = {B_H_Soldier_F};
+	faction = Atlas_BLU_H_F;
+	crew = Atlas_B_H_Soldier_F;
+	typicalCargo[] = {Atlas_B_H_Soldier_F};
 	textureList[] = {Jungle,1};
 	hiddenSelectionsTextures[] =
     {

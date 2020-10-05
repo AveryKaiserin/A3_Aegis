@@ -7,17 +7,17 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (European)
-            B_E_UAV_06_F,
-            B_E_UAV_06_medical_F,
+            // Germany
+            Atlas_B_G_UAV_06_F,
+            Atlas_B_G_UAV_06_medical_F,
 
             // IDF
+            Atlas_I_I_UAV_06_backpack_F,
+            Atlas_I_I_UAV_06_F,
+            Atlas_I_I_UAV_06_medical_backpack_F,
+            Atlas_I_I_UAV_06_medical_F,
             Box_I_I_UAV_06_F,
-            Box_I_I_UAV_06_medical_F,
-            I_I_UAV_06_backpack_F,
-            I_I_UAV_06_F,
-            I_I_UAV_06_medical_backpack_F,
-            I_I_UAV_06_medical_F
+            Box_I_I_UAV_06_medical_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

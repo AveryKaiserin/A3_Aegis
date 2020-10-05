@@ -1,4 +1,4 @@
-class O_C_LSV_02_armed_F: LSV_02_armed_base_F
+class Atlas_O_T_LSV_02_armed_F: LSV_02_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -84,13 +84,13 @@ class O_C_LSV_02_armed_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_LSV_02_armed_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_Soldier_F;
-	typicalCargo[] = {O_C_Soldier_F};
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_Soldier_F;
+	typicalCargo[] = {Atlas_O_T_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -128,7 +128,7 @@ class O_C_LSV_02_armed_F: LSV_02_armed_base_F
 		weap_xx(arifle_AK12_545_F,2);
 	};
 };
-class O_C_LSV_02_unarmed_F: LSV_02_unarmed_base_F
+class Atlas_O_T_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -214,13 +214,13 @@ class O_C_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_LSV_02_unarmed_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_Soldier_F;
-	typicalCargo[] = {O_C_Soldier_F};
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_Soldier_F;
+	typicalCargo[] = {Atlas_O_T_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -258,7 +258,7 @@ class O_C_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		weap_xx(arifle_AK12_545_F,2);
 	};
 };
-class O_C_LSV_02_AT_F: LSV_02_AT_base_F
+class Atlas_O_T_LSV_02_AT_F: LSV_02_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -342,13 +342,13 @@ class O_C_LSV_02_AT_F: LSV_02_AT_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_LSV_02_AT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_LSV_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
-	faction = OPF_C_F;
-	crew = O_C_Soldier_F;
-	typicalCargo[] = {O_C_Soldier_F};
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_Soldier_F;
+	typicalCargo[] = {Atlas_O_T_Soldier_F};
 	textureList[] =
 	{
 		Black,0,

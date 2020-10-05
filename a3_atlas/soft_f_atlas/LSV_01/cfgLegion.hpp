@@ -1,13 +1,13 @@
-class B_L_LSV_01_armed_F: LSV_01_armed_base_F
+class Atlas_B_L_LSV_01_armed_F: LSV_01_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Soldier_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Soldier_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -42,16 +42,16 @@ class B_L_LSV_01_armed_F: LSV_01_armed_base_F
 		weap_xx(arifle_MSBS65_black_F,2);
 	};
 };
-class B_L_LSV_01_AT_F: LSV_01_AT_base_F
+class Atlas_B_L_LSV_01_AT_F: LSV_01_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Soldier_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Soldier_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -103,16 +103,16 @@ class B_L_LSV_01_AT_F: LSV_01_AT_base_F
 		};
 	};
 };
-class B_L_LSV_01_unarmed_F: LSV_01_unarmed_base_F
+class Atlas_B_L_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Soldier_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Soldier_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -147,16 +147,16 @@ class B_L_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 		weap_xx(arifle_MSBS65_black_F,2);
 	};
 };
-class B_L_LSV_01_light_F: LSV_01_light_base_F
+class Atlas_B_L_LSV_01_light_F: LSV_01_light_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_light_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
-	faction = BLU_L_F;
-	crew = B_L_Soldier_F;
-	typicalCargo[] = {B_L_Soldier_F};
+	faction = Atlas_BLU_L_F;
+	crew = Atlas_B_L_Soldier_F;
+	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
