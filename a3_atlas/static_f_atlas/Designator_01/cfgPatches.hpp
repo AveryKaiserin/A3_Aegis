@@ -7,16 +7,16 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (German)
-            B_E_Static_Designator_01_F,
+            // Germany
+            Atlas_B_G_Static_Designator_01_F,
 
             // ADF
-            B_O_Static_Designator_01_F,
-            B_O_Static_Designator_01_weapon_F,
+            Atlas_B_A_Static_Designator_01_F,
+            Atlas_B_A_Static_Designator_01_weapon_F,
 
             // IDF
-            I_I_Static_Designator_01_F,
-            I_I_Static_Designator_01_weapon_F
+            Atlas_I_I_Static_Designator_01_F,
+            Atlas_I_I_Static_Designator_01_weapon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

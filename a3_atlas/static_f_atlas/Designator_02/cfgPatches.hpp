@@ -8,8 +8,8 @@ class CfgPatches
 		units[] =
         {
             // CDF
-            I_W_Static_Designator_02_F,
-            I_W_Static_Designator_02_weapon_F
+            Atlas_I_C_Static_Designator_02_F,
+            Atlas_I_C_Static_Designator_02_weapon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

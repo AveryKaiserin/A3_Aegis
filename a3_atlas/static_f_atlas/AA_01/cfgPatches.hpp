@@ -7,29 +7,29 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_Static_AA_F,
+            // Belarus
+            Atlas_O_W_Static_AA_F,
 
-            // Legion
-            B_L_Static_AA_F,
+            // Legionnaires
+            Atlas_B_L_Static_AA_F,
 
-            // NATO (German)
-            B_E_Static_AA_F,
+            // Germany
+            Atlas_B_G_Static_AA_F,
 
-            // CSAT (Takistani)
-            O_C_Static_AA_F,
+            // Takistani Army
+            Atlas_O_T_Static_AA_F,
 
             // ADF
-            B_O_AA_01_weapon_F,
-            B_O_Static_AA_F,
+            Atlas_B_A_AA_01_weapon_F,
+            Atlas_B_A_Static_AA_F,
 
             // CDF
-            I_W_AA_01_weapon_F,
-            I_W_Static_AA_F,
+            Atlas_I_C_AA_01_weapon_F,
+            Atlas_I_C_Static_AA_F,
 
             // IDF
-            I_I_AA_01_weapon_F,
-            I_I_Static_AA_F
+            Atlas_I_I_AA_01_weapon_F,
+            Atlas_I_I_Static_AA_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

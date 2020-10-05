@@ -1,4 +1,4 @@
-class I_I_Static_Designator_01_F: I_Static_Designator_01_F
+class Atlas_I_I_Static_Designator_01_F: I_Static_Designator_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -33,27 +33,27 @@ class I_I_Static_Designator_01_F: I_Static_Designator_01_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_Designator_01_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F0;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	class assembleInfo
 	{
 		displayName = $STR_A3_A_CfgVehicles_I_I_Static_Designator_01_F_assembleInfo0;
 		assembleTo = "";
 		base = "";
 		primary = false;
-		dissasembleTo[] = {I_I_Static_Designator_01_weapon_F};
+		dissasembleTo[] = {Atlas_I_I_Static_Designator_01_weapon_F};
 	};
 };
-class I_I_Static_Designator_01_weapon_F: I_Static_Designator_01_weapon_F
+class Atlas_I_I_Static_Designator_01_weapon_F: I_Static_Designator_01_weapon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_I_I_Static_Designator_01_weapon_F0;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_AssaultPack_khk_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_compact_khk_CO.paa"};
 	class assembleInfo: assembleInfo
 	{
-		assembleTo = I_I_Static_Designator_01_F;
+		assembleTo = Atlas_I_I_Static_Designator_01_F;
 	};
 };

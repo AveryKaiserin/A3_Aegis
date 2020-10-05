@@ -1,4 +1,4 @@
-class I_I_Static_AT_F: I_static_AT_F
+class Atlas_I_I_Static_AT_F: I_static_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -50,8 +50,8 @@ class I_I_Static_AT_F: I_static_AT_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_AT_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_I_Static_AT_F0;
-	faction = IND_I_F;
-	crew = I_I_Soldier_F;
+	faction = Atlas_IND_I_F;
+	crew = Atlas_I_I_Soldier_F;
 	hiddenSelections[] =
 	{
 		camo_launcher,
@@ -70,18 +70,18 @@ class I_I_Static_AT_F: I_static_AT_F
 		primary = false;
 		dissasembleTo[] =
 		{
-            I_I_AT_01_weapon_F,
-            I_I_HMG_01_support_F
+            Atlas_I_I_AT_01_weapon_F,
+            Atlas_I_I_HMG_01_support_F
 		};
 	};
 };
-class I_I_AT_01_weapon_F: Weapon_Bag_Base
+class Atlas_I_I_AT_01_weapon_F: Weapon_Bag_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	editorCategory = EdCat_Equipment;
 	editorSubcategory = EdSubcat_DismantledWeapons;
-	faction = IND_I_F;
+	faction = Atlas_IND_I_F;
 	displayName = $STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_rgr_CO.paa"};
 	picture = "\A3\Weapons_F\Ammoboxes\Bags\Data\UI\icon_B_C_Small_rgr.paa";
@@ -89,7 +89,7 @@ class I_I_AT_01_weapon_F: Weapon_Bag_Base
 	class assembleInfo: assembleInfo
 	{
         displayName = $STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F_assembleInfo0;
-        assembleTo = I_I_Static_AT_F;
+        assembleTo = Atlas_I_I_Static_AT_F;
         base[] = {STATIC_SUPPORT_BAGS};
 	};
 };

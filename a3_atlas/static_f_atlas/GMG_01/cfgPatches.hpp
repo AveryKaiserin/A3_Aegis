@@ -7,47 +7,47 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Woodland)
-            O_W_GMG_01_F,
-            O_W_GMG_01_high_F,
+            // Belarus
+            Atlas_O_W_GMG_01_F,
+            Atlas_O_W_GMG_01_high_F,
 
-            // Legion
-            B_L_GMG_01_A_F,
-            B_L_GMG_01_F,
-            B_L_GMG_01_high_F,
+            // Legionnaires
+            Atlas_B_L_GMG_01_A_F,
+            Atlas_B_L_GMG_01_F,
+            Atlas_B_L_GMG_01_high_F,
 
-            // NATO (German)
-            B_E_GMG_01_A_F,
-            B_E_GMG_01_F,
-            B_E_GMG_01_high_F,
+            // Germany
+            Atlas_B_G_GMG_01_A_F,
+            Atlas_B_G_GMG_01_F,
+            Atlas_B_G_GMG_01_high_F,
 
-            // CSAT (Takistani)
-            O_C_GMG_01_F,
-            O_C_GMG_01_high_F,
+            // Takistani Army
+            Atlas_O_T_GMG_01_F,
+            Atlas_O_T_GMG_01_high_F,
 
             // ADF
-            B_O_GMG_01_A_F,
-            B_O_GMG_01_A_weapon_F,
-            B_O_GMG_01_F,
-            B_O_GMG_01_high_F,
-            B_O_GMG_01_high_weapon_F,
-            B_O_GMG_01_weapon_F,
+            Atlas_B_A_GMG_01_A_F,
+            Atlas_B_A_GMG_01_A_weapon_F,
+            Atlas_B_A_GMG_01_F,
+            Atlas_B_A_GMG_01_high_F,
+            Atlas_B_A_GMG_01_high_weapon_F,
+            Atlas_B_A_GMG_01_weapon_F,
 
             // CDF
-            I_W_GMG_01_A_F,
-            I_W_GMG_01_A_weapon_F,
-            I_W_GMG_01_F,
-            I_W_GMG_01_high_F,
-            I_W_GMG_01_high_weapon_F,
-            I_W_GMG_01_weapon_F,
+            Atlas_I_C_GMG_01_A_F,
+            Atlas_I_C_GMG_01_A_weapon_F,
+            Atlas_I_C_GMG_01_F,
+            Atlas_I_C_GMG_01_high_F,
+            Atlas_I_C_GMG_01_high_weapon_F,
+            Atlas_I_C_GMG_01_weapon_F,
 
             // IDF
-            I_I_GMG_01_A_F,
-            I_I_GMG_01_A_weapon_F,
-            I_I_GMG_01_F,
-            I_I_GMG_01_high_F,
-            I_I_GMG_01_high_weapon_F,
-            I_I_GMG_01_weapon_F
+            Atlas_I_I_GMG_01_A_F,
+            Atlas_I_I_GMG_01_A_weapon_F,
+            Atlas_I_I_GMG_01_F,
+            Atlas_I_I_GMG_01_high_F,
+            Atlas_I_I_GMG_01_high_weapon_F,
+            Atlas_I_I_GMG_01_weapon_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

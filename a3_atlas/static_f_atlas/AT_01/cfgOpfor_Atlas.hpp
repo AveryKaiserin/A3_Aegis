@@ -1,4 +1,4 @@
-class O_C_Static_AT_F: O_static_AT_F
+class Atlas_O_T_Static_AT_F: O_static_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -49,8 +49,8 @@ class O_C_Static_AT_F: O_static_AT_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\//editorPreviews_F_Atlas\Data\CfgVehicles\O_C_Static_AT_F.jpg";
-	faction = OPF_C_F;
-	crew = O_C_soldier_F;
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_soldier_F;
 	hiddenSelections[] =
 	{
 		camo_launcher,

@@ -1,4 +1,4 @@
-class O_W_HMG_01_F: O_HMG_01_F
+class Atlas_O_W_HMG_01_F: O_HMG_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -58,8 +58,8 @@ class O_W_HMG_01_F: O_HMG_01_F
 		init = "''";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_HMG_01_F.jpg";
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	class assembleInfo
 	{
 		displayName = "";
@@ -73,12 +73,12 @@ class O_W_HMG_01_F: O_HMG_01_F
 		};
 	};
 };
-class O_W_HMG_01_high_F: O_HMG_01_high_F
+class Atlas_O_W_HMG_01_high_F: O_HMG_01_high_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_HMG_01_high_F.jpg";
-	faction = OPF_W_F;
-	crew = O_W_Soldier_F;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
 	class assembleInfo
 	{
 		displayName = "";

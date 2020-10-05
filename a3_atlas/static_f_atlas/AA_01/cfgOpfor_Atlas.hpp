@@ -1,4 +1,4 @@
-class O_C_Static_AA_F: O_static_AA_F
+class Atlas_O_T_Static_AA_F: O_static_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -48,9 +48,9 @@ class O_C_Static_AA_F: O_static_AA_F
 		verticalOffsetWorld = 0.005;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\//editorPreviews_F_Atlas\Data\CfgVehicles\O_A_Static_AA_F.jpg";
-	faction = OPF_C_F;
-	crew = O_C_soldier_F;
+	//editorPreview = "\A3_Atlas\//editorPreviews_F_Atlas\Data\CfgVehicles\O_T_Static_AA_F.jpg";
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_soldier_F;
 	hiddenSelections[] =
 	{
 		camo_launcher,

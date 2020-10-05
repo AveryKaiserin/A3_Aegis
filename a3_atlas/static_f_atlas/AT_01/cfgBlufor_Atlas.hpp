@@ -1,4 +1,4 @@
-class B_E_Static_AT_F: B_static_AT_F
+class Atlas_B_G_Static_AT_F: B_static_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -49,8 +49,8 @@ class B_E_Static_AT_F: B_static_AT_F
 		init = "''";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Static_AT_F.jpg";
-	faction = BLU_E_F;
-	crew = B_E_Soldier_F;
+	faction = Atlas_BLU_G_F;
+	crew = Atlas_B_G_Soldier_F;
 	hiddenSelections[] =
 	{
 		camo_launcher,

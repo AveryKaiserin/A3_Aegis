@@ -1,4 +1,4 @@
-class B_E_Static_Designator_01_F: B_Static_Designator_01_F
+class Atlas_B_G_Static_Designator_01_F: B_Static_Designator_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -33,7 +33,7 @@ class B_E_Static_Designator_01_F: B_Static_Designator_01_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Static_Designator_01_F.jpg";
 	side = TWest;
-	faction = BLU_E_F;
+	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI;
 	hiddenSelections[] =
 	{
