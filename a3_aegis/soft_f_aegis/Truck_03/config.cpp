@@ -6,6 +6,22 @@ class CfgVehicles
 	class Truck_03_base_F;
 	class O_Truck_03_transport_F: Truck_03_base_F
 	{
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            1
+        };
 		class TextureSources
 		{
 			class Green

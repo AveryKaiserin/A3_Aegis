@@ -262,7 +262,7 @@
 					<Japanese>軽装野戦服（乾燥地帯、T シャツ）</Japanese>
 					<Turkish>Hafif Asker Kıyafeti (Kurak, Tişört)</Turkish>
 				</Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Gorka_01_autumn_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_O_S_Gorka_01_autumn_F0">
                     <Original>Granit-A Suit (Weathered)</Original>
                     <Chinese>花崗岩-A 套裝（風吹雨打）</Chinese>
                     <French>Tenue Granit-A (usée)</French>
@@ -279,7 +279,7 @@
                     <Japanese>Granit-A スーツ（風化）</Japanese>
                     <Turkish>Granit-A Kıyafet (Rengi Solmuş)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Gorka_01_summer_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_O_S_Gorka_01_summer_F0">
                     <Original>Granit-C Suit (Weathered)</Original>
                     <Chinese>花崗岩-C 套裝（風吹雨打）</Chinese>
                     <French>Tenue Granit-C (usée)</French>
@@ -296,7 +296,7 @@
                     <Japanese>Granit-C スーツ（風化）</Japanese>
                     <Turkish>Granit-C Kıyafet (Rengi Solmuş)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_taiga_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_O_S_Uniform_01_taiga_F0">
                     <Original>Deserter Clothes (Taiga)</Original>
                     <Chinese>逃兵衣服（Taiga）</Chinese>
                     <French>Vêtements de déserteur (taïga)</French>
@@ -313,7 +313,7 @@
                     <Japanese>脱走兵の服（タイガ）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Tayga)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_arid_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_O_S_Uniform_01_arid_F0">
                     <Original>Deserter Clothes (Arid)</Original>
                     <Chinese>逃兵衣服（乾燥氣候）</Chinese>
                     <French>Vêtements de déserteur (désert)</French>
@@ -330,7 +330,7 @@
                     <Japanese>脱走兵の服（乾燥地帯）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Kurak)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_O_E_Uniform_01_sweater_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_O_S_Uniform_01_sweater_F0">
                     <Original>Deserter Clothes (Sweater)</Original>
                     <Chinese>逃兵衣服（毛衣）</Chinese>
                     <French>Vêtements de déserteur (pullover)</French>
@@ -364,7 +364,7 @@
                     <Japanese>ゲリラスモック（灰色）</Japanese>
                     <Turkish>Gerilla Kostümü (Gri)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_hex_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_I_I_Uniform_01_hex_F0">
                     <Original>Deserter Clothes (Hex)</Original>
                     <Chinese>逃兵衣服（六邊形）</Chinese>
                     <French>Vêtements de déserteur (hex)</French>
@@ -381,7 +381,7 @@
                     <Japanese>脱走兵の服（六角形）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Hex)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_urb_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_I_I_Uniform_01_urb_F0">
                     <Original>Deserter Clothes (Urban)</Original>
                     <Chinese>逃兵衣服（城鎮）</Chinese>
                     <French>Vêtements de déserteur (urbain)</French>
@@ -398,7 +398,7 @@
                     <Japanese>脱走兵の服（市街）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Şehir)</Turkish>
                 </Key>
-                <Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_ghex_F0">
+                <Key ID="STR_A3_O_CfgWeapons_U_I_I_Uniform_01_ghex_F0">
                     <Original>Deserter Clothes (Green Hex)</Original>
                     <Chinese>逃兵衣服（綠色六邊形）</Chinese>
                     <French>Vêtements de déserteur (hex vert)</French>
@@ -415,7 +415,7 @@
                     <Japanese>脱走兵の服（緑六角形）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Yeşil Hex)</Turkish>
                 </Key>
-				<Key ID="STR_A3_O_CfgWeapons_U_I_T_Uniform_01_tshirt_black_F0">
+				<Key ID="STR_A3_O_CfgWeapons_U_I_I_Uniform_01_tshirt_black_F0">
 					<Original>Worn Clothes (Black)</Original>
 					<Chinese>破舊服裝（黑）</Chinese>
 					<French>Vieux vêtements (Noir)</French>
@@ -782,25 +782,6 @@
 				<Chinesesimp>Separatist 03</Chinesesimp>
 				<Japanese>Separatist 03</Japanese>
 				<Turkish>Separatist 03</Turkish>
-			</Key>
-		</Container>
-		<Container name="Soft_F">
-			<Key ID="STR_A3_O_CfgVehicles_O_E_Truck_02_AA_F0">
-				<Original>Zamak AA</Original>
-				<Chinese>Zamak AA</Chinese>
-				<French>Zamak AA</French>
-				<Spanish>Zamak AA</Spanish>
-				<Italian>Zamak AA</Italian>
-				<Polish>Zamak AA</Polish>
-				<Russian>Zamak AA</Russian>
-				<German>Zamak AA</German>
-				<Czech>Zamak AA</Czech>
-				<English>Zamak AA</English>
-				<Portuguese>Zamak AA</Portuguese>
-				<Korean>Zamak AA</Korean>
-				<Chinesesimp>Zamak AA</Chinesesimp>
-				<Japanese>Zamak AA</Japanese>
-				<Turkish>Zamak AA</Turkish>
 			</Key>
 		</Container>
 		<Container name="Structures_F">

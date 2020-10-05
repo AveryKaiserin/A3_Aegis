@@ -11,7 +11,7 @@ class Atlas_B_G_supplyCrate_F: B_supplyCrate_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_G_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_Atlas_B_G_supplyCrate_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_G_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_NATO_German;
 	class TransportMagazines

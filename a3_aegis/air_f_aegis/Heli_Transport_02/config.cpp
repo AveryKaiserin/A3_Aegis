@@ -120,6 +120,11 @@ class CfgVehicles
 		};
 		textureList[] = {AAF,1};
 	};
+    // Arma 3 Laws of War
+    class C_IDAP_Heli_Transport_02_F: Heli_Transport_02_base_F
+    {
+		displayName = $STR_A3_A_CfgVehicles_Heli_Transport_02_civil_base_F0;
+    };
 	// Arma 3 Aegis
 	class Heli_Transport_02_civil_base_F: Heli_Transport_02_base_F
 	{

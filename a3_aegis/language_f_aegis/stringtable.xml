@@ -70,6 +70,23 @@
 				<Japanese>UH-80 Ghost Hawk （医療）</Japanese>
 				<Turkish>UH-80 Ghost Hawk (Sıhhiye)</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_02_civil_base_F0">
+                <Original>EH-302</Original>
+                <Chinese>EH-302</Chinese>
+                <French>EH-302</French>
+                <Spanish>EH-302</Spanish>
+                <Italian>EH-302</Italian>
+                <Polish>EH-302</Polish>
+                <Russian>EH-302</Russian>
+                <German>EH-302</German>
+                <Czech>EH-302</Czech>
+                <English>EH-302</English>
+                <Portuguese>EH-302</Portuguese>
+                <Korean>EH-302</Korean>
+                <Chinesesimp>EH-302</Chinesesimp>
+                <Japanese>EH-302</Japanese>
+                <Turkish>EH-302</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_Heli_Transport_02_medevac_base_F0">
 				<Original>CH-49 Mohawk (Medical)</Original>
 				<Chinese>CH-49 Mohawk（醫療用）</Chinese>
@@ -5433,6 +5450,23 @@
 					<Chinesesimp>钦察背心（绿色，战术电台）</Chinesesimp>
 					<Japanese>キプチャクベスト（緑、戦術無線）</Japanese>
 					<Turkish>Kıpçak Yeleği (Yeşil, Taktiksel Telsiz)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt0">
+					<Original>Rangemaster Belt (Green)</Original>
+					<Chinese>賽場管理人腰帶（綠）</Chinese>
+					<French>Ceinture d'intendant (verte)</French>
+					<Spanish>Cinto de responsable de galería de tiro (verde)</Spanish>
+					<Italian>Cintura responsabile poligono (verde)</Italian>
+					<Polish>Pas instruktora (zielona)</Polish>
+					<Russian>Пояс инструктора (зеленая)</Russian>
+					<German>Schießplatzverwalter-Gürtel (grün)</German>
+					<Czech>Instruktorský opasek (zelená)</Czech>
+					<English>Rangemaster Belt (Green)</English>
+					<Portuguese>Cinto de líder de combate a distância (verde)</Portuguese>
+					<Korean>사격통제관 벨트(녹색)</Korean>
+					<Chinesesimp>靶场总监腰带（绿色）</Chinesesimp>
+					<Japanese>射撃場管理者ベルト（緑）</Japanese>
+					<Turkish>Menzil Ustası Fişekliği (Yeşil)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_khk0">
 					<Original>Rangemaster Belt (Khaki)</Original>

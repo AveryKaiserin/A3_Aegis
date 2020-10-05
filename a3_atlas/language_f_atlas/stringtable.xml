@@ -467,7 +467,7 @@
 				<Japanese>Kela Mk4</Japanese>
 				<Turkish>Kela Mk4</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_CfgVehicles_B_E_MBT_03_cannon_F0">
+			<Key ID="STR_A3_A_CfgVehicles_B_G_MBT_03_cannon_F0">
 				<Original>Luchs 3A5</Original>
 				<Chinese>Luchs 3A5</Chinese>
 				<French>Luchs 3A5</French>
@@ -1305,7 +1305,7 @@
 					<Japanese>戦闘服（セージ、袖まくり）</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Kolları Kıvrık)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_CombatUniform_wdl0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_G_CombatUniform_wdl0">
 					<Original>Field Uniform (Woodland)</Original>
 					<Chinese>Field Uniform (Woodland)</Chinese>
 					<French>Field Uniform (Woodland)</French>
@@ -1322,7 +1322,7 @@
 					<Japanese>Field Uniform (Woodland)</Japanese>
 					<Turkish>Field Uniform (Woodland)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_CombatUniform_tshirt_wdl0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_G_CombatUniform_tshirt_wdl0">
 					<Original>Field Uniform (Woodland, Tank Top)</Original>
 					<Chinese>Field Uniform (Woodland, Tank Top)</Chinese>
 					<French>Field Uniform (Woodland, Tank Top)</French>
@@ -1339,7 +1339,7 @@
 					<Japanese>Field Uniform (Woodland, Tank Top)</Japanese>
 					<Turkish>Field Uniform (Woodland, Tank Top)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_CombatUniform_vest_wdl0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_G_CombatUniform_vest_wdl0">
 					<Original>Field Uniform (Woodland, Rolled-up)</Original>
 					<Chinese>Field Uniform (Woodland, Rolled-up)</Chinese>
 					<French>Field Uniform (Woodland, Rolled-up)</French>
@@ -1356,7 +1356,7 @@
 					<Japanese>Field Uniform (Woodland, Rolled-up)</Japanese>
 					<Turkish>Field Uniform (Woodland, Rolled-up)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_E_HeliPilotCoveralls0">
+				<Key ID="STR_A3_A_CfgWeapons_U_B_G_HeliPilotCoveralls0">
 					<Original>Heli Pilot Coveralls (Green) [NATO]</Original>
 					<Chinese>Heli Pilot Coveralls (Green) [NATO]</Chinese>
 					<French>Heli Pilot Coveralls (Green) [NATO]</French>
@@ -3136,7 +3136,7 @@
 					<Japanese>物資箱[軍団]</Japanese>
 					<Turkish>İkmal Kutusu [Lejyonerler]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_E_supplyCrate_F0">
+				<Key ID="STR_A3_A_CfgVehicles_B_G_supplyCrate_F0">
 					<Original>Supply Box [NATO German]</Original>
 					<Chinese>補給盒（NATO 德語）</Chinese>
 					<French>Caisse de ravitaillements [OTAN Allemand]</French>

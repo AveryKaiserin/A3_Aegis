@@ -11,7 +11,7 @@ class Atlas_O_W_supplyCrate_F: O_supplyCrate_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_Atlas_O_W_supplyCrate_F0;
+	displayName = $STR_A3_A_CfgVehicles_O_W_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_Viper_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CSAT_Woodland;
 	class TransportMagazines
