@@ -7,6 +7,7 @@ class CfgVehicles
 	class Plane_Base_F: Plane
 	{
 		class AnimationSources;
+		class Components;
 	};
 	// Arma 3 Aegis
 	class Plane_Fighter_05_Base_F: Plane_Base_F
@@ -20,7 +21,23 @@ class CfgVehicles
 			class pylon_5_hide;
 			class pylon_6_hide;
 		};
-		class Components;
+        class Components: Components
+        {
+            class TransportPylonsComponent
+            {
+			    class pylons
+                {
+                    class pylonCenter1;
+                };
+			    class presets
+                {
+                    class default;
+                    class AA;
+                    class CAS;
+                    class Cluster;
+                };
+            };
+        };
 		class TextureSources
 		{
             /*
