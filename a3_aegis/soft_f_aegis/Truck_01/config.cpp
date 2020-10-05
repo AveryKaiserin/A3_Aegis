@@ -3,8 +3,89 @@
 class CfgVehicles
 {
 	// Arma 3
-	class B_Truck_01_transport_F;
-	class B_Truck_01_covered_F;
+	class Truck_01_base_F;
+	class B_Truck_01_transport_F: Truck_01_base_F
+    {
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            1
+        };
+    };
+	class B_Truck_01_covered_F: Truck_01_base_F
+    {
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            1
+        };
+    };
 	class B_Truck_01_mover_F;
 	class B_Truck_01_box_F;
 	class B_Truck_01_Repair_F;

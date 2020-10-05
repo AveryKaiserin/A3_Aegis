@@ -139,6 +139,42 @@ class CfgVehicles
 	};
 	class Truck_02_transport_base_F: Truck_02_base_F
 	{
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
 		class TextureSources
 		{
 			class Indep
@@ -246,6 +282,42 @@ class CfgVehicles
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
 		};
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
 	};
 	class O_Truck_02_transport_F: Truck_02_transport_base_F
 	{
@@ -266,6 +338,42 @@ class CfgVehicles
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
 		};
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
 	};
 	class I_Truck_02_transport_F: Truck_02_transport_base_F
 	{
@@ -291,6 +399,42 @@ class CfgVehicles
             OrangeOlive,1,
             BlueBlue,1,
             BlueOlive,1
+        };
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
         };
 	};
 	class C_Truck_02_transport_F: Truck_02_transport_base_F
@@ -828,6 +972,42 @@ class CfgVehicles
 			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 			"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 		};
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
 	};
 	class O_T_Truck_02_transport_F: Truck_02_transport_base_F
 	{
@@ -889,6 +1069,42 @@ class CfgVehicles
 			camo2,
 			camo3
 		};
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
 	};
 	class C_IDAP_Truck_02_transport_F: Truck_02_transport_base_F
 	{
@@ -908,6 +1124,46 @@ class CfgVehicles
 			camo3
 		};
 	};
+    // Arma 3 Enoch
+	class I_E_Truck_02_F: Truck_02_base_F
+	{
+		cargoProxyIndexes[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            1
+        };
+		getInProxyOrder[] =
+        {
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+        };
+    };
 	// Arma 3 Aegis
 	class Truck_02_viv_base_F: Truck_02_base_F
     {
