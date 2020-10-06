@@ -11,7 +11,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (British)
+            // LDF
+            I_E_MRAP_03_F,
+            I_E_MRAP_03_gmg_F,
+            I_E_MRAP_03_hmg_F,
+
+            // BAF
             B_A_MRAP_03_F,
             B_A_MRAP_03_tna_F,
             B_A_MRAP_03_wdl_F,

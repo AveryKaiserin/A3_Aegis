@@ -1,7 +1,7 @@
 class I_E_MRAP_03_F: I_MRAP_03_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -12,7 +12,7 @@ class I_E_MRAP_03_F: I_MRAP_03_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_EAF_CO.paa",
-        "\A3\Data_F_Enoch\Vehicles\Turret_EAF_CO.paa"
+        "\A3\Soft_F_Enoch\UGV_01\Data\Turret_EAF_CO.paa"
     };
     class TransportMagazines
     {
@@ -39,7 +39,7 @@ class I_E_MRAP_03_F: I_MRAP_03_F
 class I_E_MRAP_03_hmg_F: I_MRAP_03_hmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_hmg_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -50,7 +50,7 @@ class I_E_MRAP_03_hmg_F: I_MRAP_03_hmg_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_EAF_CO.paa",
-        "\A3\Data_F_Enoch\Vehicles\Turret_EAF_CO.paa"
+        "\A3\Soft_F_Enoch\UGV_01\Data\Turret_EAF_CO.paa"
     };
     class Turrets: Turrets
     {
@@ -85,7 +85,7 @@ class I_E_MRAP_03_hmg_F: I_MRAP_03_hmg_F
 class I_E_MRAP_03_gmg_F: I_MRAP_03_gmg_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_gmg_F.jpg";
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_MRAP_03_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
@@ -96,7 +96,7 @@ class I_E_MRAP_03_gmg_F: I_MRAP_03_gmg_F
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_EAF_CO.paa",
-        "\A3\Data_F_Enoch\Vehicles\Turret_EAF_CO.paa"
+        "\A3\Soft_F_Enoch\UGV_01\Data\Turret_EAF_CO.paa"
     };
     class TransportMagazines
     {
