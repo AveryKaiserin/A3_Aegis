@@ -5,7 +5,11 @@ class CfgPatches
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Fauna";
 		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
-		requiredAddons[] = {A3_Aegis_Data_F_Aegis};
+		requiredAddons[] =
+        {
+            A3_Aegis_Data_F_Aegis,
+            A3_Animals_F
+        };
 		requiredVersion = 0.1;
 		units[] = {/* Auto-compiled by pboProject */};
 		weapons[] = {/* Auto-compiled by pboProject */};

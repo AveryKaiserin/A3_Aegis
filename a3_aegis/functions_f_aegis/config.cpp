@@ -16,6 +16,16 @@ class CfgFunctions
 			class uav05InitNumbers{};
 		};
 		*/
+		class Ambient
+		{
+			file = "A3_Aegis\Functions_F_Aegis\Ambient";
+			class animalBehaviour
+			{
+				description = "Animal behaviour control. Called by Animals_F_Aegis\Data\Scripts\main.fsm.";
+				headerType = 1;
+			};
+			class animalRandomization{};
+		};
 		class Environment
 		{
 			file = "A3_Aegis\Functions_F_Aegis\Environment";

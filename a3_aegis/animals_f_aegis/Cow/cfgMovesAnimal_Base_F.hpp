@@ -1,9 +1,11 @@
 class CfgMovesAnimal_Base_F
 {
+	//access = 1;
 	collisionVertexPattern[] = {};
 	collisionGeomCompPattern[] = {1};
 	class Default
 	{
+	    //access = 3;
 		file = "";
 		looped = true;
 		speed = 0.5;

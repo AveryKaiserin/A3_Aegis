@@ -18,7 +18,7 @@ class CfgVehicles
 		model = "\A3_Aegis\Animals_F_Aegis\Cow\Cow_F.p3d";
 		hasGeometry = true;
 		moves = CfgMovesCow_F;
-		singSound[] = {"\A3_Aegis\Animals_F_Aegis\Cow\Data\Sound\cow_moo01",1,1,300};
+		singSound[] = {"\A3_Aegis\Animals_F_Aegis\Cow\Data\Sound\cow_moo01",db0,1,300};
 		class Wounds
 		{
 			tex[] = {};
@@ -29,25 +29,25 @@ class CfgVehicles
 				"A3_Aegis\Animals_F_Aegis\Cow\Data\W2_Cow.rvmat"
 			};
 		};
-		hiddenSelections[] = {camo};
+		hiddenSelections[] = {Camo};
 		class EventHandlers: EventHandlers
 		{
-			init = "(_this select 0) execVM '\A3_Aegis\Animals_F_Aegis\Cow\Scripts\randomize.sqf';";
+			init = "(_this select 0) call Aegis_fnc_animalRandomization;";
 		};
 		class VariablesScalar
 		{
-			_threatMaxRadius = 10;
-			_runDistanceMax = 25;
+			_threatMaxRadius = 40;
+			_runDistanceMax = 100;
 			_movePrefer = 0.25;
 			_formationPrefer = 0.85;
 			_scareLimit = 0.2;
-			_dangerLimit = 12;
+			_dangerLimit = 5.0;
 			_walkSpeed = 0.81;
 		};
 		class VariablesString
 		{
-			_expSafe = (0.5 * meadow) * (0.5 *  houses) * (1 - forest) * (1 - trees) * (1 - sea);
-			_expDanger = (0.5 * meadow) * (0.5 *  houses) * (1 - forest) * (1 - trees) * (1 - sea);
+			_expSafe = (0.5 * meadow) * (0.5 *  trees) * (1 - forest) * (1 - houses) * (1 - sea) * hills;
+			_expDanger = (1 - sea) * hills;
 		};
 	};
 };

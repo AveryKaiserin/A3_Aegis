@@ -1,5 +1,6 @@
 class CfgMovesCow_F: CfgMovesAnimal_Base_F
 {
+	//access = 1;
 	skeletonName = Cow_F_skeleton;
 	collisionVertexPattern[] =
     {
@@ -10,22 +11,73 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
         5a,
         6a,
         7a,
-        8a
+        8a,
+        9a,
+        10a,
+        11a,
+        12a,
+        13a,
+        14a,
+        15a,
+        16a,
+        17a,
+        18a,
+        19a,
+        20a,
+        21a,
+        22a,
+        23a,
+        24a,
+        25a,
+        26a,
+        27a,
+        28a,
+        29a,
+        30a,
+        31a,
+        32a,
+        33a,
+        34a,
+        1c,
+        2c,
+        3c,
+        4c,
+        5c,
+        6c,
+        7c,
+        8c
     };
 	collisionGeomCompPattern[] = {1};
 	class Default: Default
 	{
 		actions = CowActions;
-		collisionShape = "\A3_Aegis\Animals_F_Aegis\Cow\Cow_CollShape.p3d";
+		collisionShape = "A3_Aegis\Animals_F_Aegis\Cow\cow_CollShape.p3d";
 	};
-	class StandBase: Default{};
-	class DefaultDie: Default{};
+	class StandBase: Default
+	{
+		aiming = aimingDefault;
+		disableWeapons = true;
+	};
+	class DefaultDie: Default
+    {
+		enableDirectControl = false;
+		aiming = aimingNo;
+		legs = legsNo;
+		head = headNo;
+		disableWeapons = true;
+		interpolationRestart = true;
+    };
 	class States
 	{
 		class Cow_Idle_Stop: StandBase
 		{
+		    actions = CowActions;
 			duty = -1;
+			enableDirectControl = false;
 			file = "\A3_Aegis\Animals_F_Aegis\Cow\Data\Anim\cowStop.rtm";
+			showWeaponAim = false;
+			disableWeapons = true;
+			disableWeaponsLong = true;
 			variantsAI[] =
 			{
 				Cow_Idle_Eat,0.6,
@@ -34,6 +86,12 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
 			};
 			variantsPlayer[] = {};
 			variantAfter[] = {3,6,9};
+			speed = 1e+10;
+			relSpeedMin = 0.7;
+			relSpeedMax = 1.1;
+			looped = true;
+			soundEnabled = false;
+			connectTo[] = {};
 			interpolateTo[] =
 			{
 				Cow_Idle_Stop,0.1,
@@ -45,15 +103,15 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
 				Cow_Run,0.5,
 				Cow_Die,0.1
 			};
-			connectTo[] = {};
-			preload = 1;
-			speed = 1;
+            enableBinocular = true;
+			preload = true;
 		};
 		class Cow_TurnL: Cow_Idle_Stop
 		{
 			file = "\A3_Aegis\Animals_F_Aegis\Cow\Data\Anim\cow_rotateL.rtm";
 			variantsAI[] = {};
 			connectTo[] = {Cow_Idle_Stop,0.1};
+			connectFrom[] = {Cow_Idle_Stop,0.1};
 			interpolateTo[] =
 			{
 				Cow_Idle_Stop,0.1,
@@ -124,14 +182,14 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
 		};
 		class Cow_Die: DefaultDie
 		{
+			actions = NoActions;
 			file = "\A3_Aegis\Animals_F_Aegis\Cow\Data\Anim\cowDeath.rtm";
 			speed = 1;
-			actions = NoActions;
 			looped = false;
-			terminal = true;
 			variantsPlayer[] = {};
 			variantsAI[] = {};
 			variantAfter[] = {0,0,0};
+			terminal = true;
 		};
         class Cow_Stop: Cow_Idle_Stop
 		{
@@ -173,7 +231,13 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
 	};
 	class Actions: Actions
 	{
-		class NoActions: NoActions{};
+		class NoActions: NoActions
+		{
+			turnSpeed = 3;
+			limitFast = 5.5;
+			useFastMove = false;
+			upDegree = 0;
+		};
 		class CowActions: NoActions
 		{
 			Stop = Cow_Idle_Stop;
@@ -222,6 +286,10 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
 			CivilLying = Cow_Run;
 		};
 	};
+	class Interpolations{};
+	transitionsInterpolated[] = {};
+	transitionsSimple[] = {};
+	transitionsDisabled[] = {};
 	class BlendAnims: BlendAnims
 	{
 		aimingDefault[] =
@@ -234,9 +302,14 @@ class CfgMovesCow_F: CfgMovesAnimal_Base_F
         {
 			head,1,
             neck1,1,
-            neck,0.8,
-            //headEnd,1,			
+            neck,0.8,	
 			Spine2,0.2
 		};
+		untiltWeaponDefault[] = {};
+		legsDefault[] = {};
+		aimingNo[] = {};
+		legsNo[] = {};
+		headNo[] = {};
+		aimingUpDefault[] = {};
 	};
 };
