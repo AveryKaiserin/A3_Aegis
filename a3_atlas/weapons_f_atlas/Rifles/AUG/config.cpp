@@ -86,14 +86,15 @@ class CfgWeapons
 		};
 		modes[] =
 		{
-			Single,
 			FullAuto,
+			Single,
 			single_medium_optics1,
 			single_medium_optics2,
 			fullauto_medium
 		};
 		class Single: Mode_SemiAuto
 		{
+			showToPlayer = false;
 			reloadTime = 0.07;
 			dispersion = 0.00116;
 			minRange = 2;
