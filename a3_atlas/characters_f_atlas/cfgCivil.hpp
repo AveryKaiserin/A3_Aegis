@@ -44,7 +44,7 @@ class C_man_1_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 1";
-	uniformClass = U_C_Uniform_01_shirt_pattern_F;
+	uniformClass = Atlas_U_C_Uniform_01_shirt_pattern_F;
 };
 class C_Man_2_persian_F: C_man_persian_base_F
 {
@@ -53,7 +53,7 @@ class C_Man_2_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 2";
-	uniformClass = U_C_Uniform_01_shirt_striped_F;
+	uniformClass = Atlas_U_C_Uniform_01_shirt_striped_F;
 };
 class C_Man_3_persian_F: C_man_persian_base_F
 {
@@ -62,7 +62,7 @@ class C_Man_3_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 3";
-	uniformClass = U_C_Uniform_01_shirt_white_F;
+	uniformClass = Atlas_U_C_Uniform_01_shirt_white_F;
 };
 class C_Man_4_persian_F: C_man_persian_base_F
 {
@@ -71,7 +71,7 @@ class C_Man_4_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 4";
-	uniformClass = U_C_CommonerJacket_01_marroon_F;
+	uniformClass = Atlas_U_C_CommonerJacket_01_marroon_F;
 };
 class C_Man_5_persian_F: C_man_persian_base_F
 {
@@ -80,7 +80,7 @@ class C_Man_5_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 5";
-	uniformClass = U_C_CommonerJacket_01_blue_F;
+	uniformClass = Atlas_U_C_CommonerJacket_01_blue_F;
 };
 class C_Man_6_persian_F: C_man_persian_base_F
 {
@@ -89,7 +89,7 @@ class C_Man_6_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 6";
-	uniformClass = U_C_CommonerJacket_01_grey_F;
+	uniformClass = Atlas_U_C_CommonerJacket_01_grey_F;
 };
 class C_Man_7_persian_F: C_man_persian_base_F
 {
@@ -98,7 +98,7 @@ class C_Man_7_persian_F: C_man_persian_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 7";
-	uniformClass = U_C_Uniform_01_tshirt_white_F;
+	uniformClass = Atlas_U_C_Uniform_01_tshirt_white_F;
 };
 class C_Man_8_persian_F: C_man_persian_base_F
 {

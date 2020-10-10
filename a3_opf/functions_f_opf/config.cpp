@@ -2,7 +2,7 @@
 #include "cfgPatches.hpp"
 class CfgFunctions
 {
-	class A3Opf
+	class A3_Opf
 	{
 		tag = "Opf";
 		project = "arma3opf";

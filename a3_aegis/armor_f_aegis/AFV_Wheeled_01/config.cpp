@@ -18,6 +18,7 @@ class CfgVehicles
 	};
 	class AFV_Wheeled_01_base_F: Wheeled_APC_F
 	{
+		icon = "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\UI\Map_AFV_Wheeled_01_CA.paa";
 		editorSubcategory = EdSubcat_TankDestroyers;
 		class Turrets: Turrets
 		{
@@ -63,7 +64,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class AFV_Wheeled_01_up_base_F;
+	class AFV_Wheeled_01_up_base_F: AFV_Wheeled_01_base_F
+    {
+		icon = "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\UI\Map_AFV_Wheeled_01_up_CA.paa";
+    };
 	class B_T_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	{
 		class TransportMagazines

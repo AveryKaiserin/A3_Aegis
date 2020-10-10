@@ -70,7 +70,7 @@ class B_UBACSCombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_wdl_CO.paa",
-		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa"
+		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
 	};
 };
 class B_UBACSReconFatigues_01_wdl_F: B_Soldier_SL_F
@@ -95,7 +95,7 @@ class B_UBACSCombatFatigues_01_Tshirt_blk_F: B_soldier_AR_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_blk_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
+		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa"
 	};
 };
 class B_UBACSReconFatigues_01_blk_F: B_Soldier_SL_F

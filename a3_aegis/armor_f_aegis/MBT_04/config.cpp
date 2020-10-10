@@ -34,12 +34,14 @@ class CfgVehicles
 						weapons[] =
 						{
 							HMG_NSVT,
-							SmokeLauncher
+							SmokeLauncher,
+                            CM_Universal_01_Hardkill_F
 						};
 						magazines[] =
 						{
 							mag_2(450Rnd_127x108_Ball),
-							SmokeLauncherMag
+							SmokeLauncherMag,
+                            300Rnd_AntiMissile_Magazine
 						};
 					};
 				};

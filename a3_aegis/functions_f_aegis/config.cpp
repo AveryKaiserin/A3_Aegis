@@ -2,7 +2,7 @@
 #include "cfgPatches.hpp"
 class CfgFunctions
 {
-	class A3Aegis
+	class A3_Aegis
 	{
 		tag = "Aegis";
 		project = "arma3aegis";

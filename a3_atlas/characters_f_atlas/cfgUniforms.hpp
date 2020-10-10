@@ -1,6 +1,7 @@
 // Arma 3
 class B_Soldier_04_f;
 class C_man_1_1_F;
+class C_man_p_fugitive_F;
 class I_G_Soldier_M_F;
 class I_soldier_lite_F;
 class I_officer_F;
@@ -17,8 +18,6 @@ class I_E_Uniform_01_shortsleeve_F;
 class I_E_Uniform_01_tanktop_F;
 class I_E_Uniform_01_officer_F;
 class I_E_Uniform_01_coveralls_F;
-// Arma 3 Aegis
-class C_Jayholder;
 // Arma 3 Atlas
 // Civilians
 class Atlas_C_Uniform_01_shirt_base_F: Civilian_F
@@ -90,7 +89,7 @@ class Atlas_C_CommonerJacket_01_grey_F: Atlas_C_CommonerJacket_01_marroon_F
 	uniformClass = Atlas_U_C_CommonerJacket_01_grey_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_C_CommonerJacket_01_grey_F_CO.paa"};
 };
-class Atlas_C_Uniform_01_tshirt_white_F: C_Jayholder
+class Atlas_C_Uniform_01_tshirt_white_F: C_man_p_fugitive_F
 {
 	scope = protected;
 	scopeCurator = private;
