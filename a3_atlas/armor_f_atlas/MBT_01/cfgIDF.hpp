@@ -414,7 +414,7 @@ class Atlas_I_I_MBT_01_cannon_F: B_MBT_01_cannon_F
 				12Rnd_120mm_HE_shells_Tracer_Yellow,
 				12Rnd_120mm_HEAT_MP_T_Yellow,
 				mag_20(200Rnd_762x51_Belt_Yellow),
-				4Rnd_120mm_cannon_missiles
+				4Rnd_120mm_LG_cannon_missiles
 			};
 		};
 	};

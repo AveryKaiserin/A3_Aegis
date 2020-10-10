@@ -1,5 +1,46 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
 class CfgVehicles
 {
 	// Arma 3
@@ -90,6 +131,46 @@ class CfgVehicles
 							mag_2(150Rnd_127x108_Ball),
 							SmokeLauncherMag
 						};
+                        class Components
+						{
+							class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+							{
+								class Components: components
+								{
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            4000,
+                                            2000,
+                                            1000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+							class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+							{
+								defaultDisplay = SensorDisplay;
+								class Components: components
+								{
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            4000,
+                                            2000,
+                                            1000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+                        };
 					};
 				};
 				weapons[] =
@@ -104,6 +185,46 @@ class CfgVehicles
 					12Rnd_125mm_HE_T_Green,
 					mag_20(200Rnd_762x51_Belt_Green),
 					4Rnd_125mm_cannon_missiles
+				};
+				class Components
+				{
+					class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+					{
+						class Components: components
+						{
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    4000,
+                                    2000,
+                                    1000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
+						};
+					};
+					class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+					{
+						defaultDisplay = SensorDisplay;
+						class Components: components
+						{
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    4000,
+                                    2000,
+                                    1000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
+						};
+					};
 				};
 			};
 		};

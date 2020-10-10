@@ -1,5 +1,46 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
 class CfgVehicles
 {
 	// Arma 3
@@ -20,6 +61,7 @@ class CfgVehicles
 				};
 			};
 		};
+		class Components;
 	};
 	class MBT_01_base_F: Tank_F
 	{
@@ -29,7 +71,69 @@ class CfgVehicles
 			{
 				class Turrets: Turrets
 				{
-					class CommanderOptics: CommanderOptics{};
+					class CommanderOptics: CommanderOptics
+                    {
+						weapons[] =
+                        {
+                            SmokeLauncher,
+                            Laserdesignator_mounted
+                        };
+						magazines[] =
+                        {
+                            SmokeLauncherMag,
+                            Laserbatteries
+                        };
+						class Components
+						{
+							class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+							{
+								class Components: components
+								{
+									class VehicleMissileDisplay
+									{
+										componentType = TransportFeedDisplayComponent;
+										source = Missile;
+									};
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            4000,
+                                            2000,
+                                            1000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+							class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+							{
+								defaultDisplay = SensorDisplay;
+								class Components: components
+								{
+									class VehicleMissileDisplay
+									{
+										componentType = TransportFeedDisplayComponent;
+										source = Missile;
+									};
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            4000,
+                                            2000,
+                                            1000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+						};
+                    };
 				};
 				magazines[] =
 				{
@@ -37,7 +141,57 @@ class CfgVehicles
 					12Rnd_120mm_HE_shells_Tracer_Red,
 					12Rnd_120mm_HEAT_MP_T_Red,
 					mag_20(200Rnd_762x51_Belt_Red),
-					4Rnd_120mm_cannon_missiles
+					4Rnd_120mm_LG_cannon_missiles
+				};
+				class Components: Components
+				{
+					class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftGunner
+					{
+						class Components: components
+						{
+							class VehicleMissileDisplay
+							{
+								componentType = TransportFeedDisplayComponent;
+								source = Missile;
+							};
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    4000,
+                                    2000,
+                                    1000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
+						};
+					};
+					class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightGunner
+					{
+						defaultDisplay = SensorDisplay;
+						class Components: components
+						{
+							class VehicleMissileDisplay
+							{
+								componentType = TransportFeedDisplayComponent;
+								source = Missile;
+							};
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    4000,
+                                    2000,
+                                    1000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
+						};
+					};
 				};
 			};
 		};
@@ -50,6 +204,20 @@ class CfgVehicles
 		class TransportBackpacks
 		{
 			bag_xx(B_AssaultPack_mcamo,2);
+		};
+        radarType = VehicleRadar;
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class LaserSensorComponent: SensorTemplateLaser
+					{
+						animDirection = mainTurret;
+					};
+				};
+			};
 		};
 	};
 	class B_MBT_01_base_F: MBT_01_base_F{};
@@ -119,10 +287,17 @@ class CfgVehicles
 				{
 					class CommanderOptics: CommanderOptics
 					{
+						weapons[] =
+                        {
+                            HMG_127_MBT,
+                            SmokeLauncher,
+                            Laserdesignator_mounted
+                        };
 						magazines[] =
 						{
 							mag_2(200Rnd_127x99_mag_Tracer_Red),
-							SmokeLauncherMag
+							SmokeLauncherMag,
+                            Laserbatteries
 						};
 					};
 				};
@@ -132,7 +307,7 @@ class CfgVehicles
 					12Rnd_120mm_HE_shells_Tracer_Red,
 					12Rnd_120mm_HEAT_MP_T_Red,
 					mag_20(200Rnd_762x51_Belt_Red),
-					4Rnd_120mm_cannon_missiles
+					4Rnd_120mm_LG_cannon_missiles
 				};
 			};
 		};

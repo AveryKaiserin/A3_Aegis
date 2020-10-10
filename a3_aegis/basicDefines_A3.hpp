@@ -30,6 +30,13 @@
 #define CanSeeAll 31
 #define CanSeePeripheral 32
 
+//radar type
+#define NoRadar 0
+#define TacticalDisplay 1
+#define VehicleRadar 2
+#define AirRadar 4
+#define CompassTurretDisplay 8
+
 //ballistics computer
 #define BallisticsNone 0
 #define BallisticsAutoZero 1
