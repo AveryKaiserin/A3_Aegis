@@ -54,6 +54,24 @@ class CfgVehicles
 					"\A3\Armor_F\Data\cage_AAF_CO.paa"
 				};
 			};
+			class Guerilla_01
+			{
+                factions[] =
+                {
+                    BLU_G_F,
+                    IND_G_F,
+                    OPF_G_F
+                };
+            };
+			class Guerilla_02
+			{
+                factions[] =
+                {
+                    BLU_G_F,
+                    IND_G_F,
+                    OPF_G_F
+                };
+            };
 			class Guerilla_03
 			{
 				textures[] =
@@ -65,6 +83,12 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_AAF_FIA_green_CO.paa",
 					"\A3\Armor_F\Data\cage_G3_CO.paa"
 				};
+                factions[] =
+                {
+                    BLU_G_F,
+                    IND_G_F,
+                    OPF_G_F
+                };
 			};
 		};
 		animationList[] =
