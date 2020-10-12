@@ -76,35 +76,39 @@ class CfgVehicles
 		icon = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
 		picture = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
 		editorSubcategory = EdSubcat_Helicopters;
+		memoryPointTaskMarker = TaskMarker_1_pos;
+		accuracy = 2.5;
+        availableForSupportTypes[] = {CAS_Heli};
+        class Library
+        {
+            libTextDesc = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F_Library0;
+        };
+        // Physics and handling
         #include "rtd.hpp"
         #include "flightModel.hpp"
-		memoryPointTaskMarker = TaskMarker_1_pos;
-		armor = 60;
-		damageResistance = 0.00593;
-		accuracy = 2.5;
+		numberPhysicalWheels = 3;
+        // Crew and cargo
 		crewVulnerable = false;
 		castDriverShadow = true;
 		viewCargoShadow = true;
-		radarTargetSize = 0.7;
-		irTargetSize = 0.8;
-		lockDetectionSystem = CM_Lock_Radar + CM_Lock_Laser;
-		incomingMissileDetectionSystem = CM_Radar_Missiles + CM_All_Missiles;
-		laserScanner = true;
-		showAllTargets = LockLaser;
-		weapons[] = {CMFlareLauncher};
-		magazines[] = {192Rnd_CMFlare_Chaff_Magazine};
-		memoryPointLMissile = Missile_1;
-		memoryPointRMissile = Missile_2;
-		memoryPointLRocket = Rocket_1;
-		memoryPointRRocket = Rocket_2;
-		selectionFireAnim = zasleh;
 		driverAction = Heli_Attack_03_pilot;
 		driverInAction = Heli_Attack_03_pilot;
 		driverCanEject = false;
-		precisegetinout = true;
+        // Get in / get out animations
+		preciseGetInOut = true;
 		getInRadius = 1.5;
 		getinAction = GetInHigh;
 		getoutaction = GetOutHigh;
+        // MFD
+		defaultUserMFDvalues[] =
+        {
+            0.0,    // R
+            1.0,    // B
+            0.3,    // G
+            1       // A
+        };
+        #include "mfdPilot.hpp"
+        // Camera and optics
 		class ViewPilot: ViewPilot
 		{
 			initAngleX = -4;
@@ -121,18 +125,146 @@ class CfgVehicles
 			minFov = 0.1;
 			maxFov = 1.2;
 		};
-		hiddenSelections[] =
-		{
-			camo1,
-			camo2,
-			camo3
-		};
-		hiddenSelectionsTextures[] =
+        // Damage and hitpoints
+		armor = 60;
+		damageResistance = 0.00593;
+        destrType = DestructWreck;
+		class HitPoints: HitPoints
         {
-            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_CO.paa",
-            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_CO.paa",
-            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_CO.paa"
+			class HitHull: HitHull
+			{
+				armor = 999;
+				visual = zbytek;
+				depends = Total;
+				radius = 0.01;
+			};
+			class HitFuel: HitFuel
+			{
+				armor = 1;
+				radius = 0.25;
+				minimalHit = 0.05;
+			};
+			class HitAvionics: HitAvionics
+			{
+				armor = 2;
+				radius = 0.4;
+				minimalHit = 0.05;
+				visual = elektronika;
+			};
+			class HitMissiles: HitMissiles
+			{
+				armor = 1;
+				radius = 0.15;
+				minimalHit = 0.05;
+			};
+			class HitEngine1
+			{
+				armor = 2.5;
+				radius = 0.4;
+				name = engine_1_hit;
+				explosionShielding = 3;
+				minimalHit = 0.1;
+				visual = motor;
+				passThrough = 1;
+				convexComponent = engine_1_hit;
+				material = 51;
+			};
+			class HitEngine2: HitEngine1
+			{
+				name = engine_2_hit;
+				convexComponent = engine_2_hit;
+			};
+			class HitEngine: HitEngine
+			{
+				armor = 999;
+				radius = 0.05;
+				minimalHit = 1;
+				depends = 0.5 * (HitEngine1 + HitEngine2);
+			};
+			class HitHRotor: HitHRotor
+			{
+				armor = 4;
+				radius = 0.3;
+				minimalHit = 0.1;
+				explosionShielding = 4;
+			};
+			class HitVRotor: HitVRotor
+			{
+				armor = 3;
+				radius = 0.2;
+				minimalHit = 0.1;
+				explosionShielding = 4;
+			};
+			class HitGlass1: HitGlass1
+			{
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+			};
+			class HitGlass2: HitGlass2
+			{
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+			};
+			class HitGlass3: HitGlass3
+			{
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+			};
+			class HitGlass4: HitGlass4
+			{
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+			};
+			class HitGlass5: HitGlass5
+			{
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+			};
+			class HitWinch: HitWinch
+			{
+				class DestructionEffects{};
+			};
         };
+        // Turrets and weapons
+		weapons[] = {CMFlareLauncher};
+		magazines[] = {192Rnd_CMFlare_Chaff_Magazine};
+		#include "turrets.hpp"
+        // Textures and materials
+        class Damage
+		{
+			tex[] = {};
+			mat[] =
+            {
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_destruct.rvmat",
+
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_destruct.rvmat",
+
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_destruct.rvmat",
+
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_damage.rvmat",
+
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in_damage.rvmat",
+
+                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter.rvmat",
+                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter_damage.rvmat",
+                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter_destruct.rvmat"
+            };
+		};
 		class TextureSources
 		{
 			class Blu
@@ -203,37 +335,45 @@ class CfgVehicles
 			};
             */
         };
-		class Damage
+		hiddenSelections[] =
 		{
-			tex[] = {};
-			mat[] =
-            {
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_destruct.rvmat",
-
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_destruct.rvmat",
-
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_destruct.rvmat",
-
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_damage.rvmat",
-
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_glass_in_damage.rvmat",
-
-                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter.rvmat",
-                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter_damage.rvmat",
-                "A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_inter_destruct.rvmat"
-            };
+			camo1,
+			camo2,
+			camo3
 		};
-		class TransportBackpacks
+		hiddenSelectionsTextures[] =
+        {
+            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_CO.paa",
+            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_CO.paa",
+            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_CO.paa"
+        };
+        // Particles effects
+        class Exhausts
+		{
+			class Exhaust1
+			{
+				position = exhaust1;
+				direction = exhaust1_dir;
+				effect = ExhaustsEffectHeliComHP;
+			};
+			class Exhaust2
+			{
+				position = exhaust2;
+				direction = exhaust2_dir;
+				effect = ExhaustsEffectHeliComHP;
+			};
+		};
+        // Lights
+        // Selections for engine-based animations
+		selectionClan = clan;
+		selectionFireAnim = zasleh;
+		selectionShowDamage = poskozeni;
+		memoryPointLMissile = Missile_1;
+		memoryPointRMissile = Missile_2;
+		memoryPointLRocket = Rocket_1;
+		memoryPointRRocket = Rocket_2;
+        // Inventory items, weapons, and magazines
+        class TransportBackpacks
 		{
             bag_xx(B_Parachute,2);
 		};
@@ -253,7 +393,7 @@ class CfgVehicles
             item_xx(Toolkit,1);
             item_xx(ItemGPS,1);
 		};
-		class HitPoints: HitPoints{};
+        // Model animations
 		class AnimationSources: AnimationSources
         {
 			class HitGlass1
@@ -284,6 +424,13 @@ class CfgVehicles
 				weapon = cannon_30mm_Heli_Attack_03;
 			};
         };
+        // Sensors and electronics
+		lockDetectionSystem = CM_Lock_Radar + CM_Lock_Laser;
+		incomingMissileDetectionSystem = CM_Radar_Missiles + CM_All_Missiles;
+		laserScanner = true;
+		showAllTargets = LockLaser;
+		radarTargetSize = 0.7;
+		irTargetSize = 0.8;
 		class Components: Components
 		{
 			class SensorsManagerComponent
@@ -611,40 +758,11 @@ class CfgVehicles
 			pilotOpticsShowCursor = true;
 			controllable = true;
 		};
-        class Exhausts
-		{
-			class Exhaust1
-			{
-				position = exhaust1;
-				direction = exhaust1_dir;
-				effect = ExhaustsEffectHeliComHP;
-			};
-			class Exhaust2
-			{
-				position = exhaust2;
-				direction = exhaust2_dir;
-				effect = ExhaustsEffectHeliComHP;
-			};
-		};
-		defaultUserMFDvalues[] =
-        {
-            0.0,    // R
-            1.0,    // B
-            0.3,    // G
-            1       // A
-        };
-        #include "mfdPilot.hpp"
-		#include "turrets.hpp"
+        // Scripted animations and functionality
         class EventHandlers: EventHandlers
 		{
 			fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		};
-		numberPhysicalWheels = 3;
-        availableForSupportTypes[] = {CAS_Heli};
-        class Library
-        {
-            libTextDesc = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F_Library0;
-        };
     };
     #include "cfgIndep.hpp"             // AAF
     /*
