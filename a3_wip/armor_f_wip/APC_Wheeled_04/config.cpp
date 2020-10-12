@@ -431,11 +431,11 @@ class CfgVehicles
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2.rvmat",
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_damage.rvmat",
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_destruct.rvmat",
-                
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_destruct.rvmat",
-                
+                /*
+                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows.rvmat",
+                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_damage.rvmat",
+                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_destruct.rvmat",
+                */
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int.rvmat",
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_damage.rvmat",
                 "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_destruct.rvmat",
@@ -455,7 +455,7 @@ class CfgVehicles
                 {
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_RUkhk_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
                 };
@@ -478,7 +478,7 @@ class CfgVehicles
         {
             "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
             "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-            "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
+            "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_RUkhk_CO.paa",
             "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
             "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
         };
@@ -809,6 +809,7 @@ class CfgVehicles
 			/*fired = "[_this select 0,_this select 6,'missile_move','MissileBase'] call BIS_fnc_missileLaunchPositionFix; _this call (uinamespace getvariable 'BIS_fnc_effectFired');";*/
 		};
 	};
+    class APC_Wheeled_04_AT_base_F: APC_Wheeled_04_base_F{};
     #include "cfgSpetsnaz.hpp"          // Russia
     // Arma 3 Atlas
     #include "cfgCDF.hpp"               // CDF
