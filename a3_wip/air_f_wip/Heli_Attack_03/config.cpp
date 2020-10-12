@@ -71,7 +71,7 @@ class CfgVehicles
 		textPlural = $STR_A3_nameSound_veh_air_gunship_p;
 		nameSound = veh_air_gunship_s;
 		scope = private;
-		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0;
+		displayName = /*$STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0*/ "AH-1 Navajo";
 		model = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Heli_Attack_03_F.p3d";
 		icon = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
 		picture = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";

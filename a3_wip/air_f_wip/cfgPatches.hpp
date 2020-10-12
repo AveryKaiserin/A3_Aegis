@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class A3_Aegis_Air_F_Aegis
+	class A3_Wip_Air_F_Wip
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Work-in-Progress - Aircrafts";
