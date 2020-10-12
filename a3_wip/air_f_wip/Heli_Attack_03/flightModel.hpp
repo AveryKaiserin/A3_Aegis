@@ -1,0 +1,11 @@
+altFullForce = 5000;
+altNoForce = 7000;
+maxSpeed = 293;
+mainBladeRadius = 6.6;
+liftForceCoef = 1.0;
+bodyFrictionCoef = 1.0;
+cyclicAsideForceCoef = 0.8;
+cyclicForwardForceCoef = 1.8;
+backRotorForceCoef = 1.3;
+mainRotorSpeed = -1;
+backRotorSpeed = 3;

@@ -75,9 +75,10 @@ class CfgVehicles
 		model = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Heli_Attack_03_F.p3d";
 		icon = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
 		picture = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
+		vehicleClass = Air;
 		editorSubcategory = EdSubcat_Helicopters;
 		memoryPointTaskMarker = TaskMarker_1_pos;
-		accuracy = 2.5;
+		accuracy = 0.5;
         availableForSupportTypes[] = {CAS_Heli};
         class Library
         {
@@ -85,7 +86,10 @@ class CfgVehicles
         };
         // Physics and handling
         #include "rtd.hpp"
+		fuelCapacity = 500;
+		fuelConsumptionRate = 0.0555;
         #include "flightModel.hpp"
+        maxFordingDepth = 0.5;
 		numberPhysicalWheels = 3;
         // Crew and cargo
 		crewVulnerable = false;
@@ -94,6 +98,10 @@ class CfgVehicles
 		driverAction = Heli_Attack_03_pilot;
 		driverInAction = Heli_Attack_03_pilot;
 		driverCanEject = false;
+        driverLeftHandAnimName = lever_pilot;
+        driverRightHandAnimName = stick_pilot;
+        driverLeftLegAnimName = "";
+        driverRightLegAnimName = "";
         // Get in / get out animations
 		preciseGetInOut = true;
 		getInRadius = 1.5;
@@ -233,6 +241,7 @@ class CfgVehicles
         // Turrets and weapons
 		weapons[] = {CMFlareLauncher};
 		magazines[] = {192Rnd_CMFlare_Chaff_Magazine};
+		enableManualFire = true;
 		#include "turrets.hpp"
         // Textures and materials
         class Damage
@@ -244,9 +253,9 @@ class CfgVehicles
                 "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_damage.rvmat",
                 "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_destruct.rvmat",
 
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_damage.rvmat",
-                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_destruct.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_damage.rvmat",
+                "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_destruct.rvmat",
 
                 "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds.rvmat",
                 "A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_damage.rvmat",
@@ -274,7 +283,7 @@ class CfgVehicles
 				textures[] =
 				{
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_CO.paa",
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_CO.paa"
 				};
 				factions[] =
@@ -291,7 +300,7 @@ class CfgVehicles
 				textures[] =
 				{
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_INDP_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_INDP_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_INDP_CO.paa",
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_INDP_CO.paa"
 				};
 				factions[] = {IND_F};
@@ -304,7 +313,7 @@ class CfgVehicles
 				textures[] =
 				{
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_AUSFOR_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_AUSFOR_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_AUSFOR_CO.paa",
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_AUSFOR_CO.paa"
 				};
 				factions[] = {Atlas_BLU_A_F};
@@ -316,7 +325,7 @@ class CfgVehicles
 				textures[] =
 				{
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_JSDF_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_JSDF_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_JSDF_CO.paa",
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_JSDF_CO.paa"
 				};
 				factions[] = {Atlas_BLU_J_F};
@@ -328,7 +337,7 @@ class CfgVehicles
 				textures[] =
 				{
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_RACS_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_RACS_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_RACS_CO.paa",
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_RACS_CO.paa"
 				};
 				factions[] = {Atlas_IND_R_F};
@@ -344,7 +353,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
         {
             "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_CO.paa",
-            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_CO.paa",
+            "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_CO.paa",
             "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_CO.paa"
         };
         // Particles effects
@@ -364,9 +373,161 @@ class CfgVehicles
 			};
 		};
         // Lights
+        class MarkerLights
+        {
+            class PositionLight_red_1
+            {
+				color[] =
+				{
+					0.8,    // R
+					0.0,    // G
+					0.0     // B
+				};
+				ambient[] =
+				{
+					0.08,   // R
+					0.0,    // G
+					0.0     // B
+				};
+				intensity = 75;
+				name = PositionLight_red_1_pos;
+				drawLight = 1;
+				drawLightSize = 0.15;
+				drawLightCenterSize = 0.04;
+				activeLight = false;
+				blinking = false;
+				dayLight = false;
+				useFlare = true;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0;
+					linear = 25;
+					quadratic = 50;
+					hardLimitStart = 0.75;
+					hardLimitEnd = 1;
+				};
+            };
+			class PositionLight_green_1: PositionLight_red_1
+			{
+				color[] =
+				{
+					0.0,    // R
+					0.8,    // G
+					0.0     // B
+				};
+				ambient[] =
+				{
+					0.0,    // R
+					0.08,   // G
+					0.0     // B
+				};
+				name = PositionLight_green_1_pos;
+			};
+			class PositionLight_white_1: PositionLight_red_1
+			{
+				color[] =
+				{
+					1.0,    // R
+					1.0,    // G
+					1.0     // B
+				};
+				ambient[] =
+				{
+					0.1,    // R
+					0.1,    // G
+					0.1     // B
+				};
+				name = PositionLight_white_1_pos;
+			};
+			class CollisionLight_white_1: PositionLight_red_1
+			{
+				color[] =
+				{
+					1.0,    // R
+					1.0,    // G
+					1.0     // B
+				};
+				ambient[] =
+				{
+					0.1,    // R
+					0.1,    // G
+					0.1     // B
+				};
+				name = CollisionLight_white_1_pos;
+				blinking = true;
+				blinkingStartsOn = true;
+				blinkingPattern[] = {0.1,0.9};
+				blinkingPatternGuarantee = true;
+				drawLightSize = 0.35;
+				drawLightCenterSize = 0.05;
+			};
+			class CollisionLight_red_1: CollisionLight_white_1
+			{
+				color[] =
+				{
+					0.8,    // R
+					0.0,    // G
+					0.0     // B
+				};
+				ambient[] =
+				{
+					0.08,   // R
+					0.0,    // G
+					0.0     // B
+				};
+				name = CollisionLight_red_1_pos;
+			};
+        };
+        class Reflectors
+        {
+            class Light_R
+            {
+                color[] =
+                {
+                    7000,   // R
+                    7500,   // G
+                    10000,  // B
+                    1       // A
+                };
+                ambient[] =
+                {
+                    70,     // R
+                    75,     // G
+                    100,    // B
+                    0       // A
+                };
+                position = Light_R_pos;
+                direction = Light_R_dir;
+                hitpoint = Light_R_hitpoint;
+                selection = Light_R;
+                size = 1;
+                innerAngle = 15;
+                outerAngle = 65;
+                coneFadeCoef = 10;
+                intensity = 50;
+                useFlare = true;
+                dayLight = false;
+                FlareSize = 10;
+                flareMaxDistance = 250;
+                class Attenuation
+                {
+					start = 0;
+					constant = 0;
+					linear = 1;
+					quadratic = 1;
+					hardLimitStart = 100;
+					hardLimitEnd = 200;
+                };
+            };
+        };
         // Selections for engine-based animations
 		selectionClan = clan;
 		selectionFireAnim = zasleh;
+        selectionHRotorStill = "main rotor static";
+        selectionHRotorMove = "main rotor blur";
+        selectionVRotorStill = "tail rotor static";
+        selectionVRotorMove = "tail rotor blur";
 		selectionShowDamage = poskozeni;
 		memoryPointLMissile = Missile_1;
 		memoryPointRMissile = Missile_2;
@@ -442,6 +603,27 @@ class CfgVehicles
 						class AirTarget
 						{
 							minRange = 500;
+							maxRange = 4000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							minRange = 500;
+							maxRange = 3000;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+						maxTrackableSpeed = 70;
+						animDirection = mainGun;
+						angleRangeHorizontal = 36;
+						angleRangeVertical = 36;
+					};
+					class VisualSensorComponent: SensorTemplateVisual
+					{
+						class AirTarget
+						{
+							minRange = 500;
 							maxRange = 3000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = 1;
@@ -455,31 +637,8 @@ class CfgVehicles
 						};
 						maxTrackableSpeed = 70;
 						animDirection = mainGun;
-						angleRangeHorizontal = 46;
-						angleRangeVertical = 34;
-						aimdown = -0.25;
-					};
-					class VisualSensorComponent: SensorTemplateVisual
-					{
-						class AirTarget
-						{
-							minRange = 500;
-							maxRange = 2000;
-							objectDistanceLimitCoef = -1;
-							viewDistanceLimitCoef = 1;
-						};
-						class GroundTarget
-						{
-							minRange = 500;
-							maxRange = 1500;
-							objectDistanceLimitCoef = 1;
-							viewDistanceLimitCoef = 1;
-						};
-						maxTrackableSpeed = 70;
-						animDirection = mainGun;
-						angleRangeHorizontal = 46;
-						angleRangeVertical = 34;
-						aimdown = -0.25;
+						angleRangeHorizontal = 36;
+						angleRangeVertical = 36;
 					};
 					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
 					{
@@ -498,7 +657,7 @@ class CfgVehicles
 							viewDistanceLimitCoef = -1;
 						};
 						maxTrackableSpeed = 125;
-						angleRangeHorizontal = 180;
+						angleRangeHorizontal = 360;
 						angleRangeVertical = 90;
 						groundNoiseDistanceCoef = -1;
 						maxGroundNoiseDistance = -1;

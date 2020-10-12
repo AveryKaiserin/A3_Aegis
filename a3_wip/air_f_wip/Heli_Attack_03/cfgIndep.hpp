@@ -12,7 +12,7 @@ class I_Heli_Attack_03_F: Heli_Attack_03_base_F
 	hiddenSelectionsTextures[] =
     {
         "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_INDP_CO.paa",
-        "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_detail_INDP_CO.paa",
+        "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_INDP_CO.paa",
         "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_INDP_CO.paa"
     };
 };

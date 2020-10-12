@@ -2,15 +2,48 @@ class Turrets: Turrets
 {
 	class MainTurret: MainTurret
 	{
-		isCopilot = true;
+		turretInfoType = RscUnitInfo_AH64D_gunner;
+		commanding = -1;
+		isCopilot = false;
 		CanEject = false;
 		startEngine = false;
+		primaryGunner = true;
+        // Roration and elevation
 		minElev = -60;
 		maxElev = 15;
-		initElev = 0;
+		initElev = 5;
 		minTurn = -120;
 		maxTurn = 120;
 		initTurn = 0;
+		maxHorizontalRotSpeed = 1.8;
+		maxVerticalRotSpeed = 1.5;
+        // Optics
+		discreteDistance[] =
+        {
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            1000,
+            1200,
+            1500,
+            1800,
+            2100,
+            2500
+        };
+		discreteDistanceInitIndex = 5;
+		gunnerOpticsModel = "";
+		gunnerOpticsEffect[] =
+        {
+            TankCommanderOptics1,
+            BWTV
+        };
+		memoryPointGunnerOptics = gunnerview;
+		gunnerForceOptics = false;
 		class OpticsIn
 		{
 			class Wide
@@ -33,8 +66,8 @@ class Turrets: Turrets
                 };
 				thermalMode[] =
                 {
-                    TiWHot,
-                    TiBHot
+                    TiGWHot,
+                    TiGBHot
                 };
 				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_wide_F";
 			};
@@ -83,7 +116,9 @@ class Turrets: Turrets
 				gunnerOpticsEffect[] = {};
 			};
 		};
-		class Components
+		// Sensors and electronics
+		showAllTargets = LockLaser;
+        class Components
 		{
 			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
 			{
@@ -180,58 +215,32 @@ class Turrets: Turrets
 			};
 		};
         #include "mfdGunner.hpp"
+        // Weapons and magazines
+		weapons[] = {cannon_30mm_Heli_Attack_03};
+		magazines[] = {1200Rnd_30mm_MP_shells_Tracer_Yellow};
 		soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-5,1.0,30};
 		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-5,1.0,30};
-		outGunnerMayFire = true;
-		commanding = -1;
-		primaryGunner = true;
-		memoryPointsGetInGunner = "Pos_Gunner";
-		memoryPointsGetInGunnerDir = "Pos_Gunner_dir";
-		gunnerLeftHandAnimName = lever_copilot;
-		gunnerRightHandAnimName = stick_copilot;
-		gunnerLeftLegAnimName = "";
-		gunnerRightLegAnimName = "";
+		stabilizedInAxes = StabilizedInAxesBoth;
+		selectionFireAnim = zasleh;
 		memoryPointGun = machinegun;
 		gunBeg = "usti hlavne";
 		gunEnd = "konec hlavne";
-		memoryPointGunnerOptics = gunnerview;
-		selectionFireAnim = zasleh;
+        // Interior and animations
+		memoryPointsGetInGunner = "Pos_Gunner";
+		memoryPointsGetInGunnerDir = "Pos_Gunner_Dir";
+		gunnerLeftHandAnimName = "";
+		gunnerRightHandAnimName = "";
+		gunnerLeftLegAnimName = "";
+		gunnerRightLegAnimName = "";
 		castGunnerShadow = true;
 		viewGunnerShadow = true;
+		outGunnerMayFire = true;
 		gunnerAction = Heli_Attack_03_Gunner;
 		gunnerInAction = Heli_Attack_03_Gunner;
 		gunnerGetInAction = GetInHigh;
 		gunnerGetOutAction = GetOutHigh;
-		precisegetinout = true;
-		gunnerOpticsModel = "";
-		gunnerOpticsEffect[] =
-        {
-            TankCommanderOptics1,
-            BWTV
-        };
-		gunnerForceOptics = false;
-		turretInfoType = RscUnitInfo_AH64D_gunner;
-		discreteDistance[] =
-        {
-            100,
-            200,
-            300,
-            400,
-            500,
-            600,
-            700,
-            800,
-            1000,
-            1200,
-            1500,
-            1800,
-            2100,
-            2500
-        };
-		discreteDistanceInitIndex = 5;
-		showAllTargets = LockLaser;
-		weapons[] = {cannon_30mm_Heli_Attack_03};
-		magazines[] = {1200Rnd_30mm_MP_shells_Tracer_Yellow};
+		preciseGetInOut = true;
+        // Damage and hitpoints
 		class HitPoints
 		{
 			class HitTurret
@@ -239,7 +248,7 @@ class Turrets: Turrets
 				armor = 1;
 				material = -1;
 				name = main_turret_hit;
-				visual = gun1;
+				visual = main_trav;
 				passThrough = 0.3;
 				radius = 0.2;
 			};
@@ -248,7 +257,7 @@ class Turrets: Turrets
 				armor = 1;
 				material = -1;
 				name = main_gun_hit;
-				visual = gun2;
+				visual = main_elev;
 				passThrough = 0.3;
 				radius = 0.2;
 			};

@@ -163,7 +163,7 @@ class CfgVehicles
 		viewDriverShadowDiff = 0.05;
 		driverForceOptics = false;
 		LODDriverTurnedOut = 1201;
-		LODDriverTurnedin = 1100;
+		LODDriverTurnedin = VIEW_PILOT;
 		LODDriverOpticsIn = 1202;
 		driverOpticsModel = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 		driverLeftLegAnimName = pedal_brake;
