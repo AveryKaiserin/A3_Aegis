@@ -1,7 +1,9 @@
 /*
-- Get-in get-out animations' positions are bugged for whatever reason
-- Need new sounds (start-up / engine off sounds are fine)
+- Get-in get-out animations' are bugged for whatever reason
+- Dampers' animations / geometry is out of sync
 - Maybe switch to Kajman HUD?
+- Need a new gun sound
+- Need new textures
 */
 
 #include "\A3_Aegis\basicDefines_A3.hpp"
@@ -363,7 +365,7 @@ class CfgVehicles
 				};
 				factions[] = {Atlas_IND_I_F};
 			};
-			class AUSFOR
+			class Ausfor
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_AUSFOR0;
 				author = $STR_A3_A_AveryTheKitty;
@@ -374,30 +376,6 @@ class CfgVehicles
                     "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_AUSFOR_CO.paa"
 				};
 				factions[] = {Atlas_BLU_A_F};
-			};
-			class JSDF
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_JSDF0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_JSDF_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_JSDF_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_JSDF_CO.paa"
-				};
-				factions[] = {Atlas_BLU_J_F};
-			};
-			class RACS
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_RACS0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_RACS_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_RACS_CO.paa",
-                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_RACS_CO.paa"
-				};
-				factions[] = {Atlas_IND_R_F};
 			};
             */
         };
@@ -1032,8 +1010,6 @@ class CfgVehicles
     #include "cfgIndep.hpp"             // AAF
     /*
     #include "cfgAusfor.hpp"            // ANZAC
-    #include "cfgJSDF.hpp"              // JSDF
-    #include "cfgRACS.hpp"              // RACS
     */
 };
 class CfgNonAIVehicles
