@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="a3\data_f\default_glass_ti_ca.tga";
 };
-ambient[]={1,1,1,1};
-diffuse[]={1,1,1,1};
+ambient[]={0.5,0.5,0.5,1};
+diffuse[]={0.5,0.5,0.5,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,0};
-specular[]={1,1,1,0};
-specularPower=150;
+specular[]={0.1,0.1,0.1,0};
+specularPower=200;
 renderFlags[]={"NoZWrite"};
 PixelShaderID="Super";
 VertexShaderID="Super";
