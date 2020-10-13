@@ -10,7 +10,7 @@ class CfgFactionClasses
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_F0;
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_CA.paa";
-		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Iran_CO.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_IranArmy_CO.paa";
 	};
     // Arma 3 Apex
 	class BLU_T_F

@@ -2114,21 +2114,21 @@
 					<Turkish>Lejyonerler</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_G_F0">
-					<Original>Germany</Original>
-					<Chinese>德國</Chinese>
-					<French>Allemagne</French>
-					<Spanish>Alemania</Spanish>
-					<Italian>Germania</Italian>
-					<Polish>Niemcy</Polish>
-					<Russian>Германия</Russian>
-					<German>Deutschland</German>
-					<Czech>Německo</Czech>
-					<English>Germany</English>
-					<Portuguese>Alemanha</Portuguese>
-					<Korean>독일</Korean>
-					<Chinesesimp>德国</Chinesesimp>
-					<Japanese>ドイツ</Japanese>
-					<Turkish>Almanya</Turkish>
+					<Original>Bundeswehr</Original>
+					<Chinese>德國聯邦國防軍</Chinese>
+					<French>Bundeswehr</French>
+					<Spanish>Bundeswehr</Spanish>
+					<Italian>Bundeswehr</Italian>
+					<Polish>Bundeswehr</Polish>
+					<Russian>Бундесвер</Russian>
+					<German>Bundeswehr</German>
+					<Czech>Bundeswehr</Czech>
+					<English>Bundeswehr</English>
+					<Portuguese>Bundeswehr</Portuguese>
+					<Korean>독일군</Korean>
+					<Chinesesimp>德国联邦国防军</Chinesesimp>
+					<Japanese>ドイツ軍</Japanese>
+					<Turkish>Bundeswehr</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_A_F1">
 					<Original>ADF</Original>
