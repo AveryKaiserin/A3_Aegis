@@ -2,18 +2,18 @@ class Turrets: Turrets
 {
 	class MainTurret: MainTurret
 	{
-		turretInfoType = RscUnitInfo_AH64D_gunner;
+		turretInfoType = RscOptics_Heli_Attack_01_gunner;
 		commanding = -1;
-		isCopilot = false;
+		isCopilot = true;
 		CanEject = false;
 		startEngine = false;
 		primaryGunner = true;
         // Roration and elevation
 		minElev = -60;
 		maxElev = 15;
-		initElev = 5;
-		minTurn = -120;
-		maxTurn = 120;
+		initElev = 15;
+		minTurn = -90;
+		maxTurn = 90;
 		initTurn = 0;
 		maxHorizontalRotSpeed = 1.8;
 		maxVerticalRotSpeed = 1.5;
@@ -36,7 +36,7 @@ class Turrets: Turrets
             2500
         };
 		discreteDistanceInitIndex = 5;
-		gunnerOpticsModel = "";
+		gunnerOpticsModel = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 		gunnerOpticsEffect[] =
         {
             TankCommanderOptics1,
@@ -49,11 +49,11 @@ class Turrets: Turrets
 			class Wide
 			{
 				initAngleX = 0;
-				minAngleX = -30;
-				maxAngleX = 30;
-				initAngleY = 0;
-				minAngleY = -100;
-				maxAngleY = 100;
+				minAngleX = -60;
+				maxAngleX = 15;
+				initAngleY = 10;
+				minAngleY = -90;
+				maxAngleY = 90;
 				initFov = 0.466;
 				minFov = 0.466;
 				maxFov = 0.466;
@@ -69,7 +69,7 @@ class Turrets: Turrets
                     TiGWHot,
                     TiGBHot
                 };
-				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_wide_F";
+				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_wide_F.p3d";
 			};
 			class Medium: Wide
 			{
@@ -77,7 +77,7 @@ class Turrets: Turrets
 				minFov = 0.093;
 				maxFov = 0.093;
 				opticsDisplayName = "MFOV";
-				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_medium_F";
+				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_medium_F.p3d";
 			};
 			class Narrow: Wide
 			{
@@ -85,7 +85,7 @@ class Turrets: Turrets
 				minFov = 0.029;
 				maxFov = 0.029;
 				opticsDisplayName = "NFOV";
-				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_narrow_F";
+				gunnerOpticsModel = "\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_narrow_F.p3d";
 			};
 		};
 		class OpticsOut
@@ -214,20 +214,30 @@ class Turrets: Turrets
 				};
 			};
 		};
+        // MFD
         #include "mfdGunner.hpp"
         // Weapons and magazines
-		weapons[] = {cannon_30mm_Heli_Attack_03};
-		magazines[] = {1200Rnd_30mm_MP_shells_Tracer_Yellow};
-		soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-5,1.0,30};
-		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-5,1.0,30};
+		weapons[] =
+        {
+            autocannon_30mm_Heli_Attack_03,
+            Laserdesignator_mounted
+        };
+		magazines[] =
+        {
+            600Rnd_30mm_HE_shells_Tracer_Yellow,
+            600Rnd_30mm_APDS_shells_Tracer_Yellow,
+            Laserbatteries
+        };
+		soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-5,1,30};
+		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-5,1,30};
 		stabilizedInAxes = StabilizedInAxesBoth;
 		selectionFireAnim = zasleh;
 		memoryPointGun = machinegun;
 		gunBeg = "usti hlavne";
 		gunEnd = "konec hlavne";
         // Interior and animations
-		memoryPointsGetInGunner = "Pos_Gunner";
-		memoryPointsGetInGunnerDir = "Pos_Gunner_Dir";
+		memoryPointsGetInGunner = "pos gunner";
+		memoryPointsGetInGunnerDir = "pos gunner dir";
 		gunnerLeftHandAnimName = "";
 		gunnerRightHandAnimName = "";
 		gunnerLeftLegAnimName = "";

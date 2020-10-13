@@ -1,3 +1,9 @@
+/*
+- Get-in get-out animations' positions are bugged for whatever reason
+- Need new sounds (start-up / engine off sounds are fine)
+- Maybe switch to Kajman HUD?
+*/
+
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 class SensorTemplatePassiveRadar;
@@ -71,7 +77,7 @@ class CfgVehicles
 		textPlural = $STR_A3_nameSound_veh_air_gunship_p;
 		nameSound = veh_air_gunship_s;
 		scope = private;
-		displayName = /*$STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0*/ "AH-1 Navajo";
+		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0;
 		model = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Heli_Attack_03_F.p3d";
 		icon = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
 		picture = "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
@@ -79,6 +85,13 @@ class CfgVehicles
 		editorSubcategory = EdSubcat_Helicopters;
 		memoryPointTaskMarker = TaskMarker_1_pos;
 		accuracy = 0.5;
+		cost = 3000000;
+		threat[] =
+        {
+            0.8,    // Soft
+            1.0,    // Armor
+            0.8     // Air
+        };
         availableForSupportTypes[] = {CAS_Heli};
         class Library
         {
@@ -86,8 +99,8 @@ class CfgVehicles
         };
         // Physics and handling
         #include "rtd.hpp"
-		fuelCapacity = 500;
-		fuelConsumptionRate = 0.0555;
+		fuelCapacity = 1400;
+		fuelConsumptionRate = 0.0366;
         #include "flightModel.hpp"
         maxFordingDepth = 0.5;
 		numberPhysicalWheels = 3;
@@ -98,6 +111,8 @@ class CfgVehicles
 		driverAction = Heli_Attack_03_pilot;
 		driverInAction = Heli_Attack_03_pilot;
 		driverCanEject = false;
+		memoryPointsGetInDriver = "pos driver";
+		memoryPointsGetInDriverDir = "pos driver dir";
         driverLeftHandAnimName = lever_pilot;
         driverRightHandAnimName = stick_pilot;
         driverLeftLegAnimName = "";
@@ -209,29 +224,59 @@ class CfgVehicles
 				radius = 0.4;
 				explosionShielding = 4;
 			};
-			class HitGlass2: HitGlass2
+			class HitGlass2: HitGlass1
 			{
+				name = glass2;
+				visual = glass2;
 				armor = 3.5;
 				radius = 0.4;
 				explosionShielding = 4;
+				minimalHit = 0.05;
 			};
-			class HitGlass3: HitGlass3
+			class HitGlass3: HitGlass1
 			{
+				name = glass3;
+				visual = glass3;
 				armor = 3.5;
 				radius = 0.4;
 				explosionShielding = 4;
+				minimalHit = 0.05;
 			};
-			class HitGlass4: HitGlass4
+			class HitGlass4: HitGlass1
 			{
+				name = glass4;
+				visual = glass4;
 				armor = 3.5;
 				radius = 0.4;
 				explosionShielding = 4;
+				minimalHit = 0.05;
 			};
-			class HitGlass5: HitGlass5
+			class HitGlass5: HitGlass1
 			{
+				name = glass5;
+				visual = glass5;
 				armor = 3.5;
 				radius = 0.4;
 				explosionShielding = 4;
+				minimalHit = 0.05;
+			};
+			class HitGlass6: HitGlass1
+			{
+				name = glass6;
+				visual = glass6;
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+				minimalHit = 0.05;
+			};
+			class HitGlass7: HitGlass1
+			{
+				name = glass7;
+				visual = glass7;
+				armor = 3.5;
+				radius = 0.4;
+				explosionShielding = 4;
+				minimalHit = 0.05;
 			};
 			class HitWinch: HitWinch
 			{
@@ -306,6 +351,18 @@ class CfgVehicles
 				factions[] = {IND_F};
 			};
             /*
+			class Desert
+			{
+				displayName = $STR_A3_TEXTURESOURCES_DESERT0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_desert_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_desert_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_desert_CO.paa"
+				};
+				factions[] = {Atlas_IND_I_F};
+			};
 			class AUSFOR
 			{
 				displayName = $STR_A3_A_TEXTURESOURCES_AUSFOR0;
@@ -363,13 +420,13 @@ class CfgVehicles
 			{
 				position = exhaust1;
 				direction = exhaust1_dir;
-				effect = ExhaustsEffectHeliComHP;
+				effect = ExhaustsEffectHeliCom/*HP*/;
 			};
 			class Exhaust2
 			{
 				position = exhaust2;
 				direction = exhaust2_dir;
-				effect = ExhaustsEffectHeliComHP;
+				effect = ExhaustsEffectHeliCom/*HP*/;
 			};
 		};
         // Lights
@@ -579,10 +636,18 @@ class CfgVehicles
 			{
 				hitpoint = HitGlass5;
 			};
+			class HitGlass6: HitGlass1
+			{
+				hitpoint = HitGlass6;
+			};
+			class HitGlass7: HitGlass1
+			{
+				hitpoint = HitGlass7;
+			};
 			class Muzzle_flash
 			{
 				source = ammorandom;
-				weapon = cannon_30mm_Heli_Attack_03;
+				weapon = autocannon_30mm_Heli_Attack_03;
 			};
         };
         // Sensors and electronics
@@ -590,8 +655,8 @@ class CfgVehicles
 		incomingMissileDetectionSystem = CM_Radar_Missiles + CM_All_Missiles;
 		laserScanner = true;
 		showAllTargets = LockLaser;
-		radarTargetSize = 0.7;
-		irTargetSize = 0.8;
+		radarTargetSize = 1.1;
+		irTargetSize = 1.2;
 		class Components: Components
 		{
 			class SensorsManagerComponent
@@ -616,8 +681,9 @@ class CfgVehicles
 						};
 						maxTrackableSpeed = 70;
 						animDirection = mainGun;
-						angleRangeHorizontal = 36;
-						angleRangeVertical = 36;
+						angleRangeHorizontal = 34;
+						angleRangeVertical = 34;
+                        aimDown = 27;
 					};
 					class VisualSensorComponent: SensorTemplateVisual
 					{
@@ -637,22 +703,23 @@ class CfgVehicles
 						};
 						maxTrackableSpeed = 70;
 						animDirection = mainGun;
-						angleRangeHorizontal = 36;
-						angleRangeVertical = 36;
+						angleRangeHorizontal = 34;
+						angleRangeVertical = 34;
+                        aimDown = 27;
 					};
 					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
 					{
 						class AirTarget
 						{
-							minRange = 5000;
-							maxRange = 5000;
+							minRange = 7000;
+							maxRange = 7000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
 						class GroundTarget
 						{
-							minRange = 4000;
-							maxRange = 4000;
+							minRange = 6000;
+							maxRange = 6000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
@@ -663,7 +730,6 @@ class CfgVehicles
 						maxGroundNoiseDistance = -1;
 						minSpeedThreshold = 0;
 						maxSpeedThreshold = 0;
-						aimDown = 30;
 					};
 					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar{};
 					class LaserSensorComponent: SensorTemplateLaser{};
@@ -770,9 +836,9 @@ class CfgVehicles
 				{
 					class PylonLeft1
 					{
-						attachment = "";
+						attachment = PylonMissile_1Rnd_AAA_missiles;
 						priority = 5;
-						hardpoints[] = {};
+						hardpoints[] = {B_ASRAAM};
 						turret[] = {0};
 						UIposition[] =
                         {
@@ -782,9 +848,17 @@ class CfgVehicles
 					};
 					class PylonLeft2: PylonLeft1
 					{
-						attachment = "";
+						attachment = PylonRack_12Rnd_missiles;
 						priority = 4;
-						hardpoints[] = {};
+						hardpoints[] =
+                        {
+                            DAR,
+                            DAGR,
+                            B_SHIEKER,
+                            UNI_SCALPEL,
+                            20MM_TWIN_CANNON,
+                            B_ASRRAM_EJECTOR
+                        };
 						UIposition[] =
                         {
                             0.08,   // X
@@ -793,9 +867,17 @@ class CfgVehicles
 					};
 					class PylonLeft3: PylonLeft1
 					{
-						attachment = "";
+						attachment = PylonRack_4Rnd_LG_scalpel;
 						priority = 3;
-						hardpoints[] = {};
+						hardpoints[] =
+                        {
+                            DAR,
+                            DAGR,
+                            B_SHIEKER,
+                            UNI_SCALPEL,
+                            20MM_TWIN_CANNON,
+                            B_ASRRAM_EJECTOR
+                        };
 						UIposition[] =
                         {
                             0.1,    // X
@@ -840,17 +922,41 @@ class CfgVehicles
 					class Default
 					{
 						displayName = $STR_vehicle_default;
-						attachment[] = {};
+						attachment[] =
+                        {
+                            PylonMissile_1Rnd_AAA_missiles,
+                            PylonRack_12Rnd_missiles,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonRack_12Rnd_missiles,
+                            PylonMissile_1Rnd_AAA_missiles
+                        };
 					};
 					class AT
 					{
 						displayName = $STR_A3_cfgmagazines_titan_at_dns;
-						attachment[] = {};
+						attachment[] =
+                        {
+                            PylonMissile_1Rnd_AAA_missiles,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonRack_4Rnd_LG_scalpel,
+                            PylonMissile_1Rnd_AAA_missiles
+                        };
 					};
 					class CAS
 					{
 						displayName = $STR_A3_CAS_PRESET_DISPLAYNAME;
-						attachment[] = {};
+						attachment[] =
+                        {
+                            PylonMissile_1Rnd_AAA_missiles,
+                            PylonRack_12Rnd_missiles,
+                            PylonRack_12Rnd_PG_missiles,
+                            PylonRack_12Rnd_PG_missiles,
+                            PylonRack_12Rnd_missiles,
+                            PylonMissile_1Rnd_AAA_missiles
+                        };
 					};
 				};
 			};

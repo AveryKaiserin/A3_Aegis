@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <GenHeli600 version="1.0">
 
-	<Mass mass="4200"/>
+	<Mass mass="8000"/>
 	<MomentsOfInertia Ixx="36661" Iyy="8444" Izz="52583" Iyz="3109"/>  
 	<CenterOfGravity x="0.0" y="0.3" z="0" />
 	

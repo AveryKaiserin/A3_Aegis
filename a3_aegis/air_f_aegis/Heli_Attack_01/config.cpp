@@ -19,6 +19,28 @@ class CfgVehicles
 	{
 		reportRemoteTargets = true;
 		reportOwnPosition = true;
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
+					{
+						class AirTarget
+						{
+							minRange = 6000;
+							maxRange = 6000;
+						};
+						class GroundTarget
+						{
+							minRange = 5000;
+							maxRange = 5000;
+						};
+                    };
+                };
+            };
+        };
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
