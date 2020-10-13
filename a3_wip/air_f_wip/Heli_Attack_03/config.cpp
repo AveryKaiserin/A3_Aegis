@@ -1,11 +1,9 @@
 /*
 - Get-in get-out animations' are bugged for whatever reason
-- Dampers' animations / geometry is out of sync
 - Maybe switch to Kajman HUD?
 - Need a new gun sound
 - Need new textures
 */
-
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 class SensorTemplatePassiveRadar;
