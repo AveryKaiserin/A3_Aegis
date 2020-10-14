@@ -338,6 +338,25 @@ class CfgVehicles
                     BLU_A_wdl_F
                 };
 			};
+            /*
+			class Grey
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREY0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_body_grey_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_details_grey_CO.paa",
+                    "\A3_Wip\Air_F_Wip\Heli_Attack_03\Data\Heli_Attack_03_adds_grey_CO.paa"
+				};
+				factions[] =
+                {
+                    BLU_A_F,
+                    BLU_A_tna_F,
+                    BLU_A_wdl_F
+                };
+			};
+            */
 			class Indep
 			{
 				displayName = $STR_A3_TEXTURESOURCES_INDEP0;

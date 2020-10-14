@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="a3\data_f\default_glass_ti_ca.tga";
 };
-ambient[]={0.5,0.5,0.5,1};
-diffuse[]={0.5,0.5,0.5,1};
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,0};
 specular[]={0.1,0.1,0.1,0};
-specularPower=200;
+specularPower=100;
 renderFlags[]={"NoZWrite"};
 PixelShaderID="Super";
 VertexShaderID="Super";
@@ -73,7 +73,7 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,64,64,1)fresnelGlass(1.6)";
+	texture="#(ai,64,64,1)fresnel(5.3,1.8)";
 	uvSource="tex";
 	class uvTransform
 	{
