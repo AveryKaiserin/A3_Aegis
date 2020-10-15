@@ -4293,23 +4293,6 @@
 					<Japanese>戦闘服[AAF]（Tシャツ）</Japanese>
 					<Turkish>Askeri Savaş Kıyafeti [AAF] (Tişört)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_I_OfficerUniform0">
-					<Original>Officer Fatigues [AAF]</Original>
-					<Chinese>軍官戰鬥服（AAF）</Chinese>
-					<French>Treillis d'officier [AAF]</French>
-					<Spanish>Traje de oficial [AAF]</Spanish>
-					<Italian>Uniforme da ufficiale [AAF]</Italian>
-					<Polish>Mundur oficerski [AAF]</Polish>
-					<Russian>Офицерская форма [AAF]</Russian>
-					<German>Offizier-Militäranzug [AAF]</German>
-					<Czech>Důstojnická uniforma [AAF]</Czech>
-					<English>Officer Fatigues [AAF]</English>
-					<Portuguese>Uniforme de oficial [AAF]</Portuguese>
-					<Korean>장교 전투복[AAF]</Korean>
-					<Chinesesimp>军官服 [AAF]</Chinesesimp>
-					<Japanese>士官服[AAF]</Japanese>
-					<Turkish>Subay Kıyafeti [AAF]</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_NikosBody0">
 					<Original>Profiteer Suit (Nikos)</Original>
 					<Chinese>投機者的衣服（Nikos）</Chinese>
@@ -4462,23 +4445,6 @@
 					<Chinesesimp>战斗迷彩服（林地，卷起）</Chinesesimp>
 					<Japanese>戦闘服（森林、袖まくり）</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Ağaçlık, Kolları Kıvrık)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0">
-					<Original>Officer Fatigues [LDF]</Original>
-					<Chinese>軍官戰鬥服（LDF）</Chinese>
-					<French>Treillis d'officier [LDF]</French>
-					<Spanish>Traje de oficial [LDF]</Spanish>
-					<Italian>Uniforme da ufficiale [LDF]</Italian>
-					<Polish>Mundur oficerski [LDF]</Polish>
-					<Russian>Офицерская форма [LDF]</Russian>
-					<German>Offizier-Militäranzug [LDF]</German>
-					<Czech>Důstojnická uniforma [LDF]</Czech>
-					<English>Officer Fatigues [LDF]</English>
-					<Portuguese>Uniforme de oficial [LDF]</Portuguese>
-					<Korean>장교 전투복[LDF]</Korean>
-					<Chinesesimp>军官服 [LDF]</Chinesesimp>
-					<Japanese>士官服[LDF]</Japanese>
-					<Turkish>Subay Kıyafeti [LDF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_R_Gorka_01_black_F0">
 					<Original>Granit-S Suit</Original>

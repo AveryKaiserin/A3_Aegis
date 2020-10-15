@@ -1,8 +1,3 @@
-// Arma 3 Enoch
-class U_I_E_Uniform_01_officer_F: Uniform_Base
-{
-	displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
-};
 // Arma 3 Aegis
 class U_I_E_Uniform_01_pilot_F: Uniform_Base
 {

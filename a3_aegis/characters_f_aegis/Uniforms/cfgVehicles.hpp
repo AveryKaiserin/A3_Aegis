@@ -65,10 +65,6 @@ class CfgVehicles
 		scope = protected;
 		scopeCurator = private;
 	};
-	class Item_U_I_OfficerUniform: Item_Base_F
-	{
-		displayName = $STR_A3_A_CfgWeapons_U_I_OfficerUniform0;
-	};
 	class Item_U_NikosBody: Item_Base_F
 	{
 		scope = public;
@@ -123,10 +119,6 @@ class CfgVehicles
 	class Item_U_B_CombatUniform_vest_mcam_wdl_f: Item_Base_F
 	{
     	displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_vest_mcam_wdl_f0;
-	};
-	class Item_U_I_E_Uniform_01_officer_F: Item_Base_F
-	{
-		displayName = $STR_A3_A_CfgWeapons_U_I_E_Uniform_01_officer_F0;
 	};
 	// Arma 3 Aegis
     // US
