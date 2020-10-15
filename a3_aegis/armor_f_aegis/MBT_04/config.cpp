@@ -93,9 +93,9 @@ class CfgVehicles
 										componentType = SensorsDisplayComponent;
 										range[] =
                                         {
-                                            4000,
-                                            2000,
                                             1000,
+                                            2000,
+                                            4000,
                                             8000
                                         };
 										resource = RscCustomInfoSensors;
@@ -112,9 +112,9 @@ class CfgVehicles
 										componentType = SensorsDisplayComponent;
 										range[] =
                                         {
-                                            4000,
-                                            2000,
                                             1000,
+                                            2000,
+                                            4000,
                                             8000
                                         };
 										resource = RscCustomInfoSensors;
@@ -143,9 +143,9 @@ class CfgVehicles
 								componentType = SensorsDisplayComponent;
 								range[] =
                                 {
-                                    4000,
-                                    2000,
                                     1000,
+                                    2000,
+                                    4000,
                                     8000
                                 };
 								resource = RscCustomInfoSensors;
@@ -162,9 +162,9 @@ class CfgVehicles
 								componentType = SensorsDisplayComponent;
 								range[] =
                                 {
-                                    4000,
-                                    2000,
                                     1000,
+                                    2000,
+                                    4000,
                                     8000
                                 };
 								resource = RscCustomInfoSensors;
@@ -226,6 +226,86 @@ class CfgVehicles
 						{
 							mag_2(60Rnd_30mm_MP_shells_Tracer_Green),
 							SmokeLauncherMag
+						};
+                        class Components
+						{
+							class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+							{
+								class Components: components
+								{
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            1000,
+                                            2000,
+                                            4000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+							class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+							{
+								defaultDisplay = SensorDisplay;
+								class Components: components
+								{
+									class SensorDisplay
+									{
+										componentType = SensorsDisplayComponent;
+										range[] =
+                                        {
+                                            1000,
+                                            2000,
+                                            4000,
+                                            8000
+                                        };
+										resource = RscCustomInfoSensors;
+									};
+								};
+							};
+                        };
+					};
+				};
+				class Components
+				{
+					class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+					{
+						class Components: components
+						{
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
+						};
+					};
+					class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+					{
+						defaultDisplay = SensorDisplay;
+						class Components: components
+						{
+							class SensorDisplay
+							{
+								componentType = SensorsDisplayComponent;
+								range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+								resource = RscCustomInfoSensors;
+							};
 						};
 					};
 				};

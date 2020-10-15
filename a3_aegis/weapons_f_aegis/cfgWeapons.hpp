@@ -1264,6 +1264,7 @@ class CfgWeapons
 	class arifle_MX_SW_khk_F;
 	class arifle_MXC_khk_F;
 	class arifle_MXM_khk_F;
+	class hgun_P07_blk_F;
 	class muzzle_snds_H_khk_F: muzzle_snds_H
 	{
 		model = "\A3\Weapons_F\Acc\acca_snds_lmg_khk_F.p3d";
@@ -1957,14 +1958,6 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\Zafir\Data\LMG_Zafir_ghex_F_2_CO.paa"
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\Zafir\Data\UI\icon_LMG_Zafir_ghex_F_X_CA.paa";
-	};
-	class hgun_P07_blk_F: hgun_P07_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = hgun_P07_blk_F;
-		displayName = $STR_A3_A_CfgWeapons_hgun_P07_blk_F0;
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Pistols\P07\Data\hgun_P07_blk_F.paa"};
-		picture = "\A3_Aegis\Weapons_F_Aegis\Pistols\P07\Data\UI\icon_hgun_P07_blk_F_X_CA.paa";
 	};
 	class hgun_Pistol_heavy_01_black_F: hgun_Pistol_heavy_01_F
 	{

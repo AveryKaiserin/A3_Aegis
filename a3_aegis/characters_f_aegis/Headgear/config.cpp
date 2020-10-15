@@ -1882,13 +1882,6 @@ class CfgWeapons
 			mass = 6;
 		};
 	};
-	class H_HelmetB_TI_alt_F: H_HelmetB_TI_tna_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_CfgWeapons_H_HelmetB_TI_tna_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_TI_alt_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_TI_alt_F_CO.paa"};
-	};
 	class H_HelmetO_ViperSP_oicamo_F: H_HelmetO_ViperSP_hex_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

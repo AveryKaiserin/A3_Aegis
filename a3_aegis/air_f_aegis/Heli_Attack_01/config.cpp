@@ -1,8 +1,25 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
 class CfgVehicles
 {
-	// Arma 3
+    // Arma 3
 	class Air;
 	class Helicopter: Air
 	{
@@ -14,6 +31,8 @@ class CfgVehicles
 		{
 			class MainTurret;
 		};
+		class AnimationSources;
+		class Components;
 	};
 	class Heli_Attack_01_base_F: Helicopter_Base_F
 	{

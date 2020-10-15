@@ -3985,23 +3985,6 @@
 					<Chinesesimp>Avenger 头盔（黒）</Chinesesimp>
 					<Turkish>Avenger Miğferi (Siyah)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetAggressor_sand_F0">
-					<Original>Avenger Helmet (Sand)</Original>
-					<Chinese>復仇者頭盔（沙色）</Chinese>
-					<French>Casque de vengeur (Sable)</French>
-					<Spanish>Casco Avenger (arena)</Spanish>
-					<Italian>Elmetto Vendicatore (sabbia)</Italian>
-					<Polish>Hełm Avenger (piaskowy)</Polish>
-					<Russian>Шлем Avenger (песочный)</Russian>
-					<German>Avenger-Helm (sandfarben)</German>
-					<Czech>Přilba Avenger (písek)</Czech>
-					<English>Avenger Helmet (Sand)</English>
-					<Portuguese>Capacete Avenger (Areia)</Portuguese>
-					<Korean>어벤저 헬멧 (모래)</Korean>
-					<Japanese>アベンジャーヘルメット（沙色）</Japanese>
-					<Chinesesimp>Avenger 头盔（砂）</Chinesesimp>
-					<Turkish>Avenger Miğferi (Kum Rengi)</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_mgrn_hs0">
 					<Original>Booniehat (Green, Headset)</Original>
 					<Chinese>登山帽（綠，耳機）</Chinese>
@@ -4188,6 +4171,40 @@
 					<Chinesesimp>直升机飞行员头盔 [俄罗斯]</Chinesesimp>
 					<Japanese>ヘリパイロットヘルメット[ロシア]</Japanese>
 					<Turkish>Helikopter Pilotu Kaskı [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ocamo0">
+					<Original>Modular Helmet (Hex)</Original>
+					<Chinese>模組化通訊頭盔（六邊形）</Chinese>
+					<French>Casque modulaire (hex)</French>
+					<Spanish>Casco modular (Hex)</Spanish>
+					<Italian>Elmetto modulare (esag.)</Italian>
+					<Polish>Hełm modułowy (heks)</Polish>
+					<Russian>Модульный шлем (гекс)</Russian>
+					<German>Modularer Helm (Hex-Camouflage)</German>
+					<Czech>Modulární přilba (hex)</Czech>
+					<English>Modular Helmet (Hex)</English>
+					<Portuguese>Capacete modular (hex)</Portuguese>
+					<Korean>모듈형 헬멧(헥스)</Korean>
+					<Chinesesimp>标准头盔（六角）</Chinesesimp>
+					<Japanese>モジュラーヘルメット（六角形）</Japanese>
+					<Turkish>Modüler Miğfer (Hex)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_O_Helmet_canvas_oucamo0">
+					<Original>Modular Helmet (Urban)</Original>
+					<Chinese>模組化通訊頭盔（城鎮）</Chinese>
+					<French>Casque modulaire (urbain)</French>
+					<Spanish>Casco modular (urbano)</Spanish>
+					<Italian>Elmetto modulare (urbano)</Italian>
+					<Polish>Hełm modułowy (Urban)</Polish>
+					<Russian>Модульный шлем (городской)</Russian>
+					<German>Modularer Helm (Urban)</German>
+					<Czech>Modulární přilba (urban)</Czech>
+					<English>Modular Helmet (Urban)</English>
+					<Portuguese>Capacete modular (Urbano)</Portuguese>
+					<Korean>모듈형 헬멧(도심)</Korean>
+					<Chinesesimp>标准头盔（都市）</Chinesesimp>
+					<Japanese>モジュラーヘルメット（市街）</Japanese>
+					<Turkish>Modüler Miğfer (Şehir)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -12267,6 +12284,57 @@
 				<Japanese>454thガードモーターライフル連隊</Japanese>
 				<Turkish>454. Muhafızlar Motorlu Tüfek Alayı</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_b_antiarmor">
+				<Original>Anti-Armor</Original>
+				<Chinese>反裝甲</Chinese>
+				<French>Anti-blindés</French>
+				<Spanish>Antiblindados</Spanish>
+				<Italian>Anticorazzato</Italian>
+				<Polish>Przeciwpancerny</Polish>
+				<Russian>Противотанковое</Russian>
+				<German>Panzerabwehr</German>
+				<Czech>Protitanková</Czech>
+				<English>Anti-Armor</English>
+				<Portuguese>Antiblindagem</Portuguese>
+				<Korean>대전차</Korean>
+				<Chinesesimp>反装甲</Chinesesimp>
+				<Japanese>対装甲</Japanese>
+				<Turkish>Tanksavar</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_o_antiarmor">
+				<Original>IAF</Original>
+				<Chinese>IAF</Chinese>
+				<French>IAF</French>
+				<Spanish>IAF</Spanish>
+				<Italian>IAF</Italian>
+				<Polish>IAF</Polish>
+				<Russian>IAF</Russian>
+				<German>IAF</German>
+				<Czech>IAF</Czech>
+				<English>IAF</English>
+				<Portuguese>IAF</Portuguese>
+				<Korean>IAF</Korean>
+				<Chinesesimp>IAF</Chinesesimp>
+				<Japanese>IAF</Japanese>
+				<Turkish>IAF</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMarkers_n_antiarmor">
+				<Original>IAF</Original>
+				<Chinese>IAF</Chinese>
+				<French>IAF</French>
+				<Spanish>IAF</Spanish>
+				<Italian>IAF</Italian>
+				<Polish>IAF</Polish>
+				<Russian>IAF</Russian>
+				<German>IAF</German>
+				<Czech>IAF</Czech>
+				<English>IAF</English>
+				<Portuguese>IAF</Portuguese>
+				<Korean>IAF</Korean>
+				<Chinesesimp>IAF</Chinesesimp>
+				<Japanese>IAF</Japanese>
+				<Turkish>IAF</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_Iran">
 				<Original>Iran</Original>
 				<Chinese>伊朗</Chinese>
@@ -14171,23 +14239,6 @@
 					<Chinesesimp>4-five .45 ACP（黑色）</Chinesesimp>
 					<Japanese>4-ファイブ .45 ACP（黒）</Japanese>
 					<Turkish>4-five .45 ACP (Siyah)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_hgun_P07_blk_F0">
-					<Original>P07 9 mm (Black)</Original>
-					<Chinese>P07 9 mm（黑）</Chinese>
-					<French>P07 9 mm (noir)</French>
-					<Spanish>P07 9 mm (negra)</Spanish>
-					<Italian>P07 9 mm (nero)</Italian>
-					<Polish>P07 9 mm (czarny)</Polish>
-					<Russian>P07 9 мм (черный)</Russian>
-					<German>P07 9 mm (schwarz)</German>
-					<Czech>P07 9 mm (černý)</Czech>
-					<English>P07 9 mm (Black)</English>
-					<Portuguese>P07 9 mm (preta)</Portuguese>
-					<Korean>P07 9mm (흑색)</Korean>
-					<Chinesesimp>P07 9 毫米（黑色）</Chinesesimp>
-					<Japanese>P07 9 mm（黒）</Japanese>
-					<Turkish>P07 9 mm (Siyah)</Turkish>
 				</Key>
 				<Container name="DescriptionShort">
 					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F1">

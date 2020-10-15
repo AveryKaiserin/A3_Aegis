@@ -1,12 +1,33 @@
 class CfgMarkers
 {
 	// Arma 3
+	class b_unknown;
+	class o_unknown;
+	class n_unknown;
 	class flag_NATO;
 	class flag_Catalonia: flag_NATO
 	{
 		scope = public;
 	};
 	// Arma 3 Aegis
+	class b_antiarmor: b_unknown
+	{
+		name = $STR_A3_A_CfgMarkers_b_antiarmor;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\b_antiarmor.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\b_antiarmor.paa";
+	};
+	class o_antiarmor: o_unknown
+	{
+		name = $STR_A3_A_CfgMarkers_o_antiarmor;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\o_antiarmor.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\o_antiarmor.paa";
+	};
+	class n_antiarmor: n_unknown
+	{
+		name = $STR_A3_A_CfgMarkers_n_antiarmor;
+		icon = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\n_antiarmor.paa";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgMarkers\n_antiarmor.paa";
+	};
 	class flag_Iran: flag_NATO
 	{
 		name = $STR_A3_A_CfgMarkers_flag_Iran;

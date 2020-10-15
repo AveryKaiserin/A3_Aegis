@@ -28,7 +28,19 @@ class CfgVehicles
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret{};
-			class CommanderOptics: CommanderOptics{};
+			class CommanderOptics: CommanderOptics
+            {
+				weapons[] =
+                {
+                    SmokeLauncher,
+                    Laserdesignator_mounted
+                };
+				magazines[] =
+                {
+                    SmokeLauncherMag,
+                    Laserbatteries
+                };
+            };
 		};
 		class TransportMagazines
 		{
@@ -188,7 +200,11 @@ class CfgVehicles
 			{
 				class Turrets: Turrets
 				{
-					class CommanderOptics: CommanderOptics{};
+					class CommanderOptics: CommanderOptics
+                    {
+                        weapons[] = {SmokeLauncher};
+                        magazines[] = {SmokeLauncherMag};
+                    };
 				};
 				magazines[] =
 				{

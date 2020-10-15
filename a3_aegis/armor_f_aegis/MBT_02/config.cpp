@@ -142,9 +142,9 @@ class CfgVehicles
 										componentType = SensorsDisplayComponent;
 										range[] =
                                         {
-                                            4000,
-                                            2000,
                                             1000,
+                                            2000,
+                                            4000,
                                             8000
                                         };
 										resource = RscCustomInfoSensors;
@@ -161,9 +161,9 @@ class CfgVehicles
 										componentType = SensorsDisplayComponent;
 										range[] =
                                         {
-                                            4000,
-                                            2000,
                                             1000,
+                                            2000,
+                                            4000,
                                             8000
                                         };
 										resource = RscCustomInfoSensors;
@@ -197,9 +197,9 @@ class CfgVehicles
 								componentType = SensorsDisplayComponent;
 								range[] =
                                 {
-                                    4000,
-                                    2000,
                                     1000,
+                                    2000,
+                                    4000,
                                     8000
                                 };
 								resource = RscCustomInfoSensors;
@@ -216,9 +216,9 @@ class CfgVehicles
 								componentType = SensorsDisplayComponent;
 								range[] =
                                 {
-                                    4000,
-                                    2000,
                                     1000,
+                                    2000,
+                                    4000,
                                     8000
                                 };
 								resource = RscCustomInfoSensors;

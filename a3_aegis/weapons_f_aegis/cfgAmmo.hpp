@@ -443,6 +443,7 @@ class CfgAmmo
 			};
 		};
 	};
+    // This needs to be AT
 	class ammo_Bomb_AGM_154: ammo_Bomb_GlideBase
 	{
 		cameraViewAvailable = true;

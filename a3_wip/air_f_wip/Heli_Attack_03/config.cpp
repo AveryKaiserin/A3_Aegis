@@ -60,7 +60,7 @@ class CfgVehicles
 		class ViewPilot;
 		class Components;
 	};
-    // Arma 3 Atlas
+    // Arma 3 Aegis
 	class Heli_Attack_03_base_F: Helicopter_Base_F
     {
         author = $STR_A3_A_AveryTheKitty;
@@ -107,7 +107,7 @@ class CfgVehicles
         // Crew and cargo
 		crewVulnerable = false;
 		castDriverShadow = true;
-		viewCargoShadow = true;
+		viewCargoShadow = /*true*/ false;
 		driverAction = Heli_Attack_03_pilot;
 		driverInAction = Heli_Attack_03_pilot;
 		driverCanEject = false;
