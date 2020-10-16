@@ -1264,7 +1264,6 @@ class CfgWeapons
 	class arifle_MX_SW_khk_F;
 	class arifle_MXC_khk_F;
 	class arifle_MXM_khk_F;
-	class hgun_P07_blk_F;
 	class muzzle_snds_H_khk_F: muzzle_snds_H
 	{
 		model = "\A3\Weapons_F\Acc\acca_snds_lmg_khk_F.p3d";

@@ -511,19 +511,6 @@ class MMG_02_khaki_RCO_LP_F: MMG_02_khaki_F
 		};
 	};
 };
-// P07 9 mm (Black) + Sound Suppressor (9 mm)
-class hgun_P07_blk_snds_F: hgun_P07_blk_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class LinkedItems
-	{
-		class LinkedItemsMuzzle
-		{
-			slot = MuzzleSlot;
-			item = muzzle_snds_L;
-		};
-	};
-};
 // 4-five .45 ACP (Black) + MRD (Black)
 class hgun_Pistol_heavy_01_black_MRD_F: hgun_Pistol_heavy_01_black_F
 {

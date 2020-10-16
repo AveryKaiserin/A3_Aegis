@@ -21,7 +21,7 @@ class Atlas_B_G_supplyCrate_F: B_supplyCrate_F
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
 		mag_xx(200Rnd_65x39_cased_Box_Red,3);
 		mag_xx(20Rnd_762x51_Mag,6);
-		mag_xx(17Rnd_9x21_Mag,2);
+		mag_xx(16Rnd_9x21_Mag,2);
 		mag_xx(chemlight_green,2);
 		mag_xx(B_IR_Grenade,2);
 		mag_xx(Laserbatteries,1);

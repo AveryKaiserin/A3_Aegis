@@ -28,7 +28,7 @@ class Atlas_B_G_MRAP_03_F: MRAP_03_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(17Rnd_9x21_Mag,12);
+		mag_xx(16Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons
@@ -74,7 +74,7 @@ class Atlas_B_G_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(17Rnd_9x21_Mag,12);
+		mag_xx(16Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons
@@ -112,7 +112,7 @@ class Atlas_B_G_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
 		mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-		mag_xx(17Rnd_9x21_Mag,12);
+		mag_xx(16Rnd_9x21_Mag,12);
 		mag_xx(MRAWS_HEAT_F,2);
 	};
 	class TransportWeapons

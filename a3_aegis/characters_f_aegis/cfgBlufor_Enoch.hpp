@@ -1834,14 +1834,14 @@ class B_W_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 	weapons[] =
 	{
 		srifle_EBR_blk_DMS_LP_BI_S_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_EBR_blk_DMS_LP_BI_S_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
@@ -1932,13 +1932,13 @@ class B_W_Recon_AR_F: B_recon_AR_F
 	weapons[] =
 	{
 		arifle_SPAR_02_blk_RCO_Pointer_Snds_Bipod_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_02_blk_RCO_Pointer_Snds_Bipod_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -1984,13 +1984,13 @@ class B_W_Recon_Exp_F: B_recon_exp_F
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
     magazines[] =
@@ -2043,13 +2043,13 @@ class B_W_Recon_GL_F: B_recon_GL_F
 	weapons[] =
 	{
 		arifle_SPAR_01_GL_blk_RCO_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_GL_blk_RCO_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
     magazines[] =
@@ -2105,14 +2105,14 @@ class B_W_Recon_JTAC_F: B_recon_JTAC_F
     weapons[] =
 	{
 		arifle_SPAR_01_GL_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_GL_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
 	};
@@ -2176,13 +2176,13 @@ class B_W_Recon_MG_F: B_recon_MG_F
 	weapons[] =
 	{
 		LMG_Mk200_black_RCO_LP_S_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_Mk200_black_RCO_LP_S_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
@@ -2211,14 +2211,14 @@ class B_W_Recon_M_F: B_recon_M_F
 	weapons[] =
 	{
 		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
@@ -2255,13 +2255,13 @@ class B_W_Recon_Medic_F: B_recon_medic_F
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
     magazines[] =
@@ -2314,14 +2314,14 @@ class B_W_Recon_F: B_recon_F
     weapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -2375,14 +2375,14 @@ class B_W_Recon_LAT_F: B_recon_LAT_F
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
 		launch_NLAW_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
 		launch_NLAW_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
@@ -2417,13 +2417,13 @@ class B_W_Recon_CQ_F: B_recon_CQ_F
     weapons[] =
 	{
 		sgun_KSG_ACO_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		sgun_KSG_ACO_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -2476,14 +2476,14 @@ class B_W_Recon_TL_F: B_recon_TL_F
     weapons[] =
 	{
 		arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -2533,14 +2533,14 @@ class B_W_Sniper_F: B_sniper_F
 	weapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -2580,14 +2580,14 @@ class B_W_Spotter_F: B_spotter_F
     weapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
     respawnWeapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
@@ -2648,14 +2648,14 @@ class B_W_ghillie_wdl_F: B_ghillie_base_F
 	weapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		hgun_P07_blk_snds_F,
+		hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -2726,14 +2726,14 @@ class B_W_ghillie_spotter_wdl_F: B_W_ghillie_wdl_F
     weapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
     respawnWeapons[] =
     {
         arifle_SPAR_01_blk_RCO_Pointer_Snds_F,
-        hgun_P07_blk_snds_F,
+        hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
