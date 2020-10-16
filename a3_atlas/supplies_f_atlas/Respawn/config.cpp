@@ -43,6 +43,7 @@ class CfgVehicles
 		{
 			init = "['init', _this] spawn BIS_fnc_respawnBackpack";
 			deleted = "['deleted', _this] call BIS_fnc_respawnBackpack";
+			disassembled = "['disassembled', _this] call BIS_fnc_respawnBackpack";
 		};
 		class assembleInfo
 		{

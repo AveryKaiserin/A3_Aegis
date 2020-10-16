@@ -774,8 +774,8 @@ class CfgVehicles
 			pilotOpticsShowCursor = true;
 			controllable = true;
 		};
-		class RenderTargets{};
-		#include "MFD.hpp"
+		#include "pip.hpp"
+		#include "mfd.hpp"
 		class AnimationSources
 		{
 			class canopy_hide

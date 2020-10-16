@@ -13,7 +13,7 @@ aileronSensitivity = 1.3;
 elevatorSensitivity = 1.5;
 // CONTROLS - sensitivity/speed in which control surface reaches its maximum extent, IE sensitivity for the player
 elevatorControlsSensitivityCoef = 4.2; // default value is 4
-aileronControlsSensitivityCoef = 5.4; // default value is 4
+aileronControlsSensitivityCoef = 5.5; // default value is 4
 rudderControlsSensitivityCoef = 4.0; // default value is 4
 envelope[] =
 {
