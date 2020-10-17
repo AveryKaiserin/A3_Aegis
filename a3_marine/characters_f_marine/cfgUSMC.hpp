@@ -151,13 +151,13 @@ class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
 	backpack = B_AssaultPack_cbr_USMCMedic_F;
 	weapons[] =
 	{
-        arifle_MX_Holo_pointer_F,
+        arifle_MX_pointer_F,
         hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_Holo_pointer_F,
+        arifle_MX_pointer_F,
         hgun_P07_F,
         DefaultManWeapons
     };
@@ -1003,13 +1003,13 @@ class Marine_B_USMC_medic_wdl_F: Marine_B_USMC_medic_F
 	};
 	weapons[] =
 	{
-        arifle_MX_Black_Holo_Pointer_F,
+        arifle_MX_Black_Pointer_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MX_Black_Holo_Pointer_F,
+        arifle_MX_Black_Pointer_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
