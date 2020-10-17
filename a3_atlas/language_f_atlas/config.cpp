@@ -4,7 +4,6 @@ class CfgHints
 {
 	class WeaponList
 	{
-        /*
 		class arifle_AUG
 		{
 			displayName = %11;
@@ -19,7 +18,6 @@ class CfgHints
 			weapon = arifle_AUG_F;
 			logicalOrder = 45;
 		};
-        */
 		class arifle_G36
 		{
 			displayName = %11;
