@@ -134,14 +134,14 @@ class Atlas_O_W_Soldier_AAR_F: O_Soldier_AAR_F
 	backpack = B_FieldPack_owcamo_OWAAR_F;
 	weapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -316,14 +316,14 @@ class Atlas_O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 	backpack = B_Carryall_owcamo_OWAHAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
         Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
         Rangefinder
@@ -378,14 +378,14 @@ class Atlas_O_W_Soldier_AAA_F: O_Soldier_AAA_F
 	backpack = B_Carryall_owcamo_OWAAA_F;
 	weapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -440,14 +440,14 @@ class Atlas_O_W_Soldier_AAT_F: O_Soldier_AAT_F
 	backpack = B_Carryall_owcamo_OWAAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_pointer_F,
+		arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder

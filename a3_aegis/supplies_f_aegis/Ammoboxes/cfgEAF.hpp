@@ -125,6 +125,7 @@ class Box_EAF_Equip_F: Box_AAF_Equip_F
         delete _xx_H_Bandanna_khk;
         delete _xx_H_Bandanna_camo;
         item_xx(V_BandollierB_oli,2);
+		item_xx(V_Rangemaster_belt_oli,2);
         delete _xx_V_TacChestrig_grn_F;
         item_xx(V_TacVest_oli,2);
     };

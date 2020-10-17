@@ -145,6 +145,7 @@ class Box_T_CSAT_Equip_F: Box_CSAT_Equip_F
 	class TransportWeapons{};
 	class TransportItems
 	{
+		item_xx(V_Rangemaster_belt_ghex_F,2);
 		item_xx(V_HarnessO_ghex_F,4);
 		item_xx(V_HarnessOGL_ghex_F,2);
 		item_xx(V_HarnessOSpec_ghex_F,2);

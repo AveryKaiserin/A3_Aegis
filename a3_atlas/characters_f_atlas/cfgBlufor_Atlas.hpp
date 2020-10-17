@@ -194,13 +194,13 @@ class Atlas_B_G_Support_AMG_F: B_support_AMG_F
 	backpack = B_HMG_01_support_grn_F;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
@@ -254,13 +254,13 @@ class Atlas_B_G_Support_AMort_F: B_support_AMort_F
 	backpack = B_Mortar_01_support_grn_F;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
@@ -438,13 +438,13 @@ class Atlas_B_G_Soldier_AR_F: B_soldier_AR_F
     uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	weapons[] =
 	{
-		LMG_Mk200_black_LRCO_LP_BI_F,
+		LMG_Mk200_black_LP_BI_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Mk200_black_LRCO_LP_BI_F,
+		LMG_Mk200_black_LP_BI_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -496,13 +496,13 @@ class Atlas_B_G_Medic_F: B_medic_F
 	backpack = B_TacticalPack_rgr_BAMedic_F;
 	weapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
+		arifle_G36_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
+		arifle_G36_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -613,13 +613,13 @@ class Atlas_B_G_Engineer_F: B_engineer_F
 	backpack = B_Kitbag_wdl_BWEng_F;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -673,13 +673,13 @@ class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 	backpack = B_Kitbag_rgr_Exp;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
@@ -739,13 +739,13 @@ class Atlas_B_G_Soldier_GL_F: B_Soldier_GL_F
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
-		arifle_G36_GL_ACO_Pointer_F,
+		arifle_G36_GL_ACO_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_ACO_Pointer_F,
+		arifle_G36_GL_ACO_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -801,13 +801,13 @@ class Atlas_B_G_Support_GMG_F: B_support_GMG_F
 	backpack = B_GMG_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -861,13 +861,13 @@ class Atlas_B_G_Support_MG_F: B_support_MG_F
 	backpack = B_HMG_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -921,13 +921,13 @@ class Atlas_B_G_Support_Mort_F: B_support_Mort_F
 	backpack = B_Mortar_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -980,13 +980,13 @@ class Atlas_B_G_HeavyGunner_F: B_HeavyGunner_F
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
-		MMG_01_black_LRCO_LP_F,
+		MMG_01_black_LP_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		MMG_01_black_LRCO_LP_F,
+		MMG_01_black_LP_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -1139,14 +1139,14 @@ class Atlas_B_G_soldier_M_F: B_soldier_M_F
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
-		srifle_DMR_03_AMS_LP_BI_F,
+		srifle_DMR_03_LRCO_LP_BI_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_03_AMS_LP_BI_F,
+		srifle_DMR_03_LRCO_LP_BI_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1440,13 +1440,13 @@ class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 	backpack = B_TacticalPack_rgr_BARepair_F;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
@@ -1497,13 +1497,13 @@ class Atlas_B_G_Soldier_F: B_Soldier_F
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
-		arifle_G36_LRCO_Pointer_F,
+		arifle_G36_Holo_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_LRCO_Pointer_F,
+		arifle_G36_Holo_Pointer_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};

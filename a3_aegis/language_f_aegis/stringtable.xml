@@ -5349,6 +5349,23 @@
 				</Key>
 			</Container>
 			<Container name="Vests">
+				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt0">
+					<Original>Battle Belt (Green)</Original>
+					<Chinese>戰鬥腰帶（綠）</Chinese>
+					<French>Ceinture de combat (verte)</French>
+					<Spanish>Cinturón de batalla (verde)</Spanish>
+					<Italian>Cintura da battaglia (verde)</Italian>
+					<Polish>Pas bojowy (zielona)</Polish>
+					<Russian>Боевой пояс (зеленая)</Russian>
+					<German>Kampfgürtel (grün)</German>
+					<Czech>Bojový pás (zelená)</Czech>
+					<English>Battle Belt (Green)</English>
+					<Portuguese>Cinto de batalha (verde)</Portuguese>
+					<Korean>전투 벨트(녹색)</Korean>
+					<Chinesesimp>战斗腰带（绿色）</Chinesesimp>
+					<Japanese>バトルベルト（緑）</Japanese>
+					<Turkish>Savaş kemeri (Yeşil)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_HarnessO_brn0">
 					<Original>LBV Harness (Khaki)</Original>
 					<Chinese>LBV 吊帶（卡其色）</Chinese>
@@ -5434,90 +5451,73 @@
 					<Japanese>キプチャクベスト（緑、戦術無線）</Japanese>
 					<Turkish>Kıpçak Yeleği (Yeşil, Taktiksel Telsiz)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt0">
-					<Original>Rangemaster Belt (Green)</Original>
-					<Chinese>賽場管理人腰帶（綠）</Chinese>
-					<French>Ceinture d'intendant (verte)</French>
-					<Spanish>Cinto de responsable de galería de tiro (verde)</Spanish>
-					<Italian>Cintura responsabile poligono (verde)</Italian>
-					<Polish>Pas instruktora (zielona)</Polish>
-					<Russian>Пояс инструктора (зеленая)</Russian>
-					<German>Schießplatzverwalter-Gürtel (grün)</German>
-					<Czech>Instruktorský opasek (zelená)</Czech>
-					<English>Rangemaster Belt (Green)</English>
-					<Portuguese>Cinto de líder de combate a distância (verde)</Portuguese>
-					<Korean>사격통제관 벨트(녹색)</Korean>
-					<Chinesesimp>靶场总监腰带（绿色）</Chinesesimp>
-					<Japanese>射撃場管理者ベルト（緑）</Japanese>
-					<Turkish>Menzil Ustası Fişekliği (Yeşil)</Turkish>
-				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_khk0">
-					<Original>Rangemaster Belt (Khaki)</Original>
-					<Chinese>賽場管理人腰帶（卡其色）</Chinese>
-					<French>Ceinture d'intendant (kaki)</French>
-					<Spanish>Cinto de responsable de galería de tiro (caqui)</Spanish>
-					<Italian>Cintura responsabile poligono (kaki)</Italian>
-					<Polish>Pas instruktora (khaki)</Polish>
-					<Russian>Пояс инструктора (хаки)</Russian>
-					<German>Schießplatzverwalter-Gürtel (Khaki)</German>
-					<Czech>Instruktorský opasek (khaki)</Czech>
-					<English>Rangemaster Belt (Khaki)</English>
-					<Portuguese>Cinto de líder de combate a distância (cáqui)</Portuguese>
-					<Korean>사격통제관 벨트(카키)</Korean>
-					<Chinesesimp>靶场总监腰带（卡其色）</Chinesesimp>
-					<Japanese>射撃場管理者ベルト（カーキ）</Japanese>
-					<Turkish>Menzil Ustası Fişekliği (Haki)</Turkish>
+					<Original>Battle Belt (Khaki)</Original>
+					<Chinese>戰鬥腰帶（卡其色）</Chinese>
+					<French>Ceinture de combat (kaki)</French>
+					<Spanish>Cinturón de batalla (caqui)</Spanish>
+					<Italian>Cintura da battaglia (kaki)</Italian>
+					<Polish>Pas bojowy (khaki)</Polish>
+					<Russian>Боевой пояс (хаки)</Russian>
+					<German>Kampfgürtel (Khaki)</German>
+					<Czech>Bojový pás (khaki)</Czech>
+					<English>Battle Belt (Khaki)</English>
+					<Portuguese>Cinto de batalha (cáqui)</Portuguese>
+					<Korean>전투 벨트(카키)</Korean>
+					<Chinesesimp>战斗腰带（卡其色）</Chinesesimp>
+					<Japanese>バトルベルト（カーキ）</Japanese>
+					<Turkish>Savaş kemeri (Haki)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_cbr0">
-					<Original>Rangemaster Belt (Coyote)</Original>
-					<Chinese>賽場管理人腰帶（郊狼色）</Chinese>
-					<French>Ceinture d'intendant (coyote)</French>
-					<Spanish>Cinto de responsable de galería de tiro (Coyote)</Spanish>
-					<Italian>Cintura responsabile poligono (beige)</Italian>
-					<Polish>Pas instruktora (coyote)</Polish>
-					<Russian>Пояс инструктора (койот)</Russian>
-					<German>Schießplatzverwalter-Gürtel (Coyote)</German>
-					<Czech>Instruktorský opasek (žlutohnědý)</Czech>
-					<English>Rangemaster Belt (Coyote)</English>
-					<Portuguese>Cinto de líder de combate a distância (coiote)</Portuguese>
-					<Korean>사격통제관 벨트(코요테)</Korean>
-					<Chinesesimp>靶场总监腰带（狼棕色）</Chinesesimp>
-					<Japanese>射撃場管理者ベルト（コヨーテ）</Japanese>
-					<Turkish>Menzil Ustası Fişekliği (Koyote)</Turkish>
+					<Original>Battle Belt (Coyote)</Original>
+					<Chinese>戰鬥腰帶（郊狼色）</Chinese>
+					<French>Ceinture de combat (coyote)</French>
+					<Spanish>Cinturón de batalla (Coyote)</Spanish>
+					<Italian>Cintura da battaglia (beige)</Italian>
+					<Polish>Pas bojowy (coyote)</Polish>
+					<Russian>Боевой пояс (койот)</Russian>
+					<German>Kampfgürtel (Coyote)</German>
+					<Czech>Bojový pás (žlutohnědý)</Czech>
+					<English>Battle Belt (Coyote)</English>
+					<Portuguese>Cinto de batalha (coiote)</Portuguese>
+					<Korean>전투 벨트(코요테)</Korean>
+					<Chinesesimp>战斗腰带（狼棕色）</Chinesesimp>
+					<Japanese>バトルベルト（コヨーテ）</Japanese>
+					<Turkish>Savaş kemeri (Koyote)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_blk0">
-					<Original>Rangemaster Belt (Black)</Original>
-					<Chinese>賽場管理人腰帶（黑）</Chinese>
-					<French>Ceinture d'intendant (noires)</French>
-					<Spanish>Cinto de responsable de galería de tiro (negro)</Spanish>
-					<Italian>Cintura responsabile poligono (neri)</Italian>
-					<Polish>Pas instruktora (czarne)</Polish>
-					<Russian>Пояс инструктора (черные)</Russian>
-					<German>Schießplatzverwalter-Gürtel (schwarz)</German>
-					<Czech>Instruktorský opasek (černé)</Czech>
-					<English>Rangemaster Belt (Black)</English>
-					<Portuguese>Cinto de líder de combate a distância (pretos)</Portuguese>
-					<Korean>사격통제관 벨트(흑색)</Korean>
-					<Chinesesimp>靶场总监腰带（黑色）</Chinesesimp>
-					<Japanese>射撃場管理者ベルト（黒）</Japanese>
-					<Turkish>Menzil Ustası Fişekliği (Siyah)</Turkish>
+					<Original>Battle Belt (Black)</Original>
+					<Chinese>戰鬥腰帶（黑）</Chinese>
+					<French>Ceinture de combat (noires)</French>
+					<Spanish>Cinturón de batalla (negro)</Spanish>
+					<Italian>Cintura da battaglia (neri)</Italian>
+					<Polish>Pas bojowy (czarne)</Polish>
+					<Russian>Боевой пояс (черные)</Russian>
+					<German>Kampfgürtel (schwarz)</German>
+					<Czech>Bojový pás (černé)</Czech>
+					<English>Battle Belt (Black)</English>
+					<Portuguese>Cinto de batalha (pretos)</Portuguese>
+					<Korean>전투 벨트(흑색)</Korean>
+					<Chinesesimp>战斗腰带（黑色）</Chinesesimp>
+					<Japanese>バトルベルト（黒）</Japanese>
+					<Turkish>Savaş kemeri (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_oli0">
-					<Original>Rangemaster Belt (Olive)</Original>
-					<Chinese>賽場管理人腰帶（橄欖色）</Chinese>
-					<French>Ceinture d'intendant (olive)</French>
-					<Spanish>Cinto de responsable de galería de tiro (oliva)</Spanish>
-					<Italian>Cintura responsabile poligono (verde oliva)</Italian>
-					<Polish>Pas instruktora (oliwkowy)</Polish>
-					<Russian>Пояс инструктора (олива)</Russian>
-					<German>Schießplatzverwalter-Gürtel (Oliv)</German>
-					<Czech>Instruktorský opasek (olivová)</Czech>
-					<English>Rangemaster Belt (Olive)</English>
-					<Portuguese>Cinto de líder de combate a distância (verde-oliva)</Portuguese>
-					<Korean>사격통제관 벨트(올리브)</Korean>
-					<Chinesesimp>靶场总监腰带（橄榄色）</Chinesesimp>
-					<Japanese>射撃場管理者ベルト (Olive)</Japanese>
-					<Turkish>Menzil Ustası Fişekliği (Zeytin Yeşili)</Turkish>
+					<Original>Battle Belt (Olive)</Original>
+					<Chinese>戰鬥腰帶（橄欖色）</Chinese>
+					<French>Ceinture de combat (olive)</French>
+					<Spanish>Cinturón de batalla (oliva)</Spanish>
+					<Italian>Cintura da battaglia (verde oliva)</Italian>
+					<Polish>Pas bojowy (oliwkowy)</Polish>
+					<Russian>Боевой пояс (олива)</Russian>
+					<German>Kampfgürtel (Oliv)</German>
+					<Czech>Bojový pás (olivová)</Czech>
+					<English>Battle Belt (Olive)</English>
+					<Portuguese>Cinto de batalha (verde-oliva)</Portuguese>
+					<Korean>전투 벨트(올리브)</Korean>
+					<Chinesesimp>战斗腰带（橄榄色）</Chinesesimp>
+					<Japanese>バトルベルト（Olive）</Japanese>
+					<Turkish>Savaş kemeri (Zeytin Yeşili)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrier1_mtp0">
 					<Original>Carrier Lite (MTP)</Original>
@@ -5842,6 +5842,40 @@
 					<Japanese>GAキャリアGLリグ（コヨーテ）</Japanese>
 					<Turkish>GA Taşıyıcı GL Yelek (Koyote)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_tna_F0">
+					<Original>Battle Belt (Tropic)</Original>
+					<Chinese>戰鬥腰帶（熱帶）</Chinese>
+					<French>Ceinture de combat (tropiques)</French>
+					<Spanish>Cinturón de batalla (tropical)</Spanish>
+					<Italian>Cintura da battaglia (tropicale)</Italian>
+					<Polish>Pas bojowy (tropik)</Polish>
+					<Russian>Боевой пояс (тропики)</Russian>
+					<German>Kampfgürtel (Tropen)</German>
+					<Czech>Bojový pás (tropy)</Czech>
+					<English>Battle Belt (Tropic)</English>
+					<Portuguese>Cinto de batalha (tropical)</Portuguese>
+					<Korean>전투 벨트(열대)</Korean>
+					<Chinesesimp>战斗腰带（热带）</Chinesesimp>
+					<Japanese>バトルベルト（熱帯）</Japanese>
+					<Turkish>Savaş kemeri (Tropik)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_ghex_F0">
+					<Original>Battle Belt (Green Hex)</Original>
+					<Chinese>戰鬥腰帶（綠色六邊形）</Chinese>
+					<French>Ceinture de combat (hex vert)</French>
+					<Spanish>Cinturón de batalla (Hex verde)</Spanish>
+					<Italian>Cintura da battaglia (esag. verde)</Italian>
+					<Polish>Pas bojowy (zielona hex)</Polish>
+					<Russian>Боевой пояс (зеленый гекс)</Russian>
+					<German>Kampfgürtel (Grüne Sechsecke)</German>
+					<Czech>Bojový pás (zelený hex)</Czech>
+					<English>Battle Belt (Green Hex)</English>
+					<Portuguese>Cinto de batalha (verde camuflado)</Portuguese>
+					<Korean>전투 벨트(개방형, 녹색)</Korean>
+					<Chinesesimp>战斗腰带（绿色六角形）</Chinesesimp>
+					<Japanese>バトルベルト（緑六角形）</Japanese>
+					<Turkish>Savaş kemeri (Yeşil Hex)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_HarnessOSpec_ghex_F0">
 					<Original>ELBV Harness (Green Hex)</Original>
 					<Chinese>ELBV 吊帶（綠色六邊形）</Chinese>
@@ -6046,56 +6080,73 @@
 					<Japanese>モジュラーキャリア GL リグ（コヨーテ）</Japanese>
 					<Turkish>Modüler Taşıyıcı GL Yelek (Koyote)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Green_F0">
-					<Original>Modular Carrier Vest (Green)</Original>
-					<Chinese>模組化負載背心（綠）</Chinese>
-					<French>Gilet modifiable léger (verte)</French>
-					<Spanish>Chaleco con cartuchera modular (verde)</Spanish>
-					<Italian>Giubbotto tattico modulare (verde)</Italian>
-					<Polish>Kamizelka moduł. (zielona)</Polish>
-					<Russian>Модульный разгрузочный жилет (зеленая)</Russian>
-					<German>Modularer Trageweste (grün)</German>
-					<Czech>Modulární nosič plátů (zelená)</Czech>
-					<English>Modular Carrier Vest (Green)</English>
-					<Portuguese>Traje modular leve (verde)</Portuguese>
-					<Korean>모듈식 캐리어 조끼 (녹색)</Korean>
-					<Chinesesimp>模块化背心（绿色）</Chinesesimp>
-					<Japanese>モジュラーキャリアベスト（緑）</Japanese>
-					<Turkish>Modüler Taşıyıcı Yelek (Yeşil)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Khaki_F0">
+					<Original>Modular Carrier Vest (Khaki)</Original>
+					<Chinese>模組化負載背心（卡其色）</Chinese>
+					<French>Gilet modifiable léger (kaki)</French>
+					<Spanish>Chaleco con cartuchera modular (caqui)</Spanish>
+					<Italian>Giubbotto tattico modulare (kaki)</Italian>
+					<Polish>Kamizelka moduł. (khaki)</Polish>
+					<Russian>Модульный разгрузочный жилет (хаки)</Russian>
+					<German>Modularer Trageweste (Khaki)</German>
+					<Czech>Modulární nosič plátů (khaki)</Czech>
+					<English>Modular Carrier Vest (Khaki)</English>
+					<Portuguese>Traje modular leve (cáqui)</Portuguese>
+					<Korean>모듈식 캐리어 조끼 (카키)</Korean>
+					<Chinesesimp>模块化背心（卡其色）</Chinesesimp>
+					<Japanese>モジュラーキャリアベスト（カーキ）</Japanese>
+					<Turkish>Modüler Taşıyıcı Yelek (Haki)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Green_F0">
-					<Original>Modular Carrier Lite (Green)</Original>
-					<Chinese>模組化輕型負載背心（綠）</Chinese>
-					<French>Gilet modifiable léger (verte)</French>
-					<Spanish>Cartuchera modular ligera (verde)</Spanish>
-					<Italian>Equipag. leggero modulare (verde)</Italian>
-					<Polish>Lekka kamizelka modułowa (zielona)</Polish>
-					<Russian>Модульный облегченный жилет (зеленая)</Russian>
-					<German>Modularer leichter Tragegurt (grün)</German>
-					<Czech>Modulární lehký nosič plátů (zelená)</Czech>
-					<English>Modular Carrier Lite (Green)</English>
-					<Portuguese>Colete modular leve (verde)</Portuguese>
-					<Korean>모듈식 캐리어 라이트 (녹색)</Korean>
-					<Chinesesimp>模块化轻便背心（绿色）</Chinesesimp>
-					<Japanese>モジュラーキャリア・ライト（緑）</Japanese>
-					<Turkish>Modüler Hafif Taşıyıcı (Yeşil)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Khaki_F0">
+					<Original>Modular Carrier Lite (Khaki)</Original>
+					<Chinese>模組化輕型負載背心（卡其色）</Chinese>
+					<French>Gilet modifiable léger (kaki)</French>
+					<Spanish>Cartuchera modular ligera (caqui)</Spanish>
+					<Italian>Equipag. leggero modulare (kaki)</Italian>
+					<Polish>Lekka kamizelka modułowa (khaki)</Polish>
+					<Russian>Модульный облегченный жилет (хаки)</Russian>
+					<German>Modularer leichter Tragegurt (Khaki)</German>
+					<Czech>Modulární lehký nosič plátů (khaki)</Czech>
+					<English>Modular Carrier Lite (Khaki)</English>
+					<Portuguese>Colete modular leve (cáqui)</Portuguese>
+					<Korean>모듈식 캐리어 라이트 (카키)</Korean>
+					<Chinesesimp>模块化轻便背心（卡其色）</Chinesesimp>
+					<Japanese>モジュラーキャリア・ライト（カーキ）</Japanese>
+					<Turkish>Modüler Hafif Taşıyıcı (Haki)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Green_F0">
-					<Original>Modular Carrier GL Rig (Green)</Original>
-					<Chinese>模組化 GL 負載外掛（綠）</Chinese>
-					<French>Gilet modifiable pour grenadier (verte)</French>
-					<Spanish>Cartuchera modular de GL (verde)</Spanish>
-					<Italian>Gilet tattico GL modulare (verde)</Italian>
-					<Polish>Modułowa kamizelka grenadiera (zielona)</Polish>
-					<Russian>Модульный жилет гранатометчика (зеленая)</Russian>
-					<German>Modularer Granatwerfer-Tragegurt (grün)</German>
-					<Czech>Modulární nosič plátů GL (zelená)</Czech>
-					<English>Modular Carrier GL Rig (Green)</English>
-					<Portuguese>Colete modular LG (verde)</Portuguese>
-					<Korean>모듈식 캐리어 GL 리그 (녹색)</Korean>
-					<Chinesesimp>模块化背心 GL 装备（绿色）</Chinesesimp>
-					<Japanese>モジュラーキャリア GL リグ（緑）</Japanese>
-					<Turkish>Modüler Taşıyıcı GL Yelek (Yeşil)</Turkish>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Khaki_F0">
+					<Original>Modular Carrier GL Rig (Khaki)</Original>
+					<Chinese>模組化 GL 負載外掛（卡其色）</Chinese>
+					<French>Gilet modifiable pour grenadier (kaki)</French>
+					<Spanish>Cartuchera modular de GL (caqui)</Spanish>
+					<Italian>Gilet tattico GL modulare (kaki)</Italian>
+					<Polish>Modułowa kamizelka grenadiera (khaki)</Polish>
+					<Russian>Модульный жилет гранатометчика (хаки)</Russian>
+					<German>Modularer Granatwerfer-Tragegurt (Khaki)</German>
+					<Czech>Modulární nosič plátů GL (khaki)</Czech>
+					<English>Modular Carrier GL Rig (Khaki)</English>
+					<Portuguese>Colete modular LG (cáqui)</Portuguese>
+					<Korean>모듈식 캐리어 GL 리그 (카키)</Korean>
+					<Chinesesimp>模块化背心 GL 装备（卡其色）</Chinesesimp>
+					<Japanese>モジュラーキャリア GL リグ（カーキ）</Japanese>
+					<Turkish>Modüler Taşıyıcı GL Yelek (Haki)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_taiga_F0">
+					<Original>Battle Belt (Taiga)</Original>
+					<Chinese>戰鬥腰帶（Taiga）</Chinese>
+					<French>Ceinture de combat (taïga)</French>
+					<Spanish>Cinturón de batalla (taiga)</Spanish>
+					<Italian>Cintura da battaglia (taiga)</Italian>
+					<Polish>Pas bojowy (tajga)</Polish>
+					<Russian>Боевой пояс (таежная)</Russian>
+					<German>Kampfgürtel (Taiga)</German>
+					<Czech>Bojový pás (tajga)</Czech>
+					<English>Battle Belt (Taiga)</English>
+					<Portuguese>Cinto de batalha (taiga)</Portuguese>
+					<Korean>전투 벨트(침엽수)</Korean>
+					<Chinesesimp>战斗腰带（针叶林）</Chinesesimp>
+					<Japanese>バトルベルト（タイガ）</Japanese>
+					<Turkish>Savaş kemeri (Tayga)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0">
 					<Original>Slash Bandolier (Taiga)</Original>

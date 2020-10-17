@@ -16,6 +16,29 @@ class srifle_DMR_01_ARCO_BI_F: srifle_DMR_01_F
 		};
 	};
 };
+// Mk-I EMR 7.62 mm + LRCO + IR Laser Pointer + Bipod [NATO] (Black)
+class srifle_DMR_03_LRCO_LP_BI_F: srifle_DMR_03_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+	};
+};
 // Sting 9 mm + Mk17 Holosight (Black)
 class SMG_02_Holo_F: SMG_02_F
 {
@@ -170,29 +193,6 @@ class srifle_DMR_06_hunter_khs_bipod_F: srifle_DMR_06_hunter_F
 		};
 	};
 };
-// Mk200 6.5 mm (Black) + LRCO + IR Laser Pointer + Bipod (Black) [NATO]
-class LMG_Mk200_black_LRCO_LP_BI_F: LMG_Mk200_black_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_LRCO_blk_F;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_pointer_IR;
-		};
-		class LinkedItemsUnder
-		{
-			slot = UnderBarrelSlot;
-			item = bipod_01_F_blk;
-		};
-	};
-};
 // Promet 6.5 mm (Black) + ACO + IR Laser Pointer
 class arifle_MSBS65_black_aco_pointer_f: arifle_MSBS65_black_F
 {
@@ -316,17 +316,12 @@ class LMG_Zafir_black_MRCO_pointer_snds_F: LMG_Zafir_black_F
 		};
 	};
 };
-// Navid 9.3 mm (Black) + LRCO + IR Laser Pointer
-class MMG_01_black_LRCO_LP_F: MMG_01_black_F
+// Navid 9.3 mm (Black) + IR Laser Pointer
+class MMG_01_black_LP_F: MMG_01_black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class LinkedItems
 	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_LRCO_blk_F;
-		};
 		class LinkedItemsAcc
 		{
 			slot = PointerSlot;

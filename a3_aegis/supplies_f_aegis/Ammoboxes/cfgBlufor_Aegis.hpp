@@ -23,6 +23,7 @@ class Box_A_NATO_Equip_F: Box_NATO_Equip_F
 	class TransportWeapons{};
 	class TransportItems
 	{
+		item_xx(V_Rangemaster_belt_cbr,2);
 		item_xx(V_BandollierB_cbr,2);
 		item_xx(V_TacChestrig_cbr_F,2);
 		item_xx(V_CarrierRigKBT_01_Coyote_F,2);
@@ -323,6 +324,7 @@ class Box_A_NATO_Equip_tropic_F: Box_A_NATO_Equip_F
 	class TransportWeapons{};
 	class TransportItems
 	{
+		item_xx(V_Rangemaster_belt_tna_F,2);
 		item_xx(V_BandollierB_tna_F,2);
 		item_xx(V_TacChestrig_grn_F,2);
 		item_xx(V_CarrierRigKBT_01_Olive_F,2);
@@ -620,6 +622,7 @@ class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 	class TransportWeapons{};
 	class TransportItems
 	{
+		item_xx(V_Rangemaster_belt_rgr,2);
 		item_xx(V_BandollierB_rgr,2);
 		item_xx(V_TacChestrig_grn_F,2);
 		item_xx(V_CarrierRigKBT_01_Olive_F,2);

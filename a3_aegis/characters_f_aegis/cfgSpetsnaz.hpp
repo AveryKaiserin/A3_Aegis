@@ -114,13 +114,13 @@ class O_R_soldier_exp_F: O_R_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
@@ -227,13 +227,13 @@ class O_R_medic_F: O_R_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
@@ -275,14 +275,14 @@ class O_R_Soldier_LAT_F: O_R_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         launch_RPG32_green_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         launch_RPG32_green_F,
         hgun_Rook40_F,
         DefaultManWeapons
@@ -1379,13 +1379,13 @@ class O_R_engineer_F: O_R_Soldier_Base_F
 	};
 	weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
@@ -1747,14 +1747,14 @@ class O_R_soldier_AA_F: O_R_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_holo_pointer_F,
 		launch_O_Titan_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_holo_pointer_F,
 		launch_O_Titan_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
@@ -1815,14 +1815,14 @@ class O_R_soldier_AT_F: O_R_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_holo_pointer_F,
 		launch_O_Titan_short_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_pointer_F,
+		arifle_AK12U_545_holo_pointer_F,
 		launch_O_Titan_short_camo_F,
 		hgun_Rook40_F,
 		DefaultManWeapons
@@ -1945,13 +1945,13 @@ class O_R_soldier_repair_F: O_R_Soldier_Base_F
 	};
 	weapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_aco_pointer_F,
+        arifle_AK12U_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
@@ -2062,14 +2062,14 @@ class O_R_Soldier_HAT_F: O_R_Soldier_Base_F
 	};
 	weapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
 		launch_O_Vorona_green_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
 		launch_O_Vorona_green_F,
         hgun_Rook40_F,
         DefaultManWeapons
@@ -2340,13 +2340,13 @@ class O_R_RadioOperator_F: O_R_Soldier_F
 	};
 	weapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        arifle_AK12_545_holo_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };

@@ -127,6 +127,7 @@ class Box_T_NATO_Equip_F: Box_NATO_Equip_F
 	class TransportWeapons{};
 	class TransportItems
 	{
+		item_xx(V_Rangemaster_belt_tna_F,2);
 		item_xx(V_BandollierB_tna_F,2);
         item_xx(V_Chestrig_rgr,1);
         item_xx(V_ChestrigF_rgr,1);

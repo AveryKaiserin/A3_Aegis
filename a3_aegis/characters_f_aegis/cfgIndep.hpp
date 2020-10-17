@@ -1051,14 +1051,14 @@ class I_Soldier_support_base_F: I_Soldier_base_F
     };
 	weapons[] =
     {
-        arifle_Mk20_pointer_F,
+        arifle_Mk20_ACO_pointer_F,
         hgun_ACPC2_F,
         DefaultManWeapons,
         Rangefinder
     };
 	respawnWeapons[] =
     {
-        arifle_Mk20_pointer_F,
+        arifle_Mk20_ACO_pointer_F,
         hgun_ACPC2_F,
         DefaultManWeapons,
         Rangefinder

@@ -37,7 +37,7 @@ class CfgMagazines
 	{
 		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.56 mm 30Rnd AUG Mag";
+		displayName = "5.56 mm 30Rnd AUG Reload Tracer (Red) Mag";
 		modelSpecial = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Mag_556x45_AUG_30Rnd.p3d";
 		ammo = B_556x45_Ball_Tracer_Red;
 		hiddenSelections[] = {Camo};
@@ -47,7 +47,22 @@ class CfgMagazines
 	{
 		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_Tracer_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.56 mm 30Rnd AUG Tracer Mag";
+		displayName = "5.56 mm 30Rnd AUG Tracer (Red) Mag";
+		displayNameShort = $STR_A3_TRACER_DNS;
+		tracersEvery = 1;
+		lastRoundsTracer = 30;
+	};
+	class 30Rnd_556x45_AUG_Mag_Green_F: 30Rnd_556x45_AUG_Mag_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.56 mm 30Rnd AUG Reload Tracer (Green) Mag";
+		ammo = B_556x45_Ball_Tracer_Green;
+	};
+	class 30Rnd_556x45_AUG_Mag_Tracer_Green_F: 30Rnd_556x45_AUG_Mag_Green_F
+	{
+		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_Tracer_F_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.56 mm 30Rnd AUG Tracer (Green) Mag";
 		displayNameShort = $STR_A3_TRACER_DNS;
 		tracersEvery = 1;
 		lastRoundsTracer = 30;

@@ -219,8 +219,6 @@ class CfgVehicles
 	WEAPON_HOLDER(MMG_01_ghex_F,$STR_A3_A_CfgWeapons_MMG_01_ghex_F0,EdSubcat_MachineGuns,150Rnd_93x64_Mag)
 	WEAPON_HOLDER(MMG_02_khaki_F,$STR_A3_A_CfgWeapons_MMG_02_khaki_F0,EdSubcat_MachineGuns,130Rnd_338_Mag)
 	ITEM_HOLDER(O_NVGoggles_blk_F,$STR_A3_A_CfgWeapons_O_NVGoggles_blk_F0,"\A3\Weapons_F\DummyNVG.p3d")
-	WEAPON_HOLDER(LMG_03_khk_F,$STR_A3_A_CfgWeapons_LMG_03_khk_F0,EdSubcat_MachineGuns,200Rnd_556x45_Box_F)
-	WEAPON_HOLDER(LMG_03_snd_F,$STR_A3_A_CfgWeapons_LMG_03_snd_F0,EdSubcat_MachineGuns,200Rnd_556x45_Box_F)
 	WEAPON_HOLDER(SMG_05_snd_F,$STR_A3_A_CfgWeapons_SMG_05_snd_F0,EdSubcat_SubMachineGuns,30Rnd_9x21_Mag_SMG_02)
 	ACC_HOLDER(muzzle_snds_B_wdm_F,$STR_A3_A_CfgWeapons_muzzle_snds_B_wdm_F0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories)
 	LAUNCHER_HOLDER(launch_MRAWS_black_F,$STR_A3_A_CfgWeapons_launch_MRAWS_black_F0,MRAWS_HEAT_F)

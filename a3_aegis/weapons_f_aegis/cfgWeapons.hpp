@@ -1282,31 +1282,6 @@ class CfgWeapons
             class PointerSlot{};
         };
 	};
-    class LMG_03_base_F: Rifle_Long_Base_F
-    {
-        class WeaponSlotsInfo: WeaponSlotsInfo
-        {
-            class MuzzleSlot: asdg_MuzzleSlot_556
-            {
-                class compatibleItems: compatibleItems
-                {
-                    muzzle_snds_M = true;
-                    muzzle_snds_m_khk_F = true;
-                    muzzle_snds_m_snd_F = true;
-		            muzzle_mzls_M = true;
-                };
-            };
-        };
-    };
-	class LMG_03_F: LMG_03_base_F
-	{
-		hiddenSelectionsTextures[] =
-		{
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_body_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_acc_CO.paa",
-			"\A3\Weapons_F_Enoch\Machineguns\M200\Data\grip_black_CO.paa"
-		};
-	};
 	class arifle_AKM_base_F;
 	class arifle_AKM_F;
 	class arifle_AKS_base_F: Rifle_Base_F
@@ -2645,34 +2620,6 @@ class CfgWeapons
 		{
 			uniformModel = "\A3\Weapons_F_Exp\Binocular\O_NVGoggles_blk_F.p3d";
 			modelOff = "\A3\Weapons_F_Exp\Binocular\O_NVGoggles_blk_off_F.p3d";
-		};
-	};
-	class LMG_03_khk_F: LMG_03_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = LMG_03_khk_F;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_LMG_03_khk_F0;
-		picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\UI\icon_LMG_03_khk_F_X_CA.paa";
-		hiddenSelectionsTextures[]=
-		{
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_body_khk_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_acc_khk_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\M200\Data\LMG_Mk200_khk_F_3_CO.paa"
-		};
-	};
-	class LMG_03_snd_F: LMG_03_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		baseWeapon = LMG_03_snd_F;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_LMG_03_snd_F0;
-		picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\UI\icon_LMG_03_snd_F_X_CA.paa";
-		hiddenSelectionsTextures[]=
-		{
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_body_snd_CO.paa",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_acc_snd_CO.paa",
-			"\A3\Weapons_F\Machineguns\M200\Data\grip_CO.paa"
 		};
 	};
 	class SMG_05_snd_F: SMG_05_base_F

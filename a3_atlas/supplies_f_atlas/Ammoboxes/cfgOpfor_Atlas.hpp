@@ -18,16 +18,16 @@ class Box_TKA_Wps_F: ReammoBox_F
     editorSubcategory = EdSubcat_Ammo_CSAT_Takistani;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_AK12_Mag_F,8);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,2);
+		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,8);
+		mag_xx(75Rnd_762x39_Mag_F,2);
 		mag_xx(10Rnd_762x54_Mag,2);
 	};
 	class TransportWeapons
 	{
-        weap_xx(arifle_AK12_545_F,4);
-        weap_xx(arifle_AK12_GL_545_F,2);
-        weap_xx(arifle_AK12U_545_F,2);
-		weap_xx(arifle_RPK12_F,2);
+        weap_xx(arifle_AUG_black_F,4);
+        weap_xx(arifle_AUG_GL_black_F,2);
+        weap_xx(arifle_AUG_C_black_F,2);
+		weap_xx(arifle_RPK_F,2);
 		weap_xx(srifle_DMR_01_F,2);
 	};
 	class TransportItems{};
@@ -52,8 +52,8 @@ class Box_TKA_Ammo_F: ReammoBox_F
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_AK12_Mag_F,48);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,16);
+		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,48);
+		mag_xx(75Rnd_762x39_Mag_F,16);
 		mag_xx(10Rnd_762x54_Mag,12);
 	};
 	class TransportWeapons{};
@@ -122,7 +122,7 @@ class Atlas_O_T_supplyCrate_F: O_supplyCrate_F
 		mag_xx(30Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,8);
 		mag_xx(10Rnd_762x54_Mag,6);
 		mag_xx(10Rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);
@@ -141,10 +141,10 @@ class Atlas_O_T_supplyCrate_F: O_supplyCrate_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AK12_545_F,2);
-		weap_xx(arifle_AK12_GL_545_F,1);
-		weap_xx(arifle_AK12U_545_F,1);
-		weap_xx(arifle_RPK12_F,1);
+		weap_xx(arifle_AUG_black_F,2);
+		weap_xx(arifle_AUG_GL_black_F,1);
+		weap_xx(arifle_AUG_C_black_F,1);
+		weap_xx(arifle_RPK_F,1);
 		weap_xx(srifle_DMR_01_F,1);
 		weap_xx(launch_RPG32_F,1);
 	};

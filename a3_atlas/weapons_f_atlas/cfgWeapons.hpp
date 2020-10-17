@@ -34,6 +34,7 @@ class CfgWeapons
 		class ItemInfo;
 	};
 	// Arma 3 Marksman
+	class srifle_DMR_03_F;
 	class MMG_01_base_F: Rifle_Long_Base_F
 	{
 		magazines[] += {150Rnd_93x64_Mag_Red};
@@ -50,6 +51,13 @@ class CfgWeapons
 	// Arma 3 Enoch
 	class srifle_DMR_06_hunter_F;
 	class LMG_Mk200_black_F;
+	class LMG_Mk200_black_LP_BI_F: LMG_Mk200_black_F
+	{
+		class LinkedItems
+		{
+			delete LinkedItemsOptic;
+		};
+	};
 	class arifle_RPK12_F;
 	class arifle_MSBS65_black_F;
 	class arifle_MSBS65_Mark_black_F;

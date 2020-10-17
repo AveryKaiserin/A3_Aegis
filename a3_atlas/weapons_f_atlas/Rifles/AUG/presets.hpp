@@ -168,8 +168,8 @@ class arifle_AUG_black_aco_flash_F: arifle_AUG_black_F
 		};
 	};
 };
-// AUR 90 5.56 mm (Black) + MRCO + Flashlight
-class arifle_AUG_black_mrco_flash_F: arifle_AUG_black_F
+// AUR 90 5.56 mm (Black) + ARCO (Black) + Flashlight
+class arifle_AUG_black_arco_flash_F: arifle_AUG_black_F
 {
 	author = $STR_A3_AveryTheKitty_and_Luchador;
 	class LinkedItems
@@ -177,7 +177,7 @@ class arifle_AUG_black_mrco_flash_F: arifle_AUG_black_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_MRCO;
+			item = optic_Arco_blk_F;
 		};
 		class LinkedItemsAcc
 		{
@@ -204,8 +204,8 @@ class arifle_AUG_GL_black_aco_flash_F: arifle_AUG_GL_black_F
 		};
 	};
 };
-// AUR 90 GL 5.56 mm (Black) + MRCO + Flashlight
-class arifle_AUG_GL_black_mrco_flash_F: arifle_AUG_GL_black_F
+// AUR 90 GL 5.56 mm (Black) + ARCO (Black) + Flashlight
+class arifle_AUG_GL_black_arco_flash_F: arifle_AUG_GL_black_F
 {
 	author = $STR_A3_AveryTheKitty_and_Luchador;
 	class LinkedItems
@@ -213,7 +213,7 @@ class arifle_AUG_GL_black_mrco_flash_F: arifle_AUG_GL_black_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_MRCO;
+			item = optic_Arco_blk_F;
 		};
 		class LinkedItemsAcc
 		{

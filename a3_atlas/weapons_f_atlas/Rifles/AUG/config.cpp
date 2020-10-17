@@ -8,6 +8,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
 #include "cfgVehicles.hpp"
+#include "\A3_Aegis\ASDG.hpp"
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -37,7 +38,7 @@ class CfgWeapons
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
-			"\A3\Weapons_F\Rifles\TRG20\Data\Anim\TRG_21.rtm"
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\Anim\AUG.rtm"
 		};
 		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AUG_base_F1;
 		reloadAction = GestureReloadAUG;
@@ -59,27 +60,31 @@ class CfgWeapons
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot: MuzzleSlot_556
+			class MuzzleSlot: asdg_MuzzleSlot_556
 			{
-				linkProxy = "\A3\Data_F\Proxies\weapon_slots\MUZZLE";
-				compatibleItems[] =
+				iconPosition[] =
 				{
-					muzzle_snds_M,
-					muzzle_snds_m_khk_F,
-					muzzle_snds_m_snd_F,
-					muzzle_mzls_M
+					0,      // X
+					0.38    // Y
 				};
-				iconPosition[] = {0,0.4};
 				iconScale = 0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
-				iconPosition[] = {0.45,0.28};
+				iconPosition[] =
+				{
+					0.479,  // X
+					0.194   // Y
+				};
 				iconScale = 0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
-				iconPosition[] = {0.35,0.45};
+				iconPosition[] =
+				{
+					0.285,  // X
+					0.344   // Y
+				};
 				iconScale = 0.2;
 			};
 			mass = 80;
@@ -95,7 +100,7 @@ class CfgWeapons
 		class Single: Mode_SemiAuto
 		{
 			showToPlayer = false;
-			reloadTime = 0.07;
+			reloadTime = 0.088;
 			dispersion = 0.00116;
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -106,7 +111,7 @@ class CfgWeapons
 		};
 		class FullAuto: Mode_FullAuto
 		{
-			reloadTime = 0.07;
+			reloadTime = 0.088;
 			dispersion = 0.00116;
 			minRange = 2;
 			minRangeProbab = 0.9;
@@ -170,7 +175,7 @@ class CfgWeapons
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
-			"\A3\Weapons_F\Rifles\TRG20\Data\Anim\TRG_21G.rtm"
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\Anim\AUG_GL.rtm"
 		};
 		inertia = 0.5;
 		dexterity = 1.6;

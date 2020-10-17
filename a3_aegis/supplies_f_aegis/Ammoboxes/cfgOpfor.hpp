@@ -295,6 +295,7 @@ class Box_CSAT_Equip_F: Box_NATO_Equip_F
 	class TransportItems
 	{
 		delete _xx_V_Rangemaster_belt;
+		item_xx(V_Rangemaster_belt_khk,2);
 		delete _xx_V_BandollierB_cbr;
 		item_xx(V_BandollierB_khk,2);
 		item_xx(V_Chestrig_khk,1);

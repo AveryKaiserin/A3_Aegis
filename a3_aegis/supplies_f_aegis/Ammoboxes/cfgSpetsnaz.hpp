@@ -241,6 +241,7 @@ class Box_RUS_Equip_F: Box_CSAT_Equip_F
         item_xx(H_HelmetAggressor_cover_taiga_F,4);
         item_xx(V_SmershVest_01_F,4);
         item_xx(V_SmershVest_01_radio_F,4);
+		item_xx(V_Rangemaster_belt_taiga_F,2);
         item_xx(V_BandollierB_taiga_F,2);
         item_xx(V_TacChestrig_grn_F,2);
         item_xx(V_TacVest_grn,2);

@@ -259,6 +259,7 @@ class Box_AAF_Equip_F: Box_NATO_Equip_F
 	class TransportItems
 	{
 		delete _xx_V_Rangemaster_belt;
+		item_xx(V_Rangemaster_belt_oli,2);
 		item_xx(V_BandollierB_oli,2);
 		delete _xx_V_BandollierB_blk;
 		item_xx(V_Chestrig_oli,1);

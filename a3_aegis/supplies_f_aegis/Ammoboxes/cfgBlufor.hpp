@@ -307,7 +307,7 @@ class Box_NATO_Equip_F: ReammoBox_F
     editorSubcategory = EdSubcat_Ammo_NATO;
 	class TransportItems
 	{
-		delete _xx_V_Rangemaster_belt;
+		item_xx(V_Rangemaster_belt,2);
 		delete _xx_V_BandollierB_blk;
 		item_xx(V_BandollierB_rgr,2);
 		delete _xx_V_Chestrig_blk;

@@ -645,14 +645,14 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_tna_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_tna_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_tna_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_PlateCarrier1_tna_F_CO.paa"};
 	};
 	class V_Rangemaster_belt_ghex_F: V_Rangemaster_belt
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_ghex_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_ghex_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_ghex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\V_BandollierB_ghex_F_CO.paa"};
 	};
 	class V_HarnessOSpec_ghex_F: V_HarnessOSpec_brn
@@ -740,7 +740,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_Khaki_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_Khaki_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_Khaki_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Khaki_CO.paa"};
 	};
 	class V_CarrierRigKBT_01_light_Khaki_F: V_CarrierRigKBT_01_light_base_F
@@ -748,7 +748,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_Khaki_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_Khaki_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_Khaki_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Khaki_CO.paa"};
 	};
 	class V_CarrierRigKBT_01_heavy_Khaki_F: V_CarrierRigKBT_01_heavy_base_F
@@ -756,14 +756,14 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_Khaki_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_heavy_Khaki_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_heavy_Khaki_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\CarrierRigKBT_01_Khaki_CO.paa"};
 	};
 	class V_Rangemaster_belt_taiga_F: V_Rangemaster_belt
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_taiga_F0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_taiga_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_taiga_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_RUtaiga_CO.paa"};
 	};
 	class V_BandollierB_taiga_F: V_BandollierB_khk

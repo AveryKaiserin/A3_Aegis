@@ -78,36 +78,36 @@ class Atlas_O_T_soldier_A_F: Atlas_O_T_soldier_base_F
 	linkedItems[] =
     {
         V_HarnessO_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	respawnLinkedItems[] =
     {
         V_HarnessO_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	weapons[] =
 	{
-		arifle_AK12_545_FL_F,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_FL_F,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
@@ -149,23 +149,23 @@ class Atlas_O_T_soldier_AR_F: Atlas_O_T_soldier_base_F
     };
 	weapons[] =
 	{
-		arifle_RPK12_F,
+		arifle_RPK_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_RPK12_F,
+		arifle_RPK_F,
 		DefaultManWeapons
 	};
     magazines[] =
     {
-        mag_8(75Rnd_762x39_AK12_Mag_F),
+        mag_8(75Rnd_762x39_Mag_F),
         HandGrenade,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_8(75Rnd_762x39_AK12_Mag_F),
+        mag_8(75Rnd_762x39_Mag_F),
         HandGrenade,
         mag_2(SmokeShell)
     };
@@ -194,37 +194,37 @@ class Atlas_O_T_medic_F: Atlas_O_T_soldier_base_F
 	linkedItems[] =
     {
         V_TacVest_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	respawnLinkedItems[] =
     {
         V_TacVest_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
 	weapons[] =
 	{
-		arifle_AK12_545_FL_F,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_FL_F,
+		arifle_AUG_black_flash_F,
 		DefaultManWeapons
 	};
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
@@ -319,37 +319,37 @@ class Atlas_O_T_engineer_F: Atlas_O_T_soldier_base_F
     linkedItems[] =
     {
         V_HarnessO_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
         V_HarnessO_tan,
-        H_Beret_ocamo,
+        H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     weapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
@@ -391,17 +391,17 @@ class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
     };
     weapons[] =
     {
-        arifle_AK12_GL_545_aco_FL_F,
+        arifle_AUG_GL_black_aco_flash_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_GL_545_aco_FL_F,
+        arifle_AUG_GL_black_aco_flash_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -409,7 +409,7 @@ class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
@@ -514,22 +514,22 @@ class Atlas_O_T_helicrew_F: Atlas_O_T_helipilot_F
     };
     weapons[] =
     {
-        arifle_AK12U_545_F,
+        arifle_AUG_C_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12U_545_F,
+        arifle_AUG_C_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
 };
@@ -630,26 +630,26 @@ class Atlas_O_T_soldier_AA_F: Atlas_O_T_soldier_base_F
     };
 	weapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         launch_O_Titan_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         launch_O_Titan_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -694,26 +694,26 @@ class Atlas_O_T_soldier_AT_F: Atlas_O_T_soldier_base_F
     };
 	weapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         launch_O_Titan_short_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_AK12U_545_FL_F,
+        arifle_AUG_C_black_flash_F,
         launch_O_Titan_short_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AT,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AT,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -743,27 +743,27 @@ class Atlas_O_T_officer_F: Atlas_O_T_soldier_base_F
     weapons[] =
     {
         hgun_PDW2000_F,
-        hgun_Rook40_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         hgun_PDW2000_F,
-        hgun_Rook40_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
         mag_4(30Rnd_9x21_Mag),
-        mag_3(17Rnd_9x21_Mag),
+        mag_2(10Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_9x21_Mag),
-        mag_3(17Rnd_9x21_Mag),
+        mag_2(10Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
 };
@@ -800,23 +800,23 @@ class Atlas_O_T_soldier_F: Atlas_O_T_soldier_base_F
     };
     weapons[] =
     {
-        arifle_AK12_545_aco_FL_F,
+        arifle_AUG_black_aco_flash_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_FL_F,
+        arifle_AUG_black_aco_flash_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_10(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_10(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
@@ -859,26 +859,26 @@ class Atlas_O_T_soldier_LAT_F: Atlas_O_T_soldier_base_F
     };
     weapons[] =
     {
-        arifle_AK12_545_aco_FL_F,
+        arifle_AUG_black_aco_flash_F,
         launch_RPG32_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_FL_F,
+        arifle_AUG_black_aco_flash_F,
         launch_RPG32_F,
         DefaultManWeapons
     };
 	    magazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         RPG32_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         RPG32_F,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -920,32 +920,32 @@ class Atlas_O_T_soldier_SL_F: Atlas_O_T_soldier_base_F
     };
     weapons[] =
     {
-        arifle_AK12_545_arco_FL_F,
-        hgun_Rook40_F,
+        arifle_AUG_black_arco_flash_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_arco_FL_F,
-        hgun_Rook40_F,
+        arifle_AUG_black_arco_flash_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
-        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
+        mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
-        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
+        mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
@@ -987,23 +987,23 @@ class Atlas_O_T_soldier_TL_F: Atlas_O_T_soldier_base_F
     };
     weapons[] =
     {
-        arifle_AK12_GL_545_arco_FL_F,
-        hgun_Rook40_F,
+        arifle_AUG_GL_black_arco_flash_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_AK12_GL_545_arco_FL_F,
-        hgun_Rook40_F,
+        arifle_AUG_GL_black_arco_flash_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
-        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
+        mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
@@ -1013,9 +1013,9 @@ class Atlas_O_T_soldier_TL_F: Atlas_O_T_soldier_base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_545x39_AK12_Mag_F),
-        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
-        mag_2(17Rnd_9x21_Mag),
+        mag_4(30Rnd_556x45_AUG_Mag_Green_F),
+        mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
+        mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
@@ -1037,22 +1037,22 @@ class Atlas_O_T_Fighter_Pilot_F: Atlas_O_T_soldier_base_F
 	uniformClass = U_O_PilotCoveralls;
     weapons[] =
     {
-        hgun_Rook40_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        hgun_Rook40_F,
+        hgun_Pistol_01_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_2(17Rnd_9x21_Mag),
+        mag_2(10Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_2(17Rnd_9x21_Mag),
+        mag_2(10Rnd_9x21_Mag),
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     linkedItems[] =
@@ -1097,37 +1097,37 @@ class Atlas_O_T_RadioOperator_F: Atlas_O_T_soldier_F
 	linkedItems[] =
 	{
 		V_HarnessO_tan,
-		H_Beret_ocamo,
+		H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_tan,
-		H_Beret_ocamo,
+		H_PASGT_basic_olive_F,
 		DefaultManLinkedItems,
         NVGoggles_OPFOR
 	};
 	backpack = B_RadioBag_01_semiarid_F;
 	weapons[] =
     {
-        arifle_AK12_545_FL_F,
+        arifle_AUG_black_flash_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_FL_F,
+        arifle_AUG_black_flash_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_10(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_10(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
     };

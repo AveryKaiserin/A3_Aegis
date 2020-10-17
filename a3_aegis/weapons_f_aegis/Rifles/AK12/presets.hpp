@@ -213,6 +213,24 @@ class arifle_AK12_545_arco_pointer_F: arifle_AK12_545_F
 		};
 	};
 };
+// AK-12 5.45 mm + Mk17 Holosight (Black) + IR Laser Pointer
+class arifle_AK12_545_holo_pointer_F: arifle_AK12_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // AK-12 GL 5.45 mm + ACO AK (Green) + IR Laser Pointer
 class arifle_AK12_GL_545_aco_pointer_F: arifle_AK12_GL_545_F
 {
@@ -249,6 +267,24 @@ class arifle_AK12_GL_545_arco_pointer_F: arifle_AK12_GL_545_F
 		};
 	};
 };
+// AK-12 GL 5.45 mm + Mk17 Holosight (Black) + IR Laser Pointer
+class arifle_AK12_GL_545_holo_pointer_F: arifle_AK12_GL_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // AKU-12 5.45 mm + ACO AK (Green)
 class arifle_AK12U_545_aco_F: arifle_AK12U_545_F
 {
@@ -272,6 +308,24 @@ class arifle_AK12U_545_aco_pointer_F: arifle_AK12U_545_F
 		{
 			slot = CowsSlot;
 			item = optic_ACO_grn_AK_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+// AKU-12 5.45 mm + Mk17 Holosight (Black) + IR Laser Pointer
+class arifle_AK12U_545_holo_pointer_F: arifle_AK12U_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
 		};
 		class LinkedItemsAcc
 		{

@@ -52,6 +52,19 @@ class arifle_G36_Holo_Pointer_F: arifle_G36_F
 		};
 	};
 };
+// G36K 6.5 mm + IR Laser Pointer
+class arifle_G36_Pointer_F: arifle_G36_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // G36K 6.5 mm + MRCO + Flashlight
 class arifle_G36_MRCO_FL_F: arifle_G36_F
 {
@@ -98,6 +111,19 @@ class arifle_G36_FL_F: arifle_G36_F
 		{
 			slot = PointerSlot;
 			item = acc_flashlight;
+		};
+	};
+};
+// G36K GL 6.5 mm + ACO (Red)
+class arifle_G36_GL_ACO_F: arifle_G36_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
 		};
 	};
 };
@@ -215,6 +241,19 @@ class arifle_G36C_Holo_Pointer_F: arifle_G36C_F
 			slot = CowsSlot;
 			item = optic_Holosight_blk_F;
 		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+// G36C 6.5 mm + IR Laser Pointer
+class arifle_G36C_Pointer_F: arifle_G36C_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
 		class LinkedItemsAcc
 		{
 			slot = PointerSlot;

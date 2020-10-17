@@ -192,12 +192,12 @@ class Atlas_O_T_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AK12_545_F,2);
+		weap_xx(arifle_AUG_black_F,2);
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_545x39_AK12_Mag_F,12);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
+		mag_xx(75Rnd_762x39_Mag_F,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
