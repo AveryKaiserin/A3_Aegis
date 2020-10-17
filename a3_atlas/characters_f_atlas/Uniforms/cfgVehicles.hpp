@@ -53,7 +53,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(Atlas_U_O_W_PilotCoveralls,$STR_A3_A_CfgWeapons_U_O_W_PilotCoveralls0)
 	UNIFORM_HOLDER(Atlas_U_O_W_OfficerUniform,$STR_A3_A_CfgWeapons_U_O_W_OfficerUniform0)
 	UNIFORM_HOLDER(Atlas_U_O_officer_noInsignia_whex_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_whex_F0)
-	// Germany
+	// Bundeswehr
 	UNIFORM_HOLDER(Atlas_U_B_G_CombatUniform_wdl,$STR_A3_A_CfgWeapons_U_B_G_CombatUniform_wdl0)
 	UNIFORM_HOLDER(Atlas_U_B_G_CombatUniform_tshirt_wdl,$STR_A3_A_CfgWeapons_U_B_G_CombatUniform_tshirt_wdl0)
 	UNIFORM_HOLDER(Atlas_U_B_G_CombatUniform_vest_wdl,$STR_A3_A_CfgWeapons_U_B_G_CombatUniform_vest_wdl0)
@@ -63,13 +63,12 @@ class CfgVehicles
 	UNIFORM_HOLDER(Atlas_U_O_CombatUniform_semiarid,$STR_A3_A_CfgWeapons_U_O_CombatUniform_semiarid0)
 	UNIFORM_HOLDER(Atlas_U_O_officer_noInsignia_semiarid_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_semiarid_F0)
     /*
-	// ADF
-	UNIFORM_HOLDER(Atlas_U_B_O_CombatUniform_aucamo_f,$STR_A3_A_CfgWeapons_U_B_O_CombatUniform_aucamo_f0)
-	UNIFORM_HOLDER(Atlas_U_B_O_CombatUniform_tshirt_aucamo_f,$STR_A3_A_CfgWeapons_U_B_O_CombatUniform_tshirt_aucamo_f0)
-	UNIFORM_HOLDER(Atlas_U_B_O_CombatUniform_vest_aucamo_f,$STR_A3_A_CfgWeapons_U_B_O_CombatUniform_vest_aucamo_f0)
-	UNIFORM_HOLDER(Atlas_U_B_O_PilotCoveralls,$STR_A3_A_CfgWeapons_U_B_O_PilotCoveralls0)
-	UNIFORM_HOLDER(Atlas_U_B_O_Wetsuit,$STR_A3_A_CfgWeapons_U_B_O_Wetsuit0)
-	UNIFORM_HOLDER(Atlas_U_B_O_CBRN_Suit_01_Aucamo_F,$STR_A3_A_CfgWeapons_U_B_O_CBRN_Suit_01_Aucamo_F0)
+	// ANZAC
+	UNIFORM_HOLDER(Atlas_U_B_A_CombatUniform_aucamo,$STR_A3_A_CfgWeapons_U_B_A_CombatUniform_aucamo0)
+	UNIFORM_HOLDER(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo,$STR_A3_A_CfgWeapons_U_B_A_CombatUniform_shortsleeve_aucamo0)
+	UNIFORM_HOLDER(Atlas_U_B_A_PilotCoveralls,$STR_A3_A_CfgWeapons_U_B_A_PilotCoveralls0)
+	UNIFORM_HOLDER(Atlas_U_B_A_Wetsuit,$STR_A3_A_CfgWeapons_U_B_A_Wetsuit0)
+	UNIFORM_HOLDER(Atlas_U_B_A_CBRN_Suit_01_Aucamo_F,$STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_Aucamo_F0)
     */
 	// HIMF
 	UNIFORM_HOLDER(Atlas_U_B_H_Soldier_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_F0)

@@ -324,15 +324,15 @@ class CfgVehicles
 	class B_Rangemaster_belt: B_Rangemaster_belt_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_V_Rangemaster_belt0;
+		scope = protected;
+		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_rgr_CO.paa"};
 	};
 	class B_Rangemaster_belt_khk: B_Rangemaster_belt_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_khk0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_khk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_khk_CO.paa"};
@@ -340,7 +340,7 @@ class CfgVehicles
 	class B_Rangemaster_belt_cbr: B_Rangemaster_belt_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_cbr0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_cbr_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_cbr_CO.paa"};
@@ -348,7 +348,7 @@ class CfgVehicles
 	class B_Rangemaster_belt_blk: B_Rangemaster_belt_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_blk0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_blk_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_blk_CO.paa"};
@@ -356,7 +356,7 @@ class CfgVehicles
 	class B_Rangemaster_belt_oli: B_Rangemaster_belt_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
+		scope = protected;
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt_oli0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_Rangemaster_belt_oli_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_oli_CO.paa"};

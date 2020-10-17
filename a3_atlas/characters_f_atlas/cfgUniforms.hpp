@@ -1,5 +1,7 @@
 // Arma 3
 class B_Soldier_04_f;
+class B_diver_F;
+class B_Pilot_F;
 class C_man_1_1_F;
 class C_man_p_fugitive_F;
 class I_G_Soldier_M_F;
@@ -174,7 +176,7 @@ class Atlas_B_ReconFatigues_01_sage_F: B_Soldier_SL_F
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
 	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
 };
-// Germany
+// Bundeswehr
 class Atlas_B_G_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -264,6 +266,66 @@ class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa",
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 	};
+};
+// ANZAC
+class Atlas_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	modelSides[] =
+	{
+		TWest,
+		TCivilian
+	};
+	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
+};
+class Atlas_B_A_CombatFatigues_01_RolledUp_aucamo_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	modelSides[] =
+	{
+		TWest,
+		TCivilian
+	};
+	uniformClass = Atlas_U_B_A_CombatUniform_shortsleeve_aucamo;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
+};
+class Atlas_B_A_PilotCoveralls_01_F: B_Pilot_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_A_PilotCoveralls;
+	hiddenSelections[] =
+	{
+		camo,
+		insignia
+	};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\pilot_suit_aucamo_CO.paa"};
+};
+class Atlas_B_A_Wetsuit_01_F: B_diver_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_A_Wetsuit;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_suit_aucamo_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa"
+	};
+	hiddenUnderwaterSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\diver_equip_aucamo_CO.paa",
+		"\A3\Characters_F\Data\visors_CA.paa"
+	};
+};
+class Atlas_B_A_CBRN_Man_Oversuit_01_Aucamo_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	uniformClass = Atlas_U_B_A_CBRN_Suit_01_Aucamo_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Aucamo_CO.paa"};
 };
 // HIMF
 class Atlas_B_H_CombatFatigues_01_jungle_F: I_E_Uniform_01_F

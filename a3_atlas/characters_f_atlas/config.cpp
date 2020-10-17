@@ -19,7 +19,7 @@ class CfgVehicles
 	#include "cfgBlufor_Atlas.hpp"		// Germany
 	#include "cfgOpfor_Atlas.hpp"		// Takistani Army
 	/*
-    #include "cfgADF.hpp"				// ANZAC
+    #include "cfgAnzac.hpp"				// ANZAC
 	*/
     #include "cfgHIMF.hpp"				// HIMF
     /*
