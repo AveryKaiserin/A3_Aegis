@@ -312,6 +312,21 @@ class CfgHints
 	{
 		// Arma 3
 		// Arma 3 Aegis
+		class Heli_Attack_03
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0},
+				{STR_A3_A_CfgVehicles_Heli_Attack_03_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = I_Heli_Attack_03_F;
+			modelScale = 0.4;
+			logicalOrder = 42;
+		};
 		class Plane_Fighter_05
 		{
 			displayName = %11;

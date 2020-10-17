@@ -21,7 +21,7 @@ class CfgMagazines
 	class 150Rnd_762x51_Box_Yellow: 150Rnd_762x51_Box
 	{
 		displayName = "7.62 mm 150Rnd Reload Tracer (Yellow) Box";
-		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: Negev";
+		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: Zafir";
 		ammo = B_762x51_Tracer_Yellow;
 	};
 	class 150Rnd_762x51_Box_Tracer_Yellow: 150Rnd_762x51_Box
@@ -29,7 +29,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "7.62 mm 150Rnd Tracer (Yellow) Box";
 		displayNameShort = $STR_A3_tracer_dns;
-		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: Negev";
+		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: Zafir";
 		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
 		tracersEvery = 1;
 	};
@@ -38,6 +38,7 @@ class CfgMagazines
 		//picture = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Data\UI\icon_30Rnd_556x45_AUG_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.56 mm 30Rnd AUG Reload Tracer (Red) Mag";
+        descriptionShort = "Caliber: 5.56x45 mm STANAG<br />Rounds: 30<br />Used in: AUR 90" /*$STR_A3_A_CfgMagazines_30Rnd_556x45_AUG_Mag_F1*/;
 		modelSpecial = "\A3_Atlas\Weapons_F_Atlas\MagazineProxies\Mag_556x45_AUG_30Rnd.p3d";
 		ammo = B_556x45_Ball_Tracer_Red;
 		hiddenSelections[] = {Camo};
@@ -49,6 +50,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.56 mm 30Rnd AUG Tracer (Red) Mag";
 		displayNameShort = $STR_A3_TRACER_DNS;
+		descriptionShort = "Caliber: 5.56x45 mm STANAG Tracer - Red<br />Rounds: 30<br />Used in: AUR 90" /*$STR_A3_A_CfgMagazines_30Rnd_556x45_AUG_Mag_Tracer_F1*/;
 		tracersEvery = 1;
 		lastRoundsTracer = 30;
 	};
@@ -64,6 +66,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "5.56 mm 30Rnd AUG Tracer (Green) Mag";
 		displayNameShort = $STR_A3_TRACER_DNS;
+		descriptionShort = "Caliber: 5.56x45 mm STANAG Tracer - Green<br />Rounds: 30<br />Used in: AUR 90" /*$STR_A3_A_CfgMagazines_30Rnd_556x45_AUG_Mag_Tracer_Green_F1*/;
 		tracersEvery = 1;
 		lastRoundsTracer = 30;
 	};
