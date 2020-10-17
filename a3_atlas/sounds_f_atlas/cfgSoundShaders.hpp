@@ -9,7 +9,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closure_02",1}
 		};
 		range = 5;
-		volume = db-3;
+		volume = db0;
 	};
 	class AUG_closeShot_SoundShader
 	{
@@ -19,7 +19,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",3}
 		};
-		volume = db-4;
+		volume = db0;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
