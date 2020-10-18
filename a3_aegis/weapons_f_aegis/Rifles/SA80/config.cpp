@@ -37,10 +37,10 @@ class CfgWeapons
 			OFP2_ManSkeleton,
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\Anim\SA80_vfg.rtm"
 		};
-		reloadAction = GestureReloadTRG;
+		reloadAction = GestureReloadSA80;
 		magazines[] = {30Rnd_65x39_caseless_black_mag};
 		magazineWell[] = {MX_65x39};
-		magazineReloadSwitchPhase = 0.48;
+		magazineReloadSwitchPhase = 0.34;
 		recoil = recoil_sa80;
 		initSpeed = 930;
 		inertia = 0.5;
