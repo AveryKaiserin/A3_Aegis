@@ -256,7 +256,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
 		baseWeapon = arifle_AUG_F;
 	};
 	class arifle_AUG_GL_F: arifle_AUG_GL_base_F
@@ -264,7 +264,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_GL_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_F_X_CA.paa";
 		baseWeapon = arifle_AUG_GL_F;
 	};
 	class arifle_AUG_C_F: arifle_AUG_C_base_F
@@ -272,7 +272,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_C_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_F_X_CA.paa";
 		baseWeapon = arifle_AUG_C_F;
 	};
 	class arifle_AUG_black_F: arifle_AUG_black_base_F
@@ -280,7 +280,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_black_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
 		baseWeapon = arifle_AUG_black_F;
 	};
 	class arifle_AUG_GL_black_F: arifle_AUG_GL_black_base_F
@@ -288,7 +288,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_GL_black_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_black_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_GL_black_F_X_CA.paa";
 		baseWeapon = arifle_AUG_GL_black_F;
 	};
 	class arifle_AUG_C_black_F: arifle_AUG_C_black_base_F
@@ -296,7 +296,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_and_Luchador;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AUG_C_black_F0;
-		//picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_black_F_X_CA.paa";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_C_black_F_X_CA.paa";
 		baseWeapon = arifle_AUG_C_black_F;
 	};
 	#include "presets.hpp"

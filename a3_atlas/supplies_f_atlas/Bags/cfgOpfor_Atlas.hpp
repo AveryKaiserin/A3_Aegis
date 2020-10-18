@@ -6,7 +6,7 @@ class B_Carryall_semiarid_Ammo_F: B_Carryall_semiarid
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
-		mag_xx(75Rnd_762x39_Mag_F,4);
+		mag_xx(75Rnd_762x39_Mag_Green_F,4);
 	};
 };
 class B_FieldPack_semiarid_Medic_F: B_FieldPack_semiarid

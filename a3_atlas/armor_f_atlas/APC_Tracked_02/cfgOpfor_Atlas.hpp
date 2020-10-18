@@ -212,7 +212,7 @@ class Atlas_O_T_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
-		mag_xx(75Rnd_762x39_Mag_F,8);
+		mag_xx(75Rnd_762x39_Mag_Green_F,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);

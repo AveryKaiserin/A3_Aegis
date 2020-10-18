@@ -233,9 +233,9 @@ class Box_RUS_Equip_F: Box_CSAT_Equip_F
         item_xx(H_Booniehat_taiga_hs,1);
         item_xx(H_MilCap_taiga,2);
         item_xx(H_Tank_black_F,2);
-        item_xx(H_CrewHelmetHeli_O_R,2);
-        item_xx(H_PilotHelmetHeli_O_R,2);
-        item_xx(H_PilotHelmetFighter_O_R,4);
+        item_xx(H_CrewHelmetHeli_O,2);
+        item_xx(H_PilotHelmetHeli_O,2);
+        item_xx(H_PilotHelmetFighter_I,4);
         item_xx(H_HelmetAggressor_F,4);
         item_xx(H_HelmetAggressor_cover_F,4);
         item_xx(H_HelmetAggressor_cover_taiga_F,4);

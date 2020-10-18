@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(H_HelmetCrew_I_E,H_HelmetCrew_I)
+DEPRECATED_CLASS(H_Tank_eaf_F,H_Tank_black_F)
+DEPRECATED_CLASS(H_PilotHelmetFighter_O_R,H_PilotHelmetFighter_I)
+DEPRECATED_CLASS(H_CrewHelmetHeli_O_R,H_CrewHelmetHeli_O)
+DEPRECATED_CLASS(H_PilotHelmetHeli_O_R,H_PilotHelmetHeli_O)

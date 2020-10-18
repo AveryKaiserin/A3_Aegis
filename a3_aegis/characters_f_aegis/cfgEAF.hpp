@@ -1207,14 +1207,14 @@ class I_E_Crew_F: I_E_Soldier_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_EAF_F,
-		H_Tank_eaf_F,
+		H_Tank_black_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_EAF_F,
-		H_Tank_eaf_F,
+		H_Tank_black_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};

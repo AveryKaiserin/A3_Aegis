@@ -48,6 +48,10 @@ class CfgVehicles
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecB_sand0;
 	};
+	class Headgear_H_HelmetIA: Headgear_Base_F
+	{
+	  	displayName = "Modular Helmet (Digi)";
+	};
 	class Headgear_H_Cap_brn_SPECOPS: Headgear_Base_F
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_Cap_brn_SPECOPS0;
@@ -59,6 +63,46 @@ class CfgVehicles
 	class Headgear_H_Cap_usblack: Headgear_Base_F
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_Cap_usblack0;
+	};
+	class Headgear_H_HelmetCrew_B: Headgear_Base_F
+	{
+        displayName = "Modular Crew Helmet (Olive)";
+	};
+    class Headgear_H_HelmetCrew_O: Headgear_Base_F
+    {
+        displayName = "Modular Crew Helmet (Hex)";
+    };
+	class Headgear_H_HelmetCrew_I: Headgear_Base_F
+    {
+        displayName = "Crew Helmet (Green)";
+    };
+	class Headgear_H_PilotHelmetFighter_B: Headgear_Base_F
+    {
+        displayName = "Pilot Helmet (Black)";
+    };
+	class Headgear_H_PilotHelmetFighter_O: Headgear_Base_F
+    {
+        displayName = "Pilot Helmet (Olive)";
+    };
+	class Headgear_H_PilotHelmetFighter_I: Headgear_Base_F
+	{
+        displayName = "Pilot Helmet (White)";
+	};
+	class Headgear_H_PilotHelmetHeli_B: Headgear_Base_F
+	{
+        displayName = "Heli Pilot Helmet (Black)";
+	};
+	class Headgear_H_PilotHelmetHeli_O: Headgear_Base_F
+	{
+        displayName = "Heli Pilot Helmet (Olive)";
+	};
+	class Headgear_H_CrewHelmetHeli_B: Headgear_Base_F
+    {
+        displayName = "Heli Crew Helmet (Black)";
+    };
+	class Headgear_H_CrewHelmetHeli_O: Headgear_Base_F
+	{
+        displayName = "Heli Crew Helmet (Olive)";
 	};
 	HEADGEAR_HOLDER(H_MilCap_oucamo,$STR_A3_H_MilCap_oucamo0,EdSubcat_Hats)
 	class Headgear_H_Bandanna_khk_hs: Headgear_Base_F
@@ -80,6 +124,15 @@ class CfgVehicles
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_HelmetB_Enh_tna_F0;
 	};
+	class Headgear_H_HelmetCrew_O_ghex_F: Headgear_Base_F
+	{
+        displayName = "Modular Crew Helmet (Green Hex)";
+	};
+    // Arma 3 Tanks
+	class Headgear_H_Tank_black_F: Headgear_Base_F
+	{
+		displayName = "Soft Crew Helmet (Black)";
+	};
 	// Arma 3 Enoch
 	class Headgear_H_HelmetHBK_F: Headgear_Base_F
 	{
@@ -100,10 +153,6 @@ class CfgVehicles
 	class Headgear_H_HelmetSpecB_wdl: Headgear_Base_F
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecB_wdl0;
-	};
-	class Headgear_H_HelmetCrew_I_E: Headgear_Base_F
-	{
-		scope = protected;
 	};
 	// Argo
 	HEADGEAR_HOLDER(H_I_Helmet_canvas_Green,$STR_A3_A_CfgWeapons_H_I_Helmet_canvas_Green0,EdSubcat_Helmets)
@@ -133,10 +182,10 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Cap_blk_ION_hs,$STR_A3_A_CfgWeapons_H_Cap_blk_ION_hs0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Cap_usblack_hs,$STR_A3_A_CfgWeapons_H_Cap_usblack_hs0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Cap_oicamo_hs,$STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0,EdSubcat_Hats)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_visor_up,"Heli Pilot Helmet (Visor-up) [NATO]",EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_visor_up,"Heli Pilot Helmet (Visor-up) [CSAT]",EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_visor_up,"Heli Pilot Helmet (Visor-up) [AAF]",EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_E_visor_up,"Heli Pilot Helmet (Visor-up) [LDF]",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_visor_up,"Heli Pilot Helmet (Black, Visor-up)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_visor_up,"Heli Pilot Helmet (Olive, Visor-up)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_visor_up,"Heli Pilot Helmet [AAF] (Visor-up)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_E_visor_up,"Heli Pilot Helmet (Green, Visor-up)",EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetO_blk,$STR_A3_A_CfgWeapons_H_HelmetO_blk0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetLeaderO_blk,$STR_A3_A_CfgWeapons_H_HelmetLeaderO_blk0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetO_oicamo,$STR_A3_A_CfgWeapons_H_HelmetO_oicamo0,EdSubcat_Helmets)
@@ -170,7 +219,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Headset_light,$STR_A3_A_CfgWeapons_H_Headset_light0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_HelmetB_Camo_tna_F,$STR_A3_A_CfgWeapons_H_HelmetB_Camo_tna_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetB_Enh_Light_tna_F,$STR_A3_A_CfgWeapons_H_HelmetB_Enh_Light_tna_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetCrew_B_oli_F,$STR_A3_A_CfgWeapons_H_HelmetCrew_B_oli_F0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_HelmetCrew_B_oli_F,"Modular Crew Helmet (Green)",EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_Booniehat_tna_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_tna_hs_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_ghex_F,$STR_A3_A_CfgWeapons_H_Booniehat_ghex_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Booniehat_ghex_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_ghex_hs_F0,EdSubcat_Hats)
@@ -201,9 +250,12 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Cap_eaf_hs_F,$STR_A3_A_CfgWeapons_H_Cap_eaf_hs_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_HelmetB_camo_wdl,$STR_A3_A_CfgWeapons_H_HelmetB_camo_wdl0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecB_light_wdl,$STR_A3_A_CfgWeapons_H_HelmetSpecB_light_wdl0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetFighter_O_R,$STR_A3_A_CfgWeapons_H_PilotHelmetFighter_O_R0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_CrewHelmetHeli_O_R,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_O_R0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_R,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_O_R0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_ocamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ocamo0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_oucamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_oucamo0,EdSubcat_Helmets)
+    // Deprecated classes
+    DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I)
+    DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F)
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetFighter_O_R,Headgear_H_PilotHelmetFighter_I)
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_O_R,Headgear_H_CrewHelmetHeli_O)
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_O_R,Headgear_H_PilotHelmetHeli_O)
 };

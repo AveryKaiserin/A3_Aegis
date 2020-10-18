@@ -159,13 +159,13 @@ class Atlas_O_T_soldier_AR_F: Atlas_O_T_soldier_base_F
 	};
     magazines[] =
     {
-        mag_8(75Rnd_762x39_Mag_F),
+        mag_8(75Rnd_762x39_Mag_Green_F),
         HandGrenade,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_8(75Rnd_762x39_Mag_F),
+        mag_8(75Rnd_762x39_Mag_Green_F),
         HandGrenade,
         mag_2(SmokeShell)
     };

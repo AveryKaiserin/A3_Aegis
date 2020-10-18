@@ -268,6 +268,7 @@ class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 	};
 };
 // ANZAC
+/*
 class Atlas_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
 {
   	scope = protected;
@@ -327,6 +328,7 @@ class Atlas_B_A_CBRN_Man_Oversuit_01_Aucamo_F: B_CBRN_Man_Oversuit_01_MTP_F
 	uniformClass = Atlas_U_B_A_CBRN_Suit_01_Aucamo_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Aucamo_CO.paa"};
 };
+*/
 // HIMF
 class Atlas_B_H_CombatFatigues_01_jungle_F: I_E_Uniform_01_F
 {

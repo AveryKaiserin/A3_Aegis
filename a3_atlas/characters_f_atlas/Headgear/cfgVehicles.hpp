@@ -18,6 +18,11 @@
 class CfgVehicles
 {
 	class Headgear_Base_F;
+    class Headgear_H_HelmetCrew_I;
+    class Headgear_H_PilotHelmetHeli_O;
+    class Headgear_H_PilotHelmetHeli_B;
+    class Headgear_H_CrewHelmetHeli_O;
+    class Headgear_H_CrewHelmetHeli_B;
 	// Arma 3 Atlas
 	HEADGEAR_HOLDER(H_HelmetB_green,$STR_A3_A_CfgWeapons_H_HelmetB_green0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecB_green,$STR_A3_A_CfgWeapons_H_HelmetSpecB_green0,EdSubcat_Helmets)
@@ -32,11 +37,13 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetLeaderO_whex_F,$STR_A3_A_CfgWeapons_H_HelmetLeaderO_whex_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecO_whex_F,$STR_A3_A_CfgWeapons_H_HelmetSpecO_whex_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetO_ViperSP_whex_F,$STR_A3_A_CfgWeapons_H_HelmetO_ViperSP_whex_F0,EdSubcat_Helmets)
+    /*
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_headset_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_headset_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_ear_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_ear_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_chops_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_chops_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_F0,EdSubcat_Helmets)
+	*/
+    HEADGEAR_HOLDER(H_HelmetSpecter_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecter_black_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecter_brown_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecter_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_headset_F0,EdSubcat_Helmets)
@@ -64,26 +71,18 @@ class CfgVehicles
     /*
 	HEADGEAR_HOLDER(H_MilCap_autumn,$STR_A3_A_CfgWeapons_H_MilCap_autumn0,EdSubcat_Hats)
     */
-	HEADGEAR_HOLDER(H_HelmetCrew_B_H,$STR_A3_A_CfgWeapons_H_HelmetCrew_B_H0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetCrew_I_I,$STR_A3_A_CfgWeapons_H_HelmetCrew_I_I0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetFighter_B_A,$STR_A3_A_CfgWeapons_H_PilotHelmetFighter_B_O0,EdSubcat_Helmets)
-    /*
-	HEADGEAR_HOLDER(H_PilotHelmetFighter_I_W,$STR_A3_A_CfgWeapons_H_PilotHelmetFighter_I_W0,EdSubcat_Helmets)
-    */
+	HEADGEAR_HOLDER(H_HelmetCrew_I_I,"Crew Helmet (Sand)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetFighter_B_A,"Pilot Helmet [ANZAC]";,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_PilotHelmetFighter_I_I,$STR_A3_A_CfgWeapons_H_PilotHelmetFighter_I_I0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_A,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_O0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_H,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_B_H0,EdSubcat_Helmets)
-    /*
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_W,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_I_W0,EdSubcat_Helmets)
-    */
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_I,$STR_A3_A_CfgWeapons_H_PilotHelmetHeli_I_I0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_CrewHelmetHeli_B_A,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_O0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_CrewHelmetHeli_B_H,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_B_H0,EdSubcat_Helmets)
-    /*
-	HEADGEAR_HOLDER(H_CrewHelmetHeli_I_W,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_W0,EdSubcat_Helmets)
-    */
-	HEADGEAR_HOLDER(H_CrewHelmetHeli_I_I,$STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_A,"Heli Pilot Helmet [ANZAC]";,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_CrewHelmetHeli_B_A,"Heli Crew Helmet [ANZAC]";,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_Hat_Pakol_brn_F,"Traditional Hat (Brown)",EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Hat_Pakol_gry_F,"Traditional Hat (Grey)",EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Hat_Pakol_tan_F,"Traditional Hat (Tan)",EdSubcat_Hats)
+    // Deprecated classes
+    DEPRECATED_CLASS(Headgear_H_HelmetCrew_B_H,Headgear_H_HelmetCrew_I)
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_B_H,Headgear_H_PilotHelmetHeli_O)
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_I_I,Headgear_H_PilotHelmetHeli_B)
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_B_H,Headgear_H_CrewHelmetHeli_O)
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_I_I,Headgear_H_CrewHelmetHeli_B)
 };

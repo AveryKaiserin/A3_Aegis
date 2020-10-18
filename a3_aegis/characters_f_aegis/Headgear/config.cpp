@@ -193,6 +193,7 @@ class CfgWeapons
 	};
 	class H_HelmetIA: H_HelmetB
 	{
+	  	displayName = "Modular Helmet (Digi)";
 		class ItemInfo;
 	};
 	class H_HelmetB_black: H_HelmetB
@@ -404,31 +405,51 @@ class CfgWeapons
 	};
 	class H_HelmetCrew_B: H_HelmetB
 	{
+        displayName = "Modular Crew Helmet (Olive)";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Beta\Indep\Data\armor1_oli_CO.paa"};
 	};
-    class H_HelmetCrew_O;
-	class H_HelmetCrew_I: H_HelmetCrew_B{};
-	class H_PilotHelmetFighter_B;
-	class H_PilotHelmetFighter_O;
+    class H_HelmetCrew_O: H_HelmetCrew_B
+    {
+        displayName = "Modular Crew Helmet (Hex)";
+    };
+	class H_HelmetCrew_I: H_HelmetCrew_B
+    {
+        displayName = "Crew Helmet (Green)";
+    };
+	class H_PilotHelmetFighter_B: H_HelmetB
+    {
+        displayName = "Pilot Helmet (Black)";
+    };
+	class H_PilotHelmetFighter_O: H_PilotHelmetFighter_B
+    {
+        displayName = "Pilot Helmet (Olive)";
+    };
 	class H_PilotHelmetFighter_I: H_PilotHelmetFighter_B
 	{
+        displayName = "Pilot Helmet (White)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetFighter_I_CA.paa";
 	};
 	class H_PilotHelmetHeli_B: H_HelmetB
 	{
+        displayName = "Heli Pilot Helmet (Black)";
 		class ItemInfo;
 	};
 	class H_PilotHelmetHeli_O: H_PilotHelmetHeli_B
 	{
+        displayName = "Heli Pilot Helmet (Olive)";
 		class ItemInfo;
 	};
 	class H_PilotHelmetHeli_I: H_PilotHelmetHeli_B
 	{
 		class ItemInfo;
 	};
-	class H_CrewHelmetHeli_B;
+	class H_CrewHelmetHeli_B: H_HelmetB
+    {
+        displayName = "Heli Crew Helmet (Black)";
+    };
 	class H_CrewHelmetHeli_O: H_CrewHelmetHeli_B
 	{
+        displayName = "Heli Crew Helmet (Olive)";
 		class ItemInfo;
 	};
 	class H_CrewHelmetHeli_I;
@@ -993,6 +1014,10 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_Light_tna_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetB_tna_F_CO.paa"};
 	};
+	class H_HelmetCrew_O_ghex_F: H_HelmetCrew_O
+    {
+        displayName = "Modular Crew Helmet (Green Hex)";
+    };
 	class H_MilCap_tna_F: H_MilCap_ocamo
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_MilCap_tna_F_CO.paa"};
@@ -1155,6 +1180,12 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_PASGT_olive_CO.paa"};
 	};
 	class H_PASGT_neckprot_base_F;
+    // Arma 3 Tanks
+	class H_Tank_base_F;
+    class H_Tank_black_F: H_Tank_base_F
+    {
+		displayName = "Soft Crew Helmet (Black)";
+    };
 	// Arma 3 Enoch
 	class H_HelmetHBK_base_F;
 	class H_HelmetHBK_headset_base_F;
@@ -1192,22 +1223,21 @@ class CfgWeapons
 	{
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecB_wdl0;
 	};
-	class H_HelmetCrew_I_E: H_HelmetCrew_I
-	{
-		scope = protected;
-	};
 	class H_PilotHelmetFighter_I_E: H_PilotHelmetFighter_O
 	{
+        displayName = "Pilot Helmet (Green)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetFighter_I_E_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\pilot_helmet_eaf_CO.paa"};
 	};
 	class H_PilotHelmetHeli_I_E: H_PilotHelmetHeli_O
 	{
+        displayName = "Heli Pilot Helmet (Green)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetHeli_I_E_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\helmet_heli_eaf_CO.paa"};
 	};
 	class H_CrewHelmetHeli_I_E: H_CrewHelmetHeli_O
 	{
+        displayName = "Heli Crew Helmet (Green)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_CrewHelmetHeli_I_E_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\helmet_heli_eaf_CO.paa"};
 	};
@@ -1470,7 +1500,7 @@ class CfgWeapons
 	class H_PilotHelmetHeli_B_visor_up: H_PilotHelmetHeli_B
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = "Heli Pilot Helmet (Visor-up) [NATO]";
+		displayName = "Heli Pilot Helmet (Black, Visor-up)";
 		model = "\A3\Characters_F\Common\headgear_helmet_heli_visor_up.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1480,7 +1510,7 @@ class CfgWeapons
 	class H_PilotHelmetHeli_O_visor_up: H_PilotHelmetHeli_O
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = "Heli Pilot Helmet (Visor-up) [CSAT]";
+		displayName = "Heli Pilot Helmet (Olive, Visor-up)";
 		model = "\A3\Characters_F\Common\headgear_helmet_heli_visor_up.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1490,7 +1520,7 @@ class CfgWeapons
 	class H_PilotHelmetHeli_I_visor_up: H_PilotHelmetHeli_I
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = "Heli Pilot Helmet (Visor-up) [AAF]";
+		displayName = "Heli Pilot Helmet [AAF] (Visor-up)";
 		model = "\A3\Characters_F\Common\headgear_helmet_heli_visor_up.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1500,7 +1530,7 @@ class CfgWeapons
 	class H_PilotHelmetHeli_I_E_visor_up: H_PilotHelmetHeli_I_E
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = "Heli Pilot Helmet (Visor-up) [LDF]";
+		displayName = "Heli Pilot Helmet (Green, Visor-up)";
 		model = "\A3\Characters_F\Common\headgear_helmet_heli_visor_up.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -1910,7 +1940,7 @@ class CfgWeapons
 	class H_HelmetCrew_B_oli_F: H_HelmetCrew_B
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetCrew_B_oli_F0;
+        displayName = "Modular Crew Helmet (Green)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetCrew_B_oli_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\armor1_CO.paa"};
 	};
@@ -2181,23 +2211,6 @@ class CfgWeapons
 		picture = "\A3\Characters_F_Enoch\Headgear\Data\UI\icon_H_HelmetB_light_wdl_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\equip1_wdl_CO.paa"};
 	};
-	class H_PilotHelmetFighter_O_R: H_PilotHelmetFighter_I
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetFighter_O_R0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_PilotHelmetFighter_O_R_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\pilot_helmet_RUS_CO.paa"};
-	};
-	class H_CrewHelmetHeli_O_R: H_CrewHelmetHeli_O
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_CrewHelmetHeli_O_R0;
-	};
-	class H_PilotHelmetHeli_O_R: H_PilotHelmetHeli_O
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_PilotHelmetHeli_O_R0;
-	};
 	class H_O_Helmet_canvas_ocamo: H_HelmetIA
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
@@ -2212,4 +2225,6 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_O_Helmet_canvas_oucamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_helmet_canvas_oucamo_CO.paa"};
 	};
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -19,7 +19,7 @@ class Box_TKA_Wps_F: ReammoBox_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,8);
-		mag_xx(75Rnd_762x39_Mag_F,2);
+		mag_xx(75Rnd_762x39_Mag_Green_F,2);
 		mag_xx(10Rnd_762x54_Mag,2);
 	};
 	class TransportWeapons
@@ -53,7 +53,7 @@ class Box_TKA_Ammo_F: ReammoBox_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,48);
-		mag_xx(75Rnd_762x39_Mag_F,16);
+		mag_xx(75Rnd_762x39_Mag_Green_F,16);
 		mag_xx(10Rnd_762x54_Mag,12);
 	};
 	class TransportWeapons{};

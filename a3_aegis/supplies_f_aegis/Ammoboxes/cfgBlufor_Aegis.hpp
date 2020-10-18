@@ -45,8 +45,8 @@ class Box_A_NATO_Equip_F: Box_NATO_Equip_F
 		item_xx(H_HelmetB_camo_mcamo,8);
 		item_xx(H_HelmetCrew_B,2);
 		item_xx(H_PilotHelmetFighter_B,2);
-		item_xx(H_PilotHelmetHeli_B,2);
-		item_xx(H_CrewHelmetHeli_B,2);
+		item_xx(H_PilotHelmetHeli_O,2);
+		item_xx(H_CrewHelmetHeli_O,2);
 		item_xx(G_B_Diving,2);
 		item_xx(V_RebreatherB,2);
   	};

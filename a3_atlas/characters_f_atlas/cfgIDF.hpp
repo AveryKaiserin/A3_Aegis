@@ -905,14 +905,14 @@ class Atlas_I_I_helipilot_F: Atlas_I_I_Soldier_Base_F
     linkedItems[] =
     {
 		V_TacVest_oli,
-        H_PilotHelmetHeli_I_I,
+        H_PilotHelmetHeli_B,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
 		V_TacVest_oli,
-        H_PilotHelmetHeli_I_I,
+        H_PilotHelmetHeli_B,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
@@ -968,14 +968,14 @@ class Atlas_I_I_helicrew_F: Atlas_I_I_Soldier_Base_F
     linkedItems[] =
     {
 		V_TacVest_oli,
-        H_CrewHelmetHeli_I_I,
+        H_CrewHelmetHeli_B,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };
     respawnLinkedItems[] =
     {
 		V_TacVest_oli,
-        H_CrewHelmetHeli_I_I,
+        H_CrewHelmetHeli_B,
         DefaultManLinkedItems,
         NVGoggles_OPFOR
     };

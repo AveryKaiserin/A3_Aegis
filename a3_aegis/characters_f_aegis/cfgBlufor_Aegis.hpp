@@ -1019,14 +1019,14 @@ class B_A_Helicrew_F: B_helicrew_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Coyote_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Coyote_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
@@ -1068,14 +1068,14 @@ class B_A_Helipilot_F: B_Helipilot_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Coyote_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Coyote_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
@@ -1406,13 +1406,13 @@ class B_A_Pilot_F: B_Pilot_F
 	};
     linkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
@@ -4435,14 +4435,14 @@ class B_A_Helicrew_tna_F: B_A_Helicrew_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
@@ -4476,14 +4476,14 @@ class B_A_Helipilot_tna_F: B_A_Helipilot_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
@@ -4763,13 +4763,13 @@ class B_A_Pilot_tna_F: B_A_Pilot_F
 	};
     linkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_tna_F
     };
@@ -7247,14 +7247,14 @@ class B_A_Helicrew_wdl_F: B_A_Helicrew_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
@@ -7288,14 +7288,14 @@ class B_A_Helipilot_wdl_F: B_A_Helipilot_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
@@ -7575,13 +7575,13 @@ class B_A_Pilot_wdl_F: B_A_Pilot_F
 	};
     linkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };

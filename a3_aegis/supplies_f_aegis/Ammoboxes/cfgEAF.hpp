@@ -113,7 +113,7 @@ class Box_EAF_Equip_F: Box_AAF_Equip_F
         item_xx(V_CarrierRigKBT_01_heavy_EAF_F,2);
         item_xx(V_CarrierRigKBT_01_light_EAF_F,4);
         delete _xx_H_HelmetCrew_I_E;
-        item_xx(H_Tank_eaf_F,2);
+        item_xx(H_Tank_black_F,2);
         item_xx(H_CrewHelmetHeli_I_E,2);
         item_xx(H_PilotHelmetHeli_I_E,2);
         item_xx(H_PilotHelmetFighter_I_E,2);

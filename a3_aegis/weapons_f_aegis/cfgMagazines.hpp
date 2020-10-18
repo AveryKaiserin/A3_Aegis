@@ -132,6 +132,8 @@ class CfgMagazines
 		displayName = $STR_A3_A_CfgMagazines_100Rnd_338_Mag0;
 		count = 100;
 		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_338_Mag1;
+        tracersEvery = 3;
+		lastRoundsTracer = 4;
 		mass = 46;
 	};
 	class 150Rnd_93x64_Mag: CA_Magazine
@@ -139,6 +141,7 @@ class CfgMagazines
 		displayName = $STR_A3_A_CfgMagazines_100Rnd_338_Mag0;
 		count = 120;
 		descriptionShort = $STR_A3_A_CfgMagazines_120Rnd_93x64_Mag1;
+        tracersEvery = 5;
 		mass = 56;
 	};
 	// Arma 3 Apex
@@ -167,6 +170,7 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F1;
 		count = 75;
 		mass = 16;
+        tracersEvery = 4;
 	};
 	class 100Rnd_580x42_Mag_Tracer_F: 100Rnd_580x42_Mag_F
 	{
@@ -201,6 +205,7 @@ class CfgMagazines
 		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F0;
 		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F1;
 		count = 100;
+        tracersEvery = 4;
 		mass = 20;
 	};
 	class 150Rnd_556x45_Drum_Sand_Mag_F: 150Rnd_556x45_Drum_Mag_F
@@ -225,6 +230,10 @@ class CfgMagazines
 		lastRoundsTracer = 100;
 	};
 	// Arma 3 Enoch
+	class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F
+	{
+        tracersEvery = 4;
+    };
 	class 30rnd_762x39_AK12_Lush_Mag_F: 30Rnd_762x39_AK12_Mag_F
 	{
 		displayName = "7.62 mm 30Rnd AK-15 Khaki Mag";
@@ -244,7 +253,8 @@ class CfgMagazines
 	class 75rnd_762x39_AK12_Mag_F: 30Rnd_762x39_AK12_Mag_F
 	{
 		displayName = "7.62 mm 75Rnd AK-15 Mag";
-	};
+        tracersEvery = 4;
+    };
 	class 75rnd_762x39_AK12_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_F
 	{
 		displayName = "7.62 mm 75Rnd AK-15 Tracer Mag";

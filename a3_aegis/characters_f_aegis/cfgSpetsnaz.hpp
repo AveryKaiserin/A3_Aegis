@@ -1614,13 +1614,13 @@ class O_R_helipilot_F: O_R_Soldier_Base_F
 	uniformClass = U_O_R_PilotCoveralls;
     linkedItems[] =
     {
-        H_PilotHelmetHeli_O_R,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         O_NVGoggles_grn_F
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetHeli_O_R,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         O_NVGoggles_grn_F
     };
@@ -1678,13 +1678,13 @@ class O_R_helicrew_F: O_R_Soldier_Base_F
 	uniformClass = U_O_R_PilotCoveralls;
     linkedItems[] =
     {
-        H_CrewHelmetHeli_O_R,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         O_NVGoggles_grn_F
     };
     respawnLinkedItems[] =
     {
-        H_CrewHelmetHeli_O_R,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         O_NVGoggles_grn_F
     };
@@ -3195,12 +3195,12 @@ class O_R_Fighter_Pilot_F: O_R_Soldier_Base_F
 	uniformClass = U_O_R_PilotCoveralls;
     linkedItems[] =
     {
-        H_PilotHelmetFighter_O_R,
+        H_PilotHelmetFighter_I,
         DefaultManLinkedItems
     };
     respawnLinkedItems[] =
     {
-        H_PilotHelmetFighter_O_R,
+        H_PilotHelmetFighter_I,
         DefaultManLinkedItems
     };
 	weapons[] =

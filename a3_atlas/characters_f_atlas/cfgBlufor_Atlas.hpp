@@ -1058,14 +1058,14 @@ class Atlas_B_G_Helicrew_F: B_helicrew_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Green_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Green_F,
-        H_CrewHelmetHeli_B,
+        H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
@@ -1109,14 +1109,14 @@ class Atlas_B_G_Helipilot_F: B_Helipilot_F
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Green_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
 		V_CarrierRigKBT_01_Green_F,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
