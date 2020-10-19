@@ -1998,13 +1998,13 @@ class Atlas_B_G_Soldier_UAV_F: B_soldier_UAV_F
 	backpack = B_UAV_01_backpack_F;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_ACO_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_ACO_Pointer_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};

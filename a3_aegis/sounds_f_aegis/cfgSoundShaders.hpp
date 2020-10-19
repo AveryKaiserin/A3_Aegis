@@ -1447,7 +1447,6 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_closeShot_03",1}
 		};
-		frequency = 0.7;
 		volume = db-2;
 		range = 50;
 		rangeCurve = closeShotCurve;
@@ -1590,7 +1589,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_silencerShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_silencerShot_03",1}
 		};
-		volume = 1;
+		volume = db0;
 		range = 150;
 		rangeCurve = closeShotCurve;
 	};
@@ -1830,7 +1829,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_silencerShot_03",1}
 		};
-		volume = 1;
+		volume = db0;
 		range = 150;
 		rangeCurve = closeShotCurve;
 	};
@@ -2378,7 +2377,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\MP153\MP153_distShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\MP153\MP153_distShot_03",1}
 		};
-		volume = 1;
+		volume = db0;
 		range = 1200;
 		rangeCurve[] =
 		{

@@ -9,7 +9,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closure_02",1}
 		};
 		range = 5;
-		volume = db0;
+		volume = db-1;
 	};
 	class AUG_closeShot_SoundShader
 	{
@@ -19,7 +19,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_closeShot_02",3}
 		};
-		volume = db-4;
+		volume = db1;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
@@ -31,7 +31,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_midShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_midShot_03",1}
 		};
-		volume = db4;
+		volume = db-2;
 		range = 1800;
 		rangeCurve[] =
 		{
@@ -161,7 +161,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_silencerShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_silencerShot_03",1}
 		};
-		volume = 1;
+		volume = db0;
 		range = 150;
 		rangeCurve = closeShotCurve;
 	};
@@ -385,7 +385,7 @@ class CfgSoundShaders
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_silencerShot_02",1},
 			{"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_silencerShot_03",1}
 		};
-		volume = 1;
+		volume = db0;
 		range = 150;
 		rangeCurve = closeShotCurve;
 	};
