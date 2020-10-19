@@ -993,6 +993,7 @@ class CfgWeapons
 			};
 		};
 	};
+	class H_HelmetB_TI_arid_F;
 	class H_HelmetO_ViperSP_hex_F: H_HelmetB
 	{
 		class ItemInfo: HeadgearItem

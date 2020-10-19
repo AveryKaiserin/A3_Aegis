@@ -19,7 +19,7 @@ class CfgEditorSubcategories
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_NATO
 	{
-		displayName = "Ammo (NATO)";
+		displayName = "Ammo (US)";
 	};
 	class EdSubcat_Ammo_AAF
 	{
@@ -31,7 +31,7 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_CSAT
 	{
-		displayName = "Ammo (CSAT)";
+		displayName = "Ammo (IAF)";
 	};
 	class EdSubcat_Ammo_Syndicate
 	{
@@ -39,11 +39,11 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_NATO_Pacific
 	{
-		displayName = "Ammo (NATO Pacific)";
+		displayName = "Ammo (US Pacific)";
 	};
 	class EdSubcat_Ammo_CSAT_Pacific
 	{
-		displayName = "Ammo (CSAT Pacific)";
+		displayName = "Ammo (China)";
 	};
 	class EdSubcat_Ammo_CTRG
 	{
@@ -71,11 +71,11 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_CSAT_African
 	{
-		displayName = "Ammo (CSAT African)";
+		displayName = "Ammo (Argana)";
 	};
 	class EdSubcat_Ammo_NATO_Woodland
 	{
-		displayName = "Ammo (NATO Woodland)";
+		displayName = "Ammo (US Woodland)";
 	};
 	class EdSubcat_Ammo_Spetsnaz
 	{
@@ -91,7 +91,7 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_NATO_British
 	{
-		displayName = "Ammo (NATO British)";
+		displayName = "Ammo (BAF)";
 	};
 	class EdSubcat_Ammo_NATO_Pacific_British
 	{

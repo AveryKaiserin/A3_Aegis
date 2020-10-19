@@ -26,11 +26,6 @@ class CfgWeapons
 	{
 		displayName = "UAV Terminal [Independent]";
 	};
-    // Arma 3 Enoch
-	class I_E_UavTerminal: UavTerminal_base
-	{
-		scope = protected;
-	};
     // Arma 3 Aegis
 	class ItemSmartPhone: ItemCore
 	{

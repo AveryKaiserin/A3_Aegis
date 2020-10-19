@@ -7,7 +7,7 @@ class CfgEditorSubcategories
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_CSAT_Woodland
 	{
-		displayName = "Ammo (CSAT Woodland)";
+		displayName = "Ammo (Belarus)";
 	};
 	class EdSubcat_Ammo_Legion
 	{
@@ -15,15 +15,15 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_NATO_German
 	{
-		displayName = "Ammo (NATO German)";
+		displayName = "Ammo (Bundeswehr)";
 	};
 	class EdSubcat_Ammo_CSAT_Takistani
 	{
-		displayName = "Ammo (CSAT Takistani)";
+		displayName = "Ammo (Takistani Army)";
 	};
-	class EdSubcat_Ammo_ADF
+	class EdSubcat_Ammo_ANZAC
 	{
-		displayName = "Ammo (ADF)";
+		displayName = "Ammo (ANZAC)";
 	};
 	class EdSubcat_Ammo_HIMF
 	{
