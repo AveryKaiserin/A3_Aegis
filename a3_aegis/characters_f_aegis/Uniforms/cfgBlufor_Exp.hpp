@@ -4,6 +4,7 @@ class U_B_T_Soldier_SL_F: Uniform_Base
 	displayName = $STR_A3_A_CfgWeapons_U_B_T_Soldier_SL_F0;
 };
 // Arma 3 Aegis
+/*
 class U_Tank_tropic_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -25,3 +26,4 @@ class U_Tank_tropic_F: Uniform_Base
 		mass = 30;
 	};
 };
+*/

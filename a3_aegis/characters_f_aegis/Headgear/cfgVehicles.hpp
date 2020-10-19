@@ -120,6 +120,7 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetB_TI_tna_F0;
 	};
+    class Headgear_H_HelmetB_TI_arid_F;
 	class Headgear_H_HelmetB_Enh_tna_F: Headgear_Base_F
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_H_HelmetB_Enh_tna_F0;
@@ -255,6 +256,7 @@ class CfgVehicles
     // Deprecated classes
     DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I)
     DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F)
+    DEPRECATED_CLASS(Headgear_H_HelmetB_TI_alt_F,Headgear_H_HelmetB_TI_arid_F)
     DEPRECATED_CLASS(Headgear_H_PilotHelmetFighter_O_R,Headgear_H_PilotHelmetFighter_I)
     DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_O_R,Headgear_H_CrewHelmetHeli_O)
     DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_O_R,Headgear_H_PilotHelmetHeli_O)

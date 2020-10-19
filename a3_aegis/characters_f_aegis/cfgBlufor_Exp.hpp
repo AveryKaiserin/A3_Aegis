@@ -363,7 +363,7 @@ class B_T_Crew_F: B_crew_F
 		Head_NATO,
 		G_NATO_tropic
 	};
-    uniformClass = U_Tank_tropic_F;
+    //uniformClass = U_Tank_tropic_F;
 	weapons[] =
     {
         arifle_MXC_khk_Holo_F,
@@ -2673,6 +2673,7 @@ class B_T_Survivor_F: B_T_Soldier_F
 	respawnLinkedItems[] = {};
 	role = Unarmed;
 };
+/*
 class B_T_TankerCoveralls_01_F: B_TankerCoveralls_01_F
 {
   	scope = protected;
@@ -2680,3 +2681,4 @@ class B_T_TankerCoveralls_01_F: B_TankerCoveralls_01_F
 	uniformClass = U_Tank_tropic_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_Tank_tropic_CO.paa"};
 };
+*/

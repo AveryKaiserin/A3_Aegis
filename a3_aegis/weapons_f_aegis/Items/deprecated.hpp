@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(Item_I_E_UavTerminal,Item_Base_F)
+DEPRECATED_CLASS(Item_O_R_UavTerminal,Item_Base_F)
+DEPRECATED_CLASS(Item_B_ION_UavTerminal,Item_Base_F)

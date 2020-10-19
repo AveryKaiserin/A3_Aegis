@@ -95,11 +95,11 @@ class CfgEditorSubcategories
 	};
 	class EdSubcat_Ammo_NATO_Pacific_British
 	{
-		displayName = "Ammo (NATO Pacific British)";
+		displayName = "Ammo (BAF Pacific)";
 	};
 	class EdSubcat_Ammo_NATO_Woodland_British
 	{
-		displayName = "Ammo (NATO Woodland British)";
+		displayName = "Ammo (BAF Woodland)";
 	};
 	class EdSubcat_Ammo_ION
 	{

@@ -20,4 +20,6 @@ class CfgWeapons
 	#include "cfgEAF.hpp"				// LDF
 	#include "cfgBlufor_Aegis.hpp"		// BAF
 	#include "cfgIon.hpp"				// ION
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

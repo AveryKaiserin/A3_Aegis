@@ -13,7 +13,3 @@ class U_I_pilotCoveralls: Uniform_Base
 {  
     picture = "\A3\Characters_F\Data\UI\icon_U_IR_PilotCoveralls_CA.paa";
 };
-class U_Tank_green_F: Uniform_Base
-{
-    displayName = $STR_A3_A_CfgWeapons_U_Tank_green_F0;
-};

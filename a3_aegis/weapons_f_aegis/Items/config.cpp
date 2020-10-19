@@ -47,4 +47,6 @@ class CfgWeapons
 			mass = 5;
 		};
 	};
+    // Deprecated classes
+    #include "deprecated.hpp"
 };

@@ -20,6 +20,7 @@ class U_B_CombatUniform_mcam_worn: Uniform_Base
     scope = protected;
 };
 // Arma 3 Aegis
+/*
 class U_Tank_sand_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -41,3 +42,4 @@ class U_Tank_sand_F: Uniform_Base
 		mass = 30;
 	};
 };
+*/

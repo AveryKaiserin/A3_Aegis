@@ -110,11 +110,9 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_F0;
 	};
-    // Arma 3 Tanks
-    class Item_U_Tank_green_F: Item_Base_F
-    {
-        displayName = $STR_A3_A_CfgWeapons_U_Tank_green_F0;
-    };
+    class Item_U_B_CTRG_Soldier_Arid_F;
+    class Item_U_B_CTRG_Soldier_2_Arid_F;
+    class Item_U_B_CTRG_Soldier_3_Arid_F;
 	// Arma 3 Enoch
 	class Item_U_B_CombatUniform_vest_mcam_wdl_f: Item_Base_F
 	{
@@ -122,7 +120,7 @@ class CfgVehicles
 	};
 	// Arma 3 Aegis
     // US
-	UNIFORM_HOLDER(U_Tank_sand_F,$STR_A3_A_CfgWeapons_U_Tank_sand_F0)
+	//UNIFORM_HOLDER(U_Tank_sand_F,$STR_A3_A_CfgWeapons_U_Tank_sand_F0)
 	// Civilians
 	UNIFORM_HOLDER(U_Jayholder,$STR_A3_A_CfgWeapons_U_Jayholder0)
 	UNIFORM_HOLDER(U_C_Man_casual_7_F,$STR_A3_A_CfgWeapons_U_C_Man_casual_7_F0)
@@ -139,7 +137,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_O_CombatUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_CombatUniform_oicamo0)
 	UNIFORM_HOLDER(U_O_OfficerUniform_oicamo,$STR_A3_A_CfgWeapons_U_O_OfficerUniform_oicamo0)
     // US (Pacific)
-	UNIFORM_HOLDER(U_Tank_tropic_F,$STR_A3_A_CfgWeapons_U_Tank_tropic_F0)
+	//UNIFORM_HOLDER(U_Tank_tropic_F,$STR_A3_A_CfgWeapons_U_Tank_tropic_F0)
 	// China
 	UNIFORM_HOLDER(U_O_T_Pilot_F,$STR_A3_A_CfgWeapons_U_O_T_Pilot_F0)
 	// Viper
@@ -187,4 +185,8 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_wdl_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_wdl_F0)
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_blue_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_blue_F0)
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_tshirt_black_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_tshirt_black_F0)
+    // Deprecated classes
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_1_F,Item_U_B_CTRG_Soldier_Arid_F)
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_2_F,Item_U_B_CTRG_Soldier_2_Arid_F)
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_3_F,Item_U_B_CTRG_Soldier_3_Arid_F)
 };
