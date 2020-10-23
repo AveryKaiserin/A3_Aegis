@@ -324,7 +324,7 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = I_Heli_Attack_03_F;
-			modelScale = 0.4;
+			modelScale = 0.6;
 			logicalOrder = 42;
 		};
 		class Plane_Fighter_05

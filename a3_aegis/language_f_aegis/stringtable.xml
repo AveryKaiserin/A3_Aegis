@@ -734,6 +734,23 @@
 				<Turkish>Destek Dronu (Sıhhiye)</Turkish>
 			</Key>
 			<Container name="DisplayName">
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0">
+					<Original>WAH-1 Navajo</Original>
+					<Chinese>WAH-1 Navajo</Chinese>
+					<French>WAH-1 Navajo</French>
+					<Spanish>WAH-1 Navajo</Spanish>
+					<Italian>WAH-1 Navajo</Italian>
+					<Polish>WAH-1 Navajo</Polish>
+					<Russian>WAH-1 Navajo</Russian>
+					<German>WAH-1 Navajo</German>
+					<Czech>WAH-1 Navajo</Czech>
+					<English>WAH-1 Navajo</English>
+					<Portuguese>WAH-1 Navajo</Portuguese>
+					<Korean>WAH-1 Navajo</Korean>
+					<Chinesesimp>WAH-1 Navajo</Chinesesimp>
+					<Japanese>WAH-1 Navajo</Japanese>
+					<Turkish>WAH-1 Navajo</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_base_F0">
 					<Original>F-38C Peregrine</Original>
 					<Chinese>F-38C Peregrine</Chinese>
@@ -872,6 +889,23 @@
 				</Key>
 			</Container>
 			<Container name="Library">
+				<Key ID="STR_A3_A_CfgVehicles_Heli_Attack_03_base_F_Library0">
+					<Original>**TO TRANSLATE**</Original>
+					<Chinese>**TO TRANSLATE**</Chinese>
+					<French>**TO TRANSLATE**</French>
+					<Spanish>**TO TRANSLATE**</Spanish>
+					<Italian>**TO TRANSLATE**</Italian>
+					<Polish>**TO TRANSLATE**</Polish>
+					<Russian>**TO TRANSLATE**</Russian>
+					<German>**TO TRANSLATE**</German>
+					<Czech>**TO TRANSLATE**</Czech>
+					<English>**TO TRANSLATE**</English>
+					<Portuguese>**TO TRANSLATE**</Portuguese>
+					<Korean>**TO TRANSLATE**</Korean>
+					<Chinesesimp>**TO TRANSLATE**</Chinesesimp>
+					<Japanese>**TO TRANSLATE**</Japanese>
+					<Turkish>**TO TRANSLATE**</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_base_F_Library0">
 					<Original>The F-38C Peregrine is a fifth-generation, single-seat, single-engine, all-weather, stealth multi-role aircraft. Development started in the early 21st century by a consortium of Western aircraft and avionics manufacturers. The project vastly exceeded its budget and quickly became one of the most expensive procurements in military history. However, after years of development, it emerged a combat-capable aircraft adopted by numerous countries to replace previous generation fighters. It exists in a variety of models. The F-38C particularly is fitted with the necessary equipment for carrier operations, and has a datalink to interface with friendly units in the field. It is also capable of mounting external pylons to further increase its payload.</Original>
 					<Chinese>The F-38C Peregrine is a fifth-generation, single-seat, single-engine, all-weather, stealth multi-role aircraft. Development started in the early 21st century by a consortium of Western aircraft and avionics manufacturers. The project vastly exceeded its budget and quickly became one of the most expensive procurements in military history. However, after years of development, it emerged a combat-capable aircraft adopted by numerous countries to replace previous generation fighters. It exists in a variety of models. The F-38C particularly is fitted with the necessary equipment for carrier operations, and has a datalink to interface with friendly units in the field. It is also capable of mounting external pylons to further increase its payload.</Chinese>

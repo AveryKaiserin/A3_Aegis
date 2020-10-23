@@ -7,6 +7,7 @@ class CfgPatches
 		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] =
 		{
+			A3_Aegis_Air_F_Aegis_Heli_Attack_03,
 			A3_Aegis_Air_F_Aegis_Plane_Fighter_05,
 			A3_Aegis_Air_F_Aegis_Plane_Transport_01,
 			A3_Aegis_Boat_F_Aegis_Boat_Civil_02,

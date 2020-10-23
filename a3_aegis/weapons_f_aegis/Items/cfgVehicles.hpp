@@ -1,4 +1,4 @@
-#define ITEM_HOLDER(a,b) \
+#define ITEM_HOLDER(a,b,c) \
 	class Item_##a##: Item_Base_F \
 	{ \
 		scope = public; \
@@ -8,7 +8,7 @@
 		editorSubcategory = EdSubcat_InventoryItems; \
 		vehicleClass = Items; \
 		author = $STR_A3_A_AveryTheKitty; \
-		model = "\A3\Weapons_F\DummyItemHorizontal.p3d"; \
+		model = ##c##; \
 		class TransportItems \
 		{ \
 			item_xx(##a##,1); \
@@ -23,16 +23,16 @@ class CfgVehicles
 	{
 		displayName = "UAV Terminal [BLUFOR]";
 	};
-	class Item_O_UavTerminal: Item_Base_F
+	class Item_O_UavTerminal: Item_B_UavTerminal
 	{
 		displayName = "UAV Terminal [OPFOR]";
 	};
-	class Item_I_UavTerminal: Item_Base_F
+	class Item_I_UavTerminal: Item_B_UavTerminal
 	{
 		displayName = "UAV Terminal [Independent]";
 	};
     // Arma 3 Aegis
-	ITEM_HOLDER(ItemSmartPhone,$STR_A3_A_CfgWeapons_ItemSmartPhone0)
+	ITEM_HOLDER(ItemSmartPhone,$STR_A3_A_CfgWeapons_ItemSmartPhone0,"\A3\Weapons_F\DummyItem.p3d")
     // Deprecated classes
     DEPRECATED_CLASS(Item_I_E_UavTerminal,Item_Base_F)
     DEPRECATED_CLASS(Item_O_R_UavTerminal,Item_Base_F)

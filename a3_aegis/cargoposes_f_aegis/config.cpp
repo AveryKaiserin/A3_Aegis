@@ -6,11 +6,8 @@ class CfgMovesBasic
 	class ManActions
 	{
 		Driver_Boat_Civil_02 = Driver_Boat_Civil_02;
-		Driver_Boat_Civil_03 = Driver_Boat_Civil_03;
-		passenger_cargo01 = passenger_cargo01;
-		passenger_cargo02 = passenger_cargo02;
-		passenger_cargo03 = passenger_cargo03;
-		passenger_cargo04 = passenger_cargo04;
+		Heli_Attack_03_gunner = Heli_Attack_03_gunner;
+		Heli_Attack_03_pilot = Heli_Attack_03_pilot;
 		Passenger_Plane_Transport_01 = Passenger_Plane_Transport_01;
 		Pilot_Plane_Fighter_05 = Pilot_Plane_Fighter_05;
 		Pilot_Plane_Fighter_05_Enter = Pilot_Plane_Fighter_05_GetIn;
@@ -40,49 +37,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leftHandIKCurve[] = {1};
 			rightHandIKCurve[] = {1};
 		};
-/*
-		class KIA_Driver_Boat_Civil_03: DefaultDie
+		class KIA_Heli_Attack_03_pilot: DefaultDie
 		{
 			actions = DeadActions;
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Driver_Boat_Civil_03_KIA.rtm";
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_03_pilot_KIA.rtm";
+            speed = 0.5;
 			looped = false;
 			terminal = true;
 			soundEnabled = false;
 			connectTo[] = {Unconscious,0.1};
 		};
-*/
-		class Driver_Boat_Civil_03: Crew
+		class Heli_Attack_03_pilot: Crew
 		{
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Driver_Boat_Civil_03.rtm";
-			interpolateTo[] = {/*KIA_Driver_Boat_Civil_03,true*/};
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_03_pilot.rtm";
+			interpolateTo[] = {KIA_Heli_Attack_03_pilot,true};
 			leftHandIKCurve[] = {1};
 			rightHandIKCurve[] = {1};
 		};
-		class passenger_cargo01: Crew
+		class KIA_Heli_Attack_03_gunner: DefaultDie
 		{
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\passenger_cargo01.rtm";
-			interpolateTo[] = {/*KIA_passenger_cargo01,true*/};
-			leftHandIKCurve[] = {1};
-			rightHandIKCurve[] = {1};
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_03_gunner_KIA.rtm";
+            speed = 0.5;
+			looped = false;
+			terminal = true;
+			soundEnabled = false;
+			connectTo[] = {Unconscious,0.1};
 		};
-		class passenger_cargo02: Crew
+		class Heli_Attack_03_gunner: Crew
 		{
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\passenger_cargo02.rtm";
-			interpolateTo[] = {/*KIA_passenger_cargo02,true*/};
-			leftHandIKCurve[] = {1};
-			rightHandIKCurve[] = {1};
-		};
-		class passenger_cargo03: Crew
-		{
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\passenger_cargo03.rtm";
-			interpolateTo[] = {/*KIA_passenger_cargo03,true*/};
-			leftHandIKCurve[] = {1};
-			rightHandIKCurve[] = {1};
-		};
-		class passenger_cargo04: Crew
-		{
-			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\passenger_cargo04.rtm";
-			interpolateTo[] = {/*KIA_passenger_cargo04,true*/};
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_03_gunner.rtm";
+			interpolateTo[] = {KIA_Heli_Attack_03_gunner,true};
 			leftHandIKCurve[] = {1};
 			rightHandIKCurve[] = {1};
 		};
