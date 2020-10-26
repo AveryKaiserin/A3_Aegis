@@ -14,50 +14,6 @@ class B_ION_Man_Base_F: B_G_Soldier_F
 		G_ION_default
 	};
 };
-class B_ION_Uniform_01_poloshirt_wdl_F: B_GEN_Soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_ION_Uniform_01_poloshirt_wdl_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\B_ION_Uniform_01_poloshirt_wdl_1_CO.paa",
-		"\A3\Characters_F\BLUFOR\Data\clothing_wdl_CO.paa"
-	};
-};
-class B_ION_Uniform_01_poloshirt_blue_F: I_C_Soldier_Para_3_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_ION_Uniform_01_poloshirt_blue_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\B_ION_Uniform_01_poloshirt_blue_1_CO.paa",
-		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_CO.paa"
-	};
-};
-class B_ION_Uniform_01_tshirt_black_F: I_G_resistanceLeader_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_B_ION_Uniform_01_tshirt_black_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\B_ION_Uniform_01_tshirt_black_CO.paa"};
-};
 class B_ION_Soldier_Base_F: B_ION_Man_Base_F
 {
 	uniformClass = U_B_ION_Soldier_1_F;

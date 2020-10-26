@@ -1,6 +1,10 @@
 class CfgWeapons
 {
 	// Arma 3
+	class Default
+	{
+		fireLightDuration = 0.005;
+	};
 	class MGunCore;
 	class CannonCore;
 	class RocketPods;

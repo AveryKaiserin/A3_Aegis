@@ -1,6 +1,7 @@
 // Arma 3
 class I_Soldier_base_F: SoldierGB
 {
+	modelSides[] = {TFriendly};
 	magazines[] =
 	{
         mag_10(30Rnd_556x45_Stanag),
@@ -32,8 +33,14 @@ class I_Soldier_base_F: SoldierGB
     class EventHandlers;
 };
 class I_Soldier_02_F;
-class I_Soldier_03_F;
-class I_Soldier_04_F;
+class I_Soldier_03_F: I_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class I_Soldier_04_F: I_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
 class I_soldier_F: I_Soldier_base_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_soldier_F.jpg";
@@ -795,6 +802,7 @@ class I_officer_F: I_Soldier_base_F
         DefaultManWeapons,
         Binocular
     };
+	modelSides[] = {TFriendly};
 	magazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
@@ -906,6 +914,7 @@ class I_Soldier_diver_base_F: I_Soldier_base_F
 class I_diver_F: I_Soldier_diver_base_F
 {
     backpack = "";
+	modelSides[] = {TFriendly};
 };
 class I_diver_TL_F: I_Soldier_diver_base_F
 {
@@ -1033,11 +1042,7 @@ class I_Sniper_F: I_Soldier_sniper_base_F
 class I_Soldier_support_base_F: I_Soldier_base_F
 {
 	model = "\A3\Characters_F_Gamma\Guerrilla\IG_Guerrilla1_1.p3d";
-	modelSides[] =
-    {
-        TGuerrila,
-        TCivilian
-    };
+	modelSides[] = {TFriendly};
     hiddenSelections[] =
     {
         camo1,
@@ -1223,6 +1228,18 @@ class I_support_AMort_F: I_Soldier_support_base_F
         DefaultManWeapons
     };
 };
+class I_Soldier_VR_F: I_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class I_Protagonist_VR_F: I_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class I_Captain_Hladas_F: I_officer_F
+{
+	modelSides[] = {TFriendly};
+};
 // Arma 3 Marksman
 class I_ghillie_base_F: I_Soldier_sniper_base_F
 {
@@ -1281,6 +1298,11 @@ class I_Fighter_Pilot_F: I_pilot_F
         H_PilotHelmetFighter_I,
         DefaultManLinkedItems
     };
+};
+// Arma 3 Tanks
+class I_Story_Crew_F: I_crew_F
+{
+	modelSides[] = {TFriendly};
 };
 // Arma 3 Aegis
 class I_Soldier_CQ_F: I_Soldier_base_F

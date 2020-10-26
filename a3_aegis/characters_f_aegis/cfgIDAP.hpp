@@ -1,5 +1,8 @@
 // Arma 3 Laws of War
-class C_IDAP_Man_Base_F;
+class C_IDAP_Man_Base_F: Civilian_F
+{
+	modelSides[] = {TFriendly};
+};
 class C_IDAP_Man_AidWorker_02_F;
 class C_IDAP_Man_AidWorker_03_F;
 class C_IDAP_Man_AidWorker_04_F;

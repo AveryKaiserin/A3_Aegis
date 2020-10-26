@@ -15,6 +15,7 @@ Some design ideas:
 class B_Story_SF_Captain_F: B_Soldier_02_f
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Story_SF_Captain_F.jpg";
+	modelSides[] = {TFriendly};
 	faction = BLU_CTRG_F;
     weapons[] =
     {
@@ -260,6 +261,7 @@ class B_CTRG_soldier_AR_A_F: B_Soldier_03_f
 class B_Captain_Jay_F: B_Soldier_02_f
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Captain_Jay_F.jpg";
+    modelSides[] = {TFriendly};
 	faction = BLU_CTRG_F;
     weapons[] =
     {

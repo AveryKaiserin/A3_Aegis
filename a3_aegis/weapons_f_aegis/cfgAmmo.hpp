@@ -1,13 +1,20 @@
 class CfgAmmo
 {
+    class Default;
 	class BulletBase;
 	class ammo_Penetrator_Base;
+	class FlareCore;
 	class ShotDeployBase;
 	class MissileCore;
 	class MissileBase: MissileCore
 	{
 		class Components;
 	};
+	class Grenade: Default
+	{
+		deflecting = 7;
+		deflectionSlowDown = 0.5;
+    };
 	class RocketBase;
 	class B_762x51_Ball;
 	class B_762x51_Minigun_Tracer_Red;
@@ -36,7 +43,165 @@ class CfgAmmo
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 		nvgOnly = false;
 	};
+	class GrenadeHand: Grenade{};
+	class mini_Grenade: GrenadeHand
+	{
+		deflecting = 14;
+	};
+	class SmokeShell: GrenadeHand
+	{
+		deflecting = 10;
+		deflectionSlowDown = 0.3;
+		grenadeFireSound[] =
+        {
+            SmokeShellSoundHit1,1/3,
+            SmokeShellSoundHit2,1/3,
+            SmokeShellSoundHit3,1/3
+        };
+    };
+	class G_40mm_Smoke: SmokeShell
+	{
+        simulation = shotSmoke;
+		deflecting = 7;
+		deflectionSlowDown = 0.1;
+        explosionTime = 1;
+		timeToLive = 25;
+		/*
+        SmokeShellSoundHit1[] = {"\A3\Missions_F_Exp\Data\sounds\EXP_m04_flare",db0,1,100};
+		grenadeFireSound[] = {SmokeShellSoundHit1,1};
+        */
+		SmokeShellSoundHit1[] = {"\A3\Sounds_F\weapons\smokeshell\smoke_1",db2,1,100};
+		SmokeShellSoundHit2[] = {"\A3\Sounds_F\weapons\smokeshell\smoke_2",db2,1,100};
+		SmokeShellSoundHit3[] = {"\A3\Sounds_F\weapons\smokeshell\smoke_3",db2,1,100};
+		SmokeShellSoundLoop1[] = {"\A3\Sounds_F\weapons\smokeshell\smoke_loop1",db-18,1,70};
+		SmokeShellSoundLoop2[] = {"\A3\Sounds_F\weapons\smokeshell\smoke_loop2",db-18,1,70};
+		grenadeFireSound[] =
+        {
+            SmokeShellSoundHit1,1/3,
+            SmokeShellSoundHit2,1/3,
+            SmokeShellSoundHit3,1/3
+        };
+		grenadeBurningSound[] =
+        {
+            SmokeShellSoundLoop1,1/2,
+            SmokeShellSoundLoop2,1/2
+        };
+	};
 	class G_40mm_HE;
+	class FlareBase: FlareCore
+	{
+		timeToLive = 40;
+		intensity = 800000;
+	};
+	class F_40mm_White: FlareBase
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0.95,   // G
+            0.95,   // B
+            0       // A
+        };
+		intensity = 800000;
+		brightness = 120;
+	};
+	class F_40mm_Green: F_40mm_White
+	{
+		lightColor[] =
+        {
+            0.25,   // R
+            0.95,   // G
+            0.25,   // B
+            0       // A
+        };
+	};
+	class F_40mm_Red: F_40mm_White
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0.25,   // G
+            0.25,   // B
+            0       // A
+        };
+	};
+	class F_40mm_Yellow: F_40mm_White
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0.95,   // G
+            0.25,   // B
+            0       // A
+        };
+	};
+	class F_40mm_Cir: F_40mm_White
+	{
+		lightColor[] =
+        {
+            0,  // R
+            0,  // G
+            0,  // B
+            0   // A
+        };
+		intensity = 10000;
+		brightness = 12;
+	};
+	class F_20mm_White: FlareBase
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0.95,   // G
+            0.95,   // B
+            0       // A
+        };
+		intensity = 750000;
+		brightness = 100;
+	};
+	class F_20mm_Green: F_20mm_White
+	{
+		lightColor[] =
+        {
+            0,      // R
+            0.95,   // G
+            0,      // B
+            0       // A
+        };
+	};
+	class F_20mm_Red: F_20mm_White
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0,      // G
+            0,      // B
+            0       // A
+        };
+	};
+	class F_20mm_Yellow: F_20mm_White
+	{
+		lightColor[] =
+        {
+            0.95,   // R
+            0.95,   // G
+            0,      // B
+            0       // A
+        };
+	};
+	class Flare_82mm_AMOS_White: FlareCore
+	{
+		timeToLive = 90;
+		lightColor[] =
+        {
+            0.95,   // R
+            0.95,   // G
+            0.95,   // B
+            0       // A
+        };
+		intensity = 900000;
+		brightness = 190;
+	};
 	// Arma 3 Jets
 	class ammo_Gun20mmAABase;
 	class ammo_Gun35mmAABase;

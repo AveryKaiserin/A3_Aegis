@@ -1,36 +1,6 @@
 // LDF
 // Arma 3 Enoch
 class I_E_Man_Base_F;
-class I_E_Uniform_01_F: I_E_Man_Base_F
-{
-	hiddenSelectionsTextures[] =
-    {
-        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa",
-        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_camo_CO.paa"
-    };
-};
-class I_E_Uniform_01_shortsleeve_F: I_E_Man_Base_F
-{
-	hiddenSelectionsTextures[] =
-    {
-        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa"
-    };
-};
-class I_E_Uniform_01_coveralls_F: I_E_Man_Base_F
-{
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Coveralls_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa",
-        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_camo_CO.paa"
-	};
-};
-class I_E_Uniform_01_sweater_F: I_E_Man_Base_F
-{
-	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
-};
 class I_E_Soldier_base_F: I_E_Man_Base_F
 {
 	identityTypes[] =

@@ -1,20 +1,4 @@
 // Arma 3 Enoch
-class B_CombatFatigues_01_wdl_F: B_Soldier_F
-{
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"};
-};
-class B_ReconFatigues_01_wdl_F: B_Soldier_SL_F
-{
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"};
-};
-class B_CombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
-{
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
-	};
-};
 class B_W_Soldier_A_F: B_Soldier_A_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Soldier_A_F.jpg";

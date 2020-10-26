@@ -8,6 +8,7 @@ class O_A_soldier_base_F: O_officer_F
         Head_African,
         G_IRAN_african
     };
+	modelSides[] = {TFriendly};
     hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\Officer_noInsignia_hex_CO.paa"};
 	magazines[] = {};
 	respawnMagazines[] = {};
@@ -810,25 +811,4 @@ class O_A_RadioOperator_F: O_A_soldier_F
         mag_2(SmokeShell)
     };
     role = RadioOperator;
-};
-class O_LightFatigues_01_urb_F: O_A_officer_F
-{
-	scope = protected;
-    scopeCurator = private;
-	uniformClass = U_O_officer_noInsignia_urb_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_urb_CO.paa"};
-};
-class O_LightFatigues_01_ghex_F: O_A_officer_F
-{
-	scope = protected;
-    scopeCurator = private;
-	uniformClass = U_O_T_officer_noInsignia_ghex_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_tna_CO.paa"};
-};
-class O_LightFatigues_01_oicamo_F: O_A_officer_F
-{
-	scope = protected;
-    scopeCurator = private;
-	uniformClass = U_O_officer_noInsignia_oicamo_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_oicamo_CO.paa"};
 };

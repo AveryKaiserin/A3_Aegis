@@ -1,6 +1,7 @@
 // Arma 3
 class I_G_Soldier_base_F: SoldierGB
 {
+	modelSides[] = {TFriendly};
     class EventHandlers;
 	magazines[] =
 	{
@@ -1724,108 +1725,134 @@ class I_G_officer_F: I_G_Soldier_base_F
 class B_G_Soldier_F: I_G_Soldier_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_F: I_G_Soldier_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_lite_F: I_G_Soldier_lite_F
 {
+	modelSides[] = {TFriendly};
     uniformClass = U_BG_Guerilla1_3;
 };
 class O_G_Soldier_lite_F: I_G_Soldier_lite_F
 {
+	modelSides[] = {TFriendly};
     uniformClass = U_OG_Guerilla1_3;
 };
 class B_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_SL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_SL_F: I_G_Soldier_SL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_SL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_TL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_TL_F: I_G_Soldier_TL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_TL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_AR_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_AR_F: I_G_Soldier_AR_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_AR_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_medic_F: I_G_medic_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_medic_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_medic_F: I_G_medic_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_medic_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_engineer_F: I_G_engineer_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_engineer_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_engineer_F: I_G_engineer_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_engineer_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_exp_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_exp_F: I_G_Soldier_exp_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_exp_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_GL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_GL_F: I_G_Soldier_GL_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_GL_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_M_F: I_G_Soldier_M_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_M_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_M_F: I_G_Soldier_M_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_M_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_LAT_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_LAT_F: I_G_Soldier_LAT_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_LAT_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class B_G_Soldier_A_F: I_G_Soldier_A_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Soldier_A_F.jpg";
     uniformClass = U_BG_Guerilla1_2_F;
+	modelSides[] = {TFriendly};
 };
 class O_G_Soldier_A_F: I_G_Soldier_A_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Soldier_A_F.jpg";
     uniformClass = U_OG_Guerilla1_2_F;
+	modelSides[] = {TFriendly};
 };
 class B_G_officer_F: I_G_officer_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_officer_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class O_G_officer_F: I_G_officer_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_officer_F.jpg";
+	modelSides[] = {TFriendly};
 };
 class I_G_Soldier_unarmed_F: I_G_Soldier_F
 {
@@ -1900,6 +1927,7 @@ class I_G_Story_SF_Captain_F: B_G_Soldier_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 };
 class I_G_resistanceLeader_F;
 // Arma 3 Marksman
@@ -2049,12 +2077,19 @@ class I_G_Sharpshooter_F: I_G_Soldier_base_F
 class B_G_Sharpshooter_F: I_G_Sharpshooter_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_G_Sharpshooter_F.jpg";
+	modelSides[] = {TFriendly};
     uniformClass = U_BG_Guerilla3_2;
 };
 class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 {	
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_G_Sharpshooter_F.jpg";
+	modelSides[] = {TFriendly};
     uniformClass = U_OG_Guerilla3_2;
+};
+// Arma 3 Apex
+class B_G_Captain_Ivan_F: I_C_Soldier_Para_2_F
+{
+    modelSides[] = {TFriendly};
 };
 // Arma 3 Tanks
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
@@ -2197,6 +2232,14 @@ class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,1
     };
+};
+class B_G_Soldier_LAT2_F: I_G_Soldier_LAT2_F
+{
+    modelSides[] = {TFriendly};
+};
+class O_G_Soldier_LAT2_F: I_G_Soldier_LAT2_F
+{
+    modelSides[] = {TFriendly};
 };
 // Arma 3 Aegis
 class I_G_crew_F: I_G_Soldier_base_F

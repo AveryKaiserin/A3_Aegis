@@ -1,6 +1,7 @@
 // Arma 3
 class B_Soldier_base_F: SoldierWB
 {
+	modelSides[] = {TFriendly};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_CO.paa"};
     class Eventhandlers;
     weapons[] =
@@ -46,6 +47,7 @@ class B_Soldier_base_F: SoldierWB
 };
 class B_Soldier_02_f: B_Soldier_base_F
 {
+	modelSides[] = {TFriendly};
     hiddenSelections[] =
     {
         camo,
@@ -57,14 +59,26 @@ class B_Soldier_02_f: B_Soldier_base_F
         "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_green_CO.paa"
     };
 };
-class B_Soldier_03_f;
-class B_Soldier_04_f;
-class B_Soldier_05_f;
+class B_Soldier_03_f: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class B_Soldier_04_f: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class B_Soldier_05_f: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
 class B_Soldier_F: B_Soldier_base_F
 {
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Soldier_F.jpg";
 };
-class B_RangeMaster_F;
+class B_RangeMaster_F: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
 class B_Soldier_lite_F: B_Soldier_03_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Soldier_lite_F.jpg";
@@ -499,6 +513,21 @@ class B_soldier_exp_F: B_Soldier_base_F
 class B_Helipilot_F: B_Soldier_04_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Helipilot_F.jpg";
+	modelSides[] = {TFriendly};
+	linkedItems[] =
+	{
+		H_PilotHelmetHeli_B,
+		V_TacVest_blk,
+		DefaultManLinkedItems,
+		NVGoggles
+	};
+	respawnLinkedItems[] =
+	{
+		H_PilotHelmetHeli_B,
+		V_TacVest_blk,
+		DefaultManLinkedItems,
+		NVGoggles
+	};
 	weapons[] =
 	{
 		SMG_01_black_Holo_F,
@@ -518,20 +547,6 @@ class B_Helipilot_F: B_Soldier_04_f
 	{
         mag_4(30Rnd_45ACP_Mag_SMG_01),
         SOLDIER_SMOKE_SHELLS_BLUFOR
-	};
-	linkedItems[] =
-	{
-		H_PilotHelmetHeli_B,
-		V_TacVest_blk,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		H_PilotHelmetHeli_B,
-		V_TacVest_blk,
-		DefaultManLinkedItems,
-		NVGoggles
 	};
 };
 class B_Soldier_A_F: B_Soldier_base_F
@@ -813,6 +828,7 @@ class B_officer_F: B_Soldier_base_F
 class B_Pilot_F: B_Soldier_05_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Pilot_F.jpg";
+	modelSides[] = {TFriendly};
 	weapons[] =
 	{
 		SMG_01_black_Holo_F,
@@ -849,6 +865,7 @@ class B_Pilot_F: B_Soldier_05_f
 class B_helicrew_F: B_Helipilot_F
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_helicrew_F.jpg";
+	modelSides[] = {TFriendly};
 	weapons[] =
 	{
 		arifle_MXC_Holo_F,
@@ -1026,6 +1043,7 @@ class B_Soldier_diver_base_F: B_Soldier_base_F
 class B_diver_F: B_Soldier_diver_base_F
 {
     backpack = "";
+	modelSides[] = {TFriendly};
 };
 class B_diver_exp_F;
 class B_diver_TL_F: B_Soldier_diver_base_F
@@ -1595,6 +1613,7 @@ class B_sniper_F: B_Soldier_sniper_base_F
 class B_Story_Protagonist_F: B_Soldier_02_f
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Story_Protagonist_F.jpg";
+	modelSides[] = {TFriendly};
     weapons[] =
     {
         arifle_MX_GL_Hamr_pointer_F,
@@ -1645,6 +1664,7 @@ class B_Story_Pilot_F: B_Soldier_base_F
 };
 class b_soldier_survival_F: B_Soldier_base_F
 {
+	modelSides[] = {TFriendly};
     hiddenSelections[] =
     {
         camo,
@@ -1842,6 +1862,18 @@ class B_support_AMort_F: B_Soldier_support_base_F
 		hgun_P07_F,
         DefaultManWeapons
 	};
+};
+class B_Soldier_VR_F: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class B_Protagonist_VR_F: B_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class B_Captain_Pettka_F: B_Soldier_02_f
+{
+	modelSides[] = {TFriendly};
 };
 // Arma 3 Marksman
 class B_ghillie_base_F: B_Soldier_sniper_base_F
@@ -2863,17 +2895,3 @@ class B_RadioOperator_F: B_Soldier_F
     };
     role = RadioOperator;
 };
-/*
-class B_TankerCoveralls_01_F: I_Story_Crew_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
-	uniformClass = U_Tank_sand_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_Tank_sand_CO.paa"};
-};
-*/

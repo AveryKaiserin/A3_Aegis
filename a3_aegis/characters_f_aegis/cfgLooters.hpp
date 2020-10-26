@@ -9,24 +9,6 @@ class I_L_Soldier_Base_F: I_Soldier_base_F
         G_LOOTER_default
     };
 };
-class I_L_Uniform_01_camo_F: I_G_Soldier_LAT_F
-{
-    scopeCurator = private;
-};
-class I_L_Uniform_01_deserter_F: I_G_Soldier_F
-{
-    scopeCurator = private;
-};
-class I_L_Uniform_01_tshirt_skull_F;
-class I_L_Uniform_01_tshirt_black_F: I_L_Uniform_01_tshirt_skull_F
-{
-	modelSides[] =
-    {
-        TWest,
-        TGuerrila,
-        TCivilian
-    };
-};
 class I_L_Looter_Pistol_F: I_L_Soldier_Base_F
 {
 	linkedItems[] = {DefaultManLooterLinkedItems};

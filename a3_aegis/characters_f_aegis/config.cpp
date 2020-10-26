@@ -4,9 +4,19 @@
 class UniformSlotInfo;
 class CfgVehicles
 {
-	class SoldierWB;
-	class SoldierEB;
-	class SoldierGB;
+    class CAManBase;
+	class SoldierWB: CAManBase
+    {
+	    modelSides[] = {TFriendly};
+    };
+	class SoldierEB: CAManBase
+    {
+	    modelSides[] = {TFriendly};
+    };
+	class SoldierGB: CAManBase
+    {
+	    modelSides[] = {TFriendly};
+    };
 	#include "cfgBlufor.hpp"			// US
 	#include "cfgCivil.hpp"				// Civilians
 	#include "cfgIndep.hpp"				// AAF
@@ -25,5 +35,6 @@ class CfgVehicles
 	#include "cfgLooters.hpp"			// Looters
 	#include "cfgBlufor_Aegis.hpp"		// BAF
 	#include "cfgIon.hpp"				// ION
+	#include "cfgUniforms.hpp"
 };
 #include "cfgGroups.hpp"

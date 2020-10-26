@@ -9,6 +9,7 @@
 // Arma 3
 class O_Soldier_base_F: SoldierEB
 {
+	modelSides[] = {TFriendly};
     hiddenSelectionsTextures[] =
     {
         "\A3\Characters_F\OPFOR\Data\clothing_CO.paa",
@@ -56,7 +57,10 @@ class O_Soldier_base_F: SoldierEB
 	};
     class EventHandlers;
 };
-class O_Soldier_02_F;
+class O_Soldier_02_F: O_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
 class O_Soldier_F: O_Soldier_base_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Soldier_F.jpg";
@@ -64,6 +68,7 @@ class O_Soldier_F: O_Soldier_base_F
 class O_officer_F: O_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_officer_F.jpg";
+	modelSides[] = {TFriendly};
     weapons[] =
     {
         arifle_Katiba_C_F,
@@ -916,6 +921,7 @@ class O_Soldier_diver_base_F: O_Soldier_base_F
 class O_diver_F: O_Soldier_diver_base_F
 {
     backpack = "";
+	modelSides[] = {TFriendly};
 };
 class O_diver_TL_F: O_Soldier_diver_base_F
 {
@@ -2208,6 +2214,14 @@ class O_SoldierU_GL_F: O_Soldier_Urban_base
         O_NVGoggles_urb_F
     };
 };
+class O_Soldier_VR_F: O_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
+class O_Protagonist_VR_F: O_Soldier_base_F
+{
+	modelSides[] = {TFriendly};
+};
 // Arma 3 Marksman
 class O_ghillie_base_F: O_Soldier_sniper_base_F
 {
@@ -3185,33 +3199,4 @@ class O_Urban_RadioOperator_F: O_soldierU_F
         mag_2(SmokeShell)
     };
     role = RadioOperator;
-};
-class O_Fatigues_01_blk_F: O_Soldier_F
-{
-    scope = protected;
-    scopeCurator = protected;
-	uniformClass = U_O_SpecopsUniform_blk;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_blk_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_blk_CO.paa"
-    };
-};
-class O_Fatigues_01_oicamo_F: O_Soldier_F
-{
-    scope = protected;
-    scopeCurator = protected;
-	uniformClass = U_O_CombatUniform_oicamo;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa"
-    };
-};
-class O_OfficerFatigues_01_oicamo_F: O_officer_F
-{
-    scope = protected;
-    scopeCurator = protected;
-	uniformClass = U_O_OfficerUniform_oicamo;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\officer_oicamo_CO.paa"};
 };

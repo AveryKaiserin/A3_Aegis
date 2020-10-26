@@ -2,6 +2,7 @@
 class Civilian;
 class Civilian_F: Civilian
 {
+	modelSides[] = {TFriendly};
 	linkedItems[] = {ItemSmartPhone};
 	respawnLinkedItems[] = {ItemSmartPhone};
 };
@@ -88,7 +89,7 @@ class C_man_1: Civilian_F
 class C_man_1_1_F: C_man_1
 {
     model = "\A3\Characters_F\Civil\c_citizen3.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
     hiddenSelections[] =
     {
         camo1,
@@ -103,7 +104,7 @@ class C_man_1_1_F: C_man_1
 class C_man_1_2_F: C_man_1_1_F
 {
     model = "\A3\Characters_F\Civil\c_citizen4.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
     uniformClass = U_C_Commoner1_2;
     hiddenSelections[] =
     {
@@ -119,7 +120,7 @@ class C_man_1_2_F: C_man_1_1_F
 class C_man_1_3_F: C_man_1_1_F
 {
     model = "\A3\Characters_F\Civil\c_citizen5.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
     uniformClass = U_C_Commoner1_3;
     hiddenSelections[] =
     {
@@ -134,6 +135,7 @@ class C_man_1_3_F: C_man_1_1_F
 };
 class C_man_p_fugitive_F: C_man_1
 {
+	modelSides[] = {TFriendly};
     hiddenSelections[] = {camo};
     hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\c_cloth1_CO.paa"};
 	linkedItems[] = {};
@@ -142,7 +144,7 @@ class C_man_p_fugitive_F: C_man_1
 class C_man_p_beggar_F: C_man_p_fugitive_F
 {
 	model = "\A3\Characters_F\Civil\I_L_Looter_01_tshirt_F.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
     hiddenSelections[] =
     {
         camo1,
@@ -154,10 +156,18 @@ class C_man_p_beggar_F: C_man_p_fugitive_F
         "\A3\Characters_F_Gamma\Guerrilla\Data\IG_Guerrilla3_1_CO.paa"
     };
 };
+class C_man_w_worker_F: C_man_1
+{
+	modelSides[] = {TFriendly};
+};
+class C_scientist_F: C_man_w_worker_F
+{
+	modelSides[] = {TFriendly};
+};
 class C_man_hunter_1_F: C_man_1
 {
     model = "\A3\Characters_F_Gamma\Guerrilla\IG_Guerrilla3_1.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
 	displayName = $STR_A3_A_CfgVehicles_C_man_hunter_1_F0;
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\hunter_bushman_CO.paa"};
@@ -193,12 +203,7 @@ class C_man_p_shorts_1_F: C_man_1
 };
 class C_man_pilot_F: C_man_1
 {
-    /*
-    model = "\A3_Aegis\Characters_F_Aegis\Uniforms\c_hiker.p3d";
-    uniformClass = U_C_HikingClothes_blk;
-    hiddenSelections[] = {camo};
-    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\c_hiker_CO.paa"};
-    */
+	modelSides[] = {TFriendly};
     headgearList[] =
     {
         H_HeadSet_black_F,1,
@@ -224,6 +229,7 @@ class C_man_pilot_F: C_man_1
 };
 class C_journalist_F: C_man_1
 {
+	modelSides[] = {TFriendly};
 	linkedItems[] =
     {
         ItemSmartPhone,
@@ -235,30 +241,85 @@ class C_journalist_F: C_man_1
         ItemWatch
     };
 };
+class C_Soldier_VR_F: C_man_1
+{
+	modelSides[] = {TFriendly};
+};
 // Arma 3 Karts
 class C_Driver_1_F: C_man_1
 {
+	modelSides[] = {TFriendly};
 	linkedItems[] =
     {
+        H_RacingHelmet_1_F,
         ItemSmartPhone,
         ItemWatch
     };
 	respawnLinkedItems[] =
     {
+        H_RacingHelmet_1_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
+class C_Driver_2_F: C_Driver_1_F
+{
+	linkedItems[] =
+    {
+        H_RacingHelmet_2_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        H_RacingHelmet_2_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
+class C_Driver_3_F: C_Driver_1_F
+{
+	linkedItems[] =
+    {
+        H_RacingHelmet_3_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        H_RacingHelmet_3_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+};
+class C_Driver_4_F: C_Driver_1_F
+{
+	linkedItems[] =
+    {
+        H_RacingHelmet_4_F,
+        ItemSmartPhone,
+        ItemWatch
+    };
+	respawnLinkedItems[] =
+    {
+        H_RacingHelmet_4_F,
         ItemSmartPhone,
         ItemWatch
     };
 };
 class C_Marshal_F: B_RangeMaster_F
 {
+	modelSides[] = {TFriendly};
 	linkedItems[] =
     {
+        H_Cap_marshal,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        H_Cap_marshal,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
@@ -423,6 +484,7 @@ class C_Man_Messenger_01_F: Civilian_F
 };
 class C_Story_Mechanic_01_F: Civilian_F
 {
+	modelSides[] = {TFriendly};
 	linkedItems[] =
     {
         H_Cap_red,
@@ -434,87 +496,7 @@ class C_Story_Mechanic_01_F: Civilian_F
         ItemSmartPhone
     };
 };
-// Arma 3 Enoch
-class C_E_Man_Base_F;
-class C_E_LooterJacket_01_F: C_E_Man_Base_F
-{
-    hideProxySelections[] = {ghillie_hide};
-};
 // Arma 3 Aegis
-class C_Uniform_Formal_01_base_F: Civilian_F
-{
-	hiddenSelections[] =
-    {
-        camo1,
-        id,
-        badge
-    };
-	class Wounds
-	{
-		tex[] = {};
-		mat[] =
-        {
-            "A3\Characters_F_Enoch\Uniforms\Data\scientist_01.rvmat",
-            "A3\Characters_F_Enoch\Uniforms\Data\scientist_01_injury.rvmat",
-            "A3\Characters_F_Enoch\Uniforms\Data\scientist_01_injury.rvmat",
-            "A3\Characters_F\Common\Data\basicbody.rvmat",
-            "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-            "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-            INJURY_PERSONALITY_MATERIALS
-        };
-	};
-};
-class C_Uniform_Formal_01_striped_F: C_Uniform_Formal_01_base_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	model = "\A3\Characters_F\Civil\Scientist_01_F.p3d";
-	uniformClass = U_C_Uniform_Formal_01_striped_F;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_striped_CO.paa",
-        "",
-        ""
-    };
-};
-class C_Uniform_Formal_01_white_F: C_Uniform_Formal_01_base_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	model = "\A3\Characters_F\Civil\Scientist_01_F.p3d";
-	uniformClass = U_C_Uniform_Formal_01_white_F;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_white_CO.paa",
-        "",
-        ""
-    };
-};
-class C_Uniform_Formal_01_blue_F: C_Uniform_Formal_01_base_F
-{
-    author = $STR_A3_A_AveryTheKitty;
-	scope = protected;
-	model = "\A3\Characters_F\Civil\Scientist_01_F.p3d";
-	uniformClass = U_C_Uniform_Formal_01_blue_F;
-	hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Formal_01_blue_CO.paa",
-        "",
-        ""
-    };
-};
-class C_CBRN_Man_Oversuit_01_Black_F: B_CBRN_Man_Oversuit_01_MTP_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	uniformClass = U_C_CBRN_Suit_01_Black_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Black_CO.paa"};
-};
-class C_CBRN_Man_Oversuit_01_Yellow_F: B_CBRN_Man_Oversuit_01_MTP_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	uniformClass = U_C_CBRN_Suit_01_Yellow_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CBRN_Suit_01_Yellow_CO.paa"};
-};
 class C_man_1_1_F_afro: C_man_1_1_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -637,29 +619,12 @@ class C_man_priest_F: C_man_1
     author = $STR_A3_A_AveryTheKitty;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\C_man_priest_F.jpg";
     model = "\A3_Aegis\Characters_F_Aegis\Uniforms\c_priest.p3d";
-	modelSides[] = {TCivilian};
+	modelSides[] = {TFriendly};
     uniformClass = U_C_PriestBody;
     displayName = $STR_A3_C_man_priest_F0;
 	class EventHandlers{};
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\priest_CO.paa"};
-};
-class C_Jayholder: C_man_1
-{
-	scope = protected;
-	scopeCurator = private;
-	model = "\A3\Characters_F\Civil\I_C_Soldier_Bandit_2_F.p3d";
-	uniformClass = U_Jayholder;
-	hiddenSelections[] =
-	{
-		camo1,
-		camo2
-	};
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\c_cloth1_jayholder_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\c_cloth1_jayholder_CO.paa"
-	};
 };
 class C_Man_casual_7_F: C_Man_casual_1_F
 {
