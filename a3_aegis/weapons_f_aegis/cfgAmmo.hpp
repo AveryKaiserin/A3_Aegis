@@ -306,6 +306,7 @@ class CfgAmmo
 		indirectHitRange = 7;
 		dangerRadiusHit = 65;
 		suppressionRadiusHit = 27;
+		typicalspeed = 22;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d";
 		deflecting = 15;
 		fuseDistance = 4;
