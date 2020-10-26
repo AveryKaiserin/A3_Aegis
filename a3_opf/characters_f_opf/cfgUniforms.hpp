@@ -7,6 +7,8 @@ class O_G_Soldier_LAT_F;
 class I_C_Soldier_Bandit_3_F;
 // Arma 3 Tacops
 class O_A_officer_F;
+// Arma 3 Enoch
+class O_R_Gorka_F;
 // Arma 3 Aegis
 class O_R_LightFatigues_01_taiga_F;
 // Arma 3 Opposing Forces

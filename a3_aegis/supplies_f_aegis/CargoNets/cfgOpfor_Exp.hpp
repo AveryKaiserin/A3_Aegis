@@ -62,7 +62,7 @@ class O_T_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		mag_xx(APERSMineDispenser_Mag,1);
 		mag_xx(RPG32_F,6);
 		mag_xx(RPG32_HE_F,6);
-		mag_xx(HandGrenade,24);
+        mag_xx(HandGrenade_East,24);
 		mag_xx(MiniGrenade,24);
 		mag_xx(Titan_AA,6);
 		mag_xx(Titan_AP,4);

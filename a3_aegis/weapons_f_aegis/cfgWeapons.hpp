@@ -3,6 +3,12 @@ class CfgWeapons
 	// Arma 3
 	class Default
 	{
+        fireLightDiffuse[] =
+        {
+            0.937,  // R
+            0.322,  // G
+            0.259   // B
+        };
 		fireLightDuration = 0.005;
 	};
 	class MGunCore;
@@ -344,6 +350,7 @@ class CfgWeapons
 	};
 	class HMG_127_MBT: HMG_static{};
 	class Launcher_Base_F;
+    class GrenadeLauncher;
 	class UGL_F;
 	class RifleCore;
 	class Rifle: RifleCore
@@ -371,6 +378,15 @@ class CfgWeapons
 		class GunParticles;
 		class WeaponSlotsInfo;
 	};
+	class Throw: GrenadeLauncher
+	{
+        muzzles[] += {HandGrenade_EastMuzzle};
+        class ThrowMuzzle;
+		class HandGrenade_EastMuzzle: ThrowMuzzle
+		{
+			magazines[] = {HandGrenade_East};
+		};
+    };
 	class ItemCore;
 	class Binocular;
 	class NVGoggles: Binocular

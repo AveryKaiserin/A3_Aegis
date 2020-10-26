@@ -85,12 +85,12 @@ class Opf_O_P_soldier_1_F: Opf_O_P_soldier_base_F
 	magazines[] = 
 	{
         mag_6(30Rnd_556x45_Stanag_green),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(30Rnd_556x45_Stanag_green),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	linkedItems[] = 
 	{
@@ -195,12 +195,12 @@ class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 	magazines[] = 
 	{
         mag_6(150Rnd_762x54_Box),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(150Rnd_762x54_Box),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	cost = 220000;
 	icon = iconManMG;
@@ -257,13 +257,13 @@ class Opf_O_P_soldier_TL_F: Opf_O_P_soldier_base_F
 	{
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	cost = 250000;
 	camouflage = 1.6;

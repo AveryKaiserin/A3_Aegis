@@ -146,7 +146,7 @@ class B_Carryall_green_Ammo_F: B_Carryall_green_F
 		mag_xx(30Rnd_545x39_AK12_Mag_F,6);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,1);
 		mag_xx(RPG32_F,1);
-		mag_xx(HandGrenade,2);
+		mag_xx(HandGrenade_East,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(10Rnd_93x64_DMR_05_Mag,2);

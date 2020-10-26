@@ -128,14 +128,14 @@ class I_W_Soldier_F: I_W_Soldier_base_F
 	{
 		mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	role = Rifleman;
@@ -203,14 +203,14 @@ class I_W_Soldier_A_F: I_W_Soldier_base_F
 	{
 		mag_12(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_12(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 };
@@ -255,7 +255,7 @@ class I_W_Soldier_AAR_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -263,7 +263,7 @@ class I_W_Soldier_AAR_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -318,14 +318,14 @@ class I_W_Soldier_AR_F: I_W_Soldier_base_F
 	{
 		mag_8(75Rnd_762x39_Mag_F),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_8(75Rnd_762x39_Mag_F),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
 	};
 	cost = 220000;
@@ -366,13 +366,13 @@ class I_W_Soldier_lite_F: I_W_Soldier_base_F
 	magazines[] =
 	{
 		mag_4(30Rnd_556x45_Stanag),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_Stanag),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
 	camouflage = 1.2;
@@ -417,7 +417,7 @@ class I_W_Soldier_GL_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
 	};
@@ -426,7 +426,7 @@ class I_W_Soldier_GL_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
 		mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
 	};
@@ -474,14 +474,14 @@ class I_W_soldier_M_F: I_W_Soldier_base_F
 	{
 		mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	cost = 250000;
@@ -607,7 +607,7 @@ class I_W_Soldier_SL_F: I_W_Soldier_base_F
 		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
 		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(I_IR_Grenade),
         SmokeShell,
         SmokeShellRed,
@@ -624,7 +624,7 @@ class I_W_Soldier_SL_F: I_W_Soldier_base_F
 		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
 		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(I_IR_Grenade),
         SmokeShell,
         SmokeShellRed,
@@ -684,7 +684,7 @@ class I_W_Soldier_TL_F: I_W_Soldier_base_F
 		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
 		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellOrange,
@@ -700,7 +700,7 @@ class I_W_Soldier_TL_F: I_W_Soldier_base_F
 		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
 		mag_2(10Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellOrange,
@@ -769,14 +769,14 @@ class I_W_RadioOperator_F: I_W_Soldier_base_F
 	{
 		mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
 		mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	role = RadioOperator;
@@ -834,7 +834,7 @@ class I_W_Soldier_AA_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -842,7 +842,7 @@ class I_W_Soldier_AA_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AA,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	cost = 130000;
@@ -905,7 +905,7 @@ class I_W_Soldier_AT_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -913,7 +913,7 @@ class I_W_Soldier_AT_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	cost = 130000;
@@ -976,7 +976,7 @@ class I_W_Soldier_LAT_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
@@ -984,7 +984,7 @@ class I_W_Soldier_LAT_F: I_W_Soldier_base_F
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	cost = 130000;
@@ -1034,7 +1034,7 @@ class I_W_Soldier_AAA_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1042,7 +1042,7 @@ class I_W_Soldier_AAA_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1090,7 +1090,7 @@ class I_W_Soldier_AAT_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1098,7 +1098,7 @@ class I_W_Soldier_AAT_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1146,7 +1146,7 @@ class I_W_Support_GMG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1154,7 +1154,7 @@ class I_W_Support_GMG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1202,7 +1202,7 @@ class I_W_Support_MG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1210,7 +1210,7 @@ class I_W_Support_MG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1258,7 +1258,7 @@ class I_W_Support_Mort_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1266,7 +1266,7 @@ class I_W_Support_Mort_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1314,7 +1314,7 @@ class I_W_Support_AMG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1322,7 +1322,7 @@ class I_W_Support_AMG_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1370,7 +1370,7 @@ class I_W_Support_AMort_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1378,7 +1378,7 @@ class I_W_Support_AMort_F: I_W_Soldier_base_F
 	{
 		mag_8(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(I_IR_Grenade),
         mag_2(SmokeShell)
 	};
@@ -1424,7 +1424,7 @@ class I_W_Engineer_F: I_W_Soldier_base_F
 	{
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellOrange,
@@ -1434,7 +1434,7 @@ class I_W_Engineer_F: I_W_Soldier_base_F
     {
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellOrange,
@@ -1488,7 +1488,7 @@ class I_W_Soldier_Exp_F: I_W_Soldier_base_F
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1496,7 +1496,7 @@ class I_W_Soldier_Exp_F: I_W_Soldier_base_F
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	canDeactivateMines = true;
@@ -1553,14 +1553,14 @@ class I_W_Soldier_Repair_F: I_W_Soldier_base_F
     {
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	engineer = true;
@@ -1612,14 +1612,14 @@ class I_W_Soldier_CBRN_F: I_W_Soldier_base_F
     {
         mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	cost = 93000;
@@ -1685,7 +1685,7 @@ class I_W_Medic_F: I_W_Soldier_base_F
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellBlue,
@@ -1695,7 +1695,7 @@ class I_W_Medic_F: I_W_Soldier_base_F
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SmokeShellRed,
         SmokeShellBlue,
@@ -1745,14 +1745,14 @@ class I_W_Crew_F: I_W_Soldier_base_F
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_556x45_Stanag),
 		mag_2(10Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
 	camouflage = 1.6;
@@ -1933,14 +1933,14 @@ class I_W_Soldier_UAV_F: I_W_Soldier_base_F
     {
         mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_Stanag),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	uavHacker = true;

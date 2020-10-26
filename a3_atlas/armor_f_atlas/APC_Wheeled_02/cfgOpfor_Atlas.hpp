@@ -198,7 +198,7 @@ class Atlas_O_T_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
 		mag_xx(75Rnd_762x39_Mag_Green_F,8);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);

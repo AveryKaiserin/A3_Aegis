@@ -42,7 +42,7 @@ class V_supplyCrate_F: ReammoBox_F
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(SmokeShellRed,2);
 		mag_xx(SmokeShell,2);
 	};
@@ -116,7 +116,7 @@ class V_T_supplyCrate_F: ReammoBox_F
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(SmokeShellRed,2);
 		mag_xx(SmokeShell,2);
 	};

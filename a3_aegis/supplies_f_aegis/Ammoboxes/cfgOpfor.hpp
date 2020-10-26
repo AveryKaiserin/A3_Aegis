@@ -133,7 +133,8 @@ class Box_East_Grenades_F: East_Box_Base
         delete _xx_1Rnd_SmokePurple_Grenade_shell;
         delete _xx_1Rnd_SmokeBlue_Grenade_shell;
         mag_xx(1Rnd_SmokeOrange_Grenade_shell,2);
-        mag_xx(HandGrenade,12);
+        delete _xx_HandGrenade;
+        mag_xx(HandGrenade_East,12);
         mag_xx(MiniGrenade,12);
         mag_xx(SmokeShell,2);
         mag_xx(SmokeShellRed,2);
@@ -247,7 +248,8 @@ class O_supplyCrate_F: B_supplyCrate_F
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(Laserbatteries,1);
-		mag_xx(HandGrenade,6);
+        delete _xx_HandGrenade;
+        mag_xx(HandGrenade_East,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);

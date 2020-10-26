@@ -290,7 +290,7 @@ class Box_RUS_Grenades_F: Box_East_Grenades_F
         mag_xx(UGL_FlareYellow_F,2);
         mag_xx(O_R_IR_Grenade,8);
         mag_xx(MiniGrenade,12);
-        mag_xx(HandGrenade,12);
+        mag_xx(HandGrenade_East,12);
         mag_xx(SmokeShell,2);
         mag_xx(SmokeShellRed,2);
         mag_xx(SmokeShellYellow,2);
@@ -514,7 +514,7 @@ class O_R_supplyCrate_F: O_supplyCrate_F
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(SmokeShellRed,2);
 		mag_xx(SmokeShell,2);
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);

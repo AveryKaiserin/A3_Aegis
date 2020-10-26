@@ -188,7 +188,8 @@ class CfgVehicles
 			mag_xx(ATMine_Range_Mag,5);
 			mag_xx(ClaymoreDirectionalMine_Remote_Mag,5);
 			mag_xx(DemoCharge_Remote_Mag,5);
-			mag_xx(HandGrenade,24);
+            delete _xx_HandGrenade;
+            mag_xx(HandGrenade_East,24);
 			mag_xx(Laserbatteries,1);
 			mag_xx(MiniGrenade,24);
 			mag_xx(O_IR_Grenade,8);

@@ -192,7 +192,7 @@ class CfgVehicles
             mag_xx(RPG32_F,3);
             mag_xx(RPG32_HE_F,3);
             mag_xx(Laserbatteries,1);
-            mag_xx(HandGrenade,6);
+            mag_xx(HandGrenade_East,6);
             mag_xx(MiniGrenade,6);
             mag_xx(SmokeShell,2);
             mag_xx(SmokeShellRed,2);

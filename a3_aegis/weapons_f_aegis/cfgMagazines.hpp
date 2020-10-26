@@ -66,6 +66,16 @@ class CfgMagazines
 	class 1Rnd_SmokePurple_Grenade_shell;
 	class 1Rnd_SmokeBlue_Grenade_shell;
 	class 1Rnd_SmokeOrange_Grenade_shell;
+	class HandGrenade: CA_Magazine
+	{
+		displayName = $STR_A3_A_CfgMagazines_HandGrenade0;
+		displayNameShort = $STR_A3_A_CfgMagazines_HandGrenade_dns;
+	};
+	class MiniGrenade: CA_Magazine
+	{
+		displayName = $STR_A3_A_CfgMagazines_MiniGrenade0;
+		displayNameShort = $STR_A3_A_CfgMagazines_MiniGrenade_dns;
+	};
 	class 2000Rnd_65x39_Belt;
 	class 2000Rnd_65x39_Belt_Tracer_Green_Splash;
 	class 200Rnd_20mm_G_belt: VehicleMagazine
@@ -724,6 +734,14 @@ class CfgMagazines
 		ammo = G_40mm_APERSMine;
 		descriptionShort = "Type: Anti-Personnel Mine Rounds<br />Rounds: 6<br />Used in: M32";
 		displayNameShort = $STR_A3_CfgMagazines_ClassicMineRangeMagazine0;
+	};
+	class HandGrenade_East: HandGrenade
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_HandGrenade0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\gear_RGO_CA.paa";
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d";
+		ammo = GrenadeHandEast;
 	};
 	class 5Rnd_25x40mm_HE: CA_Magazine
 	{

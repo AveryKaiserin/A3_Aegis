@@ -19,6 +19,8 @@ class CfgVehicles
 	{
 		class TransportMagazines
 		{
+			delete _xx_HandGrenade;
+		    mag_xx(HandGrenade_East,10);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};
@@ -68,6 +70,8 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(100Rnd_580x42_Mag_F,8);
+			delete _xx_HandGrenade;
+		    mag_xx(HandGrenade_East,10);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};
@@ -77,6 +81,8 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(100Rnd_580x42_Mag_F,8);
+			delete _xx_HandGrenade;
+		    mag_xx(HandGrenade_East,10);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};
@@ -86,6 +92,8 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			mag_xx(100Rnd_580x42_Mag_F,8);
+			delete _xx_HandGrenade;
+		    mag_xx(HandGrenade_East,10);
 			delete _xx_16Rnd_9x21_Mag;
 			mag_xx(17Rnd_9x21_Mag,12);
 		};

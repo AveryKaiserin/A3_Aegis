@@ -36,7 +36,7 @@ class CfgVehicles
 		{
 			mag_xx(30Rnd_65x39_caseless_green,12);
 			mag_xx(150Rnd_762x54_Box,4);
-			mag_xx(HandGrenade,6);
+			mag_xx(HandGrenade_East,6);
 			mag_xx(MiniGrenade,6);
 			mag_xx(1Rnd_HE_Grenade_shell,6);
 			mag_xx(1Rnd_Smoke_Grenade_shell,3);
@@ -127,6 +127,27 @@ class CfgVehicles
 			"\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa",
 			"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa",
 			"\A3\Armor_F\Data\cage_CSAT_Green_CO.paa"
+		};
+		class TransportMagazines
+		{
+			mag_xx(30Rnd_580x42_Mag_F,12);
+			mag_xx(100Rnd_580x42_Mag_F,8);
+			mag_xx(HandGrenade_East,6);
+			mag_xx(MiniGrenade,6);
+			mag_xx(1Rnd_HE_Grenade_shell,6);
+			mag_xx(1Rnd_Smoke_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+			mag_xx(1Rnd_SmokeYellow_Grenade_shell,3);
+			mag_xx(SmokeShell,8);
+			mag_xx(SmokeShellRed,8);
+			mag_xx(SmokeShellOrange,8);
+			mag_xx(SmokeShellYellow,8);
+			mag_xx(RPG32_F,5);
+			mag_xx(RPG32_HE_F,2);
+			mag_xx(Titan_AT,2);
+			mag_xx(Titan_AP,2);
+			mag_xx(Titan_AA,2);
 		};
 		class TransportBackpacks
 		{

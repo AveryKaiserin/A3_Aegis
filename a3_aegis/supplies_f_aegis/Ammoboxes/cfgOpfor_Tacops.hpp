@@ -82,7 +82,7 @@ class Box_A_East_WpsLaunch_F: ReammoBox_F
 		mag_xx(DemoCharge_Remote_Mag,5);
 		mag_xx(APERSMine_Range_Mag,3);
 		mag_xx(MiniGrenade,5);
-		mag_xx(HandGrenade,5);
+		mag_xx(HandGrenade_East,5);
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(Titan_AA,3);
@@ -131,7 +131,7 @@ class O_A_supplyCrate_F: O_supplyCrate_F
 		mag_xx(RPG32_F,3);
 		mag_xx(RPG32_HE_F,3);
 		mag_xx(MiniGrenade,6);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(SmokeShellRed,2);
 		mag_xx(SmokeShell,2);
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);

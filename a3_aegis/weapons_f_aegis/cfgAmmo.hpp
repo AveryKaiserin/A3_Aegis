@@ -110,7 +110,7 @@ class CfgAmmo
 		lightColor[] =
         {
             0.25,   // R
-            0.95,   // G
+            0.8,    // G
             0.25,   // B
             0       // A
         };
@@ -119,7 +119,7 @@ class CfgAmmo
 	{
 		lightColor[] =
         {
-            0.95,   // R
+            0.8,    // R
             0.25,   // G
             0.25,   // B
             0       // A
@@ -130,7 +130,7 @@ class CfgAmmo
 		lightColor[] =
         {
             0.95,   // R
-            0.95,   // G
+            0.8,    // G
             0.25,   // B
             0       // A
         };
@@ -139,13 +139,13 @@ class CfgAmmo
 	{
 		lightColor[] =
         {
-            0,  // R
-            0,  // G
-            0,  // B
-            0   // A
+            0.5,    // R
+            0.25,   // G
+            0.95,   // B
+            0       // A
         };
-		intensity = 10000;
-		brightness = 12;
+		intensity = 700000;
+		brightness = 100;
 	};
 	class F_20mm_White: FlareBase
 	{
@@ -293,35 +293,23 @@ class CfgAmmo
 		dangerRadiusHit = 12;
 		suppressionRadiusHit = 8;
 	};
-	class B_9x33_Ball: BulletBase
-	{
-		hit = 6;
-		indirectHit = 0;
-		indirectHitRange = 0;
-		cartridge = FxCartridge_9mm;
-		visibleFireTime = 3;
-		audibleFire = 45;
-		cost = 100;
-		aiAmmoUsageFlags = AIAmmoUsageOffensiveInf; 
-		airLock = true;
-		typicalSpeed = 380;
-		caliber = 1.2;
-		deflecting = 25;
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
-		tracerScale = 1;
-		tracerStartTime = 0.05;
-		tracerEndTime = 1;
-		airFriction = -0.0019;
-		dangerRadiusBulletClose = 4;
-		dangerRadiusHit = 8;
-		suppressionRadiusBulletClose = 2;
-		suppressionRadiusHit = 4;
-	};
 	class G_40mm_APERSMine: ShotDeployBase
 	{
 		submunitionAmmo = APERSMineDispenser_Mine_Ammo;
 		model = "\A3\Weapons_F_Orange\Explosives\APERSmineDispenser_AP.p3d";
 		mineFloating = 1000;
+	};
+	class GrenadeHandEast: GrenadeHand
+	{
+		hit = 9;
+		indirectHit = 9;
+		indirectHitRange = 7;
+		dangerRadiusHit = 65;
+		suppressionRadiusHit = 27;
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d";
+		deflecting = 15;
+		fuseDistance = 4;
+        explosionTime = -1;
 	};
 	class R_50mm_HE: RocketBase
 	{

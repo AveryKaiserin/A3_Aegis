@@ -31,14 +31,14 @@ class O_Soldier_base_F: SoldierEB
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -126,13 +126,13 @@ class O_Soldier_lite_F: O_Soldier_base_F
 	magazines[] =
 	{
         mag_4(30Rnd_65x39_caseless_green),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_65x39_caseless_green),
-        HandGrenade,
+        HandGrenade_East,
         SmokeShell
 	};
     linkedItems[] =
@@ -168,7 +168,7 @@ class O_Soldier_GL_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -177,7 +177,7 @@ class O_Soldier_GL_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -215,14 +215,14 @@ class O_Soldier_AR_F: O_Soldier_base_F
     {
         mag_4(150Rnd_762x54_Box),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_4(150Rnd_762x54_Box),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -249,7 +249,7 @@ class O_Soldier_SL_F: O_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
@@ -262,7 +262,7 @@ class O_Soldier_SL_F: O_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
@@ -295,7 +295,7 @@ class O_Soldier_TL_F: O_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -307,7 +307,7 @@ class O_Soldier_TL_F: O_Soldier_base_F
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -351,14 +351,14 @@ class O_soldier_M_F: O_Soldier_base_F
     {
         mag_10(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -398,7 +398,7 @@ class O_Soldier_LAT_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -406,7 +406,7 @@ class O_Soldier_LAT_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -443,7 +443,7 @@ class O_medic_F: O_Soldier_base_F
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
@@ -451,7 +451,7 @@ class O_medic_F: O_Soldier_base_F
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
@@ -477,14 +477,14 @@ class O_soldier_repair_F: O_Soldier_base_F
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -510,7 +510,7 @@ class O_soldier_exp_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -518,7 +518,7 @@ class O_soldier_exp_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -595,14 +595,14 @@ class O_Soldier_A_F: O_Soldier_base_F
     {
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -628,7 +628,7 @@ class O_Soldier_AT_F: O_Soldier_base_F
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -636,7 +636,7 @@ class O_Soldier_AT_F: O_Soldier_base_F
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -662,7 +662,7 @@ class O_Soldier_AA_F: O_Soldier_base_F
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -670,7 +670,7 @@ class O_Soldier_AA_F: O_Soldier_base_F
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -695,7 +695,7 @@ class O_engineer_F: O_Soldier_base_F
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -703,7 +703,7 @@ class O_engineer_F: O_Soldier_base_F
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -861,14 +861,14 @@ class O_soldier_UAV_F: O_Soldier_base_F
 	{
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
 	};
     linkedItems[] =
@@ -1465,7 +1465,7 @@ class O_Soldier_support_base_F: O_Soldier_base_F
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1473,7 +1473,7 @@ class O_Soldier_support_base_F: O_Soldier_base_F
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1566,14 +1566,14 @@ class O_Soldier_Urban_base: O_Soldier_base_F
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -1611,14 +1611,14 @@ class O_soldierU_AR_F: O_Soldier_Urban_base
     {
         mag_4(150Rnd_762x54_Box),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_4(150Rnd_762x54_Box),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade,
+        HandGrenade_East,
         mag_2(SmokeShell)
     };
 };
@@ -1643,7 +1643,7 @@ class O_soldierU_AAR_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1651,7 +1651,7 @@ class O_soldierU_AAR_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1678,7 +1678,7 @@ class O_soldierU_LAT_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1686,7 +1686,7 @@ class O_soldierU_LAT_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         RPG32_F,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -1712,7 +1712,7 @@ class O_soldierU_AT_F: O_Soldier_Urban_base
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1720,7 +1720,7 @@ class O_soldierU_AT_F: O_Soldier_Urban_base
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -1759,7 +1759,7 @@ class O_soldierU_AAT_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1767,7 +1767,7 @@ class O_soldierU_AAT_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1808,7 +1808,7 @@ class O_soldierU_AA_F: O_Soldier_Urban_base
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -1816,7 +1816,7 @@ class O_soldierU_AA_F: O_Soldier_Urban_base
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -1855,7 +1855,7 @@ class O_soldierU_AAA_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1863,7 +1863,7 @@ class O_soldierU_AAA_F: O_Soldier_Urban_base
     {
         mag_8(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -1905,7 +1905,7 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -1919,7 +1919,7 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -1952,7 +1952,7 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
@@ -1962,7 +1962,7 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
@@ -2003,7 +2003,7 @@ class O_soldierU_medic_F: O_Soldier_Urban_base
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
@@ -2011,7 +2011,7 @@ class O_soldierU_medic_F: O_Soldier_Urban_base
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
@@ -2037,14 +2037,14 @@ class O_soldierU_repair_F: O_Soldier_Urban_base
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 };
@@ -2056,7 +2056,7 @@ class O_soldierU_exp_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -2064,7 +2064,7 @@ class O_soldierU_exp_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -2089,7 +2089,7 @@ class O_engineer_U_F: O_Soldier_Urban_base
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -2097,7 +2097,7 @@ class O_engineer_U_F: O_Soldier_Urban_base
     {
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -2123,14 +2123,14 @@ class O_soldierU_M_F: O_Soldier_Urban_base
     {
         mag_10(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -2155,14 +2155,14 @@ class O_soldierU_A_F: O_Soldier_Urban_base
     {
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_12(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 };
@@ -2186,7 +2186,7 @@ class O_SoldierU_GL_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -2195,7 +2195,7 @@ class O_SoldierU_GL_F: O_Soldier_Urban_base
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -2270,14 +2270,14 @@ class O_Sharpshooter_F: O_Soldier_base_F
     {
         mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
 	linkedItems[] =
@@ -2316,14 +2316,14 @@ class O_Urban_Sharpshooter_F: O_Soldier_Urban_base
     {
         mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_8(10Rnd_93x64_DMR_05_Mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -2486,7 +2486,7 @@ class O_Soldier_HAT_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Vorona_HEAT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -2494,7 +2494,7 @@ class O_Soldier_HAT_F: O_Soldier_base_F
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         Vorona_HEAT,
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -2555,7 +2555,7 @@ class O_Soldier_CQ_F: O_Soldier_base_F
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -2563,7 +2563,7 @@ class O_Soldier_CQ_F: O_Soldier_base_F
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -2606,7 +2606,7 @@ class O_soldierU_CQ_F: O_Soldier_Urban_base
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -2614,7 +2614,7 @@ class O_soldierU_CQ_F: O_Soldier_Urban_base
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     linkedItems[] =
@@ -3010,14 +3010,14 @@ class O_Soldier_CBRN_F: O_Soldier_F
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     cost = 93000;
@@ -3066,14 +3066,14 @@ class O_soldierU_CBRN_F: O_soldierU_F
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     cost = 93000;
@@ -3121,14 +3121,14 @@ class O_RadioOperator_F: O_Soldier_F
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     role = RadioOperator;
@@ -3188,14 +3188,14 @@ class O_Urban_RadioOperator_F: O_soldierU_F
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade),
+        mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     role = RadioOperator;

@@ -50,12 +50,12 @@ class Opf_I_I_Soldier_1_F: Opf_I_I_Soldier_Base_F
 	magazines[] = 
 	{
         mag_6(30Rnd_762x39_Mag_F),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(30Rnd_762x39_Mag_F),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	role = Rifleman;
     headgearList[] =
@@ -103,13 +103,13 @@ class Opf_I_I_Soldier_2_F: Opf_I_I_Soldier_Base_F
 	{
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(30Rnd_65x39_caseless_green),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade)
+        mag_2(HandGrenade_East)
 	};
 	cost = 250000;
 	camouflage = 1.6;

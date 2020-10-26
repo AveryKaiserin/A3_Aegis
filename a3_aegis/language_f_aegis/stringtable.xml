@@ -16077,6 +16077,74 @@
 			</Container>
 			<!--TODO-->
 			<Container name="Magazines">
+				<Key ID="STR_A3_A_CfgMagazines_HandGrenade0">
+                    <Original>Frag Grenade</Original>
+                    <Chinese>碎片化手榴彈</Chinese>
+                    <French>Grenade frag</French>
+                    <Spanish>Granada frag</Spanish>
+                    <Italian>Granata frag</Italian>
+                    <Polish>Granat podział</Polish>
+                    <Russian>Фраг граната</Russian>
+                    <German>Splittergranate</German>
+                    <Czech>Frag granát</Czech>
+                    <English>Frag Grenade</English>
+                    <Portuguese>Granada frag</Portuguese>
+                    <Korean>파편 유탄</Korean>
+                    <Chinesesimp>碎片化枪榴弹</Chinesesimp>
+                    <Japanese>断片化グレネード</Japanese>
+                    <Turkish>Parça El bombası</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_HandGrenade_dns">
+                    <Original>Frag Grenade</Original>
+                    <Chinese>碎片化手榴彈</Chinese>
+                    <French>Grenade frag</French>
+                    <Spanish>Granada frag</Spanish>
+                    <Italian>Granata frag</Italian>
+                    <Polish>Granat podział</Polish>
+                    <Russian>Фраг граната</Russian>
+                    <German>Splittergranate</German>
+                    <Czech>Frag granát</Czech>
+                    <English>Frag Grenade</English>
+                    <Portuguese>Granada frag</Portuguese>
+                    <Korean>파편 유탄</Korean>
+                    <Chinesesimp>碎片化枪榴弹</Chinesesimp>
+                    <Japanese>断片化グレネード</Japanese>
+                    <Turkish>Parça El bombası</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_MiniGrenade0">
+                    <Original>Mini Grenade</Original>
+                    <Chinese>迷你手榴彈</Chinese>
+                    <French>Mini-grenade</French>
+                    <Spanish>Minigranada</Spanish>
+                    <Italian>Mini granata</Italian>
+                    <Polish>Minigranat</Polish>
+                    <Russian>Мини-граната</Russian>
+                    <German>Minigranate</German>
+                    <Czech>Mini granát</Czech>
+                    <English>Mini Grenade</English>
+                    <Portuguese>Minigranada</Portuguese>
+                    <Korean>소형수류탄</Korean>
+                    <Chinesesimp>迷你手榴弹</Chinesesimp>
+                    <Japanese>ミニグレネード</Japanese>
+                    <Turkish>Mini El bombası</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_MiniGrenade_dns">
+                    <Original>Mini Grenade</Original>
+                    <Chinese>迷你手榴彈</Chinese>
+                    <French>Mini-grenade</French>
+                    <Spanish>Minigranada</Spanish>
+                    <Italian>Mini granata</Italian>
+                    <Polish>Minigranat</Polish>
+                    <Russian>Мини-граната</Russian>
+                    <German>Minigranate</German>
+                    <Czech>Mini granát</Czech>
+                    <English>Mini Grenade</English>
+                    <Portuguese>Minigranada</Portuguese>
+                    <Korean>소형수류탄</Korean>
+                    <Chinesesimp>迷你手榴弹</Chinesesimp>
+                    <Japanese>ミニグレネード</Japanese>
+                    <Turkish>Mini El bombası</Turkish>
+				</Key>
 				<Container name="DescriptionShort">
 					<Key ID="STR_A3_A_CfgMagazines_O_R_IR_Grenade1">
 						<Original>Type: IR Strobe&lt;br /&gt;Faction: Russia&lt;br /&gt;Rounds: 1</Original>
