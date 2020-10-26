@@ -16057,6 +16057,23 @@
 					<Japanese>Vektor</Japanese>
 					<Turkish>Vektor</Turkish>
 				</Key>
+                <Key ID="STR_A3_A_CfgWeapons_autocannon_30mm_Heli_Attack_030">
+                    <Original>Chain Gun 30 mm</Original>
+                    <Chinese>機關砲 30 mm</Chinese>
+                    <French>Canon 30 mm</French>
+                    <Spanish>Cañón 30 mm</Spanish>
+                    <Italian>Cannone 30 mm</Italian>
+                    <Polish>Działo 30 mm</Polish>
+                    <Russian>30-мм пушка</Russian>
+                    <German>Geschütz 30 mm</German>
+                    <Czech>30mm kanón</Czech>
+                    <English>Chain Gun 30 mm</English>
+                    <Portuguese>Canhão de 30 mm</Portuguese>
+                    <Korean>기관포 30mm</Korean>
+                    <Chinesesimp>机炮 30 毫米</Chinesesimp>
+                    <Japanese>カノン砲30mm</Japanese>
+                    <Turkish>Top 30 mm</Turkish>
+                </Key>
 				<Key ID="STR_A3_A_CfgWeapons_weapon_AGM_154Launcher0">
 					<Original>JSOW</Original>
 					<Chinese>JSOW</Chinese>
@@ -16145,177 +16162,568 @@
                     <Japanese>ミニグレネード</Japanese>
                     <Turkish>Mini El bombası</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_O_R_IR_Grenade0">
+					<Original>IR Grenade [Russia]</Original>
+					<Chinese>紅外線手榴彈（俄國）</Chinese>
+					<French>Grenade infrarouge [Russie]</French>
+					<Spanish>Granada IR [Rusia]</Spanish>
+					<Italian>Granata IR [Russia]</Italian>
+					<Polish>Granat IR [Rosja]</Polish>
+					<Russian>ИК-граната [Россия]</Russian>
+					<German>IR-Granate [Russland]</German>
+					<Czech>Infračervený granát [Rusko]</Czech>
+					<English>IR Grenade [Russia]</English>
+					<Portuguese>Granada de IV [Rússia]</Portuguese>
+					<Korean>적외선수류탄[러시아]</Korean>
+					<Chinesesimp>红外枪榴弹 [俄国]</Chinesesimp>
+					<Japanese>赤外線グレネード[ロシア]</Japanese>
+					<Turkish>IR El Bombası [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_Mag0">
+					<Original>9 mm 15Rnd Mag</Original>
+					<Chinese>9 mm 15 發彈匣</Chinese>
+					<French>Mag. 15 balles 9 mm</French>
+					<Spanish>Cargador de 15 proyectiles de 9 mm</Spanish>
+					<Italian>Caricatore 15 colpi 9 mm</Italian>
+					<Polish>15-nab. mag. 9mm</Polish>
+					<Russian>Магазин, 15 патр. 9 мм</Russian>
+					<German>15-Schuss-9mm-Magazin</German>
+					<Czech>9 mm, 15ks zásobník</Czech>
+					<English>9 mm 15Rnd Mag</English>
+					<Portuguese>Carregador 15Mun. 9 mm</Portuguese>
+					<Korean>9mm 15발 탄창</Korean>
+					<Chinesesimp>9 毫米 15 发弹匣</Chinesesimp>
+					<Japanese>9mm 15Rnd マガジン</Japanese>
+					<Turkish>9 mm 15 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_red_Mag0">
+					<Original>9 mm 15Rnd Reload Tracer (Red) Mag</Original>
+					<Chinese>9 mm 15 發重新裝填曳光彈（紅）彈匣</Chinese>
+					<French>Mag. 15 traçantes recharge rouges 9 mm</French>
+					<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (rojo) de 9 mm</Spanish>
+					<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (rossi)</Italian>
+					<Polish>15-nab. mag. przeł. 9 mm (czerwony smugacz)</Polish>
+					<Russian>Магазин, 15 патр. с послед. трас. 9 мм (красные)</Russian>
+					<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Rot)</German>
+					<Czech>9 mm, 15ks zásobník nabíjecí stopovky (červené)</Czech>
+					<English>9 mm 15Rnd Reload Tracer (Red) Mag</English>
+					<Portuguese>Carregador 15Mun. Traçante Recarga (Vermelho) 9 mm</Portuguese>
+					<Korean>9mm 15발 재장전 예광탄 (적색) 탄창</Korean>
+					<Chinesesimp>9 毫米 15 发装弹指示（红色）弹匣</Chinesesimp>
+					<Japanese>9mm 15Rnd 装填トレーサー（赤）マガジン</Japanese>
+					<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Kırmızı) Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_green_Mag0">
+					<Original>9 mm 15Rnd Reload Tracer (Green) Mag</Original>
+					<Chinese>9 mm 15 發重新裝填曳光彈（綠）彈匣</Chinese>
+					<French>Mag. 15 traçantes recharge vertes 9 mm</French>
+					<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (verde) de 9 mm</Spanish>
+					<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (verdi)</Italian>
+					<Polish>15-nab. mag. przeł. 9 mm (zielony smugacz)</Polish>
+					<Russian>Магазин, 15 патр. с послед. трас. 9 мм (зеленые)</Russian>
+					<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Grün)</German>
+					<Czech>9 mm, 15ks zásobník nabíjecí stopovky (zelené)</Czech>
+					<English>9 mm 15Rnd Reload Tracer (Green) Mag</English>
+					<Portuguese>Carregador 15Mun. Traçante Recarga (Verde) 9 mm</Portuguese>
+					<Korean>9mm 15발 재장전 예광탄 (녹색) 탄창</Korean>
+					<Chinesesimp>9 毫米 15 发装弹指示（绿色）弹匣</Chinesesimp>
+					<Japanese>9mm 15Rnd 装填トレーサー（緑）マガジン</Japanese>
+					<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Yeşil) Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_yellow_Mag0">
+					<Original>9 mm 15Rnd Reload Tracer (Yellow) Mag</Original>
+					<Chinese>9 mm 15 發重新裝填曳光彈（黃）彈匣</Chinese>
+					<French>Mag. 15 traçantes recharge jaunes 9 mm</French>
+					<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (amarillo) de 9 mm</Spanish>
+					<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (gialli)</Italian>
+					<Polish>15-nab. mag. przeł. 9 mm (żółty smugacz)</Polish>
+					<Russian>Магазин, 15 патр. с послед. трас. 9 мм (желтые)</Russian>
+					<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Gelb)</German>
+					<Czech>9 mm, 15ks zásobník nabíjecí stopovky (žluté)</Czech>
+					<English>9 mm 15Rnd Reload Tracer (Yellow) Mag</English>
+					<Portuguese>Carregador 15Mun. Traçante Recarga (Amarelo) 9 mm</Portuguese>
+					<Korean>9mm 15발 재장전 예광탄 (황색) 탄창</Korean>
+					<Chinesesimp>9 毫米 15 发装弹指示（黄色）弹匣</Chinesesimp>
+					<Japanese>9mm 15Rnd 装填トレーサー（黄）マガジン</Japanese>
+					<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Sarı) Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag0">
+					<Original>.45 ACP 15Rnd Mag</Original>
+					<Chinese>.45 ACP 15 發彈匣</Chinese>
+					<French>Mag. 15 balles .45 ACP</French>
+					<Spanish>Cargador de 15 proyectiles de .45 ACP</Spanish>
+					<Italian>Caricatore 15 colpi .45 ACP</Italian>
+					<Polish>15-nab. mag. .45 ACP</Polish>
+					<Russian>Магазин, 15 патронов .45 ACP</Russian>
+					<German>15-Schuss-.45-ACP-Magazin</German>
+					<Czech>.45 ACP, 15ks zásobník</Czech>
+					<English>.45 ACP 15Rnd Mag</English>
+					<Portuguese>Carregador ACP 15Mun. .45</Portuguese>
+					<Korean>.45 ACP구경 15발 탄창</Korean>
+					<Chinesesimp>.45 ACP 15 发弹匣</Chinesesimp>
+					<Japanese>.45 ACP 15Rnd マガジン</Japanese>
+					<Turkish>.45 ACP 15 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_338_Mag0">
+					<Original>.338 NM 100Rnd Belt</Original>
+					<Chinese>.338 NM 100 發彈鏈</Chinese>
+					<French>Bande 100 balles NM .338</French>
+					<Spanish>Cinturón de 100 proyectiles de .338 NM</Spanish>
+					<Italian>Cintura 100 colpi .338 NM</Italian>
+					<Polish>100-nab. taśma .338 NM</Polish>
+					<Russian>Лента, 100 патронов .338 NM</Russian>
+					<German>100-Schuss-.338-NM-Munitionsgurt</German>
+					<Czech>.338 NM, 100ks pás</Czech>
+					<English>.338 NM 100Rnd Belt</English>
+					<Portuguese>Cinto NM 100Mun. .338</Portuguese>
+					<Korean>.338 NM 100발 탄띠</Korean>
+					<Chinesesimp>.338 NM 100 发弹链</Chinesesimp>
+					<Japanese>.338 NM 100Rnd ベルト</Japanese>
+					<Turkish>.338 NM 100 Merm. Fişeklik</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_120Rnd_93x64_Mag0">
+					<Original>9.3mm 120Rnd Belt</Original>
+					<Chinese>9.3mm 120 發彈鏈</Chinese>
+					<French>Bande 120 balles 9,3 mm</French>
+					<Spanish>Cinturón de 120 proyectiles de 9,3 mm</Spanish>
+					<Italian>Cintura 120 colpi 9,3 mm</Italian>
+					<Polish>120-nab. taśma 9,3 mm</Polish>
+					<Russian>Лента, 120 патр. 9,3 мм</Russian>
+					<German>120-Schuss-9.3mm-Munitionsgurt</German>
+					<Czech>9,3 mm. 120ks pás</Czech>
+					<English>9.3mm 120Rnd Belt</English>
+					<Portuguese>Cinto 120Mun. 9,3 mm</Portuguese>
+					<Korean>9.3mm 120발 탄띠</Korean>
+					<Chinesesimp>9.3 毫米 120 发弹链</Chinesesimp>
+					<Japanese>9.3mm 120Rnd ベルト</Japanese>
+					<Turkish>9.3mm 120 Merm. Fişeklik</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_F1">
+					<Original>7.62 mm 30Rnd AK-15 Mag</Original>
+					<Chinese>7.62 mm 30 發 AK-15 彈匣</Chinese>
+					<French>Mag. AK-15 30 balles 7,62 mm</French>
+					<Spanish>Cargador de 30 proyectiles de AK-15 de 7,62 mm</Spanish>
+					<Italian>Caricatore 30 colpi 7,62 mm AK-15</Italian>
+					<Polish>30-nab. mag. 7,62 mm AK-15</Polish>
+					<Russian>Магазин AK-15, 30 патр. 7,62 мм</Russian>
+					<German>30-Schuss-7.62mm-AK-15-Magazin</German>
+					<Czech>7,62 mm, 30ks zásobník AK-15</Czech>
+					<English>7.62 mm 30Rnd AK-15 Mag</English>
+					<Portuguese>Carregador AK-15 30Mun. 7,62 mm</Portuguese>
+					<Korean>7.62mm 30발 AK-15발 탄창</Korean>
+					<Chinesesimp>7.62 毫米 30 发 AK-15 弹匣</Chinesesimp>
+					<Japanese>7.62mm 30Rnd AK-15 マガジン</Japanese>
+					<Turkish>7.62 mm 30 Merm. AK-15 Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_Tracer_F1">
+					<Original>7.62 mm 30Rnd AK-15 Tracer Mag</Original>
+					<Chinese>7.62 mm 30 發 AK-15 曳光彈彈匣</Chinese>
+					<French>Mag. AK-15 30 traçantes 7,62 mm</French>
+					<Spanish>Cargador de 30 balas trazadoras de AK-15 de 7,62 mm</Spanish>
+					<Italian>Caricatore 30 colpi 7,62 mm con traccianti AK-15</Italian>
+					<Polish>30-nab. mag. 7,62 mm AK-15 (smugacz)</Polish>
+					<Russian>Магазин AK-15, 30 трас. патр. 7,62 мм (зеленые)</Russian>
+					<German>30-Schuss-7.62mm-AK-15-Magazin (Leuchtspur)</German>
+					<Czech>7,62 mm, 30ks zásobník AK-15 stopovky</Czech>
+					<English>7.62 mm 30Rnd AK-15 Tracer Mag</English>
+					<Portuguese>Carregador AK-15 30Mun. Traçante 7,62 mm</Portuguese>
+					<Korean>7.62mm 30발 AK-15 예광탄 탄창</Korean>
+					<Chinesesimp>7.62 毫米 30 发 AK-15 曳光弹弹匣</Chinesesimp>
+					<Japanese>7.62 mm 30Rnd AK-15 トレーサー・マガジン</Japanese>
+					<Turkish>7.62 mm 30 Merm. AK-15 İzli Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F0">
+					<Original>5.8 mm 75Rnd Mag</Original>
+					<Chinese>5.8 mm 75 發彈匣</Chinese>
+					<French>Mag. 75 balles 5,8 mm</French>
+					<Spanish>Cargador de 75 proyectiles de 5,8 mm</Spanish>
+					<Italian>Caricatore 75 colpi 5,8 mm</Italian>
+					<Polish>75-nab. mag. 5,8 mm</Polish>
+					<Russian>Магазин, 75 патр. 5,8 мм</Russian>
+					<German>75-Schuss-5.8mm-Magazin</German>
+					<Czech>5,8 mm, 75ks zásobník</Czech>
+					<English>5.8 mm 75Rnd Mag</English>
+					<Portuguese>Carregador 75Mun. 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_Tracer_F0">
+					<Original>5.8 mm 75Rnd Tracer (Green) Mag</Original>
+					<Chinese>5.8 mm 75 發曳光彈（綠）彈匣</Chinese>
+					<French>Mag. 75 traçantes vertes 5,8 mm</French>
+					<Spanish>Cargador de 75 balas trazadoras (verde) de 5,8 mm</Spanish>
+					<Italian>Caricatore 75 colpi 5,8 mm con traccianti (verdi)</Italian>
+					<Polish>75-nab. mag. 5,8 mm (zielony smugacz)</Polish>
+					<Russian>Магазин, 75 трас. патр. 5,8 мм (зеленые)</Russian>
+					<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün)</German>
+					<Czech>5,8 mm, 75ks zásobník stopovky (zelené)</Czech>
+					<English>5.8 mm 75Rnd Tracer (Green) Mag</English>
+					<Portuguese>Carregador 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 예광탄 (녹색) 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd トレーサー（緑）マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_F0">
+					<Original>5.8 mm 75Rnd Hex Mag</Original>
+					<Chinese>5.8 mm 75 發六邊形花色彈匣</Chinese>
+					<French>Mag. hex 75 balles 5,8 mm</French>
+					<Spanish>Cargador de 75 proyectiles Hex de 5,8 mm</Spanish>
+					<Italian>Caricatore esag. 75 colpi 5,8 mm</Italian>
+					<Polish>75-nab. mag. 5,8 mm (hex)</Polish>
+					<Russian>Магазин гекс, 75 патр. 5,8 мм</Russian>
+					<German>75-Schuss-5.8mm-Magazin (Hextarn)</German>
+					<Czech>5,8 mm, 75ks hex zásobník</Czech>
+					<English>5.8 mm 75Rnd Hex Mag</English>
+					<Portuguese>Carregador Hex 75Mun. 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 헥스 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发六角形弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd（六角形）マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. Hex Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_Tracer_F0">
+					<Original>5.8 mm 75Rnd Tracer (Green) Hex Mag</Original>
+					<Chinese>5.8 mm 75 發曳光彈（綠）六邊形花色彈匣</Chinese>
+					<French>Mag. hex 75 traçantes vertes 5,8 mm</French>
+					<Spanish>Cargador de 75 balas trazadoras Hex (verde) de 5,8 mm</Spanish>
+					<Italian>Caricatore esag. 75 colpi 5,8 mm con traccianti (verdi)</Italian>
+					<Polish>75-nab. mag. 5,8 mm (zielony smugacz, hex)</Polish>
+					<Russian>Магазин гекс, 75 трас. патр. 5,8 мм (зеленые)</Russian>
+					<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün, Hextarn)</German>
+					<Czech>5,8 mm, 75ks hex zásobník stopovky (zelené)</Czech>
+					<English>5.8 mm 75Rnd Tracer (Green) Hex Mag</English>
+					<Portuguese>Carregador Hex 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 예광탄 (녹색) 헥스 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）六角形弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd トレーサー（緑、六角形）マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Hex Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_F0">
+					<Original>5.8 mm 75Rnd Green Hex Mag</Original>
+					<Chinese>5.8 mm 75 發六邊形綠色彈匣</Chinese>
+					<French>Mag. vert hex 75 balles 5,8 mm</French>
+					<Spanish>Cargador de 75 proyectiles Hex (verde) de 5,8 mm</Spanish>
+					<Italian>Caricatore esag. verde 75 colpi 5,8 mm</Italian>
+					<Polish>75-nab. mag. 5,8 mm (zielony hex)</Polish>
+					<Russian>Магазин зеленый гекс, 75 трас. патр. 5,8 мм</Russian>
+					<German>75-Schuss-5.8mm-Magazin (Hextarn Grün)</German>
+					<Czech>5,8 mm, 75ks zelený hex zásobník</Czech>
+					<English>5.8 mm 75Rnd Green Hex Mag</English>
+					<Portuguese>Carregador Verde Hex 75Mun. 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 녹색 헥스 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发绿色六角形弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd（緑、六角形）マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. Yeşil Hex Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_Tracer_F0">
+					<Original>5.8 mm 75Rnd Tracer (Green) Green Hex Mag</Original>
+					<Chinese>5.8 mm 75 發曳光彈（綠）六邊形綠色彈匣</Chinese>
+					<French>Mag. vert hex 75 traçantes vertes 5,8 mm</French>
+					<Spanish>Cargador de 75 balas trazadoras Hex verde (verde) de 5,8 mm</Spanish>
+					<Italian>Caricatore esag. verde 75 colpi 5,8 mm con traccianti (verdi)</Italian>
+					<Polish>75-nab. mag. 5,8 mm (zielony smugacz, zielony hex)</Polish>
+					<Russian>Магазин зеленый гекс, 75 трас. патр. 5,8 мм (зеленые)</Russian>
+					<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün, Hextarn Grün)</German>
+					<Czech>5,8 mm, 75ks zelený hex zásobník stopovky (zelené)</Czech>
+					<English>5.8 mm 75Rnd Tracer (Green) Green Hex Mag</English>
+					<Portuguese>Carregador Verde Hex 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
+					<Korean>5.8mm 75발 예광탄 (녹색) 녹색 헥스 탄창</Korean>
+					<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）绿色六角形弹匣</Chinesesimp>
+					<Japanese>5.8mm 75Rnd トレーサー（緑、緑、六角形）マガジン</Japanese>
+					<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Yeşil Hex Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F0">
+					<Original>5.56 mm 100Rnd Mag</Original>
+					<Chinese>5.56 mm 100 發彈匣</Chinese>
+					<French>Mag. 100 balles 5,56 mm</French>
+					<Spanish>Cargador de 100 proyectiles de 5,56 mm</Spanish>
+					<Italian>Caricatore 100 colpi 5,56 mm</Italian>
+					<Polish>100-nab. mag. 5,56 mm</Polish>
+					<Russian>Магазин, 100 патр. 5,56 мм</Russian>
+					<German>100-Schuss-5.56mm-Magazin</German>
+					<Czech>5,56 mm, 100ks zásobník</Czech>
+					<English>5.56 mm 100Rnd Mag</English>
+					<Portuguese>Carregador 100Mun. 5,56 mm</Portuguese>
+					<Korean>5.56 mm 100발 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_F0">
+					<Original>5.56 mm 100Rnd Sand Mag</Original>
+					<Chinese>5.56 mm 100 發沙色彈匣</Chinese>
+					<French>Mag. sable 100 balles 5,56 mm</French>
+					<Spanish>Cargador de 100 proyectiles (arena) de 5,56 mm</Spanish>
+					<Italian>Caricatore sabbia 100 colpi 5,56 mm</Italian>
+					<Polish>100-nab. mag. 5,56 mm (piaskowy)</Polish>
+					<Russian>Песочный магазин, 100 патр. 5,56 мм</Russian>
+					<German>100-Schuss-5.56mm-Magazin (Sand)</German>
+					<Czech>5,56 mm, 100ks pískový zásobník</Czech>
+					<English>5.56 mm 100Rnd Sand Mag</English>
+					<Portuguese>Carregador Areia 100Mun. 5,56 mm</Portuguese>
+					<Korean>5.56mm 100발 샌드 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发沙色弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd（砂色）マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. Kum Rengi Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_Tracer_F0">
+					<Original>5.56 mm 100Rnd Tracer (Red) Sand Mag</Original>
+					<Chinese>5.56 mm 100 發曳光彈（紅）沙色彈匣</Chinese>
+					<French>Mag. sable 100 traçantes rouges 5,56 mm</French>
+					<Spanish>Cargador de 100 balas trazadoras (arena, rojo) de 5,56 mm</Spanish>
+					<Italian>Caricatore sabbia 100 colpi 5,56 mm con traccianti (rossi)</Italian>
+					<Polish>100-nab. mag. 5,56 mm (czerwony smugacz, piaskowy)</Polish>
+					<Russian>Песочный магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
+					<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot, Sand)</German>
+					<Czech>5,56 mm, 100ks pískový zásobník stopovky (červené)</Czech>
+					<English>5.56 mm 100Rnd Tracer (Red) Sand Mag</English>
+					<Portuguese>Carregador Areia 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
+					<Korean>5.56mm 100발 예광탄 (적색) 샌드 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发曳光弹（红色）沙色弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd トレーサー（赤、砂色）マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Kum Rengi Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_F0">
+					<Original>5.56 mm 100Rnd Green Mag</Original>
+					<Chinese>5.56 mm 100 發綠色彈匣</Chinese>
+					<French>Mag. vert 100 balles 5,56 mm</French>
+					<Spanish>Cargador de 100 proyectiles (verde) de 5,56 mm</Spanish>
+					<Italian>Caricatore verde 100 colpi 5,56 mm</Italian>
+					<Polish>100-nab. mag. 5,56 mm (zielony)</Polish>
+					<Russian>Зеленый магазин, 100 патр. 5,56 мм</Russian>
+					<German>100-Schuss-5.56mm-Magazin (Grün)</German>
+					<Czech>5,56 mm, 100ks zelený zásobník</Czech>
+					<English>5.56 mm 100Rnd Green Mag</English>
+					<Portuguese>Carregador Verde 100Mun. 5,56 mm</Portuguese>
+					<Korean>5.56mm 100발 녹색 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发绿色弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd（緑）マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. Yeşil Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_Tracer_F0">
+					<Original>5.56 mm 100Rnd Tracer (Red) Green Mag</Original>
+					<Chinese>5.56 mm 100 發曳光彈（紅）綠色彈匣</Chinese>
+					<French>Mag. vert 100 traçantes rouges 5,56 mm</French>
+					<Spanish>Cargador de 100 balas trazadoras verde (rojo) de 5,56 mm</Spanish>
+					<Italian>Caricatore verde 100 colpi 5,56 mm con traccianti (rossi)</Italian>
+					<Polish>100-nab. mag. 5,56 mm (czerwony smugacz, zielony)</Polish>
+					<Russian>Зеленый магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
+					<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot, Grün)</German>
+					<Czech>5,56 mm, 100ks zelený zásobník stopovky (červené)</Czech>
+					<English>5.56 mm 100Rnd Tracer (Red) Green Mag</English>
+					<Portuguese>Carregador Verde 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
+					<Korean>5.56mm 100발 예광탄 (적색) 녹색 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发曳光弹（红色）绿色弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd トレーサー（赤、緑）マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Yeşil Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_Tracer_F0">
+					<Original>5.56 mm 100Rnd Tracer (Red) Mag</Original>
+					<Chinese>5.56 mm 100 發曳光彈（紅）彈匣</Chinese>
+					<French>Mag. 100 traçantes rouges 5,56 mm</French>
+					<Spanish>Cargador de 100 balas trazadoras (rojo) de 5,56 mm</Spanish>
+					<Italian>Caricatore 100 colpi 5,56 mm con traccianti (rossi)</Italian>
+					<Polish>100-nab. mag. 5,56 mm (czerwony smugacz)</Polish>
+					<Russian>Магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
+					<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot)</German>
+					<Czech>5,56 mm, 100ks zásobník stopovky (červené)</Czech>
+					<English>5.56 mm 100Rnd Tracer (Red) Mag</English>
+					<Portuguese>Carregador 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
+					<Korean>5.56mm 100발 예광탄 (적색) 탄창</Korean>
+					<Chinesesimp>5.56 毫米 100 发曳光弹（红色）弹匣</Chinesesimp>
+					<Japanese>5.56mm 100Rnd トレーサー（赤）マガジン</Japanese>
+					<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F0">
+					<Original>6.5 mm 10Rnd Mag</Original>
+					<Chinese>6.5 mm 10 發彈匣</Chinese>
+					<French>Mag. 10 balles 6,5 mm</French>
+					<Spanish>Cargador de 10 proyectiles de 6,5 mm</Spanish>
+					<Italian>Caricatore 10 colpi 6,5 mm</Italian>
+					<Polish>10-nab. mag. 6,5 mm</Polish>
+					<Russian>Магазин, 10 патр. 6,5 мм</Russian>
+					<German>10-Schuss-6.5mm-Magazin</German>
+					<Czech>6,5 mm, 10ks zásobník</Czech>
+					<English>6.5 mm 10Rnd Mag</English>
+					<Portuguese>Carregador 10Mun. 6,5 mm</Portuguese>
+					<Korean>6.5mm 10발 탄창</Korean>
+					<Chinesesimp>6.5 毫米 10 发弹匣</Chinesesimp>
+					<Japanese>6.5mm 10Rnd マガジン</Japanese>
+					<Turkish>6.5 mm 10 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_16Rnd_9x21_Mag1">
+					<Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: P07</Original>
+					<Chinese>口徑：9x21 mm&lt;br /&gt;個數：15\&lt;br /&gt;用於：P07</Chinese>
+					<French>Calibre : 9x19 mm&lt;br /&gt;Munitions : 15\&lt;br /&gt;Application : P07</French>
+					<Spanish>Calibre: 9x19 mm&lt;br /&gt;Cargas: 15\&lt;br /&gt;Se usa en: P07</Spanish>
+					<Italian>Calibro: 9x19 mm&lt;br /&gt;Munizioni: 15\&lt;br /&gt;Si usa in: P07</Italian>
+					<Polish>Kaliber: 9x19 mm&lt;br /&gt;Magazynki: 15\&lt;br /&gt;Używane w: P07</Polish>
+					<Russian>Калибр: 9x19 мм&lt;br /&gt;Кол-во: 15\&lt;br /&gt;Применение: P07</Russian>
+					<German>Kaliber: 9x19 mm&lt;br /&gt;Patronen: 15\ &lt;br /&gt;Eingesetzt von: P07</German>
+					<Czech>Ráže: 9x19 mm&lt;br /&gt;Munice: 15\&lt;br /&gt;Použití: P07</Czech>
+					<English>Caliber: 9x19 mm&lt;br /&gt;Rounds: 15\&lt;br /&gt;Used in: P07</English>
+					<Portuguese>Calibre: 9x19 mm&lt;br /&gt;Balas: 15\&lt;br /&gt;Usada em: P07</Portuguese>
+					<Korean>구경: 9x19mm&lt;br /&gt;탄 수: 15\&lt;br /&gt;사용 가능: P07</Korean>
+					<Chinesesimp>类型：9x21 毫米&lt;br /&gt;容弹量：15\&lt;br /&gt;用于：P07</Chinesesimp>
+					<Japanese>口径：9x21 mm&lt;br /&gt;弾薬：15\&lt;br /&gt;使用：P07</Japanese>
+					<Turkish>Kalibre: 9x19 mm&lt;br /&gt;Mermi: 15&lt;br /&gt;Kullanıldığı Yer: P07</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_11Rnd_45ACP_Mag1">
+					<Original>Caliber: .45 ACP&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: 4-five</Original>
+					<Chinese>口徑：.45 ACP&lt;br /&gt;個數：15&lt;br /&gt;用於：4-five</Chinese>
+					<French>Calibre : .45 ACP&lt;br /&gt;Munitions : 15&lt;br /&gt;Application : 4-five</French>
+					<Spanish>Calibre: .45 ACP&lt;br /&gt;Cargas: 15&lt;br /&gt;Se usa en: 4-five</Spanish>
+					<Italian>Calibro: .45 ACP&lt;br /&gt;Munizioni: 15&lt;br /&gt;Si usa in: 4-cinque</Italian>
+					<Polish>Kaliber: .45 ACP&lt;br /&gt;Magazynek: 15&lt;br /&gt;Używany w: 4-five</Polish>
+					<Russian>Калибр: .45 ACP&lt;br /&gt;Патроны: 15&lt;br /&gt;Применение: 4-five</Russian>
+					<German>Kaliber: .45 ACP&lt;br /&gt;Patronen: 15&lt;br /&gt;Eingesetzt in: 4-five</German>
+					<Czech>Ráže: .45 ACP&lt;br /&gt;Munice: 15&lt;br /&gt;Použití: 4-five</Czech>
+					<English>Caliber: .45 ACP&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: 4-five</English>
+					<Portuguese>Calibre: .45 ACP&lt;br /&gt;Quantidade: 15&lt;br /&gt;Uso em: 4-five</Portuguese>
+					<Korean>구경: .45 ACP&lt;br /&gt;탄 수: 15&lt;br /&gt;사용 가능: 4-파이브</Korean>
+					<Chinesesimp>口径：45 ACP&lt;br /&gt;容弹量：15&lt;br /&gt;用于：4-five</Chinesesimp>
+					<Japanese>口径：.45 ACP&lt;br /&gt;弾薬：15&lt;br /&gt;使用：4-ファイブ</Japanese>
+					<Turkish>Kalibre: .45 ACP&lt;br /&gt;Mermi: 15&lt;br /&gt;Kullanıldığı Yer: 4-five</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_130Rnd_338_Mag1">
+					<Original>Caliber: .338 Norma Magnum&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPMG</Original>
+					<Chinese>口徑：.338 Norma 麥格農彈&lt;br /&gt;個數：100&lt;br /&gt;用於：特殊用途機關槍</Chinese>
+					<French>Calibre : .338 Norma Magnum&lt;br /&gt;Cartouches : 100&lt;br /&gt;Utilisé dans : SPMG</French>
+					<Spanish>Calibre: .338 Norma Magnum&lt;br /&gt;Cargas: 100&lt;br /&gt;Se usa en: SPMG</Spanish>
+					<Italian>Calibro: .338 Norma Magnum&lt;br /&gt;Munizioni: 100&lt;br /&gt;Usato in: SPMG</Italian>
+					<Polish>Kaliber: .338 Norma Magnum&lt;br /&gt;Naboje: 100&lt;br /&gt;Wykorzystywane w: SPMG</Polish>
+					<Russian>Калибр: .338 Norma Magnum&lt;br /&gt;Кол-во: 100&lt;br /&gt;Применение: SPMG</Russian>
+					<German>Kaliber: .338 Norma Magnum&lt;br /&gt;Schuss: 100&lt;br /&gt;Verwendet für: SPMG</German>
+					<Czech>Ráže: .338 Norma Magnum&lt;br /&gt;Munice: 100&lt;br /&gt;Použití: SPMG</Czech>
+					<English>Caliber: .338 Norma Magnum&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPMG</English>
+					<Portuguese>Calibre: .338 Norma Magnum&lt;br /&gt;Projéteis: 100&lt;br /&gt;Usado em: SPMG</Portuguese>
+					<Korean>구경: .338 Norma Magnum&lt;br /&gt;탄수: 100&lt;br /&gt;사용 가능: SPMG</Korean>
+					<Chinesesimp>口径：338 Norma Magnum&lt;br /&gt;容弹量：100&lt;br /&gt;用于：SPMG</Chinesesimp>
+					<Japanese>口径：.338 ノーママグナム&lt;br /&gt;ラウンド：100&lt;br /&gt;使用：SPMG</Japanese>
+					<Turkish>Kalibre: .338 Norma Magnum&lt;br /&gt;Mermi: 100&lt;br /&gt;Kullanıldığı Yer: SPMG</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_150Rnd_93x64_Mag1">
+					<Original>Caliber: 9.3x64mm&lt;br /&gt;Rounds: 120&lt;br /&gt;Used in: Navid</Original>
+					<Chinese>口徑：9.3x64mm&lt;br /&gt;個數：120&lt;br /&gt;用於：Navid</Chinese>
+					<French>Calibre : 9.3x64 mm&lt;br /&gt;Cartouches : 120&lt;br /&gt;Utilisé dans : Navid</French>
+					<Spanish>Calibre: 9,3x64 mm&lt;br /&gt;Cargas: 120&lt;br /&gt;Se usa en: Navid</Spanish>
+					<Italian>Calibro: 9,3x64 mm&lt;br /&gt;Munizioni: 120&lt;br /&gt;Usato in: Navid</Italian>
+					<Polish>Kaliber: 9,3x64 mm&lt;br /&gt;Naboje: 120&lt;br /&gt;Wykorzystywane w: Navid</Polish>
+					<Russian>Калибр: 9,3 x 64 мм&lt;br /&gt;Кол-во: 120&lt;br /&gt;Применение: Navid</Russian>
+					<German>Kaliber: 9,3 x 64 mm&lt;br /&gt;Schuss: 120&lt;br /&gt;Verwendet für: Navid</German>
+					<Czech>Ráže: 9,3x64 mm&lt;br /&gt;Munice: 120&lt;br /&gt;Použití: Navid</Czech>
+					<English>Caliber: 9.3x64mm&lt;br /&gt;Rounds: 120&lt;br /&gt;Used in: Navid</English>
+					<Portuguese>Calibre: 9.3x64 mm&lt;br /&gt;Projéteis: 120&lt;br /&gt;Usado em: Navid</Portuguese>
+					<Korean>구경: 9.3x64 mm&lt;br /&gt;탄수: 120&lt;br /&gt;사용 가능: Navid</Korean>
+					<Chinesesimp>口径：9.3x64 毫米&lt;br /&gt;容弹量：120&lt;br /&gt;用于：Navid</Chinesesimp>
+					<Japanese>口径：9.3x64 mm&lt;br /&gt;ラウンド：120&lt;br /&gt;使用：ナビッド</Japanese>
+					<Turkish>Kalibre: 9.3x64mm&lt;br /&gt;Mermi: 120&lt;br /&gt;Kullanıldığı Yer: Navid</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_Mag_F1">
+					<Original>Caliber: 7.62x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AK-15, AK-15 GL, AKM, RPK</Original>
+					<Chinese>口徑：7.62x39 mm&lt;br /&gt;個數：30&lt;br /&gt;用於：AK-15、AK-15 GL、AKM, RPK</Chinese>
+					<French>Calibre : 7,62x39 mm&lt;br /&gt;Munitions : 30&lt;br /&gt;Application : AK-15, AK-15 GL, AKM, RPK</French>
+					<Spanish>Calibre: 7,62 x 39 mm&lt;br /&gt;Cargas: 30&lt;br /&gt;Usadas en: AK-15, AK-15 GL, AKM, RPK</Spanish>
+					<Italian>Calibro: 7,62x39 mm&lt;br /&gt;Munizioni: 30&lt;br /&gt;Si usa con: AK-15, AK-15 GL, AKM, RPK</Italian>
+					<Polish>Kaliber: 7,62x39 mm&lt;br /&gt;Naboje: 30&lt;br /&gt;Zastosowanie: AK-15, AK-15 GL, AKM, RPK</Polish>
+					<Russian>Калибр: 7,62x39 мм&lt;br /&gt;Боеприпас: 30&lt;br /&gt;Используется в: AK-15, AK-15 GL, AKM, RPK</Russian>
+					<German>Kaliber: 7,62x39 mm&lt;br /&gt;Schuss: 30&lt;br /&gt;Verwendet in: AK-15, AK-15 GL, AKM, RPK</German>
+					<Czech>Ráže: 7,62x39 mm&lt;br /&gt;Kapacita: 30&lt;br /&gt;Použití: AK-15, AK-15 GL, AKM, RPK</Czech>
+					<English>Caliber: 7.62x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AK-15, AK-15 GL, AKM, RPK</English>
+					<Portuguese>Calibre: 7,62x39 mm&lt;br /&gt;Projéteis: 30&lt;br /&gt;Utilizados em: AK-15, AK-15 GL, AKM, RPK</Portuguese>
+					<Korean>구경: 7.62x39 mm&lt;br /&gt;탄 수: 30&lt;br /&gt;용도: AK-15, AK-15 GL, AKM, RPK</Korean>
+					<Chinesesimp>口径：7.62x39 毫米&lt;br /&gt;弹数：30&lt;br /&gt;用于：AK-15、AK-15 GL、AKM, RPK</Chinesesimp>
+					<Japanese>口径：7.62x39 mm&lt;br /&gt;弾数：30&lt;br /&gt;使用武器：AK-15、AK-15 GL、AKM, RPK</Japanese>
+					<Turkish>Kalibre: 7.62x39 mm&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: AK-15, AK-15 GL, AKM, RPK</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_30Rnd_545x39_Mag_F1">
+					<Original>Caliber: 5.45x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AKS-74U, AK-12, AK-12 GL</Original>
+					<Chinese>口徑：5.45x39 mm&lt;br /&gt;個數：30&lt;br /&gt;用於：AKS-74U、AK-12、AK-12 GL</Chinese>
+					<French>Calibre : 5,45x39 mm&lt;br /&gt;Munitions : 30&lt;br /&gt;Application : AKS-74U, AK-12, AK-12 GL</French>
+					<Spanish>Calibre: 5,45 x 39 mm&lt;br /&gt;Cargas: 30&lt;br /&gt;Usadas en: AKS-74U, AK-12, AK-12 GL</Spanish>
+					<Italian>Calibro: 5,45x39 mm&lt;br /&gt;Munizioni: 30&lt;br /&gt;Si usa con: AKS-74U, AK-12, AK-12 GL</Italian>
+					<Polish>Kaliber: 5,45x39 mm&lt;br /&gt;Naboje: 30&lt;br /&gt;Zastosowanie: AKS-74U, AK-12, AK-12 GL</Polish>
+					<Russian>Калибр: 5,45x39 мм&lt;br /&gt;Боеприпас: 30&lt;br /&gt;Используется в: AKS-74U, AK-12, AK-12 GL</Russian>
+					<German>Kaliber: 5,45x39 mm&lt;br /&gt;Schuss: 30&lt;br /&gt;Verwendet in: AKS-74U, AK-12, AK-12 GL</German>
+					<Czech>Ráže: 5,45x39 mm&lt;br /&gt;Kapacita: 30&lt;br /&gt;Použití: AKS-74U, AK-12, AK-12 GL</Czech>
+					<English>Caliber: 5.45x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AKS-74U, AK-12, AK-12 GL</English>
+					<Portuguese>Calibre: 5,45x39 mm&lt;br /&gt;Projéteis: 30&lt;br /&gt;Utilizados em: AKS-74U, AK-12, AK-12 GL</Portuguese>
+					<Korean>구경: 5.45x39 mm&lt;br /&gt;탄 수: 30&lt;br /&gt;용도: AKS-74U, AK-12, AK-12 GL</Korean>
+					<Chinesesimp>口径：5.45x39 毫米&lt;br /&gt;弹数：30&lt;br /&gt;用于：AKS-74U、AK-12、AK-12 GL</Chinesesimp>
+					<Japanese>口径：5.45x39 mm&lt;br /&gt;弾数：30&lt;br /&gt;使用武器：AKS-74U、AK-12、AK-12 GL</Japanese>
+					<Turkish>Kalibre: 5.45x39 mm&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: AKS-74U, AK-12, AK-12 GL</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_100Rnd_580x42_Mag_F1">
+					<Original>Caliber: 5.8x42 mm&lt;br /&gt;Rounds: 75&lt;br /&gt;Used in: CAR-95, CAR-95-1, CAR-95 GL</Original>
+					<Chinese>口徑：5.8x42 mm&lt;br /&gt;個數：75&lt;br /&gt;用於：CAR-95, CAR-95-1, CAR-95 GL</Chinese>
+					<French>Calibre : 5,8x42 mm&lt;br /&gt;Munitions : 75&lt;br /&gt;Application : CAR-95, CAR-95-1, CAR-95 GL</French>
+					<Spanish>Calibre: 5,8 x 42 mm&lt;br /&gt;Cargas: 75&lt;br /&gt;Usadas en: CAR-95, CAR-95-1, CAR-95 GL</Spanish>
+					<Italian>Calibro: 5,8x42 mm&lt;br /&gt;Munizioni: 75&lt;br /&gt;Si usa con: CAR-95, CAR-95-1, CAR-95 GL</Italian>
+					<Polish>Kaliber: 5,8x42 mm&lt;br /&gt;Naboje: 75&lt;br /&gt;Zastosowanie: CAR-95, CAR-95-1, CAR-95 GL</Polish>
+					<Russian>Калибр: 5,8x42 мм&lt;br /&gt;Боеприпас: 75&lt;br /&gt;Используется в: CAR-95, CAR-95-1, CAR-95 GL</Russian>
+					<German>Kaliber: 5,8x42 mm&lt;br /&gt;Schuss: 75&lt;br /&gt;Verwendet in: CAR-95, CAR-95-1, CAR-95 GL</German>
+					<Czech>Ráže: 5,8x42 mm&lt;br /&gt;Kapacita: 75&lt;br /&gt;Použití: CAR-95, CAR-95-1, CAR-95 GL</Czech>
+					<English>Caliber: 5.8x42 mm&lt;br /&gt;Rounds: 75&lt;br /&gt;Used in: CAR-95, CAR-95-1, CAR-95 GL</English>
+					<Portuguese>Calibre: 5,8x42 mm&lt;br /&gt;Projéteis: 75&lt;br /&gt;Utilizado em: CAR-95, CAR-95-1, CAR-95 GL</Portuguese>
+					<Korean>구경: 5.8x42 mm&lt;br /&gt;탄 수: 75&lt;br /&gt;용도: CAR-95, CAR-95-1, CAR-95 GL</Korean>
+					<Chinesesimp>口径：5.8x42 毫米&lt;br /&gt;弹数：75&lt;br /&gt;用于：CAR-95, CAR-95-1, CAR-95 GL</Chinesesimp>
+					<Japanese>口径：5.8x42 mm&lt;br /&gt;弾数：75&lt;br /&gt;使用武器：CAR-95, CAR-95-1, CAR-95 GL</Japanese>
+					<Turkish>Kalibre: 5.8x42 mm&lt;br /&gt;Mermi: 75&lt;br /&gt;Kullanıldığı Yer: CAR-95, CAR-95-1, CAR-95 GL</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Mag_F1">
+					<Original>Caliber: 5.56x45 mm&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPAR-16/S</Original>
+					<Chinese>口徑：5.56x45 mm&lt;br /&gt;個數：100&lt;br /&gt;用於：SPAR-16/S</Chinese>
+					<French>Calibre : 5,56x45 mm&lt;br /&gt;Munitions : 100&lt;br /&gt;Application : SPAR-16/S</French>
+					<Spanish>Calibre: 5,56 x 45 mm&lt;br /&gt;Cargas: 100&lt;br /&gt;Usadas en: SPAR-16/S</Spanish>
+					<Italian>Calibro: 5,56x45 mm&lt;br /&gt;Munizioni: 100&lt;br /&gt;Si usa con: SPAR-16/S</Italian>
+					<Polish>Kaliber: 5,56x45 mm&lt;br /&gt;Naboje: 100&lt;br /&gt;Zastosowanie: SPAR-16/S</Polish>
+					<Russian>Калибр: 5,56x45 мм&lt;br /&gt;Боеприпас: 100&lt;br /&gt;Используется в: SPAR-16/S</Russian>
+					<German>Kaliber: 5,56x45 mm&lt;br /&gt;Schuss: 100&lt;br /&gt;Verwendet in: SPAR-16/S</German>
+					<Czech>Ráže: 5,56x45 mm&lt;br /&gt;Kapacita: 100&lt;br /&gt;Použití: SPAR-16/S</Czech>
+					<English>Caliber: 5.56x45 mm&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPAR-16/S</English>
+					<Portuguese>Calibre: 5,56x45 mm&lt;br /&gt;Projéteis: 100&lt;br /&gt;Utilizados em: SPAR-16/S</Portuguese>
+					<Korean>구경: 5.56x45 mm&lt;br /&gt;탄 수: 100&lt;br /&gt;용도: SPAR-16/S</Korean>
+					<Chinesesimp>口径：5.56x45 毫米&lt;br /&gt;弹数：100&lt;br /&gt;用于：SPAR-16/S</Chinesesimp>
+					<Japanese>口径：5.56x45 mm&lt;br /&gt;弾数：100&lt;br /&gt;使用武器：SPAR-16/S</Japanese>
+					<Turkish>Kalibre: 5.56x45 mm&lt;br /&gt;Mermi: 100&lt;br /&gt;Kullanıldığı Yer: SPAR-16/S</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_20Rnd_650x39_Cased_Mag_F1">
+					<Original>Caliber: 6.5x39 mm&lt;br /&gt;Rounds: 10&lt;br /&gt;Used in: CMR-76</Original>
+					<Chinese>口徑：6.5x39 mm&lt;br /&gt;個數：10&lt;br /&gt;用於：CMR-76</Chinese>
+					<French>Calibre : 6,5x39 mm&lt;br /&gt;Munitions : 10&lt;br /&gt;Application : CMR-76</French>
+					<Spanish>Calibre: 6,5 x 39 mm&lt;br /&gt;Cargas: 10&lt;br /&gt;Usadas en: CMR-76</Spanish>
+					<Italian>Calibro: 6,5x39 mm&lt;br /&gt;Munizioni: 10&lt;br /&gt;Si usa con: CMR-76</Italian>
+					<Polish>Kaliber: 6,5x39 mm&lt;br /&gt;Naboje: 10&lt;br /&gt;Zastosowanie: CMR-76</Polish>
+					<Russian>Калибр: 6,5x39 мм&lt;br /&gt;Боеприпас: 10&lt;br /&gt;Используется в: CMR-76</Russian>
+					<German>Kaliber: 6,5x39 mm&lt;br /&gt;Schuss: 10&lt;br /&gt;Verwendet in: CMR-76</German>
+					<Czech>Ráže: 6,5x39 mm&lt;br /&gt;Kapacita: 10&lt;br /&gt;Použití: CMR-76</Czech>
+					<English>Caliber: 6.5x39 mm&lt;br /&gt;Rounds: 10&lt;br /&gt;Used in: CMR-76</English>
+					<Portuguese>Calibre: 6,5x39 mm&lt;br /&gt;Projéteis: 10&lt;br /&gt;Utilizados em: CMR-76</Portuguese>
+					<Korean>구경: 6.5x39 mm&lt;br /&gt;탄 수: 10&lt;br /&gt;용도: CMR-76</Korean>
+					<Chinesesimp>口径：6.5x39 毫米&lt;br /&gt;弹数：10&lt;br /&gt;用于：CMR-76</Chinesesimp>
+					<Japanese>口径：6.5x39 mm&lt;br /&gt;弾数：10&lt;br /&gt;使用武器：CMR-76</Japanese>
+					<Turkish>Kalibre: 6.5x39 mm&lt;br /&gt;Mermi: 10&lt;br /&gt;Kullanıldığı Yer: CMR-76</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_O_R_IR_Grenade1">
+					<Original>Type: IR Strobe&lt;br /&gt;Faction: Russia&lt;br /&gt;Rounds: 1</Original>
+					<Chinese>種類：紅外線信標&lt;br /&gt;派系：俄國&lt;br /&gt;個數：1</Chinese>
+					<French>Type : projecteur infrarouge&lt;br /&gt;Faction : Russie&lt;br /&gt;Munitions : 1</French>
+					<Spanish>Tipo: Estroboscopio IR&lt;br /&gt;Facción: Rusia&lt;br /&gt;Cargas: 1</Spanish>
+					<Italian>Tipo: Stroboscopio IR&lt;br /&gt;Fazione: Russia&lt;br /&gt;Munizioni: 1</Italian>
+					<Polish>Typ: znacznik IR&lt;br /&gt;Frakcja: Rosja&lt;br /&gt;Magazynek: 1</Polish>
+					<Russian>Тип: ИК-строб&lt;br /&gt;Фракция: Россия&lt;br /&gt;Шт.: 1</Russian>
+					<German>Typ: IR-Blitzleuchte&lt;br /&gt;Gruppierung: Russland&lt;br /&gt;Patronen: 1</German>
+					<Czech>Typ: Infračervené světlo&lt;br /&gt;Frakce: Rusko&lt;br /&gt;Munice: 1</Czech>
+					<English>Type: IR Strobe&lt;br /&gt;Faction: Russia&lt;br /&gt;Rounds: 1</English>
+					<Portuguese>Tipo: Estroboscópio IV&lt;br /&gt;Facção: Rússia&lt;br /&gt;Quantidade: 1</Portuguese>
+					<Korean>종류: 적외선섬광등&lt;br /&gt;세력: 러시아&lt;br /&gt;탄 수: 1</Korean>
+					<Chinesesimp>类型：红外频闪弹&lt;br /&gt;派系：俄国&lt;br /&gt;容弹量：1</Chinesesimp>
+					<Japanese>タイプ：赤外線ストロボ&lt;br /&gt;勢力：ロシア&lt;br /&gt;弾薬：1</Japanese>
+					<Turkish>Tür: IR Stroboskop&lt;br /&gt;Fraksiyon: Rusya&lt;br /&gt;Mermi: 1</Turkish>
+				</Key>
 				<Container name="DescriptionShort">
-					<Key ID="STR_A3_A_CfgMagazines_O_R_IR_Grenade1">
-						<Original>Type: IR Strobe&lt;br /&gt;Faction: Russia&lt;br /&gt;Rounds: 1</Original>
-						<Chinese>種類：紅外線信標&lt;br /&gt;派系：俄國&lt;br /&gt;個數：1</Chinese>
-						<French>Type : projecteur infrarouge&lt;br /&gt;Faction : Russie&lt;br /&gt;Munitions : 1</French>
-						<Spanish>Tipo: Estroboscopio IR&lt;br /&gt;Facción: Rusia&lt;br /&gt;Cargas: 1</Spanish>
-						<Italian>Tipo: Stroboscopio IR&lt;br /&gt;Fazione: Russia&lt;br /&gt;Munizioni: 1</Italian>
-						<Polish>Typ: znacznik IR&lt;br /&gt;Frakcja: Rosja&lt;br /&gt;Magazynek: 1</Polish>
-						<Russian>Тип: ИК-строб&lt;br /&gt;Фракция: Россия&lt;br /&gt;Шт.: 1</Russian>
-						<German>Typ: IR-Blitzleuchte&lt;br /&gt;Gruppierung: Russland&lt;br /&gt;Patronen: 1</German>
-						<Czech>Typ: Infračervené světlo&lt;br /&gt;Frakce: Rusko&lt;br /&gt;Munice: 1</Czech>
-						<English>Type: IR Strobe&lt;br /&gt;Faction: Russia&lt;br /&gt;Rounds: 1</English>
-						<Portuguese>Tipo: Estroboscópio IV&lt;br /&gt;Facção: Rússia&lt;br /&gt;Quantidade: 1</Portuguese>
-						<Korean>종류: 적외선섬광등&lt;br /&gt;세력: 러시아&lt;br /&gt;탄 수: 1</Korean>
-						<Chinesesimp>类型：红外频闪弹&lt;br /&gt;派系：俄国&lt;br /&gt;容弹量：1</Chinesesimp>
-						<Japanese>タイプ：赤外線ストロボ&lt;br /&gt;勢力：ロシア&lt;br /&gt;弾薬：1</Japanese>
-						<Turkish>Tür: IR Stroboskop&lt;br /&gt;Fraksiyon: Rusya&lt;br /&gt;Mermi: 1</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_Mag1">
-						<Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: P07</Original>
-						<Chinese>口徑：9x21 mm&lt;br /&gt;個數：15\&lt;br /&gt;用於：P07</Chinese>
-						<French>Calibre : 9x19 mm&lt;br /&gt;Munitions : 15\&lt;br /&gt;Application : P07</French>
-						<Spanish>Calibre: 9x19 mm&lt;br /&gt;Cargas: 15\&lt;br /&gt;Se usa en: P07</Spanish>
-						<Italian>Calibro: 9x19 mm&lt;br /&gt;Munizioni: 15\&lt;br /&gt;Si usa in: P07</Italian>
-						<Polish>Kaliber: 9x19 mm&lt;br /&gt;Magazynki: 15\&lt;br /&gt;Używane w: P07</Polish>
-						<Russian>Калибр: 9x19 мм&lt;br /&gt;Кол-во: 15\&lt;br /&gt;Применение: P07</Russian>
-						<German>Kaliber: 9x19 mm&lt;br /&gt;Patronen: 15\ &lt;br /&gt;Eingesetzt von: P07</German>
-						<Czech>Ráže: 9x19 mm&lt;br /&gt;Munice: 15\&lt;br /&gt;Použití: P07</Czech>
-						<English>Caliber: 9x19 mm&lt;br /&gt;Rounds: 15\&lt;br /&gt;Used in: P07</English>
-						<Portuguese>Calibre: 9x19 mm&lt;br /&gt;Balas: 15\&lt;br /&gt;Usada em: P07</Portuguese>
-						<Korean>구경: 9x19mm&lt;br /&gt;탄 수: 15\&lt;br /&gt;사용 가능: P07</Korean>
-						<Chinesesimp>类型：9x21 毫米&lt;br /&gt;容弹量：15\&lt;br /&gt;用于：P07</Chinesesimp>
-						<Japanese>口径：9x21 mm&lt;br /&gt;弾薬：15\&lt;br /&gt;使用：P07</Japanese>
-						<Turkish>Kalibre: 9x19 mm&lt;br /&gt;Mermi: 15&lt;br /&gt;Kullanıldığı Yer: P07</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag1">
-						<Original>Caliber: .45 ACP&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: 4-five</Original>
-						<Chinese>口徑：.45 ACP&lt;br /&gt;個數：15&lt;br /&gt;用於：4-five</Chinese>
-						<French>Calibre : .45 ACP&lt;br /&gt;Munitions : 15&lt;br /&gt;Application : 4-five</French>
-						<Spanish>Calibre: .45 ACP&lt;br /&gt;Cargas: 15&lt;br /&gt;Se usa en: 4-five</Spanish>
-						<Italian>Calibro: .45 ACP&lt;br /&gt;Munizioni: 15&lt;br /&gt;Si usa in: 4-cinque</Italian>
-						<Polish>Kaliber: .45 ACP&lt;br /&gt;Magazynek: 15&lt;br /&gt;Używany w: 4-five</Polish>
-						<Russian>Калибр: .45 ACP&lt;br /&gt;Патроны: 15&lt;br /&gt;Применение: 4-five</Russian>
-						<German>Kaliber: .45 ACP&lt;br /&gt;Patronen: 15&lt;br /&gt;Eingesetzt in: 4-five</German>
-						<Czech>Ráže: .45 ACP&lt;br /&gt;Munice: 15&lt;br /&gt;Použití: 4-five</Czech>
-						<English>Caliber: .45 ACP&lt;br /&gt;Rounds: 15&lt;br /&gt;Used in: 4-five</English>
-						<Portuguese>Calibre: .45 ACP&lt;br /&gt;Quantidade: 15&lt;br /&gt;Uso em: 4-five</Portuguese>
-						<Korean>구경: .45 ACP&lt;br /&gt;탄 수: 15&lt;br /&gt;사용 가능: 4-파이브</Korean>
-						<Chinesesimp>口径：45 ACP&lt;br /&gt;容弹量：15&lt;br /&gt;用于：4-five</Chinesesimp>
-						<Japanese>口径：.45 ACP&lt;br /&gt;弾薬：15&lt;br /&gt;使用：4-ファイブ</Japanese>
-						<Turkish>Kalibre: .45 ACP&lt;br /&gt;Mermi: 15&lt;br /&gt;Kullanıldığı Yer: 4-five</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_338_Mag1">
-						<Original>Caliber: .338 Norma Magnum&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPMG</Original>
-						<Chinese>口徑：.338 Norma 麥格農彈&lt;br /&gt;個數：100&lt;br /&gt;用於：特殊用途機關槍</Chinese>
-						<French>Calibre : .338 Norma Magnum&lt;br /&gt;Cartouches : 100&lt;br /&gt;Utilisé dans : SPMG</French>
-						<Spanish>Calibre: .338 Norma Magnum&lt;br /&gt;Cargas: 100&lt;br /&gt;Se usa en: SPMG</Spanish>
-						<Italian>Calibro: .338 Norma Magnum&lt;br /&gt;Munizioni: 100&lt;br /&gt;Usato in: SPMG</Italian>
-						<Polish>Kaliber: .338 Norma Magnum&lt;br /&gt;Naboje: 100&lt;br /&gt;Wykorzystywane w: SPMG</Polish>
-						<Russian>Калибр: .338 Norma Magnum&lt;br /&gt;Кол-во: 100&lt;br /&gt;Применение: SPMG</Russian>
-						<German>Kaliber: .338 Norma Magnum&lt;br /&gt;Schuss: 100&lt;br /&gt;Verwendet für: SPMG</German>
-						<Czech>Ráže: .338 Norma Magnum&lt;br /&gt;Munice: 100&lt;br /&gt;Použití: SPMG</Czech>
-						<English>Caliber: .338 Norma Magnum&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPMG</English>
-						<Portuguese>Calibre: .338 Norma Magnum&lt;br /&gt;Projéteis: 100&lt;br /&gt;Usado em: SPMG</Portuguese>
-						<Korean>구경: .338 Norma Magnum&lt;br /&gt;탄수: 100&lt;br /&gt;사용 가능: SPMG</Korean>
-						<Chinesesimp>口径：338 Norma Magnum&lt;br /&gt;容弹量：100&lt;br /&gt;用于：SPMG</Chinesesimp>
-						<Japanese>口径：.338 ノーママグナム&lt;br /&gt;ラウンド：100&lt;br /&gt;使用：SPMG</Japanese>
-						<Turkish>Kalibre: .338 Norma Magnum&lt;br /&gt;Mermi: 100&lt;br /&gt;Kullanıldığı Yer: SPMG</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_120Rnd_93x64_Mag1">
-						<Original>Caliber: 9.3x64mm&lt;br /&gt;Rounds: 120&lt;br /&gt;Used in: Navid</Original>
-						<Chinese>口徑：9.3x64mm&lt;br /&gt;個數：120&lt;br /&gt;用於：Navid</Chinese>
-						<French>Calibre : 9.3x64 mm&lt;br /&gt;Cartouches : 120&lt;br /&gt;Utilisé dans : Navid</French>
-						<Spanish>Calibre: 9,3x64 mm&lt;br /&gt;Cargas: 120&lt;br /&gt;Se usa en: Navid</Spanish>
-						<Italian>Calibro: 9,3x64 mm&lt;br /&gt;Munizioni: 120&lt;br /&gt;Usato in: Navid</Italian>
-						<Polish>Kaliber: 9,3x64 mm&lt;br /&gt;Naboje: 120&lt;br /&gt;Wykorzystywane w: Navid</Polish>
-						<Russian>Калибр: 9,3 x 64 мм&lt;br /&gt;Кол-во: 120&lt;br /&gt;Применение: Navid</Russian>
-						<German>Kaliber: 9,3 x 64 mm&lt;br /&gt;Schuss: 120&lt;br /&gt;Verwendet für: Navid</German>
-						<Czech>Ráže: 9,3x64 mm&lt;br /&gt;Munice: 120&lt;br /&gt;Použití: Navid</Czech>
-						<English>Caliber: 9.3x64mm&lt;br /&gt;Rounds: 120&lt;br /&gt;Used in: Navid</English>
-						<Portuguese>Calibre: 9.3x64 mm&lt;br /&gt;Projéteis: 120&lt;br /&gt;Usado em: Navid</Portuguese>
-						<Korean>구경: 9.3x64 mm&lt;br /&gt;탄수: 120&lt;br /&gt;사용 가능: Navid</Korean>
-						<Chinesesimp>口径：9.3x64 毫米&lt;br /&gt;容弹量：120&lt;br /&gt;用于：Navid</Chinesesimp>
-						<Japanese>口径：9.3x64 mm&lt;br /&gt;ラウンド：120&lt;br /&gt;使用：ナビッド</Japanese>
-						<Turkish>Kalibre: 9.3x64mm&lt;br /&gt;Mermi: 120&lt;br /&gt;Kullanıldığı Yer: Navid</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_Mag_F2">
-						<Original>Caliber: 7.62x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AK-15, AK-15 GL, AKM, RPK</Original>
-						<Chinese>口徑：7.62x39 mm&lt;br /&gt;個數：30&lt;br /&gt;用於：AK-15、AK-15 GL、AKM, RPK</Chinese>
-						<French>Calibre : 7,62x39 mm&lt;br /&gt;Munitions : 30&lt;br /&gt;Application : AK-15, AK-15 GL, AKM, RPK</French>
-						<Spanish>Calibre: 7,62 x 39 mm&lt;br /&gt;Cargas: 30&lt;br /&gt;Usadas en: AK-15, AK-15 GL, AKM, RPK</Spanish>
-						<Italian>Calibro: 7,62x39 mm&lt;br /&gt;Munizioni: 30&lt;br /&gt;Si usa con: AK-15, AK-15 GL, AKM, RPK</Italian>
-						<Polish>Kaliber: 7,62x39 mm&lt;br /&gt;Naboje: 30&lt;br /&gt;Zastosowanie: AK-15, AK-15 GL, AKM, RPK</Polish>
-						<Russian>Калибр: 7,62x39 мм&lt;br /&gt;Боеприпас: 30&lt;br /&gt;Используется в: AK-15, AK-15 GL, AKM, RPK</Russian>
-						<German>Kaliber: 7,62x39 mm&lt;br /&gt;Schuss: 30&lt;br /&gt;Verwendet in: AK-15, AK-15 GL, AKM, RPK</German>
-						<Czech>Ráže: 7,62x39 mm&lt;br /&gt;Kapacita: 30&lt;br /&gt;Použití: AK-15, AK-15 GL, AKM, RPK</Czech>
-						<English>Caliber: 7.62x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AK-15, AK-15 GL, AKM, RPK</English>
-						<Portuguese>Calibre: 7,62x39 mm&lt;br /&gt;Projéteis: 30&lt;br /&gt;Utilizados em: AK-15, AK-15 GL, AKM, RPK</Portuguese>
-						<Korean>구경: 7.62x39 mm&lt;br /&gt;탄 수: 30&lt;br /&gt;용도: AK-15, AK-15 GL, AKM, RPK</Korean>
-						<Chinesesimp>口径：7.62x39 毫米&lt;br /&gt;弹数：30&lt;br /&gt;用于：AK-15、AK-15 GL、AKM, RPK</Chinesesimp>
-						<Japanese>口径：7.62x39 mm&lt;br /&gt;弾数：30&lt;br /&gt;使用武器：AK-15、AK-15 GL、AKM, RPK</Japanese>
-						<Turkish>Kalibre: 7.62x39 mm&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: AK-15, AK-15 GL, AKM, RPK</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_30Rnd_545x39_Mag_F2">
-						<Original>Caliber: 5.45x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AKS-74U, AK-12, AK-12 GL</Original>
-						<Chinese>口徑：5.45x39 mm&lt;br /&gt;個數：30&lt;br /&gt;用於：AKS-74U、AK-12、AK-12 GL</Chinese>
-						<French>Calibre : 5,45x39 mm&lt;br /&gt;Munitions : 30&lt;br /&gt;Application : AKS-74U, AK-12, AK-12 GL</French>
-						<Spanish>Calibre: 5,45 x 39 mm&lt;br /&gt;Cargas: 30&lt;br /&gt;Usadas en: AKS-74U, AK-12, AK-12 GL</Spanish>
-						<Italian>Calibro: 5,45x39 mm&lt;br /&gt;Munizioni: 30&lt;br /&gt;Si usa con: AKS-74U, AK-12, AK-12 GL</Italian>
-						<Polish>Kaliber: 5,45x39 mm&lt;br /&gt;Naboje: 30&lt;br /&gt;Zastosowanie: AKS-74U, AK-12, AK-12 GL</Polish>
-						<Russian>Калибр: 5,45x39 мм&lt;br /&gt;Боеприпас: 30&lt;br /&gt;Используется в: AKS-74U, AK-12, AK-12 GL</Russian>
-						<German>Kaliber: 5,45x39 mm&lt;br /&gt;Schuss: 30&lt;br /&gt;Verwendet in: AKS-74U, AK-12, AK-12 GL</German>
-						<Czech>Ráže: 5,45x39 mm&lt;br /&gt;Kapacita: 30&lt;br /&gt;Použití: AKS-74U, AK-12, AK-12 GL</Czech>
-						<English>Caliber: 5.45x39 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: AKS-74U, AK-12, AK-12 GL</English>
-						<Portuguese>Calibre: 5,45x39 mm&lt;br /&gt;Projéteis: 30&lt;br /&gt;Utilizados em: AKS-74U, AK-12, AK-12 GL</Portuguese>
-						<Korean>구경: 5.45x39 mm&lt;br /&gt;탄 수: 30&lt;br /&gt;용도: AKS-74U, AK-12, AK-12 GL</Korean>
-						<Chinesesimp>口径：5.45x39 毫米&lt;br /&gt;弹数：30&lt;br /&gt;用于：AKS-74U、AK-12、AK-12 GL</Chinesesimp>
-						<Japanese>口径：5.45x39 mm&lt;br /&gt;弾数：30&lt;br /&gt;使用武器：AKS-74U、AK-12、AK-12 GL</Japanese>
-						<Turkish>Kalibre: 5.45x39 mm&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: AKS-74U, AK-12, AK-12 GL</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F1">
-						<Original>Caliber: 5.8x42 mm&lt;br /&gt;Rounds: 75&lt;br /&gt;Used in: CAR-95, CAR-95-1, CAR-95 GL</Original>
-						<Chinese>口徑：5.8x42 mm&lt;br /&gt;個數：75&lt;br /&gt;用於：CAR-95, CAR-95-1, CAR-95 GL</Chinese>
-						<French>Calibre : 5,8x42 mm&lt;br /&gt;Munitions : 75&lt;br /&gt;Application : CAR-95, CAR-95-1, CAR-95 GL</French>
-						<Spanish>Calibre: 5,8 x 42 mm&lt;br /&gt;Cargas: 75&lt;br /&gt;Usadas en: CAR-95, CAR-95-1, CAR-95 GL</Spanish>
-						<Italian>Calibro: 5,8x42 mm&lt;br /&gt;Munizioni: 75&lt;br /&gt;Si usa con: CAR-95, CAR-95-1, CAR-95 GL</Italian>
-						<Polish>Kaliber: 5,8x42 mm&lt;br /&gt;Naboje: 75&lt;br /&gt;Zastosowanie: CAR-95, CAR-95-1, CAR-95 GL</Polish>
-						<Russian>Калибр: 5,8x42 мм&lt;br /&gt;Боеприпас: 75&lt;br /&gt;Используется в: CAR-95, CAR-95-1, CAR-95 GL</Russian>
-						<German>Kaliber: 5,8x42 mm&lt;br /&gt;Schuss: 75&lt;br /&gt;Verwendet in: CAR-95, CAR-95-1, CAR-95 GL</German>
-						<Czech>Ráže: 5,8x42 mm&lt;br /&gt;Kapacita: 75&lt;br /&gt;Použití: CAR-95, CAR-95-1, CAR-95 GL</Czech>
-						<English>Caliber: 5.8x42 mm&lt;br /&gt;Rounds: 75&lt;br /&gt;Used in: CAR-95, CAR-95-1, CAR-95 GL</English>
-						<Portuguese>Calibre: 5,8x42 mm&lt;br /&gt;Projéteis: 75&lt;br /&gt;Utilizado em: CAR-95, CAR-95-1, CAR-95 GL</Portuguese>
-						<Korean>구경: 5.8x42 mm&lt;br /&gt;탄 수: 75&lt;br /&gt;용도: CAR-95, CAR-95-1, CAR-95 GL</Korean>
-						<Chinesesimp>口径：5.8x42 毫米&lt;br /&gt;弹数：75&lt;br /&gt;用于：CAR-95, CAR-95-1, CAR-95 GL</Chinesesimp>
-						<Japanese>口径：5.8x42 mm&lt;br /&gt;弾数：75&lt;br /&gt;使用武器：CAR-95, CAR-95-1, CAR-95 GL</Japanese>
-						<Turkish>Kalibre: 5.8x42 mm&lt;br /&gt;Mermi: 75&lt;br /&gt;Kullanıldığı Yer: CAR-95, CAR-95-1, CAR-95 GL</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F1">
-						<Original>Caliber: 5.56x45 mm&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPAR-16/S</Original>
-						<Chinese>口徑：5.56x45 mm&lt;br /&gt;個數：100&lt;br /&gt;用於：SPAR-16/S</Chinese>
-						<French>Calibre : 5,56x45 mm&lt;br /&gt;Munitions : 100&lt;br /&gt;Application : SPAR-16/S</French>
-						<Spanish>Calibre: 5,56 x 45 mm&lt;br /&gt;Cargas: 100&lt;br /&gt;Usadas en: SPAR-16/S</Spanish>
-						<Italian>Calibro: 5,56x45 mm&lt;br /&gt;Munizioni: 100&lt;br /&gt;Si usa con: SPAR-16/S</Italian>
-						<Polish>Kaliber: 5,56x45 mm&lt;br /&gt;Naboje: 100&lt;br /&gt;Zastosowanie: SPAR-16/S</Polish>
-						<Russian>Калибр: 5,56x45 мм&lt;br /&gt;Боеприпас: 100&lt;br /&gt;Используется в: SPAR-16/S</Russian>
-						<German>Kaliber: 5,56x45 mm&lt;br /&gt;Schuss: 100&lt;br /&gt;Verwendet in: SPAR-16/S</German>
-						<Czech>Ráže: 5,56x45 mm&lt;br /&gt;Kapacita: 100&lt;br /&gt;Použití: SPAR-16/S</Czech>
-						<English>Caliber: 5.56x45 mm&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: SPAR-16/S</English>
-						<Portuguese>Calibre: 5,56x45 mm&lt;br /&gt;Projéteis: 100&lt;br /&gt;Utilizados em: SPAR-16/S</Portuguese>
-						<Korean>구경: 5.56x45 mm&lt;br /&gt;탄 수: 100&lt;br /&gt;용도: SPAR-16/S</Korean>
-						<Chinesesimp>口径：5.56x45 毫米&lt;br /&gt;弹数：100&lt;br /&gt;用于：SPAR-16/S</Chinesesimp>
-						<Japanese>口径：5.56x45 mm&lt;br /&gt;弾数：100&lt;br /&gt;使用武器：SPAR-16/S</Japanese>
-						<Turkish>Kalibre: 5.56x45 mm&lt;br /&gt;Mermi: 100&lt;br /&gt;Kullanıldığı Yer: SPAR-16/S</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F1">
-						<Original>Caliber: 6.5x39 mm&lt;br /&gt;Rounds: 10&lt;br /&gt;Used in: CMR-76</Original>
-						<Chinese>口徑：6.5x39 mm&lt;br /&gt;個數：10&lt;br /&gt;用於：CMR-76</Chinese>
-						<French>Calibre : 6,5x39 mm&lt;br /&gt;Munitions : 10&lt;br /&gt;Application : CMR-76</French>
-						<Spanish>Calibre: 6,5 x 39 mm&lt;br /&gt;Cargas: 10&lt;br /&gt;Usadas en: CMR-76</Spanish>
-						<Italian>Calibro: 6,5x39 mm&lt;br /&gt;Munizioni: 10&lt;br /&gt;Si usa con: CMR-76</Italian>
-						<Polish>Kaliber: 6,5x39 mm&lt;br /&gt;Naboje: 10&lt;br /&gt;Zastosowanie: CMR-76</Polish>
-						<Russian>Калибр: 6,5x39 мм&lt;br /&gt;Боеприпас: 10&lt;br /&gt;Используется в: CMR-76</Russian>
-						<German>Kaliber: 6,5x39 mm&lt;br /&gt;Schuss: 10&lt;br /&gt;Verwendet in: CMR-76</German>
-						<Czech>Ráže: 6,5x39 mm&lt;br /&gt;Kapacita: 10&lt;br /&gt;Použití: CMR-76</Czech>
-						<English>Caliber: 6.5x39 mm&lt;br /&gt;Rounds: 10&lt;br /&gt;Used in: CMR-76</English>
-						<Portuguese>Calibre: 6,5x39 mm&lt;br /&gt;Projéteis: 10&lt;br /&gt;Utilizados em: CMR-76</Portuguese>
-						<Korean>구경: 6.5x39 mm&lt;br /&gt;탄 수: 10&lt;br /&gt;용도: CMR-76</Korean>
-						<Chinesesimp>口径：6.5x39 毫米&lt;br /&gt;弹数：10&lt;br /&gt;用于：CMR-76</Chinesesimp>
-						<Japanese>口径：6.5x39 mm&lt;br /&gt;弾数：10&lt;br /&gt;使用武器：CMR-76</Japanese>
-						<Turkish>Kalibre: 6.5x39 mm&lt;br /&gt;Mermi: 10&lt;br /&gt;Kullanıldığı Yer: CMR-76</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgMagazines_17Rnd_9x21_Mag1">
 						<Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 17&lt;br /&gt;Used in: G17, Rook-40</Original>
 						<Chinese>口徑：9x21 mm&lt;br /&gt;個數：17\&lt;br /&gt;用於：G17、Rook-40</Chinese>
@@ -16435,40 +16843,6 @@
 						<Japanese>タイプ：高性能&lt;br /&gt;弾薬：20&lt;br /&gt;使用：AA-40</Japanese>
 						<Turkish>Tür: Yüksek Güçlü Patlayıcı&lt;br /&gt;Mermi: 20&lt;br /&gt;Kullanıldığı Yer: AA-40</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_7Rnd_12Gauge_Pellets1">
-						<Original>Type: 12 Gauge Pellets&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: Bulldog</Original>
-						<Chinese>種類：12 口徑鉛製彈&lt;br /&gt;個數：7&lt;br /&gt;用於：Bulldog</Chinese>
-						<French>Type : grenaille calibre 12&lt;br /&gt;Munitions : 7&lt;br /&gt;Application : Bulldog</French>
-						<Spanish>Tipo: perdigones de calibre 12&lt;br /&gt;Cargas: 7&lt;br /&gt;Se usa en: Bulldog</Spanish>
-						<Italian>Tipo: pallottole calibro 12&lt;br /&gt;Munizioni: 7&lt;br /&gt;Si usa in: Bulldog</Italian>
-						<Polish>Typ: naboje śrutowe 12G&lt;br /&gt;Naboje: 7&lt;br /&gt;Używane w: Bulldog</Polish>
-						<Russian>Тип: дробь 12 калибра&lt;br /&gt;Кол-во: 7&lt;br /&gt;Применение: "Бульдог"</Russian>
-						<German>Typ: 12 Gauge Schrotkugeln&lt;br /&gt;Patronen: 7&lt;br /&gt;Eingesetzt von: Bulldog</German>
-						<Czech>Typ: 12ga brokový náboj&lt;br /&gt;Munice: 7&lt;br /&gt;Použití: Bulldog</Czech>
-						<English>Type: 12 Gauge Pellets&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: Bulldog</English>
-						<Portuguese>Tipo: Projéteis esféricos de calibre 12&lt;br /&gt;Quantidade: 7&lt;br /&gt;Uso em: Bulldog</Portuguese>
-						<Korean>종류: 12게이지 산탄&lt;br /&gt;탄 수: 7&lt;br /&gt;사용 가능: 불독</Korean>
-						<Chinesesimp>类型：12 口径子弹&lt;br /&gt;容弹量：7&lt;br /&gt;用于：Bulldog</Chinesesimp>
-						<Japanese>タイプ：12ゲージ・ペレット&lt;br /&gt;弾薬：7&lt;br /&gt;使用：ブルドッグ</Japanese>
-						<Turkish>Tür: 12 Kalibre Saçmalar&lt;br /&gt;Mermi: 7&lt;br /&gt;Kullanıldığı Yer: Bulldog</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_7Rnd_12Gauge_Slug1">
-						<Original>Type: 12 Gauge Slugs&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: Bulldog</Original>
-						<Chinese>種類：12 口徑金屬彈&lt;br /&gt;個數：7&lt;br /&gt;用於：Bulldog</Chinese>
-						<French>Type : balles calibre 12&lt;br /&gt;Munitions : 7&lt;br /&gt;Application : Bulldog</French>
-						<Spanish>Tipo: balas de calibre 12&lt;br /&gt;Cargas: 7&lt;br /&gt;Se usa en: Bulldog</Spanish>
-						<Italian>Tipo: proiettili calibro 12&lt;br /&gt;Munizioni: 7&lt;br /&gt;Si usa in: Bulldog</Italian>
-						<Polish>Typ: breneki 12G&lt;br /&gt;Naboje: 7&lt;br /&gt;Używane w: Bulldog</Polish>
-						<Russian>Тип: пуля 12 калибра&lt;br /&gt;Кол-во: 7&lt;br /&gt;Применение: "Бульдог"</Russian>
-						<German>Typ: 12 Gauge Gewehrkugeln&lt;br /&gt;Patronen: 7&lt;br /&gt;Eingesetzt von: Bulldog</German>
-						<Czech>Typ: 12ga slug&lt;br /&gt;Munice: 7&lt;br /&gt;Použití: Bulldog</Czech>
-						<English>Type: 12 Gauge Slugs&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: Bulldog</English>
-						<Portuguese>Tipo: Projéteis calibre 12&lt;br /&gt;Quantidade: 7&lt;br /&gt;Uso em: Bulldog</Portuguese>
-						<Korean>종류: 12게이지 슬러그&lt;br /&gt;탄 수: 7&lt;br /&gt;사용 가능: 불독</Korean>
-						<Chinesesimp>类型：12 口径弹丸&lt;br /&gt;容弹量：7&lt;br /&gt;用于：Bulldog</Chinesesimp>
-						<Japanese>タイプ：12ゲージ・スラッグ弾&lt;br /&gt;弾薬：7&lt;br /&gt;使用：ブルドッグ</Japanese>
-						<Turkish>Tür: 12 Kalibre Fişekler&lt;br /&gt;Mermi: 7&lt;br /&gt;Kullanıldığı Yer: Bulldog</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgMagazines_40Rnd_460x30_Mag_F1">
 						<Original>Caliber: 4.6x30 mm&lt;br /&gt;Rounds: 40&lt;br /&gt;Used in: MP7</Original>
 						<Chinese>口徑：4.6x30 mm&lt;br /&gt;個數：40\&lt;br /&gt;用於：MP7</Chinese>
@@ -16539,397 +16913,6 @@
 					</Key>
 				</Container>
 				<Container name="DisplayName">
-					<Key ID="STR_A3_A_CfgMagazines_O_R_IR_Grenade0">
-						<Original>IR Grenade [Russia]</Original>
-						<Chinese>紅外線手榴彈（俄國）</Chinese>
-						<French>Grenade infrarouge [Russie]</French>
-						<Spanish>Granada IR [Rusia]</Spanish>
-						<Italian>Granata IR [Russia]</Italian>
-						<Polish>Granat IR [Rosja]</Polish>
-						<Russian>ИК-граната [Россия]</Russian>
-						<German>IR-Granate [Russland]</German>
-						<Czech>Infračervený granát [Rusko]</Czech>
-						<English>IR Grenade [Russia]</English>
-						<Portuguese>Granada de IV [Rússia]</Portuguese>
-						<Korean>적외선수류탄[러시아]</Korean>
-						<Chinesesimp>红外枪榴弹 [俄国]</Chinesesimp>
-						<Japanese>赤外線グレネード[ロシア]</Japanese>
-						<Turkish>IR El Bombası [Rusya]</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_Mag0">
-						<Original>9 mm 15Rnd Mag</Original>
-						<Chinese>9 mm 15 發彈匣</Chinese>
-						<French>Mag. 15 balles 9 mm</French>
-						<Spanish>Cargador de 15 proyectiles de 9 mm</Spanish>
-						<Italian>Caricatore 15 colpi 9 mm</Italian>
-						<Polish>15-nab. mag. 9mm</Polish>
-						<Russian>Магазин, 15 патр. 9 мм</Russian>
-						<German>15-Schuss-9mm-Magazin</German>
-						<Czech>9 mm, 15ks zásobník</Czech>
-						<English>9 mm 15Rnd Mag</English>
-						<Portuguese>Carregador 15Mun. 9 mm</Portuguese>
-						<Korean>9mm 15발 탄창</Korean>
-						<Chinesesimp>9 毫米 15 发弹匣</Chinesesimp>
-						<Japanese>9mm 15Rnd マガジン</Japanese>
-						<Turkish>9 mm 15 Merm. Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_red_Mag0">
-						<Original>9 mm 15Rnd Reload Tracer (Red) Mag</Original>
-						<Chinese>9 mm 15 發重新裝填曳光彈（紅）彈匣</Chinese>
-						<French>Mag. 15 traçantes recharge rouges 9 mm</French>
-						<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (rojo) de 9 mm</Spanish>
-						<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (rossi)</Italian>
-						<Polish>15-nab. mag. przeł. 9 mm (czerwony smugacz)</Polish>
-						<Russian>Магазин, 15 патр. с послед. трас. 9 мм (красные)</Russian>
-						<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Rot)</German>
-						<Czech>9 mm, 15ks zásobník nabíjecí stopovky (červené)</Czech>
-						<English>9 mm 15Rnd Reload Tracer (Red) Mag</English>
-						<Portuguese>Carregador 15Mun. Traçante Recarga (Vermelho) 9 mm</Portuguese>
-						<Korean>9mm 15발 재장전 예광탄 (적색) 탄창</Korean>
-						<Chinesesimp>9 毫米 15 发装弹指示（红色）弹匣</Chinesesimp>
-						<Japanese>9mm 15Rnd 装填トレーサー（赤）マガジン</Japanese>
-						<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Kırmızı) Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_green_Mag0">
-						<Original>9 mm 15Rnd Reload Tracer (Green) Mag</Original>
-						<Chinese>9 mm 15 發重新裝填曳光彈（綠）彈匣</Chinese>
-						<French>Mag. 15 traçantes recharge vertes 9 mm</French>
-						<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (verde) de 9 mm</Spanish>
-						<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (verdi)</Italian>
-						<Polish>15-nab. mag. przeł. 9 mm (zielony smugacz)</Polish>
-						<Russian>Магазин, 15 патр. с послед. трас. 9 мм (зеленые)</Russian>
-						<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Grün)</German>
-						<Czech>9 mm, 15ks zásobník nabíjecí stopovky (zelené)</Czech>
-						<English>9 mm 15Rnd Reload Tracer (Green) Mag</English>
-						<Portuguese>Carregador 15Mun. Traçante Recarga (Verde) 9 mm</Portuguese>
-						<Korean>9mm 15발 재장전 예광탄 (녹색) 탄창</Korean>
-						<Chinesesimp>9 毫米 15 发装弹指示（绿色）弹匣</Chinesesimp>
-						<Japanese>9mm 15Rnd 装填トレーサー（緑）マガジン</Japanese>
-						<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Yeşil) Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_9x21_yellow_Mag0">
-						<Original>9 mm 15Rnd Reload Tracer (Yellow) Mag</Original>
-						<Chinese>9 mm 15 發重新裝填曳光彈（黃）彈匣</Chinese>
-						<French>Mag. 15 traçantes recharge jaunes 9 mm</French>
-						<Spanish>Cargador de 15 balas con trazadoras prerrecarga  (amarillo) de 9 mm</Spanish>
-						<Italian>Caricatore 15 colpi 9 mm con traccianti intervallati (gialli)</Italian>
-						<Polish>15-nab. mag. przeł. 9 mm (żółty smugacz)</Polish>
-						<Russian>Магазин, 15 патр. с послед. трас. 9 мм (желтые)</Russian>
-						<German>15-Schuss-9mm-Magazin (Nachlade-Leuchtspur Gelb)</German>
-						<Czech>9 mm, 15ks zásobník nabíjecí stopovky (žluté)</Czech>
-						<English>9 mm 15Rnd Reload Tracer (Yellow) Mag</English>
-						<Portuguese>Carregador 15Mun. Traçante Recarga (Amarelo) 9 mm</Portuguese>
-						<Korean>9mm 15발 재장전 예광탄 (황색) 탄창</Korean>
-						<Chinesesimp>9 毫米 15 发装弹指示（黄色）弹匣</Chinesesimp>
-						<Japanese>9mm 15Rnd 装填トレーサー（黄）マガジン</Japanese>
-						<Turkish>9 mm 15 Merm. Tekrar Doldurulabilir İzli (Sarı) Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag0">
-						<Original>.45 ACP 15Rnd Mag</Original>
-						<Chinese>.45 ACP 15 發彈匣</Chinese>
-						<French>Mag. 15 balles .45 ACP</French>
-						<Spanish>Cargador de 15 proyectiles de .45 ACP</Spanish>
-						<Italian>Caricatore 15 colpi .45 ACP</Italian>
-						<Polish>15-nab. mag. .45 ACP</Polish>
-						<Russian>Магазин, 15 патронов .45 ACP</Russian>
-						<German>15-Schuss-.45-ACP-Magazin</German>
-						<Czech>.45 ACP, 15ks zásobník</Czech>
-						<English>.45 ACP 15Rnd Mag</English>
-						<Portuguese>Carregador ACP 15Mun. .45</Portuguese>
-						<Korean>.45 ACP구경 15발 탄창</Korean>
-						<Chinesesimp>.45 ACP 15 发弹匣</Chinesesimp>
-						<Japanese>.45 ACP 15Rnd マガジン</Japanese>
-						<Turkish>.45 ACP 15 Merm. Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_338_Mag0">
-						<Original>.338 NM 100Rnd Belt</Original>
-						<Chinese>.338 NM 100 發彈鏈</Chinese>
-						<French>Bande 100 balles NM .338</French>
-						<Spanish>Cinturón de 100 proyectiles de .338 NM</Spanish>
-						<Italian>Cintura 100 colpi .338 NM</Italian>
-						<Polish>100-nab. taśma .338 NM</Polish>
-						<Russian>Лента, 100 патронов .338 NM</Russian>
-						<German>100-Schuss-.338-NM-Munitionsgurt</German>
-						<Czech>.338 NM, 100ks pás</Czech>
-						<English>.338 NM 100Rnd Belt</English>
-						<Portuguese>Cinto NM 100Mun. .338</Portuguese>
-						<Korean>.338 NM 100발 탄띠</Korean>
-						<Chinesesimp>.338 NM 100 发弹链</Chinesesimp>
-						<Japanese>.338 NM 100Rnd ベルト</Japanese>
-						<Turkish>.338 NM 100 Merm. Fişeklik</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_120Rnd_93x64_Mag0">
-						<Original>9.3mm 120Rnd Belt</Original>
-						<Chinese>9.3mm 120 發彈鏈</Chinese>
-						<French>Bande 120 balles 9,3 mm</French>
-						<Spanish>Cinturón de 120 proyectiles de 9,3 mm</Spanish>
-						<Italian>Cintura 120 colpi 9,3 mm</Italian>
-						<Polish>120-nab. taśma 9,3 mm</Polish>
-						<Russian>Лента, 120 патр. 9,3 мм</Russian>
-						<German>120-Schuss-9.3mm-Munitionsgurt</German>
-						<Czech>9,3 mm. 120ks pás</Czech>
-						<English>9.3mm 120Rnd Belt</English>
-						<Portuguese>Cinto 120Mun. 9,3 mm</Portuguese>
-						<Korean>9.3mm 120발 탄띠</Korean>
-						<Chinesesimp>9.3 毫米 120 发弹链</Chinesesimp>
-						<Japanese>9.3mm 120Rnd ベルト</Japanese>
-						<Turkish>9.3mm 120 Merm. Fişeklik</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_F1">
-						<Original>7.62 mm 30Rnd AK-15 Mag</Original>
-						<Chinese>7.62 mm 30 發 AK-15 彈匣</Chinese>
-						<French>Mag. AK-15 30 balles 7,62 mm</French>
-						<Spanish>Cargador de 30 proyectiles de AK-15 de 7,62 mm</Spanish>
-						<Italian>Caricatore 30 colpi 7,62 mm AK-15</Italian>
-						<Polish>30-nab. mag. 7,62 mm AK-15</Polish>
-						<Russian>Магазин AK-15, 30 патр. 7,62 мм</Russian>
-						<German>30-Schuss-7.62mm-AK-15-Magazin</German>
-						<Czech>7,62 mm, 30ks zásobník AK-15</Czech>
-						<English>7.62 mm 30Rnd AK-15 Mag</English>
-						<Portuguese>Carregador AK-15 30Mun. 7,62 mm</Portuguese>
-						<Korean>7.62mm 30발 AK-15발 탄창</Korean>
-						<Chinesesimp>7.62 毫米 30 发 AK-15 弹匣</Chinesesimp>
-						<Japanese>7.62mm 30Rnd AK-15 マガジン</Japanese>
-						<Turkish>7.62 mm 30 Merm. AK-15 Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_Tracer_F1">
-						<Original>7.62 mm 30Rnd AK-15 Tracer Mag</Original>
-						<Chinese>7.62 mm 30 發 AK-15 曳光彈彈匣</Chinese>
-						<French>Mag. AK-15 30 traçantes 7,62 mm</French>
-						<Spanish>Cargador de 30 balas trazadoras de AK-15 de 7,62 mm</Spanish>
-						<Italian>Caricatore 30 colpi 7,62 mm con traccianti AK-15</Italian>
-						<Polish>30-nab. mag. 7,62 mm AK-15 (smugacz)</Polish>
-						<Russian>Магазин AK-15, 30 трас. патр. 7,62 мм (зеленые)</Russian>
-						<German>30-Schuss-7.62mm-AK-15-Magazin (Leuchtspur)</German>
-						<Czech>7,62 mm, 30ks zásobník AK-15 stopovky</Czech>
-						<English>7.62 mm 30Rnd AK-15 Tracer Mag</English>
-						<Portuguese>Carregador AK-15 30Mun. Traçante 7,62 mm</Portuguese>
-						<Korean>7.62mm 30발 AK-15 예광탄 탄창</Korean>
-						<Chinesesimp>7.62 毫米 30 发 AK-15 曳光弹弹匣</Chinesesimp>
-						<Japanese>7.62 mm 30Rnd AK-15 トレーサー・マガジン</Japanese>
-						<Turkish>7.62 mm 30 Merm. AK-15 İzli Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F0">
-						<Original>5.8 mm 75Rnd Mag</Original>
-						<Chinese>5.8 mm 75 發彈匣</Chinese>
-						<French>Mag. 75 balles 5,8 mm</French>
-						<Spanish>Cargador de 75 proyectiles de 5,8 mm</Spanish>
-						<Italian>Caricatore 75 colpi 5,8 mm</Italian>
-						<Polish>75-nab. mag. 5,8 mm</Polish>
-						<Russian>Магазин, 75 патр. 5,8 мм</Russian>
-						<German>75-Schuss-5.8mm-Magazin</German>
-						<Czech>5,8 mm, 75ks zásobník</Czech>
-						<English>5.8 mm 75Rnd Mag</English>
-						<Portuguese>Carregador 75Mun. 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_Tracer_F0">
-						<Original>5.8 mm 75Rnd Tracer (Green) Mag</Original>
-						<Chinese>5.8 mm 75 發曳光彈（綠）彈匣</Chinese>
-						<French>Mag. 75 traçantes vertes 5,8 mm</French>
-						<Spanish>Cargador de 75 balas trazadoras (verde) de 5,8 mm</Spanish>
-						<Italian>Caricatore 75 colpi 5,8 mm con traccianti (verdi)</Italian>
-						<Polish>75-nab. mag. 5,8 mm (zielony smugacz)</Polish>
-						<Russian>Магазин, 75 трас. патр. 5,8 мм (зеленые)</Russian>
-						<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün)</German>
-						<Czech>5,8 mm, 75ks zásobník stopovky (zelené)</Czech>
-						<English>5.8 mm 75Rnd Tracer (Green) Mag</English>
-						<Portuguese>Carregador 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 예광탄 (녹색) 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd トレーサー（緑）マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_F0">
-						<Original>5.8 mm 75Rnd Hex Mag</Original>
-						<Chinese>5.8 mm 75 發六邊形花色彈匣</Chinese>
-						<French>Mag. hex 75 balles 5,8 mm</French>
-						<Spanish>Cargador de 75 proyectiles Hex de 5,8 mm</Spanish>
-						<Italian>Caricatore esag. 75 colpi 5,8 mm</Italian>
-						<Polish>75-nab. mag. 5,8 mm (hex)</Polish>
-						<Russian>Магазин гекс, 75 патр. 5,8 мм</Russian>
-						<German>75-Schuss-5.8mm-Magazin (Hextarn)</German>
-						<Czech>5,8 mm, 75ks hex zásobník</Czech>
-						<English>5.8 mm 75Rnd Hex Mag</English>
-						<Portuguese>Carregador Hex 75Mun. 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 헥스 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发六角形弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd（六角形）マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. Hex Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_Tracer_F0">
-						<Original>5.8 mm 75Rnd Tracer (Green) Hex Mag</Original>
-						<Chinese>5.8 mm 75 發曳光彈（綠）六邊形花色彈匣</Chinese>
-						<French>Mag. hex 75 traçantes vertes 5,8 mm</French>
-						<Spanish>Cargador de 75 balas trazadoras Hex (verde) de 5,8 mm</Spanish>
-						<Italian>Caricatore esag. 75 colpi 5,8 mm con traccianti (verdi)</Italian>
-						<Polish>75-nab. mag. 5,8 mm (zielony smugacz, hex)</Polish>
-						<Russian>Магазин гекс, 75 трас. патр. 5,8 мм (зеленые)</Russian>
-						<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün, Hextarn)</German>
-						<Czech>5,8 mm, 75ks hex zásobník stopovky (zelené)</Czech>
-						<English>5.8 mm 75Rnd Tracer (Green) Hex Mag</English>
-						<Portuguese>Carregador Hex 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 예광탄 (녹색) 헥스 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）六角形弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd トレーサー（緑、六角形）マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Hex Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_F0">
-						<Original>5.8 mm 75Rnd Green Hex Mag</Original>
-						<Chinese>5.8 mm 75 發六邊形綠色彈匣</Chinese>
-						<French>Mag. vert hex 75 balles 5,8 mm</French>
-						<Spanish>Cargador de 75 proyectiles Hex (verde) de 5,8 mm</Spanish>
-						<Italian>Caricatore esag. verde 75 colpi 5,8 mm</Italian>
-						<Polish>75-nab. mag. 5,8 mm (zielony hex)</Polish>
-						<Russian>Магазин зеленый гекс, 75 трас. патр. 5,8 мм</Russian>
-						<German>75-Schuss-5.8mm-Magazin (Hextarn Grün)</German>
-						<Czech>5,8 mm, 75ks zelený hex zásobník</Czech>
-						<English>5.8 mm 75Rnd Green Hex Mag</English>
-						<Portuguese>Carregador Verde Hex 75Mun. 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 녹색 헥스 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发绿色六角形弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd（緑、六角形）マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. Yeşil Hex Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_Tracer_F0">
-						<Original>5.8 mm 75Rnd Tracer (Green) Green Hex Mag</Original>
-						<Chinese>5.8 mm 75 發曳光彈（綠）六邊形綠色彈匣</Chinese>
-						<French>Mag. vert hex 75 traçantes vertes 5,8 mm</French>
-						<Spanish>Cargador de 75 balas trazadoras Hex verde (verde) de 5,8 mm</Spanish>
-						<Italian>Caricatore esag. verde 75 colpi 5,8 mm con traccianti (verdi)</Italian>
-						<Polish>75-nab. mag. 5,8 mm (zielony smugacz, zielony hex)</Polish>
-						<Russian>Магазин зеленый гекс, 75 трас. патр. 5,8 мм (зеленые)</Russian>
-						<German>75-Schuss-5.8mm-Magazin (Leuchtspur Grün, Hextarn Grün)</German>
-						<Czech>5,8 mm, 75ks zelený hex zásobník stopovky (zelené)</Czech>
-						<English>5.8 mm 75Rnd Tracer (Green) Green Hex Mag</English>
-						<Portuguese>Carregador Verde Hex 75Mun. Traçante (Verde) 5,8 mm</Portuguese>
-						<Korean>5.8mm 75발 예광탄 (녹색) 녹색 헥스 탄창</Korean>
-						<Chinesesimp>5.8 毫米 75 发曳光弹（绿色）绿色六角形弹匣</Chinesesimp>
-						<Japanese>5.8mm 75Rnd トレーサー（緑、緑、六角形）マガジン</Japanese>
-						<Turkish>5.8 mm 75 Merm. İzli (Yeşil) Yeşil Hex Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F0">
-						<Original>5.56 mm 100Rnd Mag</Original>
-						<Chinese>5.56 mm 100 發彈匣</Chinese>
-						<French>Mag. 100 balles 5,56 mm</French>
-						<Spanish>Cargador de 100 proyectiles de 5,56 mm</Spanish>
-						<Italian>Caricatore 100 colpi 5,56 mm</Italian>
-						<Polish>100-nab. mag. 5,56 mm</Polish>
-						<Russian>Магазин, 100 патр. 5,56 мм</Russian>
-						<German>100-Schuss-5.56mm-Magazin</German>
-						<Czech>5,56 mm, 100ks zásobník</Czech>
-						<English>5.56 mm 100Rnd Mag</English>
-						<Portuguese>Carregador 100Mun. 5,56 mm</Portuguese>
-						<Korean>5.56 mm 100발 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_F0">
-						<Original>5.56 mm 100Rnd Sand Mag</Original>
-						<Chinese>5.56 mm 100 發沙色彈匣</Chinese>
-						<French>Mag. sable 100 balles 5,56 mm</French>
-						<Spanish>Cargador de 100 proyectiles (arena) de 5,56 mm</Spanish>
-						<Italian>Caricatore sabbia 100 colpi 5,56 mm</Italian>
-						<Polish>100-nab. mag. 5,56 mm (piaskowy)</Polish>
-						<Russian>Песочный магазин, 100 патр. 5,56 мм</Russian>
-						<German>100-Schuss-5.56mm-Magazin (Sand)</German>
-						<Czech>5,56 mm, 100ks pískový zásobník</Czech>
-						<English>5.56 mm 100Rnd Sand Mag</English>
-						<Portuguese>Carregador Areia 100Mun. 5,56 mm</Portuguese>
-						<Korean>5.56mm 100발 샌드 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发沙色弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd（砂色）マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. Kum Rengi Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_Tracer_F0">
-						<Original>5.56 mm 100Rnd Tracer (Red) Sand Mag</Original>
-						<Chinese>5.56 mm 100 發曳光彈（紅）沙色彈匣</Chinese>
-						<French>Mag. sable 100 traçantes rouges 5,56 mm</French>
-						<Spanish>Cargador de 100 balas trazadoras (arena, rojo) de 5,56 mm</Spanish>
-						<Italian>Caricatore sabbia 100 colpi 5,56 mm con traccianti (rossi)</Italian>
-						<Polish>100-nab. mag. 5,56 mm (czerwony smugacz, piaskowy)</Polish>
-						<Russian>Песочный магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
-						<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot, Sand)</German>
-						<Czech>5,56 mm, 100ks pískový zásobník stopovky (červené)</Czech>
-						<English>5.56 mm 100Rnd Tracer (Red) Sand Mag</English>
-						<Portuguese>Carregador Areia 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
-						<Korean>5.56mm 100발 예광탄 (적색) 샌드 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发曳光弹（红色）沙色弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd トレーサー（赤、砂色）マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Kum Rengi Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_F0">
-						<Original>5.56 mm 100Rnd Green Mag</Original>
-						<Chinese>5.56 mm 100 發綠色彈匣</Chinese>
-						<French>Mag. vert 100 balles 5,56 mm</French>
-						<Spanish>Cargador de 100 proyectiles (verde) de 5,56 mm</Spanish>
-						<Italian>Caricatore verde 100 colpi 5,56 mm</Italian>
-						<Polish>100-nab. mag. 5,56 mm (zielony)</Polish>
-						<Russian>Зеленый магазин, 100 патр. 5,56 мм</Russian>
-						<German>100-Schuss-5.56mm-Magazin (Grün)</German>
-						<Czech>5,56 mm, 100ks zelený zásobník</Czech>
-						<English>5.56 mm 100Rnd Green Mag</English>
-						<Portuguese>Carregador Verde 100Mun. 5,56 mm</Portuguese>
-						<Korean>5.56mm 100발 녹색 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发绿色弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd（緑）マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. Yeşil Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_Tracer_F0">
-						<Original>5.56 mm 100Rnd Tracer (Red) Green Mag</Original>
-						<Chinese>5.56 mm 100 發曳光彈（紅）綠色彈匣</Chinese>
-						<French>Mag. vert 100 traçantes rouges 5,56 mm</French>
-						<Spanish>Cargador de 100 balas trazadoras verde (rojo) de 5,56 mm</Spanish>
-						<Italian>Caricatore verde 100 colpi 5,56 mm con traccianti (rossi)</Italian>
-						<Polish>100-nab. mag. 5,56 mm (czerwony smugacz, zielony)</Polish>
-						<Russian>Зеленый магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
-						<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot, Grün)</German>
-						<Czech>5,56 mm, 100ks zelený zásobník stopovky (červené)</Czech>
-						<English>5.56 mm 100Rnd Tracer (Red) Green Mag</English>
-						<Portuguese>Carregador Verde 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
-						<Korean>5.56mm 100발 예광탄 (적색) 녹색 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发曳光弹（红色）绿色弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd トレーサー（赤、緑）マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Yeşil Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_Tracer_F0">
-						<Original>5.56 mm 100Rnd Tracer (Red) Mag</Original>
-						<Chinese>5.56 mm 100 發曳光彈（紅）彈匣</Chinese>
-						<French>Mag. 100 traçantes rouges 5,56 mm</French>
-						<Spanish>Cargador de 100 balas trazadoras (rojo) de 5,56 mm</Spanish>
-						<Italian>Caricatore 100 colpi 5,56 mm con traccianti (rossi)</Italian>
-						<Polish>100-nab. mag. 5,56 mm (czerwony smugacz)</Polish>
-						<Russian>Магазин, 100 трас. патр. 5,56 мм (красные)</Russian>
-						<German>100-Schuss-5.56mm-Magazin (Leuchtspur Rot)</German>
-						<Czech>5,56 mm, 100ks zásobník stopovky (červené)</Czech>
-						<English>5.56 mm 100Rnd Tracer (Red) Mag</English>
-						<Portuguese>Carregador 100Mun. Traçante (Vermelho) 5,56 mm</Portuguese>
-						<Korean>5.56mm 100발 예광탄 (적색) 탄창</Korean>
-						<Chinesesimp>5.56 毫米 100 发曳光弹（红色）弹匣</Chinesesimp>
-						<Japanese>5.56mm 100Rnd トレーサー（赤）マガジン</Japanese>
-						<Turkish>5.56 mm 100 Merm. İzli (Kırmızı) Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F0">
-						<Original>6.5 mm 10Rnd Mag</Original>
-						<Chinese>6.5 mm 10 發彈匣</Chinese>
-						<French>Mag. 10 balles 6,5 mm</French>
-						<Spanish>Cargador de 10 proyectiles de 6,5 mm</Spanish>
-						<Italian>Caricatore 10 colpi 6,5 mm</Italian>
-						<Polish>10-nab. mag. 6,5 mm</Polish>
-						<Russian>Магазин, 10 патр. 6,5 мм</Russian>
-						<German>10-Schuss-6.5mm-Magazin</German>
-						<Czech>6,5 mm, 10ks zásobník</Czech>
-						<English>6.5 mm 10Rnd Mag</English>
-						<Portuguese>Carregador 10Mun. 6,5 mm</Portuguese>
-						<Korean>6.5mm 10발 탄창</Korean>
-						<Chinesesimp>6.5 毫米 10 发弹匣</Chinesesimp>
-						<Japanese>6.5mm 10Rnd マガジン</Japanese>
-						<Turkish>6.5 mm 10 Merm. Şarjör</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgMagazines_17Rnd_9x21_Mag0">
 						<Original>9 mm 17Rnd Mag</Original>
 						<Chinese>9 mm 17 發彈匣</Chinese>

@@ -42,21 +42,21 @@ class CfgMagazines
 	class 30Rnd_9x21_Mag;
 	class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag
 	{
-		displayName = $STR_A3_A_CfgMagazines_15Rnd_9x21_Mag0;
-		descriptionShort = $STR_A3_A_CfgMagazines_15Rnd_9x21_Mag1;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_Mag0;
+		descriptionShort = $STR_A3_A_CfgMagazines_16Rnd_9x21_Mag1;
 		count = 15;
 	};
 	class 16Rnd_9x21_red_Mag: 16Rnd_9x21_Mag
 	{
-		displayName = $STR_A3_A_CfgMagazines_15Rnd_9x21_red_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_red_Mag0;
 	};
 	class 16Rnd_9x21_green_Mag: 16Rnd_9x21_Mag
 	{
-		displayName = $STR_A3_A_CfgMagazines_15Rnd_9x21_green_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_green_Mag0;
 	};
 	class 16Rnd_9x21_yellow_Mag: 16Rnd_9x21_Mag
 	{
-		displayName = $STR_A3_A_CfgMagazines_15Rnd_9x21_yellow_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_yellow_Mag0;
 	};
 	class 1Rnd_HE_Grenade_shell;
 	class 1Rnd_Smoke_Grenade_shell;
@@ -113,9 +113,9 @@ class CfgMagazines
 	class 680Rnd_35mm_AA_shells;
 	class 11Rnd_45ACP_Mag: CA_Magazine
 	{
-		displayName = $STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_11Rnd_45ACP_Mag0;
 		count = 15;
-		descriptionShort = $STR_A3_A_CfgMagazines_15Rnd_45ACP_Mag1;
+		descriptionShort = $STR_A3_A_CfgMagazines_11Rnd_45ACP_Mag1;
 	};
 	class B_IR_Grenade: CA_Magazine
     {
@@ -139,25 +139,25 @@ class CfgMagazines
 	// Arma 3 Marksmen
 	class 130Rnd_338_Mag: CA_Magazine
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_338_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_130Rnd_338_Mag0;
 		count = 100;
-		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_338_Mag1;
+		descriptionShort = $STR_A3_A_CfgMagazines_130Rnd_338_Mag1;
         tracersEvery = 3;
 		lastRoundsTracer = 4;
 		mass = 46;
 	};
 	class 150Rnd_93x64_Mag: CA_Magazine
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_338_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_93x64_Mag0;
 		count = 120;
-		descriptionShort = $STR_A3_A_CfgMagazines_120Rnd_93x64_Mag1;
+		descriptionShort = $STR_A3_A_CfgMagazines_150Rnd_93x64_Mag1;
         tracersEvery = 5;
 		mass = 56;
 	};
 	// Arma 3 Apex
 	class 30Rnd_762x39_Mag_F: CA_Magazine
 	{
-		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_762x39_Mag_F2;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_762x39_Mag_F1;
 	};
 	class 30Rnd_762x39_AK12_Mag_F: 30Rnd_762x39_Mag_F
 	{
@@ -169,7 +169,7 @@ class CfgMagazines
 	};
 	class 30Rnd_545x39_Mag_F: CA_Magazine
 	{
-		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_545x39_Mag_F2;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_545x39_Mag_F1;
 	};
 	class 30Rnd_545x39_Mag_Green_F;
 	class 30Rnd_545x39_Mag_Tracer_Green_F;
@@ -177,7 +177,7 @@ class CfgMagazines
 	class 100Rnd_580x42_Mag_F: 30Rnd_580x42_Mag_F
 	{
 		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F0;
-		descriptionShort = $STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F1;
+		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_580x42_Mag_F1;
 		count = 75;
 		mass = 16;
         tracersEvery = 4;
@@ -206,14 +206,14 @@ class CfgMagazines
 	class 20Rnd_650x39_Cased_Mag_F: CA_Magazine
 	{
 		displayName = $STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F0;
-		descriptionShort = $STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F1;
+		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_650x39_Cased_Mag_F1;
 		count = 10;
 		mass = 6;
 	};
 	class 150Rnd_556x45_Drum_Mag_F: CA_Magazine
 	{
 		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F0;
-		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F1;
+		descriptionShort = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Mag_F1;
 		count = 100;
         tracersEvery = 4;
 		mass = 20;
@@ -738,10 +738,12 @@ class CfgMagazines
 	class HandGrenade_East: HandGrenade
 	{
 		author = $STR_A3_A_AveryTheKitty;
+		mass = 12;
 		displayName = $STR_A3_CfgMagazines_HandGrenade0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\gear_RGO_CA.paa";
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d";
 		ammo = GrenadeHandEast;
+		displayNameShort = $STR_A3_CfgMagazines_HandGrenade_dns;
 	};
 	class 5Rnd_25x40mm_HE: CA_Magazine
 	{
@@ -1084,28 +1086,28 @@ class CfgMagazines
 	class 600Rnd_30mm_HE_shells: 250Rnd_30mm_HE_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_HE_shells0;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells0;
 		displayNameShort = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_dns;
 		count = 600;
 	};
 	class 600Rnd_30mm_HE_shells_Tracer_Red: 600Rnd_30mm_HE_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_HE_shells_Tracer_Red0;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_Tracer_Red0;
 		ammo = B_30mm_HE_Tracer_Red;
 		tracersEvery = 1;
 	};
 	class 600Rnd_30mm_HE_shells_Tracer_Yellow: 600Rnd_30mm_HE_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_HE_shells_Tracer_Yellow0;
+		displayName = "30 mm HE Tracer (Yellow) Shells";
 		ammo = B_30mm_HE_Tracer_Yellow;
 		tracersEvery = 1;
 	};
 	class 600Rnd_30mm_APDS_shells: 600Rnd_30mm_HE_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_APDS_shells0;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells0;
 		displayNameShort = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_dns;
 		ammo = B_30mm_AP;
 		initSpeed = 1120;
@@ -1118,14 +1120,14 @@ class CfgMagazines
 	class 600Rnd_30mm_APDS_shells_Tracer_Red: 600Rnd_30mm_APDS_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_APDS_shells_Tracer_Red0;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_Tracer_Red0;
 		ammo = B_30mm_AP_Tracer_Red;
 		tracersEvery = 1;
 	};
 	class 600Rnd_30mm_APDS_shells_Tracer_Yellow: 600Rnd_30mm_APDS_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_600Rnd_30mm_APDS_shells_Tracer_Yellow0;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_Tracer_Yellow0;
 		ammo = B_30mm_AP_Tracer_Yellow;
 		tracersEvery = 1;
 	};

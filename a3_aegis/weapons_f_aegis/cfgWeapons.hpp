@@ -1750,10 +1750,24 @@ class CfgWeapons
 			maxRangeProbab = 0.92;
 		};
 	};
-    class autocannon_30mm_Heli_Attack_03: autocannon_30mm_CTWS
+    class autocannon_30mm_Heli_Attack_03: CannonCore
     {
-		displayName = $STR_A3_CfgWeapons_cannon_30mm;
+		scope = protected;
+		displayName = $STR_A3_A_CfgWeapons_autocannon_30mm_Heli_Attack_030;
 		nameSound = cannon;
+		burst = 5;
+		reloadTime = 0.096;
+		autoFire = true;
+		magazines[] =
+        {
+            600Rnd_30mm_HE_shells,
+            600Rnd_30mm_HE_shells_Tracer_Red,
+            600Rnd_30mm_HE_shells_Tracer_Yellow,
+            600Rnd_30mm_APDS_shells,
+            600Rnd_30mm_APDS_shells_Tracer_Red,
+            600Rnd_30mm_APDS_shells_Tracer_Yellow
+        };
+		shotFromTurret = true;
 		cursor = EmptyCursor;
 		cursorAim = mg;
 		showAimCursorInternal = false;
@@ -1779,32 +1793,247 @@ class CfgWeapons
 				effectName = HeavyGunCartridge1;
 			};
 		};
-		class HE: HE
+		muzzles[] =
+        {
+            HE,
+            AP
+        };
+		class HE: autocannon_Base_F
 		{
-		    displayName = $STR_A3_CfgWeapons_cannon_30mm;
+		    displayName = $STR_A3_A_CfgWeapons_autocannon_30mm_Heli_Attack_030;
+            nameSound = cannon;
+            burst = 5;
+            reloadTime = 0.096;
+            autoFire = true;
 			magazines[] =
             {
                 600Rnd_30mm_HE_shells,
                 600Rnd_30mm_HE_shells_Tracer_Red,
                 600Rnd_30mm_HE_shells_Tracer_Yellow
             };
-			class player: player
+            modes[] =
+            {
+                player,
+                close,
+                short,
+                medium,
+                far
+            };
+            shotFromTurret = true;
+            cursor = EmptyCursor;
+            cursorAim = mg;
+            showAimCursorInternal = false;
+            canLock = false;
+            ballisticsComputer = BallisticsAutoZero + BallisticsManualZero + BallisticsFCS;
+            FCSMaxLeadSpeed = 30.5556;
+            FCSZeroingDelay = 0.5;
+            maxZeroing = 2500;
+            aiDispersionCoefY = 0.5;
+            aiDispersionCoefX = 0.5;
+			class player: Mode_FullAuto
 			{
+				burst = 5;
+			    sounds[] = {StandardSound};
+			    soundContinuous = false;
+                flash = gunfire;
+                flashSize = 0.1;
+                recoil = Empty;
+                ffMagnitude = 0.5;
+                ffFrequency = 11;
+                ffCount = 6;
                 reloadTime = 0.096;
+			    dispersion = 0.0066;
+				aiRateOfFire = 1;
+				aiRateOfFireDistance = 10;
+				minRange = 0;
+				minRangeProbab = 0.01;
+				midRange = 1;
+				midRangeProbab = 0.01;
+				maxRange = 2;
+				maxRangeProbab = 0.01;
+			};
+			class close: player
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 16;
+                burstRangeMax = 37;
+                aiRateOfFire = 0.5;
+                aiRateOfFireDispersion = 1;
+                aiRateOfFireDistance = 50;
+                minRange = 0;
+                minRangeProbab = 0.1;
+                midRange = 50;
+                midRangeProbab = 0.65;
+                maxRange = 400;
+                maxRangeProbab = 0.75;
+			};
+			class short: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 12;
+                burstRangeMax = 32;
+                aiRateOfFire = 1;
+                aiRateOfFireDispersion = 2;
+                aiRateOfFireDistance = 200;
+                minRange = 200;
+                minRangeProbab = 0.65;
+                midRange = 400;
+                midRangeProbab = 0.75;
+                maxRange = 1000;
+                maxRangeProbab = 0.7;
+			};
+			class medium: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 12;
+                burstRangeMax = 28;
+                aiRateOfFire = 2;
+                aiRateOfFireDispersion = 2;
+                aiRateOfFireDistance = 800;
+                minRange = 800;
+                minRangeProbab = 0.7;
+                midRange = 1400;
+                midRangeProbab = 0.4;
+                maxRange = 1800;
+                maxRangeProbab = 0.15;
+			};
+			class far: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 9;
+                burstRangeMax = 20;
+                aiRateOfFire = 4;
+                aiRateOfFireDispersion = 4;
+                aiRateOfFireDistance = 1400;
+                minRange = 1400;
+                minRangeProbab = 0.5;
+                midRange = 1800;
+                midRangeProbab = 0.15;
+                maxRange = 2500;
+                maxRangeProbab = 0.05;
 			};
 		};
-		class AP: AP
+		class AP: autocannon_Base_F
 		{
-		    displayName = $STR_A3_CfgWeapons_cannon_30mm;
+		    displayName = $STR_A3_A_CfgWeapons_autocannon_30mm_Heli_Attack_030;
+            nameSound = cannon;
+            burst = 5;
+            reloadTime = 0.096;
+            autoFire = true;
 			magazines[] =
             {
                 600Rnd_30mm_APDS_shells,
                 600Rnd_30mm_APDS_shells_Tracer_Red,
                 600Rnd_30mm_APDS_shells_Tracer_Yellow
             };
-			class player: player
+            modes[] =
+            {
+                player,
+                close,
+                short,
+                medium,
+                far
+            };
+            shotFromTurret = true;
+            cursor = EmptyCursor;
+            cursorAim = mg;
+            showAimCursorInternal = false;
+            canLock = false;
+            ballisticsComputer = BallisticsAutoZero + BallisticsManualZero + BallisticsFCS;
+            FCSMaxLeadSpeed = 30.5556;
+            FCSZeroingDelay = 0.5;
+            maxZeroing = 2500;
+            aiDispersionCoefY = 0.5;
+            aiDispersionCoefX = 0.5;
+			class player: Mode_FullAuto
 			{
+				burst = 5;
+			    sounds[] = {StandardSound};
+			    soundContinuous = false;
+                flash = gunfire;
+                flashSize = 0.1;
+                recoil = Empty;
+                ffMagnitude = 0.5;
+                ffFrequency = 11;
+                ffCount = 6;
                 reloadTime = 0.096;
+			    dispersion = 0.0066;
+				aiRateOfFire = 1;
+				aiRateOfFireDistance = 10;
+				minRange = 0;
+				minRangeProbab = 0.01;
+				midRange = 1;
+				midRangeProbab = 0.01;
+				maxRange = 2;
+				maxRangeProbab = 0.01;
+			};
+			class close: player
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 16;
+                burstRangeMax = 37;
+                aiRateOfFire = 0.5;
+                aiRateOfFireDispersion = 1;
+                aiRateOfFireDistance = 50;
+                minRange = 0;
+                minRangeProbab = 0.1;
+                midRange = 50;
+                midRangeProbab = 0.65;
+                maxRange = 400;
+                maxRangeProbab = 0.75;
+			};
+			class short: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 12;
+                burstRangeMax = 32;
+                aiRateOfFire = 1;
+                aiRateOfFireDispersion = 2;
+                aiRateOfFireDistance = 200;
+                minRange = 200;
+                minRangeProbab = 0.65;
+                midRange = 400;
+                midRangeProbab = 0.75;
+                maxRange = 1000;
+                maxRangeProbab = 0.7;
+			};
+			class medium: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 12;
+                burstRangeMax = 28;
+                aiRateOfFire = 2;
+                aiRateOfFireDispersion = 2;
+                aiRateOfFireDistance = 800;
+                minRange = 800;
+                minRangeProbab = 0.7;
+                midRange = 1400;
+                midRangeProbab = 0.4;
+                maxRange = 1800;
+                maxRangeProbab = 0.15;
+			};
+			class far: close
+			{
+                aiBurstTerminable = true;
+                showToPlayer = false;
+                burst = 9;
+                burstRangeMax = 20;
+                aiRateOfFire = 4;
+                aiRateOfFireDispersion = 4;
+                aiRateOfFireDistance = 1400;
+                minRange = 1400;
+                minRangeProbab = 0.5;
+                midRange = 1800;
+                midRangeProbab = 0.15;
+                maxRange = 2500;
+                maxRangeProbab = 0.05;
 			};
 		};
     };

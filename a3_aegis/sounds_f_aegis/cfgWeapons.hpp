@@ -1,5 +1,6 @@
 class CfgWeapons
 {
+	class CannonCore;
 	class MGun;
 	class LMG_RCWS;
 	class LMG_Minigun: LMG_RCWS
@@ -86,94 +87,38 @@ class CfgWeapons
 			};
 		};
 	};
-    class autocannon_30mm_Heli_Attack_03: autocannon_30mm_CTWS
+    class autocannon_30mm_Heli_Attack_03: CannonCore
     {
-		class HE: HE
+		class HE: autocannon_Base_F
 		{
-			class player: player
+			class player: Mode_FullAuto
 			{
-                soundSetShot[] =
+                class BaseSoundModeType;
+                class StandardSound: BaseSoundModeType
                 {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class close: close
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class short: short
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class medium: medium
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class far: far
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
+                    soundSetShot[] =
+                    {
+                        Autocannon30mmTurret_Shot_SoundSet,
+                        Autocannon30mmTurret_Tail_SoundSet
+                    };
                 };
 			};
 		};
-		class AP: AP
+		class AP: autocannon_Base_F
 		{
-			class player: player
+			class player: Mode_FullAuto
 			{
-                soundSetShot[] =
+                class BaseSoundModeType;
+                class StandardSound: BaseSoundModeType
                 {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
+                    soundSetShot[] =
+                    {
+                        Autocannon30mmTurret_Shot_SoundSet,
+                        Autocannon30mmTurret_Tail_SoundSet
+                    };
                 };
 			};
-			class close: close
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class short: short
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class medium: medium
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-			class far: far
-			{
-                soundSetShot[] =
-                {
-                    Autocannon30mmBody_Shot_SoundSet,
-                    Autocannon30mmBody_Tail_SoundSet
-                };
-			};
-		};
+        };
     };
 	class Rifle_Base_F;
 	class UGL_F;
