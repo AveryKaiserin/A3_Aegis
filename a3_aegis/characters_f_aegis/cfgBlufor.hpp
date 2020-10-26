@@ -2188,7 +2188,6 @@ class B_soldier_LAT2_F: B_Soldier_base_F
         mag_2(SmokeShell)
 	};
 };
-class I_Story_Crew_F;
 // Arma 3 Enoch
 class B_CBRN_Man_Oversuit_01_MTP_F;
 // Arma 3 Aegis

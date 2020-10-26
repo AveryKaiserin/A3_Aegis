@@ -6,7 +6,6 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
-	#include "cfgCivil.hpp"				// Civilians
 	#include "cfgPara.hpp"              // Paramilitary
 	/*
     #include "cfgRaven.hpp"             // Raven

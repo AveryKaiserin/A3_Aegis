@@ -36,5 +36,9 @@ class CfgVehicles
 	#include "cfgBlufor_Aegis.hpp"		// BAF
 	#include "cfgIon.hpp"				// ION
 	#include "cfgUniforms.hpp"
+    class B_G_Captain_Ivan_F: I_C_Soldier_Para_2_F
+    {
+        modelSides[] = {TFriendly};
+    };
 };
 #include "cfgGroups.hpp"

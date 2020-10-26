@@ -18,11 +18,7 @@ class Opf_O_P_soldier_base_F: O_G_Soldier_F
 	faction = Opf_OPF_P_F;
 	genericNames = TakistaniMen;
 	model = "\A3\Characters_F\OPFOR\O_Paramilitary.p3d";
-	modelSides[] =
-	{
-		TEast,
-		TCivilian
-	};
+	modelSides[] = {TFriendly};
 	uniformClass = Opf_U_O_ParamilitaryBody;
     class Wounds
     {

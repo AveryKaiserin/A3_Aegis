@@ -181,11 +181,6 @@ class Atlas_B_G_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	hiddenSelectionsTextures[] =
 	{
@@ -199,11 +194,6 @@ class Atlas_B_G_CombatFatigues_01_Tshirt_wdl_F: I_E_Uniform_01_tanktop_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
 	hiddenSelectionsTextures[] =
 	{
@@ -218,11 +208,6 @@ class Atlas_B_G_CombatFatigues_01_RolledUp_wdl_F: I_E_Uniform_01_shortsleeve_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	hiddenSelectionsTextures[] =
 	{
@@ -235,11 +220,6 @@ class Atlas_B_G_Coveralls_01_F: B_Soldier_04_f
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_G_HeliPilotCoveralls;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_green_CO.paa"};
 };
@@ -247,11 +227,6 @@ class Atlas_B_G_TankerCoveralls_01_F: I_Story_Crew_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_Tank_wdl_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_wdl_CO.paa"};
 };
@@ -273,11 +248,6 @@ class Atlas_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
 };
@@ -285,11 +255,6 @@ class Atlas_B_A_CombatFatigues_01_RolledUp_aucamo_F: I_soldier_lite_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_A_CombatUniform_shortsleeve_aucamo;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
 };
@@ -334,11 +299,6 @@ class Atlas_B_H_CombatFatigues_01_jungle_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_H_Soldier_F;
 	hiddenSelectionsTextures[] =
 	{
@@ -358,11 +318,6 @@ class Atlas_B_H_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
   	scope = protected;
   	scopeCurator = private;
 	model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d";
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_H_Soldier_3_F;
 	hiddenSelectionsTextures[] =
 	{
@@ -388,11 +343,6 @@ class Atlas_B_H_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_H_Soldier_2_F;
 	hiddenSelectionsTextures[] =
 	{
@@ -409,11 +359,6 @@ class Atlas_B_H_OfficerFatigues_01_jungle_F: I_E_Uniform_01_officer_F
 {
   	scope = protected;
   	scopeCurator = private;
-	modelSides[] =
-	{
-		TWest,
-		TCivilian
-	};
 	uniformClass = Atlas_U_B_H_Officer_F;
 	hiddenSelectionsTextures[] =
     {

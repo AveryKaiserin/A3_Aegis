@@ -28,12 +28,6 @@ class Opf_O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
 		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
 	};
-	modelSides[] =
-    {
-        TEast,
-        TCivilian,
-        TGuerrila
-    };
 };
 class Opf_O_R_Fatigues_01_Tshirt_arid_F: Opf_O_R_Fatigues_01_Tshirt_taiga_F
 {
@@ -61,12 +55,6 @@ class Opf_O_S_Uniform_01_taiga_F: O_G_Soldier_SL_F
 {
 	scope = protected;
     scopeCurator = private;
-	modelSides[] =
-    {
-        TEast,
-        TGuerrila,
-        TCivilian
-    };
 	uniformClass = Opf_U_O_S_Uniform_01_taiga_F;
 	hiddenSelections[] =
 	{
@@ -94,11 +82,6 @@ class Opf_O_S_Uniform_01_sweater_F: O_G_Soldier_LAT_F
 {
 	scope = protected;
     scopeCurator = private;
-	modelSides[] =
-    {
-        TEast,
-        TCivilian
-    };
 	uniformClass = Opf_U_O_S_Uniform_01_sweater_F;
 	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\O_S_Uniform_01_sweater_CO.paa"};
 };
@@ -107,11 +90,6 @@ class Opf_I_I_Guerilla3_3_F: I_G_Soldier_M_F
 {
 	scope = protected;
 	scopeCurator = private;
-	modelSides[] =
-    {
-        TCivilian,
-        TGuerrila
-    };
 	model = "\A3\Characters_F\Civil\C_Hunter_F.p3d";
 	uniformClass = Opf_U_IG_Guerilla3_3_F;
     hiddenSelections[] = {camo};

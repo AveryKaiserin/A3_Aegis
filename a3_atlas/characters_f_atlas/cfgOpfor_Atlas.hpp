@@ -4,11 +4,7 @@ class Atlas_O_T_soldier_base_F: O_officer_F
 	author = $STR_A3_A_AveryTheKitty;
 	scope = private;
 	model = "\A3\Characters_F_Gamma\Guerrilla\IG_Leader.p3d";
-	modelSides[] =
-	{
-		TEast,
-		TCivilian
-	};
+	modelSides[] = {TFriendly};
 	side = TEast;
     faction = Atlas_OPF_T_F;
 	icon = iconMan;

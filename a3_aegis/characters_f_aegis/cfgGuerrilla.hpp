@@ -2086,11 +2086,6 @@ class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 	modelSides[] = {TFriendly};
     uniformClass = U_OG_Guerilla3_2;
 };
-// Arma 3 Apex
-class B_G_Captain_Ivan_F: I_C_Soldier_Para_2_F
-{
-    modelSides[] = {TFriendly};
-};
 // Arma 3 Tanks
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 {

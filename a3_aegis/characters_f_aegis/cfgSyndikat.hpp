@@ -41,6 +41,7 @@ class I_C_Soldier_Para_1_F: I_C_Soldier_base_F
 		DefaultManGuerillaLinkedItems
 	};
 };
+class I_C_Soldier_Para_2_F;
 class I_C_Soldier_Para_3_F;
 class I_C_Soldier_Para_4_F: I_C_Soldier_base_F
 {

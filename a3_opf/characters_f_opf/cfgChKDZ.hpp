@@ -1,14 +1,3 @@
-// Arma 3 Enoch
-class O_R_Gorka_base_F;
-class O_R_Gorka_F: O_R_Gorka_base_F
-{
-	modelSides[] =
-    {
-        TEast,
-        TCivilian,
-        TGuerrila
-    };
-};
 // Arma 3 Opposing Forces
 class Opf_O_S_Man_Base_F: O_G_Soldier_F
 {

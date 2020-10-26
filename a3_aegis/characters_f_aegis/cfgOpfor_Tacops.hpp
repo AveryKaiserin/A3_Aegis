@@ -1,6 +1,7 @@
 // Arma 3 Tac-ops
 class O_A_soldier_base_F: O_officer_F
 {
+	modelSides[] = {TFriendly};
     editorSubcategory = EdSubcat_Personnel;
     identityTypes[] =
     {
@@ -8,7 +9,6 @@ class O_A_soldier_base_F: O_officer_F
         Head_African,
         G_IRAN_african
     };
-	modelSides[] = {TFriendly};
     hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\Officer_noInsignia_hex_CO.paa"};
 	magazines[] = {};
 	respawnMagazines[] = {};
