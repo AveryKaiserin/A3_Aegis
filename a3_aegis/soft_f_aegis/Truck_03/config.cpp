@@ -30,9 +30,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -69,10 +69,10 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUrucamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUcamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -108,9 +108,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUrucamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUcamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -175,9 +175,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUkhk_CO.paa"
 				};
 				factions[] =
@@ -214,9 +214,9 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUrucamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUcamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -253,10 +253,10 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUrucamo_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUcamo_CO.paa"
 				};
 				factions[] =
 				{

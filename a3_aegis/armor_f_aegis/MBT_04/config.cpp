@@ -215,8 +215,8 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] =
@@ -390,8 +390,8 @@ class CfgVehicles
 			{
 				textures[] =
 				{
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_1_CO.paa",
-					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUcamo_2_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
