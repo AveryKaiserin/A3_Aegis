@@ -963,21 +963,21 @@
 		</Container>
 		<Container name="Armor_F">
 			<Key ID="STR_A3_A_CfgVehicles_B_APC_Tracked_01_cannon_F0">
-				<Original>IFV-6c Serval</Original>
-				<Chinese>IFV-6c Serval</Chinese>
-				<French>IFV-6c Serval</French>
-				<Spanish>IFV-6c Serval</Spanish>
-				<Italian>IFV-6c Serval</Italian>
-				<Polish>IFV-6c Serval</Polish>
-				<Russian>IFV-6c Serval</Russian>
-				<German>IFV-6c Serval</German>
-				<Czech>IFV-6c Serval</Czech>
-				<English>IFV-6c Serval</English>
-				<Portuguese>IFV-6c Serval</Portuguese>
-				<Korean>IFV-6c Serval</Korean>
-				<Chinesesimp>IFV-6c Serval</Chinesesimp>
-				<Japanese>IFV-6c Serval</Japanese>
-				<Turkish>IFV-6c Serval</Turkish>
+				<Original>IFV-6d Jaguar</Original>
+				<Chinese>IFV-6d Jaguar</Chinese>
+				<French>IFV-6d Jaguar</French>
+				<Spanish>IFV-6d Jaguar</Spanish>
+				<Italian>IFV-6d Jaguar</Italian>
+				<Polish>IFV-6d Jaguar</Polish>
+				<Russian>IFV-6d Jaguar</Russian>
+				<German>IFV-6d Jaguar</German>
+				<Czech>IFV-6d Jaguar</Czech>
+				<English>IFV-6d Jaguar</English>
+				<Portuguese>IFV-6d Jaguar</Portuguese>
+				<Korean>IFV-6d Jaguar</Korean>
+				<Chinesesimp>IFV-6d Jaguar</Chinesesimp>
+				<Japanese>IFV-6d Jaguar</Japanese>
+				<Turkish>IFV-6d Jaguar</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_medical_F0">
 				<Original>BTR-K Medical</Original>
@@ -995,23 +995,6 @@
 				<Chinesesimp>BTR-K 医疗车</Chinesesimp>
 				<Japanese>BTR-K衛生</Japanese>
 				<Turkish>BTR-K Sıhhiye</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_AT_F0">
-				<Original>BTR-K Kazak</Original>
-				<Chinese>BTR-K Kazak</Chinese>
-				<French>BTR-K Kazak</French>
-				<Spanish>BTR-K Kazak</Spanish>
-				<Italian>BTR-K Kazak</Italian>
-				<Polish>BTR-K Kazak</Polish>
-				<Russian>BTR-K Kazak</Russian>
-				<German>BTR-K Kazak</German>
-				<Czech>BTR-K Kazak</Czech>
-				<English>BTR-K Kazak</English>
-				<Portuguese>BTR-K Kazak</Portuguese>
-				<Korean>BTR-K Kazak</Korean>
-				<Chinesesimp>BTR-K Kazak</Chinesesimp>
-				<Japanese>BTR-K Kazak</Japanese>
-				<Turkish>BTR-K Kazak</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_F0">
 				<Original>FV-720 Lancer</Original>
@@ -1031,21 +1014,21 @@
 				<Turkish>FV-720 Lancer</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_AA_F0">
-				<Original>FV-720 AA</Original>
-				<Chinese>FV-720 AA</Chinese>
-				<French>FV-720 AA</French>
-				<Spanish>FV-720 AA</Spanish>
-				<Italian>FV-720 AA</Italian>
-				<Polish>FV-720 AA</Polish>
-				<Russian>FV-720 AA</Russian>
-				<German>FV-720 AA</German>
-				<Czech>FV-720 AA</Czech>
-				<English>FV-720 AA</English>
-				<Portuguese>FV-720 AA</Portuguese>
-				<Korean>FV-720 AA</Korean>
-				<Chinesesimp>FV-720 AA</Chinesesimp>
-				<Japanese>FV-720 AA</Japanese>
-				<Turkish>FV-720 AA</Turkish>
+				<Original>FV-721 Slingshot</Original>
+				<Chinese>FV-721 Slingshot</Chinese>
+				<French>FV-721 Slingshot</French>
+				<Spanish>FV-721 Slingshot</Spanish>
+				<Italian>FV-721 Slingshot</Italian>
+				<Polish>FV-721 Slingshot</Polish>
+				<Russian>FV-721 Slingshot</Russian>
+				<German>FV-721 Slingshot</German>
+				<Czech>FV-721 Slingshot</Czech>
+				<English>FV-721 Slingshot</English>
+				<Portuguese>FV-721 Slingshot</Portuguese>
+				<Korean>FV-721 Slingshot</Korean>
+				<Chinesesimp>FV-721 Slingshot</Chinesesimp>
+				<Japanese>FV-721 Slingshot</Japanese>
+				<Turkish>FV-721 Slingshot</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_APC_Wheeled_01_medical_F0">
 				<Original>AMV-7 Medical</Original>
@@ -1083,38 +1066,38 @@
 			</Key>
 			<Container name="Library">
 				<Key ID="STR_A3_A_CfgVehicles_APC_Tracked_01_base_F_Library0">
-					<Original>TODO</Original>
-					<Chinese>TODO</Chinese>
-					<French>TODO</French>
-					<Spanish>TODO</Spanish>
-					<Italian>TODO</Italian>
-					<Polish>TODO</Polish>
-					<Russian>TODO</Russian>
-					<German>TODO</German>
-					<Czech>TODO</Czech>
-					<English>TODO</English>
-					<Portuguese>TODO</Portuguese>
-					<Korean>TODO</Korean>
-					<Chinesesimp>TODO</Chinesesimp>
-					<Japanese>TODO</Japanese>
-					<Turkish>TODO</Turkish>
+					<Original>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Original>
+					<Chinese>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Chinese>
+					<French>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</French>
+					<Spanish>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Spanish>
+					<Italian>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Italian>
+					<Polish>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Polish>
+					<Russian>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Russian>
+					<German>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</German>
+					<Czech>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Czech>
+					<English>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</English>
+					<Portuguese>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Portuguese>
+					<Korean>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Korean>
+					<Chinesesimp>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Chinesesimp>
+					<Japanese>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Japanese>
+					<Turkish>The IFV-6c Panther is based on the Isreali Nemmera APC, licensed and produced in the United States in vast numbers to replace both the M2 Bradley line of IFVs, and the aged M113 line of APCs. With the APC based on the M2 Slammer tank chassis, it is one of the most heavily armored vehicles in the world, able to take several IED, rocket, and ATGM rounds. Thus, the vehicle endeared itself on Western militaries, mired in counterinsurgency operations around the globe.</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_APC_Wheeled_01_base_F_Library0">
-					<Original>TODO</Original>
-					<Chinese>TODO</Chinese>
-					<French>TODO</French>
-					<Spanish>TODO</Spanish>
-					<Italian>TODO</Italian>
-					<Polish>TODO</Polish>
-					<Russian>TODO</Russian>
-					<German>TODO</German>
-					<Czech>TODO</Czech>
-					<English>TODO</English>
-					<Portuguese>TODO</Portuguese>
-					<Korean>TODO</Korean>
-					<Chinesesimp>TODO</Chinesesimp>
-					<Japanese>TODO</Japanese>
-					<Turkish>TODO</Turkish>
+					<Original>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Original>
+					<Chinese>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Chinese>
+					<French>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</French>
+					<Spanish>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Spanish>
+					<Italian>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Italian>
+					<Polish>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Polish>
+					<Russian>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Russian>
+					<German>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</German>
+					<Czech>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Czech>
+					<English>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</English>
+					<Portuguese>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Portuguese>
+					<Korean>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Korean>
+					<Chinesesimp>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Chinesesimp>
+					<Japanese>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Japanese>
+					<Turkish>Based on a South African design, the AMV-7 Marshall serves US forces as a replacement for both the Stryker line of vehicles, as well as the aging LAV line. Heavily armed with a 30mm autocannon, the vehicle is light enough to be transported via V-44 X Blackfish, granting it an incredible level of strategic mobility. The lack of any built-in ATGMs is intentional to reduce the footprint of the vehicle, and the capability is made up for when paired with its sister vehicle, the Rhino MGS.</Turkish>
 				</Key>
 			</Container>
 		</Container>
