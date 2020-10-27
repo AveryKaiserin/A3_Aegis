@@ -380,11 +380,19 @@ class CfgWeapons
 	};
 	class Throw: GrenadeLauncher
 	{
-        muzzles[] += {HandGrenade_EastMuzzle};
+        muzzles[] +=
+        {
+            HandGrenade_EastMuzzle,
+            HandGrenade_GuerMuzzle
+        };
         class ThrowMuzzle;
 		class HandGrenade_EastMuzzle: ThrowMuzzle
 		{
 			magazines[] = {HandGrenade_East};
+		};
+		class HandGrenade_GuerMuzzle: ThrowMuzzle
+		{
+			magazines[] = {HandGrenade_Guer};
 		};
     };
 	class ItemCore;

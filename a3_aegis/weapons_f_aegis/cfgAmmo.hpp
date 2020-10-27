@@ -306,8 +306,8 @@ class CfgAmmo
         - Slightly larger blast radius than the Frag Grenade
         - Slightly heavier than the Frag Grenade
         */
-		hit = 9;
-		indirectHit = 9;
+		hit = 8;
+		indirectHit = 8;
 		indirectHitRange = 7;
 		dangerRadiusHit = 65;
 		suppressionRadiusHit = 27;
@@ -317,6 +317,23 @@ class CfgAmmo
 		fuseDistance = /*4*/ 0;
         explosionTime = -1;
 		timeToLive = 18;
+	};
+	class GrenadeHandGuer: GrenadeHandEast
+	{
+        /*
+        - Impact grenade
+        - Slightly larger blast radius than the Frag Grenade
+        - Slightly heavier than the Frag Grenade
+        */
+		hit = 7;
+		indirectHit = 7;
+		indirectHitRange = 5;
+		dangerRadiusHit = 55;
+		suppressionRadiusHit = 21;
+		typicalspeed = 24;
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_guer_throw.p3d";
+		deflecting = 11;
+		fuseDistance = /*4*/ 0;
 	};
 	class R_50mm_HE: RocketBase
 	{

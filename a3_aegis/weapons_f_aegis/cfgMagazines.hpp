@@ -870,6 +870,14 @@ class CfgMagazines
 		ammo = GrenadeHandEast;
 		displayNameShort = $STR_A3_CfgMagazines_HandGrenade_dns;
 	};
+	class HandGrenade_Guer: HandGrenade_East
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		mass = 8;
+		displayName = "RGD Grenade";
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_guer.p3d";
+		ammo = GrenadeHandGuer;
+	};
 	class 5Rnd_25x40mm_HE: CA_Magazine
 	{
 		author = $STR_A3_A_AveryTheKitty;

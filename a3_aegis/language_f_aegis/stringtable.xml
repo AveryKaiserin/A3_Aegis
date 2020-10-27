@@ -14343,23 +14343,6 @@
 						<Japanese>拳銃&lt;br /&gt;口径：12.7x33 mm</Japanese>
 						<Turkish>Tabanca&lt;br /&gt;Kalibre: 12.7x33 mm</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F1">
-						<Original>Handgun&lt;br /&gt;Caliber: .357 Magnum</Original>
-						<Chinese>手槍&lt;br /&gt;口徑：.357 Magnum</Chinese>
-						<French>Arme de poing&lt;br /&gt;Calibre : .357 Magnum</Original>
-						<Spanish>Pistola&lt;br /&gt;Calibre: .357 Magnum</Original>
-						<Italian>Pistola&lt;br /&gt;Calibro: .357 Magnum</Original>
-						<Polish>Pistolet&lt;br /&gt;Kaliber: .357 Magnum</Polish>
-						<Russian>Пистолет&lt;br /&gt;Калибр: .357 Magnum</Russian>
-						<German>Handfeuerwaffe&lt;br /&gt;Kaliber: .357 Magnum</German>
-						<Czech>Pistole&lt;br /&gt;Ráže: .357 Magnum</Czech>
-						<English>Handgun&lt;br /&gt;Caliber: .357 Magnum</English>
-						<Portuguese>Pistola&lt;br /&gt;Calibre: .357 Magnum</Portuguese>
-						<Korean>권총&lt;br /&gt;구경: .357 Magnum</Korean>
-						<Chinesesimp>手枪&lt;br /&gt;口径：.357 Magnum</Chinesesimp>
-						<Japanese>拳銃&lt;br /&gt;口径：.357 Magnum</Japanese>
-						<Turkish>Tabanca&lt;br /&gt;Kalibre: .357 Magnum</Turkish>
-					</Key>
 				</Container>
 				<Container name="DisplayName">
 					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F0">
@@ -14447,23 +14430,6 @@
 						<Japanese>Mk26 12.7 mm</Japanese>
 						<Turkish>Mk26 12.7 mm</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F0">
-						<Original>Kaban .357</Original>
-						<Chinese>Kaban .357</Chinese>
-						<French>Kaban .357</French>
-						<Spanish>Kaban .357</Spanish>
-						<Italian>Kaban .357</Italian>
-						<Polish>Kaban .357</Polish>
-						<Russian>Kaban .357</Russian>
-						<German>Kaban .357</German>
-						<Czech>Kaban .357</Czech>
-						<English>Kaban .357</English>
-						<Portuguese>Kaban .357</Portuguese>
-						<Korean>Kaban .357</Korean>
-						<Chinesesimp>Kaban .357</Chinesesimp>
-						<Japanese>Kaban .357</Japanese>
-						<Turkish>Kaban .357</Turkish>
-					</Key>
 				</Container>
 				<Container name="Library">
 					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F_Library0">
@@ -14516,23 +14482,6 @@
 						<Chinesesimp>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Chinesesimp>
 						<Japanese>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Japanese>
 						<Turkish>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_03_F_Library0">
-						<Original>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Original>
-						<Chinese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinese>
-						<French>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</French>
-						<Spanish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Spanish>
-						<Italian>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Italian>
-						<Polish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Polish>
-						<Russian>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Russian>
-						<German>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</German>
-						<Czech>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Czech>
-						<English>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</English>
-						<Portuguese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Portuguese>
-						<Korean>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Korean>
-						<Chinesesimp>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Chinesesimp>
-						<Japanese>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Japanese>
-						<Turkish>The Kaban is a double-action revolver designed in Russia. It features a unique break-action chamber and an automatic ejector, chambered for the .357 Magnum round. The weapon has found popular usage among officers of the Russian Armed Forces.</Turkish>
 					</Key>
 				</Container>
 			</Container>
