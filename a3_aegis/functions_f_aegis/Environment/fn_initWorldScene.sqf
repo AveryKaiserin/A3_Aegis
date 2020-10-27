@@ -34,5 +34,5 @@ sleep 1;
  
 // Play music
 0 fadeMusic 1;
-playMusic "LeadTrack04_F_EPA"; // Play main menu theme
-addMusicEventHandler ["MusicStop", {0 fadeMusic 1; playMusic "LeadTrack04_F_EPA"}]; // Repeat the music
+playMusic "LeadTrack06_F_Aegis"; // Play main menu theme
+addMusicEventHandler ["MusicStop", {0 fadeMusic 1; playMusic "LeadTrack06_F_Aegis"}]; // Repeat the music
