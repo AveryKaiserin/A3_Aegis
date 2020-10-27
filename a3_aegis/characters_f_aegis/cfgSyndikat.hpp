@@ -30,6 +30,16 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F
 class I_C_Soldier_Para_1_F: I_C_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Soldier_Para_1_F.jpg";
+	magazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
 	linkedItems[] =
 	{
 		V_TacChestrig_cbr_F,
@@ -41,11 +51,35 @@ class I_C_Soldier_Para_1_F: I_C_Soldier_base_F
 		DefaultManGuerillaLinkedItems
 	};
 };
-class I_C_Soldier_Para_2_F;
+class I_C_Soldier_Para_2_F: I_C_Soldier_base_F
+{
+	magazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+    };
+};
 class I_C_Soldier_Para_3_F;
 class I_C_Soldier_Para_4_F: I_C_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Soldier_Para_4_F.jpg";
+	magazines[] =
+    {
+        mag_3(200Rnd_556x45_Box_F),
+        mag_2(10Rnd_9x21_Mag)
+    };
+	respawnMagazines[] =
+    {
+        mag_3(200Rnd_556x45_Box_F),
+        mag_2(10Rnd_9x21_Mag)
+    };
 	linkedItems[] =
 	{
 		V_ChestrigF_blk,
@@ -60,6 +94,18 @@ class I_C_Soldier_Para_4_F: I_C_Soldier_base_F
 class I_C_Soldier_Para_6_F: I_C_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Soldier_Para_6_F.jpg";
+	magazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+    };
 	linkedItems[] =
 	{
 		V_ChestrigF_oli,
@@ -74,6 +120,16 @@ class I_C_Soldier_Para_6_F: I_C_Soldier_base_F
 class I_C_Soldier_Para_7_F: I_C_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_C_Soldier_Para_7_F.jpg";
+	magazines[] =
+    {
+        mag_6(30Rnd_762x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_762x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
 	linkedItems[] =
 	{
 		V_TacChestrig_cbr_F,

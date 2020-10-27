@@ -198,7 +198,7 @@ class O_A_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 	{
 		mag_xx(30Rnd_580x42_Mag_F,12);
 		mag_xx(100Rnd_580x42_Mag_F,8);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,3);

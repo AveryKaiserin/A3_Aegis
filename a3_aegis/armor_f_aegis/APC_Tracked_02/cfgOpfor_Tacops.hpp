@@ -213,7 +213,7 @@ class O_A_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	{
 		mag_xx(30Rnd_580x42_Mag_F,12);
 		mag_xx(100Rnd_580x42_Mag_F,8);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellRed,8);

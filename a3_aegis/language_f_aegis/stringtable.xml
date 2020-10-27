@@ -7235,23 +7235,6 @@
 				<Japanese>ロシア</Japanese>
 				<Turkish>Rusya</Turkish>
 			</Key>
-			<Key ID="STR_A3_A_TEXTURESOURCES_TAIGA0">
-				<Original>Taiga</Original>
-				<Chinese>Taiga</Chinese>
-				<French>Taïga</French>
-				<Spanish>Taiga</Spanish>
-				<Italian>Taiga</Italian>
-				<Polish>Tajga</Polish>
-				<Russian>Tаежная</Russian>
-				<German>Taiga</German>
-				<Czech>Tajga</Czech>
-				<English>Taiga</English>
-				<Portuguese>Taiga</Portuguese>
-				<Korean>침엽수림</Korean>
-				<Chinesesimp>针叶林</Chinesesimp>
-				<Japanese>タイガ</Japanese>
-				<Turkish>Tayga</Turkish>
-			</Key>
 			<Key ID="STR_A3_A_TEXTURESOURCES_TROPIC0">
 				<Original>Tropic</Original>
 				<Chinese>熱帶</Chinese>
@@ -7285,6 +7268,23 @@
 				<Chinesesimp>FIA 3</Chinesesimp>
 				<Japanese>FIA 3</Japanese>
 				<Turkish>FIA 3</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_WOODLAND0">
+				<Original>Woodland</Original>
+				<Chinese>森林</Chinese>
+				<French>Boisé</French>
+				<Spanish>bosque</Spanish>
+				<Italian>boschi</Italian>
+				<Polish>leśny</Polish>
+				<Russian>лес</Russian>
+				<German>Wald</German>
+				<Czech>woodland</Czech>
+				<English>Woodland</English>
+				<Portuguese>Floresta</Portuguese>
+				<Korean>산악</Korean>
+				<Chinesesimp>林地</Chinesesimp>
+				<Japanese>森林</Japanese>
+				<Turkish>Ağaçlık</Turkish>
 			</Key>
 		</Container>
     	<Container name="Modules_F">
@@ -7612,6 +7612,108 @@
 				<Chinesesimp>Laws of War DLC: Actions Have Consequences</Chinesesimp>
 				<Japanese>Laws of War DLC: Actions Have Consequences</Japanese>
 				<Turkish>Laws of War DLC: Actions Have Consequences</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack01_F_Aegis">
+				<Original>Ambience</Original>
+				<Chinese>Ambience</Chinese>
+				<French>Ambience</French>
+				<Spanish>Ambience</Spanish>
+				<Italian>Ambience</Italian>
+				<Polish>Ambience</Polish>
+				<Russian>Ambience</Russian>
+				<German>Ambience</German>
+				<Czech>Ambience</Czech>
+				<English>Ambience</English>
+				<Portuguese>Ambience</Portuguese>
+				<Korean>Ambience</Korean>
+				<Chinesesimp>Ambience</Chinesesimp>
+				<Japanese>Ambience</Japanese>
+				<Turkish>Ambience</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack02_F_Aegis">
+				<Original>Endless Hope</Original>
+				<Chinese>Endless Hope</Chinese>
+				<French>Endless Hope</French>
+				<Spanish>Endless Hope</Spanish>
+				<Italian>Endless Hope</Italian>
+				<Polish>Endless Hope</Polish>
+				<Russian>Endless Hope</Russian>
+				<German>Endless Hope</German>
+				<Czech>Endless Hope</Czech>
+				<English>Endless Hope</English>
+				<Portuguese>Endless Hope</Portuguese>
+				<Korean>Endless Hope</Korean>
+				<Chinesesimp>Endless Hope</Chinesesimp>
+				<Japanese>Endless Hope</Japanese>
+				<Turkish>Endless Hope</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack03_F_Aegis">
+				<Original>Around The World</Original>
+				<Chinese>Around The World</Chinese>
+				<French>Around The World</French>
+				<Spanish>Around The World</Spanish>
+				<Italian>Around The World</Italian>
+				<Polish>Around The World</Polish>
+				<Russian>Around The World</Russian>
+				<German>Around The World</German>
+				<Czech>Around The World</Czech>
+				<English>Around The World</English>
+				<Portuguese>Around The World</Portuguese>
+				<Korean>Around The World</Korean>
+				<Chinesesimp>Around The World</Chinesesimp>
+				<Japanese>Around The World</Japanese>
+				<Turkish>Around The World</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack04_F_Aegis">
+				<Original>Falling Back</Original>
+				<Chinese>Falling Back</Chinese>
+				<French>Falling Back</French>
+				<Spanish>Falling Back</Spanish>
+				<Italian>Falling Back</Italian>
+				<Polish>Falling Back</Polish>
+				<Russian>Falling Back</Russian>
+				<German>Falling Back</German>
+				<Czech>Falling Back</Czech>
+				<English>Falling Back</English>
+				<Portuguese>Falling Back</Portuguese>
+				<Korean>Falling Back</Korean>
+				<Chinesesimp>Falling Back</Chinesesimp>
+				<Japanese>Falling Back</Japanese>
+				<Turkish>Falling Back</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack05_F_Aegis">
+				<Original>Hymn of Promise</Original>
+				<Chinese>Hymn of Promise</Chinese>
+				<French>Hymn of Promise</French>
+				<Spanish>Hymn of Promise</Spanish>
+				<Italian>Hymn of Promise</Italian>
+				<Polish>Hymn of Promise</Polish>
+				<Russian>Hymn of Promise</Russian>
+				<German>Hymn of Promise</German>
+				<Czech>Hymn of Promise</Czech>
+				<English>Hymn of Promise</English>
+				<Portuguese>Hymn of Promise</Portuguese>
+				<Korean>Hymn of Promise</Korean>
+				<Chinesesimp>Hymn of Promise</Chinesesimp>
+				<Japanese>Hymn of Promise</Japanese>
+				<Turkish>Hymn of Promise</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgMusic_LeadTrack06_F_Aegis">
+				<Original>Waves</Original>
+				<Chinese>Waves</Chinese>
+				<French>Waves</French>
+				<Spanish>Waves</Spanish>
+				<Italian>Waves</Italian>
+				<Polish>Waves</Polish>
+				<Russian>Waves</Russian>
+				<German>Waves</German>
+				<Czech>Waves</Czech>
+				<English>Waves</English>
+				<Portuguese>Waves</Portuguese>
+				<Korean>Waves</Korean>
+				<Chinesesimp>Waves</Chinesesimp>
+				<Japanese>Waves</Japanese>
+				<Turkish>Waves</Turkish>
 			</Key>
 		</Container>
 		<Container name="Props_F">

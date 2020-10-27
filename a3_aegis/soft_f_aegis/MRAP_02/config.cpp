@@ -42,6 +42,22 @@ class CfgVehicles
 					OPF_R_ard_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUcamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_02_RUcamo_CO.paa",
+					"\A3_Aegis\Data_F_Aegis\Vehicles\Turret_RUcamo_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
 		};
 	};
 	class MRAP_02_hmg_base_F: MRAP_02_base_F

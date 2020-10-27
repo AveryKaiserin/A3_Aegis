@@ -139,6 +139,7 @@ class CfgHints
 			weapon = GL_XM25_F;
 			logicalOrder = 40;
 		};
+        /*
 		class WF50
 		{
 			displayName = %11;
@@ -153,6 +154,7 @@ class CfgHints
 			weapon = srifle_WF50_F;
 			logicalOrder = 57;
 		};
+        */
 		class C1911
 		{
 			displayName = %11;
@@ -194,20 +196,6 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
 			weapon = hgun_Mk26_F;
 			logicalOrder = 28;
-		};
-		class RPK
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_arifle_RPK_base_F0},
-				{STR_A3_A_CfgWeapons_arifle_RPK_base_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = arifle_RPK_F;
-			logicalOrder = 32;
 		};
 		class SA80
 		{

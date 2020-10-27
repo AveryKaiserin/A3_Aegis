@@ -877,6 +877,7 @@ class CfgMagazines
 		displayName = "RGD Grenade";
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_guer.p3d";
 		ammo = GrenadeHandGuer;
+		displayNameShort = "RGD Grenade";
 	};
 	class 5Rnd_25x40mm_HE: CA_Magazine
 	{

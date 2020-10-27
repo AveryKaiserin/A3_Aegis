@@ -213,7 +213,7 @@ class I_CDF_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	{
 		mag_xx(30Rnd_545x39_black_Mag_F,12);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellRed,8);
@@ -454,7 +454,7 @@ class I_CDF_APC_Tracked_02_AA_F: O_APC_Tracked_02_AA_F
 	{
 		mag_xx(30Rnd_545x39_black_Mag_F,12);
 		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellRed,8);

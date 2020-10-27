@@ -98,13 +98,13 @@ class Atlas_O_T_soldier_A_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 	backpack = B_Carryall_semiarid_Ammo_F;
@@ -156,13 +156,13 @@ class Atlas_O_T_soldier_AR_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_8(75Rnd_762x39_Mag_Green_F),
-        HandGrenade_East,
+        HandGrenade_Guer,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_8(75Rnd_762x39_Mag_Green_F),
-        HandGrenade_East,
+        HandGrenade_Guer,
         mag_2(SmokeShell)
     };
 };
@@ -214,14 +214,14 @@ class Atlas_O_T_medic_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_MEDIC
     };
@@ -274,14 +274,14 @@ class Atlas_O_T_crew_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_6(30Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -339,14 +339,14 @@ class Atlas_O_T_engineer_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -399,7 +399,7 @@ class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_4(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -407,7 +407,7 @@ class Atlas_O_T_soldier_GL_F: Atlas_O_T_soldier_base_F
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         mag_4(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell),
         mag_2(1Rnd_Smoke_Grenade_shell)
     };
@@ -578,13 +578,13 @@ class Atlas_O_T_soldier_M_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_10(10Rnd_762x54_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(10Rnd_762x54_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 };
@@ -640,14 +640,14 @@ class Atlas_O_T_soldier_AA_F: Atlas_O_T_soldier_base_F
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AA,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AA,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 	backpack = B_FieldPack_semiarid_AA_F;
@@ -704,14 +704,14 @@ class Atlas_O_T_soldier_AT_F: Atlas_O_T_soldier_base_F
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AT,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         Titan_AT,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 	backpack = B_FieldPack_semiarid_AT_F;
@@ -807,13 +807,13 @@ class Atlas_O_T_soldier_F: Atlas_O_T_soldier_base_F
     magazines[] =
     {
         mag_10(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 };
@@ -869,14 +869,14 @@ class Atlas_O_T_soldier_LAT_F: Atlas_O_T_soldier_base_F
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         RPG32_F,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_6(30Rnd_556x45_AUG_Mag_Green_F),
         RPG32_F,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
 	backpack = B_FieldPack_semiarid_LAT_F;
@@ -933,7 +933,7 @@ class Atlas_O_T_soldier_SL_F: Atlas_O_T_soldier_base_F
         mag_4(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -942,7 +942,7 @@ class Atlas_O_T_soldier_SL_F: Atlas_O_T_soldier_base_F
         mag_4(30Rnd_556x45_AUG_Mag_Green_F),
         mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
         mag_2(10Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR
     };
@@ -1001,7 +1001,7 @@ class Atlas_O_T_soldier_TL_F: Atlas_O_T_soldier_base_F
         mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -1013,7 +1013,7 @@ class Atlas_O_T_soldier_TL_F: Atlas_O_T_soldier_base_F
         mag_2(30Rnd_556x45_AUG_Mag_Tracer_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_4(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         SmokeShell,
         SOLDIER_SMOKE_SHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -1118,13 +1118,13 @@ class Atlas_O_T_RadioOperator_F: Atlas_O_T_soldier_F
     magazines[] =
     {
         mag_10(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_AUG_Mag_Green_F),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     role = RadioOperator;

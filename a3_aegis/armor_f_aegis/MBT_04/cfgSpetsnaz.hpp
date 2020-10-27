@@ -186,7 +186,11 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Green,0};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
@@ -403,7 +407,11 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_Soldier_F};
-	textureList[] = {Green,0};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",

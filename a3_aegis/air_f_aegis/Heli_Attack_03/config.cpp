@@ -107,7 +107,7 @@ class CfgVehicles
         // Crew and cargo
 		crewVulnerable = false;
 		castDriverShadow = true;
-		viewCargoShadow = /*true*/ false;
+		viewCargoShadow = true;
 		driverAction = Heli_Attack_03_pilot;
 		driverInAction = Heli_Attack_03_pilot;
 		driverCanEject = false;

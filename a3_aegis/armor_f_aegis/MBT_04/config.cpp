@@ -209,6 +209,22 @@ class CfgVehicles
 					OPF_R_ard_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_2_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
 		};
 	};
 	class MBT_04_cannon_base_F: MBT_04_base_F{};
@@ -366,6 +382,16 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_1_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUkhk_2_CO.paa",
+					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
+				};
+			};
+			class Rus: Rus
+			{
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_1_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_04\Data\MBT_04_exterior_RUrucamo_2_CO.paa",
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};

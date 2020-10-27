@@ -71,7 +71,7 @@ class Box_ChDKZ_Ammo_F: ReammoBox_F
 		mag_xx(10Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(RPG32_F,1);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 	};
 	class TransportWeapons{};

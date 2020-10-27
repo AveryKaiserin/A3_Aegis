@@ -124,7 +124,11 @@ class O_R_MRAP_02_F: O_MRAP_02_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
@@ -286,7 +290,11 @@ class O_R_MRAP_02_hmg_F: O_MRAP_02_hmg_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",
@@ -448,7 +456,11 @@ class O_R_MRAP_02_gmg_F: O_MRAP_02_gmg_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-    textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Soft_F_Aegis\MRAP_02\Data\MRAP_02_ext_01_RUkhk_CO.paa",

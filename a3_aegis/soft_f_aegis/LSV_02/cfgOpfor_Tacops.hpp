@@ -107,7 +107,7 @@ class O_A_LSV_02_armed_F: LSV_02_armed_base_F
 	{
 		mag_xx(30Rnd_580x42_Mag_F,16);
 		mag_xx(100Rnd_580x42_Mag_F,8);
-		mag_xx(HandGrenade_East,10);
+		mag_xx(HandGrenade_Guer,10);
 		mag_xx(SmokeShell,4);
 		mag_xx(SmokeShellRed,4);
 		mag_xx(SmokeShellOrange,4);
@@ -238,7 +238,7 @@ class O_A_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	{
 		mag_xx(30Rnd_580x42_Mag_F,16);
 		mag_xx(100Rnd_580x42_Mag_F,8);
-		mag_xx(HandGrenade_East,10);
+		mag_xx(HandGrenade_Guer,10);
 		mag_xx(SmokeShell,4);
 		mag_xx(SmokeShellRed,4);
 		mag_xx(SmokeShellOrange,4);
@@ -369,7 +369,7 @@ class O_A_LSV_02_AT_F: LSV_02_AT_base_F
 	{
 		mag_xx(30Rnd_580x42_Mag_F,16);
 		mag_xx(100Rnd_580x42_Mag_F,8);
-		mag_xx(HandGrenade_East,10);
+		mag_xx(HandGrenade_Guer,10);
 		mag_xx(SmokeShell,4);
 		mag_xx(SmokeShellRed,4);
 		mag_xx(SmokeShellOrange,4);

@@ -103,7 +103,11 @@ class O_R_Truck_03_transport_F: O_Truck_03_transport_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
@@ -215,7 +219,11 @@ class O_R_Truck_03_covered_F: O_Truck_03_covered_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
@@ -328,7 +336,11 @@ class O_R_Truck_03_repair_F: O_Truck_03_repair_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
@@ -440,7 +452,11 @@ class O_R_Truck_03_ammo_F: O_Truck_03_ammo_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
@@ -553,7 +569,11 @@ class O_R_Truck_03_fuel_F: O_Truck_03_fuel_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
@@ -665,7 +685,11 @@ class O_R_Truck_03_medical_F: O_Truck_03_medical_F
         O_R_Soldier_F,
         O_R_Soldier_F
     };
-	textureList[] = {Green,1};
+	textureList[] =
+    {
+        Green,0,
+        Rus,1
+    };
 	hiddenSelectionsTextures[] =
     {
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",

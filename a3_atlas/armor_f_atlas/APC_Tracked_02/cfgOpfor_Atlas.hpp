@@ -213,7 +213,7 @@ class Atlas_O_T_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	{
 		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
 		mag_xx(75Rnd_762x39_Mag_Green_F,8);
-		mag_xx(HandGrenade_East,6);
+		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellRed,8);

@@ -22,7 +22,7 @@ class O_A_MRAP_02_F: O_MRAP_02_F
     {
         mag_xx(30Rnd_580x42_Mag_F,12);
         mag_xx(100Rnd_580x42_Mag_F,8);
-        mag_xx(HandGrenade_East,10);
+        mag_xx(HandGrenade_Guer,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
         mag_xx(SmokeShellOrange,4);
@@ -65,7 +65,7 @@ class O_A_MRAP_02_hmg_F: O_MRAP_02_hmg_F
     {
         mag_xx(30Rnd_580x42_Mag_F,12);
         mag_xx(100Rnd_580x42_Mag_F,8);
-        mag_xx(HandGrenade_East,10);
+        mag_xx(HandGrenade_Guer,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
         mag_xx(SmokeShellOrange,4);
@@ -108,7 +108,7 @@ class O_A_MRAP_02_gmg_F: O_MRAP_02_gmg_F
     {
         mag_xx(30Rnd_580x42_Mag_F,12);
         mag_xx(100Rnd_580x42_Mag_F,8);
-        mag_xx(HandGrenade_East,10);
+        mag_xx(HandGrenade_Guer,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
         mag_xx(SmokeShellOrange,4);

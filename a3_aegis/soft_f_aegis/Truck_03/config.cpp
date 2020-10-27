@@ -24,6 +24,22 @@ class CfgVehicles
 					OPF_R_ard_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
 		};
 	};
 	class O_Truck_03_covered_F: Truck_03_base_F
@@ -47,6 +63,23 @@ class CfgVehicles
 					OPF_R_ard_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUrucamo_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
 		};
 	};
 	class O_Truck_03_repair_F: Truck_03_base_F
@@ -62,6 +95,22 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUkhk_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ammo_RUrucamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -120,6 +169,23 @@ class CfgVehicles
 					OPF_R_ard_F
 				};
 			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_RUkhk_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
 		};
 	};
 	class O_Truck_03_fuel_F: Truck_03_base_F
@@ -135,6 +201,22 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUkhk_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_fuel_RUrucamo_CO.paa"
 				};
 				factions[] =
 				{
@@ -158,6 +240,23 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUkhk_CO.paa",
         			"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUkhk_CO.paa"
+				};
+				factions[] =
+				{
+					OPF_R_F,
+					OPF_R_ard_F
+				};
+			};
+			class Rus
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_RUS0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext01_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_ext02_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cargo_RUrucamo_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Truck_03_cover_RUrucamo_CO.paa"
 				};
 				factions[] =
 				{
