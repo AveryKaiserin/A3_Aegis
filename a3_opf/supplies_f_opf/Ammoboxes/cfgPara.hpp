@@ -71,8 +71,7 @@ class Box_Para_Ammo_F: ReammoBox_F
 		mag_xx(17Rnd_9x21_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(RPG32_F,1);
-		mag_xx(HandGrenade_Guer,6);
-		mag_xx(MiniGrenade,6);
+		mag_xx(HandGrenade_Guer,12);
 	};
 	class TransportWeapons{};
 	class TransportItems

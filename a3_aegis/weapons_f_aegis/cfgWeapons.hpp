@@ -351,7 +351,14 @@ class CfgWeapons
 	class HMG_127_MBT: HMG_static{};
 	class Launcher_Base_F;
     class GrenadeLauncher;
-	class UGL_F;
+	class UGL_F: GrenadeLauncher
+    {
+        // Test, maybe remove this and revert the other standalone grenade launchers to 30 meters
+		class Single: Mode_SemiAuto
+		{
+            minRange = 0;
+        };
+    };
 	class RifleCore;
 	class Rifle: RifleCore
 	{

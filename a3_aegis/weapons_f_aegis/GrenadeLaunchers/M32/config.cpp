@@ -75,7 +75,7 @@ class CfgWeapons
 			sounds[] = {StandardSound};
 			reloadTime = 0.25;
 			dispersion = 0.00203;
-			minRange = 30;
+			minRange = 0;
 			minRangeProbab = 0.1;
 			midRange = 200;
 			midRangeProbab = 0.7;

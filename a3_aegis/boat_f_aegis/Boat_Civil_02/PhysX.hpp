@@ -1,7 +1,7 @@
 maxSpeed = 25;
 simulation = ShipX;
 overSpeedBrakeCoef = 0.8;
-enginePower = 18.5;
+enginePower = 20;
 engineShiftY = 0;
 waterLeakiness = 0.5;
 waterResistanceCoef = 0.01;
