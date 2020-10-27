@@ -32,5 +32,10 @@ class CfgFunctions
 			class initWorldScene{};
 			class initWorldSceneVR{};
 		};
+		class Misc
+		{
+			file = "A3_Aegis\Functions_F_Aegis\Misc";
+			//class initFlashbang{};
+		};
     };
 };

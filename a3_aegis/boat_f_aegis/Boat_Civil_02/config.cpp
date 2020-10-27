@@ -86,7 +86,7 @@ class CfgVehicles
 				armor = 0.6;
 				material = 50;
 				name = hull;
-				visual = motor;
+				visual = camo1;
 				passThrough = 1;
 			};
 			class HitEngine
@@ -207,18 +207,19 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_C_CfgVehicles_Offroad_01_military_covered_base_F_AnimationSources_HideCover0;
 				author = $STR_A3_A_AveryTheKitty;
-                scope = public;
-				source = user;
-				animPeriod = 0.001;
+				source = door;
 				initPhase = false;
+				animPeriod = 0.001;
 				mass = -5;
+				forceAnimatePhase = true;
+                forceAnimate[] = {};
 			};
 		};
-		animationList[] = {HideCover,0.5};
+		animationList[] = {HideCover,0.33};
         // Scripted animations and functionality
 		class EventHandlers: EventHandlers
 		{
-			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call BIS_fnc_initVehicle;};";
 		};
 	};
 	#include "cfgCivil.hpp"         // Civilians
