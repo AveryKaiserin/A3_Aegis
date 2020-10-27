@@ -917,6 +917,180 @@
 				<Turkish>Insurgents</Turkish>
 			</Key>
 		</Container>
+		<Container name="Supplies_F">
+			<Container name="Ammoboxes">
+				<Key ID="STR_A3_O_CfgVehicles_Box_Para_Wps_F0">
+					<Original>Basic Weapons [Paramilitary]</Original>
+					<Chinese>基本武器（準軍事）</Chinese>
+					<French>Armes standard [Paramilitaires]</French>
+					<Spanish>Armas básicas [Paramilitares]</Spanish>
+					<Italian>Armi di base [Paramilitari]</Italian>
+					<Polish>Broń podstawowa [Paramil]</Polish>
+					<Russian>Основное оружие [Bоенные]</Russian>
+					<German>Basiswaffen [Paramilitär]</German>
+					<Czech>Základní zbraně [Polovojenští]</Czech>
+					<English>Basic Weapons [Paramilitary]</English>
+					<Portuguese>Armas básicas [Paramilitares]</Portuguese>
+					<Korean>기본무기[민병대]</Korean>
+					<Chinesesimp>基本武器 [准军事部队]</Chinesesimp>
+					<Japanese>基本武器 [民兵]</Japanese>
+					<Turkish>Temel Silahlar [Paramiliter]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_Para_Ammo_F0">
+					<Original>Basic Ammo [Paramilitary]</Original>
+					<Chinese>基本彈藥（準軍事）</Chinese>
+					<French>Munitions standard [Paramilitaires]</French>
+					<Spanish>Munición básica [Paramilitares]</Spanish>
+					<Italian>Munizioni di base [Paramilitari]</Italian>
+					<Polish>Amunicja podstawowa [Paramil]</Polish>
+					<Russian>Основные боеприпасы [Bоенные]</Russian>
+					<German>Basismunition [Paramilitär]</German>
+					<Czech>Základní munice [Polovojenští]</Czech>
+					<English>Basic Ammo [Paramilitary]</English>
+					<Portuguese>Munição básica [Paramilitares]</Portuguese>
+					<Korean>기본탄약[민병대]</Korean>
+					<Chinesesimp>基本弹药 [准军事部队]</Chinesesimp>
+					<Japanese>基本弾薬 [民兵]</Japanese>
+					<Turkish>Temel Mühimmat [Paramiliter]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_Para_WpsLaunch_F0">
+					<Original>Launchers [Paramilitary]</Original>
+					<Chinese>發射器（準軍事）</Chinese>
+					<French>Lanceurs [Paramilitaires]</French>
+					<Spanish>Lanzadores [Paramilitares]</Spanish>
+					<Italian>Lanciatori [Paramilitari]</Italian>
+					<Polish>Wyrzutnie [Paramil]</Polish>
+					<Russian>Пусковые установки [Bоенные]</Russian>
+					<German>Werfer [Paramilitär]</German>
+					<Czech>Raketomety [Polovojenští]</Czech>
+					<English>Launchers [Paramilitary]</English>
+					<Portuguese>Lançadores [Paramilitares]</Portuguese>
+					<Korean>발사기[민병대]</Korean>
+					<Chinesesimp>发射器 [准军事部队]</Chinesesimp>
+					<Japanese>ランチャー [民兵]</Japanese>
+					<Turkish>Fırlatıcılar [Paramiliter]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_TKM_Wps_F0">
+					<Original>Basic Weapons [Insurgent]</Original>
+					<Chinese>基本武器（Insurgent）</Chinese>
+					<French>Armes standard [Insurgent]</French>
+					<Spanish>Armas básicas [Insurgent]</Spanish>
+					<Italian>Armi di base [Insurgent]</Italian>
+					<Polish>Broń podstawowa [Insurgent]</Polish>
+					<Russian>Основное оружие [Insurgent]</Russian>
+					<German>Basiswaffen [Insurgent]</German>
+					<Czech>Základní zbraně [Insurgent]</Czech>
+					<English>Basic Weapons [Insurgent]</English>
+					<Portuguese>Armas básicas [Insurgent]</Portuguese>
+					<Korean>기본무기[Insurgent]</Korean>
+					<Chinesesimp>基本武器 [Insurgent]</Chinesesimp>
+					<Japanese>基本武器 [Insurgent]</Japanese>
+					<Turkish>Temel Silahlar [Insurgent]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_TKM_Ammo_F0">
+					<Original>Basic Ammo [Insurgent]</Original>
+					<Chinese>基本彈藥（Insurgent）</Chinese>
+					<French>Munitions standard [Insurgent]</French>
+					<Spanish>Munición básica [Insurgent]</Spanish>
+					<Italian>Munizioni di base [Insurgent]</Italian>
+					<Polish>Amunicja podstawowa [Insurgent]</Polish>
+					<Russian>Основные боеприпасы [Insurgent]</Russian>
+					<German>Basismunition [Insurgent]</German>
+					<Czech>Základní munice [Insurgent]</Czech>
+					<English>Basic Ammo [Insurgent]</English>
+					<Portuguese>Munição básica [Insurgent]</Portuguese>
+					<Korean>기본탄약[Insurgent]</Korean>
+					<Chinesesimp>基本弹药 [Insurgent]</Chinesesimp>
+					<Japanese>基本弾薬 [Insurgent]</Japanese>
+					<Turkish>Temel Mühimmat [Insurgent]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_TKM_WpsLaunch_F0">
+					<Original>Launchers [Insurgent]</Original>
+					<Chinese>發射器（Insurgent）</Chinese>
+					<French>Lanceurs [Insurgent]</French>
+					<Spanish>Lanzadores [Insurgent]</Spanish>
+					<Italian>Lanciatori [Insurgent]</Italian>
+					<Polish>Wyrzutnie [Insurgent]</Polish>
+					<Russian>Пусковые установки [Insurgent]</Russian>
+					<German>Werfer [Insurgent]</German>
+					<Czech>Raketomety [Insurgent]</Czech>
+					<English>Launchers [Insurgent]</English>
+					<Portuguese>Lançadores [Insurgent]</Portuguese>
+					<Korean>발사기[Insurgent]</Korean>
+					<Chinesesimp>发射器 [Insurgent]</Chinesesimp>
+					<Japanese>ランチャー [Insurgent]</Japanese>
+					<Turkish>Fırlatıcılar [Insurgent]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_ChDKZ_Wps_F0">
+					<Original>Basic Weapons [Separatists]</Original>
+					<Chinese>基本武器（Separatists）</Chinese>
+					<French>Armes standard [Separatists]</French>
+					<Spanish>Armas básicas [Separatists]</Spanish>
+					<Italian>Armi di base [Separatists]</Italian>
+					<Polish>Broń podstawowa [Separatists]</Polish>
+					<Russian>Основное оружие [Separatists]</Russian>
+					<German>Basiswaffen [Separatists]</German>
+					<Czech>Základní zbraně [Separatists]</Czech>
+					<English>Basic Weapons [Separatists]</English>
+					<Portuguese>Armas básicas [Separatists]</Portuguese>
+					<Korean>기본무기[Separatists]</Korean>
+					<Chinesesimp>基本武器 [Separatists]</Chinesesimp>
+					<Japanese>基本武器 [Separatists]</Japanese>
+					<Turkish>Temel Silahlar [Separatists]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_ChDKZ_Ammo_F0">
+					<Original>Basic Ammo [Separatists]</Original>
+					<Chinese>基本彈藥（Separatists）</Chinese>
+					<French>Munitions standard [Separatists]</French>
+					<Spanish>Munición básica [Separatists]</Spanish>
+					<Italian>Munizioni di base [Separatists]</Italian>
+					<Polish>Amunicja podstawowa [Separatists]</Polish>
+					<Russian>Основные боеприпасы [Separatists]</Russian>
+					<German>Basismunition [Separatists]</German>
+					<Czech>Základní munice [Separatists]</Czech>
+					<English>Basic Ammo [Separatists]</English>
+					<Portuguese>Munição básica [Separatists]</Portuguese>
+					<Korean>기본탄약[Separatists]</Korean>
+					<Chinesesimp>基本弹药 [Separatists]</Chinesesimp>
+					<Japanese>基本弾薬 [Separatists]</Japanese>
+					<Turkish>Temel Mühimmat [Separatists]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_ChDKZ_WpsLaunch_F0">
+					<Original>Launchers [Separatists]</Original>
+					<Chinese>發射器（Separatists）</Chinese>
+					<French>Lanceurs [Separatists]</French>
+					<Spanish>Lanzadores [Separatists]</Spanish>
+					<Italian>Lanciatori [Separatists]</Italian>
+					<Polish>Wyrzutnie [Separatists]</Polish>
+					<Russian>Пусковые установки [Separatists]</Russian>
+					<German>Werfer [Separatists]</German>
+					<Czech>Raketomety [Separatists]</Czech>
+					<English>Launchers [Separatists]</English>
+					<Portuguese>Lançadores [Separatists]</Portuguese>
+					<Korean>발사기[Separatists]</Korean>
+					<Chinesesimp>发射器 [Separatists]</Chinesesimp>
+					<Japanese>ランチャー [Separatists]</Japanese>
+					<Turkish>Fırlatıcılar [Separatists]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_IR_Equip_F0">
+					<Original>Supply Box [Raven]</Original>
+         			<Chinese>補給盒（Raven）</Chinese>
+					<French>Caisse de ravitaillements [Raven]</French>
+					<Spanish>Caja de suministros [Raven]</Spanish>
+					<Italian>Scatola di rifornimenti [Raven]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [Raven]</Polish>
+					<Russian>Ящик с припасами [Raven]</Russian>
+					<German>Nachschubkiste [Raven]</German>
+					<Czech>Bedna se zásobami [Raven]</Czech>
+					<English>Supply Box [Raven]</English>
+					<Portuguese>Caixa de suprimentos [Raven]</Portuguese>
+					<Korean>보급상자[레이븐]</Korean>
+					<Chinesesimp>电源箱 [Raven]</Chinesesimp>
+					<Japanese>物資箱 [レイヴン]</Japanese>
+					<Turkish>İkmal Kutusu [Kuzgun]</Turkish>
+				</Key>
+			</Container>
+		</Container>
 		<Container name="Weapons_F">
 			<Container name="Rifles">
 				<Container name="DescriptionShort">
