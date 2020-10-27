@@ -8,23 +8,23 @@ class CfgMagazines
 	class 30Rnd_65x39_caseless_mag: CA_Magazine
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa"};
-		descriptionShort = "Caliber: 6.5x39 mm - STANAG Caseless<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag1*/;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag1;
 	};
 	class 30Rnd_65x39_caseless_green: 30Rnd_65x39_caseless_mag
 	{
-		descriptionShort = "Caliber: 6.5x39 mm - Caseless<br />Rounds: 25<br />Used in: Katiba, Type 115" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1*/;
-        displayName = "6.5 mm 25Rnd Caseless Mag" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0*/;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1;
+        displayName = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0;
 		count = 25;
 	};
 	class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag
 	{
-		descriptionShort = "Caliber: 6.5x39 mm Tracer - Red<br />Rounds: 30<br />Used in: MX/C/M/SW, L85A3" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag_Tracer1*/;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag_Tracer1;
 	};
 	class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green
 	{
 		lastRoundsTracer = 25;
-        displayName = "6.5 mm 25Rnd Tracer (Green) Caseless Mag" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer0*/;
-		descriptionShort = "Caliber: 6.5x39 mm Tracer (Green) - Caseless<br />Rounds: 25<br />Used in: Katiba, Type 115" /*$STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer1*/;
+        displayName = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer0;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer1;
 	};
 	class 20Rnd_762x51_Mag: CA_Magazine
 	{
@@ -33,19 +33,29 @@ class CfgMagazines
 	};
 	class 100Rnd_65x39_caseless_mag: CA_Magazine
 	{
+		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_65x39_caseless_mag1;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
 	};
 	class 100Rnd_65x39_caseless_mag_Tracer: 100Rnd_65x39_caseless_mag
 	{
+		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_65x39_caseless_mag_Tracer1;
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
 	};
-	class 30Rnd_9x21_Mag;
+	class 30Rnd_9x21_Mag: CA_Magazine
+	{
+        scope = protected;
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_9x21_Mag1;
+    };
 	class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag
 	{
 		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_Mag0;
 		descriptionShort = $STR_A3_A_CfgMagazines_16Rnd_9x21_Mag1;
 		count = 15;
 	};
+	class 30Rnd_9x21_Mag_SMG_02: 30Rnd_9x21_Mag
+	{
+        scope = public;
+    };
 	class 16Rnd_9x21_red_Mag: 16Rnd_9x21_Mag
 	{
 		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_red_Mag0;
@@ -91,7 +101,19 @@ class CfgMagazines
 	class UGL_FlareRed_F;
 	class UGL_FlareYellow_F;
 	class UGL_FlareCIR_F;
+	class 30Rnd_45ACP_Mag_SMG_01: 30Rnd_9x21_Mag
+    {
+        scope = public;
+    };
 	class 9Rnd_45ACP_Mag;
+	class 150Rnd_762x51_Box: CA_Magazine
+	{
+		scope = protected;
+	};
+	class 150Rnd_762x54_Box: 150Rnd_762x51_Box
+	{
+		scope = public;
+	};
 	class 300Rnd_20mm_shells;
 	class 300Rnd_25mm_shells;
 	class 250Rnd_30mm_HE_shells;
@@ -117,17 +139,28 @@ class CfgMagazines
 		count = 15;
 		descriptionShort = $STR_A3_A_CfgMagazines_11Rnd_45ACP_Mag1;
 	};
+	class 10Rnd_762x51_Mag: 20Rnd_762x51_Mag
+	{
+		scope = protected;
+	};
+	class 10Rnd_762x54_Mag: 10Rnd_762x51_Mag
+	{
+		scope = public;
+	};
 	class B_IR_Grenade: CA_Magazine
     {
-        displayName = "IR Grenade [BLUFOR]" /*$STR_A3_A_CfgMagazines_B_IR_Grenade0*/;
+        displayName = $STR_A3_A_CfgMagazines_B_IR_Grenade0;
+		descriptionShort = $STR_A3_A_CfgMagazines_B_IR_Grenade1;
     };
 	class O_IR_Grenade: B_IR_Grenade
     {
-        displayName = "IR Grenade [OPFOR]" /*$STR_A3_A_CfgMagazines_O_IR_Grenade0*/;
+        displayName = *$STR_A3_A_CfgMagazines_O_IR_Grenade0;
+		descriptionShort = $STR_A3_A_CfgMagazines_O_IR_Grenade1;
     };
 	class I_IR_Grenade: B_IR_Grenade
     {
-        displayName = "IR Grenade [Independent]" /*$STR_A3_A_CfgMagazines_I_IR_Grenade0*/;
+        displayName = *$STR_A3_A_CfgMagazines_I_IR_Grenade0;
+		descriptionShort = $STR_A3_A_CfgMagazines_I_IR_Grenade1;
     };
 	class 1000Rnd_762x51_Belt_T_Red;
 	class 1000Rnd_762x51_Belt_T_Green;
@@ -155,17 +188,21 @@ class CfgMagazines
 		mass = 56;
 	};
 	// Arma 3 Apex
+	class 10Rnd_9x21_Mag: 16Rnd_9x21_Mag
+	{
+		scope = public;
+	};
 	class 30Rnd_762x39_Mag_F: CA_Magazine
 	{
 		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_762x39_Mag_F1;
 	};
 	class 30Rnd_762x39_AK12_Mag_F: 30Rnd_762x39_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_F1;
+		displayName = $STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_F0;
 	};
 	class 30Rnd_762x39_AK12_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_Tracer_F1;
+		displayName = $STR_A3_A_CfgMagazines_30Rnd_762x39_AK12_Mag_Tracer_F0;
 	};
 	class 30Rnd_545x39_Mag_F: CA_Magazine
 	{
@@ -173,10 +210,13 @@ class CfgMagazines
 	};
 	class 30Rnd_545x39_Mag_Green_F;
 	class 30Rnd_545x39_Mag_Tracer_Green_F;
-	class 30Rnd_580x42_Mag_F;
+	class 30Rnd_580x42_Mag_F: CA_Magazine
+    {
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_580x42_Mag_F1;
+    };
 	class 100Rnd_580x42_Mag_F: 30Rnd_580x42_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_Mag_F0;
 		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_580x42_Mag_F1;
 		count = 75;
 		mass = 16;
@@ -184,35 +224,35 @@ class CfgMagazines
 	};
 	class 100Rnd_580x42_Mag_Tracer_F: 100Rnd_580x42_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_Mag_Tracer_F0;
 		lastRoundsTracer = 75;
 	};
 	class 100Rnd_580x42_hex_Mag_F: 100Rnd_580x42_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_hex_Mag_F0;
 	};
 	class 100Rnd_580x42_hex_Mag_Tracer_F: 100Rnd_580x42_Mag_Tracer_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_hex_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_hex_Mag_Tracer_F0;
 	};
 	class 100Rnd_580x42_ghex_Mag_F: 100Rnd_580x42_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_ghex_Mag_F0;
 	};
 	class 100Rnd_580x42_ghex_Mag_Tracer_F: 100Rnd_580x42_Mag_Tracer_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_75Rnd_580x42_ghex_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_100Rnd_580x42_ghex_Mag_Tracer_F0;
 	};
 	class 20Rnd_650x39_Cased_Mag_F: CA_Magazine
 	{
-		displayName = $STR_A3_A_CfgMagazines_10Rnd_650x39_Cased_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_20Rnd_650x39_Cased_Mag_F0;
 		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_650x39_Cased_Mag_F1;
 		count = 10;
 		mass = 6;
 	};
 	class 150Rnd_556x45_Drum_Mag_F: CA_Magazine
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Mag_F0;
 		descriptionShort = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Mag_F1;
 		count = 100;
         tracersEvery = 4;
@@ -220,76 +260,87 @@ class CfgMagazines
 	};
 	class 150Rnd_556x45_Drum_Sand_Mag_F: 150Rnd_556x45_Drum_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Sand_Mag_F0;
 	};
 	class 150Rnd_556x45_Drum_Sand_Mag_Tracer_F: 150Rnd_556x45_Drum_Sand_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Sand_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Sand_Mag_Tracer_F0;
 	};
 	class 150Rnd_556x45_Drum_Green_Mag_F: 150Rnd_556x45_Drum_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Green_Mag_F0;
 	};
 	class 150Rnd_556x45_Drum_Green_Mag_Tracer_F: 150Rnd_556x45_Drum_Green_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Green_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Green_Mag_Tracer_F0;
 	};
 	class 150Rnd_556x45_Drum_Mag_Tracer_F: 150Rnd_556x45_Drum_Mag_F
 	{
-		displayName = $STR_A3_A_CfgMagazines_100Rnd_556x45_Drum_Mag_Tracer_F0;
+		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Mag_Tracer_F0;
 		lastRoundsTracer = 100;
 	};
 	// Arma 3 Enoch
 	class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F
 	{
+		descriptionShort = $STR_A3_A_CfgMagazines_75rnd_762x39_Mag_F1;
         tracersEvery = 4;
     };
+    class 75Rnd_762x39_Mag_Tracer_F;
 	class 30rnd_762x39_AK12_Lush_Mag_F: 30Rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 30Rnd AK-15 Khaki Mag";
+		displayName = $STR_A3_A_CfgMagazines_30rnd_762x39_AK12_Lush_Mag_F0;
 	};
 	class 30rnd_762x39_AK12_Lush_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F
 	{
-		displayName = "7.62 mm 30Rnd AK-15 Tracer Khaki Mag";
+		displayName = $STR_A3_A_CfgMagazines_30rnd_762x39_AK12_Lush_Mag_Tracer_F0;
 	};
 	class 30rnd_762x39_AK12_Arid_Mag_F: 30Rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 30Rnd AK-15 Sand Mag";
+		displayName = $STR_A3_A_CfgMagazines_30rnd_762x39_AK12_Arid_Mag_F0;
 	};
 	class 30rnd_762x39_AK12_Arid_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F
 	{
-		displayName = "7.62 mm 30Rnd AK-15 Tracer Sand Mag";
+		displayName = $STR_A3_A_CfgMagazines_30rnd_762x39_AK12_Arid_Mag_Tracer_F0;
 	};
 	class 75rnd_762x39_AK12_Mag_F: 30Rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Mag_F0;
+		descriptionShort = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Mag_F1;
         tracersEvery = 4;
     };
 	class 75rnd_762x39_AK12_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Tracer Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Mag_Tracer_F0;
 	};
 	class 75rnd_762x39_AK12_Lush_Mag_F: 75rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Lush Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Lush_Mag_F0;
 	};
 	class 75rnd_762x39_AK12_Lush_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Tracer Lush Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Lush_Mag_Tracer_F0;
 	};
 	class 75rnd_762x39_AK12_Arid_Mag_F: 75rnd_762x39_AK12_Mag_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Arid Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Arid_Mag_F0;
 	};
 	class 75rnd_762x39_AK12_Arid_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F
 	{
-		displayName = "7.62 mm 75Rnd AK-15 Tracer Arid Mag";
+		displayName = $STR_A3_A_CfgMagazines_75rnd_762x39_AK12_Arid_Mag_Tracer_F0;
 	};
 	class 10Rnd_Mk14_762x51_Mag: 20Rnd_762x51_Mag
 	{
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\LongRangeRifles\DMR_06\Data\DMR_06_02_CO.paa"};
 	};
+	class 30Rnd_65x39_caseless_msbs_mag: 30Rnd_65x39_caseless_mag
+    {
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_msbs_mag0;
+    };
+	class 30Rnd_65x39_caseless_msbs_mag_Tracer: 30Rnd_65x39_caseless_msbs_mag
+    {
+		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_msbs_mag_Tracer1;
+    };
 	class 2Rnd_12Gauge_Pellets;
 	class 2Rnd_12Gauge_Slug;
 	class O_R_IR_Grenade: O_IR_Grenade
@@ -355,12 +406,16 @@ class CfgMagazines
 		descriptionShort = "Caliber: 5.56x45 mm STANAG Tracers - Yellow<br />Rounds: 20<br />Used in: SDAR";
 		displayNameShort = $STR_A3_TRACER_DNS;
 	};
-	class 20Rnd_762x51_weathered_Mag: 20Rnd_762x51_Mag
+	class 20Rnd_Mk14_762x51_Mag: 20Rnd_762x51_Mag
 	{
 		picture = "\A3\Weapons_F\MagazineProxies\Data\UI\icon_20Rnd_762x51_Mag_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "7.62 mm 20rnd Mk14 Mag";
+		displayName = $STR_A3_A_CfgMagazines_20Rnd_Mk14_762x51_Mag0;
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\Data\DMR_06_02_CO.paa"};
+	};
+	class 20Rnd_762x51_weathered_Mag: 10Rnd_Mk14_762x51_Mag
+	{
+		scope = protected;
 	};
 	class 5Rnd_127x99_Mag: CA_Magazine
 	{
@@ -374,9 +429,62 @@ class CfgMagazines
 		picture = "\A3\Weapons_F\Data\UI\M_5Rnd_127x108_CA.paa";
 		mass = 15;
 	};
+	class 30Rnd_9x21_Mag_v2: 30Rnd_9x21_Mag
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+	};
+	class 30Rnd_9x21_Red_Mag_v2: 30Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_30Rnd_9x21_Red_Mag0;
+		ammo = B_9x21_Ball_Tracer_Red;
+		lastRoundsTracer = 4;
+	};
+	class 30Rnd_9x21_Yellow_Mag_v2: 30Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_30Rnd_9x21_Yellow_Mag0;
+		ammo = B_9x21_Ball_Tracer_Yellow;
+		lastRoundsTracer = 4;
+	};
+	class 30Rnd_9x21_Green_Mag_v2: 30Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_30Rnd_9x21_Green_Mag0;
+		ammo = B_9x21_Ball_Tracer_Green;
+		lastRoundsTracer = 4;
+	};
+	class 16Rnd_9x21_Mag_v2: 16Rnd_9x21_Mag
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+	};
+	class 16Rnd_9x21_red_Mag_v2: 16Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_red_Mag0;
+		ammo = B_9x21_Ball_Tracer_Red;
+		lastRoundsTracer = 4;
+	};
+	class 16Rnd_9x21_green_Mag_v2: 16Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_green_Mag0;
+		ammo = B_9x21_Ball_Tracer_Green;
+		lastRoundsTracer = 4;
+	};
+	class 16Rnd_9x21_yellow_Mag_v2: 16Rnd_9x21_Mag_v2
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_yellow_Mag0;
+		ammo = B_9x21_Ball_Tracer_Yellow;
+		lastRoundsTracer = 4;
+	};
 	class 17Rnd_9x21_Mag: 16Rnd_9x21_Mag
 	{
 		author = $STR_A3_A_AveryTheKitty;
+        scope = public;
 		displayName = $STR_A3_A_CfgMagazines_17Rnd_9x21_Mag0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\icon_17Rnd_9x21_Mag_CA.paa";
 		count = 17;
@@ -408,6 +516,7 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_CfgMagazines_8Rnd_12Gauge_Pellets0;
+		descriptionShort = $STR_A3_A_CfgMagazines_8Rnd_12Gauge_Pellets1;
 		count = 8;
 		mass = 12;
 		initSpeed = 380;
@@ -422,7 +531,7 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_CfgMagazines_8Rnd_12Gauge_Slug0;
 		displayNameShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Slug1;
-		descriptionShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Slug1;
+		descriptionShort = $STR_A3_A_CfgMagazines_8Rnd_12Gauge_Slug1;
 		picture = "\A3\Weapons_F\Data\UI\M_12Gauge_CA.paa";
 		ammo = B_12Gauge_Slug;
 		initSpeed = 450;
@@ -510,6 +619,22 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_4Rnd_12Gauge_Slug1;
 		mass = 6;
 	};
+	class 75Rnd_762x39_Mag_Green_F: 75Rnd_762x39_Mag_F
+	{
+		picture = "\A3\Weapons_F_Enoch\MagazineProxies\Data\UI\icon_75Rnd_762x39_Mag_Green_F_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgMagazines_75Rnd_762x39_Mag_Green_F0;
+        hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\MagazineProxies\Data\magazine_drum_green_CO.paa"};
+	};
+	class 75Rnd_762x39_Mag_Tracer_Green_F: 75Rnd_762x39_Mag_Tracer_F
+	{
+		picture = "\A3\Weapons_F_Enoch\MagazineProxies\Data\UI\icon_75Rnd_762x39_Mag_Tracer_Green_F_CA.paa";
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgMagazines_75Rnd_762x39_Mag_Tracer_Green_F0;
+        hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\MagazineProxies\Data\magazine_drum_green_CO.paa"};
+	};
 	class 30Rnd_545x39_Black_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
@@ -525,22 +650,6 @@ class CfgMagazines
 		displayName = "5.45 mm 30Rnd Black Tracer Mag";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
-	};
-	class 30Rnd_545x39_Lush_Mag_F: 30Rnd_545x39_Mag_Green_F
-	{
-		scope = protected; // hidden, only here for compatibility purposes
-	};
-	class 30Rnd_545x39_Lush_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
-	{
-		scope = protected; // hidden, only here for compatibility purposes
-	};
-	class 30Rnd_545x39_Arid_Mag_F: 30Rnd_545x39_Mag_Green_F
-	{
-		scope = protected; // hidden, only here for compatibility purposes
-	};
-	class 30Rnd_545x39_Arid_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
-	{
-		scope = protected; // hidden, only here for compatibility purposes
 	};
 	class 30Rnd_545x39_AK12_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
@@ -589,6 +698,22 @@ class CfgMagazines
 		displayName = "5.45 mm 30Rnd AK-12 Tracer Sand Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
+	};
+	class 30Rnd_545x39_Lush_Mag_F: 30Rnd_545x39_AK12_Lush_Mag_F
+	{
+		scope = protected;
+	};
+	class 30Rnd_545x39_Lush_Mag_Tracer_F: 30Rnd_545x39_AK12_Lush_Mag_Tracer_F
+	{
+		scope = protected;
+	};
+	class 30Rnd_545x39_Arid_Mag_F: 30Rnd_545x39_AK12_Arid_Mag_F
+	{
+		scope = protected;
+	};
+	class 30Rnd_545x39_Arid_Mag_Tracer_F: 30Rnd_545x39_AK12_Arid_Mag_Tracer_F
+	{
+		scope = protected;
 	};
 	class 1Rnd_Pellets_Grenade_shell: 1Rnd_HE_Grenade_shell
 	{

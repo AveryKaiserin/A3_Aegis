@@ -176,8 +176,8 @@ class I_C_Sharpshooter_F: I_C_Soldier_base_F
 		DefaultManWeapons,
       	Binocular
 	};
-	magazines[] = {mag_6(20Rnd_762x51_weathered_Mag)};
-	respawnMagazines[] = {mag_6(20Rnd_762x51_weathered_Mag)};
+	magazines[] = {mag_6(20Rnd_Mk14_762x51_Mag)};
+	respawnMagazines[] = {mag_6(20Rnd_Mk14_762x51_Mag)};
 	linkedItems[] =
 	{
       	V_ChestrigF_khk,

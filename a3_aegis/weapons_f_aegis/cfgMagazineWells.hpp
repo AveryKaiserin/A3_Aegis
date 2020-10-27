@@ -22,9 +22,18 @@ class CfgMagazineWells
             30Rnd_545x39_Arid_Mag_Tracer_F
 		};
     };
+	class AK_762x39
+	{
+        Aegis_Magazines[] =
+        {
+            75Rnd_762x39_Mag_Green_F,
+            75Rnd_762x39_Mag_Tracer_Green_F
+        };
+    };
 	class M14_762x51
 	{
-		Aegis_Magazines[] = {20Rnd_762x51_weathered_Mag};
+		Aegis_Magazines[] = {20Rnd_Mk14_762x51_Mag};
+		Aegis_Compatibility_Magazines[] = {20Rnd_762x51_weathered_Mag};
 	};
 	class UGL_40x36
 	{
@@ -38,6 +47,16 @@ class CfgMagazineWells
 			3Rnd_Pellets_Grenade_shell
 		};
 	};
+	class Pistol_9x21
+	{
+		Aegis_Magazines[] =
+		{
+			16Rnd_9x21_Mag_v2,
+            16Rnd_9x21_red_Mag_v2,
+            16Rnd_9x21_green_Mag_v2,
+            16Rnd_9x21_yellow_Mag_v2
+		};
+    };
 	// Arma 3 Aegis
 	class STANAG_556x45_SDAR
 	{
@@ -96,6 +115,21 @@ class CfgMagazineWells
 	class Mk26_127x33
 	{
 		Aegis_Magazines[] = {7Rnd_127x33_Mag};
+	};
+	class Rook40_9x21
+	{
+		Aegis_Magazines[] = {17Rnd_9x21_Mag};
+		Aegis_Compatibility_Magazines[] =
+        {
+			30Rnd_9x21_Mag,
+			30Rnd_9x21_Red_Mag,
+			30Rnd_9x21_Yellow_Mag,
+			30Rnd_9x21_Green_Mag,
+			16Rnd_9x21_Mag,
+			16Rnd_9x21_red_Mag,
+			16Rnd_9x21_green_Mag,
+			16Rnd_9x21_yellow_Mag
+        };
 	};
 	class Shotgun_12GA
 	{

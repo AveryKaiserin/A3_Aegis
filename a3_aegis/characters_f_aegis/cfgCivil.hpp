@@ -232,11 +232,15 @@ class C_journalist_F: C_man_1
 	modelSides[] = {TFriendly};
 	linkedItems[] =
     {
+        H_Cap_press,
+        V_Press_F,
         ItemSmartPhone,
         ItemWatch
     };
 	respawnLinkedItems[] =
     {
+        H_Cap_press,
+        V_Press_F,
         ItemSmartPhone,
         ItemWatch
     };
@@ -349,12 +353,14 @@ class C_Man_ConstructionWorker_01_Red_F: C_Driver_1_F
 {
 	linkedItems[] =
     {
+        H_Construction_earprot_white_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        H_Construction_earprot_white_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
@@ -364,12 +370,14 @@ class C_Man_ConstructionWorker_01_Vrana_F: C_Man_ConstructionWorker_01_Red_F
 {
 	linkedItems[] =
     {
+        H_Construction_earprot_vrana_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        H_Construction_earprot_vrana_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
@@ -379,12 +387,14 @@ class C_Man_ConstructionWorker_01_Black_F: C_Man_ConstructionWorker_01_Red_F
 {
 	linkedItems[] =
     {
+        H_Construction_earprot_red_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        H_Construction_earprot_red_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
@@ -394,12 +404,14 @@ class C_Man_ConstructionWorker_01_Blue_F: C_Man_ConstructionWorker_01_Red_F
 {
 	linkedItems[] =
     {
+        H_Construction_earprot_yellow_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        H_Construction_earprot_yellow_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
@@ -414,6 +426,8 @@ class C_Journalist_01_War_F: C_journalist_F
 {
 	linkedItems[] =
     {
+        H_PASGT_basic_blue_press_F,
+        V_Press_F,
         ItemSmartPhone,
         ItemMap,
         ItemWatch,
@@ -421,6 +435,8 @@ class C_Journalist_01_War_F: C_journalist_F
     };
 	respawnLinkedItems[] =
     {
+        H_PASGT_basic_blue_press_F,
+        V_Press_F,
         ItemSmartPhone,
         ItemMap,
         ItemWatch,
@@ -431,16 +447,20 @@ class C_Man_UtilityWorker_01_F: Civilian_F
 {
 	linkedItems[] =
     {
+        V_Safety_yellow_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
 	respawnLinkedItems[] =
     {
+        V_Safety_yellow_F,
         ItemSmartPhone,
         ItemWatch,
         ItemRadio
     };
+	items[] = {FirstAidKit};
+	respawnItems[] = {FirstAidKit};
 };
 class C_Man_UAV_06_F: Civilian_F
 {

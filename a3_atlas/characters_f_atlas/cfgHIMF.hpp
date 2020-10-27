@@ -467,13 +467,13 @@ class Atlas_B_H_soldier_M_F: Atlas_B_H_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_weathered_Mag),
+		mag_8(20Rnd_Mk14_762x51_Mag),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_weathered_Mag),
+		mag_8(20Rnd_Mk14_762x51_Mag),
         HandGrenade,
         SmokeShell
 	};

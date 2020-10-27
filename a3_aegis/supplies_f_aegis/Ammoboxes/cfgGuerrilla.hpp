@@ -7,7 +7,8 @@ class IG_supplyCrate_F: ReammoBox_F
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
 		mag_xx(200Rnd_65x39_cased_Box,3);
-		mag_xx(20Rnd_762x51_Mag,6);
+		delete _xx_20Rnd_762x51_Mag;
+		mag_xx(20Rnd_Mk14_762x51_Mag,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(1Rnd_Smoke_Grenade_shell,2);
 		mag_xx(1Rnd_SmokeGreen_Grenade_shell,2);
@@ -57,7 +58,8 @@ class Box_FIA_Wps_F: FIA_Box_Base_F
 		mag_xx(200Rnd_65x39_cased_Box,6);
 		mag_xx(30Rnd_556x45_Stanag,42);
 		mag_xx(1Rnd_HE_Grenade_shell,10);
-		mag_xx(20Rnd_762x51_Mag,12);
+		delete _xx_20Rnd_762x51_Mag;
+		mag_xx(20Rnd_Mk14_762x51_Mag,12);
 		mag_xx(RPG32_F,4);
 		mag_xx(RPG32_HE_F,2);
 	};
@@ -80,7 +82,8 @@ class Box_FIA_Ammo_F: FIA_Box_Base_F
 		mag_xx(200Rnd_65x39_cased_Box,6);
 		mag_xx(30Rnd_556x45_Stanag,42);
 		delete _xx_30Rnd_556x45_Stanag_Tracer_Yellow;
-		mag_xx(20Rnd_762x51_Mag,12);
+		delete _xx_20Rnd_762x51_Mag;
+		mag_xx(20Rnd_Mk14_762x51_Mag,12);
 		mag_xx(HandGrenade,10);
 		mag_xx(MiniGrenade,10);
 		mag_xx(1Rnd_HE_Grenade_shell,10);

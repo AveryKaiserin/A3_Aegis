@@ -576,6 +576,22 @@ class CfgWeapons
 	};
 	class hgun_P07_F: Pistol_Base_F
 	{
+		magazines[] =
+		{
+			16Rnd_9x21_Mag_v2,
+			16Rnd_9x21_red_Mag_v2,
+			16Rnd_9x21_green_Mag_v2,
+			16Rnd_9x21_yellow_Mag_v2,
+            // Compatibility classes, these are hidden
+			30Rnd_9x21_Mag,
+			30Rnd_9x21_Red_Mag,
+			30Rnd_9x21_Yellow_Mag,
+			30Rnd_9x21_Green_Mag,
+			16Rnd_9x21_Mag,
+			16Rnd_9x21_red_Mag,
+			16Rnd_9x21_green_Mag,
+			16Rnd_9x21_yellow_Mag
+		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class PointerSlot: asdg_PistolUnderRail
@@ -602,11 +618,17 @@ class CfgWeapons
 		magazines[] =
 		{
 			17Rnd_9x21_Mag,
+            // Compatibility classes, these are hidden
+			30Rnd_9x21_Mag,
+			30Rnd_9x21_Red_Mag,
+			30Rnd_9x21_Yellow_Mag,
+			30Rnd_9x21_Green_Mag,
 			16Rnd_9x21_Mag,
 			16Rnd_9x21_red_Mag,
 			16Rnd_9x21_green_Mag,
 			16Rnd_9x21_yellow_Mag
 		};
+		magazineWell[] = {Rook40_9x21};
 	};
 	class arifle_Katiba_Base_F: Rifle_Base_F
 	{
@@ -1103,10 +1125,19 @@ class CfgWeapons
 	{
 		magazines[] =
 		{
+            30Rnd_9x21_Mag_v2,
+            30Rnd_9x21_Red_Mag_v2,
+            30Rnd_9x21_Yellow_Mag_v2,
+            30Rnd_9x21_Green_Mag_v2,
+            // Compatibility classes, these are hidden
 			30Rnd_9x21_Mag,
 			30Rnd_9x21_Red_Mag,
 			30Rnd_9x21_Yellow_Mag,
-			30Rnd_9x21_Green_Mag
+			30Rnd_9x21_Green_Mag,
+			16Rnd_9x21_Mag,
+			16Rnd_9x21_Red_Mag,
+			16Rnd_9x21_Yellow_Mag,
+			16Rnd_9x21_Green_Mag
 		};
 		modes[] =
 		{
@@ -1205,7 +1236,7 @@ class CfgWeapons
     };
 	class srifle_DMR_06_camo_F: DMR_06_base_F
 	{
-		magazines[] = {20Rnd_762x51_weathered_Mag};
+		magazines[] = {20Rnd_Mk14_762x51_Mag};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             class MuzzleSlot: asdg_MuzzleSlot_762

@@ -301,16 +301,22 @@ class CfgAmmo
 	};
 	class GrenadeHandEast: GrenadeHand
 	{
+        /*
+        - Impact grenade
+        - Slightly larger blast radius than the Frag Grenade
+        - Slightly heavier than the Frag Grenade
+        */
 		hit = 9;
 		indirectHit = 9;
 		indirectHitRange = 7;
 		dangerRadiusHit = 65;
 		suppressionRadiusHit = 27;
-		typicalspeed = 22;
+		typicalspeed = 20;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d";
-		deflecting = 15;
-		fuseDistance = 4;
+		deflecting = 7;
+		fuseDistance = /*4*/ 0;
         explosionTime = -1;
+		timeToLive = 18;
 	};
 	class R_50mm_HE: RocketBase
 	{

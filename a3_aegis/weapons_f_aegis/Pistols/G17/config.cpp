@@ -58,7 +58,7 @@ class CfgWeapons
 			mass = 20;
 			class MuzzleSlot: asdg_MuzzleSlot_9MM
 			{
-                /*
+                /* Unneeded
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
 				compatibleItems[] =
 				{
@@ -76,7 +76,7 @@ class CfgWeapons
 			class CowsSlot{};
 			class PointerSlot: asdg_PistolUnderRail
 			{
-                /*
+                /* Unneeded
 				linkProxy = "\A3\Data_F\proxies\weapon_slots\SIDE";
 				compatibleItems[] = {acc_flashlight_pistol};
                 */
