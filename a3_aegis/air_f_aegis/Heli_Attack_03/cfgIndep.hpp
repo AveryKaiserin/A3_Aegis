@@ -1,7 +1,7 @@
 class I_Heli_Attack_03_F: Heli_Attack_03_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-	editorPreview = /*"\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Attack_03_F.jpg"*/ "";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Attack_03_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;

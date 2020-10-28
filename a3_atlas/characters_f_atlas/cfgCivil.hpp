@@ -40,7 +40,7 @@ class C_man_persian_base_F: C_man_1
 class C_man_1_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_man_1_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_man_1_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 1";
@@ -49,7 +49,7 @@ class C_man_1_persian_F: C_man_persian_base_F
 class C_Man_2_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_2_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_2_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 2";
@@ -58,7 +58,7 @@ class C_Man_2_persian_F: C_man_persian_base_F
 class C_Man_3_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_3_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_3_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 3";
@@ -67,7 +67,7 @@ class C_Man_3_persian_F: C_man_persian_base_F
 class C_Man_4_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_4_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_4_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 4";
@@ -76,7 +76,7 @@ class C_Man_4_persian_F: C_man_persian_base_F
 class C_Man_5_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_5_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_5_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 5";
@@ -85,7 +85,7 @@ class C_Man_5_persian_F: C_man_persian_base_F
 class C_Man_6_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_6_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_6_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 6";
@@ -94,7 +94,7 @@ class C_Man_6_persian_F: C_man_persian_base_F
 class C_Man_7_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_7_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_7_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 7";
@@ -103,7 +103,7 @@ class C_Man_7_persian_F: C_man_persian_base_F
 class C_Man_8_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_8_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_8_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 8";
@@ -112,7 +112,7 @@ class C_Man_8_persian_F: C_man_persian_base_F
 class C_Man_9_persian_F: C_man_persian_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_9_persian_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\C_Man_9_persian_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Civilian 9";

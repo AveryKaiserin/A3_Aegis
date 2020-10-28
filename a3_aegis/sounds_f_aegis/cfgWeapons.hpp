@@ -929,6 +929,7 @@ class CfgWeapons
 				bullet12,1/12
 			};
 			drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\KSG\KSG_dry",db-3,1,10};
+		    reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\KSG\KSG_reload",db0,1,10};
 			class Single: Mode_SemiAuto
 			{
 				class BaseSoundModeType;

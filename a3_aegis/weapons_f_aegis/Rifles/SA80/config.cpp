@@ -287,7 +287,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_blk_F: arifle_SA80_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_blk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_blk_F0;
@@ -301,7 +301,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_GL_blk_F: arifle_SA80_GL_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_GL_blk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_GL_blk_F0;
@@ -315,7 +315,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_C_blk_F: arifle_SA80_C_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_C_blk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_C_blk_F0;
@@ -328,7 +328,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_snd_F: arifle_SA80_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_snd_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_snd_F0;
@@ -343,7 +343,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_GL_snd_F: arifle_SA80_GL_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_GL_snd_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_GL_snd_F0;
@@ -358,7 +358,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_C_snd_F: arifle_SA80_C_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_C_snd_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_C_snd_F0;
@@ -372,7 +372,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_khk_F: arifle_SA80_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_khk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_khk_F0;
@@ -387,7 +387,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_GL_khk_F: arifle_SA80_GL_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_GL_khk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_GL_khk_F0;
@@ -402,7 +402,7 @@ class CfgWeapons
 	};
 	class arifle_SA80_C_khk_F: arifle_SA80_C_base_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Kiory;
 		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\UI\icon_arifle_SA80_C_khk_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_SA80_C_khk_F0;

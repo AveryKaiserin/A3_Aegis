@@ -88,8 +88,8 @@ class CfgWeapons
 			model = "\A3_Aegis\Weapons_F_Aegis\Shotguns\KSG\KSG_F.p3d";
 			magazines[] =
 			{
-				8Rnd_12Gauge_Pellets,
-				8Rnd_12Gauge_Slug
+				8Rnd_12Gauge_Slug,
+				8Rnd_12Gauge_Pellets
 			};
 			magazineWell[] = {Shotgun_12GA};
 			maxZeroing = 100;

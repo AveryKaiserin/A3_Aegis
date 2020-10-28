@@ -6288,6 +6288,23 @@
 					<Japanese>AveryTheKitty ＆ Garkain</Japanese>
 					<Turkish>AveryTheKitty ve Garkain</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Kiory">
+					<Original>AveryTheKitty and Kiory</Original>
+					<Chinese>AveryTheKitty 克與 Kiory</Chinese>
+					<French>AveryTheKitty et Kiory</French>
+					<Spanish>AveryTheKitty y Kiory</Spanish>
+					<Italian>AveryTheKitty e Kiory</Italian>
+					<Polish>AveryTheKitty i Kiory</Polish>
+					<Russian>AveryTheKitty и Kiory</Russian>
+					<German>AveryTheKitty und Kiory</German>
+					<Czech>AveryTheKitty a Kiory</Czech>
+					<English>AveryTheKitty and Kiory</English>
+					<Portuguese>AveryTheKitty e Kiory</Portuguese>
+					<Korean>AveryTheKitty Kiory</Korean>
+					<Chinesesimp>AveryTheKitty 和 Kiory</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Kiory</Japanese>
+					<Turkish>AveryTheKitty ve Kiory</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_AveryTheKitty_and_Maxim_Koptelov">
 					<Original>AveryTheKitty and Maxim Koptelov</Original>
 					<Chinese>AveryTheKitty 克與 Maxim Koptelov</Chinese>
