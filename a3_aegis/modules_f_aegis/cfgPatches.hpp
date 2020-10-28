@@ -13,7 +13,13 @@ class CfgPatches
 			A3_Modules_F_Curator_Effects
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] =
+        {
+            ModuleAnimalsCow_F,
+            ModuleAnimalsCrow_F,
+            ModuleAnimalsDog_F,
+            ModuleAnimalsEagle_F
+        };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

@@ -146,6 +146,32 @@ class CfgAmmo
         };
 		intensity = 700000;
 		brightness = 100;
+        model = "\A3_Aegis\Weapons_F_Aegis\Ammo\flare_cir.p3d";
+		class NVGMarkers
+		{
+			class Light
+			{
+				name = light_pos;
+				color[] =
+                {
+                    0.01,   // R
+                    0.01,   // G
+                    0.01,   // B
+                    1       // A
+                };
+				ambient[] =
+                {
+                    0.005,  // R
+                    0.005,  // G
+                    0.005,  // B
+                    1       // A
+                };
+				blinking = false;
+		        intensity = 700000;
+		        brightness = 100;
+				onlyInNvg = true;
+			};
+		};
 	};
 	class F_20mm_White: FlareBase
 	{

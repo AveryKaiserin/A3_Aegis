@@ -28,6 +28,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "[getPos (_this#0)] call Opf_fnc_flies";
+            deleted = "exit Opf_fnc_flies";
 		};
 	};
 };

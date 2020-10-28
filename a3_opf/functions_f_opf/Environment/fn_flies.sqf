@@ -1,16 +1,17 @@
 /*
-	Author: Karel Moricky & Tomas Pavlis, edited by AveryTheKitty & POLPOX
+	Author:
+        Karel Moricky & Tomas Pavlis, edited by AveryTheKitty & POLPOX
 
 	Description:
-	Spawns flies around position.
+	    Spawns flies around position.
 
 	Parameter(s):
-	_this select 0: ARRAY - Position of flies
-	_this select 1 (Optional): NUMBER - interval
-	_this select 2 (Optional): NUMBER - size
+	    0: ARRAY - position of flies
+	    1 (Optional): NUMBER - interval
+	    2 (Optional): NUMBER - size
 
 	Returns:
-	ARRAY - spawned particle and sound source
+	    ARRAY - spawned particle and sound source
 */
 
 _pos = _this select 0;
@@ -22,7 +23,8 @@ if (_size <= 0) then {_size = 1;};
 
 // FIXED PARAMS
 _source = "#particlesource" createVehicleLocal _pos;
-_source setParticleParams [
+_source setParticleParams
+[
 /*Sprite*/		["\A3\animals_f\fly.p3d", 1, 0, 1, 0], "", // File, Ntieth, Index, Count, Loop(Bool)
 /*Type*/ 		"spaceObject",
 /*TimmerPer*/ 		1,
@@ -41,7 +43,8 @@ _source setParticleParams [
 ];
 
 // RANDOM / TOLERANCE PARAMS
-_source setParticleRandom [
+_source setParticleRandom
+[
 /*LifeTime*/ 		2,
 /*Position*/		[_size, _size, 0.5],
 /*MoveVelocity*/	[0, 0, 0],
