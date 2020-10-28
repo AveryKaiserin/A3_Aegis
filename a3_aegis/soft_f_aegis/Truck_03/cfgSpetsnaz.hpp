@@ -105,8 +105,8 @@ class O_R_Truck_03_transport_F: O_Truck_03_transport_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {
@@ -221,8 +221,8 @@ class O_R_Truck_03_covered_F: O_Truck_03_covered_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {
@@ -338,8 +338,8 @@ class O_R_Truck_03_repair_F: O_Truck_03_repair_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {
@@ -454,8 +454,8 @@ class O_R_Truck_03_ammo_F: O_Truck_03_ammo_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {
@@ -571,8 +571,8 @@ class O_R_Truck_03_fuel_F: O_Truck_03_fuel_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {
@@ -687,8 +687,8 @@ class O_R_Truck_03_medical_F: O_Truck_03_medical_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
 	hiddenSelectionsTextures[] =
     {

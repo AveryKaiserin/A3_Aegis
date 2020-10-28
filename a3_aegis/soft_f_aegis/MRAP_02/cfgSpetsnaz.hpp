@@ -126,8 +126,8 @@ class O_R_MRAP_02_F: O_MRAP_02_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
     hiddenSelectionsTextures[] =
     {
@@ -292,8 +292,8 @@ class O_R_MRAP_02_hmg_F: O_MRAP_02_hmg_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
     hiddenSelectionsTextures[] =
     {
@@ -458,8 +458,8 @@ class O_R_MRAP_02_gmg_F: O_MRAP_02_gmg_F
     };
 	textureList[] =
     {
-        Green,0,
-        Rus,1
+        Green,1,
+        Rus,0
     };
     hiddenSelectionsTextures[] =
     {
