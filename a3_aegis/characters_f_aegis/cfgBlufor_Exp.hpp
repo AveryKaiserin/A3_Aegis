@@ -2382,7 +2382,7 @@ class B_T_HeavyGunner_F: B_HeavyGunner_F
 		G_NATO_tropic
 	};
 	faction = BLU_T_F;
-	uniformclass  = U_B_T_Soldier_F;
+	uniformclass  = U_B_T_Soldier_AR_F;
 	weapons[] =
 	{
 		MMG_02_khaki_RCO_LP_F,
@@ -2409,7 +2409,11 @@ class B_T_HeavyGunner_F: B_HeavyGunner_F
 		DefaultManLinkedItems,
 		NVGoggles_tna_F
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_BT_Soldier_F_tna_CO.paa"};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_BT_Soldier_AR_F_tna_02_CO.paa"
+	};
 };
 class B_T_Recon_MG_F: B_recon_MG_F
 {

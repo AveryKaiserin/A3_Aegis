@@ -120,8 +120,136 @@ class CfgWeapons
 			};
         };
     };
-	class Rifle_Base_F;
+    class GrenadeLauncher;
 	class UGL_F;
+	class Rifle_Base_F;
+	class Throw: GrenadeLauncher
+    {
+        class ThrowMuzzle;
+		class HandGrenadeMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class MiniGrenadeMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellYellowMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellRedMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellGreenMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellPurpleMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellBlueMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class SmokeShellOrangeMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+		class ChemlightGreenMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3_Aegis\Sounds_F_Aegis\weapons\Chemlights\chemlight_Crack",db-4,1,10};
+				soundBegin[] = {begin1,1};
+			};
+        };
+        /*
+		class IRGrenade: ThrowMuzzle{};
+		*/
+        class HandGrenade_EastMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+		};
+		class HandGrenade_GuerMuzzle: ThrowMuzzle
+		{
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				soundBegin[] = {begin1,1};
+			};
+		};
+    };
 	class GL_M32_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\M32\M32_dry",db-8,1,20};

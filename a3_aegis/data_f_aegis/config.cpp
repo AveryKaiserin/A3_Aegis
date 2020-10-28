@@ -8,3 +8,4 @@
 #include "cfgEditorSubcategories.hpp"
 #include "cfgWorlds.hpp"
 #include "cfgMissions.hpp"
+#include "3den.hpp"

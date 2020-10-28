@@ -1857,7 +1857,7 @@ class B_W_HeavyGunner_F: B_HeavyGunner_F
 		G_NATO_tropic
 	};
 	faction = BLU_W_F;
-	uniformClass = U_B_CombatUniform_mcam_wdl_f;
+	uniformClass = U_B_CombatUniform_tshirt_mcam_wdL_f;
 	weapons[] =
 	{
 		MMG_02_black_RCO_LP_F,
@@ -1912,7 +1912,7 @@ class B_W_Recon_AR_F: B_recon_AR_F
 		G_W_NATO_SF
 	};
 	faction = BLU_W_F;
-	uniformClass = U_B_CombatUniform_tshirt_mcam_wdl_f;
+	uniformClass = U_B_CombatUniform_tshirt_mcam_wdL_f;
 	weapons[] =
 	{
 		arifle_SPAR_02_blk_RCO_Pointer_Snds_Bipod_F,
@@ -1963,7 +1963,7 @@ class B_W_Recon_Exp_F: B_recon_exp_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Recon_Exp_F.jpg";
 	faction = BLU_W_F;
-	uniformClass = U_B_CombatUniform_tshirt_mcam_wdl_f;
+	uniformClass = U_B_CombatUniform_tshirt_mcam_wdL_f;
 	backpack = B_AssaultPack_rgr_ReconExp;
 	weapons[] =
 	{
@@ -2234,7 +2234,7 @@ class B_W_Recon_Medic_F: B_recon_medic_F
 		G_W_NATO_SF
 	};
 	faction = BLU_W_F;
-	uniformClass = U_B_CombatUniform_tshirt_mcam_wdl_f;
+	uniformClass = U_B_CombatUniform_tshirt_mcam_wdL_f;
 	backpack = B_AssaultPack_rgr_ReconMedic;
 	weapons[] =
 	{
@@ -2353,7 +2353,7 @@ class B_W_Recon_LAT_F: B_recon_LAT_F
 		G_W_NATO_SF
 	};
 	faction = BLU_W_F;
-	uniformClass = U_B_CombatUniform_tshirt_mcam_wdl_f;
+	uniformClass = U_B_CombatUniform_tshirt_mcam_wdL_f;
 	backpack = B_AssaultPack_rgr_ReconLAT;
 	weapons[] =
 	{

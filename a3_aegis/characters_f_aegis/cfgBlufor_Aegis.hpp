@@ -2891,7 +2891,7 @@ class B_A_HeavyGunner_F: B_HeavyGunner_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = U_B_UBACS_mtp_f;
+	uniformClass = U_B_UBACS_tshirt_mtp_f;
 	weapons[] =
 	{
 		MMG_02_sand_RCO_LP_F,
@@ -6024,7 +6024,7 @@ class B_A_HeavyGunner_tna_F: B_A_HeavyGunner_F
 		Head_NATO,
 		G_NATO_tropic
 	};
-	uniformClass = U_B_UBACS_tna_f;
+	uniformClass = U_B_UBACS_tshirt_tna_f;
 	weapons[] =
 	{
 		MMG_02_khaki_RCO_LP_F,
@@ -8786,7 +8786,7 @@ class B_A_HeavyGunner_wdl_F: B_A_HeavyGunner_F
 		Head_NATO,
 		G_NATO_tropic
 	};
-	uniformClass = U_B_UBACS_wdl_f;
+	uniformClass = U_B_UBACS_tshirt_wdl_f;
 	weapons[] =
 	{
 		MMG_02_black_RCO_LP_F,

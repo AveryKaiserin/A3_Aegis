@@ -2030,6 +2030,8 @@ class B_Recon_Sharpshooter_F: B_Soldier_recon_base
 class B_HeavyGunner_F: B_Soldier_base_F
 {
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_HeavyGunner_F.jpg";
+	displayName = $STR_A3_CfgVehicles_B_HeavyGunner_F0;
+	model = "\A3\Characters_F\BLUFOR\B_Soldier_02.p3d";
     weapons[] =
     {
         MMG_02_sand_RCO_LP_F,
@@ -2068,6 +2070,7 @@ class B_HeavyGunner_F: B_Soldier_base_F
         DefaultManLinkedItems,
         NVGoggles
     };
+	uniformClass = U_B_CombatUniform_mcam_tshirt;
 };
 // Arma 3 Jets
 class B_Deck_Crew_F: B_Helipilot_F

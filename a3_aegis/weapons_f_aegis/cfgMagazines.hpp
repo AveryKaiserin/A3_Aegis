@@ -154,12 +154,12 @@ class CfgMagazines
     };
 	class O_IR_Grenade: B_IR_Grenade
     {
-        displayName = *$STR_A3_A_CfgMagazines_O_IR_Grenade0;
+        displayName = $STR_A3_A_CfgMagazines_O_IR_Grenade0;
 		descriptionShort = $STR_A3_A_CfgMagazines_O_IR_Grenade1;
     };
 	class I_IR_Grenade: B_IR_Grenade
     {
-        displayName = *$STR_A3_A_CfgMagazines_I_IR_Grenade0;
+        displayName = $STR_A3_A_CfgMagazines_I_IR_Grenade0;
 		descriptionShort = $STR_A3_A_CfgMagazines_I_IR_Grenade1;
     };
 	class 1000Rnd_762x51_Belt_T_Red;

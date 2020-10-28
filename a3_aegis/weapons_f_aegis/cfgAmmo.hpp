@@ -348,8 +348,7 @@ class CfgAmmo
 	{
         /*
         - Impact grenade
-        - Slightly larger blast radius than the Frag Grenade
-        - Slightly heavier than the Frag Grenade
+        - Slightly smaller blast radius than the Frag Grenade
         */
 		hit = 7;
 		indirectHit = 7;
@@ -358,7 +357,7 @@ class CfgAmmo
 		suppressionRadiusHit = 21;
 		typicalspeed = 24;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_guer_throw.p3d";
-		deflecting = 11;
+		deflecting = 15;
 		fuseDistance = /*4*/ 0;
 	};
 	class R_50mm_HE: RocketBase

@@ -24,7 +24,7 @@ class SencondaryExplosion
 };
 class MineNondirectionalExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class MineNondirectionalExplosionSmall
 {
@@ -32,7 +32,7 @@ class MineNondirectionalExplosionSmall
 };
 class MineUnderwaterExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class MineUnderwaterABExplosion
 {
@@ -40,7 +40,7 @@ class MineUnderwaterABExplosion
 };
 class MineUnderwaterPDMExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractLarge)
+    EXPLOSION_REFRACT(ExplosionRefractMed)
 };
 class GrenadeExplosion
 {
@@ -60,11 +60,11 @@ class BasicAmmoExplosion
 };
 class ATMissileExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class AAMissileExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class MineExplosion
 {
@@ -88,15 +88,15 @@ class DirectionalMineExplosionBig
 };
 class ATRocketExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class HERocketExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class HEShellExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class ArtyShellExplosion
 {
@@ -112,7 +112,7 @@ class HeavyBombExplosion
 };
 class MissileExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class HelicopterExplosionEffects
 {
@@ -132,7 +132,7 @@ class VehicleExplosionEffects
 };
 class RocketExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class ExploAmmoExplosion
 {

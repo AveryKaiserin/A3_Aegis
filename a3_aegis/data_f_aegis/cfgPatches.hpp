@@ -7,6 +7,7 @@ class CfgPatches
 		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		requiredAddons[] =
 		{
+            A3_3DEN,
 			A3_Data_F,
 			A3_Data_F_Enoch,
 			A3_Data_F_Enoch_Loadorder,
