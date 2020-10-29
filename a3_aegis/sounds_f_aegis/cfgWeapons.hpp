@@ -132,7 +132,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -142,7 +142,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -152,7 +152,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -162,7 +162,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -172,7 +172,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -182,7 +182,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -192,7 +192,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -202,7 +202,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -212,7 +212,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -222,7 +222,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3_Aegis\Sounds_F_Aegis\weapons\Chemlights\chemlight_Crack",db-4,1,10};
+				begin1[] = {"\A3_Aegis\Sounds_F_Aegis\weapons\Chemlights\chemlight_Crack",db-2,1,10};
 				soundBegin[] = {begin1,1};
 			};
         };
@@ -235,7 +235,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
 		};
@@ -245,7 +245,7 @@ class CfgWeapons
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-2,1,10};
+				begin1[] = {"\A3\Sounds_F\weapons\Grenades\Grenade_PullPin",db-1,1,10};
 				soundBegin[] = {begin1,1};
 			};
 		};

@@ -26,8 +26,10 @@ class CfgMagazineWells
 	{
         Aegis_Magazines[] =
         {
+            /*
             75Rnd_762x39_Mag_Green_F,
             75Rnd_762x39_Mag_Tracer_Green_F
+            */
         };
     };
 	class M14_762x51

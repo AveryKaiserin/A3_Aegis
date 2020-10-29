@@ -25,11 +25,11 @@ class B_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_F
 				class pylonBayLeft1: pylonBayLeft1{};
 				class pylonBayRight2: pylonBayRight2
 				{
-					attachment = PylonMissile_Bomb_AGM_154_x1;
+					attachment = PylonMissile_1Rnd_BombCluster_01_F;
 				};
 				class pylonBayLeft2: pylonBayLeft2
 				{
-					attachment = PylonMissile_Bomb_AGM_154_x1;
+					attachment = PylonMissile_1Rnd_BombCluster_01_F;
 				};
 				class pylonCenter1: pylonCenter1{};
 			};

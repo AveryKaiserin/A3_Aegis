@@ -14,7 +14,7 @@ class CfgMagazines
 	{
 		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1;
         displayName = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0;
-		count = 25;
+		count = 20;
 	};
 	class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag
 	{
@@ -22,7 +22,7 @@ class CfgMagazines
 	};
 	class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green
 	{
-		lastRoundsTracer = 25;
+		lastRoundsTracer = 20;
         displayName = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer0;
 		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer1;
 	};
@@ -619,6 +619,7 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_4Rnd_12Gauge_Slug1;
 		mass = 6;
 	};
+    /*
 	class 75Rnd_762x39_Mag_Green_F: 75Rnd_762x39_Mag_F
 	{
 		picture = "\A3\Weapons_F_Enoch\MagazineProxies\Data\UI\icon_75Rnd_762x39_Mag_Green_F_CA.paa";
@@ -635,6 +636,7 @@ class CfgMagazines
         hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\MagazineProxies\Data\magazine_drum_green_CO.paa"};
 	};
+    */
 	class 30Rnd_545x39_Black_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
 		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
@@ -1048,16 +1050,17 @@ class CfgMagazines
 	class magazine_Bomb_AGM_154_x1: VehicleMagazine
 	{
 		scope = public;
-		displayName = $STR_A3_A_CfgMagazines_magazine_Bomb_AGM_154_x10;
-		descriptionShort = $STR_A3_A_CfgMagazines_magazine_Bomb_AGM_154_x11;
-		displayNameShort = $STR_A3_Bomb_SDB_magazine_shortName;
+		displayName = $STR_A3_A_Bomb_AGM_154_x1_magazine_name;
+		descriptionShort = $STR_A3_A_Bomb_AGM_154_magazine_description;
+		displayNameShort = $STR_A3_A_Bomb_AGM_154_magazine_shortName;
 		ammo = ammo_Bomb_AGM_154;
 		initSpeed = 0;
-		maxLeadSpeed = 60;
+		maxLeadSpeed = 30;
 		sound[] = {"",db0,1};
 		reloadSound[] = {"",db-50,1};
 		count = 1;
 		nameSound = "";
+		class mfdElements{}; // TODO
 	};
 	class 12Rnd_230mm_rockets_guided: 12Rnd_230mm_rockets
 	{

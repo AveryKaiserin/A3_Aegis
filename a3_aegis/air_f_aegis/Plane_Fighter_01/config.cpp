@@ -2,10 +2,42 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+    // Arma 3
+	class Plane;
+	class Plane_Base_F: Plane
+	{
+		class Components;
+	};
 	// Arma 3 Jets
-	class Plane_Base_F;
 	class Plane_Fighter_01_Base_F: Plane_Base_F
 	{
+		class Components: Components
+		{
+			class TransportPylonsComponent
+			{
+				class pylons
+				{
+					class pylon1;
+					class pylon2;
+					class pylon3
+					{
+						hardpoints[] += {B_AGM_154};
+					};
+					class pylon4;
+                    class pylonBayRight1;
+                    class pylonBayLeft1;
+                    class pylonBayCenter1;
+                    class pylonBayCenter2;
+                    class pylonBayCenter3;
+                    class pylonBayCenter4;
+					class pylonBayCenter5
+					{
+						hardpoints[] += {B_AGM_154};
+					};
+                    class pylonBayCenter6;
+				};
+			};
+        };
 		class TextureSources
 		{
 			class DarkGrey

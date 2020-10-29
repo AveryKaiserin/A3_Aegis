@@ -1074,10 +1074,12 @@ class PylonRack_6Rnd_Vikhr_missiles: 12Rnd_Vikhr_missiles
 };
 class PylonMissile_Bomb_AGM_154_x1: magazine_Bomb_AGM_154_x1
 {
-	displayName = $STR_A3_A_CfgWeapons_PylonMissile_Bomb_AGM_154_x10;
+	count = 1;
+	displayName = $STR_A3_A_Bomb_AGM_154_x1_magazine_name;
 	model = "\A3_Aegis\Weapons_F_Aegis\DynamicLoadout\PylonPod_Bomb_06_x1_F.p3d";
 	hardpoints[] = {B_AGM_154};
 	pylonWeapon = weapon_AGM_154Launcher;
+    class mfdElements{}; // TODO
 };
 class PylonWeapon_220Rnd_25mm_shells: 220Rnd_25mm_shells
 {

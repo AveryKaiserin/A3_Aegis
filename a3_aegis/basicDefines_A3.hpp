@@ -62,6 +62,19 @@
 #define keepLockedLT 1
 #define manualLT 2
 
+// AI ammo usage
+#define UsageNone 0
+#define UsageLight 1
+#define UsageMarking 2
+#define UsageConcealment 4
+#define UsageCounterMeasures 8
+#define UsageMine 16
+#define UsageUnderwater 32
+#define UsageOffensiveInf 64
+#define UsageOffensiveVeh 128
+#define UsageOffensiveAir 256
+#define UsageOffensiveArmour 512
+
 #define SPEED_STATIC 1e10
 
 #define LockNo 0

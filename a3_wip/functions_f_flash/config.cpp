@@ -8,7 +8,7 @@ class CfgFunctions
 		project = "arma3aegis";
 		class Flashbang
 		{
-			file = "A3_Aegis\Functions_F_Aegis\Flashbang";
+			file = "A3_Wip\Functions_F_Flash\Flashbang";
 			class initFlashbang
 			{
 			    postInit = true;

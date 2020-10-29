@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(arifle_SPAR_01_C_blk_F,arifle_SPAR_01_blk_F)
+DEPRECATED_CLASS(arifle_SPAR_01_C_khk_F,arifle_SPAR_01_khk_F)
+DEPRECATED_CLASS(arifle_SPAR_01_C_snd_F,arifle_SPAR_01_snd_F)

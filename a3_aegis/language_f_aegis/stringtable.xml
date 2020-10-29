@@ -16108,23 +16108,6 @@
                     <Japanese>カノン砲30mm</Japanese>
                     <Turkish>Top 30 mm</Turkish>
                 </Key>
-				<Key ID="STR_A3_A_CfgWeapons_weapon_AGM_154Launcher0">
-					<Original>JSOW</Original>
-					<Chinese>JSOW</Chinese>
-					<French>JSOW</French>
-					<Spanish>JSOW</Spanish>
-					<Italian>JSOW</Italian>
-					<Polish>JSOW</Polish>
-					<Russian>JSOW</Russian>
-					<German>JSOW</German>
-					<Czech>JSOW</Czech>
-					<English>JSOW</English>
-					<Portuguese>JSOW</Portuguese>
-					<Korean>JSOW</Korean>
-					<Chinesesimp>JSOW</Chinesesimp>
-					<Japanese>JSOW</Japanese>
-					<Turkish>JSOW</Turkish>
-				</Key>
 			</Container>
 			<Container name="Magazines">
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag1">
@@ -16145,38 +16128,38 @@
                     <Turkish>Kalibre: 6.5x39 mm STANAG - Kovansız&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: MX/C/M/SW/3GL, L22A3, L85A3/GL</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0">
-                    <Original>6.5 mm 25Rnd Caseless Mag</Original>
-                    <Chinese>6.5 mm 25 發無殼彈匣</Chinese>
-                    <French>Mag. 25 balles sans douille 6,5 mm</French>
-                    <Spanish>Cargador sin cubierta de 25 proyectiles de 6,5 mm</Spanish>
-                    <Italian>Caricatore 25 colpi senza bossolo 6,5 mm</Italian>
-                    <Polish>25-nab. mag. bezłusk. 6,5 mm</Polish>
-                    <Russian>Магазин, 25 безгильз. патр. 6,5 мм</Russian>
-                    <German>25-Schuss-6.5mm-Magazin (Hülsenlos)</German>
-                    <Czech>6,5 mm, 25ks zásobník beznábojnicová munice</Czech>
-                    <English>6.5 mm 25Rnd Caseless Mag</English>
-                    <Portuguese>Carregador Sem Estojo 25Mun. 6,5 mm</Portuguese>
-                    <Korean>6.5mm 25발 무탄피 탄창</Korean>
-                    <Chinesesimp>6.5 毫米 25 发无壳弹弹匣</Chinesesimp>
-                    <Japanese>6.5mm 25Rnd ケースレスマガジン</Japanese>
-                    <Turkish>6.5 mm 25 Merm. Kovansız Şarjör</Turkish>
+                    <Original>6.5 mm 20Rnd Caseless Mag</Original>
+                    <Chinese>6.5 mm 20 發無殼彈匣</Chinese>
+                    <French>Mag. 20 balles sans douille 6,5 mm</French>
+                    <Spanish>Cargador sin cubierta de 20 proyectiles de 6,5 mm</Spanish>
+                    <Italian>Caricatore 20 colpi senza bossolo 6,5 mm</Italian>
+                    <Polish>20-nab. mag. bezłusk. 6,5 mm</Polish>
+                    <Russian>Магазин, 20 безгильз. патр. 6,5 мм</Russian>
+                    <German>20-Schuss-6.5mm-Magazin (Hülsenlos)</German>
+                    <Czech>6,5 mm, 20ks zásobník beznábojnicová munice</Czech>
+                    <English>6.5 mm 20Rnd Caseless Mag</English>
+                    <Portuguese>Carregador Sem Estojo 20Mun. 6,5 mm</Portuguese>
+                    <Korean>6.5mm 20발 무탄피 탄창</Korean>
+                    <Chinesesimp>6.5 毫米 20 发无壳弹弹匣</Chinesesimp>
+                    <Japanese>6.5mm 20Rnd ケースレスマガジン</Japanese>
+                    <Turkish>6.5 mm 20 Merm. Kovansız Şarjör</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1">
-                    <Original>Caliber: 6.5x39 mm - Caseless&lt;br /&gt;Rounds: 25&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</Original>
-                    <Chinese>口徑：6.5x39 mm－無殼&lt;br /&gt;個數：25&lt;br /&gt;用於：Katiba／Carbine／GL，種類 115</Chinese>
-                    <French>Calibre : 6,5x39 mm sans douille&lt;br /&gt;Munitions : 25&lt;br /&gt;Application : Katiba/Carabine/GL, Type 115</French>
-                    <Spanish>Calibre: 6,5x39 mm (sin casquillo)&lt;br /&gt;Cargas: 25&lt;br /&gt;Se usa en: Katiba/Carabina/GL, Tipo 115</Spanish>
-                    <Italian>Calibro: 6,5x39 mm - senza bossolo&lt;br /&gt;Munizioni: 25&lt;br /&gt;Si usa in: Katiba/Carabina/GL, Type 115</Italian>
-                    <Polish>Kaliber: 6,5x39 mm - bezłuskowe&lt;br /&gt;Magazynki: 25&lt;br /&gt;Używane w: Katiba/Karabinek/GL, Type 115</Polish>
-                    <Russian>Калибр: 6,5x39 мм - безгильзовый&lt;br /&gt;Кол-во: 25&lt;br /&gt;Применение: Katiba/Карабин/GL, Type 115</Russian>
-                    <German>Kaliber: 6,5x39 mm - hülsenlos&lt;br /&gt;Patronen: 25&lt;br /&gt;Eingesetzt von: Katiba/Karabiner/GL, Typ 115</German>
-                    <Czech>Ráže: 6,5x39 mm - beznábojnicové&lt;br /&gt;Munice: 25&lt;br /&gt;Použití: Katiba/karabina/GL, Type 115</Czech>
-                    <English>Caliber: 6.5x39 mm - Caseless&lt;br /&gt;Rounds: 25&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</English>
-                    <Portuguese>Calibre: 6,5 x 39 mm - Sem estojo&lt;br /&gt;Quantidade: 25&lt;br /&gt;Uso em: Katiba/Rifle/GL, Type 115</Portuguese>
-                    <Korean>구경: 6.5x39mm - 무탄피&lt;br /&gt;탄 수: 25&lt;br /&gt;사용 가능: 카티바/카빈/GL, 유형 115</Korean>
-                    <Chinesesimp>口径：6.5x39 毫米 - 无壳弹&lt;br /&gt;容弹量：25&lt;br /&gt;用于：Katiba／Carbine／GL、Type 115</Chinesesimp>
-                    <Japanese>口径：6.5x39 mm - ケースレス&lt;br /&gt;弾薬：25&lt;br /&gt;使用：カティバ／カラビーヌ／GL、Type 115</Japanese>
-                    <Turkish>Kalibre: 6.5x39 mm - Kovansız&lt;br /&gt;Mermi: 25&lt;br /&gt;Kullanıldığı Yer: Katiba/Karabine/GL, Tip 115</Turkish>
+                    <Original>Caliber: 6.5x39 mm - Caseless&lt;br /&gt;Rounds: 20&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</Original>
+                    <Chinese>口徑：6.5x39 mm－無殼&lt;br /&gt;個數：20&lt;br /&gt;用於：Katiba／Carbine／GL，種類 115</Chinese>
+                    <French>Calibre : 6,5x39 mm sans douille&lt;br /&gt;Munitions : 20&lt;br /&gt;Application : Katiba/Carabine/GL, Type 115</French>
+                    <Spanish>Calibre: 6,5x39 mm (sin casquillo)&lt;br /&gt;Cargas: 20&lt;br /&gt;Se usa en: Katiba/Carabina/GL, Tipo 115</Spanish>
+                    <Italian>Calibro: 6,5x39 mm - senza bossolo&lt;br /&gt;Munizioni: 20&lt;br /&gt;Si usa in: Katiba/Carabina/GL, Type 115</Italian>
+                    <Polish>Kaliber: 6,5x39 mm - bezłuskowe&lt;br /&gt;Magazynki: 20&lt;br /&gt;Używane w: Katiba/Karabinek/GL, Type 115</Polish>
+                    <Russian>Калибр: 6,5x39 мм - безгильзовый&lt;br /&gt;Кол-во: 20&lt;br /&gt;Применение: Katiba/Карабин/GL, Type 115</Russian>
+                    <German>Kaliber: 6,5x39 mm - hülsenlos&lt;br /&gt;Patronen: 20&lt;br /&gt;Eingesetzt von: Katiba/Karabiner/GL, Typ 115</German>
+                    <Czech>Ráže: 6,5x39 mm - beznábojnicové&lt;br /&gt;Munice: 20&lt;br /&gt;Použití: Katiba/karabina/GL, Type 115</Czech>
+                    <English>Caliber: 6.5x39 mm - Caseless&lt;br /&gt;Rounds: 20&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</English>
+                    <Portuguese>Calibre: 6,5 x 39 mm - Sem estojo&lt;br /&gt;Quantidade: 20&lt;br /&gt;Uso em: Katiba/Rifle/GL, Type 115</Portuguese>
+                    <Korean>구경: 6.5x39mm - 무탄피&lt;br /&gt;탄 수: 20&lt;br /&gt;사용 가능: 카티바/카빈/GL, 유형 115</Korean>
+                    <Chinesesimp>口径：6.5x39 毫米 - 无壳弹&lt;br /&gt;容弹量：20&lt;br /&gt;用于：Katiba／Carbine／GL、Type 115</Chinesesimp>
+                    <Japanese>口径：6.5x39 mm - ケースレス&lt;br /&gt;弾薬：20&lt;br /&gt;使用：カティバ／カラビーヌ／GL、Type 115</Japanese>
+                    <Turkish>Kalibre: 6.5x39 mm - Kovansız&lt;br /&gt;Mermi: 20&lt;br /&gt;Kullanıldığı Yer: Katiba/Karabine/GL, Tip 115</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_mag_Tracer1">
                     <Original>Caliber: 6.5x39 mm STANAG - Caseless&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: MX/C/M/SW/3GL, L22A3, L85A3/GL</Original>
@@ -16196,38 +16179,38 @@
                     <Turkish>Kalibre: 6.5x39 mm STANAG - Kovansız&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: MX/C/M/SW/3GL, L22A3, L85A3/GL</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer0">
-                    <Original>6.5 mm 25Rnd Tracer (Green) Caseless Mag</Original>
-                    <Chinese>6.5 mm 25 發曳光彈（綠）無殼彈匣</Chinese>
-                    <French>Mag. 25 traçantes vertes sans douille 6,5 mm</French>
-                    <Spanish>Cargador sin cubierta de 25 balas trazadoras (verde) de 6,5 mm</Spanish>
-                    <Italian>Caricatore 25 colpi senza bossolo 6,5 mm con traccianti (verdi)</Italian>
-                    <Polish>25-nab. mag. bezłusk. 6,5 mm (zielony smugacz)</Polish>
-                    <Russian>Магазин, 25 безгильз. трас. патр. 6,5 мм</Russian>
-                    <German>25-Schuss-6.5mm-Magazin (Leuchtspur Grün, Hülsenlos)</German>
-                    <Czech>6,5 mm, 25ks zásobník beznábojnicové stopovky (zelené)</Czech>
-                    <English>6.5 mm 25Rnd Tracer (Green) Caseless Mag</English>
-                    <Portuguese>Carregador Sem Estojo 25Mun. Traçante (Verde) 6,5 mm</Portuguese>
-                    <Korean>6.5mm 25발 예광탄 (녹색) 무탄피 탄창</Korean>
-                    <Chinesesimp>6.5 毫米 25 发曳光弹（绿色）无壳弹弹匣</Chinesesimp>
-                    <Japanese>6.5mm 25Rnd トレーサー（緑）ケースレスマガジン</Japanese>
-                    <Turkish>6.5 mm 25 Merm. İzli (Yeşil) Kovansız Şarjör</Turkish>
+                    <Original>6.5 mm 20Rnd Tracer (Green) Caseless Mag</Original>
+                    <Chinese>6.5 mm 20 發曳光彈（綠）無殼彈匣</Chinese>
+                    <French>Mag. 20 traçantes vertes sans douille 6,5 mm</French>
+                    <Spanish>Cargador sin cubierta de 20 balas trazadoras (verde) de 6,5 mm</Spanish>
+                    <Italian>Caricatore 20 colpi senza bossolo 6,5 mm con traccianti (verdi)</Italian>
+                    <Polish>20-nab. mag. bezłusk. 6,5 mm (zielony smugacz)</Polish>
+                    <Russian>Магазин, 20 безгильз. трас. патр. 6,5 мм</Russian>
+                    <German>20-Schuss-6.5mm-Magazin (Leuchtspur Grün, Hülsenlos)</German>
+                    <Czech>6,5 mm, 20ks zásobník beznábojnicové stopovky (zelené)</Czech>
+                    <English>6.5 mm 20Rnd Tracer (Green) Caseless Mag</English>
+                    <Portuguese>Carregador Sem Estojo 20Mun. Traçante (Verde) 6,5 mm</Portuguese>
+                    <Korean>6.5mm 20발 예광탄 (녹색) 무탄피 탄창</Korean>
+                    <Chinesesimp>6.5 毫米 20 发曳光弹（绿色）无壳弹弹匣</Chinesesimp>
+                    <Japanese>6.5mm 20Rnd トレーサー（緑）ケースレスマガジン</Japanese>
+                    <Turkish>6.5 mm 20 Merm. İzli (Yeşil) Kovansız Şarjör</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green_mag_Tracer1">
-                    <Original>Caliber: 6.5x39 mm Tracer (Green) - Caseless&lt;br /&gt;Rounds: 25&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</Original>
-                    <Chinese>口徑：6.5x39 mm 曳光彈（綠）－無殼&lt;br /&gt;個數：25&lt;br /&gt;用於：Katiba／Carbine／GL，種類 115</Chinese>
-                    <French>Calibre : 6,5x39 mm traçantes (vertes) - sans douille&lt;br /&gt;Munitions : 25&lt;br /&gt;Application : Katiba/Carabine/GL, Type 115</French>
-                    <Spanish>Calibre: 6,5x39 mm Tracer (verde), sin cartucho&lt;br /&gt;Proyectiles: 25&lt;br /&gt;Se usa en: Katiba/Carabina/GL, Type 115</Spanish>
-                    <Italian>Calibro: 6,5x39 mm traccianti (verdi) - senza bossolo&lt;br /&gt;Munizioni: 25&lt;br /&gt;Si usa con: Katiba/Carabina/GL, Type 115</Italian>
-                    <Polish>Kaliber: 6,5x39 mm - smugacz (zielony) - bezłuskowy&lt;br /&gt;Naboje: 25&lt;br /&gt;Używane w: Katiba/Karabinek/GL, Type 115</Polish>
-                    <Russian>Калибр: 6,5x39 мм, трассер - зеленый&lt;br /&gt;Кол-во: 25&lt;br /&gt;Применение: Katiba/Карабин/GL, Type 115</Russian>
-                    <German>Kaliber: 6,5x39mm Leuchtspur (Grün) - hülsenlos&lt;br /&gt;Patronen: 25&lt;br /&gt;Eingesetzt von: Katiba/Karabiner/GL, Typ 115</German>
-                    <Czech>Ráže: 6,5x39 mm stopovky (zelené) – beznábojnicové&lt;br /&gt;Kapacita: 25&lt;br /&gt;Used in: Katiba/karabina/GL, Typ 115</Czech>
-                    <English>Caliber: 6.5x39 mm Tracer (Green) - Caseless&lt;br /&gt;Rounds: 25&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</English>
-                    <Portuguese>Calibre: 6,5x39 mm traçante (verde) – sem caixa de cartucho&lt;br /&gt;Projéteis: 25&lt;br /&gt;Utilizado em: Katiba/Rifle/GL, Tipo 115</Portuguese>
-                    <Korean>구경: 6.5x39 mm 예광탄(녹색) - 무탄피&lt;br /&gt;탄 수: 25&lt;br /&gt;사용 가능: 카티바/카빈/GL, 유형 115</Korean>
-                    <Chinesesimp>口径：6.5x39 毫米曳光弹（绿色）&lt;br /&gt;容弹量：25&lt;br /&gt;用于：Katiba、Type 115</Chinesesimp>
-                    <Japanese>口径：6.5x39 mmトレーサー（緑） - ケースレス弾&lt;br /&gt; 弾数：25&lt;br /&gt;Katiba／Carbine／GL、Type 115</Japanese>
-                    <Turkish>Kalibre: 6.5x39 mm İzli (Yeşil) - Kovansız&lt;br /&gt;Mermi: 25&lt;br /&gt;Kullanıldığı Yer: Katiba/Karabine/GL, Tip 115</Turkish>
+                    <Original>Caliber: 6.5x39 mm Tracer (Green) - Caseless&lt;br /&gt;Rounds: 20&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</Original>
+                    <Chinese>口徑：6.5x39 mm 曳光彈（綠）－無殼&lt;br /&gt;個數：20&lt;br /&gt;用於：Katiba／Carbine／GL，種類 115</Chinese>
+                    <French>Calibre : 6,5x39 mm traçantes (vertes) - sans douille&lt;br /&gt;Munitions : 20&lt;br /&gt;Application : Katiba/Carabine/GL, Type 115</French>
+                    <Spanish>Calibre: 6,5x39 mm Tracer (verde), sin cartucho&lt;br /&gt;Proyectiles: 20&lt;br /&gt;Se usa en: Katiba/Carabina/GL, Type 115</Spanish>
+                    <Italian>Calibro: 6,5x39 mm traccianti (verdi) - senza bossolo&lt;br /&gt;Munizioni: 20&lt;br /&gt;Si usa con: Katiba/Carabina/GL, Type 115</Italian>
+                    <Polish>Kaliber: 6,5x39 mm - smugacz (zielony) - bezłuskowy&lt;br /&gt;Naboje: 20&lt;br /&gt;Używane w: Katiba/Karabinek/GL, Type 115</Polish>
+                    <Russian>Калибр: 6,5x39 мм, трассер - зеленый&lt;br /&gt;Кол-во: 20&lt;br /&gt;Применение: Katiba/Карабин/GL, Type 115</Russian>
+                    <German>Kaliber: 6,5x39mm Leuchtspur (Grün) - hülsenlos&lt;br /&gt;Patronen: 20&lt;br /&gt;Eingesetzt von: Katiba/Karabiner/GL, Typ 115</German>
+                    <Czech>Ráže: 6,5x39 mm stopovky (zelené) – beznábojnicové&lt;br /&gt;Kapacita: 20&lt;br /&gt;Used in: Katiba/karabina/GL, Typ 115</Czech>
+                    <English>Caliber: 6.5x39 mm Tracer (Green) - Caseless&lt;br /&gt;Rounds: 20&lt;br /&gt;Used in: Katiba/Carbine/GL, Type 115</English>
+                    <Portuguese>Calibre: 6,5x39 mm traçante (verde) – sem caixa de cartucho&lt;br /&gt;Projéteis: 20&lt;br /&gt;Utilizado em: Katiba/Rifle/GL, Tipo 115</Portuguese>
+                    <Korean>구경: 6.5x39 mm 예광탄(녹색) - 무탄피&lt;br /&gt;탄 수: 20&lt;br /&gt;사용 가능: 카티바/카빈/GL, 유형 115</Korean>
+                    <Chinesesimp>口径：6.5x39 毫米曳光弹（绿色）&lt;br /&gt;容弹量：20&lt;br /&gt;用于：Katiba、Type 115</Chinesesimp>
+                    <Japanese>口径：6.5x39 mmトレーサー（緑） - ケースレス弾&lt;br /&gt; 弾数：20&lt;br /&gt;Katiba／Carbine／GL、Type 115</Japanese>
+                    <Turkish>Kalibre: 6.5x39 mm İzli (Yeşil) - Kovansız&lt;br /&gt;Mermi: 20&lt;br /&gt;Kullanıldığı Yer: Katiba/Karabine/GL, Tip 115</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgMagazines_100Rnd_65x39_caseless_mag1">
                     <Original>Caliber: 6.5x39 mm STANAG - Caseless&lt;br /&gt;Rounds: 100&lt;br /&gt;Used in: MX/C/M/SW/3GL</Original>
@@ -17726,6 +17709,74 @@
 						<Turkish>Short-range, laser/infrared-guided, multi-purpose missile with tandem high explosive anti-tank warhead</Turkish>
 					</Key>
 				</Container>
+				<Key ID="STR_A3_A_Bomb_AGM_154_weapon_name">
+					<Original>AGM-154C JSOW</Original>
+					<Chinese>AGM-154C JSOW</Chinese>
+					<French>AGM-154C JSOW</French>
+					<Spanish>AGM-154C JSOW</Spanish>
+					<Italian>AGM-154C JSOW</Italian>
+					<Polish>AGM-154C JSOW</Polish>
+					<Russian>AGM-154C JSOW</Russian>
+					<German>AGM-154C JSOW</German>
+					<Czech>AGM-154C JSOW</Czech>
+					<English>AGM-154C JSOW</English>
+					<Portuguese>AGM-154C JSOW</Portuguese>
+					<Korean>AGM-154C JSOW</Korean>
+					<Chinesesimp>AGM-154C JSOW</Chinesesimp>
+					<Japanese>AGM-154C JSOW</Japanese>
+					<Turkish>AGM-154C JSOW</Turkish>
+				</Key>
+                <Key ID="STR_A3_A_Bomb_AGM_154_x1_magazine_name">
+                    <Original>AGM-154C JSOW x1</Original>
+                    <Chinese>AGM-154C JSOW x1</Chinese>
+                    <French>AGM-154C JSOW x1</French>
+                    <Spanish>AGM-154C JSOW x1</Spanish>
+                    <Italian>AGM-154C JSOW x1</Italian>
+                    <Polish>AGM-154C JSOW x1</Polish>
+                    <Russian>AGM-154C JSOW x1</Russian>
+                    <German>AGM-154C JSOW x1</German>
+                    <Czech>AGM-154C JSOW x1</Czech>
+                    <English>AGM-154C JSOW x1</English>
+                    <Portuguese>AGM-154C JSOW x1</Portuguese>
+                    <Korean>AGM-154C JSOW x1</Korean>
+                    <Chinesesimp>AGM-154C JSOW x1</Chinesesimp>
+                    <Japanese>AGM-154C JSOW×1</Japanese>
+                    <Turkish>AGM-154C JSOW x1</Turkish>
+                </Key>
+                <Key ID="STR_A3_A_Bomb_AGM_154_magazine_description">
+                    <Original>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Original>
+                    <Chinese>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Chinese>
+                    <French>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</French>
+                    <Spanish>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Spanish>
+                    <Italian>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Italian>
+                    <Polish>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Polish>
+                    <Russian>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Russian>
+                    <German>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</German>
+                    <Czech>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Czech>
+                    <English>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</English>
+                    <Portuguese>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Portuguese>
+                    <Korean>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Korean>
+                    <Chinesesimp>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Chinesesimp>
+                    <Japanese>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Japanese>
+                    <Turkish>Air-to-surface IR precision guided bomb. This features a multi-staged warhead to destroy hardened targets.</Turkish>
+                </Key>
+                <Key ID="STR_A3_A_Bomb_AGM_154_magazine_shortName">
+                    <Original>Bomb</Original>
+                    <Chinese>炸彈</Chinese>
+                    <French>Bombe</French>
+                    <Spanish>Bomba</Spanish>
+                    <Italian>Bomba</Italian>
+                    <Polish>Bomba</Polish>
+                    <Russian>Бомба</Russian>
+                    <German>Bombe</German>
+                    <Czech>Bomba</Czech>
+                    <English>Bomb</English>
+                    <Portuguese>Bomba</Portuguese>
+                    <Korean>폭탄</Korean>
+                    <Chinesesimp>炸弹</Chinesesimp>
+                    <Japanese>爆弾</Japanese>
+                    <Turkish>Bomba</Turkish>
+                </Key>
 			</Container>
 		</Container>
 	</Package>

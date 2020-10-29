@@ -657,10 +657,10 @@ class CfgVehicles
 							PylonRack_Missile_BIM9X_x1,
 							PylonRack_Missile_AGM_02_x1,
 							PylonRack_Missile_AGM_02_x1,
-							PylonRack_Bomb_GBU12_x2,
-							PylonRack_Bomb_GBU12_x2,
-							PylonMissile_Bomb_GBU12_x1,
-							PylonMissile_Bomb_GBU12_x1,
+							PylonMissile_Bomb_AGM_154_x1,
+							PylonMissile_Bomb_AGM_154_x1,
+							PylonMissile_Missile_AMRAAM_D_INT_x1,
+							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonRack_Bomb_SDB_x4,
 							PylonRack_Bomb_SDB_x4,
 							PylonWeapon_220Rnd_25mm_shells
@@ -679,8 +679,8 @@ class CfgVehicles
 							PylonRack_2Rnd_BombCluster_01_F,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
 							PylonMissile_Missile_AMRAAM_D_INT_x1,
-							PylonMissile_Bomb_AGM_154_x1,
-							PylonMissile_Bomb_AGM_154_x1,
+							PylonMissile_1Rnd_BombCluster_01_F,
+							PylonMissile_1Rnd_BombCluster_01_F,
 							PylonWeapon_220Rnd_25mm_shells
 						};
 					};

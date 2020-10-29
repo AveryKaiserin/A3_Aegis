@@ -15,6 +15,11 @@ class CfgAmmo
 		deflecting = 7;
 		deflectionSlowDown = 0.5;
     };
+    class LaserBombCore;
+    class ammo_Bomb_LaserGuidedBase: LaserBombCore
+    {
+        class Components;
+    };
 	class RocketBase;
 	class B_762x51_Ball;
 	class B_762x51_Minigun_Tracer_Red;
@@ -298,6 +303,15 @@ class CfgAmmo
 		warheadName = TandemHEAT;
 		hit = 800;
 	};
+	class ammo_Penetrator_AGM_154: ammo_Penetrator_Base
+	{
+		caliber = 86.6667;
+		warheadName = HE;
+		indirectHit = 200;
+		indirectHitRange = 10;
+		explosive = 0.8;
+		hit = 2000;
+	};
 	class B_460x30_Ball: BulletBase
 	{
 		hit = 8;
@@ -366,7 +380,7 @@ class CfgAmmo
 		hit = 150;
 		indirectHit = 40;
 		indirectHitRange = 12;
-		warheadName = "HE";
+		warheadName = HE;
 		cost = 200;
 		maxSpeed = 580;
 		initTime = 0.002;
@@ -430,7 +444,7 @@ class CfgAmmo
 		whistleDist = 4;
 		maneuvrability = 12;
 		simulationStep = 0.002;
-		aiAmmoUsageFlags = 128 + 512;
+		aiAmmoUsageFlags = UsageOffensiveVeh + UsageOffensiveAir + UsageOffensiveArmour;
 		irLock = true;
 		nvLock = true;
 		laserLock = true;
@@ -542,39 +556,38 @@ class CfgAmmo
 			};
 		};
 	};
-	class ammo_Bomb_LaserGuidedBase;
 	class ammo_Bomb_GlideBase: ammo_Bomb_LaserGuidedBase
 	{
-		hit = 5000;
-		indirectHit = 1100;
-		indirectHitRange = 12;
-		dangerRadiusHit = 1250;
-		suppressionRadiusHit = 100;
-		explosionSoundEffect = DefaultExplosion;
-		soundHit1[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_1",db8,1,2400};
-		soundHit2[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_2",db8,1,2400};
-		soundHit3[] = {"\A3\Sounds_F\weapons\Explosion\expl_big_3",db8,1,2400};
-		soundHit4[] = {"\A3\Sounds_F\weapons\Explosion\expl_shell_1",db8,1,2400};
-		soundHit5[] = {"\A3\Sounds_F\weapons\Explosion\expl_shell_2",db8,1,2400};
-		multiSoundHit[] =
-		{
-			soundHit1,1/5,
-			soundHit2,1/5,
-			soundHit3,1/5,
-			soundHit4,1/5,
-			soundHit5,1/5
-		};
-		craterEffects = AAMissileCrater;
-		explosionEffects = AAMissileExplosion;
 		model = "\A3\Weapons_F\empty.p3d";
 		proxyShape = "\A3\Weapons_F\empty.p3d";
-		cost = 2000;
+		hit = 4000;
+		indirectHit = 1600;
+		indirectHitRange = 20;
+		explosive = 0.8;
+		warheadName = HE;
+		fuseDistance = 100;
+		trackLead = 0.3;
 		trackOversteer = 1;
-		trackLead = 0.95;
-		maneuvrability = 20;
-		explosionTime = 2;
-		fuseDistance = 35;
-		whistleDist = 24;
+		maneuvrability = 12;
+		cost = 4000;
+		aiAmmoUsageFlags = UsageOffensiveVeh + UsageOffensiveArmour;
+		dangerRadiusHit = 1500;
+		suppressionRadiusHit = 150;
+		craterEffects = HeavyBombCrater;
+		explosionEffects = HeavyBombExplosion;
+		whistleDist = 48;
+        airLock = false;
+		lockType = fireAndForgetLT;
+		weaponLockSystem = CM_Lock_IR + CM_Lock_Laser;
+		cmImmunity = CMImmunity_BAD;
+		cameraViewAvailable = true;
+		autoSeekTarget = true;
+		lockSeekRadius = 1500;
+		flightProfiles[] = {LoalAltitude};
+		class LoalAltitude
+		{
+			lockSeekAltitude = 700;
+		};
 		class Components
 		{
 			class SensorsManagerComponent
@@ -585,19 +598,19 @@ class CfgAmmo
 					{
 						class AirTarget
 						{
-							minRange = 20000;
-							maxRange = 20000;
+							minRange = 16000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
 						class GroundTarget
 						{
-							minRange = 20000;
-							maxRange = 20000;
+							minRange = 16000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
-						maxTrackableSpeed = 30;
+						maxTrackableSpeed = 25;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
@@ -605,19 +618,19 @@ class CfgAmmo
 					{
 						class AirTarget
 						{
-							minRange = 20000;
-							maxRange = 20000;
+							minRange = 16000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
 						class GroundTarget
 						{
-							minRange = 20000;
-							maxRange = 20000;
+							minRange = 16000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = -1;
 						};
-						maxTrackableSpeed = 30;
+						maxTrackableSpeed = 25;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
@@ -625,40 +638,68 @@ class CfgAmmo
 					{
 						class AirTarget
 						{
-							minRange = 500;
-							maxRange = 20000;
+							minRange = 1000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = 1;
 						};
 						class GroundTarget
 						{
-							minRange = 500;
-							maxRange = 20000;
+							minRange = 1000;
+							maxRange = 16000;
 							objectDistanceLimitCoef = 1;
 							viewDistanceLimitCoef = 1;
 						};
-						maxTrackableSpeed = 55;
+						maxTrackableSpeed = 45;
 						angleRangeHorizontal = 180;
 						angleRangeVertical = 180;
 					};
 				};
 			};
 		};
+		class CamShakeExplode
+		{
+			power = 46;
+			duration = 3;
+			frequency = 20;
+			distance = 361.326;
+		};
+		class CamShakeHit
+		{
+			power = 230;
+			duration = 0.8;
+			frequency = 20;
+			distance = 1;
+		};
+		class CamShakeFire
+		{
+			power = 3.89432;
+			duration = 3;
+			frequency = 20;
+			distance = 121.326;
+		};
+		class CamShakePlayerFire
+		{
+			power = 5;
+			duration = 0.1;
+			frequency = 20;
+			distance = 1;
+		};
 	};
-    // This needs to be AT
 	class ammo_Bomb_AGM_154: ammo_Bomb_GlideBase
 	{
 		cameraViewAvailable = true;
 		model = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F_fly.p3d";
 		proxyShape = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F.p3d";
-		triggerDistance = 250;
-		triggerSpeedCoef[] = {0.5,1};
-		submunitionConeAngle = 19;
-		submunitionConeType[] = {randomcenter,50};
-		submunitionAmmo[] =
-		{
-			Mo_cluster_AP,0.93,
-			Mo_cluster_AP_UXO_deploy,0.07
-		};
+		submunitionAmmo = ammo_Penetrator_AGM_154;
+		submunitionDirectionType = SubmunitionModelDirection;
+		submunitionInitSpeed = 1000;
+		submunitionParentSpeedCoef = 0.0;
+		submunitionInitialOffset[] =
+        {
+            0,      // X
+            0,      // Y
+            -0.2    // Z
+        };
 	};
 };

@@ -19,8 +19,9 @@ class CfgAmmo
 		typicalspeed = 22;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d"; // Placeholder
 		explosionEffectsRadius = 0.5;
-		deflecting = 10;
-        explosionTime = 3;
+		deflecting = 7;
+		deflectionSlowDown = 0.5;
+        explosionTime = 2;
 		timeToLive = 18;
 		CraterEffects = NoCrater;
 		explosionEffects = ExploAmmoExplosion; //TODO: add custom explosion effects

@@ -18,7 +18,11 @@ class CfgVehicles
 				{
 					class pylon1
 					{
-						hardpoints[] += {B_AMRAAM_D_INT};
+						hardpoints[] +=
+                        {
+                            B_AMRAAM_D_INT,
+                            B_AGM_154
+                        };
 					};
 					class pylon2;
 				};
