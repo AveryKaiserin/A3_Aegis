@@ -16246,6 +16246,23 @@
                     <Japanese>口径：6.5x39 mm STANAG - ケースレス&lt;br /&gt;弾薬：100&lt;br /&gt;使用：MX/C/M/SW/3GL</Japanese>
                     <Turkish>Kalibre: 6.5x39 mm STANAG - Kovansız&lt;br /&gt;Mermi: 100&lt;br /&gt;Kullanıldığı Yer: MX/C/M/SW/3GL</Turkish>
                 </Key>
+				<Key ID="STR_A3_A_CfgMagazines_30Rnd_9x21_Mag1">
+					<Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: PDW2000</Original>
+					<Chinese>口徑：9x21 mm&lt;br /&gt;個數：30&lt;br /&gt;用於：PDW2000</Chinese>
+					<French>Calibre : 9x19 mm&lt;br /&gt;Munitions : 30&lt;br /&gt;Application : PDW2000</French>
+					<Spanish>Calibre: 9x19 mm&lt;br /&gt;Cargas: 30&lt;br /&gt;Se usa en: PDW2000</Spanish>
+					<Italian>Calibro: 9x19 mm&lt;br /&gt;Munizioni: 30&lt;br /&gt;Si usa in: PDW2000</Italian>
+					<Polish>Kaliber: 9x19 mm&lt;br /&gt;Magazynki: 30&lt;br /&gt;Używane w: PDW2000</Polish>
+					<Russian>Калибр: 9x19 мм&lt;br /&gt;Кол-во: 30&lt;br /&gt;Применение: PDW2000</Russian>
+					<German>Kaliber: 9x19 mm&lt;br /&gt;Patronen: 30 &lt;br /&gt;Eingesetzt von: PDW2000</German>
+					<Czech>Ráže: 9x19 mm&lt;br /&gt;Munice: 30&lt;br /&gt;Použití: PDW2000</Czech>
+					<English>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: PDW2000</English>
+					<Portuguese>Calibre: 9x19 mm&lt;br /&gt;Balas: 30&lt;br /&gt;Usada em: PDW2000</Portuguese>
+					<Korean>구경: 9x19mm&lt;br /&gt;탄 수: 30&lt;br /&gt;사용 가능: PDW2000</Korean>
+					<Chinesesimp>类型：9x21 毫米&lt;br /&gt;容弹量：30&lt;br /&gt;用于：PDW2000</Chinesesimp>
+					<Japanese>口径：9x21 mm&lt;br /&gt;弾薬：30&lt;br /&gt;使用：PDW2000</Japanese>
+					<Turkish>Kalibre: 9x19 mm&lt;br /&gt;Mermi: 30&lt;br /&gt;Kullanıldığı Yer: PDW2000</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgMagazines_16Rnd_9x21_Mag0">
 					<Original>9 mm 15Rnd Mag</Original>
 					<Chinese>9 mm 15 發彈匣</Chinese>
