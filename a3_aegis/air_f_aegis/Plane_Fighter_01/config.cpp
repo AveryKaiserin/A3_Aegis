@@ -30,10 +30,7 @@ class CfgVehicles
                     class pylonBayCenter2;
                     class pylonBayCenter3;
                     class pylonBayCenter4;
-					class pylonBayCenter5
-					{
-						hardpoints[] += {B_AGM_154};
-					};
+					class pylonBayCenter5;
                     class pylonBayCenter6;
 				};
 			};

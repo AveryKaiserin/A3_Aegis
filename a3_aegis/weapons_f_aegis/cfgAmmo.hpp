@@ -303,15 +303,6 @@ class CfgAmmo
 		warheadName = TandemHEAT;
 		hit = 800;
 	};
-	class ammo_Penetrator_AGM_154: ammo_Penetrator_Base
-	{
-		caliber = 86.6667;
-		warheadName = HE;
-		indirectHit = 200;
-		indirectHitRange = 10;
-		explosive = 0.8;
-		hit = 2000;
-	};
 	class B_460x30_Ball: BulletBase
 	{
 		hit = 8;
@@ -560,19 +551,20 @@ class CfgAmmo
 	{
 		model = "\A3\Weapons_F\empty.p3d";
 		proxyShape = "\A3\Weapons_F\empty.p3d";
-		hit = 4000;
-		indirectHit = 1600;
-		indirectHitRange = 20;
-		explosive = 0.8;
-		warheadName = HE;
+		hit = 5000;
+		indirectHit = 1100;
+		indirectHitRange = 12;
 		fuseDistance = 100;
 		trackLead = 0.3;
 		trackOversteer = 1;
+		maxSpeed = 1000;
+		airFriction = 0.04;
+		sideAirFriction = 0.08;
 		maneuvrability = 12;
-		cost = 4000;
+		cost = 1000;
 		aiAmmoUsageFlags = UsageOffensiveVeh + UsageOffensiveArmour;
-		dangerRadiusHit = 1500;
-		suppressionRadiusHit = 150;
+		dangerRadiusHit = 1250;
+		suppressionRadiusHit = 100;
 		craterEffects = HeavyBombCrater;
 		explosionEffects = HeavyBombExplosion;
 		whistleDist = 48;
@@ -691,15 +683,5 @@ class CfgAmmo
 		cameraViewAvailable = true;
 		model = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F_fly.p3d";
 		proxyShape = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F.p3d";
-		submunitionAmmo = ammo_Penetrator_AGM_154;
-		submunitionDirectionType = SubmunitionModelDirection;
-		submunitionInitSpeed = 1000;
-		submunitionParentSpeedCoef = 0.0;
-		submunitionInitialOffset[] =
-        {
-            0,      // X
-            0,      // Y
-            -0.2    // Z
-        };
 	};
 };
