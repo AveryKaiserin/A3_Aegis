@@ -2062,6 +2062,23 @@
 				</Key>
 			</Container>
 			<Container name="Faction_Classes">
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_V_wdl_F0">
+					<Original>Viper (Woodland)</Original>
+					<Chinese>Viper（森林）</Chinese>
+					<French>Viper (forêt)</French>
+					<Spanish>Viper (bosque)</Spanish>
+					<Italian>Viper (boschi)</Italian>
+					<Polish>Viper (las)</Polish>
+					<Russian>Viper (лес)</Russian>
+					<German>Viper (Waldland)</German>
+					<Czech>Viper (woodland)</Czech>
+					<English>Viper (Woodland)</English>
+					<Portuguese>Viper (floresta)</Portuguese>
+					<Korean>Viper(산악)</Korean>
+					<Chinesesimp>Viper（林地）</Chinesesimp>
+					<Japanese>Viper（森林）</Japanese>
+					<Turkish>Viper (Ağaçlık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_W_F0">
                     <Original>Belarus</Original>
                     <Chinese>白俄羅斯</Chinese>
