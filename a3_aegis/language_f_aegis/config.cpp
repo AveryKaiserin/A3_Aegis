@@ -155,20 +155,6 @@ class CfgHints
 			logicalOrder = 57;
 		};
         */
-		class C1911
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_hgun_C1911_F0},
-				{STR_A3_A_CfgWeapons_hgun_C1911_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
-			weapon = hgun_C1911_F;
-			logicalOrder = 9;
-		};
 		class G17
 		{
 			displayName = %11;

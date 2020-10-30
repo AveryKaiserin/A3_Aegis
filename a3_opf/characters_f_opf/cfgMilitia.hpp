@@ -54,13 +54,13 @@ class Opf_I_P_Soldier_1_F: Opf_I_P_Soldier_Base_F
 	magazines[] = 
 	{
         mag_6(30Rnd_65x39_caseless_black_mag),
-        mag_2(7Rnd_45ACP_Mag),
+        mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(30Rnd_65x39_caseless_black_mag),
-        mag_2(7Rnd_45ACP_Mag),
+        mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade)
 	};
 	role = Rifleman;
@@ -330,12 +330,12 @@ class Opf_I_P_Soldier_4_F: Opf_I_P_Soldier_Base_F
 	magazines[] = 
 	{
         mag_6(150Rnd_556x45_Drum_Mag_F),
-        mag_2(7Rnd_45ACP_Mag)
+        mag_2(9Rnd_45ACP_Mag)
 	};
 	respawnMagazines[] = 
 	{
         mag_6(150Rnd_556x45_Drum_Mag_F),
-        mag_2(7Rnd_45ACP_Mag)
+        mag_2(9Rnd_45ACP_Mag)
 	};
 	cost = 220000;
 	icon = iconManMG;
@@ -511,12 +511,12 @@ class Opf_I_P_Soldier_6_F: Opf_I_P_Soldier_Base_F
 	magazines[] = 
 	{
         mag_4(6Rnd_Pellets_Grenade_shell),
-        mag_2(7Rnd_45ACP_Mag)
+        mag_2(9Rnd_45ACP_Mag)
 	};
 	respawnMagazines[] = 
 	{
         mag_4(6Rnd_Pellets_Grenade_shell),
-        mag_2(7Rnd_45ACP_Mag)
+        mag_2(9Rnd_45ACP_Mag)
 	};
 	cost = 200000;
 	role = Grenadier;

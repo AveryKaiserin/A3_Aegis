@@ -61,9 +61,21 @@ class CfgVehicles
 				};
 			};
 		};
+		class AnimationSources;
 	};
 	class MBT_04_base_F: Tank_F
 	{
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_rot_coax
+			{
+				weapon = LMG_coax_ext;
+			};
+			class muzzle_hide_coax
+			{
+				weapon = LMG_coax_ext;
+			};
+        };
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -124,6 +136,11 @@ class CfgVehicles
                         };
 					};
 				};
+				weapons[] =
+                {
+                    cannon_125mm_advanced,
+                    LMG_coax_ext
+                };
 				magazines[] =
 				{
 					20Rnd_125mm_APFSDS_T_Green,

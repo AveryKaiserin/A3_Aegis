@@ -62,6 +62,15 @@ class CfgVehicles
 				};
 			};
 		};
+		class AnimationSources
+		{
+			class autonomous_unhide;
+			class muzzle_source;
+			class muzzle_source_rot;
+			class ReloadAnim;
+			class ReloadMagazine;
+			class Revolving;
+		};
 	};
 	class B_GMG_01_F;
 	class O_GMG_01_F;
@@ -74,6 +83,36 @@ class CfgVehicles
 	class GMG_01_A_base_F: GMG_01_base_F
 	{
 		displayName = $STR_A3_A_CfgVehicles_GMG_01_A_base_F0;
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = {GMG_20mm_autonomous};
+            };
+        };
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_source: muzzle_source
+			{
+				weapon = GMG_20mm_autonomous;
+			};
+			class muzzle_source_rot: muzzle_source_rot
+			{
+				weapon = GMG_20mm_autonomous;
+			};
+			class ReloadAnim: ReloadAnim
+			{
+				weapon = GMG_20mm_autonomous;
+			};
+			class ReloadMagazine: ReloadMagazine
+			{
+				weapon = GMG_20mm_autonomous;
+			};
+			class Revolving: Revolving
+			{
+				weapon = GMG_20mm_autonomous;
+			};
+		};
 	};
 	class B_GMG_01_A_F;
 	class O_GMG_01_A_F;

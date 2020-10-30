@@ -55,6 +55,8 @@ class CfgWeapons
 	class LMG_Minigun: LMG_RCWS
 	{
 		displayName = $STR_A3_A_CfgWeapons_LMG_Minigun0;
+        autoReload = false;
+        backgroundReload = false;
 		class GunParticles
 		{
 			class effect1
@@ -76,6 +78,8 @@ class CfgWeapons
 	};
 	class LMG_Minigun_heli: LMG_Minigun
 	{
+        autoReload = true;
+        backgroundReload = true;
 		class GunParticles: GunParticles
 		{
 			class effect1: effect1
@@ -103,8 +107,16 @@ class CfgWeapons
 			};
 		};
 	};
-	class HMG_static;
-	class HMG_M2;
+	class HMG_static: HMG_01
+    {
+        autoReload = false;
+        backgroundReload = false;
+    };
+	class HMG_M2: HMG_01
+    {
+        autoReload = false;
+        backgroundReload = false;
+    };
 	class SmokeLauncher;
 	class CMFlareLauncher: SmokeLauncher
 	{
@@ -135,6 +147,8 @@ class CfgWeapons
 	class GMG_20mm: GMG_F
 	{
 		displayName = $STR_A3_A_CfgWeapons_GMG_20mm0;
+        autoReload = false;
+        backgroundReload = false;
 		class manual: GMG_F
 		{
 			displayName = $STR_A3_A_CfgWeapons_GMG_20mm0;
@@ -201,6 +215,12 @@ class CfgWeapons
 				250Rnd_30mm_HE_shells_Tracer_Yellow
 			};
 		};
+	};
+    class missiles_titan;
+	class missiles_titan_static: missiles_titan
+	{
+        autoReload = false;
+        backgroundReload = false;
 	};
 	class rockets_Skyfire: RocketPods
 	{
@@ -305,6 +325,8 @@ class CfgWeapons
 	};
 	class LMG_coax: LMG_RCWS
 	{
+        autoReload = false;
+        backgroundReload = false;
 		magazines[] +=
 		{
 			200Rnd_762x51_Belt,
@@ -337,6 +359,11 @@ class CfgWeapons
 			2000Rnd_762x51_Belt_T_Yellow
 		};
 	};
+	class LMG_coax_ext: LMG_coax
+	{
+        autoReload = true;
+        backgroundReload = true;
+	};
 	class Gatling_30mm_Plane_CAS_01_F: CannonCore
 	{
 		magazines[] += {1350Rnd_Gatling_30mm_Plane_CAS_01_F};
@@ -348,7 +375,11 @@ class CfgWeapons
 			autoFire = true;
 		};
 	};
-	class HMG_127_MBT: HMG_static{};
+	class HMG_127_MBT: HMG_static
+    {
+        autoReload = true;
+        backgroundReload = true;
+    };
 	class Launcher_Base_F;
     class GrenadeLauncher;
 	class UGL_F: GrenadeLauncher
@@ -589,6 +620,7 @@ class CfgWeapons
 			reloadTime = 0.08;
 		};
 	};
+    class hgun_ACPC2_F;
 	class hgun_P07_F: Pistol_Base_F
 	{
 		magazines[] =
@@ -1301,6 +1333,8 @@ class CfgWeapons
 	};
 	class MMG_02_vehicle: LMG_RCWS
 	{
+        autoReload = false;
+        backgroundReload = false;
 		class GunParticles
 		{
 			class effect3
@@ -1528,9 +1562,21 @@ class CfgWeapons
 			class player;
 		};
 	};
+	class missiles_Vorona: MissileLauncher
+	{
+        autoReload = false;
+        backgroundReload = false;
+    };
 	class launcher_SPG9: MissileLauncher
 	{
+        autoReload = false;
+        backgroundReload = false;
 		reloadSound[] = {"\A3\Sounds_F\arsenal\weapons_static\Missile_Launcher\reload_Missile_Launcher",db-1,1,10};
+	};
+	class MMG_02_coax: MMG_02_vehicle
+	{
+        autoReload = false;
+        backgroundReload = false;
 	};
 	class autocannon_30mm_RCWS: autocannon_Base_F
 	{
@@ -1542,6 +1588,8 @@ class CfgWeapons
 	};
 	class HMG_127_LT: HMG_M2
 	{
+        autoReload = true;
+        backgroundReload = true;
 		class GunParticles
 		{
 			class effect1
@@ -1554,6 +1602,8 @@ class CfgWeapons
 	};
 	class HMG_127_AFV: HMG_M2
     {
+        autoReload = true;
+        backgroundReload = true;
         magazines[] =
 		{
 			200Rnd_127x99_mag,
@@ -1682,6 +1732,18 @@ class CfgWeapons
 		};
 	};
 	// Arma 3 Aegis
+	class HMG_static_autonomous: HMG_static
+    {
+        autoReload = true;
+        backgroundReload = true;
+        magazineReloadTime = 20;
+    };
+	class GMG_20mm_autonomous: GMG_20mm
+	{
+        autoReload = true;
+        backgroundReload = true;
+        magazineReloadTime = 20;
+	};
 	class CMFlareLauncher_Quadruples: CMFlareLauncher
 	{
 		class Single: Single

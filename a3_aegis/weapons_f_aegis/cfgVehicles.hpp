@@ -185,6 +185,7 @@ class CfgVehicles
 	WEAPON_HOLDER(LMG_Mk200_khk_F,$STR_A3_A_CfgWeapons_LMG_Mk200_khk_F0,EdSubcat_MachineGuns,200Rnd_65x39_cased_Box)
 	WEAPON_HOLDER(LMG_Zafir_black_F,$STR_A3_A_CfgWeapons_LMG_Zafir_black_F0,EdSubcat_MachineGuns,150Rnd_762x54_Box)
 	WEAPON_HOLDER(LMG_Zafir_ghex_F,$STR_A3_A_CfgWeapons_LMG_Zafir_ghex_F0,EdSubcat_MachineGuns,150Rnd_762x54_Box)
+	PISTOL_HOLDER(hgun_ACPC2_black_F,$STR_A3_A_CfgWeapons_hgun_ACPC2_black_F0,9Rnd_45ACP_Mag)
 	PISTOL_HOLDER(hgun_Pistol_heavy_01_black_F,$STR_A3_A_CfgWeapons_hgun_Pistol_heavy_01_black_F0,11Rnd_45ACP_Mag)
 	WEAPON_HOLDER(arifle_Mk20_black_F,$STR_A3_A_CfgWeapons_arifle_Mk20_black_F0,EdSubcat_AssaultRifles,30Rnd_556x45_Stanag)
 	WEAPON_HOLDER(arifle_Mk20_hex_F,$STR_A3_A_CfgWeapons_arifle_Mk20_hex_F0,EdSubcat_AssaultRifles,30Rnd_556x45_Stanag)
@@ -241,4 +242,6 @@ class CfgVehicles
 	ACC_HOLDER(optic_Kobra_F,$STR_A3_A_CfgWeapons_optic_Kobra_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Collimators,WeaponAccessories)
 	ACC_HOLDER(optic_pso_F,$STR_A3_A_CfgWeapons_optic_pso_F0,EdCat_WeaponAttachments,EdSubcat_TopSlot_Optics,WeaponAccessories)
     */
+    // Deprecated classes
+    DEPRECATED_CLASS(Weapon_hgun_C1911_F,Weapon_hgun_ACPC2_black_F)
 };

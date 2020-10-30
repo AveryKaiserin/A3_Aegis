@@ -516,27 +516,27 @@ class Atlas_B_H_Officer_F: Atlas_B_H_Soldier_Base_F
 	weapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         SmokeShellYellow
 	};
 	linkedItems[] =
@@ -675,14 +675,14 @@ class Atlas_B_H_Soldier_SL_F: Atlas_B_H_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_G36_MRCO_FL_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_G36_MRCO_FL_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -690,7 +690,7 @@ class Atlas_B_H_Soldier_SL_F: Atlas_B_H_Soldier_Base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
         SmokeShellYellow
@@ -699,7 +699,7 @@ class Atlas_B_H_Soldier_SL_F: Atlas_B_H_Soldier_Base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
         SmokeShellYellow
@@ -732,14 +732,14 @@ class Atlas_B_H_Soldier_TL_F: Atlas_B_H_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_G36_GL_MRCO_FL_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_G36_GL_MRCO_FL_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -747,7 +747,7 @@ class Atlas_B_H_Soldier_TL_F: Atlas_B_H_Soldier_Base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
         SmokeShell,
@@ -759,7 +759,7 @@ class Atlas_B_H_Soldier_TL_F: Atlas_B_H_Soldier_Base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
         SmokeShell,

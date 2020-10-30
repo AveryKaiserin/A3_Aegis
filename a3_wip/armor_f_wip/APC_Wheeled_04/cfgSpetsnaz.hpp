@@ -9,7 +9,11 @@ class O_R_APC_Wheeled_04_cannon_F: APC_Wheeled_04_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_crew_F};
-    textureList[] = {Green,1};
+    textureList[] =
+    {
+        Green,1,
+        Rus,0
+    };
 	hiddenSelectionsTextures[] =
     {
         "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
@@ -29,7 +33,11 @@ class O_R_APC_Wheeled_04_AT_F: APC_Wheeled_04_AT_base_F
 	faction = OPF_R_F;
 	crew = O_R_crew_F;
 	typicalCargo[] = {O_R_crew_F};
-    textureList[] = {Green,1};
+    textureList[] =
+    {
+        Green,1,
+        Rus,0
+    };
 	hiddenSelectionsTextures[] =
     {
         "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",

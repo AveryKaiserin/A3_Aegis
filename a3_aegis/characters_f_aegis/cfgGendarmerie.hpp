@@ -9,26 +9,26 @@ class B_GEN_Soldier_base_F: B_Soldier_base_F
 	weapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_6(30Rnd_9x21_Mag_SMG_02),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_9x21_Mag_SMG_02),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -54,21 +54,21 @@ class B_GEN_Commander_F: B_GEN_Soldier_base_F
 	weapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		SMG_05_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_6(30Rnd_9x21_Mag_SMG_02),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell,
 		SmokeShellYellow
@@ -76,7 +76,7 @@ class B_GEN_Commander_F: B_GEN_Soldier_base_F
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_9x21_Mag_SMG_02),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell,
 		SmokeShellYellow
@@ -108,13 +108,13 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 	weapons[] =
 	{
 		LMG_03_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_03_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	items[] = {FirstAidKit};
@@ -122,14 +122,14 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 	magazines[] =
 	{
 		mag_3(200Rnd_556x45_Box_Red_F),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_3(200Rnd_556x45_Box_Red_F),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -156,13 +156,13 @@ class B_GEN_Soldier_Rifle_F: B_GEN_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AKM_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AKM_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	items[] = {FirstAidKit};
@@ -170,14 +170,14 @@ class B_GEN_Soldier_Rifle_F: B_GEN_Soldier_base_F
 	magazines[] =
 	{
 		mag_6(30Rnd_762x39_Mag_F),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30Rnd_762x39_Mag_F),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -206,13 +206,13 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	weapons[] =
 	{
 		sgun_M4_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		sgun_M4_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	items[] = {FirstAidKit};
@@ -221,7 +221,7 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	{
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -229,7 +229,7 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	{
         mag_3(8Rnd_12Gauge_Pellets),
         mag_3(8Rnd_12Gauge_Slug),
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -262,14 +262,14 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	{
 		arifle_AKS_F,
 		launch_RPG7_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AKS_F,
 		launch_RPG7_F,
-		hgun_C1911_F,
+		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	items[] = {FirstAidKit};
@@ -278,7 +278,7 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	{
 		mag_6(30Rnd_545x39_Mag_F),
 		RPG7_F,
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};
@@ -286,7 +286,7 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	{
 		mag_6(30Rnd_545x39_Mag_F),
 		RPG7_F,
-		mag_2(7Rnd_45ACP_Mag),
+		mag_2(9Rnd_45ACP_Mag),
 		HandGrenade,
 		SmokeShell
 	};

@@ -141,54 +141,6 @@ class CfgSoundSets
 	{
 		soundShaders[] = {Zafir_silencerTailInterior_SoundShader};
 	};
-	// C-1911 .45 ACP
-	class C1911_Shot_SoundSet: Pistol_Shot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			C1911_Closure_SoundShader,
-			C1911_closeShot_SoundShader,
-			C1911_midShot_SoundShader,
-			C1911_distShot_SoundShader
-		};
-	};
-	class C1911_Tail_SoundSet: Pistol_Tail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			C1911_tailDistant_SoundShader,
-			C1911_tailForest_SoundShader,
-			C1911_tailHouses_SoundShader,
-			C1911_tailMeadows_SoundShader,
-			C1911_tailTrees_SoundShader
-		};
-	};
-	class C1911_InteriorTail_SoundSet: Pistol_InteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {C1911_tailInterior_SoundShader};
-	};
-	class C1911_silencerShot_SoundSet: Pistol_silencerShot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			C1911_Closure_SoundShader,
-			C1911_silencerShot_SoundShader
-		};
-	};
-	class C1911_silencerTail_SoundSet: Pistol_silencerTail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			C1911_silencerTailTrees_SoundShader,
-			C1911_silencerTailForest_SoundShader,
-			C1911_silencerTailMeadows_SoundShader,
-			C1911_silencerTailHouses_SoundShader
-		};
-	};
-	class C1911_silencerInteriorTail_SoundSet: Pistol_silencerInteriorTail_Base_SoundSet
-	{
-		soundShaders[] = {C1911_silencerTailInterior_SoundShader};
-	};
 	// G17 9 mm
 	class G17_Shot_SoundSet: Pistol_Shot_Base_SoundSet
 	{

@@ -62,10 +62,51 @@ class CfgVehicles
 				};
 			};
 		};
+		class AnimationSources
+		{
+            class autonomous_unhide;
+			class muzzle_source;
+			class muzzle_source_rot;
+			class ReloadAnim;
+			class ReloadMagazine;
+			class Revolving;
+        };
 	};
 	class B_HMG_01_F;
 	class O_HMG_01_F;
-	class HMG_01_A_base_F: HMG_01_base_F{};
+	class HMG_01_A_base_F: HMG_01_base_F
+    {
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_source: muzzle_source
+			{
+				weapon = HMG_static_autonomous;
+			};
+			class muzzle_source_rot: muzzle_source_rot
+			{
+				weapon = HMG_static_autonomous;
+			};
+			class ReloadAnim: ReloadAnim
+			{
+				weapon = HMG_static_autonomous;
+			};
+			class ReloadMagazine: ReloadMagazine
+			{
+				weapon = HMG_static_autonomous;
+			};
+			class Revolving: Revolving
+			{
+				weapon = HMG_static_autonomous;
+			};
+        };
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = {HMG_static_autonomous};
+            };
+        };
+    };
 	class B_HMG_01_A_F;
 	class O_HMG_01_A_F;
 	class HMG_01_high_base_F: HMG_01_base_F{};

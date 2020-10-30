@@ -14359,6 +14359,23 @@
 				</Key>
 			</Container>
 			<Container name="Pistols">
+				<Key ID="STR_A3_A_CfgWeapons_hgun_ACPC2_black_F0">
+					<Original>C-1911 .45 ACP</Original>
+					<Chinese>C-1911 .45 ACP</Chinese>
+					<French>C-1911 .45 ACP</French>
+					<Spanish>C-1911 .45 ACP</Spanish>
+					<Italian>C-1911 .45 ACP</Italian>
+					<Polish>C-1911 .45 ACP</Polish>
+					<Russian>C-1911 .45 ACP</Russian>
+					<German>C-1911 .45 ACP</German>
+					<Czech>C-1911 .45 ACP</Czech>
+					<English>C-1911 .45 ACP</English>
+					<Portuguese>C-1911 .45 ACP</Portuguese>
+					<Korean>C-1911 .45 ACP</Korean>
+					<Chinesesimp>C-1911 .45 ACP</Chinesesimp>
+					<Japanese>C-1911 .45 ACP</Japanese>
+					<Turkish>C-1911 .45 ACP</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_heavy_01_black_F0">
 					<Original>4-five .45 ACP (Black)</Original>
 					<Chinese>4-five .45 ACP（黑）</Chinese>
@@ -14377,23 +14394,6 @@
 					<Turkish>4-five .45 ACP (Siyah)</Turkish>
 				</Key>
 				<Container name="DescriptionShort">
-					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F1">
-						<Original>Handgun&lt;br /&gt;Caliber: .45 ACP</Original>
-						<Chinese>手槍&lt;br /&gt;口徑：.45 ACP</Chinese>
-						<French>Arme de poing&lt;br /&gt;Calibre : .45 ACP</French>
-						<Spanish>Pistola&lt;br /&gt;Calibre: .45 ACP</Spanish>
-						<Italian>Pistola&lt;br /&gt;Calibro: .45 ACP</Italian>
-						<Polish>Pistolet&lt;br /&gt;Kaliber: .45 ACP</Polish>
-						<Russian>Пистолет&lt;br /&gt;Калибр: .45 ACP</Russian>
-						<German>Handfeuerwaffe&lt;br /&gt;Kaliber: .45 ACP</German>
-						<Czech>Pistole&lt;br /&gt;Ráže: .45 ACP</Czech>
-						<English>Handgun&lt;br /&gt;Caliber: .45 ACP</English>
-						<Portuguese>Pistola&lt;br /&gt;Calibre: .45 ACP</Portuguese>
-						<Korean>권총&lt;br /&gt;구경: .45구경 ACP</Korean>
-						<Chinesesimp>手枪&lt;br /&gt;口径：45 ACP</Chinesesimp>
-						<Japanese>拳銃&lt;br /&gt;口径：.45 ACP</Japanese>
-						<Turkish>Tabanca&lt;br /&gt;Kalibre: .45 ACP</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_F1">
 						<Original>Handgun&lt;br /&gt;Caliber: 9x19 mm</Original>
 						<Chinese>手槍&lt;br /&gt;口徑：9x21 mm</Chinese>
@@ -14430,23 +14430,6 @@
 					</Key>
 				</Container>
 				<Container name="DisplayName">
-					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F0">
-						<Original>C-1911 .45 ACP</Original>
-						<Chinese>C-1911 .45 ACP</Chinese>
-						<French>C-1911 .45 ACP</French>
-						<Spanish>C-1911 .45 ACP</Spanish>
-						<Italian>C-1911 .45 ACP</Italian>
-						<Polish>C-1911 .45 ACP</Polish>
-						<Russian>C-1911 .45 ACP</Russian>
-						<German>C-1911 .45 ACP</German>
-						<Czech>C-1911 .45 ACP</Czech>
-						<English>C-1911 .45 ACP</English>
-						<Portuguese>C-1911 .45 ACP</Portuguese>
-						<Korean>C-1911 .45 ACP</Korean>
-						<Chinesesimp>C-1911 .45 ACP</Chinesesimp>
-						<Japanese>C-1911 .45 ACP</Japanese>
-						<Turkish>C-1911 .45 ACP</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_F0">
 						<Original>G17 9 mm</Original>
 						<Chinese>G17 9 mm</Chinese>
@@ -16416,6 +16399,40 @@
                     <Japanese>ミニグレネード</Japanese>
                     <Turkish>Mini El bombası</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_9Rnd_45ACP_Mag0">
+					<Original>.45 ACP 7Rnd Mag</Original>
+					<Chinese>.45 ACP 7 發彈匣</Chinese>
+					<French>Mag. 7 balles .45 ACP</French>
+					<Spanish>Cargador de 7 proyectiles .45 ACP</Spanish>
+					<Italian>Caricatore 7 colpi .45 ACP</Italian>
+					<Polish>7-nab. mag. .45 ACP</Polish>
+					<Russian>Магазин, 7 патронов .45 ACP</Russian>
+					<German>7-Schuss-.45-ACP-Magazin</German>
+					<Czech>.45 ACP, 7ks zásobník</Czech>
+					<English>.45 ACP 7Rnd Mag</English>
+					<Portuguese>Carregador ACP 7Mun. .45</Portuguese>
+					<Korean>.45 ACP구경 7발 탄창</Korean>
+					<Chinesesimp>.45 ACP 7 发弹匣</Chinesesimp>
+					<Japanese>.45 ACP 7Rnd マガジン</Japanese>
+					<Turkish>.45 ACP 7 Merm. Şarjör</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMagazines_9Rnd_45ACP_Mag1">
+					<Original>Caliber: .45 ACP&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: ACP-C2, C-1911</Original>
+					<Chinese>口徑：.45 ACP&lt;br /&gt;個數：7&lt;br /&gt;用於：ACP-C2，C-1911</Chinese>
+					<French>Calibre : .45 ACP&lt;br /&gt;Munitions : 7&lt;br /&gt;Application : ACP-C2, C-1911</French>
+					<Spanish>Calibre: .45 ACP&lt;br /&gt;Cargas: 7&lt;br /&gt;Se usa en: ACP-C2, C-1911</Spanish>
+					<Italian>Calibro: .45 ACP&lt;br /&gt;Munizioni: 7&lt;br /&gt;Usato in: ACP-C2, C-1911</Italian>
+					<Polish>Kaliber: .45 ACP&lt;br /&gt;Pociski: 7&lt;br /&gt;Używane w: ACP-C2, C-1911</Polish>
+					<Russian>Калибр: .45 ACP&lt;br /&gt;Количество патронов: 7&lt;br /&gt;Оружие: ACP-C2, C-1911</Russian>
+					<German>Kaliber: .45 ACP&lt;br /&gt;Patronen: 7&lt;br /&gt;Eingesetzt von: ACP-C2, C-1911</German>
+					<Czech>Ráže: .45 ACP&lt;br /&gt;Munice: 7&lt;br /&gt;Použití: ACP-C2, C-1911</Czech>
+					<English>Caliber: .45 ACP&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: ACP-C2, C-1911</English>
+					<Portuguese>Calibre: .45 ACP&lt;br /&gt;Quantidade: 7&lt;br /&gt;Uso em: ACP-C2, C-1911</Portuguese>
+					<Korean>구경: .45 ACP&lt;br /&gt;탄 수: 7&lt;br /&gt;사용 가능: ACP-C2, C-1911</Korean>
+					<Chinesesimp>口径：45 ACP&lt;br /&gt;容弹量：7&lt;br /&gt;用于：ACP-C2、C-1911</Chinesesimp>
+					<Japanese>口径：.45 ACP&lt;br /&gt;弾薬：7&lt;br /&gt;使用：ACP-C2、C-1911</Japanese>
+					<Turkish>Kalibre: .45 ACP&lt;br /&gt;Mermi: 7&lt;br /&gt;Kullanıldığı Yer: ACP-C2, C-1911</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgMagazines_11Rnd_45ACP_Mag0">
 					<Original>.45 ACP 15Rnd Mag</Original>
 					<Chinese>.45 ACP 15 發彈匣</Chinese>
@@ -17318,23 +17335,6 @@
 						<Japanese>口径：9x19 mm&lt;br /&gt;弾薬：17&lt;br /&gt;使用：G17、Rook-40</Japanese>
 						<Turkish>Kalibre: 9x19 mm&lt;br /&gt;Mermi: 17&lt;br /&gt;Kullanıldığı Yer: G17, Rook-40</Turkish>
 					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_7Rnd_45ACP_Mag1">
-						<Original>Caliber: .45 ACP&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: C-1911</Original>
-						<Chinese>口徑：.45 ACP&lt;br /&gt;個數：7&lt;br /&gt;用於：C-1911</Chinese>
-						<French>Calibre : .45 ACP&lt;br /&gt;Munitions : 7&lt;br /&gt;Application : C-1911</French>
-						<Spanish>Calibre: .45 ACP&lt;br /&gt;Cargas: 7&lt;br /&gt;Se usa en: C-1911</Spanish>
-						<Italian>Calibro: .45 ACP&lt;br /&gt;Munizioni: 7&lt;br /&gt;Usato in: C-1911</Italian>
-						<Polish>Kaliber: .45 ACP&lt;br /&gt;Pociski: 7&lt;br /&gt;Używane w: C-1911</Polish>
-						<Russian>Калибр: .45 ACP&lt;br /&gt;Количество патронов: 7&lt;br /&gt;Оружие: C-1911</Russian>
-						<German>Kaliber: .45 ACP&lt;br /&gt;Patronen: 7&lt;br /&gt;Eingesetzt von: C-1911</German>
-						<Czech>Ráže: .45 ACP&lt;br /&gt;Munice: 7&lt;br /&gt;Použití: C-1911</Czech>
-						<English>Caliber: .45 ACP&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: C-1911</English>
-						<Portuguese>Calibre: .45 ACP&lt;br /&gt;Quantidade: 7&lt;br /&gt;Uso em: C-1911</Portuguese>
-						<Korean>구경: .45 ACP&lt;br /&gt;탄 수: 7&lt;br /&gt;사용 가능: C-1911</Korean>
-						<Chinesesimp>口径：45 ACP&lt;br /&gt;容弹量：7&lt;br /&gt;用于：C-1911</Chinesesimp>
-						<Japanese>口径：.45 ACP&lt;br /&gt;弾薬：7&lt;br /&gt;使用：C-1911</Japanese>
-						<Turkish>Kalibre: .45 ACP&lt;br /&gt;Mermi: 7&lt;br /&gt;Kullanıldığı Yer: C-1911</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgMagazines_7Rnd_127x33_Mag1">
 						<Original>Caliber: 12.7x33 mm&lt;br /&gt;Rounds: 7&lt;br /&gt;Used in: Mk26</Original>
 						<Chinese>口徑：12.7x33 mm&lt;br /&gt;個數：7&lt;br /&gt;用於：Mk26</Chinese>
@@ -17523,23 +17523,6 @@
 						<Chinesesimp>9 毫米 17 发弹匣</Chinesesimp>
 						<Japanese>9mm 17Rnd マガジン</Japanese>
 						<Turkish>9 mm 17 Merm. Şarjör</Turkish>
-					</Key>
-					<Key ID="STR_A3_A_CfgMagazines_7Rnd_45ACP_Mag0">
-						<Original>.45 ACP 7Rnd Mag</Original>
-						<Chinese>.45 ACP 7 發彈匣</Chinese>
-						<French>Mag. 7 balles .45 ACP</French>
-						<Spanish>Cargador de 7 proyectiles .45 ACP</Spanish>
-						<Italian>Caricatore 7 colpi .45 ACP</Italian>
-						<Polish>7-nab. mag. .45 ACP</Polish>
-						<Russian>Магазин, 7 патронов .45 ACP</Russian>
-						<German>7-Schuss-.45-ACP-Magazin</German>
-						<Czech>.45 ACP, 7ks zásobník</Czech>
-						<English>.45 ACP 7Rnd Mag</English>
-						<Portuguese>Carregador ACP 7Mun. .45</Portuguese>
-						<Korean>.45 ACP구경 7발 탄창</Korean>
-						<Chinesesimp>.45 ACP 7 发弹匣</Chinesesimp>
-						<Japanese>.45 ACP 7Rnd マガジン</Japanese>
-						<Turkish>.45 ACP 7 Merm. Şarjör</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgMagazines_7Rnd_127x33_Mag0">
 						<Original>12.7 mm 7Rnd Mag</Original>

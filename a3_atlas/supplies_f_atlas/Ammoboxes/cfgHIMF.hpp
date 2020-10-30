@@ -135,7 +135,7 @@ class H_supplyCrate_F: ReammoBox_F
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(20Rnd_762x51_weathered_Mag,6);
-		mag_xx(7Rnd_45ACP_Mag,2);
+		mag_xx(9Rnd_45ACP_Mag,2);
 		mag_xx(chemlight_green,2);
 		mag_xx(UGL_FlareGreen_F,2);
 		mag_xx(UGL_FlareWhite_F,2);

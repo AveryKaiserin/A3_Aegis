@@ -49,6 +49,10 @@ class CfgMagazineWells
 			3Rnd_Pellets_Grenade_shell
 		};
 	};
+	class ACPC2_45ACP
+	{
+		Aegis_Compatibility_Magazines[] = {7Rnd_45ACP_Mag};
+	};
 	class Pistol_9x21
 	{
 		Aegis_Magazines[] =
@@ -106,10 +110,7 @@ class CfgMagazineWells
 	{
 		Aegis_Magazines[] = {5Rnd_127x99_Mag};
 	};
-	class C1911_45ACP
-	{
-		Aegis_Magazines[] = {7Rnd_45ACP_Mag};
-	};
+    class C1911_45ACP: ACPC2_45ACP{};
 	class G17_9x21
 	{
 		Aegis_Magazines[] = {17Rnd_9x21_Mag};

@@ -16,7 +16,6 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_GrenadeLaunchers_M32,
 			A3_Aegis_Weapons_F_Aegis_GrenadeLaunchers_XM25,
 			A3_Aegis_Weapons_F_Aegis_LongRangeRifles_WF50,
-			A3_Aegis_Weapons_F_Aegis_Pistols_C1911,
 			A3_Aegis_Weapons_F_Aegis_Pistols_G17,
 			A3_Aegis_Weapons_F_Aegis_Pistols_MK26,
 			A3_Aegis_Weapons_F_Aegis_Rifles_AK12,

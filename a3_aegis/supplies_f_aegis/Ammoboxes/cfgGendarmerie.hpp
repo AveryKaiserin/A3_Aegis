@@ -6,7 +6,7 @@ class Box_GEN_Equip_F: Box_NATO_Equip_F
 	{
 		mag_xx(30Rnd_9x21_Mag_SMG_02,36);
 		delete _xx_16Rnd_9x21_Mag;
-		mag_xx(7Rnd_45ACP_Mag,12);
+		mag_xx(9Rnd_45ACP_Mag,12);
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellYellow,2);
 		mag_xx(HandGrenade,6);
@@ -15,7 +15,7 @@ class Box_GEN_Equip_F: Box_NATO_Equip_F
 	{
 		weap_xx(SMG_05_F,6);
 		delete _xx_hgun_P07_F;
-		weap_xx(hgun_C1911_F,6);
+		weap_xx(hgun_ACPC2_black_F,6);
 	};
 	class TransportItems
 	{

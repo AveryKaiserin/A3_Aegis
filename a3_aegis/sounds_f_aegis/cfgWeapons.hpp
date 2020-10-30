@@ -383,60 +383,6 @@ class CfgWeapons
 		};
 	};
 	class Pistol_Base_F;
-	class hgun_C1911_F: Pistol_Base_F
-	{
-		bullet1[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_01",db-6,1,15};
-		bullet2[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_02",db-6,1,15};
-		bullet3[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_03",db-6,1,15};
-		bullet4[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_04",db-6,1,15};
-		bullet5[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_01",db-8,1,15};
-		bullet6[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_02",db-8,1,15};
-		bullet7[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_03",db-8,1,15};
-		bullet8[] = {"\A3\Sounds_F\weapons\Shells\9mm\dirt_9mm_04",db-8,1,15};
-		bullet9[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_01",db-13,1,15};
-		bullet10[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_02",db-13,1,15};
-		bullet11[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_03",db-13,1,15};
-		bullet12[] = {"\A3\Sounds_F\weapons\Shells\9mm\grass_9mm_04",db-13,1,15};
-		soundBullet[] =
-		{
-			bullet1,1/12,
-			bullet2,1/12,
-			bullet3,1/12,
-			bullet4,1/12,
-			bullet5,1/12,
-			bullet6,1/12,
-			bullet7,1/12,
-			bullet8,1/12,
-			bullet9,1/12,
-			bullet10,1/12,
-			bullet11,1/12,
-			bullet12,1/12
-		};
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\C1911\C1911_dry",db-8,1,20};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\C1911\C1911_reload",db0,1,30};
-		class Single: Mode_SemiAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					C1911_Shot_SoundSet,
-					C1911_Tail_SoundSet,
-					C1911_InteriorTail_SoundSet
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					C1911_silencerShot_SoundSet,
-					C1911_silencerTail_SoundSet,
-					C1911_silencerInteriorTail_SoundSet
-				};
-			};
-		};
-	};
 	class hgun_G17_F: Pistol_Base_F
 	{
 		bullet1[] = {"\A3\Sounds_F\weapons\Shells\9mm\metal_9mm_01",db-6,1,15};

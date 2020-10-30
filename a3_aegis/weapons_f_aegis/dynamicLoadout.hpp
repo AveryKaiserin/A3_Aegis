@@ -741,7 +741,7 @@ class PylonRack_6Rnd_Vikhr_missiles: 12Rnd_Vikhr_missiles
 		O_VIKHR
 	};
 	pylonWeapon = missiles_Vikhr;
-	mass = 294;
+	mass = 300;
 	class mfdElements
 	{
 		class Plane_CAS_02
@@ -1104,24 +1104,24 @@ class PylonWeapon_250Rnd_20mm_shells: 250Rnd_20mm_shells
 class PylonMissile_12Rnd_230mm_rockets: 12Rnd_230mm_rockets
 {
 	displayName = $STR_A3_A_CfgMagazines_PylonMissile_12Rnd_230mm_rockets0;
-	hardpoints[] = {UNI_MLRS_PYLON};
+	hardpoints[] = {UNI_MLRS};
 	pylonWeapon = rockets_230mm_GAT;
 };
 class PylonMissile_12Rnd_230mm_rockets_cluster: 12Rnd_230mm_rockets_cluster
 {
 	displayName = $STR_A3_A_CfgMagazines_PylonMissile_12Rnd_230mm_rockets_cluster0;
-	hardpoints[] = {UNI_MLRS_PYLON};
+	hardpoints[] = {UNI_MLRS};
 	pylonWeapon = rockets_230mm_GAT;
 };
 class PylonMissile_12Rnd_230mm_rockets_guided: 12Rnd_230mm_rockets_guided
 {
 	displayName = $STR_A3_A_CfgMagazines_PylonMissile_12Rnd_230mm_rockets_guided0;
-	hardpoints[] = {UNI_MLRS_PYLON};
+	hardpoints[] = {UNI_MLRS};
 	pylonWeapon = rockets_230mm_GAT;
 };
 class PylonMissile_12Rnd_230mm_rockets_LG: 12Rnd_230mm_rockets_LG
 {
 	displayName = $STR_A3_A_CfgMagazines_PylonMissile_12Rnd_230mm_rockets_LG0;
-	hardpoints[] = {UNI_MLRS_PYLON};
+	hardpoints[] = {UNI_MLRS};
 	pylonWeapon = rockets_230mm_GAT;
 };

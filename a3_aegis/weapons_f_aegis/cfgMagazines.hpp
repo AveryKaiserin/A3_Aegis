@@ -105,7 +105,13 @@ class CfgMagazines
     {
         scope = public;
     };
-	class 9Rnd_45ACP_Mag;
+	class 9Rnd_45ACP_Mag: 30Rnd_45ACP_Mag_SMG_01
+    {
+		displayName = $STR_A3_A_CfgMagazines_9Rnd_45ACP_Mag0;
+		descriptionShort = $STR_A3_A_CfgMagazines_9Rnd_45ACP_Mag1;
+		count = 7;
+		ammo = B_45ACP_Ball_Yellow;
+    };
 	class 150Rnd_762x51_Box: CA_Magazine
 	{
 		scope = protected;
@@ -494,10 +500,7 @@ class CfgMagazines
 	};
 	class 7Rnd_45ACP_Mag: 9Rnd_45ACP_Mag
 	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgMagazines_7Rnd_45ACP_Mag0;
-		count = 7;
-		descriptionShort = $STR_A3_A_CfgMagazines_7Rnd_45ACP_Mag1;
+        scope = protected;
 	};
 	class 7Rnd_127x33_Mag: CA_Magazine
 	{

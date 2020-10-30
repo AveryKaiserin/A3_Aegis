@@ -235,10 +235,11 @@ class CfgAmmo
 	};
 	// Arma 3 Jets
 	class ammo_Gun20mmAABase;
+	class ammo_Gun30mmAABase;
 	class ammo_Gun35mmAABase;
 	class ammo_AAA_Gun35mm_AA: ammo_Gun35mmAABase
 	{
-		model = "\A3\Weapons_F\Data\bullettracer\tracer_green.p3d";
+		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 	};
 	class ammo_Fighter01_Gun20mm_AA: ammo_Gun20mmAABase
 	{
@@ -248,10 +249,10 @@ class CfgAmmo
 	{
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_yellow.p3d";
 	};
-	class ammo_Fighter04_Gun20mm_AA_red: ammo_Fighter04_Gun20mm_AA
-	{
-		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
-	};
+	class ammo_Fighter02_Gun30mm_AA: ammo_Gun30mmAABase
+    {
+		model = "\A3\Weapons_F\Data\bullettracer\tracer_green.p3d";
+    };
 	// Arma 3 Enoch
 	class B_12Gauge_Pellets_Submunition;
 	class B_12Gauge_Pellets_Submunition_Cartridge: B_12Gauge_Pellets_Submunition
@@ -468,8 +469,13 @@ class CfgAmmo
 		manualControl = true;
 		maxControlRange = 8000;
 		missileManualControlCone = 120;
-		soundFly[] = {"A3\Sounds_F\weapons\Rockets\rocket_fly_1",db-5,1.5,700};
-		flightProfiles[] = {TopDown};
+		soundFly[] = {"\A3\Sounds_F\weapons\Rockets\rocket_fly_1",db-5,1.5,700};
+		flightProfiles[] =
+        {
+            Direct,
+            TopDown
+        };
+		class Direct{};
 		class TopDown
 		{
 			ascendHeight = 400;
@@ -546,6 +552,10 @@ class CfgAmmo
 				};
 			};
 		};
+	};
+	class ammo_Fighter04_Gun20mm_AA_red: ammo_Fighter04_Gun20mm_AA
+	{
+		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 	};
 	class ammo_Bomb_GlideBase: ammo_Bomb_LaserGuidedBase
 	{
