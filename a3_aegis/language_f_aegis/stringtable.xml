@@ -6288,6 +6288,23 @@
 					<Japanese>AveryTheKitty ＆ Garkain</Japanese>
 					<Turkish>AveryTheKitty ve Garkain</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Heliotrope">
+					<Original>AveryTheKitty and Heliotrope</Original>
+					<Chinese>AveryTheKitty 克與 Heliotrope</Chinese>
+					<French>AveryTheKitty et Heliotrope</French>
+					<Spanish>AveryTheKitty y Heliotrope</Spanish>
+					<Italian>AveryTheKitty e Heliotrope</Italian>
+					<Polish>AveryTheKitty i Heliotrope</Polish>
+					<Russian>AveryTheKitty и Heliotrope</Russian>
+					<German>AveryTheKitty und Heliotrope</German>
+					<Czech>AveryTheKitty a Heliotrope</Czech>
+					<English>AveryTheKitty and Heliotrope</English>
+					<Portuguese>AveryTheKitty e Heliotrope</Portuguese>
+					<Korean>AveryTheKitty Heliotrope</Korean>
+					<Chinesesimp>AveryTheKitty 和 Heliotrope</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Heliotrope</Japanese>
+					<Turkish>AveryTheKitty ve Heliotrope</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_AveryTheKitty_and_Kiory">
 					<Original>AveryTheKitty and Kiory</Original>
 					<Chinese>AveryTheKitty 克與 Kiory</Chinese>
@@ -6423,6 +6440,23 @@
 					<Chinesesimp>AveryTheKitty 和 Tigg</Chinesesimp>
 					<Japanese>AveryTheKitty ＆ Tigg</Japanese>
 					<Turkish>AveryTheKitty ve Tigg</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_Heliotrope">
+					<Original>Heliotrope</Original>
+					<Chinese>Heliotrope</Chinese>
+					<French>Heliotrope</French>
+					<Spanish>Heliotrope</Spanish>
+					<Italian>Heliotrope</Italian>
+					<Polish>Heliotrope</Polish>
+					<Russian>Heliotrope</Russian>
+					<German>Heliotrope</German>
+					<Czech>Heliotrope</Czech>
+					<English>Heliotrope</English>
+					<Portuguese>Heliotrope</Portuguese>
+					<Korean>Heliotrope</Korean>
+					<Chinesesimp>Heliotrope</Chinesesimp>
+					<Japanese>Heliotrope</Japanese>
+					<Turkish>Heliotrope</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_Kydoimos">
 					<Original>Kydoimos</Original>
