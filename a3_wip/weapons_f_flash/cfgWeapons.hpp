@@ -9,6 +9,10 @@ class CfgWeapons
 		class FlashGrenadeMuzzle: ThrowMuzzle
 		{
 			magazines[] = {FlashGrenade};
+            class EventHandlers
+            {
+                fired = "_this spawn Aegis_fnc_flashbangOrSomethingIdk;";
+            };
 		};
     };
 };
