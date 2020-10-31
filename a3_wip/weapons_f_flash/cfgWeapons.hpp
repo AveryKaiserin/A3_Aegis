@@ -11,7 +11,7 @@ class CfgWeapons
 			magazines[] = {FlashGrenade};
             class EventHandlers
             {
-                fired = "_this spawn Aegis_fnc_flashbangUnitFinder;";
+                fired = "_this spawn Aegis_fnc_flashbangExploHandler;";
             };
 		};
     };
