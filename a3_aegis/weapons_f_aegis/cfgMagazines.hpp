@@ -15,6 +15,7 @@ class CfgMagazines
 		descriptionShort = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green1;
         displayName = $STR_A3_A_CfgMagazines_30Rnd_65x39_caseless_green0;
 		count = 20;
+		mass = 8;
 	};
 	class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag
 	{
