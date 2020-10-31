@@ -14,6 +14,7 @@ class CfgVehicles
     };
     class I_soldier_F: I_Soldier_base_F{};
     class I_pilot_F;
+    #include "cfgViper.hpp"		        // Viper
 	#include "cfgOpfor_Aegis.hpp"		// Belarus
     #include "cfgLegion.hpp"			// Legionnaires
 	#include "cfgBlufor_Atlas.hpp"		// Germany

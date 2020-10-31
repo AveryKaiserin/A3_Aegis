@@ -1,66 +1,143 @@
-// Arma 3
-class O_Soldier_base_F: SoldierEB
-{
-	class EventHandlers;
-};
-class O_Soldier_F: O_Soldier_base_F{};
+// Arma 3 Apex
+class O_V_Soldier_hex_F;
+class O_V_Soldier_TL_hex_F;
+class O_V_Soldier_Exp_hex_F;
+class O_V_Soldier_Medic_hex_F;
+class O_V_Soldier_M_hex_F;
+class O_V_Soldier_LAT_hex_F;
+class O_V_Soldier_JTAC_hex_F;
 
 // Arma 3 Atlas
-class O_V_Soldier_TL_whex_F: O_V_Soldier_hex_F // Importing from normal Viper hex? But not sure how to do this exactly. New soldier class, Woodland Hex.
+class Atlas_O_V_Soldier_whex_F: O_V_Soldier_hex_F
 {
-	author = $STR_A3_A_Heliotrope; // heliotrope! C:
-	editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\O_V_Soldier_hex_F.jpg"; // Changed to normal hex viper preview.
-	faction = Atlas_OPF_V_F; // Changed to currently non-existant Viper Atlas faction.
-	genericNames = ChineseMen;
-	identityTypes[] =
-	{
-		LanguageCHI_F,
-		Head_Asian,
-		G_CIVIL_male
-	};
-    displayName = "$STR_A3_O_V_Soldier_TL_whex_F0";
-    scope = public;
-    scopeCurator = public;
-	uniformClass = Atlas_U_O_V_SpecialPurposeSuit_01_whex_F;
-	backpack = B_ViperLightHarness_whex_TL_F;
-	weapons[] =
-	{
-		arifle_ARX_hex_ARCO_Pointer_Snds_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		arifle_ARX_hex_ARCO_Pointer_Snds_F,
-		hgun_Rook40_snds_F,
-		DefaultManWeapons
-	};
-	magazines[] =
-	{
-		"30Rnd_65x39_caseless_green",
-        "10Rnd_50BW_Mag_F",
-        "16Rnd_9x21_Mag",
-        "Chemlight_red",
-        "Chemlight_red"
-	};
-	respawnMagazines[] =
-	{
-        "30Rnd_65x39_caseless_green",
-        "10Rnd_50BW_Mag_F",
-        "16Rnd_9x21_Mag",
-        "Chemlight_red",
-        "Chemlight_red"
-	};
-    items[] = {"FirstAidKit"};
-	respawnItems[] = {"FirstAidKit"};
-	linkedItems[] =
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_M_F;
+	linkedItems[] = 
 	{
 		H_HelmetO_ViperSP_whex_F,
-		DefaultManLinkedItems
+		DefaultManLeaderLinkedItems
 	};
-	respawnLinkedItems[] =
+	respawnlinkedItems[] = 
 	{
 		H_HelmetO_ViperSP_whex_F,
-		DefaultManLinkedItems
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_TL_whex_F: O_V_Soldier_TL_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_TL_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_TL_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_Exp_whex_F: O_V_Soldier_Exp_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_Exp_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_Exp_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_Medic_whex_F: O_V_Soldier_Medic_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_Medic_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_Medic_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_M_whex_F: O_V_Soldier_M_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_M_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_M_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_LAT_whex_F: O_V_Soldier_LAT_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_LAT_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_LAT_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Atlas_O_V_Soldier_JTAC_whex_F: O_V_Soldier_JTAC_hex_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_V_Soldier_JTAC_whex_F.jpg";
+	faction = Atlas_OPF_V_wdl_F;
+	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
+	backpack = B_ViperHarness_whex_JTAC_F;
+	linkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnlinkedItems[] = 
+	{
+		H_HelmetO_ViperSP_whex_F,
+		DefaultManLeaderLinkedItems
 	};
 };

@@ -28,6 +28,15 @@ class CfgPatches
             C_Man_8_persian_F,
             C_Man_9_persian_F,
 
+            // Viper
+            Atlas_O_V_Soldier_whex_F,
+            Atlas_O_V_Soldier_TL_whex_F,
+            Atlas_O_V_Soldier_Exp_whex_F,
+            Atlas_O_V_Soldier_Medic_whex_F,
+            Atlas_O_V_Soldier_M_whex_F,
+            Atlas_O_V_Soldier_LAT_whex_F,
+            Atlas_O_V_Soldier_JTAC_whex_F,
+
             // Belarus
             Atlas_O_W_Crew_F,
             Atlas_O_W_Engineer_F,

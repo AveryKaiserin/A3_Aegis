@@ -75,7 +75,7 @@ class CfgGroups
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-				class B_E_InfSquad
+				class B_G_InfSquad
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
 					side = TWest;
@@ -90,7 +90,7 @@ class CfgGroups
 					GROUP_UNIT(6,TWest,Atlas_B_G_soldier_A_F,PRIVATE,-15,-15)
 					GROUP_UNIT(7,TWest,Atlas_B_G_medic_F,PRIVATE,20,-20)
 				};
-				class B_E_InfSquad_Weapons
+				class B_G_InfSquad_Weapons
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0;
 					side = TWest;
@@ -105,7 +105,7 @@ class CfgGroups
 					GROUP_UNIT(6,TWest,Atlas_B_G_soldier_A_F,PRIVATE,-15,-15)
 					GROUP_UNIT(7,TWest,Atlas_B_G_medic_F,PRIVATE,20,-20)
 				};
-				class B_E_InfTeam
+				class B_G_InfTeam
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
 					side = TWest;
@@ -116,7 +116,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_soldier_GL_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TWest,Atlas_B_G_soldier_LAT_F,PRIVATE,10,-10)
 				};
-				class B_E_InfTeam_AT
+				class B_G_InfTeam_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0;
 					side = TWest;
@@ -127,7 +127,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_soldier_AT_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TWest,Atlas_B_G_soldier_F,PRIVATE,10,-10)
 				};
-				class B_E_InfTeam_AA
+				class B_G_InfTeam_AA
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0;
 					side = TWest;
@@ -138,7 +138,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_soldier_AA_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TWest,Atlas_B_G_soldier_F,PRIVATE,10,-10)
 				};
-				class B_E_InfSentry
+				class B_G_InfSentry
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0;
 					side = TWest;
@@ -151,7 +151,7 @@ class CfgGroups
 			class SpecOps
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
-				class B_E_ReconTeam
+				class B_G_ReconTeam
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconTeam0;
 					side = TWest;
@@ -164,7 +164,7 @@ class CfgGroups
 					GROUP_UNIT(4,TWest,Atlas_B_G_recon_JTAC_F,PRIVATE,-10,-10)
 					GROUP_UNIT(5,TWest,Atlas_B_G_recon_exp_F,PRIVATE,15,-15)
 				};
-				class B_E_ReconPatrol
+				class B_G_ReconPatrol
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconPatrol0;
 					side = TWest;
@@ -175,7 +175,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_recon_medic_F,PRIVATE,-5,-5)
 					GROUP_UNIT(3,TWest,Atlas_B_G_recon_F,PRIVATE,10,-10)
 				};
-				class B_E_ReconSentry
+				class B_G_ReconSentry
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconSentry0;
 					side = TWest;
@@ -188,7 +188,7 @@ class CfgGroups
 			class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
-				class B_E_MotInf_Team
+				class B_G_MotInf_Team
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0;
 					side = TWest;
@@ -197,7 +197,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_MRAP_03_gmg_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_soldier_LAT_F,CORPORAL,5,-5)
 				};
-				class B_E_MotInf_AT
+				class B_G_MotInf_AT
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AT0;
 					side = TWest;
@@ -207,7 +207,7 @@ class CfgGroups
 					GROUP_UNIT(1,TWest,Atlas_B_G_soldier_AT_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TWest,Atlas_B_G_soldier_AT_F,CORPORAL,-5,-5)
 				};
-				class B_E_MotInf_AA
+				class B_G_MotInf_AA
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AA0;
 					side = TWest;
@@ -221,7 +221,7 @@ class CfgGroups
 			class Mechanized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
-				class B_E_MechInfSquad
+				class B_G_MechInfSquad
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0;
 					side = TWest;
@@ -241,7 +241,7 @@ class CfgGroups
 			class Armored
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Armored0;
-				class B_E_TankPlatoon
+				class B_G_TankPlatoon
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon0;
 					side = TWest;
@@ -252,7 +252,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_MBT_03_cannon_F,SERGEANT,-10,-10)
 					GROUP_UNIT(3,TWest,Atlas_B_G_MBT_03_cannon_F,CORPORAL,20,-20)
 				};
-				class B_E_TankSection
+				class B_G_TankSection
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankSection0;
 					side = TWest;
@@ -261,7 +261,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_MBT_03_cannon_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_MBT_03_cannon_F,SERGEANT,10,-10)
 				};
-				class B_E_LTankSection_Assault
+				class B_G_LTankSection_Assault
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankSection_Assault0;
 					side = TWest;
@@ -270,7 +270,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_LT_01_cannon_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_LT_01_cannon_F,SERGEANT,10,-10)
 				};
-				class B_E_LTankSection_Recon
+				class B_G_LTankSection_Recon
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankSection_Recon0;
 					side = TWest;
@@ -279,7 +279,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_LT_01_scout_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_LT_01_cannon_F,SERGEANT,10,-10)
 				};
-				class B_E_LTankSection_AA
+				class B_G_LTankSection_AA
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankSection_AA0;
 					side = TWest;
@@ -288,7 +288,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_LT_01_AA_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_LT_01_AA_F,SERGEANT,10,-10)
 				};
-				class B_E_LTankSection_AT
+				class B_G_LTankSection_AT
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankSection_AT0;
 					side = TWest;
@@ -297,7 +297,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Atlas_B_G_LT_01_AT_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Atlas_B_G_LT_01_AT_F,SERGEANT,10,-10)
 				};
-				class B_E_LTankPlatoon_combined
+				class B_G_LTankPlatoon_combined
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankPlatoon_combined0;
 					side = TWest;
@@ -308,7 +308,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Atlas_B_G_LT_01_cannon_F,SERGEANT,-10,-10)
 					GROUP_UNIT(3,TWest,Atlas_B_G_LT_01_AT_F,CORPORAL,20,-20)
 				};
-				class B_E_LTankPlatoon_AA
+				class B_G_LTankPlatoon_AA
 				{
 					name = $STR_A3_CfgGroups_Indep_IND_F_Armored_I_LTankPlatoon_AA0;
 					side = TWest;
@@ -490,6 +490,40 @@ class CfgGroups
 	{
 		name = $STR_A3_CfgGroups_East0;
 		side = TEast;
+		class Atlas_OPF_V_wdl_F
+		{
+		  	name = $STR_A3_A_CfgFactionClasses_OPF_V_wdl_F0;
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class O_V_InfSquad
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
+					side = TEast;
+					faction = Atlas_OPF_V_wdl_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,Atlas_O_V_Soldier_TL_whex_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,Atlas_O_V_Soldier_JTAC_whex_F,PRIVATE,5,-5)
+					GROUP_UNIT(2,TEast,Atlas_O_V_Soldier_LAT_whex_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,Atlas_O_V_Soldier_M_whex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,Atlas_O_V_Soldier_TL_whex_F,SERGEANT,-10,-10)
+					GROUP_UNIT(5,TEast,Atlas_O_V_Soldier_Medic_whex_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,Atlas_O_V_Soldier_Exp_whex_F,CORPORAL,-15,-15)
+					GROUP_UNIT(7,TEast,Atlas_O_V_Soldier_whex_F,PRIVATE,20,-20)
+				};
+				class O_V_InfTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
+					side = TEast;
+					faction = Atlas_OPF_V_wdl_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,Atlas_O_V_Soldier_TL_whex_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,Atlas_O_V_Soldier_Exp_whex_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,Atlas_O_V_Soldier_whex_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,Atlas_O_V_Soldier_LAT_whex_F,PRIVATE,10,-10)
+				};
+			};
+		};
 		class Atlas_OPF_W_F
 		{
 		  	name = $STR_A3_A_CfgFactionClasses_OPF_W_F0;
