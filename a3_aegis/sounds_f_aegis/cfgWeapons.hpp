@@ -63,7 +63,7 @@ class CfgWeapons
 		{
 			soundsetshot[] = {RocketsHeavy_Shot_SoundSet};
 		};
-		class TopDown: RocketPods
+		class Player: RocketPods
 		{
 			class StandardSound
 			{

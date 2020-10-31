@@ -31,6 +31,7 @@ class CfgMagazines
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_06\Data\DMR_06_02_black_CO.paa"};
 	};
+	class 7Rnd_408_Mag;
 	class 100Rnd_65x39_caseless_mag: CA_Magazine
 	{
 		descriptionShort = $STR_A3_A_CfgMagazines_100Rnd_65x39_caseless_mag1;

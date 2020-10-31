@@ -5,6 +5,7 @@ class CfgAmmo
 	class ammo_Penetrator_Base;
 	class FlareCore;
 	class ShotDeployBase;
+    class SubmunitionBase;
 	class MissileCore;
 	class MissileBase: MissileCore
 	{
@@ -478,10 +479,10 @@ class CfgAmmo
 		class Direct{};
 		class TopDown
 		{
-			ascendHeight = 400;
-			descendDistance = 800;
-			minDistance = 800;
-			ascendAngle = 15;
+			ascendHeight = 400.0;
+			descendDistance = 800.0;
+			minDistance = 250.0;
+			ascendAngle = 25.0;
 		};
 		class Components: Components
 		{

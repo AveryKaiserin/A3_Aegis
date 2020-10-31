@@ -1839,23 +1839,37 @@ class CfgWeapons
 		weaponLockSystem = 2;
 		cmImmunity = 0.4;
 		textureType = semi;
-		modes[] = {TopDown};
-		class TopDown: RocketPods
+		modes[] =
+        {
+            Player,
+            TopDown
+        };
+		class Player: RocketPods
 		{
-			textureType = topDown;
-			displayName = $STR_A3_A_CfgWeapons_missiles_Vikhr0;
+			textureType = semi;
 			reloadTime = 0.1;
 			magazineReloadTime = 0.1;
 			sounds[] = {StandardSound};
 			aiRateOfFire = 5.0;
 			aiRateOfFireDistance = 500;
 			showToPlayer = true;
-			minRange = 400;
-			minRangeProbab = 0.2;
-			midRange = 800;
-			midRangeProbab = 0.96;
+			minRange = 200;
+			minRangeProbab = 0.5;
+			midRange = 400;
+			midRangeProbab = 0.85;
 			maxRange = 6000;
-			maxRangeProbab = 0.92;
+			maxRangeProbab = 0.9;
+		};
+		class TopDown: Player
+		{
+			textureType = topDown;
+			//displayName = "Top-down";
+			minRange = 400;
+			minRangeProbab = 0.4;
+			midRange = 800;
+			midRangeProbab = 0.9;
+			maxRange = 6000;
+			maxRangeProbab = 0.95;
 		};
 	};
     class autocannon_30mm_Heli_Attack_03: CannonCore

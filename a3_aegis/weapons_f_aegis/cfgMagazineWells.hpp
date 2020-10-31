@@ -63,6 +63,8 @@ class CfgMagazineWells
             16Rnd_9x21_yellow_Mag_v2
 		};
     };
+	class M320_408{};
+	class GM6_127x108{};
 	// Arma 3 Aegis
 	class STANAG_556x45_SDAR
 	{
