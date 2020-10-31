@@ -12,4 +12,4 @@ class CfgVehicles
     // NAAF
     #include "cfgNAAF.hpp"
 };
-// #include "cfgGroups.hpp"
+#include "cfgGroups.hpp"
