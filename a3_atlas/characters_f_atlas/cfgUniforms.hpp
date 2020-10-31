@@ -11,7 +11,6 @@ class I_diver_F;
 class I_sniper_F;
 // Arma 3 Apex
 class I_C_Soldier_Bandit_6_F;
-class O_V_Soldier_hex_F;
 class C_Man_casual_1_F;
 // Arma 3 Enoch
 class B_CBRN_Man_Oversuit_01_MTP_F;

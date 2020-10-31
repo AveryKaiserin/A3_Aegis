@@ -9,6 +9,7 @@ class CfgVehicles
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
+	#include "cfgViper.hpp"				// Viper
     /*
 	#include "cfgCDF.hpp"               // CDF
     */

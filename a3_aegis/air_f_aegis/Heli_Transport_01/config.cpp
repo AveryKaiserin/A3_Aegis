@@ -67,7 +67,14 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_Heli_Transport_01_F: Heli_Transport_01_base_F{};
+	class B_Heli_Transport_01_F: Heli_Transport_01_base_F
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Air_F_Beta\Heli_Transport_01\Data\Heli_Transport_01_ext01_BLUFOR_CO.paa",
+			"\A3\Air_F_Beta\Heli_Transport_01\Data\Heli_Transport_01_ext02_BLUFOR_CO.paa"
+		};
+	};
 	class B_Heli_Transport_01_camo_F: B_Heli_Transport_01_F
 	{
 		scope = protected;
