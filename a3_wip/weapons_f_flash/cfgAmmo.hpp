@@ -23,7 +23,7 @@ class CfgAmmo
 		deflectionSlowDown = 0.5;
         explosionTime = 2;
 		timeToLive = 18;
-		CraterEffects = NoCrater;
+		CraterEffects = SecondaryCrater;
 		explosionEffects = ExploAmmoExplosion; //TODO: add custom explosion effects
 	};
 };
