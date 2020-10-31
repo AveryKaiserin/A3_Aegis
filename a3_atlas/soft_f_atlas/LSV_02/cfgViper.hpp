@@ -84,7 +84,7 @@ class Atlas_O_V_LSV_02_armed_whex_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_V_LSV_02_armed_ghex_F.jpg";
+	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_V_LSV_02_armed_whex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -215,7 +215,7 @@ class Atlas_O_V_LSV_02_unarmed_whex_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_V_LSV_02_unarmed_ghex_F.jpg";
+	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_V_LSV_02_unarmed_whex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -344,7 +344,7 @@ class Atlas_O_V_LSV_02_AT_whex_F: LSV_02_AT_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	// editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_V_LSV_02_AT_ghex_F.jpg";
+	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_V_LSV_02_AT_whex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
