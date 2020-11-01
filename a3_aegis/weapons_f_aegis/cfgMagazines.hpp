@@ -98,7 +98,11 @@ class CfgMagazines
 	{
 		count = 36;
 	};
-	class UGL_FlareWhite_F;
+	class UGL_FlareWhite_F: CA_Magazine
+    {
+		modelSpecial = "\A3\Weapons_F\MagazineProxies\mag_40x36_HE_1rnd.p3d";
+		modelSpecialIsProxy = true;
+    };
 	class UGL_FlareGreen_F;
 	class UGL_FlareRed_F;
 	class UGL_FlareYellow_F;

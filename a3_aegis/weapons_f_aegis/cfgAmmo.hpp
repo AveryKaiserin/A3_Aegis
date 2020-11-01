@@ -98,6 +98,7 @@ class CfgAmmo
 	{
 		timeToLive = 40;
 		intensity = 800000;
+        flareSize = 40;
 	};
 	class F_40mm_White: FlareBase
 	{
@@ -190,6 +191,7 @@ class CfgAmmo
         };
 		intensity = 750000;
 		brightness = 100;
+        flareSize = 30;
 	};
 	class F_20mm_Green: F_20mm_White
 	{
@@ -233,6 +235,7 @@ class CfgAmmo
         };
 		intensity = 900000;
 		brightness = 190;
+        flareSize = 50;
 	};
 	// Arma 3 Jets
 	class ammo_Gun20mmAABase;
