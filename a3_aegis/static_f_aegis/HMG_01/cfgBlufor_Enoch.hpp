@@ -96,6 +96,8 @@ class B_W_HMG_01_A_F: B_HMG_01_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_HMG_01_A_F.jpg";
+	scopeArsenal = private;
+	forceInGarage = false;
 	faction = BLU_W_F;
 	class assembleInfo
 	{

@@ -96,6 +96,8 @@ class Atlas_B_G_HMG_01_A_F: B_HMG_01_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_HMG_01_A_F.jpg";
+	scopeArsenal = private;
+	forceInGarage = false;
 	faction = Atlas_BLU_G_F;
 	class assembleInfo
 	{

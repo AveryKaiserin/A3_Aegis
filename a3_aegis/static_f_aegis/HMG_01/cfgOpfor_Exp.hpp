@@ -96,6 +96,8 @@ class O_T_HMG_01_A_F: O_HMG_01_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_HMG_01_A_F.jpg";
+	scopeArsenal = private;
+	forceInGarage = false;
 	faction = OPF_T_F;
 	class assembleInfo
 	{
