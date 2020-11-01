@@ -5,6 +5,7 @@ class Theseus_B_N_Man_Base_F: I_Soldier_F
     scopeCurator = private;
 	faction = Theseus_BLU_N_F;
 	genericNames = GreekMen;
+	side = TWest;
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -14,7 +15,7 @@ class Theseus_B_N_Man_Base_F: I_Soldier_F
 };
 class Theseus_B_N_Soldier_Base_F: Theseus_B_N_Man_Base_F
 {
-	uniformClass = Item_U_I_CombatUniform;		// Change Uniform to new one asap
+	uniformClass = U_I_CombatUniform;		// Change Uniform to new one asap
 };
 class Theseus_B_N_Soldier_A_F: Theseus_B_N_Soldier_Base_F
 {
@@ -24,7 +25,7 @@ class Theseus_B_N_Soldier_A_F: Theseus_B_N_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
 	cost = 110000;
-    uniformClass = Item_U_I_CombatUniform_tshirt; 	// Change Uniform to new one asap
+    uniformClass = U_I_CombatUniform_tshirt; 	// Change Uniform to new one asap
 	backpack = B_Carryall_oli_BNAmmo_F;	
 	weapons[] =
 	{
@@ -85,7 +86,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManMG;
 	cost = 125000;
 	threat[] = {1,0.1,0.3};
-    uniformClass = Item_U_I_CombatUniform_tshirt; // Change Later
+    uniformClass = U_I_CombatUniform_shortsleeve; // Change Later
 	weapons[] =
 	{
 		LMG_Mk200_F,
@@ -134,7 +135,7 @@ class Theseus_B_N_Crew_F: Theseus_B_N_Soldier_Base_F
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
+	uniformClass = U_I_CombatUniform_tshirt;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -193,7 +194,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    uniformClass = Item_U_I_CombatUniform_tshirt;
+    uniformClass = U_I_CombatUniform_shortsleeve;
 	backpack = B_TacticalPack_oli_BNMedic_F;
 	weapons[] =
 	{
@@ -250,7 +251,7 @@ class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 	detectSkill = 31;
 	threat[] = {1,0.5,0.1};
 	camouflage = 1.6;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform;
 	backpack = B_Carryall_oli_BNEng_F;
 	weapons[] =
 	{
@@ -296,7 +297,7 @@ class Theseus_B_N_Soldier_GL_F: Theseus_B_N_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
     role = Grenadier;
 	cost = 200000;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		arifle_TRG21_GL_MRCO_F,
@@ -359,7 +360,7 @@ class Theseus_B_N_Helipilot_F: Theseus_B_N_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
+	uniformClass = U_I_CombatUniform_shortsleeve;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -415,7 +416,7 @@ class Theseus_B_N_Helicrew_F: Theseus_B_N_Helipilot_F
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
 	cost = 80000;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
+	uniformClass = U_I_CombatUniform_shortsleeve;
 	weapons[] =
 	{
 		arifle_G36C_F,
@@ -460,7 +461,7 @@ class Theseus_B_N_soldier_M_F: Theseus_B_N_Soldier_Base_F
 	displayName = $STR_B_soldier_M_F0;
 	role = Marksman;
 	cost = 250000;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		srifle_DMR_06_camo_khs_F,
@@ -522,7 +523,7 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
+	uniformClass = U_I_CombatUniform_tshirt;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -552,13 +553,13 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_jungle,
+		H_MilCap_digi,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_jungle,
+		H_MilCap_digi,
 		DefaultManLinkedItems
 	};
 };
@@ -570,7 +571,7 @@ class Theseus_B_N_Soldier_F: Theseus_B_N_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	cost = 100000;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		arifle_Mk20_ACO_F,
@@ -631,7 +632,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 	cost = 130000;
 	threat[] = {0.8,0.8,0.3};
 	secondaryAmmoCoef = 0.5;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform_shortsleeve;
 	backpack = B_TacticalPack_oli_BNLAT_F;
 	weapons[] =
 	{
@@ -685,7 +686,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
+	uniformClass = U_I_CombatUniform_shortsleeve;
 	weapons[] =
 	{
 		arifle_TRG21_ACO_pointer_F,
@@ -703,7 +704,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	magazines[] =
 	{
 		mag_4(30rnd_556x45_Stanag),
-		mag_2(30rnd_556x45_Stanag_Tracer),
+		mag_2(30rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
@@ -712,7 +713,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	respawnMagazines[] =
 	{
 		mag_4(30rnd_556x45_Stanag),
-		mag_2(30rnd_556x45_Stanag_Tracer),
+		mag_2(30rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
@@ -744,7 +745,7 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
-	uniformClass = Item_U_I_CombatUniform;
+	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		arifle_TRG21_GL_MRCO_F,
@@ -761,8 +762,7 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(30rnd_556x45_Stanag),
-		mag_2(30rnd_556x45_Stanag_Tracer),
+		mag_6(30rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -773,8 +773,7 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30rnd_556x45_Stanag),
-		mag_2(30rnd_556x45_Stanag_Tracer),
+		mag_6(30rnd_556x45_Stanag),
 		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -801,8 +800,8 @@ class Theseus_B_N_RadioOperator_F: Theseus_B_N_Soldier_F
 	author = $STR_A3_A_AveryTheKitty;
 	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Item_U_I_CombatUniform_tshirt;
-	backpack = B_RadioBag_01_jungle_F;
+	uniformClass = U_I_CombatUniform_shortsleeve;
+	backpack = B_RadioBag_01_digi_F;
 	weapons[] =
     {
         arifle_Mk20_ACO_F,
@@ -867,6 +866,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
 	magazines[] = {};
+	uniformClass = U_I_CombatUniform_shortsleeve;
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{

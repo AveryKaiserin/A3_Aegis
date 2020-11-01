@@ -17,7 +17,7 @@ class B_Carryall_oli_BNAmmo_F: B_Carryall_oli
 		item_xx(FirstAidKit,4);
 	};
 };
-// TODO
+
 class B_Carryall_oli_BNEng_F: B_Carryall_oli
 {
 	author = $STR_A3_A_Heliotrope;
@@ -50,6 +50,6 @@ class B_TacticalPack_oli_BNLAT_F: B_TacticalPack_oli
 	class TransportMagazines
 	{
 		mag_xx(MRAWS_HEAT55_F,1);
-		mag_xx(MRAWS_HE_F,2);
+		mag_xx(MRAWS_HE_F,3);
 	};
 };
