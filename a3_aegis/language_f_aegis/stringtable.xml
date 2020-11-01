@@ -7269,6 +7269,193 @@
 			</Key>
 		</Container>
 		<Container name="VhC">
+			<Key ID="STR_A3_A_TEXTURESOURCES_BAF0">
+				<Original>BAF</Original>
+				<Chinese>BAF</Chinese>
+				<French>BAF</French>
+				<Spanish>BAF</Spanish>
+				<Italian>BAF</Italian>
+				<Polish>BAF</Polish>
+				<Russian>BAF</Russian>
+				<German>BAF</German>
+				<Czech>BAF</Czech>
+				<English>BAF</English>
+				<Portuguese>BAF</Portuguese>
+				<Korean>BAF</Korean>
+				<Chinesesimp>BAF</Chinesesimp>
+				<Japanese>BAF</Japanese>
+				<Turkish>BAF</Turkish>
+			</Key>
+            <Key ID="STR_A3_A_TEXTURESOURCES_ION0">
+				<Original>ION</Original>
+				<Chinese>ION</Chinese>
+				<French>ION</French>
+				<Spanish>ION</Spanish>
+				<Italian>ION</Italian>
+				<Polish>ION</Polish>
+				<Russian>ION</Russian>
+				<German>ION</German>
+				<Czech>ION</Czech>
+				<English>ION</English>
+				<Portuguese>ION</Portuguese>
+				<Korean>ION</Korean>
+				<Chinesesimp>ION</Chinesesimp>
+				<Japanese>ION</Japanese>
+				<Turkish>ION</Turkish>
+            </Key>
+            <Key ID="STR_A3_A_TEXTURESOURCES_DARKGREY0">
+				<Original>Dark Grey</Original>
+				<Chinese>Dark Grey</Chinese>
+				<French>Dark Grey</French>
+				<Spanish>Dark Grey</Spanish>
+				<Italian>Dark Grey</Italian>
+				<Polish>Dark Grey</Polish>
+				<Russian>Dark Grey</Russian>
+				<German>Dark Grey</German>
+				<Czech>Dark Grey</Czech>
+				<English>Dark Grey</English>
+				<Portuguese>Dark Grey</Portuguese>
+				<Korean>Dark Grey</Korean>
+				<Chinesesimp>Dark Grey</Chinesesimp>
+				<Japanese>Dark Grey</Japanese>
+				<Turkish>Dark Grey</Turkish>
+            </Key>
+            <Key ID="STR_A3_A_TEXTURESOURCES_DARKGREYCAMO0">
+				<Original>Dark Grey Camo</Original>
+				<Chinese>Dark Grey Camo</Chinese>
+				<French>Dark Grey Camo</French>
+				<Spanish>Dark Grey Camo</Spanish>
+				<Italian>Dark Grey Camo</Italian>
+				<Polish>Dark Grey Camo</Polish>
+				<Russian>Dark Grey Camo</Russian>
+				<German>Dark Grey Camo</German>
+				<Czech>Dark Grey Camo</Czech>
+				<English>Dark Grey Camo</English>
+				<Portuguese>Dark Grey Camo</Portuguese>
+				<Korean>Dark Grey Camo</Korean>
+				<Chinesesimp>Dark Grey Camo</Chinesesimp>
+				<Japanese>Dark Grey Camo</Japanese>
+				<Turkish>Dark Grey Camo</Turkish>
+            </Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_CAMOARIDHEX0">
+                <Original>Hex</Original>
+                <Chinese>六邊形</Chinese>
+                <French>Hex</French>
+                <Spanish>Hex</Spanish>
+                <Italian>Esag.</Italian>
+                <Polish>Hex</Polish>
+                <Russian>Гекс</Russian>
+                <German>Sechsecke</German>
+                <Czech>Hex</Czech>
+                <English>Hex</English>
+                <Portuguese>Camuflado</Portuguese>
+                <Korean>헥스</Korean>
+                <Chinesesimp>六角形</Chinesesimp>
+                <Japanese>六角形</Japanese>
+                <Turkish>Hex</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_CAMOGREYHEX0">
+                <Original>Grey</Original>
+                <Chinese>灰色</Chinese>
+                <French>Gris</French>
+                <Spanish>Gris</Spanish>
+                <Italian>Grigio</Italian>
+                <Polish>Szary</Polish>
+                <Russian>Серый</Russian>
+                <German>Grau</German>
+                <Czech>Šedá</Czech>
+                <English>Grey</English>
+                <Portuguese>Cinza</Portuguese>
+                <Korean>회색</Korean>
+                <Chinesesimp>灰色</Chinesesimp>
+                <Japanese>灰色</Japanese>
+                <Turkish>Gri</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_CAMOBLUE0">
+                <Original>Blue</Original>
+                <Chinese>藍色</Chinese>
+                <French>Bleu</French>
+                <Spanish>Azul</Spanish>
+                <Italian>Blu</Italian>
+                <Polish>Niebieski</Polish>
+                <Russian>Синий</Russian>
+                <German>Blau</German>
+                <Czech>Modrá</Czech>
+                <English>Blue</English>
+                <Portuguese>Azul</Portuguese>
+                <Korean>청색</Korean>
+                <Chinesesimp>蓝色</Chinesesimp>
+                <Japanese>青</Japanese>
+                <Turkish>Mavi</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_CAMOGREENHEX0">
+                <Original>Green Hex</Original>
+                <Chinese>綠色六邊形</Chinese>
+                <French>Hex vert</French>
+                <Spanish>Hex verde</Spanish>
+                <Italian>Esag. verde</Italian>
+                <Polish>Zielony hex</Polish>
+                <Russian>Зеленый гекс</Russian>
+                <German>Grüne Sechsecke</German>
+                <Czech>Zelený hex</Czech>
+                <English>Green Hex</English>
+                <Portuguese>Verde camuflado</Portuguese>
+                <Korean>녹색 헥스</Korean>
+                <Chinesesimp>绿色六角形</Chinesesimp>
+                <Japanese>緑六角形</Japanese>
+                <Turkish>Yeşil Hex</Turkish>
+			</Key>
+            <Key ID="STR_A3_TEXTURESOURCES_DIGTALCAMOGREEN0">
+                <Original>AAF 1</Original>
+                <Chinese>AAF 1</Chinese>
+                <French>AAF 1</French>
+                <Spanish>AAF 1</Spanish>
+                <Italian>AAF 1</Italian>
+                <Polish>AAF 1</Polish>
+                <Russian>AAF 1</Russian>
+                <German>AAF 1</German>
+                <Czech>AAF 1</Czech>
+                <English>AAF 1</English>
+                <Portuguese>AAF 1</Portuguese>
+                <Korean>AAF 1</Korean>
+                <Chinesesimp>AAF 1</Chinesesimp>
+                <Japanese>AAF 1</Japanese>
+                <Turkish>AAF 1</Turkish>
+            </Key>
+            <Key ID="STR_A3_TEXTURESOURCES_DIGTALCAMOGREY0">
+                <Original>AAF 2</Original>
+                <Chinese>AAF 2</Chinese>
+                <French>AAF 2</French>
+                <Spanish>AAF 2</Spanish>
+                <Italian>AAF 2</Italian>
+                <Polish>AAF 2</Polish>
+                <Russian>AAF 2</Russian>
+                <German>AAF 2</German>
+                <Czech>AAF 2</Czech>
+                <English>AAF 2</English>
+                <Portuguese>AAF 2</Portuguese>
+                <Korean>AAF 2</Korean>
+                <Chinesesimp>AAF 2</Chinesesimp>
+                <Japanese>AAF 2</Japanese>
+                <Turkish>AAF 2</Turkish>
+            </Key>
+            <Key ID="STR_A3_TEXTURESOURCES_CAMOGREY0">
+                <Original>Grey</Original>
+                <Chinese>灰色</Chinese>
+                <French>Gris</French>
+                <Spanish>Gris</Spanish>
+                <Italian>Grigio</Italian>
+                <Polish>Szary</Polish>
+                <Russian>Серый</Russian>
+                <German>Grau</German>
+                <Czech>Šedá</Czech>
+                <English>Grey</English>
+                <Portuguese>Cinza</Portuguese>
+                <Korean>회색</Korean>
+                <Chinesesimp>灰色</Chinesesimp>
+                <Japanese>灰色</Japanese>
+                <Turkish>Gri</Turkish>
+            </Key>
 			<Key ID="STR_A3_A_TEXTURESOURCES_RUS0">
 				<Original>Russia</Original>
 				<Chinese>俄國</Chinese>
@@ -7285,6 +7472,40 @@
 				<Chinesesimp>俄国</Chinesesimp>
 				<Japanese>ロシア</Japanese>
 				<Turkish>Rusya</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_DESERT0">
+				<Original>Desert</Original>
+				<Chinese>沙漠</Chinese>
+				<French>désert</French>
+				<Spanish>desierto</Spanish>
+				<Italian>deserto</Italian>
+				<Polish>pustynia</Polish>
+				<Russian>пустыня</Russian>
+				<German>Wüste</German>
+				<Czech>poušť</Czech>
+				<English>Desert</English>
+				<Portuguese>Deserto</Portuguese>
+				<Korean>사막</Korean>
+				<Chinesesimp>沙漠</Chinesesimp>
+				<Japanese>砂漠</Japanese>
+				<Turkish>Çöl</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_TEXTURESOURCES_WOODLAND0">
+				<Original>Woodland</Original>
+				<Chinese>森林</Chinese>
+				<French>Boisé</French>
+				<Spanish>bosque</Spanish>
+				<Italian>boschi</Italian>
+				<Polish>leśny</Polish>
+				<Russian>лес</Russian>
+				<German>Wald</German>
+				<Czech>woodland</Czech>
+				<English>Woodland</English>
+				<Portuguese>Floresta</Portuguese>
+				<Korean>산악</Korean>
+				<Chinesesimp>林地</Chinesesimp>
+				<Japanese>森林</Japanese>
+				<Turkish>Ağaçlık</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_TEXTURESOURCES_TROPIC0">
 				<Original>Tropic</Original>
@@ -7319,23 +7540,6 @@
 				<Chinesesimp>FIA 3</Chinesesimp>
 				<Japanese>FIA 3</Japanese>
 				<Turkish>FIA 3</Turkish>
-			</Key>
-			<Key ID="STR_A3_A_TEXTURESOURCES_WOODLAND0">
-				<Original>Woodland</Original>
-				<Chinese>森林</Chinese>
-				<French>Boisé</French>
-				<Spanish>bosque</Spanish>
-				<Italian>boschi</Italian>
-				<Polish>leśny</Polish>
-				<Russian>лес</Russian>
-				<German>Wald</German>
-				<Czech>woodland</Czech>
-				<English>Woodland</English>
-				<Portuguese>Floresta</Portuguese>
-				<Korean>산악</Korean>
-				<Chinesesimp>林地</Chinesesimp>
-				<Japanese>森林</Japanese>
-				<Turkish>Ağaçlık</Turkish>
 			</Key>
 		</Container>
     	<Container name="Modules_F">

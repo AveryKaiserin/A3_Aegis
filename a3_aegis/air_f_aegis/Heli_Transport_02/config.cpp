@@ -81,9 +81,9 @@ class CfgVehicles
 				};
 				factions[] = {BLU_ION_F};
 			};
-			class Blufor
+			class BAF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLU0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -196,9 +196,9 @@ class CfgVehicles
 				};
 				factions[] = {IND_F};
 			};
-			class Blufor
+			class BAF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLU0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{

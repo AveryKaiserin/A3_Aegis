@@ -170,7 +170,7 @@ class B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
 	faction = BLU_A_F;
 	textureList[] =
 	{
-		Blufor,1,
+		BAF,1,
 		Grey,0
 	};
 	hiddenSelectionsTextures[] =
@@ -367,7 +367,7 @@ class B_A_Heli_Transport_02_medevac_F: Heli_Transport_02_medevac_base_F
 	faction = BLU_A_F;
 	crew = B_A_Helipilot_F;
 	typicalCargo[] = {B_A_Helicrew_F};
-	textureList[] = {Blufor,1};
+	textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Air_F_Aegis\Heli_Transport_02\Data\Heli_Transport_02_1_medevac_CO.paa",

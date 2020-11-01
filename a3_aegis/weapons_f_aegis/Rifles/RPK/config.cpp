@@ -19,7 +19,7 @@ class CfgWeapons
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\RPK_F.p3d";
 	  	hiddenSelections[] = {camo_1};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\Data\RPK_CO.paa"};
-		descriptionShort = $STR_A3_A_CfgWeapons_arifle_RPK_F1;
+		descriptionShort = $STR_A3_A_CfgWeapons_arifle_RPK_base_F1;
 		class Library
 		{
 			libTextDesc = $STR_A3_A_CfgWeapons_arifle_RPK_base_F_Library0;

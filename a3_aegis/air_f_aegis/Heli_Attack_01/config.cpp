@@ -99,6 +99,18 @@ class CfgVehicles
 					BLU_W_F
 				};
 			};
+			class BAF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_BAF_CO.paa"};
+				factions[] =
+				{
+					BLU_A_F,
+					BLU_A_tna_F,
+					BLU_A_wdl_F
+				};
+			};
 			class Grey
 			{
 				displayName = $STR_A3_TEXTURESOURCES_GREY0;

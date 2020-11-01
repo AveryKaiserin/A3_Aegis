@@ -27,9 +27,9 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_CAMOGREY0;
 			};
-			class EAF
+			class LDF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_EAF0;
+				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{

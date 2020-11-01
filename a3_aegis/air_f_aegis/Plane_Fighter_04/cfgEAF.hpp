@@ -149,7 +149,7 @@ class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 	faction = IND_E_F;
 	crew = I_E_Fighter_Pilot_F;
 	typicalCargo[] = {I_E_Fighter_Pilot_F};
-	textureList[] = {EAF,1};
+	textureList[] = {LDF,1};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Air_F_Aegis\Plane_Fighter_04\Data\Fighter_04_fuselage_01_EAF_CO.paa",

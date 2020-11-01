@@ -141,7 +141,7 @@ class B_A_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_03\Data\Heli_Light_03_base_BLUFOR_CO.paa"};
 	textureList[] =
 	{
-		Blufor,1,
+		BAF,1,
 		Grey,0
 	};
 	magazines[] =
@@ -300,7 +300,7 @@ class B_A_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_03\Data\Heli_Light_03_base_BLUFOR_CO.paa"};
 	textureList[] =
 	{
-		Blufor,1,
+		BAF,1,
 		Grey,0
 	};
 	class TransportMagazines

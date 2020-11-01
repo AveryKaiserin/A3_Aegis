@@ -46,9 +46,9 @@ class CfgVehicles
 					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_HAF_CA.paa"
 				};
 			};
-			class Blufor
+			class BAF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLU0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{

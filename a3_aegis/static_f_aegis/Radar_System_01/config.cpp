@@ -18,7 +18,7 @@ class CfgVehicles
 			};
 			class LDF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_LDF0;
+				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				factions[] = {IND_E_F};
 				textures[] =

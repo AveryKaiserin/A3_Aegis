@@ -19,6 +19,25 @@ class CfgVehicles
 			120Rnd_CMFlare_Chaff_Magazine
 		};
 		class EjectionSystem;
+		class TextureSources
+		{
+			class Blu
+			{
+				displayName = $STR_A3_TEXTURESOURCES_BLU0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3\Air_F_EPC\Plane_CAS_01\Data\Plane_CAS_01_ext01_CO.paa",
+                    "\A3\Air_F_EPC\Plane_CAS_01\Data\Plane_CAS_01_ext02_CO.paa"
+				};
+				factions[] =
+                {
+                    BLU_F,
+                    BLU_T_F,
+                    BLU_W_F
+                };
+			};
+        };
 	};
 	class Plane_CAS_01_dynamicLoadout_base_F: Plane_CAS_01_base_F
 	{
@@ -29,9 +48,14 @@ class CfgVehicles
 			120Rnd_CMFlare_Chaff_Magazine
 		};
 	};
+	class B_Plane_CAS_01_F: Plane_CAS_01_base_F
+	{
+        textureList[] = {Blu,1};
+    };
 	class B_Plane_CAS_01_dynamicLoadout_F: Plane_CAS_01_dynamicLoadout_base_F
 	{
 		displayName = $STR_A3_CfGVEHICLES_B_PLANE_01_F0;
+        textureList[] = {Blu,1};
 	};
 	// Arma 3 Aegis
 	#include "cfgBlufor_Exp.hpp"        // US (Pacific)
