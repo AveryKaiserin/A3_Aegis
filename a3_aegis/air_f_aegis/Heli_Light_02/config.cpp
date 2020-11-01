@@ -152,7 +152,6 @@ class CfgVehicles
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgVehicles_Heli_Light_02_civil_base_F0;
 		model = "\A3_Aegis\Air_F_Aegis\Heli_Light_02\Heli_Light_02_civil_F.p3d";
-		forceInGarage = false;
 		cost = 900000;
 		threat[] = {0,0,0};
 		radarType = CM_none;

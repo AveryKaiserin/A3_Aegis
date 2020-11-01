@@ -97,6 +97,8 @@ class Atlas_B_G_Truck_01_Repair_F: B_Truck_01_Repair_F
     editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Truck_01_Repair_F.jpg";
     scope = public;
     scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
     side = TWest;
     faction = Atlas_BLU_G_F;
     crew = Atlas_B_G_Soldier_F;

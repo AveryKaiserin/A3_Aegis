@@ -555,6 +555,40 @@
 					<Japanese>軽量戦闘用ヘルメット（緑、改良型）</Japanese>
 					<Turkish>Hafif Savaş Miğferi (Yeşil, Gelişmiş)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_O_Helmet_canvas_owcamo0">
+					<Original>Modular Helmet (Woodland Hex)</Original>
+					<Chinese>模組化通訊頭盔（森林六邊形）</Chinese>
+					<French>Casque modulaire (hex forêt)</French>
+					<Spanish>Casco modular (Hex bosque)</Spanish>
+					<Italian>Elmetto modulare (esag. boschi)</Italian>
+					<Polish>Hełm modułowy (las hex)</Polish>
+					<Russian>Модульный шлем (лес гекс)</Russian>
+					<German>Modularer Helm (Waldland Sechsecke)</German>
+					<Czech>Modulární přilba (woodland hex)</Czech>
+					<English>Modular Helmet (Woodland Hex)</English>
+					<Portuguese>Capacete modular (floresta hex)</Portuguese>
+					<Korean>모듈형 헬멧(산악 헥스)</Korean>
+					<Chinesesimp>标准头盔（林地六角形）</Chinesesimp>
+					<Japanese>モジュラーヘルメット（砂漠六角形）</Japanese>
+					<Turkish>Modüler Miğfer (Ağaçlık Hex)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_O_Helmet_canvas_semiarid0">
+					<Original>Modular Helmet (Semi-Arid)</Original>
+					<Chinese>模組化通訊頭盔（半乾燥氣候）</Chinese>
+					<French>Casque modulaire (Semi-Aride)</French>
+					<Spanish>Casco modular (semiárido)</Spanish>
+					<Italian>Elmetto modulare (semi-arido)</Italian>
+					<Polish>Hełm modułowy (region półsuchy)</Polish>
+					<Russian>Модульный шлем (полузасушливая местность)</Russian>
+					<German>Modularer Helm (Halbtrocken)</German>
+					<Czech>Modulární přilba (polosuchý porost)</Czech>
+					<English>Modular Helmet (Semi-Arid)</English>
+					<Portuguese>Capacete modular (Semiárido)</Portuguese>
+					<Korean>모듈형 헬멧(반건조)</Korean>
+					<Chinesesimp>标准头盔（半干旱）</Chinesesimp>
+					<Japanese>モジュラーヘルメット（半乾燥地）</Japanese>
+					<Turkish>Modüler Miğfer (Yarı Kurak)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetO_whex_F0">
 					<Original>Protector Helmet (Woodland Hex)</Original>
 					<Chinese>保護者頭盔（森林六邊形）</Chinese>

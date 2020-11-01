@@ -98,6 +98,8 @@ class B_A_Truck_01_Repair_F: B_Truck_01_Repair_F
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Truck_01_Repair_F.jpg";
     scope = public;
     scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
     side = TWest;
     faction = BLU_A_F;
     crew = B_A_Soldier_F;

@@ -139,6 +139,8 @@ class B_W_Heli_light_01_F: B_Heli_Light_01_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Heli_light_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Helipilot_F;
@@ -295,7 +297,8 @@ class B_W_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Heli_Light_01_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	scopeGarage = private;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Helipilot_F;
@@ -452,6 +455,8 @@ class B_W_Heli_light_01_recon_F: B_Heli_Light_01_recon_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Heli_light_01_recon_F.jpg";
 	scope = protected;
     scopeCurator = private;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Helipilot_F;

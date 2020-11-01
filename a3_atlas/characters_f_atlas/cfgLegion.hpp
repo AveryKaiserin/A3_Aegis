@@ -544,6 +544,59 @@ class Atlas_B_L_Medic_F: Atlas_B_L_Soldier_base_F
         G_NATO_recon
 	};
 };
+class Atlas_B_L_Crew_F: Atlas_B_L_Soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_Crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	uniformClass = U_B_CombatUniform_sgg_vest;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_Olive_F,
+		H_HelmetCrew_I,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_Olive_F,
+		H_HelmetCrew_I,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+	{
+		arifle_MSBS65_black_aco_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_black_aco_f,
+		hgun_Pistol_heavy_01_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_2(11Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+    engineer = true;
+	cost = 90000;
+	role = Crewman;
+	camouflage = 1.6;
+};
 class Atlas_B_L_Engineer_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

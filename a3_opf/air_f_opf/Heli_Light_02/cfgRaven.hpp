@@ -277,6 +277,8 @@ class Opf_I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_R_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TGuerrila;
 	faction = Opf_IND_R_F;
 	crew = Opf_I_R_helipilot_F;

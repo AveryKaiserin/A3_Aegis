@@ -28,6 +28,8 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetSpecB_green,$STR_A3_A_CfgWeapons_H_HelmetSpecB_green0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetB_light_green,$STR_A3_A_CfgWeapons_H_HelmetB_light_green0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetSpecB_light_green,$STR_A3_A_CfgWeapons_H_HelmetSpecB_light_green0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_O_Helmet_canvas_owcamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_owcamo0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_O_Helmet_canvas_semiarid,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_semiarid0,EdSubcat_Helmets)
     /*
 	HEADGEAR_HOLDER(H_HelmetO_semiarid,$STR_A3_A_CfgWeapons_H_HelmetO_semiarid0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetLeaderO_semiarid,$STR_A3_A_CfgWeapons_H_HelmetLeaderO_semiarid0,EdSubcat_Helmets)

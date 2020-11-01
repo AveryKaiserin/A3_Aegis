@@ -164,6 +164,7 @@ class I_Heli_Transport_02_medevac_F: Heli_Transport_02_medevac_base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Transport_02_medevac_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	forceInGarage = true;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;

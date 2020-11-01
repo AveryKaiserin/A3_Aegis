@@ -4206,6 +4206,23 @@
 					<Japanese>モジュラーヘルメット（市街）</Japanese>
 					<Turkish>Modüler Miğfer (Şehir)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ghex_F0">
+					<Original>Modular Helmet (Green Hex)</Original>
+					<Chinese>模組化通訊頭盔（綠色六邊形）</Chinese>
+					<French>Casque modulaire (hex vert)</French>
+					<Spanish>Casco modular (Hex verde)</Spanish>
+					<Italian>Elmetto modulare (esag. verde)</Italian>
+					<Polish>Hełm modułowy (zielone hex)</Polish>
+					<Russian>Модульный шлем (зеленый гекс)</Russian>
+					<German>Modularer Helm (Grüne Sechsecke)</German>
+					<Czech>Modulární přilba (zelený hex)</Czech>
+					<English>Modular Helmet (Green Hex)</English>
+					<Portuguese>Capacete modular (verde camuflado)</Portuguese>
+					<Korean>모듈형 헬멧(녹색 헥스)</Korean>
+					<Chinesesimp>标准头盔（绿色六角）</Chinesesimp>
+					<Japanese>モジュラーヘルメット（緑六角形）</Japanese>
+					<Turkish>Modüler Miğfer (Yeşil Hex)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Uniforms">
 				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_mcam_tshirt0">

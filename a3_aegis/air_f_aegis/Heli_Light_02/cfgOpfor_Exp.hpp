@@ -278,7 +278,8 @@ class O_T_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	scopeGarage = private;
+	scopeArsenal = private;
+	forceInGarage = false;
 	displayName = $STR_A3_CfgVehicles_O_Heli_Light_02_Unarmed_F0;
 	accuracy = 1.5;
 	cost = 900000;

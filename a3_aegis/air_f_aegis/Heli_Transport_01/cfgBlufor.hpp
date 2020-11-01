@@ -128,6 +128,7 @@ class B_Heli_Transport_01_medevac_F: Heli_Transport_01_medevac_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Heli_Transport_01_medevac_F.jpg";
 	scope = public;
+	forceInGarage = true;
 	side = TWest;
 	faction = BLU_F;
 	crew = B_Helipilot_F;

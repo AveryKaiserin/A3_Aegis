@@ -275,7 +275,8 @@ class B_W_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Heli_Transport_03_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	scopeGarage = private;
+	scopeArsenal = private;
+    forceInGarage = false;
 	side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Helipilot_F;

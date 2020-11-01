@@ -3,7 +3,7 @@ class C_Heli_Light_02_civil_F: Heli_Light_02_civil_base_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\C_Heli_Light_02_civil_F.jpg";
 	scope = public;
-	scopeGarage = public;
+    forceInGarage = true;
 	side = TCivilian;
 	faction = CIV_F;
 	crew = C_man_pilot_F;

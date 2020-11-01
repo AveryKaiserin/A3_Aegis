@@ -163,6 +163,7 @@ class C_Heli_Transport_02_civil_F: Heli_Transport_02_civil_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\C_Heli_Transport_02_civil_F.jpg";
 	scope = public;
+    forceInGarage = true;
 	crew = C_man_pilot_F;
 	typicalCargo[] = {C_man_pilot_F};
 	side = TCivilian;

@@ -278,6 +278,8 @@ class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_Helipilot_F;

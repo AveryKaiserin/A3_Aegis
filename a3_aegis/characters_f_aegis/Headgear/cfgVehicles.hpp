@@ -253,6 +253,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetSpecB_light_wdl,$STR_A3_A_CfgWeapons_H_HelmetSpecB_light_wdl0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_ocamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ocamo0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_oucamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_oucamo0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_O_Helmet_canvas_ghex_F,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ghex_F0,EdSubcat_Helmets)
     // Deprecated classes
     DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I)
     DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F)

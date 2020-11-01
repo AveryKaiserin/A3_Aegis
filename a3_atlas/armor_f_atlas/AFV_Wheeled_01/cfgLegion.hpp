@@ -255,7 +255,8 @@ class Atlas_B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	crew = Atlas_B_L_Crew_F;
 	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_AFV_Wheeled_01_cannon_F0;
-	scope = public;
+	scope = protected;
+    scopeCurator = private; // del this
 	hiddenSelectionsTextures[] =
 	{
         "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",
@@ -567,7 +568,8 @@ class Atlas_B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	crew = Atlas_B_L_Crew_F;
 	typicalCargo[] = {Atlas_B_L_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_T_AFV_Wheeled_01_up_cannon_F0;
-	scope = public;
+	scope = protected;
+    scopeCurator = private; // del this
 	hiddenSelectionsTextures[] =
 	{
         "\A3_Atlas\Armor_F_Atlas\AFV_Wheeled_01\Data\afv_wheeled_01_EXT1_jagged_01_CO.paa",

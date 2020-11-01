@@ -118,7 +118,7 @@ class CfgVehicles
         driverLeftLegAnimName = "";
         driverRightLegAnimName = "";
         // Get in / get out animations
-		preciseGetInOut = true;
+		preciseGetInOut = false;
 		getInRadius = 1.5;
 		getinAction = GetInHigh;
 		getoutaction = GetOutHigh;

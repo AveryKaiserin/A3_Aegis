@@ -2226,6 +2226,13 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_O_Helmet_canvas_oucamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_helmet_canvas_oucamo_CO.paa"};
 	};
+	class H_O_Helmet_canvas_ghex_F: H_HelmetIA
+	{
+	  	author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgWeapons_H_O_Helmet_canvas_ghex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_O_Helmet_canvas_ghex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_helmet_canvas_hexgreen_CO.paa"};
+	};
 	class H_Booniehat_eaf_arid: H_Booniehat_khk
 	{
 		author = $STR_A3_A_AveryTheKitty;

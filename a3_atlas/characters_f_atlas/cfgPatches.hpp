@@ -78,6 +78,7 @@ class CfgPatches
             Atlas_O_W_Survivor_F,
             
             // Legionnaires
+            Atlas_B_L_Crew_F,
             Atlas_B_L_Engineer_F,
             Atlas_B_L_Helicrew_F,
             Atlas_B_L_Helipilot_F,

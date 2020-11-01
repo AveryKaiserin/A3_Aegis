@@ -125,7 +125,6 @@ class CfgVehicles
 		cost = 1400000;
 		threat[] = {0,0,0};
 		attendant = true;
-		forceInGarage = true;
 		class TransportBackpacks
 		{
 			bag_xx(B_Parachute,8);

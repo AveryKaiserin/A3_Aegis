@@ -249,7 +249,7 @@ class Turrets: Turrets
 		gunnerInAction = Heli_Attack_03_Gunner;
 		gunnerGetInAction = GetInHigh;
 		gunnerGetOutAction = GetOutHigh;
-		preciseGetInOut = true;
+		preciseGetInOut = false;
         // Damage and hitpoints
 		class HitPoints
 		{

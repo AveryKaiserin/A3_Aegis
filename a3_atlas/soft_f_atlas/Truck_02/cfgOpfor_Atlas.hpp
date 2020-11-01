@@ -530,6 +530,8 @@ class Atlas_O_T_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;

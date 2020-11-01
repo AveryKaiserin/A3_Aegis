@@ -138,6 +138,8 @@ class I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Light_01_F.jpg";
 	scope = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;
@@ -295,6 +297,8 @@ class I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Light_01_dynamicLoadout_F.jpg";
 	scope = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;
@@ -458,7 +462,8 @@ class I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Light_01_recon_F.jpg";
 	scope = protected;
     scopeCurator = private;
-	forceInGarage = true;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;

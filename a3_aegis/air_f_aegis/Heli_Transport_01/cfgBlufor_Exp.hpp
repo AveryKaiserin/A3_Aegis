@@ -287,6 +287,8 @@ class B_T_Heli_Transport_01_medevac_F: B_Heli_Transport_01_medevac_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_Heli_Transport_01_medevac_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TWest;
 	faction = BLU_T_F;
 	crew = B_T_Helipilot_F;

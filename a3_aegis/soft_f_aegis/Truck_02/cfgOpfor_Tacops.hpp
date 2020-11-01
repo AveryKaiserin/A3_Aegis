@@ -530,6 +530,8 @@ class O_A_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = false;
 	side = TEast;
 	faction = OPF_A_F;
 	crew = O_A_soldier_F;
