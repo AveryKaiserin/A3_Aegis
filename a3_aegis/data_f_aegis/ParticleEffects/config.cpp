@@ -44,9 +44,9 @@ class CfgCloudlets
         };
 		moveVelocity[] =
         {
-            0,
-            0,
-            0
+            0,      // X
+            0,      // Y
+            0       // Z
         };
 		onTimerScript = "";
 		particleFSFrameCount = 1;
@@ -134,72 +134,72 @@ class CfgCloudlets
             280     // 100%
         };
 	};
-    // Smoke shells - UGL
-	class GrenadeSmokeWhite: Default
+};
+class CfgLights
+{
+	class Chemlight_Green
 	{
-		colorCoef[] =
-        {
-            colorR,
-            colorG,
-            colorB,
-            colorA
-        };
-		interval = 0.06;
-		circleRadius = 0;
-		circleVelocity[] = {0,0,0};
-		particleShape = "\A3\Data_F\ParticleEffects\Universal\Universal.p3d";
-		particleFSNtieth = 16;
-		particleFSIndex = 12;
-		particleFSFrameCount = 13;
-		particleFSLoop = 0;
-		angleVar = 1;
-		animationName = "";
-		particleType = Billboard;
-		timerPeriod = 1;
-		lifeTime = 12;
-		moveVelocity[] = {0,0,0};
-		rotationVelocity = 0;
-		weight = 8;
-		volume = 1;
-		rubbing = 0.05;
-		size[] =
-        {
-            5,
-            10,
-            13,
-            16,
-            18,
-            20,
-            21,
-            22
-        };
 		color[] =
         {
-            {0.6,0.6,0.6,0.2},
-            {0.6,0.6,0.6,0.05},
-            {0.6,0.6,0.6,0}
+            0.2,    // R
+            1,      // G
+            0,      // B
+            1       // A
         };
-		animationSpeed[] =
+		diffuse[] =
         {
-            1.5,
-            0.5
+            0.2,    // R
+            1,      // G
+            0       // B
         };
-		randomDirectionPeriod = 1;
-		randomDirectionIntensity = 0;
-		onTimerScript = "";
-		beforeDestroyScript = "";
-		destroyOnWaterSurface = 1;
-		destroyOnWaterSurfaceOffset = -0.6;
-		lifeTimeVar = 4;
-		positionVar[] = {4,3,4};
-		MoveVelocityVar[] = {0.2,0.2,0.2};
-		rotationVelocityVar = 20;
-		sizeVar = 0.3;
-		colorVar[] = {0,0,0,0.35};
-		randomDirectionPeriodVar = 0;
-		randomDirectionIntensityVar = 0;
 	};
-    // Smoke shells - artillery
-    // Smoke dispensers
+	class Chemlight_Red: Chemlight_Green
+	{
+		color[] =
+        {
+            1,      // R
+            0,      // G
+            0.025,  // B
+            1       // A
+        };
+		diffuse[] =
+        {
+            1,      // R
+            0.0,    // G
+            0.0025  // B
+        };
+	};
+	class ChemLight_Yellow: Chemlight_Green
+	{
+		color[] =
+        {
+            1,      // R
+            0.6,    // G
+            0,      // B
+            1       // A
+        };
+		diffuse[] =
+        {
+            1,      // R
+            0.6,    // G
+            0       // B
+        };
+	};
+	class ChemLight_Blue: Chemlight_Green
+	{
+		color[] =
+        {
+            0,      // R
+            0.6,    // G
+            1,      // B
+            1       // A
+        };
+		diffuse[] =
+        {
+            0,      // R
+            0.6,    // G
+            1       // B
+        };
+	};
 };
 #include "effects.hpp"

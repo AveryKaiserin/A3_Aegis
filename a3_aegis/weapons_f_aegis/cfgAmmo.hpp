@@ -94,6 +94,11 @@ class CfgAmmo
         };
 	};
 	class G_40mm_HE;
+    class Chemlight_base;
+	class Chemlight_green: Chemlight_base
+	{
+		typicalspeed = 22;
+	};
 	class FlareBase: FlareCore
 	{
 		timeToLive = 40;
