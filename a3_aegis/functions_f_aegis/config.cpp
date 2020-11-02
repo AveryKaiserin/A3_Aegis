@@ -6,16 +6,6 @@ class CfgFunctions
 	{
 		tag = "Aegis";
 		project = "arma3aegis";
-		/*
-		class Aircraft
-		{
-			file = "A3_Aegis\Functions_F_Aegis\Aircraft";
-			class fighter01InitNumbers{};
-			class fighter02InitNumbers{};
-			class fighter04InitNumbers{};
-			class uav05InitNumbers{};
-		};
-		*/
 		class Ambient
 		{
 			file = "A3_Aegis\Functions_F_Aegis\Ambient";
@@ -33,7 +23,7 @@ class CfgFunctions
 			class initWorldSceneVR{};
 			class showHorizontalCompass
 			{
-				postInit = true;
+				//postInit = true;
 			};
         };
     };

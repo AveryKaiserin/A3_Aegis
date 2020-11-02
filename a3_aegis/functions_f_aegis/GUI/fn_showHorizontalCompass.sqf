@@ -13,8 +13,10 @@
 
 params [["_show",true,[true,""]]];
 
-//--- Exit if in Eden, Camera, or have incompatible addons loaded
-if (is3DEN || {!hasInterface || {isClass (configFile >> "CfgPatches" >> "A3_UI_F_Contact")}}) exitWith {false};
+/*
+//--- Exit if incompatible addons loaded
+if (!hasInterface || {isClass (configFile >> "CfgPatches" >> "A3_UI_F_Contact") || {isClass (configFile >> "CfgPatches" >> "ace_main") || {isClass (configFile >> "CfgPatches" >> "PLP_ArtworkSupport_Data")}}}) exitWith {false};
+*/
 
 //--- Hide
 if (_show isequalto false) exitwith {
@@ -53,3 +55,5 @@ if (missionnamespace getvariable ["Aegis_fnc_showHorizontalCompass_loaded",-1] <
 		]
 	];
 };
+
+true

@@ -98,7 +98,7 @@ class CfgVehicles
             libTextDesc = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F_Library0;
         };
         // Physics and handling
-        #include "rtd.hpp"
+        //#include "rtd.hpp" // non-functional currently
 		fuelCapacity = 1400;
 		fuelConsumptionRate = 0.0366;
         #include "flightModel.hpp"
