@@ -3097,6 +3097,23 @@
 		<Container name="Structures_F">
         	<Container name="Military">
 				<Container name="Flags">
+					<Key ID="STR_A3_A_CfgVehicles_Flag_Sahrani_F0">
+						<Original>Flag (Sahrani)</Original>
+						<Chinese>旗幟（Sahrani）</Chinese>
+						<French>Drapeau (Sahrani)</French>
+						<Spanish>Bandera (Sahrani)</Spanish>
+						<Italian>Bandiera (Sahrani)</Italian>
+						<Polish>Flaga (Sahrani)</Polish>
+						<Russian>Флаг (Sahrani)</Russian>
+						<German>Flagge (Sahrani)</German>
+						<Czech>Vlajka (Sahrani)</Czech>
+						<English>Flag (Sahrani)</English>
+						<Portuguese>Bandeira (Sahrani)</Portuguese>
+						<Korean>깃발 (Sahrani)</Korean>
+						<Chinesesimp>旗标 (Sahrani)</Chinesesimp>
+						<Japanese>旗（Sahrani）</Japanese>
+						<Turkish>Bayrak (Sahrani)</Turkish>
+					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_Belarus_F0">
 						<Original>Flag (Belarus)</Original>
 						<Chinese>旗幟（白俄羅斯）</Chinese>
