@@ -61,7 +61,7 @@ class CfgAmmo
             1,  // B
             1   // A
         };
-		effectsSmoke = SmokeShellWhiteEffect;
+		effectsSmoke = FlareHandLight;
 		whistleDist = 0;
     };
 };

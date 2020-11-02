@@ -34,7 +34,7 @@ class arifle_SA80_blk_holo_pointer_f: arifle_SA80_blk_F
 		};
 	};
 };
-// L85A3 6.5 mm (Black) + ARCO (Black) + IR Laser Pointer
+// L85A3 6.5 mm (Black) + RCO + IR Laser Pointer
 class arifle_SA80_blk_arco_pointer_f: arifle_SA80_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -43,7 +43,7 @@ class arifle_SA80_blk_arco_pointer_f: arifle_SA80_blk_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco_blk_F;
+			item = optic_Hamr;
 		};
 		class LinkedItemsAcc
 		{
@@ -70,7 +70,7 @@ class arifle_SA80_GL_blk_aco_pointer_f: arifle_SA80_GL_blk_F
 		};
 	};
 };
-// L85A3 GL 6.5 mm (Black) + ARCO (Black) + IR Laser Pointer
+// L85A3 GL 6.5 mm (Black) + RCO + IR Laser Pointer
 class arifle_SA80_GL_blk_arco_pointer_f: arifle_SA80_GL_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -80,7 +80,7 @@ class arifle_SA80_GL_blk_arco_pointer_f: arifle_SA80_GL_blk_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco_blk_F;
+			item = optic_Hamr;
 		};
 		class LinkedItemsAcc
 		{
@@ -192,7 +192,7 @@ class arifle_SA80_khk_holo_pointer_f: arifle_SA80_khk_F
 		};
 	};
 };
-// L85A3 6.5 mm (Khaki) + ARCO (Black) + IR Laser Pointer
+// L85A3 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer
 class arifle_SA80_khk_arco_pointer_f: arifle_SA80_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -201,7 +201,7 @@ class arifle_SA80_khk_arco_pointer_f: arifle_SA80_khk_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco_blk_F;
+			item = optic_Hamr_khk_F;
 		};
 		class LinkedItemsAcc
 		{
@@ -228,7 +228,7 @@ class arifle_SA80_GL_khk_aco_pointer_f: arifle_SA80_GL_khk_F
 		};
 	};
 };
-// L85A3 GL 6.5 mm (Khaki) + ARCO (Black) + IR Laser Pointer
+// L85A3 GL 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer
 class arifle_SA80_GL_khk_arco_pointer_f: arifle_SA80_GL_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -237,7 +237,7 @@ class arifle_SA80_GL_khk_arco_pointer_f: arifle_SA80_GL_khk_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco_blk_F;
+			item = optic_Hamr_khk_F;
 		};
 		class LinkedItemsAcc
 		{
@@ -349,7 +349,7 @@ class arifle_SA80_snd_holo_pointer_f: arifle_SA80_snd_F
 		};
 	};
 };
-// L85A3 6.5 mm (Sand) + ARCO + IR Laser Pointer
+// L85A3 6.5 mm (Sand) + RCO + IR Laser Pointer
 class arifle_SA80_snd_arco_pointer_f: arifle_SA80_snd_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -358,7 +358,7 @@ class arifle_SA80_snd_arco_pointer_f: arifle_SA80_snd_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco;
+			item = optic_Hamr;
 		};
 		class LinkedItemsAcc
 		{
@@ -385,7 +385,7 @@ class arifle_SA80_GL_snd_aco_pointer_f: arifle_SA80_GL_snd_F
 		};
 	};
 };
-// L85A3 GL 6.5 mm (Sand) + ARCO + IR Laser Pointer
+// L85A3 GL 6.5 mm (Sand) + RCO + IR Laser Pointer
 class arifle_SA80_GL_snd_arco_pointer_f: arifle_SA80_GL_snd_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -394,7 +394,7 @@ class arifle_SA80_GL_snd_arco_pointer_f: arifle_SA80_GL_snd_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco;
+			item = optic_Hamr;
 		};
 		class LinkedItemsAcc
 		{

@@ -640,6 +640,7 @@ class CfgVehicles
 	#include "cfgBlufor.hpp"
 	#include "cfgIndep.hpp"
 	#include "cfgBlufor_Exp.hpp"
+	#include "cfgCTRG.hpp"
 	#include "cfgViper.hpp"
 	#include "cfgGendarmerie.hpp"
 	#include "cfgOpfor_Tacops.hpp"

@@ -136,6 +136,19 @@ class arifle_AK12U_arid_holo_snds_pointer_F: arifle_AK12U_arid_F
 		};
 	};
 };
+// RPK-12 7.62 mm + IR Laser Pointer
+class arifle_RPK12_pointer_F: arifle_RPK12_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
 // RPK-12 7.62 mm + ARCO AK (Black) + IR Laser Pointer
 class arifle_RPK12_arco_pointer_F: arifle_RPK12_F
 {

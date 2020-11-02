@@ -130,7 +130,7 @@ class Box_A_NATO_Wps_F: Box_NATO_Wps_F
 	{
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_Holosight,2);
 		item_xx(optic_Holosight_smg,1);
 		item_xx(optic_AMS_snd,1);
@@ -282,7 +282,7 @@ class B_A_supplyCrate_F: B_supplyCrate_F
 		item_xx(Laserdesignator,1);
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_Holosight,2);
 		item_xx(optic_Holosight_smg,1);
 		item_xx(optic_AMS_snd,1);
@@ -427,7 +427,7 @@ class Box_A_NATO_Wps_tropic_F: Box_A_NATO_Wps_F
 	{
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_Holosight_khk_F,2);
 		item_xx(optic_Holosight_smg_khk_F,1);
 		item_xx(optic_AMS_khk,1);
@@ -580,7 +580,7 @@ class B_A_supplyCrate_tropic_F: B_A_supplyCrate_F
 		item_xx(Laserdesignator_01_khk_F,1);
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_Hamr_khk_F,2);
 		item_xx(optic_Holosight_khk_F,2);
 		item_xx(optic_Holosight_smg_khk_F,1);
 		item_xx(optic_AMS_khk,1);
@@ -722,7 +722,7 @@ class Box_A_NATO_Wps_wdl_F: Box_A_NATO_Wps_F
 	{
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_Holosight_blk_F,2);
 		item_xx(optic_Holosight_smg_blk_F,1);
 		item_xx(optic_AMS,1);
@@ -875,7 +875,7 @@ class B_A_supplyCrate_wdl_F: B_A_supplyCrate_F
 		item_xx(Laserdesignator_01_khk_F,1);
 		item_xx(optic_ACO,2);
 		item_xx(optic_ACO_smg,1);
-		item_xx(optic_Arco_blk_F,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_Holosight_blk_F,2);
 		item_xx(optic_Holosight_smg_blk_F,1);
 		item_xx(optic_AMS,1);

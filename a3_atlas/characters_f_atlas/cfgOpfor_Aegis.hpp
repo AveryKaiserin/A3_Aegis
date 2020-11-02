@@ -501,26 +501,26 @@ class Atlas_O_W_Soldier_AR_F: O_Soldier_AR_F
 	uniformClass = Atlas_U_O_W_CombatUniform_owcamo;
 	weapons[] =
 	{
-		arifle_RPK_F,
+		arifle_RPK12_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_RPK_F,
+		arifle_RPK12_pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_8(75Rnd_762x39_Mag_F),
+		mag_8(75Rnd_762x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(75Rnd_762x39_Mag_F),
+		mag_8(75Rnd_762x39_AK12_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)

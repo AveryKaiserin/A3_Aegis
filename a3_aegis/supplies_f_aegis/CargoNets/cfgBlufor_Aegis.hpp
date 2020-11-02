@@ -116,7 +116,6 @@ class B_A_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 		item_xx(muzzle_mzls_L,2);
 		item_xx(muzzle_mzls_M,2);
 		item_xx(bipod_01_F_snd,5);
-		item_xx(optic_Arco,2);
 		item_xx(optic_Hamr,2);
 		item_xx(optic_LRPS,2);
 		item_xx(optic_AMS_snd,2);
@@ -251,7 +250,6 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		item_xx(muzzle_mzls_L,2);
 		item_xx(muzzle_mzls_M,2);
 		item_xx(bipod_01_F_blk,5);
-		item_xx(optic_Arco_blk_F,2);
 		item_xx(optic_Hamr_khk_F,2);
 		item_xx(optic_LRPS_tna_F,2);
 		item_xx(optic_AMS_khk,2);
@@ -386,7 +384,6 @@ class B_A_CargoNet_01_ammo_wdl_F: B_A_CargoNet_01_ammo_F
 		item_xx(muzzle_mzls_L,2);
 		item_xx(muzzle_mzls_M,2);
 		item_xx(bipod_01_F_blk,5);
-		item_xx(optic_Arco_blk_F,2);
 		item_xx(optic_Hamr,2);
 		item_xx(optic_LRPS,2);
 		item_xx(optic_AMS,2);

@@ -707,13 +707,13 @@ class Atlas_B_H_Soldier_SL_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		H_I_Helmet_canvas_Green,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		H_I_Helmet_canvas_Green,
 		DefaultManLinkedItems
 	};
 };
@@ -770,13 +770,13 @@ class Atlas_B_H_Soldier_TL_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIAGL_oli,
-		H_PASGT_basic_olive_F,
+		H_I_Helmet_canvas_Green,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIAGL_oli,
-		H_PASGT_basic_olive_F,
+		H_I_Helmet_canvas_Green,
 		DefaultManLinkedItems
 	};
 };

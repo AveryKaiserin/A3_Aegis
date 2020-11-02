@@ -26,11 +26,15 @@ class CfgFunctions
 			};
 			class animalRandomization{};
 		};
-		class Environment
+		class GUI
 		{
-			file = "A3_Aegis\Functions_F_Aegis\Environment";
+			file = "A3_Aegis\Functions_F_Aegis\GUI";
 			class initWorldScene{};
 			class initWorldSceneVR{};
-		};
+			class showHorizontalCompass
+			{
+				postInit = true;
+			};
+        };
     };
 };

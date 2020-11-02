@@ -37,7 +37,7 @@ class B_AssaultPack_blk_CTRGLAT_F: B_AssaultPack_blk
     scope = protected;
     class TransportMagazines
     {
-        item_xx(NLAW_F,2);
+        mag_xx(NLAW_F,2);
     };
 };
 class B_AssaultPack_blk_CTRGLAT2_F: B_AssaultPack_blk
