@@ -63,17 +63,17 @@
 #define manualLT 2
 
 // AI ammo usage
-#define UsageNone 0
-#define UsageLight 1
-#define UsageMarking 2
-#define UsageConcealment 4
-#define UsageCounterMeasures 8
-#define UsageMine 16
-#define UsageUnderwater 32
-#define UsageOffensiveInf 64
-#define UsageOffensiveVeh 128
-#define UsageOffensiveAir 256
-#define UsageOffensiveArmour 512
+#define NoneAU 0
+#define LightAU 1
+#define MarkingAU 2
+#define ConcealmentAU 4
+#define CounterMeasuresAU 8
+#define MineAU 16
+#define UnderwaterAU 32
+#define OffensiveInfAU 64
+#define OffensiveVehAU 128
+#define OffensiveAirAU 256
+#define OffensiveArmourAU 512
 
 #define SPEED_STATIC 1e10
 

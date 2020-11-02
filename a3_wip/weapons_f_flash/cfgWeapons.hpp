@@ -4,7 +4,11 @@ class CfgWeapons
     class GrenadeLauncher;
 	class Throw: GrenadeLauncher
 	{
-        muzzles[] += {FlashGrenadeMuzzle};
+        muzzles[] +=
+        {
+            FlashGrenadeMuzzle,
+            HandFlareMuzzle
+        };
         class ThrowMuzzle;
 		class FlashGrenadeMuzzle: ThrowMuzzle
 		{
@@ -13,6 +17,10 @@ class CfgWeapons
             {
                 fired = "_this spawn Aegis_fnc_flashbangExploHandler;";
             };
+		};
+		class HandFlareMuzzle: ThrowMuzzle
+		{
+			magazines[] = {HandFlare};
 		};
     };
 };

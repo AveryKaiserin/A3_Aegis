@@ -2,6 +2,7 @@ class CfgMagazines
 {
 	// Arma 3
 	class HandGrenade;
+	class SmokeShell;
     // Arma 3 Aegis
 	class FlashGrenade: HandGrenade
 	{
@@ -12,5 +13,14 @@ class CfgMagazines
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d"; // Placeholder
 		ammo = GrenadeFlash;
 		displayNameShort = /*$STR_A3_A_CfgMagazines_FlashGrenade_dns*/ "Flash Grenade";
+	};
+	class HandFlare: SmokeShell
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = /*$STR_A3_A_CfgMagazines_HandFlare0*/ "Handheld Flare (Red)";
+		picture = "\A3\Weapons_F\Data\UI\gear_Flare_Red_CA.paa";
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d"; // Placeholder
+		ammo = FlareHand;
+		displayNameShort = $STR_A3_CfgMagazines_FlareRed_F_dns;
 	};
 };

@@ -64,7 +64,32 @@ class CfgAmmo
             SmokeShellSoundHit2,1/3,
             SmokeShellSoundHit3,1/3
         };
+        aiAmmoUsageFlags = ConcealmentAU;
     };
+	class SmokeShellRed: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class SmokeShellGreen: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class SmokeShellYellow: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class SmokeShellPurple: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class SmokeShellBlue: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class SmokeShellOrange: SmokeShell
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
 	class G_40mm_Smoke: SmokeShell
 	{
         simulation = shotSmoke;
@@ -93,6 +118,30 @@ class CfgAmmo
             SmokeShellSoundLoop2,1/2
         };
 	};
+	class G_40mm_SmokeRed: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class G_40mm_SmokeGreen: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class G_40mm_SmokeYellow: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class G_40mm_SmokePurple: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class G_40mm_SmokeBlue: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
+	class G_40mm_SmokeOrange: G_40mm_Smoke
+	{
+        aiAmmoUsageFlags = MarkingAU;
+	};
 	class G_40mm_HE;
     class Chemlight_base;
 	class Chemlight_green: Chemlight_base
@@ -104,6 +153,7 @@ class CfgAmmo
 		timeToLive = 40;
 		intensity = 800000;
         flareSize = 40;
+        aiAmmoUsageFlags = LightAU;
 	};
 	class F_40mm_White: FlareBase
 	{
@@ -241,6 +291,7 @@ class CfgAmmo
 		intensity = 900000;
 		brightness = 190;
         flareSize = 50;
+        aiAmmoUsageFlags = LightAU;
 	};
 	// Arma 3 Jets
 	class ammo_Gun20mmAABase;
@@ -445,7 +496,7 @@ class CfgAmmo
 		whistleDist = 4;
 		maneuvrability = 12;
 		simulationStep = 0.002;
-		aiAmmoUsageFlags = UsageOffensiveVeh + UsageOffensiveAir + UsageOffensiveArmour;
+		aiAmmoUsageFlags = OffensiveVehAU + OffensiveAirAU + OffensiveArmourAU;
 		irLock = true;
 		nvLock = true;
 		laserLock = true;
@@ -581,7 +632,7 @@ class CfgAmmo
 		sideAirFriction = 0.08;
 		maneuvrability = 12;
 		cost = 1000;
-		aiAmmoUsageFlags = UsageOffensiveVeh + UsageOffensiveArmour;
+		aiAmmoUsageFlags = OffensiveVehAU + OffensiveArmourAU;
 		dangerRadiusHit = 1250;
 		suppressionRadiusHit = 100;
 		craterEffects = HeavyBombCrater;
