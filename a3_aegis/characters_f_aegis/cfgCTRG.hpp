@@ -2349,16 +2349,16 @@ class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
@@ -2410,16 +2410,16 @@ class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
@@ -2468,16 +2468,16 @@ class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_blk,
-		H_HelmetB_TI_arid_F,
-        G_Balaclava_TI_G_alt_F,
+		H_HelmetSpecB_light_black,
+        G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};

@@ -33,7 +33,8 @@ class CfgAmmo
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d"; // Placeholder
 		typicalspeed = 14;
 		cost = 50;
-		deflecting = 10;
+		deflecting = 5;
+		deflectionSlowDown = 0.5;
 		explosionTime = 0.1;
 		timeToLive = 900;
 		fuseDistance = 0;
