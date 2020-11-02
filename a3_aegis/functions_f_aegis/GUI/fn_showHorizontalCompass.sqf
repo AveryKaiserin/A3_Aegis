@@ -13,6 +13,9 @@
 
 params [["_show",true,[true,""]]];
 
+//--- Exit if in Eden, Camera, or have incompatible addons loaded
+if (is3DEN || {!hasInterface || {isClass (configFile >> "CfgPatches" >> "A3_UI_F_Contact")}}) exitWith {false};
+
 //--- Hide
 if (_show isequalto false) exitwith {
 	"RscCompass" cuttext ["","plain"];
