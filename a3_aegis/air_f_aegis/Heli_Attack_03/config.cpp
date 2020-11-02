@@ -321,9 +321,9 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class Blu
+			class BAF
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLU0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -369,32 +369,6 @@ class CfgVehicles
 				};
 				factions[] = {IND_F};
 			};
-            /*
-			class Desert
-			{
-				displayName = $STR_A3_TEXTURESOURCES_DESERT0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_desert_CO.paa",
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_desert_CO.paa",
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_desert_CO.paa"
-				};
-				factions[] = {Atlas_IND_I_F};
-			};
-			class Ausfor
-			{
-				displayName = $STR_A3_A_TEXTURESOURCES_AUSFOR0;
-				author = $STR_A3_A_AveryTheKitty;
-				textures[] =
-				{
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_AUSFOR_CO.paa",
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_AUSFOR_CO.paa",
-                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_AUSFOR_CO.paa"
-				};
-				factions[] = {Atlas_BLU_A_F};
-			};
-            */
         };
 		hiddenSelections[] =
 		{

@@ -2241,7 +2241,7 @@ class B_CTRG_Soldier_JTAC_urb_F: B_CTRG_Soldier_urb_1_F
 class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2303,7 +2303,7 @@ class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2366,7 +2366,7 @@ class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2427,7 +2427,7 @@ class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	displayName = $STR_B_SOLDIER_M_F0;
@@ -2495,7 +2495,7 @@ class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_arid_v2_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_arid_v2_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2552,7 +2552,7 @@ class B_CTRG_Soldier_arid_v2_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_LAT_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2620,7 +2620,7 @@ class B_CTRG_Soldier_LAT_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_LAT2_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT2_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT2_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2688,7 +2688,7 @@ class B_CTRG_Soldier_LAT2_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_AR_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
@@ -2761,7 +2761,7 @@ class B_CTRG_Soldier_AR_arid_F: B_CTRG_Soldier_arid_F
 class B_CTRG_Soldier_JTAC_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_urb_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_arid_F.jpg";
 	faction = BLU_CTRG_F;
 	editorSubcategory = EdSubcat_Personnel_Camo_Arid;
 	scope = public;
