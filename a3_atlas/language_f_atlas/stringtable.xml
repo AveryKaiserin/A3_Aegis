@@ -2164,6 +2164,23 @@
 					<Japanese>ドイツ軍</Japanese>
 					<Turkish>Bundeswehr</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_G_ard_F0">
+					<Original>Bundeswehr (Arid)</Original>
+					<Chinese>德國聯邦國防軍 (乾燥氣候)</Chinese>
+					<French>Bundeswehr (Aride)</French>
+					<Spanish>Bundeswehr (árido)</Spanish>
+					<Italian>Bundeswehr (arido)</Italian>
+					<Polish>Bundeswehr (region suchy)</Polish>
+					<Russian>Бундесвер (засушливая местность)</Russian>
+					<German>Bundeswehr (Trocken)</German>
+					<Czech>Bundeswehr (suchý porost)</Czech>
+					<English>Bundeswehr (Arid)</English>
+					<Portuguese>Bundeswehr (Árido)</Portuguese>
+					<Korean>독일군(건조)</Korean>
+					<Chinesesimp>德国联邦国防军 (干旱)</Chinesesimp>
+					<Japanese>ドイツ軍（乾燥地帯）</Japanese>
+					<Turkish>Bundeswehr (Kurak)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_A_F1">
 					<Original>ADF</Original>
 					<Chinese>ADF</Chinese>

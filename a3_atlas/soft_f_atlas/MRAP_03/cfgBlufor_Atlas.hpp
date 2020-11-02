@@ -12,7 +12,7 @@ class Atlas_B_G_MRAP_03_F: MRAP_03_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -50,7 +50,7 @@ class Atlas_B_G_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_wdl_CO.paa"
 	};
 	class Turrets: Turrets
 	{
@@ -96,7 +96,7 @@ class Atlas_B_G_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
-		"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_wdl_CO.paa"
 	};
 	class TransportMagazines
 	{

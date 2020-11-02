@@ -71,6 +71,19 @@ class CfgVehicles
 				};
 				factions[] = {Atlas_BLU_G_F};
 			};
+			class Desert_01
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				author = $STR_A3_A_wsxcgy;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_desert_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_desert_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_desert_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
+				};
+				factions[] = {Atlas_BLU_G_ard_F};
+			};
 		};
 	};
 	// Arma 3 Atlas

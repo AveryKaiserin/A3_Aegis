@@ -38,9 +38,20 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
-					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_wdl_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_wdl_CO.paa"
 				};
 				factions[] = {Atlas_BLU_G_F};
+			};
+			class Desert
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				author = $STR_A3_A_wsxcgy;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_desert_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_desert_CO.paa"
+				};
+				factions[] = {Atlas_BLU_G_ard_F};
 			};
 		};
 	};
