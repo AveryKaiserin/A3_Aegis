@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class A3_Theseus_Characters_F_Atlas
+	class A3_Theseus_Characters_F_Theseus
 	{
 		author = $STR_A3_A_Heliotrope;
-		name = "Arma 3 Atlas - Characters and Clothing";
+		name = "Arma 3 Theseus - Characters and Clothing";
 		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516"; //Fix later
 		requiredAddons[] =
 		{

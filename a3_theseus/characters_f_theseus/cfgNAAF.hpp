@@ -54,13 +54,14 @@ class Theseus_B_N_Soldier_A_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
-		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -114,6 +115,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -121,6 +123,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -225,6 +228,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -232,6 +236,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -279,12 +284,14 @@ class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 	{
 		V_EOD_olive_F,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_EOD_olive_F,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -329,6 +336,7 @@ class Theseus_B_N_Soldier_GL_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIAGL_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -336,6 +344,7 @@ class Theseus_B_N_Soldier_GL_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIAGL_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -488,14 +497,14 @@ class Theseus_B_N_soldier_M_F: Theseus_B_N_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacChestrig_oli_F,
+		V_ChestrigF_oli,
 		H_Booniehat_oli,
 		G_Shemag_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacChestrig_oli_F,
+		V_ChestrigF_oli,
 		H_Booniehat_oli,
 		G_Shemag_oli,
 		DefaultManLinkedItems
@@ -574,12 +583,12 @@ class Theseus_B_N_Soldier_F: Theseus_B_N_Soldier_Base_F
 	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
-		arifle_Mk20_ACO_F,
+		arifle_TRG20_ACO_Flash_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Mk20_ACO_F,
+		arifle_TRG20_ACO_Flash_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -599,6 +608,7 @@ class Theseus_B_N_Soldier_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -606,6 +616,7 @@ class Theseus_B_N_Soldier_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -665,6 +676,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -672,6 +684,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -689,14 +702,14 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	uniformClass = U_I_CombatUniform_shortsleeve;
 	weapons[] =
 	{
-		arifle_TRG21_ACO_pointer_F,
+		arifle_TRG21_MRCO_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_ACO_pointer_F,
+		arifle_TRG21_MRCO_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
@@ -724,6 +737,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -731,6 +745,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -786,12 +801,14 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 	{
 		V_PlateCarrierIAGL_oli,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIAGL_oli,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -826,14 +843,16 @@ class Theseus_B_N_RadioOperator_F: Theseus_B_N_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_TacChestrig_oli_F,
+		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacChestrig_oli_F,
+		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -873,6 +892,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -880,6 +900,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 		V_PlateCarrierIA1_oli,
 		H_I_Helmet_canvas_Green,
 		G_Shemag_oli,
+		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
