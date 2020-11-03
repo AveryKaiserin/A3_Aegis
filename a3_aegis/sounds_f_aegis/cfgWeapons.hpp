@@ -261,9 +261,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					M32_Shot_SoundSet,
-					M32_Tail_SoundSet,
-					M32_InteriorTail_SoundSet
+					UGL_Shot_SoundSet,
+					UGL_Tail_SoundSet,
+					UGL_InteriorTail_SoundSet
 				};
 			};
 		};

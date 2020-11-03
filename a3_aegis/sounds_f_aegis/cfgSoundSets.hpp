@@ -12,31 +12,6 @@ class CfgSoundSets
 	class Pistol_silencerShot_Base_SoundSet;
 	class Pistol_silencerTail_Base_SoundSet;
 	class Pistol_silencerInteriorTail_Base_SoundSet;
-	// M32 40 mm
-	class M32_Shot_SoundSet: Rifle_Shot_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			M32_Closure_SoundShader,
-			M32_closeShot_SoundShader,
-			M32_midShot_SoundShader,
-			M32_distShot_SoundShader
-		};
-	};
-	class M32_Tail_SoundSet: Rifle_Tail_Base_SoundSet
-	{
-		soundShaders[] =
-		{
-			M32_tailForest_SoundShader,
-			M32_tailHouses_SoundShader,
-			M32_tailMeadows_SoundShader,
-			M32_tailTrees_SoundShader
-		};
-	};
-	class M32_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
-	{
-	  	soundShaders[] = {M32_tailInterior_SoundShader};
-	};
 	// Punisher 25 mm
 	class XM25_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{

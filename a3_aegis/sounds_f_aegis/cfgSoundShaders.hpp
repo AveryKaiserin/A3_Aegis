@@ -1,141 +1,5 @@
 class CfgSoundShaders
 {
-	// M32 40 mm
-	class M32_Closure_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\Closure_UGL",1}
-		};
-		range = 5;
-		volume = db-7;
-	};
-	class M32_closeShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_closeShot_01",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_closeShot_02",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_closeShot_03",1}
-		};
-		volume = db0;
-		range = 30;
-		rangeCurve = closeShotCurve;
-	};
-	class M32_midShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_midShot_01",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_midShot_02",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_midShot_03",1}
-		};
-		volume = db0;
-		range = 800;
-		rangeCurve[] =
-		{
-			{0,0.2},
-			{30,1},
-			{150,0},
-			{800,0}
-		};
-	};
-	class M32_distShot_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_distShot_01",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_distShot_02",1},
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_distShot_03",1}
-		};
-		volume = db0;
-		range = 800;
-		rangeCurve[] =
-		{
-			{0,0},
-			{30,0},
-			{150,1},
-			{800,1}
-		};
-	};
-	class M32_tailForest_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_tailforest",1}
-		};
-		volume = (1-interior/1.4)*forest/3;
-		range = 800;
-		rangeCurve[] =
-		{
-			{0,1},
-			{800,0.3}
-		};
-		limitation = true;
-	};
-	class M32_tailHouses_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_tailhouses",1}
-		};
-		volume = (1-interior/1.4)*houses/3;
-		range = 500;
-		rangeCurve[] =
-		{
-			{0,1},
-			{100,0.3},
-			{500,0}
-		};
-		limitation = true;
-	};
-	class M32_tailInterior_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_tailinterior",1}
-		};
-		volume = interior;
-		range = 350;
-		rangeCurve[] =
-		{
-			{0,1},
-			{30,0.4},
-			{100,0.2},
-			{350,0}
-		};
-		limitation = true;
-	};
-	class M32_tailMeadows_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_tailmeadows",1}
-		};
-		volume = (1-interior/1.4)*(meadows/2 max sea/2)/3;
-		range = 800;
-		rangeCurve[] =
-		{
-			{0,1},
-			{800,0.3}
-		};
-		limitation = true;
-	};
-	class M32_tailTrees_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3\Sounds_F\arsenal\weapons\UGL\UGL_tailtrees",1}
-		};
-		volume = (1-interior/1.4)*trees/3;
-		range = 800;
-		rangeCurve[] =
-		{
-			{0,1},
-			{800,0.3}
-		};
-		limitation = true;
-	};
 	// Punisher 25 mm
 	class XM25_Closure_SoundShader
 	{
@@ -145,7 +9,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\XM25\XM25_closure_02",1}
 		};
 		range = 5;
-		volume = db-7;
+		volume = db-5;
 	};
 	class XM25_closeShot_SoundShader
 	{
@@ -155,7 +19,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\XM25\XM25_closeShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\XM25\XM25_closeShot_03",1}
 		};
-		volume = db0;
+		volume = db-1;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
@@ -886,21 +750,19 @@ class CfgSoundShaders
 		samples[] =
 		{
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closure_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closure_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closure_03",1}
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closure_02",1}
 		};
 		range = 5;
-		volume = db-13;
+		volume = db-4;
 	};
 	class Mk26_closeShot_SoundShader
 	{
 		samples[] =
 		{
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_03",1}
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_02",1}
 		};
-		volume = db0;
+		volume = db-4;
 		range = 50;
 		rangeCurve = closeShotCurve;
 	};
@@ -912,7 +774,7 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_midShot_02",1},
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_midShot_03",1}
 		};
-		volume = db-3;
+		volume = db0;
 		range = 1200;
 		rangeCurve[] =
 		{
