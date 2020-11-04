@@ -508,11 +508,10 @@ class CfgSoundShaders
 		samples[] =
 		{
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_closure_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_closure_02",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_closure_03",1}
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_closure_02",1}
 		};
 		range = 5;
-		volume = db-13;
+		volume = db-11;
 	};
 	class G17_closeShot_SoundShader
 	{
@@ -753,14 +752,15 @@ class CfgSoundShaders
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closure_02",1}
 		};
 		range = 5;
-		volume = db-4;
+		volume = db-8;
 	};
 	class Mk26_closeShot_SoundShader
 	{
 		samples[] =
 		{
 			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_01",1},
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_02",1}
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_02",1},
+			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_closeShot_03",1}
 		};
 		volume = db-4;
 		range = 50;
@@ -801,21 +801,6 @@ class CfgSoundShaders
 			{150,1},
 			{1200,1}
 		};
-	};
-	class Mk26_tailDistant_SoundShader
-	{
-		samples[] =
-		{
-			{"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_taildistant",1}
-		};
-		volume = db0;
-		range = 1200;
-		rangeCurve[] =
-		{
-			{0,0},{300,0.7},
-			{1200,1}
-		};
-		limitation = true;
 	};
 	class Mk26_tailForest_SoundShader
 	{

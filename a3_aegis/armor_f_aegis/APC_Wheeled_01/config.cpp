@@ -159,7 +159,9 @@ class CfgVehicles
 			"\A3\Armor_F\Data\cage_sand_CO.paa"
 		};
 	};
-	#include "cfgBlufor.hpp"			// NATO
-	#include "cfgBlufor_Exp.hpp"		// NATO (Pacific)
-	#include "cfgBlufor_Enoch.hpp"		// NATO (Woodland)
+	#include "cfgBlufor.hpp"			// US
+	#include "cfgBlufor_Exp.hpp"		// US (Pacific)
+	#include "cfgBlufor_Enoch.hpp"		// US (Woodland)
+	#include "cfgEAF.hpp"		        // LDF
+	#include "cfgBlufor_Aegis.hpp"		// BAF
 };

@@ -67,7 +67,7 @@ class arifle_AK12_arid_arco_snds_pointer_F: arifle_AK12_arid_F
 		};
 	};
 };
-// AK-15 GL 7.62 mm (Arid) + ACO AK (Green) + IR Laser Pointer + Sound Suppressor (7.62 mm, Arid)
+// AK-15 GL 7.62 mm (Arid) + ARCO AK (Arid) + IR Laser Pointer + Sound Suppressor (7.62 mm, Arid)
 class arifle_AK12_GL_arid_arco_snds_pointer_F: arifle_AK12_GL_arid_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -76,7 +76,7 @@ class arifle_AK12_GL_arid_arco_snds_pointer_F: arifle_AK12_GL_arid_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_Arco_arid_F;
+			item = optic_Arco_AK_arid_F;
 		};
 		class LinkedItemsAcc
 		{
@@ -105,6 +105,52 @@ class arifle_AK12_GL_arid_holo_snds_pointer_F: arifle_AK12_GL_arid_F
 		{
 			slot = CowsSlot;
 			item = optic_Holosight_arid_F;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B_arid_F;
+		};
+	};
+};
+// AKU-15 7.62 mm (Lush) + ARCO AK (Lush) + IR Laser Pointer + Sound Suppressor (7.62 mm, Lush)
+class arifle_AK12U_lush_arco_snds_pointer_F: arifle_AK12U_lush_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_AK_lush_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B_lush_F;
+		};
+	};
+};
+// AKU-15 7.62 mm (Arid) + ARCO AK (Arid) + IR Laser Pointer + Sound Suppressor (7.62 mm, Arid)
+class arifle_AK12U_arid_arco_snds_pointer_F: arifle_AK12U_arid_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_AK_arid_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
 		};
 		class LinkedItemsMuzzle
 		{

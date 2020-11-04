@@ -702,14 +702,14 @@ class O_R_recon_LAT_F: O_R_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_AK12_lush_holo_snds_pointer_F,
+        arifle_AK12U_lush_holo_snds_pointer_F,
 		launch_RPG32_green_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_lush_holo_snds_pointer_F,
+        arifle_AK12U_lush_holo_snds_pointer_F,
 		launch_RPG32_green_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
@@ -756,14 +756,14 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_AK12_GL_lush_holo_snds_pointer_F,
+        arifle_AK12U_lush_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
-        arifle_AK12_GL_lush_holo_snds_pointer_F,
+        arifle_AK12U_lush_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_02_grn_F
@@ -774,13 +774,10 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
     respawnMagazines[] =
     {
@@ -788,13 +785,10 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
 };
 // Arma 3 Aegis
@@ -2533,14 +2527,14 @@ class O_R_recon_F: O_R_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_AK12_lush_arco_snds_pointer_F,
+        arifle_AK12U_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_AK12_lush_arco_snds_pointer_F,
+        arifle_AK12U_lush_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
@@ -3990,14 +3984,14 @@ class O_R_recon_LAT_ard_F: O_R_recon_LAT_F
 	uniformClass = U_O_R_Gorka_01_brown_F;
 	weapons[] =
     {
-        arifle_AK12_arid_holo_snds_pointer_F,
+        arifle_AK12U_arid_holo_snds_pointer_F,
 		launch_RPG32_green_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_arid_holo_snds_pointer_F,
+        arifle_AK12U_arid_holo_snds_pointer_F,
 		launch_RPG32_green_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
@@ -4046,14 +4040,14 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
 	};
 	weapons[] =
     {
-        arifle_AK12_GL_arid_holo_snds_pointer_F,
+        arifle_AK12U_arid_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_02_grn_F
     };
     respawnWeapons[] =
     {
-        arifle_AK12_GL_arid_holo_snds_pointer_F,
+        arifle_AK12U_arid_holo_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_02_grn_F
@@ -4064,13 +4058,10 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
     respawnMagazines[] =
     {
@@ -4078,13 +4069,10 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
 };
 class O_R_recon_ard_F: O_R_recon_F
@@ -4111,14 +4099,14 @@ class O_R_recon_ard_F: O_R_recon_F
 	};
 	weapons[] =
     {
-        arifle_AK12_arid_arco_snds_pointer_F,
+        arifle_AK12U_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Binocular
     };
     respawnWeapons[] =
     {
-        arifle_AK12_arid_arco_snds_pointer_F,
+        arifle_AK12U_arid_arco_snds_pointer_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Binocular

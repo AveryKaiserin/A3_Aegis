@@ -452,6 +452,29 @@ class arifle_TRG20_black_SRS_pointer_snds_F: arifle_TRG20_black_F
 		};
 	};
 };
+// TRG-20 5.56 mm (Black) + MRCO + IR Laser Pointer + Sound Suppressor (5.56 mm)
+class arifle_TRG20_black_MRCO_pointer_snds_F: arifle_TRG20_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
 // TRG-21 5.56 mm (Black) + ACO + IR Laser Pointer
 class arifle_TRG21_black_ACO_pointer_F: arifle_TRG21_black_F
 {

@@ -811,6 +811,4 @@ class CfgVehicles
 	};
     class APC_Wheeled_04_AT_base_F: APC_Wheeled_04_base_F{};
     #include "cfgSpetsnaz.hpp"          // Russia
-    // Arma 3 Atlas
-    #include "cfgCDF.hpp"               // CDF
 };

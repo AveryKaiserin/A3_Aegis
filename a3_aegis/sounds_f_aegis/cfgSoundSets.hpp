@@ -179,7 +179,6 @@ class CfgSoundSets
 	{
 		soundShaders[] =
 		{
-			Mk26_tailDistant_SoundShader,
 			Mk26_tailForest_SoundShader,
 			Mk26_tailHouses_SoundShader,
 			Mk26_tailMeadows_SoundShader,

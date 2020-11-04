@@ -42,27 +42,21 @@ class I_E_Uniform_01_F: I_E_Man_Base_F
 	hiddenSelectionsTextures[] =
     {
         "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_CO.paa",
         "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_camo_CO.paa"
     };
 };
+class I_E_Uniform_01_tanktop_F;
 class I_E_Uniform_01_shortsleeve_F: I_E_Man_Base_F
 {
 	hiddenSelectionsTextures[] =
     {
         "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa"
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_CO.paa"
     };
 };
-class I_E_Uniform_01_coveralls_F: I_E_Man_Base_F
-{
-	hiddenSelectionsTextures[] =
-	{
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Coveralls_01_CO.paa",
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_pants_CO.paa",
-        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_camo_CO.paa"
-	};
-};
+class I_E_Uniform_01_officer_F;
+class I_E_Uniform_01_coveralls_F;
 class I_E_Uniform_01_sweater_F: I_E_Man_Base_F
 {
 	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
@@ -384,6 +378,76 @@ class O_R_LightFatigues_01_arid_F: O_R_LightFatigues_01_taiga_F
     scopeCurator = protected;
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUarid_CO.paa"};
+};
+// LDF
+class I_E_Uniform_01_pilot_F: I_pilot_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    scope = protected;
+	model = "\A3\Characters_F\Common\Pilot_F.p3d";
+	uniformClass = U_I_E_Uniform_01_pilot_F;
+	hiddenSelections[] =
+    {
+        camo,
+        insignia
+    };
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_eaf_CO.paa"};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3\Characters_F\Common\Data\pilot_suit.rvmat",
+            "A3\Characters_F\Common\Data\W1_pilot_suit.rvmat",
+            "A3\Characters_F\Common\Data\W1_pilot_suit.rvmat"
+        };
+	};
+};
+class I_E_Uniform_01_arid_F: I_E_Uniform_01_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    scope = protected;
+	uniformClass = U_I_E_Uniform_01_arid_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_arid_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_arid_CO.paa",
+        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+    };
+};
+class I_E_Uniform_01_arid_tanktop_F: I_E_Uniform_01_tanktop_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    scope = protected;
+	uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_arid_CO.paa",
+        "\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+    };
+};
+class I_E_Uniform_01_arid_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    scope = protected;
+	uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_arid_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_arid_CO.paa"
+    };
+};
+class I_E_Uniform_01_arid_officer_F: I_E_Uniform_01_officer_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    scope = protected;
+	uniformClass = U_I_E_Uniform_01_arid_officer_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Officer_01_arid_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_Pants_arid_CO.paa"
+    };
 };
 // BAF
 class B_A_CBRN_Man_Oversuit_01_MTP_F: B_CBRN_Man_Oversuit_01_MTP_F

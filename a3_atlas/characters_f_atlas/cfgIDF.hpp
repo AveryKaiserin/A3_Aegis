@@ -2298,14 +2298,14 @@ class Atlas_I_I_recon_JTAC_F: Atlas_I_I_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_TRG21_GL_black_SRS_pointer_snds_F,
+        arifle_TRG20_black_SRS_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_GL_black_SRS_pointer_snds_F,
+        arifle_TRG20_black_SRS_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
@@ -2316,11 +2316,10 @@ class Atlas_I_I_recon_JTAC_F: Atlas_I_I_Soldier_recon_base
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(I_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_INDEP,
+        mag_2(Chemlight_green)
     };
     respawnMagazines[] =
     {
@@ -2328,11 +2327,10 @@ class Atlas_I_I_recon_JTAC_F: Atlas_I_I_Soldier_recon_base
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(I_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_green),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        SmokeShell,
+        SOLDIER_SMOKE_SHELLS_INDEP,
+        mag_2(Chemlight_green)
     };
 	role = SpecialOperative;
 };
@@ -2462,9 +2460,7 @@ class Atlas_I_I_recon_medic_F: Atlas_I_I_Soldier_recon_base
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_MEDIC,
         mag_2(Chemlight_green)
     };
     respawnMagazines[] =
@@ -2473,9 +2469,7 @@ class Atlas_I_I_recon_medic_F: Atlas_I_I_Soldier_recon_base
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange,
+        SOLDIER_SMOKE_SHELLS_MEDIC,
         mag_2(Chemlight_green)
     };
 	attendant = true;
@@ -2510,14 +2504,14 @@ class Atlas_I_I_recon_F: Atlas_I_I_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        arifle_TRG20_black_MRCO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        arifle_TRG20_black_MRCO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Binocular
@@ -2565,14 +2559,14 @@ class Atlas_I_I_recon_LAT_F: Atlas_I_I_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_TRG21_black_SRS_pointer_snds_F,
+        arifle_TRG20_black_SRS_pointer_snds_F,
 		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_SRS_pointer_snds_F,
+        arifle_TRG20_black_SRS_pointer_snds_F,
 		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons

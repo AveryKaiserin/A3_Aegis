@@ -99,15 +99,13 @@ class O_officer_F: O_Soldier_base_F
     {
         V_Rangemaster_belt_khk,
         H_Beret_CSAT_01_F,
-        ItemGPS,
-        DefaultManLinkedItems
+        DefaultManLeaderLinkedItems
     };
     respawnLinkedItems[] =
     {
         V_Rangemaster_belt_khk,
         H_Beret_CSAT_01_F,
-        ItemGPS,
-        DefaultManLinkedItems
+        DefaultManLeaderLinkedItems
     };
 };
 class O_Soldier_lite_F: O_Soldier_base_F
@@ -273,16 +271,14 @@ class O_Soldier_SL_F: O_Soldier_base_F
 	{
 		V_TacVest_khk,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_khk,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -317,16 +313,14 @@ class O_Soldier_TL_F: O_Soldier_base_F
 	{
 		V_HarnessOGL_brn,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOGL_brn,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -819,16 +813,14 @@ class O_soldier_PG_F: O_Soldier_base_F
 	{
 		V_HarnessO_brn,
 		H_HelmetO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
 		H_HelmetO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -964,15 +956,13 @@ class O_Soldier_sniper_base_F: O_Soldier_base_F
     linkedItems[] =
     {
         V_Chestrig_khk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_hex_F
     };
     respawnLinkedItems[] =
     {
         V_Chestrig_khk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_hex_F
     };
 };
@@ -1077,16 +1067,14 @@ class O_Soldier_recon_base: O_Soldier_base_F
 	{
 		V_HarnessOSpec_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOSpec_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -1095,14 +1083,14 @@ class O_recon_F: O_Soldier_recon_base
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_recon_F.jpg";
     weapons[] =
     {
-        arifle_Katiba_ARCO_pointer_snds_F,
+        arifle_Katiba_C_ARCO_pointer_snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_Katiba_ARCO_pointer_snds_F,
+        arifle_Katiba_C_ARCO_pointer_snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
@@ -1161,16 +1149,14 @@ class O_recon_M_F: O_Soldier_recon_base
 	{
 		V_TacVest_khk,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_khk,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 };
@@ -1180,14 +1166,14 @@ class O_recon_LAT_F: O_Soldier_recon_base
 	uniformClass = U_O_CombatUniform_ocamo;
     weapons[] =
     {
-        arifle_Katiba_ACO_pointer_snds_F,
+        arifle_Katiba_C_ACO_pointer_snds_F,
         launch_RPG32_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Katiba_ACO_pointer_snds_F,
+        arifle_Katiba_C_ACO_pointer_snds_F,
         launch_RPG32_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons
@@ -1214,16 +1200,14 @@ class O_recon_LAT_F: O_Soldier_recon_base
 	{
 		V_TacVest_khk,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_khk,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 };
@@ -1264,16 +1248,14 @@ class O_recon_medic_F: O_Soldier_recon_base
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -1314,16 +1296,14 @@ class O_recon_exp_F: O_Soldier_recon_base
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_blk,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_blk_F
 	};
 };
@@ -1333,14 +1313,14 @@ class O_recon_JTAC_F: O_Soldier_recon_base
 	backpack = B_RadioBag_01_hex_F;
     weapons[] =
     {
-        arifle_Katiba_GL_ACO_pointer_snds_F,
+        arifle_Katiba_C_ACO_pointer_snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02
     };
     respawnWeapons[] =
     {
-        arifle_Katiba_GL_ACO_pointer_snds_F,
+        arifle_Katiba_C_ACO_pointer_snds_F,
         hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_02
@@ -1351,13 +1331,10 @@ class O_recon_JTAC_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
     respawnMagazines[] =
     {
@@ -1365,28 +1342,23 @@ class O_recon_JTAC_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
-        mag_6(1Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_OPFOR,
-        mag_2(Chemlight_red),
-        1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_OPFOR
+        mag_2(Chemlight_red)
     };
 	linkedItems[] =
 	{
 		V_HarnessOGL_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOGL_brn,
 		H_HelmetSpecO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -1432,16 +1404,14 @@ class O_recon_TL_F: O_Soldier_recon_base
 	{
 		V_HarnessOSpec_brn,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOSpec_brn,
 		H_HelmetLeaderO_ocamo,
-        ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -1931,16 +1901,14 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
     {
         V_HarnessOGL_gry,
         H_HelmetLeaderO_oucamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_urb_F
     };
     respawnLinkedItems[] =
     {
         V_HarnessOGL_gry,
         H_HelmetLeaderO_oucamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_urb_F
     };
 };
@@ -1971,16 +1939,14 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
     {
         V_TacVest_gry,
         H_HelmetLeaderO_oucamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_urb_F
     };
     respawnLinkedItems[] =
     {
         V_TacVest_gry,
         H_HelmetLeaderO_oucamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_urb_F
     };
 };
@@ -2366,16 +2332,14 @@ class O_Pathfinder_F: O_Soldier_recon_base
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_ocamo,
-		ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
 		H_HelmetSpecO_ocamo,
-		ItemGPS,
-		DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
 		O_NVGoggles_hex_F
 	};
 };
@@ -2537,7 +2501,12 @@ class O_Soldier_CQ_F: O_Soldier_base_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
     weapons[] =
     {
         sgun_AA40_F,
@@ -2588,7 +2557,12 @@ class O_soldierU_CQ_F: O_Soldier_Urban_base
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
     weapons[] =
     {
         sgun_AA40_F,
@@ -2639,7 +2613,12 @@ class O_recon_CQ_F: O_Soldier_recon_base
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_B_recon_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
     weapons[] =
     {
         sgun_AA40_F,
@@ -2672,16 +2651,14 @@ class O_recon_CQ_F: O_Soldier_recon_base
     {
         V_TacVest_khk,
         H_HelmetSpecO_ocamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_hex_F
     };
     respawnLinkedItems[] =
     {
         V_TacVest_khk,
         H_HelmetSpecO_ocamo,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_hex_F
     };
 };
@@ -2695,7 +2672,12 @@ class O_recon_AR_F: O_Soldier_recon_base
     role = MachineGunner;
     icon = iconManMG;
     cost = 220000;
-    threat[] = {1,0.1,0.3};
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
     weapons[] =
     {
         LMG_Zafir_ARCO_pointer_snds_F,
@@ -2728,16 +2710,14 @@ class O_recon_AR_F: O_Soldier_recon_base
     {
         V_HarnessOSpec_brn,
         H_HelmetSpecO_blk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_blk_F
     };
     respawnLinkedItems[] =
     {
         V_HarnessOSpec_brn,
         H_HelmetSpecO_blk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_blk_F
     };
 };
@@ -2786,16 +2766,14 @@ class O_recon_GL_F: O_Soldier_recon_base
     {
         V_HarnessOGL_brn,
         H_HelmetSpecO_blk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_blk_F
     };
     respawnLinkedItems[] =
     {
         V_HarnessOGL_brn,
         H_HelmetSpecO_blk,
-        ItemGPS,
-        DefaultManLinkedItems,
+        DefaultManLeaderLinkedItems,
         O_NVGoggles_blk_F
     };
 };

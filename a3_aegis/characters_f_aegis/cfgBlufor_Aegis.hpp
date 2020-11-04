@@ -2272,14 +2272,14 @@ class B_A_Recon_JTAC_F: B_recon_JTAC_F
 	backpack = B_RadioBag_01_mtp_F;
 	weapons[] =
 	{
-		arifle_MX_GL_Holo_pointer_snds_F,
+		arifle_MX_Holo_pointer_snds_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Laserdesignator
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_GL_Holo_pointer_snds_F,
+		arifle_MX_Holo_pointer_snds_F,
 		hgun_G17_snds_F,
         DefaultManWeapons,
 		Laserdesignator
@@ -2290,13 +2290,10 @@ class B_A_Recon_JTAC_F: B_recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	respawnMagazines[] =
 	{
@@ -2304,13 +2301,10 @@ class B_A_Recon_JTAC_F: B_recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -5495,14 +5489,14 @@ class B_A_Recon_JTAC_tna_F: B_A_Recon_JTAC_F
 	backpack = B_RadioBag_01_tropic_F;
 	weapons[] =
 	{
-		arifle_MX_GL_khk_Holo_Pointer_Snds_F,
+		arifle_MX_khk_Holo_Pointer_Snds_F,
 		hgun_G17_khaki_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_GL_khk_Holo_Pointer_Snds_F,
+		arifle_MX_khk_Holo_Pointer_Snds_F,
 		hgun_G17_khaki_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
@@ -5513,13 +5507,10 @@ class B_A_Recon_JTAC_tna_F: B_A_Recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	respawnMagazines[] =
 	{
@@ -5527,13 +5518,10 @@ class B_A_Recon_JTAC_tna_F: B_A_Recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
@@ -8257,14 +8245,14 @@ class B_A_Recon_JTAC_wdl_F: B_A_Recon_JTAC_F
 	backpack = B_RadioBag_01_wdl_F;
 	weapons[] =
 	{
-		arifle_MX_GL_Black_Holo_Pointer_Snds_F,
+		arifle_MX_Black_Holo_Pointer_Snds_F,
 		hgun_G17_black_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
 	};
 	respawnWeapons[] =
 	{
-		arifle_MX_GL_Black_Holo_Pointer_Snds_F,
+		arifle_MX_Black_Holo_Pointer_Snds_F,
 		hgun_G17_black_snds_F,
         DefaultManWeapons,
 		Laserdesignator_01_khk_F
@@ -8275,13 +8263,10 @@ class B_A_Recon_JTAC_wdl_F: B_A_Recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	respawnMagazines[] =
 	{
@@ -8289,13 +8274,10 @@ class B_A_Recon_JTAC_wdl_F: B_A_Recon_JTAC_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
-        mag_2(3Rnd_HE_Grenade_shell),
         Laserbatteries,
         SmokeShell,
 		SOLDIER_SMOKE_SHELLS_BLUFOR,
-        mag_2(Chemlight_green),
-        1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+        mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{

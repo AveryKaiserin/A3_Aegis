@@ -1,4 +1,4 @@
-// Mk18 ABR 7.62 mm (Black) + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [NATO] (Black)
+// Mk18 ABR 7.62 mm (Black) + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [BLUFOR] (Black)
 class srifle_EBR_blk_DMS_LP_BI_S_F: srifle_EBR_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -26,7 +26,7 @@ class srifle_EBR_blk_DMS_LP_BI_S_F: srifle_EBR_blk_F
 		};
 	};
 };
-// Mk18 ABR 7.62 mm (Khaki) + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm, Khaki) + Bipod [NATO] (Khaki)
+// Mk18 ABR 7.62 mm (Khaki) + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm, Khaki) + Bipod [BLUFOR] (Khaki)
 class srifle_EBR_khk_DMS_LP_BI_S_F: srifle_EBR_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -54,7 +54,7 @@ class srifle_EBR_khk_DMS_LP_BI_S_F: srifle_EBR_khk_F
 		};
 	};
 };
-// Rahim 7.62 mm + DMS + IR Laser Pointer + Bipod [CSAT] (Hex)
+// Rahim 7.62 mm + DMS + IR Laser Pointer + Bipod [OPFOR] (Hex)
 class srifle_DMR_01_DMS_LP_BI_F: srifle_DMR_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -77,7 +77,7 @@ class srifle_DMR_01_DMS_LP_BI_F: srifle_DMR_01_F
 		};
 	};
 };
-// Rahim 7.62 mm + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [CSAT] (Hex)
+// Rahim 7.62 mm + DMS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [OPFOR] (Hex)
 class srifle_DMR_01_DMS_LP_BI_S_F: srifle_DMR_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -105,7 +105,7 @@ class srifle_DMR_01_DMS_LP_BI_S_F: srifle_DMR_01_F
 		};
 	};
 };
-// MAR-10 .338 (Sand) + AMS (Sand) + IR Laser Pointer + Bipod [NATO] (Sand)
+// MAR-10 .338 (Sand) + AMS (Sand) + IR Laser Pointer + Bipod [BLUFOR] (Sand)
 class srifle_DMR_02_sniper_AMS_LP_F: srifle_DMR_02_sniper_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -128,7 +128,7 @@ class srifle_DMR_02_sniper_AMS_LP_F: srifle_DMR_02_sniper_F
 		};
 	};
 };
-// MAR-10 .338 (Sand) + AMS (Sand) + IR Laser Pointer + Sound Suppressor (.338, Sand) + Bipod [NATO] (Sand)
+// MAR-10 .338 (Sand) + AMS (Sand) + IR Laser Pointer + Sound Suppressor (.338, Sand) + Bipod [BLUFOR] (Sand)
 class srifle_DMR_02_sniper_AMS_LP_S_F: srifle_DMR_02_sniper_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -156,7 +156,7 @@ class srifle_DMR_02_sniper_AMS_LP_S_F: srifle_DMR_02_sniper_F
 		};
 	};
 };
-// MAR-10 .338 (Black) + AMS (Black) + IR Laser Pointer + Bipod [NATO] (Black)
+// MAR-10 .338 (Black) + AMS (Black) + IR Laser Pointer + Bipod [BLUFOR] (Black)
 class srifle_DMR_02_AMS_LP_BI_F: srifle_DMR_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -179,7 +179,7 @@ class srifle_DMR_02_AMS_LP_BI_F: srifle_DMR_02_F
 		};
 	};
 };
-// MAR-10 .338 (Black) + AMS (Black) + IR Laser Pointer + Sound Suppressor (.338, Black) + Bipod [NATO] (Black)
+// MAR-10 .338 (Black) + AMS (Black) + IR Laser Pointer + Sound Suppressor (.338, Black) + Bipod [BLUFOR] (Black)
 class srifle_DMR_02_AMS_LP_BI_S_F: srifle_DMR_02_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -207,7 +207,7 @@ class srifle_DMR_02_AMS_LP_BI_S_F: srifle_DMR_02_F
 		};
 	};
 };
-// MAR-10 .338 (Tropic) + AMS (Black) + IR Laser Pointer + Bipod [NATO] (Black)
+// MAR-10 .338 (Tropic) + AMS (Black) + IR Laser Pointer + Bipod [BLUFOR] (Black)
 class srifle_DMR_02_tna_AMS_Pointer_Bipod_F: srifle_DMR_02_tna_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -230,7 +230,7 @@ class srifle_DMR_02_tna_AMS_Pointer_Bipod_F: srifle_DMR_02_tna_F
 		};
 	};
 };
-// Mk-I EMR 7.62 mm (Black) + AMS (Black) + IR Laser Pointer + Bipod [NATO] (Black)
+// Mk-I EMR 7.62 mm (Black) + AMS (Black) + IR Laser Pointer + Bipod [BLUFOR] (Black)
 class srifle_DMR_03_AMS_LP_BI_F: srifle_DMR_03_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -253,7 +253,7 @@ class srifle_DMR_03_AMS_LP_BI_F: srifle_DMR_03_F
 		};
 	};
 };
-// Mk-I EMR 7.62 mm (Khaki) + AMS (Khaki) + IR Laser Pointer + Bipod [NATO] (Khaki)
+// Mk-I EMR 7.62 mm (Khaki) + AMS (Khaki) + IR Laser Pointer + Bipod [BLUFOR] (Khaki)
 class srifle_DMR_03_khaki_AMS_LP_BI_F: srifle_DMR_03_khaki_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -276,7 +276,7 @@ class srifle_DMR_03_khaki_AMS_LP_BI_F: srifle_DMR_03_khaki_F
 		};
 	};
 };
-// Cyrus 9.3 mm + DMS (Old) + IR Laser Pointer + Bipod [CSAT] (Black)
+// Cyrus 9.3 mm + DMS (Old) + IR Laser Pointer + Bipod [OPFOR] (Black)
 class srifle_DMR_05_DMS_LP_BI_F: srifle_DMR_05_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -299,7 +299,7 @@ class srifle_DMR_05_DMS_LP_BI_F: srifle_DMR_05_blk_F
 		};
 	};
 };
-// Mk200 6.5 mm (Sand) + RCO + IR Laser Pointer + Bipod [NATO] (Sand)
+// Mk200 6.5 mm (Sand) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Sand)
 class LMG_Mk200_plain_RCO_LP_F: LMG_Mk200_plain_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -322,7 +322,7 @@ class LMG_Mk200_plain_RCO_LP_F: LMG_Mk200_plain_F
 		};
 	};
 };
-// Mk200 6.5 mm (Sand) + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [NATO] (Sand)
+// Mk200 6.5 mm (Sand) + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [BLUFOR] (Sand)
 class LMG_Mk200_plain_RCO_LP_S_F: LMG_Mk200_plain_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -350,7 +350,7 @@ class LMG_Mk200_plain_RCO_LP_S_F: LMG_Mk200_plain_F
 		};
 	};
 };
-// Mk200 6.5 mm (Khaki) + RCO + IR Laser Pointer + Bipod [NATO] (Khaki)
+// Mk200 6.5 mm (Khaki) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Khaki)
 class LMG_Mk200_khk_Hamr_Pointer_Bipod_F: LMG_Mk200_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -373,7 +373,7 @@ class LMG_Mk200_khk_Hamr_Pointer_Bipod_F: LMG_Mk200_khk_F
 		};
 	};
 };
-// Mk200 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Sound Suppressor (6.5 mm, Khaki) + Bipod [NATO] (Khaki)
+// Mk200 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Sound Suppressor (6.5 mm, Khaki) + Bipod [BLUFOR] (Khaki)
 class LMG_Mk200_khk_Hamr_Pointer_Bipod_Snds_F: LMG_Mk200_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -465,7 +465,7 @@ class MMG_01_ghex_ARCO_LP_F: MMG_01_ghex_F
 		};
 	};
 };
-// SPMG .338 (Black) + RCO + IR Laser Pointer + Bipod [NATO] (Black)
+// SPMG .338 (Black) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Black)
 class MMG_02_black_RCO_LP_F: MMG_02_black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -488,7 +488,7 @@ class MMG_02_black_RCO_LP_F: MMG_02_black_F
 		};
 	};
 };
-// SPMG .338 (Khaki) + RCO + IR Laser Pointer + Bipod [NATO] (Khaki)
+// SPMG .338 (Khaki) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Khaki)
 class MMG_02_khaki_RCO_LP_F: MMG_02_khaki_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -539,6 +539,29 @@ class arifle_Katiba_C_ACO_flash_F: arifle_Katiba_C_F
 		{
 			slot = PointerSlot;
 			item = acc_flashlight;
+		};
+	};
+};
+// Katiba Carbine 6.5 mm + ARCO (Black) + IR Laser Pointer + Stealth Sound Suppressor (6.5 mm, Black)
+class arifle_Katiba_C_ARCO_pointer_snds_F: arifle_Katiba_C_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_65_TI_blk_F;
 		};
 	};
 };
@@ -701,7 +724,7 @@ class arifle_MX_GL_RCO_pointer_snds_F: arifle_MX_GL_F
 		};
 	};
 };
-// MX SW 6.5 mm + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [NATO] (Sand)
+// MX SW 6.5 mm + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [BLUFOR] (Sand)
 class arifle_MX_SW_Hamr_pointer_snds_F: arifle_MX_SW_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -729,7 +752,7 @@ class arifle_MX_SW_Hamr_pointer_snds_F: arifle_MX_SW_F
 		};
 	};
 };
-// MXM 6.5 mm + MOS + IR Laser Pointer + Bipod [NATO] (Sand)
+// MXM 6.5 mm + MOS + IR Laser Pointer + Bipod [BLUFOR] (Sand)
 class arifle_MXM_MOS_LP_BI_F: arifle_MXM_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -752,7 +775,7 @@ class arifle_MXM_MOS_LP_BI_F: arifle_MXM_F
 		};
 	};
 };
-// MXM 6.5 mm + MOS + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [NATO] (Sand)
+// MXM 6.5 mm + MOS + IR Laser Pointer + Sound Suppressor (6.5 mm, Sand) + Bipod [BLUFOR] (Sand)
 class arifle_MXM_MOS_LP_BI_S_F: arifle_MXM_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -934,7 +957,7 @@ class arifle_MX_GL_Black_ACO_Pointer_F: arifle_MX_GL_Black_F
 		};
 	};
 };
-// MX SW 6.5 mm (Black) + RCO + IR Laser Pointer + Bipod [NATO] (Black) + Sound Suppressor (6.5 mm)
+// MX SW 6.5 mm (Black) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Black) + Sound Suppressor (6.5 mm)
 class arifle_MX_SW_Black_Hamr_Pointer_Bipod_Snds_F: arifle_MX_SW_Black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -962,7 +985,7 @@ class arifle_MX_SW_Black_Hamr_Pointer_Bipod_Snds_F: arifle_MX_SW_Black_F
 		};
 	};
 };
-// MX SW 6.5 mm (Black) + Flashlight + Bipod [NATO] (Black)
+// MX SW 6.5 mm (Black) + Flashlight + Bipod [BLUFOR] (Black)
 class arifle_MX_SW_Black_FL_F: arifle_MX_SW_Black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -980,7 +1003,7 @@ class arifle_MX_SW_Black_FL_F: arifle_MX_SW_Black_F
 		};
 	};
 };
-// MXM 6.5 mm (Black) + RCO + Bipod [NATO] (Black)
+// MXM 6.5 mm (Black) + RCO + Bipod [BLUFOR] (Black)
 class arifle_MXM_Black_RCO_BI_F: arifle_MXM_Black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1152,7 +1175,7 @@ class arifle_MXC_khk_Holo_Flash_F: arifle_MXC_khk_F
 		};
 	};
 };
-// MX SW 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Bipod [NATO] (Khaki)
+// MX SW 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Bipod [BLUFOR] (Khaki)
 class arifle_MX_SW_khk_Hamr_Pointer_F: arifle_MX_SW_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1175,7 +1198,7 @@ class arifle_MX_SW_khk_Hamr_Pointer_F: arifle_MX_SW_khk_F
 		};
 	};
 };
-// MX SW 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Bipod [NATO] (Khaki) + Sound Suppressor (6.5 mm, Khaki)
+// MX SW 6.5 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Bipod [BLUFOR] (Khaki) + Sound Suppressor (6.5 mm, Khaki)
 class arifle_MX_SW_khk_Hamr_Pointer_Snds_F: arifle_MX_SW_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1653,7 +1676,7 @@ class arifle_SPAR_01_GL_snd_Holo_Pointer_Snds_F: arifle_SPAR_01_GL_snd_F
 		};
 	};
 };
-// SPAR-16S 5.56 mm (Black) + ERCO (Black) + IR Laser Pointer + Sound Suppressor (5.56 mm) + Bipod [NATO] (Black) 
+// SPAR-16S 5.56 mm (Black) + ERCO (Black) + IR Laser Pointer + Sound Suppressor (5.56 mm) + Bipod [BLUFOR] (Black) 
 class arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1681,7 +1704,7 @@ class arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 		};
 	};
 };
-// SPAR-16S 5.56 mm (Black) + RCO + IR Laser Pointer + Sound Suppressor (5.56 mm) + Bipod [NATO] (Black)
+// SPAR-16S 5.56 mm (Black) + RCO + IR Laser Pointer + Sound Suppressor (5.56 mm) + Bipod [BLUFOR] (Black)
 class arifle_SPAR_02_blk_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1709,7 +1732,7 @@ class arifle_SPAR_02_blk_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_blk_F
 		};
 	};
 };
-// SPAR-16S 5.56 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Sound Suppressor (5.56 mm, Khaki) + Bipod [NATO] (Khaki)
+// SPAR-16S 5.56 mm (Khaki) + RCO (Khaki) + IR Laser Pointer + Sound Suppressor (5.56 mm, Khaki) + Bipod [BLUFOR] (Khaki)
 class arifle_SPAR_02_khk_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1737,7 +1760,7 @@ class arifle_SPAR_02_khk_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_khk_F
 		};
 	};
 };
-// SPAR-16S 5.56 mm (Sand) + RCO + IR Laser Pointer + Sound Suppressor (5.56 mm, Sand) + Bipod [NATO] (Sand)
+// SPAR-16S 5.56 mm (Sand) + RCO + IR Laser Pointer + Sound Suppressor (5.56 mm, Sand) + Bipod [BLUFOR] (Sand)
 class arifle_SPAR_02_snd_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_snd_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1765,7 +1788,7 @@ class arifle_SPAR_02_snd_RCO_Pointer_Snds_Bipod_F: arifle_SPAR_02_snd_F
 		};
 	};
 };
-// SPAR-17 7.62 mm (Black) + MOS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [NATO] (Black)
+// SPAR-17 7.62 mm (Black) + MOS + IR Laser Pointer + Sound Suppressor (7.62 mm) + Bipod [BLUFOR] (Black)
 class arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F: arifle_SPAR_03_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1793,7 +1816,7 @@ class arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F: arifle_SPAR_03_blk_F
 		};
 	};
 };
-// SPAR-17 7.62 mm (Khaki) + MOS (Khaki) + IR Laser Pointer + Sound Suppressor (7.62 mm, Khaki) + Bipod [NATO] (Khaki)
+// SPAR-17 7.62 mm (Khaki) + MOS (Khaki) + IR Laser Pointer + Sound Suppressor (7.62 mm, Khaki) + Bipod [BLUFOR] (Khaki)
 class arifle_SPAR_03_khk_MOS_Pointer_Snds_Bipod_F: arifle_SPAR_03_khk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1821,7 +1844,7 @@ class arifle_SPAR_03_khk_MOS_Pointer_Snds_Bipod_F: arifle_SPAR_03_khk_F
 		};
 	};
 };
-// SPAR-17 7.62 mm (Sand) + MOS + IR Laser Pointer + Sound Suppressor (7.62 mm, Sand) + Bipod [NATO] (Sand)
+// SPAR-17 7.62 mm (Sand) + MOS + IR Laser Pointer + Sound Suppressor (7.62 mm, Sand) + Bipod [BLUFOR] (Sand)
 class arifle_SPAR_03_snd_MOS_Pointer_Snds_Bipod_F: arifle_SPAR_03_snd_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1849,7 +1872,7 @@ class arifle_SPAR_03_snd_MOS_Pointer_Snds_Bipod_F: arifle_SPAR_03_snd_F
 		};
 	};
 };
-// Mk200 6.5 mm (Black) + Flashlight + Bipod [NATO] (Black)
+// Mk200 6.5 mm (Black) + Flashlight + Bipod [BLUFOR] (Black)
 class LMG_Mk200_black_FL_F: LMG_Mk200_black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1867,7 +1890,7 @@ class LMG_Mk200_black_FL_F: LMG_Mk200_black_F
 		};
 	};
 };
-// Mk200 6.5 mm (Black) + RCO + IR Laser Pointer + Bipod [NATO] (Black)
+// Mk200 6.5 mm (Black) + RCO + IR Laser Pointer + Bipod [BLUFOR] (Black)
 class LMG_Mk200_black_RCO_LP_F: LMG_Mk200_black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1890,7 +1913,7 @@ class LMG_Mk200_black_RCO_LP_F: LMG_Mk200_black_F
 		};
 	};
 };
-// Mk200 6.5 mm (Black) + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm) + Bipod [NATO] (Black)
+// Mk200 6.5 mm (Black) + RCO + IR Laser Pointer + Sound Suppressor (6.5 mm) + Bipod [BLUFOR] (Black)
 class LMG_Mk200_black_RCO_LP_S_F: LMG_Mk200_black_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1900,6 +1923,57 @@ class LMG_Mk200_black_RCO_LP_S_F: LMG_Mk200_black_F
 		{
 			slot = CowsSlot;
 			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+	};
+};
+// Mk200 6.5 mm (Black) + MRCO + IR Laser Pointer + Bipod [BLUFOR] (Black)
+class LMG_Mk200_black_MRCO_LP_F: LMG_Mk200_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+	};
+};
+// Mk200 6.5 mm (Black) + MRCO + IR Laser Pointer + Sound Suppressor (6.5 mm) + Bipod [BLUFOR] (Black)
+class LMG_Mk200_black_MRCO_LP_S_F: LMG_Mk200_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
 		};
 		class LinkedItemsAcc
 		{
