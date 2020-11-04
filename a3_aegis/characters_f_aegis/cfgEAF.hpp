@@ -1516,7 +1516,7 @@ class I_E_recon_AR_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_AR_F0;
-	uniformClass = U_I_E_Uniform_01_specops_shortsleeve_F;
+	uniformClass = U_I_E_Uniform_01_tanktop_F;
 	items[] =
 	{
 		FirstAidKit,
@@ -1586,7 +1586,7 @@ class I_E_recon_exp_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_exp_F0;
-	uniformClass = U_I_E_Uniform_01_specops_shortsleeve_F;
+	uniformClass = U_I_E_Uniform_01_shortsleeve_F;
 	backpack = B_Carryall_eaf_exp_F;
 	linkedItems[] =
 	{
@@ -1645,7 +1645,7 @@ class I_E_recon_GL_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_GL_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
@@ -1702,19 +1702,19 @@ class I_E_recon_JTAC_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_JTAC_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_sweater_F;
 	backpack = B_RadioBag_01_eaf_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Cap_eaf_hs_F,
+		H_Watchcap_camo_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Cap_eaf_hs_F,
+		H_Watchcap_camo_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
@@ -1774,7 +1774,7 @@ class I_E_recon_M_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_M_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_F;
 	items[] =
 	{
 		FirstAidKit,
@@ -1912,7 +1912,7 @@ class I_E_recon_F: I_E_Soldier_recon_base
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_recon_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
@@ -1965,7 +1965,7 @@ class I_E_recon_LAT_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_LAT_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_F;
 	backpack = B_AssaultPack_eaf_IELAT2_F;
 	linkedItems[] =
 	{
@@ -2026,7 +2026,7 @@ class I_E_recon_TL_F: I_E_Soldier_recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_TL_F0;
-	uniformClass = U_I_E_Uniform_01_specops_F;
+	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,

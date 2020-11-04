@@ -91,6 +91,12 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest_black_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest.rvmat"};
 	};
+	class V_TacVest_camo: Vest_Camo_Base
+	{
+		picture = "\A3\Characters_F_EPB\Data\UI\icon_V_I_G_resistanceLeader_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\Common\Data\tacticalvest_camo_dark_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Vests\Data\tacticalvest.rvmat"};
+    };
 	class V_TacVest_blk_POLICE: Vest_Camo_Base
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_TacVest_blk_POLICE_CA.paa";

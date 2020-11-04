@@ -37,6 +37,11 @@ class CfgVehicles
 	};
 	VEST_HOLDER(V_HarnessOSpec_brn,$STR_A3_A_CfgWeapons_V_HarnessOSpec_brn0)
 	VEST_HOLDER(V_HarnessOSpec_gry,$STR_A3_V_HarnessOSpec_gry0)
+	class Vest_V_I_G_resistanceLeader_F: Vest_Base_F
+	{
+		scope = protected;
+		scopeCurator = private;
+	};
 	// Arma 3 Enoch
 	class Vest_V_SmershVest_01_F: Vest_Base_F
 	{

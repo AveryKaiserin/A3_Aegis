@@ -3,16 +3,8 @@
 class CfgVehicles
 {
 	// Arma 3
-	class BagBunker_base_F;
-	class Land_HBarrierBig_F;
-	class Land_HBarrier_1_F;
-	class Land_HBarrier_3_F;
-	class Land_HBarrier_5_F;
-	class Land_HBarrierWall4_F;
-	class Land_HBarrierWall6_F;
-	class Land_HBarrierWall_corner_F;
-	class Land_HBarrierWall_corridor_F;
-	class Land_HBarrierTower_F;
+	class Land_BagBunker_Large_F;
+	class Land_BagBunker_Small_F;
 	class Land_BagBunker_Large_F: BagBunker_base_F
 	{
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_BagBunker_Large_F.jpg";
@@ -23,6 +15,16 @@ class CfgVehicles
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_BagBunker_Small_F.jpg";
 		model = "\A3_Aegis\Structures_F_Aegis\Military\Fortifications\BagBunker_Small_F.p3d";
 	};
+	class Land_BagFence_Corner_F;
+	class Land_BagFence_End_F;
+	class Land_BagFence_Long_F;
+	class Land_BagFence_Round_F;
+	class Land_BagFence_Short_F;
+	class Land_HBarrierBig_F;
+	class Land_HBarrierTower_F;
+	class Land_HBarrier_1_F;
+	class Land_HBarrier_3_F;
+	class Land_HBarrier_5_F;
 	class Land_BagBunker_Tower_F: BagBunker_base_F
 	{
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_BagBunker_Tower_F.jpg";
@@ -40,6 +42,10 @@ class CfgVehicles
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_MLOD_CO.paa"
 		};
 	};
+	class Land_HBarrierWall4_F;
+	class Land_HBarrierWall6_F;
+	class Land_HBarrierWall_corner_F;
+	class Land_HBarrierWall_corridor_F;
 	// Arma 3 Apex
 	class Land_HBarrier_01_tower_green_F: Land_BagBunker_Tower_F
 	{
@@ -57,205 +63,61 @@ class CfgVehicles
 			"\A3_Aegis\Structures_F_Aegis\Military\Fortifications\Data\fort_watchtower_green_MLOD_CO.paa"
 		};
 	};
+	class Land_BagFence_01_corner_green_F: Land_BagFence_Corner_F
+	{
+		editorCategory = EdCat_Walls;
+	};
+	class Land_BagFence_01_end_green_F: Land_BagFence_End_F
+	{
+		editorCategory = EdCat_Walls;
+	};
+	class Land_BagFence_01_long_green_F: Land_BagFence_Long_F
+	{
+		editorCategory = EdCat_Walls;
+	};
+	class Land_BagFence_01_round_green_F: Land_BagFence_Round_F
+	{
+		editorCategory = EdCat_Walls;
+	};
+	class Land_BagFence_01_short_green_F: Land_BagFence_Short_F
+	{
+		editorCategory = EdCat_Walls;
+	};
 	class Land_HBarrier_01_big_4_green_F: Land_HBarrierBig_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		mapSize = 9.06;
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 1.21;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_big_4_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_big_4_green_F";
-		scope = 2;
-		scopeCurator = 0;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_big_4_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_big_4_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_line_1_green_F: Land_HBarrier_1_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.702;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_line_1_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_line_1_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_line_1_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_line_1_green_F.p3d";
-		DLC = "Expansion";	
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_line_3_green_F: Land_HBarrier_3_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.798;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_line_3_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_line_3_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_line_3_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_line_3_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_line_5_green_F: Land_HBarrier_5_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.741;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_line_5_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_line_5_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_line_5_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_line_5_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_big_tower_green_F: Land_HBarrierTower_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		mapSize = 9.43;
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 2.352;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_big_tower_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_big_tower_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_big_tower_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_big_tower_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_wall_4_green_F: Land_HBarrierWall4_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.77;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_wall_4_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_wall_4_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_wall_4_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_wall_4_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_wall_6_green_F: Land_HBarrierWall6_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.763;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_wall_6_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_wall_6_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_wall_6_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_wall_6_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_wall_corner_green_F: Land_HBarrierWall_corner_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.766;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_wall_corner_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_wall_corner_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_wall_corner_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_wall_corner_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	class Land_HBarrier_01_wall_corridor_green_F: Land_HBarrierWall_corridor_F
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		class SimpleObject
-		{
-			eden = 0;
-			animate[] = {};
-			hide[] = {};
-			verticalOffset = 0.762;
-			verticalOffsetWorld = 0;
-			init = "''";
-		};
-		editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\Land_HBarrier_01_wall_corridor_green_F.jpg";
-		_generalMacro = "Land_HBarrier_01_wall_corridor_green_F";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "$STR_A3_CfgVehicles_Land_HBarrier_01_wall_corridor_green_F0";
-		model = "\A3\Structures_F_Exp\Military\Fortifications\HBarrier_01_wall_corridor_green_F.p3d";
-		DLC = "Expansion";
-		editorCategory = "EdCat_Walls";
-		editorSubcategory = "EdSubcat_Military";
+		editorCategory = EdCat_Walls;
 	};
 	// Arma 3 Aegis
 	class Land_BagBunker_Tower_OPFOR_F: Land_BagBunker_Tower_F
