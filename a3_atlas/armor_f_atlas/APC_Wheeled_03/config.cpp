@@ -33,7 +33,7 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
 					"\A3\Armor_F\Data\cage_sand_CO.paa"
 				};
-				factions[] = {Atlas_BLU_G_F};
+				factions[] = {Atlas_BLU_G_ard_F};
 			};
 			class Olive_01
 			{
@@ -49,6 +49,36 @@ class CfgVehicles
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
 				factions[] = {Atlas_BLU_G_F};
+			};
+			class Woodland_01
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_wsxcgy;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_wdl_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_wdl_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_wdl_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"\A3\Armor_F\Data\cage_olive_CO.paa"
+				};
+				factions[] = {Atlas_BLU_G_F};
+			};
+			class Desert_01
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				author = $STR_A3_A_wsxcgy;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_desert_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_desert_CO.paa",
+					"\A3\Armor_F_Gamma\APC_Wheeled_03\Data\RCWS30_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_desert_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {Atlas_BLU_G_ard_F};
 			};
 		};
 	};
