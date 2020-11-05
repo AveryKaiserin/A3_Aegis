@@ -12692,6 +12692,23 @@
 				<Japanese>454thガードモーターライフル連隊</Japanese>
 				<Turkish>454. Muhafızlar Motorlu Tüfek Alayı</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgUnitInsignia_CSAT_Patch0">
+				<Original>CSAT</Original>
+				<Chinese>CSAT</Chinese>
+				<French>CSAT</French>
+				<Spanish>CSAT</Spanish>
+				<Italian>CSAT</Italian>
+				<Polish>CSAT</Polish>
+				<Russian>CSAT</Russian>
+				<German>CSAT</German>
+				<Czech>CSAT</Czech>
+				<English>CSAT</English>
+				<Portuguese>CSAT</Portuguese>
+				<Korean>CSAT</Korean>
+				<Chinesesimp>CSAT</Chinesesimp>
+				<Japanese>CSAT</Japanese>
+				<Turkish>CSAT</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_b_antiarmor">
 				<Original>Anti-Armor</Original>
 				<Chinese>反裝甲</Chinese>

@@ -28,4 +28,11 @@ class CfgUnitInsignia
 		author = $STR_A3_A_AveryTheKitty;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class CSAT_Patch
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_Patch0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_Patch_CA.paa";
+		author = $STR_A3_A_Heliotrope;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 };
