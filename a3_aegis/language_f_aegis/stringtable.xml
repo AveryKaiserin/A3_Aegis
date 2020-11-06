@@ -15082,38 +15082,38 @@
 					<Turkish>Mk20C 5.56 mm (Hex)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_Mk20_GL_black_F0">
-					<Original>Mk20 EGLM 5.56 mm (Black)</Original>
-					<Chinese>Mk20 EGLM 5.56 mm（黑）</Chinese>
-					<French>Mk20 EGLM 5,56 mm (noir)</French>
-					<Spanish>Mk20 EGLM 5,56 mm (negro)</Spanish>
-					<Italian>Mk20 EGLM 5,56 mm (nero)</Italian>
-					<Polish>Mk20 EGLM 5,56 mm (czarny)</Polish>
+					<Original>Mk20C EGLM 5.56 mm (Black)</Original>
+					<Chinese>Mk20C EGLM 5.56 mm（黑）</Chinese>
+					<French>Mk20C EGLM 5,56 mm (noir)</French>
+					<Spanish>Mk20C EGLM 5,56 mm (negro)</Spanish>
+					<Italian>Mk20C EGLM 5,56 mm (nero)</Italian>
+					<Polish>Mk20C EGLM 5,56 mm (czarny)</Polish>
 					<Russian>Мк20 EGLM 5,56 мм (черная)</Russian>
-					<German>Mk20 EGLM 5,56 mm (schwarz)</German>
-					<Czech>Mk20 EGLM 5,56 mm (černý)</Czech>
-					<English>Mk20 EGLM 5.56 mm (Black)</English>
-					<Portuguese>Mk20 EGLM 5,56 mm (preto)</Portuguese>
-					<Korean>Mk20 EGLM 5.56mm (흑색)</Korean>
-					<Chinesesimp>Mk20 EGLM 5.56 毫米（黑色）</Chinesesimp>
-					<Japanese>Mk20 EGLM 5.56mm （黒）</Japanese>
-					<Turkish>Mk20 EGLM 5.56 mm (Siyah)</Turkish>
+					<German>Mk20C EGLM 5,56 mm (schwarz)</German>
+					<Czech>Mk20C EGLM 5,56 mm (černý)</Czech>
+					<English>Mk20C EGLM 5.56 mm (Black)</English>
+					<Portuguese>Mk20C EGLM 5,56 mm (preto)</Portuguese>
+					<Korean>Mk20C EGLM 5.56mm (흑색)</Korean>
+					<Chinesesimp>Mk20C EGLM 5.56 毫米（黑色）</Chinesesimp>
+					<Japanese>Mk20C EGLM 5.56mm （黒）</Japanese>
+					<Turkish>Mk20C EGLM 5.56 mm (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_Mk20_GL_hex_F0">
-					<Original>Mk20 EGLM 5.56 mm (Hex)</Original>
-					<Chinese>Mk20 EGLM 5.56 mm（六邊形）</Chinese>
-					<French>Mk20 EGLM 5,56 mm (hex)</French>
-					<Spanish>Mk20 EGLM 5,56 mm (hex)</Spanish>
-					<Italian>Mk20 EGLM 5,56 mm (mimetico esag.)</Italian>
-					<Polish>Mk20 EGLM 5,56 mm (hex)</Polish>
+					<Original>Mk20C EGLM 5.56 mm (Hex)</Original>
+					<Chinese>Mk20C EGLM 5.56 mm（六邊形）</Chinese>
+					<French>Mk20C EGLM 5,56 mm (hex)</French>
+					<Spanish>Mk20C EGLM 5,56 mm (hex)</Spanish>
+					<Italian>Mk20C EGLM 5,56 mm (mimetico esag.)</Italian>
+					<Polish>Mk20C EGLM 5,56 mm (hex)</Polish>
 					<Russian>Мк20 EGLM 5,56 мм (гекс)</Russian>
-					<German>Mk20 EGLM 5,56 mm (Hex-Camouflage)</German>
-					<Czech>Mk20 EGLM 5,56 mm (hex)</Czech>
-					<English>Mk20 EGLM 5.56 mm (Hex)</English>
-					<Portuguese>Mk20 EGLM 5,56 mm (hexagonal)</Portuguese>
-					<Korean>Mk20 EGLM 5.56mm (헥스)</Korean>
-					<Chinesesimp>Mk20 EGLM 5.56 毫米（六角）</Chinesesimp>
-					<Japanese>Mk20 EGLM 5.56mm （六角形）</Japanese>
-					<Turkish>Mk20 EGLM 5.56 mm (Hex)</Turkish>
+					<German>Mk20C EGLM 5,56 mm (Hex-Camouflage)</German>
+					<Czech>Mk20C EGLM 5,56 mm (hex)</Czech>
+					<English>Mk20C EGLM 5.56 mm (Hex)</English>
+					<Portuguese>Mk20C EGLM 5,56 mm (hexagonal)</Portuguese>
+					<Korean>Mk20C EGLM 5.56mm (헥스)</Korean>
+					<Chinesesimp>Mk20C EGLM 5.56 毫米（六角）</Chinesesimp>
+					<Japanese>Mk20C EGLM 5.56mm （六角形）</Japanese>
+					<Turkish>Mk20C EGLM 5.56 mm (Hex)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_arifle_TRG20_black_F0">
 					<Original>TRG-20 5.56 mm (Black)</Original>
@@ -15612,21 +15612,21 @@
 						<Turkish>Mk17 7.62 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_F0">
-						<Original>Mk17 GL 7.62 mm</Original>
-						<Chinese>Mk17 GL 7.62 mm</Chinese>
-						<French>Mk17 GL 7,62 mm</French>
-						<Spanish>Mk17 GL 7,62 mm</Spanish>
-						<Italian>Mk17 GL 7,62 mm</Italian>
-						<Polish>Mk17 GL 7,62 mm</Polish>
-						<Russian>Mk17 GL 7,62 мм</Russian>
-						<German>Mk17 GL 7,62 mm</German>
-						<Czech>Mk17 GL 7,62 mm</Czech>
-						<English>Mk17 GL 7.62 mm</English>
-						<Portuguese>Mk17 GL 7.62 mm</Portuguese>
-						<Korean>Mk17 GL 7.62mm</Korean>
-						<Chinesesimp>Mk17 GL 7.62 毫米</Chinesesimp>
-						<Japanese>Mk17 GL 7.62mm</Japanese>
-						<Turkish>Mk17 GL 7.62 mm</Turkish>
+						<Original>Mk17C GL 7.62 mm</Original>
+						<Chinese>Mk17C GL 7.62 mm</Chinese>
+						<French>Mk17C GL 7,62 mm</French>
+						<Spanish>Mk17C GL 7,62 mm</Spanish>
+						<Italian>Mk17C GL 7,62 mm</Italian>
+						<Polish>Mk17C GL 7,62 mm</Polish>
+						<Russian>Mk17C GL 7,62 мм</Russian>
+						<German>Mk17C GL 7,62 mm</German>
+						<Czech>Mk17C GL 7,62 mm</Czech>
+						<English>Mk17C GL 7.62 mm</English>
+						<Portuguese>Mk17C GL 7.62 mm</Portuguese>
+						<Korean>Mk17C GL 7.62mm</Korean>
+						<Chinesesimp>Mk17C GL 7.62 毫米</Chinesesimp>
+						<Japanese>Mk17C GL 7.62mm</Japanese>
+						<Turkish>Mk17C GL 7.62 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_short_F0">
 						<Original>Mk17C 7.62 mm</Original>
@@ -15680,21 +15680,21 @@
 						<Turkish>Mk17 7.62 mm (Siyah)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_black_F0">
-						<Original>Mk17 GL 7.62 mm (Black)</Original>
-						<Chinese>Mk17 GL 7.62 mm（黑）</Chinese>
-						<French>Mk17 GL 7,62 mm (noir)</French>
-						<Spanish>Mk17 GL 7,62 mm (negro)</Spanish>
-						<Italian>Mk17 GL 7,62 mm (nero)</Italian>
-						<Polish>Mk17 GL 7,62 mm (czarny)</Polish>
-						<Russian>Mk17 GL 7,62 мм (черная)</Russian>
-						<German>Mk17 GL 7,62 mm (schwarz)</German>
-						<Czech>Mk17 GL 7,62 mm (černý)</Czech>
-						<English>Mk17 GL 7.62 mm (Black)</English>
-						<Portuguese>Mk17 GL 7.62 mm (preto)</Portuguese>
-						<Korean>Mk17 GL 7.62mm (흑색)</Korean>
-						<Chinesesimp>Mk17 GL 7.62 毫米（黑色）</Chinesesimp>
-						<Japanese>Mk17 GL 7.62mm （黒）</Japanese>
-						<Turkish>Mk17 GL 7.62 mm (Siyah)</Turkish>
+						<Original>Mk17C GL 7.62 mm (Black)</Original>
+						<Chinese>Mk17C GL 7.62 mm（黑）</Chinese>
+						<French>Mk17C GL 7,62 mm (noir)</French>
+						<Spanish>Mk17C GL 7,62 mm (negro)</Spanish>
+						<Italian>Mk17C GL 7,62 mm (nero)</Italian>
+						<Polish>Mk17C GL 7,62 mm (czarny)</Polish>
+						<Russian>Mk17C GL 7,62 мм (черная)</Russian>
+						<German>Mk17C GL 7,62 mm (schwarz)</German>
+						<Czech>Mk17C GL 7,62 mm (černý)</Czech>
+						<English>Mk17C GL 7.62 mm (Black)</English>
+						<Portuguese>Mk17C GL 7.62 mm (preto)</Portuguese>
+						<Korean>Mk17C GL 7.62mm (흑색)</Korean>
+						<Chinesesimp>Mk17C GL 7.62 毫米（黑色）</Chinesesimp>
+						<Japanese>Mk17C GL 7.62mm （黒）</Japanese>
+						<Turkish>Mk17C GL 7.62 mm (Siyah)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_short_black_F0">
 						<Original>Mk17C 7.62 mm (Black)</Original>
@@ -15748,21 +15748,21 @@
 						<Turkish>Mk17 7.62 mm (Haki)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_GL_khaki_F0">
-						<Original>Mk17 GL 7.62 mm (Khaki)</Original>
-						<Chinese>Mk17 GL 7.62 mm（卡其）</Chinese>
-						<French>Mk17 GL 7,62 mm (kaki)</French>
-						<Spanish>Mk17 GL 7,62 mm (caqui)</Spanish>
-						<Italian>Mk17 GL 7,62 mm (kaki)</Italian>
-						<Polish>Mk17 GL 7,62 mm (khaki)</Polish>
-						<Russian>Mk17 GL 7,62 мм (хаки)</Russian>
-						<German>Mk17 GL 7,62 mm (Khaki)</German>
-						<Czech>Mk17 GL 7,62 mm (khaki)</Czech>
-						<English>Mk17 GL 7.62 mm (Khaki)</English>
-						<Portuguese>Mk17 GL 7.62 mm (cáqui)</Portuguese>
-						<Korean>Mk17 GL 7.62mm (카키)</Korean>
-						<Chinesesimp>Mk17 GL 7.62 毫米（卡其色）</Chinesesimp>
-						<Japanese>Mk17 GL 7.62mm （カーキ）</Japanese>
-						<Turkish>Mk17 GL 7.62 mm (Haki)</Turkish>
+						<Original>Mk17C GL 7.62 mm (Khaki)</Original>
+						<Chinese>Mk17C GL 7.62 mm（卡其）</Chinese>
+						<French>Mk17C GL 7,62 mm (kaki)</French>
+						<Spanish>Mk17C GL 7,62 mm (caqui)</Spanish>
+						<Italian>Mk17C GL 7,62 mm (kaki)</Italian>
+						<Polish>Mk17C GL 7,62 mm (khaki)</Polish>
+						<Russian>Mk17C GL 7,62 мм (хаки)</Russian>
+						<German>Mk17C GL 7,62 mm (Khaki)</German>
+						<Czech>Mk17C GL 7,62 mm (khaki)</Czech>
+						<English>Mk17C GL 7.62 mm (Khaki)</English>
+						<Portuguese>Mk17C GL 7.62 mm (cáqui)</Portuguese>
+						<Korean>Mk17C GL 7.62mm (카키)</Korean>
+						<Chinesesimp>Mk17C GL 7.62 毫米（卡其色）</Chinesesimp>
+						<Japanese>Mk17C GL 7.62mm （カーキ）</Japanese>
+						<Turkish>Mk17C GL 7.62 mm (Haki)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_arifle_SCAR_short_khaki_F0">
 						<Original>Mk17C 7.62 mm (Khaki)</Original>
