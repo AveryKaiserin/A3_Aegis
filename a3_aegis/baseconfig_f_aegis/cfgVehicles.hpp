@@ -220,7 +220,6 @@ class CfgVehicles
     DEPRECATED_CLASS(B_APC_Wheeled_01_unarmed_F,B_APC_Wheeled_01_cannon_F)
     DEPRECATED_CLASS(B_APC_Wheeled_01_up_cannon_F,B_APC_Wheeled_01_cannon_F)
     class B_T_APC_Wheeled_01_cannon_F;
-    DEPRECATED_CLASS(B_T_APC_Wheeled_01_medical_F,B_T_APC_Wheeled_01_cannon_F)
     DEPRECATED_CLASS(B_T_APC_Wheeled_01_unarmed_F,B_T_APC_Wheeled_01_cannon_F)
     DEPRECATED_CLASS(B_T_APC_Wheeled_01_up_cannon_F,B_T_APC_Wheeled_01_cannon_F)
     class O_A_APC_Wheeled_02_rcws_v2_F;

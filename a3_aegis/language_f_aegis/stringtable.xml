@@ -1013,6 +1013,40 @@
 				<Japanese>FV-721 Slingshot</Japanese>
 				<Turkish>FV-721 Slingshot</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_A_APC_tracked_03_cannon_v3_F0">
+				<Original>FV-722 Cataphract</Original>
+				<Chinese>FV-722 Cataphract</Chinese>
+				<French>FV-722 Cataphract</French>
+				<Spanish>FV-722 Cataphract</Spanish>
+				<Italian>FV-722 Cataphract</Italian>
+				<Polish>FV-722 Cataphract</Polish>
+				<Russian>FV-722 Cataphract</Russian>
+				<German>FV-722 Cataphract</German>
+				<Czech>FV-722 Cataphract</Czech>
+				<English>FV-722 Cataphract</English>
+				<Portuguese>FV-722 Cataphract</Portuguese>
+				<Korean>FV-722 Cataphract</Korean>
+				<Chinesesimp>FV-722 Cataphract</Chinesesimp>
+				<Japanese>FV-722 Cataphract</Japanese>
+				<Turkish>FV-722 Cataphract</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_APC_Wheeled_01_arty_F0">
+				<Original>AMV-7 AMOS</Original>
+				<Chinese>AMV-7 AMOS</Chinese>
+				<French>AMV-7 AMOS</French>
+				<Spanish>AMV-7 AMOS</Spanish>
+				<Italian>AMV-7 AMOS</Italian>
+				<Polish>AMV-7 AMOS</Polish>
+				<Russian>AMV-7 AMOS</Russian>
+				<German>AMV-7 AMOS</German>
+				<Czech>AMV-7 AMOS</Czech>
+				<English>AMV-7 AMOS</English>
+				<Portuguese>AMV-7 AMOS</Portuguese>
+				<Korean>AMV-7 AMOS</Korean>
+				<Chinesesimp>AMV-7 AMOS</Chinesesimp>
+				<Japanese>AMV-7 AMOS</Japanese>
+				<Turkish>AMV-7 AMOS</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_B_APC_Wheeled_01_medical_F0">
 				<Original>AMV-7 Medical</Original>
 				<Chinese>AMV-7（醫療用）</Chinese>
