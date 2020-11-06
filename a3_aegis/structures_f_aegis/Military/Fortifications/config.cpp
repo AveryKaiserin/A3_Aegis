@@ -3,8 +3,7 @@
 class CfgVehicles
 {
 	// Arma 3
-	class Land_BagBunker_Large_F;
-	class Land_BagBunker_Small_F;
+    class BagBunker_base_F;
 	class Land_BagBunker_Large_F: BagBunker_base_F
 	{
 		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Land_BagBunker_Large_F.jpg";

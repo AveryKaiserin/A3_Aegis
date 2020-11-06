@@ -2160,118 +2160,73 @@ class CfgGroups
 		class OPF_V_F
 		{
 			name = $STR_A3_A_CfgGroups_East_OPF_V_F0;
-			class Infantry
+			class SpecOps
 			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-				class O_V_InfSquad
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class O_V_ViperTeam
 				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSquad0;
+					name = $STR_A3_CfgGroups_East_OPF_F_SpecOps_OI_ViperTeam0;
 					side = TEast;
 					faction = OPF_V_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
 					GROUP_UNIT(0,TEast,O_V_Soldier_TL_hex_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_JTAC_hex_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_Exp_hex_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_M_hex_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_V_Soldier_TL_hex_F,SERGEANT,-10,-10)
-					GROUP_UNIT(5,TEast,O_V_Soldier_Medic_hex_F,CORPORAL,15,-15)
-					GROUP_UNIT(6,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,-15,-15)
-					GROUP_UNIT(7,TEast,O_V_Soldier_hex_F,PRIVATE,20,-20)
+					GROUP_UNIT(1,TEast,O_V_Soldier_JTAC_hex_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_M_hex_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_Exp_hex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_Medic_hex_F,PRIVATE,15,-15)
 				};
-				class O_V_InfTeam
+				class O_V_ViperPatrol
 				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperTeam0;
+					name = "Viper Patrol";
 					side = TEast;
 					faction = OPF_V_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
 					GROUP_UNIT(0,TEast,O_V_Soldier_TL_hex_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_Exp_hex_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_hex_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,10,-10)
+					GROUP_UNIT(1,TEast,O_V_Soldier_M_hex_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_Medic_hex_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_hex_F,PRIVATE,10,-10)
 				};
-				class O_V_InfSentry
+				class O_V_ViperSentry
 				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSentry0;
+					name = "Viper Sentry";
 					side = TEast;
 					faction = OPF_V_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
-					GROUP_UNIT(0,TEast,O_V_Soldier_Exp_hex_F,CORPORAL,0,0)
+					GROUP_UNIT(0,TEast,O_V_Soldier_M_hex_F,CORPORAL,0,0)
 					GROUP_UNIT(1,TEast,O_V_Soldier_hex_F,PRIVATE,5,-5)
 				};
 			};
-			class Motorized
+			class Motorized_MTP
 			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
-				class O_V_MotInf_Team_T
+				name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP0;
+				class O_V_MotInf_ReconViperTeam
 				{
-					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0;
+					name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP_O_MotInf_ReconViperTeam0;
 					side = TEast;
 					faction = OPF_V_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_V_LSV_02_armed_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_Exp_hex_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_Medic_hex_F,CORPORAL,10,-10)
-					GROUP_UNIT(4,TEast,O_V_Soldier_M_hex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(0,TEast,O_LSV_02_unarmed_viper_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_TL_hex_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_JTAC_hex_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_M_hex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_Exp_hex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,O_V_Soldier_Medic_hex_F,PRIVATE,-15,-15)
 				};
-			};
-		};
-		class OPF_V_tna_F
-		{
-			name = $STR_A3_A_CfgFactionClasses_OPF_V_tna_F0;
-			class Infantry
-			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-				class O_V_tna_InfSquad
+				class O_V_MotInf_AssaultViperTeam
 				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSquad0;
+					name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP_O_MotInf_AssaultViperTeam0;
 					side = TEast;
-					faction = OPF_V_tna_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
-					GROUP_UNIT(0,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_JTAC_ghex_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_Exp_ghex_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_M_ghex_F,PRIVATE,10,-10)
-					GROUP_UNIT(4,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,-10,-10)
-					GROUP_UNIT(5,TEast,O_V_Soldier_Medic_ghex_F,CORPORAL,15,-15)
-					GROUP_UNIT(6,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,-15,-15)
-					GROUP_UNIT(7,TEast,O_V_Soldier_ghex_F,PRIVATE,20,-20)
-				};
-				class O_V_tna_InfTeam
-				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperTeam0;
-					side = TEast;
-					faction = OPF_V_tna_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
-					GROUP_UNIT(0,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_Exp_ghex_F,CORPORAL,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_ghex_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,10,-10)
-				};
-				class O_V_tna_InfSentry
-				{
-					name = $STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSentry0;
-					side = TEast;
-					faction = OPF_V_tna_F;
-					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
-					GROUP_UNIT(0,TEast,O_V_Soldier_Exp_ghex_F,CORPORAL,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_ghex_F,PRIVATE,5,-5)
-				};
-			};
-			class Motorized
-			{
-				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
-				class O_V_tna_MotInf_Team_T
-				{
-					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0;
-					side = TEast;
-					faction = OPF_V_tna_F;
+					faction = OPF_V_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
-					GROUP_UNIT(0,TEast,O_V_LSV_02_armed_ghex_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,5,-5)
-					GROUP_UNIT(2,TEast,O_V_Soldier_Exp_ghex_F,CORPORAL,-5,-5)
-					GROUP_UNIT(3,TEast,O_V_Soldier_Medic_ghex_F,CORPORAL,10,-10)
-					GROUP_UNIT(4,TEast,O_V_Soldier_M_ghex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(0,TEast,O_LSV_02_armed_viper_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_TL_hex_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_JTAC_hex_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_M_hex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_Exp_hex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_LAT_hex_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,O_V_Soldier_Medic_hex_F,PRIVATE,-15,-15)
 				};
 			};
 		};
@@ -2956,6 +2911,79 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,O_R_MBT_04_cannon_F,SERGEANT,10,-10)
 					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_F,SERGEANT,-10,-10)
 					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_F,CORPORAL,20,-20)
+				};
+			};
+		};
+		class OPF_V_tna_F
+		{
+			name = $STR_A3_A_CfgFactionClasses_OPF_V_tna_F0;
+			class SpecOps
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class O_V_ViperTeam
+				{
+					name = $STR_A3_CfgGroups_East_OPF_F_SpecOps_OI_ViperTeam0;
+					side = TEast;
+					faction = OPF_V_tna_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_JTAC_ghex_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_M_ghex_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_Exp_ghex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_Medic_ghex_F,PRIVATE,15,-15)
+				};
+				class O_V_ViperPatrol
+				{
+					name = "Viper Patrol";
+					side = TEast;
+					faction = OPF_V_tna_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_M_ghex_F,CORPORAL,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_Medic_ghex_F,PRIVATE,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_ghex_F,PRIVATE,10,-10)
+				};
+				class O_V_ViperSentry
+				{
+					name = "Viper Sentry";
+					side = TEast;
+					faction = OPF_V_tna_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_recon.paa";
+					GROUP_UNIT(0,TEast,O_V_Soldier_M_ghex_F,CORPORAL,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_ghex_F,PRIVATE,5,-5)
+				};
+			};
+			class Motorized_MTP
+			{
+				name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP0;
+				class O_V_MotInf_ReconViperTeam
+				{
+					name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP_O_MotInf_ReconViperTeam0;
+					side = TEast;
+					faction = OPF_V_tna_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
+					GROUP_UNIT(0,TEast,O_T_LSV_02_unarmed_viper_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_JTAC_ghex_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_M_ghex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_Exp_ghex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,O_V_Soldier_Medic_ghex_F,PRIVATE,-15,-15)
+				};
+				class O_V_MotInf_AssaultViperTeam
+				{
+					name = $STR_A3_CfgGroups_East_OPF_F_Motorized_MTP_O_MotInf_AssaultViperTeam0;
+					side = TEast;
+					faction = OPF_V_tna_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_motor_inf.paa";
+					GROUP_UNIT(0,TEast,O_T_LSV_02_armed_viper_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TEast,O_V_Soldier_TL_ghex_F,SERGEANT,5,-5)
+					GROUP_UNIT(2,TEast,O_V_Soldier_JTAC_ghex_F,CORPORAL,-5,-5)
+					GROUP_UNIT(3,TEast,O_V_Soldier_M_ghex_F,PRIVATE,10,-10)
+					GROUP_UNIT(4,TEast,O_V_Soldier_Exp_ghex_F,PRIVATE,-10,-10)
+					GROUP_UNIT(5,TEast,O_V_Soldier_LAT_ghex_F,PRIVATE,15,-15)
+					GROUP_UNIT(6,TEast,O_V_Soldier_Medic_ghex_F,PRIVATE,-15,-15)
 				};
 			};
 		};

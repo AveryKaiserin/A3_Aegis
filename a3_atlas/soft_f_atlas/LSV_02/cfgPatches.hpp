@@ -9,8 +9,10 @@ class CfgPatches
         {
             // Belarus
             Atlas_O_W_LSV_02_armed_F,
+            Atlas_O_W_LSV_02_armed_viper_F,
             Atlas_O_W_LSV_02_AT_F,
             Atlas_O_W_LSV_02_unarmed_F,
+            Atlas_O_W_LSV_02_unarmed_viper_F,
 
             // Takistani Army
             Atlas_O_T_LSV_02_armed_F,
