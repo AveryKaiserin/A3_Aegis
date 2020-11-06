@@ -18068,5 +18068,64 @@
                 </Key>
 			</Container>
 		</Container>
+		<Container name="Groups_F">
+			<Container name="Blufor Groups">
+			</Container>
+			<Container name="Opfor Groups">
+				<Key ID="STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSquad0">
+					<Original>Viper Squad</Original>
+					<Chinese>Viper Squad</Chinese>
+					<French>Viper Squad</French>
+					<Spanish>Viper Squad</Spanish>
+					<Italian>Viper Squad</Italian>
+					<Polish>Viper Squad</Polish>
+					<Russian>Viper Squad</Russian>
+					<German>Viper Squad</German>
+					<Czech>Viper Squad</Czech>
+					<English>Viper Squad</English>
+					<Portuguese>Viper Squad</Portuguese>
+					<Korean>Viper Squad</Korean>
+					<Chinesesimp>Viper Squad</Chinesesimp>
+					<Japanese>Viper Squad</Japanese>
+					<Turkish>Viper Squad</Turkish>
+				</Key>
+				<Key ID="STR_A3_CfgGroups_East_OPF_V_Infantry_ViperTeam0">
+					<Original>Viper Team</Original>
+					<Chinese>Viper Team</Chinese>
+					<French>Viper Team</French>
+					<Spanish>Viper Team</Spanish>
+					<Italian>Viper Team</Italian>
+					<Polish>Viper Team</Polish>
+					<Russian>Viper Team</Russian>
+					<German>Viper Team</German>
+					<Czech>Viper Team</Czech>
+					<English>Viper Team</English>
+					<Portuguese>Viper Team</Portuguese>
+					<Korean>Viper Team</Korean>
+					<Chinesesimp>Viper Team</Chinesesimp>
+					<Japanese>Viper Team</Japanese>
+					<Turkish>Viper Team</Turkish>
+				</Key>
+				<Key ID="STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSentry0">
+					<Original>Viper Sentry</Original>
+					<Chinese>Viper Sentry</Chinese>
+					<French>Viper Sentry</French>
+					<Spanish>Viper Sentry</Spanish>
+					<Italian>Viper Sentry</Italian>
+					<Polish>Viper Sentry</Polish>
+					<Russian>Viper Sentry</Russian>
+					<German>Viper Sentry</German>
+					<Czech>Viper Sentry</Czech>
+					<English>Viper Sentry</English>
+					<Portuguese>Viper Sentry</Portuguese>
+					<Korean>Viper Sentry</Korean>
+					<Chinesesimp>Viper Sentry</Chinesesimp>
+					<Japanese>Viper Sentry</Japanese>
+					<Turkish>Viper Sentry</Turkish>
+				</Key>
+			</Container>
+			<Container name="Indep Groups">
+			</Container>
+		</Container>
 	</Package>
 </Project>

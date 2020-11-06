@@ -1,4 +1,5 @@
 // Arma 3 Apex
+// Arid
 class O_V_Soldier_base_F: O_Soldier_base_F
 {
 	class SpeechVariants
@@ -154,6 +155,7 @@ class O_V_Soldier_JTAC_hex_F: O_V_Soldier_base_F
 		mag_2(Chemlight_red)
 	};
 };
+// Pacific
 class O_V_Soldier_ghex_F: O_V_Soldier_hex_F
 {
 	faction = OPF_V_tna_F;
