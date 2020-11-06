@@ -772,6 +772,7 @@ class CfgWeapons
     };
 	class arifle_Mk20_F: mk20_base_F
     {
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_F0;
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             class MuzzleSlot: asdg_MuzzleSlot_556
@@ -785,9 +786,13 @@ class CfgWeapons
             };
         };
     };
-	class arifle_Mk20_plain_F;
+	class arifle_Mk20_plain_F: arifle_Mk20_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_plain_F0;
+    };
 	class arifle_Mk20C_F: mk20_base_F
     {
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20C_F0;
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             class MuzzleSlot: asdg_MuzzleSlot_556
@@ -801,9 +806,13 @@ class CfgWeapons
             };
         };
     };
-	class arifle_Mk20C_plain_F;
+	class arifle_Mk20C_plain_F: arifle_Mk20C_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20C_plain_F0;
+    };
 	class arifle_Mk20_GL_F: mk20_base_F
     {
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_GL_F0;
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             class MuzzleSlot: asdg_MuzzleSlot_556
@@ -819,6 +828,7 @@ class CfgWeapons
     };
 	class arifle_Mk20_GL_plain_F: arifle_Mk20_GL_F
 	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_Mk20_GL_plain_F0;
 		hiddenSelectionsTextures[] =
 		{
 			"\A3\Weapons_F_Beta\Rifles\MK20\Data\MK20_CO.paa",
