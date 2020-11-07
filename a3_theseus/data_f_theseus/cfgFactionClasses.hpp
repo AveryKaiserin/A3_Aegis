@@ -8,9 +8,9 @@ class CfgFactionClasses
 		icon = "\A3\Data_F\CfgFactionClasses_IND_G_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_FIA_CO.paa";
 	};
-	class Theseus_OPF_A_F 										// Anarchists
+	class Theseus_OPF_B_F 										// Bandits
 	{
-		displayName = $STR_A3_T_CfgFactionClasses_OPF_A_F0;
+		displayName = $STR_A3_T_CfgFactionClasses_OPF_B_F0;
 		priority = 3;
 		side = TEast;
 		icon = "\A3\Data_F\CfgFactionClasses_IND_G_CA.paa";		// Temp Symbol
@@ -23,5 +23,13 @@ class CfgFactionClasses
 		side = TEast;
 		icon = "\A3\Data_F\CfgFactionClasses_IND_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_AAF_CO.paa";				// AAF Flag
+	};
+	class Theseus_BLU_I_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_IND_I_F0;
+		priority = 3;
+		side = TWest;
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_IDF_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_IDF_CO.paa";
 	};
 };
