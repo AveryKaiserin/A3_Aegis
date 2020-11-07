@@ -18206,6 +18206,74 @@
 		</Container>
 		<Container name="Groups_F">
 			<Container name="Blufor Groups">
+				<Key ID="STR_A3_CfgGroups_West_BLU_F_InfantryArid0">
+					<Original>Infantry (Arid)</Original>
+					<Chinese>Infantry (Arid)</Chinese>
+					<French>Infantry (Arid)</French>
+					<Spanish>Infantry (Arid)</Spanish>
+					<Italian>Infantry (Arid)</Italian>
+					<Polish>Infantry (Arid)</Polish>
+					<Russian>Infantry (Arid)</Russian>
+					<German>Infantry (Arid)</German>
+					<Czech>Infantry (Arid)</Czech>
+					<English>Infantry (Arid)</English>
+					<Portuguese>Infantry (Arid)</Portuguese>
+					<Korean>Infantry (Arid)</Korean>
+					<Chinesesimp>Infantry (Arid)</Chinesesimp>
+					<Japanese>Infantry (Arid)</Japanese>
+					<Turkish>Infantry (Arid)</Turkish>
+				</Key>
+				<Key ID="STR_A3_CfgGroups_West_BLU_F_InfantryMediterranean0">
+					<Original>Infantry (Mediterranean)</Original>
+					<Chinese>Infantry (Mediterranean)</Chinese>
+					<French>Infantry (Mediterranean)</French>
+					<Spanish>Infantry (Mediterranean)</Spanish>
+					<Italian>Infantry (Mediterranean)</Italian>
+					<Polish>Infantry (Mediterranean)</Polish>
+					<Russian>Infantry (Mediterranean)</Russian>
+					<German>Infantry (Mediterranean)</German>
+					<Czech>Infantry (Mediterranean)</Czech>
+					<English>Infantry (Mediterranean)</English>
+					<Portuguese>Infantry (Mediterranean)</Portuguese>
+					<Korean>Infantry (Mediterranean)</Korean>
+					<Chinesesimp>Infantry (Mediterranean)</Chinesesimp>
+					<Japanese>Infantry (Mediterranean)</Japanese>
+					<Turkish>Infantry (Mediterranean)</Turkish>
+				</Key>
+				<Key ID="STR_A3_CfgGroups_West_BLU_F_InfantryUrban0">
+					<Original>Infantry (Urban)</Original>
+					<Chinese>Infantry (Urban)</Chinese>
+					<French>Infantry (Urban)</French>
+					<Spanish>Infantry (Urban)</Spanish>
+					<Italian>Infantry (Urban)</Italian>
+					<Polish>Infantry (Urban)</Polish>
+					<Russian>Infantry (Urban)</Russian>
+					<German>Infantry (Urban)</German>
+					<Czech>Infantry (Urban)</Czech>
+					<English>Infantry (Urban)</English>
+					<Portuguese>Infantry (Urban)</Portuguese>
+					<Korean>Infantry (Urban)</Korean>
+					<Chinesesimp>Infantry (Urban)</Chinesesimp>
+					<Japanese>Infantry (Urban)</Japanese>
+					<Turkish>Infantry (Urban)</Turkish>
+				</Key>
+				<Key ID="STR_A3_CfgGroups_West_BLU_F_InfantryPacific0">
+					<Original>Infantry (Pacific)</Original>
+					<Chinese>Infantry (Pacific)</Chinese>
+					<French>Infantry (Pacific)</French>
+					<Spanish>Infantry (Pacific)</Spanish>
+					<Italian>Infantry (Pacific)</Italian>
+					<Polish>Infantry (Pacific)</Polish>
+					<Russian>Infantry (Pacific)</Russian>
+					<German>Infantry (Pacific)</German>
+					<Czech>Infantry (Pacific)</Czech>
+					<English>Infantry (Pacific)</English>
+					<Portuguese>Infantry (Pacific)</Portuguese>
+					<Korean>Infantry (Pacific)</Korean>
+					<Chinesesimp>Infantry (Pacific)</Chinesesimp>
+					<Japanese>Infantry (Pacific)</Japanese>
+					<Turkish>Infantry (Pacific)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Opfor Groups">
 				<Key ID="STR_A3_CfgGroups_East_OPF_V_Infantry_ViperSquad0">
