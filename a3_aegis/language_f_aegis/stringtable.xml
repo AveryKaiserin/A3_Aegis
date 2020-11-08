@@ -14751,6 +14751,23 @@
 						<Japanese>拳銃&lt;br /&gt;口径：12.7x33 mm</Japanese>
 						<Turkish>Tabanca&lt;br /&gt;Kalibre: 12.7x33 mm</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_02_F1">
+						<Original>Handgun&lt;br /&gt;Caliber: 9x19 mm</Original>
+						<Chinese>手槍&lt;br /&gt;口徑：9x21 mm</Chinese>
+						<French>Arme de poing&lt;br /&gt;Calibre : 9x19 mm</French>
+						<Spanish>Pistola&lt;br /&gt;Calibre: 9x19 mm</Spanish>
+						<Italian>Pistola&lt;br /&gt;Calibro: 9x19 mm</Italian>
+						<Polish>Pistolet&lt;br /&gt;Kaliber: 9x19 mm</Polish>
+						<Russian>Пистолет&lt;br /&gt;Калибр: 9x19 мм</Russian>
+						<German>Handfeuerwaffe&lt;br /&gt;Kaliber: 9x19 mm</German>
+						<Czech>Pistole&lt;br /&gt;Ráže: 9x19 mm</Czech>
+						<English>Handgun&lt;br /&gt;Caliber: 9x19 mm</English>
+						<Portuguese>Pistola&lt;br /&gt;Calibre: 9 x 21 mm</Portuguese>
+						<Korean>권총&lt;br /&gt;구경: 9x19mm</Korean>
+						<Chinesesimp>手枪&lt;br /&gt;口径：9x21 毫米</Chinesesimp>
+						<Japanese>拳銃&lt;br /&gt;口径：9x21 mm</Japanese>
+						<Turkish>Tabanca&lt;br /&gt;Kalibre: 9x19 mm</Turkish>
+					</Key>
 				</Container>
 				<Container name="DisplayName">
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_F0">
@@ -14821,25 +14838,25 @@
 						<Japanese>Mk26 12.7 mm</Japanese>
 						<Turkish>Mk26 12.7 mm</Turkish>
 					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_02_F0">
+						<Original>Type 92 9 mm</Original>
+						<Chinese>Type 92 9 mm</Chinese>
+						<French>Type 92 9 mm</French>
+						<Spanish>Type 92 9 mm</Spanish>
+						<Italian>Type 92 9 mm</Italian>
+						<Polish>Type 92 9 mm</Polish>
+						<Russian>Type 92 9 мм</Russian>
+						<German>Type 92 9 mm</German>
+						<Czech>Type 92 9 mm</Czech>
+						<English>Type 92 9 mm</English>
+						<Portuguese>Type 92 9 mm</Portuguese>
+						<Korean>Type 92 9mm</Korean>
+						<Chinesesimp>Type 92 9 毫米</Chinesesimp>
+						<Japanese>Type 92 9 mm</Japanese>
+						<Turkish>Type 92 9 mm</Turkish>
+					</Key>
 				</Container>
 				<Container name="Library">
-					<Key ID="STR_A3_A_CfgWeapons_hgun_C1911_F_Library0">
-						<Original>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Original>
-						<Chinese>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Chinese>
-						<French>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</French>
-						<Spanish>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Spanish>
-						<Italian>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Italian>
-						<Polish>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Polish>
-						<Russian>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Russian>
-						<German>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</German>
-						<Czech>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Czech>
-						<English>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</English>
-						<Portuguese>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Portuguese>
-						<Korean>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Korean>
-						<Chinesesimp>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Chinesesimp>
-						<Japanese>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Japanese>
-						<Turkish>The C-1911 is a single-action self-loading pistol. It was the standard side arm weapon used by the US Army from 1911 to 1985; and was widely used by US troops in WW1, WW2, and both Korean and Vietnam wars. The C-1911 is designed to use .45 ACP rounds. Even today many police departments - as well as many other armies – favor this weapon thanks to the great stopping power of .45 ACP rounds.</Turkish>
-					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_F_Library0">
 						<Original>The G17 is a short recoil-operated, locked-breech semi-automatic pistol chambered in 9 mm that was first developed in 1982 to replace the obsolescent P38 pistol in use by the Austrian army. Simplicity of operation combined with having a minimum number of parts as well as a polymer design has made it a highly popular weapon, with many armies and police forces throughout the world using it.</Original>
 						<Chinese>The G17 is a short recoil-operated, locked-breech semi-automatic pistol chambered in 9 mm that was first developed in 1982 to replace the obsolescent P38 pistol in use by the Austrian army. Simplicity of operation combined with having a minimum number of parts as well as a polymer design has made it a highly popular weapon, with many armies and police forces throughout the world using it.</Chinese>
@@ -14873,6 +14890,23 @@
 						<Chinesesimp>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Chinesesimp>
 						<Japanese>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Japanese>
 						<Turkish>The Mk26 is a semi-automatic pistol notable for its large cartridge, being chambered in 12.7x33 mm, and is produced in Israel.</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_hgun_Pistol_02_F_Library0">
+						<Original>***TO TRANSLATE***</Original>
+						<Chinese>***TO TRANSLATE***</Chinese>
+						<French>***TO TRANSLATE***</French>
+						<Spanish>***TO TRANSLATE***</Spanish>
+						<Italian>***TO TRANSLATE***</Italian>
+						<Polish>***TO TRANSLATE***</Polish>
+						<Russian>***TO TRANSLATE***</Russian>
+						<German>***TO TRANSLATE***</German>
+						<Czech>***TO TRANSLATE***</Czech>
+						<English>***TO TRANSLATE***</English>
+						<Portuguese>***TO TRANSLATE***</Portuguese>
+						<Korean>***TO TRANSLATE***</Korean>
+						<Chinesesimp>***TO TRANSLATE***</Chinesesimp>
+						<Japanese>***TO TRANSLATE***</Japanese>
+						<Turkish>***TO TRANSLATE***</Turkish>
 					</Key>
 				</Container>
 			</Container>

@@ -11,7 +11,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Germany
+            // Legionnaires
+            Atlas_B_L_MRAP_03_F,
+            Atlas_B_L_MRAP_03_gmg_F,
+            Atlas_B_L_MRAP_03_hmg_F,
+
+            // Bundeswehr
             Atlas_B_G_MRAP_03_F,
             Atlas_B_G_MRAP_03_gmg_F,
             Atlas_B_G_MRAP_03_hmg_F

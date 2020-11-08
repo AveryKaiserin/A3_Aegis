@@ -53,6 +53,17 @@ class CfgVehicles
 				};
 				factions[] = {Atlas_BLU_G_ard_F};
 			};
+			class Jagged
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_JAGGED0;
+				author = $STR_A3_A_wsxcgy;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_jagged_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_jagged_CO.paa"
+				};
+				factions[] = {Atlas_BLU_L_F};
+			};
 		};
 	};
 	class MRAP_03_hmg_base_F: MRAP_03_base_F
@@ -65,7 +76,8 @@ class CfgVehicles
 	};
 	class MRAP_03_gmg_base_F;
 	// Arma 3 Atlas
-	#include "cfgBlufor_Atlas.hpp"      // Germany
+	#include "cfgLegion.hpp"            // Legionnaires
+	#include "cfgBlufor_Atlas.hpp"      // Bundeswehr
     // Deprecated classes
     #include "deprecated.hpp"
 };
