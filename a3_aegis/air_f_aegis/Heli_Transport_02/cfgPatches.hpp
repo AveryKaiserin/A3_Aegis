@@ -28,6 +28,6 @@ class CfgPatches
             // ION
             B_ION_Heli_Transport_02_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

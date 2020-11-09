@@ -9,7 +9,7 @@ class CfgPatches
 			A3_Boat_F_Gamma_Boat_Civil_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

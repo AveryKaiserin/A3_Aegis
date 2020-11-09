@@ -1,10 +1,13 @@
 class CfgPatches
 {
+    /* URLs definitions */
+    #include "P:\A3_Aegis\urls.hpp"
+
 	class A3_Aegis_Modules_F_Aegis
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Scripted Modules";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
+		url = linkAegis;
 		requiredAddons[] =
 		{
 			A3_Aegis_Data_F_Aegis,
@@ -20,6 +23,6 @@ class CfgPatches
             ModuleAnimalsDog_F,
             ModuleAnimalsEagle_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

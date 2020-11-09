@@ -22,6 +22,6 @@ class CfgPatches
             B_A_Heli_Attack_01_dynamicLoadout_tna_F,
             B_A_Heli_Attack_01_dynamicLoadout_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

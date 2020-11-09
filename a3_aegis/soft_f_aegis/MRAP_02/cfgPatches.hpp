@@ -20,6 +20,6 @@ class CfgPatches
             O_R_MRAP_02_hmg_ard_F,
             O_R_MRAP_02_hmg_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

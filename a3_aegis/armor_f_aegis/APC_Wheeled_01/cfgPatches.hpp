@@ -36,6 +36,6 @@ class CfgPatches
             B_A_APC_Wheeled_01_medical_tna_F,
             B_A_APC_Wheeled_01_medical_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

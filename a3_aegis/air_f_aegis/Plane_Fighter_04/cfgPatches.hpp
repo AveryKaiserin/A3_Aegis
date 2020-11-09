@@ -15,6 +15,6 @@ class CfgPatches
             I_Ejection_Seat_Plane_Fighter_04_F,
             I_E_Plane_Fighter_04_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

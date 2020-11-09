@@ -1,4 +1,6 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Addon header */
 #include "cfgPatches.hpp"
+
+/* Addon configuration */
 #include "cfgVoice.hpp"
 #include "cfgVoiceTypes.hpp"

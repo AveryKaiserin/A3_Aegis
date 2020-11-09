@@ -1,14 +1,8 @@
-#define GROUP_UNIT(a,b,c,d,e,f) \
-	class Unit##a## \
-	{ \
-		side = ##b##; \
-		vehicle = ##c##; \
-		rank = ##d##; \
-		position[] = {##e##,##f##,0}; \
-	};
-
 class CfgGroups
 {
+    /* Groups definitions */
+    #include "P:\A3_Aegis\groups.hpp"
+
 	class West
 	{
 		name = $STR_A3_CfgGroups_West0;

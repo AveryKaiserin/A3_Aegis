@@ -17,6 +17,6 @@ class CfgPatches
             B_W_MBT_01_mlrs_F,
             B_W_MBT_01_TUSK_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -2,7 +2,12 @@
 #define true 1
 #define false 0
 
-// sides
+// scope
+#define private 0
+#define protected 1
+#define public 2
+
+// modelSides / side
 #define TEast 0
 #define TWest 1
 #define TGuerrila 2
@@ -12,14 +17,10 @@
 #define TFriendly 6
 #define TLogic 7
 
+// type
 #define VSoft 0
 #define VArmor 1
 #define VAir 2
-
-// scope
-#define private 0
-#define protected 1
-#define public 2
 
 #define CanSeeRadar 1
 #define CanSeeEye 2
@@ -30,7 +31,7 @@
 #define CanSeeAll 31
 #define CanSeePeripheral 32
 
-//radar type
+//radarType
 #define NoRadar 0
 #define TacticalDisplay 1
 #define VehicleRadar 2
@@ -82,15 +83,6 @@
 #define LockYes 2
 #define LockLaser 4
 
-enum
-{
-	StabilizedInAxesNone,
-	StabilizedInAxisX,
-	StabilizedInAxisY,
-	StabilizedInAxesBoth,
-	StabilizedInAxesXYZ
-};
-
 #define StabilizedInAxesNone 0
 #define StabilizedInAxisX 1
 #define StabilizedInAxisY 2
@@ -132,11 +124,32 @@ enum
 #define mag_19(a) a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 #define mag_20(a) a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 
-#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
-#define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
-#define item_xx(a,b) class _xx_##a {name = a; count = b;}
-#define bag_xx(a,b) class _xx_##a {backpack = a; count = b;}
+// items in bags
+#define mag_xx(mag,num) class _xx_##mag \
+    { \
+        magazine = mag; \
+        count = num; \
+    };
 
+#define weap_xx(weapon,num) class _xx_##weapon \
+    { \
+        weapon = weapon; \
+        count = num; \
+    };
+
+#define item_xx(item,num) class _xx_##item \
+    { \
+        name = item; \
+        count = num; \
+    };
+
+#define bag_xx(bag,num) class _xx_##bag \
+    { \
+        backpack = bag; \
+        count = num; \
+    };
+
+// slotType
 #define DEFAULT_SLOT 0
 #define MUZZLE_SLOT 101
 #define OPTICS_SLOT 201
@@ -146,17 +159,13 @@ enum
 #define GOGGLE_SLOT 603
 #define HEADGEAR_SLOT 605
 #define UNIFORM_SLOT 801
-
 #define HMD_SLOT 616
 #define BINOCULAR_SLOT 617
 #define MEDIKIT_SLOT 619
 #define RADIO_SLOT 611
 #define VEST_SLOT 701
 #define BACKPACK_SLOT 901
-/*
-#define LOAD(weight,capacity) maximumLoad = ##capacity##; \
-							  mass = ##weight##;
-*/
+
 #define HeadArmourCoef 2.5
 #define BodyArmourCoef 10
 #define HandArmourCoef 5
@@ -244,162 +253,40 @@ ItemRadio \
 #define TiSWHot 6
 #define TiSBHot 7
 
-#define SOLDIER_SMOKE_SHELLS_BLUFOR \
-SmokeShellGreen, \
-SmokeShellBlue, \
-SmokeShellOrange \
 
-#define SOLDIER_SMOKE_GRENADES_BLUFOR \
-1Rnd_SmokeBlue_Grenade_shell, \
-1Rnd_SmokeGreen_Grenade_shell, \
-1Rnd_SmokeOrange_Grenade_shell \
 
-#define SOLDIER_SMOKE_SHELLS_OPFOR \
-SmokeShellRed, \
-SmokeShellOrange, \
-SmokeShellYellow \
+/* Weapons and accessories */
 
-#define SOLDIER_SMOKE_GRENADES_OPFOR \
-1Rnd_SmokeRed_Grenade_shell, \
-1Rnd_SmokeOrange_Grenade_shell, \
-1Rnd_SmokeYellow_Grenade_shell \
+// opticType / requiredOpticType
+#define MEDIUM_OPTIC 1
+#define FAR_OPTIC 2
 
-#define SOLDIER_SMOKE_SHELLS_INDEP \
-SmokeShellGreen, \
-SmokeShellOrange, \
-SmokeShellPurple \
+// reloadTime
+#define RPM_600 0.1
 
-#define SOLDIER_SMOKE_GRENADES_INDEP \
-1Rnd_SmokeGreen_Grenade_shell, \
-1Rnd_SmokeOrange_Grenade_shell, \
-1Rnd_SmokePurple_Grenade_shell \
 
-#define SOLDIER_SMOKE_SHELLS_FIA \
-SmokeShellGreen, \
-SmokeShellRed, \
-SmokeShellBlue \
 
-#define SOLDIER_SMOKE_GRENADES_FIA \
-1Rnd_SmokeGreen_Grenade_shell, \
-1Rnd_SmokeRed_Grenade_shell, \
-1Rnd_SmokeBlue_Grenade_shell \
+#define DEPRECATED_CLASS(old,new) \
+    class old: new \
+    { \
+        scope = protected; \
+        scopeCurator = private; \
+    };
 
-#define SOLDIER_SMOKE_SHELLS_MEDIC \
-SmokeShellRed, \
-SmokeShellBlue, \
-SmokeShellOrange \
+#define DEPRECATED_PATCH(old,new) \
+	class old \
+	{ \
+		requiredAddons[] = {new}; \
+		requiredVersion = 0.1; \
+		units[] = {}; \
+		weapons[] = {}; \
+	};
 
-#define TRANSPORT_SMOKE_SHELLS_OPFOR \
-mag_xx(SmokeShellRed,1); \
-mag_xx(SmokeShellYellow,1); \
-mag_xx(SmokeShellOrange,1); \
 
-#define TRANSPORT_SMOKE_SHELLS_MEDIC \
-mag_xx(SmokeShellRed,1); \
-mag_xx(SmokeShellBlue,1); \
-mag_xx(SmokeShellOrange,1); \
 
-#define STATIC_SUPPORT_BAGS_HMG_01 \
-B_HMG_01_support_F, \
-O_HMG_01_support_F, \
-I_HMG_01_support_F, \
-B_HMG_01_support_grn_F, \
-I_E_HMG_01_support_F, \
-O_R_HMG_01_support_F, \
-Atlas_I_I_HMG_01_support_F \
+/* ACE definitions */
 
-#define STATIC_SUPPORT_BAGS_HMG_01_HIGH \
-B_HMG_01_support_high_F, \
-O_HMG_01_support_high_F, \
-I_HMG_01_support_high_F, \
-B_HMG_01_support_high_grn_F, \
-I_E_HMG_01_support_high_F, \
-O_R_HMG_01_support_high_F, \
-Atlas_I_I_HMG_01_support_high_F \
-
-#define STATIC_SUPPORT_BAGS_HMG_02 \
-B_HMG_02_support_F, \
-O_HMG_02_support_F, \
-I_HMG_02_support_F, \
-I_E_HMG_02_support_F, \
-I_C_HMG_02_support_F, \
-I_G_HMG_02_support_F, \
-O_G_HMG_02_support_F, \
-B_G_HMG_02_support_F, \
-B_HMG_02_support_grn_F, \
-Atlas_I_I_HMG_02_support_F \
-
-#define STATIC_SUPPORT_BAGS_HMG_02_HIGH \
-B_HMG_02_support_high_F, \
-O_HMG_02_support_high_F, \
-I_HMG_02_support_high_F, \
-I_E_HMG_02_support_high_F, \
-I_C_HMG_02_support_high_F, \
-I_G_HMG_02_support_high_F, \
-O_G_HMG_02_support_high_F, \
-B_G_HMG_02_support_high_F, \
-B_HMG_02_support_high_grn_F, \
-Atlas_I_I_HMG_02_support_high_F \
-
-#define STATIC_SUPPORT_BAGS_MORTAR_01 \
-B_Mortar_01_support_F, \
-O_Mortar_01_support_F, \
-I_Mortar_01_support_F, \
-B_Mortar_01_support_grn_F, \
-I_E_Mortar_01_support_F, \
-O_R_Mortar_01_support_F, \
-Atlas_I_I_Mortar_01_support_F \
-
-#define INJURY_PERSONALITY_MATERIALS \
-"A3\Characters_F\Common\Data\basicbody.rvmat", \
-"A3\Characters_F\Common\Data\basicbody_injury.rvmat", \
-"A3\Characters_F\Common\Data\basicbody_injury.rvmat", \
- \
-"a3\characters_f\heads\data\hl_white.rvmat", \
-"a3\characters_f\heads\data\hl_white_injury.rvmat", \
-"a3\characters_f\heads\data\hl_white_injury.rvmat", \
-\
-"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat", \
-\
-"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat", \
- \
-"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat", \
-"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat", \
- \
-"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat", \
- \
-"A3\Characters_F\Heads\Data\hl_white_old.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat", \
- \
-"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat", \
-"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", \
-"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat", \
- \
-"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat", \
-"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat", \
-"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat", \
- \
-"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat", \
-"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat", \
-"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
-
-// Deprecated classes
-#define DEPRECATED_CLASS(a,b) \
-class ##a##: ##b## \
-{ \
-	scope = protected; \
-    scopeCurator = private; \
-};
-
-// ACE defines
-#define ACE_BarrelTwistLeft -1
-#define ACE_BarrelTwistNone 0
-#define ACE_BarrelTwistRight 1
+// ACE_barrelTwist 
+#define ACE_TWIST_NONE 0
+#define ACE_TWIST_LEFT -1
+#define ACE_TWIST_RIGHT 1

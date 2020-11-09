@@ -16,6 +16,6 @@ class CfgPatches
             B_W_MRAP_01_gmg_F,
             B_W_MRAP_01_hmg_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

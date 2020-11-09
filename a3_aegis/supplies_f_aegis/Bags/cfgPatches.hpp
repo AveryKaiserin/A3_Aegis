@@ -17,7 +17,7 @@ class CfgPatches
 			A3_Weapons_F_Tank_Bags
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -22,6 +22,6 @@ class CfgPatches
             B_A_SAM_System_03_tna_F,
             B_A_SAM_System_03_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

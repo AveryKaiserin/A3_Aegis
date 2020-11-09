@@ -23,6 +23,6 @@ class CfgPatches
             B_W_Heli_Transport_01_F,
             B_W_Heli_Transport_01_medevac_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -22,6 +22,6 @@ class CfgPatches
             B_A_UAV_02_dynamicLoadout_tna_F,
             B_A_UAV_02_dynamicLoadout_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

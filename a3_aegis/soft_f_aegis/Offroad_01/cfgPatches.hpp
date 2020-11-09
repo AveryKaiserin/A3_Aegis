@@ -25,6 +25,6 @@ class CfgPatches
             B_ION_Offroad_01_comms_F,
             B_ION_Offroad_01_covered_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

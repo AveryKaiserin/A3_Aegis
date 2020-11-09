@@ -23,6 +23,6 @@
             B_W_APC_Tracked_01_CRV_F,
             B_W_APC_Tracked_01_rcws_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

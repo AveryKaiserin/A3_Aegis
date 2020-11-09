@@ -31,6 +31,6 @@ class CfgPatches
             B_A_CargoNet_01_ammo_tropic_F,
             B_A_CargoNet_01_ammo_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -33,6 +33,6 @@ class CfgPatches
             B_A_Quadbike_01_tna_F,
             B_A_Quadbike_01_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

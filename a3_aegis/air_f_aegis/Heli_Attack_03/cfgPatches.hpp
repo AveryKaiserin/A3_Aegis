@@ -10,6 +10,6 @@ class CfgPatches
             // AAF
             I_Heli_Attack_03_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

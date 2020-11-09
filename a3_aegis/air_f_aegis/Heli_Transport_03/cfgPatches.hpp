@@ -19,6 +19,6 @@ class CfgPatches
             B_W_Heli_Transport_03_F,
             B_W_Heli_Transport_03_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -15,6 +15,6 @@ class CfgPatches
             I_M_Offroad_02_LMG_F,
             I_M_Offroad_02_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

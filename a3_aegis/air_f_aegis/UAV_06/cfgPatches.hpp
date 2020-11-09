@@ -54,6 +54,6 @@ class CfgPatches
             Box_B_ION_UAV_06_F,
             Box_B_ION_UAV_06_medical_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

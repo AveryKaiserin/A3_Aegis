@@ -9,7 +9,7 @@ class CfgPatches
             A3_Weapons_F_Exp_Machineguns_LMG_03
         };
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

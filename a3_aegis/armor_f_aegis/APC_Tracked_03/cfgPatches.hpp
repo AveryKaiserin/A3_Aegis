@@ -23,6 +23,6 @@
             B_A_APC_tracked_03_cannon_tna_F,
             B_A_APC_tracked_03_cannon_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

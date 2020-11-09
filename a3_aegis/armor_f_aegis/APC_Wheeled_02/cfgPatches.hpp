@@ -18,6 +18,6 @@ class CfgPatches
             O_R_APC_Wheeled_02_rcws_v2_ard_F,
             O_R_APC_Wheeled_02_rcws_v2_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

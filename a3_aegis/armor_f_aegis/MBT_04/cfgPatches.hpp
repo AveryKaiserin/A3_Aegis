@@ -16,6 +16,6 @@
             O_R_MBT_04_command_ard_F,
             O_R_MBT_04_command_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

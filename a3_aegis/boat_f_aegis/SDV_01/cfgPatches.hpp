@@ -21,6 +21,6 @@ class CfgPatches
             B_A_SDV_01_F,
             B_A_SDV_01_tna_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -33,6 +33,6 @@ class CfgPatches
             B_A_Plane_Fighter_05_Stealth_tna_F,
             B_A_Plane_Fighter_05_Stealth_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

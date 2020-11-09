@@ -83,7 +83,6 @@ class CfgVehicles
 		picture = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
 		vehicleClass = Air;
 		editorSubcategory = EdSubcat_Helicopters;
-		memoryPointTaskMarker = TaskMarker_1_pos;
 		accuracy = 0.5;
 		cost = 3000000;
 		threat[] =
@@ -559,6 +558,7 @@ class CfgVehicles
 		memoryPointRMissile = Missile_2;
 		memoryPointLRocket = Rocket_1;
 		memoryPointRRocket = Rocket_2;
+		memoryPointTaskMarker = TaskMarker_1_pos;
         // Inventory items, weapons, and magazines
         class TransportBackpacks
 		{

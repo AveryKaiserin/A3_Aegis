@@ -10,6 +10,6 @@ class CfgPatches
             // Gendarmerie
             B_GEN_Boat_Transport_02_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

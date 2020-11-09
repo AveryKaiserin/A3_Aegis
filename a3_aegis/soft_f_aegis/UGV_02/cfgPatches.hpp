@@ -35,6 +35,6 @@ class CfgPatches
             B_ION_UGV_02_Demining_backpack_F,
             B_ION_UGV_02_Demining_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -19,6 +19,6 @@ class CfgPatches
             O_T_Plane_Transport_01_infantry_ghex_F,
             O_T_Plane_Transport_01_vehicle_ghex_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

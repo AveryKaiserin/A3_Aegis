@@ -1,12 +1,3 @@
-#define DEPRECATED_PATCH(a,b) \
-	class ##a## \
-	{ \
-		requiredAddons[] = {##b##}; \
-		requiredVersion = 0.1; \
-		units[] = {}; \
-		weapons[] = {}; \
-	};
-
 DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Boat_Civil_01,A3_Aegis_Boat_F_Aegis)
 DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items,A3_Aegis_Props_F_Aegis)
 DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items_Electronics,A3_Aegis_Props_F_Aegis)
@@ -19,7 +10,10 @@ DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_C1911,A3_Aegis_Weapons_F_Aegis
 DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_Pistol_Heavy_03,A3_Aegis_Weapons_F_Aegis)
 DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_M4A1,A3_Aegis_Weapons_F_Aegis)
 DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_RFB,A3_Aegis_Weapons_F_Aegis)
-/*
+
+
+
+/* I don't think we need these anymore?
 DEPRECATED_PATCH(A3_Air_F_Aegis,A3_Aegis_Air_F_Aegis)
 DEPRECATED_PATCH(A3_Air_F_Aegis_Heli_Attack_01,A3_Aegis_Air_F_Aegis_Heli_Attack_01)
 DEPRECATED_PATCH(A3_Air_F_Aegis_Heli_Attack_02,A3_Aegis_Air_F_Aegis_Heli_Attack_02)

@@ -32,6 +32,6 @@ class CfgPatches
             // ION
             B_ION_Heli_Light_01_civil_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

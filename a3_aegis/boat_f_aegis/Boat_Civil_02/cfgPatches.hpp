@@ -10,6 +10,6 @@ class CfgPatches
             // Civilians
             C_Boat_Civil_02_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

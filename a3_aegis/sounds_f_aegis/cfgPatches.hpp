@@ -1,10 +1,13 @@
 class CfgPatches
 {
+    /* URLs definitions */
+    #include "P:\A3_Aegis\urls.hpp"
+
 	class A3_Aegis_Sounds_F_Aegis
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Sound Effects";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
+		url = linkAegis;
 		requiredAddons[] =
 		{
 			A3_Aegis_Air_F_Aegis_Heli_Attack_03,
@@ -46,7 +49,7 @@ class CfgPatches
 			A3_Weapons_F_Tank
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -247,8 +247,8 @@ class optic_srs: ItemCore
 	class ItemInfo: InventoryOpticsItem_Base_F
 	{
 		mass = 6;
-		opticType = 1;
-		optics = 1;
+		opticType = CLOSE_RANGE_OPTIC;
+		optics = true;
 		modelOptics = "\A3\Weapons_F\Acc\acco_srs_F.p3d";
 		class OpticsModes
 		{
@@ -288,8 +288,8 @@ class optic_dcl: ItemCore
 	class ItemInfo: InventoryOpticsItem_Base_F
 	{
 		mass = 14;
-		opticType = 1;
-		optics = 1;
+		opticType = CLOSE_RANGE_OPTIC;
+		optics = true;
 		modelOptics = "\A3\Weapons_F\Acc\acco_dcl_120_F.p3d";
 		class OpticsModes
 		{
@@ -329,8 +329,8 @@ class optic_ACOG: ItemCore
 	class ItemInfo: InventoryOpticsItem_Base_F
 	{
 		mass = 8;
-		opticType = 1;
-		optics = 1;
+		opticType = CLOSE_RANGE_OPTIC;
+		optics = true;
 		modelOptics = "\A3_Aegis\Weapons_F_Aegis\Acc\acco_ACOG_F.p3d";
 		class OpticsModes
 		{
@@ -385,7 +385,8 @@ class optic_tws_sniper: ItemCore
 	{
 		mass = 16;
 		weaponInfoType = RscWeaponRangeZeroingModeFOV;
-		optics = 1;
+		opticType = LONG_RANGE_OPTIC;
+		optics = true;
 		modelOptics = "\A3_Aegis\Weapons_F_Aegis\Acc\Reticle_tws_sniper.p3d";
 		class OpticsModes
 		{
@@ -565,7 +566,7 @@ class optic_Kobra_F: ItemCore
 	{
 		mass = 6;
 		modelOptics = "\A3\Weapons_F\empty.p3d";
-		optics = 1;
+		optics = true;
 		class OpticsModes
 		{
 			class Kobra
@@ -600,9 +601,9 @@ class optic_pso_F: ItemCore
 	class ItemInfo: InventoryOpticsItem_Base_F
 	{
 		mass = 14;
-		opticType = 2;
+		opticType = LONG_RANGE_OPTIC;
 		weaponInfoType = RscWeaponRangeZeroingFOV;
-		optics = 1;
+		optics = true;
 		modelOptics = "\A3\Weapons_F\Acc\Reticle_pso_F.p3d";
 		class OpticsModes
 		{

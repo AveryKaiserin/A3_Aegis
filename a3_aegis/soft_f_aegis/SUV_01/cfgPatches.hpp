@@ -10,6 +10,6 @@ class CfgPatches
             // ION
             B_ION_SUV_01_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

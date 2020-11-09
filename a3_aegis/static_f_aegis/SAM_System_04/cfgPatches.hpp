@@ -18,6 +18,6 @@ class CfgPatches
             O_R_SAM_System_04_ard_F,
             O_R_SAM_System_04_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

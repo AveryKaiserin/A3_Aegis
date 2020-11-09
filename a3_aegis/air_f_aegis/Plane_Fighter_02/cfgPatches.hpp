@@ -24,6 +24,6 @@ class CfgPatches
             O_R_Plane_Fighter_02_Stealth_ard_F,
             O_R_Plane_Fighter_02_Stealth_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

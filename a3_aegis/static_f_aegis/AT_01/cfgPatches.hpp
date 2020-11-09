@@ -36,6 +36,6 @@ class CfgPatches
             B_A_Static_AT_tna_F,
             B_A_Static_AT_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

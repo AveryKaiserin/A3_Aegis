@@ -11,6 +11,6 @@ class CfgPatches
             B_ION_Van_02_transport_F,
             B_ION_Van_02_vehicle_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

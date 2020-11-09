@@ -14,6 +14,6 @@ class CfgPatches
             // Syndikat
             I_C_Van_01_fuel_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -60,6 +60,6 @@ class CfgPatches
             B_ION_UGV_01_medical_F,
             B_ION_UGV_01_rcws_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

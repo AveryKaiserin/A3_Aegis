@@ -148,7 +148,7 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

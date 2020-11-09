@@ -51,6 +51,6 @@ class CfgPatches
             B_A_Truck_01_transport_tna_F,
             B_A_Truck_01_transport_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

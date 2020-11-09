@@ -20,6 +20,6 @@ class CfgPatches
             B_A_Boat_Armed_01_hmg_F,
             B_A_Boat_Armed_01_hmg_tna_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

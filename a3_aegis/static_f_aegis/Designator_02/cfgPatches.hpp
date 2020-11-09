@@ -20,6 +20,6 @@ class CfgPatches
             O_R_Static_Designator_02_F,
             O_R_Static_Designator_02_weapon_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

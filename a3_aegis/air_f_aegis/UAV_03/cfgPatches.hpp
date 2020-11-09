@@ -17,6 +17,6 @@ class CfgPatches
             // US (Woodland)
             B_W_UAV_03_dynamicLoadout_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

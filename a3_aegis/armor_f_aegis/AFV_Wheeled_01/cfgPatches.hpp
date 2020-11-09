@@ -15,6 +15,6 @@
             B_W_AFV_Wheeled_01_cannon_F,
             B_W_AFV_Wheeled_01_up_cannon_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

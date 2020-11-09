@@ -21,6 +21,6 @@ class CfgPatches
             O_R_Plane_CAS_02_dynamicLoadout_ard_F,
             O_R_Plane_CAS_02_dynamicLoadout_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

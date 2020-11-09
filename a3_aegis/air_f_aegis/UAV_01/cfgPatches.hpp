@@ -36,6 +36,6 @@ class CfgPatches
             B_ION_UAV_01_F,
             B_ION_UAV_01_backpack_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

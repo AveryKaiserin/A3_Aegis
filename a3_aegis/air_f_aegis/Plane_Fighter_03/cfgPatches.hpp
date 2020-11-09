@@ -15,6 +15,6 @@ class CfgPatches
             O_A_Ejection_Seat_Plane_Fighter_03_F,
             O_A_Plane_Fighter_03_dynamicLoadout_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

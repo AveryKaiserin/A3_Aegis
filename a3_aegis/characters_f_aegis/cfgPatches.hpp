@@ -1,10 +1,13 @@
 class CfgPatches
 {
+    /* URLs definitions */
+    #include "P:\A3_Aegis\urls.hpp"
+
 	class A3_Aegis_Characters_F_Aegis
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Aegis - Characters and Clothing";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
+		url = linkAegis;
 		requiredAddons[] =
 		{
 			A3_Aegis_Data_F_Aegis,
@@ -528,6 +531,6 @@ class CfgPatches
             B_ION_soldier_UGV_02_Demining_F,
             B_ION_Soldier_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

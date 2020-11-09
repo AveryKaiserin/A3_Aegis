@@ -46,6 +46,6 @@ class CfgPatches
             B_A_LSV_01_unarmed_tna_F,
             B_A_LSV_01_unarmed_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -19,6 +19,6 @@ class CfgPatches
             B_A_Lifeboat,
             B_A_Lifeboat_tna_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -17,6 +17,6 @@ class CfgPatches
             // US (Woodland)
             B_W_UAV_05_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -10,7 +10,7 @@ class CfgPatches
 			A3_Structures_F_Tank_Military_Fortifications
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

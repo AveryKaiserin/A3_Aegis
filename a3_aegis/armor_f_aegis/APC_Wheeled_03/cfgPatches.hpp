@@ -16,6 +16,6 @@ class CfgPatches
             I_G_APC_Wheeled_03_cannon_F,
             O_G_APC_Wheeled_03_cannon_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

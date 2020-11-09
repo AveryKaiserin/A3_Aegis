@@ -95,6 +95,6 @@ class CfgPatches
             // ION
             Box_ION_Equip_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

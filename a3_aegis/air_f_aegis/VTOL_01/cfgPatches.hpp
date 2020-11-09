@@ -29,6 +29,6 @@ class CfgPatches
             B_A_VTOL_01_vehicle_tna_F,
             B_A_VTOL_01_vehicle_wdl_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

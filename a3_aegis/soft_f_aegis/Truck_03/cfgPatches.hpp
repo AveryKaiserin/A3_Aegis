@@ -26,6 +26,6 @@ class CfgPatches
             O_R_Truck_03_transport_ard_F,
             O_R_Truck_03_transport_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };
