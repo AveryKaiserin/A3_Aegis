@@ -201,7 +201,7 @@ class I_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_flatbed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
