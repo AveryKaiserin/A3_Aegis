@@ -19,7 +19,7 @@ class Theseus_O_B_Looter_Pistol_F: Theseus_O_B_Man_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_B_Bandit_Pistol_F0;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Looter_Pistol_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_Pistol_F.jpg";
 	backpack = B_messenger_gray_F;
 	uniformClass = U_C_Poloshirt_stripped;
 	linkedItems[] = 
@@ -50,7 +50,7 @@ class Theseus_O_B_Looter_SG_F: Theseus_O_B_Man_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_B_Bandit_SG_F0;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Looter_SG_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_SG_F.jpg";
 	backpack = B_Kitbag_rgr;
 	uniformClass = U_C_Mechanic_01_F;
 	weapons[] =
@@ -82,7 +82,7 @@ class Theseus_O_B_Looter_Rifle_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Looter_Rifle_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_Rifle_F.jpg";
 	displayName = $STR_A3_C_O_B_Bandit_Rifle_F0;
 	uniformClass = U_C_Poor_1;
 	linkedItems[] =
@@ -112,7 +112,7 @@ class Theseus_O_B_Looter_SMG_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Looter_SMG_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_SMG_F.jpg";
 	displayName = $STR_A3_C_O_B_Bandit_SMG_F0;
 	uniformClass = U_C_Commoner1_1;
 	backpack = B_Messenger_Black_F;
@@ -141,7 +141,7 @@ class Theseus_O_B_Criminal_SG_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Criminal_SG_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Criminal_SG_F.jpg";
 	displayName = $STR_A3_C_I_L_Criminal_SG_F0;
 	uniformClass = U_C_E_LooterJacket_01_F;
 	linkedItems[] =
@@ -171,7 +171,7 @@ class Theseus_O_B_Criminal_SMG_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Criminal_SMG_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Criminal_SMG_F.jpg";
 	displayName = $STR_A3_C_I_L_Criminal_SMG_F0;
 	uniformClass = U_O_R_Gorka_01_Black_F;
 	linkedItems[] =
@@ -201,7 +201,7 @@ class Theseus_O_B_Hunter_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_L_Hunter_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Hunter_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_I_L_Looter_Rifle_F0;
 	uniformClass = U_C_HunterBody_grn;
 	linkedItems[] =

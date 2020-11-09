@@ -1,5 +1,5 @@
-// Arma 3 Opposing Forces
-class Theseus_O_R_Man_Base_F: O_G_Soldier_F
+// Arma 3 Theseus
+class Theseus_O_R_Man_Base_F: I_Soldier_base_F //SoldierGB //O_G_Soldier_F
 {
     scope = private;
     scopeCurator = private;
@@ -11,6 +11,7 @@ class Theseus_O_R_Man_Base_F: O_G_Soldier_F
 		Head_Greek,
 		G_HAF_default
 	};
+	side = TEast;
 };
 class Theseus_O_R_Soldier_Base_F: Theseus_O_R_Man_Base_F
 {
@@ -19,7 +20,7 @@ class Theseus_O_R_Soldier_Base_F: Theseus_O_R_Man_Base_F
 class Theseus_O_R_Soldier_1_F: Theseus_O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_1_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_1_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -66,7 +67,7 @@ class Theseus_O_R_Soldier_1_F: Theseus_O_R_Soldier_Base_F
 class Theseus_O_R_Soldier_2_F: Theseus_O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_2_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_HighCommand_ModuleDescription_AnyBrain_0;
@@ -132,7 +133,7 @@ class Theseus_O_R_Soldier_3_F: Theseus_O_R_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_3_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_3_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
@@ -184,7 +185,7 @@ class Theseus_O_R_Soldier_4_F: Theseus_O_R_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_4_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_4_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
@@ -242,7 +243,7 @@ class Theseus_O_R_Soldier_5_F: Theseus_O_R_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_5_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_5_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -290,7 +291,7 @@ class Theseus_O_R_Soldier_5_F: Theseus_O_R_Soldier_Base_F
 class Theseus_O_R_Soldier_6_F: Theseus_O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_6_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_6_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -344,7 +345,7 @@ class Theseus_O_R_Soldier_7_F: Theseus_O_R_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
     textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
     nameSound = veh_infantry_sniper_s;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_7_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_7_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Sniper_F0;
@@ -382,7 +383,7 @@ class Theseus_O_R_Soldier_7_F: Theseus_O_R_Soldier_Base_F
 class Theseus_O_R_Soldier_8_F: Theseus_O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_8_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_8_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgRoles_Sapper0;
@@ -430,7 +431,7 @@ class Theseus_O_R_Soldier_8_F: Theseus_O_R_Soldier_Base_F
 class Theseus_O_R_Crew_F: Theseus_O_R_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Crew_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -497,7 +498,7 @@ class Theseus_O_R_Soldier_universal_F: Theseus_O_R_Soldier_1_F
 class Theseus_O_R_Soldier_Base_unarmed_F: Theseus_O_R_Soldier_1_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Soldier_Base_unarmed_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_Base_unarmed_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};

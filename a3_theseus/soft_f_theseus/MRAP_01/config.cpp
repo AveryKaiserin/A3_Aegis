@@ -47,9 +47,13 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_MRAP_01_F;
-	class B_MRAP_01_gmg_F;
-	class B_MRAP_01_hmg_F;
+	class MRAP_01_hmg_base_F: MRAP_01_gmg_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret{};
+		};
+	};
 	// Arma 3 Theseus
 	#include "cfgNAAF.hpp"
 };

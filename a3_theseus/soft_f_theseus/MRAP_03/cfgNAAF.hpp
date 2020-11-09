@@ -1,17 +1,13 @@
-class Theseus_B_N_MRAP_03_wdl_F: I_MRAP_03_F
+class Theseus_B_N_MRAP_03_wdl_F: MRAP_03_base_F //I_MRAP_03_F
 {
     author = $STR_A3_A_Heliotrope;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_wdl_F.jpg";
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_F.jpg";
     faction = Theseus_BLU_N_F;
     side = TWest;
+    scope = public;
+    scopeCurator = public;
     crew = Theseus_B_N_Soldier_F;
     typicalCargo[] = {Theseus_B_N_Soldier_F};
-    textureList[] = {Olive,1};
-    hiddenSelectionsTextures[] =
-    {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
-    };
     class TransportWeapons
     {
         weap_xx(arifle_TRG21_F,2);
@@ -34,20 +30,24 @@ class Theseus_B_N_MRAP_03_wdl_F: I_MRAP_03_F
         mag_xx(MRAWS_HEAT55_F,2);
     };
 };
-class Theseus_B_N_MRAP_03_hmg_wdl_F: I_MRAP_03_hmg_F
+class Theseus_B_N_MRAP_03_hmg_wdl_F: MRAP_03_hmg_base_F //I_MRAP_03_hmg_F
 {
     author = $STR_A3_A_Heliotrope;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_hmg_wdl_F.jpg";
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_hmg_F.jpg";
     faction = Theseus_BLU_N_F;
     side = TWest;
+    scope = public;
+    scopeCurator = public;
     crew = Theseus_B_N_Soldier_F;
     typicalCargo[] = {Theseus_B_N_Soldier_F};
-    textureList[] = {Olive,1};
+    /*textureList[] = {Indep,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
+        /*"\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
-    };
+        "\a3\soft_f_beta\mrap_03\data\mrap_03_ext_indp_co.paa",
+        "\a3\data_f\vehicles\turret_indp_co.paa"
+    };*/
     class TransportWeapons
     {
         weap_xx(arifle_TRG21_F,2);
@@ -70,20 +70,24 @@ class Theseus_B_N_MRAP_03_hmg_wdl_F: I_MRAP_03_hmg_F
         mag_xx(MRAWS_HEAT55_F,2);
     };
 };
-class Theseus_B_N_MRAP_03_gmg_wdl_F: I_MRAP_03_gmg_F
+class Theseus_B_N_MRAP_03_gmg_wdl_F: MRAP_03_gmg_base_F //I_MRAP_03_gmg_F
 {
     author = $STR_A3_A_Heliotrope;
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_MRAP_03_gmg_wdl_F.jpg";
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_gmg_F.jpg";
     faction = Theseus_BLU_N_F;
     side = TWest;
+    scope = public;
+    scopeCurator = public;
     crew = Theseus_B_N_Soldier_F;
     typicalCargo[] = {Theseus_B_N_Soldier_F};
-    textureList[] = {Olive,1};
+    /*textureList[] = {Indep,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
+        /*"\A3_Aegis\Soft_F_Aegis\MRAP_03\Data\MRAP_03_ext_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
-    };
+        "\a3\soft_f_beta\mrap_03\data\mrap_03_ext_indp_co.paa",
+        "\a3\data_f\vehicles\turret_indp_co.paa"
+    };*/
     class TransportWeapons
     {
         weap_xx(arifle_TRG21_F,2);

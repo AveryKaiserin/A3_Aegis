@@ -91,7 +91,6 @@ class Theseus_B_N_Truck_02_F: I_Truck_02_covered_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -200,7 +199,6 @@ class Theseus_B_N_Truck_02_transport_F: I_Truck_02_transport_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_transport_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TWest;
@@ -309,7 +307,6 @@ class Theseus_B_N_Truck_02_box_F: I_Truck_02_box_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_box_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -418,7 +415,6 @@ class Theseus_B_N_Truck_02_medical_F: I_Truck_02_medical_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_medical_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -527,7 +523,6 @@ class Theseus_B_N_Truck_02_Ammo_F: I_Truck_02_Ammo_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -638,7 +633,6 @@ class Theseus_B_N_Truck_02_fuel_F: I_Truck_02_fuel_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_fuel_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -747,7 +741,7 @@ class Theseus_B_N_Truck_02_cargo_F: Truck_02_cargo_base_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_cargo_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_cargo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
@@ -857,7 +851,7 @@ class Theseus_B_N_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Truck_02_flatbed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;

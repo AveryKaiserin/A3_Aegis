@@ -15,17 +15,17 @@ class Theseus_B_N_Man_Base_F: I_Soldier_F
 };
 class Theseus_B_N_Soldier_Base_F: Theseus_B_N_Man_Base_F
 {
-	uniformClass = U_I_CombatUniform;		// Change Uniform to new one asap
+	uniformClass = U_Theseus_B_NAAF_Uniform_01_dgtl_F;
 };
 class Theseus_B_N_Soldier_A_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// // editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_A_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
 	cost = 110000;
-    uniformClass = U_I_CombatUniform_tshirt; 	// Change Uniform to new one asap
+    uniformClass = U_I_CombatUniform_tshirt;
 	backpack = B_Carryall_oli_BNAmmo_F;	
 	weapons[] =
 	{
@@ -79,7 +79,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -87,7 +87,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManMG;
 	cost = 125000;
 	threat[] = {1,0.1,0.3};
-    uniformClass = U_I_CombatUniform_shortsleeve; // Change Later
+    uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	weapons[] =
 	{
 		LMG_Mk200_F,
@@ -130,7 +130,7 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Crew_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Crew_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helipilot_F.jpg";
     scope = protected;
     scopeCurator = private;
 	displayName = $STR_B_crew_F0;
@@ -188,7 +188,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Medic_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -197,7 +197,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    uniformClass = U_I_CombatUniform_shortsleeve;
+    uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	backpack = B_TacticalPack_oli_BNMedic_F;
 	weapons[] =
 	{
@@ -243,7 +243,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Engineer_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -256,7 +256,6 @@ class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 	detectSkill = 31;
 	threat[] = {1,0.5,0.1};
 	camouflage = 1.6;
-	uniformClass = U_I_CombatUniform;
 	backpack = B_Carryall_oli_BNEng_F;
 	weapons[] =
 	{
@@ -298,13 +297,12 @@ class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Soldier_GL_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
     role = Grenadier;
 	cost = 200000;
-	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		arifle_TRG21_GL_MRCO_F,
@@ -362,14 +360,14 @@ class Theseus_B_N_Helipilot_F: Theseus_B_N_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Helipilot_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = U_I_CombatUniform_shortsleeve;
+	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -419,31 +417,30 @@ class Theseus_B_N_Helicrew_F: Theseus_B_N_Helipilot_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Helicrew_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helicrew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
 	cost = 80000;
-	uniformClass = U_I_CombatUniform_shortsleeve;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		hgun_PDW2000_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		hgun_PDW2000_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30rnd_556x45_Stanag),
+		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30rnd_556x45_Stanag),
+		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow
 	};
     linkedItems[] =
@@ -464,13 +461,12 @@ class Theseus_B_N_Helicrew_F: Theseus_B_N_Helipilot_F
 class Theseus_B_N_soldier_M_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_soldier_M_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
 	role = Marksman;
 	cost = 250000;
-	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		srifle_DMR_06_camo_khs_F,
@@ -524,7 +520,7 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Officer_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
@@ -532,7 +528,7 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = U_I_CombatUniform_tshirt;
+	uniformClass = U_Theseus_B_NAAF_Officer_dgtl_F;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -562,25 +558,24 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_digi,
+		H_MilCap_dgtl,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_digi,
+		H_MilCap_dgtl,
 		DefaultManLinkedItems
 	};
 };
 class Theseus_B_N_Soldier_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	cost = 100000;
-	uniformClass = U_I_CombatUniform;
 	weapons[] =
 	{
 		arifle_TRG20_ACO_Flash_F,
@@ -634,7 +629,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -643,7 +638,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 	cost = 130000;
 	threat[] = {0.8,0.8,0.3};
 	secondaryAmmoCoef = 0.5;
-	uniformClass = U_I_CombatUniform_shortsleeve;
+	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	backpack = B_TacticalPack_oli_BNLAT_F;
 	weapons[] =
 	{
@@ -691,7 +686,7 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -699,7 +694,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniformClass = U_I_CombatUniform_shortsleeve;
+	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	weapons[] =
 	{
 		arifle_TRG21_MRCO_F,
@@ -752,7 +747,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -760,7 +755,7 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
-	uniformClass = U_I_CombatUniform;
+	
 	weapons[] =
 	{
 		arifle_TRG21_GL_MRCO_F,
@@ -815,9 +810,9 @@ class Theseus_B_N_Soldier_TL_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_RadioOperator_F: Theseus_B_N_Soldier_F
 {
 	author = $STR_A3_A_Heliotrope;
-	// editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_RadioOperator_F.jpg";
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_I_CombatUniform_shortsleeve;
+	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	backpack = B_RadioBag_01_digi_F;
 	weapons[] =
     {
@@ -885,7 +880,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
 	magazines[] = {};
-	uniformClass = U_I_CombatUniform_shortsleeve;
+	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{

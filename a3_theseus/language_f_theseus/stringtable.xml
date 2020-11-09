@@ -74,6 +74,8 @@
 					<Turkish>Remnants</Turkish>
 				</Key>
 			</Container>
+		</Container>
+		<Container name="Characters_F">
 			<Container name="Groups">
 				<Key ID="STR_A3_C_CfgGroups_Opfor_OPF_B_F_Infantry_B_L_BanditPatrol0">
 					<Original>Bandit Patrol</Original>
@@ -178,6 +180,59 @@
 					<Chinesesimp>Bandit (Shotgun)</Chinesesimp>
 					<Japanese>Bandit (Shotgun)</Japanese>
 					<Turkish>Bandit (Shotgun)</Turkish>
+				</Key>
+			</Container>
+			<Container name="Uniforms">
+				<Key ID="STR_A3_Theseus_combat_fatigues_haf0">
+					<Original>Combat Fatigues [NAAF]</Original>
+					<Chinese>Combat Fatigues [NAAF]</Chinese>
+					<French>Combat Fatigues [NAAF]</French>
+					<Spanish>Combat Fatigues [NAAF]</Spanish>
+					<Italian>Combat Fatigues [NAAF]</Italian>
+					<Polish>Combat Fatigues [NAAF]</Polish>
+					<Russian>Combat Fatigues [NAAF]</Russian>
+					<German>Combat Fatigues [NAAF]</German>
+					<Czech>Combat Fatigues [NAAF]</Czech>
+					<English>Combat Fatigues [NAAF]</English>
+					<Portuguese>Combat Fatigues [NAAF]</Portuguese>
+					<Korean>Combat Fatigues [NAAF]</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF]</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF]</Japanese>
+					<Turkish>Combat Fatigues [NAAF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_Theseus_combat_fatigues_haf1">
+					<Original>Combat Fatigues [NAAF] (Rolled-up)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Rolled-up)</Chinese>
+					<French>Combat Fatigues [NAAF] (Rolled-up)</French>
+					<Spanish>Combat Fatigues [NAAF] (Rolled-up)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Rolled-up)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Rolled-up)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Rolled-up)</Russian>
+					<German>Combat Fatigues [NAAF] (Rolled-up)</German>
+					<Czech>Combat Fatigues [NAAF] (Rolled-up)</Czech>
+					<English>Combat Fatigues [NAAF] (Rolled-up)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_Theseus_combat_fatigues_haf_tee">
+					<Original>Combat Fatigues [NAAF] (Officer)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Officer)</Chinese>
+					<French>Combat Fatigues [NAAF] (Officer)</French>
+					<Spanish>Combat Fatigues [NAAF] (Officer)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Officer)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Officer)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Officer)</Russian>
+					<German>Combat Fatigues [NAAF] (Officer)</German>
+					<Czech>Combat Fatigues [NAAF] (Officer)</Czech>
+					<English>Combat Fatigues [NAAF] (Officer)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Officer)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Officer)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Officer)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Officer)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Officer)</Turkish>
 				</Key>
 			</Container>
 		</Container>

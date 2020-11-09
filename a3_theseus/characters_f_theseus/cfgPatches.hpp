@@ -39,7 +39,7 @@ class CfgPatches
             Theseus_O_B_Criminal_SMG_F,
             Theseus_O_B_Hunter_F,
             // IDF
-            Theseus_B_I_crew_F,
+            /*Theseus_B_I_crew_F,
             Theseus_B_I_diver_exp_F,
             Theseus_B_I_diver_F,
             Theseus_B_I_diver_TL_F,
@@ -91,7 +91,7 @@ class CfgPatches
             Theseus_B_I_support_GMG_F,
             Theseus_B_I_support_MG_F,
             Theseus_B_I_support_Mort_F,
-            Theseus_B_I_Survivor_F,
+            Theseus_B_I_Survivor_F,*/
             // Remnants
             Theseus_O_R_Soldier_1_F,
             Theseus_O_R_Soldier_2_F,

@@ -93,6 +93,7 @@ class CfgGroups
 				};
 			};
 		};
+		/*
 		class Theseus_BLU_I_F
 		{
 			name = $STR_A3_A_CfgFactionClasses_IND_I_F0;
@@ -296,6 +297,7 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Theseus_B_I_support_AMort_F,PRIVATE,-5,-5)
 				};
 			};
+			/*
 			/*class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
@@ -511,9 +513,8 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Theseus_B_I_MBT_01_arty_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TWest,Theseus_B_I_MBT_01_arty_F,SERGEANT,10,-10)
 				};
-			};*/
-		};
-		
+			};
+		};*/
 	};
 	class East
 	{
