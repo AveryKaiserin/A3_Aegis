@@ -1,3 +1,4 @@
+/* US */
 class B_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_F
 {
 	scope = protected;
@@ -35,4 +36,118 @@ class B_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_F
 			};
 		};
 	};
+};
+
+/* US (Pacific) */
+class B_T_Plane_CAS_01_Cluster_F: B_Plane_CAS_01_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_T_F;
+    crew = B_T_Fighter_Pilot_F;
+    typicalCargo[] = {B_T_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_T_Ejection_Seat_Plane_CAS_01_F;
+    };
+};
+class B_T_Plane_Fighter_01_Cluster_F: B_Plane_Fighter_01_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_T_F;
+    crew = B_T_Fighter_Pilot_F;
+    typicalCargo[] = {B_T_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_01_F;
+    };
+};
+class B_T_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_T_F;
+    crew = B_T_Fighter_Pilot_F;
+    typicalCargo[] = {B_T_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_T_Ejection_Seat_Plane_Fighter_05_F;
+    };
+};
+
+/* US (Woodland) */
+class B_W_Plane_CAS_01_Cluster_F: B_Plane_CAS_01_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_W_F;
+    crew = B_W_Fighter_Pilot_F;
+    typicalCargo[] = {B_W_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_W_Ejection_Seat_Plane_CAS_01_F;
+    };
+};
+class B_W_Plane_Fighter_01_Cluster_F: B_Plane_Fighter_01_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_W_F;
+    crew = B_W_Fighter_Pilot_F;
+    typicalCargo[] = {B_W_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_W_Ejection_Seat_Plane_Fighter_01_F;
+    };
+};
+class B_W_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_W_F;
+    crew = B_W_Fighter_Pilot_F;
+    typicalCargo[] = {B_W_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_W_Ejection_Seat_Plane_Fighter_05_F;
+    };
+};
+
+/* BAF */
+class B_A_Plane_Fighter_05_Cluster_F: B_Plane_Fighter_05_Cluster_F
+{
+	scope = protected;
+	scopeCurator = public;
+    faction = BLU_A_F;
+    crew = B_A_Fighter_Pilot_F;
+    typicalCargo[] = {B_A_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_A_Ejection_Seat_Plane_Fighter_05_F;
+    };
+};
+
+/* BAF (Pacific) */
+class B_A_Plane_Fighter_05_Cluster_tna_F: B_A_Plane_Fighter_05_Cluster_F
+{
+    faction = BLU_A_tna_F;
+    crew = B_A_Fighter_Pilot_tna_F;
+    typicalCargo[] = {B_A_Fighter_Pilot_tna_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_A_Ejection_Seat_Plane_Fighter_05_tna_F;
+    };
+};
+
+/* BAF (Woodland) */
+class B_A_Plane_Fighter_05_Cluster_wdl_F: B_A_Plane_Fighter_05_Cluster_F
+{
+    faction = BLU_A_wdl_F;
+    crew = B_A_Fighter_Pilot_wdl_F;
+    typicalCargo[] = {B_A_Fighter_Pilot_wdl_F};
+    class EjectionSystem: EjectionSystem
+    {
+        EjectionSeatClass = B_A_Ejection_Seat_Plane_Fighter_05_wdl_F;
+    };
 };

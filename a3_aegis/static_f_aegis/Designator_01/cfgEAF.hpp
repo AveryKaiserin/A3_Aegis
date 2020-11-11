@@ -1,3 +1,4 @@
+/* LDF */
 class I_E_Static_Designator_01_F: Static_Designator_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

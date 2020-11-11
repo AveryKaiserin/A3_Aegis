@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // AAF
+            /* From "cfgIndep.hpp" */
             I_Heli_Attack_03_F
         };
 		weapons[] = {/* Automated */};

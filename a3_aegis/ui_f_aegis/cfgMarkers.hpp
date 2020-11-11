@@ -1,6 +1,5 @@
 class CfgMarkers
 {
-	// Arma 3
 	class b_unknown;
 	class o_unknown;
 	class n_unknown;
@@ -9,7 +8,6 @@ class CfgMarkers
 	{
 		scope = public;
 	};
-	// Arma 3 Aegis
 	class b_antiarmor: b_unknown
 	{
 		name = $STR_A3_A_CfgMarkers_b_antiarmor;

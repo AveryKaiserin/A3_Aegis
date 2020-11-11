@@ -1,3 +1,4 @@
+/* LDF */
 class I_E_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

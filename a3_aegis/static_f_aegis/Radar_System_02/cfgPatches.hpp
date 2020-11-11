@@ -11,12 +11,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Pacific)
+            /* From "cfgOPFOR.hpp" */
             O_T_Radar_System_02_F,
             
-            // Russia
-            O_R_Radar_System_02_ard_F,
-            O_R_Radar_System_02_F
+            /* From "cfgRUS.hpp" */
+            O_R_Radar_System_02_F,
+            O_R_Radar_System_02_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

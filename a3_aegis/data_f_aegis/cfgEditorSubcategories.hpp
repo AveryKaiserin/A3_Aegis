@@ -1,25 +1,53 @@
 class CfgEditorSubcategories
 {
-	class EdSubcat_Laboratory
-	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Laboratory0;
-	};
+    /* Armor */
 	class EdSubcat_TankDestroyers
 	{
 		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_TankDestroyers0;
 	};
-	class EdSubcat_GrenadeLaunchers
+
+    /* Props */
+	class EdSubcat_Laboratory
 	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_GrenadeLaunchers0;
+		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Laboratory0;
 	};
-	class EdSubcat_Shotguns
-	{
-		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Shotguns0;
-	};
-    // Ammo boxes' subcategories
-	class EdSubcat_Ammo_NATO
+
+    /* Supplies */
+	class EdSubcat_Ammo_US
 	{
 		displayName = "Ammo (US)";
+	};
+	class EdSubcat_Ammo_US_Pacific
+	{
+		displayName = "Ammo (US Pacific)";
+	};
+	class EdSubcat_Ammo_US_Woodland
+	{
+		displayName = "Ammo (US Woodland)";
+	};
+	class EdSubcat_Ammo_BAF
+	{
+		displayName = "Ammo (BAF)";
+	};
+	class EdSubcat_Ammo_BAF_Pacific
+	{
+		displayName = "Ammo (BAF Pacific)";
+	};
+	class EdSubcat_Ammo_BAF_Woodland
+	{
+		displayName = "Ammo (BAF Woodland)";
+	};
+	class EdSubcat_Ammo_IAF
+	{
+		displayName = "Ammo (IAF)";
+	};
+	class EdSubcat_Ammo_China
+	{
+		displayName = "Ammo (China)";
+	};
+	class EdSubcat_Ammo_Argana
+	{
+		displayName = "Ammo (Argana)";
 	};
 	class EdSubcat_Ammo_AAF
 	{
@@ -29,21 +57,9 @@ class CfgEditorSubcategories
 	{
 		displayName = "Ammo (FIA)";
 	};
-	class EdSubcat_Ammo_CSAT
-	{
-		displayName = "Ammo (IAF)";
-	};
 	class EdSubcat_Ammo_Syndicate
 	{
 		displayName = "Ammo (Syndikat)";
-	};
-	class EdSubcat_Ammo_NATO_Pacific
-	{
-		displayName = "Ammo (US Pacific)";
-	};
-	class EdSubcat_Ammo_CSAT_Pacific
-	{
-		displayName = "Ammo (China)";
 	};
 	class EdSubcat_Ammo_CTRG
 	{
@@ -69,40 +85,30 @@ class CfgEditorSubcategories
 	{
 		displayName = "Ammo (IDAP)";
 	};
-	class EdSubcat_Ammo_CSAT_African
-	{
-		displayName = "Ammo (Argana)";
-	};
-	class EdSubcat_Ammo_NATO_Woodland
-	{
-		displayName = "Ammo (US Woodland)";
-	};
-	class EdSubcat_Ammo_Spetsnaz
+	class EdSubcat_Ammo_RUS
 	{
 		displayName = "Ammo (Russia)";
 	};
-	class EdSubcat_Ammo_Spetsnaz_Arid
+	class EdSubcat_Ammo_RUS_Mediterranean
 	{
-		displayName = "Ammo (Russia Arid)";
+		displayName = "Ammo (Russia Mediterranean)";
 	};
 	class EdSubcat_Ammo_EAF
 	{
 		displayName = "Ammo (LDF)";
 	};
-	class EdSubcat_Ammo_NATO_British
-	{
-		displayName = "Ammo (BAF)";
-	};
-	class EdSubcat_Ammo_NATO_Pacific_British
-	{
-		displayName = "Ammo (BAF Pacific)";
-	};
-	class EdSubcat_Ammo_NATO_Woodland_British
-	{
-		displayName = "Ammo (BAF Woodland)";
-	};
 	class EdSubcat_Ammo_ION
 	{
 		displayName = "Ammo (ION)";
+	};
+
+    /* Weapons */
+	class EdSubcat_GrenadeLaunchers
+	{
+		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_GrenadeLaunchers0;
+	};
+	class EdSubcat_Shotguns
+	{
+		displayName = $STR_A3_A_CfgEditorSubcategories_EdSubcat_Shotguns0;
 	};
 };

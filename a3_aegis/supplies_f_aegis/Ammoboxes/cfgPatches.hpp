@@ -14,7 +14,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_supplyCrate_F,
             Box_T_NATO_Ammo_F,
             Box_T_NATO_AmmoOrd_F,
@@ -24,28 +24,6 @@ class CfgPatches
             Box_T_NATO_Support_F,
             Box_T_NATO_Uniforms_F,
             Box_T_NATO_WpsLaunch_F,
-
-            // CSAT (Pacific)
-            Box_T_CSAT_Equip_F,
-            Box_T_CSAT_Uniforms_F,
-            Box_T_East_AmmoOrd_F,
-            Box_T_East_AmmoVeh_F,
-            Box_T_East_Grenades_F,
-            Box_T_East_Support_F,
-            Box_T_East_WpsLaunch_F,
-            O_T_supplyCrate_F,
-
-            // Viper
-            V_supplyCrate_F,
-            V_T_supplyCrate_F,
-
-            // CSAT (African)
-            Box_A_East_Ammo_F,
-            Box_A_East_Wps_F,
-            Box_A_East_WpsLaunch_F,
-            O_A_supplyCrate_F,
-
-            // NATO (Woodland)
             B_W_supplyCrate_F,
             Box_W_NATO_Ammo_F,
             Box_W_NATO_Equip_F,
@@ -54,25 +32,6 @@ class CfgPatches
             Box_W_NATO_Wps_F,
             Box_W_NATO_WpsLaunch_F,
             Box_W_NATO_WpsSpecial_F,
-
-            // Russia
-            Box_RUS_Ammo_F,
-            Box_RUS_AmmoOrd_F,
-            Box_RUS_AmmoVeh_F,
-            Box_RUS_Equip_arid_F,
-            Box_RUS_Equip_F,
-            Box_RUS_Grenades_F,
-            Box_RUS_Support_arid_F,
-            Box_RUS_Support_F,
-            Box_RUS_Uniforms_arid_F,
-            Box_RUS_Uniforms_F,
-            Box_RUS_Wps_F,
-            Box_RUS_WpsLaunch_F,
-            Box_RUS_WpsSpecial_arid_F,
-            Box_RUS_WpsSpecial_F,
-            O_R_supplyCrate_F,
-
-            // NATO (British)
             B_A_supplyCrate_F,
             B_A_supplyCrate_tropic_F,
             B_A_supplyCrate_wdl_F,
@@ -92,7 +51,42 @@ class CfgPatches
             Box_A_NATO_WpsSpecial_tropic_F,
             Box_A_NATO_WpsSpecial_wdl_F,
 
-            // ION
+            /* From "cfgOPFOR.hpp" */
+            Box_T_CSAT_Equip_F,
+            Box_T_CSAT_Uniforms_F,
+            Box_T_East_AmmoOrd_F,
+            Box_T_East_AmmoVeh_F,
+            Box_T_East_Grenades_F,
+            Box_T_East_Support_F,
+            Box_T_East_WpsLaunch_F,
+            O_T_supplyCrate_F,
+            Box_A_East_Ammo_F,
+            Box_A_East_Wps_F,
+            Box_A_East_WpsLaunch_F,
+            O_A_supplyCrate_F,
+
+            /* From "cfgViper.hpp" */
+            V_supplyCrate_F,
+            V_T_supplyCrate_F,
+
+            /* From "cfgRUS.hpp" */
+            Box_RUS_Ammo_F,
+            Box_RUS_AmmoOrd_F,
+            Box_RUS_AmmoVeh_F,
+            Box_RUS_Equip_arid_F,
+            Box_RUS_Equip_F,
+            Box_RUS_Grenades_F,
+            Box_RUS_Support_arid_F,
+            Box_RUS_Support_F,
+            Box_RUS_Uniforms_arid_F,
+            Box_RUS_Uniforms_F,
+            Box_RUS_Wps_F,
+            Box_RUS_WpsLaunch_F,
+            Box_RUS_WpsSpecial_arid_F,
+            Box_RUS_WpsSpecial_F,
+            O_R_supplyCrate_F,
+
+            /* From "cfgION.hpp" */
             Box_ION_Equip_F
         };
 		weapons[] = {/* Automated */};

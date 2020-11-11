@@ -1,9 +1,9 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"
 
-/* Base inheritance and useful definitions */
-#include "P:\A3_Aegis\basicDefines_A3.hpp"
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
 
-/* Addon configuration */
+/* Configuration */
 #include "cfgMovesBasic.hpp"
 #include "cfgGesturesMale.hpp"

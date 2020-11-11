@@ -1,7 +1,7 @@
 ﻿class CfgPatches
 {
-    /* URLs definitions */
-    #include "P:\A3_Aegis\urls.hpp"
+    /* Definitions */
+    #include "\A3_Aegis\macros_urls.hpp"
 
 	class A3_Aegis_Armor_F_Aegis
 	{

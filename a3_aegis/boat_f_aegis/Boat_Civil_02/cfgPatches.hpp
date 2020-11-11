@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Civilians
+            /* From "cfgCivil.hpp" */
             C_Boat_Civil_02_F
         };
 		weapons[] = {/* Automated */};

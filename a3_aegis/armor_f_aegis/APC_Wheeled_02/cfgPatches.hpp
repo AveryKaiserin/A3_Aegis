@@ -6,17 +6,18 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Aegis_Armor_F_Aegis,
-			A3_Armor_F_Beta_APC_Wheeled_02
+			A3_Armor_F_Beta_APC_Wheeled_02,
+			A3_Armor_F_Exp_APC_Wheeled_02
 		};
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (African)
+            /* From "cfgOPFOR.hpp" */
             O_A_APC_Wheeled_02_rcws_v2_F,
 
-            // Russia
-            O_R_APC_Wheeled_02_rcws_v2_ard_F,
-            O_R_APC_Wheeled_02_rcws_v2_F
+            /* From "cfgRUS.hpp" */
+            O_R_APC_Wheeled_02_rcws_v2_F,
+            O_R_APC_Wheeled_02_rcws_v2_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

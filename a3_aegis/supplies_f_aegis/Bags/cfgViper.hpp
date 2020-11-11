@@ -1,4 +1,4 @@
-// Arma 3 Apex
+/* Viper */
 class B_ViperHarness_hex_TL_F: B_ViperLightHarness_hex_F
 {
 	class TransportMagazines

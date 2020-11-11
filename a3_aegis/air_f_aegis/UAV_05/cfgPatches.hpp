@@ -11,10 +11,8 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_UAV_05_F,
-
-            // US (Woodland)
             B_W_UAV_05_F
         };
 		weapons[] = {/* Automated */};

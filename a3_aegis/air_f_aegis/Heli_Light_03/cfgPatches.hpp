@@ -11,12 +11,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // BAF
+            /* From "cfgBLUFOR.hpp" */
             B_A_Heli_light_03_dynamicLoadout_F,
-            B_A_Heli_light_03_dynamicLoadout_tna_F,
-            B_A_Heli_light_03_dynamicLoadout_wdl_F,
             B_A_Heli_light_03_unarmed_F,
+            B_A_Heli_light_03_dynamicLoadout_tna_F,
             B_A_Heli_light_03_unarmed_tna_F,
+            B_A_Heli_light_03_dynamicLoadout_wdl_F,
             B_A_Heli_light_03_unarmed_wdl_F
         };
 		weapons[] = {/* Automated */};

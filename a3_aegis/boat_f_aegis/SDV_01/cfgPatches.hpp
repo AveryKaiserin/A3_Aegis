@@ -7,19 +7,17 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_SDV_01_F,
-
-            // CSAT (Pacific)
-            O_T_SDV_01_F,
-
-            // Russia
-            O_R_SDV_01_ard_F,
-            O_R_SDV_01_F,
-
-            // NATO (British)
             B_A_SDV_01_F,
             B_A_SDV_01_tna_F
+
+            /* From "cfgOPFOR.hpp" */
+            O_T_SDV_01_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_SDV_01_F,
+            O_R_SDV_01_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -11,13 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US (Pacific)
+            // From "cfgBLUFOR.hpp"
             B_T_Heli_Attack_01_dynamicLoadout_F,
-
-            // US (Woodland)
             B_W_Heli_Attack_01_dynamicLoadout_F,
-
-            // BAF
             B_A_Heli_Attack_01_dynamicLoadout_F,
             B_A_Heli_Attack_01_dynamicLoadout_tna_F,
             B_A_Heli_Attack_01_dynamicLoadout_wdl_F

@@ -14,27 +14,21 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_AT_01_Weapon_grn_F,
-
-            // CSAT (Pacific)
-            O_T_Static_AT_F,
-
-            // CSAT (African)
-            O_A_Static_AT_F,
-
-            // NATO (Woodland)
             B_W_Static_AT_F,
-
-            // Russia
-            O_R_AT_01_weapon_F,
-            O_R_Static_AT_ard_F,
-            O_R_Static_AT_F,
-
-            // NATO (British)
             B_A_Static_AT_F,
             B_A_Static_AT_tna_F,
-            B_A_Static_AT_wdl_F
+            B_A_Static_AT_wdl_F,
+
+            /* From "cfgOPFOR.hpp" */
+            O_T_Static_AT_F,
+            O_A_Static_AT_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_AT_01_weapon_F,
+            O_R_Static_AT_ard_F,
+            O_R_Static_AT_F
         };
 		weapons[] = {/* Automated */};
 	};

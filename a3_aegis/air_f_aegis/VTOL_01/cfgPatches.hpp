@@ -11,22 +11,18 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US
-            B_VTOL_01_armed_F,
+            /* From "cfgBLUFOR.hpp" */
             B_VTOL_01_infantry_F,
             B_VTOL_01_vehicle_F,
-
-            // US (Woodland)
-            B_W_VTOL_01_armed_F,
+            B_VTOL_01_armed_F,
             B_W_VTOL_01_infantry_F,
             B_W_VTOL_01_vehicle_F,
-
-            // BAF
+            B_W_VTOL_01_armed_F,
             B_A_VTOL_01_infantry_F,
-            B_A_VTOL_01_infantry_tna_F,
-            B_A_VTOL_01_infantry_wdl_F,
             B_A_VTOL_01_vehicle_F,
+            B_A_VTOL_01_infantry_tna_F,
             B_A_VTOL_01_vehicle_tna_F,
+            B_A_VTOL_01_infantry_wdl_F,
             B_A_VTOL_01_vehicle_wdl_F
         };
 		weapons[] = {/* Automated */};

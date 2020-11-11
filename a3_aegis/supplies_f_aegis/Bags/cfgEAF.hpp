@@ -1,4 +1,4 @@
-// Arma 3 Enoch
+/* LDF */
 class B_Carryall_oli_IEAmmo_F: B_Carryall_eaf_F{};
 class B_Carryall_oli_IEAAR_F: B_Kitbag_eaf_F
 {

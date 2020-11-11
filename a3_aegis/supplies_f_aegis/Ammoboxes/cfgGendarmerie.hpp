@@ -1,7 +1,9 @@
-// Arma 3 Apex
+/* Gendarmerie */
 class Box_GEN_Equip_F: Box_NATO_Equip_F
 {
 	editorSubcategory = EdSubcat_Ammo_Gendarmerie;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_9x21_Mag_SMG_02,36);

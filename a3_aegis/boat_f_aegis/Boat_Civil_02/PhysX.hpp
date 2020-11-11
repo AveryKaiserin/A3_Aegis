@@ -16,6 +16,8 @@ rudderForceCoef = 0.3;
 rudderForceCoefAtMaxSpeed = 0.01;
 idleRpm = 100;
 redRpm = 500;
+
+/* Gearbox */
 class ComplexGearbox
 {
 	GearboxRatios[] =

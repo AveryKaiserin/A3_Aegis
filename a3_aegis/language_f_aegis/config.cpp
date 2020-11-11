@@ -1,5 +1,5 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"
 
-/* Addon configuration */
+/* Configuration */
 #include "cfgHints.hpp"

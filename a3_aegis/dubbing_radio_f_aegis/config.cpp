@@ -1,6 +1,6 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"
 
-/* Addon configuration */
+/* Configuration */
 #include "cfgVoice.hpp"
 #include "cfgVoiceTypes.hpp"

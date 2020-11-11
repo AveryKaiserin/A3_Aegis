@@ -1,5 +1,10 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
+
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
+
+/* Configuration */
 #include "cfgInGameUI.hpp"
 #include "cfgVehicleIcons.hpp"
 #include "cfgWeaponCursors.hpp"
@@ -7,6 +12,8 @@
 #include "cfgUnitInsignia.hpp"
 #include "cfgMarkers.hpp"
 #include "cfgPostProcessTemplates.hpp"
+
+/* Preloaded Textures */
 class PreloadTextures
 {
 	class CfgWeaponCursors

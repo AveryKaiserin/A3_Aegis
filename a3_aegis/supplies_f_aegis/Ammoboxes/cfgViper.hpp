@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* Viper */
 class V_supplyCrate_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -31,6 +31,8 @@ class V_supplyCrate_F: ReammoBox_F
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_Viper;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);
@@ -73,6 +75,8 @@ class V_supplyCrate_F: ReammoBox_F
 		bag_xx(B_ViperHarness_hex_F,2);
 	};
 };
+
+/* Viper (Pacific) */
 class V_T_supplyCrate_F: ReammoBox_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -105,6 +109,8 @@ class V_T_supplyCrate_F: ReammoBox_F
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_Viper_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_Viper_Pacific;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_green,24);

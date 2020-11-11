@@ -11,11 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_Heli_Transport_03_F,
             B_T_Heli_Transport_03_unarmed_F,
-
-            // US (Woodland)
             B_W_Heli_Transport_03_F,
             B_W_Heli_Transport_03_unarmed_F
         };

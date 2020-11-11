@@ -1,3 +1,4 @@
+/* CTRG */
 class B_Kitbag_blk_CTRGexp_F: B_Kitbag_blk
 {
     author = $STR_A3_A_Heliotrope;
@@ -21,9 +22,7 @@ class B_AssaultPack_blk_CTRGMedic_F: B_AssaultPack_blk
     scope = protected;
     class TransportMagazines
     {
-        mag_xx(SmokeShellRed,1);
-        mag_xx(SmokeShellBlue,1);
-        mag_xx(SmokeShellOrange,1);
+        SMOKESHELLS_BAG_MEDIC;
     };
     class TransportItems
     {

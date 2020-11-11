@@ -11,16 +11,16 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (African)
+            /* From "cfgOPFOR.hpp" */
             O_A_APC_Tracked_02_cannon_F,
 
-            // Russia
-            O_R_APC_Tracked_02_AA_ard_F,
-            O_R_APC_Tracked_02_AA_F,
-            O_R_APC_Tracked_02_cannon_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_APC_Tracked_02_cannon_F,
-            O_R_APC_Tracked_02_medical_ard_F,
-            O_R_APC_Tracked_02_medical_F
+            O_R_APC_Tracked_02_AA_F,
+            O_R_APC_Tracked_02_medical_F,
+            O_R_APC_Tracked_02_cannon_ard_F,
+            O_R_APC_Tracked_02_AA_ard_F,
+            O_R_APC_Tracked_02_medical_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

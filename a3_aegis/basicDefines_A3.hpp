@@ -125,29 +125,33 @@
 #define mag_20(a) a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 
 // items in bags
-#define mag_xx(mag,num) class _xx_##mag \
+#define mag_xx(mag,num) \
+    class _xx_##mag \
     { \
-        magazine = mag; \
-        count = num; \
-    };
+        magazine = ##mag##; \
+        count = ##num##; \
+    }
 
-#define weap_xx(weapon,num) class _xx_##weapon \
+#define weap_xx(weapon,num) \
+    class _xx_##weapon \
     { \
-        weapon = weapon; \
-        count = num; \
-    };
+        weapon = ##weapon##; \
+        count = ##num##; \
+    }
 
-#define item_xx(item,num) class _xx_##item \
+#define item_xx(item,num) \
+    class _xx_##item \
     { \
-        name = item; \
-        count = num; \
-    };
+        name = ##item##; \
+        count = ##num##; \
+    }
 
-#define bag_xx(bag,num) class _xx_##bag \
+#define bag_xx(bag,num) \
+    class _xx_##bag \
     { \
-        backpack = bag; \
-        count = num; \
-    };
+        backpack = ##bag##; \
+        count = ##num##; \
+    }
 
 // slotType
 #define DEFAULT_SLOT 0
@@ -271,16 +275,7 @@ ItemRadio \
     { \
         scope = protected; \
         scopeCurator = private; \
-    };
-
-#define DEPRECATED_PATCH(old,new) \
-	class old \
-	{ \
-		requiredAddons[] = {new}; \
-		requiredVersion = 0.1; \
-		units[] = {}; \
-		weapons[] = {}; \
-	};
+    }
 
 
 

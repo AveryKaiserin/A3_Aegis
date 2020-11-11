@@ -1,6 +1,8 @@
 class CfgMusic
 {
-	/* From "\A3\Music_F\config.cpp" */
+	/* From "\A3\Music_F\config.cpp"
+    - Let's make these available to the Curator
+    */
 	class LeadTrack01c_F
 	{
 		musicClass = Lead;
@@ -51,7 +53,9 @@ class CfgMusic
 		musicClass = Calm;
 	};
 
-	/* From "\A3\Music_F_EPA\config.cpp" */
+	/* From "\A3\Music_F_EPA\config.cpp"
+    - Let's make these available to the Curator
+    */
 	class LeadTrack02a_F_EPA
 	{
 		musicClass = Action;
@@ -118,7 +122,9 @@ class CfgMusic
 		musicClass = Stealth;
 	};
 
-	/* From "\A3\Music_F_EPB\config.cpp" */
+	/* From "\A3\Music_F_EPB\config.cpp"
+    - Let's make these available to the Curator
+    */
 	class LeadTrack01a_F_EPB
 	{
 		musicClass = Action;
@@ -152,7 +158,9 @@ class CfgMusic
 		musicClass = Stealth;
 	};
 
-    /* From "\A3_Aegis\Music_F_Aegis\config.cpp" */
+    /* From "\A3_Aegis\Music_F_Aegis\config.cpp"
+    - Here's our own tracks
+    */
 	class AmbientTrack04b_F
 	{
 		name = $STR_A3_A_CfgMusic_AmbientTrack04b_F;

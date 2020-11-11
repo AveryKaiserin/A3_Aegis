@@ -7,17 +7,15 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // AAF
-            I_Plane_Transport_01_infantry_F,
-            I_Plane_Transport_01_vehicle_F,
-
-            // Iran
+            /* From "cfgOPFOR.hpp" */
             O_Plane_Transport_01_infantry_F,
             O_Plane_Transport_01_vehicle_F,
-
-            // China
             O_T_Plane_Transport_01_infantry_ghex_F,
-            O_T_Plane_Transport_01_vehicle_ghex_F
+            O_T_Plane_Transport_01_vehicle_ghex_F,
+
+            /* From "cfgIndep.hpp" */
+            I_Plane_Transport_01_infantry_F,
+            I_Plane_Transport_01_vehicle_F
         };
 		weapons[] = {/* Automated */};
 	};

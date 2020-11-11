@@ -11,21 +11,15 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Civilians
-            C_Heli_Transport_02_civil_F,
-
-            // AAF
-            I_Heli_Transport_02_medevac_F,
-
-            // BAF
+            /* From "cfgBLUFOR.hpp" */
             B_A_Heli_Transport_02_F,
             B_A_Heli_Transport_02_tna_F,
             B_A_Heli_Transport_02_wdl_F,
-            B_A_Heli_Transport_02_medevac_F,
-            B_A_Heli_Transport_02_medevac_tna_F,
-            B_A_Heli_Transport_02_medevac_wdl_F,
 
-            // ION
+            /* From "cfgCivil.hpp" */
+            C_Heli_Transport_02_civil_F,
+
+            /* From "cfgION.hpp" */
             B_ION_Heli_Transport_02_F
         };
 		weapons[] = {/* Automated */};

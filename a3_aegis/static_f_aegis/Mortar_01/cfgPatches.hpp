@@ -15,26 +15,21 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Pacific)
-            O_T_Mortar_01_F,
-            O_T_Mortar_01_weapon_F,
+            /* From "cfgBLUFOR.hpp" */
+            B_W_Mortar_01_F,
+            B_A_Mortar_01_F,
+            B_A_Mortar_01_tna_F,
+            B_A_Mortar_01_wdl_F,
 
-            // CSAT (African)
+            /* From "cfgOPFOR.hpp" */
+            O_T_Mortar_01_F,
             O_A_Mortar_01_F,
 
-            // NATO (Woodland)
-            B_W_Mortar_01_F,
-
-            // Russia
-            O_R_Mortar_01_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_Mortar_01_F,
             O_R_Mortar_01_support_F,
             O_R_Mortar_01_Weapon_F,
-
-            // NATO (British)
-            B_A_Mortar_01_F,
-            B_A_Mortar_01_tna_F,
-            B_A_Mortar_01_wdl_F
+            O_R_Mortar_01_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -1,3 +1,4 @@
+/* ION */
 class Box_ION_Equip_F: Box_NATO_Equip_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -18,6 +19,8 @@ class Box_ION_Equip_F: Box_NATO_Equip_F
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_ION_CA.paa"
 	};
 	editorSubcategory = EdSubcat_Ammo_ION;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);

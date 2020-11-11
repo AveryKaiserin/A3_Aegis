@@ -1,10 +1,10 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"
 
-/* Base inheritance and useful definitions */
-#include "P:\A3_Aegis\basicDefines_A3.hpp"
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
 
-/* Addon configuration */
+/* Configuration */
 #include "cfgMovesAnimal_Base_F.hpp"
 #include "cfgMovesCow_F.hpp"
 #include "cfgVehicles.hpp"

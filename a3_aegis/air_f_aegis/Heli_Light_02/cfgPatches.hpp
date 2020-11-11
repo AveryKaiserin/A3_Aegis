@@ -11,22 +11,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Civilians
+            /* From "cfgCivil.hpp" */
             C_Heli_Light_02_civil_F,
 
-            // China
+            /* From "cfgOPFOR.hpp" */
             O_T_Heli_Light_02_dynamicLoadout_ghex_F,
             O_T_Heli_Light_02_unarmed_F,
-
-            // Argana
             O_A_Heli_Light_02_dynamicLoadout_F,
             O_A_Heli_Light_02_unarmed_F,
 
-            // Russia
-            O_R_Heli_Light_02_dynamicLoadout_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_Heli_Light_02_dynamicLoadout_F,
-            O_R_Heli_Light_02_unarmed_ard_F,
-            O_R_Heli_Light_02_unarmed_F
+            O_R_Heli_Light_02_unarmed_F,
+            O_R_Heli_Light_02_dynamicLoadout_ard_F,
+            O_R_Heli_Light_02_unarmed_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

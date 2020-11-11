@@ -1,3 +1,5 @@
+/* AAF */
+class I_APC_tracked_03_base_F;
 class I_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -235,6 +237,8 @@ class I_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 		"\A3\Armor_F\Data\camonet_AAF_Digi_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_AAF_CO.paa"
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,12);

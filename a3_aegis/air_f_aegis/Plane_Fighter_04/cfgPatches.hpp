@@ -11,9 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // LDF
-            I_Ejection_Seat_Plane_Fighter_04_F,
-            I_E_Plane_Fighter_04_F
+            /* From "cfgEAF.hpp" */
+            I_E_Plane_Fighter_04_F,
+            I_Ejection_Seat_Plane_Fighter_04_F
         };
 		weapons[] = {/* Automated */};
 	};

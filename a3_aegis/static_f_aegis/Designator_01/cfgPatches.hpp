@@ -12,22 +12,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // AAF
+            /* From "cfgBLUFOR.hpp" */
+            B_T_Static_Designator_01_F,
+            B_T_Static_Designator_01_Weapon_F,
+            B_A_Static_Designator_01_F,
+            B_A_Static_Designator_01_tna_F,
+            B_A_Static_Designator_01_wdl_F,
+            
+            /* From "cfgIndep.hpp" */
             I_Static_Designator_01_F,
             I_Static_Designator_01_weapon_F,
 
-            // NATO (Pacific)
-            B_T_Static_Designator_01_F,
-            B_T_Static_Designator_01_Weapon_F,
-
-            // LDF
+            /* From "cfgEAF.hpp" */
             I_E_Static_Designator_01_F,
-            I_E_Static_Designator_01_weapon_F,
-
-            // NATO (British)
-            B_A_Static_Designator_01_F,
-            B_A_Static_Designator_01_tna_F,
-            B_A_Static_Designator_01_wdl_F
+            I_E_Static_Designator_01_weapon_F
         };
 		weapons[] = {/* Automated */};
 	};

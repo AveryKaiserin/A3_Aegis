@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* Gendarmerie */
 class B_AssaultPack_blk_GENLAT_F: B_AssaultPack_blk
 {
 	author = $STR_A3_A_AveryTheKitty;

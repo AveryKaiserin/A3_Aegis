@@ -1,4 +1,3 @@
-/*
 class B_AssaultPack_Charms_F: B_AssaultPack_Kerry
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -47,4 +46,3 @@ class B_AssaultPack_Spess_F: B_AssaultPack_Kerry
 		"\A3\Characters_F\BLUFOR\Data\vests.rvmat"
 	};
 };
-*/

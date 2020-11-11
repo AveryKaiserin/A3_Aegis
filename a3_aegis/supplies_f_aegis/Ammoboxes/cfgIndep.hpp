@@ -1,8 +1,9 @@
-// Arma 3
-class IND_Box_Base;
+/* AAF */
 class Box_IND_Wps_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,8);
@@ -34,6 +35,8 @@ class Box_IND_Wps_F: IND_Box_Base
 class Box_IND_WpsSpecial_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(5Rnd_127x108_Mag,6);
@@ -69,6 +72,8 @@ class Box_IND_WpsSpecial_F: IND_Box_Base
 class Box_IND_WpsLaunch_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(Titan_AA,3);
@@ -93,6 +98,8 @@ class Box_IND_WpsLaunch_F: IND_Box_Base
 class Box_IND_Ammo_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,48);
@@ -109,6 +116,8 @@ class Box_IND_Ammo_F: IND_Box_Base
 class Box_IND_AmmoOrd_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
     class TransportMagazines
     {
         mag_xx(ATMine_Range_Mag,5);
@@ -125,6 +134,8 @@ class Box_IND_AmmoOrd_F: IND_Box_Base
 class Box_IND_Grenades_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
         mag_xx(1Rnd_HE_Grenade_shell,12);
@@ -152,6 +163,8 @@ class Box_IND_Grenades_F: IND_Box_Base
 class Box_IND_Support_F: IND_Box_Base
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(Laserbatteries,1);
@@ -198,6 +211,8 @@ class I_supplyCrate_F: B_supplyCrate_F
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_INDP_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(9Rnd_45ACP_Mag,2);
@@ -256,6 +271,8 @@ class I_supplyCrate_F: B_supplyCrate_F
 class Box_AAF_Equip_F: Box_NATO_Equip_F
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportItems
 	{
 		delete _xx_V_Rangemaster_belt;
@@ -291,6 +308,8 @@ class Box_AAF_Equip_F: Box_NATO_Equip_F
 class Box_AAF_Uniforms_F: Box_NATO_Uniforms_F
 {
     editorSubcategory = EdSubcat_Ammo_AAF;
+
+    /* Inventory */
 	class TransportItems
 	{
 		item_xx(U_I_CombatUniform,4);

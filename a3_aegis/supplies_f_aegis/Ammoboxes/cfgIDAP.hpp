@@ -1,3 +1,4 @@
+/* IDAP */
 class Box_IDAP_AmmoOrd_F: Box_IND_AmmoOrd_F
 {
     editorSubcategory = EdSubcat_Ammo_IDAP;

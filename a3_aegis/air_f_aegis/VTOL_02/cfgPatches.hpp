@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Iran
+            /* From "cfgOPFOR.hpp" */
             O_VTOL_02_infantry_dynamicLoadout_F,
             O_VTOL_02_vehicle_dynamicLoadout_F
         };

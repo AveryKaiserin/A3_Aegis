@@ -11,13 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_SAM_System_03_F,
-
-            // NATO (Woodland)
             B_W_SAM_System_03_F,
-
-            // NATO (British)
             B_A_SAM_System_03_F,
             B_A_SAM_System_03_tna_F,
             B_A_SAM_System_03_wdl_F

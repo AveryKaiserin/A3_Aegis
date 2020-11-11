@@ -1,3 +1,4 @@
+/* AAF */
 class I_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

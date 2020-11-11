@@ -11,14 +11,14 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (Pacific)
+            /* From "cfgOPFOR.hpp" */
             O_T_Static_Designator_02_F,
             O_T_Static_Designator_02_weapon_F,
             
-            // Russia
-            O_R_Static_Designator_02_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_Static_Designator_02_F,
-            O_R_Static_Designator_02_weapon_F
+            O_R_Static_Designator_02_weapon_F,
+            O_R_Static_Designator_02_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

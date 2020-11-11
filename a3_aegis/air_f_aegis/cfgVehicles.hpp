@@ -1,11 +1,8 @@
 class CfgVehicles
 {
-    // Arma 3
-	class Plane;
-	class Plane_Base_F: Plane
-	{
-		class Components;
-	};
+	/* Planes: Definitions & Inheritance */
+    #include "\A3_Aegis\cfgPlanes.hpp"
+
     class Plane_Fighter_03_base_F;
 	class Plane_Fighter_03_dynamicLoadout_base_F: Plane_Fighter_03_base_F
 	{
@@ -36,7 +33,6 @@ class CfgVehicles
     {
         class EjectionSystem;
     };
-    // Arma 3 Aegis
     class O_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F
     {
         class Components: Components
@@ -82,13 +78,10 @@ class CfgVehicles
         class EjectionSystem;
     };
 	class B_Plane_Fighter_05_F:Plane_Fighter_05_Base_F{};
-    #include "cfgBlufor.hpp"
-    #include "cfgOpfor.hpp"
-    #include "cfgBlufor_Exp.hpp"
-    #include "cfgOpfor_Exp.hpp"
-    #include "cfgOpfor_Tacops.hpp"
-    #include "cfgBlufor_Enoch.hpp"
-    #include "cfgSpetsnaz.hpp"
-    #include "cfgEAF.hpp"
-    #include "cfgBlufor_Aegis.hpp"
+
+    /* Factions */
+    #include "cfgBLUFOR.hpp"    // US & BAF
+    #include "cfgOPFOR.hpp"     // IAF, China, & Argana
+    #include "cfgRUS.hpp"       // Russia
+    #include "cfgEAF.hpp"       // LDF
 };

@@ -1,6 +1,10 @@
 class CfgWeaponCursors
 {
 	class default;
+
+    /* GL Crosshair
+    - For whatever reason, the default 'gl' crosshair doesn't work so this is a workaround
+    */
 	class mgl: default
 	{
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgWeaponCursors\MGL_GS.paa";

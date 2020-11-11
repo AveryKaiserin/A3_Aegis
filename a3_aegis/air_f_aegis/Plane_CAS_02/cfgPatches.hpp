@@ -11,15 +11,15 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // China
+            /* From "cfgOPFOR.hpp" */
             O_T_Ejection_Seat_Plane_CAS_02_F,
             O_T_Plane_CAS_02_dynamicLoadout_ghex_F,
 
-            // Russia
-            O_R_Ejection_Seat_Plane_CAS_02_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_Ejection_Seat_Plane_CAS_02_F,
-            O_R_Plane_CAS_02_dynamicLoadout_ard_F,
-            O_R_Plane_CAS_02_dynamicLoadout_F
+            O_R_Ejection_Seat_Plane_CAS_02_ard_F,
+            O_R_Plane_CAS_02_dynamicLoadout_F,
+            O_R_Plane_CAS_02_dynamicLoadout_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

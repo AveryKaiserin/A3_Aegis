@@ -12,7 +12,6 @@ class CfgFactionClasses
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_IranArmy_CO.paa";
 	};
-    // Arma 3 Apex
 	class BLU_T_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_T_F0;
@@ -25,7 +24,6 @@ class CfgFactionClasses
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_T_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_China_CO.paa";
 	};
-	// Arma 3 Tac-ops
 	class OPF_A_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_A_F0;
@@ -34,7 +32,6 @@ class CfgFactionClasses
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_A_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Argana_CO.paa";
 	};
-	// Arma 3 Enoch
 	class IND_L_F
 	{
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_Looters_CO.paa";
@@ -50,7 +47,6 @@ class CfgFactionClasses
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_R_F0;
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
 	};
-	// Arma 3 Aegis
 	class BLU_CTRG_tna_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_BLU_CTRG_tna_F0;

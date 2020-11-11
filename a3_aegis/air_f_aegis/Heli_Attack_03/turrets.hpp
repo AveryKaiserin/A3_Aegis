@@ -8,7 +8,8 @@ class Turrets: Turrets
 		CanEject = false;
 		startEngine = false;
 		primaryGunner = true;
-        // Roration and elevation
+
+        /* Servos */
 		minElev = -60;
 		maxElev = 10;
 		initElev = 0;
@@ -17,32 +18,17 @@ class Turrets: Turrets
 		initTurn = 0;
 		maxHorizontalRotSpeed = 1.8;
 		maxVerticalRotSpeed = 1.5;
-        // Optics
-		discreteDistance[] =
-        {
-            100,
-            200,
-            300,
-            400,
-            500,
-            600,
-            700,
-            800,
-            1000,
-            1200,
-            1500,
-            1800,
-            2100,
-            2500
-        };
-		discreteDistanceInitIndex = 5;
+		soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-5,1,30};
+		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-5,1,30};
+		stabilizedInAxes = StabilizedInAxesBoth;
+
+        /* Optics */
 		gunnerOpticsModel = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 		gunnerOpticsEffect[] =
         {
             TankCommanderOptics1,
             BWTV
         };
-		memoryPointGunnerOptics = gunnerview;
 		gunnerForceOptics = false;
 		class OpticsIn
 		{
@@ -116,7 +102,8 @@ class Turrets: Turrets
 				gunnerOpticsEffect[] = {};
 			};
 		};
-		// Sensors and electronics
+		
+        /* Sensors & Components */
 		showAllTargets = LockLaser;
         class Components
 		{
@@ -214,9 +201,13 @@ class Turrets: Turrets
 				};
 			};
 		};
-        // MFD
-        #include "mfdGunner.hpp"
-        // Weapons and magazines
+        
+        /* MFD */
+        #include "mfd_gunner.hpp"
+
+        /* Weapons & Ammunition */
+		gunBeg = "usti hlavne";
+		gunEnd = "konec hlavne";
 		weapons[] =
         {
             autocannon_30mm_Heli_Attack_03,
@@ -228,29 +219,45 @@ class Turrets: Turrets
             600Rnd_30mm_APDS_shells_Tracer_Yellow,
             Laserbatteries
         };
-		soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-5,1,30};
-		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-5,1,30};
-		stabilizedInAxes = StabilizedInAxesBoth;
-		selectionFireAnim = zasleh;
-		memoryPointGun = machinegun;
-		gunBeg = "usti hlavne";
-		gunEnd = "konec hlavne";
-        // Interior and animations
-		memoryPointsGetInGunner = "pos gunner";
-		memoryPointsGetInGunnerDir = "pos gunner dir";
-		gunnerLeftHandAnimName = "";
-		gunnerRightHandAnimName = "";
-		gunnerLeftLegAnimName = "";
-		gunnerRightLegAnimName = "";
+
+        /* FCS */
+		discreteDistance[] =
+        {
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            1000,
+            1200,
+            1500,
+            1800,
+            2100,
+            2500
+        };
+		discreteDistanceInitIndex = 5;
+
+        /* Crew */
 		castGunnerShadow = true;
 		viewGunnerShadow = true;
 		outGunnerMayFire = true;
 		gunnerAction = Heli_Attack_03_Gunner;
 		gunnerInAction = Heli_Attack_03_Gunner;
+		gunnerLeftHandAnimName = "";
+		gunnerRightHandAnimName = "";
+		gunnerLeftLegAnimName = "";
+		gunnerRightLegAnimName = "";
+
+        /* Enter & Exit Animations */
+		preciseGetInOut = false;
+		getInRadius = 1.5;
 		gunnerGetInAction = GetInHigh;
 		gunnerGetOutAction = GetOutHigh;
-		preciseGetInOut = false;
-        // Damage and hitpoints
+
+        /* Damage */
 		class HitPoints
 		{
 			class HitTurret
@@ -272,5 +279,12 @@ class Turrets: Turrets
 				radius = 0.2;
 			};
 		};
+
+        /* Selections & Memory Points */
+		selectionFireAnim = zasleh;
+		memoryPointGunnerOptics = gunnerview;
+		memoryPointGun = machinegun;
+		memoryPointsGetInGunner = "pos gunner";
+		memoryPointsGetInGunnerDir = "pos gunner dir";
 	};
 };

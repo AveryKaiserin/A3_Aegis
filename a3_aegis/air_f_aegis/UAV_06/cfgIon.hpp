@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_UAV_06_F: UAV_06_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

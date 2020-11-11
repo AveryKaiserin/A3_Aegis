@@ -1,30 +1,8 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
-class CfgFunctions
-{
-	class A3_Aegis
-	{
-		tag = "Aegis";
-		project = "arma3aegis";
-		class Ambient
-		{
-			file = "A3_Aegis\Functions_F_Aegis\Ambient";
-			class animalBehaviour
-			{
-				description = "Animal behaviour control. Called by Animals_F_Aegis\Data\Scripts\main.fsm.";
-				headerType = 1;
-			};
-			class animalRandomization{};
-		};
-		class GUI
-		{
-			file = "A3_Aegis\Functions_F_Aegis\GUI";
-			class initWorldScene{};
-			class initWorldSceneVR{};
-			class showHorizontalCompass
-			{
-				//postInit = true;
-			};
-        };
-    };
-};
+
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
+
+/* Configuration */
+#include "cfgFunctions.hpp"

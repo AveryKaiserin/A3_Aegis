@@ -11,15 +11,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // China
+            // From "cfgOPFOR.hpp"
             O_T_Heli_Attack_02_dynamicLoadout_F,
-
-            // Argana
             O_A_Heli_Attack_02_dynamicLoadout_F,
             
-            // Russia
-            O_R_Heli_Attack_02_dynamicLoadout_ard_F,
-            O_R_Heli_Attack_02_dynamicLoadout_F
+            // From "cfgRUS.hpp"
+            O_R_Heli_Attack_02_dynamicLoadout_F,
+            O_R_Heli_Attack_02_dynamicLoadout_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

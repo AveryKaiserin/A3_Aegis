@@ -1,11 +1,11 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"
 
-/* Base inheritance and useful definitions */
+/* Definitions & Inheritance */
 #include "P:\A3_Aegis\basicDefines_A3.hpp"
 #include "P:\A3_Aegis\modes.hpp"
 #include "P:\A3_Aegis\slots.hpp"
 
-/* Addon configuration */
+/* Configuration */
 #include "cfgWeapons.hpp"
 #include "cfgVehicles.hpp"

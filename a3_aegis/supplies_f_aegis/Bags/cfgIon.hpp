@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* ION */
 class B_AssaultPack_rgr_IONMedic_F: B_AssaultPack_rgr
 {
 	author = $STR_A3_A_AveryTheKitty;

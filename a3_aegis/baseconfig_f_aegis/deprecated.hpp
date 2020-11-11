@@ -1,15 +1,29 @@
-DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Boat_Civil_01,A3_Aegis_Boat_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items,A3_Aegis_Props_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items_Electronics,A3_Aegis_Props_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items_Military,A3_Aegis_Props_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Structures_F_Aegis_Signs,A3_Aegis_Structures_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Structures_F_Aegis_Signs_Warnings,A3_Aegis_Structures_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Launchers_LAW,A3_Aegis_Weapons_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_LongRangeRifles_HuntingRifle,A3_Aegis_Weapons_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_C1911,A3_Aegis_Weapons_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_Pistol_Heavy_03,A3_Aegis_Weapons_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_M4A1,A3_Aegis_Weapons_F_Aegis)
-DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_RFB,A3_Aegis_Weapons_F_Aegis)
+#define DEPRECATED_PATCH(old,new) \
+	class old \
+	{ \
+		requiredAddons[] = {new}; \
+		requiredVersion = 0.1; \
+		units[] = {}; \
+		weapons[] = {}; \
+	}
+
+DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Boat_Civil_01,A3_Aegis_Boat_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Boat_Civil_04,A3_Aegis_Boat_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Carrier_01,A3_Aegis_Boat_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Boat_F_Aegis_Destroyer_01,A3_Aegis_Boat_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items,A3_Aegis_Props_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items_Electronics,A3_Aegis_Props_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Items_Military,A3_Aegis_Props_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Props_F_Aegis_Military_Equipment,A3_Aegis_Props_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Static_F_Aegis_Boat_Rack_01,A3_Aegis_Static_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Structures_F_Aegis_Signs,A3_Aegis_Structures_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Structures_F_Aegis_Signs_Warnings,A3_Aegis_Structures_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Launchers_LAW,A3_Aegis_Weapons_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_LongRangeRifles_HuntingRifle,A3_Aegis_Weapons_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_C1911,A3_Aegis_Weapons_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Pistols_Pistol_Heavy_03,A3_Aegis_Weapons_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_M4A1,A3_Aegis_Weapons_F_Aegis);
+DEPRECATED_PATCH(A3_Aegis_Weapons_F_Aegis_Rifles_RFB,A3_Aegis_Weapons_F_Aegis);
 
 
 

@@ -127,6 +127,14 @@ class CfgMagazines
 		scope = public;
 	};
 	class 300Rnd_20mm_shells;
+	class 1000Rnd_20mm_shells: 300Rnd_20mm_shells
+    {
+        /*
+        - Real-life RAH-66's ammunition capacity is 500 rounds
+        - Source: https://en.wikipedia.org/wiki/Boeing%E2%80%93Sikorsky_RAH-66_Comanche#Specifications_(RAH-66A)
+        */
+		count = 500;
+    };
 	class 300Rnd_25mm_shells;
 	class 250Rnd_30mm_HE_shells;
 	class 140Rnd_30mm_MP_shells;
@@ -180,7 +188,6 @@ class CfgMagazines
 	class 2000Rnd_762x51_Belt_T_Red;
 	class 2000Rnd_762x51_Belt_T_Green;
 	class 2000Rnd_762x51_Belt_T_Yellow;
-	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
 	// Arma 3 Marksmen
 	class 130Rnd_338_Mag: CA_Magazine
 	{
@@ -937,14 +944,6 @@ class CfgMagazines
 		author = $STR_A3_A_AveryTheKitty;
 		ammo = B_762x51_Minigun_Tracer_Yellow_splash;
 	};
-	class 500Rnd_20mm_shells: 300Rnd_20mm_shells
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_CfgMagazines_1000Rnd_20mm_shells0;
-		count = 500;
-		ammo = B_20mm_Tracer_Red;
-		weight = 126;
-	};
 	class 250Rnd_20mm_shells: 300Rnd_20mm_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1140,11 +1139,6 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		ammo = B_762x51_Minigun_Tracer_Yellow_splash;
-	};
-	class 1350Rnd_Gatling_30mm_Plane_CAS_01_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		count = 1350;
 	};
 	class magazine_Fighter04_Gun20mm_AA_x120: VehicleMagazine
 	{

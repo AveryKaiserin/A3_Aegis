@@ -1,8 +1,10 @@
-// Arma 3
+/* FIA */
 class IG_supplyCrate_F: ReammoBox_F
 {
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_IG_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_FIA;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
@@ -53,6 +55,8 @@ class FIA_Box_Base_F;
 class Box_FIA_Wps_F: FIA_Box_Base_F
 {
     editorSubcategory = EdSubcat_Ammo_FIA;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(200Rnd_65x39_cased_Box,6);
@@ -77,6 +81,8 @@ class Box_FIA_Wps_F: FIA_Box_Base_F
 class Box_FIA_Ammo_F: FIA_Box_Base_F
 {
     editorSubcategory = EdSubcat_Ammo_FIA;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(200Rnd_65x39_cased_Box,6);
@@ -102,6 +108,8 @@ class Box_FIA_Ammo_F: FIA_Box_Base_F
 class Box_FIA_Support_F: FIA_Box_Base_F
 {
     editorSubcategory = EdSubcat_Ammo_FIA;
+
+    /* Inventory */
 	class TransportMagazines{};
 	class TransportWeapons{};
 	class TransportItems

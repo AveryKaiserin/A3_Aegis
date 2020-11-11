@@ -6,19 +6,20 @@
 		requiredAddons[] =
 		{
 			A3_Aegis_Armor_F_Aegis,
+			A3_Armor_F_Exp_MBT_02,
 			A3_Armor_F_Gamma_MBT_02
 		};
 		requiredVersion = 0.1;
 		units[] =
         {
-            // CSAT (African)
+            /* From "cfgOPFOR.hpp" */
             O_A_MBT_02_cannon_F,
 
-            // Russia
-            O_R_MBT_02_arty_ard_F,
+            /* From "cfgRUS.hpp" */
+            O_R_MBT_02_cannon_F,
             O_R_MBT_02_arty_F,
             O_R_MBT_02_cannon_ard_F,
-            O_R_MBT_02_cannon_F
+            O_R_MBT_02_arty_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

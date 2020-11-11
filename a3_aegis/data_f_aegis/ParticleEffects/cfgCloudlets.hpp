@@ -1,7 +1,9 @@
 class CfgCloudlets
 {
+    /* Inheritance Tree */
     class Default;
-    // Explosion refractions, originally by Taro with some minor edits
+
+    /* Explosion Refractions: originally by Taro */
 	class ExplosionRefract: Default
 	{
 		angleVar = 1;
@@ -32,7 +34,7 @@ class CfgCloudlets
             {0,0,0,0.3}
         };
 		interval = 3*10;
-		lifeTime = 0.2;
+		lifeTime = 0.3;
 		lifeTimeVar = 0;
 		MoveVelocityVar[] =
         {
@@ -51,7 +53,7 @@ class CfgCloudlets
 		particleFSIndex = 0;
 		particleFSLoop = 0;
 		particleFSNtieth = 1;
-		particleShape = "\A3\Data_F\ParticleEffects\Universal\refract.p3d";
+		particleShape = "\A3\Data_F\ParticleEffects\Universal\Refract.p3d";
 		particleType = Billboard;
 		positionVar[] =
         {
@@ -77,22 +79,10 @@ class CfgCloudlets
             17      // 100%
         };
 		timerPeriod = 1;
-		volume = 7.9;
-		weight = 10;
+		volume = 2;
+		weight = 2.5;
 	};
-	class ExplosionRefractSmall: ExplosionRefract
-	{
-		lifeTime = 0.3;
-		Size[] =
-        {
-            1,      // 0%
-            2,      // 20%
-            5,      // 40%
-            8,      // 60%
-            12,     // 80%
-            17      // 100%
-        };
-	};
+	class ExplosionRefractSmall: ExplosionRefract{};
 	class ExplosionRefractMed: ExplosionRefract
 	{
 		lifeTime = 0.45;
@@ -105,6 +95,8 @@ class CfgCloudlets
             50,     // 80%
             70      // 100%
         };
+		volume = 4.0;
+		weight = 5.0;
 	};
 	class ExplosionRefractLarge: ExplosionRefract
 	{
@@ -118,6 +110,8 @@ class CfgCloudlets
             100,    // 80%
             140     // 100%
         };
+		volume = 6.0;
+		weight = 7.5;
 	};
 	class ExplosionRefractHuge: ExplosionRefract
 	{
@@ -131,6 +125,9 @@ class CfgCloudlets
             200,    // 80%
             280     // 100%
         };
+		volume = 8.0;
+		weight = 10.0;
 	};
-    // Handheld flare effects
+    
+    /* Hand Flare */
 };

@@ -13,23 +13,19 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_CargoNet_01_ammo_F,
-            
-            // CSAT (Pacific)
-            O_T_CargoNet_01_ammo_F,
-
-            // NATO (Woodland)
             B_W_CargoNet_01_ammo_F,
-
-            // Russia
-            O_R_CargoNet_01_ammo_arid_F,
-            O_R_CargoNet_01_ammo_F,
-
-            // NATO (British)
             B_A_CargoNet_01_ammo_F,
             B_A_CargoNet_01_ammo_tropic_F,
             B_A_CargoNet_01_ammo_wdl_F
+            
+            /* From "cfgOPFOR.hpp" */
+            O_T_CargoNet_01_ammo_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_CargoNet_01_ammo_arid_F,
+            O_R_CargoNet_01_ammo_F,
         };
 		weapons[] = {/* Automated */};
 	};

@@ -1,3 +1,4 @@
+/* Gendarmerie */
 class B_GEN_Boat_Transport_02_F: Boat_Transport_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

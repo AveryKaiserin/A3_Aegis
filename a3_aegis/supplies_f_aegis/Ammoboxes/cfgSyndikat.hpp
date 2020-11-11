@@ -1,3 +1,4 @@
+/* Syndikat */
 class Box_Syndicate_Wps_F: ReammoBox_F
 {
     editorSubcategory = EdSubcat_Ammo_Syndicate;
@@ -5,6 +6,8 @@ class Box_Syndicate_Wps_F: ReammoBox_F
 class Box_Syndicate_Ammo_F: ReammoBox_F
 {
     editorSubcategory = EdSubcat_Ammo_Syndicate;
+    
+    /* Inventory */
 	class TransportMagazines
 	{
         mag_xx(30Rnd_762x39_Mag_F,24);

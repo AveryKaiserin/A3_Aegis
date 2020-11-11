@@ -7,20 +7,16 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_UAV_02_dynamicLoadout_F,
-
-            // US (Woodland)
             B_W_UAV_02_dynamicLoadout_F,
-
-            // Russia
-            O_R_UAV_02_dynamicLoadout_ard_F,
-            O_R_UAV_02_dynamicLoadout_F,
-
-            // BAF
             B_A_UAV_02_dynamicLoadout_F,
             B_A_UAV_02_dynamicLoadout_tna_F,
-            B_A_UAV_02_dynamicLoadout_wdl_F
+            B_A_UAV_02_dynamicLoadout_wdl_F,
+            
+            /* From "cfgRUS.hpp" */
+            O_R_UAV_02_dynamicLoadout_F,
+            O_R_UAV_02_dynamicLoadout_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

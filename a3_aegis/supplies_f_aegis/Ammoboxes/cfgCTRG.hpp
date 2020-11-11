@@ -1,9 +1,11 @@
-// Arma 3
+/* CTRG */
 class C_supplyCrate_F: ReammoBox_F
 {
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CTRG;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		delete _xx_30Rnd_65x39_caseless_mag;
@@ -74,12 +76,15 @@ class C_supplyCrate_F: ReammoBox_F
 		bag_xx(B_Kitbag_rgr,2);
 	};
 };
-// Arma 3 Apex
+
+/* CTRG (Pacific) */
 class C_T_supplyCrate_F: ReammoBox_F
 {
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_CTRG_Pacific;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		delete _xx_30Rnd_556x45_Stanag;

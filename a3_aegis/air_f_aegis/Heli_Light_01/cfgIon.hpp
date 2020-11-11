@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_Heli_Light_01_civil_F: Heli_Light_01_civil_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -150,6 +151,8 @@ class B_ION_Heli_Light_01_civil_F: Heli_Light_01_civil_base_F
 		AddTread_Short,0,
 		AddTread,1
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

@@ -1,3 +1,4 @@
+/* FIA */
 class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -220,6 +221,8 @@ class I_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
@@ -447,6 +450,8 @@ class B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
@@ -674,6 +679,8 @@ class O_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		"\A3\Armor_F\Data\camonet_AAF_FIA_green_CO.paa",
 		"\A3\Armor_F\Data\cage_G1_CO.paa"
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";

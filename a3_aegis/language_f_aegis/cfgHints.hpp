@@ -284,9 +284,6 @@ class CfgHints
 	};
 	class VehicleList
 	{
-		/* From "\A3\Language_F\config.cpp" */
-
-		/* From "\A3_Aegis\Language_F_Aegis\config.cpp" */
 		class Heli_Attack_03
 		{
 			displayName = %11;

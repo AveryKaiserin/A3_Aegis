@@ -11,7 +11,7 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Woodland)
+            /* From "cfgBLUFOR.hpp" */
             B_W_AFV_Wheeled_01_cannon_F,
             B_W_AFV_Wheeled_01_up_cannon_F
         };

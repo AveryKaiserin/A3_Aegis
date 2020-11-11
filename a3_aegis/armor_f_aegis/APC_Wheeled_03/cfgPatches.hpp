@@ -11,9 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // FIA
-            B_G_APC_Wheeled_03_cannon_F,
+            /* From "cfgGuerrilla.hpp" */
             I_G_APC_Wheeled_03_cannon_F,
+            B_G_APC_Wheeled_03_cannon_F,
             O_G_APC_Wheeled_03_cannon_F
         };
 		weapons[] = {/* Automated */};

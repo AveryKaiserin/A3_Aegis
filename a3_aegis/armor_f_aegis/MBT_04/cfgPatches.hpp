@@ -11,10 +11,11 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            O_R_MBT_04_cannon_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_MBT_04_cannon_F,
-            O_R_MBT_04_command_ard_F,
-            O_R_MBT_04_command_F
+            O_R_MBT_04_command_F,
+            O_R_MBT_04_cannon_ard_F,
+            O_R_MBT_04_command_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

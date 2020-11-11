@@ -13,26 +13,22 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_UAV_01_F,
-
-            // China
-            O_T_UAV_01_F,
-
-            // US (Woodland)
             B_W_UAV_01_F,
-
-            // Russia
-            O_R_UAV_01_ard_F,
-            O_R_UAV_01_F,
-            O_R_UAV_01_backpack_F,
-
-            // BAF
             B_A_UAV_01_F,
             B_A_UAV_01_tna_F,
             B_A_UAV_01_wdl_F,
 
-            // ION
+            /* From "cfgOPFOR.hpp" */
+            O_T_UAV_01_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_UAV_01_F,
+            O_R_UAV_01_backpack_F,
+            O_R_UAV_01_ard_F,
+
+            /* From "cfgION.hpp" */
             B_ION_UAV_01_F,
             B_ION_UAV_01_backpack_F
         };

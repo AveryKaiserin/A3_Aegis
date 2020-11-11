@@ -1,7 +1,9 @@
-// Arma 3 Enoch
+/* LDF */
 class Box_EAF_Wps_F: Box_IND_Wps_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
     class TransportMagazines
     {
         delete _xx_30Rnd_65x39_caseless_msbs_mag_Tracer;
@@ -36,6 +38,8 @@ class Box_EAF_Wps_F: Box_IND_Wps_F
 class Box_EAF_WpsSpecial_F: Box_IND_WpsSpecial_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(7Rnd_408_mag,8);
@@ -69,6 +73,8 @@ class Box_EAF_WpsSpecial_F: Box_IND_WpsSpecial_F
 class Box_EAF_WpsLaunch_F: Box_IND_WpsLaunch_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
 	class TransportBackpacks
 	{
         delete _xx_B_FieldPack_oli;
@@ -78,6 +84,8 @@ class Box_EAF_WpsLaunch_F: Box_IND_WpsLaunch_F
 class Box_EAF_Ammo_F: Box_IND_Ammo_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		delete _xx_9Rnd_45ACP_Mag;
@@ -98,6 +106,8 @@ class Box_EAF_Ammo_F: Box_IND_Ammo_F
 class Box_EAF_Equip_F: Box_AAF_Equip_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
     class TransportItems
     {
         item_xx(H_Cap_eaf_F,1);
@@ -134,6 +144,8 @@ class Box_EAF_Equip_F: Box_AAF_Equip_F
 class Box_EAF_Grenades_F: Box_IND_Grenades_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
         mag_xx(1Rnd_HE_Grenade_shell,12);
@@ -161,6 +173,8 @@ class Box_EAF_Grenades_F: Box_IND_Grenades_F
 class Box_EAF_AmmoOrd_F: Box_IND_AmmoOrd_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
     class TransportMagazines
     {
         mag_xx(APERSBoundingMine_Range_Mag,5);
@@ -177,6 +191,8 @@ class Box_EAF_AmmoOrd_F: Box_IND_AmmoOrd_F
 class Box_EAF_Support_F: Box_IND_Support_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(Laserbatteries,1);
@@ -221,6 +237,8 @@ class Box_EAF_Uniforms_F: Box_AAF_Uniforms_F
 {
     displayName = $STR_A3_A_CfgVehicles_Box_EAF_Uniforms_F0;
     editorSubcategory = EdSubcat_Ammo_EAF;
+
+    /* Inventory */
     class TransportItems
     {
         item_xx(U_I_E_Uniform_01_F,4);
@@ -236,6 +254,8 @@ class I_EAF_supplyCrate_F: I_supplyCrate_F
 {
     editorSubcategory = EdSubcat_Ammo_EAF;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_EAF_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(50Rnd_570x28_SMG_03,6);

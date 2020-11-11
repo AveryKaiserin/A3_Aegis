@@ -12,13 +12,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Russia
-            O_R_Boat_Armed_01_hmg_ard_F,
-            O_R_Boat_Armed_01_hmg_F,
-
-            // NATO (British)
+            /* From "cfgBLUFOR.hpp" */
             B_A_Boat_Armed_01_hmg_F,
-            B_A_Boat_Armed_01_hmg_tna_F
+            B_A_Boat_Armed_01_hmg_tna_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_Boat_Armed_01_hmg_F,
+            O_R_Boat_Armed_01_hmg_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

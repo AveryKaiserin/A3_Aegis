@@ -1,7 +1,7 @@
 class CfgVehicles
 {
-    /* Animals inheritance */
-    #include "P:\A3_Aegis\animals.hpp"
+    /* Inheritance Tree */
+    #include "\A3_Aegis\cfgAnimals.hpp"
 
 	class Cow_random_F: Animal_Base_F
 	{
@@ -11,7 +11,9 @@ class CfgVehicles
 		model = "\A3_Aegis\Animals_F_Aegis\Cow\Cow_F.p3d";
 		hasGeometry = true;
 		moves = CfgMovesCow_F;
-		singSound[] = {"\A3_Aegis\Animals_F_Aegis\Cow\Data\Sound\cow_moo01",db0,1,300};
+		hiddenSelections[] = {Camo};
+
+        /* Wounds */
 		class Wounds
 		{
 			tex[] = {};
@@ -22,11 +24,14 @@ class CfgVehicles
 				"A3_Aegis\Animals_F_Aegis\Cow\Data\W2_Cow.rvmat"
 			};
 		};
-		hiddenSelections[] = {Camo};
+
+        /* Scripts */
 		class EventHandlers: EventHandlers
 		{
 			init = "(_this select 0) call Aegis_fnc_animalRandomization;";
 		};
+
+        /* Variables */
 		class VariablesScalar
 		{
 			_threatMaxRadius = 40;

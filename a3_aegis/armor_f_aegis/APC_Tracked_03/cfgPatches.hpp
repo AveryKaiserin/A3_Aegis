@@ -12,16 +12,16 @@
 		requiredVersion = 0.1;
 		units[] =
         {
-            // AAF
+            /* From "cfgBLUFOR.hpp" */
+            B_A_APC_tracked_03_cannon_v2_F,
+            B_A_APC_tracked_03_cannon_v2_tna_F,
+            B_A_APC_tracked_03_cannon_v2_wdl_F,
+
+            /* From "cfgIndep.hpp" */
             I_APC_tracked_03_cannon_v2_F,
 
-            // LDF
-            I_E_APC_tracked_03_cannon_v2_F,
-
-            // NATO (British)
-            B_A_APC_tracked_03_cannon_F,
-            B_A_APC_tracked_03_cannon_tna_F,
-            B_A_APC_tracked_03_cannon_wdl_F
+            /* From "cfgEAF.hpp" */
+            I_E_APC_tracked_03_cannon_v2_F
         };
 		weapons[] = {/* Automated */};
 	};

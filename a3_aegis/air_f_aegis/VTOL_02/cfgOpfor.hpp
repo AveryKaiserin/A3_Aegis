@@ -1,3 +1,4 @@
+/* IAF */
 class O_VTOL_02_infantry_dynamicLoadout_F: VTOL_02_infantry_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

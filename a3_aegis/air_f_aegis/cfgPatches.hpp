@@ -1,7 +1,7 @@
 class CfgPatches
 {
-    /* URLs definitions */
-    #include "P:\A3_Aegis\urls.hpp"
+    /* Definitions */
+    #include "\A3_Aegis\macros_urls.hpp"
 
 	class A3_Aegis_Air_F_Aegis
 	{
@@ -12,42 +12,32 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US
+            /* From "cfgBLUFOR.hpp" */
             B_Plane_Fighter_05_Cluster_F,
-
-            // Iran
-            O_Plane_Fighter_03_Cluster_F,
-
-            // US (Pacific)
             B_T_Plane_CAS_01_Cluster_F,
             B_T_Plane_Fighter_01_Cluster_F,
             B_T_Plane_Fighter_05_Cluster_F,
-
-            // China
-            O_T_Plane_CAS_02_Cluster_F,
-            O_T_Plane_Fighter_02_Cluster_F,
-
-            // Argana
-            O_A_Plane_Fighter_03_Cluster_F,
-
-            // US (Woodland)
             B_W_Plane_CAS_01_Cluster_F,
             B_W_Plane_Fighter_01_Cluster_F,
             B_W_Plane_Fighter_05_Cluster_F,
-
-            // Russia
-            O_R_Plane_CAS_02_Cluster_ard_F,
-            O_R_Plane_CAS_02_Cluster_F,
-            O_R_Plane_Fighter_02_Cluster_ard_F,
-            O_R_Plane_Fighter_02_Cluster_F,
-
-            // LDF
-            I_E_Plane_Fighter_04_Cluster_F,
-
-            // BAF
             B_A_Plane_Fighter_05_Cluster_F,
             B_A_Plane_Fighter_05_Cluster_tna_F,
-            B_A_Plane_Fighter_05_Cluster_wdl_F
+            B_A_Plane_Fighter_05_Cluster_wdl_F,
+
+            /* From "cfgOPFOR.hpp" */
+            O_Plane_Fighter_03_Cluster_F,
+            O_T_Plane_CAS_02_ghex_Cluster_F,
+            O_T_Plane_Fighter_02_ghex_Cluster_F,
+            O_A_Plane_Fighter_03_Cluster_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_Plane_CAS_02_Cluster_F,
+            O_R_Plane_Fighter_02_Cluster_F,
+            O_R_Plane_CAS_02_Cluster_ard_F,
+            O_R_Plane_Fighter_02_Cluster_ard_F,
+
+            /* From "cfgEAF.hpp" */
+            I_E_Plane_Fighter_04_Cluster_F
         };
 		weapons[] = {/* Automated */};
 	};

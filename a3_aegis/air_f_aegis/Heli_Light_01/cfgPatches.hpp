@@ -11,25 +11,21 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // US
+            /* From "cfgBLUFOR.hpp" */
             B_Heli_Light_01_recon_F,
+            B_T_Heli_light_01_F,
+            B_T_Heli_Light_01_dynamicLoadout_F,
+            B_T_Heli_light_01_recon_F,
+            B_W_Heli_light_01_F,
+            B_W_Heli_Light_01_dynamicLoadout_F,
+            B_W_Heli_light_01_recon_F,
 
-            // AAF
+            /* From "cfgIndep.hpp" */
             I_Heli_Light_01_dynamicLoadout_F,
             I_Heli_Light_01_F,
             I_Heli_Light_01_recon_F,
 
-            // US (Pacific)
-            B_T_Heli_Light_01_dynamicLoadout_F,
-            B_T_Heli_light_01_F,
-            B_T_Heli_light_01_recon_F,
-
-            // US (Woodland)
-            B_W_Heli_Light_01_dynamicLoadout_F,
-            B_W_Heli_light_01_F,
-            B_W_Heli_light_01_recon_F,
-
-            // ION
+            /* From "cfgION.hpp" */
             B_ION_Heli_Light_01_civil_F
         };
 		weapons[] = {/* Automated */};

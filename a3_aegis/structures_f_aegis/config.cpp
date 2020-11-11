@@ -1,2 +1,2 @@
-/* Addon header */
+/* Header */
 #include "cfgPatches.hpp"

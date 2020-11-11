@@ -1,3 +1,4 @@
+/* LDF */
 class I_E_Plane_Fighter_04_Cluster_F: I_Plane_Fighter_04_Cluster_F
 {
 	displayName = $STR_A3_A_CfgVehicles_I_E_Plane_Fighter_04_Cluster_F0;

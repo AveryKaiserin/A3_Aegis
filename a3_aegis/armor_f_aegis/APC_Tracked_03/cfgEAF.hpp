@@ -1,3 +1,44 @@
+/* LDF */
+class I_E_APC_tracked_03_base_F: APC_Tracked_03_base_F
+{
+    /* Inventory */
+    class TransportMagazines
+    {
+        mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
+        mag_xx(200Rnd_65x39_cased_Box_Red,6);
+        mag_xx(HandGrenade,6);
+        mag_xx(MiniGrenade,6);
+        mag_xx(1Rnd_HE_Grenade_shell,6);
+        mag_xx(1Rnd_Smoke_Grenade_shell,3);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+        mag_xx(1Rnd_SmokePurple_Grenade_shell,3);
+        mag_xx(SmokeShell,8);
+        mag_xx(SmokeShellGreen,8);
+        mag_xx(SmokeShellOrange,8);
+        mag_xx(SmokeShellBlue,8);
+        mag_xx(NLAW_F,5);
+        mag_xx(Titan_AT,2);
+        mag_xx(Titan_AP,2);
+        mag_xx(Titan_AA,2);
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,10);
+        item_xx(Toolkit,1);
+        item_xx(Medikit,1);
+    };
+    class TransportWeapons
+    {
+        weap_xx(arifle_MSBS65_F,2);
+        weap_xx(LMG_Mk200_black_F,1);
+        weap_xx(launch_NLAW_F,1);
+    };
+    class TransportBackpacks
+    {
+        bag_xx(B_AssaultPack_eaf_F,3);
+    };
+};
 class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -230,6 +271,8 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\camonet_EAF_green_CO.paa",
 		"\A3\Armor_F_Enoch\APC_Tracked_03\Data\cage_EAF_CO.paa"
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,12);

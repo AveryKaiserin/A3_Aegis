@@ -1,3 +1,4 @@
+/* Civilians */
 class C_Boat_Civil_02_F: Boat_Civil_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -9,7 +10,7 @@ class C_Boat_Civil_02_F: Boat_Civil_02_base_F
 	typicalCargo[] = {C_Man_Fisherman_01_F};
 	textureList[] =
 	{
-		Red,true,
-		Blue,true
+		Red,1,
+		Blue,1
 	};
 };

@@ -1,4 +1,5 @@
-class I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
+/* AAF */
+class I_Heli_Light_01_F: B_Heli_Light_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -138,14 +139,15 @@ class I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Light_01_F.jpg";
 	scope = public;
-	scopeArsenal = private;
-	forceInGarage = false;
+	scopeCurator = public;
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;
-	cost = 7000000;
+	typicalCargo[] = {I_helipilot_F};
 	textureList[] = {Indep,1};
 	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -157,7 +159,7 @@ class I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 		weap_xx(arifle_Mk20C_F,2);
 	};
 };
-class I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
+class I_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -302,14 +304,15 @@ class I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;
-	cost = 1000000;
+	typicalCargo[] = {I_helipilot_F};
 	textureList[] = {Indep,1};
 	hiddenSelectionsTextures[] =
     {
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa",
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
     };
-	magazines[] = {5000Rnd_762x51_Yellow_Belt};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -320,8 +323,9 @@ class I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
 	{
 		weap_xx(arifle_Mk20C_F,2);
 	};
+	magazines[] = {5000Rnd_762x51_Yellow_Belt};
 };
-class I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
+class I_Heli_Light_01_recon_F: B_Heli_Light_01_recon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -467,8 +471,11 @@ class I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 	side = TGuerrila;
 	faction = IND_F;
 	crew = I_helipilot_F;
+	typicalCargo[] = {I_helipilot_F};
 	textureList[] = {Indep,1};
 	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
