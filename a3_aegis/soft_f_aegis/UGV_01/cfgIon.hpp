@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_UGV_01_F: UGV_01_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -14,7 +15,7 @@ class B_ION_UGV_01_F: UGV_01_base_F
     {
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_ION_CO.paa",
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_ION_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_ION_CO.paa"
     };
 };
 class B_ION_UGV_01_rcws_F: UGV_01_rcws_base_F
@@ -33,7 +34,7 @@ class B_ION_UGV_01_rcws_F: UGV_01_rcws_base_F
     {
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_ION_CO.paa",
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
-        "\A3_Aegis\Data_F_Aegis\Vehicles\Turret_ION_CO.paa"
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_ION_CO.paa"
     };
 };
 class B_ION_UGV_01_medical_F: UGV_01_medical_base_F

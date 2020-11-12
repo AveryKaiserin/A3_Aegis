@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Woodland)
+            /* From "cfgBLUFOR.hpp" */
             B_W_Truck_01_ammo_F,
             B_W_Truck_01_box_F,
             B_W_Truck_01_cargo_F,
@@ -18,8 +18,6 @@ class CfgPatches
             B_W_Truck_01_mover_F,
             B_W_Truck_01_Repair_F,
             B_W_Truck_01_transport_F,
-
-            // NATO (British)
             B_A_Truck_01_ammo_F,
             B_A_Truck_01_ammo_tna_F,
             B_A_Truck_01_ammo_wdl_F,

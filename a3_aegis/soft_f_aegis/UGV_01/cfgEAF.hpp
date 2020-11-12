@@ -1,3 +1,4 @@
+/* LDF */
 class I_E_UGV_01_medical_F: UGV_01_medical_base_F
 {
     author = $STR_A3_A_AveryTheKitty;

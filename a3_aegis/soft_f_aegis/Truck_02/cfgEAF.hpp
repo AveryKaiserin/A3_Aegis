@@ -1,3 +1,4 @@
+/* LDF */
 class I_E_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

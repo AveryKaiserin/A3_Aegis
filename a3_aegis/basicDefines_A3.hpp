@@ -273,8 +273,8 @@ ItemRadio \
 #define DEPRECATED_CLASS(old,new) \
     class old: new \
     { \
-        scope = protected; \
-        scopeCurator = private; \
+        scope = 1; \
+        scopeCurator = 0; \
     }
 
 

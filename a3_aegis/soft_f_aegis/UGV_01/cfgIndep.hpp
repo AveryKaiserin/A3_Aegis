@@ -1,3 +1,21 @@
+/* AAF */
+class I_UGV_01_rcws_F: UGV_01_rcws_base_F
+{
+    /* Turrets */
+    class Turrets: Turrets
+    {
+        class MainTurret: MainTurret
+        {
+            /* Weapons & Ammunition */
+            magazines[] =
+            {
+                mag_2(200Rnd_127x99_mag_Tracer_Yellow),
+                mag_2(64Rnd_40mm_G_belt)
+            };
+        };
+        class CargoTurret_01: CargoTurret_01{};
+    };
+};
 class I_UGV_01_medical_F: UGV_01_medical_base_F
 {
     author = $STR_A3_A_AveryTheKitty;

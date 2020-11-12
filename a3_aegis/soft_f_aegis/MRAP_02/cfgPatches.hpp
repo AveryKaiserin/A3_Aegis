@@ -12,13 +12,13 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Russian
-            O_R_MRAP_02_ard_F,
+            /* From "cfgRUS.hpp" */
             O_R_MRAP_02_F,
-            O_R_MRAP_02_gmg_ard_F,
+            O_R_MRAP_02_hmg_F,
             O_R_MRAP_02_gmg_F,
+            O_R_MRAP_02_ard_F,
             O_R_MRAP_02_hmg_ard_F,
-            O_R_MRAP_02_hmg_F
+            O_R_MRAP_02_gmg_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

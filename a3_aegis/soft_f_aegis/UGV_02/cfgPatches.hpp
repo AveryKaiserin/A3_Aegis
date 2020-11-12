@@ -12,28 +12,24 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Pacific)
+            /* From "cfgBLUFOR.hpp" */
             B_T_UGV_02_Demining_F,
-
-            // CSAT (Pacific)
-            O_T_UGV_02_Demining_F,
-
-            // NATO (Woodland)
             B_W_UGV_02_Demining_F,
-
-            // Russia
-            O_R_UGV_02_Demining_ard_F,
-            O_R_UGV_02_Demining_backpack_F,
-            O_R_UGV_02_Demining_F,
-
-            // NATO (British)
             B_A_UGV_02_Demining_F,
             B_A_UGV_02_Demining_tna_F,
             B_A_UGV_02_Demining_wdl_F,
 
-            // ION
-            B_ION_UGV_02_Demining_backpack_F,
-            B_ION_UGV_02_Demining_F
+            /* From "cfgBLUFOR.hpp" */
+            O_T_UGV_02_Demining_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_UGV_02_Demining_F,
+            O_R_UGV_02_Demining_backpack_F,
+            O_R_UGV_02_Demining_ard_F,
+
+            /* From "cfgION.hpp" */
+            B_ION_UGV_02_Demining_F,
+            B_ION_UGV_02_Demining_backpack_F
         };
 		weapons[] = {/* Automated */};
 	};

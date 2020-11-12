@@ -1,5 +1,8 @@
-/* Gendarmerie */
-class B_GEN_Quadbike_01_F: Quadbike_01_base_F
+/* IAF */
+class O_Quadbike_01_F;
+
+/* Argana */
+class O_A_Quadbike_01_F: Quadbike_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -71,17 +74,17 @@ class B_GEN_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	side = TWest;
-	faction = BLU_GEN_F;
-	crew = B_GEN_Soldier_F;
-	typicalCargo[] = {B_GEN_Soldier_F};
-	textureList[] = {Black,1};
+	side = TEast;
+	faction = OPF_A_F;
+	crew = O_A_soldier_F;
+	typicalCargo[] = {O_A_soldier_F};
+	textureList[] = {Opfor,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Quadbike_01\Data\Quadbike_01_CIV_BLACK_CO.paa",
-		"\A3\Soft_F_Beta\Quadbike_01\Data\Quadbike_01_wheel_CIVBLACK_CO.paa"
+		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_OPFOR_CO.paa",
+		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_OPFOR_CO.paa"
 	};
 };

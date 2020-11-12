@@ -13,25 +13,23 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Syndikat
-            I_C_Quadbike_01_F,
-
-            // Gendarmerie
-            B_GEN_Quadbike_01_F,
-
-            // China
-            O_A_Quadbike_01_F,
-
-            // US (Woodland)
+            /* From "cfgBLUFOR.hpp" */
             B_W_Quadbike_01_F,
-
-            // Russia,
-            O_R_Quadbike_01_F,
-
-            // BAF
             B_A_Quadbike_01_F,
             B_A_Quadbike_01_tna_F,
-            B_A_Quadbike_01_wdl_F
+            B_A_Quadbike_01_wdl_F,
+
+            /* From "cfgOPFOR.hpp" */
+            O_A_Quadbike_01_F,
+
+            /* From "cfgSyndikat.hpp" */
+            I_C_Quadbike_01_F,
+
+            /* From "cfgGendarmerie.hpp" */
+            B_GEN_Quadbike_01_F,
+
+            /* From "cfgRUS.hpp" */
+            O_R_Quadbike_01_F
         };
 		weapons[] = {/* Automated */};
 	};

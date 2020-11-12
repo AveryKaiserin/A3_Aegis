@@ -1121,7 +1121,7 @@ class B_T_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
     /* Inventory */
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_tna_F,2)
+		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };
 class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
@@ -1350,32 +1350,32 @@ class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
     /* Inventory */
 	class TransportWeapons
 	{
-		weap_xx(arifle_MX_khk_F,2)
+		weap_xx(arifle_MX_khk_F,2);
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_khaki_mag,12)
-		mag_xx(100Rnd_65x39_caseless_khaki_mag,6)
-		mag_xx(HandGrenade,6)
-		mag_xx(MiniGrenade,6)
-		mag_xx(1Rnd_HE_Grenade_shell,3)
-		mag_xx(3Rnd_HE_Grenade_shell,1)
-		mag_xx(1Rnd_Smoke_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3)
-		mag_xx(SmokeShell,8)
-		mag_xx(SmokeShellGreen,8)
-		mag_xx(SmokeShellOrange,8)
-		mag_xx(SmokeShellBlue,8)
-		mag_xx(NLAW_F,5)
-		mag_xx(Titan_AT,2)
-		mag_xx(Titan_AP,2)
-		mag_xx(Titan_AA,2)
+		mag_xx(30Rnd_65x39_caseless_khaki_mag,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_tna_F,2)
+		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };
 class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
@@ -1860,7 +1860,7 @@ class B_W_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
     /* Inventory */
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2)
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
 };
 class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
@@ -2080,32 +2080,32 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
     /* Inventory */
 	class TransportWeapons
 	{
-		weap_xx(arifle_MX_Black_F,2)
+		weap_xx(arifle_MX_Black_F,2);
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_black_mag,12)
-		mag_xx(100Rnd_65x39_caseless_black_mag,6)
-		mag_xx(HandGrenade,6)
-		mag_xx(MiniGrenade,6)
-		mag_xx(1Rnd_HE_Grenade_shell,3)
-		mag_xx(3Rnd_HE_Grenade_shell,1)
-		mag_xx(1Rnd_Smoke_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3)
-		mag_xx(SmokeShell,8)
-		mag_xx(SmokeShellGreen,8)
-		mag_xx(SmokeShellOrange,8)
-		mag_xx(SmokeShellBlue,8)
-		mag_xx(NLAW_F,5)
-		mag_xx(Titan_AT,2)
-		mag_xx(Titan_AP,2)
-		mag_xx(Titan_AA,2)
+		mag_xx(30Rnd_65x39_caseless_black_mag,12);
+		mag_xx(100Rnd_65x39_caseless_black_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2)
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
     
 	hiddenSelectionsTextures[] =
@@ -2334,32 +2334,32 @@ class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
     /* Inventory */
 	class TransportWeapons
 	{
-		weap_xx(arifle_MX_Black_F,2)
+		weap_xx(arifle_MX_Black_F,2);
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_black_mag,12)
-		mag_xx(100Rnd_65x39_caseless_black_mag,6)
-		mag_xx(HandGrenade,6)
-		mag_xx(MiniGrenade,6)
-		mag_xx(1Rnd_HE_Grenade_shell,3)
-		mag_xx(3Rnd_HE_Grenade_shell,1)
-		mag_xx(1Rnd_Smoke_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3)
-		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3)
-		mag_xx(SmokeShell,8)
-		mag_xx(SmokeShellGreen,8)
-		mag_xx(SmokeShellOrange,8)
-		mag_xx(SmokeShellBlue,8)
-		mag_xx(NLAW_F,5)
-		mag_xx(Titan_AT,2)
-		mag_xx(Titan_AP,2)
-		mag_xx(Titan_AA,2)
+		mag_xx(30Rnd_65x39_caseless_black_mag,12);
+		mag_xx(100Rnd_65x39_caseless_black_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2)
+		bag_xx(B_AssaultPack_wdl_F,2);
 	};
     
 	hiddenSelectionsTextures[] =

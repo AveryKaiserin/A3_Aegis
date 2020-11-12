@@ -84,7 +84,6 @@ class CfgPatches
 			A3_Aegis_Soft_F_Aegis_MRAP_02,
 			A3_Aegis_Soft_F_Aegis_MRAP_03,
 			A3_Aegis_Soft_F_Aegis_Offroad_01,
-			A3_Aegis_Soft_F_Aegis_Offroad_02,
 			A3_Aegis_Soft_F_Aegis_Quadbike_01,
 			A3_Aegis_Soft_F_Aegis_SUV_01,
 			A3_Aegis_Soft_F_Aegis_Truck_01,

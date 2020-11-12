@@ -11,21 +11,16 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // LDF
-            I_E_MRAP_03_F,
-            I_E_MRAP_03_gmg_F,
-            I_E_MRAP_03_hmg_F,
-
-            // BAF
+            /* From "cfgBLUFOR.hpp" */
             B_A_MRAP_03_F,
             B_A_MRAP_03_tna_F,
             B_A_MRAP_03_wdl_F,
-            B_A_MRAP_03_gmg_F,
-            B_A_MRAP_03_gmg_tna_F,
-            B_A_MRAP_03_gmg_wdl_F,
             B_A_MRAP_03_hmg_F,
             B_A_MRAP_03_hmg_tna_F,
-            B_A_MRAP_03_hmg_wdl_F
+            B_A_MRAP_03_hmg_wdl_F,
+            B_A_MRAP_03_gmg_F,
+            B_A_MRAP_03_gmg_tna_F,
+            B_A_MRAP_03_gmg_wdl_F
         };
 		weapons[] = {/* Automated */};
 	};

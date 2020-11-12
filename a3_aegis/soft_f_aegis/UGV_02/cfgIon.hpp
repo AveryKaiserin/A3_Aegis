@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_UGV_02_Demining_F: UGV_02_Demining_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

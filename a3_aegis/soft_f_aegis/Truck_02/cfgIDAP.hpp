@@ -1,3 +1,31 @@
+/* IDAP */
+class C_IDAP_Truck_02_F: Truck_02_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+};
+class C_IDAP_Truck_02_transport_F: Truck_02_transport_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+};
+class C_IDAP_Truck_02_water_F: Truck_02_water_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+};
 class C_IDAP_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -99,6 +127,8 @@ class C_IDAP_Truck_02_cargo_F: Truck_02_cargo_base_F
 	faction = CIV_IDAP_F;
 	crew = C_IDAP_Man_AidWorker_02_F;
 	typicalCargo[] = {C_IDAP_Man_AidWorker_02_F};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class spz_hide: spz_hide
@@ -106,11 +136,20 @@ class C_IDAP_Truck_02_cargo_F: Truck_02_cargo_base_F
 		    initPhase = false;
 		};
 	};
+
+    /* Plate Info */
 	class PlateInfos
 	{
 		name = spz;
-		color[] = {0,0,0,0.75};
+		color[] =
+        {
+            0,      // R
+            0,      // G
+            0,      // B
+            0.75    // A
+        };
 	};
+
 	textureList[] = {IDAP,1};
 	hiddenSelections[] =
 	{
@@ -226,6 +265,8 @@ class C_IDAP_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 	faction = CIV_IDAP_F;
 	crew = C_IDAP_Man_AidWorker_02_F;
 	typicalCargo[] = {C_IDAP_Man_AidWorker_02_F};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class spz_hide: spz_hide
@@ -233,11 +274,20 @@ class C_IDAP_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 		    initPhase = false;
 		};
 	};
+
+    /* Plate Info */
 	class PlateInfos
 	{
 		name = spz;
-		color[] = {0,0,0,0.75};
+		color[] =
+        {
+            0,      // R
+            0,      // G
+            0,      // B
+            0.75    // A
+        };
 	};
+
 	textureList[] = {IDAP,1};
 	hiddenSelections[] =
 	{

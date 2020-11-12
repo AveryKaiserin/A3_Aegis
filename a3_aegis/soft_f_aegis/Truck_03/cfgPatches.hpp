@@ -12,19 +12,19 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Russia
-            O_R_Truck_03_ammo_ard_F,
-            O_R_Truck_03_ammo_F,
-            O_R_Truck_03_covered_ard_F,
+            /* From "cfgRUS.hpp" */
+            O_R_Truck_03_transport_F,
             O_R_Truck_03_covered_F,
-            O_R_Truck_03_fuel_ard_F,
-            O_R_Truck_03_fuel_F,
-            O_R_Truck_03_medical_ard_F,
-            O_R_Truck_03_medical_F,
-            O_R_Truck_03_repair_ard_F,
             O_R_Truck_03_repair_F,
+            O_R_Truck_03_ammo_F,
+            O_R_Truck_03_fuel_F,
+            O_R_Truck_03_medical_F,
             O_R_Truck_03_transport_ard_F,
-            O_R_Truck_03_transport_F
+            O_R_Truck_03_covered_ard_F,
+            O_R_Truck_03_repair_ard_F,
+            O_R_Truck_03_ammo_ard_F,
+            O_R_Truck_03_fuel_ard_F,
+            O_R_Truck_03_medical_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

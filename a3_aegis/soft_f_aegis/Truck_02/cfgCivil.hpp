@@ -1,3 +1,64 @@
+/* Civilians */
+class C_Truck_02_covered_F: Truck_02_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+    textureList[] =
+    {
+        OrangeBlue,1,
+        OrangeOlive,1,
+        BlueBlue,1,
+        BlueOlive,1
+    };
+};
+class C_Truck_02_transport_F: Truck_02_transport_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+    textureList[] =
+    {
+        Blue,1,
+        Orange,1
+    };
+};
+class C_Truck_02_fuel_F: Truck_02_fuel_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+    textureList[] =
+    {
+        Blue,1,
+        Orange,1
+    };
+};
+class C_Truck_02_box_F: Truck_02_box_base_F
+{
+    hiddenSelections[] =
+    {
+        camo1,
+        camo2,
+        camo3
+    };
+    textureList[] =
+    {
+        OrangeOrange,1,
+        OrangeGreen,1,
+        BlueOrange,1,
+        BlueGreen,1
+    };
+};
 class C_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -99,6 +160,8 @@ class C_Truck_02_cargo_F: Truck_02_cargo_base_F
 	faction = CIV_F;
 	crew = C_man_1;
 	typicalCargo[] = {C_man_1};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class spz_hide: spz_hide
@@ -106,11 +169,20 @@ class C_Truck_02_cargo_F: Truck_02_cargo_base_F
 		    initPhase = false;
 		};
 	};
+
+    /* Plate Info */
 	class PlateInfos
 	{
 		name = spz;
-		color[] = {0,0,0,0.75};
+		color[] =
+        {
+            0,      // R
+            0,      // G
+            0,      // B
+            0.75    // A
+        };
 	};
+
 	textureList[] =
 	{
 		Blue,1,
@@ -230,6 +302,8 @@ class C_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 	faction = CIV_F;
 	crew = C_man_1;
 	typicalCargo[] = {C_man_1};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class spz_hide: spz_hide
@@ -237,11 +311,20 @@ class C_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 		    initPhase = false;
 		};
 	};
+
+    /* Plate Info */
 	class PlateInfos
 	{
 		name = spz;
-		color[] = {0,0,0,0.75};
+		color[] =
+        {
+            0,      // R
+            0,      // G
+            0,      // B
+            0.75    // A
+        };
 	};
+
 	textureList[] =
 	{
 		Blue,1,

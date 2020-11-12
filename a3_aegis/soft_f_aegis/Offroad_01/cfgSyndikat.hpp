@@ -1,3 +1,4 @@
+/* Syndikat */
 class I_C_Offroad_01_F: I_G_Offroad_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -17,6 +18,8 @@ class I_C_Offroad_01_F: I_G_Offroad_01_F
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa"
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
@@ -42,6 +45,8 @@ class I_C_Offroad_01_AT_F: I_G_Offroad_01_AT_F
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa"
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";
@@ -67,6 +72,8 @@ class I_C_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_brn_CO.paa"
 	};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class Hide_Shield: Hide_Shield
@@ -78,6 +85,8 @@ class I_C_Offroad_01_armed_F: I_G_Offroad_01_armed_F
 			initPhase = true;
 		};
 	};
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), """", [], true] call bis_fnc_initVehicle;};";

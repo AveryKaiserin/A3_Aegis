@@ -11,7 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NATO (Woodland)
+            /* From "cfgBLUFOR.hpp" */
             B_W_MRAP_01_F,
             B_W_MRAP_01_gmg_F,
             B_W_MRAP_01_hmg_F
