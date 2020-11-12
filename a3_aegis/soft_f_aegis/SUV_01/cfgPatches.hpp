@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // ION
+            /* From "cfgION.hpp" */
             B_ION_SUV_01_F
         };
 		weapons[] = {/* Automated */};

@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_SUV_01_F: SUV_01_base_F
 {
     author = $STR_A3_A_AveryTheKitty;

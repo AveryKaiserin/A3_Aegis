@@ -1,9 +1,8 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
-class CfgVehicles
-{
-	// Arma 3
-	class SUV_01_base_F;
-	// Arma 3 Aegis
-	#include "cfgIon.hpp"
-};
+
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
+
+/* Configuration */
+#include "cfgVehicles.hpp"

@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // ION
+            /* From "cfgION.hpp" */
             B_ION_Van_02_transport_F,
             B_ION_Van_02_vehicle_F
         };

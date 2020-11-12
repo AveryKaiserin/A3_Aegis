@@ -1,3 +1,4 @@
+/* ION */
 class B_ION_Van_02_transport_F: Van_02_transport_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
