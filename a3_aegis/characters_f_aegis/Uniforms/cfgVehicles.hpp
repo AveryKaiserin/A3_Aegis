@@ -186,7 +186,7 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_blue_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_blue_F0)
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_tshirt_black_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_tshirt_black_F0)
     // Deprecated classes
-    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_1_F,Item_U_B_CTRG_Soldier_Arid_F)
-    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_2_F,Item_U_B_CTRG_Soldier_2_Arid_F)
-    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_3_F,Item_U_B_CTRG_Soldier_3_Arid_F)
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_1_F,Item_U_B_CTRG_Soldier_Arid_F);
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_2_F,Item_U_B_CTRG_Soldier_2_Arid_F);
+    DEPRECATED_CLASS(Item_U_B_CTRG_Soldier_alt_3_F,Item_U_B_CTRG_Soldier_3_Arid_F);
 };

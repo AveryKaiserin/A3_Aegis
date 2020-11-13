@@ -132,10 +132,10 @@
         count = ##num##; \
     }
 
-#define weap_xx(weapon,num) \
-    class _xx_##weapon \
+#define weap_xx(weap,num) \
+    class _xx_##weap \
     { \
-        weapon = ##weapon##; \
+        weapon = ##weap##; \
         count = ##num##; \
     }
 

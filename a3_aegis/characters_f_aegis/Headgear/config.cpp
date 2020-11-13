@@ -843,6 +843,26 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_SAS_01_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_SAS_01.rvmat"};
 	};
+	class H_Beret_ocamo: H_Beret_02
+	{
+		scope = public;
+		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_ocamo_CA.paa";
+		model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F.p3d";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_CSAT_02_CO.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 6;
+			allowedSlots[] =
+			{
+				UNIFORM_SLOT,
+				BACKPACK_SLOT,
+				VEST_SLOT,
+				HEADGEAR_SLOT
+			};
+			uniformModel = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F.p3d";
+			modelSides[] = {TCivilian};
+		};
+	};
 	class H_Watchcap_blk: HelmetBase
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Watchcap_blk_CA.paa";

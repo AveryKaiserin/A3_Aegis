@@ -1,4 +1,4 @@
-// Arma 3 Apex
+/* Gendarmerie */
 class B_GEN_Soldier_base_F: B_Soldier_base_F
 {
 	hiddenSelectionsTextures[] =
@@ -39,6 +39,8 @@ class B_GEN_Soldier_base_F: B_Soldier_base_F
         H_PASGT_basic_black_F,1,
         H_PASGT_neckprot_black_F,1
     };
+
+    /* Scripts */
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -83,7 +85,6 @@ class B_GEN_Commander_F: B_GEN_Soldier_base_F
 	};
     headgearList[] = {H_Beret_gen_F,1};
 };
-// Arma 3 Oldman
 class O_GEN_Soldier_F: B_GEN_Soldier_F
 {
 	scope = protected;
@@ -94,7 +95,6 @@ class O_GEN_Commander_F: B_GEN_Commander_F
 	scope = protected;
 	scopeCurator = private;
 };
-// Arma 3 Aegis
 class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -104,7 +104,12 @@ class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 	role = MachineGunner;
 	icon = iconManMG;
 	cost = 125000;
-	threat[] = {1,0.1,0.3};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
 	weapons[] =
 	{
 		LMG_03_F,
@@ -201,7 +206,12 @@ class B_GEN_Soldier_SG_F: B_GEN_Soldier_base_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_GEN_Soldier_SG_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
 	uniformClass = U_B_GEN_Commander_F;
 	weapons[] =
 	{
@@ -255,7 +265,12 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	role = MissileSpecialist;
 	icon = iconManAT;
 	cost = 130000;
-	threat[] = {0.8,0.8,0.3};
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
 	secondaryAmmoCoef = 0.5;
 	backpack = B_AssaultPack_blk_GENLAT_F;
 	weapons[] =

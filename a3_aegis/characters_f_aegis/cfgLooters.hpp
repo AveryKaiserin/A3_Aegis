@@ -1,4 +1,4 @@
-// Arma 3 Enoch
+/* Looters */
 class I_L_Soldier_Base_F: I_Soldier_base_F
 {
 	identityTypes[] =
@@ -108,7 +108,6 @@ class I_L_Hunter_F: I_L_Soldier_Base_F
 	linkedItems[] = {DefaultManLooterLinkedItems};
 	respawnLinkedItems[] = {DefaultManLooterLinkedItems};
 };
-// Arma 3 Contact
 class I_L_Deserter_base_F: I_L_Soldier_Base_F
 {
 	editorSubcategory = EdSubcat_Personnel_Deserters;
@@ -241,14 +240,14 @@ class I_L_Militiaman_Leader_F: I_L_Deserter_base_F
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 	respawnMagazines[] =
     {
         mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 };
 class I_L_Deserter_Rifle_F: I_L_Deserter_base_F

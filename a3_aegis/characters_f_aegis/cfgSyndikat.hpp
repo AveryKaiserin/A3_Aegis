@@ -1,4 +1,4 @@
-// Arma 3 Apex
+/* Syndikat */
 class I_C_Soldier_base_F: I_G_Soldier_base_F
 {
 	headgearList[] =
@@ -187,12 +187,10 @@ class I_C_Soldier_base_unarmed_F: I_C_Soldier_Para_1_F
 		DefaultManGuerillaLinkedItems
 	};
 };
-// Arma 3 Oldman
 class SyndikatSoldier_Default: I_C_Soldier_Para_1_F
 {
 	scopeCurator = private;
 };
-// Arma 3 Aegis
 class I_C_Sharpshooter_F: I_C_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;

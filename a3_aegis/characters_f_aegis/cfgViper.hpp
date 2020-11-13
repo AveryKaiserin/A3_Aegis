@@ -1,5 +1,4 @@
-// Arma 3 Apex
-// Arid
+/* Viper */
 class O_V_Soldier_base_F: O_Soldier_base_F
 {
 	class SpeechVariants
@@ -20,7 +19,6 @@ class O_V_Soldier_base_F: O_Soldier_base_F
 		Head_Asian,
 		G_IRAN_default
 	};
-	canHideBodies = false;
 	weapons[] =
 	{
 		arifle_ARX_hex_ARCO_Pointer_Snds_F,
@@ -155,7 +153,8 @@ class O_V_Soldier_JTAC_hex_F: O_V_Soldier_base_F
 		mag_2(Chemlight_red)
 	};
 };
-// Pacific
+
+/* Viper (Pacific) */
 class O_V_Soldier_ghex_F: O_V_Soldier_hex_F
 {
 	faction = OPF_V_tna_F;

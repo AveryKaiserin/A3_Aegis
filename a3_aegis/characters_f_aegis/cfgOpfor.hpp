@@ -1,12 +1,4 @@
-/*
-- Tweaked "Fatigues (Hex) [CSAT]" uniform's gloves textures
-- Tweaked "Wetsuit [CSAT]" uniform's textures and materials - advise replacing the model and injury materials once samples are available
-- Replaced default NVGs with Compact NVGs
-- Adjusted loadouts to be consistent with other factions' loadouts
-- Hid Attar / Namdar story units - unused content
-*/
-
-// Arma 3
+/* IAF */
 class O_Soldier_base_F: SoldierEB
 {
 	modelSides[] = {TFriendly};
@@ -87,13 +79,13 @@ class O_officer_F: O_Soldier_base_F
     {
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(6Rnd_45ACP_Cylinder),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(6Rnd_45ACP_Cylinder),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     linkedItems[] =
     {
@@ -250,9 +242,9 @@ class O_Soldier_SL_F: O_Soldier_base_F
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_OPFOR
+		SMOKEGRENADES_OPFOR
     };
     respawnMagazines[] =
     {
@@ -263,9 +255,9 @@ class O_Soldier_SL_F: O_Soldier_base_F
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_OPFOR
+		SMOKEGRENADES_OPFOR
     };
 	linkedItems[] =
 	{
@@ -293,9 +285,9 @@ class O_Soldier_TL_F: O_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_OPFOR
+		SMOKEGRENADES_OPFOR
     };
     respawnMagazines[] =
     {
@@ -305,9 +297,9 @@ class O_Soldier_TL_F: O_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_OPFOR
+		SMOKEGRENADES_OPFOR
     };
 	linkedItems[] =
 	{
@@ -439,7 +431,7 @@ class O_medic_F: O_Soldier_base_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
     };
     respawnMagazines[] =
     {
@@ -447,7 +439,7 @@ class O_medic_F: O_Soldier_base_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
     };
     linkedItems[] =
     {
@@ -691,7 +683,7 @@ class O_engineer_F: O_Soldier_base_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
@@ -699,7 +691,7 @@ class O_engineer_F: O_Soldier_base_F
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
 };
 class O_crew_F: O_Soldier_base_F
@@ -738,12 +730,12 @@ class O_Pilot_F: O_helipilot_F
 	magazines[] =
 	{
         mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
     linkedItems[] =
     {
@@ -774,12 +766,12 @@ class O_helicrew_F: O_helipilot_F
 	magazines[] =
 	{
         mag_4(30Rnd_65x39_caseless_green),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_65x39_caseless_green),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
     linkedItems[] =
     {
@@ -908,7 +900,6 @@ class O_Soldier_diver_base_F: O_Soldier_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_red)
     };
-    canHideBodies = false;
 };
 class O_diver_F: O_Soldier_diver_base_F
 {
@@ -923,7 +914,7 @@ class O_diver_TL_F: O_Soldier_diver_base_F
         mag_3(20Rnd_556x45_UW_mag),
         mag_2(17Rnd_9x21_Mag),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -932,14 +923,13 @@ class O_diver_TL_F: O_Soldier_diver_base_F
         mag_3(20Rnd_556x45_UW_mag),
         mag_2(17Rnd_9x21_Mag),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
 };
 class O_diver_exp_F;
 class O_Soldier_sniper_base_F: O_Soldier_base_F
 {
-    canHideBodies = false;
     hiddenSelections[] =
     {
         camo1,
@@ -1051,7 +1041,6 @@ class O_Soldier_recon_base: O_Soldier_base_F
 		G_IRAN_SF
 	};
     icon = iconManRecon;
-    canHideBodies = false;
 	uniformClass = U_O_CombatUniform_ocamo;
 	items[] =
 	{
@@ -1232,7 +1221,7 @@ class O_recon_medic_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC,
+        SMOKESHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -1241,7 +1230,7 @@ class O_recon_medic_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC,
+        SMOKESHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
 	linkedItems[] =
@@ -1333,7 +1322,7 @@ class O_recon_JTAC_F: O_Soldier_recon_base
         mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-		SOLDIER_SMOKE_SHELLS_OPFOR,
+		SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -1344,7 +1333,7 @@ class O_recon_JTAC_F: O_Soldier_recon_base
         mag_2(O_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-		SOLDIER_SMOKE_SHELLS_OPFOR,
+		SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
 	linkedItems[] =
@@ -1386,7 +1375,7 @@ class O_recon_TL_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		SmokeShell,
-		SOLDIER_SMOKE_SHELLS_OPFOR,
+		SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
     respawnMagazines[] =
@@ -1396,7 +1385,7 @@ class O_recon_TL_F: O_Soldier_recon_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		SmokeShell,
-		SOLDIER_SMOKE_SHELLS_OPFOR,
+		SMOKESHELLS_OPFOR,
         mag_2(Chemlight_red)
     };
 	role = Rifleman;
@@ -1877,7 +1866,7 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeRed_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell,
@@ -1891,7 +1880,7 @@ class O_soldierU_TL_F: O_Soldier_Urban_base
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR,
+        SMOKESHELLS_OPFOR,
         1Rnd_Smoke_Grenade_shell,
 		1Rnd_SmokeRed_Grenade_shell,
 		1Rnd_SmokeOrange_Grenade_shell,
@@ -1923,7 +1912,7 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
@@ -1933,7 +1922,7 @@ class O_SoldierU_SL_F: O_Soldier_Urban_base
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     linkedItems[] =
     {
@@ -1971,7 +1960,7 @@ class O_soldierU_medic_F: O_Soldier_Urban_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
     };
     respawnMagazines[] =
     {
@@ -1979,7 +1968,7 @@ class O_soldierU_medic_F: O_Soldier_Urban_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
     };
     linkedItems[] =
     {
@@ -2057,7 +2046,7 @@ class O_engineer_U_F: O_Soldier_Urban_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
@@ -2065,7 +2054,7 @@ class O_engineer_U_F: O_Soldier_Urban_base
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
     };
 };
 class O_soldierU_M_F: O_Soldier_Urban_base
@@ -2188,7 +2177,6 @@ class O_Protagonist_VR_F: O_Soldier_base_F
 {
 	modelSides[] = {TFriendly};
 };
-// Arma 3 Marksman
 class O_ghillie_base_F: O_Soldier_sniper_base_F
 {
     magazines[] =
@@ -2403,18 +2391,17 @@ class O_Urban_HeavyGunner_F: O_Soldier_Urban_base
         O_NVGoggles_urb_F
     };
 };
-// Arma 3 Jets
 class O_Fighter_Pilot_F: O_Pilot_F
 {
 	magazines[] =
 	{
         mag_2(17Rnd_9x21_Mag),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
 	respawnMagazines[] =
 	{
         mag_2(17Rnd_9x21_Mag),
-        SOLDIER_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_OPFOR
 	};
 	linkedItems[] =
 	{
@@ -2427,7 +2414,6 @@ class O_Fighter_Pilot_F: O_Pilot_F
 		DefaultManLinkedItems
 	};
 };
-// Arma 3 Tanks
 class O_Soldier_HAT_F: O_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Soldier_HAT_F.jpg";
@@ -2493,7 +2479,6 @@ class O_Soldier_AHAT_F: O_Soldier_support_base_F
 		O_NVGoggles_hex_F
 	};
 };
-// Arma 3 Aegis
 class O_Soldier_CQ_F: O_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2503,7 +2488,7 @@ class O_Soldier_CQ_F: O_Soldier_base_F
     cost = 130000;
 	threat[] =
     {
-        1,      // Soft
+        1.0,    // Soft
         0.1,    // Armor
         0.1     // Air
     };
@@ -2559,7 +2544,7 @@ class O_soldierU_CQ_F: O_Soldier_Urban_base
     cost = 130000;
 	threat[] =
     {
-        1,      // Soft
+        1.0,    // Soft
         0.1,    // Armor
         0.1     // Air
     };
@@ -2615,7 +2600,7 @@ class O_recon_CQ_F: O_Soldier_recon_base
     cost = 130000;
 	threat[] =
     {
-        1,      // Soft
+        1.0,    // Soft
         0.1,    // Armor
         0.1     // Air
     };
@@ -2674,7 +2659,7 @@ class O_recon_AR_F: O_Soldier_recon_base
     cost = 220000;
 	threat[] =
     {
-        1,      // Soft
+        1.0,    // Soft
         0.1,    // Armor
         0.3     // Air
     };
@@ -3118,15 +3103,6 @@ class O_soldier_UGV_02_Demining_F: O_soldier_UAV_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_UGV_02_Demining_backpack_F;
 };
-class O_soldier_UGV_02_Science_F: O_soldier_UAV_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_soldier_UGV_02_Science_F.jpg";
-    scope = protected;
-    scopeCurator = private;
-	displayName = $STR_A3_C_B_soldier_UGV_02_Science_F0;
-	backpack = O_UGV_02_Science_backpack_F;
-};
 class O_Urban_RadioOperator_F: O_soldierU_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3174,6 +3150,2980 @@ class O_Urban_RadioOperator_F: O_soldierU_F
         mag_10(30Rnd_65x39_caseless_green),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    role = RadioOperator;
+};
+
+/* China */
+class O_T_Soldier_A_F: O_Soldier_A_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_12(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_12(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_AAR_F: O_Soldier_AAR_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AAR_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Support_AMG_F: O_support_AMG_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Support_AMG_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Support_AMort_F: O_support_AMort_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Support_AMort_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_AAA_F: O_Soldier_AAA_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AAA_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Soldier_AAT_F: O_Soldier_AAT_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AAT_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Soldier_AR_F: O_Soldier_AR_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AR_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+	weapons[] =
+	{
+		arifle_CTARS_blk_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_CTARS_blk_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    magazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Medic_F: O_medic_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Medic_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+};
+class O_T_Crew_F: O_crew_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Crew_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+};
+class O_T_Engineer_F: O_engineer_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_T_Soldier_Exp_F: O_soldier_exp_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_GL_F: O_Soldier_GL_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_GL_F.jpg";
+    weapons[] =
+    {
+        arifle_CTAR_GL_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_GL_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessOGL_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOGL_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Support_GMG_F: O_support_GMG_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Support_GMG_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Support_MG_F: O_support_MG_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Support_MG_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Support_Mort_F: O_support_Mort_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Support_Mort_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    backpack = O_T_Mortar_01_weapon_F;
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Helicrew_F: O_helicrew_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Helicrew_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Pilot_F;
+    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_tna_CO.paa"};
+    weapons[] =
+	{
+		arifle_CTAR_blk_ACO_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_CTAR_blk_ACO_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+        mag_4(30Rnd_580x42_Mag_F),
+        SMOKESHELLS_OPFOR
+	};
+	respawnMagazines[] =
+	{
+        mag_4(30Rnd_580x42_Mag_F),
+        SMOKESHELLS_OPFOR
+	};
+    linkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Helipilot_F: O_helipilot_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Helipilot_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Pilot_F;
+    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_tna_CO.paa"};
+    weapons[] =
+	{
+		SMG_02_ACO_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		SMG_02_ACO_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+	respawnMagazines[] =
+	{
+        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        SmokeShellGreen,
+        SmokeShellBlue,
+        SmokeShellOrange
+	};
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Soldier_M_F: O_soldier_M_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_M_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    weapons[] =
+    {
+        srifle_DMR_07_blk_DMS_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        srifle_DMR_07_blk_DMS_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    magazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Soldier_AA_F: O_Soldier_AA_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Titan_AA,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_AT_F: O_Soldier_AT_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Titan_AT,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Officer_F: O_officer_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Officer_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_officer
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_F,
+        hgun_Pistol_heavy_02_Yorris_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_F,
+        hgun_Pistol_heavy_02_Yorris_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(6Rnd_45ACP_Cylinder),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(6Rnd_45ACP_Cylinder),
+        SMOKESHELLS_OPFOR
+    };
+    linkedItems[] =
+    {
+        V_Rangemaster_belt_ghex_F,
+        H_Beret_CSAT_01_F,
+        ItemGPS,
+        DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Rangemaster_belt_ghex_F,
+        H_Beret_CSAT_01_F,
+        ItemGPS,
+        DefaultManLinkedItems
+    };
+    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_tna_CO.paa"};
+};
+class O_T_Soldier_PG_F: O_soldier_PG_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Pilot_F: O_Pilot_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Pilot_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Pilot_F;
+    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_tna_CO.paa"};
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Soldier_Repair_F: O_soldier_repair_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_F: O_Soldier_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_LAT_F: O_Soldier_LAT_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_LAT_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        launch_RPG32_ghex_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        launch_RPG32_ghex_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_SL_F: O_Soldier_SL_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_SL_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+	linkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetLeaderO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetLeaderO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Soldier_TL_F: O_Soldier_TL_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_TL_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+};
+class O_T_Soldier_UAV_F: O_soldier_UAV_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Diver_F: O_diver_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+};
+class O_T_Diver_Exp_F: O_diver_exp_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+};
+class O_T_Diver_TL_F: O_diver_TL_F
+{
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+};
+class O_T_Recon_Exp_F: O_recon_exp_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_Exp_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+};
+class O_T_Recon_JTAC_F: O_recon_JTAC_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_JTAC_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+	backpack = B_RadioBag_01_ghex_F;
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+		H_HelmetSpecO_ghex_F,
+		V_HarnessOGL_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		H_HelmetSpecO_ghex_F,
+		V_HarnessOGL_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Recon_M_F: O_recon_M_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_M_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        srifle_DMR_07_blk_DMS_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        srifle_DMR_07_blk_DMS_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    magazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+};
+class O_T_Recon_Medic_F: O_recon_medic_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_Medic_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_red)
+    };
+};
+class O_T_Recon_F: O_recon_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+		V_HarnessOSpec_ghex_F,
+		H_HelmetSpecO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_ghex_F,
+		H_HelmetSpecO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Recon_LAT_F: O_recon_LAT_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_LAT_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        launch_RPG32_ghex_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_Snds_F,
+        launch_RPG32_ghex_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+        V_TacVest_oli,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+	respawnLinkedItems[] =
+	{
+        V_TacVest_oli,
+		H_HelmetSpecO_blk,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_blk_F
+	};
+};
+class O_T_Recon_TL_F: O_recon_TL_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_TL_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+	linkedItems[] =
+	{
+		V_HarnessOSpec_ghex_F,
+		H_HelmetLeaderO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_ghex_F,
+		H_HelmetLeaderO_ghex_F,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_ghex_F
+    };
+};
+class O_T_Sniper_F: O_sniper_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Sniper_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_tna_CO.paa"
+    };
+    magazines[] =
+    {
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    linkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Spotter_F: O_spotter_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Spotter_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ghillie_tna_CO.paa"
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+};
+class O_T_ghillie_tna_F: O_ghillie_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_ghillie_tna_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    linkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacChestrig_oli_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Soldier_HAT_F: O_Soldier_HAT_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_HAT_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        launch_O_Vorona_green_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        launch_O_Vorona_green_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Vorona_HEAT,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        Vorona_HEAT,
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
+class O_T_Soldier_AHAT_F: O_Soldier_AHAT_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_AHAT_F.jpg";
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+    respawnmagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(O_IR_Grenade),
+        mag_2(SmokeShell)
+    };
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+};
+class O_T_Soldier_Lite_F: O_Soldier_lite_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_Lite_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        HandGrenade_East,
+        SmokeShell
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        HandGrenade_East,
+        SmokeShell
+    };
+    linkedItems[] =
+    {
+        V_BandollierB_ghex_F,
+        H_MilCap_ghex_F,
+        DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_ghex_F,
+        H_MilCap_ghex_F,
+        DefaultManLinkedItems
+    };
+};
+class O_T_Soldier_CQ_F: O_Soldier_CQ_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_CQ_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    linkedItems[] =
+    {
+        V_TacVest_oli,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_oli,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Recon_CQ_F: O_recon_CQ_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_CQ_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    linkedItems[] =
+    {
+        V_TacVest_oli,
+        H_HelmetSpecO_ghex_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_oli,
+        H_HelmetSpecO_ghex_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Recon_AR_F: O_recon_AR_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_AR_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+	weapons[] =
+	{
+		arifle_CTARS_blk_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_CTARS_blk_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    magazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        MiniGrenade,
+        mag_2(SmokeShell),
+        mag_2(chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        MiniGrenade,
+        mag_2(SmokeShell),
+        mag_2(chemlight_red)
+    };
+    linkedItems[] =
+    {
+        V_HarnessOSpec_ghex_F,
+        H_HelmetSpecO_blk,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_blk_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessOSpec_ghex_F,
+        H_HelmetSpecO_blk,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_blk_F
+    };
+};
+class O_T_Recon_GL_F: O_recon_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Recon_GL_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+	weapons[] =
+	{
+        arifle_CTAR_GL_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_GL_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    linkedItems[] =
+    {
+        V_HarnessOGL_ghex_F,
+        H_HelmetSpecO_blk,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_blk_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessOGL_ghex_F,
+        H_HelmetSpecO_blk,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_blk_F
+    };
+};
+class O_T_Sharpshooter_F: O_Sharpshooter_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Sharpshooter_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    linkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_Pathfinder_F: O_Pathfinder_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Pathfinder_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_SF
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    weapons[] =
+    {
+        srifle_DMR_04_NS_LP_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    respawnWeapons[] =
+    {
+        srifle_DMR_04_NS_LP_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    linkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetSpecO_ghex_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetSpecO_ghex_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_HeavyGunner_F: O_HeavyGunner_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_HeavyGunner_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Soldier_F;
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Characters_F_Exp\OPFOR\Data\clothing_tna_CO.paa",
+        "\A3\Characters_F_Exp\OPFOR\Data\tech_tna_CO.paa"
+    };
+    weapons[] =
+    {
+        MMG_01_ghex_ARCO_LP_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        MMG_01_ghex_ARCO_LP_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_HarnessO_ghex_F,
+        H_HelmetO_ghex_F,
+        DefaultManLinkedItems,
+        O_NVGoggles_ghex_F
+    };
+};
+class O_T_ghillie_spotter_tna_F: O_T_ghillie_tna_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_SF_s};
+            speechPlural[] = {veh_infantry_SF_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
+    nameSound = veh_infantry_SF_s;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_ghillie_spotter_tna_F.jpg";
+    scope = public;
+    displayName = $STR_A3_A_CfgVehicles_O_T_ghillie_spotter_tna_F0;
+    cost = 250000;
+    weapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02_ghex_F
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_T_Fighter_Pilot_F: O_Fighter_Pilot_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Fighter_Pilot_F.jpg";
+    faction = OPF_T_F;
+    genericNames = ChineseMen;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    uniformClass = U_O_T_Pilot_F;
+    hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\pilot_suit_tna_CO.paa"};
+};
+class O_T_Soldier_CBRN_F: O_T_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Soldier_CBRN_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
+	linkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetO_ghex_F,
+		G_AirPurifyingRespirator_02_olive_F,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_oli,
+		H_HelmetO_ghex_F,
+		G_AirPurifyingRespirator_02_olive_F,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    cost = 93000;
+	camouflage = 1.6;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+    role = Sapper;
+};
+class O_T_RadioOperator_F: O_T_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_RadioOperator_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	linkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_ghex_F,
+		H_HelmetO_ghex_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_ghex_F
+	};
+	backpack = B_RadioBag_01_ghex_F;
+	weapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_ACO_Pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    role = RadioOperator;
+};
+class O_T_soldier_UGV_02_Demining_F: O_T_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_soldier_UGV_02_Demining_F.jpg";
+	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	backpack = O_UGV_02_Demining_backpack_F;
+};
+class O_T_Survivor_F: O_T_Soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_Survivor_F.jpg";
+	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
+	weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	items[] = {};
+	respawnItems[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] = {};
+	respawnLinkedItems[] = {};
+	role = Unarmed;
+};
+
+/* Argana */
+class O_A_soldier_base_F: O_officer_F
+{
+	modelSides[] = {TFriendly};
+    editorSubcategory = EdSubcat_Personnel;
+    identityTypes[] =
+    {
+        LanguageFRE_F,
+        Head_African,
+        G_IRAN_african
+    };
+    hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\Officer_noInsignia_hex_CO.paa"};
+	magazines[] = {};
+	respawnMagazines[] = {};
+    class Wounds
+    {
+        mat[] =
+        {
+            "A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_injury_noInsignia.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_injury_noInsignia.rvmat"
+        };
+        tex[] = {};
+    };
+    faction = OPF_A_F;
+    genericNames = AfroMen;
+};
+class O_A_soldier_A_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_A_F.jpg";
+	scope = public;
+	linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+        DefaultManLinkedItems
+    };
+	respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+        DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_soldier_AR_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_AR_F.jpg";
+    scope = public;
+    linkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        HandGrenade_Guer,
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_8(100Rnd_580x42_Mag_F),
+        HandGrenade_Guer,
+        mag_2(SmokeShell)
+    };
+};
+class O_A_medic_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_medic_F.jpg";
+	scope = public;
+	linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+        DefaultManLinkedItems
+    };
+	respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+        DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+};
+class O_A_soldier_GL_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_GL_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        arifle_CTAR_GL_blk_aco_flash_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_GL_blk_aco_flash_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+};
+class O_A_soldier_M_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_M_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        srifle_DMR_07_blk_F_arco_flash_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        srifle_DMR_07_blk_F_arco_flash_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(20Rnd_650x39_Cased_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_officer_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_officer_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_Rangemaster_belt_khk,
+        H_Beret_CSAT_01_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Rangemaster_belt_khk,
+        H_Beret_CSAT_01_F,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        hgun_PDW2000_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        hgun_PDW2000_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        mag_3(17Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        mag_3(17Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_A_soldier_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_ChestrigF_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_soldier_LAT_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_LAT_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        RPG32_F,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        RPG32_F,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_soldier_SL_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_SL_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_Chestrig_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Chestrig_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_arco_flash_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_arco_flash_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_A_soldier_TL_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_TL_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_Chestrig_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Chestrig_khk,
+        H_PASGT_basic_sand_F,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        arifle_CTAR_GL_blk_arco_flash_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_GL_blk_arco_flash_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+};
+class O_A_soldier_AA_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_AA_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        Titan_AA,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        Titan_AA,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_soldier_AT_F: O_A_soldier_base_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_soldier_AT_F.jpg";
+	scope = public;
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_MilCap_ocamo,
+		DefaultManLinkedItems
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        Titan_AT,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        Titan_AT,
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+};
+class O_A_crew_F: O_A_soldier_base_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_crew_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_s};
+            speechPlural[] = {veh_infantry_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_p;
+    nameSound = veh_infantry_s;
+    scope = public;
+    displayName = $STR_B_crew_F0;
+    role = Crewman;
+    cost = 90000;
+    engineer = true;
+    weapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell
+    };
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Tank_black_F,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Tank_black_F,
+		DefaultManLinkedItems
+    };
+};
+class O_A_engineer_F: O_A_soldier_base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_engineer_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_s};
+            speechPlural[] = {veh_infantry_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_p;
+    nameSound = veh_infantry_s;
+    scope = public;
+	displayName = $STR_B_engineer_F0;
+    role = Sapper;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+	cost = 220000;
+	canDeactivateMines = true;
+	engineer = true;
+	detectSkill = 31;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
+	camouflage = 1.6;
+    linkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_BandollierB_khk,
+        H_Cap_brn_SPECOPS,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_flash_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_flash_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+	backpack = B_AssaultPack_ocamo_Eng_F;
+};
+class O_A_helipilot_F: O_helipilot_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_helipilot_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_pilot_s};
+            speechPlural[] = {veh_infantry_pilot_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+    nameSound = veh_infantry_pilot_s;
+    scope = public;
+    genericNames = AfroMen;
+	identityTypes[] =
+	{
+		LanguageFRE_F,
+		Head_African,
+		G_IRAN_default
+	};
+    faction = OPF_A_F;
+	displayName = $STR_B_Helipilot_F0;
+	role = Crewman;
+	cost = 160000;
+	camouflage = 2;
+	uniformClass = U_O_officer_noInsignia_hex_F;
+    linkedItems[] =
+    {
+        V_TacVest_khk,
+        H_PilotHelmetHeli_O,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_khk,
+        H_PilotHelmetHeli_O,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    weapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_PDW2000_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_A_helicrew_F: O_A_helipilot_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_helicrew_F.jpg";
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_pilot_s};
+            speechPlural[] = {veh_infantry_pilot_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+    nameSound = veh_infantry_pilot_s;
+    scope = public;
+	displayName = $STR_B_helicrew_F0;
+	role = Crewman;
+	cost = 80000;
+    linkedItems[] =
+    {
+        V_TacVest_khk,
+        H_CrewHelmetHeli_O,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_khk,
+        H_CrewHelmetHeli_O,
+		DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    weapons[] =
+    {
+        arifle_CTAR_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_580x42_Mag_F),
+        SMOKESHELLS_OPFOR
+    };
+};
+class O_A_Fighter_Pilot_F: O_A_helipilot_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_Fighter_Pilot_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_B_Fighter_Pilot_name;
+    role = Crewman;
+    cost = 165000;
+	camouflage = 2;
+	uniformClass = U_O_PilotCoveralls;
+    weapons[] =
+    {
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_2(17Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_2(17Rnd_9x21_Mag),
+        SMOKESHELLS_OPFOR
+    };
+    linkedItems[] =
+    {
+        H_PilotHelmetFighter_O,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetFighter_O,
+		DefaultManLinkedItems
+    };
+};
+class O_A_soldier_universal_F: O_A_soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
+	nameSound = veh_infantry_medic_s;
+	scope = protected;
+	displayName = $STR_A3_CfgVehicles_b_soldier_universal_f_displayName;
+	attendant = true;
+	engineer = true;
+	canDeactivateMines = true;
+	role = Rifleman;
+};
+class O_A_RadioOperator_F: O_A_soldier_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_RadioOperator_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	linkedItems[] =
+	{
+		V_ChestrigF_khk,
+		H_MilCap_ocamo,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_ChestrigF_khk,
+		H_MilCap_ocamo,
+		DefaultManLinkedItems
+	};
+	backpack = B_RadioBag_01_hex_F;
+	weapons[] =
+    {
+        arifle_CTAR_blk_flash_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_CTAR_blk_flash_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
         mag_2(SmokeShell)
     };
     role = RadioOperator;

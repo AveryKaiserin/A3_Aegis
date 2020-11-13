@@ -3,7 +3,6 @@ class CfgFaces
 	class Default;
 	class Man_A3: Default
 	{
-		// Arma 3
 		class Default{};
 		class PersianHead_A3_01;
 		class WhiteHead_01: Default{};
@@ -74,9 +73,7 @@ class CfgFaces
 		{
 			disabled = false;
 		};
-		// Arma 3 Apex
 		class TanoanHead_A3_01;
-		// Arma 3 Laws of War
 		class WhiteHead_23: WhiteHead_01
 		{
 			identityTypes[] =
@@ -118,7 +115,6 @@ class CfgFaces
 				Head_Greek
 			};
 		};
-		// Arma 3 Enoch
 		class WhiteHead_24: WhiteHead_01
 		{
 			identityTypes[] =
@@ -263,7 +259,6 @@ class CfgFaces
 				Head_NATO
 			};
 		};
-		// Arma 3 Aegis
 		class PersianHead_A3_05: PersianHead_A3_01
 		{
 			author = $STR_A3_A_AveryTheKitty;

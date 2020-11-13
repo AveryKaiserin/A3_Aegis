@@ -1,4 +1,4 @@
-// Arma 3
+/* FIA */
 class I_G_Soldier_base_F: SoldierGB
 {
 	modelSides[] = {TFriendly};
@@ -298,7 +298,7 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	respawnMagazines[] =
 	{
@@ -308,7 +308,7 @@ class I_G_Soldier_SL_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	linkedItems[] =
 	{
@@ -444,9 +444,9 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         MiniGrenade,
         mag_3(1Rnd_HE_Grenade_shell),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA,
+        SMOKESHELLS_DEFAULT,
         1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_FIA
+        SMOKEGRENADES_DEFAULT
 	};
 	respawnMagazines[] =
 	{
@@ -457,9 +457,9 @@ class I_G_Soldier_TL_F: I_G_Soldier_base_F
         MiniGrenade,
         mag_3(1Rnd_HE_Grenade_shell),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA,
+        SMOKESHELLS_DEFAULT,
         1Rnd_Smoke_Grenade_shell,
-        SOLDIER_SMOKE_GRENADES_FIA
+        SMOKEGRENADES_DEFAULT
 	};
     allowedHeadgear[] =
     {
@@ -718,9 +718,7 @@ class I_G_medic_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SMOKESHELLS_DEFAULT
 	};
 	respawnMagazines[] =
 	{
@@ -729,9 +727,7 @@ class I_G_medic_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SMOKESHELLS_DEFAULT
 	};
     allowedHeadgear[] =
     {
@@ -862,7 +858,7 @@ class I_G_engineer_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	respawnMagazines[] =
 	{
@@ -870,7 +866,7 @@ class I_G_engineer_F: I_G_Soldier_base_F
         HandGrenade,
         MiniGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	linkedItems[] =
 	{
@@ -1699,13 +1695,13 @@ class I_G_officer_F: I_G_Soldier_base_F
 	{
         mag_4(30Rnd_545x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_545x39_Mag_F),
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_FIA
+        SMOKESHELLS_DEFAULT
 	};
 	linkedItems[] =
 	{
@@ -1930,7 +1926,6 @@ class I_G_Story_SF_Captain_F: B_G_Soldier_F
 	modelSides[] = {TFriendly};
 };
 class I_G_resistanceLeader_F;
-// Arma 3 Marksman
 class I_G_Sharpshooter_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Sharpshooter_F.jpg";
@@ -2086,7 +2081,6 @@ class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 	modelSides[] = {TFriendly};
     uniformClass = U_OG_Guerilla3_2;
 };
-// Arma 3 Tanks
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_LAT2_F.jpg";
@@ -2236,7 +2230,6 @@ class O_G_Soldier_LAT2_F: I_G_Soldier_LAT2_F
 {
     modelSides[] = {TFriendly};
 };
-// Arma 3 Aegis
 class I_G_crew_F: I_G_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2323,7 +2316,12 @@ class I_G_Soldier_CQ_F: I_G_Soldier_base_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
     uniformClass = U_IG_Guerilla1_3;
     hiddenSelectionsTextures[] =
     {

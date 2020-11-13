@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* ION */
 class B_ION_Man_Base_F: B_G_Soldier_F
 {
     scope = private;
@@ -32,7 +32,12 @@ class B_ION_Soldier_AR_F: B_ION_Soldier_Base_F
 	role = MachineGunner;
 	icon = iconManMG;
 	cost = 125000;
-	threat[] = {1,0.1,0.3};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
 	uniformClass = U_B_ION_Uniform_01_tshirt_black_F;
 	weapons[] =
 	{
@@ -124,7 +129,7 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 		mag_2(16Rnd_9x21_Mag),
 		HandGrenade,
 		SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
 	};
 	respawnMagazines[] =
 	{
@@ -132,7 +137,7 @@ class B_ION_Soldier_Medic_F: B_ION_Soldier_base_F
 		mag_2(16Rnd_9x21_Mag),
 		HandGrenade,
 		SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
 	};
 	linkedItems[] =
 	{
@@ -169,7 +174,12 @@ class B_ION_Engineer_F: B_ION_Soldier_base_F
 	canDeactivateMines = true;
 	engineer = true;
 	detectSkill = 31;
-	threat[] = {1,0.5,0.1};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
 	camouflage = 1.6;
 	uniformClass = U_BG_Guerilla2_2;
 	backpack = B_Kitbag_rgr_IONEng_F;
@@ -477,7 +487,12 @@ class B_ION_Soldier_LAT_F: B_ION_Soldier_base_F
 	role = MissileSpecialist;
 	icon = iconManAT;
 	cost = 130000;
-	threat[] = {0.8,0.8,0.3};
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
 	secondaryAmmoCoef = 0.5;
 	uniformClass = U_B_ION_Uniform_01_poloshirt_blue_F;
 	backpack = B_AssaultPack_rgr_IONLAT_F;
@@ -533,7 +548,12 @@ class B_ION_Soldier_CQ_F: B_ION_Soldier_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
 	uniformClass = U_B_ION_Uniform_01_tshirt_black_F;
 	weapons[] =
 	{
@@ -829,5 +849,10 @@ class B_ION_Soldier_unarmed_F: B_ION_Soldier_F
 		DefaultManIonLinkedItems
 	};
 	role = Unarmed;
-	threat[] = {0.1,0.1,0.1};
+	threat[] =
+    {
+        0.1,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
 };

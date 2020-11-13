@@ -1,11 +1,4 @@
-// Arma 3
-class Civilian;
-class Civilian_F: Civilian
-{
-	modelSides[] = {TFriendly};
-	linkedItems[] = {ItemSmartPhone};
-	respawnLinkedItems[] = {ItemSmartPhone};
-};
+/* Civilians */
 class C_man_1: Civilian_F
 {
     headgearList[] =
@@ -249,7 +242,6 @@ class C_Soldier_VR_F: C_man_1
 {
 	modelSides[] = {TFriendly};
 };
-// Arma 3 Karts
 class C_Driver_1_F: C_man_1
 {
 	modelSides[] = {TFriendly};
@@ -329,7 +321,6 @@ class C_Marshal_F: B_RangeMaster_F
         ItemRadio
     };
 };
-// Arma 3 Apex
 class C_man_sport_1_F: C_man_1
 {
 	linkedItems[] = {};
@@ -348,7 +339,6 @@ class C_Man_casual_1_F: C_man_1
         ItemWatch
     };
 };
-// Arma 3 Laws of War
 class C_Man_ConstructionWorker_01_Red_F: C_Driver_1_F
 {
 	linkedItems[] =
@@ -516,7 +506,6 @@ class C_Story_Mechanic_01_F: Civilian_F
         ItemSmartPhone
     };
 };
-// Arma 3 Aegis
 class C_man_1_1_F_afro: C_man_1_1_F
 {
     author = $STR_A3_A_AveryTheKitty;

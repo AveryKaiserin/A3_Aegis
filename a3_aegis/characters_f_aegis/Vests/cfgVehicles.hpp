@@ -1,23 +1,12 @@
-#define VEST_HOLDER(a,b) \
-	class Vest_##a##: Vest_Base_F \
-	{ \
-		scope = public; \
-		scopeCurator = public; \
-		displayName = ##b##; \
-		author = $STR_A3_A_AveryTheKitty; \
-		editorCategory = EdCat_Equipment; \
-		editorSubcategory = EdSubcat_Vests; \
-		vehicleClass = ItemsVests; \
-		class TransportItems \
-		{ \
-			item_xx(##a##,1); \
-		}; \
-	};
-
 class CfgVehicles
 {
-	// Arma 3
+    /* Definitions */
+    #include "\A3_Aegis\macros_itemHolders.hpp"
+    
+    /* Bases */
 	class Vest_Base_F;
+
+    /* Items */
 	class Vest_V_Rangemaster_belt: Vest_Base_F
 	{
 		displayName = $STR_A3_A_CfgWeapons_V_Rangemaster_belt0;
@@ -37,12 +26,6 @@ class CfgVehicles
 	};
 	VEST_HOLDER(V_HarnessOSpec_brn,$STR_A3_A_CfgWeapons_V_HarnessOSpec_brn0)
 	VEST_HOLDER(V_HarnessOSpec_gry,$STR_A3_V_HarnessOSpec_gry0)
-	class Vest_V_I_G_resistanceLeader_F: Vest_Base_F
-	{
-		scope = protected;
-		scopeCurator = private;
-	};
-	// Arma 3 Enoch
 	class Vest_V_SmershVest_01_F: Vest_Base_F
 	{
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_F0;
@@ -51,7 +34,9 @@ class CfgVehicles
 	{
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_F0;
 	};
-	// Arma 3 Aegis
+    class Vest_V_CarrierRigKBT_01_Olive_F;
+    class Vest_V_CarrierRigKBT_01_light_Olive_F;
+    class Vest_V_CarrierRigKBT_01_heavy_Olive_F;
 	VEST_HOLDER(V_Rangemaster_belt_khk,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_khk0)
 	VEST_HOLDER(V_Rangemaster_belt_cbr,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_cbr0)
 	VEST_HOLDER(V_Rangemaster_belt_blk,$STR_A3_A_CfgWeapons_V_Rangemaster_belt_blk0)
@@ -101,4 +86,10 @@ class CfgVehicles
 	VEST_HOLDER(V_BandollierB_taiga_F,$STR_A3_A_CfgWeapons_V_BandollierB_taiga_F0)
 	VEST_HOLDER(V_TacVest_grn,$STR_A3_A_CfgWeapons_V_TacVest_grn0)
 	VEST_HOLDER(V_RebreatherRU,$STR_A3_A_CfgWeapons_V_RebreatherRU0)
+
+    /* Deprecated */
+    DEPRECATED_CLASS(Vest_V_I_G_resistanceLeader_F,Vest_Base_F);
+    DEPRECATED_CLASS(Vest_V_CarrierRigKBT_01_Green_F,Vest_V_CarrierRigKBT_01_Olive_F);
+    DEPRECATED_CLASS(Vest_V_CarrierRigKBT_01_light_Green_F,Vest_V_CarrierRigKBT_01_light_Olive_F);
+    DEPRECATED_CLASS(Vest_V_CarrierRigKBT_01_heavy_Green_F,Vest_V_CarrierRigKBT_01_heavy_Olive_F);
 };

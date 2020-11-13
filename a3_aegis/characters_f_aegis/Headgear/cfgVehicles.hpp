@@ -114,6 +114,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Beret_grn,$STR_A3_H_Beret_grn0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Beret_grn_SF,$STR_A3_H_Beret_grn_SF0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Beret_brn_SF,$STR_A3_H_Beret_brn_SF0,EdSubcat_Hats)
+	HEADGEAR_HOLDER(H_Beret_ocamo,$STR_A3_H_Beret_ocamo0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Watchcap_sgg,$STR_A3_H_Watchcap_sgg0,EdSubcat_Hats)
 	// Arma 3 Apex
 	class Headgear_H_HelmetB_TI_tna_F: Headgear_Base_F
@@ -263,11 +264,12 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_MilCap_eaf_arid,$STR_A3_A_CfgWeapons_H_MilCap_eaf_arid0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Cap_eaf_arid_F,$STR_A3_A_CfgWeapons_H_Cap_eaf_arid_F0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Cap_eaf_arid_hs_F,$STR_A3_A_CfgWeapons_H_Cap_eaf_arid_hs_F0,EdSubcat_Hats)
-    // Deprecated classes
-    DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I)
-    DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F)
-    DEPRECATED_CLASS(Headgear_H_HelmetB_TI_alt_F,Headgear_H_HelmetB_TI_arid_F)
-    DEPRECATED_CLASS(Headgear_H_PilotHelmetFighter_O_R,Headgear_H_PilotHelmetFighter_I)
-    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_O_R,Headgear_H_CrewHelmetHeli_O)
-    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_O_R,Headgear_H_PilotHelmetHeli_O)
+    
+    /* Deprecated */
+    DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I);
+    DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F);
+    DEPRECATED_CLASS(Headgear_H_HelmetB_TI_alt_F,Headgear_H_HelmetB_TI_arid_F);
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetFighter_O_R,Headgear_H_PilotHelmetFighter_I);
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_O_R,Headgear_H_CrewHelmetHeli_O);
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_O_R,Headgear_H_PilotHelmetHeli_O);
 };

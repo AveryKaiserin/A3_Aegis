@@ -1,4 +1,4 @@
-// Arma 3
+/* AAF */
 class I_Soldier_base_F: SoldierGB
 {
 	modelSides[] = {TFriendly};
@@ -206,7 +206,7 @@ class I_Soldier_SL_F: I_Soldier_02_F
         mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
     };
     respawnMagazines[] =
     {
@@ -216,7 +216,7 @@ class I_Soldier_SL_F: I_Soldier_02_F
         mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
     };
 };
 class I_Soldier_TL_F: I_Soldier_base_F
@@ -244,9 +244,9 @@ class I_Soldier_TL_F: I_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP,
+        SMOKESHELLS_INDEP,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_INDEP
+		SMOKEGRENADES_INDEP
     };
     respawnMagazines[] =
     {
@@ -256,9 +256,9 @@ class I_Soldier_TL_F: I_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP,
+        SMOKESHELLS_INDEP,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_INDEP
+		SMOKEGRENADES_INDEP
     };
     linkedItems[] =
     {
@@ -602,7 +602,7 @@ class I_engineer_F: I_Soldier_base_F
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
@@ -610,7 +610,7 @@ class I_engineer_F: I_Soldier_base_F
         mag_2(9Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -689,12 +689,12 @@ class I_helipilot_F: I_Soldier_03_F
 	magazines[] =
 	{
         mag_4(30Rnd_9x21_Yellow_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_9x21_Yellow_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -727,12 +727,12 @@ class I_pilot_F: I_Soldier_04_F
 	magazines[] =
 	{
         mag_4(30Rnd_9x21_Yellow_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_9x21_Yellow_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -763,12 +763,12 @@ class I_helicrew_F: I_helipilot_F
 	magazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -807,13 +807,13 @@ class I_officer_F: I_Soldier_base_F
 	{
         mag_4(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -909,7 +909,6 @@ class I_Soldier_diver_base_F: I_Soldier_base_F
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
     };
-    canHideBodies = false;
 };
 class I_diver_F: I_Soldier_diver_base_F
 {
@@ -938,7 +937,7 @@ class I_diver_TL_F: I_Soldier_diver_base_F
         mag_3(20Rnd_556x45_UW_mag),
         mag_2(9Rnd_45ACP_Mag),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP,
+        SMOKESHELLS_INDEP,
         mag_2(Chemlight_green)
     };
     respawnMagazines[] =
@@ -947,13 +946,12 @@ class I_diver_TL_F: I_Soldier_diver_base_F
         mag_3(20Rnd_556x45_UW_mag),
         mag_2(9Rnd_45ACP_Mag),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_INDEP,
+        SMOKESHELLS_INDEP,
         mag_2(Chemlight_green)
     };
 };
 class I_Soldier_sniper_base_F: I_Soldier_base_F
 {
-    canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,
@@ -1240,7 +1238,6 @@ class I_Captain_Hladas_F: I_officer_F
 {
 	modelSides[] = {TFriendly};
 };
-// Arma 3 Marksman
 class I_ghillie_base_F: I_Soldier_sniper_base_F
 {
     magazines[] =
@@ -1275,18 +1272,17 @@ class I_ghillie_base_F: I_Soldier_sniper_base_F
 class I_ghillie_lsh_F;
 class I_ghillie_sard_F;
 class I_ghillie_ard_F;
-// Arma 3 Jets
 class I_Fighter_Pilot_F: I_pilot_F
 {
 	magazines[] =
 	{
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_2(9Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_INDEP
+        SMOKESHELLS_INDEP
 	};
     linkedItems[] =
     {
@@ -1299,12 +1295,10 @@ class I_Fighter_Pilot_F: I_pilot_F
         DefaultManLinkedItems
     };
 };
-// Arma 3 Tanks
 class I_Story_Crew_F: I_crew_F
 {
 	modelSides[] = {TFriendly};
 };
-// Arma 3 Aegis
 class I_Soldier_CQ_F: I_Soldier_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -1312,7 +1306,12 @@ class I_Soldier_CQ_F: I_Soldier_base_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     cost = 130000;
-    threat[] = {1,0.3,0.1};
+    threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
     weapons[] =
     {
         sgun_M4_F,

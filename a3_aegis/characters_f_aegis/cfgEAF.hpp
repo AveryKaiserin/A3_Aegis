@@ -1,5 +1,4 @@
-// LDF
-// Arma 3 Enoch
+/* LDF */
 class I_E_Man_Base_F;
 class I_E_Soldier_base_F: I_E_Man_Base_F
 {
@@ -343,13 +342,13 @@ class I_E_Officer_F: I_E_Soldier_base_F
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
         mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     cost = 600000;
 	identityTypes[] =
@@ -399,7 +398,7 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
@@ -409,7 +408,7 @@ class I_E_Soldier_SL_F: I_E_Soldier_base_F
         mag_2(HandGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 };
 class I_E_Soldier_TL_F: I_E_Soldier_base_F
@@ -437,9 +436,9 @@ class I_E_Soldier_TL_F: I_E_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+		SMOKEGRENADES_BLUFOR
     };
     respawnMagazines[] =
     {
@@ -449,9 +448,9 @@ class I_E_Soldier_TL_F: I_E_Soldier_base_F
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
-		SOLDIER_SMOKE_GRENADES_BLUFOR
+		SMOKEGRENADES_BLUFOR
     };
 };
 class I_E_RadioOperator_F: I_E_Soldier_base_F
@@ -936,7 +935,7 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_2(MiniGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
     respawnMagazines[] =
@@ -948,7 +947,7 @@ class I_E_Soldier_Pathfinder_F: I_E_Soldier_base_F
         mag_2(MiniGrenade),
         mag_2(I_IR_Grenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
     role = SpecialOperative;
@@ -963,7 +962,7 @@ class I_E_Engineer_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
@@ -971,7 +970,7 @@ class I_E_Engineer_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 };
 class I_E_Soldier_Exp_F: I_E_Soldier_base_F
@@ -1131,9 +1130,7 @@ class I_E_Medic_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SMOKESHELLS_MEDIC
     };
     respawnMagazines[] =
     {
@@ -1141,9 +1138,7 @@ class I_E_Medic_F: I_E_Soldier_base_F
         mag_2(11Rnd_45ACP_Mag),
         mag_2(HandGrenade),
         SmokeShell,
-        SmokeShellRed,
-        SmokeShellBlue,
-        SmokeShellOrange
+        SMOKESHELLS_MEDIC
     };
 };
 class I_E_Soldier_MP_F: I_E_Soldier_F
@@ -1244,12 +1239,12 @@ class I_E_Helipilot_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_4(50Rnd_570x28_SMG_03),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_4(50Rnd_570x28_SMG_03),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 	identityTypes[] =
 	{
@@ -1289,12 +1284,12 @@ class I_E_Helicrew_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_msbs_mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
 	identityTypes[] =
 	{
@@ -1358,7 +1353,6 @@ class I_E_Soldier_universal_F: I_E_Soldier_F
 {
     scopeCurator = private;
 };
-// Arma 3 Aegis
 class I_E_Soldier_CQ_F: I_E_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1464,7 +1458,7 @@ class I_E_JTAC_F: I_E_Soldier_base_F
         mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
@@ -1474,7 +1468,7 @@ class I_E_JTAC_F: I_E_Soldier_base_F
         mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     role = SpecialOperative;
 };
@@ -1503,7 +1497,6 @@ class I_E_Soldier_recon_base: I_E_Soldier_base_F
 	};
 	vehicleClass = MenRecon;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
-	canHideBodies = false;
     icon = iconManRecon;
 	role = Rifleman;
 	camouflage = 0.6;
@@ -1740,7 +1733,7 @@ class I_E_recon_JTAC_F: I_E_Soldier_recon_base
         mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
     respawnMagazines[] =
@@ -1751,7 +1744,7 @@ class I_E_recon_JTAC_F: I_E_Soldier_recon_base
         mag_2(I_IR_Grenade),
         Laserbatteries,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
 	role = SpecialOperative;
@@ -1882,7 +1875,7 @@ class I_E_recon_medic_F: I_E_Soldier_recon_base
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC,
+        SMOKESHELLS_MEDIC,
         mag_2(Chemlight_blue)
     };
     respawnMagazines[] =
@@ -1891,7 +1884,7 @@ class I_E_recon_medic_F: I_E_Soldier_recon_base
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC,
+        SMOKESHELLS_MEDIC,
         mag_2(Chemlight_blue)
     };
 	attendant = true;
@@ -2061,7 +2054,7 @@ class I_E_recon_TL_F: I_E_Soldier_recon_base
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
     respawnMagazines[] =
@@ -2070,7 +2063,7 @@ class I_E_recon_TL_F: I_E_Soldier_recon_base
         mag_2(11Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_BLUFOR,
+        SMOKESHELLS_BLUFOR,
         mag_2(Chemlight_blue)
     };
 	cost = 250000;
@@ -2104,7 +2097,6 @@ class I_E_Soldier_sniper_base: I_E_Soldier_base_F
 	primaryAmmoCoef = 0.2;
 	secondaryAmmoCoef = 0.05;
 	handgunAmmoCoef = 0.1;
-	canHideBodies = false;
 	items[] =
 	{
 		FirstAidKit,
@@ -2331,12 +2323,12 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
     magazines[] =
     {
         mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
         mag_2(11Rnd_45ACP_Mag),
-        SOLDIER_SMOKE_SHELLS_BLUFOR
+        SMOKESHELLS_BLUFOR
     };
     cost = 165000;
     role = Crewman;
@@ -2349,4 +2341,5 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
         G_NATO_pilot
 	};
 };
-// LDF (Arid)
+
+/* LDF (Mediterranean) */

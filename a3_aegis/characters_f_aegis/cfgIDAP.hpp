@@ -1,4 +1,4 @@
-// Arma 3 Laws of War
+/* IDAP */
 class C_IDAP_Man_Base_F: Civilian_F
 {
 	modelSides[] = {TFriendly};
@@ -161,7 +161,6 @@ class C_IDAP_Man_UAV_06_antimine_F: C_IDAP_Man_Base_F
         ItemRadio
     };
 };
-// Arma 3 Aegis
 class C_IDAP_Man_UGV_02_Demining_F: C_IDAP_Man_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
