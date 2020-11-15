@@ -10,7 +10,8 @@ frontBias = 1.3;
 rearBias = 1.3;
 centreBias = 1.3;
 differentialType = all_limited;
-// Engine
+
+/* Engine */
 thrustDelay = 0.35;
 enginePower = 378.5;
 peakTorque = 2120;
@@ -55,7 +56,8 @@ torqueCurve[] =
 };
 clutchStrength = 35.0;
 engineShiftY = 0.3;
-// Gearbox
+
+/* Gearbox */
 changeGearMinEffectivity[] =
 {
     0.45,   // R1
@@ -95,7 +97,8 @@ class complexGearbox
 };
 switchTime = 0.1;
 latency = 1.4;
-// Rollbar, dampers and wheels
+
+/* Rollbar */
 dampersBumpCoef = 6.0;
 dampingRateFullThrottle = 0.08;
 dampingRateZeroThrottleClutchEngaged = 1.4;
@@ -104,6 +107,8 @@ antiRollbarForceCoef = 24;
 antiRollbarForceLimit = 30;
 antiRollbarSpeedMin = 10;
 antiRollbarSpeedMax = 40;
+
+/* Wheels */
 wheelCircumference = 3.55;
 class Wheels
 {

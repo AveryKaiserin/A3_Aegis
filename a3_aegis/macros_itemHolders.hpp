@@ -3,14 +3,6 @@
 - Placed in CfgVehicles
 */
 
-class WeaponHolder;
-class Weapon_Base_F;
-class Pistol_Base_F;
-class Launcher_Base_F;
-class Item_Base_F;
-class Headgear_Base_F;
-class Vest_Base_F;
-
 // Primary weapons
 #define WEAPON_HOLDER(weapon,magazine,name,subcategory) \
 	class Weapon_##weapon: Weapon_Base_F \
@@ -110,30 +102,30 @@ class Vest_Base_F;
 	};
 
 // Headgear
-#define HEADGEAR_HOLDER(headgear,name,subcategory) \
-	class Headgear_##a: Headgear_Base_F \
+#define HEADGEAR_HOLDER(a,b,c) \
+	class Headgear_##a##: Headgear_Base_F \
 	{ \
 		scope = public; \
 		scopeCurator = public; \
-		displayName = name; \
+		displayName = ##b##; \
 		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
-		editorSubcategory = subcategory; \
+		editorSubcategory = ##c##; \
 		vehicleClass = ItemsHeadgear; \
 		model = "\A3\Weapons_F\DummyCap.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##headgear##,1); \
+			item_xx(##a##,1); \
 		}; \
 	};
 
 // Uniforms
-#define UNIFORM_HOLDER(uniform,name) \
-	class Item_##uniform: Item_Base_F \
+#define UNIFORM_HOLDER(a,b) \
+	class Item_##a##: Item_Base_F \
 	{ \
 		scope = public; \
 		scopeCurator = public; \
-		displayName = name; \
+		displayName = ##b##; \
 		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_Uniforms; \
@@ -141,23 +133,23 @@ class Vest_Base_F;
 		model = "\A3\Weapons_F\DummyWeapon.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##uniform##,1); \
+			item_xx(##a##,1); \
 		}; \
 	};
 
 // Vests
-#define VEST_HOLDER(vest,name) \
-	class Vest_##vest: Vest_Base_F \
+#define VEST_HOLDER(a,b) \
+	class Vest_##a##: Vest_Base_F \
 	{ \
 		scope = public; \
 		scopeCurator = public; \
-		displayName = name; \
+		displayName = ##b##; \
 		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_Vests; \
 		vehicleClass = ItemsVests; \
 		class TransportItems \
 		{ \
-			item_xx(##vest##,1); \
+			item_xx(##a##,1); \
 		}; \
 	};

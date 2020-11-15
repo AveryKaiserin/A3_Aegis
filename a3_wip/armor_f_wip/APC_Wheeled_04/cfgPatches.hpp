@@ -7,12 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Russia
-            O_R_APC_Wheeled_04_AT_ard_F,
-            O_R_APC_Wheeled_04_AT_F,
-            O_R_APC_Wheeled_04_cannon_ard_F,
-            O_R_APC_Wheeled_04_cannon_F
+            /* From "cfgRUS.hpp" */
+            O_R_APC_Wheeled_04_cannon_F,
+            O_R_APC_Wheeled_04_cannon_ard_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

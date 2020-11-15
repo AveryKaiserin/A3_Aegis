@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* Viper */
 class U_O_V_Soldier_Viper_oicamo_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;

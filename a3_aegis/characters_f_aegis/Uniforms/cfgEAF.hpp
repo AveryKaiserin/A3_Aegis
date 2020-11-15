@@ -1,4 +1,4 @@
-// Arma 3 Aegis
+/* LDF */
 class U_I_E_Uniform_01_pilot_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;

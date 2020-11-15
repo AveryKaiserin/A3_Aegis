@@ -11,5 +11,11 @@ class CfgMovesBasic
 		Pilot_Plane_Fighter_05_Enter = Pilot_Plane_Fighter_05_GetIn;
 		Pilot_Plane_Fighter_05_Exit = Pilot_Plane_Fighter_05_GetOut;
 		Pilot_Plane_Transport_01 = Pilot_Plane_Transport_01;
+		Driver_APC_Wheeled_04_in = Driver_APC_Wheeled_04_in;
+		Driver_APC_Wheeled_04_out = Driver_APC_Wheeled_04_out;
+		Gunner_APC_Wheeled_04_in = Gunner_APC_Wheeled_04_in;
+		Gunner_APC_Wheeled_04_out = Gunner_APC_Wheeled_04_out;
+		Commander_APC_Wheeled_04_in = Commander_APC_Wheeled_04_in;
+		Commander_APC_Wheeled_04_out = Commander_APC_Wheeled_04_out;
 	};
 };

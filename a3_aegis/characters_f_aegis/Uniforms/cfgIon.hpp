@@ -1,3 +1,4 @@
+/* ION */
 class U_B_ION_Uniform_01_poloshirt_wdl_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;

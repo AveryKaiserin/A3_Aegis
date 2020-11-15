@@ -1,4 +1,4 @@
-// Arma 3
+/* FIA */
 class U_IG_Guerilla3_2: Uniform_Base
 {
 	displayName = $STR_A3_A_CfgWeapons_U_IG_Guerilla3_20;
@@ -24,7 +24,6 @@ class U_OG_Guerilla3_2: Uniform_Base
 		uniformClass = O_G_Sharpshooter_F;
 	};
 };
-// Arma 3 Aegis
 class U_IG_Guerilla1_2_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;

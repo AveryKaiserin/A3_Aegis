@@ -266,6 +266,7 @@ ItemRadio \
 #define FAR_OPTIC 2
 
 // reloadTime
+#define RPM_450 0.133333
 #define RPM_600 0.1
 
 

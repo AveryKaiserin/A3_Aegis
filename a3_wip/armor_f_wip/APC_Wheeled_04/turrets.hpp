@@ -39,8 +39,8 @@ class Turrets: Turrets
 				inGunnerMayFire = true;
 				forceHideGunner = false;
 				viewGunnerInExternal = true;
-				gunnerAction = Commander_APC_Wheeled_03_cannon_F_out;
-				gunnerInAction = Commander_APC_Wheeled_03_cannon_F_in;
+				gunnerAction = Commander_APC_Wheeled_04_out;
+				gunnerInAction = Commander_APC_Wheeled_04_in;
 				gunnerGetInAction = GetInAMV_cargo;
 				gunnerGetOutAction = GetOutLow;
 				isPersonTurret = true;
@@ -149,14 +149,14 @@ class Turrets: Turrets
         {
             autocannon_30mm_APC_Wheeled_04,
             LMG_coax_ext,
-            missiles_titan
+            missiles_Vorona_vehicle
         };
 		magazines[] =
         {
-			mag_4(140Rnd_30mm_MP_shells_Tracer_Green),
-			mag_4(60Rnd_30mm_APFSDS_shells_Tracer_Green),
-			mag_10(200Rnd_762x51_Belt_Green),
-			mag_2(4Rnd_GAT_missiles_O)
+			340Rnd_30mm_MP_shells_Tracer_Green,
+			160Rnd_30mm_APFSDS_shells_Tracer_Green,
+			mag_2(1000Rnd_762x51_Belt_Green),
+			mag_2(4rnd_Vorona_HEAT)
         };
 		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",0.39810717,1,30};
 		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",0.39810717,1,30};
@@ -173,8 +173,8 @@ class Turrets: Turrets
 		minCamElev = -90;
 		maxCamElev = 90;
         // Interior and animations
-		gunnerAction = Gunner_APC_Wheeled_04_cannon_F_out;
-		gunnerInAction = Gunner_APC_Wheeled_04_cannon_F_in;
+		gunnerAction = Gunner_APC_Wheeled_04_out;
+		gunnerInAction = Gunner_APC_Wheeled_04_in;
 		gunnerForceOptics = true;
 		gunnerGetInAction = GetInAMV_cargo;
 		gunnerGetOutAction = GetOutLow;

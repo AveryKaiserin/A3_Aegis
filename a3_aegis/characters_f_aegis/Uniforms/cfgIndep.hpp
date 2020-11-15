@@ -1,4 +1,4 @@
-// Arma 3
+/* AAF */
 class U_I_CombatUniform_tshirt: Uniform_Base
 {
 	scope = public;

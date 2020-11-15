@@ -1,4 +1,4 @@
-// Arma 3
+/* Civilians */
 class U_C_Commoner1_1: Uniform_Base
 {
     scope = public;
@@ -43,7 +43,6 @@ class U_NikosAgedBody: Uniform_Base
     scope = public;
     displayName = $STR_A3_A_CfgWeapons_U_NikosAgedBody0;
 };
-// Arma 3 Aegis
 class U_Jayholder: Uniform_Base
 {
     author = $STR_A3_A_Kydoimos;

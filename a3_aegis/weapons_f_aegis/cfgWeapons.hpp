@@ -1590,6 +1590,7 @@ class CfgWeapons
 	};
 	class autocannon_30mm_RCWS: autocannon_Base_F
 	{
+        displayName = $STR_A3_GATLING_30MM0;
 		magazines[] +=
 		{
 			60Rnd_30mm_MP_shells_Tracer_Red,
@@ -2214,6 +2215,63 @@ class CfgWeapons
 		textureType = semi;
 		lockedTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_3",db-5,2.5};
 		lockingTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_1",db-5,1};
+	};
+	class autocannon_30mm_APC_Wheeled_04: autocannon_30mm_CTWS
+	{
+        displayName = $STR_A3_GATLING_30MM0;
+		class HE: HE
+		{
+            displayName = $STR_A3_GATLING_30MM_LOWROF0;
+            magazines[] =
+            {
+                340Rnd_30mm_MP_shells,
+                340Rnd_30mm_MP_shells_Tracer_Red,
+                340Rnd_30mm_MP_shells_Tracer_Green,
+                340Rnd_30mm_MP_shells_Tracer_Yellow
+            };
+			class player: player
+			{
+			    reloadTime = RPM_450;
+			};
+		};
+		class AP: AP
+		{
+            displayName = $STR_A3_GATLING_30MM_LOWROF0;
+            magazines[] =
+            {
+                160Rnd_30mm_APFSDS_shells,
+                160Rnd_30mm_APFSDS_shells_Tracer_Red,
+                160Rnd_30mm_APFSDS_shells_Tracer_Green,
+                160Rnd_30mm_APFSDS_shells_Tracer_Yellow
+            };
+			class player: player
+			{
+			    reloadTime = RPM_450;
+			};
+		};
+		class GunParticles
+		{
+			class Effect
+			{
+				effectName = AutoCannonFired;
+				positionName = "Usti hlavne";
+				directionName = "Konec hlavne";
+			};
+		};
+	};
+	class missiles_Vorona_vehicle: missiles_Vorona
+	{
+        autoReload = true;
+        backgroundReload = true;
+		showAimCursorInternal = false;
+		magazineReloadTime = 60;
+		magazines[] =
+        {
+            Vorona_HEAT,
+            Vorona_HE,
+            4rnd_Vorona_HEAT,
+            4rnd_Vorona_HE
+        };
 	};
     #include "cfgAcc.hpp"
     #include "cfgBinocular.hpp"

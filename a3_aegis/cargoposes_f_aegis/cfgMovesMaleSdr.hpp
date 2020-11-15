@@ -121,5 +121,107 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leftHandIKCurve[] = {1};
 			rightHandIKCurve[] = {1};
 		};
+		class Driver_APC_Wheeled_04_in: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\driver_APC_Wheeled_04_in.rtm";
+			interpolateTo[] =
+            {
+                KIA_Driver_APC_Wheeled_04,1,
+                Driver_APC_Wheeled_04_out,1
+            };
+			speed = 0.34483;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+			boundingSphere = 2.5;
+		};
+		class Driver_APC_Wheeled_04_out: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\driver_APC_Wheeled_04_out.rtm";
+			interpolateTo[] =
+            {
+                KIA_Driver_APC_Wheeled_04,1,
+                Driver_APC_Wheeled_04_in,1
+            };
+			speed = 0.37037;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+		};
+		class KIA_Driver_APC_Wheeled_04: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\driver_APC_Wheeled_04_kia.rtm";
+			looped = false;
+			terminal = true;
+			soundEnabled = false;
+			connectTo[] = {Unconscious,0.1};
+		};
+		class Gunner_APC_Wheeled_04_in: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\gunner_APC_Wheeled_04_in.rtm";
+			interpolateTo[] =
+            {
+                KIA_Gunner_APC_Wheeled_04,1,
+                Gunner_APC_Wheeled_04_out,1
+            };
+			speed = 0.37037;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+			boundingSphere = 2.5;
+		};
+		class Gunner_APC_Wheeled_04_out: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\gunner_APC_Wheeled_04_out.rtm";
+			interpolateTo[] =
+            {
+                KIA_Gunner_APC_Wheeled_04,1,
+                Gunner_APC_Wheeled_04_in,1
+            };
+			speed = 0.37037;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+		};
+		class KIA_Gunner_APC_Wheeled_04: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\gunner_APC_Wheeled_04_kia.rtm";
+			looped = false;
+			terminal = true;
+			soundEnabled = false;
+			connectTo[] = {Unconscious,0.1};
+		};
+		class Commander_APC_Wheeled_04_in: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\commander_APC_Wheeled_04_in.rtm";
+			interpolateTo[] =
+            {
+                KIA_Commander_APC_Wheeled_04,1,
+                Commander_APC_Wheeled_04_out,1
+            };
+			speed = 0.32609;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+			boundingSphere = 2.5;
+		};
+		class Commander_APC_Wheeled_04_out: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\commander_APC_Wheeled_04_out.rtm";
+			interpolateTo[] =
+            {
+                KIA_Commander_APC_Wheeled_04,1,
+                Commander_APC_Wheeled_04_in,1
+            };
+			speed = 0.34483;
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+		};
+		class KIA_Commander_APC_Wheeled_04: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\commander_APC_Wheeled_04_kia.rtm";
+			looped = false;
+			terminal = true;
+			soundEnabled = false;
+			connectTo[] = {Unconscious,0.1};
+		};
 	};
 };
