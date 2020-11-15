@@ -19,7 +19,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Remnants_F.jpg";
+		editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Remnants_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_Remnants_F0;
@@ -43,7 +43,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Bandits_F.jpg";
+		editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Bandits_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_A_CfgVehicles_Flag_Bandits_F0;
