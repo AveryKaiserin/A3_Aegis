@@ -8,6 +8,7 @@ class CfgVehicles
     /* Trawler */
 	class C_Boat_Civil_04_F: FloatingStructure_F
 	{
+		editorCategory = EdCat_Structures;
 		editorSubcategory = EdSubcat_StaticShips;
 	};
 
@@ -15,6 +16,7 @@ class CfgVehicles
 	class Land_Carrier_01_base_F: StaticShip
 	{
 		displayName = "USS Freedom";
+		editorCategory = EdCat_Structures;
 	};
 	class Land_Carrier_01_hull_base_F: House_F
 	{
@@ -31,6 +33,7 @@ class CfgVehicles
 	class Land_Destroyer_01_base_F: StaticShip
 	{
 		displayName = "USS Liberty";
+		editorCategory = EdCat_Structures;
 	};
 	class Land_Destroyer_01_hull_base_F: House_F
 	{
