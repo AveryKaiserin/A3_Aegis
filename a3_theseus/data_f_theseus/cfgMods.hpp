@@ -19,12 +19,12 @@ class CfgMods
             1 // A
         };
 		overview = $STR_A3_cfgMods_Theseus_overview0;
-		//logoTitle = "\A3_Theseus\Data_F_Theseus\Logos\arma3_Theseus_logoTitle_CA.paa";
+		logoTitle = "\A3_Theseus\Data_F_Theseus\Logos\arma3_Aegis_logoTitle_CA.paa";
 		hideName = true;
 		hidePicture = false;
 		name = $STR_A3_cfgMods_Theseus_name0;
 		author = $STR_A3_A_Heliotrope;
-		//artwork = "\A3_Theseus\Data_F_Theseus\Logos\arma3_Theseus_artwork.jpg";
+		artwork = "\A3_Theseus\Data_F_Theseus\Logos\arma3_Aegis_artwork.jpg";
 		overviewPicture = "\A3_Theseus\Data_F_Theseus\Images\Theseus_overviewPicture_CO.paa";
 		dir = Theseus;
 	};

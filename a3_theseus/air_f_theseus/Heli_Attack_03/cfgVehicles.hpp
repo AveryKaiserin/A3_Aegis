@@ -4,7 +4,7 @@ class CfgVehicles
     #include "\A3_Aegis\cfgHelis.hpp"
 
     /* Bases */
-	class Heli_Attack_03_base_F: Helicopter_Base_F{};
+	class I_Heli_Attack_03_F;
 
     /* Factions */
     #include "cfgNAAF.hpp"     // NAAF
