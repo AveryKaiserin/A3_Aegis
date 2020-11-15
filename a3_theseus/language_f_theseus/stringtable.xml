@@ -253,5 +253,81 @@
 				</Key>
 			</Container>
 		</Container>
+		<Container name="UI_F">
+			<Container name="CfgMarkers">
+				<Key ID="STR_A3_A_CfgMarkers_flag_Remnants">
+					<Original>Remnants</Original>
+					<Chinese>Remnants</Chinese>
+					<French>Remnants</French>
+					<Spanish>Remnants</Spanish>
+					<Italian>Remnants</Italian>
+					<Polish>Remnants</Polish>
+					<Russian>Remnants</Russian>
+					<German>Remnants</German>
+					<Czech>Remnants</Czech>
+					<English>Remnants</English>
+					<Portuguese>Remnants</Portuguese>
+					<Korean>Remnants</Korean>
+					<Chinesesimp>Remnants</Chinesesimp>
+					<Japanese>Remnants</Japanese>
+					<Turkish>Remnants</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgMarkers_flag_Bandits">
+					<Original>Bandits</Original>
+					<Chinese>Bandits</Chinese>
+					<French>Bandits</French>
+					<Spanish>Bandits</Spanish>
+					<Italian>Bandits</Italian>
+					<Polish>Bandits</Polish>
+					<Russian>Bandits</Russian>
+					<German>Bandits</German>
+					<Czech>Bandits</Czech>
+					<English>Bandits</English>
+					<Portuguese>Bandits</Portuguese>
+					<Korean>Bandits</Korean>
+					<Chinesesimp>Bandits</Chinesesimp>
+					<Japanese>Bandits</Japanese>
+					<Turkish>Bandits</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="Structures_F">
+			<Container name="Flags">
+				<Key ID="STR_A3_A_CfgVehicles_Flag_Remnants_F0">
+					<Original>Flag (Remnants)</Original>
+					<Chinese>Flag (Remnants)</Chinese>
+					<French>Flag (Remnants)</French>
+					<Spanish>Flag (Remnants)</Spanish>
+					<Italian>Flag (Remnants)</Italian>
+					<Polish>Flag (Remnants)</Polish>
+					<Russian>Flag (Remnants)</Russian>
+					<German>Flag (Remnants)</German>
+					<Czech>Flag (Remnants)</Czech>
+					<English>Flag (Remnants)</English>
+					<Portuguese>Flag (Remnants)</Portuguese>
+					<Korean>Flag (Remnants)</Korean>
+					<Chinesesimp>Flag (Remnants)</Chinesesimp>
+					<Japanese>Flag (Remnants)</Japanese>
+					<Turkish>Flag (Remnants)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Flag_Bandits_F0">
+					<Original>Flag (Bandits)</Original>
+					<Chinese>Flag (Bandits)</Chinese>
+					<French>Flag (Bandits)</French>
+					<Spanish>Flag (Bandits)</Spanish>
+					<Italian>Flag (Bandits)</Italian>
+					<Polish>Flag (Bandits)</Polish>
+					<Russian>Flag (Bandits)</Russian>
+					<German>Flag (Bandits)</German>
+					<Czech>Flag (Bandits)</Czech>
+					<English>Flag (Bandits)</English>
+					<Portuguese>Flag (Bandits)</Portuguese>
+					<Korean>Flag (Bandits)</Korean>
+					<Chinesesimp>Flag (Bandits)</Chinesesimp>
+					<Japanese>Flag (Bandits)</Japanese>
+					<Turkish>Flag (Bandits)</Turkish>
+				</Key>
+			</Container>
+		</Container>
 	</Package>
 </Project>
