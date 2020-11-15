@@ -13,6 +13,8 @@ class I_Soldier_lite_F: I_Soldier_base_F{};
 class I_officer_F: I_Soldier_base_F{};
 class CfgVehicles
 {
+    // Inherit smoke shell macro
+    #include "\A3_Aegis\macros_smokeShells.hpp"
     // NAAF
     #include "cfgNAAF.hpp"
     // Bandits
