@@ -214,14 +214,14 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 		mag_6(30rnd_556x45_Stanag),
         HandGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
 	};
 	respawnMagazines[] =
 	{
 		mag_6(30rnd_556x45_Stanag),
         HandGrenade,
         SmokeShell,
-        SOLDIER_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_MEDIC
 	};
 	linkedItems[] =
 	{

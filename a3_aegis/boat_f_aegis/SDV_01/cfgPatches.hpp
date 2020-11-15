@@ -10,7 +10,7 @@ class CfgPatches
             /* From "cfgBLUFOR.hpp" */
             B_T_SDV_01_F,
             B_A_SDV_01_F,
-            B_A_SDV_01_tna_F
+            B_A_SDV_01_tna_F,
 
             /* From "cfgOPFOR.hpp" */
             O_T_SDV_01_F,

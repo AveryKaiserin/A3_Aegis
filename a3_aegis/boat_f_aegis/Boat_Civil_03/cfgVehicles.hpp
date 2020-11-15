@@ -35,7 +35,7 @@ class CfgVehicles
 		scope = public;
 		scopeCurator = public;
 		accuracy = 0.5;
-		editorCategory = EdCat_Structures_Altis;
+		editorCategory = EdCat_Structures;
 		editorSubcategory = EdSubcat_StaticShips;
 		vehicleClass = Submerged;
 		class Library
