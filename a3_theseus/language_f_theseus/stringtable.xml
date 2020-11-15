@@ -20,6 +20,23 @@
 					<Japanese>Heliotrope</Japanese>
 					<Turkish>Heliotrope</Turkish>
 				</Key>
+				<Key ID="STR_A3_cfgMods_Theseus_name0">
+					<Original>Theseus</Original>
+					<Chinese>Theseus</Chinese>
+					<French>Theseus</French>
+					<Spanish>Theseus</Spanish>
+					<Italian>Theseus</Italian>
+					<Polish>Theseus</Polish>
+					<Russian>Theseus</Russian>
+					<German>Theseus</German>
+					<Czech>Theseus</Czech>
+					<English>Theseus</English>
+					<Portuguese>Theseus</Portuguese>
+					<Korean>Theseus</Korean>
+					<Chinesesimp>Theseus</Chinesesimp>
+					<Japanese>Theseus</Japanese>
+					<Turkish>Theseus</Turkish>
+				</Key>
 			</Container>
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_T_CfgFactionClasses_BLU_N_F0">
