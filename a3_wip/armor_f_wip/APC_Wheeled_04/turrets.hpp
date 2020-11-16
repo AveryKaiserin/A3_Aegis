@@ -6,6 +6,10 @@ class Turrets: Turrets
 		{
 			class CommanderOptics: CommanderOptics
 			{
+                body = obsTurret;
+                gun = obsGun;
+                animationSourceBody = obsTurret;
+                animationSourceGun = obsGun;
 				turretInfoType = RscOptics_MBT_02_commander;
 				showCrewAim = 1;
 				startEngine = false;
@@ -17,14 +21,6 @@ class Turrets: Turrets
 				minTurn = -360;
 				maxTurn = 360;
 				initTurn = 0;
-				minCamElev = -90;
-				maxCamElev = 90;
-				minOutElev = -10;
-				maxOutElev = 25;
-				initOutElev = 0;
-				minOutTurn = -90;
-				maxOutTurn = 40;
-				initOutTurn = 0;
 				maxHorizontalRotSpeed = 1.8;
 				maxVerticalRotSpeed = 1.8;
                 // Weapons and magazines
@@ -45,10 +41,10 @@ class Turrets: Turrets
 				gunnerGetOutAction = GetOutLow;
 				isPersonTurret = true;
 				personTurretAction = vehicle_turnout_1;
-				gunnerForceOptics = false;
+				gunnerForceOptics = true;
 				usepip = 2;
-				LODTurnedIn = 1100;
-				LODTurnedOut = 1;
+				LODTurnedIn = VIEW_CARGO;
+				LODTurnedOut = VIEW_CARGO;
 				LODOpticsIn = 0;
 				animationSourceStickX = com_turret_control_x;
 				animationSourceStickY = com_turret_control_y;
@@ -153,10 +149,10 @@ class Turrets: Turrets
         };
 		magazines[] =
         {
-			340Rnd_30mm_MP_shells_Tracer_Green,
+			340Rnd_30mm_HE_shells_Tracer_Green,
 			160Rnd_30mm_APFSDS_shells_Tracer_Green,
-			mag_2(1000Rnd_762x51_Belt_Green),
-			mag_2(4rnd_Vorona_HEAT)
+			2000Rnd_762x51_Belt_Green,
+			4rnd_Vorona_HEAT
         };
 		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",0.39810717,1,30};
 		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",0.39810717,1,30};
@@ -165,7 +161,7 @@ class Turrets: Turrets
 		memoryPointGun[] = {"usti hlavne3"};
         // Rotation and elevation
 		minElev = -5;
-		maxElev = 60;
+		maxElev = 35;
 		initElev = 0;
         minTurn = -360;
         maxTurn = 360;
@@ -184,9 +180,9 @@ class Turrets: Turrets
 		inGunnerMayFire = true;
 		outGunnerMayFire = false;
 		usepip = 1;
-		LODTurnedIn = 1100;
-		LODTurnedOut = 1;
-		LODOpticsIn = 0;
+		LODTurnedIn = VIEW_GUNNER;
+		LODTurnedOut = VIEW_DEFAULT;
+		LODOpticsIn = VIEW_DEFAULT;
 		animationSourceStickX = turret_control_x;
 		animationSourceStickY = turret_control_y;
 		gunnerRightHandAnimName = turret_control;

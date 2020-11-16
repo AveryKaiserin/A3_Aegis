@@ -118,7 +118,7 @@ class Wheels
 		suspTravelDirection[] = {-0.1,-1,0};
 		boneName = wheel_1_1_damper;
 		steering = true;
-		center = wheel_1_1_axis;
+		center = wheel_1_1_center;
 		boundary = wheel_1_1_bound;
 		width = 0.2;
 		mass = 120;
@@ -128,8 +128,8 @@ class Wheels
 		dampingRateDestroyed = 1000.0;
 		maxBrakeTorque = 12500;
 		maxHandBrakeTorque = 0;
-		suspForceAppPointOffset = wheel_1_1_axis;
-		tireForceAppPointOffset = wheel_1_1_axis;
+		suspForceAppPointOffset = wheel_1_1_center;
+		tireForceAppPointOffset = wheel_1_1_center;
 		maxCompression = 0.1;
 		maxDroop = 0.15;
 		sprungMass = 2588;
@@ -149,29 +149,29 @@ class Wheels
 	{
 		boneName = wheel_1_2_damper;
 		steering = true;
-		center = wheel_1_2_axis;
+		center = wheel_1_2_center;
 		boundary = wheel_1_2_bound;
-		suspForceAppPointOffset = wheel_1_2_axis;
-		tireForceAppPointOffset = wheel_1_2_axis;
+		suspForceAppPointOffset = wheel_1_2_center;
+		tireForceAppPointOffset = wheel_1_2_center;
 	};
 	class L3: L1
 	{
 		boneName = wheel_1_3_damper;
 		steering = false;
-		center = wheel_1_3_axis;
+		center = wheel_1_3_center;
 		boundary = wheel_1_3_bound;
-		suspForceAppPointOffset = wheel_1_3_axis;
-		tireForceAppPointOffset = wheel_1_3_axis;
+		suspForceAppPointOffset = wheel_1_3_center;
+		tireForceAppPointOffset = wheel_1_3_center;
 		maxHandBrakeTorque = 10000;
 	};
 	class L4: L1
 	{
 		boneName = wheel_1_4_damper;
 		steering = false;
-		center = wheel_1_4_axis;
+		center = wheel_1_4_center;
 		boundary = wheel_1_4_bound;
-		suspForceAppPointOffset = wheel_1_4_axis;
-		tireForceAppPointOffset = wheel_1_4_axis;
+		suspForceAppPointOffset = wheel_1_4_center;
+		tireForceAppPointOffset = wheel_1_4_center;
 		maxHandBrakeTorque = 10000;
 	};
 	class R1: L1
@@ -179,38 +179,38 @@ class Wheels
 		side = right;
 		suspTravelDirection[] = {0.125,-1,0};
 		boneName = wheel_2_1_damper;
-		center = wheel_2_1_axis;
+		center = wheel_2_1_center;
 		boundary = wheel_2_1_bound;
-		suspForceAppPointOffset = wheel_2_1_axis;
-		tireForceAppPointOffset = wheel_2_1_axis;
+		suspForceAppPointOffset = wheel_2_1_center;
+		tireForceAppPointOffset = wheel_2_1_center;
 	};
 	class R2: R1
 	{
 		boneName = wheel_2_2_damper;
 		steering = true;
-		center = wheel_2_2_axis;
+		center = wheel_2_2_center;
 		boundary = wheel_2_2_bound;
-		suspForceAppPointOffset = wheel_2_2_axis;
-		tireForceAppPointOffset = wheel_2_2_axis;
+		suspForceAppPointOffset = wheel_2_2_center;
+		tireForceAppPointOffset = wheel_2_2_center;
 	};
 	class R3: R1
 	{
 		boneName = wheel_2_3_damper;
 		steering = false;
-		center = wheel_2_3_axis;
+		center = wheel_2_3_center;
 		boundary = wheel_2_3_bound;
-		suspForceAppPointOffset = wheel_2_3_axis;
-		tireForceAppPointOffset = wheel_2_3_axis;
+		suspForceAppPointOffset = wheel_2_3_center;
+		tireForceAppPointOffset = wheel_2_3_center;
 		maxHandBrakeTorque = 10000;
 	};
 	class R4: R1
 	{
 		boneName = wheel_2_4_damper;
 		steering = false;
-		center = wheel_2_4_axis;
+		center = wheel_2_4_center;
 		boundary = wheel_2_4_bound;
-		suspForceAppPointOffset = wheel_2_4_axis;
-		tireForceAppPointOffset = wheel_2_4_axis;
+		suspForceAppPointOffset = wheel_2_4_center;
+		tireForceAppPointOffset = wheel_2_4_center;
 		maxHandBrakeTorque = 10000;
 	};
 };

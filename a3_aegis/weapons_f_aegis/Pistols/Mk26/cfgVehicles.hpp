@@ -21,5 +21,5 @@
 class CfgVehicles
 {
 	class Pistol_Base_F;
-	WEAPON_HOLDER(hgun_Mk26_F,$STR_A3_A_CfgWeapons_hgun_Mk26_F0,7Rnd_127x33_Mag)
+	WEAPON_HOLDER(hgun_Mk26_F,$STR_A3_A_CfgWeapons_hgun_Mk26_F0,7Rnd_127x33_Mag);
 };

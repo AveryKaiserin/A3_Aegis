@@ -1,6 +1,5 @@
 class CfgMagazineWells
 {
-	// Arma 3
     class AK_545x39
     {
         Aegis_Magazines[] =
@@ -63,9 +62,6 @@ class CfgMagazineWells
             16Rnd_9x21_yellow_Mag_v2
 		};
     };
-	class M320_408{};
-	class GM6_127x108{};
-	// Arma 3 Aegis
 	class STANAG_556x45_SDAR
 	{
 		Aegis_Magazines[] =
@@ -112,7 +108,6 @@ class CfgMagazineWells
 	{
 		Aegis_Magazines[] = {5Rnd_127x99_Mag};
 	};
-    class C1911_45ACP: ACPC2_45ACP{};
 	class G17_9x21
 	{
 		Aegis_Magazines[] = {17Rnd_9x21_Mag};
@@ -183,4 +178,7 @@ class CfgMagazineWells
 			20Rnd_460x30_Mag_F
 		};
 	};
+
+    /* Deprecated */
+    class C1911_45ACP: ACPC2_45ACP{};
 };

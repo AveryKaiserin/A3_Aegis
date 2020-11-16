@@ -1,3 +1,4 @@
+/* Long Range Rifles */
 class srifle_EBR_blk_F: srifle_EBR_F
 {
 	author = $STR_A3_A_AveryTheKitty;

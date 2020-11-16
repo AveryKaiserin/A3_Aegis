@@ -21,7 +21,7 @@
 		{ \
 			mag_xx(##b##,1); \
 		}; \
-	};
+	}
 
 // Handguns
 #define PISTOL_HOLDER(a,b,c) \
@@ -42,7 +42,7 @@
 		{ \
 			mag_xx(##b##,1); \
 		}; \
-	};
+	}
 
 // Secondary weapons
 #define LAUNCHER_HOLDER(a,b,c) \
@@ -63,7 +63,7 @@
 		{ \
 			mag_xx(##b##,1); \
 		}; \
-	};
+	}
 
 // Attachments
 #define ACC_HOLDER(a,b,c,d,e) \
@@ -80,7 +80,7 @@
 		{ \
 			item_xx(##a##,1); \
 		}; \
-	};
+	}
 
 // Inventory items
 #define ITEM_HOLDER(a,b) \
@@ -96,9 +96,9 @@
 		model = "\A3\Weapons_F\DummyItem.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##b##,1); \
+			item_xx(##a##,1); \
 		}; \
-	};
+	}
 
 // Headgear
 #define HEADGEAR_HOLDER(a,b,c) \
@@ -116,7 +116,7 @@
 		{ \
 			item_xx(##a##,1); \
 		}; \
-	};
+	}
 
 // Uniforms
 #define UNIFORM_HOLDER(a,b) \
@@ -134,7 +134,7 @@
 		{ \
 			item_xx(##a##,1); \
 		}; \
-	};
+	}
 
 // Vests
 #define VEST_HOLDER(a,b) \
@@ -151,4 +151,4 @@
 		{ \
 			item_xx(##a##,1); \
 		}; \
-	};
+	}

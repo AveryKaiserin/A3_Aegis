@@ -1,3 +1,4 @@
+/* Machine Guns */
 class LMG_Mk200_plain_F: LMG_Mk200_F
 {
 	author = $STR_A3_A_AveryTheKitty;

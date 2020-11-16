@@ -1,6 +1,9 @@
 class CfgAmmo
 {
+    /* Inheritance Tree */
     class Default;
+
+    /* Bases */
 	class BulletBase;
 	class ammo_Penetrator_Base;
 	class FlareCore;

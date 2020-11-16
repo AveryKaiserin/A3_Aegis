@@ -21,5 +21,5 @@
 class CfgVehicles
 {
 	class Weapon_Base_F;
-	WEAPON_HOLDER(GL_M32_F,$STR_A3_A_CfgWeapons_GL_M32_F0,EdSubcat_GrenadeLaunchers,6Rnd_HE_Grenade_shell)
+	WEAPON_HOLDER(GL_M32_F,$STR_A3_A_CfgWeapons_GL_M32_F0,EdSubcat_GrenadeLaunchers,6Rnd_HE_Grenade_shell);
 };

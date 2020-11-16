@@ -932,6 +932,142 @@ class CfgVehicles
             };
         };
     };
+	class Wheeled_APC_F;
+	class APC_Wheeled_04_base_F: Wheeled_APC_F
+    {
+		attenuationEffectType = TankAttenuation;
+		soundGetIn[] = {"\A3\Sounds_F_EPB\Tracked\noises\get_in_out",db-5,1};
+		soundGetOut[] = {"\A3\Sounds_F_EPB\Tracked\noises\get_in_out",db-5,1,20};
+		soundTurnIn[] = {"\A3\Sounds_F\vehicles\noises\Turn_in_out",db5,1,20};
+		soundTurnOut[] = {"\A3\Sounds_F\vehicles\noises\Turn_in_out",db5,1,20};
+		soundTurnInInternal[] = {"\A3\Sounds_F\vehicles\noises\Turn_in_out",db5,1,20};
+		soundTurnOutInternal[] = {"\A3\Sounds_F\vehicles\noises\Turn_in_out",db5,1,20};
+		soundDammage[] = {"",db-5,1};
+		soundEngineOnInt[] = {"\A3\Sounds_F\vehicles2\soft\Truck_03\Truck_03_Engine_Int_Start",db-6,1.0};
+		soundEngineOffInt[] = {"\A3\Sounds_F\vehicles2\soft\Truck_03\Truck_03_Engine_Int_stop",db-6,1.0};
+		soundEngineOnExt[] = {"\A3\Sounds_F\vehicles2\soft\Truck_03\Truck_03_Engine_Ext_Start",db12,1.0,50};
+		soundEngineOffExt[] = {"\A3\Sounds_F\vehicles2\soft\Truck_03\Truck_03_Engine_Ext_stop",db12,1.0,50};
+		BushCrash1[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_Collision_Light_Bush_01",db-4,1,100};
+		BushCrash2[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_Collision_Light_Bush_02",db-4,1,100};
+		BushCrash3[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_Collision_Light_Bush_03",db-4,1,100};
+		soundBushCrash[] =
+        {
+            BushCrash1,1/3,
+            BushCrash2,1/3,
+            BushCrash3,1/3
+        };
+		buildCrash0[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_01",db10,1,200};
+		buildCrash1[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_02",db10,1,200};
+		buildCrash2[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_03",db10,1,200};
+		buildCrash3[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_04",db10,1,200};
+		buildCrash4[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_05",db10,1,200};
+		buildCrash5[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_06",db10,1,200};
+		soundBuildingCrash[] =
+        {
+            buildCrash0,1/6,
+            buildCrash1,1/6,
+            buildCrash2,1/6,
+            buildCrash3,1/6,
+            buildCrash4,1/6,
+            buildCrash5,1/6
+        };
+		woodCrash0[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_01",db10,1,200};
+		woodCrash1[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_02",db10,1,200};
+		woodCrash2[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_03",db10,1,200};
+		woodCrash3[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_04",db10,1,200};
+		woodCrash4[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_05",db10,1,200};
+		woodCrash5[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_06",db10,1,200};
+		soundWoodCrash[] =
+        {
+            woodCrash0,1/6,
+            woodCrash1,1/6,
+            woodCrash2,1/6,
+            woodCrash3,1/6,
+            woodCrash4,1/6,
+            woodCrash5,1/6
+        };
+		ArmorCrash0[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_01",db10,1,200};
+		ArmorCrash1[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_02",db10,1,200};
+		ArmorCrash2[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_03",db10,1,200};
+		ArmorCrash3[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_04",db10,1,200};
+		ArmorCrash4[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_05",db10,1,200};
+		ArmorCrash5[] = {"\A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_General_Collision_06",db10,1,200};
+		soundArmorCrash[] =
+        {
+            ArmorCrash0,1/6,
+            ArmorCrash1,1/6,
+            ArmorCrash2,1/6,
+            ArmorCrash3,1/6,
+            ArmorCrash4,1/6,
+            ArmorCrash5,1/6
+        };
+		class Sounds
+		{
+			soundSetsInt[] =
+            {
+                Truck_03_Engine_RPM0_INT_SoundSet,
+                Truck_03_Engine_RPM1_INT_SoundSet,
+                Truck_03_Engine_RPM2_INT_SoundSet,
+                Truck_03_Engine_RPM3_INT_SoundSet,
+                Truck_03_Engine_RPM4_INT_SoundSet,
+                Truck_03_Engine_RPM5_INT_SoundSet,
+                Truck_03_Engine_RPM6_INT_SoundSet,
+                APC_Wheeled_02_Interior_Tone_Engine_Off_SoundSet,
+                APC_Wheeled_02_Interior_Tone_Engine_On_SoundSet,
+                APC_Wheeled_02_Rattling_INT_SoundSet,
+                APC_Wheeled_02_Stress_INT_SoundSet,
+                APC_Wheeled_02_Rain_INT_SoundSet,
+                APC_Wheeled_02_Tires_Rock_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Grass_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Sand_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Gravel_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Mud_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Asphalt_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Water_Fast_INT_SoundSet,
+                APC_Wheeled_02_Tires_Rock_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Grass_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Sand_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Gravel_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Mud_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Asphalt_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Water_Slow_INT_SoundSet,
+                APC_Wheeled_02_Tires_Turn_Hard_INT_SoundSet,
+                APC_Wheeled_02_Tires_Turn_Soft_INT_SoundSet,
+                APC_Wheeled_02_Tires_Brake_Hard_INT_SoundSet,
+                APC_Wheeled_02_Tires_Brake_Soft_INT_SoundSet
+            };
+			soundSetsExt[] =
+            {
+                Truck_03_Engine_RPM0_EXT_SoundSet,
+                Truck_03_Engine_RPM1_EXT_SoundSet,
+                Truck_03_Engine_RPM2_EXT_SoundSet,
+                Truck_03_Engine_RPM3_EXT_SoundSet,
+                Truck_03_Engine_RPM4_EXT_SoundSet,
+                Truck_03_Engine_RPM5_EXT_SoundSet,
+                Truck_03_Engine_RPM6_EXT_SoundSet,
+                APC_Wheeled_02_Stress_EXT_SoundSet,
+                APC_Wheeled_02_Rain_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Rock_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Grass_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Sand_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Gravel_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Mud_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Asphalt_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Water_Fast_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Rock_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Grass_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Sand_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Gravel_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Mud_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Asphalt_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Water_Slow_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Turn_Hard_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Turn_Soft_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Brake_Hard_EXT_SoundSet,
+                APC_Wheeled_02_Tires_Brake_Soft_EXT_SoundSet
+            };
+		};
+    };
 	class Boat_Civil_02_base_F: Boat_F
     {
         attenuationEffectType = OpenCarAttenuation;

@@ -1,3 +1,4 @@
+/* Pistols */
 class hgun_ACPC2_black_F: hgun_ACPC2_F
 {
 	author = $STR_A3_A_AveryTheKitty;

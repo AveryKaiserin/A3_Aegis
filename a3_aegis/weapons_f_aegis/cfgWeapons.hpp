@@ -1,6 +1,8 @@
 class CfgWeapons
 {
-	// Arma 3
+    /* Definitions */
+    
+	/* Inheritance Tree */
 	class Default
 	{
         fireLightDiffuse[] =
@@ -2221,13 +2223,13 @@ class CfgWeapons
         displayName = $STR_A3_GATLING_30MM0;
 		class HE: HE
 		{
-            displayName = $STR_A3_GATLING_30MM_LOWROF0;
+            displayName = $STR_A3_GATLING_30MM0;
             magazines[] =
             {
-                340Rnd_30mm_MP_shells,
-                340Rnd_30mm_MP_shells_Tracer_Red,
-                340Rnd_30mm_MP_shells_Tracer_Green,
-                340Rnd_30mm_MP_shells_Tracer_Yellow
+                340Rnd_30mm_HE_shells,
+                340Rnd_30mm_HE_shells_Tracer_Red,
+                340Rnd_30mm_HE_shells_Tracer_Green,
+                340Rnd_30mm_HE_shells_Tracer_Yellow
             };
 			class player: player
 			{
@@ -2236,7 +2238,7 @@ class CfgWeapons
 		};
 		class AP: AP
 		{
-            displayName = $STR_A3_GATLING_30MM_LOWROF0;
+            displayName = $STR_A3_GATLING_30MM0;
             magazines[] =
             {
                 160Rnd_30mm_APFSDS_shells,
@@ -2264,7 +2266,7 @@ class CfgWeapons
         autoReload = true;
         backgroundReload = true;
 		showAimCursorInternal = false;
-		magazineReloadTime = 60;
+		magazineReloadTime = 50;
 		magazines[] =
         {
             Vorona_HEAT,

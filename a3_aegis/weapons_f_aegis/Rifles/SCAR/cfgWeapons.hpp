@@ -1,9 +1,12 @@
 class CfgWeapons
 {
-    /* Rifles inheritance */
-	#include "P:\A3_Aegis\rifles.hpp"
+    /* Definitions */
+	#include "\A3_Aegis\macros_weaponAcc.hpp"
+    
+    /* Inheritance Tree */
+	#include "\A3_Aegis\cfgRifles.hpp"
 
-    /* Bases for different weapons */
+    /* Bases */
 	class arifle_SCAR_base_F: Rifle_Base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_F.p3d";
@@ -14,11 +17,11 @@ class CfgWeapons
 			libTextDesc = $STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0;
 		};
 
-        /* Textures and materials */
+        /* Textures */
 		hiddenSelections[] =
 		{
-			Camo1,  // Lower receiver
-			Camo2   // Upper receiver
+			Camo1,
+			Camo2
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -26,7 +29,7 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\Data\SCAR_02_CO.paa"
 		};
 
-        /* Animations parameters */
+        /* Animations */
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
@@ -34,10 +37,10 @@ class CfgWeapons
 		};
 		reloadAction = GestureReloadSPAR_01;
 
-        /* Weapon ammunition */ 
+        /* Ammunition */ 
 		magazines[] = {20Rnd_762x51_Mag};
 
-        /* Weapon handling */
+        /* Handling */
 		htMin = 12;
 		htMax = 800;
 		inertia = 0.6;
@@ -47,7 +50,7 @@ class CfgWeapons
 		recoil = recoil_scar;
 		maxZeroing = 1000;
 
-        /* Weapon slots */
+        /* Slots */
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class MuzzleSlot: asdg_MuzzleSlot_762
@@ -89,7 +92,7 @@ class CfgWeapons
 			mass = 120;
 		};
 		
-        /* Weapon modes */
+        /* Modes */
         modes[] =
 		{
 			Single,
@@ -159,7 +162,7 @@ class CfgWeapons
 			aiRateOfFireDistance = 500;
 	  	};
 
-        /* ACE parameters */
+        /* ACE */
 		ACE_barrelTwist = 304.8;
 		ACE_barrelLength = 406.4;
 		ACE_railHeightAboveBore = 4.7;
@@ -169,7 +172,7 @@ class CfgWeapons
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_GL_F.p3d";
 
-        /* Textures and materials */
+        /* Textures */
 		hiddenSelections[] =
 		{
 			Camo1,  // Lower receiver
@@ -183,27 +186,27 @@ class CfgWeapons
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\SA80_F_GL_snd_CO.paa"
 		};
 
-        /* Animations and parameters */
+        /* Animations */
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\Anim\SPAR_01_GL.rtm"
 		};
 
-        /* Weapong handling */
+        /* Handling */
 		inertia = 0.6;
 		dexterity = 1.4;
 		aimTransitionSpeed = 0.7;
 		initSpeed = 690;
 
-        /* Weapon slots */
+        /* Slots */
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
             /* Weight */
 	    	mass = 120;
 	  	};
 
-        /* Weapon modes */
+        /* Modes */
 		class Single: Single
 		{
 			dispersion = 0.00102;
@@ -213,7 +216,7 @@ class CfgWeapons
 			dispersion = 0.00102;
 		};
 
-        /* Grenade launcher */
+        /* UGL */
 		muzzles[] =
 		{
 			this,
@@ -223,7 +226,7 @@ class CfgWeapons
 		{
 			displayName = $STR_A3_A_CfgWeapons_arifle_SCAR_GL_base_F_EGLM0;
 
-            /* Optics and zeroing */
+            /* Optics & Zeroing */
 			useModelOptics = false;
 			useExternalOptic = false;
 			cameraDir = OP_look;
@@ -253,32 +256,32 @@ class CfgWeapons
 			};
 			discreteDistanceInitIndex = 1;
 
-            /* Animations and parameters */
+            /* Animations */
 			reloadAction = GestureReloadSPARUGL;
 			magazineReloadSwitchPhase = 0.4;
 		};
 
-        /* ACE parameters */
+        /* ACE */
         ACE_barrelLength = 330.2;
 	};
 	class arifle_SCAR_short_base_F: arifle_SCAR_base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_short_F.p3d";
 
-        /* Weapong handling */
+        /* Handling */
 		inertia = 0.5;
 		dexterity = 1.6;
 		aimTransitionSpeed = 1;
 		initSpeed = 690;
 
-        /* Weapon slots */
+        /* Slots */
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
             /* Weight */
 	    	mass = 100;
 	  	};
 
-        /* Weapon modes */
+        /* Modes */
 		class Single: Single
 		{
 			dispersion = 0.00102;
@@ -288,25 +291,25 @@ class CfgWeapons
 			dispersion = 0.00102;
 		};
 
-        /* ACE parameters */
+        /* ACE */
         ACE_barrelLength = 330.2;
 	};
 	class arifle_SCAR_grip_base_F: arifle_SCAR_base_F
 	{
 		model = "\A3_Aegis\Weapons_F_Aegis\Rifles\SCAR\SCAR_grip_F.p3d";
 
-        /* Animations and parameters */
+        /* Animations */
 		handAnim[] =
 		{
 			OFP2_ManSkeleton,
 			"\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\Anim\SPAR_02.rtm"
 		};
 
-        /* Weapon handling */
+        /* Handling */
 		dexterity = 1.6;
 		aimTransitionSpeed = 1;
 
-        /* Weapon slots */
+        /* Slots */
 	  	class WeaponSlotsInfo: WeaponSlotsInfo
 		{
             /* Weight */
@@ -314,7 +317,7 @@ class CfgWeapons
 	  	};
 	};
 
-    /* Bases for different textures */
+    /* Liveries */
 	class arifle_SCAR_black_base_F: arifle_SCAR_base_F
 	{
 		hiddenSelectionsTextures[] =
@@ -382,7 +385,7 @@ class CfgWeapons
 		};
 	};
 
-    /* Accessible weapons */
+    /* Rifles */
 	class arifle_SCAR_F: arifle_SCAR_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;
@@ -480,6 +483,6 @@ class CfgWeapons
 		baseWeapon = arifle_SCAR_grip_khaki_F;
 	};
 
-    /* Weapons with accessories for units */
+    /* Accessorized Weapons */
 	#include "cfgWeaponsAcc.hpp"
 };

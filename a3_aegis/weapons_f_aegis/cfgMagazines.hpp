@@ -1,9 +1,11 @@
 class CfgMagazines
 {
-	// Arma 3
+    /* Bases */
 	class CA_Magazine;
 	class VehicleMagazine;
 	class CA_LauncherMagazine;
+
+    /* Items */
 	class 30Rnd_556x45_Stanag;
 	class 30Rnd_65x39_caseless_mag: CA_Magazine
 	{
@@ -148,6 +150,12 @@ class CfgMagazines
 	};
 	class 140Rnd_30mm_MP_shells_Tracer_Yellow;
 	class 60Rnd_30mm_APFSDS_shells;
+	class 60Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells
+	{
+		displayNameMFDFormat = "APFSDS-T";
+	};
+	class 60Rnd_30mm_APFSDS_shells_Tracer_Green;
+	class 60Rnd_30mm_APFSDS_shells_Tracer_Yellow;
 	class 60Rnd_40mm_GPR_shells;
 	class 38Rnd_80mm_rockets;
 	class 12Rnd_230mm_rockets;
@@ -964,10 +972,6 @@ class CfgMagazines
 		ammo = B_30mm_HE_Tracer_Yellow;
 		tracersEvery = 1;
 	};
-	class 60Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells
-	{
-		displayNameMFDFormat = "APFSDS-T";
-	};
 	class 120Rnd_40mm_GPR_shells: 60Rnd_40mm_GPR_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1271,5 +1275,72 @@ class CfgMagazines
 		ammo = B_30mm_AP_Tracer_Yellow;
 		tracersEvery = 1;
 	};
+	class 340Rnd_30mm_HE_shells: 250Rnd_30mm_HE_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells0;
+		displayNameShort = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_dns;
+		ammo = B_30mm_HE;
+		initSpeed = 1070;
+		count = 340;
+	};
+	class 340Rnd_30mm_HE_shells_Tracer_Red: 340Rnd_30mm_HE_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_Tracer_Red0;
+		ammo = B_30mm_HE_Tracer_Red;
+		count = 340;
+	};
+	class 340Rnd_30mm_HE_shells_Tracer_Green: 340Rnd_30mm_HE_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_Tracer_Green0;
+		ammo = B_30mm_HE_Tracer_Green;
+		tracersEvery = 1;
+		displayNameMFDFormat = "О";
+	};
+	class 340Rnd_30mm_HE_shells_Tracer_Yellow: 340Rnd_30mm_HE_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "30 mm HE Tracer (Yellow) Shells";
+		ammo = B_30mm_HE_Tracer_Yellow;
+		tracersEvery = 1;
+	};
+	class 160Rnd_30mm_APFSDS_shells: 60Rnd_30mm_APFSDS_shells
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 160;
+	};
+	class 160Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells_Tracer_Red
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 160;
+	};
+	class 160Rnd_30mm_APFSDS_shells_Tracer_Green: 60Rnd_30mm_APFSDS_shells_Tracer_Green
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 160;
+	};
+	class 160Rnd_30mm_APFSDS_shells_Tracer_Yellow: 60Rnd_30mm_APFSDS_shells_Tracer_Yellow
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 160;
+	};
+    class Vorona_HEAT;
+	class 4rnd_Vorona_HEAT: Vorona_HEAT
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 4;
+		displayNameMFDFormat = "К РАКЕТА";
+	};
+    class Vorona_HE;
+	class 4rnd_Vorona_HE: Vorona_HE
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		count = 4;
+		displayNameMFDFormat = "О РАКЕТА";
+	};
+
+    /* Pylons */
 	#include "dynamicLoadout.hpp"
 };

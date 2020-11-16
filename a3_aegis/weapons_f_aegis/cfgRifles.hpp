@@ -1,3 +1,4 @@
+/* Rifles */
 class arifle_Mk20_black_F: arifle_Mk20_plain_F
 {
 	author = $STR_A3_A_AveryTheKitty;

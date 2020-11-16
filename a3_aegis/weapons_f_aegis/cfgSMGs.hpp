@@ -1,3 +1,4 @@
+/* SMGs */
 class SMG_01_black_F: SMG_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;

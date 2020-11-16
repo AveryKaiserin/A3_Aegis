@@ -21,5 +21,5 @@
 class CfgVehicles
 {
 	class Weapon_Base_F;
-	WEAPON_HOLDER(arifle_RPK_F,$STR_A3_A_CfgWeapons_arifle_RPK_F0,EdSubcat_MachineGuns,75Rnd_762x39_Mag_F)
+	WEAPON_HOLDER(arifle_RPK_F,$STR_A3_A_CfgWeapons_arifle_RPK_F0,EdSubcat_MachineGuns,75Rnd_762x39_Mag_F);
 };

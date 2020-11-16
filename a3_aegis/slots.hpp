@@ -1,7 +1,4 @@
-/*
-- Slots for attachments
-*/
-
+/* Slots for attachments */
 class SlotInfo;
 class MuzzleSlot;
 class PointerSlot;
@@ -15,10 +12,7 @@ class MuzzleSlot_MG;
 class UnderBarrelSlot_rail;
 class PointerSlot_Rail;
 
-/*
-- Slots used by CBA's Joint Rails functionality
-*/
-
+/* Slots used by CBA's Joint Rails functionality */
 class asdg_SlotInfo;
 class asdg_OpticRail;
 class asdg_MuzzleSlot;

@@ -1,3 +1,4 @@
+/* Accessories */
 class muzzle_snds_pistol_heavy_01: muzzle_snds_acp
 {
 	author = $STR_A3_A_AveryTheKitty;

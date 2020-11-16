@@ -1,7 +1,9 @@
 class CfgRecoils
 {
+    /* Inheritance Tree */
 	class recoil_default;
-	// 9M135 Vorona
+    
+	/* 9M135 Vorona */
 	class recoil_vorona: recoil_default
 	{
 		muzzleOuter[] =

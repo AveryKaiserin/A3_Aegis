@@ -22,7 +22,7 @@ class CfgVehicles
 {
 	// editor weapons
 	class Weapon_Base_F;
-	WEAPON_HOLDER(SMG_04_blk_F,$STR_A3_A_CfgWeapons_SMG_04_blk_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F)
-	WEAPON_HOLDER(SMG_04_khk_F,$STR_A3_A_CfgWeapons_SMG_04_khk_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F)
-	WEAPON_HOLDER(SMG_04_snd_F,$STR_A3_A_CfgWeapons_SMG_04_snd_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F)
+	WEAPON_HOLDER(SMG_04_blk_F,$STR_A3_A_CfgWeapons_SMG_04_blk_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F);
+	WEAPON_HOLDER(SMG_04_khk_F,$STR_A3_A_CfgWeapons_SMG_04_khk_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F);
+	WEAPON_HOLDER(SMG_04_snd_F,$STR_A3_A_CfgWeapons_SMG_04_snd_F0,EdSubcat_SubMachineGuns,40Rnd_460x30_Mag_F);
 };

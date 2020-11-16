@@ -48,10 +48,10 @@ class CfgVehicles
 		viewDriverInExternal = true;
 		viewDriverShadowAmb = 0.5;
 		viewDriverShadowDiff = 0.05;
-		driverForceOptics = false;
+		driverForceOptics = true;
 		LODDriverTurnedOut = 1201;
 		LODDriverTurnedin = VIEW_PILOT;
-		LODDriverOpticsIn = 1202;
+		LODDriverOpticsIn = VIEW_PILOT;
 		driverOpticsModel = "\A3\Weapons_F\Reticle\Optics_Driver_01_F.p3d";
 		driverLeftLegAnimName = pedal_brake;
 		driverAction = Driver_APC_Wheeled_04_out;
@@ -127,7 +127,7 @@ class CfgVehicles
 		armorStructural = 6;
 		armorLights = 0.1;
 		crewCrashProtection = 0.15;
-		crewExplosionProtection = 0.9995;
+		crewExplosionProtection = 0.999;
 		damageResistance = 0.02432;
 		class HitPoints: HitPoints
 		{
@@ -328,6 +328,8 @@ class CfgVehicles
 
 		weapons[] = {TruckHorn};
 		magazines[] = {};
+		soundLocked[] = {"\A3\Sounds_F\weapons\Rockets\locked_1",db0,1};
+		soundIncommingMissile[] = {"\A3\Sounds_F\vehicles\air\noises\alarm_locked_by_missile_4",db-8,1};
 		smokeLauncherGrenadeCount = 6;
 		smokeLauncherVelocity = 14;
 		smokeLauncherOnTurret = true;
@@ -442,7 +444,7 @@ class CfgVehicles
                     5   // B
                 };
 				position = Light_L;
-				direction = Light_L_dir;
+				direction = Light_L_end;
 				hitpoint = Light_L;
 				selection = Light_L;
 				size = 1;
@@ -466,7 +468,7 @@ class CfgVehicles
 			class Right: Left
 			{
 				position = Light_R;
-				direction = Light_R_dir;
+				direction = Light_L_end;
 				hitpoint = Light_R;
 				selection = Light_R;
 			};
@@ -499,6 +501,8 @@ class CfgVehicles
 		selectionShowDamage = poskozeni;
         selectionBrakeLights = "brzdove svetlo";
         selectionBackLights = "zadni svetlo";
+		memoryPointLMissile = Rocket_1;
+		memoryPointRMissile = Rocket_2;
 		memoryPointsLeftEngineEffect = EngineEffectL;
 		memoryPointsRightEngineEffect = EngineEffectR;
 
@@ -557,11 +561,18 @@ class CfgVehicles
 				initPhase = false;
 				animPeriod = 2;
 			};
+			class reload_cannon
+			{
+				source = reload;
+				weapon = autocannon_30mm_APC_Wheeled_04;
+			};
+            /* Requires interior MFDs
 			class revolving_cannon
 			{
 				source = revolving;
-				weapon = autocannon_30mm;
+				weapon = autocannon_30mm_APC_Wheeled_04;
 			};
+            */
 			class Missiles_revolving
 			{
 				source = revolving;
@@ -571,15 +582,17 @@ class CfgVehicles
 			{
 				source = reloadMagazine;
 			};
+            /*
 			class muzzle_rot
 			{
 				source = ammorandom;
-				weapon = autocannon_30mm;
+				weapon = autocannon_30mm_APC_Wheeled_04;
 			};
+            */
 			class muzzle_hide
 			{
 				source = reload;
-				weapon = autocannon_30mm;
+				weapon = autocannon_30mm_APC_Wheeled_04;
 			};
 			class HitEngine_src
 			{
@@ -707,7 +720,7 @@ class CfgVehicles
         /* Scripts */
 		class EventHandlers: EventHandlers
 		{
-			/*fired = "[_this select 0,_this select 6,'missile_move','MissileBase'] call BIS_fnc_missileLaunchPositionFix; _this call (uinamespace getvariable 'BIS_fnc_effectFired');";*/
+			fired = "[_this select 0,_this select 6,'missile_move','MissileBase'] call BIS_fnc_missileLaunchPositionFix; _this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		};
 	};
 

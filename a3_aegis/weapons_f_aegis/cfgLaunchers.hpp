@@ -1,3 +1,4 @@
+/* Launchers */
 class launch_RPG32_black_F: launch_RPG32_F
 {
 	author = $STR_A3_A_AveryTheKitty;

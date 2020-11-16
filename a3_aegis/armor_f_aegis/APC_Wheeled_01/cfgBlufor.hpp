@@ -751,6 +751,8 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_APC_Wheeled_01_arty_F.jpg";
 	scope = /*public*/ protected;
     scopeCurator=private;//del this
+    scopeArsenal=private;
+    forceInGarage=false;
 	accuracy = 0.3;
 	displayName = $STR_A3_A_CfgVehicles_B_APC_Wheeled_01_arty_F0;
 	//model = "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\APC_Wheeled_01_arty_F.p3d";

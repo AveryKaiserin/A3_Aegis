@@ -1,3 +1,4 @@
+/* Binoculars */
 class Laserdesignator_02_blk_F: Laserdesignator_02
 {
 	author = $STR_A3_A_AveryTheKitty;
