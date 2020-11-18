@@ -45,8 +45,10 @@ class Wheeled_APC_F: Car_F
             {
                 class CommanderOptics;
             };
+            class Components;
         };
     };
     class AnimationSources;
     class EventHandlers;
+    class Components;
 };

@@ -147,7 +147,7 @@ class Atlas_I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_b
 		{
 			magazines[] =
 			{
-				500Rnd_20mm_shells_yellow,
+				1000Rnd_20mm_shells_yellow,
 				Laserbatteries
 			};
 		};

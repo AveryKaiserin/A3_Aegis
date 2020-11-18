@@ -83,6 +83,17 @@
 #define LockYes 2
 #define LockLaser 4
 
+#define WeaponNoSlot 0
+#define WeaponSlotPrimary 1
+#define WeaponSlotSecondary 4
+#define WeaponSlotHandGun 2
+#define WeaponSlotHandGunItem 16
+#define WeaponSlotItem 256
+#define WeaponSlotBinocular 4096
+#define WeaponHardMounted 65536
+
+#define NEVER_DESTROY 1000
+
 #define StabilizedInAxesNone 0
 #define StabilizedInAxisX 1
 #define StabilizedInAxisY 2

@@ -24,6 +24,7 @@ class IEDMineBigExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractLarge)
 };
+/*
 class IEDMineSmallExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
@@ -56,10 +57,12 @@ class GrenadeExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
+*/
 class MortarExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractMed)
 };
+/*
 class ExplosionEffects
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
@@ -82,7 +85,7 @@ class MineExplosion
 };
 class ATMineExplosion
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class BoundingMineExplosion
 {
@@ -94,7 +97,7 @@ class DirectionalMineExplosion
 };
 class DirectionalMineExplosionBig
 {
-    EXPLOSION_REFRACT(ExplosionRefractMed)
+    EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 class ATRocketExplosion
 {
@@ -108,6 +111,7 @@ class HEShellExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
+*/
 class ArtyShellExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractLarge)
@@ -120,10 +124,12 @@ class HeavyBombExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractHuge)
 };
+/*
 class MissileExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
+*/
 class HelicopterExplosionEffects
 {
     EXPLOSION_REFRACT(ExplosionRefractLarge)
@@ -140,6 +146,7 @@ class VehicleExplosionEffects
 {
     EXPLOSION_REFRACT(ExplosionRefractLarge)
 };
+/*
 class RocketExplosion
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
@@ -152,3 +159,4 @@ class ExploAmmoExplosionPlaneCAS
 {
     EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
+*/

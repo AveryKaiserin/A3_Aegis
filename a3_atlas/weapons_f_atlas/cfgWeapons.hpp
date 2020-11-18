@@ -4,7 +4,7 @@ class CfgWeapons
 	class CannonCore;
 	class gatling_20mm: CannonCore
 	{
-		magazines[] += {500Rnd_20mm_shells_yellow};
+		magazines[] += {1000Rnd_20mm_shells_yellow};
 	};
 	class gatling_25mm: CannonCore
 	{

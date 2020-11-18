@@ -1,7 +1,7 @@
 simulation = carx;
 maxSpeed = 100;
 terrainCoef = 1.5;
-turnCoef = 4;
+turnCoef = 3;
 brakeIdleSpeed = 1.78;
 normalSpeedForwardCoef = 0.52;
 accelAidForceYOffset = -1.5;

@@ -9,6 +9,7 @@ class CfgMagazines
 		displayName = "7.62 mm 150Rnd Reload Tracer (Green) Box";
 	};
 	class 150Rnd_762x51_Box_Tracer;
+	class 1000Rnd_20mm_shells;
 	// Arma 3 Marksman
 	class 150Rnd_93x64_Mag: CA_Magazine
 	{
@@ -26,7 +27,6 @@ class CfgMagazines
 		displayName = "7.62 mm 75Rnd AKM Tracer (Yellow) Mag";
 	};
 	// Arma 3 Aegis
-	class 500Rnd_20mm_shells;
 	class 220Rnd_25mm_shells;
 	// Arma 3 Atlas
 	class 150Rnd_762x51_Box_Yellow: 150Rnd_762x51_Box
@@ -44,7 +44,7 @@ class CfgMagazines
 		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
 		tracersEvery = 1;
 	};
-	class 500Rnd_20mm_shells_yellow: 500Rnd_20mm_shells
+	class 1000Rnd_20mm_shells_yellow: 1000Rnd_20mm_shells
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		ammo = B_20mm_Tracer_Yellow;

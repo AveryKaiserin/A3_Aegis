@@ -18,8 +18,7 @@ class O_R_APC_Wheeled_04_cannon_F: APC_Wheeled_04_base_F
     {
         "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
         "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-        "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
-        //"\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_RUkhk_CO.paa",
+        "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
     };

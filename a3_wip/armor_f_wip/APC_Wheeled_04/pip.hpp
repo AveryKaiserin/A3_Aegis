@@ -2,11 +2,11 @@ class RenderTargets
 {
 	class mirror_l
 	{
-		renderTarget = mirror_l;
-		class Camera
+		renderTarget = "mirror_l";
+		class CameraView1
 		{
-			pointPosition = PIP0_pos;
-			pointDirection = PIP0_dir;
+			pointPosition = "PIP0_pos";
+			pointDirection = "PIP0_dir";
 			renderVisionMode = 4;
 			renderQuality = 2;
 			fov = 0.7;
@@ -21,11 +21,11 @@ class RenderTargets
 	};
 	class mirror_r
 	{
-		renderTarget = mirror_r;
-		class Camera
+		renderTarget = "mirror_r";
+		class CameraView1
 		{
-			pointPosition = PIP1_pos;
-			pointDirection = PIP1_dir;
+			pointPosition = "PIP1_pos";
+			pointDirection = "PIP1_dir";
 			renderVisionMode = 4;
 			renderQuality = 2;
 			fov = 0.7;

@@ -3,12 +3,11 @@
 - Placed in CfgGroups
 */
 
-// Unit for a group
-#define GROUP_UNIT(num,unit,side,rank,posX,posY) \
-	class Unit##num \
+#define GROUP_UNIT(a,b,c,d,posX,posY) \
+	class Unit##a## \
 	{ \
-		side = side; \
-		vehicle = unit; \
-		rank = rank; \
-		position[] = {posX,posY,0}; \
-	};
+		side = ##c##; \
+		vehicle = ##b##; \
+		rank = ##d##; \
+		position[] = {##posX##,##posY##,0}; \
+	}

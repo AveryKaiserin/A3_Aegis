@@ -329,6 +329,20 @@ class CfgHints
 			modelScale = 0.3;
 			logicalOrder = 42;
 		};
+		class APC_Wheeled_04
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgVehicles_APC_Wheeled_04_base_F0},
+				{STR_A3_A_CfgVehicles_APC_Wheeled_04_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = O_R_APC_Wheeled_04_cannon_F;
+			logicalOrder = 8;
+		};
 		class Boat_Civil_02
 		{
 			displayName = %11;

@@ -35,15 +35,15 @@ class CfgVehicles
         engineStartSpeed = 5;
 
         /* Water Behaviour */
-		canFloat = true;
         waterLeakiness = 2.5;
+		canFloat = true;
 		waterAngularDampingCoef = 10.0;
 		waterPPInVehicle = false;
-		waterResistanceCoef = 0.5;
+        waterResistanceCoef = 0.5;
 
         /* Crew */
 		memoryPointDriverOptics = driverview;
-		driverInfoPanelCameraPos = driverview_old;
+		driverInfoPanelCameraPos = /*driverview_old*/ driverview;
 		forceHideDriver = false;
 		viewDriverInExternal = true;
 		viewDriverShadowAmb = 0.5;
@@ -57,7 +57,7 @@ class CfgVehicles
 		driverAction = Driver_APC_Wheeled_04_out;
 		driverInAction = Driver_APC_Wheeled_04_in;
 		hideWeaponsCargo = true;
-		cargoIsCoDriver[] = {0};
+		cargoIsCoDriver[] = {false};
 		viewCargoShadowDiff = 1.0;
 		viewCargoShadowAmb = 1.0;
 		cargoAction[] =
@@ -67,10 +67,9 @@ class CfgVehicles
             passenger_apc_generic04,
             passenger_generic01_foldhands,
             passenger_apc_narrow_generic02,
-            passenger_apc_generic02b,
-            passenger_generic01_leanright
+            passenger_apc_generic02b
         };
-		transportSoldier = 7;
+		transportSoldier = 6;
 		showNVGDriver = false;
 		showNVGCommander = false;
 		showNVGGunner = false;
@@ -116,24 +115,23 @@ class CfgVehicles
 		};
 		extCameraPosition[] =
         {
-            0,      // X
-            3,      // Y
+            0.0,    // X
+            3.0,    // Y
             -7.2    // Z
         };
 
         /* Damage */
 		wheelDestroyRadiusCoef = 0.6;
-		armor = 200;
-		armorStructural = 6;
+		armor = 280;
+		armorStructural = 5;
 		armorLights = 0.1;
-		crewCrashProtection = 0.15;
-		crewExplosionProtection = 0.999;
-		damageResistance = 0.02432;
+		crewExplosionProtection = 0.9995;
+		damageResistance = /*0.00719*/ 0.00455625;
 		class HitPoints: HitPoints
 		{
 			class HitHull: HitHull
 			{
-				armor = 2;
+				armor = 1.6;
 				material = -1;
 				armorComponent = hit_hull;
 				name = hit_hull_point;
@@ -145,7 +143,7 @@ class CfgVehicles
 			};
 			class HitEngine: HitEngine
 			{
-				armor = 1.25;
+				armor = 0.75;
 				material = -1;
 				armorComponent = hit_engine;
 				name = hit_engine_point;
@@ -304,25 +302,25 @@ class CfgVehicles
 			tex[] = {};
 			mat[] =
             {
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_destruct.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_destruct.rvmat",
                 
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_destruct.rvmat",
-                /*
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_destruct.rvmat",
-                */
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_destruct.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_destruct.rvmat",
                 
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2_damage.rvmat",
-                "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2_destruct.rvmat"
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_destruct.rvmat",
+                
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_destruct.rvmat",
+                
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int2_destruct.rvmat"
             };
 		};
 
@@ -349,15 +347,11 @@ class CfgVehicles
                 {
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_RUkhk_CO.paa",
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
                 };
-				factions[] =
-                {
-                    OPF_R_F,
-                    OPF_R_ard_F
-                };
+				factions[] = {};
 			};
 		};
 		textureList[] = {Green,1};
@@ -375,7 +369,7 @@ class CfgVehicles
         {
             "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
             "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-            "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tows_RUkhk_CO.paa",
+            "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
             "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
             "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
         };
@@ -468,7 +462,7 @@ class CfgVehicles
 			class Right: Left
 			{
 				position = Light_R;
-				direction = Light_L_end;
+				direction = Light_R_end;
 				hitpoint = Light_R;
 				selection = Light_R;
 			};
@@ -505,6 +499,13 @@ class CfgVehicles
 		memoryPointRMissile = Rocket_2;
 		memoryPointsLeftEngineEffect = EngineEffectL;
 		memoryPointsRightEngineEffect = EngineEffectR;
+		slingLoadCargoMemoryPoints[] =
+		{
+			SlingLoadCargo1,
+			SlingLoadCargo2,
+			SlingLoadCargo3,
+			SlingLoadCargo4
+		};
 
         /* Picture-in-Picture */
 		#include "pip.hpp"
@@ -716,6 +717,22 @@ class CfgVehicles
             showSLATHull,0
             */
         };
+
+        /* Vehicle-in-Vehicle */
+		class VehicleTransport
+		{
+			class Cargo
+			{
+				parachuteClass = O_Parachute_02_F;
+				parachuteHeightLimit = 5;
+				canBeTransported = true;
+				dimensions[] =
+                {
+                    BBox_1_1_pos,
+                    BBox_1_2_pos
+                };
+			};
+		};
 
         /* Scripts */
 		class EventHandlers: EventHandlers

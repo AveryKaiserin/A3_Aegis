@@ -10,11 +10,12 @@ class Turrets: Turrets
                 gun = obsGun;
                 animationSourceBody = obsTurret;
                 animationSourceGun = obsGun;
-				turretInfoType = RscOptics_MBT_02_commander;
 				showCrewAim = 1;
 				startEngine = false;
 				turretFollowFreeLook = 2;
-                // Rotation and elevation
+				turretInfoType = RscOptics_MBT_02_commander;
+
+                /* Servos */
 				minElev = -25;
 				maxElev = 60;
 				initElev = 0;
@@ -23,14 +24,16 @@ class Turrets: Turrets
 				initTurn = 0;
 				maxHorizontalRotSpeed = 1.8;
 				maxVerticalRotSpeed = 1.8;
-                // Weapons and magazines
-				weapons[] = {SmokeLauncher};
-				magazines[] = {SmokeLauncherMag};
 				soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",0.56234133,1,30};
 				soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",0.56234133,1,30};
 				stabilizedInAxes = StabilizedInAxesBoth;
+
+                /* Weapons & Ammunition */
+				weapons[] = {SmokeLauncher};
+				magazines[] = {SmokeLauncherMag};
 				gunnerHasFlares = true;
-                // Interior and animations
+
+                /* Crew */
 				outGunnerMayFire = false;
 				inGunnerMayFire = true;
 				forceHideGunner = false;
@@ -39,41 +42,19 @@ class Turrets: Turrets
 				gunnerInAction = Commander_APC_Wheeled_04_in;
 				gunnerGetInAction = GetInAMV_cargo;
 				gunnerGetOutAction = GetOutLow;
-				isPersonTurret = true;
-				personTurretAction = vehicle_turnout_1;
 				gunnerForceOptics = true;
 				usepip = 2;
 				LODTurnedIn = VIEW_CARGO;
 				LODTurnedOut = VIEW_CARGO;
 				LODOpticsIn = 0;
-				animationSourceStickX = com_turret_control_x;
-				animationSourceStickY = com_turret_control_y;
-				gunnerRightHandAnimName = com_turret_control;
 				viewGunnerShadowAmb = 0.5;
 				viewGunnerShadowDiff = 0.05;
-                // Optics
+
+                /* Optics */
 				gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Commander_OPFOR_F.p3d";
 				gunnerOpticsEffect[] = {};
 				memoryPointGunnerOutOptics = commanderview;
 				memoryPointGunnerOptics = commanderview;
-				class ViewGunner: ViewGunner
-				{
-					initAngleX = -10;
-					initAngleY = 0;
-					initFov = 0.9;
-					minFov = 0.25;
-					maxFov = 1.25;
-					minAngleX = -65;
-					maxAngleX = 85;
-					minAngleY = -150;
-					maxAngleY = 150;
-					minMoveX = -0.075;
-					maxMoveX = 0.075;
-					minMoveY = -0.075;
-					maxMoveY = 0.075;
-					minMoveZ = -0.075;
-					maxMoveZ = 0.1;
-				};
 				class ViewOptics: ViewOptics
 				{
 					initAngleX = 0;
@@ -102,38 +83,81 @@ class Turrets: Turrets
 					class Medium: Medium{};
 					class Narrow: Narrow{};
 				};
-                // Damage and hitpoints
+
+                /* Damage */
 				class HitPoints
 				{
 					class HitComTurret
 					{
-						armor = 0.5;
+						armor = 0.08;
 						material = -1;
 						armorComponent = hit_com_turret;
 						name = hit_com_turret_point;
 						visual = vezVelitele;
-						passThrough = 0;
-						minimalHit = 0.05;
+						passThrough = 0.4;
+						minimalHit = 0.1;
 						explosionShielding = 1;
 						radius = 0.15;
 						isTurret = true;
 					};
 					class HitComGun
 					{
-						armor = 0.1;
+						armor = 0.04;
 						material = -1;
 						armorComponent = hit_com_gun;
 						name = hit_com_gun_point;
-						visual = zbranVelitele;
+						visual = "-";
 						passThrough = 0;
-						minimalHit = 0.05;
+						minimalHit = 0.1;
 						explosionShielding = 1;
 						radius = 0.15;
 						isGun = true;
 					};
-				};
-			};
-		};
+                };
+
+                /* Sensors & Components */
+                class Components
+                {
+                    class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+                    {
+                        class Components: components
+                        {
+                            class SensorDisplay
+                            {
+                                componentType = SensorsDisplayComponent;
+                                range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+                                resource = RscCustomInfoSensors;
+                            };
+                        };
+                    };
+                    class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+                    {
+                        defaultDisplay = SensorDisplay;
+                        class Components: components
+                        {
+                            class SensorDisplay
+                            {
+                                componentType = SensorsDisplayComponent;
+                                range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+                                resource = RscCustomInfoSensors;
+                            };
+                        };
+                    };
+                };
+            };
+        };
 		body = mainTurret;
 		gun = mainGun;
         turretInfoType = RscOptics_MBT_02_gunner;
@@ -188,7 +212,8 @@ class Turrets: Turrets
 		gunnerRightHandAnimName = turret_control;
 		viewGunnerShadowAmb = 0.5;
 		viewGunnerShadowDiff = 0.05;
-        // Optics
+
+        /* Optics */
 		discreteDistance[] =
         {
             100,
@@ -225,24 +250,6 @@ class Turrets: Turrets
 		discreteDistanceInitIndex = 2;
 		gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_02_F.p3d";
 		memoryPointGunnerOptics = gunnerview;
-		class ViewGunner: ViewGunner
-		{
-			initAngleX = -10;
-			initAngleY = 0;
-			initFov = 0.9;
-			minFov = 0.25;
-			maxFov = 1.25;
-			minAngleX = -65;
-			maxAngleX = 85;
-			minAngleY = -150;
-			maxAngleY = 150;
-			minMoveX = -0.075;
-			maxMoveX = 0.075;
-			minMoveY = -0.075;
-			maxMoveY = 0.075;
-			minMoveZ = -0.075;
-			maxMoveZ = 0.1;
-		};
 		class ViewOptics: RCWSOptics
 		{
 			visionMode[] =
@@ -262,7 +269,7 @@ class Turrets: Turrets
 		{
 			class HitTurret
 			{
-				armor = 1.5;
+				armor = 0.8;
 				material = -1;
 				armorComponent = hit_main_turret;
 				name = hit_main_turret_point;
@@ -270,12 +277,12 @@ class Turrets: Turrets
 				passThrough = 0;
 				minimalHit = 0.1;
 				explosionShielding = 0.2;
-				radius = 0.2;
+				radius = 0.25;
 				isTurret = true;
 			};
 			class HitGun
 			{
-				armor = 1.5;
+				armor = 0.6;
 				material = -1;
 				armorComponent = hit_main_gun;
 				name = hit_main_gun_point;
@@ -287,5 +294,47 @@ class Turrets: Turrets
 				isGun = true;
 			};
 		};
-	};
+
+        /* Sensors & Components */
+        class Components: Components
+        {
+            class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftGunner
+            {
+                class Components: components
+                {
+                    class SensorDisplay
+                    {
+                        componentType = SensorsDisplayComponent;
+                        range[] =
+                        {
+                            1000,
+                            2000,
+                            4000,
+                            8000
+                        };
+                        resource = RscCustomInfoSensors;
+                    };
+                };
+            };
+            class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightGunner
+            {
+                defaultDisplay = SensorDisplay;
+                class Components: components
+                {
+                    class SensorDisplay
+                    {
+                        componentType = SensorsDisplayComponent;
+                        range[] =
+                        {
+                            1000,
+                            2000,
+                            4000,
+                            8000
+                        };
+                        resource = RscCustomInfoSensors;
+                    };
+                };
+            };
+        };
+    };
 };

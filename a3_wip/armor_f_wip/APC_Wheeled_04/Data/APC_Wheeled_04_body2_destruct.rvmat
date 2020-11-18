@@ -24,8 +24,8 @@ class Stage2
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={6,0,0};
-		up[]={0,6,0};
+		aside[]={8,8,0};
+		up[]={-8,8,0};
 		dir[]={0,0,0};
 		pos[]={0,0,0};
 	};
@@ -36,10 +36,10 @@ class Stage3
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={6,0,0};
-		up[]={0,6,0};
+		aside[]={2,0,0};
+		up[]={0,2,0};
 		dir[]={0,0,0};
-		pos[]={0,0,0};
+		pos[]={0,0.2,0};
 	};
 };
 class Stage4
@@ -60,10 +60,10 @@ class Stage5
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={8,0,0};
-		up[]={0,8,0};
-		dir[]={0,0,0};
-		pos[]={0,0,0};
+		aside[]={2,0,0};
+		up[]={0,2,0};
+		dir[]={0,0,1};
+		pos[]={0,0.2,1};
 	};
 };
 class Stage6
@@ -74,6 +74,5 @@ class Stage6
 class Stage7
 {
 	texture="a3\data_f\env_land_co.tga";
-	useWorldEnvMap="true";
 	uvSource="none";
 };

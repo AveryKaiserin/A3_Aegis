@@ -193,11 +193,11 @@ class CfgWeapons
 	};
 	class gatling_20mm: CannonCore
 	{
-		magazines[] +=
+		class manual: CannonCore
 		{
-			500Rnd_20mm_shells,
-			PylonWeapon_250Rnd_20mm_shells
-		};
+            burst = 5;
+			soundBurst = true;;
+        };
 	};
 	class gatling_30mm_base: CannonCore
 	{
@@ -1592,7 +1592,7 @@ class CfgWeapons
 	};
 	class autocannon_30mm_RCWS: autocannon_Base_F
 	{
-        displayName = $STR_A3_GATLING_30MM0;
+        displayName = $STR_A3_CfgWeapons_cannon_30mm;
 		magazines[] +=
 		{
 			60Rnd_30mm_MP_shells_Tracer_Red,
@@ -2220,10 +2220,10 @@ class CfgWeapons
 	};
 	class autocannon_30mm_APC_Wheeled_04: autocannon_30mm_CTWS
 	{
-        displayName = $STR_A3_GATLING_30MM0;
+        displayName = $STR_A3_CfgWeapons_cannon_30mm;
 		class HE: HE
 		{
-            displayName = $STR_A3_GATLING_30MM0;
+            displayName = $STR_A3_CfgWeapons_cannon_30mm;
             magazines[] =
             {
                 340Rnd_30mm_HE_shells,
@@ -2238,7 +2238,7 @@ class CfgWeapons
 		};
 		class AP: AP
 		{
-            displayName = $STR_A3_GATLING_30MM0;
+            displayName = $STR_A3_CfgWeapons_cannon_30mm;
             magazines[] =
             {
                 160Rnd_30mm_APFSDS_shells,
@@ -2249,15 +2249,6 @@ class CfgWeapons
 			class player: player
 			{
 			    reloadTime = RPM_450;
-			};
-		};
-		class GunParticles
-		{
-			class Effect
-			{
-				effectName = AutoCannonFired;
-				positionName = "Usti hlavne";
-				directionName = "Konec hlavne";
 			};
 		};
 	};
