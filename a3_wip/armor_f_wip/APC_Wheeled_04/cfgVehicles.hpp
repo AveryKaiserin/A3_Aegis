@@ -8,17 +8,6 @@ class CfgVehicles
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		mapSize = 8;
-		class SpeechVariants
-		{
-			class Default
-			{
-				speechSingular[] = {veh_vehicle_APC_s};
-				speechPlural[] = {veh_vehicle_APC_p};
-			};
-		};
-		textSingular = $STR_A3_nameSound_veh_vehicle_APC_s;
-		textPlural = $STR_A3_nameSound_veh_vehicle_APC_p;
-		nameSound = veh_vehicle_APC_s;
 		scope = private;
 		displayName = $STR_A3_A_CfgVehicles_APC_Wheeled_04_base_F0;
 		model = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\APC_Wheeled_04_cannon_F.p3d";
