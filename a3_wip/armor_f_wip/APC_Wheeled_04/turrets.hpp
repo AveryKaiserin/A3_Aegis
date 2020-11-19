@@ -217,7 +217,7 @@ class Turrets: Turrets
 		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
 		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
 		stabilizedInAxes = StabilizedInAxesBoth;
-        lockWhenDriverOut = true;
+        //lockWhenDriverOut = true;
 
         /* Crew */
 		gunnerAction = Gunner_APC_Wheeled_04_out;
