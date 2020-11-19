@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class A3_Wip_Armor_F_Wip_APC_Wheeled_04
+	class A3_Aegis_Armor_F_Aegis_APC_Wheeled_04
 	{
-		addonRootClass = A3_Wip_Armor_F_Wip;
-		requiredAddons[] = {A3_Wip_Armor_F_Wip};
+		addonRootClass = A3_Aegis_Armor_F_Aegis;
+		requiredAddons[] = {A3_Aegis_Armor_F_Aegis};
 		requiredVersion = 0.1;
 		units[] =
         {
