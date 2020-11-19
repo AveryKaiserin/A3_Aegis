@@ -6426,6 +6426,23 @@
 					<Japanese>AveryTheKitty ＆ Kiory</Japanese>
 					<Turkish>AveryTheKitty ve Kiory</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_AveryTheKitty_and_Lakarak">
+					<Original>AveryTheKitty and Lakarak</Original>
+					<Chinese>AveryTheKitty 克與 Lakarak</Chinese>
+					<French>AveryTheKitty et Lakarak</French>
+					<Spanish>AveryTheKitty y Lakarak</Spanish>
+					<Italian>AveryTheKitty e Lakarak</Italian>
+					<Polish>AveryTheKitty i Lakarak</Polish>
+					<Russian>AveryTheKitty и Lakarak</Russian>
+					<German>AveryTheKitty und Lakarak</German>
+					<Czech>AveryTheKitty a Lakarak</Czech>
+					<English>AveryTheKitty and Lakarak</English>
+					<Portuguese>AveryTheKitty e Lakarak</Portuguese>
+					<Korean>AveryTheKitty Lakarak</Korean>
+					<Chinesesimp>AveryTheKitty 和 Lakarak</Chinesesimp>
+					<Japanese>AveryTheKitty ＆ Lakarak</Japanese>
+					<Turkish>AveryTheKitty ve Lakarak</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_AveryTheKitty_and_Maxim_Koptelov">
 					<Original>AveryTheKitty and Maxim Koptelov</Original>
 					<Chinese>AveryTheKitty 克與 Maxim Koptelov</Chinese>
@@ -6646,6 +6663,23 @@
 					<Chinesesimp>wsxcgy</Chinesesimp>
 					<Japanese>wsxcgy</Japanese>
 					<Turkish>wsxcgy</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_PlusUltra">
+					<Original>PlusUltra</Original>
+					<Chinese>PlusUltra</Chinese>
+					<French>PlusUltra</French>
+					<Spanish>PlusUltra</Spanish>
+					<Italian>PlusUltra</Italian>
+					<Polish>PlusUltra</Polish>
+					<Russian>PlusUltra</Russian>
+					<German>PlusUltra</German>
+					<Czech>PlusUltra</Czech>
+					<English>PlusUltra</English>
+					<Portuguese>PlusUltra</Portuguese>
+					<Korean>PlusUltra</Korean>
+					<Chinesesimp>PlusUltra</Chinesesimp>
+					<Japanese>PlusUltra</Japanese>
+					<Turkish>PlusUltra</Turkish>
 				</Key>
 			</Container>
 			<Container name="Faction_Classes">

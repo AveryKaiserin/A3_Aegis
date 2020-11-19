@@ -25,13 +25,18 @@ class srifle_EBR_khk_F: srifle_EBR_F
 };
 class srifle_DMR_01_black_F: srifle_DMR_01_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_PlusUltra;
 	baseWeapon = srifle_DMR_01_black_F;
 	displayName = $STR_A3_A_CfgWeapons_srifle_DMR_01_black_F0;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_black_CO.paa",
 		"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_black_CO.paa"
+	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_01_black.rvmat",
+		"\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\DMR_02_black.rvmat"
 	};
 	picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_01\Data\UI\icon_srifle_DMR_01_black_F_X_CA.paa";
 };

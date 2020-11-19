@@ -6,8 +6,8 @@
 #define GROUP_UNIT(a,b,c,d,posX,posY) \
 	class Unit##a## \
 	{ \
-		side = ##c##; \
-		vehicle = ##b##; \
+		side = ##b##; \
+		vehicle = ##c##; \
 		rank = ##d##; \
 		position[] = {##posX##,##posY##,0}; \
 	}

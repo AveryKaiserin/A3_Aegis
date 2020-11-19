@@ -2986,11 +2986,11 @@ class CfgGroups
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
 					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,O_R_soldier_SL_F,SERGEANT,5,-5);
-					GROUP_UNIT(2,TEast,O_R_soldier_LAT_F,CORPORAL,10,-10);
-					GROUP_UNIT(3,TEast,O_R_soldier_M_F,PRIVATE,-10,-10);
-					GROUP_UNIT(4,TEast,O_R_soldier_TL_F,SERGEANT,15,-15);
-					GROUP_UNIT(5,TEast,O_R_soldier_AR_F,CORPORAL,-15,-15);
-					GROUP_UNIT(6,TEast,O_R_medic_F,PRIVATE,-20,-20);
+					GROUP_UNIT(2,TEast,O_R_soldier_LAT_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TEast,O_R_soldier_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TEast,O_R_soldier_TL_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TEast,O_R_soldier_AR_F,CORPORAL,15,15);
+					GROUP_UNIT(6,TEast,O_R_medic_F,PRIVATE,-15,-15);
 				};
 				class O_R_MechInf_AT
 				{
@@ -3034,9 +3034,9 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,O_R_soldier_SL_F,SERGEANT,5,-5);
 					GROUP_UNIT(2,TEast,O_R_soldier_TL_F,SERGEANT,-5,-5);
 					GROUP_UNIT(3,TEast,O_R_soldier_repair_F,CORPORAL,10,-10);
-					GROUP_UNIT(4,TEast,O_R_engineer_F,PRIVATE,-10,-10);
-					GROUP_UNIT(5,TEast,O_R_medic_F,PRIVATE,15,-15);
-					GROUP_UNIT(6,TEast,O_R_soldier_exp_F,PRIVATE,20,-20);
+					GROUP_UNIT(4,TEast,O_R_engineer_F,CORPORAL,-10,-10);
+					GROUP_UNIT(5,TEast,O_R_medic_F,PRIVATE,15,15);
+					GROUP_UNIT(6,TEast,O_R_soldier_exp_F,PRIVATE,-15,-15);
 				};
 			};
 			class Armored
@@ -3112,6 +3112,15 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,O_R_MBT_04_cannon_F,SERGEANT,10,-10);
 					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_F,SERGEANT,-10,-10);
 					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_F,CORPORAL,20,-20);
+				};
+				class O_R_TankDestrSection_Nosorog
+				{
+					name = $STR_A3_CfgGroups_TDSection;
+					side = TEast;
+					faction = OPF_R_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
+					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_v2_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TEast,O_R_APC_Wheeled_04_cannon_v2_F,SERGEANT,10,-10);
 				};
 			};
 		};
@@ -3504,11 +3513,11 @@ class CfgGroups
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
 					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_ard_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5);
-					GROUP_UNIT(2,TEast,O_R_soldier_LAT_ard_F,CORPORAL,10,-10);
-					GROUP_UNIT(3,TEast,O_R_soldier_M_ard_F,PRIVATE,-10,-10);
-					GROUP_UNIT(4,TEast,O_R_soldier_TL_ard_F,SERGEANT,15,-15);
-					GROUP_UNIT(5,TEast,O_R_soldier_AR_ard_F,CORPORAL,-15,-15);
-					GROUP_UNIT(6,TEast,O_R_medic_ard_F,PRIVATE,-20,-20);
+					GROUP_UNIT(2,TEast,O_R_soldier_LAT_ard_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TEast,O_R_soldier_M_ard_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TEast,O_R_soldier_TL_ard_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TEast,O_R_soldier_AR_ard_F,CORPORAL,15,15);
+					GROUP_UNIT(6,TEast,O_R_medic_ard_F,PRIVATE,-15,-15);
 				};
 				class O_R_MechInf_AT
 				{
@@ -3552,9 +3561,9 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,O_R_soldier_SL_ard_F,SERGEANT,5,-5);
 					GROUP_UNIT(2,TEast,O_R_soldier_TL_ard_F,SERGEANT,-5,-5);
 					GROUP_UNIT(3,TEast,O_R_soldier_repair_ard_F,CORPORAL,10,-10);
-					GROUP_UNIT(4,TEast,O_R_engineer_ard_F,PRIVATE,-10,-10);
-					GROUP_UNIT(5,TEast,O_R_medic_ard_F,PRIVATE,15,-15);
-					GROUP_UNIT(6,TEast,O_R_soldier_exp_ard_F,PRIVATE,20,-20);
+					GROUP_UNIT(4,TEast,O_R_engineer_ard_F,CORPORAL,-10,-10);
+					GROUP_UNIT(5,TEast,O_R_medic_ard_F,PRIVATE,15,15);
+					GROUP_UNIT(6,TEast,O_R_soldier_exp_ard_F,PRIVATE,-15,-15);
 				};
 			};
 			class Armored
@@ -3630,6 +3639,15 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,10,-10);
 					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,-10,-10);
 					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_ard_F,CORPORAL,20,-20);
+				};
+				class O_R_TankDestrSection_Nosorog
+				{
+					name = $STR_A3_CfgGroups_TDSection;
+					side = TEast;
+					faction = OPF_R_ard_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
+					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_v2_ard_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TEast,O_R_APC_Wheeled_04_cannon_v2_ard_F,SERGEANT,10,-10);
 				};
 			};
 		};

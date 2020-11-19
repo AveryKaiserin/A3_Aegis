@@ -120,6 +120,21 @@ class CfgWeapons
 			};
         };
     };
+	class weapon_Cannon_Phalanx: CannonCore
+    {
+		class manual: CannonCore
+		{
+			class StandardSound
+			{
+				begin1[] =
+                {
+                    "\A3\Sounds_F_Exp\arsenal\vehicle_weapons\gatling_20mm\20mm_01_burst",db10,1,1500,
+                    {6924,24260}
+                };
+				soundBegin[] = {begin1,1};
+			};
+        };
+    };
     class GrenadeLauncher;
 	class UGL_F;
 	class Rifle_Base_F;

@@ -38,23 +38,45 @@ class Turrets: Turrets
 				inGunnerMayFire = true;
 				forceHideGunner = false;
 				viewGunnerInExternal = true;
-				gunnerAction = Commander_APC_Wheeled_04_out;
-				gunnerInAction = Commander_APC_Wheeled_04_in;
+				gunnerAction = commander_apcwheeled2_out;
+				gunnerInAction = commander_apcwheeled2_in;
 				gunnerGetInAction = GetInAMV_cargo;
 				gunnerGetOutAction = GetOutLow;
 				gunnerForceOptics = true;
 				usepip = 2;
-				LODTurnedIn = VIEW_CARGO;
-				LODTurnedOut = VIEW_CARGO;
-				LODOpticsIn = 0;
+				LODTurnedIn = VIEW_PILOT;
+				LODTurnedOut = 1201;
+				LODOpticsIn = VIEW_PILOT;
 				viewGunnerShadowAmb = 0.5;
 				viewGunnerShadowDiff = 0.05;
+
+                /* Firing-from-Vehicles*/
+				isPersonTurret = true;
+				personTurretAction = vehicle_turnout_2;
 
                 /* Optics */
 				gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Commander_OPFOR_F.p3d";
 				gunnerOpticsEffect[] = {};
 				memoryPointGunnerOutOptics = commanderview;
 				memoryPointGunnerOptics = commanderview;
+                class ViewGunner: ViewGunner
+                {
+                    initAngleX = -6.5;
+                    initAngleY = 0;
+                    initFov = 0.9;
+                    minFov = 0.25;
+                    maxFov = 1.25;
+                    minAngleX = -65;
+                    maxAngleX = 85;
+                    minAngleY = -150;
+                    maxAngleY = 150;
+                    minMoveX = -0.075;
+                    maxMoveX = 0.075;
+                    minMoveY = -0.075;
+                    maxMoveY = 0.075;
+                    minMoveZ = -0.075;
+                    maxMoveZ = 0.1;
+                };
 				class ViewOptics: ViewOptics
 				{
 					initAngleX = 0;
@@ -158,13 +180,15 @@ class Turrets: Turrets
                 };
             };
         };
+
 		body = mainTurret;
 		gun = mainGun;
-        turretInfoType = RscOptics_MBT_02_gunner;
 		commanding = 1;
         showCrewAim = 2;
 		startEngine = false;
-        // Weapons and magazines
+        turretInfoType = RscOptics_MBT_02_gunner;
+
+        /* Weapons & Ammunition */
 		weapons[] =
         {
             autocannon_30mm_APC_Wheeled_04,
@@ -178,12 +202,10 @@ class Turrets: Turrets
 			2000Rnd_762x51_Belt_Green,
 			4rnd_Vorona_HEAT
         };
-		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
-		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
-		stabilizedInAxes = StabilizedInAxesBoth;
 		selectionFireAnim = zasleh2;
 		memoryPointGun[] = {"usti hlavne3"};
-        // Rotation and elevation
+
+        /* Servos */
 		minElev = -5;
 		maxElev = 35;
 		initElev = 0;
@@ -192,12 +214,15 @@ class Turrets: Turrets
 		initTurn = 0;
 		minCamElev = -90;
 		maxCamElev = 90;
-        // Interior and animations
+		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
+		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
+		stabilizedInAxes = StabilizedInAxesBoth;
+        lockWhenDriverOut = true;
+
+        /* Crew */
 		gunnerAction = Gunner_APC_Wheeled_04_out;
 		gunnerInAction = Gunner_APC_Wheeled_04_in;
 		gunnerForceOptics = true;
-		gunnerGetInAction = GetInAMV_cargo;
-		gunnerGetOutAction = GetOutLow;
 		forceHideGunner = true;
 		viewGunnerInExternal = true;
 		castGunnerShadow = true;
@@ -212,6 +237,10 @@ class Turrets: Turrets
 		gunnerRightHandAnimName = turret_control;
 		viewGunnerShadowAmb = 0.5;
 		viewGunnerShadowDiff = 0.05;
+
+        /* Enter & Exit Animations */
+		gunnerGetInAction = GetInAMV_cargo;
+		gunnerGetOutAction = GetOutLow;
 
         /* Optics */
 		discreteDistance[] =
@@ -264,7 +293,8 @@ class Turrets: Turrets
 			class Medium: Medium{};
 			class Narrow: Narrow{};
 		};
-        // Damage and hitpoints
+
+        /* Damage */
 		class HitPoints
 		{
 			class HitTurret

@@ -119,6 +119,7 @@ class CfgWeapons
         autoReload = false;
         backgroundReload = false;
     };
+	class HMG_NSVT;
 	class SmokeLauncher;
 	class CMFlareLauncher: SmokeLauncher
 	{
@@ -196,7 +197,7 @@ class CfgWeapons
 		class manual: CannonCore
 		{
             burst = 5;
-			soundBurst = true;;
+			soundBurst = true;
         };
 	};
 	class gatling_30mm_base: CannonCore
@@ -1558,6 +1559,15 @@ class CfgWeapons
 	class SMG_05_base_F;
 	class SMG_05_F;
 	// Arma 3 Jets
+	class weapon_Cannon_Phalanx: CannonCore
+    {
+		class manual: CannonCore
+		{
+            burst = 5;
+			soundContinuous = true;
+			soundBurst = false;
+        };
+    };
 	class weapon_Fighter_Gun20mm_AA: CannonCore
 	{
 		magazines[] +=
@@ -1592,7 +1602,6 @@ class CfgWeapons
 	};
 	class autocannon_30mm_RCWS: autocannon_Base_F
 	{
-        displayName = $STR_A3_CfgWeapons_cannon_30mm;
 		magazines[] +=
 		{
 			60Rnd_30mm_MP_shells_Tracer_Red,
@@ -1756,6 +1765,33 @@ class CfgWeapons
         autoReload = true;
         backgroundReload = true;
         magazineReloadTime = 20;
+	};
+	class HMG_NSVT_Mounted: HMG_NSVT
+	{
+		displayName = "NSV-M HMG 12.7 mm";
+		showAimCursorInternal = true;
+		type = 1;
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName = "usti hlavne";
+				directionName = "konec hlavne";
+				effectName = MachineGunCloud;
+			};
+			class effect2
+			{
+				positionName = nabojnicestart;
+				directionName = nabojniceend;
+				effectName = MachineGunEject;
+			};
+			class effect3
+			{
+				positionName = case_eject_pos;
+				directionName = case_eject_dir;
+				effectName = MachineGunCartridge2;
+			};
+		};
 	};
 	class CMFlareLauncher_Quadruples: CMFlareLauncher
 	{
@@ -2220,10 +2256,8 @@ class CfgWeapons
 	};
 	class autocannon_30mm_APC_Wheeled_04: autocannon_30mm_CTWS
 	{
-        displayName = $STR_A3_CfgWeapons_cannon_30mm;
 		class HE: HE
 		{
-            displayName = $STR_A3_CfgWeapons_cannon_30mm;
             magazines[] =
             {
                 340Rnd_30mm_HE_shells,
@@ -2303,7 +2337,6 @@ class CfgWeapons
 		};
 		class AP: AP
 		{
-            displayName = $STR_A3_CfgWeapons_cannon_30mm;
             magazines[] =
             {
                 160Rnd_30mm_APFSDS_shells,

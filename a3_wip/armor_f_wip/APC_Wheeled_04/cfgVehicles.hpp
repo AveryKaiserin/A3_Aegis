@@ -6,7 +6,7 @@ class CfgVehicles
     /* Bases */
 	class APC_Wheeled_04_base_F: Wheeled_APC_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Lakarak;
 		mapSize = 8;
 		scope = private;
 		displayName = $STR_A3_A_CfgVehicles_APC_Wheeled_04_base_F0;
@@ -105,8 +105,8 @@ class CfgVehicles
 		extCameraPosition[] =
         {
             0.0,    // X
-            3.0,    // Y
-            -7.2    // Z
+            2.5,    // Y
+            -8.5    // Z
         };
 
         /* Damage */
@@ -294,6 +294,10 @@ class CfgVehicles
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_damage.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_destruct.rvmat",
+
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_sprut_body.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_sprut_body_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_sprut_body_destruct.rvmat",
                 
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_damage.rvmat",
@@ -492,13 +496,6 @@ class CfgVehicles
 		memoryPointRMissile = Rocket_2;
 		memoryPointsLeftEngineEffect = EngineEffectL;
 		memoryPointsRightEngineEffect = EngineEffectR;
-		slingLoadCargoMemoryPoints[] =
-		{
-			SlingLoadCargo1,
-			SlingLoadCargo2,
-			SlingLoadCargo3,
-			SlingLoadCargo4
-		};
 
         /* Picture-in-Picture */
 		#include "pip.hpp"
@@ -735,7 +732,7 @@ class CfgVehicles
 	};
     class APC_Wheeled_04_base_v2_F: APC_Wheeled_04_base_F
     {
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_AveryTheKitty_and_Lakarak;
 		displayName = $STR_A3_A_CfgVehicles_APC_Wheeled_04_base_v2_F0;
 		model = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\APC_Wheeled_04_cannon_v2_F.p3d";
 		icon = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\UI\Map_APC_Wheeled_04_v2_CA.paa";
@@ -779,7 +776,6 @@ class CfgVehicles
                 initElev = 10;
                 soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-16,1,30};
                 soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-16,1,30};
-                lockWhenDriverOut = true;
 
                 /* Sensors & Components */
                 class Components: Components
@@ -832,7 +828,7 @@ class CfgVehicles
 			{
 				textures[] =
                 {
-                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_sprut_body_RUkhk_CO.paa",
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
                     "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow2_RUkhk_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
