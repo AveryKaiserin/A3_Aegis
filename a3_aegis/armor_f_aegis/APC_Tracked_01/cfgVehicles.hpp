@@ -5,6 +5,7 @@ class CfgVehicles
 	class Tank: LandVehicle
 	{
 		class NewTurret;
+		class HitPoints;
 		class CommanderOptics;
 	};
 	class Tank_F: Tank
@@ -20,11 +21,30 @@ class CfgVehicles
 			};
 		};
 		class AnimationSources;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+		};
 	};
 
     /* Bases */
 	class APC_Tracked_01_base_F: Tank_F
 	{
+        /* Damage
+        - Let's increase the armor rating of the Panther according to its real-life values
+        - Source: https://en.wikipedia.org/wiki/Namer
+        */
+		armor = 1000;
+        /*
+		class HitPoints: HitPoints
+		{
+			class HitHull: HitHull
+			{
+				armor = 1.8;
+			};
+		};
+        */
+
         /* Turrets */
 		class Turrets: Turrets
 		{

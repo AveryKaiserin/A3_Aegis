@@ -400,9 +400,18 @@ class CfgVehicles
 	};
 	class Offroad_01_AT_base_F: Offroad_01_military_base_F
 	{
+        /* Turrets */
 		class Turrets: Turrets
 		{
-			class AT_Turret: MainTurret{};
+			class AT_Turret: MainTurret
+			{ 
+                /* Weapons & Ammunition */
+				magazines[] =
+                {
+                    mag_12(SPG9_HEAT),
+                    mag_8(SPG9_HE)
+                };
+            };
 		};
 	};
 	class Offroad_01_military_covered_base_F: Offroad_01_military_base_F

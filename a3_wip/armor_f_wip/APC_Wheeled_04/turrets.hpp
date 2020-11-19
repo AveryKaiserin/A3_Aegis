@@ -24,8 +24,8 @@ class Turrets: Turrets
 				initTurn = 0;
 				maxHorizontalRotSpeed = 1.8;
 				maxVerticalRotSpeed = 1.8;
-				soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",0.56234133,1,30};
-				soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",0.56234133,1,30};
+				soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",db-5,1,30};
+				soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",db-5,1,30};
 				stabilizedInAxes = StabilizedInAxesBoth;
 
                 /* Weapons & Ammunition */
@@ -178,8 +178,8 @@ class Turrets: Turrets
 			2000Rnd_762x51_Belt_Green,
 			4rnd_Vorona_HEAT
         };
-		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",0.39810717,1,30};
-		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",0.39810717,1,30};
+		soundServo[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",db-8,1,30};
+		soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",db-8,1,30};
 		stabilizedInAxes = StabilizedInAxesBoth;
 		selectionFireAnim = zasleh2;
 		memoryPointGun[] = {"usti hlavne3"};
@@ -258,7 +258,7 @@ class Turrets: Turrets
                 TI
             };
 		};
-		class OpticsIn: Optics_Gunner_APC_03
+		class OpticsIn: Optics_Gunner_MBT_02
 		{
 			class Wide: Wide{};
 			class Medium: Medium{};

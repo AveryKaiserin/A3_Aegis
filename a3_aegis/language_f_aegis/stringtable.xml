@@ -1100,21 +1100,21 @@
                     <Turkish>BTR-100 Bogatyr</Turkish>
                 </Key>
                 <Key ID="STR_A3_A_CfgVehicles_APC_Wheeled_04_base_v2_F0">
-                    <Original>BTR-SD Nosorog</Original>
-                    <Chinese>BTR-SD Nosorog</Chinese>
-                    <French>BTR-SD Nosorog</French>
-                    <Spanish>BTR-SD Nosorog</Spanish>
-                    <Italian>BTR-SD Nosorog</Italian>
-                    <Polish>BTR-SD Nosorog</Polish>
-                    <Russian>BTR-SD Nosorog</Russian>
-                    <German>BTR-SD Nosorog</German>
-                    <Czech>BTR-SD Nosorog</Czech>
-                    <English>BTR-SD Nosorog</English>
-                    <Portuguese>BTR-SD Nosorog</Portuguese>
-                    <Korean>BTR-SD Nosorog</Korean>
-                    <Chinesesimp>BTR-SD Nosorog</Chinesesimp>
-                    <Japanese>BTR-SD Nosorog</Japanese>
-                    <Turkish>BTR-SD Nosorog</Turkish>
+                    <Original>BRDM-K Nosorog</Original>
+                    <Chinese>BRDM-K Nosorog</Chinese>
+                    <French>BRDM-K Nosorog</French>
+                    <Spanish>BRDM-K Nosorog</Spanish>
+                    <Italian>BRDM-K Nosorog</Italian>
+                    <Polish>BRDM-K Nosorog</Polish>
+                    <Russian>BRDM-K Nosorog</Russian>
+                    <German>BRDM-K Nosorog</German>
+                    <Czech>BRDM-K Nosorog</Czech>
+                    <English>BRDM-K Nosorog</English>
+                    <Portuguese>BRDM-K Nosorog</Portuguese>
+                    <Korean>BRDM-K Nosorog</Korean>
+                    <Chinesesimp>BRDM-K Nosorog</Chinesesimp>
+                    <Japanese>BRDM-K Nosorog</Japanese>
+                    <Turkish>BRDM-K Nosorog</Turkish>
                 </Key>
             </Container>
 			<Container name="Library">

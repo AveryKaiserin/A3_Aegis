@@ -303,6 +303,10 @@ class CfgVehicles
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_damage.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow_destruct.rvmat",
                 
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow2.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow2_damage.rvmat",
+                "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow2_destruct.rvmat",
+                
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_damage.rvmat",
                 "A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_int_destruct.rvmat",
@@ -729,6 +733,156 @@ class CfgVehicles
 			fired = "[_this select 0,_this select 6,'missile_move','MissileBase'] call BIS_fnc_missileLaunchPositionFix; _this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		};
 	};
+    class APC_Wheeled_04_base_v2_F: APC_Wheeled_04_base_F
+    {
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = $STR_A3_A_CfgVehicles_APC_Wheeled_04_base_v2_F0;
+		model = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\APC_Wheeled_04_cannon_v2_F.p3d";
+		icon = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\UI\Map_APC_Wheeled_04_v2_CA.paa";
+		picture = "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\UI\APC_Wheeled_04_v2_CA.paa";
+		editorSubcategory = EdSubcat_TankDestroyers;
+
+        /* Water Behaviour */
+		canFloat = false;
+
+        /* Crew */
+		transportSoldier = 0;
+
+        /* Turrets */
+        class Turrets: Turrets
+        {
+            class MainTurret: MainTurret
+            {
+                class Turrets: Turrets
+                {
+                    class CommanderOptics: CommanderOptics{};
+                };
+
+                /* Weapons & Ammunition */
+                weapons[] =
+                {
+                    cannon_125mm,
+                    LMG_coax_ext
+                };
+                magazines[] =
+                {
+                    16Rnd_125mm_APFSDS_T_Green,
+                    8Rnd_125mm_HE_T_Green,
+                    12Rnd_125mm_HEAT_T_Green,
+                    2000Rnd_762x51_Belt_Green,
+                    4Rnd_125mm_cannon_missiles
+                };
+		        selectionFireAnim = zasleh;
+                
+                /* Servos */
+                maxElev = 14;
+                initElev = 10;
+                soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-16,1,30};
+                soundServoVertical[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner_vertical",db-16,1,30};
+                lockWhenDriverOut = true;
+
+                /* Sensors & Components */
+                class Components: Components
+                {
+                    class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftGunner
+                    {
+                        class Components: components
+                        {
+                            class SensorDisplay
+                            {
+                                componentType = SensorsDisplayComponent;
+                                range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+                                resource = RscCustomInfoSensors;
+                            };
+                        };
+                    };
+                    class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightGunner
+                    {
+                        defaultDisplay = SensorDisplay;
+                        class Components: components
+                        {
+                            class SensorDisplay
+                            {
+                                componentType = SensorsDisplayComponent;
+                                range[] =
+                                {
+                                    1000,
+                                    2000,
+                                    4000,
+                                    8000
+                                };
+                                resource = RscCustomInfoSensors;
+                            };
+                        };
+                    };
+                };
+            };
+        };
+
+        /* Liveries */
+		class TextureSources: TextureSources
+		{
+			class Green: Green
+			{
+				textures[] =
+                {
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
+                    "\A3_Wip\Armor_F_Wip\APC_Wheeled_04\Data\APC_Wheeled_04_tow2_RUkhk_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+                };
+			};
+		};
+
+        /* Inventory */
+        class TransportMagazines
+        {
+            mag_xx(SmokeShell,2);
+            mag_xx(SmokeShellRed,2);
+            mag_xx(30Rnd_545x39_AK12_Mag_F,4);
+        };
+        class TransportWeapons
+        {
+            weap_xx(arifle_AK12U_545_F,2);
+        };
+		class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+			item_xx(Toolkit,1);
+			item_xx(Medikit,1);
+		};
+        class TransportBackpacks
+        {
+            bag_xx(B_FieldPack_taiga_F,2);
+        };
+
+        /* Animation Sources */
+		class AnimationSources: AnimationSources
+		{
+			class muzzle_hide_cannon
+			{
+				source = reload;
+				weapon = cannon_125mm;
+			};
+			class muzzle_rot_cannon
+			{
+				source = ammorandom;
+				weapon = cannon_125mm;
+			};
+			class recoil_source
+			{
+				source = reload;
+				weapon = cannon_125mm;
+			};
+		};
+    };
 
     /* Factions */
     #include "cfgRUS.hpp"   // Russia
