@@ -138,6 +138,9 @@ class CfgVehicles
     class Item_U_B_CTRG_Soldier_Arid_F;
     class Item_U_B_CTRG_Soldier_2_Arid_F;
     class Item_U_B_CTRG_Soldier_3_Arid_F;
+	UNIFORM_HOLDER(U_B_CTRG_Soldier_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_Black_F0);
+	UNIFORM_HOLDER(U_B_CTRG_Soldier_2_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_2_Black_F0);
+	UNIFORM_HOLDER(U_B_CTRG_Soldier_3_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_Black_F0);
 
     /* From "cfgViper.hpp" */
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_oicamo_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_oicamo_F0);
