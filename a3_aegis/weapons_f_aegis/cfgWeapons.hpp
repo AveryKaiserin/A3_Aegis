@@ -2345,6 +2345,15 @@ class CfgWeapons
                 160Rnd_30mm_APFSDS_shells_Tracer_Yellow
             };
 		};
+		class GunParticles
+		{
+			class Effect
+			{
+				effectName = AutoCannonFired;
+				positionName = "usti hlavne";
+				directionName = "konec hlavne";
+			};
+		};
 	};
 	class missiles_Vorona_vehicle: missiles_Vorona
 	{

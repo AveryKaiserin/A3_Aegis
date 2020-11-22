@@ -621,6 +621,40 @@ class CfgVehicles
 				hitpoint = HitComTurret;
 				raw = true;
 			};
+			class HitLFWheel
+			{
+				source = Hit;
+				hitpoint = HitLFWheel;
+				raw = true;
+			};
+			class HitLBWheel: HitLFWheel
+			{
+				hitpoint = HitLF2Wheel;
+			};
+			class HitLMWheel: HitLFWheel
+			{
+				hitpoint = HitLMWheel;
+			};
+			class HitLF2Wheel: HitLFWheel
+			{
+				hitpoint = HitLBWheel;
+			};
+			class HitRFWheel: HitLFWheel
+			{
+				hitpoint = HitRFWheel;
+			};
+			class HitRBWheel: HitLFWheel
+			{
+				hitpoint = HitRF2Wheel;
+			};
+			class HitRMWheel: HitLFWheel
+			{
+				hitpoint = HitRMWheel;
+			};
+			class HitRF2Wheel: HitLFWheel
+			{
+				hitpoint = HitRBWheel;
+			};
             /* We don't have these modelled yet
 			class HitSLAT_Left_1_src
 			{
