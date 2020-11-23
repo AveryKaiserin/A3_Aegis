@@ -1,4 +1,206 @@
 /* Long Range Rifles */
+class GM6_base_F: Rifle_Long_Base_F{};
+class srifle_GM6_F: GM6_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class PointerSlot: asdg_FrontSideRail
+        {
+            iconPosition[] =
+            {
+                0.05,   // X
+                0.38    // Y
+            };
+            iconScale = 0.2;
+        };
+    };
+};
+class LRR_base_F: Rifle_Long_Base_F
+{
+    class Single: Mode_SemiAuto
+    {
+        sounds[] =
+        {
+            StandardSound,
+            SilencedSound
+        };
+    };
+};
+class srifle_LRR_F: LRR_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: MuzzleSlot
+        {
+            linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
+            compatibleItems[] =
+            {
+                muzzle_snds_408_black,
+                muzzle_snds_408_green,
+                muzzle_snds_408_sand
+            };
+            iconPosition[] =
+            {
+                0.05,   // X
+                0.38    // Y
+            };
+            iconScale = 0.2;
+        };
+    };
+};
+class EBR_base_F: Rifle_Long_Base_F{};
+class srifle_EBR_F: EBR_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762
+        {
+            iconPosition[] =
+            {
+                0.05,    // X
+                0.38    // Y
+            };
+            iconScale = 0.2;
+        };
+    };
+};
+class DMR_01_base_F: Rifle_Long_Base_F
+{
+    class WeaponSlotsInfo;
+};
+class srifle_DMR_01_F: DMR_01_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762R_SVD
+        {
+            iconPosition[] =
+            {
+                0.0,    // X
+                0.45    // Y
+            };
+            iconScale = 0.2;
+        };
+    };
+};
+class srifle_DMR_02_F;
+class srifle_DMR_02_sniper_F: srifle_DMR_02_F
+{
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_02\Data\DMR_02_01_tan_CO.paa",
+        "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_02\Data\DMR_02_02_tan_CO.paa"
+    };
+};
+class DMR_03_base_F: Rifle_Long_Base_F
+{
+    class WeaponSlotsInfo;
+};
+class srifle_DMR_03_F: DMR_03_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762
+        {
+            iconPosition[] =
+            {
+                0.12,   // X
+                0.431   // Y
+            };
+            iconScale = 0.15;
+        };
+    };
+};
+class srifle_DMR_03_khaki_F;
+class srifle_DMR_03_tan_F: srifle_DMR_03_F
+{
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_03\Data\DMR_03_01_tan_CO.paa",
+        "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_03\Data\DMR_03_02_tan_CO.paa"
+    };
+};
+class srifle_DMR_05_blk_F;
+class srifle_DMR_05_hex_F;
+class DMR_06_base_F: Rifle_Long_Base_F
+{
+    class WeaponSlotsInfo;
+};
+class srifle_DMR_06_camo_F: DMR_06_base_F
+{
+    magazines[] = {20Rnd_Mk14_762x51_Mag};
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762
+        {
+            iconPosition[] =
+            {
+                0.06,   // X
+                0.4     // Y
+            };
+            iconScale = 0.15;
+        };
+        class CowsSlot: asdg_OpticRail1913_short
+        {
+            iconPosition[] =
+            {
+                0.52,   // X
+                0.36    // Y
+            };
+            iconScale = 0.15;
+        };
+        class UnderBarrelSlot: asdg_UnderSlot
+        {
+            iconPosition[] =
+            {
+                0.32,   // X
+                0.8     // Y
+            };
+            iconScale = 0.3;
+        };
+    };
+};
+class DMR_07_base_F: Rifle_Long_Base_F
+{
+    UiPicture = "\A3\Weapons_F\Data\UI\icon_sniper_CA.paa";
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class PointerSlot{};
+    };
+};
+class DMR_06_hunter_base_F: DMR_06_base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762
+        {
+            iconPosition[] =
+            {
+                0.06,   // X
+                0.4     // Y
+            };
+            iconScale = 0.15;
+        };
+        class CowsSlot: asdg_OpticRail1913_short
+        {
+            iconPosition[] =
+            {
+                0.52,   // X
+                0.36    // Y
+            };
+            iconScale = 0.15;
+        };
+        class UnderBarrelSlot: asdg_UnderSlot
+        {
+            iconPosition[] =
+            {
+                0.32,   // X
+                0.8     // Y
+            };
+            iconScale = 0.3;
+        };
+    };
+};
 class srifle_EBR_blk_F: srifle_EBR_F
 {
 	author = $STR_A3_A_AveryTheKitty;

@@ -6,7 +6,7 @@ class CfgVehicles
     /* Bases */
     class Weapon_Base_F;
 
-    /* Rifles */
+    /* Item Holders */
 	WEAPON_HOLDER(arifle_SCAR_F,20Rnd_762x51_Mag,$STR_A3_A_CfgWeapons_arifle_SCAR_F0,EdSubcat_AssaultRifles);
 	WEAPON_HOLDER(arifle_SCAR_GL_F,20Rnd_762x51_Mag,$STR_A3_A_CfgWeapons_arifle_SCAR_GL_F0,EdSubcat_AssaultRifles);
 	WEAPON_HOLDER(arifle_SCAR_short_F,20Rnd_762x51_Mag,$STR_A3_A_CfgWeapons_arifle_SCAR_short_F0,EdSubcat_AssaultRifles);

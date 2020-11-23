@@ -385,7 +385,7 @@ class CfgWeapons
 		};
 	};
 
-    /* Rifles */
+    /* Weapons */
 	class arifle_SCAR_F: arifle_SCAR_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Garkain;

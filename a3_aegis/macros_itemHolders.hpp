@@ -15,11 +15,19 @@
 		vehicleClass = WeaponsPrimary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##b##,1); \
+			class ##b## \
+			{ \
+				name = ##b##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -36,11 +44,19 @@
 		vehicleClass = WeaponsHandguns; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##b##,1); \
+			class ##b## \
+			{ \
+				name = ##b##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -57,11 +73,19 @@
 		vehicleClass = WeaponsSecondary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##b##,1); \
+			class ##b## \
+			{ \
+				name = ##b##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -78,7 +102,11 @@
 		vehicleClass = ##e##; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -96,7 +124,11 @@
 		model = "\A3\Weapons_F\DummyItem.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -114,7 +146,11 @@
 		model = "\A3\Weapons_F\DummyCap.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -132,7 +168,11 @@
 		model = "\A3\Weapons_F\DummyWeapon.p3d"; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 	}
 
@@ -149,6 +189,10 @@
 		vehicleClass = ItemsVests; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
 		}; \
 	}

@@ -1,4 +1,91 @@
 /* Machine Guns */
+class LMG_Mk200_F: Rifle_Long_Base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_F0;
+    class Library
+    {
+        libTextDesc = $STR_A3_A_CfgWeapons_LMG_Mk200_F_Library0;
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_65
+        {
+            compatibleItems[] =
+            {
+                muzzle_snds_h,
+                muzzle_snds_h_khk_F,
+                muzzle_snds_h_snd_F,
+                muzzle_snds_65_TI_blk_F,
+                muzzle_snds_65_TI_hex_F,
+                muzzle_snds_65_TI_ghex_F,
+                muzzle_tma_65,
+                muzzle_mzls_H
+            };
+            /*
+            class compatibleItems
+            {
+                muzzle_snds_h = true;
+                muzzle_snds_h_khk_F = true;
+                muzzle_snds_h_snd_F = true;
+                muzzle_snds_65_TI_blk_F = true;
+                muzzle_snds_65_TI_hex_F = true;
+                muzzle_snds_65_TI_ghex_F = true;
+                muzzle_tma_65 = true;
+                muzzle_mzls_H = true;
+            };
+            */
+        };
+    };
+    class GunParticles: GunParticles
+    {
+        class SecondEffect
+        {
+            positionName = Nabojnicestart;
+            directionName = Nabojniceend;
+            effectName = CaselessAmmoCloud;
+        };
+    };
+};
+class LMG_Zafir_F: Rifle_Long_Base_F
+{
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        class MuzzleSlot: asdg_MuzzleSlot_762R_PK
+        {
+            iconPosition[] =
+            {
+                0.05,   // X
+                0.38    // Y
+            };
+            iconScale = 0.2;
+        };
+    };
+    class Single: Mode_SemiAuto
+    {
+        sounds[] =
+        {
+            StandardSound,
+            SilencedSound
+        };
+        reloadTime = 0.08;
+    };
+    class FullAuto: Mode_FullAuto
+    {
+        sounds[] =
+        {
+            StandardSound,
+            SilencedSound
+        };
+        reloadTime = 0.08;
+    };
+};
+class MMG_01_hex_F;
+class MMG_02_camo_F;
+class MMG_02_black_F;
+class LMG_Mk200_black_F: LMG_Mk200_F
+{
+    displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_black_F0;
+};
 class LMG_Mk200_plain_F: LMG_Mk200_F
 {
 	author = $STR_A3_A_AveryTheKitty;

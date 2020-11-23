@@ -238,26 +238,20 @@ class O_Soldier_SL_F: O_Soldier_base_F
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SMOKESHELLS_OPFOR,
-        1Rnd_Smoke_Grenade_shell,
-		SMOKEGRENADES_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
         mag_4(30Rnd_65x39_caseless_green),
         mag_2(30Rnd_65x39_caseless_green_mag_Tracer),
         mag_2(17Rnd_9x21_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
         SmokeShell,
-        SMOKESHELLS_OPFOR,
-        1Rnd_Smoke_Grenade_shell,
-		SMOKEGRENADES_OPFOR
+        SMOKESHELLS_OPFOR
     };
 	linkedItems[] =
 	{

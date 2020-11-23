@@ -1,4 +1,17 @@
 /* Launchers */
+class launch_RPG32_F;
+class launch_Titan_base;
+class launch_Titan_short_base;
+class launch_MRAWS_base_F;
+class launch_MRAWS_olive_rail_F;
+class launch_Vorona_base_F: Launcher_Base_F
+{
+    recoil = recoil_vorona;
+};
+class launch_RPG32_camo_F: launch_RPG32_F
+{
+    scope = public;
+};
 class launch_RPG32_black_F: launch_RPG32_F
 {
 	author = $STR_A3_A_AveryTheKitty;

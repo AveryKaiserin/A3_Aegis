@@ -26,6 +26,7 @@ class CfgMagazineWells
         Aegis_Magazines[] =
         {
             /*
+            - These aren't working for some reason
             75Rnd_762x39_Mag_Green_F,
             75Rnd_762x39_Mag_Tracer_Green_F
             */

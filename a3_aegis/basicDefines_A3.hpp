@@ -281,6 +281,8 @@ ItemRadio \
 // reloadTime
 #define RPM_450 0.133333
 #define RPM_600 0.1
+#define RPM_890 0.067
+#define RPM_910 0.066
 
 
 

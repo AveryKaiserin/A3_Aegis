@@ -916,13 +916,13 @@ class CfgVehicles
 			{
 				position = exhaust1;
 				direction = exhaust1_dir;
-				effect = ExhaustsEffectHeliCom/*HP*/;
+				effect = ExhaustsEffectHeliCom;
 			};
 			class Exhaust2
 			{
 				position = exhaust2;
 				direction = exhaust2_dir;
-				effect = ExhaustsEffectHeliCom/*HP*/;
+				effect = ExhaustsEffectHeliCom;
 			};
 		};
 
@@ -956,5 +956,6 @@ class CfgVehicles
     };
 
     /* Factions */
+    #include "cfgBLUFOR.hpp"    // BAF
     #include "cfgIndep.hpp"     // AAF
 };

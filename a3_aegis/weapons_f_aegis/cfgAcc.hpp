@@ -1,4 +1,33 @@
 /* Accessories */
+class muzzle_snds_H: ItemCore
+{
+    picture = "\A3\Weapons_F\Acc\Data\UI\icon_muzzle_snds_M_CA.paa";
+    model = "\A3\Weapons_F\Acc\acca_snds_lmg_blk_F.p3d";
+};
+class muzzle_snds_M;
+class muzzle_snds_B;
+class muzzle_snds_acp;
+class muzzle_snds_338_black;
+class acc_pointer_IR;
+class bipod_02_F_blk;
+class muzzle_snds_H_khk_F: muzzle_snds_H
+{
+    model = "\A3\Weapons_F\Acc\acca_snds_lmg_khk_F.p3d";
+    picture = "\A3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_m_khk_F_CA.paa";
+};
+class muzzle_snds_H_snd_F: muzzle_snds_H
+{
+    model = "\A3\Weapons_F\Machineguns\M200\lmg_suppressor";
+    picture = "\A3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_m_snd_F_CA.paa";
+};
+class bipod_02_F_lush: bipod_02_F_blk
+{
+    displayName = $STR_A3_A_CfgWeapons_bipod_02_F_lush0;
+};
+class bipod_02_F_arid: bipod_02_F_blk
+{
+    displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
+};
 class muzzle_snds_pistol_heavy_01: muzzle_snds_acp
 {
 	author = $STR_A3_A_AveryTheKitty;

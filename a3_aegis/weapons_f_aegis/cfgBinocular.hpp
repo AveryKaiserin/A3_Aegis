@@ -1,4 +1,48 @@
 /* Binoculars */
+class Binocular;
+class NVGoggles: Binocular
+{
+    class ItemInfo;
+};
+class Integrated_NVG_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class Integrated_NVG_TI_0_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class Integrated_NVG_TI_1_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class Laserdesignator;
+class Laserdesignator_02;
+class O_NVGoggles_hex_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+    picture = "\A3\Weapons_F_Exp\Binocular\Data\UI\icon_O_NVGoggles_hex_F_CA.paa";
+};
+class O_NVGoggles_urb_F: O_NVGoggles_hex_F
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class O_NVGoggles_ghex_F: O_NVGoggles_hex_F
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class NVGogglesB_blk_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class NVGogglesB_grn_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
+class NVGogglesB_gry_F: NVGoggles
+{
+    modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+};
 class Laserdesignator_02_blk_F: Laserdesignator_02
 {
 	author = $STR_A3_A_AveryTheKitty;

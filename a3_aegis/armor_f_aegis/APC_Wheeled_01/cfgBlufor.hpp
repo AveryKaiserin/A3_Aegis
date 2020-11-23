@@ -542,6 +542,8 @@ class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		"\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
 };
+
+/*
 class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -748,26 +750,21 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_APC_Wheeled_01_arty_F.jpg";
-	scope = /*public*/ protected;
-    scopeCurator=private;//del this
-    scopeArsenal=private;
-    forceInGarage=false;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_APC_Wheeled_01_arty_F.jpg";
+	scope = public;
 	accuracy = 0.3;
 	displayName = $STR_A3_A_CfgVehicles_B_APC_Wheeled_01_arty_F0;
-	//model = "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\APC_Wheeled_01_arty_F.p3d";
+	model = "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_01\APC_Wheeled_01_arty_F.p3d";
 	editorSubcategory = EdSubcat_Artillery;
 	picture = "\A3\Armor_F_Beta\APC_Wheeled_01\Data\UI\APC_Wheeled_01_AMOS_CA.paa";
 	icon = "\A3\Armor_F_Beta\APC_Wheeled_01\Data\UI\Map_AMW_AMOS_CA.paa";
 	transportSoldier = 0;
 	unitInfoType = RscUnitInfoArtillery;
 	availableForSupportTypes[] = {Artillery};
-    /*
     class MFD{};
     class compartmentsLights{};
-    */
 
-    /* Turrets */
+    // Turrets
     artilleryScanner = true;
 	selectionFireAnim = "";
 	class Turrets: Turrets
@@ -779,21 +776,21 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 			forceHideGunner = true;
 			turretInfoType = RscWeaponRangeArtilleryAuto;
             
-            /* Weapons & Ammunition */
+            // Weapons & Ammunition
 			weapons[] = {mortar_120mm_AMOS};
 			magazines[] =
             {
-                50Rnd_120mm_Mo_shells
-                /*
-                10Rnd_120mm_Mo_guided,
-                10Rnd_120mm_Mo_mine,
-                10Rnd_120mm_Mo_Cluster,
-                10Rnd_120mm_Mo_smoke,
-                10Rnd_120mm_Mo_LG
-                */
+                //50Rnd_120mm_Mo_shells
+                24Rnd_120mm_Mo_shells
+                4Rnd_120mm_Mo_guided,
+                6Rnd_120mm_Mo_mine,
+                2Rnd_120mm_Mo_Cluster,
+                6Rnd_120mm_Mo_smoke,
+                2Rnd_120mm_Mo_LG,
+                6Rnd_120mm_Mo_AT_mine
             };
 
-            /* Servos */
+            // Servos
 			minElev = -5;
 			maxElev = 80;
 			initElev = 0;
@@ -803,7 +800,7 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 			maxHorizontalRotSpeed = 0.78;
 			maxVerticalRotSpeed = 0.26;
 
-            /* Optics */
+            // Optics
 			gunnerForceOptics = true;
 			gunnerOpticsModel = "\A3\Weapons_F\Acc\reticle_Mortar_01_F.p3d";
 			class OpticsIn: Optics_Gunner_MBT_01
@@ -822,7 +819,7 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 				};
 			};
 
-            /* Damage */
+            // Damage
 			class HitPoints
 			{
 				class HitTurret
@@ -855,7 +852,7 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
         };
     };
 
-    /* Animation Sources */
+    // Animation Sources
 	class AnimationSources: AnimationSources
 	{
 		class revolving_cannon
@@ -877,7 +874,7 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
         };
 	};
 
-    /* Textures */
+    // Textures
 	hiddenSelections[] =
     {
         camo1,
@@ -895,6 +892,7 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
         "\A3\Armor_F\Data\cage_sand_CO.paa"
     };
 };
+*/
 
 /* US (Pacific) */
 class B_T_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
@@ -1380,6 +1378,7 @@ class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };
+/*
 class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -1586,7 +1585,7 @@ class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_arty_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_arty_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -1594,7 +1593,7 @@ class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 	crew = B_T_Crew_F;
 	typicalCargo[] = {B_T_Soldier_F};
 
-    /* Inventory */
+    // Inventory
 	class TransportWeapons
 	{
 		weap_xx(arifle_MX_khk_F,2);
@@ -1634,6 +1633,7 @@ class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 };
+*/
 
 /* US (Woodland) */
 class B_W_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
@@ -2119,6 +2119,7 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 };
+/*
 class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -2325,7 +2326,7 @@ class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_arty_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_arty_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -2333,7 +2334,7 @@ class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 	crew = B_W_Crew_F;
 	typicalCargo[] = {B_W_Soldier_F};
 
-    /* Inventory */
+    // Inventory
 	class TransportWeapons
 	{
 		weap_xx(arifle_MX_Black_F,2);
@@ -2373,6 +2374,7 @@ class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 };
+*/
 
 /* BAF */
 

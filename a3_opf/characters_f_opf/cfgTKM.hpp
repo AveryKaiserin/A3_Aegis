@@ -494,6 +494,7 @@ class Opf_I_I_Soldier_9_F: Opf_I_I_Soldier_1_F
 	cost = 200000;
 	camouflage = 1.6;
 	role = SpecialOperative;
+    headgearList[] = {"",1};
 };
 class Opf_I_I_Soldier_universal_F: Opf_I_I_Soldier_1_F
 {

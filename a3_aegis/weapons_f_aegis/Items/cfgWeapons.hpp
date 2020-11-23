@@ -1,16 +1,20 @@
 class CfgWeapons
 {
-    // Arma 3
+    /* Inheritance Tree */
 	class ItemCore;
 	class InventoryItem_Base_F;
 	class InventoryOpticsItem_Base_F: InventoryItem_Base_F
 	{
 		zeroingSound[] = {"\A3\Sounds_F\arsenal\sfx\shared\zeroing_knob_tick_plastic",db0,1,5};
 	};
+
+    /* Bases */
 	class UavTerminal_base: ItemCore
 	{
 		class ItemInfo;
 	};
+
+    /* Items */
 	class B_UavTerminal: UavTerminal_base
 	{
 		displayName = "UAV Terminal [BLUFOR]";
@@ -23,7 +27,6 @@ class CfgWeapons
 	{
 		displayName = "UAV Terminal [Independent]";
 	};
-    // Arma 3 Aegis
 	class ItemSmartPhone: ItemCore
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -39,6 +42,7 @@ class CfgWeapons
 			mass = 5;
 		};
 	};
-    // Deprecated classes
+
+    /* Deprecated */
     #include "deprecated.hpp"
 };

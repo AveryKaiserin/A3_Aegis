@@ -29,7 +29,7 @@ class CfgVehicles
     {
         displayName = $STR_A3_A_CfgWeapons_LMG_Mk200_F0;
     };
-	// Arma 3 Enoch
+    class Weapon_SMG_05_F;
 	class Item_optic_MRD_black: Item_Base_F
 	{
         editorSubcategory = EdSubcat_TopSlot_Collimators;
@@ -49,11 +49,11 @@ class CfgVehicles
     };
 	class Weapon_sgun_HunterShotgun_01_F: Weapon_Base_F
     {
-		editorSubcategory = EdSubcat_Shotguns; // Let's use our editor subcategory for shotguns
+		editorSubcategory = EdSubcat_Shotguns;
     };
 	class Weapon_sgun_HunterShotgun_01_sawedoff_F: Weapon_Base_F
     {
-		editorSubcategory = EdSubcat_Shotguns; // Let's use our editor subcategory for shotguns
+		editorSubcategory = EdSubcat_Shotguns;
     };
 	class OM_Electro;
 	class Item_CSAToperatorAccesCard_01: OM_Electro
@@ -156,4 +156,5 @@ class CfgVehicles
 
     /* Deprecated */
     DEPRECATED_CLASS(Weapon_hgun_C1911_F,Weapon_hgun_ACPC2_black_F);
+    DEPRECATED_CLASS(Weapon_SMG_05_snd_F,Weapon_SMG_05_F);
 };

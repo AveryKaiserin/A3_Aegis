@@ -296,7 +296,6 @@ class CfgAmmo
         flareSize = 50;
         aiAmmoUsageFlags = LightAU;
 	};
-	// Arma 3 Jets
 	class ammo_Gun20mmAABase;
 	class ammo_Gun30mmAABase;
 	class ammo_Gun35mmAABase;
@@ -316,13 +315,11 @@ class CfgAmmo
     {
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_green.p3d";
     };
-	// Arma 3 Enoch
 	class B_12Gauge_Pellets_Submunition;
 	class B_12Gauge_Pellets_Submunition_Cartridge: B_12Gauge_Pellets_Submunition
 	{
 		cartridge = FxCartridge_pellets;
 	};
-	// Arma 3 Contact
 	class B_25x40mm_base: B_19mm_HE
 	{
 		simulationStep = 0.001;
@@ -360,7 +357,6 @@ class CfgAmmo
 	};
 	class B_25x40mm_autoseek: B_25x40mm_base{};
 	class B_25x40mm_stick: B_25x40mm_base{};
-	// Arma 3 Aegis
 	class ammo_Penetrator_Vikhr: ammo_Penetrator_Base
 	{
 		caliber = 56.6667;
