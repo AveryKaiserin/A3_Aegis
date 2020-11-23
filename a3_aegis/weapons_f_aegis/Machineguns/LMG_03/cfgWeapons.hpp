@@ -4,7 +4,7 @@ class CfgWeapons
 	#include "\A3_Aegis\macros_weaponAcc.hpp"
     
     /* Inheritance Tree */
-	#include "\A3_Aegis\cfgRiflesLong.hpp"
+	#include "\A3_Aegis\cfgRifles.hpp"
 
     /* LIM-85 5.56 mm - Bases */
     class LMG_03_base_F: Rifle_Long_Base_F
@@ -104,7 +104,7 @@ class CfgWeapons
         };
         class FullAutoSlow: FullAutoSlow
 		{
-			reloadTime = 0.17;
+			reloadTime = RPM_350;
 			dispersion = 0.00087;
 			sounds[] =
             {
@@ -123,7 +123,7 @@ class CfgWeapons
 		};
 		class FullAutoFast: FullAutoSlow
 		{
-			reloadTime = 0.084;
+			reloadTime = RPM_710;
 			textureType = fastAuto;
 		};
 		class close: FullAutoFast
@@ -195,6 +195,7 @@ class CfgWeapons
 		aiDispersionCoefX = 20.0;
     };
     */
+
     /* LIM-95 7.62 mm - Weapons
 	class LMG_03_762_F: LMG_03_762_base_F
 	{

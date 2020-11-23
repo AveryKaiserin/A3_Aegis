@@ -279,10 +279,22 @@ ItemRadio \
 #define FAR_OPTIC 2
 
 // reloadTime
+#define RPM_SEMI 0.2
+#define RPM_SEMI_SLOW 0.25
+#define RPM_SEMI_PISTOL 0.13
+#define RPM_PUMP_ACTION 0.8
+#define RPM_BOLT_ACTION 1.2
+#define RPM_300 0.2
+#define RPM_350 0.17
 #define RPM_450 0.133333
 #define RPM_600 0.1
+#define RPM_700 0.085
+#define RPM_705 0.0851
+#define RPM_710 0.084
 #define RPM_890 0.067
 #define RPM_910 0.066
+#define RPM_950 0.063
+#define RPM_1000 0.06
 
 
 

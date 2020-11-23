@@ -316,8 +316,6 @@ class CfgWeapons
 	    	mass = 125;
 	  	};
 	};
-
-    /* Liveries */
 	class arifle_SCAR_black_base_F: arifle_SCAR_base_F
 	{
 		hiddenSelectionsTextures[] =

@@ -132,6 +132,50 @@
 		}; \
 	}
 
+// Inventory items
+#define BINOC_HOLDER(a,b) \
+	class Item_##a##: Item_Base_F \
+	{ \
+		scope = public; \
+		scopeCurator = public; \
+		displayName = ##b##; \
+		author = $STR_A3_A_AveryTheKitty; \
+		editorCategory = EdCat_Equipment; \
+		editorSubcategory = EdSubcat_InventoryItems; \
+		vehicleClass = Items; \
+		model = "\A3\Weapons_F\DummyBinoc.p3d"; \
+		class TransportItems \
+		{ \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
+		}; \
+	}
+
+// Inventory items
+#define NVG_HOLDER(a,b) \
+	class Item_##a##: Item_Base_F \
+	{ \
+		scope = public; \
+		scopeCurator = public; \
+		displayName = ##b##; \
+		author = $STR_A3_A_AveryTheKitty; \
+		editorCategory = EdCat_Equipment; \
+		editorSubcategory = EdSubcat_InventoryItems; \
+		vehicleClass = Items; \
+		model = "\A3\Weapons_F\DummyNVG.p3d"; \
+		class TransportItems \
+		{ \
+			class ##a## \
+			{ \
+				name = ##a##; \
+				count = 1; \
+			}; \
+		}; \
+	}
+
 // Headgear
 #define HEADGEAR_HOLDER(a,b,c) \
 	class Headgear_##a##: Headgear_Base_F \

@@ -4,7 +4,7 @@ class CfgWeapons
 	#include "\A3_Aegis\macros_weaponAcc.hpp"
     
     /* Inheritance Tree */
-	#include "\A3_Aegis\cfgRiflesLong.hpp"
+	#include "\A3_Aegis\cfgRifles.hpp"
 
     /* Bases */
 	class WF50_base_F: Rifle_Long_Base_F
@@ -46,7 +46,7 @@ class CfgWeapons
 		class Single: Mode_SemiAuto
 		{
 			sounds[] = {StandardSound};
-			reloadTime = 1.2;
+			reloadTime = RPM_BOLT_ACTION;
 			dispersion = 0.00044;
 			minRange = 2;
 			minRangeProbab = 0.5;
@@ -120,8 +120,8 @@ class CfgWeapons
 			{
 				iconPosition[] =
 				{
-					0.6, // X
-					0.35 // Y
+					0.6,    // X
+					0.35    // Y
 				};
 				iconScale = 0.2;
 			};
