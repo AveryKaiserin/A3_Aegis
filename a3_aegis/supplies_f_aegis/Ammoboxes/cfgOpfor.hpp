@@ -1,7 +1,7 @@
 /* IAF */
 class Box_East_Wps_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -37,7 +37,7 @@ class Box_East_Wps_F: East_Box_Base
 };
 class Box_East_WpsSpecial_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -89,7 +89,7 @@ class Box_East_WpsSpecial_F: East_Box_Base
 };
 class Box_East_Ammo_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -111,7 +111,7 @@ class Box_East_Ammo_F: East_Box_Base
 };
 class Box_East_AmmoOrd_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
     class TransportMagazines
@@ -129,7 +129,7 @@ class Box_East_AmmoOrd_F: East_Box_Base
 };
 class Box_East_Grenades_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -159,7 +159,7 @@ class Box_East_Grenades_F: East_Box_Base
 };
 class Box_East_Support_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -211,7 +211,7 @@ class Box_East_Support_F: East_Box_Base
 };
 class Box_East_WpsLaunch_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -239,11 +239,11 @@ class Box_East_WpsLaunch_F: East_Box_Base
 };
 class Box_East_AmmoVeh_F: East_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 };
 class O_supplyCrate_F: B_supplyCrate_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
 
@@ -307,7 +307,7 @@ class O_supplyCrate_F: B_supplyCrate_F
 };
 class Box_CSAT_Equip_F: Box_NATO_Equip_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportItems
@@ -365,7 +365,7 @@ class Box_CSAT_Equip_F: Box_NATO_Equip_F
 };
 class Box_CSAT_Uniforms_F: Box_NATO_Uniforms_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
 	class TransportMagazines{};
@@ -396,7 +396,7 @@ class Box_CSAT_Uniforms_F: Box_NATO_Uniforms_F
 /* China */
 class Box_T_East_Wps_F: Box_East_Wps_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
     hiddenSelectionsMaterials[] =
     {
         "\A3\Data_F\default_alpha.rvmat",
@@ -436,7 +436,7 @@ class Box_T_East_Wps_F: Box_East_Wps_F
 };
 class Box_T_East_Ammo_F: Box_East_Ammo_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
     hiddenSelectionsMaterials[] =
     {
         "\A3\Data_F\default_alpha.rvmat",
@@ -466,7 +466,7 @@ class Box_T_East_Ammo_F: Box_East_Ammo_F
 };
 class Box_T_East_WpsSpecial_F: Box_East_WpsSpecial_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
     hiddenSelectionsMaterials[] =
     {
         "\A3\Data_F\default_alpha.rvmat",
@@ -535,7 +535,7 @@ class Box_T_CSAT_Equip_F: Box_CSAT_Equip_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_T_CSAT_Equip_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_T_CSAT_Equip_F0;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_OPFOR_CO.paa",
@@ -585,7 +585,7 @@ class Box_T_CSAT_Uniforms_F: Box_CSAT_Uniforms_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_T_CSAT_Uniforms_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_T_CSAT_Uniforms_F0;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_OPFOR_CO.paa",
@@ -628,7 +628,7 @@ class Box_T_East_AmmoOrd_F: Box_East_AmmoOrd_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_East_AmmoOrd_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa",
@@ -678,7 +678,7 @@ class Box_T_East_Grenades_F: Box_East_Grenades_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_East_Grenades_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa",
@@ -733,7 +733,7 @@ class Box_T_East_Support_F: Box_East_Support_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_East_Support_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa",
@@ -801,7 +801,7 @@ class Box_T_East_WpsLaunch_F: Box_East_WpsLaunch_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_East_WpsLaunch_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa",
@@ -853,7 +853,7 @@ class Box_T_East_AmmoVeh_F: Box_East_AmmoVeh_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_East_AmmoVeh_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa",
@@ -879,7 +879,7 @@ class O_T_supplyCrate_F: O_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_T_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_O_T_supplyCrate_F0;
-    editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+    editorSubcategory = EdSubcat_Ammo_China;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_Viper_CO.paa"};
     
     /* Inventory */
@@ -956,7 +956,7 @@ class Box_A_East_Wps_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicWeaponBox.p3d";
 	icon = iconCrateWpns;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_African;
+    editorSubcategory = EdSubcat_Ammo_Argana;
 
     /* Inventory */
 	class TransportMagazines
@@ -990,7 +990,7 @@ class Box_A_East_Ammo_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsBasicAmmoBox.p3d";
 	icon = iconCrateAmmo;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_African;
+    editorSubcategory = EdSubcat_Ammo_Argana;
 	maximumLoad = 1000;
 
     /* Inventory */
@@ -1020,7 +1020,7 @@ class Box_A_East_WpsLaunch_F: ReammoBox_F
 	model = "\A3\Weapons_F\Ammoboxes\Proxy_UsLouncherBox.p3d";
 	icon = iconCrateLong;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_CSAT_African;
+    editorSubcategory = EdSubcat_Ammo_Argana;
 
     /* Inventory */
 	class TransportMagazines
@@ -1062,7 +1062,7 @@ class O_A_supplyCrate_F: O_supplyCrate_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_O_A_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_OPFOR_CO.paa"};
-    editorSubcategory = EdSubcat_Ammo_CSAT_African;
+    editorSubcategory = EdSubcat_Ammo_Argana;
 
     /* Inventory */
 	class TransportMagazines

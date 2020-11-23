@@ -31,7 +31,7 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Ammo_cargo_RUS_mlod_CO.paa",
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Pallet_MilBoxes_RUS_CO.paa"
 	};
-	editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+	editorSubcategory = EdSubcat_Ammo_RUS;
 
     /* Inventory */
     class TransportMagazines
@@ -163,7 +163,7 @@ class O_R_CargoNet_01_ammo_arid_F: O_R_CargoNet_01_ammo_F
 	scope = public;
 	scopeCurator = public;
 	displayName = "Cargo Net [Russia Arid]";
-	editorSubcategory = EdSubcat_Ammo_Spetsnaz_Arid;
+	editorSubcategory = EdSubcat_Ammo_RUS_Mediterranean;
 
     /* Inventory */
     class TransportMagazines

@@ -15,7 +15,7 @@ class Box_RUS_Wps_F: Box_East_Wps_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Wps_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -71,7 +71,7 @@ class Box_RUS_WpsSpecial_F: Box_East_WpsSpecial_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_WpsSpecial_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -131,7 +131,7 @@ class Box_RUS_WpsLaunch_F: Box_East_WpsLaunch_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_WpsLaunch_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -189,7 +189,7 @@ class Box_RUS_Ammo_F: Box_East_Ammo_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Ammo_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -227,7 +227,7 @@ class Box_RUS_Equip_F: Box_CSAT_Equip_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_Equip_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Equip_F0;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_RUS_CO.paa",
@@ -282,7 +282,7 @@ class Box_RUS_Grenades_F: Box_East_Grenades_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Grenades_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -337,7 +337,7 @@ class Box_RUS_AmmoOrd_F: Box_East_AmmoOrd_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_AmmoOrd_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -387,7 +387,7 @@ class Box_RUS_Support_F: Box_East_Support_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Support_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -452,7 +452,7 @@ class Box_RUS_AmmoVeh_F: Box_East_AmmoVeh_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_AmmoVeh_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_RUS_CA.paa",
@@ -478,7 +478,7 @@ class Box_RUS_Uniforms_F: Box_CSAT_Uniforms_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_Uniforms_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_RUS_Uniforms_F0;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
     hiddenSelectionsTextures[] =
     {
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_RUS_CO.paa",
@@ -516,7 +516,7 @@ class O_R_supplyCrate_F: O_supplyCrate_F
 	};
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_supplyCrate_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_O_R_supplyCrate_F0;
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz;
+    editorSubcategory = EdSubcat_Ammo_RUS;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_RUS_CO.paa"};
 
     /* Inventory */
@@ -590,7 +590,7 @@ class Box_RUS_WpsSpecial_arid_F: Box_RUS_WpsSpecial_F
     };
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_WpsSpecial_arid_F.jpg";
     displayName = "Special Weapons [Russia Arid]";
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz_Arid;
+    editorSubcategory = EdSubcat_Ammo_RUS_Mediterranean;
 
     /* Inventory */
 	class TransportMagazines
@@ -639,7 +639,7 @@ class Box_RUS_Equip_arid_F: Box_RUS_Equip_F
     };
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_Equip_arid_F.jpg";
     displayName = "Equipment Box [Russia Arid]";
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz_Arid;
+    editorSubcategory = EdSubcat_Ammo_RUS_Mediterranean;
 
     /* Inventory */
     class TransportMagazines{};
@@ -685,7 +685,7 @@ class Box_RUS_Support_arid_F: Box_RUS_Support_F
     };
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_Support_arid_F.jpg";
     displayName = "Support [Russia Arid]";
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz_Arid;
+    editorSubcategory = EdSubcat_Ammo_RUS_Mediterranean;
 
     /* Inventory */
 	class TransportMagazines
@@ -738,7 +738,7 @@ class Box_RUS_Uniforms_arid_F: Box_RUS_Uniforms_F
     };
     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_RUS_Uniforms_arid_F.jpg";
     displayName = "Uniforms Box [Russia Arid]";
-    editorSubcategory = EdSubcat_Ammo_Spetsnaz_Arid;
+    editorSubcategory = EdSubcat_Ammo_RUS_Mediterranean;
 
     /* Inventory */
     class TransportMagazines{};

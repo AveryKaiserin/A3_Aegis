@@ -1,7 +1,7 @@
 /* IAF */
 class O_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 {
-    editorSubcategory = EdSubcat_Ammo_CSAT;
+    editorSubcategory = EdSubcat_Ammo_IAF;
 
     /* Inventory */
     class TransportMagazines
@@ -163,7 +163,7 @@ class O_T_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\Box_T_East_Wps_F_CO.paa",
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\AmmoBox_signs_OPFOR_CA.paa"
 	};
-	editorSubcategory = EdSubcat_Ammo_CSAT_Pacific;
+	editorSubcategory = EdSubcat_Ammo_China;
 
     /* Inventory */
     class TransportMagazines

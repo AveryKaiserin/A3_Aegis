@@ -1,5 +1,15 @@
 class CfgFunctions
 {
+	class A3_Warlords
+	{
+		class Warlords
+		{
+			class WLAirdrop
+            {
+			    file = "A3_Aegis\Functions_F_Aegis\Warlords\fn_WLAirdrop.sqf";
+            };
+        };
+    };
 	class A3_Aegis
 	{
 		tag = "Aegis";

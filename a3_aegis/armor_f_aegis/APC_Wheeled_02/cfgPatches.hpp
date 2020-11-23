@@ -13,11 +13,7 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgOPFOR.hpp" */
-            O_A_APC_Wheeled_02_rcws_v2_F,
-
-            /* From "cfgRUS.hpp" */
-            O_R_APC_Wheeled_02_rcws_v2_F,
-            O_R_APC_Wheeled_02_rcws_v2_ard_F
+            O_A_APC_Wheeled_02_rcws_v2_F
         };
 		weapons[] = {/* Automated */};
 	};

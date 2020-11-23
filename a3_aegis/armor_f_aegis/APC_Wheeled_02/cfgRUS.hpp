@@ -176,8 +176,8 @@ class O_R_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_APC_Wheeled_02_rcws_v2_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = private;
 	displayName = $STR_A3_A_CfgVehicles_O_R_APC_Wheeled_02_rcws_v2_F0;
 	side = TEast;
 	faction = OPF_R_F;

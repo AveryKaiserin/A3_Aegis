@@ -1,7 +1,7 @@
 /* US */
 class B_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 
     /* Inventory */
     class TransportMagazines
@@ -170,7 +170,7 @@ class B_T_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\Box_T_NATO_Wps_F_CO.paa",
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 	};
-	editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+	editorSubcategory = EdSubcat_Ammo_US_Pacific;
 
     /* Inventory */
     class TransportMagazines
@@ -323,7 +323,7 @@ class B_W_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_CO.paa",
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
 	};
-	editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+	editorSubcategory = EdSubcat_Ammo_US_Woodland;
 
     /* Inventory */
     class TransportMagazines
@@ -471,7 +471,7 @@ class B_A_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_A_CargoNet_01_ammo_F0;
-	editorSubcategory = EdSubcat_Ammo_NATO_British;
+	editorSubcategory = EdSubcat_Ammo_BAF;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_CO.paa",
@@ -608,7 +608,7 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_A_CargoNet_01_ammo_tropic_F0;
-	editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+	editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\Box_T_NATO_Wps_F_CO.paa",
@@ -745,7 +745,7 @@ class B_A_CargoNet_01_ammo_wdl_F: B_A_CargoNet_01_ammo_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_A_CargoNet_01_ammo_wdl_F0;
-	editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+	editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
 
     /* Inventory */
     class TransportMagazines

@@ -3113,6 +3113,7 @@ class CfgGroups
 					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_F,SERGEANT,-10,-10);
 					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_F,CORPORAL,20,-20);
 				};
+                /*
 				class O_R_TankDestrSection_Nosorog
 				{
 					name = $STR_A3_CfgGroups_TDSection;
@@ -3122,6 +3123,7 @@ class CfgGroups
 					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_v2_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,O_R_APC_Wheeled_04_cannon_v2_F,SERGEANT,10,-10);
 				};
+                */
 			};
 		};
 		class OPF_V_tna_F
@@ -3640,6 +3642,7 @@ class CfgGroups
 					GROUP_UNIT(2,TEast,O_R_MBT_04_cannon_ard_F,SERGEANT,-10,-10);
 					GROUP_UNIT(3,TEast,O_R_MBT_04_cannon_ard_F,CORPORAL,20,-20);
 				};
+                /*
 				class O_R_TankDestrSection_Nosorog
 				{
 					name = $STR_A3_CfgGroups_TDSection;
@@ -3649,6 +3652,7 @@ class CfgGroups
 					GROUP_UNIT(0,TEast,O_R_APC_Wheeled_04_cannon_v2_ard_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,O_R_APC_Wheeled_04_cannon_v2_ard_F,SERGEANT,10,-10);
 				};
+                */
 			};
 		};
 	};

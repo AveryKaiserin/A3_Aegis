@@ -1,7 +1,7 @@
 /* US */
 class Box_NATO_Wps_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_mag,9);
@@ -37,7 +37,7 @@ class Box_NATO_Wps_F: NATO_Box_Base
 };
 class Box_NATO_WpsSpecial_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
 		delete _xx_30Rnd_65x39_caseless_mag;
@@ -95,7 +95,7 @@ class Box_NATO_WpsSpecial_F: NATO_Box_Base
 };
 class Box_NATO_Ammo_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_mag,54);
@@ -114,7 +114,7 @@ class Box_NATO_Ammo_F: NATO_Box_Base
 };
 class Box_NATO_AmmoOrd_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
     class TransportMagazines
     {
         mag_xx(ATMine_Range_Mag,5);
@@ -130,7 +130,7 @@ class Box_NATO_AmmoOrd_F: NATO_Box_Base
 };
 class Box_NATO_Grenades_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
         mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -158,7 +158,7 @@ class Box_NATO_Grenades_F: NATO_Box_Base
 };
 class Box_NATO_Support_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
 		mag_xx(Laserbatteries,1);
@@ -212,7 +212,7 @@ class Box_NATO_Support_F: NATO_Box_Base
 };
 class Box_NATO_WpsLaunch_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines
 	{
 		mag_xx(Titan_AA,3);
@@ -236,11 +236,11 @@ class Box_NATO_WpsLaunch_F: NATO_Box_Base
 };
 class Box_NATO_AmmoVeh_F: NATO_Box_Base
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 };
 class B_supplyCrate_F: ReammoBox_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
     hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_CO.paa"};
 	class TransportMagazines
@@ -303,7 +303,7 @@ class B_supplyCrate_F: ReammoBox_F
 // Arma 3 Apex
 class Box_NATO_Equip_F: ReammoBox_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportItems
 	{
 		item_xx(V_Rangemaster_belt,2);
@@ -379,7 +379,7 @@ class Box_NATO_Equip_F: ReammoBox_F
 };
 class Box_NATO_Uniforms_F: ReammoBox_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO;
+    editorSubcategory = EdSubcat_Ammo_US;
 	class TransportMagazines{};
 	class TransportWeapons{};
 	class TransportItems
@@ -410,7 +410,7 @@ class Box_NATO_Uniforms_F: ReammoBox_F
 /* US (Pacific) */
 class Box_T_NATO_Wps_F: Box_NATO_Wps_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
     hiddenSelectionsMaterials[] =
     {
         "\A3\Data_F\default_alpha.rvmat",
@@ -454,7 +454,7 @@ class Box_T_NATO_Wps_F: Box_NATO_Wps_F
 };
 class Box_T_NATO_WpsSpecial_F: Box_NATO_WpsSpecial_F
 {
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
     hiddenSelectionsMaterials[] =
     {
         "\A3\Data_F\default_alpha.rvmat",
@@ -529,7 +529,7 @@ class Box_T_NATO_Equip_F: Box_NATO_Equip_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_T_NATO_Equip_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_Equip_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
@@ -584,7 +584,7 @@ class Box_T_NATO_Uniforms_F: Box_NATO_Uniforms_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_T_NATO_Uniforms_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_Uniforms_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
@@ -628,7 +628,7 @@ class Box_T_NATO_Ammo_F: Box_NATO_Ammo_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_Ammo_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -675,7 +675,7 @@ class Box_T_NATO_AmmoOrd_F: Box_NATO_AmmoOrd_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_AmmoOrd_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -725,7 +725,7 @@ class Box_T_NATO_Grenades_F: Box_NATO_Grenades_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_Grenades_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -781,7 +781,7 @@ class Box_T_NATO_Support_F: Box_NATO_Support_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_Support_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -851,7 +851,7 @@ class Box_T_NATO_WpsLaunch_F: Box_NATO_WpsLaunch_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_WpsLaunch_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -902,7 +902,7 @@ class Box_T_NATO_AmmoVeh_F: Box_NATO_AmmoVeh_F
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Box_T_NATO_AmmoVeh_F0;
 	editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -928,7 +928,7 @@ class B_T_supplyCrate_F: B_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_T_supplyCrate_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific;
+    editorSubcategory = EdSubcat_Ammo_US_Pacific;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 
     /* Inventory */
@@ -1002,7 +1002,7 @@ class Box_W_NATO_Equip_F: Box_NATO_Equip_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_W_NATO_Equip_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_Equip_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
@@ -1055,7 +1055,7 @@ class Box_W_NATO_Uniforms_F: Box_NATO_Uniforms_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_W_NATO_Uniforms_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_Uniforms_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Supplies_F_Exp\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
@@ -1092,7 +1092,7 @@ class Box_W_NATO_Wps_F: Box_NATO_Wps_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_Wps_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1148,7 +1148,7 @@ class Box_W_NATO_WpsSpecial_F: Box_NATO_WpsSpecial_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_WpsSpecial_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1216,7 +1216,7 @@ class Box_W_NATO_Ammo_F: Box_NATO_Ammo_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_Ammo_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1258,7 +1258,7 @@ class Box_W_NATO_Support_F: Box_NATO_Support_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_Support_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1323,7 +1323,7 @@ class Box_W_NATO_WpsLaunch_F: Box_NATO_WpsLaunch_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_W_NATO_WpsLaunch_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1367,7 +1367,7 @@ class B_W_supplyCrate_F: B_supplyCrate_F
     };
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_supplyCrate_F.jpg";
     displayName = $STR_A3_A_CfgVehicles_B_W_supplyCrate_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland;
+    editorSubcategory = EdSubcat_Ammo_US_Woodland;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 
     /* Inventory */
@@ -1441,7 +1441,7 @@ class Box_A_NATO_Equip_F: Box_NATO_Equip_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
 	hiddenSelectionsTextures[] =
 	{
         "\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
@@ -1496,7 +1496,7 @@ class Box_A_NATO_Uniforms_F: Box_NATO_Uniforms_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
 	hiddenSelectionsTextures[] =
 	{
         "\A3\Supplies_F_Exp\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
@@ -1534,7 +1534,7 @@ class Box_A_NATO_Wps_F: Box_NATO_Wps_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Wps_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1586,7 +1586,7 @@ class Box_A_NATO_WpsSpecial_F: Box_NATO_WpsSpecial_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_WpsSpecial_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1649,7 +1649,7 @@ class Box_A_NATO_Ammo_F: Box_NATO_Ammo_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Ammo_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1682,7 +1682,7 @@ class B_A_supplyCrate_F: B_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_British;
+    editorSubcategory = EdSubcat_Ammo_BAF;
 
     /* Inventory */
 	class TransportMagazines
@@ -1755,7 +1755,7 @@ class Box_A_NATO_Equip_tropic_F: Box_A_NATO_Equip_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_tropic_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
@@ -1808,7 +1808,7 @@ class Box_A_NATO_Uniforms_tropic_F: Box_A_NATO_Uniforms_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_tropic_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
 	hiddenSelectionsTextures[] =
 	{
         "\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
@@ -1844,7 +1844,7 @@ class Box_A_NATO_Wps_tropic_F: Box_A_NATO_Wps_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Wps_tropic_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
     hiddenSelectionsTextures[] =
     {
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1896,7 +1896,7 @@ class Box_A_NATO_WpsSpecial_tropic_F: Box_A_NATO_WpsSpecial_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_WpsSpecial_tropic_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
     hiddenSelectionsTextures[] =
     {
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1959,7 +1959,7 @@ class Box_A_NATO_Ammo_tropic_F: Box_A_NATO_Ammo_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Ammo_tropic_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
     hiddenSelectionsTextures[] =
     {
 		"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -1992,7 +1992,7 @@ class B_A_supplyCrate_tropic_F: B_A_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_tropic_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_tropic_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Pacific_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Pacific;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 
     /* Inventory */
@@ -2066,7 +2066,7 @@ class Box_A_NATO_Equip_wdl_F: Box_A_NATO_Equip_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Equip_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Equip_wdl_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3\Supplies_F_Exp\Ammoboxes\Data\equipment_box_BLUFOR_CO.paa",
@@ -2117,7 +2117,7 @@ class Box_A_NATO_Uniforms_wdl_F: Box_A_NATO_Uniforms_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Box_A_NATO_Uniforms_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Uniforms_wdl_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
 	hiddenSelectionsTextures[] =
 	{
         "\A3\Supplies_F_Exp\Ammoboxes\Data\uniforms_box_BLUFOR_CO.paa",
@@ -2152,7 +2152,7 @@ class Box_A_NATO_Wps_wdl_F: Box_A_NATO_Wps_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Wps_wdl_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -2204,7 +2204,7 @@ class Box_A_NATO_WpsSpecial_wdl_F: Box_A_NATO_WpsSpecial_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_WpsSpecial_wdl_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -2267,7 +2267,7 @@ class Box_A_NATO_Ammo_wdl_F: Box_A_NATO_Ammo_F
     scope = public;
     displayName = $STR_A3_A_CfgVehicles_Box_A_NATO_Ammo_wdl_F0;
     editorCategory = EdCat_Supplies;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
     hiddenSelectionsTextures[] =
     {
         "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa",
@@ -2300,7 +2300,7 @@ class B_A_supplyCrate_wdl_F: B_A_supplyCrate_F
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_supplyCrate_wdl_F.jpg";
 	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_wdl_F0;
-    editorSubcategory = EdSubcat_Ammo_NATO_Woodland_British;
+    editorSubcategory = EdSubcat_Ammo_BAF_Woodland;
 	hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Data\Supplydrop_CO.paa"};
 
     /* Inventory */
