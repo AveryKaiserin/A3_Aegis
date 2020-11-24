@@ -111,7 +111,7 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		item_xx(Medikit,1);
 		item_xx(Binocular,1);
 		item_xx(ItemGPS,5);
-		item_xx(O_R_UavTerminal,2);
+		item_xx(O_UavTerminal,2);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
 		item_xx(optic_ACO_grn_AK_F,2);
@@ -243,7 +243,7 @@ class O_R_CargoNet_01_ammo_arid_F: O_R_CargoNet_01_ammo_F
 		item_xx(Medikit,1);
 		item_xx(Binocular,1);
 		item_xx(ItemGPS,5);
-		item_xx(O_R_UavTerminal,2);
+		item_xx(O_UavTerminal,2);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
 		item_xx(optic_ACO_grn_AK_F,2);

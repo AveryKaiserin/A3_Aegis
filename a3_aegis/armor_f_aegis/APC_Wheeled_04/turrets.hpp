@@ -206,7 +206,7 @@ class Turrets: Turrets
 		memoryPointGun[] = {"usti hlavne3"};
 
         /* Servos */
-		minElev = -5;
+		minElev = -7;
 		maxElev = 35;
 		initElev = 0;
         minTurn = -360;

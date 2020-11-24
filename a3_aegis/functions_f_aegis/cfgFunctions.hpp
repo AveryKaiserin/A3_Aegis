@@ -29,12 +29,10 @@ class CfgFunctions
 			file = "A3_Aegis\Functions_F_Aegis\GUI";
 			class initWorldScene{};
 			class initWorldSceneVR{};
-			/*
             class showHorizontalCompass
 			{
-				postInit = true;
+				//postInit = true;
 			};
-            */
         };
     };
 };

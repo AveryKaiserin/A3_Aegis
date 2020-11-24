@@ -32,3 +32,21 @@ class PreloadTextures
 		};
     };
 };
+
+/* Keybinds
+class CfgDefaultKeysPresets
+{
+	class Arma2
+	{
+		class Mappings
+		{
+			commandLeft[] = {};
+			commandRight[] = {};
+			commandForward[] = {};
+			commandBack[] = {};
+			commandFast[] = {};
+			commandSlow[] = {};
+        };
+    };
+};
+*/

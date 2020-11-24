@@ -3,6 +3,11 @@ class CfgCloudlets
     /* Inheritance Tree */
     class Default;
 
+	class WPCloud: Default
+	{
+		lifeTime = 15;
+    };
+    
     /* Explosion Refractions: originally by Taro */
 	class ExplosionRefract: Default
 	{
@@ -26,12 +31,12 @@ class CfgCloudlets
         };
 		color[] =
         {
-            {0.1,0.1,0.1,1},
-            {0.25,0.25,0.25,1},
-            {0.5,0.5,0.5,1},
-            {0,0,0,1},
-            {0,0,0,0.5},
-            {0,0,0,0.3}
+            {0.1,0.1,0.1,1},        // 0%
+            {0.25,0.25,0.25,1},     // 20%
+            {0.5,0.5,0.5,1},        // 40%
+            {0,0,0,1},              // 60%
+            {0,0,0,0.5},            // 80%
+            {0,0,0,0.3}             // 100%
         };
 		interval = 3*10;
 		lifeTime = 0.3;

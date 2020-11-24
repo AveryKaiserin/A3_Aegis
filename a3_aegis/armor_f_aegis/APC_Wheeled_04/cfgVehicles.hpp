@@ -115,7 +115,7 @@ class CfgVehicles
 		armorStructural = 5;
 		armorLights = 0.1;
 		crewExplosionProtection = 0.9995;
-		damageResistance = /*0.00719*/ 0.00455625;
+		damageResistance = 0.00455625;
 		class HitPoints: HitPoints
 		{
 			class HitHull: HitHull

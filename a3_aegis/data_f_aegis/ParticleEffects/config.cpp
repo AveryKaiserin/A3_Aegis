@@ -8,6 +8,60 @@
 #include "cfgCloudlets.hpp"
 #include "cfgLights.hpp"
 
+class CMSmokeEffect
+{
+	class LightExp
+	{
+		simulation = light;
+		type = ExploLight;
+		position[] =
+        {
+            0,  // X
+            0,  // Y
+            0   // Z
+        };
+		intensity = 0.001;
+		interval = 1;
+		lifeTime = 1;
+	};
+	class Explosion1
+	{
+		simulation = particles;
+		type = CMSmoke;
+		position[] =
+        {
+            0,  // X
+            0,  // Y
+            0   // Z
+        };
+		intensity = 1;
+		interval = 1;
+		lifeTime = 0.3;
+		smokeGenMinDist = 0;
+		smokeGenMaxDist = 2000;
+		smokeSizeCoef = 0;
+		smokeIntervalCoef = 0;
+	};
+	class WPTrailEffect
+	{
+		simulation = particles;
+		type = WPTrails;
+		position[] =
+        {
+            0,  // X
+            0,  // Y
+            0   // Z
+        };
+		intensity = 1;
+		interval = 1;
+		lifeTime = 1;
+		smokeGenMinDist = 0;
+		smokeGenMaxDist = 2000;
+		smokeSizeCoef = 0;
+		smokeIntervalCoef = 0;
+	};
+};
+
 /* Explosion Refractions */
 #define EXPLOSION_REFRACT(a) \
 	class RefractExp \

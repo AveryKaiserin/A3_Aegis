@@ -414,7 +414,7 @@ class Box_RUS_Support_F: Box_East_Support_F
 		item_xx(acc_flashlight,5);
 		item_xx(acc_flashlight_pistol,2);
 		item_xx(ItemGPS,5);
-		item_xx(O_R_UavTerminal,2);
+		item_xx(O_UavTerminal,2);
 		item_xx(acc_pointer_IR,5);
 		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(Medikit,1);
@@ -702,7 +702,7 @@ class Box_RUS_Support_arid_F: Box_RUS_Support_F
 		item_xx(acc_flashlight,5);
 		item_xx(acc_flashlight_pistol,2);
 		item_xx(ItemGPS,5);
-		item_xx(O_R_UavTerminal,2);
+		item_xx(O_UavTerminal,2);
 		item_xx(acc_pointer_IR,5);
 		item_xx(Laserdesignator_02_grn_F,1);
 		item_xx(Medikit,1);

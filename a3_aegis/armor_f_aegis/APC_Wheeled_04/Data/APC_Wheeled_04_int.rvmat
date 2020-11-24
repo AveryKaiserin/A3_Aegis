@@ -1,3 +1,7 @@
+class StageTI
+{
+	texture="a3_aegis\armor_f_aegis\apc_wheeled_04\data\apc_wheeled_04_int_ti_ca.tga";
+};
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,1};

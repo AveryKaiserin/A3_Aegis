@@ -205,7 +205,7 @@ class Box_EAF_Support_F: Box_IND_Support_F
 		item_xx(acc_flashlight,5);
 		item_xx(acc_flashlight_pistol,2);
 		item_xx(ItemGPS,5);
-		item_xx(I_E_UavTerminal,2);
+		item_xx(I_UavTerminal,2);
 		item_xx(acc_pointer_IR,5);
         delete _xx_Laserdesignator_03;
 		item_xx(Laserdesignator_01_khk_F,1);

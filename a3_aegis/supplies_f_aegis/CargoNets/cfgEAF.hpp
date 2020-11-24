@@ -74,7 +74,7 @@ class I_E_CargoNet_01_ammo_F: I_CargoNet_01_ammo_F
         item_xx(Medikit,1);
         item_xx(Binocular,1);
         item_xx(ItemGPS,5);
-        item_xx(I_E_UavTerminal,2);
+        item_xx(I_UavTerminal,2);
         item_xx(MineDetector,1);
         item_xx(ToolKit,1);
         item_xx(optic_ACO,2);

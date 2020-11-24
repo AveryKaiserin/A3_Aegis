@@ -64,7 +64,7 @@ class Box_ION_Equip_F: Box_NATO_Equip_F
 		item_xx(bipod_01_F_blk,2);
 		item_xx(FirstAidKit,10);
 		item_xx(acc_flashlight,5);
-		item_xx(B_ION_UavTerminal,1);
+		item_xx(B_UavTerminal,1);
 		item_xx(Binocular,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
