@@ -10,7 +10,7 @@ class B_ViperLightHarness_whex_TL_F: B_ViperLightHarness_whex_F
 		mag_xx(17Rnd_9x21_Mag,1);
 		mag_xx(MiniGrenade,2);
 		mag_xx(SmokeShell,1);
-        TRANSPORT_SMOKE_SHELLS_OPFOR
+        SMOKESHELLS_BAG_OPFOR
 	};
 	class TransportItems
 	{
@@ -50,7 +50,7 @@ class B_ViperHarness_whex_Medic_F: B_ViperHarness_whex_F
 		mag_xx(17Rnd_9x21_Mag,1);
 		mag_xx(MiniGrenade,2);
 		mag_xx(SmokeShell,1);
-        TRANSPORT_SMOKE_SHELLS_MEDIC
+        SMOKESHELLS_BAG_MEDIC
 	};
 	class TransportItems
 	{
