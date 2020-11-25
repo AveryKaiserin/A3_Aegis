@@ -14,7 +14,7 @@ class Theseus_B_N_Man_Base_F: I_Soldier_F
 };
 class Theseus_B_N_Soldier_Base_F: Theseus_B_N_Man_Base_F
 {
-	uniformClass = U_Theseus_B_NAAF_Uniform_01_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
 };
 class Theseus_B_N_Soldier_A_F: Theseus_B_N_Soldier_Base_F
 {
@@ -537,7 +537,7 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = U_Theseus_B_NAAF_Officer_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Officer_dgtl_F;
 	weapons[] =
 	{
 		hgun_PDW2000_F,

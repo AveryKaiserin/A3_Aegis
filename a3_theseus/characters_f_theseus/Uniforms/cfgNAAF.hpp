@@ -6,7 +6,7 @@ class Theseus_U_B_NAAF_Uniform_01_dgtl_F: Uniform_Base
 	picture = "\A3\Characters_F_Beta\Data\UI\icon_U_IR_CrewUniform_rucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
@@ -23,7 +23,7 @@ class Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F: Uniform_Base
 	picture = "\A3\Characters_F_Beta\Data\UI\icon_U_IR_CombatUniform_rucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
@@ -40,7 +40,7 @@ class Theseus_U_B_NAAF_Officer_dgtl_F: Uniform_Base
 	picture = "\A3\Characters_F\Data\UI\icon_U_IR_Officer_spc_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_officer_spc_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
