@@ -94,27 +94,27 @@ class CfgVehicles
 	UNIFORM_HOLDER(Atlas_U_Tank_olive_F,$STR_A3_A_CfgWeapons_U_Tank_olive_F0)
 	UNIFORM_HOLDER(Atlas_U_I_I_CBRN_Suit_01_Olive_F,$STR_A3_A_CfgWeapons_U_I_I_CBRN_Suit_01_Olive_F0)
     // Deprecated classes
-    DEPRECATED_CLASS(Item_U_O_V_Soldier_Viper_whex_F,Item_Atlas_U_O_V_Soldier_Viper_whex_F)
-    DEPRECATED_CLASS(Item_U_O_W_CombatUniform_owcamo,Item_Atlas_U_O_W_CombatUniform_owcamo)
-    DEPRECATED_CLASS(Item_U_O_W_PilotCoveralls,Item_Atlas_U_O_W_PilotCoveralls)
-    DEPRECATED_CLASS(Item_U_O_W_OfficerUniform,Item_Atlas_U_O_W_OfficerUniform)
-    DEPRECATED_CLASS(Item_U_O_officer_noInsignia_whex_F,Item_Atlas_U_O_officer_noInsignia_whex_F)
-    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_wdl,Item_Atlas_U_B_G_CombatUniform_wdl)
-    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_tshirt_wdl,Item_Atlas_U_B_G_CombatUniform_tshirt_wdl)
-    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_vest_wdl,Item_Atlas_U_B_G_CombatUniform_vest_wdl)
-    DEPRECATED_CLASS(Item_U_B_G_HeliPilotCoveralls,Item_Atlas_U_B_G_HeliPilotCoveralls)
-    DEPRECATED_CLASS(Item_U_Tank_wdl_F,Item_Atlas_U_Tank_wdl_F)
-    DEPRECATED_CLASS(Item_U_O_CombatUniform_semiarid,Item_Atlas_U_O_CombatUniform_semiarid)
-    DEPRECATED_CLASS(Item_U_O_officer_noInsignia_semiarid_F,Item_Atlas_U_O_officer_noInsignia_semiarid_F)
-    DEPRECATED_CLASS(Item_U_B_H_Soldier_F,Item_Atlas_U_B_H_Soldier_F)
-    DEPRECATED_CLASS(Item_U_B_H_Soldier_2_F,Item_Atlas_U_B_H_Soldier_2_F)
-    DEPRECATED_CLASS(Item_U_B_H_Soldier_3_F,Item_Atlas_U_B_H_Soldier_3_F)
-    DEPRECATED_CLASS(Item_U_B_H_Officer_F,Item_Atlas_U_B_H_Officer_F)
-    DEPRECATED_CLASS(Item_U_I_I_CombatUniform_olive,Item_Atlas_U_I_I_CombatUniform_olive)
-    DEPRECATED_CLASS(Item_U_I_I_CombatUniform_shortsleeve_olive,Item_Atlas_U_I_I_CombatUniform_shortsleeve_olive)
-    DEPRECATED_CLASS(Item_U_I_I_GhillieSuit,Item_Atlas_U_I_I_GhillieSuit)
-    DEPRECATED_CLASS(Item_U_I_I_OfficerUniform,Item_Atlas_U_I_I_OfficerUniform)
-    DEPRECATED_CLASS(Item_U_I_I_Wetsuit,Item_Atlas_U_I_I_Wetsuit)
-    DEPRECATED_CLASS(Item_U_Tank_olive_F,Item_Atlas_U_Tank_olive_F)
-    DEPRECATED_CLASS(Item_U_I_I_CBRN_Suit_01_Olive_F,Item_Atlas_U_I_I_CBRN_Suit_01_Olive_F)
+    DEPRECATED_CLASS(Item_U_O_V_Soldier_Viper_whex_F,Item_Atlas_U_O_V_Soldier_Viper_whex_F);
+    DEPRECATED_CLASS(Item_U_O_W_CombatUniform_owcamo,Item_Atlas_U_O_W_CombatUniform_owcamo);
+    DEPRECATED_CLASS(Item_U_O_W_PilotCoveralls,Item_Atlas_U_O_W_PilotCoveralls);
+    DEPRECATED_CLASS(Item_U_O_W_OfficerUniform,Item_Atlas_U_O_W_OfficerUniform);
+    DEPRECATED_CLASS(Item_U_O_officer_noInsignia_whex_F,Item_Atlas_U_O_officer_noInsignia_whex_F);
+    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_wdl,Item_Atlas_U_B_G_CombatUniform_wdl);
+    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_tshirt_wdl,Item_Atlas_U_B_G_CombatUniform_tshirt_wdl);
+    DEPRECATED_CLASS(Item_U_B_G_CombatUniform_vest_wdl,Item_Atlas_U_B_G_CombatUniform_vest_wdl);
+    DEPRECATED_CLASS(Item_U_B_G_HeliPilotCoveralls,Item_Atlas_U_B_G_HeliPilotCoveralls);
+    DEPRECATED_CLASS(Item_U_Tank_wdl_F,Item_Atlas_U_Tank_wdl_F);
+    DEPRECATED_CLASS(Item_U_O_CombatUniform_semiarid,Item_Atlas_U_O_CombatUniform_semiarid);
+    DEPRECATED_CLASS(Item_U_O_officer_noInsignia_semiarid_F,Item_Atlas_U_O_officer_noInsignia_semiarid_F);
+    DEPRECATED_CLASS(Item_U_B_H_Soldier_F,Item_Atlas_U_B_H_Soldier_F);
+    DEPRECATED_CLASS(Item_U_B_H_Soldier_2_F,Item_Atlas_U_B_H_Soldier_2_F);
+    DEPRECATED_CLASS(Item_U_B_H_Soldier_3_F,Item_Atlas_U_B_H_Soldier_3_F);
+    DEPRECATED_CLASS(Item_U_B_H_Officer_F,Item_Atlas_U_B_H_Officer_F);
+    DEPRECATED_CLASS(Item_U_I_I_CombatUniform_olive,Item_Atlas_U_I_I_CombatUniform_olive);
+    DEPRECATED_CLASS(Item_U_I_I_CombatUniform_shortsleeve_olive,Item_Atlas_U_I_I_CombatUniform_shortsleeve_olive);
+    DEPRECATED_CLASS(Item_U_I_I_GhillieSuit,Item_Atlas_U_I_I_GhillieSuit);
+    DEPRECATED_CLASS(Item_U_I_I_OfficerUniform,Item_Atlas_U_I_I_OfficerUniform);
+    DEPRECATED_CLASS(Item_U_I_I_Wetsuit,Item_Atlas_U_I_I_Wetsuit);
+    DEPRECATED_CLASS(Item_U_Tank_olive_F,Item_Atlas_U_Tank_olive_F);
+    DEPRECATED_CLASS(Item_U_I_I_CBRN_Suit_01_Olive_F,Item_Atlas_U_I_I_CBRN_Suit_01_Olive_F);
 };

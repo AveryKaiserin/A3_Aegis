@@ -76,11 +76,11 @@ class CfgVehicles
 
     /* Launchers */
 	LAUNCHER_HOLDER(launch_RPG32_camo_F,RPG32_F,$STR_A3_C_CfgWeapons_launch_RPG32_camo_F0);
-	LAUNCHER_HOLDER(launch_RPG32_black_F,RPG32_F$STR_A3_A_CfgWeapons_launch_RPG32_black_F0);
-	LAUNCHER_HOLDER(launch_O_Titan_camo_F,Titan_AA$STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0);
-	LAUNCHER_HOLDER(launch_Titan_blk_F,Titan_AA$STR_A3_A_CfgWeapons_launch_Titan_blk_F0);
-	LAUNCHER_HOLDER(launch_O_Titan_short_camo_F,Titan_AT$STR_A3_A_CfgWeapons_launch_O_Titan_short_camo_F0);
-	LAUNCHER_HOLDER(launch_Titan_short_blk_F,Titan_AT$STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0);
+	LAUNCHER_HOLDER(launch_RPG32_black_F,RPG32_F,$STR_A3_A_CfgWeapons_launch_RPG32_black_F0);
+	LAUNCHER_HOLDER(launch_O_Titan_camo_F,Titan_AA,$STR_A3_A_CfgWeapons_launch_O_Titan_camo_F0);
+	LAUNCHER_HOLDER(launch_Titan_blk_F,Titan_AA,$STR_A3_A_CfgWeapons_launch_Titan_blk_F0);
+	LAUNCHER_HOLDER(launch_O_Titan_short_camo_F,Titan_AT,$STR_A3_A_CfgWeapons_launch_O_Titan_short_camo_F0);
+	LAUNCHER_HOLDER(launch_Titan_short_blk_F,Titan_AT,$STR_A3_A_CfgWeapons_launch_Titan_short_blk_F0);
 	LAUNCHER_HOLDER(launch_MRAWS_black_F,MRAWS_HEAT_F,$STR_A3_A_CfgWeapons_launch_MRAWS_black_F0);
 	LAUNCHER_HOLDER(launch_MRAWS_black_rail_F,MRAWS_HEAT_F,$STR_A3_A_CfgWeapons_launch_MRAWS_black_rail_F0);
 
@@ -121,7 +121,7 @@ class CfgVehicles
 	WEAPON_HOLDER(arifle_Mk20_GL_black_F,30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_Mk20_GL_black_F0,EdSubcat_AssaultRifles);
 	WEAPON_HOLDER(arifle_Mk20_GL_hex_F,30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_Mk20_GL_hex_F0,EdSubcat_AssaultRifles);
 	WEAPON_HOLDER(arifle_TRG21_black_F,30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_TRG21_black_F0,EdSubcat_AssaultRifles);
-	WEAPON_HOLDER(arifle_TRG20_black_F30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_TRG20_black_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_TRG20_black_F,30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_TRG20_black_F0,EdSubcat_AssaultRifles);
 	WEAPON_HOLDER(arifle_TRG21_GL_black_F,30Rnd_556x45_Stanag,$STR_A3_A_CfgWeapons_arifle_TRG21_GL_black_F0,EdSubcat_AssaultRifles);
 
     /* Shotguns */
