@@ -1,13 +1,16 @@
 ﻿class CfgPatches
 {
+    /* Definitions */
+    #include "\A3_Aegis\macros_urls.hpp"
+
 	class A3_Theseus_Armor_F_Theseus
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_Heliotrope;
 		name = "Arma 3 Theseus - Armored Land Vehicles";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516";
+		url = linkTheseus;
 		requiredAddons[] = {A3_Theseus_Data_F_Theseus};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };
