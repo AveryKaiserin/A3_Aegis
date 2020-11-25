@@ -1,4 +1,4 @@
-/* Gendarmerie */
+/* BLUFOR - Gendarmerie */
 class B_GEN_Soldier_base_F: B_Soldier_base_F
 {
 	hiddenSelectionsTextures[] =
@@ -84,16 +84,6 @@ class B_GEN_Commander_F: B_GEN_Soldier_base_F
 		SmokeShellYellow
 	};
     headgearList[] = {H_Beret_gen_F,1};
-};
-class O_GEN_Soldier_F: B_GEN_Soldier_F
-{
-	scope = protected;
-	scopeCurator = private;
-};
-class O_GEN_Commander_F: B_GEN_Commander_F
-{
-	scope = protected;
-	scopeCurator = private;
 };
 class B_GEN_Soldier_AR_F: B_GEN_Soldier_base_F
 {
@@ -317,4 +307,42 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 		H_MilCap_gen_F,
 		DefaultManLinkedItems
 	};
+};
+
+/* OPFOR - Gendarmerie */
+class O_GEN_Soldier_AR_F: B_GEN_Soldier_AR_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_AR_F.jpg";
+    scope = public;
+    side = TEast;
+    faction = OPF_GEN_F;
+    uniformClass = U_O_GEN_Soldier_F;
+};
+class O_GEN_Soldier_Rifle_F: B_GEN_Soldier_Rifle_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_Rifle_F.jpg";
+    scope = public;
+    side = TEast;
+    faction = OPF_GEN_F;
+    uniformClass = U_O_GEN_Soldier_F;
+};
+class O_GEN_Soldier_SG_F: B_GEN_Soldier_SG_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_SG_F.jpg";
+    scope = public;
+    side = TEast;
+    faction = OPF_GEN_F;
+    uniformClass = U_O_GEN_Commander_F;
+};
+class O_GEN_Soldier_LAT_F: B_GEN_Soldier_LAT_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_GEN_Soldier_LAT_F.jpg";
+    scope = public;
+    side = TEast;
+    faction = OPF_GEN_F;
+    uniformClass = U_O_GEN_Soldier_F;
 };
