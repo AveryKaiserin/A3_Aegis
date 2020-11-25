@@ -18,14 +18,14 @@ class CfgPatches
             B_W_CargoNet_01_ammo_F,
             B_A_CargoNet_01_ammo_F,
             B_A_CargoNet_01_ammo_tropic_F,
-            B_A_CargoNet_01_ammo_wdl_F
+            B_A_CargoNet_01_ammo_wdl_F,
             
             /* From "cfgOPFOR.hpp" */
             O_T_CargoNet_01_ammo_F,
 
             /* From "cfgRUS.hpp" */
             O_R_CargoNet_01_ammo_arid_F,
-            O_R_CargoNet_01_ammo_F,
+            O_R_CargoNet_01_ammo_F
         };
 		weapons[] = {/* Automated */};
 	};
