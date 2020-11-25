@@ -139,7 +139,7 @@ class B_AssaultPack_blk_IIReconMedic_F: B_AssaultPack_blk
 	scope = protected;
 	class TransportMagazines
 	{
-		TRANSPORT_SMOKE_SHELLS_MEDIC
+		SMOKESHELLS_BAG_MEDIC;
 	};
 	class TransportItems
 	{
