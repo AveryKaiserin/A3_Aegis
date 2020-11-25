@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class A3_Theseus_Air_F_Theseus_Heli_Transport_02
+	class A3_Theseus_Air_F_Theseus_Heli_Light_03
 	{
 		addonRootClass = A3_Theseus_Air_F_Theseus;
 		requiredAddons[] = {A3_Theseus_Air_F_Theseus};

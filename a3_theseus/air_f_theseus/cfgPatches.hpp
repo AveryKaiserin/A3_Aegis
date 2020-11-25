@@ -5,11 +5,12 @@ class CfgPatches
 
 	class A3_Theseus_Air_F_Theseus
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_Heliotrope;
 		name = "Arma 3 Theseus - Aircrafts";
 		url = linkTheseus;
 		requiredAddons[] = {A3_Theseus_Data_F_Theseus};
 		requiredVersion = 0.1;
+		units[] = {/* Automated */};
 		weapons[] = {/* Automated */};
 	};
 };
