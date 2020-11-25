@@ -132,7 +132,7 @@ class Marine_B_USMC_medic_F: Marine_B_USMC_Soldier_Base_F
 	editorPreview = "\A3_Marine\EditorPreviews_F_Marine\Data\CfgVehicles\B_USMC_medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_B_medic_F0;
+	displayName = $STR_A3_M_CfgVehicles_B_USMC_medic_F0;
 	uniformClass = Marine_U_B_MCU_desert_F;
     linkedItems[] =
     {

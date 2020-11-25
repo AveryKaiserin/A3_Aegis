@@ -2,6 +2,23 @@
 <Project name="Arma3Marine">
 	<Package name="Language_Marine">
 		<Container name="Characters_F">
+            <Key ID="STR_A3_M_CfgVehicles_B_USMC_medic_F0">
+                <Original>Corpsman</Original>
+                <Chinese>軍醫</Chinese>
+                <French>Infirmier</French>
+                <Spanish>Médico</Spanish>
+                <Italian>Medico</Italian>
+                <Polish>Medyk</Polish>
+                <Russian>Медик</Russian>
+                <German>Sanitäter</German>
+                <Czech>Zdravotník</Czech>
+                <English>Corpsman</English>
+                <Portuguese>Corpsman</Portuguese>
+                <Korean>위생병</Korean>
+                <Chinesesimp>军医</Chinesesimp>
+                <Japanese>メディック</Japanese>
+                <Turkish>Sıhhiye Eri</Turkish>
+            </Key>
 			<Container name="Groups">
 				<Key ID="STR_A3_M_CfgGroups_West_BLU_USMC_F_Infantry0">
 					<Original>Infantry (Desert)</Original>

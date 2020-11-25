@@ -1331,6 +1331,23 @@
 				<Japanese>スポッター（乾燥地帯）</Japanese>
 				<Turkish>Gözetleyici (Kurak)</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_B_A_Soldier_SL_F0">
+                <Original>Section Leader</Original>
+                <Chinese>分隊隊長</Chinese>
+                <French>Chef d''section</French>
+                <Spanish>Líder de sección</Spanish>
+                <Italian>Caposezione</Italian>
+                <Polish>Dowódca sekcji</Polish>
+                <Russian>Командир отделения</Russian>
+                <German>Truppführer</German>
+                <Czech>Velitel sekce</Czech>
+                <English>Section Leader</English>
+                <Portuguese>Líder do seção de combate</Portuguese>
+                <Korean>섹션장</Korean>
+                <Chinesesimp>班长</Chinesesimp>
+                <Japanese>セクションリーダー</Japanese>
+                <Turkish>Bölüm Komutanı</Turkish>
+			</Key>
 			<Key ID="STR_A3_A_CfgVehicles_C_man_hunter_1_F0">
 				<Original>Hunter</Original>
 				<Chinese>獵人</Chinese>

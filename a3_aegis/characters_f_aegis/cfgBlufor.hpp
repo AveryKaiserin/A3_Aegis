@@ -9857,6 +9857,7 @@ class B_A_Soldier_SL_F: B_Soldier_SL_F
 	};
     scope = public;
     scopeCurator = public;
+    displayName = $STR_A3_A_CfgVehicles_B_A_Soldier_SL_F0;
 	uniformClass = U_B_UBACS_vest_mtp_f;
 	weapons[] =
 	{
