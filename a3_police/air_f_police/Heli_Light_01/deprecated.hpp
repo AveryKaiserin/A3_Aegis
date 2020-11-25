@@ -1,1 +1,1 @@
-DEPRECATED_CLASS(I_P_Heli_Light_01_police_F,Police_I_P_Heli_Light_01_police_F)
+DEPRECATED_CLASS(I_P_Heli_Light_01_police_F,Police_I_P_Heli_Light_01_police_F);

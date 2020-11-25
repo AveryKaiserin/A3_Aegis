@@ -1,1 +1,1 @@
-DEPRECATED_CLASS(I_P_Boat_Civil_01_police_F,Police_I_P_Boat_Civil_01_police_F)
+DEPRECATED_CLASS(I_P_Boat_Civil_01_police_F,Police_I_P_Boat_Civil_01_police_F);
