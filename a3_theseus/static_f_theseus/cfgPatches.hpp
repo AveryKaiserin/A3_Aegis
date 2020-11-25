@@ -5,7 +5,7 @@ class CfgPatches
 
 	class A3_Theseus_Static_F_Theseus
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_Heliotrope;
 		name = "Arma 3 Theseus - Turrets";
 		url = linkTheseus;
 		requiredAddons[] =

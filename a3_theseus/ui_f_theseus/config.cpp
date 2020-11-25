@@ -1,3 +1,5 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
+
+/* Configuration */
 #include "cfgMarkers.hpp"

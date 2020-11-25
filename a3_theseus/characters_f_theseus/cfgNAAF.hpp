@@ -1,8 +1,7 @@
-// Arma 3 Theseus
+/* NAAF */
 class Theseus_B_N_Man_Base_F: I_Soldier_F
 {
     scope = private;
-    scopeCurator = private;
 	faction = Theseus_BLU_N_F;
 	genericNames = GreekMen;
 	side = TWest;
@@ -86,8 +85,13 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 	role = MachineGunner;
 	icon = iconManMG;
 	cost = 125000;
-	threat[] = {1,0.1,0.3};
-    uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+    uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	weapons[] =
 	{
 		LMG_Mk200_F,
@@ -197,7 +201,7 @@ class Theseus_B_N_Medic_F: Theseus_B_N_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+    uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	backpack = B_TacticalPack_oli_BNMedic_F;
 	weapons[] =
 	{
@@ -254,7 +258,12 @@ class Theseus_B_N_Engineer_F: Theseus_B_N_Soldier_Base_F
 	canDeactivateMines = true;
 	engineer = true;
 	detectSkill = 31;
-	threat[] = {1,0.5,0.1};
+	threat[] =
+    {
+        1,      // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
 	camouflage = 1.6;
 	backpack = B_Carryall_oli_BNEng_F;
 	weapons[] =
@@ -367,7 +376,7 @@ class Theseus_B_N_Helipilot_F: Theseus_B_N_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	weapons[] =
 	{
 		hgun_PDW2000_F,
@@ -636,9 +645,14 @@ class Theseus_B_N_Soldier_LAT_F: Theseus_B_N_Soldier_Base_F
 	role = MissileSpecialist;
 	icon = iconManAT;
 	cost = 130000;
-	threat[] = {0.8,0.8,0.3};
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
 	secondaryAmmoCoef = 0.5;
-	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	backpack = B_TacticalPack_oli_BNLAT_F;
 	weapons[] =
 	{
@@ -694,7 +708,7 @@ class Theseus_B_N_Soldier_SL_F: Theseus_B_N_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	weapons[] =
 	{
 		arifle_TRG21_MRCO_F,
@@ -812,7 +826,7 @@ class Theseus_B_N_RadioOperator_F: Theseus_B_N_Soldier_F
 	author = $STR_A3_A_Heliotrope;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	backpack = B_RadioBag_01_digi_F;
 	weapons[] =
     {
@@ -880,7 +894,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
 	magazines[] = {};
-	uniformClass = U_Theseus_B_NAAF_Uniform_02_dgtl_F;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
@@ -899,5 +913,10 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
-	threat[] = {0.1,0.1,0.1};
+	threat[] =
+    {
+        0.1,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
 };

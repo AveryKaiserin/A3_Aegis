@@ -10,14 +10,13 @@ class B_Carryall_oli_BNAmmo_F: B_Carryall_oli
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(20Rnd_762x51_weathered_Mag,2);
+		mag_xx(20Rnd_Mk14_762x51_Mag,2);
 	};
 	class TransportItems
 	{
 		item_xx(FirstAidKit,4);
 	};
 };
-
 class B_Carryall_oli_BNEng_F: B_Carryall_oli
 {
 	author = $STR_A3_A_Heliotrope;

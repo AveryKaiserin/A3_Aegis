@@ -1,3 +1,4 @@
+/* NAAF */
 class Theseus_B_N_LT_01_AT_F: I_LT_01_AT_F
 {
 	author = $STR_A3_A_Heliotrope;

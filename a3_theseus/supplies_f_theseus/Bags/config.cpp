@@ -1,10 +1,8 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
 
-class B_Carryall_oli;
-class B_TacticalPack_oli;
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
 
-class CfgVehicles
-{
-	#include "cfgNAAF.hpp"				// NAAF
-};
+/* Configuration */
+#include "cfgVehicles.hpp"

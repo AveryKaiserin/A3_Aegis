@@ -5,7 +5,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_T_CfgFactionClasses_BLU_N_F0;
 		priority = 3;
 		side = TWest;
-		icon = "\A3\data_f\CfgFactionClasses_CIV_ca.paa";
+		icon = "\A3\Data_F\CfgFactionClasses_CIV_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_FIA_CO.paa";
 	};
 	class Theseus_OPF_B_F 										// Bandits
@@ -13,7 +13,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_T_CfgFactionClasses_OPF_B_F0;
 		priority = 3;
 		side = TEast;
-		icon = "\A3_Theseus\data_f_theseus\factionIcons\CfgFactionClasses_OPF_B_ca.paa";		
+		icon = "\A3_Theseus\Data_F_Theseus\FactionIcons\CfgFactionClasses_OPF_B_CA.paa";		
 		flag = "\A3\Data_F\Flags\flag_red_CO.paa";				
 	};
 	class Theseus_OPF_R_F 										// Remnants
@@ -21,7 +21,7 @@ class CfgFactionClasses
 		displayName = $STR_A3_T_CfgFactionClasses_OPF_R_F0;
 		priority = 3;
 		side = TEast;
-		icon = "\A3_Theseus\data_f_theseus\factionIcons\CfgFactionClasses_OPF_R_ca.paa";
+		icon = "\A3_Theseus\Data_F_Theseus\FactionIcons\CfgFactionClasses_OPF_R_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_AAF_CO.paa";				
 	};
 };

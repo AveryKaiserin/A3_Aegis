@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NAAF
+            /* From "cfgNAAF.hpp" */
             Theseus_B_N_Truck_02_Ammo_F,
             Theseus_B_N_Truck_02_box_F,
             Theseus_B_N_Truck_02_cargo_F,
@@ -18,6 +18,6 @@ class CfgPatches
             Theseus_B_N_Truck_02_MRL_F,
             Theseus_B_N_Truck_02_transport_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

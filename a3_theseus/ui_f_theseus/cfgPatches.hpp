@@ -1,18 +1,16 @@
 class CfgPatches
 {
+    /* Definitions */
+    #include "\A3_Aegis\macros_urls.hpp"
+
 	class A3_Theseus_UI_F_Theseus
 	{
 		author = $STR_A3_A_Heliotrope;
 		name = "Arma 3 Theseus - User Interface";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516";
-		requiredAddons[] =
-		{
-			A3_Theseus_Data_F_Theseus,
-			A3_UI_F,
-			A3_UI_F_Curator
-		};
+		url = linkTheseus;
+		requiredAddons[] = {A3_Theseus_Data_F_Theseus};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

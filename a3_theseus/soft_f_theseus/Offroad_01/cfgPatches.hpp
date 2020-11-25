@@ -1,20 +1,18 @@
 class CfgPatches
 {
-	class A3_Opf_Soft_F_Opf_Offroad_01
+	class A3_Theseus_Soft_F_Theseus_Offroad_01
 	{
-		addonRootClass = A3_Opf_Soft_F_Opf;
-		requiredAddons[] = {A3_Opf_Soft_F_Opf};
+		addonRootClass = A3_Theseus_Soft_F_Theseus;
+		requiredAddons[] = {A3_Theseus_Soft_F_Theseus};
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Remnants
+            /* From "cfgRemnants.hpp" */
             Theseus_O_R_Offroad_01_F,
             Theseus_O_R_Offroad_01_AT_F,
             Theseus_O_R_Offroad_01_armed_F,
-            Theseus_O_R_Offroad_01_repair_F,
-            Theseus_O_R_Van_01_fuel_F,
-            Theseus_O_R_Van_01_transport_F
+            Theseus_O_R_Offroad_01_repair_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

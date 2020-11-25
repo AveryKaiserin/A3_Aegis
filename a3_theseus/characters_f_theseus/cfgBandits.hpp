@@ -1,8 +1,7 @@
-// Arma 3 Theseus
+/* Bandits */
 class Theseus_O_B_Man_Base_F: I_L_Soldier_Base_F
 {
 	scope = private;
-	scopeCurator = private;
 	faction = Theseus_OPF_B_F;
 	genericNames = GreekMen;
 	side = TEast;
@@ -13,12 +12,11 @@ class Theseus_O_B_Man_Base_F: I_L_Soldier_Base_F
 		G_HAF_default
 	};
 };
-
 class Theseus_O_B_Looter_Pistol_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_C_O_B_Bandit_Pistol_F0;
+	displayName = $STR_A3_T_CfgVehicles_O_B_Bandit_Pistol_F0;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_Pistol_F.jpg";
 	backpack = B_messenger_gray_F;
 	uniformClass = U_C_Poloshirt_stripped;
@@ -49,7 +47,7 @@ class Theseus_O_B_Looter_SG_F: Theseus_O_B_Man_Base_F
 {
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_C_O_B_Bandit_SG_F0;
+	displayName = $STR_A3_T_CfgVehicles_O_B_Bandit_SG_F0;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_SG_F.jpg";
 	backpack = B_Kitbag_rgr;
 	uniformClass = U_C_Mechanic_01_F;
@@ -83,7 +81,7 @@ class Theseus_O_B_Looter_Rifle_F: Theseus_O_B_Man_Base_F
 	scope = public;
 	scopeCurator = public;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_Rifle_F.jpg";
-	displayName = $STR_A3_C_O_B_Bandit_Rifle_F0;
+	displayName = $STR_A3_T_CfgVehicles_O_B_Bandit_Rifle_F0;
 	uniformClass = U_C_Poor_1;
 	linkedItems[] =
     {
@@ -113,7 +111,7 @@ class Theseus_O_B_Looter_SMG_F: Theseus_O_B_Man_Base_F
 	scope = public;
 	scopeCurator = public;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_B_Looter_SMG_F.jpg";
-	displayName = $STR_A3_C_O_B_Bandit_SMG_F0;
+	displayName = $STR_A3_T_CfgVehicles_O_B_Bandit_SMG_F0;
 	uniformClass = U_C_Commoner1_1;
 	backpack = B_Messenger_Black_F;
 	linkedItems[] =
@@ -126,12 +124,12 @@ class Theseus_O_B_Looter_SMG_F: Theseus_O_B_Man_Base_F
     };
 	weapons[] =
     {
-        Hgun_PDW2000_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        Hgun_PDW2000_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
 	magazines[] = {mag_4(30Rnd_9x21_Mag)};
@@ -186,12 +184,12 @@ class Theseus_O_B_Criminal_SMG_F: Theseus_O_B_Man_Base_F
     };
 	weapons[] =
     {
-        Hgun_PDW2000_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        Hgun_PDW2000_F,
+        hgun_PDW2000_F,
         DefaultManWeapons
     };
 	magazines[] = {mag_5(30Rnd_9x21_Mag)};

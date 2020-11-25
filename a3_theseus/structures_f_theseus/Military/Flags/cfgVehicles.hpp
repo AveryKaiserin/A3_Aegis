@@ -20,7 +20,7 @@ class CfgVehicles
 		editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Remnants_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Flag_Remnants_F0;
+		displayName = $STR_A3_T_CfgVehicles_Flag_Remnants_F0;
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture '\A3_Theseus\Data_F_Theseus\Flags\flag_Remnants_CO.paa'";
@@ -44,7 +44,7 @@ class CfgVehicles
 		editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Bandits_F.jpg";
 		scope = public;
 		scopeCurator = public;
-		displayName = $STR_A3_A_CfgVehicles_Flag_Bandits_F0;
+		displayName = $STR_A3_T_CfgVehicles_Flag_Bandits_F0;
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture '\A3_Theseus\Data_F_Theseus\Flags\flag_Bandits_CO.paa'";

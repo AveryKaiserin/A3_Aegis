@@ -1,19 +1,22 @@
 class CfgPatches
 {
+    /* Definitions */
+    #include "\A3_Aegis\macros_urls.hpp"
+
 	class A3_Theseus_Characters_F_Theseus
 	{
 		author = $STR_A3_A_Heliotrope;
 		name = "Arma 3 Theseus - Characters and Clothing";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2225873516"; //Fix later
+		url = linkTheseus;
 		requiredAddons[] =
 		{
 			A3_Aegis_Characters_F_Aegis,
-			A3_Characters_F_Heads
+            A3_Theseus_Data_F_Theseus
 		};
 		requiredVersion = 0.1;
 		units[] =
         {
-            // NAAF
+            /* From "cfgNAAF.hpp" */
             Theseus_B_N_Soldier_A_F,
             Theseus_B_N_Soldier_AR_F,
             Theseus_B_N_Crew_F,
@@ -30,7 +33,8 @@ class CfgPatches
             Theseus_B_N_Soldier_TL_F,
             Theseus_B_N_RadioOperator_F,
             Theseus_B_N_Soldier_unarmed_F,
-            // Bandits
+
+            /* From "cfgBandits.hpp" */
             Theseus_O_B_Looter_Pistol_F,
             Theseus_O_B_Looter_SG_F,
             Theseus_O_B_Looter_Rifle_F,
@@ -38,7 +42,8 @@ class CfgPatches
             Theseus_O_B_Criminal_SG_F,
             Theseus_O_B_Criminal_SMG_F,
             Theseus_O_B_Hunter_F,
-            // IDF
+
+            /* From "cfgIDF.hpp" */
             /*Theseus_B_I_crew_F,
             Theseus_B_I_diver_exp_F,
             Theseus_B_I_diver_F,
@@ -92,7 +97,8 @@ class CfgPatches
             Theseus_B_I_support_MG_F,
             Theseus_B_I_support_Mort_F,
             Theseus_B_I_Survivor_F,*/
-            // Remnants
+
+            /* From "cfgRemnants.hpp" */
             Theseus_O_R_Soldier_1_F,
             Theseus_O_R_Soldier_2_F,
             Theseus_O_R_Soldier_3_F,
@@ -104,6 +110,6 @@ class CfgPatches
             Theseus_O_R_Crew_F,
             Theseus_O_R_Soldier_Base_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

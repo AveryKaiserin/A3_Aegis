@@ -1,4 +1,5 @@
-class Theseus_B_N_MRAP_01_F: MRAP_01_base_F
+/* NAAF */
+class Theseus_B_N_MRAP_01_F: B_MRAP_01_F
 {
     author = $STR_A3_A_Heliotrope;
     class SimpleObject
@@ -129,7 +130,7 @@ class Theseus_B_N_MRAP_01_F: MRAP_01_base_F
         mag_xx(MRAWS_HEAT55_F,2);
     };
 };
-class Theseus_B_N_MRAP_01_gmg_F: MRAP_01_gmg_base_F
+class Theseus_B_N_MRAP_01_gmg_F: B_MRAP_01_gmg_F
 {
     author = $STR_A3_A_Heliotrope;
     class SimpleObject
@@ -260,7 +261,7 @@ class Theseus_B_N_MRAP_01_gmg_F: MRAP_01_gmg_base_F
         mag_xx(MRAWS_HEAT55_F,2);
     };
 };
-class Theseus_B_N_MRAP_01_hmg_F: MRAP_01_hmg_base_F
+class Theseus_B_N_MRAP_01_hmg_F: B_MRAP_01_hmg_F
 {
     author = $STR_A3_A_Heliotrope;
     class SimpleObject

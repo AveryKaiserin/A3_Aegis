@@ -1,8 +1,7 @@
-// Arma 3 Theseus
-class Theseus_O_R_Man_Base_F: I_Soldier_base_F //SoldierGB //O_G_Soldier_F
+/* Remnants */
+class Theseus_O_R_Man_Base_F: I_Soldier_base_F
 {
     scope = private;
-    scopeCurator = private;
 	faction = Theseus_OPF_R_F;
 	genericNames = GreekMen;
 	identityTypes[] =
@@ -284,7 +283,12 @@ class Theseus_O_R_Soldier_5_F: Theseus_O_R_Soldier_Base_F
         RPG32_F
 	};
 	cost = 130000;
-	threat[] = {0.8,0.8,0.3};
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
 	icon = iconManAT;
 	role = MissileSpecialist;
 };
@@ -519,5 +523,10 @@ class Theseus_O_R_Soldier_Base_unarmed_F: Theseus_O_R_Soldier_1_F
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;
-	threat[] = {0.1,0.1,0.1};
+	threat[] =
+    {
+        0.1,    // Soft
+        0.1,    // Armor
+        0.1     // Air
+    };
 };

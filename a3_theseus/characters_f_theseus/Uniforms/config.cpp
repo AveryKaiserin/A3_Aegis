@@ -1,9 +1,9 @@
-#include "\A3_Aegis\basicDefines_A3.hpp"
+/* Header */
 #include "cfgPatches.hpp"
+
+/* Definitions & Inheritance */
+#include "\A3_Aegis\basicDefines_A3.hpp"
+
+/* Configuration */
+#include "cfgWeapons.hpp"
 #include "cfgVehicles.hpp"
-class CfgWeapons
-{
-	class UniformItem;
-	class Uniform_Base;
-	#include "cfgNAAF.hpp"			// NAAF
-};

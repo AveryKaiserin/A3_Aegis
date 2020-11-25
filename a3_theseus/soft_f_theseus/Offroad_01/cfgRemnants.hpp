@@ -1,3 +1,4 @@
+/* Remnants */
 class Theseus_O_R_Offroad_01_F: O_G_Offroad_01_F
 {
 	author = $STR_A3_A_Heliotrope;
@@ -60,24 +61,6 @@ class Theseus_O_R_Offroad_01_armed_F: O_G_Offroad_01_armed_F
 		Guerilla_08,1,
 		Guerilla_09,1
 	};
-	class Turrets: Turrets
-	{
-		class M2_Turret: M2_Turret
-		{
-			magazines[] = {mag_3(100Rnd_127x99_mag_Tracer_Green)};
-		};
-	};
-	class AnimationSources: AnimationSources
-	{
-		class Hide_Shield: Hide_Shield
-		{
-			initPhase = false;
-		};
-		class Hide_Rail: Hide_Rail
-		{
-			initPhase = true;
-		};
-	};
 };
 class Theseus_O_R_Offroad_01_repair_F: O_G_Offroad_01_repair_F
 {
@@ -92,6 +75,9 @@ class Theseus_O_R_Offroad_01_repair_F: O_G_Offroad_01_repair_F
 };
 class Theseus_O_R_Van_01_fuel_F: I_G_Van_01_fuel_F
 {
+	author = $STR_A3_A_Heliotrope;
+	scope = public;
+	scopeCurator = public;
 	side = TEast;
 	faction = Theseus_OPF_R_F;
 	crew = Theseus_O_R_Soldier_1_F;
@@ -99,6 +85,9 @@ class Theseus_O_R_Van_01_fuel_F: I_G_Van_01_fuel_F
 };
 class Theseus_O_R_Van_01_transport_F: I_G_Van_01_transport_F
 {
+	author = $STR_A3_A_Heliotrope;
+	scope = public;
+	scopeCurator = public;
 	side = TEast;
 	faction = Theseus_OPF_R_F;
 	crew = Theseus_O_R_Soldier_1_F;

@@ -52,4 +52,5 @@ class CfgVehicles
 	#include "cfgUniforms.hpp"
 
     /* Deprecated */
+    #include "deprecated.hpp"
 };

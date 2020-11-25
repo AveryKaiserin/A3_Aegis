@@ -6,4 +6,3 @@
 
 /* Configuration */
 #include "cfgVehicles.hpp"
-#include "cfgGroups.hpp"

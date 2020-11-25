@@ -1,6 +1,7 @@
+/* NAAF */
 class Theseus_B_N_Truck_02_F: I_Truck_02_covered_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -108,7 +109,7 @@ class Theseus_B_N_Truck_02_F: I_Truck_02_covered_F
 };
 class Theseus_B_N_Truck_02_transport_F: I_Truck_02_transport_F
 {
-    author = $STR_A3_A_AveryTheKitty;
+    author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -216,7 +217,7 @@ class Theseus_B_N_Truck_02_transport_F: I_Truck_02_transport_F
 };
 class Theseus_B_N_Truck_02_box_F: I_Truck_02_box_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -324,7 +325,7 @@ class Theseus_B_N_Truck_02_box_F: I_Truck_02_box_F
 };
 class Theseus_B_N_Truck_02_medical_F: I_Truck_02_medical_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -432,7 +433,7 @@ class Theseus_B_N_Truck_02_medical_F: I_Truck_02_medical_F
 };
 class Theseus_B_N_Truck_02_Ammo_F: I_Truck_02_Ammo_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -542,7 +543,7 @@ class Theseus_B_N_Truck_02_Ammo_F: I_Truck_02_Ammo_F
 };
 class Theseus_B_N_Truck_02_fuel_F: I_Truck_02_fuel_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -650,7 +651,7 @@ class Theseus_B_N_Truck_02_fuel_F: I_Truck_02_fuel_F
 };
 class Theseus_B_N_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
@@ -760,7 +761,7 @@ class Theseus_B_N_Truck_02_cargo_F: Truck_02_cargo_base_F
 };
 class Theseus_B_N_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Heliotrope;
 	class SimpleObject
 	{
 		eden = true;
