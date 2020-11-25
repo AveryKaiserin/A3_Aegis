@@ -1148,38 +1148,38 @@
 						<Turkish>RFL 7.62 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_base_F0">
-						<Original>SKS 7.62 mm</Original>
-						<Chinese>SKS 7.62 mm</Chinese>
-						<French>SKS 7,62 mm</French>
-						<Spanish>SKS 7,62 mm</Spanish>
-						<Italian>SKS 7,62 mm</Italian>
-						<Polish>SKS 7,62 mm</Polish>
-						<Russian>SKS 7,62 мм</Russian>
-						<German>SKS 7,62 mm</German>
-						<Czech>SKS 7,62 mm</Czech>
-						<English>SKS 7.62 mm</English>
-						<Portuguese>SKS 7,62 mm</Portuguese>
-						<Korean>SKS 7.62mm</Korean>
-						<Chinesesimp>SKS 7.62 毫米</Chinesesimp>
-						<Japanese>SKS 7.62mm</Japanese>
-						<Turkish>SKS 7.62 mm</Turkish>
+						<Original>SKS-M 7.62 mm</Original>
+						<Chinese>SKS-M 7.62 mm</Chinese>
+						<French>SKS-M 7,62 mm</French>
+						<Spanish>SKS-M 7,62 mm</Spanish>
+						<Italian>SKS-M 7,62 mm</Italian>
+						<Polish>SKS-M 7,62 mm</Polish>
+						<Russian>SKS-M 7,62 мм</Russian>
+						<German>SKS-M 7,62 mm</German>
+						<Czech>SKS-M 7,62 mm</Czech>
+						<English>SKS-M 7.62 mm</English>
+						<Portuguese>SKS-M 7,62 mm</Portuguese>
+						<Korean>SKS-M 7.62mm</Korean>
+						<Chinesesimp>SKS-M 7.62 毫米</Chinesesimp>
+						<Japanese>SKS-M 7.62mm</Japanese>
+						<Turkish>SKS-M 7.62 mm</Turkish>
 					</Key>
 					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_F0">
-						<Original>SKS 7.62 mm</Original>
-						<Chinese>SKS 7.62 mm</Chinese>
-						<French>SKS 7,62 mm</French>
-						<Spanish>SKS 7,62 mm</Spanish>
-						<Italian>SKS 7,62 mm</Italian>
-						<Polish>SKS 7,62 mm</Polish>
-						<Russian>SKS 7,62 мм</Russian>
-						<German>SKS 7,62 mm</German>
-						<Czech>SKS 7,62 mm</Czech>
-						<English>SKS 7.62 mm</English>
-						<Portuguese>SKS 7,62 mm</Portuguese>
-						<Korean>SKS 7.62mm</Korean>
-						<Chinesesimp>SKS 7.62 毫米</Chinesesimp>
-						<Japanese>SKS 7.62mm</Japanese>
-						<Turkish>SKS 7.62 mm</Turkish>
+						<Original>SKS-M 7.62 mm</Original>
+						<Chinese>SKS-M 7.62 mm</Chinese>
+						<French>SKS-M 7,62 mm</French>
+						<Spanish>SKS-M 7,62 mm</Spanish>
+						<Italian>SKS-M 7,62 mm</Italian>
+						<Polish>SKS-M 7,62 mm</Polish>
+						<Russian>SKS-M 7,62 мм</Russian>
+						<German>SKS-M 7,62 mm</German>
+						<Czech>SKS-M 7,62 mm</Czech>
+						<English>SKS-M 7.62 mm</English>
+						<Portuguese>SKS-M 7,62 mm</Portuguese>
+						<Korean>SKS-M 7.62mm</Korean>
+						<Chinesesimp>SKS-M 7.62 毫米</Chinesesimp>
+						<Japanese>SKS-M 7.62mm</Japanese>
+						<Turkish>SKS-M 7.62 mm</Turkish>
 					</Key>
 				</Container>
 				<Container name="Library">

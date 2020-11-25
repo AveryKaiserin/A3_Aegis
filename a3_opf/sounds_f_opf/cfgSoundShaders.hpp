@@ -1,6 +1,5 @@
 class CfgSoundShaders
 {
-	// SKS 7.62 mm
 	class SKS_Closure_SoundShader
 	{
 		samples[] =

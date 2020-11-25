@@ -52,13 +52,9 @@ class CfgWeapons
 	class InventoryOpticsItem_Base_F;
 	class InventoryFlashLightItem_Base_F;
 
-    /* Accessories */
+    /* Arsenal */
     #include "cfgAcc.hpp"
-
-    /* Items */
     #include "cfgBinocular.hpp"
-
-    /* Weapons */
 	class Throw: GrenadeLauncher
 	{
         muzzles[] +=

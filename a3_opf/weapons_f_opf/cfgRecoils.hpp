@@ -1,21 +1,23 @@
 class CfgRecoils
 {
+    /* Bases */
 	class recoil_default;
-	// SKS 7.62 mm
+
+    /* SKS */
 	class recoil_sks: recoil_default
 	{
 		muzzleOuter[] =
 		{
-			0.3,
-			1.0,
-			0.4,
-			0.3
+			0.5,
+			2.2,
+			0.7,
+			0.5
 		};
 		kickBack[] =
 		{
-			0.04,
-			0.08
+			0.07,
+			0.1
 		};
-		temporary = 0.015;
+		temporary = 0.01;
 	};
 };

@@ -1,6 +1,6 @@
 class CfgSoundSets
 {
-	// Arma 3
+    /* Bases */
 	class Rifle_Shot_Base_SoundSet;
 	class Rifle_Tail_Base_SoundSet;
 	class Rifle_InteriorTail_Base_SoundSet;
@@ -13,7 +13,8 @@ class CfgSoundSets
 	class Pistol_silencerShot_Base_SoundSet;
 	class Pistol_silencerTail_Base_SoundSet;
 	class Pistol_silencerInteriorTail_Base_SoundSet;
-	// Arma 3 Opposing Forces
+
+    /* Arsenal */
 	class SKS_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[] =

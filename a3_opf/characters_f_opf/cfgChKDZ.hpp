@@ -690,35 +690,33 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
 	linkedItems[] = 
 	{
 		V_TacChestRig_oli_F,
-		H_Watchcap_camo,
+		H_Beret_blk,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacChestRig_oli_F,
-		H_Watchcap_camo,
+		H_Beret_blk,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		sgun_HunterShotgun_01_F,
+		arifle_SKS_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		sgun_HunterShotgun_01_F,
+		arifle_SKS_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_3(2Rnd_12Gauge_Pellets),
-        mag_3(2Rnd_12Gauge_Slug),
+        mag_6(30Rnd_762x39_Mag_Green_F),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_3(2Rnd_12Gauge_Pellets),
-        mag_3(2Rnd_12Gauge_Slug),
+        mag_6(30Rnd_762x39_Mag_Green_F),
         mag_2(HandGrenade_Guer)
 	};
 	role = Rifleman;

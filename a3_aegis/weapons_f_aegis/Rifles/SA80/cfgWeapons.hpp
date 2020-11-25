@@ -277,7 +277,7 @@ class CfgWeapons
         ACE_barrelLength = 285;
 	};
 
-    /* Weapons */
+    /* Arsenal */
 	class arifle_SA80_blk_F: arifle_SA80_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_and_Kiory;

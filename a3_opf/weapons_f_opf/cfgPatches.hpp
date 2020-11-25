@@ -7,7 +7,6 @@ class CfgPatches
 		url = linkOpf;
 		requiredAddons[] =
         {
-            A3_Aegis_Weapons_F_Aegis,
             A3_Opf_Data_F_Opf,
             cba_jr
         };

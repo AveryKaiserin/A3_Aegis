@@ -11,6 +11,6 @@
 #include "cfgAmmo.hpp"
 #include "cfgMagazines.hpp"
 #include "cfgRecoils.hpp"
-//#include "cfgVehicles.hpp"
+#include "cfgVehicles.hpp"
 #include "cfgMagazineWells.hpp"
 #include "cfgWeapons.hpp"
