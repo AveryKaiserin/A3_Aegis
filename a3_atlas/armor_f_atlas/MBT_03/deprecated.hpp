@@ -1,1 +1,1 @@
-DEPRECATED_CLASS(B_E_MBT_03_cannon_F,Atlas_B_G_MBT_03_cannon_F)
+DEPRECATED_CLASS(B_E_MBT_03_cannon_F,Atlas_B_G_MBT_03_cannon_F);

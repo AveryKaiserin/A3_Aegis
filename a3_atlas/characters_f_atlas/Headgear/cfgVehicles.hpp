@@ -82,9 +82,9 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Hat_Pakol_gry_F,"Traditional Hat (Grey)",EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Hat_Pakol_tan_F,"Traditional Hat (Tan)",EdSubcat_Hats)
     // Deprecated classes
-    DEPRECATED_CLASS(Headgear_H_HelmetCrew_B_H,Headgear_H_HelmetCrew_I)
-    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_B_H,Headgear_H_PilotHelmetHeli_O)
-    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_I_I,Headgear_H_PilotHelmetHeli_B)
-    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_B_H,Headgear_H_CrewHelmetHeli_O)
-    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_I_I,Headgear_H_CrewHelmetHeli_B)
+    DEPRECATED_CLASS(Headgear_H_HelmetCrew_B_H,Headgear_H_HelmetCrew_I);
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_B_H,Headgear_H_PilotHelmetHeli_O);
+    DEPRECATED_CLASS(Headgear_H_PilotHelmetHeli_I_I,Headgear_H_PilotHelmetHeli_B);
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_B_H,Headgear_H_CrewHelmetHeli_O);
+    DEPRECATED_CLASS(Headgear_H_CrewHelmetHeli_I_I,Headgear_H_CrewHelmetHeli_B);
 };
