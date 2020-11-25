@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Opposing Forces - Characters and Clothing";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
+		url = linkOpf;
 		requiredAddons[] =
 		{
 			A3_Characters_F_Enoch,
@@ -74,6 +74,6 @@ class CfgPatches
             Opf_I_P_Soldier_8_F,
             Opf_I_P_Soldier_Base_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

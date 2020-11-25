@@ -29,6 +29,6 @@ class CfgPatches
             Opf_I_P_Offroad_01_covered_F,
             Opf_I_P_Offroad_01_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

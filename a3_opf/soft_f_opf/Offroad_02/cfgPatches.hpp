@@ -13,6 +13,6 @@ class CfgPatches
         {
             // Patriots
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -137,6 +137,8 @@ class Opf_I_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		Blackcustom,0
 	};
 	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -289,6 +291,8 @@ class Opf_I_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 		Blackcustom,0
 	};
 	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

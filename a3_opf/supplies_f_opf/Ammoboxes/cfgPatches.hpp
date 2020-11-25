@@ -30,6 +30,6 @@ class CfgPatches
             Box_Preppers_Ammo_F,
             Box_Preppers_WpsLaunch_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

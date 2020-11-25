@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Opposing Forces - Main Configuration";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
+		url = linkOpf;
 		requiredAddons[] =
 		{
 			A3_Aegis_Data_F_Aegis_Loadorder,
@@ -13,7 +13,7 @@ class CfgPatches
 			A3_Data_F_Exp
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

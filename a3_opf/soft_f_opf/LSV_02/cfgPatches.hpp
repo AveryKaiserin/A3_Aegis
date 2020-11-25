@@ -15,6 +15,6 @@ class CfgPatches
             Opf_I_R_LSV_02_armed_F,
             Opf_I_R_LSV_02_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

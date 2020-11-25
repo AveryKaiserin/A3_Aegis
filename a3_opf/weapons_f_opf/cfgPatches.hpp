@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Arma 3 Opposing Forces - Weapons and Accessories";
-		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1873244913";
+		url = linkOpf;
 		requiredAddons[] =
         {
             A3_Aegis_Weapons_F_Aegis,
@@ -12,7 +12,7 @@ class CfgPatches
             cba_jr
         };
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -5,7 +5,7 @@ class CfgPatches
 		addonRootClass = A3_Opf_Structures_F_Opf;
 		requiredAddons[] = {A3_Opf_Structures_F_Opf_Military};
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
-		weapons[] = {/* Auto-compiled by pboProject */};
+		units[] = {/* Automated */};
+		weapons[] = {/* Automated */};
 	};
 };

@@ -14,6 +14,6 @@
             // Separatists
             Opf_O_S_MBT_02_cannon_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

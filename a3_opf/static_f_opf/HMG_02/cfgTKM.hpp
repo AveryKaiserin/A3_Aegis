@@ -1,3 +1,4 @@
+/* Independent */
 class Opf_I_I_HMG_02_F: HMG_02_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -18,13 +19,18 @@ class Opf_I_I_HMG_02_F: HMG_02_base_F
 		};
 		displayName = "";
 	};
+
+    /* Turrets */
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
 		{
+            /* Weapons & Ammunition */
 			magazines[] = {mag_4(100Rnd_127x99_mag_Tracer_Yellow)};
 		};
 	};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class Hide_Shield: Hide_Shield
@@ -57,13 +63,18 @@ class Opf_I_I_HMG_02_high_F: HMG_02_high_base_F
 		};
 		displayName = "";
 	};
+
+    /* Turrets */
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
 		{
+            /* Weapons & Ammunition */
 			magazines[] = {mag_4(100Rnd_127x99_mag_Tracer_Yellow)};
 		};
 	};
+
+    /* Animation Sources */
 	class AnimationSources: AnimationSources
 	{
 		class Hide_Shield: Hide_Shield
@@ -75,4 +86,26 @@ class Opf_I_I_HMG_02_high_F: HMG_02_high_base_F
 			initPhase = true;
 		};
 	};
+};
+
+/* OPFOR */
+class Opf_O_I_HMG_02_F: Opf_I_I_HMG_02_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    //editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_I_HMG_02_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TGuerrila;
+    faction = Opf_OPF_I_F;
+	crew = Opf_O_I_Soldier_1_F;
+};
+class Opf_O_I_HMG_02_high_F: Opf_I_I_HMG_02_high_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    //editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_I_HMG_02_high_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TGuerrila;
+    faction = Opf_OPF_I_F;
+	crew = Opf_O_I_Soldier_1_F;
 };

@@ -9,6 +9,6 @@ class CfgPatches
         {
             
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

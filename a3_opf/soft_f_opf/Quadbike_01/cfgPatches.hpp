@@ -16,6 +16,6 @@ class CfgPatches
             // Patriots
             Opf_I_P_Quadbike_01_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

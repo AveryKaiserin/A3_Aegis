@@ -12,22 +12,22 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Paramilitary
-            Opf_O_P_HMG_02_F,
-            Opf_O_P_HMG_02_high_F,
-
-            // Separatists
+            /* From "cfgChKDZ.hpp" */
             Opf_O_S_HMG_02_F,
             Opf_O_S_HMG_02_high_F,
+            Opf_I_S_HMG_02_F,
+            Opf_I_S_HMG_02_high_F,
 
-            // Insurgents
+            /* From "cfgTKM.hpp" */
             Opf_I_I_HMG_02_F,
             Opf_I_I_HMG_02_high_F,
+            Opf_O_I_HMG_02_F,
+            Opf_O_I_HMG_02_high_F,
 
-            // Patriots
+            /* From "cfgMilitia.hpp" */
             Opf_I_P_HMG_02_F,
             Opf_I_P_HMG_02_high_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };
