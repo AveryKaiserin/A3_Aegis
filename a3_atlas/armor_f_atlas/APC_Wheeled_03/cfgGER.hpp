@@ -268,7 +268,7 @@ class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	};
 };
 
-/* Bundeswehr (Mediterranean) */
+/* Bundeswehr (Arid) */
 class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;

@@ -11,6 +11,6 @@
             Atlas_B_G_APC_Wheeled_03_cannon_F,
             Atlas_B_G_APC_Wheeled_03_cannon_ard_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };
