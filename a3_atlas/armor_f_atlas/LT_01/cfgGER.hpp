@@ -208,11 +208,11 @@ class Atlas_B_G_LT_01_cannon_F: LT_01_cannon_base_F
 	typicalCargo[] = {Atlas_B_G_Soldier_F};
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_I_LT_01_cannon_F0;
-	textureList[] = {Indep_Olive,1};
+	textureList[] = {Woodland,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Tank\LT_01\Data\LT_01_Main_olive_CO.paa",
-		"\A3\Armor_F_Tank\LT_01\Data\LT_01_Cannon_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_Wdl_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Cannon_Wdl_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -345,11 +345,11 @@ class Atlas_B_G_LT_01_cannon_ard_F: Atlas_B_G_LT_01_cannon_F
 	faction = Atlas_BLU_G_ard_F;
 	crew = Atlas_B_G_Crew_ard_F;
 	typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
-	textureList[] = {Indep_Olive,1};
+	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Tank\LT_01\Data\LT_01_Main_olive_CO.paa",
-		"\A3\Armor_F_Tank\LT_01\Data\LT_01_Cannon_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_Desert_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Cannon_Desert_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};

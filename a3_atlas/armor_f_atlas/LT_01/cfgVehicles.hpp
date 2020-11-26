@@ -17,7 +17,7 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
-				factions[] = {Atlas_BLU_G_F};
+				factions[] = {};
 			};
 		};
 		class Turrets;
