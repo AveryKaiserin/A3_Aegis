@@ -785,12 +785,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_blue_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
 				};
-				factions[] =
-				{
-					BLU_F,
-					BLU_T_F,
-					BLU_W_F
-				};
+				factions[] = {};
 			};
 			class Olive
 			{
@@ -802,12 +797,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
 				};
-				factions[] =
-				{
-					BLU_F,
-					BLU_T_F,
-					BLU_W_F
-				};
+				factions[] = {};
 			};
 			class Hex
 			{
@@ -819,11 +809,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_OPFOR_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
 				};
-				factions[] =
-				{
-					OPF_F,
-					OPF_A_F
-				};
+				factions[] = {};
 			};
 			class GreenHex
 			{
@@ -835,7 +821,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_ghex_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
 				};
-				factions[] = {OPF_T_F};
+				factions[] = {};
 			};
 			class Grey
 			{
@@ -847,12 +833,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_grey_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
 				};
-				factions[] =
-				{
-					OPF_F,
-					OPF_T_F,
-					OPF_A_F
-				};
+				factions[] = {};
 			};
 			class Indep
 			{
@@ -864,7 +845,7 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_INDP_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
 				};
-				factions[] = {IND_F};
+				factions[] = {};
 			};
 		};
 		animationList[] = {};
