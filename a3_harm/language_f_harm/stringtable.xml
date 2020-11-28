@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3HARM">
+	<Package name="Language_HARM">
+		<Container name="Air_F">
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_base_F0">
+				<Original>F-35F Lightning II</Original>
+				<Chinese>F-35F Lightning II</Chinese>
+				<French>F-35F Lightning II</French>
+				<Spanish>F-35F Lightning II</Spanish>
+				<Italian>F-35F Lightning II</Italian>
+				<Polish>F-35F Lightning II</Polish>
+				<Russian>F-35F Lightning II</Russian>
+				<German>F-35F Lightning II</German>
+				<Czech>F-35F Lightning II</Czech>
+				<English>F-35F Lightning II</English>
+				<Portuguese>F-35F Lightning II</Portuguese>
+				<Korean>F-35F Lightning II</Korean>
+				<Chinesesimp>F-35F Lightning II</Chinesesimp>
+				<Japanese>F-35F Lightning II</Japanese>
+				<Turkish>F-35F Lightning II</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_Stealth_F0">
+				<Original>F-35F Lightning II (Stealth)</Original>
+				<Chinese>F-35F Lightning II (隱形)</Chinese>
+				<French>F-35F Lightning II (Furtif)</French>
+				<Spanish>F-35F Lightning II (Sigilo)</Spanish>
+				<Italian>F-35F Lightning II (Invisibile)</Italian>
+				<Polish>F-35F Lightning II (Podstęp)</Polish>
+				<Russian>F-35F Lightning II (хитрость)</Russian>
+				<German>F-35F Lightning II (Heimlichkeit)</German>
+				<Czech>F-35F Lightning II (Stealth)</Czech>
+				<English>F-35F Lightning II (Stealth)</English>
+				<Portuguese>F-35F Lightning II (Furtividade)</Portuguese>
+				<Korean>F-35F Lightning II (몰래 하기)</Korean>
+				<Chinesesimp>F-35F Lightning II (隐形)</Chinesesimp>
+				<Japanese>F-35F Lightning II（ステルス）</Japanese>
+				<Turkish>F-35F Lightning II (gizlilik)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Fighter_05_Cluster_F0">
+				<Original>F-35F Lightning II (Cluster)</Original>
+				<Chinese>F-35F Lightning II (集束)</Chinese>
+				<French>F-35F Lightning II (sous-munitions)</French>
+				<Spanish>F-35F Lightning II (racimo)</Spanish>
+				<Italian>F-35F Lightning II (munizioni a grappolo)</Italian>
+				<Polish>F-35F Lightning II (kasetowy)</Polish>
+				<Russian>F-35F Lightning II (кассетный боеприпас)</Russian>
+				<German>F-35F Lightning II (Cluster)</German>
+				<Czech>F-35F Lightning II (kazeta)</Czech>
+				<English>F-35F Lightning II (Cluster)</English>
+				<Portuguese>F-35F Lightning II (fragmentação)</Portuguese>
+				<Korean>F-35F Lightning II (더미)</Korean>
+				<Chinesesimp>F-35F Lightning II (集束)</Chinesesimp>
+				<Japanese>F-35F Lightning II（クラスター）</Japanese>
+				<Turkish>F-35F Lightning II (Parça Tesirli)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Transport_01_base_F0">
+				<Original>C-130J Super Hercules</Original>
+				<Chinese>C-130J Super Hercules</Chinese>
+				<French>C-130J Super Hercules</French>
+				<Spanish>C-130J Super Hercules</Spanish>
+				<Italian>C-130J Super Hercules</Italian>
+				<Polish>C-130J Super Hercules</Polish>
+				<Russian>C-130J Super Hercules</Russian>
+				<German>C-130J Super Hercules</German>
+				<Czech>C-130J Super Hercules</Czech>
+				<English>C-130J Super Hercules</English>
+				<Portuguese>C-130J Super Hercules</Portuguese>
+				<Korean>C-130J Super Hercules</Korean>
+				<Chinesesimp>C-130J 参孙</Chinesesimp>
+				<Japanese>C-130J Super Hercules</Japanese>
+				<Turkish>C-130J Super Hercules</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Transport_01_infantry_base_F0">
+				<Original>C-130J Super Hercules</Original>
+				<Chinese>C-130J Super Hercules（運送步兵）</Chinese>
+				<French>C-130J Super Hercules (transport d'infanterie)</French>
+				<Spanish>C-130J Super Hercules (transporte infantería)</Spanish>
+				<Italian>C-130J Super Hercules (trasporto di fanteria)</Italian>
+				<Polish>C-130J Super Hercules (transport piechoty)</Polish>
+				<Russian>C-130J Super Hercules (пехота)</Russian>
+				<German>C-130J Super Hercules (Infanterie-Transporter)</German>
+				<Czech>C-130J Super Hercules (přeprava pěchoty)</Czech>
+				<English>C-130J Super Hercules</English>
+				<Portuguese>C-130J Super Hercules (transp. de infantaria)</Portuguese>
+				<Korean>C-130J Super Hercules(보병 수송)</Korean>
+				<Chinesesimp>C-130J 参孙（步兵运输）</Chinesesimp>
+				<Japanese>C-130J Super Hercules（歩兵輸送）</Japanese>
+				<Turkish>C-130J Super Hercules (Piyade Nakli)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Plane_Transport_01_vehicle_base_F0">
+				<Original>C-130J Super Hercules (Vehicle Transport)</Original>
+				<Chinese>C-130J Super Hercules（輸送載具）</Chinese>
+				<French>C-130J Super Hercules (transport de véhicules)</French>
+				<Spanish>C-130J Super Hercules (transporte de vehículos)</Spanish>
+				<Italian>C-130J Super Hercules (trasporto di veicoli)</Italian>
+				<Polish>C-130J Super Hercules (transport pojazdów)</Polish>
+				<Russian>C-130J Super Hercules (автотранспорт)</Russian>
+				<German>C-130J Super Hercules (Fahrzeug-Transporter)</German>
+				<Czech>C-130J Super Hercules (přeprava vozidel)</Czech>
+				<English>C-130J Super Hercules (Vehicle Transport)</English>
+				<Portuguese>C-130J Super Hercules (veículo de transporte)</Portuguese>
+				<Korean>C-130J Super Hercules(차량 수송)</Korean>
+				<Chinesesimp>C-130J 参孙（车辆运输）</Chinesesimp>
+				<Japanese>C-130J Super Hercules（車両輸送）</Japanese>
+				<Turkish>C-130J Super Hercules (Araç Nakli)</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_Plane_Transport_01_crashed_F0">
+				<Original>C-130J Crashsite</Original>
+				<Chinese>C-130J Crashsite</Chinese>
+				<French>C-130J Crashsite</French>
+				<Spanish>C-130J Crashsite</Spanish>
+				<Italian>C-130J Crashsite</Italian>
+				<Polish>C-130J Crashsite</Polish>
+				<Russian>C-130J Crashsite</Russian>
+				<German>C-130J Crashsite</German>
+				<Czech>C-130J Crashsite</Czech>
+				<English>C-130J Crashsite</English>
+				<Portuguese>C-130J Crashsite</Portuguese>
+				<Korean>C-130J Crashsite</Korean>
+				<Chinesesimp>C-130J Crashsite</Chinesesimp>
+				<Japanese>C-130J Crashsite</Japanese>
+				<Turkish>C-130J Crashsite</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Land_Wreck_Plane_Transport_01_F0">
+				<Original>C-130J Wreck</Original>
+				<Chinese>C-130J Wreck</Chinese>
+				<French>C-130J Wreck</French>
+				<Spanish>C-130J Wreck</Spanish>
+				<Italian>C-130J Wreck</Italian>
+				<Polish>C-130J Wreck</Polish>
+				<Russian>C-130J Wreck</Russian>
+				<German>C-130J Wreck</German>
+				<Czech>C-130J Wreck</Czech>
+				<English>C-130J Wreck</English>
+				<Portuguese>C-130J Wreck</Portuguese>
+				<Korean>C-130J Wreck</Korean>
+				<Chinesesimp>C-130J Wreck</Chinesesimp>
+				<Japanese>C-130J Wreck</Japanese>
+				<Turkish>C-130J Wreck</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_vtol_01_armed_base_f0">
+				<Original>ACV-44 Blackfish</Original>
+				<Chinese>CV-44 Blackfish（武裝）</Chinese>
+				<French>CV-44 Blackfish (armé)</French>
+				<Spanish>CV-44 Blackfish (con armas)</Spanish>
+				<Italian>CV-44 Blackfish (armato)</Italian>
+				<Polish>CV-44 Blackfish (uzbrojony)</Polish>
+				<Russian>CV-44 Blackfish (с оружием)</Russian>
+				<German>CV-44 Blackfish (Bewaffnet)</German>
+				<Czech>CV-44 Blackfish (ozbrojený)</Czech>
+				<English>ACV-44 Blackfish</English>
+				<Portuguese>CV-44 Blackfish (armado)</Portuguese>
+				<Korean>CV-44 Blackfish(무장)</Korean>
+				<Chinesesimp>CV-44 Blackfish（武装）</Chinesesimp>
+				<Japanese>CV-44 Blackfish（武装）</Japanese>
+				<Turkish>CV-44 Blackfish (Silahlı)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_vtol_01_base_f0">
+				<Original>CV-44 Blackfish</Original>
+				<Chinese>CV-44 Blackfish</Chinese>
+				<French>CV-44 Blackfish</French>
+				<Spanish>CV-44 Blackfish</Spanish>
+				<Italian>CV-44 Blackfish</Italian>
+				<Polish>CV-44 Blackfish</Polish>
+				<Russian>CV-44 Blackfish</Russian>
+				<German>CV-44 Blackfish</German>
+				<Czech>CV-44 Blackfish</Czech>
+				<English>CV-44 Blackfish</English>
+				<Portuguese>CV-44 Blackfish</Portuguese>
+				<Korean>CV-44 Blackfish</Korean>
+				<Chinesesimp>CV-44 Blackfish</Chinesesimp>
+				<Japanese>CV-44 Blackfish</Japanese>
+				<Turkish>CV-44 Blackfish</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_vtol_01_infantry_base_f0">
+				<Original>CV-44 Blackfish</Original>
+				<Chinese>CV-44 Blackfish（運送步兵）</Chinese>
+				<French>CV-44 Blackfish (transport d'infanterie)</French>
+				<Spanish>CV-44 Blackfish (transporte de infantería)</Spanish>
+				<Italian>CV-44 Blackfish (trasporto di fanteria)</Italian>
+				<Polish>CV-44 Blackfish (transport piechoty)</Polish>
+				<Russian>CV-44 Blackfish (пехота)</Russian>
+				<German>CV-44 Blackfish (Infanterie-Unterstützung)</German>
+				<Czech>CV-44 Blackfish (přeprava pěchoty)</Czech>
+				<English>CV-44 Blackfish</English>
+				<Portuguese>CV-44 Blackfish (transp. de infantaria)</Portuguese>
+				<Korean>CV-44 Blackfish(보병 수송)</Korean>
+				<Chinesesimp>CV-44 Blackfish（步兵运输）</Chinesesimp>
+				<Japanese>CV-44 Blackfish（歩兵輸送）</Japanese>
+				<Turkish>CV-44 Blackfish (Piyade Nakli)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_vtol_01_unarmed_base_f0">
+				<Original>CV-44 Blackfish</Original>
+				<Chinese>CV-44 Blackfish（無武裝）</Chinese>
+				<French>CV-44 Blackfish (désarmé)</French>
+				<Spanish>CV-44 Blackfish (sin armas)</Spanish>
+				<Italian>CV-44 Blackfish (disarmato)</Italian>
+				<Polish>CV-44 Blackfish (nieuzbrojony)</Polish>
+				<Russian>CV-44 Blackfish (без оружия)</Russian>
+				<German>CV-44 Blackfish (Unbewaffnet)</German>
+				<Czech>CV-44 Blackfish (neozbrojený)</Czech>
+				<English>CV-44 Blackfish</English>
+				<Portuguese>CV-44 Blackfish (desarmado)</Portuguese>
+				<Korean>CV-44 Blackfish(비무장)</Korean>
+				<Chinesesimp>CV-44 Blackfish（非武装）</Chinesesimp>
+				<Japanese>CV-44 Blackfish（非武装）</Japanese>
+				<Turkish>CV-44 Blackfish (Silahsız)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_vtol_01_vehicle_base_f0">
+				<Original>CV-44 Blackfish (Vehicle Transport)</Original>
+				<Chinese>CV-44 Blackfish（輸送載具）</Chinese>
+				<French>CV-44 Blackfish (transport de véhicules)</French>
+				<Spanish>CV-44 Blackfish (transporte de vehículos)</Spanish>
+				<Italian>CV-44 Blackfish (trasporto di veicoli)</Italian>
+				<Polish>CV-44 Blackfish (transport pojazdów)</Polish>
+				<Russian>CV-44 Blackfish (автотранспорт)</Russian>
+				<German>CV-44 Blackfish (Fahrzeug-Transporter)</German>
+				<Czech>CV-44 Blackfish (přeprava vozidel)</Czech>
+				<English>CV-44 Blackfish (Vehicle Transport)</English>
+				<Portuguese>CV-44 Blackfish (veículo de transporte)</Portuguese>
+				<Korean>CV-44 Blackfish(차량 수송)</Korean>
+				<Chinesesimp>CV-44 Blackfish（车辆运输）</Chinesesimp>
+				<Japanese>CV-44 Blackfish（車両輸送）</Japanese>
+				<Turkish>CV-44 Blackfish (Araç Nakli)</Turkish>
+			</Key>
+		</Container>
+		<Container name="Car_F">
+			<Key ID="str_a3_cfgvehicles_MRAP_01_base0">
+				<Original>JLTV Hunter</Original>
+				<Chinese>JLTV Hunter</Chinese>
+				<French>JLTV Hunter</French>
+				<Spanish>JLTV Hunter</Spanish>
+				<Italian>JLTV Hunter</Italian>
+				<Polish>JLTV Hunter</Polish>
+				<Russian>JLTV Hunter</Russian>
+				<German>JLTV Hunter</German>
+				<Czech>JLTV Hunter</Czech>
+				<English>JLTV Hunter</English>
+				<Portuguese>JLTV Hunter</Portuguese>
+				<Korean>헌터</Korean>
+				<Chinesesimp>JLTV Hunter</Chinesesimp>
+				<Japanese>ハンター</Japanese>
+				<Turkish>JLTV Hunter</Turkish>
+			</Key>
+			<Key ID="str_A3_cfgvehicles_MRAP_01_hmg_base0">
+				<Original>JLTV Hunter (HMG)</Original>
+				<Chinese>JLTV Hunter 重機槍</Chinese>
+				<French>JLTV Hunter (HMG)</French>
+				<Spanish>JLTV Hunter (HMG)</Spanish>
+				<Italian>Mitragliatrice pesante per JLTV Hunter</Italian>
+				<Polish>JLTV Hunter CKM</Polish>
+				<Russian>JLTV Hunter (с тяж.пулеметом)</Russian>
+				<German>JLTV Hunter-HMG</German>
+				<Czech>JLTV Hunter s TK</Czech>
+				<English>JLTV Hunter (HMG)</English>
+				<Portuguese>JLTV Hunter com metralhadora pesada</Portuguese>
+				<Korean>헌터 HMG</Korean>
+				<Chinesesimp>JLTV Hunter (HMG)</Chinesesimp>
+				<Japanese>ハンターHMG</Japanese>
+				<Turkish>JLTV Hunter (HMG)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_MRAP_01_rcws_base0">
+				<Original>JLTV Hunter (GMG)</Original>
+				<Chinese>JLTV Hunter 榴彈機槍</Chinese>
+				<French>JLTV Hunter (GMG)</French>
+				<Spanish>JLTV Hunter (GMG)</Spanish>
+				<Italian>GMG per JLTV Hunter</Italian>
+				<Polish>JLTV Hunter GA</Polish>
+				<Russian>JLTV Hunter (с гранатометом)</Russian>
+				<German>JLTV Hunter-GMG</German>
+				<Czech>JLTV Hunter s granátometem</Czech>
+				<English>JLTV Hunter (GMG)</English>
+				<Portuguese>JLTV Hunter com lança granadas</Portuguese>
+				<Korean>헌터 GMG</Korean>
+				<Chinesesimp>JLTV Hunter (GMG)</Chinesesimp>
+				<Japanese>ハンターGMG</Japanese>
+				<Turkish>JLTV Hunter (GMG)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_lsv_01_unarmed_base_f0">
+				<Original>ISV Prowler</Original>
+				<Chinese>ISV Prowler（無武裝）</Chinese>
+				<French>ISV Prowler (désarmé)</French>
+				<Spanish>ISV Prowler (sin armas)</Spanish>
+				<Italian>ISV Prowler (disarmato)</Italian>
+				<Polish>ISV Prowler (nieuzbrojony)</Polish>
+				<Russian>ISV Prowler (без оружия)</Russian>
+				<German>ISV Prowler (Unbewaffnet)</German>
+				<Czech>ISV Prowler (neozbrojený)</Czech>
+				<English>ISV Prowler</English>
+				<Portuguese>ISV Prowler (desarmado)</Portuguese>
+				<Korean>ISV Prowler(비무장)</Korean>
+				<Chinesesimp>ISV Prowler（非武装）</Chinesesimp>
+				<Japanese>ISV Prowler（非武装）</Japanese>
+				<Turkish>ISV Prowler (Silahsız)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_lsv_01_at_base_f0">
+				<Original>ISV Prowler (AT)</Original>
+				<Chinese>ISV Prowler（反坦克）</Chinese>
+				<French>ISV Prowler (AC)</French>
+				<Spanish>ISV Prowler (antitanque)</Spanish>
+				<Italian>ISV Prowler (AT)</Italian>
+				<Polish>ISV Prowler (ppanc)</Polish>
+				<Russian>ISV Prowler (ПТ)</Russian>
+				<German>ISV Prowler (PA)</German>
+				<Czech>ISV Prowler (protitankový)</Czech>
+				<English>ISV Prowler (AT)</English>
+				<Portuguese>ISV Prowler (AT)</Portuguese>
+				<Korean>ISV Prowler(AT)</Korean>
+				<Chinesesimp>ISV Prowler（反坦克）</Chinesesimp>
+				<Japanese>ISV Prowler（AT）</Japanese>
+				<Turkish>ISV Prowler (AT)</Turkish>
+			</Key>	
+			<Key ID="str_a3_cfgvehicles_lsv_01_light_base_f0">
+				<Original>ISV Prowler (Light)</Original>
+				<Chinese>ISV Prowler（輕型）</Chinese>
+				<French>ISV Prowler (léger)</French>
+				<Spanish>ISV Prowler (ligero)</Spanish>
+				<Italian>ISV Prowler (leggero)</Italian>
+				<Polish>ISV Prowler (lekki)</Polish>
+				<Russian>ISV Prowler (легкий)</Russian>
+				<German>ISV Prowler (Leicht)</German>
+				<Czech>ISV Prowler (lehký)</Czech>
+				<English>ISV Prowler (Light)</English>
+				<Portuguese>ISV Prowler (leve)</Portuguese>
+				<Korean>ISV Prowler(경량)</Korean>
+				<Chinesesimp>ISV Prowler（轻型）</Chinesesimp>
+				<Japanese>ISV Prowler（軽）</Japanese>
+				<Turkish>ISV Prowler (Hafif)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_lsv_01_hmg_F0">
+				<Original>ISV Prowler (HMG)</Original>
+				<Chinese>ISV Prowler（重型機關槍）</Chinese>
+				<French>ISV Prowler (HMG)</French>
+				<Spanish>ISV Prowler (ametralladora pesada)</Spanish>
+				<Italian>ISV Prowler (mitragliatrice pesante)</Italian>
+				<Polish>ISV Prowler (CKM)</Polish>
+				<Russian>ISV Prowler (тяжелый пулемет)</Russian>
+				<German>ISV Prowler (schw. MG)</German>
+				<Czech>ISV Prowler (HMG)</Czech>
+				<English>ISV Prowler (HMG)</English>
+				<Portuguese>ISV Prowler (HMG)</Portuguese>
+				<Korean>ISV Prowler(HMG)</Korean>
+				<Chinesesimp>ISV Prowler（重机枪）</Chinesesimp>
+				<Japanese>ISV Prowler（HMG）</Japanese>
+				<Turkish>ISV Prowler (HMG)</Turkish>
+			</Key>
+			<Key ID="str_a3_cfgvehicles_lsv_01_base_f0">
+				<Original>ISV Prowler</Original>
+				<Chinese>ISV Prowler</Chinese>
+				<French>ISV Prowler</French>
+				<Spanish>ISV Prowler</Spanish>
+				<Italian>ISV Prowler</Italian>
+				<Polish>ISV Prowler</Polish>
+				<Russian>ISV Prowler</Russian>
+				<German>ISV Prowler</German>
+				<Czech>ISV Prowler</Czech>
+				<English>ISV Prowler</English>
+				<Portuguese>ISV Prowler</Portuguese>
+				<Korean>ISV Prowler</Korean>
+				<Chinesesimp>ISV Prowler</Chinesesimp>
+				<Japanese>ISV Prowler</Japanese>
+				<Turkish>ISV Prowler</Turkish>
+			</Key>
+		</Container>
+		<Container name="Armor_F">
+            <Container name="DisplayName">
+                <Key ID="str_a3_cfgvehicles_b_afv_wheeled_01_cannon_f0">
+                    <Original>M8 Rhino</Original>
+                    <Chinese>M8 Rhino</Chinese>
+                    <French>M8 Rhino</French>
+                    <Spanish>M8 Rhino</Spanish>
+                    <Italian>M8 Rhino</Italian>
+                    <Polish>M8 Rhino</Polish>
+                    <Russian>M8 Rhino</Russian>
+                    <German>M8 Rhino</German>
+                    <Czech>M8 Rhino</Czech>
+                    <English>M8 Rhino</English>
+                    <Portuguese>M8 Rhino</Portuguese>
+                    <Korean>M8 Rhino</Korean>
+                    <Chinesesimp>M8 Rhino</Chinesesimp>
+                    <Japanese>M8 Rhino</Japanese>
+                    <Turkish>M8 Rhino</Turkish>
+                </Key>
+				<Key ID="str_a3_cfgvehicles_b_afv_wheeled_01_up_cannon_f0">
+                    <Original>M8 Rhino UP</Original>
+                    <Chinese>M8 Rhino UP</Chinese>
+                    <French>M8 Rhino UP</French>
+                    <Spanish>M8 Rhino UP</Spanish>
+                    <Italian>M8 Rhino UP</Italian>
+                    <Polish>M8 Rhino UP</Polish>
+                    <Russian>M8 Rhino UP</Russian>
+                    <German>M8 Rhino UP</German>
+                    <Czech>M8 Rhino UP</Czech>
+                    <English>M8 Rhino UP</English>
+                    <Portuguese>M8 Rhino UP</Portuguese>
+                    <Korean>M8 Rhino UP</Korean>
+                    <Chinesesimp>M8 Rhino UP</Chinesesimp>
+                    <Japanese>M8 Rhino UP</Japanese>
+                    <Turkish>M8 Rhino UP</Turkish>
+                </Key>
+            </Container>
+		</Container>
+		<Container name="Characters_F">
+			<Key ID="str_a3_c_b_w_radiooperator_f0">
+				<Original>Rifleman (RTO)</Original>
+				<English>Rifleman (RTO)</English>
+				<Czech>Radista</Czech>
+				<German>Funker</German>
+				<Russian>Радист</Russian>
+				<Polish>Łącznościowiec</Polish>
+				<Italian>Operatore radio</Italian>
+				<Spanish>Operario de radio</Spanish>
+				<French>Opérateur radio</French>
+				<Chinese>無線電操作員</Chinese>
+				<Japanese>無﻿線通信手﻿﻿</Japanese>
+				<Korean>무전병</Korean>
+				<Portuguese>Operador de rádio</Portuguese>
+				<Chinesesimp>无线电话务员</Chinesesimp>
+				<Turkish>Telsiz Operatörü</Turkish>
+      		</Key>
+			<Key ID="str_b_medic_f0">
+				<Original>Rifleman (CLS)</Original>
+				<Chinese>戰鬥救護員</Chinese>
+				<French>Infirmier</French>
+				<Spanish>Médico</Spanish>
+				<Italian>Medico</Italian>
+				<Polish>Medyk</Polish>
+				<Russian>Медик</Russian>
+				<German>Sanitäter</German>
+				<Czech>Zdravotník</Czech>
+				<English>Rifleman (CLS)</English>
+				<Portuguese>Combatente Salva-Vidas</Portuguese>
+				<Korean>전투의무병</Korean>
+				<Chinesesimp>作战救生员</Chinesesimp>
+				<Japanese>戦闘救命員</Japanese>
+				<Turkish>Sıhhiye Eri</Turkish>
+          	</Key>
+			<Key ID="STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_HqElement0">
+				<Original>Headquarters Element</Original>
+				<English>Headquarters Element</English>
+				<Czech>Headquarters Element</Czech>
+				<German>Headquarters Element</German>
+				<Russian>Headquarters Element</Russian>
+				<Polish>Headquarters Element</Polish>
+				<Italian>Headquarters Element</Italian>
+				<Spanish>Headquarters Element</Spanish>
+				<French>Headquarters Element</French>
+				<Chinese>Headquarters Element</Chinese>
+				<Japanese>Headquarters Element</Japanese>
+				<Korean>Headquarters Element</Korean>
+				<Portuguese>Headquarters Element</Portuguese>
+				<Chinesesimp>Headquarters Element</Chinesesimp>
+				<Turkish>Headquarters Element</Turkish>
+			</Key>
+			<Key ID="STR_B_officer_combat_F0">
+				<Original>Officer (Combat)</Original>
+				<English>Officer (Combat)</English>
+				<Czech>Officer (Combat)</Czech>
+				<German>Officer (Combat)</German>
+				<Russian>Officer (Combat)</Russian>
+				<Polish>Officer (Combat)</Polish>
+				<Italian>Officer (Combat)</Italian>
+				<Spanish>Officer (Combat)</Spanish>
+				<French>Officer (Combat)</French>
+				<Chinese>Officer (Combat)</Chinese>
+				<Japanese>Officer (Combat)</Japanese>
+				<Korean>Officer (Combat)</Korean>
+				<Portuguese>Officer (Combat)</Portuguese>
+				<Chinesesimp>Officer (Combat)</Chinesesimp>
+				<Turkish>Officer (Combat)</Turkish>
+			</Key>
+		</Container>
+		<Container name="Data_F">
+			<Key ID="STR_A3_cfgMods_HARM_name0">
+				<Original>US Forces Enhanced: 2035</Original>
+				<English>US Forces Enhanced: 2035</English>
+				<Czech>US Forces Enhanced: 2035</Czech>
+				<German>US Forces Enhanced: 2035</German>
+				<Russian>US Forces Enhanced: 2035</Russian>
+				<Polish>US Forces Enhanced: 2035</Polish>
+				<Italian>US Forces Enhanced: 2035</Italian>
+				<Spanish>US Forces Enhanced: 2035</Spanish>
+				<French>US Forces Enhanced: 2035</French>
+				<Chinese>US Forces Enhanced: 2035</Chinese>
+				<Japanese>US Forces Enhanced: 2035</Japanese>
+				<Korean>US Forces Enhanced: 2035</Korean>
+				<Portuguese>US Forces Enhanced: 2035</Portuguese>
+				<Chinesesimp>US Forces Enhanced: 2035</Chinesesimp>
+				<Turkish>US Forces Enhanced: 2035</Turkish>
+			</Key>
+			<Key ID="STR_A3_cfgMods_HARM_overview0">
+				<Original>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Original>
+				<English>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</English>
+				<Czech>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Czech>
+				<German>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</German>
+				<Russian>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Russian>
+				<Polish>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Polish>
+				<Italian>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Italian>
+				<Spanish>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Spanish>
+				<French>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</French>
+				<Chinese>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Chinese>
+				<Japanese>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Japanese>
+				<Korean>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Korean>
+				<Portuguese>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Portuguese>
+				<Chinesesimp>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Chinesesimp>
+				<Turkish>US Forces Enhanced: 2035 uses Abb0tt's uniform mod to alter the US faction in Arma 3 Aegis to wear alternate equipment that looks more like today's equipment. The mod also modifies vehicle names and group composition to reflect the setting.</Turkish>
+			</Key>
+		</Container>
+	</Package>
+</Project>
