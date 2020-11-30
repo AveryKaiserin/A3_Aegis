@@ -44,9 +44,9 @@ class Turrets: Turrets
 				gunnerGetOutAction = GetOutLow;
 				gunnerForceOptics = true;
 				usepip = 2;
-				LODTurnedIn = VIEW_PILOT;
-				LODTurnedOut = 1201;
-				LODOpticsIn = VIEW_PILOT;
+				LODTurnedOut = VIEW_CARGO + 1;
+				LODTurnedIn = VIEW_GUNNER;
+				LODOpticsIn = VIEW_DEFAULT;
 				viewGunnerShadowAmb = 0.5;
 				viewGunnerShadowDiff = 0.05;
 
@@ -229,8 +229,8 @@ class Turrets: Turrets
 		inGunnerMayFire = true;
 		outGunnerMayFire = false;
 		usepip = 1;
-		LODTurnedIn = VIEW_GUNNER;
 		LODTurnedOut = VIEW_DEFAULT;
+		LODTurnedIn = VIEW_GUNNER;
 		LODOpticsIn = VIEW_DEFAULT;
 		animationSourceStickX = turret_control_x;
 		animationSourceStickY = turret_control_y;

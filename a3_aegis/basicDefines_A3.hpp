@@ -197,7 +197,7 @@
 #define WEAPONGROUP_SPECIAL		128
 
 #define VIEW_DEFAULT 0
-#define VIEW_LOD1 1
+#define VIEW_LOD 0
 #define VIEW_GUNNER 1000
 #define VIEW_PILOT 1100
 #define VIEW_CARGO 1200

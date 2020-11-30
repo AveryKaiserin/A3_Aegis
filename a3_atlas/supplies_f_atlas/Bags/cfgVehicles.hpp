@@ -1,45 +1,23 @@
 class CfgVehicles
 {
-	/* Definitions */
-	#include "\A3_Aegis\macros_smokeShells.hpp"
+    /* Definitions */
+    #include "\A3_Aegis\macros_smokeShells.hpp"
 
-	// Arma 3
+    /* Inheritance Tree */
+	class Bag_Base;
+
+    /* Bases */
 	class B_AssaultPack_Base;
-	class B_AssaultPack_khk;
-	class B_AssaultPack_sgg;
-	class B_AssaultPack_blk;
 	class B_Kitbag_Base;
-	class B_Kitbag_mcamo;
-	class B_Kitbag_sgg;
 	class B_TacticalPack_Base;
-	class B_TacticalPack_rgr;
-	class B_TacticalPack_mcamo;
-	class B_TacticalPack_oli;
 	class B_FieldPack_Base;
 	class B_Carryall_Base;
-	class B_Carryall_mcamo;
-	class B_Carryall_cbr;
-	class B_FieldPack_oli;
-	class B_Carryall_oli;
-	// Arma 3 Apex
 	class B_Bergen_Base_F;
-	class B_Carryall_ghex_F;
-	class B_FieldPack_ghex_F;
 	class B_ViperHarness_base_F;
-	class B_ViperHarness_oli_F;
 	class B_ViperLightHarness_base_F;
-	class B_ViperLightHarness_oli_F;
-	// Arma 3 Enoch
 	class B_RadioBag_01_base_F;
-	class B_Carryall_green_F;
-	class B_Carryall_wdl_F;
-	class B_FieldPack_green_F;
-	// Arma 3 Aegis
-	class B_Kitbag_khk;
-	class B_Kitbag_blk;
-	class B_TacticalPack_sgg;
-	class B_Kitbag_wdl_F;
-	// Arma 3 Atlas
+
+    /* Arsenal */
 	class B_RadioBag_01_whex_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -47,10 +25,27 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_whex_F0;
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_whex_CO.paa"};
-		// TFAR compatibility
+
+		/* TFAR */
 		tf_dialog = bussole_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
+	class B_RadioBag_01_flecktarn_F: B_RadioBag_01_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_flecktarn_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_flecktarn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_flecktarn_CO.paa"};
+
+		/* TFAR */
+		tf_dialog = bussole_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
 		tf_hasLRradio = true;
 		tf_range = 20000;
 		tf_subtype = digital_lr;
@@ -62,7 +57,8 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_semiarid_F0;
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_semiarid_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_semiarid_CO.paa"};
-		// TFAR compatibility
+        
+		/* TFAR */
 		tf_dialog = bussole_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_east_radio_code;
@@ -70,23 +66,6 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
-    /*
-	class B_RadioBag_01_aucamo_F: B_RadioBag_01_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_aucamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_aucamo_CO.paa"};
-		// TFAR compatibility
-		tf_dialog = rt1523g_radio_dialog;
-		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode = tf_west_radio_code;
-		tf_hasLRradio = true;
-		tf_range = 20000;
-		tf_subtype = digital_lr;
-	};
-    */
 	class B_RadioBag_01_jungle_F: B_RadioBag_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -94,7 +73,8 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_jungle_F0;
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_jungle_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_jungle_CO.paa"};
-		// TFAR compatibility
+        
+		/* TFAR */
 		tf_dialog = rt1523g_radio_dialog;
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode = tf_west_radio_code;
@@ -102,23 +82,22 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
-    /*
-	class B_RadioBag_01_autumn_F: B_RadioBag_01_base_F
+	class B_AssaultPack_flecktarn: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_autumn_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_autumn_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_autumn_CO.paa"};
-		// TFAR compatibility
-		tf_dialog = anprc155_radio_dialog;
-		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode = tf_independent_radio_code;
-		tf_hasLRradio = true;
-		tf_range = 20000;
-		tf_subtype = digital_lr;
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_flecktarn0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_flecktarn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_flecktarn_CO.paa"};
 	};
-    */
+	class B_Kitbag_flecktarn: B_Kitbag_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_flecktarn0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Kitbag_flecktarn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_fast_flecktarn_CO.paa"};
+	};
 	class B_Carryall_owcamo: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -126,6 +105,14 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_Carryall_owcamo0;
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_whex_CO.paa"};
+	};
+	class B_Carryall_flecktarn: B_Carryall_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_Carryall_flecktarn0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_flecktarn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_flecktarn_CO.paa"};
 	};
 	class B_Carryall_semiarid: B_Carryall_Base
 	{
@@ -135,16 +122,6 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_semiarid_CO.paa"};
 	};
-    /*
-	class B_Carryall_aucamo_F: B_Carryall_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_Carryall_aucamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_aucamo_CO.paa"};
-	};
-    */
 	class B_Carryall_jungle: B_Carryall_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -169,32 +146,6 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_semiarid_CO.paa"};
 	};
-    /*
-	class B_AssaultPack_aucamo_F: B_AssaultPack_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_AssaultPack_aucamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_aucamo_CO.paa"};
-	};
-	class B_Kitbag_aucamo_F: B_Kitbag_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_Kitbag_aucamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Kitbag_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_fast_aucamo_CO.paa"};
-	};
-	class B_TacticalPack_aucamo_F: B_TacticalPack_Base
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_TacticalPack_aucamo_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_TacticalPack_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_small_aucamo_CO.paa"};
-	};
-    */
 	class B_ViperHarness_whex_F: B_ViperHarness_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -213,15 +164,11 @@ class CfgVehicles
 	};
 
 	/* Factions */
-	#include "cfgViper.hpp"				// Viper
-	#include "cfgOpfor_Aegis.hpp"		// CSAT (Woodland)
-	#include "cfgLegion.hpp"			// Legion
-	#include "cfgBlufor_Atlas.hpp"		// NATO (German)
-	#include "cfgOpfor_Atlas.hpp"		// CSAT (Takistani)
-	#include "cfgHIMF.hpp"				// HIMF
-	#include "cfgIDF.hpp"				// IDF
-    /*
-	#include "cfgADF.hpp"				// ADF
-    #include "cfgCDF.hpp"				// CDF
-    */
+    #include "cfgOPFOR.hpp"     // Belarus
+	#include "cfgViper.hpp"     // Viper
+	#include "cfgLegion.hpp"    // Legion
+    #include "cfgGER.hpp"       // Bundeswehr
+    #include "cfgTKA.hpp"       // Takistani Army
+	#include "cfgHIMF.hpp"      // HIMF
+	#include "cfgIDF.hpp"       // IDF
 };

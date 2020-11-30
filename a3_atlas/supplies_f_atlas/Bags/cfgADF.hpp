@@ -1,4 +1,3 @@
-// Arma 3 Atlas
 class B_Carryall_aucamo_BOAmmo_F: B_Carryall_aucamo_F
 {
 	author = $STR_A3_A_AveryTheKitty;

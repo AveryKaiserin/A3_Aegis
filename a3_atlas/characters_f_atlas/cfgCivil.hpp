@@ -1,7 +1,4 @@
-// Arma 3
-class Civilian_F;
 class C_man_1;
-// Arma 3 Atlas
 class C_man_persian_base_F: C_man_1
 {
 	scope = private;

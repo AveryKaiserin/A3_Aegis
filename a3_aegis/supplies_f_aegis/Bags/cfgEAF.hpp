@@ -32,3 +32,17 @@ class B_FieldPack_green_IEMedic_F: B_AssaultPack_eaf_F
 		delete _xx_SmokeShellOrange;
     };
 };
+class B_AssaultPack_eaf_IEReconMedic_F: B_AssaultPack_eaf_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+        SMOKESHELLS_BAG_MEDIC;
+	};
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,5);
+	};
+};

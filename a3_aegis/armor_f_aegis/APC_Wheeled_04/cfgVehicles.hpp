@@ -38,9 +38,9 @@ class CfgVehicles
 		viewDriverShadowAmb = 0.5;
 		viewDriverShadowDiff = 0.05;
 		driverForceOptics = true;
-		LODDriverTurnedOut = 1201;
-		LODDriverTurnedin = VIEW_PILOT;
-		LODDriverOpticsIn = VIEW_PILOT;
+		LODDriverTurnedOut = VIEW_CARGO + 1;
+		LODDriverTurnedin = VIEW_LOD + 1;
+		LODDriverOpticsIn = VIEW_DEFAULT;
 		driverOpticsModel = "\A3\Weapons_F\Reticle\Optics_Driver_01_F.p3d";
 		driverLeftLegAnimName = pedal_brake;
 		driverAction = Driver_APC_Wheeled_04_out;
@@ -51,7 +51,7 @@ class CfgVehicles
 		viewCargoShadowAmb = 1.0;
 		cargoAction[] =
         {
-            passenger_apc_narrow_generic03,
+            passenger_apc_generic01,
             passenger_apc_narrow_generic01,
             passenger_apc_generic04,
             passenger_generic01_foldhands,

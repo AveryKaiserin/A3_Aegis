@@ -32,6 +32,7 @@ class B_Carryall_jungle_BHEng_F: B_Carryall_jungle
 		item_xx(MineDetector,1);
 	};
 };
+class B_TacticalPack_oli;
 class B_TacticalPack_oli_BHMedic_F: B_TacticalPack_oli
 {
 	author = $STR_A3_A_AveryTheKitty;

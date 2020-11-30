@@ -1,26 +1,4 @@
-// Arma 3
-class B_Soldier_04_f;
-class B_diver_F;
-class B_Pilot_F;
-class C_man_1_1_F;
-class C_man_p_fugitive_F;
-class I_G_Soldier_M_F;
-class I_soldier_lite_F;
-class I_officer_F;
-class I_diver_F;
-class I_sniper_F;
-// Arma 3 Apex
-class I_C_Soldier_Bandit_6_F;
-class C_Man_casual_1_F;
-// Arma 3 Enoch
-class B_CBRN_Man_Oversuit_01_MTP_F;
-class I_E_Uniform_01_F;
-class I_E_Uniform_01_shortsleeve_F;
-class I_E_Uniform_01_tanktop_F;
-class I_E_Uniform_01_officer_F;
-class I_E_Uniform_01_coveralls_F;
-// Arma 3 Atlas
-// Civilians
+/* From "cfgCivil.hpp" */
 class Atlas_C_Uniform_01_shirt_base_F: Civilian_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -73,6 +51,7 @@ class Atlas_C_Uniform_01_shirt_white_F: Atlas_C_Uniform_01_shirt_base_F
         "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_C_Uniform_01_shirt_white_F_2_CO.paa"
     };
 };
+class I_G_Soldier_M_F;
 class Atlas_C_CommonerJacket_01_marroon_F: I_G_Soldier_M_F
 {
 	scope = protected;
@@ -90,6 +69,7 @@ class Atlas_C_CommonerJacket_01_grey_F: Atlas_C_CommonerJacket_01_marroon_F
 	uniformClass = Atlas_U_C_CommonerJacket_01_grey_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_C_CommonerJacket_01_grey_F_CO.paa"};
 };
+class C_man_p_fugitive_F;
 class Atlas_C_Uniform_01_tshirt_white_F: C_man_p_fugitive_F
 {
 	scope = protected;
@@ -101,7 +81,8 @@ class Atlas_C_Uniform_01_tshirt_white_F: C_man_p_fugitive_F
         "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_C_Uniform_01_tshirt_white_F_CO.paa"
     };
 };
-// Viper
+
+/* From "cfgViper.hpp" */
 class Atlas_U_O_V_SpecialPurposeSuit_01_whex_F: O_V_Soldier_hex_F
 {
   	scope = protected;
@@ -109,7 +90,8 @@ class Atlas_U_O_V_SpecialPurposeSuit_01_whex_F: O_V_Soldier_hex_F
 	uniformClass = Atlas_U_O_V_Soldier_Viper_whex_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ViperOp_Suit_whex_CO.paa"};
 };
-// Belarus
+
+/* From "cfgOPFOR.hpp" */
 class Atlas_O_Fatigues_01_whex_F: O_Soldier_F
 {
     scope = protected;
@@ -142,7 +124,8 @@ class Atlas_O_LightFatigues_01_whex_F: O_A_officer_F
 	uniformClass = Atlas_U_O_W_officer_noInsignia_whex_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_noinsignia_whex_CO.paa"};
 };
-// Legionnaires
+
+/* From "cfgLegion.hpp" */
 class Atlas_B_CombatFatigues_sage_F: B_Soldier_F
 {
   	scope = protected;
@@ -175,7 +158,9 @@ class Atlas_B_ReconFatigues_01_sage_F: B_Soldier_SL_F
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
 	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
 };
-// Bundeswehr
+
+/* From "cfgGER.hpp" */
+class I_E_Uniform_01_F;
 class Atlas_B_G_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -189,6 +174,7 @@ class Atlas_B_G_CombatFatigues_01_wdl_F: I_E_Uniform_01_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
+class I_E_Uniform_01_tanktop_F;
 class Atlas_B_G_CombatFatigues_01_Tshirt_wdl_F: I_E_Uniform_01_tanktop_F
 {
   	scope = protected;
@@ -203,6 +189,7 @@ class Atlas_B_G_CombatFatigues_01_Tshirt_wdl_F: I_E_Uniform_01_tanktop_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
+class I_E_Uniform_01_shortsleeve_F;
 class Atlas_B_G_CombatFatigues_01_RolledUp_wdl_F: I_E_Uniform_01_shortsleeve_F
 {
   	scope = protected;
@@ -215,6 +202,7 @@ class Atlas_B_G_CombatFatigues_01_RolledUp_wdl_F: I_E_Uniform_01_shortsleeve_F
 		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
 	};
 };
+class B_Soldier_04_f;
 class Atlas_B_G_Coveralls_01_F: B_Soldier_04_f
 {
   	scope = protected;
@@ -222,6 +210,7 @@ class Atlas_B_G_Coveralls_01_F: B_Soldier_04_f
 	uniformClass = Atlas_U_B_G_HeliPilotCoveralls;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_green_CO.paa"};
 };
+class I_Story_Crew_F;
 class Atlas_B_G_TankerCoveralls_01_F: I_Story_Crew_F
 {
   	scope = protected;
@@ -229,7 +218,8 @@ class Atlas_B_G_TankerCoveralls_01_F: I_Story_Crew_F
 	uniformClass = Atlas_U_Tank_wdl_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_wdl_CO.paa"};
 };
-// Takistani Army
+
+/* From "cfgTKA.hpp" */
 class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 {
     scope = protected;
@@ -241,8 +231,8 @@ class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 	};
 };
-// ANZAC
-/*
+
+/* From "cfgADF.hpp"
 class Atlas_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
 {
   	scope = protected;
@@ -293,7 +283,8 @@ class Atlas_B_A_CBRN_Man_Oversuit_01_Aucamo_F: B_CBRN_Man_Oversuit_01_MTP_F
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Aucamo_CO.paa"};
 };
 */
-// HIMF
+
+/* From "cfgHIMF.hpp" */
 class Atlas_B_H_CombatFatigues_01_jungle_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -354,6 +345,7 @@ class Atlas_B_H_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_
 		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
 	};
 };
+class I_E_Uniform_01_officer_F;
 class Atlas_B_H_OfficerFatigues_01_jungle_F: I_E_Uniform_01_officer_F
 {
   	scope = protected;
@@ -370,7 +362,8 @@ class Atlas_B_H_OfficerFatigues_01_jungle_F: I_E_Uniform_01_officer_F
 		"\A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat"
     };
 };
-// IDF
+
+/* From "cfgIDF.hpp" */
 class Atlas_I_I_CombatFatigues_01_olive_F: I_soldier_F
 {
   	scope = protected;
@@ -378,6 +371,7 @@ class Atlas_I_I_CombatFatigues_01_olive_F: I_soldier_F
 	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
 };
+class I_soldier_lite_F;
 class Atlas_I_I_CombatFatigues_01_RolledUp_olive_F: I_soldier_lite_F
 {
   	scope = protected;
@@ -385,6 +379,7 @@ class Atlas_I_I_CombatFatigues_01_RolledUp_olive_F: I_soldier_lite_F
 	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
 };
+class I_sniper_F;
 class Atlas_I_I_GhillieSuit_01_F: I_sniper_F
 {
   	scope = protected;
@@ -402,6 +397,7 @@ class Atlas_I_I_GhillieSuit_01_F: I_sniper_F
         "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ghillie_olive_CO.paa"
     };
 };
+class I_officer_F;
 class Atlas_I_I_OfficerFatigues_01_F: I_officer_F
 {
   	scope = protected;
@@ -431,6 +427,7 @@ class Atlas_I_I_Coveralls_01_olive_F: I_Story_Crew_F
 	uniformClass = Atlas_U_Tank_olive_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Tank_olive_CO.paa"};
 };
+class I_diver_F;
 class Atlas_I_I_Wetsuit_01_F: I_diver_F
 {
   	scope = protected;
@@ -448,6 +445,7 @@ class Atlas_I_I_Wetsuit_01_F: I_diver_F
 		"\A3\Characters_F\Data\visors_CA.paa"
 	};
 };
+class B_CBRN_Man_Oversuit_01_MTP_F;
 class Atlas_I_I_CBRN_Man_Oversuit_01_Olive_F: B_CBRN_Man_Oversuit_01_MTP_F
 {
 	author = $STR_A3_A_AveryTheKitty;

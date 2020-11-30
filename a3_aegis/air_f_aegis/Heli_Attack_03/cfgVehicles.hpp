@@ -158,62 +158,65 @@ class CfgVehicles
 			};
 			class HitGlass1: HitGlass1
 			{
-				armor = 3.5;
+				name = glass1;
+				visual = glass1;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1.5;
+				minimalHit = 0.05;
 			};
 			class HitGlass2: HitGlass1
 			{
 				name = glass2;
 				visual = glass2;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1.5;
 				minimalHit = 0.05;
 			};
 			class HitGlass3: HitGlass1
 			{
 				name = glass3;
 				visual = glass3;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1.5;
 				minimalHit = 0.05;
 			};
 			class HitGlass4: HitGlass1
 			{
 				name = glass4;
 				visual = glass4;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1.5;
 				minimalHit = 0.05;
 			};
 			class HitGlass5: HitGlass1
 			{
 				name = glass5;
 				visual = glass5;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 2;
 				minimalHit = 0.05;
 			};
 			class HitGlass6: HitGlass1
 			{
 				name = glass6;
 				visual = glass6;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1;
 				minimalHit = 0.05;
 			};
 			class HitGlass7: HitGlass1
 			{
 				name = glass7;
 				visual = glass7;
-				armor = 3.5;
+				armor = 4.5;
 				radius = 0.4;
-				explosionShielding = 4;
+				explosionShielding = 1;
 				minimalHit = 0.05;
 			};
 			class HitWinch: HitWinch

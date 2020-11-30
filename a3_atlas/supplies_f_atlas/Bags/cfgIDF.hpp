@@ -1,3 +1,4 @@
+class B_Carryall_oli;
 class B_Carryall_oli_IIAmmo_F: B_Carryall_oli
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -16,6 +17,7 @@ class B_Carryall_oli_IIAmmo_F: B_Carryall_oli
 		item_xx(FirstAidKit,4);
 	};
 };
+class B_AssaultPack_khk;
 class B_AssaultPack_khk_IILAT_F: B_AssaultPack_khk
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -95,6 +97,7 @@ class B_Kitbag_sgg_IIAT_F: B_Kitbag_sgg
 		mag_xx(Titan_AT,2);
 	};
 };
+class B_ViperHarness_oli_F;
 class B_ViperHarness_oli_IIAAR_F: B_ViperHarness_oli_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -124,6 +127,7 @@ class B_ViperHarness_oli_IIGL_F: B_ViperHarness_oli_F
 		mag_xx(HandGrenade,2);
 	};
 };
+class B_ViperLightHarness_oli_F;
 class B_ViperLightHarness_oli_IIAR_F: B_ViperLightHarness_oli_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -133,6 +137,7 @@ class B_ViperLightHarness_oli_IIAR_F: B_ViperLightHarness_oli_F
 		mag_xx(150Rnd_762x51_Box_Yellow,2);
 	};
 };
+class B_AssaultPack_blk;
 class B_AssaultPack_blk_IIReconMedic_F: B_AssaultPack_blk
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -157,6 +162,7 @@ class B_AssaultPack_blk_IIReconLAT_F: B_AssaultPack_blk
 		mag_xx(MRAWS_HE_F,1);
 	};
 };
+class B_Kitbag_blk;
 class B_Kitbag_blk_IIReconExp_F: B_Kitbag_blk
 {
 	author = $STR_A3_A_AveryTheKitty;
