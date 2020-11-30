@@ -7,9 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // IDF
+            /* From "cfgIDF.hpp" */
             Atlas_I_I_Heli_Transport_01_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

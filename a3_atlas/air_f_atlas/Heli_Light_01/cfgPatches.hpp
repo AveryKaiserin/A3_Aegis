@@ -7,11 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // IDF
+            /* From "cfgIDF.hpp" */
             Atlas_I_I_Heli_Light_01_dynamicLoadout_F,
             Atlas_I_I_Heli_Light_01_F,
             Atlas_I_I_Heli_Light_01_recon_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

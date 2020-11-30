@@ -7,14 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Legionnaires
+            /* From "cfgLegion.hpp" */
             Atlas_B_L_Heli_Light_03_dynamicLoadout_F,
-            Atlas_B_L_Heli_Light_03_unarmed_F,
-
-            // Germany
-            Atlas_B_G_Heli_Light_03_dynamicLoadout_F,
-            Atlas_B_G_Heli_Light_03_unarmed_F
+            Atlas_B_L_Heli_Light_03_unarmed_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

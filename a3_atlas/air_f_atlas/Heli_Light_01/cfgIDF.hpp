@@ -1,3 +1,4 @@
+/* IDF */
 class Atlas_I_I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -146,7 +147,9 @@ class Atlas_I_I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 	cost = 7000000;
 	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa"};
-	class TransportMagazines
+	
+    /* Inventory */
+    class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellGreen,2);
@@ -505,6 +508,8 @@ class Atlas_I_I_Heli_Light_01_recon_F: Heli_Light_01_recon_base_F
 	crew = Atlas_I_I_Helipilot_F;
 	textureList[] = {Desert,1};
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa"};
+	
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

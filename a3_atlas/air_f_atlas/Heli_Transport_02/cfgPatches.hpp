@@ -7,9 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            // Germany
-            Atlas_B_G_Heli_Transport_02_F
+            /* From "cfgGER.hpp" */
+            Atlas_B_G_Heli_Transport_02_F,
+            Atlas_B_G_Heli_Transport_02_ard_F
         };
-		weapons[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Automated */};
 	};
 };

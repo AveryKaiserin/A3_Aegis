@@ -1,3 +1,4 @@
+/* Legionnaires */
 class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -158,6 +159,8 @@ class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_bas
 		5000Rnd_762x51_Belt,
 		168Rnd_CMFlare_Chaff_Magazine
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -312,6 +315,8 @@ class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
         Green,1,
         Jagged,0
     };
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

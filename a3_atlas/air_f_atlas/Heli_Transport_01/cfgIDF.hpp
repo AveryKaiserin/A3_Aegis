@@ -1,3 +1,4 @@
+/* IDF */
 class Atlas_I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -145,20 +146,28 @@ class Atlas_I_I_Heli_Transport_01_F: Heli_Transport_01_base_F
 		"\A3_Atlas\Air_F_Atlas\Heli_Transport_01\Data\Heli_Transport_01_ext02_desert_CO.paa"
 	};
 	textureList[] = {Desert,1};
+
+    /* Turrets */
 	class Turrets: Turrets
 	{
 		class CopilotTurret: CopilotTurret{};
 		class MainTurret: MainTurret
 		{
 		    gunnerType = Atlas_I_I_helicrew_F;
+
+            /* Weapons & Ammunition */
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
 		};
 		class RightDoorGun: RightDoorGun
 		{
 		    gunnerType = Atlas_I_I_helicrew_F;
+
+            /* Weapons & Ammunition */
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
 		};
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

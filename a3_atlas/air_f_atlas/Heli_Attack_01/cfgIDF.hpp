@@ -1,3 +1,4 @@
+/* IDF */
 class Atlas_I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -141,10 +142,13 @@ class Atlas_I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_b
 	{
 		libTextDesc = $STR_A3_Heli_Attack_01_lib;
 	};
+
+    /* Turrets */
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
 		{
+            /* Weapons & Ammunition */
 			magazines[] =
 			{
 				1000Rnd_20mm_shells_yellow,
@@ -152,6 +156,8 @@ class Atlas_I_I_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_b
 			};
 		};
 	};
+
+    /* Inventory */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
