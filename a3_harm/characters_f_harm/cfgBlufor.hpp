@@ -1354,7 +1354,7 @@ class B_Captain_Pettka_F: B_Soldier_02_F
 
 class B_Soldier_MarineD_F: B_Soldier_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1402,7 +1402,7 @@ class B_Soldier_MarineD_F: B_Soldier_F
 };
 class B_Soldier_MarineD_GL_F: B_Soldier_GL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_GL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_GL_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1452,7 +1452,7 @@ class B_Soldier_MarineD_GL_F: B_Soldier_GL_F
 };
 class B_soldier_MarineD_AR_F: B_soldier_AR_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AR_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AR_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1494,7 +1494,7 @@ class B_soldier_MarineD_AR_F: B_soldier_AR_F
 };
 class B_Soldier_MarineD_SL_F: B_Soldier_SL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_SL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_SL_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     backpack = B_RadioBag_01_Coyote_F;
@@ -1545,7 +1545,7 @@ class B_Soldier_MarineD_SL_F: B_Soldier_SL_F
 };
 class B_Soldier_MarineD_TL_F: B_Soldier_TL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_TL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_TL_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1595,7 +1595,7 @@ class B_Soldier_MarineD_TL_F: B_Soldier_TL_F
 };
 class B_soldier_MarineD_M_F: B_soldier_M_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_M_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_M_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1643,7 +1643,7 @@ class B_soldier_MarineD_M_F: B_soldier_M_F
 };
 class B_soldier_MarineD_LAT_F: B_soldier_LAT2_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_LAT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_LAT_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     displayName = $STR_B_soldier_LAT_F0;
@@ -1694,7 +1694,7 @@ class B_soldier_MarineD_LAT_F: B_soldier_LAT2_F
 };
 class B_medic_MarineD_F: B_medic_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_medic_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_medic_MarineD_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1742,7 +1742,7 @@ class B_medic_MarineD_F: B_medic_F
 };
 class B_soldier_MarineD_repair_F: B_soldier_repair_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_repair_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_repair_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1790,7 +1790,7 @@ class B_soldier_MarineD_repair_F: B_soldier_repair_F
 };
 class B_soldier_MarineD_exp_F: B_soldier_exp_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_exp_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_exp_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1838,7 +1838,7 @@ class B_soldier_MarineD_exp_F: B_soldier_exp_F
 };
 class B_Soldier_MarineD_A_F: B_Soldier_A_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_A_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_A_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1886,7 +1886,7 @@ class B_Soldier_MarineD_A_F: B_Soldier_A_F
 };
 class B_soldier_MarineD_AA_F: B_soldier_AA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AA_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1936,7 +1936,7 @@ class B_soldier_MarineD_AA_F: B_soldier_AA_F
 };
 class B_engineer_MarineD_F: B_engineer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_engineer_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_engineer_MarineD_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -1984,7 +1984,7 @@ class B_engineer_MarineD_F: B_engineer_F
 };
 class B_officer_MarineD_F: B_officer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_MarineD_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -2032,7 +2032,7 @@ class B_officer_MarineD_F: B_officer_F
 };
 class B_soldier_MarineD_UAV_F: B_soldier_UAV_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_UAV_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
@@ -2082,7 +2082,7 @@ class B_soldier_MarineD_UAV_F: B_soldier_UAV_F
 };
 class B_Soldier_MarineD_unarmed_F: B_Soldier_unarmed_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_unarmed_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineD_unarmed_F.jpg";
 	uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     linkedItems[] =
@@ -2100,7 +2100,7 @@ class B_Soldier_MarineD_unarmed_F: B_Soldier_unarmed_F
 };
 class B_soldier_MarineD_AAA_F: B_soldier_AAA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AAA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AAA_F.jpg";
     uniformClass = Marine_U_B_MCU_desert_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     weapons[] =
