@@ -401,6 +401,23 @@
             </Container>
 		</Container>
 		<Container name="Characters_F">
+			<Key ID="STR_A3_A_CfgEditorSubcategories_EdSubCat_Marine0">
+				<Original>Men (Marines)</Original>
+				<English>Men (Marines)</English>
+				<Czech>Men (Marines)</Czech>
+				<German>Men (Marines)</German>
+				<Russian>Men (Marines)</Russian>
+				<Polish>Men (Marines)</Polish>
+				<Italian>Men (Marines)</Italian>
+				<Spanish>Men (Marines)</Spanish>
+				<French>Men (Marines)</French>
+				<Chinese>Men (Marines)</Chinese>
+				<Japanese>Men (Marines)</Japanese>
+				<Korean>Men (Marines)</Korean>
+				<Portuguese>Men (Marines)</Portuguese>
+				<Chinesesimp>Men (Marines)</Chinesesimp>
+				<Turkish>Men (Marines)</Turkish>
+      		</Key>
 			<Key ID="str_a3_c_b_w_radiooperator_f0">
 				<Original>Rifleman (RTO)</Original>
 				<English>Rifleman (RTO)</English>
@@ -451,6 +468,23 @@
 				<Portuguese>Headquarters Element</Portuguese>
 				<Chinesesimp>Headquarters Element</Chinesesimp>
 				<Turkish>Headquarters Element</Turkish>
+			</Key>
+			<Key ID="STR_A3_CfgGroups_West_BLU_F_HARMMarines0">
+				<Original>Infantry (Marines)</Original>
+				<English>Infantry (Marines)</English>
+				<Czech>Infantry (Marines)</Czech>
+				<German>Infantry (Marines)</German>
+				<Russian>Infantry (Marines)</Russian>
+				<Polish>Infantry (Marines)</Polish>
+				<Italian>Infantry (Marines)</Italian>
+				<Spanish>Infantry (Marines)</Spanish>
+				<French>Infantry (Marines)</French>
+				<Chinese>Infantry (Marines)</Chinese>
+				<Japanese>Infantry (Marines)</Japanese>
+				<Korean>Infantry (Marines)</Korean>
+				<Portuguese>Infantry (Marines)</Portuguese>
+				<Chinesesimp>Infantry (Marines)</Chinesesimp>
+				<Turkish>Infantry (Marines)</Turkish>
 			</Key>
 			<Key ID="STR_B_officer_combat_F0">
 				<Original>Officer (Combat)</Original>

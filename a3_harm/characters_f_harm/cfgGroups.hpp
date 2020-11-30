@@ -89,6 +89,53 @@ class CfgGroups
 					GROUP_UNIT(3,TWest,B_Soldier_GL_F,PRIVATE,10,-10);
 				};
 			};
+			class HARM_Infantry_Marines
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_HARMMarines0;
+				class BUS_MarineDInfSquad
+				{
+					// thats a thicc squad
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
+					side = TWest;
+					faction = BLU_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,B_Soldier_MarineD_SL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,B_Soldier_MarineD_TL_F,CORPORAL,-5,0);
+					GROUP_UNIT(2,TWest,B_soldier_MarineD_UAV_F,PRIVATE,-10,0);
+					GROUP_UNIT(3,TWest,B_Soldier_MarineD_TL_F,CORPORAL,0,-10);
+					GROUP_UNIT(4,TWest,B_soldier_MarineD_AR_F,PRIVATE,-5,-10);
+					GROUP_UNIT(5,TWest,B_Soldier_MarineD_GL_F,PRIVATE,-10,-10);
+					GROUP_UNIT(6,TWest,B_soldier_MarineD_M_F,PRIVATE,-15,-10);
+					GROUP_UNIT(7,TWest,B_Soldier_MarineD_TL_F,CORPORAL,0,-15);
+					GROUP_UNIT(8,TWest,B_soldier_MarineD_AR_F,PRIVATE,-5,-15);
+					GROUP_UNIT(9,TWest,B_Soldier_MarineD_GL_F,PRIVATE,-10,-15);
+					GROUP_UNIT(10,TWest,B_soldier_MarineD_LAT_F,PRIVATE,-15,-15);
+					GROUP_UNIT(11,TWest,B_Soldier_MarineD_TL_F,CORPORAL,0,-20);
+					GROUP_UNIT(12,TWest,B_soldier_MarineD_AR_F,PRIVATE,-5,-20);
+					GROUP_UNIT(13,TWest,B_Soldier_MarineD_GL_F,PRIVATE,-10,-20);
+					GROUP_UNIT(14,TWest,B_Soldier_MarineD_F,PRIVATE,-15,-20);
+				};
+				class BUS_MarineDInfTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
+					side = TWest;
+					faction = BLU_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,B_Soldier_MarineD_TL_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TWest,B_soldier_MarineD_AR_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TWest,B_Soldier_MarineD_GL_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,B_soldier_MarineD_LAT_F,PRIVATE,10,-10);
+				};
+				class BUS_MarineDInfSentry
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0;
+					side = TWest;
+					faction = BLU_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,B_Soldier_MarineD_TL_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TWest,B_soldier_MarineD_AR_F,PRIVATE,5,-5);
+				};
+			};
 		};
 	};
 };

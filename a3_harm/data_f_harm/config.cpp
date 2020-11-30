@@ -5,5 +5,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 
 /* Configuration */
+#include "cfgEditorSubcategories.hpp"
 #include "cfgAddons.hpp"
 #include "cfgMods.hpp"
+
