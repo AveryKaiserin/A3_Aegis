@@ -26,6 +26,7 @@ class B_Soldier_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -33,6 +34,7 @@ class B_Soldier_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -62,6 +64,7 @@ class B_Soldier_GL_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -70,6 +73,7 @@ class B_Soldier_GL_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -83,6 +87,7 @@ class B_soldier_AR_F: B_Soldier_02_f
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -90,6 +95,7 @@ class B_soldier_AR_F: B_Soldier_02_f
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -102,6 +108,7 @@ class B_Soldier_SL_F: B_Soldier_03_f
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -110,6 +117,7 @@ class B_Soldier_SL_F: B_Soldier_03_f
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -123,18 +131,19 @@ class B_Soldier_TL_F: B_Soldier_03_f
     weapons[] =
     {
         arifle_MX_Hamr_pointer_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_MX_Hamr_pointer_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -143,6 +152,7 @@ class B_Soldier_TL_F: B_Soldier_03_f
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -156,6 +166,7 @@ class B_soldier_M_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -163,6 +174,7 @@ class B_soldier_M_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -175,6 +187,7 @@ class B_soldier_LAT_F: B_Soldier_base_F
 	linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -182,6 +195,7 @@ class B_soldier_LAT_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -194,6 +208,7 @@ class B_medic_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -201,6 +216,7 @@ class B_medic_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -213,6 +229,7 @@ class B_soldier_repair_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -220,6 +237,7 @@ class B_soldier_repair_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -232,6 +250,7 @@ class B_soldier_exp_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -239,6 +258,7 @@ class B_soldier_exp_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -251,6 +271,7 @@ class B_Soldier_A_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -258,6 +279,7 @@ class B_Soldier_A_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -270,6 +292,7 @@ class B_soldier_AT_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -277,6 +300,7 @@ class B_soldier_AT_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -289,6 +313,7 @@ class B_soldier_AA_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -296,6 +321,7 @@ class B_soldier_AA_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -308,6 +334,7 @@ class B_engineer_F: B_Soldier_03_f
     linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
 		H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -315,6 +342,7 @@ class B_engineer_F: B_Soldier_03_f
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
 		H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -327,6 +355,7 @@ class B_crew_F: B_Soldier_03_f
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_coyote_F,
+        G_tactical_clear,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -334,6 +363,7 @@ class B_crew_F: B_Soldier_03_f
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_coyote_F,
+        G_tactical_clear,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -346,6 +376,7 @@ class B_officer_F: B_Soldier_base_F
 	linkedItems[] =
     {
         V_CarrierRigKBT_01_OCP_F,
+        G_tactical_clear,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems
@@ -353,6 +384,7 @@ class B_officer_F: B_Soldier_base_F
 	respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_OCP_F,
+        G_tactical_clear,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems
@@ -365,6 +397,7 @@ class B_officer_combat_F: B_officer_F
 	linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems
@@ -372,6 +405,7 @@ class B_officer_combat_F: B_officer_F
 	respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_MilCap_mcamo,
         ItemGPS,
         DefaultManLinkedItems
@@ -384,6 +418,7 @@ class B_soldier_PG_F: B_Soldier_base_F
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -392,6 +427,7 @@ class B_soldier_PG_F: B_Soldier_base_F
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         ItemGPS,
         DefaultManLinkedItems,
@@ -405,6 +441,7 @@ class B_soldier_UAV_F: B_Soldier_03_f
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         B_UavTerminal,
@@ -413,6 +450,7 @@ class B_soldier_UAV_F: B_Soldier_03_f
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         B_UavTerminal,
@@ -498,14 +536,14 @@ class B_recon_LAT_F: B_Soldier_recon_base
     {
         arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
         launch_MRAWS_sand_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_SPAR_01_snd_Holo_Pointer_Snds_F,
         launch_MRAWS_sand_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -569,13 +607,13 @@ class B_recon_medic_F: B_Soldier_recon_base
     weapons[] =
     {
 		arifle_SCAR_short_holo_Pointer_F,
-		hgun_P07_khk_Snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SCAR_short_holo_Pointer_F,
-		hgun_P07_khk_Snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
     magazines[] =
@@ -604,14 +642,14 @@ class B_recon_TL_F: B_Soldier_recon_base
     weapons[] =
     {
         arifle_SCAR_short_holo_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_short_holo_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -657,14 +695,14 @@ class B_recon_M_F: B_Soldier_recon_base
     weapons[] =
     {
         arifle_SCAR_grip_TWS_Pointer_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_grip_TWS_Pointer_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -737,6 +775,7 @@ class B_Soldier_support_base_F: B_Soldier_base_F
 	{
 		V_ChestrigF_rgr,
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -744,6 +783,7 @@ class B_Soldier_support_base_F: B_Soldier_base_F
 	{
 		V_ChestrigF_rgr,
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -755,6 +795,7 @@ class B_soldier_AAR_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -762,6 +803,7 @@ class B_soldier_AAR_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -774,6 +816,7 @@ class B_soldier_AAT_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -781,6 +824,7 @@ class B_soldier_AAT_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -793,6 +837,7 @@ class B_soldier_AAA_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -800,6 +845,7 @@ class B_soldier_AAA_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -812,6 +858,7 @@ class B_support_MG_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -819,6 +866,7 @@ class B_support_MG_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -831,6 +879,7 @@ class B_support_GMG_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -838,6 +887,7 @@ class B_support_GMG_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -850,6 +900,7 @@ class B_support_Mort_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -857,6 +908,7 @@ class B_support_Mort_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -869,6 +921,7 @@ class B_support_AMG_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -876,6 +929,7 @@ class B_support_AMG_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -888,6 +942,7 @@ class B_support_AMort_F: B_Soldier_support_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -895,6 +950,7 @@ class B_support_AMort_F: B_Soldier_support_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -907,6 +963,7 @@ class B_Sharpshooter_F: B_Soldier_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -914,6 +971,7 @@ class B_Sharpshooter_F: B_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -945,6 +1003,7 @@ class B_HeavyGunner_F: B_Soldier_base_F
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -952,6 +1011,7 @@ class B_HeavyGunner_F: B_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1006,6 +1066,7 @@ class B_soldier_mine_F: B_soldier_exp_F
 	linkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1013,6 +1074,7 @@ class B_soldier_mine_F: B_soldier_exp_F
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1025,6 +1087,7 @@ class B_soldier_LAT2_F: B_Soldier_base_F
 	linkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1032,6 +1095,7 @@ class B_soldier_LAT2_F: B_Soldier_base_F
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1045,6 +1109,7 @@ class B_Soldier_CQ_F: B_Soldier_base_F
 	linkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1052,6 +1117,7 @@ class B_Soldier_CQ_F: B_Soldier_base_F
 	respawnLinkedItems[] =
     {
         H_HelmetHBK_ocp_headset_F,
+        G_tactical_clear,
         V_CarrierRigKBT_01_light_OCP_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1087,6 +1153,7 @@ class B_Soldier_MG_F: B_Soldier_03_f
     linkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1094,6 +1161,7 @@ class B_Soldier_MG_F: B_Soldier_03_f
     respawnLinkedItems[] =
     {
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
         DefaultManLinkedItems,
         NVGoggles
@@ -1107,13 +1175,13 @@ class B_recon_AR_F: B_Soldier_recon_base
     weapons[] =
     {
         LMG_Mk200_plain_RCO_LP_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         LMG_Mk200_plain_RCO_LP_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1157,14 +1225,14 @@ class B_recon_GL_F: B_Soldier_recon_base
     weapons[] =
     {
         arifle_SCAR_GL_HAMR_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_GL_HAMR_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -1213,13 +1281,13 @@ class B_recon_MG_F: B_Soldier_recon_base
     weapons[] =
 	{
 		MMG_02_sand_RCO_LP_F,
-		hgun_P07_snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		MMG_02_sand_RCO_LP_F,
-		hgun_P07_snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1285,6 +1353,7 @@ class B_RadioOperator_F: B_Soldier_F
 	linkedItems[] =
 	{
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1292,6 +1361,7 @@ class B_RadioOperator_F: B_Soldier_F
 	respawnLinkedItems[] =
 	{
         V_CarrierRigKBT_01_light_OCP_F,
+        G_tactical_clear,
         H_HelmetHBK_ocp_headset_F,
 		DefaultManLinkedItems,
 		NVGoggles

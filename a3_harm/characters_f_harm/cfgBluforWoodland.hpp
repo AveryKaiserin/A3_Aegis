@@ -3,7 +3,7 @@
 ///////////////////
 class B_W_Soldier_F: B_Soldier_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -25,7 +25,7 @@ class B_W_Soldier_F: B_Soldier_F
 };
 class B_W_Soldier_lite_F: B_Soldier_lite_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_lite_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_lite_F.jpg";
     faction = BLU_W_F;
 	linkedItems[] =
     {
@@ -42,7 +42,7 @@ class B_W_Soldier_lite_F: B_Soldier_lite_F
 };
 class B_W_Soldier_GL_F: B_Soldier_GL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_GL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_GL_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -65,7 +65,7 @@ class B_W_Soldier_GL_F: B_Soldier_GL_F
 };
 class B_W_soldier_AR_F: B_soldier_AR_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AR_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AR_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -86,7 +86,7 @@ class B_W_soldier_AR_F: B_soldier_AR_F
 };
 class B_W_Soldier_SL_F: B_Soldier_SL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_SL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_SL_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -109,19 +109,19 @@ class B_W_Soldier_SL_F: B_Soldier_SL_F
 };
 class B_W_Soldier_TL_F: B_Soldier_TL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_TL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_TL_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     weapons[] =
     {
         arifle_MX_Black_Hamr_pointer_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_MX_Hamr_pointer_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     linkedItems[] =
@@ -145,7 +145,7 @@ class B_W_Soldier_TL_F: B_Soldier_TL_F
 };
 class B_W_soldier_M_F: B_soldier_M_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_M_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_M_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -167,7 +167,7 @@ class B_W_soldier_M_F: B_soldier_M_F
 };
 class B_W_soldier_LAT_F: B_soldier_LAT_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_LAT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_LAT_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -189,7 +189,7 @@ class B_W_soldier_LAT_F: B_soldier_LAT_F
 };
 class B_W_medic_F: B_medic_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_medic_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_medic_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -211,7 +211,7 @@ class B_W_medic_F: B_medic_F
 };
 class B_W_soldier_repair_F: B_soldier_repair_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_repair_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_repair_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -233,7 +233,7 @@ class B_W_soldier_repair_F: B_soldier_repair_F
 };
 class B_W_soldier_exp_F: B_soldier_exp_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_exp_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_exp_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -255,7 +255,7 @@ class B_W_soldier_exp_F: B_soldier_exp_F
 };
 class B_W_Soldier_A_F: B_Soldier_A_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_A_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_A_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -277,7 +277,7 @@ class B_W_Soldier_A_F: B_Soldier_A_F
 };
 class B_W_soldier_AT_F: B_soldier_AT_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AT_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -299,7 +299,7 @@ class B_W_soldier_AT_F: B_soldier_AT_F
 };
 class B_W_soldier_AA_F: B_soldier_AA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AA_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -321,7 +321,7 @@ class B_W_soldier_AA_F: B_soldier_AA_F
 };
 class B_W_engineer_F: B_engineer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_engineer_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_engineer_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -343,7 +343,7 @@ class B_W_engineer_F: B_engineer_F
 };
 class B_W_crew_F: B_crew_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_crew_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_crew_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -366,7 +366,7 @@ class B_W_crew_F: B_crew_F
 };
 class B_W_officer_F: B_officer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_officer_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -386,7 +386,7 @@ class B_W_officer_F: B_officer_F
 };
 class B_W_officer_combat_F: B_W_officer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_combat_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_officer_combat_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     displayName = $STR_B_officer_combat_F0;
@@ -408,7 +408,7 @@ class B_W_officer_combat_F: B_W_officer_F
 };
 class B_W_soldier_PG_F: B_soldier_PG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_PG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_PG_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -432,7 +432,7 @@ class B_W_soldier_PG_F: B_soldier_PG_F
 };
 class B_W_soldier_UAV_F: B_soldier_UAV_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_UAV_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -456,29 +456,29 @@ class B_W_soldier_UAV_F: B_soldier_UAV_F
 };
 class B_W_soldier_UAV_06_F: B_soldier_UAV_06_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_UAV_F.jpg";
     faction = BLU_W_F;
 };
 class B_W_soldier_UAV_06_medical_F: B_soldier_UAV_06_medical_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_UAV_F.jpg";
     faction = BLU_W_F;
     scope = protected;
     scopeCurator = private;
 };
 class B_W_soldier_UGV_02_demining_F: B_soldier_UGV_02_demining_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_UAV_F.jpg";
     faction = BLU_W_F;
 };
 class B_W_soldier_UGV_02_science_F: B_soldier_UGV_02_science_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_UAV_F.jpg";
     faction = BLU_W_F;
 };
 class B_W_Soldier_unarmed_F: B_Soldier_unarmed_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_unarmed_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_unarmed_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
     linkedItems[] =
@@ -498,7 +498,7 @@ class B_W_Soldier_recon_base: B_Soldier_recon_base
 };
 class B_W_recon_F: B_recon_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_crye_WDL_1;
 	linkedItems[] =
@@ -520,7 +520,7 @@ class B_W_recon_F: B_recon_F
 };
 class B_W_recon_LAT_F: B_recon_LAT_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_LAT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_LAT_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_crye_WDL_1;
     backpack = B_AssaultPack_rgr_LAT2;
@@ -544,14 +544,14 @@ class B_W_recon_LAT_F: B_recon_LAT_F
     {
         arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
         launch_MRAWS_olive_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
         launch_MRAWS_olive_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -575,7 +575,7 @@ class B_W_recon_LAT_F: B_recon_LAT_F
 };
 class B_W_recon_exp_F: B_recon_exp_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_exp_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_exp_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_crye_WDL_1;
 	linkedItems[] =
@@ -597,7 +597,7 @@ class B_W_recon_exp_F: B_recon_exp_F
 };
 class B_W_recon_medic_F: B_recon_medic_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_medic_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_medic_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_crye_WDL_1;
 	linkedItems[] =
@@ -619,13 +619,13 @@ class B_W_recon_medic_F: B_recon_medic_F
     weapons[] =
     {
 		arifle_SCAR_short_black_holo_Pointer_F,
-		hgun_P07_khk_Snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SCAR_short_black_holo_Pointer_F,
-		hgun_P07_khk_Snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
     magazines[] =
@@ -649,20 +649,20 @@ class B_W_recon_medic_F: B_recon_medic_F
 };
 class B_W_recon_TL_F: B_recon_TL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_TL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_TL_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_crye_WDL_1;
     weapons[] =
     {
         arifle_SCAR_short_black_holo_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_short_black_holo_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -703,20 +703,20 @@ class B_W_recon_TL_F: B_recon_TL_F
 };
 class B_W_recon_M_F: B_recon_M_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_M_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_M_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_tshirt_1;
     weapons[] =
     {
         arifle_SCAR_grip_black_TWS_Pointer_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_grip_black_TWS_Pointer_F,
-        hgun_P07_snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -765,7 +765,7 @@ class B_W_recon_M_F: B_recon_M_F
 };
 class B_W_recon_JTAC_F: B_recon_JTAC_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_JTAC_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_JTAC_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_crye_WDL_1;
 	linkedItems[] =
@@ -807,7 +807,7 @@ class B_W_Soldier_support_base_F: B_Soldier_support_base_F
 };
 class B_W_soldier_AAR_F: B_soldier_AAR_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AAR_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AAR_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -829,7 +829,7 @@ class B_W_soldier_AAR_F: B_soldier_AAR_F
 };
 class B_W_soldier_AAT_F: B_soldier_AAT_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AAT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AAT_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -851,7 +851,7 @@ class B_W_soldier_AAT_F: B_soldier_AAT_F
 };
 class B_W_soldier_AAA_F: B_soldier_AAA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_AAA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_AAA_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -873,7 +873,7 @@ class B_W_soldier_AAA_F: B_soldier_AAA_F
 };
 class B_W_support_MG_F: B_support_MG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_support_MG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_support_MG_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -895,7 +895,7 @@ class B_W_support_MG_F: B_support_MG_F
 };
 class B_W_support_GMG_F: B_support_GMG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_support_GMG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_support_GMG_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -917,7 +917,7 @@ class B_W_support_GMG_F: B_support_GMG_F
 };
 class B_W_support_Mort_F: B_support_Mort_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_support_Mort_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_support_Mort_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -939,7 +939,7 @@ class B_W_support_Mort_F: B_support_Mort_F
 };
 class B_W_support_AMG_F: B_support_AMG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_support_AMG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_support_AMG_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -961,7 +961,7 @@ class B_W_support_AMG_F: B_support_AMG_F
 };
 class B_W_support_AMort_F: B_support_AMort_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_support_AMort_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_support_AMort_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -983,7 +983,7 @@ class B_W_support_AMort_F: B_support_AMort_F
 };
 class B_W_Sharpshooter_F: B_Sharpshooter_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Sharpshooter_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Sharpshooter_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -1006,7 +1006,7 @@ class B_W_Sharpshooter_F: B_Sharpshooter_F
 class B_W_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 {
     uniformClass = B_ACU_crye_WDL_1;
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Recon_Sharpshooter_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Recon_Sharpshooter_F.jpg";
     faction = BLU_W_F;
 	linkedItems[] =
 	{
@@ -1027,7 +1027,7 @@ class B_W_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 };
 class B_W_HeavyGunner_F: B_HeavyGunner_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_HeavyGunner_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_HeavyGunner_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -1049,7 +1049,7 @@ class B_W_HeavyGunner_F: B_HeavyGunner_F
 };
 class B_W_soldier_mine_F: B_W_Soldier_Exp_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_mine_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_mine_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -1071,7 +1071,7 @@ class B_W_soldier_mine_F: B_W_Soldier_Exp_F
 };
 class B_W_soldier_LAT2_F: B_soldier_LAT2_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_LAT2_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_soldier_LAT2_F.jpg";
     faction = BLU_W_F;
 	uniformClass = B_ACU_massif_WDL_CS_1;
 	linkedItems[] =
@@ -1093,7 +1093,7 @@ class B_W_soldier_LAT2_F: B_soldier_LAT2_F
 };
 class B_W_Soldier_CQ_F: B_Soldier_CQ_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_CQ_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_CQ_F.jpg";
     faction = BLU_W_F;
     author = $STR_A3_A_Heliotrope;
     uniformClass = B_ACU_massif_WDL_CS_1;
@@ -1116,7 +1116,7 @@ class B_W_Soldier_CQ_F: B_Soldier_CQ_F
 };
 class B_W_recon_CQ_F: B_recon_CQ_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_CQ_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_CQ_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_crye_WDL_1;
     author = $STR_A3_A_Heliotrope;
@@ -1141,7 +1141,7 @@ class B_W_recon_CQ_F: B_recon_CQ_F
 };
 class B_W_Soldier_MG_F: B_Soldier_MG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_MG_F.jpg";
     faction = BLU_W_F;
     author = $STR_A3_A_Heliotrope;
 	uniformClass = B_ACU_massif_WDL_CS_1;
@@ -1164,20 +1164,20 @@ class B_W_Soldier_MG_F: B_Soldier_MG_F
 };
 class B_W_recon_AR_F: B_recon_AR_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_AR_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_AR_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_crye_WDL_1;
     author = $STR_A3_A_Heliotrope;
     weapons[] =
     {
         LMG_Mk200_black_RCO_LP_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         LMG_Mk200_black_RCO_LP_F,
-        hgun_P07_F,
+        hgun_P07_blk_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1217,21 +1217,21 @@ class B_W_recon_AR_F: B_recon_AR_F
 };
 class B_W_recon_GL_F: B_recon_GL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_GL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_GL_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_massif_WDL_tshirt_1;
     author = $STR_A3_A_Heliotrope;
     weapons[] =
     {
         arifle_SCAR_GL_black_HAMR_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_SCAR_GL_black_HAMR_Pointer_F,
-        hgun_P07_khk_Snds_F,
+        hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -1276,20 +1276,20 @@ class B_W_recon_GL_F: B_recon_GL_F
 };
 class B_W_recon_MG_F: B_recon_MG_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_recon_MG_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_recon_MG_F.jpg";
     faction = BLU_W_F;
     uniformClass = B_ACU_crye_WDL_1;
     author = $STR_A3_A_Heliotrope;
     weapons[] =
 	{
 		MMG_02_black_RCO_LP_F,
-		hgun_P07_snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		MMG_02_black_RCO_LP_F,
-		hgun_P07_snds_F,
+		hgun_P07_blk_snds_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1329,7 +1329,7 @@ class B_W_recon_MG_F: B_recon_MG_F
 };
 class B_W_Soldier_CBRN_F: B_Soldier_CBRN_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_CBRN_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_Soldier_CBRN_F.jpg";
     faction = BLU_W_F;
 	author = $STR_A3_A_Heliotrope;
 	uniformClass = U_B_CBRN_Suit_01_WDL_F;
@@ -1352,7 +1352,7 @@ class B_W_Soldier_CBRN_F: B_Soldier_CBRN_F
 };
 class B_W_RadioOperator_F: B_RadioOperator_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_RadioOperator_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_W_RadioOperator_F.jpg";
     faction = BLU_W_F;
 	author = $STR_A3_A_Heliotrope;
 	uniformClass = B_ACU_massif_WDL_CS_1;
@@ -1380,7 +1380,7 @@ class B_W_RadioOperator_F: B_RadioOperator_F
 
 class B_Soldier_MarineW_F: B_Soldier_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1429,7 +1429,7 @@ class B_Soldier_MarineW_F: B_Soldier_F
 };
 class B_Soldier_MarineW_GL_F: B_Soldier_GL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_GL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_GL_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1480,7 +1480,7 @@ class B_Soldier_MarineW_GL_F: B_Soldier_GL_F
 };
 class B_soldier_MarineW_AR_F: B_soldier_AR_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AR_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_AR_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1523,7 +1523,7 @@ class B_soldier_MarineW_AR_F: B_soldier_AR_F
 };
 class B_Soldier_MarineW_SL_F: B_Soldier_SL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_SL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_SL_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1575,7 +1575,7 @@ class B_Soldier_MarineW_SL_F: B_Soldier_SL_F
 };
 class B_Soldier_MarineW_TL_F: B_Soldier_TL_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_TL_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_TL_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1626,7 +1626,7 @@ class B_Soldier_MarineW_TL_F: B_Soldier_TL_F
 };
 class B_soldier_MarineW_M_F: B_soldier_M_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_M_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_M_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1675,7 +1675,7 @@ class B_soldier_MarineW_M_F: B_soldier_M_F
 };
 class B_soldier_MarineW_LAT_F: B_soldier_LAT2_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_LAT_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_LAT_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1727,7 +1727,7 @@ class B_soldier_MarineW_LAT_F: B_soldier_LAT2_F
 };
 class B_medic_MarineW_F: B_medic_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_medic_MarineD_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_medic_MarineW_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1776,7 +1776,7 @@ class B_medic_MarineW_F: B_medic_F
 };
 class B_soldier_MarineW_repair_F: B_soldier_repair_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_repair_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_repair_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1825,7 +1825,7 @@ class B_soldier_MarineW_repair_F: B_soldier_repair_F
 };
 class B_soldier_MarineW_exp_F: B_soldier_exp_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_exp_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_exp_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1874,7 +1874,7 @@ class B_soldier_MarineW_exp_F: B_soldier_exp_F
 };
 class B_Soldier_MarineW_A_F: B_Soldier_A_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_A_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_A_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1923,7 +1923,7 @@ class B_Soldier_MarineW_A_F: B_Soldier_A_F
 };
 class B_soldier_MarineW_AA_F: B_soldier_AA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_AA_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -1974,7 +1974,7 @@ class B_soldier_MarineW_AA_F: B_soldier_AA_F
 };
 class B_engineer_MarineW_F: B_engineer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_engineer_MarineD_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_engineer_MarineW_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -2023,7 +2023,7 @@ class B_engineer_MarineW_F: B_engineer_F
 };
 class B_officer_MarineW_F: B_officer_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_MarineD_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_officer_MarineW_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -2072,7 +2072,7 @@ class B_officer_MarineW_F: B_officer_F
 };
 class B_soldier_MarineW_UAV_F: B_soldier_UAV_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_UAV_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_UAV_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -2123,7 +2123,7 @@ class B_soldier_MarineW_UAV_F: B_soldier_UAV_F
 };
 class B_Soldier_MarineW_unarmed_F: B_Soldier_unarmed_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_unarmed_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_Soldier_MarineW_unarmed_F.jpg";
 	uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
@@ -2142,7 +2142,7 @@ class B_Soldier_MarineW_unarmed_F: B_Soldier_unarmed_F
 };
 class B_soldier_MarineW_AAA_F: B_soldier_AAA_F
 {
-    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineD_AAA_F.jpg";
+    editorPreview = "\A3_HARM\EditorPreviews_F_HARM\Data\CfgVehicles\B_soldier_MarineW_AAA_F.jpg";
     uniformClass = Marine_U_B_MCU_wdl_F;
     editorSubcategory = EdSubcat_Personnel_Marine;
     faction = BLU_W_F;
