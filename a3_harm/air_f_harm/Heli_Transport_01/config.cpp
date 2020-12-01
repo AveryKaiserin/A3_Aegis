@@ -23,4 +23,5 @@ class CfgVehicles
 	class B_Heli_Transport_01_F;
 	// Arma 3 Marine
 	#include "cfgUSMC.hpp"			// USMC
+	#include "cfgBlufor.hpp"
 };

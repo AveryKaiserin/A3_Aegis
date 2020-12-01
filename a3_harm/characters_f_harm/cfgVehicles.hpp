@@ -23,4 +23,6 @@ class CfgVehicles
      /* Factions */
     #include "cfgBLUFOR.hpp"        // US
     #include "cfgUSMC.hpp"
+    #include "cfgBluforPacific.hpp"
+    #include "cfgBluforWoodland.hpp"
 };
