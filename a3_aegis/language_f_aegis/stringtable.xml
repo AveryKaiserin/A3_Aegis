@@ -6269,6 +6269,57 @@
 					<Japanese>モジュラーキャリア GL リグ（カーキ）</Japanese>
 					<Turkish>Modüler Taşıyıcı GL Yelek (Haki)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_MTP_F0">
+					<Original>Modular Carrier Vest (MTP)</Original>
+					<Chinese>模組化負載背心（多地形共用）</Chinese>
+					<French>Gilet modifiable léger (MTP)</French>
+					<Spanish>Chaleco con cartuchera modular (MTP)</Spanish>
+					<Italian>Giubbotto tattico modulare (mimetico MTP)</Italian>
+					<Polish>Kamizelka moduł. (MTP)</Polish>
+					<Russian>Модульный разгрузочный жилет (MTP)</Russian>
+					<German>Modularer Trageweste (MTP)</German>
+					<Czech>Modulární nosič plátů (MTP)</Czech>
+					<English>Modular Carrier Vest (MTP)</English>
+					<Portuguese>Traje modular leve (MTP)</Portuguese>
+					<Korean>모듈식 캐리어 조끼 (MTP)</Korean>
+					<Chinesesimp>模块化背心（MTP）</Chinesesimp>
+					<Japanese>モジュラーキャリアベスト（MTP）</Japanese>
+					<Turkish>Modüler Taşıyıcı Yelek (MTP)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_MTP_F0">
+					<Original>Modular Carrier Lite (MTP)</Original>
+					<Chinese>模組化輕型負載背心（多地形共用）</Chinese>
+					<French>Gilet modifiable léger (MTP)</French>
+					<Spanish>Cartuchera modular ligera (MTP)</Spanish>
+					<Italian>Equipag. leggero modulare (mimetico MTP)</Italian>
+					<Polish>Lekka kamizelka modułowa (MTP)</Polish>
+					<Russian>Модульный облегченный жилет (MTP)</Russian>
+					<German>Modularer leichter Tragegurt (MTP)</German>
+					<Czech>Modulární lehký nosič plátů (MTP)</Czech>
+					<English>Modular Carrier Lite (MTP)</English>
+					<Portuguese>Colete modular leve (MTP)</Portuguese>
+					<Korean>모듈식 캐리어 라이트 (MTP)</Korean>
+					<Chinesesimp>模块化轻便背心（MTP）</Chinesesimp>
+					<Japanese>モジュラーキャリア・ライト（MTP）</Japanese>
+					<Turkish>Modüler Hafif Taşıyıcı (MTP)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_MTP_F0">
+					<Original>Modular Carrier GL Rig (MTP)</Original>
+					<Chinese>模組化 GL 負載外掛（多地形共用）</Chinese>
+					<French>Gilet modifiable pour grenadier (MTP)</French>
+					<Spanish>Cartuchera modular de GL (MTP)</Spanish>
+					<Italian>Gilet tattico GL modulare (mimetico MTP)</Italian>
+					<Polish>Modułowa kamizelka grenadiera (MTP)</Polish>
+					<Russian>Модульный жилет гранатометчика (MTP)</Russian>
+					<German>Modularer Granatwerfer-Tragegurt (MTP)</German>
+					<Czech>Modulární nosič plátů GL (MTP)</Czech>
+					<English>Modular Carrier GL Rig (MTP)</English>
+					<Portuguese>Colete modular LG (MTP)</Portuguese>
+					<Korean>모듈식 캐리어 GL 리그 (MTP)</Korean>
+					<Chinesesimp>模块化背心 GL 装备（MTP）</Chinesesimp>
+					<Japanese>モジュラーキャリア GL リグ（MTP）</Japanese>
+					<Turkish>Modüler Taşıyıcı GL Yelek (MTP)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_Rangemaster_belt_taiga_F0">
 					<Original>Battle Belt (Taiga)</Original>
 					<Chinese>戰鬥腰帶（Taiga）</Chinese>
