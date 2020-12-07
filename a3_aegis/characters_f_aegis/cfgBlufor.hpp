@@ -8300,14 +8300,14 @@ class B_A_Soldier_A_F: B_Soldier_A_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -8710,14 +8710,14 @@ class B_A_Medic_F: B_medic_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetSpecB_sand,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetSpecB_sand,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -8765,14 +8765,14 @@ class B_A_Crew_F: B_crew_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -8947,14 +8947,14 @@ class B_A_Soldier_GL_F: B_Soldier_GL_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Coyote_F,
+		V_CarrierRigKBT_01_heavy_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Coyote_F,
+		V_CarrierRigKBT_01_heavy_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9170,14 +9170,14 @@ class B_A_Helicrew_F: B_helicrew_F
 	};
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
@@ -9219,14 +9219,14 @@ class B_A_Helipilot_F: B_Helipilot_F
 	};
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
@@ -9276,14 +9276,14 @@ class B_A_soldier_M_F: B_soldier_M_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9336,14 +9336,14 @@ class B_A_Soldier_AA_F: B_soldier_AA_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9396,14 +9396,14 @@ class B_A_Soldier_AT_F: B_soldier_AT_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9663,14 +9663,14 @@ class B_A_Soldier_F: B_Soldier_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9723,14 +9723,14 @@ class B_A_Soldier_LAT_F: B_soldier_LAT_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -9776,13 +9776,13 @@ class B_A_Soldier_Lite_F: B_Soldier_lite_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Coyote_F,
+		V_CarrierRigKBT_01_MTP_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
@@ -9895,14 +9895,14 @@ class B_A_Soldier_SL_F: B_Soldier_SL_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
@@ -9985,7 +9985,7 @@ class B_A_Soldier_CBRN_F: B_A_Soldier_F
 	uniformClass = U_B_A_CBRN_Suit_01_MTP_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_plain_mcamo,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
@@ -9993,7 +9993,7 @@ class B_A_Soldier_CBRN_F: B_A_Soldier_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_plain_mcamo,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
@@ -10049,14 +10049,14 @@ class B_A_RadioOperator_F: B_A_Soldier_F
 	uniformClass = U_B_UBACS_vest_mtp_f;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -11077,13 +11077,13 @@ class B_A_Soldier_unarmed_F: B_A_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		V_CarrierRigKBT_01_light_MTP_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems
 	};
