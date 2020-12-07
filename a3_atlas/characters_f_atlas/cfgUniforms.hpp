@@ -132,7 +132,7 @@ class Atlas_B_CombatFatigues_sage_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_CombatUniform_sgg;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
-	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class Atlas_B_CombatFatigues_01_Tshirt_sage_F: B_Soldier_AR_F
 {
@@ -146,7 +146,7 @@ class Atlas_B_CombatFatigues_01_Tshirt_sage_F: B_Soldier_AR_F
 	};
 	hiddenSelectionsMaterials[] =
 	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat",
 		"\A3\Characters_F\Common\Data\basicbody.rvmat"
 	};
 };
@@ -156,7 +156,7 @@ class Atlas_B_ReconFatigues_01_sage_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_CombatUniform_sgg_vest;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage_CO.paa"};
-	hiddenSelectionsMaterials[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_sage.rvmat"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 
 /* From "cfgGER.hpp" */

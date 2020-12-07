@@ -29,6 +29,7 @@ class B_UBACSCombatFatigues_01_mtp_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_mtp_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_mtp_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class B_UBACSCombatFatigues_01_Tshirt_mtp_F: B_soldier_AR_F
 {
@@ -40,6 +41,11 @@ class B_UBACSCombatFatigues_01_Tshirt_mtp_F: B_soldier_AR_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_mtp_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_green_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat",
+		"\A3\Characters_F\Common\Data\basicbody.rvmat"
+	};
 };
 class B_UBACSReconFatigues_01_mtp_F: B_Soldier_SL_F
 {
@@ -47,6 +53,7 @@ class B_UBACSReconFatigues_01_mtp_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_vest_mtp_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_mtp_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class B_UBACSCombatFatigues_01_blk_F: B_Soldier_F
 {
@@ -54,6 +61,7 @@ class B_UBACSCombatFatigues_01_blk_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_blk_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_blk_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class B_UBACSCombatFatigues_01_Tshirt_blk_F: B_soldier_AR_F
 {
@@ -65,6 +73,11 @@ class B_UBACSCombatFatigues_01_Tshirt_blk_F: B_soldier_AR_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_blk_CO.paa",
 		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat",
+		"\A3\Characters_F\Common\Data\basicbody.rvmat"
+	};
 };
 class B_UBACSReconFatigues_01_blk_F: B_Soldier_SL_F
 {
@@ -72,6 +85,7 @@ class B_UBACSReconFatigues_01_blk_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_vest_blk_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_blk_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 
 /* BAF (Pacific) */
@@ -81,6 +95,7 @@ class B_UBACSCombatFatigues_01_tna_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_tna_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_tna_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class B_UBACSCombatFatigues_01_Tshirt_tna_F: B_soldier_AR_F
 {
@@ -92,6 +107,11 @@ class B_UBACSCombatFatigues_01_Tshirt_tna_F: B_soldier_AR_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_tna_CO.paa",
 		"\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat",
+		"\A3\Characters_F\Common\Data\basicbody.rvmat"
+	};
 };
 class B_UBACSReconFatigues_01_tna_F: B_Soldier_SL_F
 {
@@ -99,6 +119,7 @@ class B_UBACSReconFatigues_01_tna_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_vest_tna_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_tna_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 
 /* BAF (Woodland) */
@@ -108,6 +129,7 @@ class B_UBACSCombatFatigues_01_wdl_F: B_Soldier_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_wdl_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_wdl_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 class B_UBACSCombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
 {
@@ -119,6 +141,11 @@ class B_UBACSCombatFatigues_01_Tshirt_wdl_F: B_soldier_AR_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_wdl_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
 	};
+	hiddenSelectionsMaterials[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat",
+		"\A3\Characters_F\Common\Data\basicbody.rvmat"
+	};
 };
 class B_UBACSReconFatigues_01_wdl_F: B_Soldier_SL_F
 {
@@ -126,6 +153,7 @@ class B_UBACSReconFatigues_01_wdl_F: B_Soldier_SL_F
   	scopeCurator = private;
 	uniformClass = U_B_UBACS_vest_wdl_f;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo_wdl_CO.paa"};
+	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
 };
 
 /* IAF */
