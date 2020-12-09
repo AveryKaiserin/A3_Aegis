@@ -198,7 +198,7 @@ class B_TacticalPack_mcamo_BAMedic_F: B_TacticalPack_mcamo
 		item_xx(FirstAidKit,10);
 	};
 };
-class B_TacticalPack_mcamo_BALAT_F: B_TacticalPack_mcamo
+class B_TacticalPack_mcamo_BALAT_F: B_TacticalPack_khk
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
