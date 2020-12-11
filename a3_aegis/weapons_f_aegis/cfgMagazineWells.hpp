@@ -39,14 +39,20 @@ class CfgMagazineWells
 	};
 	class UGL_40x36
 	{
-		Aegis_Magazines[] = {1Rnd_Pellets_Grenade_shell};
+		Aegis_Magazines[] = 
+		{
+			1Rnd_Pellets_Grenade_shell,
+			1Rnd_HEDP_Grenade_shell
+		};
 	};
 	class 3UGL_40x36
 	{
 		Aegis_Magazines[] =
 		{
 			1Rnd_Pellets_Grenade_shell,
-			3Rnd_Pellets_Grenade_shell
+			3Rnd_Pellets_Grenade_shell,
+			1Rnd_HEDP_Grenade_shell,
+			3Rnd_HEDP_Grenade_shell
 		};
 	};
 	class ACPC2_45ACP

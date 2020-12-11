@@ -146,6 +146,19 @@ class CfgAmmo
         aiAmmoUsageFlags = MarkingAU;
 	};
 	class G_40mm_HE;
+	class G_40mm_HEDP: G_40mm_HE
+	{
+		hit = 120;
+		indirectHit = 8;
+		caliber = 30;
+		explosive = 0.8;
+		indirectHitRange = 4;
+		warheadName = HEAT;
+	};
+	class G_40mm_HEDP_Shell: G_40mm_HEDP
+	{
+		simulation = shotShell;
+	};
     class Chemlight_base;
 	class Chemlight_green: Chemlight_base
 	{
