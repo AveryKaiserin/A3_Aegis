@@ -186,37 +186,37 @@ class CfgGroups
 				{
 					class Unit1
 					{
-						vehicle = B_HeavyGunner_F;
+						vehicle = B_W_HeavyGunner_F;
 						rank = PRIVATE;
 					};
 					class Unit2
 					{
-						vehicle = B_HeavyGunner_F;
+						vehicle = B_W_HeavyGunner_F;
 						rank = PRIVATE;
 					};
 					class Unit3
 					{
-						vehicle = B_soldier_AAR_F;
+						vehicle = B_W_soldier_AAR_F;
 						rank = CORPORAL;
 					};
 					class Unit4
 					{
-						vehicle = B_Soldier_TL_F;
+						vehicle = B_W_Soldier_TL_F;
 						rank = SERGEANT;
 					};
 					class Unit5
 					{
-						vehicle = B_soldier_AT_F;
+						vehicle = B_W_soldier_AT_F;
 						rank = PRIVATE;
 					};
 					class Unit6
 					{
-						vehicle = B_soldier_AT_F;
+						vehicle = B_W_soldier_AT_F;
 						rank = PRIVATE;
 					};
 					class Unit7
 					{
-						vehicle = B_Soldier_AAT_F;
+						vehicle = B_W_Soldier_AAT_F;
 						rank = CORPORAL;
 					};
 				};
