@@ -148,9 +148,9 @@ class CfgAmmo
 	class G_40mm_HE;
 	class G_40mm_HEDP: G_40mm_HE
 	{
-		hit = 120;
+		hit = 175;
 		indirectHit = 8;
-		caliber = 30;
+		caliber = 150;
 		explosive = 0.8;
 		indirectHitRange = 4;
 		warheadName = HEAT;

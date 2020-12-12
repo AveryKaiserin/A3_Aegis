@@ -683,8 +683,8 @@ class CfgMagazines
 		author = $STR_A3_A_Heliotrope;
 		displayName = "40 mm HEDP Grenade Round";
 		ammo = G_40mm_HEDP_Shell;
-		descriptionShort = "40 mm HEDP Grenade";
-		displayNameShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 1";
+		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 1";
+		displayNameShort = "40 mm HEDP Grenade";
 	};
 	class 3Rnd_HEDP_Grenade_shell: 1Rnd_HEDP_Grenade_shell
 	{
