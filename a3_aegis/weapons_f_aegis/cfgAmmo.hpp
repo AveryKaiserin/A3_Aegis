@@ -146,30 +146,22 @@ class CfgAmmo
         aiAmmoUsageFlags = MarkingAU;
 	};
 	class G_40mm_HEDP;
-	class ammo_Penetrator_grenade_40mm: ammo_Penetrator_Base
-	{
-		caliber = 26;
-		hit = 90;
-	};
-	class G_40mm_HEDP_tempSubmunitionClass: G_40mm_HEDP
+	class G_40mm_HEDP_Submunition: G_40mm_HEDP
 	{
 		hit = 60;
-		indirectHit = 6;
-		indirectHitRange = 4;
 		caliber = 26;
-		explosive = 1;
 		submunitionAmmo = ammo_Penetrator_grenade_40mm;
 		submunitionDirectionType = SubmunitionModelDirection;
 		submunitionInitSpeed = 1000;
 		submunitionParentSpeedCoef = 0.0;
-		submunitionInitialOffset[] = {0,0,-0.2};
-		triggerOnImpact = 1;
-		deleteParentWhenTriggered = 0;
-		warheadName = HEAT;
-	};
-	class G_40mm_HEDP_Shell: G_40mm_HEDP_tempSubmunitionClass
-	{
-		simulation = shotShell;
+		submunitionInitialOffset[] =
+        {
+            0,      // X
+            0,      // Y
+            -0.2    // Z
+        };
+		triggerOnImpact = true;
+		deleteParentWhenTriggered = false;
 	};
     class Chemlight_base;
 	class Chemlight_green: Chemlight_base
@@ -305,6 +297,10 @@ class CfgAmmo
             0,      // B
             0       // A
         };
+	};
+	class ammo_Penetrator_grenade_40mm: ammo_Penetrator_Base
+	{
+		caliber = 26;
 	};
 	class Flare_82mm_AMOS_White: FlareCore
 	{

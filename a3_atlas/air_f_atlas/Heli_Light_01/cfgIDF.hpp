@@ -313,6 +313,7 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
     };
 	magazines[] = {5000Rnd_762x51_Yellow_Belt};
+    /*
 	class Components: Components
     {
 		class TransportPylonsComponent: TransportPylonsComponent
@@ -349,6 +350,7 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
 			};
         };
     };
+    */
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
