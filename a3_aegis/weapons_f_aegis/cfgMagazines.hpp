@@ -681,20 +681,20 @@ class CfgMagazines
 	class 1Rnd_HEDP_Grenade_shell: 1Rnd_HE_Grenade_shell
 	{
 		author = $STR_A3_A_Heliotrope;
-		displayName = "40 mm HEDP Grenade Round";
+		displayName = "40 mm HEDP Grenade";
 		ammo = G_40mm_HEDP_Shell;
 		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 1";
-		displayNameShort = "40 mm HEDP Grenade";
+		displayNameShort = "HEDP Grenade";
 	};
 	class 3Rnd_HEDP_Grenade_shell: 1Rnd_HEDP_Grenade_shell
 	{
 		author = $STR_A3_A_Heliotrope;
-		displayName = "40 mm 3Rnd HEDP Grenade Round";
+		displayName = "40 mm 3Rnd HEDP Grenade";
 		ammo = G_40mm_HEDP_Shell;
 		count = 3;
 		mass = 12;
 		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 3";
-		displayNameShort = "High Explosive Duel Purpose";
+		displayNameShort = "HEDP Grenade";
 	};
 	/////////
 	// WIP //

@@ -145,17 +145,29 @@ class CfgAmmo
 	{
         aiAmmoUsageFlags = MarkingAU;
 	};
-	class G_40mm_HE;
-	class G_40mm_HEDP: G_40mm_HE
+	class G_40mm_HEDP;
+	class ammo_Penetrator_grenade_40mm: ammo_Penetrator_Base
 	{
-		hit = 175;
-		indirectHit = 8;
-		caliber = 150;
-		explosive = 0.8;
+		caliber = 26;
+		hit = 90;
+	};
+	class G_40mm_HEDP_tempSubmunitionClass: G_40mm_HEDP
+	{
+		hit = 60;
+		indirectHit = 6;
 		indirectHitRange = 4;
+		caliber = 26;
+		explosive = 1;
+		submunitionAmmo = ammo_Penetrator_grenade_40mm;
+		submunitionDirectionType = SubmunitionModelDirection;
+		submunitionInitSpeed = 1000;
+		submunitionParentSpeedCoef = 0.0;
+		submunitionInitialOffset[] = {0,0,-0.2};
+		triggerOnImpact = 1;
+		deleteParentWhenTriggered = 0;
 		warheadName = HEAT;
 	};
-	class G_40mm_HEDP_Shell: G_40mm_HEDP
+	class G_40mm_HEDP_Shell: G_40mm_HEDP_tempSubmunitionClass
 	{
 		simulation = shotShell;
 	};
