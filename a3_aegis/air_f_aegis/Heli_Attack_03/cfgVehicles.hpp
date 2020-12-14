@@ -908,7 +908,7 @@ class CfgVehicles
 			class Muzzle_flash
 			{
 				source = ammorandom;
-				weapon = autocannon_30mm_Heli_Attack_03;
+				weapon = Gatling_30mm_Heli_Attack_03_F;
 			};
         };
 

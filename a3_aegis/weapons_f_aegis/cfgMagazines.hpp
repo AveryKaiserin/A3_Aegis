@@ -675,30 +675,6 @@ class CfgMagazines
 		descriptionShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;
 		displayNameShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;
 	};
-	/////////
-	// WIP //
-	/////////
-	class 1Rnd_HEDP_Grenade_shell: 1Rnd_HE_Grenade_shell
-	{
-		author = $STR_A3_A_Heliotrope;
-		displayName = "40 mm HEDP Grenade";
-		ammo = G_40mm_HEDP_Shell;
-		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 1";
-		displayNameShort = "HEDP Grenade";
-	};
-	class 3Rnd_HEDP_Grenade_shell: 1Rnd_HEDP_Grenade_shell
-	{
-		author = $STR_A3_A_Heliotrope;
-		displayName = "40 mm 3Rnd HEDP Grenade";
-		ammo = G_40mm_HEDP_Shell;
-		count = 3;
-		mass = 12;
-		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 3";
-		displayNameShort = "HEDP Grenade";
-	};
-	/////////
-	// WIP //
-	/////////
 	class 3Rnd_Pellets_Grenade_shell: 1Rnd_Pellets_Grenade_shell
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -706,6 +682,24 @@ class CfgMagazines
 		displayName = "40 mm 3Rnd Pellets Rounds";
 		descriptionShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;
 		displayNameShort = $STR_A3_C_CfgMagazines_2Rnd_12Gauge_Pellets1;
+		mass = 12;
+	};
+	class 1Rnd_HEDP_Grenade_shell: 1Rnd_HE_Grenade_shell
+	{
+		author = $STR_A3_A_Heliotrope;
+		displayName = "40 mm HEDP Grenade Round";
+		//picture = "\A3_Aegis\Weapons_F_Aegis\Data\UI\gear_UGL_HEDP_CA.paa";
+		ammo = G_40mm_HEDP_Submunition;
+		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 1";
+		displayNameShort = "HEDP Grenade";
+	};
+	class 3Rnd_HEDP_Grenade_shell: 1Rnd_HEDP_Grenade_shell
+	{
+		author = $STR_A3_A_Heliotrope;
+		count = 3;
+		displayName = "40 mm 3Rnd HEDP Grenade";
+		descriptionShort = "Type: High Explosive Anti Tank Grenade Rounds<br />Caliber: 40mm<br />Rounds: 3";
+		displayNameShort = "HEDP Grenade";
 		mass = 12;
 	};
 	class 6Rnd_HE_Grenade_shell: 1Rnd_HE_Grenade_shell

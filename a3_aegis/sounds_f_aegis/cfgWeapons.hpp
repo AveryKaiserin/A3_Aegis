@@ -87,37 +87,19 @@ class CfgWeapons
 			};
 		};
 	};
-    class autocannon_30mm_Heli_Attack_03: CannonCore
+    class Gatling_30mm_Heli_Attack_03_F: CannonCore
     {
-		class HE: autocannon_Base_F
-		{
-			class player: Mode_FullAuto
-			{
-                class BaseSoundModeType;
-                class StandardSound: BaseSoundModeType
+        class LowROF: Mode_FullAuto
+        {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType
+            {
+                soundSetShot[] =
                 {
-                    soundSetShot[] =
-                    {
-                        Autocannon30mmTurret_Shot_SoundSet,
-                        Autocannon30mmTurret_Tail_SoundSet
-                    };
+                    Autocannon30mmTurret_Shot_SoundSet,
+                    Autocannon30mmTurret_Tail_SoundSet
                 };
-			};
-		};
-		class AP: autocannon_Base_F
-		{
-			class player: Mode_FullAuto
-			{
-                class BaseSoundModeType;
-                class StandardSound: BaseSoundModeType
-                {
-                    soundSetShot[] =
-                    {
-                        Autocannon30mmTurret_Shot_SoundSet,
-                        Autocannon30mmTurret_Tail_SoundSet
-                    };
-                };
-			};
+            };
         };
     };
 	class weapon_Cannon_Phalanx: CannonCore

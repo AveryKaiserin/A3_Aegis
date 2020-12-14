@@ -317,6 +317,11 @@ class CfgAmmo
         flareSize = 50;
         aiAmmoUsageFlags = LightAU;
 	};
+	class Gatling_30mm_HE_Plane_CAS_01_F;
+	class Gatling_30mm_HE_Plane_CAS_01_Yellow_F: Gatling_30mm_HE_Plane_CAS_01_F
+    {
+		model = "\A3\Weapons_F\Data\bullettracer\tracer_yellow.p3d";
+    };
 	class ammo_Gun20mmAABase;
 	class ammo_Gun30mmAABase;
 	class ammo_Gun35mmAABase;

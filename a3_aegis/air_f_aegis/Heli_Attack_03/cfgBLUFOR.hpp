@@ -25,8 +25,7 @@ class B_A_Heli_Attack_03_F: Heli_Attack_03_base_F
             /* Weapons & Ammunition */
             magazines[] =
             {
-                600Rnd_30mm_HE_shells_Tracer_Red,
-                600Rnd_30mm_APDS_shells_Tracer_Red,
+                1200Rnd_Gatling_30mm_Heli_Attack_03_F,
                 Laserbatteries
             };
         };

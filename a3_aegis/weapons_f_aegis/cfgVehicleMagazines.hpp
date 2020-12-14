@@ -51,6 +51,7 @@ class 1000Rnd_762x51_Belt_T_Yellow;
 class 2000Rnd_762x51_Belt_T_Red;
 class 2000Rnd_762x51_Belt_T_Green;
 class 2000Rnd_762x51_Belt_T_Yellow;
+class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
 class 500Rnd_762x51_Belt: 2000Rnd_65x39_Belt
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -308,53 +309,24 @@ class 250Rnd_762x51_Belt_T_Yellow: 250Rnd_762x51_Belt_Yellow
     tracersEvery = 1;
     displaynameshort = $STR_A3_tracer_dns;
 };
-class 600Rnd_30mm_HE_shells: 250Rnd_30mm_HE_shells
+class 1200Rnd_Gatling_30mm_Heli_Attack_03_F: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
 {
     author = $STR_A3_A_AveryTheKitty;
+    scope = public;
     displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells0;
-    displayNameShort = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_dns;
-    count = 600;
-};
-class 600Rnd_30mm_HE_shells_Tracer_Red: 600Rnd_30mm_HE_shells
-{
-    author = $STR_A3_A_AveryTheKitty;
-    displayName = $STR_A3_CfgMagazines_250Rnd_30mm_HE_shells_Tracer_Red0;
-    ammo = B_30mm_HE_Tracer_Red;
-    tracersEvery = 1;
-};
-class 600Rnd_30mm_HE_shells_Tracer_Yellow: 600Rnd_30mm_HE_shells
-{
-    author = $STR_A3_A_AveryTheKitty;
-    displayName = "30 mm HE Tracer (Yellow) Shells";
-    ammo = B_30mm_HE_Tracer_Yellow;
-    tracersEvery = 1;
-};
-class 600Rnd_30mm_APDS_shells: 600Rnd_30mm_HE_shells
-{
-    author = $STR_A3_A_AveryTheKitty;
-    displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells0;
-    displayNameShort = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_dns;
-    ammo = B_30mm_AP;
-    initSpeed = 1120;
+    count = 1200;
     muzzleImpulseFactor[] =
     {
-        0.5,
-        2
+        1.0,    // X
+        4       // Y
     };
 };
-class 600Rnd_30mm_APDS_shells_Tracer_Red: 600Rnd_30mm_APDS_shells
+class 1200Rnd_Gatling_30mm_Heli_Attack_03_Yellow_F: 1200Rnd_Gatling_30mm_Heli_Attack_03_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_Tracer_Red0;
-    ammo = B_30mm_AP_Tracer_Red;
-    tracersEvery = 1;
-};
-class 600Rnd_30mm_APDS_shells_Tracer_Yellow: 600Rnd_30mm_APDS_shells
-{
-    author = $STR_A3_A_AveryTheKitty;
-    displayName = $STR_A3_CfgMagazines_250Rnd_30mm_APDS_shells_Tracer_Yellow0;
-    ammo = B_30mm_AP_Tracer_Yellow;
-    tracersEvery = 1;
+    scope = public;
+    displayName = "30 mm HE Tracer (Yellow) Shells";
+    ammo = Gatling_30mm_HE_Plane_CAS_01_Yellow_F;
 };
 class 340Rnd_30mm_HE_shells: 250Rnd_30mm_HE_shells
 {
