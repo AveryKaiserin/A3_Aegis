@@ -832,8 +832,8 @@ class I_officer_F: I_Soldier_base_F
 };
 class I_Story_Colonel_F: I_officer_F
 {
-    scope = protected;
-    scopeCurator = private;
+    magazines[] = {};
+    respawnMagazines[] = {};
 };
 class I_soldier_UAV_F: I_Soldier_base_F
 {

@@ -172,10 +172,10 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Cap_blk_ION_hs,$STR_A3_A_CfgWeapons_H_Cap_blk_ION_hs0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Cap_usblack_hs,$STR_A3_A_CfgWeapons_H_Cap_usblack_hs0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Cap_oicamo_hs,$STR_A3_A_CfgWeapons_H_Cap_oicamo_hs0,EdSubcat_Hats);
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_visor_up,"Heli Pilot Helmet (Black, Visor-up);",EdSubcat_Helmets);
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_visor_up,"Heli Pilot Helmet (Olive, Visor-up);",EdSubcat_Helmets);
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_visor_up,"Heli Pilot Helmet [AAF] (Visor-up);",EdSubcat_Helmets);
-	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_E_visor_up,"Heli Pilot Helmet (Green, Visor-up);",EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_B_visor_up,"Heli Pilot Helmet (Black, Visor-up)",EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_O_visor_up,"Heli Pilot Helmet (Olive, Visor-up)",EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_visor_up,"Heli Pilot Helmet [AAF] (Visor-up)",EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_PilotHelmetHeli_I_E_visor_up,"Heli Pilot Helmet (Green, Visor-up)",EdSubcat_Helmets);
 	HEADGEAR_HOLDER(H_HelmetO_blk,$STR_A3_A_CfgWeapons_H_HelmetO_blk0,EdSubcat_Helmets);
 	HEADGEAR_HOLDER(H_HelmetLeaderO_blk,$STR_A3_A_CfgWeapons_H_HelmetLeaderO_blk0,EdSubcat_Helmets);
 	HEADGEAR_HOLDER(H_HelmetO_oicamo,$STR_A3_A_CfgWeapons_H_HelmetO_oicamo0,EdSubcat_Helmets);
@@ -209,7 +209,7 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Headset_light,$STR_A3_A_CfgWeapons_H_Headset_light0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_HelmetB_Camo_tna_F,$STR_A3_A_CfgWeapons_H_HelmetB_Camo_tna_F0,EdSubcat_Helmets);
 	HEADGEAR_HOLDER(H_HelmetB_Enh_Light_tna_F,$STR_A3_A_CfgWeapons_H_HelmetB_Enh_Light_tna_F0,EdSubcat_Helmets);
-	HEADGEAR_HOLDER(H_HelmetCrew_B_oli_F,"Modular Crew Helmet (Green);",EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetCrew_B_oli_F,"Modular Crew Helmet (Green)",EdSubcat_Helmets);
 	HEADGEAR_HOLDER(H_Booniehat_tna_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_tna_hs_F0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Booniehat_ghex_F,$STR_A3_A_CfgWeapons_H_Booniehat_ghex_F0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Booniehat_ghex_hs_F,$STR_A3_A_CfgWeapons_H_Booniehat_ghex_hs_F0,EdSubcat_Hats);

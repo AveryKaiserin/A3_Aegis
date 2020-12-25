@@ -1772,7 +1772,7 @@ class CfgWeapons
 	};
 	class H_Beret_UNO_01_F: H_Beret_CSAT_01_F
 	{
-		author = $STR_A3_A_AveryTheKitty;
+		author = $STR_A3_A_Abb0tt;
 		displayName = $STR_A3_A_CfgWeapons_H_Beret_UNO_01_F0;
 		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Beret_UNO_01_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Beret_UNO_01_CO.paa"};
