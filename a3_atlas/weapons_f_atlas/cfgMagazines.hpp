@@ -34,6 +34,7 @@ class CfgMagazines
 		displayName = "7.62 mm 150Rnd Reload Tracer (Yellow) Box";
 		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: Zafir";
 		ammo = B_762x51_Tracer_Yellow;
+		scope = public;
 	};
 	class 150Rnd_762x51_Box_Tracer_Yellow: 150Rnd_762x51_Box
 	{
@@ -43,6 +44,7 @@ class CfgMagazines
 		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: Zafir";
 		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
 		tracersEvery = 1;
+		scope = public;
 	};
 	class 1000Rnd_20mm_shells_yellow: 1000Rnd_20mm_shells
 	{

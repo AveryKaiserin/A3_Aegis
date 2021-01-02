@@ -11,7 +11,7 @@
             Atlas_B_G_LT_01_AA_F,
             Atlas_B_G_LT_01_AT_F,
             Atlas_B_G_LT_01_cannon_F,
-            Atlas_B_G_LT_01_scout_F
+            Atlas_B_G_LT_01_scout_F,
             Atlas_B_G_LT_01_AA_ard_F,
             Atlas_B_G_LT_01_AT_ard_F,
             Atlas_B_G_LT_01_cannon_ard_F,
