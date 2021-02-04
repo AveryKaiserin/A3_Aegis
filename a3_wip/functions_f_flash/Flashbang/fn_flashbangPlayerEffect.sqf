@@ -1,128 +1,44 @@
 // function called for every player in range of flashbang
 // Version 0.1
-// 2020.10.31
+// 2020.11.01
 // Called for player in range of flashbang
 
 // getting an full postion variable for flashbang
-_fbPos = _this;
+_fbPos = _this; // flashbang asl pos
+
+// getting other data needed for calculations (shared)
+_plPos = eyePos player;
+_distance = _fbPos distance _plPos;
+_blockingObj = lineIntersectsWith [_fbPos, _plPos, player, objNull, true];
+_terrain = terrainIntersectASL [_fbPos, _plPos];
+// data needed for visual calculations only
+_plView = eyeDirection player;
+_plToFbVector = _plPos vectorFromTo _fbPos;
+// as final effect will be different for visual and sound, we now seperate them
+_distanceSound = _distance;
+_distanceVisual = _distance;
+
+// now we calculate the sound parameters to pass
+// tarrain in the way? slight reduction of sound effect
+if (_terrain) then {_distanceSound = _distanceSound - Aegis_fnc_soundBlockFactor2};
+{ // for every other blocking object we calc it this way
+	// TODO: make it different for closed and unclosed objects (ie bulding vs rock/car)
+	_distanceSound = _distanceSound - Aegis_fnc_soundBlockFactor;
+}forEach _blockingObj;
+// now we pass the sound parms
+systemChat str(_distanceSound);
+if (_distanceSound < Aegis_fnc_soundRangeFull) then { // in range for full effect?
+	[0.05,5.0,10.0] spawn Aegis_fnc_flashbangPlayerSound;
+	systemChat "sound full effect";
+} else {
+	_dropOffPercent = (_distanceSound - Aegis_fnc_soundRangeFull) / (Aegis_fnc_soundRangeMax - Aegis_fnc_soundRangeFull);
+	if (_dropOffPercent > 0) then {
+		[0.05 / _dropOffPercent,5.0 * _dropOffPercent,10.0] spawn Aegis_fnc_flashbangPlayerSound;
+	};
+	systemChat "sound dropped of";
+	systemChat str(_dropOffPercent);
+};
 
 
-// full effect of flashbang for every player in range (just as a fast and dirty test/demo)
 
-	_tinitus0 = playSound "combat_deafness";
-	_tinitus1 = playSound "combat_deafness";
-	_tinitus2 = playSound "combat_deafness";
-	_tinitus3 = playSound "combat_deafness";
-	_tinitus4 = playSound "combat_deafness";
-	_tinitus5 = playSound "combat_deafness";
-	_tinitus6 = playSound "combat_deafness";
-	_tinitus7 = playSound "combat_deafness";
-	_tinitus8 = playSound "combat_deafness";
-	_tinitus9 = playSound "combat_deafness";
-	_tinitus10 = playSound "combat_deafness";
-	_tinitus11 = playSound "combat_deafness";
-	_tinitus12 = playSound "combat_deafness";
-	_tinitus13 = playSound "combat_deafness";
-	_tinitus14 = playSound "combat_deafness";
-	_tinitus15 = playSound "combat_deafness";
-	_tinitus16 = playSound "combat_deafness";
-	_tinitus17 = playSound "combat_deafness";
-	_tinitus18 = playSound "combat_deafness";
-	_tinitus19 = playSound "combat_deafness";
-	_tinitus20 = playSound "combat_deafness";
-	_tinitus21 = playSound "combat_deafness";
-	_tinitus22 = playSound "combat_deafness";
-	_tinitus23 = playSound "combat_deafness";
-	_tinitus24 = playSound "combat_deafness";
-	_tinitus25 = playSound "combat_deafness";
-	_tinitus26 = playSound "combat_deafness";
-	_tinitus27 = playSound "combat_deafness";
-	_tinitus28 = playSound "combat_deafness";
-	_tinitus29 = playSound "combat_deafness";
-	_tinitus30 = playSound "combat_deafness";
-	_tinitus31 = playSound "combat_deafness";
-	_tinitus32 = playSound "combat_deafness";
-	_tinitus33 = playSound "combat_deafness";
-	_tinitus34 = playSound "combat_deafness";
-	_tinitus35 = playSound "combat_deafness";
-	_tinitus36 = playSound "combat_deafness";
-	_tinitus37 = playSound "combat_deafness";
-	_tinitus38 = playSound "combat_deafness";
-	_tinitus39 = playSound "combat_deafness";
-	0.1 fadeSound 0.05;
-	_hndlCor = ppEffectCreate ["colorCorrections", 1501];
-	_hndlCor ppEffectEnable true;
-	_hndlCor ppEffectAdjust [1.3, 1.0, 0.85, [0.0, 0.0, 0.0, 0.0], [1.0, 1.0, 1.0, 1.0], [0.299, 0.587, 0.114, 0.0]];
-	_hndlCor ppEffectCommit 0.1;
-	_hndlDis = ppEffectCreate ["ChromAberration", 201];
-	_hndlDis ppEffectEnable true;
-	_hndlDis ppEffectAdjust [0.05, 0.05, false];
-	_hndlDis ppEffectCommit 0.1;
-	sleep 5;
-	10 fadeSound 1;
-	_hndlCor ppEffectAdjust [1.0, 1.0, 0.0, [0.0, 0.0, 0.0, 0.0], [1.0, 1.0, 1.0, 1.0], [0.299, 0.587, 0.114, 0.0]];
-	_hndlCor ppEffectCommit 10;
-	_hndlDis ppEffectAdjust [0.0, 0.0, false];
-	_hndlDis ppEffectCommit 5;
-	sleep 0.5;
-	deleteVehicle _tinitus39;
-	deleteVehicle _tinitus19;
-	sleep 0.5;
-	deleteVehicle _tinitus38;
-	deleteVehicle _tinitus18;
-	sleep 0.5;
-	deleteVehicle _tinitus37;
-	deleteVehicle _tinitus17;
-	sleep 0.5;
-	deleteVehicle _tinitus36;
-	deleteVehicle _tinitus16;
-	sleep 0.5;
-	deleteVehicle _tinitus35;
-	deleteVehicle _tinitus15;
-	sleep 0.5;
-	deleteVehicle _tinitus34;
-	deleteVehicle _tinitus14;
-	sleep 0.5;
-	deleteVehicle _tinitus33;
-	deleteVehicle _tinitus13;
-	sleep 0.5;
-	deleteVehicle _tinitus32;
-	deleteVehicle _tinitus12;
-	sleep 0.5;
-	deleteVehicle _tinitus31;
-	deleteVehicle _tinitus11;
-	sleep 0.5;
-	deleteVehicle _tinitus30;
-	deleteVehicle _tinitus10;
-	sleep 0.5;
-	deleteVehicle _tinitus29;
-	deleteVehicle _tinitus9;
-	sleep 0.5;
-	deleteVehicle _tinitus28;
-	deleteVehicle _tinitus8;
-	sleep 0.5;
-	deleteVehicle _tinitus27;
-	deleteVehicle _tinitus7;
-	sleep 0.5;
-	deleteVehicle _tinitus26;
-	deleteVehicle _tinitus6;
-	sleep 0.5;
-	deleteVehicle _tinitus25;
-	deleteVehicle _tinitus5;
-	sleep 0.5;
-	deleteVehicle _tinitus24;
-	deleteVehicle _tinitus4;
-	sleep 0.5;
-	deleteVehicle _tinitus23;
-	deleteVehicle _tinitus3;
-	sleep 0.5;
-	deleteVehicle _tinitus22;
-	deleteVehicle _tinitus2;
-	sleep 0.5;
-	deleteVehicle _tinitus21;
-	deleteVehicle _tinitus1;
-	sleep 0.5;
-	deleteVehicle _tinitus20;
-	deleteVehicle _tinitus0;
-	ppEffectDestroy _hndlCor;
-	ppEffectDestroy _hndlDis;
+
