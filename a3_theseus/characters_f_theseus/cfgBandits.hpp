@@ -227,3 +227,41 @@ class Theseus_O_B_Hunter_F: Theseus_O_B_Man_Base_F
 	magazines[] = {mag_5(10Rnd_Mk14_762x51_Mag)};
 	respawnMagazines[] = {mag_5(10Rnd_Mk14_762x51_Mag)};
 };
+
+/* Bandits but Independent Wow */
+
+class Theseus_I_B_Looter_Pistol_F: Theseus_O_B_Looter_Pistol_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Looter_SG_F: Theseus_O_B_Looter_SG_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Looter_Rifle_F: Theseus_O_B_Looter_Rifle_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Looter_SMG_F: Theseus_O_B_Looter_SMG_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Criminal_SG_F: Theseus_O_B_Criminal_SG_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Criminal_SMG_F: Theseus_O_B_Criminal_SMG_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
+class Theseus_I_B_Hunter_F: Theseus_O_B_Hunter_F
+{
+    faction = Theseus_IND_B_F;
+	side = TGuerrila;
+};
