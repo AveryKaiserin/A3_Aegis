@@ -14,7 +14,7 @@ class CfgVehicles
     class I_soldier_F: I_Soldier_base_F{};
     class I_L_Soldier_Base_F: I_Soldier_base_F{};
     class O_G_Soldier_F;
-    class I_Soldier_lite_F: I_Soldier_base_F{};
+    class I_Soldier_lite_F;
     class I_officer_F: I_Soldier_base_F{};
     #include "cfgNAAF.hpp"      // NAAF
     #include "cfgBandits.hpp"   // Bandits
