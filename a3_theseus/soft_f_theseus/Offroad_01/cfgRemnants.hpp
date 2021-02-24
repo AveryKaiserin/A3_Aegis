@@ -2,7 +2,7 @@
 class Theseus_O_R_Offroad_01_F: O_G_Offroad_01_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_F.jpg";
+	// editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -23,7 +23,7 @@ class Theseus_O_R_Offroad_01_F: O_G_Offroad_01_F
 class Theseus_O_R_Offroad_01_AT_F: O_G_Offroad_01_AT_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_AT_F.jpg";
+	// editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -44,7 +44,7 @@ class Theseus_O_R_Offroad_01_AT_F: O_G_Offroad_01_AT_F
 class Theseus_O_R_Offroad_01_armed_F: O_G_Offroad_01_armed_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_armed_F.jpg";
+	// editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -65,7 +65,7 @@ class Theseus_O_R_Offroad_01_armed_F: O_G_Offroad_01_armed_F
 class Theseus_O_R_Offroad_01_repair_F: O_G_Offroad_01_repair_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_AT_F.jpg";
+	// editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Offroad_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
