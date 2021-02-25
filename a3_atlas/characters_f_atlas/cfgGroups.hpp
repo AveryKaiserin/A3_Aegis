@@ -1127,8 +1127,8 @@ class CfgGroups
 					side = TGuerrila;
 					faction = Atlas_IND_I_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_recon.paa";
-					GROUP_UNIT(0,TGuerrila,Atlas_I_I_sniper_F,SERGEANT,0,0)
-					GROUP_UNIT(1,TGuerrila,Atlas_I_I_spotter_F,CORPORAL,5,-5)
+					GROUP_UNIT(0,TGuerrila,Atlas_I_I_spotter_F,SERGEANT,0,0)
+					GROUP_UNIT(1,TGuerrila,Atlas_I_I_sniper_F,CORPORAL,5,-5)
 				};
 			};
 			class Support
