@@ -10,7 +10,7 @@ I_HMG_01_support_F, \
 B_HMG_01_support_grn_F, \
 I_E_HMG_01_support_F, \
 O_R_HMG_01_support_F, \
-Atlas_I_I_HMG_01_support_F \
+Atlas_I_I_HMG_01_support_F 
 
 #define SUPPORT_BAGS_HMG_01_HIGH \
 B_HMG_01_support_high_F, \
@@ -19,7 +19,7 @@ I_HMG_01_support_high_F, \
 B_HMG_01_support_high_grn_F, \
 I_E_HMG_01_support_high_F, \
 O_R_HMG_01_support_high_F, \
-Atlas_I_I_HMG_01_support_high_F \
+Atlas_I_I_HMG_01_support_high_F 
 
 #define SUPPORT_BAGS_HMG_02 \
 B_HMG_02_support_F, \

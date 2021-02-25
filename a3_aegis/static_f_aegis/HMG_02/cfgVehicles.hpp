@@ -1,5 +1,8 @@
 class CfgVehicles
 {
+	/* Definitions */
+    #include "\A3_Aegis\macros_supportBags.hpp"
+	
 	/* Inheritance Tree */
 	class StaticWeapon;
 	class StaticMGWeapon: StaticWeapon

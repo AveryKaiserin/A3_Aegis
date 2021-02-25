@@ -26,6 +26,7 @@ class B_HMG_02_weapon_F: Weapon_Bag_Base
     class assembleInfo: assembleInfo
     {
         base[] = {SUPPORT_BAGS_HMG_02};
+		assembleTo = B_HMG_02_F;
     };
 };
 class B_HMG_02_high_weapon_F: Weapon_Bag_Base
@@ -36,6 +37,7 @@ class B_HMG_02_high_weapon_F: Weapon_Bag_Base
     class assembleInfo: assembleInfo
     {
         base[] = {SUPPORT_BAGS_HMG_02_HIGH};
+		assembleTo = B_HMG_02_high_F;
     };
 };
 
