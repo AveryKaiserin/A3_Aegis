@@ -68,8 +68,8 @@ class CfgGroups
 					side = TWest;
 					faction = BLU_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
-					GROUP_UNIT(0,TWest,B_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,B_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TWest,B_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,B_sniper_F,CORPORAL,5,-5);
 				};
 				class BUS_ReconSquad
 				{
@@ -192,8 +192,8 @@ class CfgGroups
 					side = TWest;
 					faction = BLU_T_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
-					GROUP_UNIT(0,TWest,B_T_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,B_T_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TWest,B_T_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,B_T_sniper_F,CORPORAL,5,-5);
 				};
 				class B_T_ReconSquad
 				{
@@ -471,8 +471,8 @@ class CfgGroups
 					side = TWest;
 					faction = BLU_W_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
-					GROUP_UNIT(0,TWest,B_W_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,B_W_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TWest,B_W_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,B_W_sniper_F,CORPORAL,5,-5);
 				};
 				class B_W_ReconSquad
 				{
@@ -2036,8 +2036,8 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
-					GROUP_UNIT(0,TEast,O_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TEast,O_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TEast,O_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,O_sniper_F,CORPORAL,5,-5);
 				};
 				class OIA_ReconSquad
 				{
@@ -2159,8 +2159,8 @@ class CfgGroups
 					side = TEast;
 					faction = OPF_T_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
-					GROUP_UNIT(0,TEast,O_T_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TEast,O_T_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TEast,O_T_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,O_T_sniper_F,CORPORAL,5,-5);
 				};
 				class O_T_ReconSquad
 				{
@@ -3684,8 +3684,8 @@ class CfgGroups
 					side = TGuerrila;
 					faction = IND_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_recon.paa";
-					GROUP_UNIT(0,TGuerrila,I_sniper_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TGuerrila,I_spotter_F,CORPORAL,5,-5);
+					GROUP_UNIT(0,TGuerrila,I_spotter_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,I_sniper_F,CORPORAL,5,-5);
 				};
 				delete HAF_DiverTeam_Boat;
 				delete HAF_DiverTeam_SDV;
