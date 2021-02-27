@@ -137,7 +137,7 @@ class Theseus_O_R_Soldier_3_F: Theseus_O_R_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_A3_Medic;
 	uniformClass = U_BG_Leader;
-	backpack = B_FieldPack_green_OSMedic_F;
+	backpack = B_FieldPack_green_RemnantsMedic_F;
 	linkedItems[] = 
 	{
 		G_Balaclava_oli,
@@ -247,7 +247,7 @@ class Theseus_O_R_Soldier_5_F: Theseus_O_R_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
 	uniformClass = U_BG_Guerilla1_3;
-	backpack = B_FieldPack_green_OSRPG_AT_F;
+	backpack = B_FieldPack_green_RemnantsRPG_AT_F;
 	linkedItems[] = 
 	{
 		G_Balaclava_oli,
@@ -392,7 +392,7 @@ class Theseus_O_R_Soldier_8_F: Theseus_O_R_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgRoles_Sapper0;
 	uniformClass = U_BG_leader;
-	backpack = B_FieldPack_green_OSExp_F;
+	backpack = B_FieldPack_green_RemnantsExp_F;
 	linkedItems[] = 
 	{
 		V_ChestrigF_rgr,
