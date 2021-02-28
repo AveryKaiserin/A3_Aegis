@@ -43,20 +43,20 @@ class NVGogglesB_gry_F: NVGoggles
 {
     modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 };
-class Laserdesignator_02_blk_F: Laserdesignator_02
-{
-	author = $STR_A3_A_AveryTheKitty;
-	displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0;
-	model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_blk_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
-	picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_blk_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
-};
-class Laserdesignator_02_grn_F: Laserdesignator_02
-{
-	author = $STR_A3_A_AveryTheKitty;
-	displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_grn_F0;
-	model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_grn_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
-	picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_grn_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
-};
+// class Laserdesignator_02_blk_F: Laserdesignator_02
+// {
+// 	author = $STR_A3_A_AveryTheKitty;
+// 	displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_blk_F0;
+// 	model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_blk_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
+// 	picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_blk_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+// };
+// class Laserdesignator_02_grn_F: Laserdesignator_02
+// {
+// 	author = $STR_A3_A_AveryTheKitty;
+// 	displayName = $STR_A3_A_CfgWeapons_Laserdesignator_02_grn_F0;
+// 	model = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Laserdesignator_02_grn_F.p3d"*/ "\A3\Weapons_F\Binocular\Laserdesignator_02_F.p3d";
+// 	picture = /*"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Laserdesignator_02_grn_F_X_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+// };
 class Laserdesignator_04: Laserdesignator
 {
 	author = $STR_A3_A_AveryTheKitty;

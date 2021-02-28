@@ -3307,6 +3307,23 @@
 					<Japanese>ミリタリーキャップ（タン）</Japanese>
 					<Turkish>Askeri Kasket (Taba)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_eaf_arid0">
+					<Original>Military Cap (Arid) [LDF]</Original>
+					<Chinese>軍用棒球帽（Arid） [LDF]</Chinese>
+					<French>Casquette militaire (Arid) [LDF]</French>
+					<Spanish>Gorra militar (Arid) [LDF]</Spanish>
+					<Italian>Berretto militare (Arid) [LDF]</Italian>
+					<Polish>Czapka wojskowa (Arid) [LDF]</Polish>
+					<Russian>Армейская кепка (Arid) [LDF]</Russian>
+					<German>Militärmütze (Arid) [LDF]</German>
+					<Czech>Vojenská čepice (Arid) [LDF]</Czech>
+					<English>Military Cap (Arid) [LDF]</English>
+					<Portuguese>Boné militar (Arid) [LDF]</Portuguese>
+					<Korean>군용모자(Arid) [LDF]</Korean>
+					<Chinesesimp>军帽（Arid）[LDF]</Chinesesimp>
+					<Japanese>ミリタリーキャップ（Arid) [LDF]</Japanese>
+					<Turkish>Askeri Kasket (Arid) [LDF]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_MilCap_blk0">
 					<Original>Military Cap (Black)</Original>
 					<Chinese>軍用棒球帽（黑）</Chinese>
@@ -4225,6 +4242,40 @@
 					<Japanese>ブーニーハット（ヘッドセット）[LDF]</Japanese>
 					<Turkish>Boonie Şapka (Baş Giysisi) [LDF]</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_eaf_arid0">
+					<Original>Booniehat (Arid) [LDF]</Original>
+					<Chinese>登山帽（Arid）（LDF）</Chinese>
+					<French>Chapeau de brousse (Arid) [LDF]</French>
+					<Spanish>Gorro militar (Arid) [LDF]</Spanish>
+					<Italian>Bonnie hat (Arid) [LDF]</Italian>
+					<Polish>Kapelusz wojskowy (Arid) [LDF]</Polish>
+					<Russian>Панама (Arid) [LDF]</Russian>
+					<German>Buschhut (Arid) [LDF]</German>
+					<Czech>Klobouk (Arid) [LDF]</Czech>
+					<English>Booniehat (Arid) [LDF]</English>
+					<Portuguese>Chapéu tático (Arid) [LDF]</Portuguese>
+					<Korean>부니햇(Arid) [LDF]</Korean>
+					<Chinesesimp>奔尼帽（Arid）[LDF]</Chinesesimp>
+					<Japanese>ブーニーハット（Arid）[LDF]</Japanese>
+					<Turkish>Boonie Şapka (Arid) [LDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_eaf_arid_hs0">
+					<Original>Booniehat (Arid, Headset) [LDF]</Original>
+					<Chinese>登山帽（Arid, 耳機）（LDF）</Chinese>
+					<French>Chapeau de brousse (Arid, micro-casque) [LDF]</French>
+					<Spanish>Gorro militar (Arid, auricular) [LDF]</Spanish>
+					<Italian>Bonnie hat (Arid, cuffia) [LDF]</Italian>
+					<Polish>Kapelusz wojskowy (Arid, głowa) [LDF]</Polish>
+					<Russian>Панама (Arid, гарнитура) [LDF]</Russian>
+					<German>Buschhut (Arid, Headset) [LDF]</German>
+					<Czech>Klobouk (Arid, náhlavní souprava) [LDF]</Czech>
+					<English>Booniehat (Arid, Headset) [LDF]</English>
+					<Portuguese>Chapéu tático (Arid, headset) [LDF]</Portuguese>
+					<Korean>부니햇(Arid, 헤드셋) [LDF]</Korean>
+					<Chinesesimp>奔尼帽（Arid, 头戴式耳机）[LDF]</Chinesesimp>
+					<Japanese>ブーニーハット（Arid, ヘッドセット）[LDF]</Japanese>
+					<Turkish>Boonie Şapka (Arid, Baş Giysisi) [LDF]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_wdl_hs0">
 					<Original>Booniehat (Woodland, Headset)</Original>
 					<Chinese>登山帽（森林，耳機）</Chinese>
@@ -4275,6 +4326,40 @@
 					<Chinesesimp>无檐帽（头戴式耳机） [LDF]</Chinesesimp>
 					<Japanese>キャップ（ヘッドセット）[LDF]</Japanese>
 					<Turkish>Şapka (Baş Giysisi) [LDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Cap_eaf_arid_F0">
+					<Original>Cap (Arid) [LDF]</Original>
+					<Chinese>棒球帽(Arid)（LDF）</Chinese>
+					<French>Casquette (Arid) [LDF]</French>
+					<Spanish>Gorra (Arid) [LDF]</Spanish>
+					<Italian>Cappellino (Arid) [LDF]</Italian>
+					<Polish>Czapka (Arid) [LDF]</Polish>
+					<Russian>Кепка (Arid) [LDF]</Russian>
+					<German>Mütze (Arid) [LDF]</German>
+					<Czech>Čepice (Arid) [LDF]</Czech>
+					<English>Cap (Arid) [LDF]</English>
+					<Portuguese>Boné (Arid) [LDF]</Portuguese>
+					<Korean>모자 (Arid) [LDF]</Korean>
+					<Chinesesimp>无檐帽 (Arid) [LDF]</Chinesesimp>
+					<Japanese>キャップ(Arid) [LDF]</Japanese>
+					<Turkish>Şapka (Arid) [LDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_Cap_eaf_arid_hs_F0">
+					<Original>Cap (Arid, Headset) [LDF]</Original>
+					<Chinese>棒球帽（Arid, 耳機）（LDF）</Chinese>
+					<French>Casquette (Arid, micro-casque) [LDF]</French>
+					<Spanish>Gorra (Arid, auricular) [LDF]</Spanish>
+					<Italian>Cappellino (Arid, cuffia) [LDF]</Italian>
+					<Polish>Czapka (Arid, głowa) [LDF]</Polish>
+					<Russian>Кепка (Arid, гарнитура) [LDF]</Russian>
+					<German>Mütze (Arid, Headset) [LDF]</German>
+					<Czech>Čepice (Arid, náhlavní souprava) [LDF]</Czech>
+					<English>Cap (Arid, Headset) [LDF]</English>
+					<Portuguese>Boné (Arid, headset) [LDF]</Portuguese>
+					<Korean>모자(Arid, 헤드셋)[LDF]</Korean>
+					<Chinesesimp>无檐帽（Arid, 头戴式耳机） [LDF]</Chinesesimp>
+					<Japanese>キャップ（Arid, ヘッドセット）[LDF]</Japanese>
+					<Turkish>Şapka (Arid, Baş Giysisi) [LDF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_camo_wdl0">
 					<Original>Combat Helmet (Woodland, Camo)</Original>

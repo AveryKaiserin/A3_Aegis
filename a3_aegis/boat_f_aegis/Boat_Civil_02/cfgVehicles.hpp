@@ -212,7 +212,7 @@ class CfgVehicles
 		memoryPointTaskMarker = TaskMarker_1_pos;
 
         /* Animation Sources */
-		class AnimationSources: AnimationSources
+		/*class AnimationSources: AnimationSources
 		{
 			class HideCover
 			{
@@ -225,7 +225,7 @@ class CfgVehicles
 				forceAnimatePhase = true;
                 forceAnimate[] = {};
 			};
-		};
+		}; */
 		animationList[] = {HideCover,0.33};
 
         /* Scripts */
