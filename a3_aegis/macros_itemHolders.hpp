@@ -9,7 +9,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##c##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = ##d##; \
 		vehicleClass = WeaponsPrimary; \
@@ -38,7 +38,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##d##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = ##e##; \
 		vehicleClass = WeaponsPrimary; \
@@ -72,7 +72,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##c##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = EdSubcat_Pistols; \
 		vehicleClass = WeaponsHandguns; \
@@ -101,7 +101,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##c##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Weapons; \
 		editorSubcategory = EdSubcat_Launchers; \
 		vehicleClass = WeaponsSecondary; \
@@ -130,7 +130,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = ##c##; \
 		editorSubcategory = ##d##; \
 		vehicleClass = ##e##; \
@@ -151,7 +151,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_InventoryItems; \
 		vehicleClass = Items; \
@@ -173,7 +173,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_InventoryItems; \
 		vehicleClass = Items; \
@@ -195,7 +195,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_InventoryItems; \
 		vehicleClass = Items; \
@@ -217,7 +217,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = ##c##; \
 		vehicleClass = ItemsHeadgear; \
@@ -239,7 +239,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_Uniforms; \
 		vehicleClass = ItemsUniforms; \
@@ -261,7 +261,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_ExtEra_author0; \
+		author = $STR_A3_A_AveryTheKitty; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = EdSubcat_Vests; \
 		vehicleClass = ItemsVests; \
