@@ -2729,6 +2729,74 @@
 					<Chinesesimp>高级模块化头盔（几何图形，颌部）</Chinesesimp>
 					<Turkish>Gelişmiş Modüler Miğfer (Geometrik, Ağızlık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_arid_F0">
+					<Original>Advanced Modular Helmet (Arid)</Original>
+					<English>Advanced Modular Helmet (Arid)</English>
+					<Czech>Pokročilá modulární přilba (Arid)</Czech>
+					<German>Fortgeschrittener, modularer Helm (Arid)</German>
+					<Russian>Усовершенствованный модульный шлем (геометрический)</Russian>
+					<Polish>Zaawans. hełm modułowy (wz. Arid.)</Polish>
+					<Italian>Elmetto modulare avanzato (Arid)</Italian>
+					<Spanish>Casco modular avanzado (Arid)</Spanish>
+					<French>Casque modulable avancé (géométrique)</French>
+					<Chinese>先進模組化通訊頭盔（Arid）</Chinese>
+					<Japanese>先進型モジュラーヘルメット（Arid）</Japanese>
+					<Korean>고급 모듈식 헬멧 (Arid)</Korean>
+					<Portuguese>Capacete modular avançado (Arid)</Portuguese>
+					<Chinesesimp>高级模块化头盔（Arid）</Chinesesimp>
+					<Turkish>Gelişmiş Modüler Miğfer (Arid)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_arid_headset_F0">
+					<Original>Advanced Modular Helmet (Arid, Headset)</Original>
+					<English>Advanced Modular Helmet (Arid, Headset)</English>
+					<Czech>Pokročilá modulární přilba (Arid, náhlavní souprava)</Czech>
+					<German>Fortgeschrittener, modularer Helm (Arid, headset)</German>
+					<Russian>Усовершенствованный модульный шлем (Arid, гарнитура)</Russian>
+					<Polish>Zaawans. hełm modułowy (wz. Arid., głowa)</Polish>
+					<Italian>Elmetto modulare avanzato (Arid, cuffia)</Italian>
+					<Spanish>Casco modular avanzado (Arid, auricular)</Spanish>
+					<French>Casque modulable avancé (Arid, micro-casque)</French>
+					<Chinese>先進模組化通訊頭盔（Arid，耳機）</Chinese>
+					<Japanese>先進型モジュラーヘルメット（Arid、ヘッドセット）</Japanese>
+					<Korean>고급 모듈식 헬멧 (Arid, 헤드셋)</Korean>
+					<Portuguese>Capacete modular avançado (Arid, headset)</Portuguese>
+					<Chinesesimp>高级模块化头盔（Arid，头戴式耳机）</Chinesesimp>
+					<Turkish>Gelişmiş Modüler Miğfer (Arid, Baş Giysisi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_arid_ear_F0">
+					<Original>Advanced Modular Helmet (Arid, Ear Protectors)</Original>
+					<English>Advanced Modular Helmet (Arid, Ear Protectors)</English>
+					<Czech>Pokročilá modulární přilba (Arid, chrániče uší)</Czech>
+					<German>Fortgeschrittener, modularer Helm (Arid, Ohrenschützer)</German>
+					<Russian>Усовершенствованный модульный шлем (Arid, защитные наушники)</Russian>
+					<Polish>Zaawans. hełm modułowy (wz. Arid., nauszniki)</Polish>
+					<Italian>Elmetto mod. avanzato (Arid, protez. auricolari)</Italian>
+					<Spanish>Casco modular avanzado (Arid, auriculares)</Spanish>
+					<French>Casque modulable avancé ((Arid, anti-bruit)</French>
+					<Chinese>先進模組化通訊頭盔（Arid，護耳裝備）</Chinese>
+					<Japanese>先進型モジュラーヘルメット（Arid、耳の保護用具）</Japanese>
+					<Korean>고급 모듈식 헬멧 (Arid, 귀 보호대)</Korean>
+					<Portuguese>Capacete modular avançado (Arid, protetores de ouvido)</Portuguese>
+					<Chinesesimp>高级模块化头盔（Arid，护耳器）</Chinesesimp>
+					<Turkish>Gelişmiş Modüler Miğfer (Arid, Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_arid_chops_F0">
+					<Original>Advanced Modular Helmet (Arid, Chops)</Original>
+					<English>Advanced Modular Helmet (Arid, Chops)</English>
+					<Czech>Pokročilá modulární přilba (Arid, líce)</Czech>
+					<German>Fortgeschrittener, modularer Helm (Arid, Koteletten)</German>
+					<Russian>Усовершенствованный модульный шлем (Arid, боковые пластины)</Russian>
+					<Polish>Zaawans. hełm modułowy (wz. Arid., szczęki)</Polish>
+					<Italian>Elmetto mod. avanzato (Arid, protez. viso)</Italian>
+					<Spanish>Casco modular avanzado (Arid, patillas)</Spanish>
+					<French>Casque modulable avancé ((Arid, protège-joues)</French>
+					<Chinese>先進模組化通訊頭盔（Arid，護具）</Chinese>
+					<Japanese>先進型モジュラーヘルメット（Arid、チョップ）</Japanese>
+					<Korean>고급 모듈식 헬멧 (Arid, 턱 보호대)</Korean>
+					<Portuguese>Capacete modular avançado (Arid, costeletas)</Portuguese>
+					<Chinesesimp>高级模块化头盔（Arid，颌部）</Chinesesimp>
+					<Turkish>Gelişmiş Modüler Miğfer (Arid, Ağızlık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecB_wdl0">
 					<Original>Combat Helmet (Woodland, Enhanced)</Original>
 					<Chinese>戰鬥頭盔（森林，加強型）</Chinese>
