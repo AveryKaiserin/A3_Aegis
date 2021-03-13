@@ -4720,6 +4720,57 @@
 					<Japanese>CTRGステルス戦闘服（熱帯、袖まくり）</Japanese>
 					<Turkish>CTRG Gizlilik Üniforması (Tropik, Kolları Kıvrık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_Black_F0">
+					<Original>CTRG Stealth Uniform (Black)</Original>
+					<Chinese>CTRG 潛行（Black）</Chinese>
+					<French>Uniforme furtif CTRG (Black)</French>
+					<Spanish>Uniforme de sigilo de CTRG (Black)</Spanish>
+					<Italian>Uniforme stealth CTRG (Black)</Italian>
+					<Polish>Mundur maskujący CTRG (Black)</Polish>
+					<Russian>Камуфляж. форма CTRG (Black)</Russian>
+					<German>CTRG-Tarn-Uniform (Black)</German>
+					<Czech>Uniforma CTRG na skrytou činnost (Black)</Czech>
+					<English>CTRG Stealth Uniform (Black)</English>
+					<Portuguese>Uniforme urbano camuflado CTRG (Black)</Portuguese>
+					<Korean>CTRG 은신 유니폼(Black)</Korean>
+					<Chinesesimp>CTRG 隐形制服（Black）</Chinesesimp>
+					<Japanese>CTRGステルス戦闘服（Black）</Japanese>
+					<Turkish>CTRG Gizlilik Üniforması (Black)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_2_Black_F0">
+					<Original>CTRG Stealth Uniform (Black, Tee)</Original>
+					<Chinese>CTRG 潛行制服（Black，T 恤）</Chinese>
+					<French>Uniforme furtif CTRG (Black, t-shirt)</French>
+					<Spanish>Uniforme de sigilo de CTRG (Black, camiseta)</Spanish>
+					<Italian>Uniforme stealth CTRG (Black, maniche corte)</Italian>
+					<Polish>Mundur maskujący CTRG (Black, podkoszulek)</Polish>
+					<Russian>Камуфляж. форма CTRG (Black, футболка)</Russian>
+					<German>CTRG-Tarn-Uniform (Black, T-Shirt)</German>
+					<Czech>Uniforma CTRG na skrytou činnost (Black, triko)</Czech>
+					<English>CTRG Stealth Uniform (Black, Tee)</English>
+					<Portuguese>Uniforme urbano camuflado CTRG (Black, camiseta)</Portuguese>
+					<Korean>CTRG 은신 유니폼(Black, 티)</Korean>
+					<Chinesesimp>CTRG 隐形制服（Black，T 恤）</Chinesesimp>
+					<Japanese>CTRGステルス戦闘服（Black、Tシャツ）</Japanese>
+					<Turkish>CTRG Gizlilik Üniforması (Black, Tişört)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_Black_F0">
+					<Original>CTRG Stealth Uniform (Black, Rolled-up)</Original>
+					<Chinese>CTRG 潛行制服（Black，捲起）</Chinese>
+					<French>Uniforme furtif CTRG (Black, manches retroussées)</French>
+					<Spanish>Uniforme de sigilo de CTRG (Black, arremangado)</Spanish>
+					<Italian>Uniforme stealth CTRG (Black, maniche arrotolate)</Italian>
+					<Polish>Mundur maskujący CTRG (Black, podwinięty)</Polish>
+					<Russian>Камуфляж. форма CTRG (Black, рукава)</Russian>
+					<German>CTRG-Tarn-Uniform (Black, Hochgekrempelt)</German>
+					<Czech>Uniforma CTRG na skrytou činnost (Black, vyhrnutá)</Czech>
+					<English>CTRG Stealth Uniform (Black, Rolled-up)</English>
+					<Portuguese>Uniforme urbano camuflado CTRG (Black, manga dobrada)</Portuguese>
+					<Korean>CTRG 은신 유니폼(Black, 롤업)</Korean>
+					<Chinesesimp>CTRG 隐形制服（Black，卷起）</Chinesesimp>
+					<Japanese>CTRGステルス戦闘服（Black、袖まくり）</Japanese>
+					<Turkish>CTRG Gizlilik Üniforması (Black, Kolları Kıvrık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_vest_mcam_wdl_f0">
 					<Original>Combat Fatigues (Woodland, Rolled-up)</Original>
 					<Chinese>作戰戰鬥服（森林，捲起）</Chinese>

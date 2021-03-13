@@ -38,7 +38,7 @@ class U_I_E_Uniform_01_arid_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Combat Fatigues [LDF] (Arid)";
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_arid_CO.paa"};
@@ -55,7 +55,7 @@ class U_I_E_Uniform_01_arid_tanktop_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Combat Fatigues [LDF] (Arid, Tank Top)";
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_tanktop_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_tanktop_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa"};
@@ -72,7 +72,7 @@ class U_I_E_Uniform_01_arid_shortsleeve_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Combat Fatigues [LDF] (Arid, Rolled-up)";
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_shortsleeve_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_shortsleeve_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_arid_CO.paa"};
@@ -89,7 +89,7 @@ class U_I_E_Uniform_01_arid_officer_F: Uniform_Base
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	displayName = "Combat Fatigues [LDF] (Arid, Officer)";
-	//picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_officer_F_CA.paa";
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_arid_officer_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Officer_01_arid_CO.paa"};

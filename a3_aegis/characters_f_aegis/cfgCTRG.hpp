@@ -405,6 +405,10 @@ class B_CTRG_Soldier_arid_F: B_CTRG_Soldier_F
 {
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_B_CTRG_Soldier_arid_F_CO.paa"};
 };
+class B_CTRG_Soldier_Black_F: B_CTRG_Soldier_F
+{
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_B_CTRG_Soldier_black_F_CO.paa"};
+};
 class B_CTRG_Soldier_2_F: B_CTRG_Soldier_base_F
 {
     faction = BLU_CTRG_tna_F;
@@ -422,6 +426,14 @@ class B_CTRG_Soldier_2_arid_F: B_CTRG_Soldier_2_F
         "\A3\Characters_F\Common\Data\basicbody_black_CO.paa"
     };
 };
+class B_CTRG_Soldier_2_Black_F: B_CTRG_Soldier_2_F
+{
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_B_CTRG_Soldier_black_F_CO.paa",
+        "\A3\Characters_F\Common\Data\basicbody_black_CO.paa"
+    };
+};
 class B_CTRG_Soldier_3_F: B_CTRG_Soldier_base_F
 {
     faction = BLU_CTRG_tna_F;
@@ -430,6 +442,10 @@ class B_CTRG_Soldier_3_F: B_CTRG_Soldier_base_F
 class B_CTRG_Soldier_3_arid_F: B_CTRG_Soldier_3_F
 {
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_B_CTRG_Soldier_arid_F_CO.paa"};
+};
+class B_CTRG_Soldier_3_black_F: B_CTRG_Soldier_3_F
+{
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_B_CTRG_Soldier_black_F_CO.paa"};
 };
 class B_CTRG_Soldier_TL_F: B_CTRG_Soldier_F
 {
