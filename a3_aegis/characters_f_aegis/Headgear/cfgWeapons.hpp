@@ -2251,7 +2251,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_C_CfgWeapons_H_HelmetHBK_F0;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetHBK_arid_F0;
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetHBK_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetHBK_01_Arid_CO.paa"};
 	};
