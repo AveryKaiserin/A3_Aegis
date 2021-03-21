@@ -918,7 +918,7 @@ class O_R_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F
 		item_xx(FirstAidKit,10);
 		item_xx(acc_flashlight,5);
 		item_xx(acc_pointer_IR,5);
-		item_xx(Laserdesignator_02_grn_F,1);
+		item_xx(Laserdesignator_03,1);
 		item_xx(Binocular,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
