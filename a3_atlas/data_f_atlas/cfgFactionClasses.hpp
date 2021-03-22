@@ -90,8 +90,7 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_TKA_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Takistan_CO.paa";
 	};
-    /*
-	class Atlas_OPF_E_F
+	/*class Atlas_OPF_E_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_E_F0;
 		priority = 3;
@@ -99,6 +98,7 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_OPF_E_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Egypt_CO.paa";
 	};
+	*/
 	class Atlas_OPF_V_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_V_F0;
@@ -107,7 +107,6 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_OPF_V_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Venezuela_CO.paa";
 	};
-    */
 	class Atlas_IND_C_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_IND_C_F0;

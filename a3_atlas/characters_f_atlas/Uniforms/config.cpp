@@ -11,6 +11,7 @@ class CfgWeapons
     #include "cfgLegion.hpp"			// Legionnaires
 	#include "cfgBlufor_Atlas.hpp"		// Bundeswehr
 	#include "cfgOpfor_Atlas.hpp"		// Takistani Army
+	#include "cfgVenezuela.hpp"			//Venezuela
 	/*
     #include "cfgAnzac.hpp"				// ANZAC
 	*/
