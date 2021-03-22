@@ -7815,39 +7815,39 @@
                 <Japanese>緑六角形</Japanese>
                 <Turkish>Yeşil Hex</Turkish>
 			</Key>
-            <Key ID="STR_A3_TEXTURESOURCES_DIGTALCAMOGREEN0">
-                <Original>AAF 1</Original>
-                <Chinese>AAF 1</Chinese>
-                <French>AAF 1</French>
-                <Spanish>AAF 1</Spanish>
-                <Italian>AAF 1</Italian>
-                <Polish>AAF 1</Polish>
-                <Russian>AAF 1</Russian>
-                <German>AAF 1</German>
-                <Czech>AAF 1</Czech>
-                <English>AAF 1</English>
-                <Portuguese>AAF 1</Portuguese>
-                <Korean>AAF 1</Korean>
-                <Chinesesimp>AAF 1</Chinesesimp>
-                <Japanese>AAF 1</Japanese>
-                <Turkish>AAF 1</Turkish>
+            <Key ID="STR_A3_TextureSources_DigitalCamoGreen0">
+                <Original>Digital Green</Original>
+                <Chinese>Digital Green</Chinese>
+                <French>Digital Green</French>
+                <Spanish>Digital Green</Spanish>
+                <Italian>Digital Green</Italian>
+                <Polish>Digital Green</Polish>
+                <Russian>Digital Green</Russian>
+                <German>Digital Green</German>
+                <Czech>Digital Green</Czech>
+                <English>Digital Green</English>
+                <Portuguese>Digital Green</Portuguese>
+                <Korean>Digital Green</Korean>
+                <Chinesesimp>Digital Green</Chinesesimp>
+                <Japanese>Digital Green</Japanese>
+                <Turkish>Digital Green</Turkish>
             </Key>
-            <Key ID="STR_A3_TEXTURESOURCES_DIGTALCAMOGREY0">
-                <Original>AAF 2</Original>
-                <Chinese>AAF 2</Chinese>
-                <French>AAF 2</French>
-                <Spanish>AAF 2</Spanish>
-                <Italian>AAF 2</Italian>
-                <Polish>AAF 2</Polish>
-                <Russian>AAF 2</Russian>
-                <German>AAF 2</German>
-                <Czech>AAF 2</Czech>
-                <English>AAF 2</English>
-                <Portuguese>AAF 2</Portuguese>
-                <Korean>AAF 2</Korean>
-                <Chinesesimp>AAF 2</Chinesesimp>
-                <Japanese>AAF 2</Japanese>
-                <Turkish>AAF 2</Turkish>
+            <Key ID="STR_A3_TextureSources_DigitalCamoGrey0">
+                <Original>Digital Grey</Original>
+                <Chinese>Digital Grey</Chinese>
+                <French>Digital Grey</French>
+                <Spanish>Digital Grey</Spanish>
+                <Italian>Digital Grey</Italian>
+                <Polish>Digital Grey</Polish>
+                <Russian>Digital Grey</Russian>
+                <German>Digital Grey</German>
+                <Czech>Digital Grey</Czech>
+                <English>Digital Grey</English>
+                <Portuguese>Digital Grey</Portuguese>
+                <Korean>Digital Grey</Korean>
+                <Chinesesimp>Digital Grey</Chinesesimp>
+                <Japanese>Digital Grey</Japanese>
+                <Turkish>Digital Grey</Turkish>
             </Key>
             <Key ID="STR_A3_TEXTURESOURCES_CAMOGREY0">
                 <Original>Grey</Original>
@@ -13889,6 +13889,23 @@
 						<Chinesesimp>ACOG</Chinesesimp>
 						<Japanese>ACOG</Japanese>
 						<Turkish>ACOG</Turkish>
+					</Key>
+					<Key ID="STR_A3_A_CfgWeapons_muzzle_snds_H_snd0">
+						<Original>Sound Suppressor (6.5 mm, Sand)</Original>
+						<Chinese>Sound Suppressor (6.5 mm, Sand)</Chinese>
+						<French>Sound Suppressor (6.5 mm, Sand)</French>
+						<Spanish>Sound Suppressor (6.5 mm, Sand)</Spanish>
+						<Italian>Sound Suppressor (6.5 mm, Sand)</Italian>
+						<Polish>Sound Suppressor (6.5 mm, Sand)</Polish>
+						<Russian>Sound Suppressor (6.5 mm, Sand)</Russian>
+						<German>Sound Suppressor (6.5 mm, Sand)</German>
+						<Czech>Sound Suppressor (6.5 mm, Sand)</Czech>
+						<English>Sound Suppressor (6.5 mm, Sand)</English>
+						<Portuguese>Sound Suppressor (6.5 mm, Sand)</Portuguese>
+						<Korean>Sound Suppressor (6.5 mm, Sand)</Korean>
+						<Chinesesimp>Sound Suppressor (6.5 mm, Sand)</Chinesesimp>
+						<Japanese>Sound Suppressor (6.5 mm, Sand)</Japanese>
+						<Turkish>Sound Suppressor (6.5 mm, Sand)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_muzzle_snds_B_wdm_F0">
 						<Original>Sound Suppressor (7.62 mm, Green Hex)</Original>

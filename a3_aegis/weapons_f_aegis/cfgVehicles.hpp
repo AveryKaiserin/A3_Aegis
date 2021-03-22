@@ -38,6 +38,7 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgWeapons_bipod_02_F_arid0;
 	};
 	ACC_HOLDER(muzzle_snds_pistol_heavy_01,$STR_A3_A_CfgWeapons_muzzle_snds_pistol_heavy_010,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories);
+	ACC_HOLDER(muzzle_snds_H_snd_F,$STR_A3_A_CfgWeapons_muzzle_snds_H_snd0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories);
 	ACC_HOLDER(muzzle_mzls_H,$STR_A3_A_CfgWeapons_muzzle_mzls_H0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories);
 	ACC_HOLDER(muzzle_mzls_L,$STR_A3_A_CfgWeapons_muzzle_mzls_L0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories);
 	ACC_HOLDER(muzzle_mzls_M,$STR_A3_A_CfgWeapons_muzzle_mzls_M0,EdCat_WeaponAttachments,EdSubcat_FrontSlot,WeaponAccessories);

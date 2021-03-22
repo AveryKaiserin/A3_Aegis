@@ -434,21 +434,21 @@ class CfgMagazines
 	class 16Rnd_9x21_red_Mag_v2: 16Rnd_9x21_Mag_v2
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_red_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_red_Mag0;
 		ammo = B_9x21_Ball_Tracer_Red;
 		lastRoundsTracer = 4;
 	};
 	class 16Rnd_9x21_green_Mag_v2: 16Rnd_9x21_Mag_v2
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_green_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_green_Mag0;
 		ammo = B_9x21_Ball_Tracer_Green;
 		lastRoundsTracer = 4;
 	};
 	class 16Rnd_9x21_yellow_Mag_v2: 16Rnd_9x21_Mag_v2
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_CfgMagazines_16Rnd_9x21_yellow_Mag0;
+		displayName = $STR_A3_A_CfgMagazines_16Rnd_9x21_yellow_Mag0;
 		ammo = B_9x21_Ball_Tracer_Yellow;
 		lastRoundsTracer = 4;
 	};
