@@ -1,11 +1,11 @@
 /* Venezuela */
-class Atlas_O_VZ_Man_Base_F: I_Soldier_F
+class O_A_soldier_base_F;
+class Atlas_O_VZ_Man_Base_F: O_A_soldier_base_F
 {
     scope = private;
 	faction = Atlas_OPF_V_F;
 	genericNames = GreekMen;
 	//genericNames = VZmen;
-	side = TEast;
 	identityTypes[] =
 	{
 		LanguageGRE_F,
