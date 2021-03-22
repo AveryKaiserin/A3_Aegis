@@ -6990,21 +6990,21 @@
 					<Turkish>ABD</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_OPF_F0">
-                    <Original>IAF</Original>
-                    <Chinese>IAF</Chinese>
-                    <French>IAF</French>
-                    <Spanish>IAF</Spanish>
-                    <Italian>IAF</Italian>
-                    <Polish>IAF</Polish>
-                    <Russian>IAF</Russian>
-                    <German>IAF</German>
-                    <Czech>IAF</Czech>
-                    <English>IAF</English>
-                    <Portuguese>IAF</Portuguese>
-                    <Korean>IAF</Korean>
-                    <Chinesesimp>IAF</Chinesesimp>
-                    <Japanese>IAF</Japanese>
-                    <Turkish>IAF</Turkish>
+                    <Original>Iran</Original>
+                    <Chinese>Iran</Chinese>
+                    <French>Iran</French>
+                    <Spanish>Iran</Spanish>
+                    <Italian>Iran</Italian>
+                    <Polish>Iran</Polish>
+                    <Russian>Iran</Russian>
+                    <German>Iran</German>
+                    <Czech>Iran</Czech>
+                    <English>Iran</English>
+                    <Portuguese>Iran</Portuguese>
+                    <Korean>Iran</Korean>
+                    <Chinesesimp>Iran</Chinesesimp>
+                    <Japanese>Iran</Japanese>
+                    <Turkish>Iran</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_T_F0">
 					<Original>US (Pacific)</Original>
@@ -10482,21 +10482,21 @@
 						<Turkish>Bayrak (İran)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_IranArmy_F0">
-						<Original>Flag (IAF)</Original>
-						<Chinese>旗幟（IAF）</Chinese>
-						<French>Drapeau (IAF)</French>
-						<Spanish>Bandera (IAF)</Spanish>
-						<Italian>Bandiera (IAF)</Italian>
-						<Polish>Flaga (IAF)</Polish>
-						<Russian>Флаг (IAF)</Russian>
-						<German>Flagge (IAF)</German>
-						<Czech>Vlajka (IAF)</Czech>
-						<English>Flag (IAF)</English>
-						<Portuguese>Bandeira (IAF)</Portuguese>
-						<Korean>깃발 (IAF)</Korean>
-						<Chinesesimp>旗标 (IAF)</Chinesesimp>
-						<Japanese>旗（IAF）</Japanese>
-						<Turkish>Bayrak (IAF)</Turkish>
+						<Original>Flag (Iran)</Original>
+						<Chinese>旗幟（Iran）</Chinese>
+						<French>Drapeau (Iran)</French>
+						<Spanish>Bandera (Iran)</Spanish>
+						<Italian>Bandiera (Iran)</Italian>
+						<Polish>Flaga (Iran)</Polish>
+						<Russian>Флаг (Iran)</Russian>
+						<German>Flagge (Iran)</German>
+						<Czech>Vlajka (Iran)</Czech>
+						<English>Flag (Iran)</English>
+						<Portuguese>Bandeira (Iran)</Portuguese>
+						<Korean>깃발 (Iran)</Korean>
+						<Chinesesimp>旗标 (Iran)</Chinesesimp>
+						<Japanese>旗（Iran）</Japanese>
+						<Turkish>Bayrak (Iran)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgVehicles_Flag_RedLion_F0">
 						<Original>Flag (Red Lion)</Original>
@@ -13188,21 +13188,21 @@
 				<Turkish>İran</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_IranArmy">
-				<Original>IAF</Original>
-				<Chinese>IAF</Chinese>
-				<French>IAF</French>
-				<Spanish>IAF</Spanish>
-				<Italian>IAF</Italian>
-				<Polish>IAF</Polish>
-				<Russian>IAF</Russian>
-				<German>IAF</German>
-				<Czech>IAF</Czech>
-				<English>IAF</English>
-				<Portuguese>IAF</Portuguese>
-				<Korean>IAF</Korean>
-				<Chinesesimp>IAF</Chinesesimp>
-				<Japanese>IAF</Japanese>
-				<Turkish>IAF</Turkish>
+				<Original>Iran</Original>
+				<Chinese>Iran</Chinese>
+				<French>Iran</French>
+				<Spanish>Iran</Spanish>
+				<Italian>Iran</Italian>
+				<Polish>Iran</Polish>
+				<Russian>Iran</Russian>
+				<German>Iran</German>
+				<Czech>Iran</Czech>
+				<English>Iran</English>
+				<Portuguese>Iran</Portuguese>
+				<Korean>Iran</Korean>
+				<Chinesesimp>Iran</Chinesesimp>
+				<Japanese>Iran</Japanese>
+				<Turkish>Iran</Turkish>
 			</Key>
 			<Key ID="STR_A3_A_CfgMarkers_flag_ION">
 				<Original>ION</Original>
