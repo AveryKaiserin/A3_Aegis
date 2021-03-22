@@ -134,18 +134,10 @@ class CfgVehicles
     class B_GMG_01_weapon_F: B_HMG_01_weapon_F
     {
         hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
-        class assembleInfo: assembleInfo
-        {
-            base[] = {STATIC_SUPPORT_BAGS_HMG_01};
-        };
     };
     class B_GMG_01_A_weapon_F: B_HMG_01_weapon_F
     {
         hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_mcamo_CO.paa"};
-        class assembleInfo: assembleInfo
-        {
-            base[] = {STATIC_SUPPORT_BAGS_HMG_01};
-        };
     };
     class B_GMG_01_high_weapon_F: B_HMG_01_high_weapon_F
     {

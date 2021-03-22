@@ -1505,7 +1505,7 @@ class I_E_Soldier_recon_base: I_E_Soldier_base_F
 class I_E_recon_AR_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_AR_F0;
@@ -1575,7 +1575,7 @@ class I_E_recon_AR_F: I_E_Soldier_recon_base
 class I_E_recon_exp_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_exp_F0;
@@ -1634,7 +1634,7 @@ class I_E_recon_exp_F: I_E_Soldier_recon_base
 class I_E_recon_GL_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_GL_F0;
@@ -1691,7 +1691,7 @@ class I_E_recon_GL_F: I_E_Soldier_recon_base
 class I_E_recon_JTAC_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_JTAC_F0;
@@ -1763,7 +1763,7 @@ class I_E_recon_M_F: I_E_Soldier_recon_base
 	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
 	nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_M_F0;
@@ -1837,7 +1837,7 @@ class I_E_recon_M_F: I_E_Soldier_recon_base
 class I_E_recon_medic_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_medic_F0;
@@ -1901,7 +1901,7 @@ class I_E_recon_medic_F: I_E_Soldier_recon_base
 class I_E_recon_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_recon_F0;
@@ -1954,7 +1954,7 @@ class I_E_recon_F: I_E_Soldier_recon_base
 class I_E_recon_LAT_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_LAT_F0;
@@ -2015,7 +2015,7 @@ class I_E_recon_LAT_F: I_E_Soldier_recon_base
 class I_E_recon_TL_F: I_E_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_TL_F0;
