@@ -326,6 +326,18 @@ class CfgWeapons
 			};
 	  	};
 	};
+	class H_HelmetSpecter_cover_whex_CO: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_whex_F0;
+		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_cover_khaki_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetSpecter_cover_whex_CO.paa"
+		};
+	};
     /*
 	class H_HelmetSpecter_cover_autumn_F: H_HelmetSpecter_cover_base_F
 	{
