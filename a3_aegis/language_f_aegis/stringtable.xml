@@ -15164,21 +15164,21 @@
 				</Container>
 				<Container name="DisplayName">
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_F0">
-						<Original>G17 9 mm</Original>
-						<Chinese>G17 9 mm</Chinese>
-						<French>G17 9 mm</French>
-						<Spanish>G17 9 mm</Spanish>
-						<Italian>G17 9 mm</Italian>
-						<Polish>G17 9 mm</Polish>
-						<Russian>G17 9 мм</Russian>
-						<German>G17 9 mm</German>
-						<Czech>G17 9 mm</Czech>
-						<English>G17 9 mm</English>
-						<Portuguese>G17 9 mm</Portuguese>
-						<Korean>G17 9mm</Korean>
-						<Chinesesimp>G17 9 毫米</Chinesesimp>
-						<Japanese>G17 9 mm</Japanese>
-						<Turkish>G17 9 mm</Turkish>
+						<Original>G17 9 mm (Sand)</Original>
+						<Chinese>G17 9 mm（沙子）</Chinese>
+						<French>G17 9 mm (Sable)</French>
+						<Spanish>G17 9 mm (arena)</Spanish>
+						<Italian>G17 9 mm (sabbia)</Italian>
+						<Polish>G17 9 mm (pisakowy)</Polish>
+						<Russian>G17 9 мм (песочный)</Russian>
+						<German>G17 9 mm (sandfarben)</German>
+						<Czech>G17 9 mm (písek)</Czech>
+						<English>G17 9 mm (Sand)</English>
+						<Portuguese>G17 9 mm (Areia)</Portuguese>
+						<Korean>G17 9mm (모래)</Korean>
+						<Chinesesimp>G17 9 毫米（沙色）</Chinesesimp>
+						<Japanese>G17 9 mm（砂）</Japanese>
+						<Turkish>G17 9 mm (Kum)</Turkish>
 					</Key>
 					<Key ID="STR_A3_A_CfgWeapons_hgun_G17_black_F0">
 						<Original>G17 9 mm (Black)</Original>
