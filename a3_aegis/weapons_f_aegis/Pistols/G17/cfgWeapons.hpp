@@ -59,15 +59,7 @@ class CfgWeapons
 				iconScale = 0.2;
 			};
 			class CowsSlot{};
-			class PointerSlot: asdg_PistolUnderRail
-			{
-				iconPosition[] =
-				{
-					0.36,   // X
-					0.39    // Y
-				};
-				iconScale = 0.2;
-			};
+			class PointerSlot{};
 		};
 	};
 	class hgun_G17_black_F: hgun_G17_F
