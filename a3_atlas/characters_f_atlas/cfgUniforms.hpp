@@ -453,10 +453,10 @@ class Atlas_I_I_CBRN_Man_Oversuit_01_Olive_F: B_CBRN_Man_Oversuit_01_MTP_F
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_Olive_CO.paa"};
 };
 /* Venezuela */
-class Atlas_O_VZ_Officer_oli_CO_F: Atlas_O_VZ_Soldier_Base_F
+class Atlas_O_VZ_Officer_oli_CO_F: O_A_Soldier_Base_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Atlas_O_VZ_Officer_oli_CO_F;
+	uniformClass = Atlas_U_O_VZ_Officer_oli_CO_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_oli_CO.paa"};
 };
