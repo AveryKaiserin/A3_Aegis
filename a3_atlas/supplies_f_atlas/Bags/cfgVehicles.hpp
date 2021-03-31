@@ -171,4 +171,5 @@ class CfgVehicles
     #include "cfgTKA.hpp"       // Takistani Army
 	#include "cfgHIMF.hpp"      // HIMF
 	#include "cfgIDF.hpp"       // IDF
+	#include "cfgVenezuela.hpp" //Venezuela
 };
