@@ -851,3 +851,110 @@ class SMG_05_ACO_F: SMG_05_F
         LINKED_TOP(optic_ACO_grn_smg);
 	};
 };
+class LMG_Mk200_plain_MRCO_LP_F: LMG_Mk200_plain_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_MRCO);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_UNDERBARREL(bipod_01_F_snd);
+	};
+};
+class LMG_Mk200_plain_MRCO_LP_S_F: LMG_Mk200_plain_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_MRCO);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_MUZZLE(muzzle_snds_H);
+        LINKED_UNDERBARREL(bipod_01_F_snd);
+	};
+};
+class hgun_Pistol_heavy_01_MRD_F: hgun_Pistol_heavy_01_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_MRD);
+	};
+};
+class arifle_MSBS65_sand_aco_F: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+	};
+};
+class arifle_MSBS65_sand_aco_pointer_F: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+        LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class arifle_MSBS65_sand_aco_FL_F: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_MSBS65_sand_ico_pointer_F: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class arifle_MSBS65_sand_snds_ico_pointer_F: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_MUZZLE(muzzle_snds_H_snd_F);
+	};
+};
+class arifle_MSBS65_sand_ico_FL_f: arifle_MSBS65_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_MSBS65_GL_sand_ico_FL_f: arifle_MSBS65_GL_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_MSBS65_GL_sand_ico_pointer_f: arifle_MSBS65_GL_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class arifle_MSBS65_UBS_sand_ico_pointer_F: arifle_MSBS65_UBS_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ico_01_sand_f);
+        LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class arifle_MSBS65_Mark_sand_SOS_LP_BI_F: arifle_MSBS65_Mark_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_SOS);
+        LINKED_SIDE(acc_pointer_IR);
+		LINKED_UNDERBARREL(bipod_01_F_snd);
+	};
+};
