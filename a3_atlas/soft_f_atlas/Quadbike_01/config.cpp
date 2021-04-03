@@ -41,6 +41,7 @@ class CfgVehicles
 	#include "cfgLegion.hpp"            // Legion
 	#include "cfgBlufor_Atlas.hpp"      // Germany
 	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
+	#include "cfgVenezuela.hpp"
     /*
 	#include "cfgADF.hpp"               // ADF
 	*/

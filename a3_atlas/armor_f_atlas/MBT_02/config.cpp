@@ -54,6 +54,7 @@ class CfgVehicles
 	// Arma 3 Atlas
     #include "cfgOpfor_Aegis.hpp"       // Belarus
     #include "cfgOpfor_Atlas.hpp"       // Takistani Army
+    #include "cfgVenezuela.hpp"			//Venezuela
     /*
 	#include "cfgCDF.hpp"               // CDF
     */

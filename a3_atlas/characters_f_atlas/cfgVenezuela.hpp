@@ -1784,7 +1784,7 @@ class Atlas_O_VZ_recon_medic_F: Atlas_O_VZ_Soldier_recon_base
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
-	displayName = $STR_B_Recon_TL_F0;
+	displayName = "$STR_B_recon_medic_F0";
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	linkedItems[] =
 	{
@@ -2031,4 +2031,45 @@ class Atlas_O_VZ_recon_JTAC_F: Atlas_O_VZ_Soldier_recon_base
         0.1,    // Armor
         0.3     // Air
     };
+};
+class Atlas_O_VZ_Fighter_Pilot_F: Atlas_O_VZ_Helipilot_F
+{
+    author = $STR_A3_A_AveryTheKitty;
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_B_Fighter_Pilot_name;
+	uniformClass = Atlas_U_O_W_PilotCoveralls;
+    linkedItems[] =
+    {
+        H_PilotHelmetFighter_O,
+		DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetFighter_O,
+		DefaultManLinkedItems
+    };
+    weapons[] =
+    {
+        hgun_Pistol_01_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_Pistol_01_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_2(10Rnd_9x21_Mag),
+		SOLDIER_SMOKE_SHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_2(10Rnd_9x21_Mag),
+		SOLDIER_SMOKE_SHELLS_OPFOR
+    };
+	camouflage = 2;
+    cost = 165000;
+    role = Crewman;
 };

@@ -11,6 +11,7 @@ class CfgVehicles
     class Ejection_Seat_Plane_CAS_02_base_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
+	#include "cfgVenezuela.hpp"
 	/*
     #include "cfgCDF.hpp"				// CDF
     #include "cfgIDF.hpp"				// IDF

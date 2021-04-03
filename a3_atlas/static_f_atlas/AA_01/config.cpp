@@ -16,6 +16,7 @@ class CfgVehicles
     #include "cfgLegion.hpp"		    // Legionnaires
 	#include "cfgBlufor_Atlas.hpp"		// Germany
     #include "cfgOpfor_Atlas.hpp"		// Takistani Army
+    #include "cfgVenezuela.hpp"			//venezuela
 	/*
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgCDF.hpp"				// CDF
