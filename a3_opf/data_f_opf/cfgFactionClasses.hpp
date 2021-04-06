@@ -32,6 +32,14 @@ class CfgFactionClasses
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_OPF_S_CA.paa";
 		flag = "\A3_Opf\Data_F_Opf\Flags\flag_ChDKZ_CO.paa";
 	};
+	class Opf_IND_S_F
+	{
+		displayName = $STR_A3_O_CfgFactionClasses_OPF_S_F0;
+		priority = 3;
+		side = TGuerrila;
+		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_OPF_S_CA.paa";
+		flag = "\A3_Opf\Data_F_Opf\Flags\flag_ChDKZ_CO.paa";
+	};
 	class Opf_OPF_L_F
 	{
 		displayName = $STR_A3_O_CfgFactionClasses_OPF_L_F0;
