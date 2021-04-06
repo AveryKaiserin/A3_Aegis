@@ -3746,610 +3746,314 @@ class I_E_JTAC_ard_F: I_E_JTAC_F
         Laserdesignator_01_khk_F
     };
 };
-class I_E_Soldier_recon_base: I_E_Soldier_base_F
+class I_E_recon_AR_ard_F: I_E_recon_AR_F
 {
-    class SpeechVariants
-    {
-        class Default
-        {
-            speechSingular[] = {veh_infantry_SF_s};
-            speechPlural[] = {veh_infantry_SF_p};
-        };
-    };
-    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
-    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
-    nameSound = veh_infantry_SF_s;
-	items[] =
-	{
-		FirstAidKit,
-		optic_NVS
-	};
-	respawnItems[] =
-	{
-		FirstAidKit,
-		optic_NVS
-	};
-	vehicleClass = MenRecon;
-	editorSubcategory = EdSubcat_Personnel_SpecialForces;
-    icon = iconManRecon;
-	role = Rifleman;
-	camouflage = 0.6;
-	detectSkill = 18;
-};
-class I_E_recon_AR_F: I_E_Soldier_recon_base
-{
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_C_O_R_recon_AR_F0;
-	uniformClass = U_I_E_Uniform_01_tanktop_F;
-	items[] =
-	{
-		FirstAidKit,
-		optic_tws_mg
-	};
-	respawnItems[] =
-	{
-		FirstAidKit,
-		optic_tws_mg
-	};
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        LMG_Mk200_black_MRCO_LP_S_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+        LMG_Mk200_plain_MRCO_LP_S_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        LMG_Mk200_black_MRCO_LP_S_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+        LMG_Mk200_plain_MRCO_LP_S_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_3(200Rnd_65x39_cased_Box_Red),
-        mag_2(11Rnd_45ACP_Mag),
-        MiniGrenade,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_3(200Rnd_65x39_cased_Box_Red),
-        mag_2(11Rnd_45ACP_Mag),
-        MiniGrenade,
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-	cost = 220000;
-	icon = iconManMG;
-	role = MachineGunner;
-	threat[] =
-    {
-        1,      // Soft
-        0.1,    // Armor
-        0.3     // Air
-    };
 };
-class I_E_recon_exp_F: I_E_Soldier_recon_base
+class I_E_recon_exp_ard_F: I_E_recon_exp_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_exp_F0;
-	uniformClass = U_I_E_Uniform_01_shortsleeve_F;
-	backpack = B_Carryall_eaf_exp_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Booniehat_eaf_hs,
+		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Booniehat_eaf_hs,
+		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_3(APERSMine_Range_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_3(APERSMine_Range_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-	canDeactivateMines = true;
-	detectSkill = 38;
-	icon = iconManExplosive;
-	picture = pictureExplosive;
-	role = Sapper;
 };
-class I_E_recon_GL_F: I_E_Soldier_recon_base
+class I_E_recon_GL_ard_F: I_E_recon_GL_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_C_O_R_recon_GL_F0;
-	uniformClass = U_I_E_Uniform_01_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_GL_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_GL_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_GL_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_GL_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue),
-        mag_2(1Rnd_Smoke_Grenade_shell)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue),
-        mag_2(1Rnd_Smoke_Grenade_shell)
-    };
-	cost = 200000;
-	role = Grenadier;
 };
-class I_E_recon_JTAC_F: I_E_Soldier_recon_base
+class I_E_recon_JTAC_ard_F: I_E_recon_JTAC_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_JTAC_F0;
-	uniformClass = U_I_E_Uniform_01_sweater_F;
-	backpack = B_RadioBag_01_eaf_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_ard_F.jpg";
+	faction = IND_E_ard_F;
+	//uniformClass = U_I_E_Uniform_01_sweater_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Watchcap_camo_hs,
+		H_Watchcap_khk,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_Watchcap_camo_hs,
+		H_Watchcap_khk,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(I_IR_Grenade),
-        Laserbatteries,
-        SmokeShell,
-        SMOKESHELLS_BLUFOR,
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(I_IR_Grenade),
-        Laserbatteries,
-        SmokeShell,
-        SMOKESHELLS_BLUFOR,
-        mag_2(Chemlight_blue)
-    };
-	role = SpecialOperative;
 };
-class I_E_recon_M_F: I_E_Soldier_recon_base
+class I_E_recon_M_ard_F: I_E_recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	class SpeechVariants
-	{
-		class Default
-		{
-			speechSingular[] = {veh_infantry_sniper_s};
-			speechPlural[] = {veh_infantry_sniper_p};
-		};
-	};
-	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
-	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
-	nameSound = veh_infantry_sniper_s;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_M_F0;
-	uniformClass = U_I_E_Uniform_01_F;
-	items[] =
-	{
-		FirstAidKit,
-		optic_tws_sniper
-	};
-	respawnItems[] =
-	{
-		FirstAidKit,
-		optic_tws_sniper
-	};
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
 		V_TacVest_camo,
-		H_Booniehat_eaf_hs,
+		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_camo,
-		H_Booniehat_eaf_hs,
+		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_black_DMS_LP_BI_S_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_DMS_LP_BI_S_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_black_DMS_LP_BI_S_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_DMS_LP_BI_S_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
-    magazines[] =
-    {
-        mag_8(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_8(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-	cost = 250000;
-	threat[] =
-    {
-        1,      // Soft
-        0.1,    // Armor
-        0.3     // Air
-    };
-	role = Marksman;
-	primaryAmmoCoef = 0.2;
-	secondaryAmmoCoef = 0.05;
-	handgunAmmoCoef = 0.1;
 };
-class I_E_recon_medic_F: I_E_Soldier_recon_base
+class I_E_recon_medic_ard_F: I_E_recon_medic_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_medic_F0;
-	uniformClass = U_I_L_Uniform_01_deserter_F;
-	backpack = B_AssaultPack_eaf_IEReconMedic_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_ard_F.jpg";
+	faction = IND_E_ard_F;
+	//uniformClass = U_I_L_Uniform_01_deserter_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_ear_F,
+		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_ear_F,
+		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_holo_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SMOKESHELLS_MEDIC,
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SMOKESHELLS_MEDIC,
-        mag_2(Chemlight_blue)
-    };
-	attendant = true;
-	icon = iconManMedic;
-	picture = pictureHeal;
-	role = CombatLifeSaver;
-	threat[] =
-    {
-        1,      // Soft
-        0.1,    // Armor
-        0.3     // Air
-    };
 };
-class I_E_recon_F: I_E_Soldier_recon_base
+class I_E_recon_ard_F: I_E_recon_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_B_recon_F0;
-	uniformClass = U_I_E_Uniform_01_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_headset_F,
+		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_short_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_short_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_short_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Binocular
     };
-    magazines[] =
-    {
-        mag_10(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_10(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
 };
-class I_E_recon_LAT_F: I_E_Soldier_recon_base
+class I_E_recon_LAT_ard_F: I_E_recon_LAT_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_LAT_F0;
-	uniformClass = U_I_E_Uniform_01_F;
-	backpack = B_AssaultPack_eaf_IELAT2_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_ear_F,
+		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_ear_F,
+		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_short_black_snds_holo_pointer_f,
+        arifle_SCAR_short_snds_holo_pointer_f,
 		launch_MRAWS_green_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_SCAR_short_black_snds_holo_pointer_f,
-		launch_MRAWS_green_F,
-        hgun_Pistol_heavy_01_green_snds_F,
+		launch_MRAWS_sand_F,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-		MRAWS_HEAT_F,
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-		MRAWS_HEAT_F,
-        mag_2(MiniGrenade),
-        mag_2(SmokeShell),
-        mag_2(Chemlight_blue)
-    };
-	cost = 130000;
-	threat[] = {1,0.6,0.1};
-	secondaryAmmoCoef = 0.5;
-	icon = iconManAT;
-	role = MissileSpecialist;
 };
-class I_E_recon_TL_F: I_E_Soldier_recon_base
+class I_E_recon_TL_ard_F: I_E_recon_TL_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_F.jpg";
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_B_recon_TL_F0;
-	uniformClass = U_I_E_Uniform_01_F;
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_ard_F.jpg";
+	faction = IND_E_ard_F;
+	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_chops_F,
+		H_HelmetHBK_arid_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_EAF_F,
-		H_HelmetHBK_chops_F,
+		H_HelmetHBK_arid_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_SCAR_grip_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_grip_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_SCAR_grip_black_snds_mrco_pointer_f,
-        hgun_Pistol_heavy_01_green_snds_F,
+        arifle_SCAR_grip_snds_mrco_pointer_f,
+        hgun_Pistol_heavy_01_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
-    magazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SMOKESHELLS_BLUFOR,
-        mag_2(Chemlight_blue)
-    };
-    respawnMagazines[] =
-    {
-        mag_6(20Rnd_762x51_Mag),
-        mag_2(11Rnd_45ACP_Mag),
-        mag_2(MiniGrenade),
-        SmokeShell,
-        SMOKESHELLS_BLUFOR,
-        mag_2(Chemlight_blue)
-    };
-	cost = 250000;
-	icon = iconManLeader;
-	role = Rifleman;
-	threat[] =
-    {
-        1,      // Soft
-        0.1,    // Armor
-        0.3     // Air
-    };
 };
+/*
 class I_E_Soldier_sniper_base: I_E_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -4565,53 +4269,18 @@ class I_E_ghillie_spotter_wdl_F: I_E_ghillie_wdl_F
 		FirstAidKit,
 		optic_tws
 	};
-};
-class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
+};*/
+class I_E_Fighter_Pilot_ard_F: I_E_Fighter_Pilot_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Fighter_Pilot_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_B_Fighter_Pilot_name;
-	uniformClass = U_I_E_Uniform_01_pilot_F;
-    linkedItems[] =
-    {
-        H_PilotHelmetFighter_I_E,
-        DefaultManLinkedItems
-    };
-    respawnLinkedItems[] =
-    {
-        H_PilotHelmetFighter_I_E,
-        DefaultManLinkedItems
-    };
+	faction = IND_E_ard_F;
 	weapons[] =
     {
-        hgun_Pistol_heavy_01_green_F,
+        hgun_Pistol_heavy_01_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        hgun_Pistol_heavy_01_green_F,
+        hgun_Pistol_heavy_01_F,
         DefaultManWeapons
     };
-    magazines[] =
-    {
-        mag_2(11Rnd_45ACP_Mag),
-        SMOKESHELLS_BLUFOR
-    };
-    respawnMagazines[] =
-    {
-        mag_2(11Rnd_45ACP_Mag),
-        SMOKESHELLS_BLUFOR
-    };
-    cost = 165000;
-    role = Crewman;
-	camouflage = 2;
-	identityTypes[] =
-	{
-		LanguagePOL_F,
-		Head_Euro,
-		Head_Enoch,
-        G_NATO_pilot
-	};
 };

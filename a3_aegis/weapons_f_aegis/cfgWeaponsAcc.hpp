@@ -877,6 +877,13 @@ class hgun_Pistol_heavy_01_MRD_F: hgun_Pistol_heavy_01_F
         LINKED_TOP(optic_MRD);
 	};
 };
+class hgun_Pistol_heavy_01_snds_F: hgun_Pistol_heavy_01_F
+{
+	class LinkedItems
+	{
+        LINKED_MUZZLE(muzzle_snds_acp);
+	};
+};
 class arifle_MSBS65_sand_aco_F: arifle_MSBS65_sand_F
 {
 	class LinkedItems
