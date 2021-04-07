@@ -7091,6 +7091,23 @@
 					<Japanese>ロシア</Japanese>
 					<Turkish>Rusya</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_OPF_Raven_F0">
+					<Original>Raven</Original>
+					<Chinese>掠奪</Chinese>
+					<French>Corbeau</French>
+					<Spanish>Cuervo</Spanish>
+					<Italian>Corvo</Italian>
+					<Polish>Kruk</Polish>
+					<Russian>Ворон</Russian>
+					<German>Rabe</German>
+					<Czech>Havran</Czech>
+					<English>Raven</English>
+					<Portuguese>Raven</Portuguese>
+					<Korean>갈가마귀</Korean>
+					<Chinesesimp>掠夺</Chinesesimp>
+					<Japanese>カラス</Japanese>
+					<Turkish>Kuzgun</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_CTRG_tna_F0">
 					<Original>CTRG (Pacific)</Original>
 					<Chinese>CTRG（太平洋）</Chinese>

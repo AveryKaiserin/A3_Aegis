@@ -846,7 +846,7 @@ class CfgGroups
 					GROUP_UNIT(0,TEast,Atlas_O_VZ_TL_F,SERGEANT,0,0)
 					GROUP_UNIT(1,TEast,Atlas_O_VZ_Soldier_AA_F,CORPORAL,5,-5)
 					GROUP_UNIT(2,TEast,Atlas_O_VZ_Soldier_AA_F,PRIVATE,-5,-5)
-					GROUP_UNIT(3,TEast,Atlas_O_VZ,PRIVATE,10,-10)
+					GROUP_UNIT(3,TEast,Atlas_O_VZ_Soldier_F,PRIVATE,10,-10)
 				};
 				class O_VZ_InfSentry
 				{

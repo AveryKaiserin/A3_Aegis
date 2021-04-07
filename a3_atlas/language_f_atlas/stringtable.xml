@@ -674,6 +674,23 @@
 					<Japanese>レイヴンヘルメット</Japanese>
 					<Turkish>Avcı Miğfer</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_whex_F0">
+					<Original>Raven Helmet (Cover W)</Original>
+					<Chinese>Raven 頭盔 (Cover W)</Chinese>
+					<French>Casque Raven (Cover W)</French>
+					<Spanish>Casco de Raven (Cover W)</Spanish>
+					<Italian>Elmetto Raven (Cover W)</Italian>
+					<Polish>Hełm Raven (Cover W)</Polish>
+					<Russian>Шлем Raven (Cover W)</Russian>
+					<German>Raven Helm (Cover W)</German>
+					<Czech>Přilba Raven (Cover W)</Czech>
+					<English>Raven Helmet (Cover W)</English>
+					<Portuguese>Capacete Raven (Cover W)</Portuguese>
+					<Korean>레이븐 헬멧 (Cover W)</Korean>
+					<Chinesesimp>Raven 头盔 (Cover W)</Chinesesimp>
+					<Japanese>レイヴンヘルメット (Cover W)</Japanese>
+					<Turkish>Avcı Miğfer (Cover W)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0">
 					<Original>Raven Helmet (Black)</Original>
 					<Chinese>Raven 頭盔（黑）</Chinese>
@@ -1288,6 +1305,23 @@
 					<Japanese>軽装野戦服（砂漠六角形）</Japanese>
 					<Turkish>Hafif Asker Kıyafeti (Ağaçlık Hex)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_O_officer_noInsignia_oli_F0">
+					<Original>Light Fatigues (Olive)</Original>
+					<Chinese>輕型戰鬥服 (Olive)</Chinese>
+					<French>Treillis clair (Olive)</French>
+					<Spanish>Ropa ligera (Olive)</Spanish>
+					<Italian>Uniforme leggera (Olive)</Italian>
+					<Polish>Jasny mundur (Olive)</Polish>
+					<Russian>Летняя форма (Olive)</Russian>
+					<German>Leichter Anzug (Olive)</German>
+					<Czech>Lehká uniforma (Olive)</Czech>
+					<English>Light Fatigues (Olive)</English>
+					<Portuguese>Trajes leves (Olive)</Portuguese>
+					<Korean>경량 전투복 (Olive)</Korean>
+					<Chinesesimp>轻便军服 (Olive)</Chinesesimp>
+					<Japanese>軽装野戦服 (Olive)</Japanese>
+					<Turkish>Hafif Asker Kıyafeti </Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_sgg0">
 					<Original>Combat Fatigues (Sage)</Original>
 					<Chinese>作戰戰鬥服（鼠尾草色）</Chinese>
@@ -1818,6 +1852,23 @@
 					<Japanese>GAキャリア・ライト（緑）</Japanese>
 					<Turkish>GA Hafif Taşıyıcı (Yeşil)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA1_whex0">
+					<Original>GA Carrier Lite (Woodland Hex)</Original>
+					<Chinese>GA 輕型負載背心 (Woodland Hex)</Chinese>
+					<French>Gilet léger AV (Woodland Hex)</French>
+					<Spanish>Cartuchera de AAF ligera (Woodland Hex)</Spanish>
+					<Italian>Gilet leggero aviazione (Woodland Hex)</Italian>
+					<Polish>Lekka kamizelka GA (Woodland Hex))</Polish>
+					<Russian>GA облегченный жилет (Woodland Hex)</Russian>
+					<German>Leichter Boden-Luft-Tragegurt (Woodland Hex)</German>
+					<Czech>GA nosič plátů - lehký (Woodland Hex)</Czech>
+					<English>GA Carrier Lite (Woodland Hex)</English>
+					<Portuguese>Transportador leve de GA (Woodland Hex)</Portuguese>
+					<Korean>GA 캐리어 라이트 (Woodland Hex)</Korean>
+					<Chinesesimp>GA 轻便背心 (Woodland Hex)</Chinesesimp>
+					<Japanese>GAキャリア・ライト (Woodland Hex)</Japanese>
+					<Turkish>GA Hafif Taşıyıcı (Woodland Hex)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA2_grn0">
 					<Original>GA Carrier Rig (Green)</Original>
 					<Chinese>GA 負載外掛（綠）</Chinese>
@@ -1835,6 +1886,40 @@
 					<Japanese>GAキャリアリグ（緑）</Japanese>
 					<Turkish>GA Taşıyıcı Yelek (Yeşil)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA2_whex0">
+					<Original>GA Carrier Rig (Woodland Hex)</Original>
+					<Chinese>GA 負載外掛 (Woodland Hex)</Chinese>
+					<French>Gilet modulable léger AV (Woodland Hex)</French>
+					<Spanish>Cartuchera de AAF (Woodland Hex)</Spanish>
+					<Italian>Gilet Rig aviazione (Woodland Hex)</Italian>
+					<Polish>Kamizelka GA (Woodland Hex)</Polish>
+					<Russian>GA жилет (Woodland Hex)</Russian>
+					<German>Boden-Luft-Tragegurt (Woodland Hex)</German>
+					<Czech>GA Nosič plátů (Woodland Hex)</Czech>
+					<English>GA Carrier Rig (Woodland Hex)</English>
+					<Portuguese>Suporte de transportador de GA (Woodland Hex)</Portuguese>
+					<Korean>GA 캐리어 리그 (Woodland Hex)</Korean>
+					<Chinesesimp>GA 背心装备 (Woodland Hex)</Chinesesimp>
+					<Japanese>GAキャリアリグ (Woodland Hex)</Japanese>
+					<Turkish>GA Taşıyıcı Yelek (Woodland Hex)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIA2_rhex0">
+					<Original>GA Carrier Rig (Wagie Hex)</Original>
+					<Chinese>GA 負載外掛 (Wagie Hex)</Chinese>
+					<French>Gilet modulable léger AV (Wagie Hex)</French>
+					<Spanish>Cartuchera de AAF (Wagie Hex)</Spanish>
+					<Italian>Gilet Rig aviazione (Wagie Hex)</Italian>
+					<Polish>Kamizelka GA (Wagie Hex)</Polish>
+					<Russian>GA жилет (Wagie Hex)</Russian>
+					<German>Boden-Luft-Tragegurt (Wagie Hex)</German>
+					<Czech>GA Nosič plátů (Wagie Hex)</Czech>
+					<English>GA Carrier Rig (Wagie Hex)</English>
+					<Portuguese>Suporte de transportador de GA (Wagie Hex)</Portuguese>
+					<Korean>GA 캐리어 리그 (Wagie Hex)</Korean>
+					<Chinesesimp>GA 背心装备 (Wagie Hex)</Chinesesimp>
+					<Japanese>GAキャリアリグ (Wagie Hex)</Japanese>
+					<Turkish>GA Taşıyıcı Yelek (Wagie Hex)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_grn0">
 					<Original>GA Carrier GL Rig (Green)</Original>
 					<Chinese>GA GL 負載外掛（綠）</Chinese>
@@ -1851,6 +1936,23 @@
 					<Chinesesimp>GA 背心 GL 装备（绿色）</Chinesesimp>
 					<Japanese>GAキャリアGLリグ（緑）</Japanese>
 					<Turkish>GA Taşıyıcı GL Yelek (Yeşil)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrierIAGL_whex0">
+					<Original>GA Carrier GL Rig (Woodland Hex)</Original>
+					<Chinese>GA GL 負載外掛 (Woodland Hex)</Chinese>
+					<French>Gilet modulable pour grenadier (Woodland Hex)</French>
+					<Spanish>Cartuchera de AAF independiente (Woodland Hex)</Spanish>
+					<Italian>Gilet GL Rig aviazione (Woodland Hex)</Italian>
+					<Polish>Kamizelka GA grenadiera (Woodland Hex)</Polish>
+					<Russian>GA жилет гранатометчика (Woodland Hex)</Russian>
+					<German>Boden-Luft-Granatwerfer-Tragegurt (Woodland Hex)</German>
+					<Czech>GA GL Nosič plátů (Woodland Hex)</Czech>
+					<English>GA Carrier GL Rig (Woodland Hex)</English>
+					<Portuguese>Suporte de LG de transportador de GA (Woodland Hex)</Portuguese>
+					<Korean>GA 캐리어 GL 리그 (Woodland Hex)</Korean>
+					<Chinesesimp>GA 背心 GL 装备 (Woodland Hex)</Chinesesimp>
+					<Japanese>GAキャリアGLリグ (Woodland Hex)</Japanese>
+					<Turkish>GA Taşıyıcı GL Yelek (Woodland Hex)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_V_TacVest_tan0">
 					<Original>Tactical Vest (Tan)</Original>

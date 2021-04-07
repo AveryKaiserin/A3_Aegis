@@ -111,4 +111,9 @@ class CfgFactionClasses
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_EAF_CA.paa";
 		flag = "\A3\Data_F_Enoch\Flags\flag_EAF_CO.paa";
 	};
+	class OPF_Raven_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_Raven_F0;
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
+	};
 };
