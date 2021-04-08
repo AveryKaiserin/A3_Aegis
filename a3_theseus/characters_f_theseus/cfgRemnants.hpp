@@ -369,18 +369,18 @@ class Theseus_O_R_Soldier_7_F: Theseus_O_R_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		srifle_DMR_01_black_KHS_BI_F,
+		srifle_EBR_DMS_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_01_black_KHS_BI_F,
+		srifle_EBR_DMS_F,
 		DefaultManWeapons,
 		Binocular
 	};
-	magazines[] = {mag_6(10Rnd_762x54_Mag)};
-	respawnMagazines[] = {mag_6(10Rnd_762x54_Mag)};
+	magazines[] = {mag_3(20Rnd_762x51_Mag)};
+	respawnMagazines[] = {mag_3(20Rnd_762x51_Mag)};
 	cost = 250000;
 	role = Marksman;
 };
