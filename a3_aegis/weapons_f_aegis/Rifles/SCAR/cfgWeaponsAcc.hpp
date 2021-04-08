@@ -68,7 +68,7 @@ class arifle_SCAR_GL_snds_mrco_pointer_f: arifle_SCAR_GL_F
 	{
         LINKED_TOP(optic_MRCO);
         LINKED_SIDE(acc_pointer_IR);
-        LINKED_MUZZLE(muzzle_snds_B_snd_F));
+        LINKED_MUZZLE(muzzle_snds_B_snd_F);
 	};
 };
 class arifle_SCAR_DMS_LP_BI_S_F: arifle_SCAR_F
