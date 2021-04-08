@@ -2998,7 +2998,7 @@ class I_E_Support_GMG_ard_F: I_E_Support_GMG_F
 class I_E_Support_MG_ard_F: I_E_Support_MG_F
 {
     author = $STR_A3_A_Ravenholme;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_MG_ard_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_MG_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
