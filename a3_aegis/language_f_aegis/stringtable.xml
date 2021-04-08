@@ -6885,6 +6885,40 @@
 					<Japanese>Heliotrope</Japanese>
 					<Turkish>Heliotrope</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_Ravenholme">
+					<Original>Ravenholme</Original>
+					<Chinese>Ravenholme</Chinese>
+					<French>Ravenholme</French>
+					<Spanish>Ravenholme</Spanish>
+					<Italian>Ravenholme</Italian>
+					<Polish>Ravenholme</Polish>
+					<Russian>Ravenholme</Russian>
+					<German>Ravenholme</German>
+					<Czech>Ravenholme</Czech>
+					<English>Ravenholme</English>
+					<Portuguese>Ravenholme</Portuguese>
+					<Korean>Ravenholme</Korean>
+					<Chinesesimp>Ravenholme</Chinesesimp>
+					<Japanese>Ravenholme</Japanese>
+					<Turkish>Ravenholme</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_BranFlakes">
+					<Original>Bran Flakes</Original>
+					<Chinese>Bran Flakes</Chinese>
+					<French>Bran Flakes</French>
+					<Spanish>Bran Flakes</Spanish>
+					<Italian>Bran Flakes</Italian>
+					<Polish>Bran Flakes</Polish>
+					<Russian>Bran Flakes</Russian>
+					<German>Bran Flakes</German>
+					<Czech>Bran Flakes</Czech>
+					<English>Bran Flakes</English>
+					<Portuguese>Bran Flakes</Portuguese>
+					<Korean>Bran Flakes</Korean>
+					<Chinesesimp>Bran Flakes</Chinesesimp>
+					<Japanese>Bran Flakes</Japanese>
+					<Turkish>Bran Flakes</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_Kydoimos">
 					<Original>Kydoimos</Original>
 					<Chinese>Kydoimos</Chinese>

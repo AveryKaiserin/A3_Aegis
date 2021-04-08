@@ -2342,7 +2342,7 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
 	};
 };
 
-/* LDF (Mediterranean) */
+/* LDF (Arid) */
 
 class I_E_Soldier_ard_F: I_E_Soldier_F
 {
@@ -2380,7 +2380,7 @@ class I_E_Soldier_ard_F: I_E_Soldier_F
 class I_E_Soldier_unarmed_ard_F: I_E_Soldier_unarmed_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_unarmed_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_unarmed_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -2529,7 +2529,7 @@ class I_E_Soldier_lite_ard_F: I_E_Soldier_lite_F
 class I_E_Soldier_GL_ard_F: I_E_Soldier_GL_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_GL_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_GL_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -3815,7 +3815,7 @@ class I_E_recon_exp_ard_F: I_E_recon_exp_F
 class I_E_recon_GL_ard_F: I_E_recon_GL_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -4056,7 +4056,7 @@ class I_E_recon_TL_ard_F: I_E_recon_TL_F
 /*
 class I_E_Soldier_sniper_base: I_E_Soldier_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Ravenholme;
     class SpeechVariants
     {
         class Default
@@ -4088,7 +4088,7 @@ class I_E_Soldier_sniper_base: I_E_Soldier_base_F
 };
 class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 {
-    author = $STR_A3_A_AveryTheKitty;
+    author = $STR_A3_A_Ravenholme;
 	displayName = $STR_A3_cfgVehicles_O_ghillie_base_F0;
 	uniformClass = U_I_E_FullGhillie_wdl_F;
 	model = "\A3\Characters_F_Mark\INDEP\I_FullGhillie_F.p3d";
@@ -4190,7 +4190,7 @@ class I_E_ghillie_base_F: I_E_Soldier_sniper_base
 };
 class I_E_ghillie_wdl_F: I_E_ghillie_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_ghillie_wdl_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -4204,7 +4204,7 @@ class I_E_ghillie_wdl_F: I_E_ghillie_base_F
 };
 class I_E_ghillie_spotter_wdl_F: I_E_ghillie_wdl_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
