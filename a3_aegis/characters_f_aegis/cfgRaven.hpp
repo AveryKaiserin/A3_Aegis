@@ -21,7 +21,7 @@ class I_Raven_soldier_base_F: I_soldier_F
 class I_Raven_soldier_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_F.jpg";
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	role = Rifleman;
@@ -76,7 +76,7 @@ class I_Raven_soldier_F: I_Raven_soldier_base_F
 class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_GL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_GL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_GL_F0;
 	weapons[] = 
@@ -137,7 +137,7 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_MG_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_MG_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_AR_F0;
 	weapons[] = 
@@ -195,7 +195,7 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_TL_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_TL_F.jpg";
 	scope = public;
 	displayName = $STR_B_Soldier_TL_F0;
 	uniformClass = U_O_R_Gorka_01_F;
@@ -271,7 +271,7 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
     textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
     textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
     nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_M_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_M_F0;
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
@@ -341,7 +341,7 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_LAT_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_LAT_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_LAT_F0;
 	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
@@ -415,7 +415,7 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_medic_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_medic_F.jpg";
 	scope = public;
 	displayName = $STR_A3_B_CTRG_Soldier_Medic_tna_F0;
 	attendant = true;
@@ -481,7 +481,7 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 class I_Raven_engineer_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_engineer_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_engineer_F.jpg";
 	scope = public;
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
@@ -544,7 +544,7 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Soldier_UAV_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_SOLDIER_UAV_F0;
@@ -607,14 +607,14 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 class I_Raven_soldier_UAV_06_F: I_Raven_Soldier_UAV_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = UAV_06_backpack_F;
 };
 class I_Raven_soldier_UAV_06_medical_F: I_Raven_Soldier_UAV_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = I_R_UAV_06_medical_backpack_F;
 };
@@ -642,7 +642,7 @@ class I_Raven_Soldier_universal_F: I_Raven_soldier_F
 class I_Raven_Soldier_unarmed_F: I_Raven_soldier_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Soldier_unarmed_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Soldier_unarmed_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
