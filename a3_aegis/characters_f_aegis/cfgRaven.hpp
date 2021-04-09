@@ -12,7 +12,7 @@ class I_Raven_soldier_base_F: I_soldier_F
 	};
 	faction = IND_Raven_F;
 	genericNames = RussianMen;
-	uniformClass = O_R_LightFatigues_01_taiga_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -66,9 +66,11 @@ class I_Raven_soldier_F: I_Raven_soldier_base_F
     headgearList[] = 
     {
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
@@ -124,13 +126,12 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 	};
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
@@ -183,13 +184,12 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 	};
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
@@ -249,13 +249,12 @@ class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
 	};
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_M_F: I_Raven_soldier_base_F
@@ -320,13 +319,12 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
 	};
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
@@ -395,13 +393,12 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	secondaryAmmoCoef = 0.5;
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_medic_F: I_Raven_soldier_base_F
@@ -473,13 +470,12 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	picture = pictureHeal;
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_engineer_F: I_Raven_soldier_base_F
@@ -537,13 +533,12 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 	picture = pictureRepair;
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
@@ -601,13 +596,12 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 	};
     headgearList[] = 
     {
-        //H_MilCap_rucamo,1,
         H_HelmetSpecter_cover_khaki_F,1,
-        H_HelmetSpecter_cover_khaki_F_hs,1,
-        H_Cap_headphones_Raven,1,
-        H_HelmetSpecter_black_F,1,
-        H_HelmetSpecter_black_headset_F,1,
-		H_Headset_light,1
+        H_HelmetSpecter_cover_taiga_F,1,
+        H_HelmetSpecter_F,1,
+        H_HelmetSpecter_headset_F,1,
+		H_HelmetSpecter_paint_F,1,
+        H_HelmetSpecter_paint_headset_F,1
     };
 };
 class I_Raven_soldier_UAV_06_F: I_Raven_Soldier_UAV_F
