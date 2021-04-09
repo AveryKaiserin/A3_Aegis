@@ -5,8 +5,6 @@ class CfgPatches
 		addonRootClass = A3_Opf_Data_F_Opf;
 		requiredAddons[] =
 		{
-            A3_Opf_Air_F_Opf,
-            A3_Opf_Air_F_Opf_Heli_Light_02,
             A3_Opf_Armor_F_Opf,
             A3_Opf_Armor_F_Opf_APC_Tracked_02,
             A3_Opf_Armor_F_Opf_MBT_02,

@@ -26,7 +26,7 @@ class CfgVehicles
     #include "cfgHIMF.hpp"      // HIMF
     #include "cfgIDF.hpp"       // IDF
     #include "cfgUNO.hpp"       // UNO
-    #include "cfgVenezuela.hpp" //Venezuela
+    #include "cfgVenezuela.hpp" // Venezuela
 
     /* Uniforms */
     #include "cfgUniforms.hpp"
