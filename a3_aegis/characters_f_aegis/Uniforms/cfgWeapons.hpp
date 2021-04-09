@@ -17,7 +17,8 @@ class CfgWeapons
     #include "cfgRUS.hpp"           // Russia
     #include "cfgEAF.hpp"           // LDF
     #include "cfgION.hpp"           // ION
-    
+    #include "cfgRaven.hpp"         // Raven Security
+
     /* Deprecated */
     #include "deprecated.hpp"
 };

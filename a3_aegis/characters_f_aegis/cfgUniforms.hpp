@@ -602,3 +602,34 @@ class B_ION_Uniform_01_tshirt_black_F: I_G_resistanceLeader_F
 	uniformClass = U_B_ION_Uniform_01_tshirt_black_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\B_ION_Uniform_01_tshirt_black_CO.paa"};
 };
+
+/* Raven Security */
+class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\O_Soldier_02.p3d";
+	hiddenSelections[] =
+	{
+		camo1,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+	};
+};
+class O_R_Fatigues_01_Tshirt_arid_F: O_R_Fatigues_01_Tshirt_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Characters_F\Common\Data\basicbody_black_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+	};
+};

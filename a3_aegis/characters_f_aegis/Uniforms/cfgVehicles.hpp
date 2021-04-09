@@ -169,6 +169,10 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_wdl_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_wdl_F0);
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_poloshirt_blue_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_poloshirt_blue_F0);
 	UNIFORM_HOLDER(U_B_ION_Uniform_01_tshirt_black_F,$STR_A3_A_CfgWeapons_U_B_ION_Uniform_01_tshirt_black_F0);
+
+	/* From "cfgRaven.hpp" */
+	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_taiga_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_taiga_F0);
+	UNIFORM_HOLDER(U_O_R_CombatUniform_tshirt_arid_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_arid_F0);
     
     /* Deprecated */
     DEPRECATED_CLASS(Item_U_B_CombatUniform_mcam_worn,Item_Base_F);;

@@ -40,7 +40,7 @@ class Opf_U_O_S_Uniform_01_taiga_F: Uniform_Base
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_O_S_Uniform_01_taiga_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUtaiga_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_RUtaiga_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
@@ -57,7 +57,7 @@ class Opf_U_O_S_Uniform_01_arid_F: Uniform_Base
 	picture = "\A3_Opf\Characters_F_Opf\Uniforms\Data\UI\icon_U_O_S_Uniform_01_arid_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
-	hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Uniforms\Data\Officer_RUarid_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_RUarid_CO.paa"};
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";

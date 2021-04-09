@@ -22,11 +22,6 @@ class CfgVehicles
 	// Arma 3 Opposing Forces
 	// Paramilitary
 	UNIFORM_HOLDER(Opf_U_O_ParamilitaryBody,$STR_A3_O_CfgWeapons_U_O_ParamilitaryBody0)
-	// Raven
-    /*
-	UNIFORM_HOLDER(Opf_U_O_R_CombatUniform_tshirt_taiga_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_taiga_F0)
-	UNIFORM_HOLDER(Opf_U_O_R_CombatUniform_tshirt_arid_F,$STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_arid_F0)
-	*/
     // Separatists
 	UNIFORM_HOLDER(Opf_U_O_S_Gorka_01_autumn_F,$STR_A3_O_CfgWeapons_U_O_S_Gorka_01_autumn_F0)
 	UNIFORM_HOLDER(Opf_U_O_S_Gorka_01_summer_F,$STR_A3_O_CfgWeapons_U_O_S_Gorka_01_summer_F0)
