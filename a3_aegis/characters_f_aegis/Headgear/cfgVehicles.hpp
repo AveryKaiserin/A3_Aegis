@@ -252,7 +252,15 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_MilCap_eaf_arid,$STR_A3_A_CfgWeapons_H_MilCap_eaf_arid0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Cap_eaf_arid_F,$STR_A3_A_CfgWeapons_H_Cap_eaf_arid_F0,EdSubcat_Hats);
 	HEADGEAR_HOLDER(H_Cap_eaf_arid_hs_F,$STR_A3_A_CfgWeapons_H_Cap_eaf_arid_hs_F0,EdSubcat_Hats);
-    
+    HEADGEAR_HOLDER(H_HelmetSpecter_paint_F,$STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_paint_headset_F,$STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_black_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_brown_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_headset_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_black_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_black_headset_F0,EdSubcat_Helmets);
+	HEADGEAR_HOLDER(H_HelmetSpecter_brown_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_headset_F0,EdSubcat_Helmets);
+	
     /* Deprecated */
     DEPRECATED_CLASS(Headgear_H_HelmetCrew_I_E,Headgear_H_HelmetCrew_I);;
     DEPRECATED_CLASS(Headgear_H_Tank_eaf_F,Headgear_H_Tank_black_F);;

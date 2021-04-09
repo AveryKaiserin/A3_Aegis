@@ -174,3 +174,35 @@ class arifle_AK12U_545_aco_flash_F: arifle_AK12U_545_F
         LINKED_SIDE(acc_flashlight);
 	};
 };
+class arifle_AK12_545_lush_aco_flash_F: arifle_AK12_545_lush_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_AK12_GL_545_aco_flash_F: arifle_AK12_GL_545_lush_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_AK12_545_lush_arco_flash_F: arifle_AK12_545_lush_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Arco_AK_lush_F);
+        LINKED_SIDE(acc_flashlight);
+	};
+};
+class arifle_AK12U_545_lush_aco_flash_F: arifle_AK12U_545_lush_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_SIDE(acc_flashlight);
+	};
+};

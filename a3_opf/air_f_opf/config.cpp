@@ -1,2 +1,0 @@
-/* Header */
-#include "cfgPatches.hpp"

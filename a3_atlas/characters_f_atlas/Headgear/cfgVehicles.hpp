@@ -45,12 +45,6 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_ear_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_ear_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_HelmetHBK_aucamo_chops_F,$STR_A3_A_CfgWeapons_H_HelmetHBK_aucamo_chops_F0,EdSubcat_Helmets)
 	*/
-    HEADGEAR_HOLDER(H_HelmetSpecter_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_black_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_brown_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_headset_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_black_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_black_headset_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_brown_headset_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_headset_F0,EdSubcat_Helmets)
     /*
 	HEADGEAR_HOLDER(H_HelmetSpecter_cover_autumn_F,$STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_autumn_F0,EdSubcat_Helmets)
     */

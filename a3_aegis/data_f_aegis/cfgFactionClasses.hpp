@@ -111,9 +111,13 @@ class CfgFactionClasses
 		icon = "\A3\Data_F_Enoch\FactionIcons\icon_EAF_CA.paa";
 		flag = "\A3\Data_F_Enoch\Flags\flag_EAF_CO.paa";
 	};
-	class OPF_Raven_F
+	class IND_Raven_F
 	{
+		//displayName = $STR_A3_A_CfgFactionClasses_IND_Raven_F0;
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_Raven_F0;
+		priority = 3;
+		side = TGuerrila;
+		icon = "\A3\Data_F_Enoch\FactionIcons\icon_RUS_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
 	};
 };

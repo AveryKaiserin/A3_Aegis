@@ -37,6 +37,14 @@ class srifle_DMR_01_DMS_LP_BI_S_F: srifle_DMR_01_F
         LINKED_UNDERBARREL(bipod_02_F_hex);
 	};
 };
+class srifle_DMR_01_black_ARCO_F: srifle_DMR_01_black_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Arco_blk_F);
+        LINKED_UNDERBARREL(bipod_02_F_blk);
+	};
+};
 class srifle_DMR_02_sniper_AMS_LP_F: srifle_DMR_02_sniper_F
 {
 	class LinkedItems

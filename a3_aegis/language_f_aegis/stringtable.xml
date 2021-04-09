@@ -2423,6 +2423,193 @@
 				</Key>
 			</Container>
 			<Container name="Headgear">
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_F0">
+					<Original>Raven Helmet</Original>
+					<Chinese>Raven 頭盔</Chinese>
+					<French>Casque Raven</French>
+					<Spanish>Casco de Raven</Spanish>
+					<Italian>Elmetto Raven</Italian>
+					<Polish>Hełm Raven</Polish>
+					<Russian>Шлем Raven</Russian>
+					<German>Raven Helm</German>
+					<Czech>Přilba Raven</Czech>
+					<English>Raven Helmet</English>
+					<Portuguese>Capacete Raven</Portuguese>
+					<Korean>레이븐 헬멧</Korean>
+					<Chinesesimp>Raven 头盔</Chinesesimp>
+					<Japanese>レイヴンヘルメット</Japanese>
+					<Turkish>Avcı Miğfer</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_whex_F0">
+					<Original>Raven Helmet (Cover W)</Original>
+					<Chinese>Raven 頭盔 (Cover W)</Chinese>
+					<French>Casque Raven (Cover W)</French>
+					<Spanish>Casco de Raven (Cover W)</Spanish>
+					<Italian>Elmetto Raven (Cover W)</Italian>
+					<Polish>Hełm Raven (Cover W)</Polish>
+					<Russian>Шлем Raven (Cover W)</Russian>
+					<German>Raven Helm (Cover W)</German>
+					<Czech>Přilba Raven (Cover W)</Czech>
+					<English>Raven Helmet (Cover W)</English>
+					<Portuguese>Capacete Raven (Cover W)</Portuguese>
+					<Korean>레이븐 헬멧 (Cover W)</Korean>
+					<Chinesesimp>Raven 头盔 (Cover W)</Chinesesimp>
+					<Japanese>レイヴンヘルメット (Cover W)</Japanese>
+					<Turkish>Avcı Miğfer (Cover W)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_F0">
+					<Original>Raven Helmet (Black)</Original>
+					<Chinese>Raven 頭盔（黑）</Chinese>
+					<French>Casque Raven (noir)</French>
+					<Spanish>Casco de Raven (negra)</Spanish>
+					<Italian>Elmetto Raven (nero)</Italian>
+					<Polish>Hełm Raven (czarna)</Polish>
+					<Russian>Шлем Raven (оливковый)</Russian>
+					<German>Raven Helm (schwarz)</German>
+					<Czech>Přilba Raven (černý)</Czech>
+					<English>Raven Helmet (Black)</English>
+					<Portuguese>Capacete Raven (preto)</Portuguese>
+					<Korean>레이븐 헬멧(흑색)</Korean>
+					<Chinesesimp>Raven 头盔（黑色）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（黒）</Japanese>
+					<Turkish>Avcı Miğfer (Siyah)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_F0">
+					<Original>Raven Helmet (Brown)</Original>
+					<Chinese>Raven 頭盔（棕色）</Chinese>
+					<French>Casque Raven (marron)</French>
+					<Spanish>Casco de Raven (marrón)</Spanish>
+					<Italian>Elmetto Raven (marrone)</Italian>
+					<Polish>Hełm Raven (brązowy)</Polish>
+					<Russian>Шлем Raven (коричневая)</Russian>
+					<German>Raven Helm (braun)</German>
+					<Czech>Přilba Raven (hnědý)</Czech>
+					<English>Raven Helmet (Brown)</English>
+					<Portuguese>Capacete Raven (marrom)</Portuguese>
+					<Korean>레이븐 헬멧(갈색)</Korean>
+					<Chinesesimp>Raven 头盔（棕色）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（茶）</Japanese>
+					<Turkish>Avcı Miğfer (Kahverengi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_headset_F0">
+					<Original>Raven Helmet (Headset)</Original>
+					<Chinese>Raven 頭盔（耳機）</Chinese>
+					<French>Casque Raven (micro-casque)</French>
+					<Spanish>Casco de Raven (auricular)</Spanish>
+					<Italian>Elmetto Raven (cuffia)</Italian>
+					<Polish>Hełm Raven (głowa)</Polish>
+					<Russian>Шлем Raven (гарнитура)</Russian>
+					<German>Raven Helm (Headset)</German>
+					<Czech>Přilba Raven (náhlavní souprava)</Czech>
+					<English>Raven Helmet (Headset)</English>
+					<Portuguese>Capacete Raven (headset)</Portuguese>
+					<Korean>레이븐 헬멧(헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_black_headset_F0">
+					<Original>Raven Helmet (Black, Headset)</Original>
+					<Chinese>Raven 頭盔（黑，耳機）</Chinese>
+					<French>Casque Raven (noir, micro-casque)</French>
+					<Spanish>Casco de Raven (negra, auricular)</Spanish>
+					<Italian>Elmetto Raven (nero, cuffia)</Italian>
+					<Polish>Hełm Raven (czarna, głowa)</Polish>
+					<Russian>Шлем Raven (оливковый, гарнитура)</Russian>
+					<German>Raven Helm (schwarz, Headset)</German>
+					<Czech>Přilba Raven (černý, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Black, Headset)</English>
+					<Portuguese>Capacete Raven (preto, headset)</Portuguese>
+					<Korean>레이븐 헬멧(흑색, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（黑色，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（黒、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Siyah, Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0">
+					<Original>Raven Helmet (Spraypaint)</Original>
+					<Chinese>Raven 頭盔（噴漆）</Chinese>
+					<French>Casque Raven (Aérosol)</French>
+					<Spanish>Casco de Raven (pintado con spray)</Spanish>
+					<Italian>Elmetto Raven (vernice a spruzzo)</Italian>
+					<Polish>Hełm Raven (smugi)</Polish>
+					<Russian>Шлем Raven (распыление)</Russian>
+					<German>Raven Helm (Sprühlack)</German>
+					<Czech>Přilba Raven (sprejová barva)</Czech>
+					<English>Raven Helmet (Spraypaint)</English>
+					<Portuguese>Capacete Raven (Tinta spray)</Portuguese>
+					<Korean>레이븐 헬멧(스프레이페인트)</Korean>
+					<Chinesesimp>Raven 头盔（喷漆）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（スプレーペイント）</Japanese>
+					<Turkish>Avcı Miğfer (Sprey Boya)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0">
+					<Original>Raven Helmet (Spraypaint, Headset)</Original>
+					<Chinese>Raven 頭盔（噴漆，耳機）</Chinese>
+					<French>Casque Raven (Aérosol, micro-casque)</French>
+					<Spanish>Casco de Raven (pintado con spray, auricular)</Spanish>
+					<Italian>Elmetto Raven (vernice a spruzzo, cuffia)</Italian>
+					<Polish>Hełm Raven (smugi, głowa)</Polish>
+					<Russian>Шлем Raven (распыление, гарнитура)</Russian>
+					<German>Raven Helm (Sprühlack, Headset)</German>
+					<Czech>Přilba Raven (sprejová barva, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Spraypaint, Headset)</English>
+					<Portuguese>Capacete Raven (Tinta spray, headset)</Portuguese>
+					<Korean>레이븐 헬멧(스프레이페인트, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（喷漆，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（スプレーペイント、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Sprey Boya, Mik. Kulaklık)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_khaki_F0">
+					<Original>Raven Helmet (Cover B)</Original>
+					<Chinese>Raven 頭盔（B 型）</Chinese>
+					<French>Casque Raven (tenue B)</French>
+					<Spanish>Casco de Raven (cobertura B)</Spanish>
+					<Italian>Elmetto Raven (copertura B)</Italian>
+					<Polish>Hełm Raven (wariant B)</Polish>
+					<Russian>Шлем Raven (подкладка Т)</Russian>
+					<German>Raven Helm (B-Bezug)</German>
+					<Czech>Přilba Raven (kryt B)</Czech>
+					<English>Raven Helmet (Cover B)</English>
+					<Portuguese>Capacete Raven (cobertura B)</Portuguese>
+					<Korean>레이븐 헬멧(커버 B)</Korean>
+					<Chinesesimp>Raven 头盔（B 罩）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（B カバー）</Japanese>
+					<Turkish>Avcı Miğfer (Siper B)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_taiga_F0">
+					<Original>Raven Helmet (Cover T)</Original>
+					<Chinese>Raven 頭盔（T 型）</Chinese>
+					<French>Casque Raven (tenue T)</French>
+					<Spanish>Casco de Raven (cobertura T)</Spanish>
+					<Italian>Elmetto Raven (copertura T)</Italian>
+					<Polish>Hełm Raven (wariant T)</Polish>
+					<Russian>Шлем Raven (подкладка Т)</Russian>
+					<German>Raven Helm (T-Bezug)</German>
+					<Czech>Přilba Raven (kryt T)</Czech>
+					<English>Raven Helmet (Cover T)</English>
+					<Portuguese>Capacete Raven (cobertura T)</Portuguese>
+					<Korean>레이븐 헬멧(커버 T)</Korean>
+					<Chinesesimp>Raven 头盔（T 罩）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（T カバー）</Japanese>
+					<Turkish>Avcı Miğfer (Siper T)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetSpecter_brown_headset_F0">
+					<Original>Raven Helmet (Brown, Headset)</Original>
+					<Chinese>Raven 頭盔（棕色，耳機）</Chinese>
+					<French>Casque Raven (marron, micro-casque)</French>
+					<Spanish>Casco de Raven (marrón, auricular)</Spanish>
+					<Italian>Elmetto Raven (marrone, cuffia)</Italian>
+					<Polish>Hełm Raven (brązowy, głowa)</Polish>
+					<Russian>Шлем Raven (коричневая, гарнитура)</Russian>
+					<German>Raven Helm (braun, Headset)</German>
+					<Czech>Přilba Raven (hnědý, náhlavní souprava)</Czech>
+					<English>Raven Helmet (Brown, Headset)</English>
+					<Portuguese>Capacete Raven (marrom, headset)</Portuguese>
+					<Korean>레이븐 헬멧(갈색, 헤드셋)</Korean>
+					<Chinesesimp>Raven 头盔（棕色，头戴式耳机）</Chinesesimp>
+					<Japanese>レイヴンヘルメット（茶、ヘッドセット）</Japanese>
+					<Turkish>Avcı Miğfer (Kahverengi, Mik. Kulaklık)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_Booniehat_khk_hs0">
 					<Original>Booniehat (Khaki, Headset)</Original>
 					<Chinese>登山帽（卡其色，耳機）</Chinese>

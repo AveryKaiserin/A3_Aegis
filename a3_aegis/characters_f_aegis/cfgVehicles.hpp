@@ -47,6 +47,7 @@ class CfgVehicles
     #include "cfgEAF.hpp"           // LDF
     #include "cfgLooters.hpp"       // Looters
     #include "cfgION.hpp"           // ION
+    #include "cfgRaven.hpp"         // Raven Security
 
     /* Uniforms */
 	#include "cfgUniforms.hpp"

@@ -7,9 +7,6 @@ class CfgVehicles
 	class SoldierEB;
 	class SoldierGB;
 	#include "cfgPara.hpp"              // Paramilitary
-	/*
-    #include "cfgRaven.hpp"             // Raven
-	*/
 	#include "cfgChKDZ.hpp"             // Separatists
 	#include "cfgTKM.hpp"               // Insurgents
     /*

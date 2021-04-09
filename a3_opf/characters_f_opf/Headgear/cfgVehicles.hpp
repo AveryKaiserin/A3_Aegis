@@ -21,8 +21,6 @@ class CfgVehicles
 	class Headgear_Base_F;
 	HEADGEAR_HOLDER(H_Shemag_khk,$STR_A3_O_CfgWeapons_H_Shemag_khk0,EdSubcat_Hats)
 	// Arma 3 Opposing Forces
-	HEADGEAR_HOLDER(H_HelmetSpecter_paint_F,$STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0,EdSubcat_Helmets)
-	HEADGEAR_HOLDER(H_HelmetSpecter_paint_headset_F,$STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_Shemag_khk_hs,$STR_A3_O_CfgWeapons_H_Shemag_khk_hs0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Shemag_blk,$STR_A3_O_CfgWeapons_H_Shemag_blk0,EdSubcat_Hats)
 	HEADGEAR_HOLDER(H_Shemag_blk_hs,$STR_A3_O_CfgWeapons_H_Shemag_blk_hs0,EdSubcat_Hats)
