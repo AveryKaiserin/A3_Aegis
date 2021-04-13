@@ -995,7 +995,6 @@ class I_E_Soldier_Exp_F: I_E_Soldier_base_F
 };
 class I_E_soldier_Mine_F: I_E_Soldier_Exp_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_Mine_F.jpg";
 };
 class I_E_Soldier_Repair_F: I_E_Soldier_base_F
 {
@@ -2347,7 +2346,7 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
 class I_E_Soldier_ard_F: I_E_Soldier_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -2380,7 +2379,7 @@ class I_E_Soldier_ard_F: I_E_Soldier_F
 class I_E_Soldier_unarmed_ard_F: I_E_Soldier_unarmed_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_unarmed_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_unarmed_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -2399,7 +2398,7 @@ class I_E_Soldier_unarmed_ard_F: I_E_Soldier_unarmed_F
 class I_E_Soldier_A_ard_F: I_E_Soldier_A_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_A_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_A_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2432,7 +2431,7 @@ class I_E_Soldier_A_ard_F: I_E_Soldier_A_F
 class I_E_Soldier_AAR_ard_F: I_E_Soldier_AAR_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAR_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2467,7 +2466,7 @@ class I_E_Soldier_AAR_ard_F: I_E_Soldier_AAR_F
 class I_E_Soldier_AR_ard_F: I_E_Soldier_AR_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AR_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2500,7 +2499,7 @@ class I_E_Soldier_AR_ard_F: I_E_Soldier_AR_F
 class I_E_Soldier_lite_ard_F: I_E_Soldier_lite_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_lite_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_lite_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
 	linkedItems[] =
@@ -2529,7 +2528,7 @@ class I_E_Soldier_lite_ard_F: I_E_Soldier_lite_F
 class I_E_Soldier_GL_ard_F: I_E_Soldier_GL_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_GL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_GL_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -2562,7 +2561,7 @@ class I_E_Soldier_GL_ard_F: I_E_Soldier_GL_F
 class I_E_soldier_M_ard_F: I_E_Soldier_M_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_M_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_M_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     weapons[] =
@@ -2583,7 +2582,7 @@ class I_E_soldier_M_ard_F: I_E_Soldier_M_F
 class I_E_Officer_ard_F: I_E_Officer_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Officer_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Officer_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_officer_F;
 	weapons[] =
@@ -2604,7 +2603,7 @@ class I_E_Officer_ard_F: I_E_Officer_F
 class I_E_Soldier_SL_ard_F: I_E_Soldier_SL_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_SL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_SL_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2639,7 +2638,7 @@ class I_E_Soldier_SL_ard_F: I_E_Soldier_SL_F
 class I_E_Soldier_TL_ard_F: I_E_Soldier_TL_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_TL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_TL_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -2674,7 +2673,7 @@ class I_E_Soldier_TL_ard_F: I_E_Soldier_TL_F
 class I_E_RadioOperator_ard_F: I_E_RadioOperator_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_RadioOperator_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_RadioOperator_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2707,7 +2706,7 @@ class I_E_RadioOperator_ard_F: I_E_RadioOperator_F
 class I_E_Soldier_AA_ard_F: I_E_Soldier_AA_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AA_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AA_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -2742,7 +2741,7 @@ class I_E_Soldier_AA_ard_F: I_E_Soldier_AA_F
 class I_E_Soldier_AT_ard_F: I_E_Soldier_AT_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AT_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -2777,7 +2776,7 @@ class I_E_Soldier_AT_ard_F: I_E_Soldier_AT_F
 class I_E_Soldier_LAT_ard_F: I_E_Soldier_LAT_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_LAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_LAT_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -2812,7 +2811,7 @@ class I_E_Soldier_LAT_ard_F: I_E_Soldier_LAT_F
 class I_E_Soldier_LAT2_ard_F: I_E_Soldier_LAT2_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_LAT2_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_LAT2_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -2847,7 +2846,7 @@ class I_E_Soldier_LAT2_ard_F: I_E_Soldier_LAT2_F
 class I_E_Soldier_AAA_ard_F: I_E_Soldier_AAA_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAA_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAA_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2898,7 +2897,7 @@ class I_E_Soldier_AAA_ard_F: I_E_Soldier_AAA_F
 class I_E_Soldier_AAT_ard_F: I_E_Soldier_AAT_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_AAT_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2949,7 +2948,7 @@ class I_E_Soldier_AAT_ard_F: I_E_Soldier_AAT_F
 class I_E_Support_GMG_ard_F: I_E_Support_GMG_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_GMG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_GMG_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -2998,7 +2997,7 @@ class I_E_Support_GMG_ard_F: I_E_Support_GMG_F
 class I_E_Support_MG_ard_F: I_E_Support_MG_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_MG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_MG_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3047,7 +3046,7 @@ class I_E_Support_MG_ard_F: I_E_Support_MG_F
 class I_E_Support_Mort_ard_F: I_E_Support_Mort_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_Mort_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_Mort_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -3096,7 +3095,7 @@ class I_E_Support_Mort_ard_F: I_E_Support_Mort_F
 class I_E_Support_AMG_ard_F: I_E_Support_AMG_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_AMG_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_AMG_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3145,7 +3144,7 @@ class I_E_Support_AMG_ard_F: I_E_Support_AMG_F
 class I_E_Support_AMort_ard_F: I_E_Support_AMort_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_AMort_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Support_AMort_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3194,7 +3193,7 @@ class I_E_Support_AMort_ard_F: I_E_Support_AMort_F
 class I_E_Engineer_ard_F: I_E_Engineer_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Engineer_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Engineer_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -3243,7 +3242,7 @@ class I_E_Engineer_ard_F: I_E_Engineer_F
 class I_E_Soldier_Exp_ard_F: I_E_Soldier_Exp_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_Exp_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_Exp_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
     linkedItems[] =
@@ -3292,7 +3291,7 @@ class I_E_Soldier_Exp_ard_F: I_E_Soldier_Exp_F
 class I_E_soldier_Mine_ard_F: I_E_soldier_Mine_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_Mine_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_Mine_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -3325,7 +3324,7 @@ class I_E_soldier_Mine_ard_F: I_E_soldier_Mine_F
 class I_E_Soldier_Repair_ard_F: I_E_Soldier_Repair_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_Repair_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_Repair_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_F;
     linkedItems[] =
@@ -3358,7 +3357,7 @@ class I_E_Soldier_Repair_ard_F: I_E_Soldier_Repair_F
 class I_E_Medic_ard_F: I_E_Medic_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Medic_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Medic_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3391,7 +3390,7 @@ class I_E_Medic_ard_F: I_E_Medic_F
 class I_E_Crew_ard_F: I_E_Crew_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Crew_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Crew_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3439,7 +3438,7 @@ class I_E_Crew_ard_F: I_E_Crew_F
 class I_E_Helipilot_ard_F: I_E_Helipilot_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Helipilot_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Helipilot_ard_F.jpg";
     faction = IND_E_ard_F;
     weapons[] =
     {
@@ -3457,7 +3456,7 @@ class I_E_Helipilot_ard_F: I_E_Helipilot_F
 class I_E_Helicrew_ard_F: I_E_Helicrew_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Helicrew_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Helicrew_ard_F.jpg";
     faction = IND_E_ard_F;
 	weapons[] =
     {
@@ -3473,7 +3472,7 @@ class I_E_Helicrew_ard_F: I_E_Helicrew_F
 class I_E_Soldier_UAV_ard_F: I_E_Soldier_UAV_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_UAV_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_UAV_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3508,7 +3507,7 @@ class I_E_Soldier_UAV_ard_F: I_E_Soldier_UAV_F
 class I_E_soldier_UAV_06_ard_F: I_E_soldier_UAV_06_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3543,7 +3542,7 @@ class I_E_soldier_UAV_06_ard_F: I_E_soldier_UAV_06_F
 class I_E_soldier_UAV_06_medical_ard_F: I_E_soldier_UAV_06_medical_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3578,7 +3577,7 @@ class I_E_soldier_UAV_06_medical_ard_F: I_E_soldier_UAV_06_medical_F
 class I_E_soldier_UGV_02_Science_ard_F: I_E_soldier_UGV_02_Science_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Science_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Science_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3613,7 +3612,7 @@ class I_E_soldier_UGV_02_Science_ard_F: I_E_soldier_UGV_02_Science_F
 class I_E_soldier_UGV_02_Demining_ard_F: I_E_soldier_UGV_02_Demining_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Demining_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Demining_ard_F.jpg";
     faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3681,7 +3680,7 @@ class I_E_Soldier_universal_ard_F: I_E_Soldier_universal_F
 class I_E_Soldier_CQ_ard_F: I_E_Soldier_CQ_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_CQ_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Soldier_CQ_ard_F.jpg";
 	faction = IND_E_ard_F;
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3749,7 +3748,7 @@ class I_E_JTAC_ard_F: I_E_JTAC_F
 class I_E_recon_AR_ard_F: I_E_recon_AR_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_AR_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
 	linkedItems[] =
@@ -3782,7 +3781,7 @@ class I_E_recon_AR_ard_F: I_E_recon_AR_F
 class I_E_recon_exp_ard_F: I_E_recon_exp_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_exp_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
@@ -3815,7 +3814,7 @@ class I_E_recon_exp_ard_F: I_E_recon_exp_F
 class I_E_recon_GL_ard_F: I_E_recon_GL_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_GL_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -3848,7 +3847,7 @@ class I_E_recon_GL_ard_F: I_E_recon_GL_F
 class I_E_recon_JTAC_ard_F: I_E_recon_JTAC_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_JTAC_ard_F.jpg";
 	faction = IND_E_ard_F;
 	//uniformClass = U_I_E_Uniform_01_sweater_F;
 	linkedItems[] =
@@ -3883,7 +3882,7 @@ class I_E_recon_JTAC_ard_F: I_E_recon_JTAC_F
 class I_E_recon_M_ard_F: I_E_recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_M_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -3918,7 +3917,7 @@ class I_E_recon_M_ard_F: I_E_recon_M_F
 class I_E_recon_medic_ard_F: I_E_recon_medic_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_medic_ard_F.jpg";
 	faction = IND_E_ard_F;
 	//uniformClass = U_I_L_Uniform_01_deserter_F;
 	linkedItems[] =
@@ -3951,7 +3950,7 @@ class I_E_recon_medic_ard_F: I_E_recon_medic_F
 class I_E_recon_ard_F: I_E_recon_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -3986,7 +3985,7 @@ class I_E_recon_ard_F: I_E_recon_F
 class I_E_recon_LAT_ard_F: I_E_recon_LAT_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_LAT_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
@@ -4021,7 +4020,7 @@ class I_E_recon_LAT_ard_F: I_E_recon_LAT_F
 class I_E_recon_TL_ard_F: I_E_recon_TL_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_recon_TL_ard_F.jpg";
 	faction = IND_E_ard_F;
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
