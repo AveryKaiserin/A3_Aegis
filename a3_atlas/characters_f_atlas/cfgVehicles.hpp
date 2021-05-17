@@ -9,6 +9,11 @@ class CfgVehicles
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
+    class B_Soldier_base_F: SoldierWB
+    {
+        class EventHandlers;
+    };
+    class B_Soldier_F: B_Soldier_base_F{};
 
     /* Factions */
     #include "cfgOPFOR.hpp"     // Belarus
@@ -19,6 +24,7 @@ class CfgVehicles
     class I_soldier_F: I_Soldier_base_F{};
     class I_pilot_F;
     #include "cfgCivil.hpp"     // Civilians
+    #include "cfgADF.hpp"       // Australia
     #include "cfgViper.hpp"     // Viper
     #include "cfgLegion.hpp"    // Legionnaires
 	#include "cfgGER.hpp"		// Bundeswehr

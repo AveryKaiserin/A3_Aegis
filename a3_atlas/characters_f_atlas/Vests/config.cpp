@@ -16,6 +16,7 @@ class CfgWeapons
 	class V_PlateCarrierIA2_dgtl;
 	class V_PlateCarrierIAGL_dgtl;
 	class V_RebreatherB;
+	class V_PlateCarrier_Kerry;
 	// Arma 3 Enoch
 	class V_CarrierRigKBT_01_base_F;
 	class V_CarrierRigKBT_01_light_base_F;
@@ -23,6 +24,27 @@ class CfgWeapons
 	class V_SmershVest_01_base_F;
 	class V_SmershVest_01_radio_base_F;
 	// Arma 3 Atlas
+	class V_PlateCarrier1_ADF_Tropic: V_PlateCarrier_Kerry
+	{
+		author = $STR_A3_A_Abb0tt;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier1_rgr_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Tropic0;
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\V_PlateCarrier1_ADF_Tropic_CO.paa"};
+	};
+	class V_PlateCarrier1_ADF_Woodland: V_PlateCarrier_Kerry
+	{
+		author = $STR_A3_A_Abb0tt;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier1_rgr_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Woodland0;
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\V_PlateCarrier1_ADF_Woodland_CO.paa"};
+	};
+	class V_PlateCarrier1_ADF_Arid: V_PlateCarrier_Kerry
+	{
+		author = $STR_A3_A_Abb0tt;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier1_rgr_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Arid0;
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\V_PlateCarrier1_ADF_Arid_CO.paa"};
+	};
 	class V_HarnessO_tan: V_HarnessO_gry
 	{
 		author = $STR_A3_A_AveryTheKitty;

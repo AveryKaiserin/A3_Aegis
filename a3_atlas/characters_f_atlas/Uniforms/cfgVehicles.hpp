@@ -62,14 +62,12 @@ class CfgVehicles
     // Takistani Army
 	UNIFORM_HOLDER(Atlas_U_O_CombatUniform_semiarid,$STR_A3_A_CfgWeapons_U_O_CombatUniform_semiarid0)
 	UNIFORM_HOLDER(Atlas_U_O_officer_noInsignia_semiarid_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_semiarid_F0)
-    /*
 	// ANZAC
 	UNIFORM_HOLDER(Atlas_U_B_A_CombatUniform_aucamo,$STR_A3_A_CfgWeapons_U_B_A_CombatUniform_aucamo0)
 	UNIFORM_HOLDER(Atlas_U_B_A_CombatUniform_shortsleeve_aucamo,$STR_A3_A_CfgWeapons_U_B_A_CombatUniform_shortsleeve_aucamo0)
 	UNIFORM_HOLDER(Atlas_U_B_A_PilotCoveralls,$STR_A3_A_CfgWeapons_U_B_A_PilotCoveralls0)
 	UNIFORM_HOLDER(Atlas_U_B_A_Wetsuit,$STR_A3_A_CfgWeapons_U_B_A_Wetsuit0)
 	UNIFORM_HOLDER(Atlas_U_B_A_CBRN_Suit_01_Aucamo_F,$STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_Aucamo_F0)
-    */
 	// HIMF
 	UNIFORM_HOLDER(Atlas_U_B_H_Soldier_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_F0)
 	UNIFORM_HOLDER(Atlas_U_B_H_Soldier_2_F,$STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0)

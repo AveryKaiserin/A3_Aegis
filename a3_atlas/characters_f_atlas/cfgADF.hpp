@@ -15,7 +15,7 @@ class Atlas_B_A_Man_Base_F: B_Soldier_F
 };
 class Atlas_B_A_Soldier_base_F: Atlas_B_A_Man_Base_F
 {
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 };
 class Atlas_B_A_Soldier_F: Atlas_B_A_Soldier_base_F
 {
@@ -24,18 +24,18 @@ class Atlas_B_A_Soldier_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -78,14 +78,14 @@ class Atlas_B_A_Soldier_unarmed_F: Atlas_B_A_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -98,17 +98,17 @@ class Atlas_B_A_Soldier_A_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -148,17 +148,17 @@ class Atlas_B_A_Soldier_AAR_F: Atlas_B_A_Soldier_base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_O_SOLDIERU_AAR_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -214,18 +214,18 @@ class Atlas_B_A_Soldier_AR_F: Atlas_B_A_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -267,16 +267,16 @@ class Atlas_B_A_Soldier_lite_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_BAoniehat_khk_hs,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_BAoniehat_khk_hs,
 		DefaultManLinkedItems
 	};
@@ -320,18 +320,18 @@ class Atlas_B_A_Soldier_GL_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -376,17 +376,17 @@ class Atlas_B_A_soldier_M_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -440,7 +440,7 @@ class Atlas_B_A_Officer_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_cbr,
@@ -501,11 +501,11 @@ class Atlas_B_A_Soldier_SL_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -513,7 +513,7 @@ class Atlas_B_A_Soldier_SL_F: Atlas_B_A_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -564,11 +564,11 @@ class Atlas_B_A_Soldier_TL_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -576,7 +576,7 @@ class Atlas_B_A_Soldier_TL_F: Atlas_B_A_Soldier_base_F
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -646,18 +646,18 @@ class Atlas_B_A_RadioOperator_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -708,18 +708,18 @@ class Atlas_B_A_Soldier_AA_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -779,18 +779,18 @@ class Atlas_B_A_Soldier_AT_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -850,18 +850,18 @@ class Atlas_B_A_Soldier_LAT_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -909,17 +909,17 @@ class Atlas_B_A_Soldier_AAA_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -965,17 +965,17 @@ class Atlas_B_A_Soldier_AAT_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1021,7 +1021,7 @@ class Atlas_B_A_Support_GMG_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_GMG_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_ChestrigF_rgr,
@@ -1075,7 +1075,7 @@ class Atlas_B_A_Support_MG_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_MG_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_ChestrigF_rgr,
@@ -1129,7 +1129,7 @@ class Atlas_B_A_Support_Mort_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_ChestrigF_rgr,
@@ -1183,7 +1183,7 @@ class Atlas_B_A_Support_AMG_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMG_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_ChestrigF_rgr,
@@ -1237,7 +1237,7 @@ class Atlas_B_A_Support_AMort_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMort_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
 		V_ChestrigF_rgr,
@@ -1291,18 +1291,18 @@ class Atlas_B_A_Engineer_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
-		H_HelmetHBK_aucamo_headset_F,
+		V_PlateCarrier1_ADF_Tropic,
+		H_HelmetB_ADF_Tropic,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -1350,17 +1350,17 @@ class Atlas_B_A_Soldier_Exp_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
     linkedItems[] =
     {
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_chops_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_chops_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1416,17 +1416,17 @@ class Atlas_B_A_Soldier_Repair_F: Atlas_B_A_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_Soldier_repair_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
     linkedItems[] =
     {
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1476,7 +1476,7 @@ class Atlas_B_A_Soldier_CBRN_F: Atlas_B_A_Soldier_base_F
 	uniformClass = Atlas_U_B_A_CBRN_Suit_01_Aucamo_F;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
@@ -1484,7 +1484,7 @@ class Atlas_B_A_Soldier_CBRN_F: Atlas_B_A_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
@@ -1548,17 +1548,17 @@ class Atlas_B_A_Medic_F: Atlas_B_A_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1605,17 +1605,17 @@ class Atlas_B_A_Crew_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -1669,7 +1669,7 @@ class Atlas_B_A_Helipilot_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
     linkedItems[] =
     {
 		V_TacVest_oli,
@@ -1734,7 +1734,7 @@ class Atlas_B_A_Helicrew_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
-	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+	uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
     linkedItems[] =
     {
 		V_TacVest_oli,
@@ -1786,10 +1786,10 @@ class Atlas_B_A_Soldier_UAV_F: Atlas_B_A_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
-    uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
+    uniformClass = Atlas_U_B_A_CombatUniform_ADF_Tropic;
 	linkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
         B_UavTerminal,
 		DefaultManLinkedItems,
@@ -1797,7 +1797,7 @@ class Atlas_B_A_Soldier_UAV_F: Atlas_B_A_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_aucamo_F,
+		V_PlateCarrier1_ADF_Tropic,
 		H_HelmetHBK_aucamo_F,
         B_UavTerminal,
 		DefaultManLinkedItems,

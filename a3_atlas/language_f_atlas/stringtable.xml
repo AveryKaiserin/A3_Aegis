@@ -487,6 +487,57 @@
 		</Container>
 		<Container name="Characters_F">
 			<Container name="Headgear">
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_ADF_Tropic0">
+					<Original>Light Combat Helmet (Tropic) [ADF]</Original>
+					<Chinese>Light Combat Helmet (Tropic) [ADF]</Chinese>
+					<French>Light Combat Helmet (Tropic) [ADF]</French>
+					<Spanish>Light Combat Helmet (Tropic) [ADF]</Spanish>
+					<Italian>Light Combat Helmet (Tropic) [ADF]</Italian>
+					<Polish>Light Combat Helmet (Tropic) [ADF]</Polish>
+					<Russian>Light Combat Helmet (Tropic) [ADF]</Russian>
+					<German>Light Combat Helmet (Tropic) [ADF]</German>
+					<Czech>Light Combat Helmet (Tropic) [ADF]</Czech>
+					<English>Light Combat Helmet (Tropic) [ADF]</English>
+					<Portuguese>Light Combat Helmet (Tropic) [ADF]</Portuguese>
+					<Korean>Light Combat Helmet (Tropic) [ADF]</Korean>
+					<Chinesesimp>Light Combat Helmet (Tropic) [ADF]</Chinesesimp>
+					<Japanese>Light Combat Helmet (Tropic) [ADF]</Japanese>
+					<Turkish>Light Combat Helmet (Tropic) [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_ADF_Woodland0">
+					<Original>Light Combat Helmet (Woodland) [ADF]</Original>
+					<Chinese>Light Combat Helmet (Woodland) [ADF]</Chinese>
+					<French>Light Combat Helmet (Woodland) [ADF]</French>
+					<Spanish>Light Combat Helmet (Woodland) [ADF]</Spanish>
+					<Italian>Light Combat Helmet (Woodland) [ADF]</Italian>
+					<Polish>Light Combat Helmet (Woodland) [ADF]</Polish>
+					<Russian>Light Combat Helmet (Woodland) [ADF]</Russian>
+					<German>Light Combat Helmet (Woodland) [ADF]</German>
+					<Czech>Light Combat Helmet (Woodland) [ADF]</Czech>
+					<English>Light Combat Helmet (Woodland) [ADF]</English>
+					<Portuguese>Light Combat Helmet (Woodland) [ADF]</Portuguese>
+					<Korean>Light Combat Helmet (Woodland) [ADF]</Korean>
+					<Chinesesimp>Light Combat Helmet (Woodland) [ADF]</Chinesesimp>
+					<Japanese>Light Combat Helmet (Woodland) [ADF]</Japanese>
+					<Turkish>Light Combat Helmet (Woodland) [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_ADF_Arid0">
+					<Original>Light Combat Helmet (Arid) [ADF]</Original>
+					<Chinese>Light Combat Helmet (Arid) [ADF]</Chinese>
+					<French>Light Combat Helmet (Arid) [ADF]</French>
+					<Spanish>Light Combat Helmet (Arid) [ADF]</Spanish>
+					<Italian>Light Combat Helmet (Arid) [ADF]</Italian>
+					<Polish>Light Combat Helmet (Arid) [ADF]</Polish>
+					<Russian>Light Combat Helmet (Arid) [ADF]</Russian>
+					<German>Light Combat Helmet (Arid) [ADF]</German>
+					<Czech>Light Combat Helmet (Arid) [ADF]</Czech>
+					<English>Light Combat Helmet (Arid) [ADF]</English>
+					<Portuguese>Light Combat Helmet (Arid) [ADF]</Portuguese>
+					<Korean>Light Combat Helmet (Arid) [ADF]</Korean>
+					<Chinesesimp>Light Combat Helmet (Arid) [ADF]</Chinesesimp>
+					<Japanese>Light Combat Helmet (Arid) [ADF]</Japanese>
+					<Turkish>Light Combat Helmet (Arid) [ADF]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_H_HelmetB_green0">
 					<Original>Combat Helmet (Green)</Original>
 					<Chinese>戰鬥頭盔（綠）</Chinese>
@@ -1254,6 +1305,108 @@
 					<Japanese>戦闘服（セージ、袖まくり）</Japanese>
 					<Turkish>Savaş Asker Kıyafeti (Adaçayı, Kolları Kıvrık)</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Tropic0">
+					<Original>Australian Uniform (Tropic)</Original>
+					<Chinese>Australian Uniform (Tropic)</Chinese>
+					<French>Australian Uniform (Tropic)</French>
+					<Spanish>Australian Uniform (Tropic)</Spanish>
+					<Italian>Australian Uniform (Tropic)</Italian>
+					<Polish>Australian Uniform (Tropic)</Polish>
+					<Russian>Australian Uniform (Tropic)</Russian>
+					<German>Australian Uniform (Tropic)</German>
+					<Czech>Australian Uniform (Tropic)</Czech>
+					<English>Australian Uniform (Tropic)</English>
+					<Portuguese>Australian Uniform (Tropic)</Portuguese>
+					<Korean>Australian Uniform (Tropic)</Korean>
+					<Chinesesimp>Australian Uniform (Tropic)</Chinesesimp>
+					<Japanese>Australian Uniform (Tropic)</Japanese>
+					<Turkish>Australian Uniform (Tropic)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Woodland0">
+					<Original>Australian Uniform (Woodland)</Original>
+					<Chinese>Australian Uniform (Woodland)</Chinese>
+					<French>Australian Uniform (Woodland)</French>
+					<Spanish>Australian Uniform (Woodland)</Spanish>
+					<Italian>Australian Uniform (Woodland)</Italian>
+					<Polish>Australian Uniform (Woodland)</Polish>
+					<Russian>Australian Uniform (Woodland)</Russian>
+					<German>Australian Uniform (Woodland)</German>
+					<Czech>Australian Uniform (Woodland)</Czech>
+					<English>Australian Uniform (Woodland)</English>
+					<Portuguese>Australian Uniform (Woodland)</Portuguese>
+					<Korean>Australian Uniform (Woodland)</Korean>
+					<Chinesesimp>Australian Uniform (Woodland)</Chinesesimp>
+					<Japanese>Australian Uniform (Woodland)</Japanese>
+					<Turkish>Australian Uniform (Woodland)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Arid0">
+					<Original>Australian Uniform (Arid)</Original>
+					<Chinese>Australian Uniform (Arid)</Chinese>
+					<French>Australian Uniform (Arid)</French>
+					<Spanish>Australian Uniform (Arid)</Spanish>
+					<Italian>Australian Uniform (Arid)</Italian>
+					<Polish>Australian Uniform (Arid)</Polish>
+					<Russian>Australian Uniform (Arid)</Russian>
+					<German>Australian Uniform (Arid)</German>
+					<Czech>Australian Uniform (Arid)</Czech>
+					<English>Australian Uniform (Arid)</English>
+					<Portuguese>Australian Uniform (Arid)</Portuguese>
+					<Korean>Australian Uniform (Arid)</Korean>
+					<Chinesesimp>Australian Uniform (Arid)</Chinesesimp>
+					<Japanese>Australian Uniform (Arid)</Japanese>
+					<Turkish>Australian Uniform (Arid)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Tropic_Shortsleeve0">
+					<Original>Australian Uniform (Tropic, Rolled-up)</Original>
+					<Chinese>Australian Uniform (Tropic, Rolled-up)</Chinese>
+					<French>Australian Uniform (Tropic, Rolled-up)</French>
+					<Spanish>Australian Uniform (Tropic, Rolled-up)</Spanish>
+					<Italian>Australian Uniform (Tropic, Rolled-up)</Italian>
+					<Polish>Australian Uniform (Tropic, Rolled-up)</Polish>
+					<Russian>Australian Uniform (Tropic, Rolled-up)</Russian>
+					<German>Australian Uniform (Tropic, Rolled-up)</German>
+					<Czech>Australian Uniform (Tropic, Rolled-up)</Czech>
+					<English>Australian Uniform (Tropic, Rolled-up)</English>
+					<Portuguese>Australian Uniform (Tropic, Rolled-up)</Portuguese>
+					<Korean>Australian Uniform (Tropic, Rolled-up)</Korean>
+					<Chinesesimp>Australian Uniform (Tropic, Rolled-up)</Chinesesimp>
+					<Japanese>Australian Uniform (Tropic, Rolled-up)</Japanese>
+					<Turkish>Australian Uniform (Tropic, Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Woodland_Shortsleeve0">
+					<Original>Australian Uniform (Woodland, Rolled-up)</Original>
+					<Chinese>Australian Uniform (Woodland, Rolled-up)</Chinese>
+					<French>Australian Uniform (Woodland, Rolled-up)</French>
+					<Spanish>Australian Uniform (Woodland, Rolled-up)</Spanish>
+					<Italian>Australian Uniform (Woodland, Rolled-up)</Italian>
+					<Polish>Australian Uniform (Woodland, Rolled-up)</Polish>
+					<Russian>Australian Uniform (Woodland, Rolled-up)</Russian>
+					<German>Australian Uniform (Woodland, Rolled-up)</German>
+					<Czech>Australian Uniform (Woodland, Rolled-up)</Czech>
+					<English>Australian Uniform (Woodland, Rolled-up)</English>
+					<Portuguese>Australian Uniform (Woodland, Rolled-up)</Portuguese>
+					<Korean>Australian Uniform (Woodland, Rolled-up)</Korean>
+					<Chinesesimp>Australian Uniform (Woodland, Rolled-up)</Chinesesimp>
+					<Japanese>Australian Uniform (Woodland, Rolled-up)</Japanese>
+					<Turkish>Australian Uniform (Woodland, Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_A_CombatUniform_ADF_Arid_Shortsleeve0">
+					<Original>Australian Uniform (Arid, Rolled-up)</Original>
+					<Chinese>Australian Uniform (Arid, Rolled-up)</Chinese>
+					<French>Australian Uniform (Arid, Rolled-up)</French>
+					<Spanish>Australian Uniform (Arid, Rolled-up)</Spanish>
+					<Italian>Australian Uniform (Arid, Rolled-up)</Italian>
+					<Polish>Australian Uniform (Arid, Rolled-up)</Polish>
+					<Russian>Australian Uniform (Arid, Rolled-up)</Russian>
+					<German>Australian Uniform (Arid, Rolled-up)</German>
+					<Czech>Australian Uniform (Arid, Rolled-up)</Czech>
+					<English>Australian Uniform (Arid, Rolled-up)</English>
+					<Portuguese>Australian Uniform (Arid, Rolled-up)</Portuguese>
+					<Korean>Australian Uniform (Arid, Rolled-up)</Korean>
+					<Chinesesimp>Australian Uniform (Arid, Rolled-up)</Chinesesimp>
+					<Japanese>Australian Uniform (Arid, Rolled-up)</Japanese>
+					<Turkish>Australian Uniform (Arid, Rolled-up)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_G_CombatUniform_wdl0">
 					<Original>Field Uniform (Woodland)</Original>
 					<Chinese>Field Uniform (Woodland)</Chinese>
@@ -1953,6 +2106,57 @@
 					<Chinesesimp>呼吸器 [IDF]</Chinesesimp>
 					<Japanese>リブリーザー[IDF]</Japanese>
 					<Turkish>Yeniden Solunum Sistemi [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Tropic0">
+					<Original>Carrier Lite (Tropic) [ADF]</Original>
+					<Chinese>Carrier Lite (Tropic) [ADF]</Chinese>
+					<French>Carrier Lite (Tropic) [ADF]</French>
+					<Spanish>Carrier Lite (Tropic) [ADF]</Spanish>
+					<Italian>Carrier Lite (Tropic) [ADF]</Italian>
+					<Polish>Carrier Lite (Tropic) [ADF]</Polish>
+					<Russian>Carrier Lite (Tropic) [ADF]</Russian>
+					<German>Carrier Lite (Tropic) [ADF]</German>
+					<Czech>Carrier Lite (Tropic) [ADF]</Czech>
+					<English>Carrier Lite (Tropic) [ADF]</English>
+					<Portuguese>Carrier Lite (Tropic) [ADF]</Portuguese>
+					<Korean>Carrier Lite (Tropic) [ADF]</Korean>
+					<Chinesesimp>Carrier Lite (Tropic) [ADF]</Chinesesimp>
+					<Japanese>Carrier Lite (Tropic) [ADF]</Japanese>
+					<Turkish>Carrier Lite (Tropic) [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Woodland0">
+					<Original>Carrier Lite (Woodland) [ADF]</Original>
+					<Chinese>Carrier Lite (Woodland) [ADF]</Chinese>
+					<French>Carrier Lite (Woodland) [ADF]</French>
+					<Spanish>Carrier Lite (Woodland) [ADF]</Spanish>
+					<Italian>Carrier Lite (Woodland) [ADF]</Italian>
+					<Polish>Carrier Lite (Woodland) [ADF]</Polish>
+					<Russian>Carrier Lite (Woodland) [ADF]</Russian>
+					<German>Carrier Lite (Woodland) [ADF]</German>
+					<Czech>Carrier Lite (Woodland) [ADF]</Czech>
+					<English>Carrier Lite (Woodland) [ADF]</English>
+					<Portuguese>Carrier Lite (Woodland) [ADF]</Portuguese>
+					<Korean>Carrier Lite (Woodland) [ADF]</Korean>
+					<Chinesesimp>Carrier Lite (Woodland) [ADF]</Chinesesimp>
+					<Japanese>Carrier Lite (Woodland) [ADF]</Japanese>
+					<Turkish>Carrier Lite (Woodland) [ADF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Arid0">
+					<Original>Carrier Lite (Arid) [ADF]</Original>
+					<Chinese>Carrier Lite (Arid) [ADF]</Chinese>
+					<French>Carrier Lite (Arid) [ADF]</French>
+					<Spanish>Carrier Lite (Arid) [ADF]</Spanish>
+					<Italian>Carrier Lite (Arid) [ADF]</Italian>
+					<Polish>Carrier Lite (Arid) [ADF]</Polish>
+					<Russian>Carrier Lite (Arid) [ADF]</Russian>
+					<German>Carrier Lite (Arid) [ADF]</German>
+					<Czech>Carrier Lite (Arid) [ADF]</Czech>
+					<English>Carrier Lite (Arid) [ADF]</English>
+					<Portuguese>Carrier Lite (Arid) [ADF]</Portuguese>
+					<Korean>Carrier Lite (Arid) [ADF]</Korean>
+					<Chinesesimp>Carrier Lite (Arid) [ADF]</Chinesesimp>
+					<Japanese>Carrier Lite (Arid) [ADF]</Japanese>
+					<Turkish>Carrier Lite (Arid) [ADF]</Turkish>
 				</Key>
 			</Container>
 		</Container>

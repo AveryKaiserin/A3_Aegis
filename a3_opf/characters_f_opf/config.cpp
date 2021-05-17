@@ -9,8 +9,9 @@ class CfgVehicles
 	#include "cfgPara.hpp"              // Paramilitary
 	#include "cfgChKDZ.hpp"             // Separatists
 	#include "cfgTKM.hpp"               // Insurgents
-    /*
+    
 	#include "cfgMilitia.hpp"           // Patriots
+	/*
 	#include "cfgRebels.hpp"            // Rebels
     */
     #include "cfgUniforms.hpp"
