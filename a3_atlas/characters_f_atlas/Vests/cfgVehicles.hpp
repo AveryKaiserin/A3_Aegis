@@ -18,6 +18,9 @@ class CfgVehicles
 {
 	class Vest_Base_F;
 	// Arma 3 Atlas
+	VEST_HOLDER(V_PlateCarrier1_ADF_Tropic,$STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Tropic0)
+	VEST_HOLDER(V_PlateCarrier1_ADF_Woodland,$STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Woodland0)
+	VEST_HOLDER(V_PlateCarrier1_ADF_Arid,$STR_A3_A_CfgWeapons_V_PlateCarrier1_ADF_Arid0)
 	VEST_HOLDER(V_HarnessO_tan,$STR_A3_A_CfgWeapons_V_HarnessO_tan0)
 	VEST_HOLDER(V_HarnessOGL_tan,$STR_A3_A_CfgWeapons_V_HarnessOGL_tan0)
 	VEST_HOLDER(V_HarnessO_whex_F,$STR_A3_A_CfgWeapons_V_HarnessO_whex_F0)
