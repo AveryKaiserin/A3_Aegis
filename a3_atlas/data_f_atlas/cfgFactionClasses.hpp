@@ -56,14 +56,6 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_H_CA.paa";
 		flag = "\A3\Data_F_Exp\Flags\flag_Tanoa_CO.paa";
 	};
-	class Atlas_BLU_M_F
-	{
-		displayName = "Marar";
-		priority = 3;
-		side = TWest;
-		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_TKA_CA.paa";
-		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Marar_CO.paa";
-	};
     /*
 	class Atlas_BLU_J_F
 	{

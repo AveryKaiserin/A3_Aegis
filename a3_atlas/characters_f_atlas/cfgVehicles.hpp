@@ -27,7 +27,6 @@ class CfgVehicles
     #include "cfgIDF.hpp"       // IDF
     #include "cfgUNO.hpp"       // UNO
     #include "cfgVenezuela.hpp" // Venezuela
-    #include "cfgMarar.hpp"     //Marar
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

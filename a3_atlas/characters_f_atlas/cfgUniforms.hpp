@@ -329,23 +329,6 @@ class Atlas_B_H_CombatFatigues_01_TankTop_jungle_F: I_E_Uniform_01_tanktop_F
 		};
 	};
 };
-class Atlas_B_H_CombatFatigues_Commando_F: I_soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Atlas_U_B_H_Commando_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Commando_F_CO.paa"};
-	modelSides[] = {TFriendly};
-};
-class I_soldier_lite_F;
-class Atlas_B_H_CombatFatigues_RolledUp_Commando_F: I_soldier_lite_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Atlas_U_B_H_Commando_2_F;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Commando_F_CO.paa"};
-	modelSides[] = {TFriendly};
-};
 class Atlas_B_H_CombatFatigues_01_RolledUp_jungle_F: I_E_Uniform_01_shortsleeve_F
 {
   	scope = protected;
@@ -388,6 +371,7 @@ class Atlas_I_I_CombatFatigues_01_olive_F: I_soldier_F
 	uniformClass = Atlas_U_I_I_CombatUniform_olive;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\I_I_Soldier_01_CO.paa"};
 };
+class I_soldier_lite_F;
 class Atlas_I_I_CombatFatigues_01_RolledUp_olive_F: I_soldier_lite_F
 {
   	scope = protected;
@@ -475,30 +459,4 @@ class Atlas_O_VZ_Officer_oli_CO_F: O_A_Soldier_Base_F
   	scopeCurator = private;
 	uniformClass = Atlas_U_O_VZ_Officer_oli_CO_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_oli_CO.paa"};
-};
-/*Marar*/
-class Atlas_B_M_CombatFatigues_01_des: B_Soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Atlas_U_B_M_CombatUniform_des;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_M_Soldier_01_CO.paa"};
-};
-class Atlas_B_M_CombatFatigues_01_RolledUp_des: B_Soldier_SL_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Atlas_U_B_M_CombatUniform_shortsleeve_des;
-	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_M_Soldier_01_CO.paa"};
-};
-class Atlas_B_M_CombatFatigues_01_Tshirt_des: B_Soldier_AR_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Atlas_U_B_M_CombatUniform_tee_des;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_M_Soldier_01_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\basicbody_marar.paa"
-	};
 };
