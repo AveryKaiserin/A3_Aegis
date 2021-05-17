@@ -328,7 +328,6 @@ class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
-    };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_Stanag_red),
@@ -345,7 +344,7 @@ class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
         0.1     // Air
     };
 };
-/*class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
+class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
 {
     author = $STR_A3_A_BranFlakes;
     //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";

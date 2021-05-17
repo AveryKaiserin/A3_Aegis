@@ -1,7 +1,7 @@
 class B_Carryall_cbr;
 class B_Carryall_CBRExp_F: B_Carryall_cbr
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = "BranFlakes";
 	scope = protected;
 	class TransportMagazines
 	{
@@ -18,7 +18,7 @@ class B_Carryall_CBRExp_F: B_Carryall_cbr
 };
 class B_AssaultPack_marar_medic: B_AssaultPack_marar
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = "BranFlakes";
 	scope = protected;
 	class TransportItems
 	{
