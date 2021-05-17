@@ -89,27 +89,6 @@ class CfgWeapons
 	  	picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetSpecB_light_green_CA.paa";
 	  	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\equip1_green_CO.paa"};
 	};
-	class H_HelmetB_ADF_Tropic: H_HelmetB_light
-	{
-	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetB_ADF_Tropic0;
-	  	picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetB_light_green_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\equip1_ADF_Tropic_CO.paa"};
-	};
-	class H_HelmetB_ADF_Woodland: H_HelmetB_light
-	{
-	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetB_ADF_Woodland0;
-	  	picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetB_light_green_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\equip1_ADF_Woodland_CO.paa"};
-	};
-	class H_HelmetB_ADF_Arid: H_HelmetB_light
-	{
-	  	author = $STR_A3_A_AveryTheKitty;
-		displayName = $STR_A3_A_CfgWeapons_H_HelmetB_ADF_Arid0;
-	  	picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetB_light_green_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\equip1_ADF_Arid_CO.paa"};
-	};
 	class H_O_Helmet_canvas_owcamo: H_HelmetIA
 	{
 	  	author = $STR_A3_A_AveryTheKitty;
