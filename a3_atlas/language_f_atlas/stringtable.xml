@@ -2147,6 +2147,23 @@
 					<Japanese>ドイツ軍</Japanese>
 					<Turkish>Bundeswehr</Turkish>
 				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_M_F0">
+					<Original>Marar</Original>
+					<Chinese>Marar</Chinese>
+					<French>Marar</French>
+					<Spanish>Marar</Spanish>
+					<Italian>Marar</Italian>
+					<Polish>Marar</Polish>
+					<Russian>Marar</Russian>
+					<German>Marar</German>
+					<Czech>Marar</Czech>
+					<English>Marar</English>
+					<Portuguese>Marar</Portuguese>
+					<Korean>Marar</Korean>
+					<Chinesesimp>Marar</Chinesesimp>
+					<Japanese>Marar</Japanese>
+					<Turkish>Marar</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_BLU_G_ard_F0">
 					<Original>Bundeswehr (Arid)</Original>
 					<Chinese>德國聯邦國防軍 (乾燥氣候)</Chinese>
