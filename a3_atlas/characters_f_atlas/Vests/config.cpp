@@ -16,6 +16,7 @@ class CfgWeapons
 	class V_PlateCarrierIA2_dgtl;
 	class V_PlateCarrierIAGL_dgtl;
 	class V_RebreatherB;
+	class V_PlateCarrier2_rgr;
 	// Arma 3 Enoch
 	class V_CarrierRigKBT_01_base_F;
 	class V_CarrierRigKBT_01_light_base_F;
@@ -243,6 +244,16 @@ class CfgWeapons
 		};
 	};
     */
+    class V_PlateCarrier2_snd: V_PlateCarrier2_rgr
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_HarnessO_whex_F_CA.paa";
+		displayName = "Carrier Rig (Sand)";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\vests_sand.paa"
+		};
+	};
 	class V_RebreatherI_I: V_RebreatherB
 	{
 		author = $STR_A3_A_AveryTheKitty;

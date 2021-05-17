@@ -1425,22 +1425,39 @@
 					<Japanese>戦闘服[HIMF]</Japanese>
 					<Turkish>Savaş Asker Kıyafeti [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_2_F0">
-					<Original>Combat Fatigues (Rolled-up) [HIMF]</Original>
-					<Chinese>作戰戰鬥服（捲起）（HIMF）</Chinese>
-					<French>Treillis (manches retroussées) [HIMF]</French>
-					<Spanish>Traje de combate (arremangado) [HIMF]</Spanish>
-					<Italian>Uniforme da combattimento (Maniche arrotolate) [HIMF]</Italian>
-					<Polish>Mundur bojowy (podwinięty) [HIMF]</Polish>
-					<Russian>Полевая форма (закатанными рукавами) [HIMF] </Russian>
-					<German>Kampfanzug (hochgekrempelt) [HIMF]</German>
-					<Czech>Bojová uniforma (vyhrnutá) [HIMF]</Czech>
-					<English>Combat Fatigues (Rolled-up) [HIMF]</English>
-					<Portuguese>Uniforme de combate (Manga dobrada) [HIMF]</Portuguese>
-					<Korean>전투 퍼티그 (롤업) [HIMF]</Korean>
-					<Chinesesimp>作战服（卷起）[HIMF]</Chinesesimp>
-					<Japanese>戦闘服（ロールアップ）[HIMF]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Kolları Kıvrık) [HIMF]</Turkish>
+					<Key ID="STR_A3_A_CfgWeapons_U_B_H_Commando_F0">
+					<Original>Commando Fatigues [HIMF]</Original>
+					<Chinese>Commando Fatigues [HIMF]</Chinese>
+					<French>Commando Fatigues [HIMF]</French>
+					<Spanish>Commando Fatigues [HIMF]</Spanish>
+					<Italian>Commando Fatigues [HIMF]</Italian>
+					<Polish>Commando Fatigues [HIMF]</Polish>
+					<Russian>Commando Fatigues [HIMF]</Russian>
+					<German>Commando Fatigues [HIMF]</German>
+					<Czech>Commando Fatigues [HIMF]</Czech>
+					<English>Commando Fatigues [HIMF]</English>
+					<Portuguese>Commando Fatigues [HIMF]</Portuguese>
+					<Korean>Commando Fatigues [HIMF]</Korean>
+					<Chinesesimp>Commando Fatigues [HIMF]</Chinesesimp>
+					<Japanese>Commando Fatigues [HIMF]</Japanese>
+					<Turkish>Commando Fatigues [HIMF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Commando_2_F0">
+					<Original>Commando Fatigues (Rolled-up) [HIMF]</Original>
+					<Chinese>Commando Fatigues (Rolled-up) [HIMF]</Chinese>
+					<French>Commando Fatigues (Rolled-up) [HIMF]</French>
+					<Spanish>Commando Fatigues (Rolled-up) [HIMF]</Spanish>
+					<Italian>Commando Fatigues (Rolled-up) [HIMF]</Italian>
+					<Polish>Commando Fatigues (Rolled-up) [HIMF]</Polish>
+					<Russian>Commando Fatigues (Rolled-up) [HIMF]</Russian>
+					<German>Commando Fatigues (Rolled-up) [HIMF]</German>
+					<Czech>Commando Fatigues (Rolled-up) [HIMF]</Czech>
+					<English>Commando Fatigues (Rolled-up) [HIMF]</English>
+					<Portuguese>Commando Fatigues (Rolled-up) [HIMF]</Portuguese>
+					<Korean>Commando Fatigues (Rolled-up) [HIMF]</Korean>
+					<Chinesesimp>Commando Fatigues (Rolled-up) [HIMF]</Chinesesimp>
+					<Japanese>Commando Fatigues (Rolled-up) [HIMF]</Japanese>
+					<Turkish>Commando Fatigues (Rolled-up) [HIMF]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_H_Soldier_3_F0">
 					<Original>Combat Fatigues (Tank Top) [HIMF]</Original>
@@ -1611,6 +1628,57 @@
 					<Chinesesimp>生化核辐套装（橄榄色）[IDF]</Chinesesimp>
 					<Japanese>CBRN スーツ（Olive）[IDF]</Japanese>
 					<Turkish>KBRN Kıyafeti (Zeytin Yeşili) [IDF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_M_CombatUniform_Marar0">
+					<Original>Combat Fatigues [Marar]</Original>
+					<Chinese>作戰戰鬥服 [Marar]</Chinese>
+					<French>Treillis [Marar]</French>
+					<Spanish>Traje de combate [Marar]</Spanish>
+					<Italian>Uniforme da combattimento [Marar]</Italian>
+					<Polish>Mundur bojowy [Marar]</Polish>
+					<Russian>Боевая форма [Marar]</Russian>
+					<German>Kampfanzug [Marar]</German>
+					<Czech>Bojová uniforma [Marar]</Czech>
+					<English>Combat Fatigues [Marar]</English>
+					<Portuguese>Uniforme de combate [Marar]</Portuguese>
+					<Korean>전투병 전투복[Marar]</Korean>
+					<Chinesesimp>作战服 [Marar]</Chinesesimp>
+					<Japanese>戦闘服[Marar]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti [Marar]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_M_CombatUniform_shortsleeve_Marar0">
+					<Original>Combat Fatigues (Rolled-up) [Marar]</Original>
+					<Chinese>作戰戰鬥服 (Rolled-up) [Marar]</Chinese>
+					<French>Treillis (Rolled-up) [Marar]</French>
+					<Spanish>Traje de combate (Rolled-up) [Marar]</Spanish>
+					<Italian>Uniforme da combattimento (Rolled-up) [Marar]</Italian>
+					<Polish>Mundur bojowy (Rolled-up) [Marar]</Polish>
+					<Russian>Боевая форма (Rolled-up) [Marar]</Russian>
+					<German>Kampfanzug (Rolled-up) [Marar]</German>
+					<Czech>Bojová uniforma (Rolled-up) [Marar]</Czech>
+					<English>Combat Fatigues (Rolled-up) [Marar]</English>
+					<Portuguese>Uniforme de combate (Rolled-up) [Marar]</Portuguese>
+					<Korean>전투병 전투복 (Rolled-up) [Marar]</Korean>
+					<Chinesesimp>作战服 (Rolled-up) [Marar]</Chinesesimp>
+					<Japanese>戦闘服 (Rolled-up) [Marar]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Rolled-up) [Marar]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgWeapons_U_B_M_CombatUniform_tee_Marar0">
+					<Original>Combat Fatigues (Tee) [Marar]</Original>
+					<Chinese>作戰戰鬥服 (Tee) [Marar]</Chinese>
+					<French>Treillis (Tee) [Marar]</French>
+					<Spanish>Traje de combate (Tee) [Marar]</Spanish>
+					<Italian>Uniforme da combattimento (Tee) [Marar]</Italian>
+					<Polish>Mundur bojowy (Tee) [Marar]</Polish>
+					<Russian>Боевая форма (Tee) [Marar]</Russian>
+					<German>Kampfanzug (Tee) [Marar]</German>
+					<Czech>Bojová uniforma (Tee) [Marar]</Czech>
+					<English>Combat Fatigues (Tee) [Marar]</English>
+					<Portuguese>Uniforme de combate (Tee) [Marar]</Portuguese>
+					<Korean>전투병 전투복 (Tee) [Marar]</Korean>
+					<Chinesesimp>作战服 (Tee) [Marar]</Chinesesimp>
+					<Japanese>戦闘服 (Tee) [Marar]</Japanese>
+					<Turkish>Savaş Asker Kıyafeti (Tee) [Marar]</Turkish>
 				</Key>
 			</Container>
 			<Container name="Vests">
@@ -2282,6 +2350,23 @@
                     <Chinesesimp>委内瑞拉</Chinesesimp>
                     <Japanese>ベネズエラ</Japanese>
                     <Turkish>Venezuela</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgFactionClasses_BLU_M_F1">
+                    <Original>Marar</Original>
+                    <Chinese>Marar</Chinese>
+                    <French>Marar</French>
+                    <Spanish>Marar</Spanish>
+                    <Italian>Marar</Italian>
+                    <Polish>Marar</Polish>
+                    <Russian>Marar</Russian>
+                    <German>Marar</German>
+                    <Czech>Marar</Czech>
+                    <English>Takistani Army</English>
+                    <Portuguese>Marar</Portuguese>
+                    <Korean>Marar</Korean>
+                    <Chinesesimp>Marar</Chinesesimp>
+                    <Japanese>Marar</Japanese>
+                    <Turkish>Marar</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgFactionClasses_IND_C_F0">
 					<Original>CDF</Original>
