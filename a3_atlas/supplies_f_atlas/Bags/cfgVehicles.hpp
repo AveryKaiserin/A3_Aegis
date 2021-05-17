@@ -162,6 +162,14 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_ViperLightHarness_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\Backpack_ViperOp_whex_CO.paa"};
 	};
+	class B_AssaultPack_marar: B_AssaultPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = "BranFlakes";
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_flecktarn_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_marar_CO.paa"};
+	};
 
 	/* Factions */
     #include "cfgOPFOR.hpp"     // Belarus
@@ -172,4 +180,5 @@ class CfgVehicles
 	#include "cfgHIMF.hpp"      // HIMF
 	#include "cfgIDF.hpp"       // IDF
 	#include "cfgVenezuela.hpp" //Venezuela
+	#include "cfgMarar.hpp"		//Marar
 };
