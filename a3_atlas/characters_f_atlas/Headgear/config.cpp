@@ -513,6 +513,30 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Hat_Pakol_tan_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_Hat_Pakol_01_tan_CO.paa"};
 	};
+		class H_HelmetHBK_commando_F: H_HelmetHBK_base_F
+	{
+		author = "BranFlakes";
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetHBK_commando_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetHBK_01_commando_CO.paa"};
+	};
+	class H_HelmetHBK_commando_headset_F: H_HelmetHBK_headset_base_F
+	{
+		author = "BranFlakes";
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetHBK_commando_headset_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetHBK_01_commando_CO.paa"};
+	};
+	class H_HelmetHBK_commando_ear_F: H_HelmetHBK_ear_base_F
+	{
+		author = "BranFlakes";
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetHBK_commando_ear_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetHBK_01_commando_CO.paa"};
+	};
     // Deprecated classes
     #include "deprecated.hpp"
 };

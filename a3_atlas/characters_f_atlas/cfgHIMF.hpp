@@ -867,3 +867,56 @@ class Atlas_B_H_Soldier_unarmed_F: Atlas_B_H_Soldier_F
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
+class Atlas_B_H_Soldier_commando_F: Atlas_B_H_Soldier_Base_F
+{
+	author = "BranFlakes";
+	displayName = "Recon Scout";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_H_Soldier_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	cost = 100000;
+	uniformClass = Atlas_U_B_H_Soldier_commando_F;
+	editorsubcategory = EdSubcat_Personnel_commandos;
+	weapons[] =
+	{
+		arifle_SPAR_01_khk_mrco_snds_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_SPAR_01_khk_mrco_snds_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+        mag_10(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+	};
+	respawnMagazines[] =
+	{
+        mag_10(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_oli,
+		H_HelmetHBK_commando_F,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_oli,
+		H_HelmetHBK_commando_F,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+};

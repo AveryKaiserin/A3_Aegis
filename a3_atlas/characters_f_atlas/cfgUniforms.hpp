@@ -486,3 +486,33 @@ class Atlas_B_M_CombatFatigues_01_Tshirt_des: B_Soldier_AR_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\basicbody_marar.paa"
 	};
 };
+class Atlas_B_M_CBRN_Man_Oversuit_01_Marar_F: B_CBRN_Man_Oversuit_01_MTP_F
+{
+	author = "BranFlakes";
+	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_M_CBRN_Suit_01_Marar_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_M_cbrn.paa"};
+};
+class Atlas_B_M_Coveralls_01_F: I_Story_Crew_F
+{
+	author = "BranFlakes";
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_M_Tank_Marar_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_M_coveralls.paa"};
+};
+class Atlas_B_H_CombatFatigues_01_Commando_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_B_H_CombatFatigues_01_Commando_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Commando_F_CO.paa"};
+};
+class Atlas_B_H_CombatFatigues_01_RolledUp_Commando_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_H_Soldier_commando_shortsleeve_F;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_B_H_Commando_F_CO.paa"};
+};

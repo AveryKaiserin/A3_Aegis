@@ -41,4 +41,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "Ammo (UNO)";
 	};
+	class EdSubcat_Personnel_commandos
+	{
+		displayName = "Naval Commandos";
+	};
 };
