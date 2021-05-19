@@ -813,6 +813,10 @@ class Atlas_B_M_Soldier_unarmed_F: Atlas_B_M_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
+    weapons[] = {DefaultManWeapons};
+	respawnWeapons[] = {DefaultManWeapons};
+	magazines[] = {};
+	respawnMagazines[] = {};
     linkedItems[] =
     {
         V_PlateCarrier2_snd,
