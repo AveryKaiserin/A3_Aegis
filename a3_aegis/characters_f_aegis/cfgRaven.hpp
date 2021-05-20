@@ -345,7 +345,7 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	scope = public;
 	displayName = $STR_B_soldier_LAT_F0;
 	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
-	backpack = B_FieldPack_green_IRLAT_F;
+	backpack = B_FieldPack_green_RPG_AT_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
@@ -454,7 +454,7 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	camouflage = 1.6;
 	icon = iconManMedic;
 	role = CombatLifeSaver;
-	backpack = B_FieldPack_green_IRMedic_F;
+	backpack = B_FieldPack_green_Medic_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
@@ -486,7 +486,7 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
-	backpack = B_Carryall_green_IREng_F;
+	backpack = B_Carryall_green_eng_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
@@ -662,4 +662,11 @@ class I_Raven_Soldier_unarmed_F: I_Raven_soldier_F
 	};
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
+};
+class I_Raven_Soldier_helipilot_F: O_R_helipilot_ard_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helipilot_ard_F.jpg";
+	faction = IND_Raven_F;
+	side = TGuerrila;
 };
