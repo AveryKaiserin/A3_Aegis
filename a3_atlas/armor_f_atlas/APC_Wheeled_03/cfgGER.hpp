@@ -199,7 +199,7 @@ class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		verticalOffsetWorld = -0.087;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_APC_Wheeled_03_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -268,7 +268,8 @@ class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	};
 };
 
-/* Bundeswehr (Arid) */
+
+/* Bundeswehr (Arid) 
 class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -488,9 +489,10 @@ class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 		"\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
 
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
 	};
 };
+*/

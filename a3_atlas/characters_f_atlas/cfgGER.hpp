@@ -505,7 +505,7 @@ class Atlas_B_G_Crew_F: B_crew_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_Tank_flecktarn_F;
+	uniformClass = Atlas_U_Tank_wdl_F;
 	weapons[] =
 	{
 		SMG_04_blk_Holo_F,

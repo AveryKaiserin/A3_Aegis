@@ -265,7 +265,7 @@ class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 	};
 };
 
-/* Bundeswehr (Arid) */
+/* Bundeswehr (Arid) 
 class Atlas_B_G_MBT_03_cannon_ard_F: Atlas_B_G_MBT_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -470,9 +470,10 @@ class Atlas_B_G_MBT_03_cannon_ard_F: Atlas_B_G_MBT_03_cannon_F
 		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 	};
 
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
 	};
 };
+*/

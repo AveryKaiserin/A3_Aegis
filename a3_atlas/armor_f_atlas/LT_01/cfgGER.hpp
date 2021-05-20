@@ -281,7 +281,7 @@ class Atlas_B_G_LT_01_cannon_F: LT_01_cannon_base_F
 	};
 };
 
-/* Bundeswehr (Arid) */
+/* Bundeswehr (Arid) 
 class Atlas_B_G_LT_01_AT_ard_F: Atlas_B_G_LT_01_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -298,7 +298,7 @@ class Atlas_B_G_LT_01_AT_ard_F: Atlas_B_G_LT_01_AT_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
@@ -320,7 +320,7 @@ class Atlas_B_G_LT_01_scout_ard_F: Atlas_B_G_LT_01_scout_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 	
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
@@ -342,7 +342,7 @@ class Atlas_B_G_LT_01_AA_ard_F: Atlas_B_G_LT_01_AA_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
@@ -364,7 +364,7 @@ class Atlas_B_G_LT_01_cannon_ard_F: Atlas_B_G_LT_01_cannon_F
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
-	*/
+	
 	textureList[] = {Indep_Olive,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -374,9 +374,10 @@ class Atlas_B_G_LT_01_cannon_ard_F: Atlas_B_G_LT_01_cannon_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 
-    /* Inventory */
+    /* Inventory 
 	class TransportBackpacks
 	{
 		bag_xx(B_AssaultPack_mcamo,2);
 	};
 };
+*/
