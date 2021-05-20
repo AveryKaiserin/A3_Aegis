@@ -1,11 +1,13 @@
 class B_Carryall_cbr;
-class B_Carryall_CBREng_F: B_Carryall_cbr
+class B_Carryall_CBRExp_F: B_Carryall_cbr
 {
 	author = "BranFlakes";
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(HandGrenade,1);
+		mag_xx(APERSBoundingMine_Range_Mag,3);
+		mag_xx(ClaymoreDirectionalMine_Remote_Mag,2);
+		mag_xx(SLAMDirectionalMine_Wire_Mag,2);
 		mag_xx(DemoCharge_Remote_Mag,1);
 	};
 	class TransportItems
@@ -26,7 +28,7 @@ class B_AssaultPack_marar_medic: B_AssaultPack_marar
 };
 class B_AssaultPack_marar_lat: B_AssaultPack_marar
 {
-	author = "BranFlakes";
+	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
 	class TransportMagazines
 	{
@@ -51,5 +53,20 @@ class B_Carryall_CBR_ammo_F: B_Carryall_cbr
 	class TransportItems
 	{
 		item_xx(FirstAidKit,4);
+	};
+};
+class B_AssaultPack_marar_aar: B_AssaultPack_marar
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(200Rnd_556x45_Box_Red_F,3);
+		mag_xx(200Rnd_556x45_Box_Tracer_F,1);
+	};
+	class TransportItems
+	{
+		item_xx(optic_tws_mg,1);
+		item_xx(muzzle_snds_B,1);
 	};
 };

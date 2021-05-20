@@ -1390,21 +1390,21 @@
 					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_Tank_Marar_F0">
-					<Original>Coveralls (Marar)</Original>
-					<Chinese>Coveralls (Marar)</Chinese>
-					<French>Coveralls (Marar)</French>
-					<Spanish>Coveralls (Marar)</Spanish>
-					<Italian>Coveralls (Marar)</Italian>
-					<Polish>Coveralls (Marar)</Polish>
-					<Russian>Coveralls (Marar)</Russian>
-					<German>Coveralls (Marar)</German>
-					<Czech>Coveralls (Marar)</Czech>
-					<English>Coveralls (Marar)</English>
-					<Portuguese>Coveralls (Marar)</Portuguese>
-					<Korean>Coveralls (Marar)</Korean>
-					<Chinesesimp>Coveralls (Marar)</Chinesesimp>
-					<Japanese>Coveralls (Marar)</Japanese>
-					<Turkish>Coveralls (Marar)</Turkish>
+					<Original>Tanker Coveralls (Marar)</Original>
+					<Chinese>戰車連身服 (Marar)</Chinese>
+					<French>Combinaison de tankiste (Marar)</French>
+					<Spanish>Mono de tripulante de tanque (Marar)</Spanish>
+					<Italian>Tuta da carrista (Marar)</Italian>
+					<Polish>Kombinezon czołgisty (Marar)</Polish>
+					<Russian>Комбинезон танкиста (Marar)</Russian>
+					<German>Panzerfahrer-Overalls (Marar)</German>
+					<Czech>Tankistická kombinéza (Marar)</Czech>
+					<English>Tanker Coveralls (Marar)</English>
+					<Portuguese>Macacões de petroleiros (Marar)</Portuguese>
+					<Korean>유조선 비행복 (Marar)</Korean>
+					<Chinesesimp>坦克手服 (Marar)</Chinesesimp>
+					<Japanese>戦車乗員用カバーオール (Marar)</Japanese>
+					<Turkish>Tankçı Tulumu (Marar)</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_marar0">
 					<Original>Combat Fatigues [Marar]</Original>
@@ -3528,22 +3528,6 @@
 					<Japanese>無線機パック（ジャングル）[HIMF]</Japanese>
 					<Turkish>Telsiz Paketi (Orman) [HIMF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_Marar_F0">
-					<Original>Radio Pack [Marar]</Original>
-					<Chinese>無線電背包 [Marar]</Chinese>
-					<French>Sac à dos radio [Marar]</French>
-					<Spanish>Mochila para radio [Marar]</Spanish>
-					<Italian>Zaino per radio [Marar]</Italian>
-					<Polish>Plecak z radiostacją [Marar]</Polish>
-					<Russian>Ранец радиста [Marar]</Russian>
-					<German>Funkrucksack [Marar]</German>
-					<Czech>Batoh s vysílačkou [Marar]</Czech>
-					<English>Radio Pack [Marar]</English>
-					<Portuguese>Pacote de rádio [Marar]</Portuguese>
-					<Korean>무전 팩 (정글) [Marar]</Korean>
-					<Chinesesimp>无线电包 [Marar]</Chinesesimp>
-					<Japanese>無線機パック [Marar]</Japanese>
-					<Turkish>Telsiz Paketi [Marar]</Turkish>
 				<Key ID="STR_A3_A_CfgVehicles_B_Carryall_owcamo0">
 					<Original>Carryall Backpack (Woodland Hex)</Original>
 					<Chinese>全容量大背包（森林六邊形）</Chinese>

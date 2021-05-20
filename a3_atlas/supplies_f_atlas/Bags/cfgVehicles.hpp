@@ -82,22 +82,6 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
-		class B_RadioBag_01_marar_F: B_RadioBag_01_base_F
-	{
-		author = $STR_A3_A_AveryTheKitty;
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_Marar_F0;
-		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_flecktarn_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_Marar_CO.paa"};
-
-		/* TFAR */
-		tf_dialog = bussole_radio_dialog;
-		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode = tf_west_radio_code;
-		tf_hasLRradio = true;
-		tf_range = 20000;
-		tf_subtype = digital_lr;
-	};
 	class B_AssaultPack_flecktarn: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;

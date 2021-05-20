@@ -286,6 +286,64 @@ class Atlas_B_M_M_F: Atlas_B_M_Soldier_Base_F
     cost = 100000;
     role = Rifleman;
 };
+class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
+{
+    author = $STR_A3_A_BranFlakes;
+    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_Soldier_exp_F0;
+    backpack = B_Carryall_CBRExp_F;
+    linkedItems[] =
+    {
+        V_PlateCarrier2_snd,
+        H_HelmetSpecter_brown_F,
+        DefaultManLinkedItems,
+        NVgoggles
+    };
+    respawnLinkedItems[] =
+    {
+        V_PlateCarrier2_snd,
+        H_HelmetSpecter_brown_F,
+        DefaultManLinkedItems,
+        NVgoggles
+    };
+    weapons[] =
+    {
+        arifle_mk20_plain_holo_pointer_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_mk20_plain_holo_pointer_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_10(30Rnd_556x45_Stanag_red),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_10(30Rnd_556x45_Stanag_red),
+        mag_2(17Rnd_9x21_Mag),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    cost = 115000;
+    threat[] =
+    {
+        1.0,    // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
+};
 class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
 {
     author = $STR_A3_A_BranFlakes;
@@ -405,7 +463,7 @@ class Atlas_B_M_A_F: Atlas_B_M_Soldier_Base_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = $STR_B_Soldier_A_F0;
+	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	backpack = B_Carryall_CBR_ammo_F;
 	linkedItems[] =
 	{
@@ -450,398 +508,54 @@ class Atlas_B_M_A_F: Atlas_B_M_Soldier_Base_F
 	cost = 100000;
     role = Rifleman;
 };
-class Atlas_B_M_Helipilot_F: Atlas_B_M_Soldier_Base_F
-{
-	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_B_Helipilot_F0;
-	uniformClass = Atlas_U_B_M_CombatUniform_des;
-	linkedItems[] =
-	{
-		V_TacVest_brn,
-		H_PilotHelmetHeli_B,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	respawnLinkedItems[] =
-	{
-		V_TacVest_brn,
-		H_PilotHelmetHeli_B,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	weapons[] =
-    {
-        SMG_04_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        SMG_04_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-		mag_4(40Rnd_460x30_Mag_F),
-        SMOKESHELLS_BLUFOR
-    };
-    respawnMagazines[] =
-    {
-		mag_4(40Rnd_460x30_Mag_F),
-        SMOKESHELLS_BLUFOR
-    };
-	camouflage = 2;
-	cost = 160000;
-	role = Crewman;
-};
-class Atlas_B_M_Helicrew_F: Atlas_B_M_Soldier_Base_F
-{
-	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_B_helicrew_F0;
-	uniformClass = Atlas_U_B_M_CombatUniform_des;
-	linkedItems[] =
-	{
-		V_TacVest_brn,
-		H_CrewHelmetHeli_B,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	respawnLinkedItems[] =
-	{
-		V_TacVest_brn,
-		H_CrewHelmetHeli_B,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	weapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-		mag_4(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
-        SmokeShell
-    };
-    respawnMagazines[] =
-    {
-		mag_4(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
-        SmokeShell
-    };
-	camouflage = 2;
-	cost = 160000;
-	role = Crewman;
-};
-class Atlas_B_M_SL_F: Atlas_B_M_Soldier_Base_F
-{
-	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_B_Soldier_SL_F0;
-	linkedItems[] =
-	{
-		V_PlateCarrier2_snd,
-		H_HelmetSpecter_brown_headset_F,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	respawnLinkedItems[] =
-	{
-		V_PlateCarrier2_snd,
-		H_HelmetSpecter_brown_headset_F,
-		DefaultManLinkedItems,
-		NVgoggles
-	};
-	weapons[] =
-    {
-        arifle_mk20_plain_arco_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_mk20_plain_arco_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-		mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-		mag_6(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        SmokeShell,
-        SMOKESHELLS_BLUFOR,
-        SMOKEGRENADES_BLUFOR
-    };
-    cost = 500000;
-    camouflage = 1.4;
-    icon = iconManLeader;
-    role = Rifleman;
-};
-class Atlas_B_M_Officer_F: Atlas_B_M_Soldier_Base_F
+class Atlas_B_M_AAR_F: Atlas_B_M_Soldier_Base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
+	backpack = B_Carryall_CBR_AAR_F;
 	linkedItems[] =
 	{
-		V_Rangemaster_Belt_cbr,
-		H_Beret_grn,
+		V_PlateCarrier2_snd,
+		H_HelmetSpecter_brown_F,
 		DefaultManLinkedItems,
+		NVgoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_Belt_cbr,
-		H_Beret_grn,
+		V_PlateCarrier2_snd,
+		H_HelmetSpecter_brown_F,
 		DefaultManLinkedItems,
+		NVgoggles
 	};
 	weapons[] =
     {
-        arifle_mk20_plain_F,
+        arifle_mk20_plain_holo_pointer_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_mk20_plain_F,
+        arifle_mk20_plain_holo_pointer_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-		mag_4(30Rnd_556x45_Stanag_red),
+		mag_12(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        SMOKESHELLS_BLUFOR
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_4(30Rnd_556x45_Stanag_red),
+		mag_12(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        SMOKESHELLS_BLUFOR
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
     };
 	cost = 100000;
     role = Rifleman;
-};
-class Atlas_B_M_RadioOperator_F: Atlas_B_M_Soldier_Base_F
-{
-    author = $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_A3_C_B_W_RadioOperator_F0;
-    backpack = B_RadioBag_01_marar_F;
-    linkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    respawnLinkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    weapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-        mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-        mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    cost = 100000;
-    role = Rifleman;
-};
-class Atlas_B_M_Engineer_F: Atlas_B_M_Soldier_Base_F
-{
-    author = $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_B_engineer_F0;
-    backpack = B_Carryall_CBREng_F;
-    linkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    respawnLinkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    weapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-        mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-        mag_8(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(B_IR_Grenade),
-        mag_2(SmokeShell)
-    };
-    engineer = true;
-    cost = 90000;
-    role = Crewman;
-    camouflage = 1.6;
-};
-class Atlas_B_M_Soldier_unarmed_F: Atlas_B_M_Soldier_Base_F
-{
-    author = $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-    displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
-    linkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    respawnLinkedItems[] =
-    {
-        V_PlateCarrier2_snd,
-        H_HelmetSpecter_brown_F,
-        DefaultManLinkedItems,
-        NVgoggles
-    };
-    role = Unarmed;
-    threat[] =
-    {
-        0.1,    // Soft
-        0.1,    // Armor
-        0.1     // Air
-    };
-};
-class Atlas_B_M_Soldier_CBRN_F: Atlas_B_M_Soldier_Base_F
-{
-	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
-	uniformClass = Atlas_U_B_M_CBRN_Suit_01_Marar_F;
-	backpack = B_CombinationUnitRespirator_01_F;
-	linkedItems[] =
-	{
-		V_PlateCarrier2_snd,
-		H_HelmetSpecter_brown_F,
-		G_AirPurifyingRespirator_01_F,
-		DefaultManCbrnLinkedItems,
-		NVgoggles
-	};
-	respawnLinkedItems[] =
-	{
-		V_PlateCarrier2_snd,
-		H_HelmetSpecter_brown_F,
-		G_AirPurifyingRespirator_01_F,
-		DefaultManCbrnLinkedItems,
-		NVgoggles
-	};
-	weapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    respawnWeapons[] =
-    {
-        arifle_mk20_plain_holo_pointer_F,
-        hgun_G17_black_F,
-        DefaultManWeapons
-    };
-    magazines[] =
-    {
-		mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    respawnMagazines[] =
-    {
-		mag_10(30Rnd_556x45_Stanag_red),
-        mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
-        mag_2(SmokeShell)
-    };
-    cost = 93000;
-	camouflage = 1.6;
-    icon = iconManEngineer;
-    picture = pictureRepair;
-    role = Sapper;
-	class EventHandlers: EventHandlers
-	{
-		class BIN_CBRN_INIT
-		{
-			init = "_this call bin_fnc_CBRNHoseInit;";
-		};
-	};
 };
