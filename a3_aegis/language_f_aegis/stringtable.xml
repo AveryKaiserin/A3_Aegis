@@ -5349,6 +5349,23 @@
 					<Japanese>服（タイガ）[ロシア]</Japanese>
 					<Turkish>Asker Kıyafeti (Tayga) [Rusya]</Turkish>
 				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_taiga_F0">
+					<Original>Fatigues (Taiga, Tee) [Russia]</Original>
+					<Chinese>戰鬥服（Taiga, Tee）（俄國）</Chinese>
+					<French>Treillis (taïga, Tee) [Russie]</French>
+					<Spanish>Traje militar (taiga, Tee) [Rusia]</Spanish>
+					<Italian>Fatigues (taiga, Tee) [Russia]</Italian>
+					<Polish>Mundur (tajga, Tee) [Rosja]</Polish>
+					<Russian>Форма (таежная, Tee) [Россия]</Russian>
+					<German>Militäranzug (Taiga, Tee) [Russland]</German>
+					<Czech>Uniforma (tajga, Tee) [Rusko]</Czech>
+					<English>Fatigues (Taiga, Tee) [Russia]</English>
+					<Portuguese>Fardas (taiga, Tee) [Rússia]</Portuguese>
+					<Korean>전투복(침엽수림)[러시아, Tee]</Korean>
+					<Chinesesimp>军装（针叶林）[俄国, Tee]</Chinesesimp>
+					<Japanese>服（タイガ）[ロシア, Tee]</Japanese>
+					<Turkish>Asker Kıyafeti (Tayga, Tee) [Rusya]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_R_GhillieSuit_taiga_F0">
 					<Original>Ghillie Suit (Taiga) [Russia]</Original>
 					<Chinese>偽裝服（Taiga）（俄國）</Chinese>
@@ -5467,6 +5484,23 @@
 					<Chinesesimp>军装（干旱）[俄国]</Chinesesimp>
 					<Japanese>服（乾燥地帯）[ロシア]</Japanese>
 					<Turkish>Asker Kıyafeti (Kurak) [Rusya]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_R_CombatUniform_tshirt_arid_F0">
+					<Original>Fatigues (Arid, Tee) [Russia]</Original>
+					<Chinese>戰鬥服（乾燥氣候, Tee）（俄國）</Chinese>
+					<French>Treillis (désert, Tee) [Russie]</French>
+					<Spanish>Traje militar (árido, Tee) [Rusia]</Spanish>
+					<Italian>Fatigues (arido, Tee) [Russia]</Italian>
+					<Polish>Mundur (region suchy, Tee) [Rosja]</Polish>
+					<Russian>Форма (пустынный, Tee) [Россия]</Russian>
+					<German>Militäranzug (Karg, Tee) [Russland]</German>
+					<Czech>Uniforma (suchý, Tee) [Rusko]</Czech>
+					<English>Fatigues (Arid, Tee) [Russia]</English>
+					<Portuguese>Fardas (árido, Tee) [Rússia]</Portuguese>
+					<Korean>전투복(황폐, Tee)[러시아]</Korean>
+					<Chinesesimp>军装（干旱, Tee）[俄国]</Chinesesimp>
+					<Japanese>服（乾燥地帯, Tee）[ロシア]</Japanese>
+					<Turkish>Asker Kıyafeti (Kurak, Tee) [Rusya]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_R_GhillieSuit_arid_F0">
 					<Original>Ghillie Suit (Arid) [Russia]</Original>
