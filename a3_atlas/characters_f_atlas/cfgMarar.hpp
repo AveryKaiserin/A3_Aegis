@@ -286,7 +286,7 @@ class Atlas_B_M_M_F: Atlas_B_M_Soldier_Base_F
     cost = 100000;
     role = Rifleman;
 };
-class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
+/*class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
 {
     author = $STR_A3_A_BranFlakes;
     //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
@@ -345,7 +345,7 @@ class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
         0.1     // Air
     };
 };
-/*class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
+class Atlas_B_M_medic_F: Atlas_B_M_Soldier_base_F
 {
     author = $STR_A3_A_BranFlakes;
     //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_VZ_Soldier_F.jpg";
@@ -369,13 +369,13 @@ class Atlas_B_M_exp_F: Atlas_B_M_Soldier_Base_F
     };
     weapons[] =
     {
-        arifle_mk20_plain_holo_pointer_F,
+        arifle_mk20_plain_arco_pointer_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_mk20_plain_holo_pointer_F,
+        arifle_mk20_plain_arco_pointer_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
