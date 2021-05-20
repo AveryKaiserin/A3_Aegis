@@ -1082,57 +1082,7 @@
 					<Japanese>ヘリ乗員ヘルメット[CDF]</Japanese>
 					<Turkish>Helikopter Mürettebat Kaskı [CDF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_commando_F0">
-					<Original>Advanced Modular Helmet [Commandos]</Original>
-					<Chinese>Advanced Modular Helmet [Commandos]</Chinese>
-					<French>Advanced Modular Helmet [Commandos]</French>
-					<Spanish>Advanced Modular Helmet [Commandos]</Spanish>
-					<Italian>Advanced Modular Helmet [Commandos]</Italian>
-					<Polish>Advanced Modular Helmet [Commandos]</Polish>
-					<Russian>Advanced Modular Helmet [Commandos]</Russian>
-					<German>Advanced Modular Helmet [Commandos]</German>
-					<Czech>Advanced Modular Helmet [Commandos]</Czech>
-					<English>Advanced Modular Helmet [Commandos]</English>
-					<Portuguese>Advanced Modular Helmet [Commandos]</Portuguese>
-					<Korean>Advanced Modular Helmet [Commandos]</Korean>
-					<Chinesesimp>Advanced Modular Helmet [Commandos]</Chinesesimp>
-					<Japanese>Advanced Modular Helmet [Commandos]</Japanese>
-					<Turkish>Advanced Modular Helmet [Commandos]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_commando_headset_F0">
-					<Original>Advanced Modular Helmet (Headset) [Commandos]</Original>
-					<Chinese>Advanced Modular Helmet (Headset) [Commandos]</Chinese>
-					<French>Advanced Modular Helmet (Headset) [Commandos]</French>
-					<Spanish>Advanced Modular Helmet (Headset) [Commandos]</Spanish>
-					<Italian>Advanced Modular Helmet (Headset) [Commandos]</Italian>
-					<Polish>Advanced Modular Helmet (Headset) [Commandos]</Polish>
-					<Russian>Advanced Modular Helmet (Headset) [Commandos]</Russian>
-					<German>Advanced Modular Helmet (Headset) [Commandos]</German>
-					<Czech>Advanced Modular Helmet (Headset) [Commandos]</Czech>
-					<English>Advanced Modular Helmet (Headset) [Commandos]</English>
-					<Portuguese>Advanced Modular Helmet (Headset) [Commandos]</Portuguese>
-					<Korean>Advanced Modular Helmet (Headset) [Commandos]</Korean>
-					<Chinesesimp>Advanced Modular Helmet (Headset) [Commandos]</Chinesesimp>
-					<Japanese>Advanced Modular Helmet (Headset) [Commandos]</Japanese>
-					<Turkish>Advanced Modular Helmet (Headset) [Commandos]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_commando_ear_F0">
-					<Original>Advanced Modular Helmet (Ear Protectors) [Commandos]</Original>
-					<Chinese>Advanced Modular Helmet (Ear Protectors) [Commandos]</Chinese>
-					<French>Advanced Modular Helmet (Ear Protectors) [Commandos]</French>
-					<Spanish>Advanced Modular Helmet (Ear Protectors) [Commandos]</Spanish>
-					<Italian>Advanced Modular Helmet (Ear Protectors) [Commandos]</Italian>
-					<Polish>Advanced Modular Helmet (Ear Protectors) [Commandos]</Polish>
-					<Russian>Advanced Modular Helmet (Ear Protectors) [Commandos]</Russian>
-					<German>Advanced Modular Helmet (Ear Protectors) [Commandos]</German>
-					<Czech>Advanced Modular Helmet (Ear Protectors) [Commandos]</Czech>
-					<English>Advanced Modular Helmet (Ear Protectors) [Commandos]</English>
-					<Portuguese>Advanced Modular Helmet (Ear Protectors) [Commandos]</Portuguese>
-					<Korean>Advanced Modular Helmet (Ear Protectors) [Commandos]</Korean>
-					<Chinesesimp>Advanced Modular Helmet (Ear Protectors) [Commandos]</Chinesesimp>
-					<Japanese>Advanced Modular Helmet (Ear Protectors) [Commandos]</Japanese>
-					<Turkish>Advanced Modular Helmet (Ear Protectors) [Commandos]</Turkish>
-				<Key ID="STR_A3_A_CfgWeapons_H_HelmetHBK_commando_F0">
+				<Key ID="STR_A3_A_CfgWeapons_H_CrewHelmetHeli_I_I0">
 					<Original>Heli Crew Helmet [IDF]</Original>
 					<Chinese>直升機隊員頭盔（IDF）</Chinese>
 					<French>Casque d'équipage d'hélico [IDF]</French>
@@ -1388,74 +1338,6 @@
 					<Chinesesimp>坦克手服（林地）[NATO]</Chinesesimp>
 					<Japanese>戦車乗員用カバーオール（森林）[NATO]</Japanese>
 					<Turkish>Tankçı Tulumu (Ağaçlık) [NATO]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_Tank_Marar_F0">
-					<Original>Tanker Coveralls (Marar)</Original>
-					<Chinese>戰車連身服 (Marar)</Chinese>
-					<French>Combinaison de tankiste (Marar)</French>
-					<Spanish>Mono de tripulante de tanque (Marar)</Spanish>
-					<Italian>Tuta da carrista (Marar)</Italian>
-					<Polish>Kombinezon czołgisty (Marar)</Polish>
-					<Russian>Комбинезон танкиста (Marar)</Russian>
-					<German>Panzerfahrer-Overalls (Marar)</German>
-					<Czech>Tankistická kombinéza (Marar)</Czech>
-					<English>Tanker Coveralls (Marar)</English>
-					<Portuguese>Macacões de petroleiros (Marar)</Portuguese>
-					<Korean>유조선 비행복 (Marar)</Korean>
-					<Chinesesimp>坦克手服 (Marar)</Chinesesimp>
-					<Japanese>戦車乗員用カバーオール (Marar)</Japanese>
-					<Turkish>Tankçı Tulumu (Marar)</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_marar0">
-					<Original>Combat Fatigues [Marar]</Original>
-					<Chinese>作戰戰鬥服 [Marar]</Chinese>
-					<French>Treillis [Marar]</French>
-					<Spanish>Traje de combate [Marar]</Spanish>
-					<Italian>Uniforme da combattimento [Marar]</Italian>
-					<Polish>Mundur bojowy [Marar]</Polish>
-					<Russian>Боевая форма [Marar]</Russian>
-					<German>Kampfanzug [Marar]</German>
-					<Czech>Bojová uniforma [Marar]</Czech>
-					<English>Combat Fatigues [Marar]</English>
-					<Portuguese>Uniforme de combate [Marar]</Portuguese>
-					<Korean>전투병 전투복 [Marar]</Korean>
-					<Chinesesimp>作战服 [Marar]</Chinesesimp>
-					<Japanese>戦闘服 [Marar]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti [Marar]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_marar_tshirt0">
-					<Original>Combat Fatigues (Tee) [Marar]</Original>
-					<Chinese>作戰戰鬥服 (Tee) [Marar]</Chinese>
-					<French>Treillis (Tee) [Marar]</French>
-					<Spanish>Traje de combate (Tee) [Marar]</Spanish>
-					<Italian>Uniforme da combattimento (Tee) [Marar]</Italian>
-					<Polish>Mundur bojowy (Tee) [Marar]</Polish>
-					<Russian>Боевая форма (Tee) [Marar]</Russian>
-					<German>Kampfanzug (Tee) [Marar]</German>
-					<Czech>Bojová uniforma (Tee) [Marar]</Czech>
-					<English>Combat Fatigues (Tee) [Marar]</English>
-					<Portuguese>Uniforme de combate (Tee) [Marar]</Portuguese>
-					<Korean>전투병 전투복 (Tee) [Marar]</Korean>
-					<Chinesesimp>作战服 (Tee) [Marar]</Chinesesimp>
-					<Japanese>戦闘服 (Tee) [Marar]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Tee) [Marar]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_B_CombatUniform_marar_vest0">
-					<Original>Combat Fatigues (Rolled-up) [Marar]</Original>
-					<Chinese>作戰戰鬥服 (Rolled-up) [Marar]</Chinese>
-					<French>Treillis de combat (Rolled-up) [Marar]</French>
-					<Spanish>Traje de combate (Rolled-up) [Marar]</Spanish>
-					<Italian>Uniforme da combattimento (Rolled-up) [Marar]</Italian>
-					<Polish>Mundur bojowy (Rolled-up) [Marar]</Polish>
-					<Russian>Полевая форма (Rolled-up) [Marar]</Russian>
-					<German>Kampfanzug (Rolled-up) [Marar]</German>
-					<Czech>Bojová uniforma (Rolled-up) [Marar]</Czech>
-					<English>Combat Fatigues (Rolled-up) [Marar]</English>
-					<Portuguese>Trajes de combate (Rolled-up) [Marar]</Portuguese>
-					<Korean>전투병 전투복 (Rolled-up) [Marar]</Korean>
-					<Chinesesimp>战斗迷彩服 (Rolled-up) [Marar]</Chinesesimp>
-					<Japanese>戦闘服 (Rolled-up) [Marar]</Japanese>
-					<Turkish>Savaş Asker Kıyafeti (Rolled-up) [Marar]</Turkish>
 				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_U_O_CombatUniform_semiarid0">
 					<Original>Fatigues (Semi-Arid) [CSAT]</Original>
@@ -1729,23 +1611,6 @@
 					<Chinesesimp>生化核辐套装（橄榄色）[IDF]</Chinesesimp>
 					<Japanese>CBRN スーツ（Olive）[IDF]</Japanese>
 					<Turkish>KBRN Kıyafeti (Zeytin Yeşili) [IDF]</Turkish>
-				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_U_I_I_CBRN_Suit_01_Marar_F0">
-					<Original>CBRN Suit (Marar)</Original>
-					<Chinese>核生化套裝 (Marar)</Chinese>
-					<French>Combinaison NRBC (Marar)</French>
-					<Spanish>Traje NRBQ (Marar)</Spanish>
-					<Italian>Tuta NBC (Marar)</Italian>
-					<Polish>Strój ochronny ABC (Marar)</Polish>
-					<Russian>Химкостюм (Marar)</Russian>
-					<German>CBRN-Anzug (Marar)</German>
-					<Czech>CBRN oblek (Marar)</Czech>
-					<English>CBRN Suit (Marar)</English>
-					<Portuguese>Traje QBRN (Marar)</Portuguese>
-					<Korean>CBRN 수트 (Marar)</Korean>
-					<Chinesesimp>生化核辐套装 (Marar)</Chinesesimp>
-					<Japanese>CBRN スーツ (Marar)</Japanese>
-					<Turkish>KBRN Kıyafeti (Marar)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Vests">

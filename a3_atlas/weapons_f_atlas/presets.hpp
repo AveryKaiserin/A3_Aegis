@@ -175,30 +175,6 @@ class arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 		};
 	};
 };
-//SPAR16 Khaki MRCO slcr
-class arifle_SPAR_01_khk_F;
-class arifle_SPAR_01_khk_mrco_snds_F: arifle_SPAR_01_khk_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_MRCO;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_pointer_IR;
-		};
-		class LinkedItemsMuzzle
-		{
-			slot = MuzzleSlot;
-			item = muzzle_snds_M;
-		};
-	};
-};
 // Mk14 7.62 mm (Classic) + Kahlia (Old) + Bipod (Black) [AAF]
 class srifle_DMR_06_hunter_khs_bipod_F: srifle_DMR_06_hunter_F
 {
