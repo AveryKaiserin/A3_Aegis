@@ -2744,7 +2744,7 @@ class Atlas_B_G_Fighter_Pilot_F: B_Fighter_Pilot_F
 	};
 };
 
-/* Bundeswehr (Arid) */
+/* Bundeswehr (Arid) 
 class Atlas_B_G_Soldier_A_ard_F: Atlas_B_G_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3618,7 +3618,9 @@ class Atlas_B_G_Soldier_Lite_ard_F: Atlas_B_G_Soldier_Lite_F
 		DefaultManLinkedItems
 	};
 };
-/*
+/////////////////////////////////////////////////////////////////////////////////////
+///////////////////////      THIS WAS COMMENTED OUT    //////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 class Atlas_B_G_Soldier_CQ_ard_F: Atlas_B_G_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3651,7 +3653,9 @@ class Atlas_B_G_Soldier_CQ_ard_F: Atlas_B_G_Soldier_CQ_F
 		NVGoggles
 	};
 };
-*/
+/////////////////////////////////////////////////////////////////////////////////////
+///////////////////////      THIS WAS COMMENTED OUT    //////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 class Atlas_B_G_Soldier_SL_ard_F: Atlas_B_G_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -4579,3 +4583,4 @@ class Atlas_B_G_Fighter_Pilot_ard_F: Atlas_B_G_Fighter_Pilot_F
         DefaultManWeapons
 	};
 };
+*/
