@@ -3544,6 +3544,24 @@
 					<Chinesesimp>无线电包 [Marar]</Chinesesimp>
 					<Japanese>無線機パック [Marar]</Japanese>
 					<Turkish>Telsiz Paketi [Marar]</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_B_RadioBag_01_Commando_F0">
+					<Original>Radio Pack [Commando]</Original>
+					<Chinese>無線電背包 [Commandos]</Chinese>
+					<French>Sac à dos radio [Commandos]</French>
+					<Spanish>Mochila para radio [Commandos]</Spanish>
+					<Italian>Zaino per radio [Commandos]</Italian>
+					<Polish>Plecak z radiostacją [Commandos]</Polish>
+					<Russian>Ранец радиста [Commandos]</Russian>
+					<German>Funkrucksack [Commandos]</German>
+					<Czech>Batoh s vysílačkou [Commandos]</Czech>
+					<English>Radio Pack [Commandos]</English>
+					<Portuguese>Pacote de rádio [Commandos]</Portuguese>
+					<Korean>무전 팩 (정글) [Commandos]</Korean>
+					<Chinesesimp>无线电包 [Commandos]</Chinesesimp>
+					<Japanese>無線機パック [Commandos]</Japanese>
+					<Turkish>Telsiz Paketi [Commandos]</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgVehicles_B_Carryall_owcamo0">
 					<Original>Carryall Backpack (Woodland Hex)</Original>
 					<Chinese>全容量大背包（森林六邊形）</Chinese>

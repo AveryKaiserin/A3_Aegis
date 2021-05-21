@@ -98,6 +98,22 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+	class B_RadioBag_01_commando_F: B_RadioBag_01_base_F
+	{
+		author = "BranFlakes";
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_Commando_F0;
+		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_flecktarn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_commando_CO.paa"};
+
+		/* TFAR */
+		tf_dialog = bussole_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
 	class B_AssaultPack_flecktarn: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -186,6 +202,7 @@ class CfgVehicles
 		//picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_flecktarn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_marar_CO.paa"};
 	};
+
 
 	/* Factions */
     #include "cfgOPFOR.hpp"     // Belarus

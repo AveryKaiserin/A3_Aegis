@@ -175,30 +175,6 @@ class arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F: arifle_SPAR_02_blk_F
 		};
 	};
 };
-//SPAR16 Khaki MRCO slcr
-class arifle_SPAR_01_khk_F;
-class arifle_SPAR_01_khk_mrco_snds_F: arifle_SPAR_01_khk_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_MRCO;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_pointer_IR;
-		};
-		class LinkedItemsMuzzle
-		{
-			slot = MuzzleSlot;
-			item = muzzle_snds_M;
-		};
-	};
-};
 // Mk14 7.62 mm (Classic) + Kahlia (Old) + Bipod (Black) [AAF]
 class srifle_DMR_06_hunter_khs_bipod_F: srifle_DMR_06_hunter_F
 {
@@ -1115,6 +1091,29 @@ class arifle_scar_SV_F: arifle_scar_F
 		};
 	};
 };
+class arifle_scar_black_F;
+class arifle_scar_black_SV_F: arifle_scar_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_AMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+	};
+};
 /*
 // Mk18 ABR 7.62 mm (Coyote) + AMS (Sand) + IR Laser Pointer + Bipod [NATO] (Sand)
 class srifle_EBR_cbr_AMS_LP_BI_F: srifle_EBR_cbr_F
@@ -1140,3 +1139,78 @@ class srifle_EBR_cbr_AMS_LP_BI_F: srifle_EBR_cbr_F
 	};
 };
 */
+class arifle_G36C_F;
+class arifle_G36C_MRCO_F: arifle_G36C_F
+{
+	author = "BranFlakes";
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+class arifle_G36_GL_F;
+class arifle_G36_GL_MRCO_F: arifle_G36_GL_F
+{
+	author = "BranFlakes";
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+/*Mk200 Khaki Scope*/
+class LMG_Mk200_khk_F;
+class LMG_Mk200_khk_mrco_F: LMG_Mk200_khk_F
+{
+	author = "BranFlakes";
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+	};
+};
