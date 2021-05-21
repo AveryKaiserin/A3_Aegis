@@ -835,5 +835,74 @@ class CfgWorlds
 				chelouche = "Chelouche";
 			};
 		};
+		class VenezuelanMen // Venezuelan male names
+		{
+			class FirstNames
+			{
+				juan = "Juan";
+				hector = "Hector";
+				gabriel = "Gabriel";
+				manuel = "Manuel";
+				orlando = "Orlando";
+				salvador = "Salvador";
+				roberto = "Roberto";
+				hugo = "Hugo";
+				santiago = "Santiago";
+				felipe = "Felipe";
+				martín = "Martín";
+				diego = "Diego";
+				emmanuel = "Emmanuel";
+				julián = "Julián";
+				fernando = "Fernando";
+				jorge = "Jorge";
+				ricardo = "Ricardo";
+				raúl = "Raúl";
+				mario = "Mario";
+				artuo = "Artuo";
+				gerardo = "Gerardo";
+				armando = "Armando";
+				oscar = "Oscar";
+				victor = "Victor";
+				elijah = "Elijah";
+				xavier = "Xavier";
+				isaac = "Isaac";
+				guillermo = "Guillermo";
+				ramon = "Ramon";
+				pablo = "Pablo";
+				francisco = "Francisco";
+				alfredo = "Alfredo";
+				antonio = "Antonio";
+				jose = "Jose";
+				sebastian = "Sebastian";
+				carlos = "Carlos";
+				eduardo = "Eduardo";
+			};
+			class LastNames
+			{
+				gonzalez = "Gonzalez";
+				perez = "Perez";
+				garcia = "Garcia";
+				sanchez = "Sanchez";
+				diaz = "Diaz";
+				ramirez = "Ramirez";
+				fernandez = "Fernandez";
+				mendoza = "Mendoza";
+				moreno = "Moreno";
+				jimenez = "Jimenez";
+				alvarez = "Alvarez";
+				marquez = "Marquez";
+				flores = "Flores";
+				peña = "Peña";
+				morales = "Morales";
+				vargas = "Vargas";
+				parra = "Parra";
+				ramos = "Ramos";
+				velasquez = "Velasquez";
+				hernandez = "Hernandez";
+				mendez = "Mendez";
+				quintero = "Quintero";
+				guzman = "Guzman";
+			};
+		};
 	};
 };
