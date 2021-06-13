@@ -99,7 +99,6 @@ class CfgWeapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			showToPlayer = false;
 			reloadTime = 0.088;
 			dispersion = 0.00116;
 			minRange = 2;
